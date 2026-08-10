@@ -1,0 +1,134 @@
+# SCP-999「くすぐりオバケ」4コマ台本
+# 絵柄はconfig/style.yaml、キャラの見た目はconfig/characters.yamlで定義される。
+# ここには「何が起きるか(scene)」と「セリフ(text)」だけを書く。
+
+id: scp-999
+
+title:
+  en: "SCP-999: The Tickle Monster"
+  ja: "SCP-999：くすぐりオバケ"
+  cs: "SCP-999: Lechtací monstrum"
+  de: "SCP-999: Das Kitzelmonster"
+  es: "SCP-999: El monstruo de las cosquillas"
+  fr: "SCP-999 : Le monstre chatouilleur"
+  it: "SCP-999: Il mostro del solletico"
+  ko: "SCP-999: 간지럼 괴물"
+  pl: "SCP-999: Potwór łaskotek"
+  pt: "SCP-999: O monstro das cócegas"
+  th: "SCP-999: สัตว์ประหลาดจั๊กจี้"
+  uk: "SCP-999: Монстр-лоскотун"
+  vi: "SCP-999: Quái vật thọc lét"
+  zh: "SCP-999：挠痒怪"
+  zh_Hant: "SCP-999：搔癢怪"
+
+attribution:
+  article: "SCP-999"
+  author: "ProfSnider"
+  source_url: "http://scp-wiki.wikidot.com/scp-999"
+  license: "CC BY-SA 3.0"
+
+# 登場する中央定義キャラ（config/characters.yaml のキー）
+characters: [researcher-hana]
+
+panels:
+  - scene: >
+      Night inside a dim SCP Foundation office. Dr. Hana slumps at a desk
+      piled high with paperwork, lit only by a computer monitor, sighing
+      with dark circles under her eyes.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "また残業…"
+          en: "Overtime again..."
+          cs: "Zase přesčas…"
+          de: "Schon wieder Überstunden…"
+          es: "Otra vez horas extra…"
+          fr: "Encore des heures sup…"
+          it: "Ancora straordinari…"
+          ko: "또 야근이야…"
+          pl: "Znowu nadgodziny…"
+          pt: "Hora extra de novo…"
+          th: "ทำโอทีอีกแล้ว…"
+          uk: "Знову понаднормові…"
+          vi: "Lại tăng ca…"
+          zh: "又要加班…"
+          zh_Hant: "又要加班…"
+
+  - scene: >
+      Same dim office. A cheerful blob of translucent orange slime with two
+      simple dot eyes (SCP-999) peeks around the door frame, wobbling like
+      jelly, leaving a faint shiny trail on the floor. Dr. Hana in the
+      background has not noticed it yet.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-left
+        tail: down-right
+        text:
+          ja: "ん？"
+          en: "Hm?"
+          cs: "Hm?"
+          de: "Hm?"
+          es: "¿Eh?"
+          fr: "Hein ?"
+          it: "Eh?"
+          ko: "응?"
+          pl: "Hm?"
+          pt: "Hã?"
+          th: "หืม?"
+          uk: "Га?"
+          vi: "Hả?"
+          zh: "嗯？"
+          zh_Hant: "嗯？"
+
+  - scene: >
+      The orange slime blob pounces onto Dr. Hana and tickles her. She
+      bursts out laughing with tears in her eyes, glasses askew, papers
+      flying everywhere. Dynamic comedic action.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "あははは！やめてー！"
+          en: "Ahaha! Stop it!"
+          cs: "Hahaha! Přestaň!"
+          de: "Hahaha! Hör auf!"
+          es: "¡Jajaja! ¡Para!"
+          fr: "Ahaha ! Arrête !"
+          it: "Ahaha! Smettila!"
+          ko: "아하하! 그만해!"
+          pl: "Hahaha! Przestań!"
+          pt: "Hahaha! Para com isso!"
+          th: "ฮ่าๆๆ! หยุดนะ!"
+          uk: "Ахаха! Припини!"
+          vi: "Haha! Dừng lại đi!"
+          zh: "哈哈哈！别闹了！"
+          zh_Hant: "哈哈哈！別鬧了！"
+
+  - scene: >
+      Dr. Hana sits on the floor completely relaxed and smiling peacefully,
+      wiping a happy tear, while the orange slime purrs contentedly in her
+      lap like a giant water balloon. The scattered papers lie forgotten
+      around them. Warm, heartwarming mood.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-right
+        tail: down-left
+        text:
+          ja: "実験は…成功です…"
+          en: "Test... successful..."
+          cs: "Test… úspěšný…"
+          de: "Test… erfolgreich…"
+          es: "Prueba… superada…"
+          fr: "Test… réussi…"
+          it: "Test… riuscito…"
+          ko: "실험은… 성공…"
+          pl: "Test… zaliczony…"
+          pt: "Teste… bem-sucedido…"
+          th: "การทดสอบ…สำเร็จ…"
+          uk: "Тест… успішний…"
+          vi: "Thử nghiệm… thành công…"
+          zh: "实验……成功……"
+          zh_Hant: "實驗……成功……"

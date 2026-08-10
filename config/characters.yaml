@@ -1,0 +1,44 @@
+# ============================================================
+# 登場キャラクターの中央定義
+#
+# 複数のSCP漫画に登場するキャラクターはここで一元管理する。
+# 台本(panels[].characters)からキー名で参照すると、descriptionが
+# 生成プロンプトに自動で挿入され、reference_imagesがNano Banana Proに
+# 参照画像として渡される。
+#
+# 参照画像の運用:
+#   初回生成後、気に入ったコマから該当キャラの立ち姿を切り出して
+#   characters/refs/<キー名>.png として保存し、reference_imagesに登録すると
+#   以後の漫画で見た目が固定される。
+#
+# 注意: 服装に文字・番号を入れない（画像に文字を描かせないため）。
+# ============================================================
+
+characters:
+
+  researcher-hana:
+    name: Dr. Hana
+    description: >
+      Dr. Hana, a young female SCP Foundation researcher in her late 20s.
+      Chin-length straight black bob hair, thin round glasses, calm slightly
+      tired eyes. Wears a plain white lab coat over a dark navy turtleneck,
+      with a blank white ID card clipped to the chest pocket. Slim, average
+      height.
+    reference_images: []
+      # - characters/refs/researcher-hana.png
+
+  site-director:
+    name: The Site Director
+    description: >
+      The Site Director, a stern man in his 60s. Swept-back gray hair, trimmed
+      gray beard, deep wrinkles, sharp narrow eyes. Wears a dark charcoal
+      three-piece suit with a black necktie. Tall and broad-shouldered.
+    reference_images: []
+
+  d-class:
+    name: D-boy
+    description: >
+      A D-class personnel, a young man in his 20s with a buzz cut and a
+      nervous expression. Wears a plain bright orange jumpsuit with no
+      markings, and gray sneakers. Lanky build.
+    reference_images: []

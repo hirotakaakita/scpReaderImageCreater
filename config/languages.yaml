@@ -1,0 +1,50 @@
+# ============================================================
+# 対応言語とフォントの定義
+#
+# languages: SCP ReaderアプリのUI対応言語（lib/l10n/app_*.arb と対応）。
+# 台本のtext/titleにこのコードでセリフを書くと、言語別画像 output/<id>/<lang>.png が生成される。
+# ============================================================
+
+languages:
+  - ja
+  - en
+  - cs
+  - de
+  - es
+  - fr
+  - it
+  - ko
+  - pl
+  - pt
+  - th
+  - uk
+  - vi
+  - zh
+  - zh_Hant
+
+# 単語区切りのスペースが無い言語（1文字単位で折り返す）
+char_wrap: [ja, zh, zh_Hant, th]
+
+fonts:
+  default: fonts/NotoSans-Bold.ttf   # ラテン文字・キリル文字・ベトナム語をカバー
+  by_language:
+    ja: fonts/NotoSansCJKjp-Bold.otf
+    ko: fonts/NotoSansCJKkr-Bold.otf
+    zh: fonts/NotoSansCJKsc-Bold.otf
+    zh_Hant: fonts/NotoSansCJKtc-Bold.otf
+    th: fonts/NotoSansThai-Bold.ttf
+
+# scripts/download_fonts.py がダウンロードする（fonts/はgit管理外・Actionsでキャッシュ）
+downloads:
+  - url: https://raw.githubusercontent.com/notofonts/notofonts.github.io/main/fonts/NotoSans/hinted/ttf/NotoSans-Bold.ttf
+    dest: fonts/NotoSans-Bold.ttf
+  - url: https://raw.githubusercontent.com/notofonts/notofonts.github.io/main/fonts/NotoSansThai/hinted/ttf/NotoSansThai-Bold.ttf
+    dest: fonts/NotoSansThai-Bold.ttf
+  - url: https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansCJKjp-Bold.otf
+    dest: fonts/NotoSansCJKjp-Bold.otf
+  - url: https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/Korean/NotoSansCJKkr-Bold.otf
+    dest: fonts/NotoSansCJKkr-Bold.otf
+  - url: https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Bold.otf
+    dest: fonts/NotoSansCJKsc-Bold.otf
+  - url: https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/TraditionalChinese/NotoSansCJKtc-Bold.otf
+    dest: fonts/NotoSansCJKtc-Bold.otf

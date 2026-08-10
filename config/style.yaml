@@ -1,0 +1,39 @@
+# ============================================================
+# 絵柄の中央定義（ここを変えると全SCP漫画の画風が変わる）
+#
+# 各コマの生成プロンプトは以下の順で組み立てられる:
+#   style_prompt + キャラクター定義 + 台本のscene + composition_rules + no_text_rules
+# 台本(comics/queue/*.yaml)側には絵柄を書かないこと。
+# ============================================================
+
+style_prompt: >
+  Japanese yonkoma manga panel illustration. Clean bold black ink outlines,
+  flat cel-shaded colors with soft muted palette, simple uncluttered
+  backgrounds, expressive cartoon characters with slightly chibi proportions,
+  gentle lighting. The mood is lightly comedic with a hint of eerie SCP
+  Foundation atmosphere (concrete corridors, fluorescent lights, containment
+  facility props).
+
+# 構図の共通ルール（全コマに付与）
+composition_rules: >
+  Single manga panel, full-bleed illustration filling the entire square image.
+  Characters drawn at a readable size, main subject clearly visible.
+  Consistent character designs must be kept exactly as described.
+
+# 文字を入れないためのルール（テキストは後からPythonで埋め込む）
+no_text_rules: >
+  IMPORTANT: Do not draw any text, letters, numbers, logos, speech bubbles,
+  captions, sound effect lettering, or written signs anywhere in the image.
+  The image must be completely free of text. Leave clean empty space where
+  indicated so a speech bubble can be added later.
+
+# 生成APIの設定
+generation:
+  model: gemini-3-pro-image-preview   # Nano Banana Pro
+  aspect_ratio: "1:1"                 # コマは正方形で統一（layout.yamlのpanelと合わせる）
+  image_size: "1K"
+  max_retries: 3
+  retry_wait_seconds: 20
+  # 同じ漫画の直前のコマを参照画像として渡し、コマ間のキャラ一貫性を上げる
+  use_previous_panels_as_reference: true
+  max_reference_images: 6
