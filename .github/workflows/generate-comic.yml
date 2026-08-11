@@ -1,3 +1,4 @@
+# 毎日1本、キューの台本からSCP漫画を生成してコミットする（詳細はREADME.md）
 name: Generate SCP Comic
 
 on:
