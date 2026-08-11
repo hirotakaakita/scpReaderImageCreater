@@ -82,12 +82,12 @@ def call_nano_banana(prompt, ref_images, gen_cfg):
 
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
     contents = [prompt] + list(ref_images)
+    image_config = {"aspect_ratio": gen_cfg.get("aspect_ratio", "1:1")}
+    if gen_cfg.get("image_size"):  # image_sizeはPro系のみ対応。null時は送らない
+        image_config["image_size"] = gen_cfg["image_size"]
     gen_config = {
         "response_modalities": ["TEXT", "IMAGE"],
-        "image_config": {
-            "aspect_ratio": gen_cfg.get("aspect_ratio", "1:1"),
-            "image_size": gen_cfg.get("image_size", "1K"),
-        },
+        "image_config": image_config,
     }
     last_err = None
     for attempt in range(1, gen_cfg.get("max_retries", 3) + 1):
