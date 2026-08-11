@@ -1,4 +1,6 @@
 """設定・台本の読み込みと共通パス。"""
+import datetime
+import json
 import os
 
 import yaml
@@ -7,6 +9,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUTPUT_DIR = os.path.join(ROOT, "output")
 QUEUE_DIR = os.path.join(ROOT, "comics", "queue")
 DONE_DIR = os.path.join(ROOT, "comics", "done")
+USED_PATH = os.path.join(ROOT, "state", "used.json")
 
 
 def rootpath(*parts):
@@ -45,3 +48,24 @@ def font_path_for(lang, lang_cfg):
 
 def is_char_wrap(lang, lang_cfg):
     return lang in (lang_cfg.get("char_wrap") or [])
+
+
+def load_used():
+    """漫画を生成済みのSCPの記録（state/used.json）。消すと重複生成の恐れがある。"""
+    if not os.path.exists(USED_PATH):
+        return {}
+    with open(USED_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def mark_used(comic_id):
+    used = load_used()
+    if comic_id not in used:
+        used[comic_id] = {
+            "generatedAt": datetime.datetime.now(datetime.timezone.utc)
+            .strftime("%Y-%m-%dT%H:%M:%SZ"),
+        }
+    os.makedirs(os.path.dirname(USED_PATH), exist_ok=True)
+    with open(USED_PATH, "w", encoding="utf-8") as f:
+        json.dump(dict(sorted(used.items())), f, ensure_ascii=True, indent=2)
+    return used

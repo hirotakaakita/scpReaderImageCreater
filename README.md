@@ -23,7 +23,11 @@ output/scp-XXX/base.png     ← テキスト無し版
 output/scp-XXX/<lang>.png   ← 言語別（ja, en, cs, de, es, fr, it, ko, pl, pt, th, uk, vi, zh, zh_Hant）
 output/scp-XXX/meta.json    ← コマ座標・attribution等
 index.json                  ← 漫画一覧（アプリ/bot用）
+state/used.json             ← 生成済みSCPの記録（重複生成防止。消さないこと）
 ```
+
+生成済みのSCPと同じIDの台本がキューにあってもスキップされる
+（再生成したい場合は台本に `regenerate: true` を書くか、手動実行で台本IDを指定する）。
 
 ## 設定（すべて後から調整可能）
 

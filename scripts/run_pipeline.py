@@ -39,6 +39,18 @@ def queued_scripts():
     )
 
 
+def move_to_done(script_path):
+    os.makedirs(cfglib.DONE_DIR, exist_ok=True)
+    dest = os.path.join(cfglib.DONE_DIR, os.path.basename(script_path))
+    n = 1
+    while os.path.exists(dest):  # 同名がある場合は上書きせず連番を付ける
+        stem, ext = os.path.splitext(os.path.basename(script_path))
+        dest = os.path.join(cfglib.DONE_DIR, f"{stem}-dup{n}{ext}")
+        n += 1
+    shutil.move(script_path, dest)
+    print(f"[queue] moved to done/: {os.path.basename(dest)}")
+
+
 def process(script_path, cfgs, mock=False, languages=None, skip_generate=False):
     script = cfglib.load_script(script_path)
     print(f"=== {script['id']} ({script_path}) ===")
@@ -46,12 +58,12 @@ def process(script_path, cfgs, mock=False, languages=None, skip_generate=False):
         generate_panels.generate(script, cfgs, mock=mock)
     compose.compose(script, cfgs)
     embed_text.embed(script, cfgs, languages=languages)
-    # 成功したらキューからdoneへ（mock実行では動かさない）
-    if not mock and not skip_generate and \
-            os.path.dirname(os.path.abspath(script_path)) == os.path.abspath(cfglib.QUEUE_DIR):
-        os.makedirs(cfglib.DONE_DIR, exist_ok=True)
-        shutil.move(script_path, os.path.join(cfglib.DONE_DIR, os.path.basename(script_path)))
-        print(f"[queue] moved to done/: {os.path.basename(script_path)}")
+    # 成功したらキューからdoneへ移し、生成済みとして記録（mock実行では何もしない）
+    if not mock and not skip_generate:
+        if os.path.dirname(os.path.abspath(script_path)) == os.path.abspath(cfglib.QUEUE_DIR):
+            move_to_done(script_path)
+        cfglib.mark_used(script["id"])
+        print(f"[state] recorded in used.json: {script['id']}")
 
 
 def main():
@@ -69,21 +81,36 @@ def main():
     cfgs = cfglib.load_configs()
     langs = args.languages.split(",") if args.languages else None
 
-    if args.comic_id:
-        targets = [find_script(args.comic_id)]
-    else:
-        targets = queued_scripts()[: args.count]
-        if not targets:
-            print("Queue is empty. Nothing to do.")
-            return
-
     if not args.mock and not args.skip_generate and not os.environ.get("GEMINI_API_KEY"):
         print("ERROR: GEMINI_API_KEY is not set (use --mock for a dry run)")
         sys.exit(1)
 
-    for path in targets:
-        process(path, cfgs, mock=args.mock, languages=langs,
+    if args.comic_id:
+        # --id は明示指定なので生成済みでも(再)処理する
+        process(find_script(args.comic_id), cfgs, mock=args.mock, languages=langs,
                 skip_generate=args.skip_generate)
+    else:
+        queue = queued_scripts()
+        if not queue:
+            print("Queue is empty. Nothing to do.")
+            return
+        used = cfglib.load_used()
+        processed = 0
+        for path in queue:
+            if processed >= args.count:
+                break
+            script = cfglib.load_script(path)
+            # 生成済みのSCPはスキップ（意図的な再生成は台本に regenerate: true か --id 指定）
+            if script["id"] in used and not script.get("regenerate"):
+                print(f"[skip] {script['id']} is already generated (state/used.json)")
+                if not args.mock:
+                    move_to_done(path)
+                continue
+            process(path, cfgs, mock=args.mock, languages=langs,
+                    skip_generate=args.skip_generate)
+            processed += 1
+        if processed == 0:
+            print("No unprocessed scripts in queue. Nothing generated.")
     build_index.build()
 
 
