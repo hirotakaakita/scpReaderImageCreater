@@ -1,0 +1,130 @@
+# SCP-978「願望のカメラ」4コマ台本
+id: scp-978
+
+title:
+  en: "SCP-978: The Desire Camera"
+  ja: "SCP-978：願望のカメラ"
+  cs: "SCP-978: Fotoaparát touhy"
+  de: "SCP-978: Die Wunschkamera"
+  es: "SCP-978: La Cámara del Deseo"
+  fr: "SCP-978 : L'Appareil à Désirs"
+  it: "SCP-978: La Fotocamera del Desiderio"
+  ko: "SCP-978: 욕망의 카메라"
+  pl: "SCP-978: Aparat Pragnień"
+  pt: "SCP-978: A Câmera do Desejo"
+  th: "SCP-978: กล้องแห่งความปรารถนา"
+  uk: "SCP-978: Камера Бажань"
+  vi: "SCP-978: Máy Ảnh Khát Vọng"
+  zh: "SCP-978：欲望相机"
+  zh_Hant: "SCP-978：慾望相機"
+
+attribution:
+  article: "SCP-978"
+  source_url: "http://scp-wiki.wikidot.com/scp-978"
+  license: "CC BY-SA 3.0"
+
+characters: [researcher-hana]
+
+panels:
+  - scene: >
+      A cramped office buried in stacks of paperwork. Dr. Hana sits
+      hunched at her desk looking exhausted, while a cheerful coworker
+      leans in from the side holding up an old red-and-black Polaroid
+      camera, aiming it playfully at her.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-right
+        tail: down-left
+        text:
+          ja: "はい、チーズ！"
+          en: "Say cheese!"
+          cs: "Úsměv!"
+          de: "Cheese!"
+          es: "¡Di patata!"
+          fr: "Souris !"
+          it: "Cheese!"
+          ko: "치즈!"
+          pl: "Uśmiech!"
+          pt: "Diga xis!"
+          th: "ยิ้มหน่อย!"
+          uk: "Посмішка!"
+          vi: "Cười lên nào!"
+          zh: "笑一个！"
+          zh_Hant: "笑一個！"
+
+  - scene: >
+      A bright camera flash fills the cramped office, Dr. Hana squinting
+      and flinching with one hand half-raised against the light, papers on
+      her desk lit starkly white for an instant.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "眩しっ！"
+          en: "Whoa, bright!"
+          cs: "Jé, to svítí!"
+          de: "Whoa, hell!"
+          es: "¡Uy, qué luz!"
+          fr: "Oh, ça brille !"
+          it: "Ohi, che luce!"
+          ko: "우와, 눈부셔!"
+          pl: "Ojej, ale jasno!"
+          pt: "Ui, que claro!"
+          th: "โอ้โห แสบตา!"
+          uk: "Ой, як яскраво!"
+          vi: "Ối, chói quá!"
+          zh: "哇，好刺眼！"
+          zh_Hant: "哇，好刺眼！"
+
+  - scene: >
+      Dr. Hana and the coworker both stare down at a freshly developed
+      Polaroid photo held between them. The photo clearly shows Dr. Hana
+      lounging in a beach chair under a palm tree, sipping a drink with a
+      tiny umbrella, completely at ease.
+    characters: [researcher-hana]
+    bubbles:
+      - position: bottom
+        tail: up
+        text:
+          ja: "…ビーチ？本気？"
+          en: "...a beach? Really?"
+          cs: "…pláž? Fakt?"
+          de: "…ein Strand? Wirklich?"
+          es: "…¿una playa? ¿En serio?"
+          fr: "…une plage ? Sérieux ?"
+          it: "…una spiaggia? Sul serio?"
+          ko: "…해변? 진짜로?"
+          pl: "…plaża? Serio?"
+          pt: "…uma praia? Sério?"
+          th: "…ชายหาดเนี่ยนะ? จริงดิ?"
+          uk: "…пляж? Серйозно?"
+          vi: "…bãi biển á? Thật sao?"
+          zh: "…海滩？真的假的？"
+          zh_Hant: "…海灘？真的假的？"
+
+  - scene: >
+      Dr. Hana pins the beach photo to the edge of her monitor and slumps
+      back over her keyboard, staring wistfully at it while towering
+      stacks of paperwork surround her on the desk, a small resigned sigh
+      visible in her posture.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-left
+        tail: down-right
+        text:
+          ja: "…書類に戻ります。"
+          en: "Back to paperwork, I guess."
+          cs: "…tak zpátky k papírování."
+          de: "…zurück zum Papierkram, wohl."
+          es: "…de vuelta al papeleo, supongo."
+          fr: "…retour à la paperasse, je suppose."
+          it: "…torno alla scartoffie, direi."
+          ko: "…뭐, 다시 서류나 봐야지."
+          pl: "…wracam do papierkowej roboty."
+          pt: "…de volta ao trabalho, então."
+          th: "…กลับไปทำเอกสารต่อดีกว่า"
+          uk: "…що ж, назад до паперів."
+          vi: "…thôi, quay lại đống giấy tờ vậy."
+          zh: "…还是回去处理文件吧。"
+          zh_Hant: "…還是回去處理文件吧。"

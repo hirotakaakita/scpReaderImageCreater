@@ -1,0 +1,132 @@
+# SCP-105「アイリス」4コマ台本
+id: scp-105
+
+title:
+  en: "SCP-105: Iris"
+  ja: "SCP-105：アイリス"
+  cs: "SCP-105: Iris"
+  de: "SCP-105: Iris"
+  es: "SCP-105: Iris"
+  fr: "SCP-105 : Iris"
+  it: "SCP-105: Iris"
+  ko: "SCP-105: 아이리스"
+  pl: "SCP-105: Iris"
+  pt: "SCP-105: Iris"
+  th: "SCP-105: ไอริส"
+  uk: "SCP-105: Айріс"
+  vi: "SCP-105: Iris"
+  zh: "SCP-105：爱瑞丝"
+  zh_Hant: "SCP-105：愛瑞絲"
+
+attribution:
+  article: "SCP-105"
+  author: "thedeadlymoose, Dantensen, DrClef"
+  source_url: "http://scp-wiki.wikidot.com/scp-105"
+  license: "CC BY-SA 3.0"
+
+characters: [researcher-hana]
+
+panels:
+  - scene: >
+      Dr. Hana's cluttered office. A colleague holds up an old-style
+      Polaroid photograph showing a storage room shelf, pinning it to a
+      corkboard as Dr. Hana glances over from her desk, a stapler visible
+      near her keyboard.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-left
+        tail: down-right
+        text:
+          ja: "これ、今日の倉庫の写真です。"
+          en: "This is today's storage room."
+          cs: "Tohle je dnešní sklad."
+          de: "Das ist das heutige Lager."
+          es: "Esta es la bodega de hoy."
+          fr: "Voici la réserve d'aujourd'hui."
+          it: "Questo è il magazzino di oggi."
+          ko: "오늘 창고 사진이에요."
+          pl: "To dzisiejszy magazyn."
+          pt: "Este é o depósito de hoje."
+          th: "นี่คือคลังของวันนี้"
+          uk: "Це сьогоднішній склад."
+          vi: "Đây là kho hàng hôm nay."
+          zh: "这是今天的仓库。"
+          zh_Hant: "這是今天的倉庫。"
+
+  - scene: >
+      A pale disembodied female hand suddenly emerges straight out of the
+      flat surface of the pinned photograph, fingers wiggling in the air
+      of the office. Dr. Hana jerks back in her chair, eyes huge, pointing
+      at it in shock.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "て、手ぇぇぇ！？"
+          en: "Wait, is that a HAND?!"
+          cs: "Počkat, to je RUKA?!"
+          de: "Moment, ist das eine HAND?!"
+          es: "¡¿Eso es una MANO?!"
+          fr: "Attends, c'est une MAIN ?!"
+          it: "Aspetta, quella è una MANO?!"
+          ko: "잠깐, 저거 손이야?!"
+          pl: "Czekaj, to jest DŁOŃ?!"
+          pt: "Espera, isso é uma MÃO?!"
+          th: "เดี๋ยว นั่นมันมือ!?"
+          uk: "Стривай, це РУКА?!"
+          vi: "Khoan, đó là BÀN TAY?!"
+          zh: "等等，那是一只手！？"
+          zh_Hant: "等等，那是一隻手！？"
+
+  - scene: >
+      The disembodied hand casually plucks the stapler off Dr. Hana's desk
+      and pulls it smoothly back into the flat surface of the photograph,
+      the stapler vanishing as if sinking into water. Dr. Hana reaches out
+      too late, mouth open.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-right
+        tail: down-left
+        text:
+          ja: "あっ、それ私のホチキス！"
+          en: "Hey, that's my stapler!"
+          cs: "Hej, to je moje sešívačka!"
+          de: "Hey, das ist mein Tacker!"
+          es: "¡Oye, esa es mi grapadora!"
+          fr: "Hé, c'est mon agrafeuse !"
+          it: "Ehi, quella è la mia cucitrice!"
+          ko: "야, 그거 내 스테이플러야!"
+          pl: "Hej, to mój zszywacz!"
+          pt: "Ei, esse é meu grampeador!"
+          th: "เฮ้ นั่นแม็กเย็บกระดาษฉันนะ!"
+          uk: "Гей, це мій степлер!"
+          vi: "Ê, đó là cái bấm kim của tôi!"
+          zh: "喂，那是我的订书机！"
+          zh_Hant: "喂，那是我的釘書機！"
+
+  - scene: >
+      Dr. Hana stares blankly at the small empty space on her desk where
+      the stapler used to be, arms crossed, one eyebrow raised in mild
+      annoyance, while the photograph on the corkboard now looks
+      perfectly still and ordinary again.
+    characters: [researcher-hana]
+    bubbles:
+      - position: bottom
+        tail: up
+        text:
+          ja: "…新しいの、買わなきゃ。"
+          en: "...I need a new stapler."
+          cs: "…potřebuju novou sešívačku."
+          de: "…ich brauche einen neuen Tacker."
+          es: "…necesito una grapadora nueva."
+          fr: "…il me faut une nouvelle agrafeuse."
+          it: "…mi serve una nuova cucitrice."
+          ko: "…스테이플러 새로 사야겠다."
+          pl: "…potrzebuję nowego zszywacza."
+          pt: "…preciso de um grampeador novo."
+          th: "…ต้องซื้อแม็กเย็บกระดาษใหม่แล้ว"
+          uk: "…треба купити новий степлер."
+          vi: "…phải mua cái bấm kim mới rồi."
+          zh: "…看来得买个新订书机了。"
+          zh_Hant: "…看來得買個新釘書機了。"

@@ -1,0 +1,132 @@
+# SCP-131「アイポッド」4コマ台本
+id: scp-131
+
+title:
+  en: "SCP-131: The Eye Pods"
+  ja: "SCP-131：アイポッド"
+  cs: "SCP-131: Oční kapsle"
+  de: "SCP-131: Die Augenkapseln"
+  es: "SCP-131: Las Vainas de Ojos"
+  fr: "SCP-131 : Les Œilcosses"
+  it: "SCP-131: I Baccelli Oculari"
+  ko: "SCP-131: 아이 포드"
+  pl: "SCP-131: Kapsuły Oczne"
+  pt: "SCP-131: As Cápsulas Oculares"
+  th: "SCP-131: ฝักลูกตา"
+  uk: "SCP-131: Оковані Стручки"
+  vi: "SCP-131: Những Quả Mắt Nhỏ"
+  zh: "SCP-131：眼球荚"
+  zh_Hant: "SCP-131：眼球莢"
+
+attribution:
+  article: "SCP-131"
+  author: "Lt Masipag"
+  source_url: "http://scp-wiki.wikidot.com/scp-131"
+  license: "CC BY-SA 3.0"
+
+characters: [researcher-hana]
+
+panels:
+  - scene: >
+      Dr. Hana works quietly at her desk when two small teardrop-shaped
+      creatures roll into the office on tiny wheels at their base, each
+      with one large unblinking eye in the center of its body, one burnt
+      orange and one mustard yellow, tilting curiously toward her.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-left
+        tail: down-right
+        text:
+          ja: "あら、ちょっとかわいいかも。"
+          en: "Aw, they're kind of cute."
+          cs: "Ále, jsou docela roztomilí."
+          de: "Ach, die sind irgendwie süß."
+          es: "Ay, son bastante lindos."
+          fr: "Oh, ils sont plutôt mignons."
+          it: "Ohh, sono carini."
+          ko: "어머, 좀 귀엽네."
+          pl: "Ojej, są całkiem urocze."
+          pt: "Ai, são meio fofinhos."
+          th: "โอ้โห น่ารักดีเหมือนกัน"
+          uk: "Ой, вони доволі милі."
+          vi: "Ồ, tụi nó cũng dễ thương."
+          zh: "哦，还挺可爱的。"
+          zh_Hant: "哦，還挺可愛的。"
+
+  - scene: >
+      The two eye-pod creatures suddenly zoom across the office at high
+      speed on their wheels, weaving between desk legs and knocking a
+      stack of papers flying into the air. Dr. Hana throws her hands up in
+      surprise as papers scatter around her.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "ちょ、ちょっと待って！"
+          en: "H-hey, slow down!"
+          cs: "H-hej, zpomalte!"
+          de: "H-hey, langsamer!"
+          es: "¡O-oye, más despacio!"
+          fr: "H-hé, doucement !"
+          it: "E-ehi, rallentate!"
+          ko: "자, 잠깐, 천천히!"
+          pl: "H-hej, wolniej!"
+          pt: "E-ei, devagar!"
+          th: "เ-เดี๋ยวก่อน ช้าลงหน่อย!"
+          uk: "Г-гей, повільніше!"
+          vi: "Ê, ê, chậm thôi!"
+          zh: "喂、喂，慢点！"
+          zh_Hant: "喂、喂，慢點！"
+
+  - scene: >
+      Both eye-pod creatures disappear one after another into a low
+      ventilation grate on the office wall, their round eyes vanishing
+      into the dark opening. Dr. Hana kneels in front of the grate,
+      reaching toward it with one hand, papers still scattered on the
+      floor behind her.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-right
+        tail: down-left
+        text:
+          ja: "あっ、待って、戻ってきて！"
+          en: "Wait, come back!"
+          cs: "Počkejte, vraťte se!"
+          de: "Warte, kommt zurück!"
+          es: "¡Esperen, vuelvan!"
+          fr: "Attendez, revenez !"
+          it: "Aspettate, tornate!"
+          ko: "잠깐, 돌아와!"
+          pl: "Czekajcie, wróćcie!"
+          pt: "Esperem, voltem!"
+          th: "เดี๋ยวสิ กลับมานะ!"
+          uk: "Зачекайте, поверніться!"
+          vi: "Khoan, quay lại đi!"
+          zh: "等等，快回来！"
+          zh_Hant: "等等，快回來！"
+
+  - scene: >
+      Dr. Hana sits slumped on the floor amid scattered papers in front of
+      the empty ventilation grate, holding an empty coffee mug upside down
+      with a tired, exasperated expression, staring blankly at the wall.
+    characters: [researcher-hana]
+    bubbles:
+      - position: bottom
+        tail: up
+        text:
+          ja: "…コーヒーのおかわり要るわ。"
+          en: "...I need more coffee for this."
+          cs: "…na tohle potřebuju víc kávy."
+          de: "…dafür brauche ich mehr Kaffee."
+          es: "…necesito más café para esto."
+          fr: "…il me faut plus de café pour ça."
+          it: "…mi serve altro caffè per questo."
+          ko: "…이거 커피 더 마셔야겠다."
+          pl: "…potrzebuję więcej kawy na to."
+          pt: "…preciso de mais café pra isso."
+          th: "…ต้องดื่มกาแฟเพิ่มอีกแล้ว"
+          uk: "…мені треба ще кави на це."
+          vi: "…phải uống thêm cà phê mới được."
+          zh: "…这得再来杯咖啡才行。"
+          zh_Hant: "…這得再來杯咖啡才行。"

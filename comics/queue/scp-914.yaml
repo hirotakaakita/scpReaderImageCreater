@@ -1,0 +1,133 @@
+# SCP-914「からくり精製機」4コマ台本
+id: scp-914
+
+title:
+  en: "SCP-914: The Clockworks"
+  ja: "SCP-914：からくり精製機"
+  cs: "SCP-914: Hodinový stroj"
+  de: "SCP-914: Das Uhrwerk"
+  es: "SCP-914: El Relojero"
+  fr: "SCP-914 : L'Horlogerie"
+  it: "SCP-914: L'Orologeria"
+  ko: "SCP-914: 시계태엽 장치"
+  pl: "SCP-914: Zegarowy Mechanizm"
+  pt: "SCP-914: A Relojoaria"
+  th: "SCP-914: เครื่องจักรนาฬิกา"
+  uk: "SCP-914: Годинниковий механізм"
+  vi: "SCP-914: Cỗ Máy Đồng Hồ"
+  zh: "SCP-914：钟表装置"
+  zh_Hant: "SCP-914：鐘錶裝置"
+
+attribution:
+  article: "SCP-914"
+  author: "Dr Gears"
+  source_url: "http://scp-wiki.wikidot.com/scp-914"
+  license: "CC BY-SA 3.0"
+
+characters: [researcher-hana]
+
+panels:
+  - scene: >
+      Inside a large chamber dominated by an enormous, intricate clockwork
+      machine covering most of the room, made of countless brass gears,
+      pulleys, and pipes. Dr. Hana stands at its Intake booth holding a
+      small chipped ceramic mug, reaching toward a control panel with a
+      dial labeled with settings from Rough to Very Fine.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "ちょっと直すだけよ…"
+          en: "Just a little touch-up..."
+          cs: "Jen malá oprava…"
+          de: "Nur eine kleine Reparatur…"
+          es: "Solo un pequeño arreglo…"
+          fr: "Juste une petite retouche…"
+          it: "Solo un piccolo ritocco…"
+          ko: "그냥 살짝 고치는 거야…"
+          pl: "Tylko mała naprawa…"
+          pt: "Só um pequeno reparo…"
+          th: "แค่ซ่อมนิดหน่อย…"
+          uk: "Просто трохи полагоджу…"
+          vi: "Chỉ sửa chút thôi…"
+          zh: "只是稍微修一下…"
+          zh_Hant: "只是稍微修一下…"
+
+  - scene: >
+      The clockwork machine roars to life, gears spinning wildly, steam
+      hissing from pipes, the whole room shaking. Dr. Hana grips the
+      control panel with both hands, eyes wide and hair blown back by
+      the vibration, clearly alarmed by how violent the machine sounds.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-left
+        tail: down-right
+        text:
+          ja: "な、なんか揺れてない…！？"
+          en: "It's... really shaking!"
+          cs: "Ono se to… hodně třese!"
+          de: "Es... zittert ziemlich stark!"
+          es: "¡Esto... tiembla mucho!"
+          fr: "Ça... tremble beaucoup !"
+          it: "Sta... tremando parecchio!"
+          ko: "이, 이거 많이 흔들리는데!"
+          pl: "To… mocno się trzęsie!"
+          pt: "Isso... está tremendo muito!"
+          th: "มัน... สั่นแรงมากเลย!"
+          uk: "Воно... сильно трясеться!"
+          vi: "Nó... rung dữ quá!"
+          zh: "这、这震得也太厉害了！"
+          zh_Hant: "這、這震得也太厉害了！"
+
+  - scene: >
+      The Output booth door slides open with a hiss of steam. Inside sits
+      an absurdly over-engineered teacup covered in extra tiny gears,
+      needless spouts, miniature dials, and ornate handles on every side.
+      Dr. Hana stares at it with a stunned, deadpan expression, one eyebrow
+      raised.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "…頼んでないんだけど。"
+          en: "That's not what I asked for."
+          cs: "To jsem si nežádala."
+          de: "Das habe ich nicht verlangt."
+          es: "Eso no es lo que pedí."
+          fr: "Ce n'est pas ce que j'ai demandé."
+          it: "Non è quello che ho chiesto."
+          ko: "이런 거 부탁한 적 없는데."
+          pl: "Nie o to prosiłam."
+          pt: "Não foi isso que eu pedi."
+          th: "ฉันไม่ได้ขอแบบนี้นะ"
+          uk: "Я не про це просила."
+          vi: "Tôi đâu có yêu cầu vậy."
+          zh: "我可没要求这个。"
+          zh_Hant: "我可沒要求這個。"
+
+  - scene: >
+      Dr. Hana sits at her desk holding the ridiculous over-engineered
+      teacup up to the light, examining its many tiny gears with a tired
+      but faintly amused half-smile, giving up on making sense of it.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-right
+        tail: down-left
+        text:
+          ja: "…まあ、世界に一つね。"
+          en: "...well, it's one of a kind."
+          cs: "…no, aspoň je originální."
+          de: "…nun, es ist einzigartig."
+          es: "…bueno, es única en su tipo."
+          fr: "…bon, au moins c'est unique."
+          it: "…beh, è un pezzo unico."
+          ko: "…뭐, 세상에 하나뿐이네."
+          pl: "…no, przynajmniej unikat."
+          pt: "…bem, é única no mundo."
+          th: "…ก็นะ มันมีชิ้นเดียวในโลก"
+          uk: "…ну, вона хоч унікальна."
+          vi: "…thôi thì, có một không hai."
+          zh: "…算了，独一无二嘛。"
+          zh_Hant: "…算了，獨一無二嘛。"

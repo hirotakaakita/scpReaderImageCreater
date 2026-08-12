@@ -1,0 +1,131 @@
+# SCP-529「ハーフキャットのジョジー」4コマ台本
+id: scp-529
+
+title:
+  en: "SCP-529: Josie the Half-Cat"
+  ja: "SCP-529：ハーフキャットのジョジー"
+  cs: "SCP-529: Polovina kočky Josie"
+  de: "SCP-529: Josie, die Halbkatze"
+  es: "SCP-529: Josie, la Media Gata"
+  fr: "SCP-529 : Josie la Demi-Chatte"
+  it: "SCP-529: Josie, la Mezza Gatta"
+  ko: "SCP-529: 반쪽 고양이 조시"
+  pl: "SCP-529: Josie, Pół-Kotka"
+  pt: "SCP-529: Josie, a Meia-Gata"
+  th: "SCP-529: โจซี่ แมวครึ่งตัว"
+  uk: "SCP-529: Джосі, Кішка Наполовину"
+  vi: "SCP-529: Josie Con Mèo Nửa Thân"
+  zh: "SCP-529：半只猫乔西"
+  zh_Hant: "SCP-529：半隻貓喬西"
+
+attribution:
+  article: "SCP-529"
+  source_url: "http://scp-wiki.wikidot.com/scp-529"
+  license: "CC BY-SA 3.0"
+
+characters: [researcher-hana]
+
+panels:
+  - scene: >
+      A quiet facility hallway. Dr. Hana crouches down to pet a small grey
+      tabby cat whose body ends abruptly in a flat black cross-section
+      just behind the ribcage, as if neatly sliced away, yet the cat sits
+      and balances completely normally. Dr. Hana smiles warmly, scratching
+      behind its ears.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-left
+        tail: down-right
+        text:
+          ja: "ジョジー、いい子ね。"
+          en: "Hey Josie, good girl."
+          cs: "Ahoj Josie, hodná holka."
+          de: "Hallo Josie, braves Mädchen."
+          es: "Hola Josie, buena chica."
+          fr: "Salut Josie, gentille fille."
+          it: "Ciao Josie, brava ragazza."
+          ko: "조시, 착하지."
+          pl: "Cześć Josie, grzeczna dziewczynka."
+          pt: "Oi Josie, boa menina."
+          th: "ไง โจซี่ เด็กดี"
+          uk: "Привіт, Джосі, гарна дівчинка."
+          vi: "Chào Josie, ngoan lắm."
+          zh: "嗨，乔西，真乖。"
+          zh_Hant: "嗨，喬西，真乖。"
+
+  - scene: >
+      The half-cat suddenly turns to face Dr. Hana directly, ears perked
+      and mouth open in an insistent meow, eyes fixed pointedly on the
+      cheese sandwich sticking out of the lunch bag on Dr. Hana's shoulder.
+      Dr. Hana leans back slightly, startled by the intensity.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "ニャアッ！（チーズ、今すぐ）"
+          en: "Meow!! (Cheese. Now.)"
+          cs: "Mňauu!! (Sýr. Hned.)"
+          de: "Miau!! (Käse. Sofort.)"
+          es: "¡¡Miau!! (Queso. Ya.)"
+          fr: "Miaou !! (Du fromage. Maintenant.)"
+          it: "Miao!! (Formaggio. Subito.)"
+          ko: "야옹!! (치즈. 지금.)"
+          pl: "Miau!! (Ser. Teraz.)"
+          pt: "Miau!! (Queijo. Agora.)"
+          th: "เมี้ยว!! (ชีส เดี๋ยวนี้)"
+          uk: "Няв!! (Сир. Негайно.)"
+          vi: "Meo!! (Phô mai. Ngay.)"
+          zh: "喵！！（芝士，马上。）"
+          zh_Hant: "喵！！（起司，馬上。）"
+
+  - scene: >
+      Dr. Hana kneels with a slightly nervous expression, carefully
+      holding out a small slice of cheese between two fingers toward the
+      half-cat, arm extended cautiously as if approaching something that
+      might swipe at her.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-right
+        tail: down-left
+        text:
+          ja: "は、はい、チーズどうぞ…"
+          en: "O-okay, here's your cheese..."
+          cs: "D-dobře, tady máš sýr…"
+          de: "O-okay, hier ist dein Käse…"
+          es: "V-vale, aquí tienes tu queso…"
+          fr: "D-d'accord, voilà ton fromage…"
+          it: "V-va bene, ecco il tuo formaggio…"
+          ko: "아, 알았어, 치즈 여깄어…"
+          pl: "D-dobrze, oto twój ser…"
+          pt: "T-tá bom, aqui está seu queijo…"
+          th: "โ-โอเค นี่ชีสของเธอ…"
+          uk: "Г-гаразд, ось твій сир…"
+          vi: "Đ-được rồi, phô mai của cưng đây…"
+          zh: "好、好的，你的芝士…"
+          zh_Hant: "好、好的，你的起司…"
+
+  - scene: >
+      Dr. Hana sits on the hallway floor, leaning back on her hands with
+      visible relief, while the half-cat happily nibbles the cheese in
+      front of her, tail curled contentedly, purring loudly.
+    characters: [researcher-hana]
+    bubbles:
+      - position: bottom
+        tail: up
+        text:
+          ja: "…危機は去ったわ。"
+          en: "Crisis averted."
+          cs: "Krize zažehnána."
+          de: "Krise abgewendet."
+          es: "Crisis evitada."
+          fr: "Crise évitée."
+          it: "Crisi evitata."
+          ko: "위기는 넘겼네."
+          pl: "Kryzys zażegnany."
+          pt: "Crise evitada."
+          th: "รอดพ้นวิกฤตแล้ว"
+          uk: "Кризу відвернено."
+          vi: "Khủng hoảng đã qua."
+          zh: "危机解除了。"
+          zh_Hant: "危機解除了。"

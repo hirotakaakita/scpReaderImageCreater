@@ -1,0 +1,131 @@
+# SCP-426「トースターの私」4コマ台本
+id: scp-426
+
+title:
+  en: "SCP-426: I Am a Toaster"
+  ja: "SCP-426：わたしはトースター"
+  cs: "SCP-426: Jsem topinkovač"
+  de: "SCP-426: Ich bin ein Toaster"
+  es: "SCP-426: Soy una tostadora"
+  fr: "SCP-426 : Je suis un grille-pain"
+  it: "SCP-426: Sono un tostapane"
+  ko: "SCP-426: 나는 토스터입니다"
+  pl: "SCP-426: Jestem tosterem"
+  pt: "SCP-426: Eu sou uma torradeira"
+  th: "SCP-426: ฉันคือเครื่องปิ้งขนมปัง"
+  uk: "SCP-426: Я — тостер"
+  vi: "SCP-426: Tôi Là Một Cái Máy Nướng Bánh"
+  zh: "SCP-426：我是一台烤面包机"
+  zh_Hant: "SCP-426：我是一台烤麵包機"
+
+attribution:
+  article: "SCP-426"
+  source_url: "http://scp-wiki.wikidot.com/scp-426"
+  license: "CC BY-SA 3.0"
+
+characters: [researcher-hana]
+
+panels:
+  - scene: >
+      A cluttered break room shelf holds a plain, ordinary-looking metal
+      toaster with a small warning placard beside it. A young male intern
+      in a Foundation polo shirt leans in curiously, reading the placard
+      out loud, while Dr. Hana watches from a doorway with a mug in hand,
+      unconcerned.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-left
+        tail: down-right
+        text:
+          ja: "このトースター、なんだろ？"
+          en: "What's up with this toaster?"
+          cs: "Co je s tím topinkovačem?"
+          de: "Was ist mit diesem Toaster los?"
+          es: "¿Qué le pasa a esta tostadora?"
+          fr: "C'est quoi cette histoire de grille-pain ?"
+          it: "Cosa ha questo tostapane?"
+          ko: "이 토스터 뭐지?"
+          pl: "Co z tym tosterem?"
+          pt: "O que tem essa torradeira?"
+          th: "เครื่องปิ้งขนมปังนี่มันอะไรกัน?"
+          uk: "Що не так із цим тостером?"
+          vi: "Cái máy nướng bánh này sao vậy?"
+          zh: "这个烤面包机是怎么回事？"
+          zh_Hant: "這個烤麵包機是怎麼回事？"
+
+  - scene: >
+      The intern stands stiffly upright with his arms pressed flat to his
+      sides, a blank glassy stare on his face, speaking in a flat monotone.
+      Dr. Hana's eyes go wide in alarm behind him.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "…わたしは、トースターです。"
+          en: "I... am a toaster."
+          cs: "Já… jsem topinkovač."
+          de: "Ich... bin ein Toaster."
+          es: "Yo... soy una tostadora."
+          fr: "Je... suis un grille-pain."
+          it: "Io... sono un tostapane."
+          ko: "나는… 토스터입니다."
+          pl: "Ja… jestem tosterem."
+          pt: "Eu... sou uma torradeira."
+          th: "ฉัน...คือเครื่องปิ้งขนมปัง"
+          uk: "Я... тостер."
+          vi: "Tôi... là máy nướng bánh."
+          zh: "我……是一台烤面包机。"
+          zh_Hant: "我……是一台烤麵包機。"
+
+  - scene: >
+      The intern pops both arms straight up above his head suddenly, like
+      toast popping out, a wide vacant grin on his face. Dr. Hana recoils
+      backward with both hands raised, spilling her coffee, utterly
+      startled.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-right
+        tail: down-left
+        text:
+          ja: "うわ、いつからそうなったの！？"
+          en: "Wait, since when?!"
+          cs: "Počkat, odkdy?!"
+          de: "Moment, seit wann?!"
+          es: "¡Espera, desde cuándo!"
+          fr: "Attends, depuis quand ?!"
+          it: "Aspetta, da quando?!"
+          ko: "잠깐, 언제부터 그런 거야?!"
+          pl: "Czekaj, odkąd?!"
+          pt: "Espera, desde quando?!"
+          th: "เดี๋ยวนะ ตั้งแต่เมื่อไหร่!?"
+          uk: "Зачекай, відколи?!"
+          vi: "Khoan, từ khi nào vậy?!"
+          zh: "等等，从什么时候开始的！？"
+          zh_Hant: "等等，從什麼時候開始的！？"
+
+  - scene: >
+      Dr. Hana firmly drags the intern out of the break room by the collar
+      while pointing sternly with her other hand at a large new sign taped
+      to the door reading nothing but a crossed-out toaster icon. The
+      intern still has the same vacant grin, arms limp.
+    characters: [researcher-hana]
+    bubbles:
+      - position: bottom
+        tail: up
+        text:
+          ja: "第一の掟：説明書を読むな。"
+          en: "Rule one: don't read the label."
+          cs: "Pravidlo jedna: nečti ceduli."
+          de: "Regel eins: Schild nicht lesen."
+          es: "Regla uno: no leas la etiqueta."
+          fr: "Règle un : ne lis pas l'écriteau."
+          it: "Regola uno: non leggere il cartello."
+          ko: "규칙 첫째: 팻말 읽지 말기."
+          pl: "Zasada pierwsza: nie czytaj tabliczki."
+          pt: "Regra um: não leia a placa."
+          th: "กฎข้อหนึ่ง: ห้ามอ่านป้าย"
+          uk: "Правило перше: не читай напис."
+          vi: "Quy tắc một: đừng đọc bảng hiệu."
+          zh: "第一条规矩：别读那张告示。"
+          zh_Hant: "第一條規矩：別讀那張告示。"
