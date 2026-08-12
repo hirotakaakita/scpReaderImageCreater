@@ -167,8 +167,10 @@ def call_openrouter(prompt, ref_images, gen_cfg):
     def attempt():
         resp = requests.post("https://openrouter.ai/api/v1/chat/completions",
                              headers=headers, json=body, timeout=180)
-        if resp.status_code == 402:
-            raise _Fatal(f"OpenRouter: insufficient credits ({resp.text[:300]})")
+        if 400 <= resp.status_code < 500:
+            # クライアントエラー（クレジット不足・モデル未許可・データポリシー未設定など）は
+            # リトライしても直らないので即座に失敗させ、レスポンス本文をそのまま出す
+            raise _Fatal(f"OpenRouter {resp.status_code}: {resp.text[:500]}")
         resp.raise_for_status()
         data = resp.json()
         images = ((data.get("choices") or [{}])[0].get("message") or {}).get("images") or []
