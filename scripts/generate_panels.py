@@ -1,26 +1,18 @@
-"""Nano Banana / Nano Banana Pro (Gemini画像生成) で各コマの画像を生成する。
+"""Nano Banana Pro (Gemini) で各コマの画像を生成する。
 
 台本のscene + config/style.yaml(絵柄) + config/characters.yaml(キャラ定義)から
 プロンプトを組み立て、output/<id>/panels/panel_N.png に保存する。
 テキスト・吹き出しは一切描かせない（後工程のembed_text.pyが埋め込む）。
 
-呼び出し先は config/style.yaml の generation.provider で切り替える:
-  provider: gemini      -> Google AI Studio直接（google-genai SDK, GEMINI_API_KEY）
-  provider: openrouter  -> OpenRouter経由（requests, OPENROUTER_API_KEY）
-どちらも同じGeminiモデルを叩くが、課金の入口が異なる
-（GCPの請求先アカウント紐付け vs OpenRouterアカウントへのクレジット入金）。
-
 --mock を付けるとAPIを呼ばずプレースホルダー画像を生成する（レイアウト確認用）。
 """
 import argparse
-import base64
 import io
 import json
 import os
 import sys
 import time
 
-import requests
 from PIL import Image, ImageDraw
 
 sys.path.insert(0, os.path.dirname(__file__))
@@ -85,110 +77,35 @@ def collect_reference_images(script, panel, cfgs, prev_panel_paths):
     return refs[: gen.get("max_reference_images", 6)]
 
 
-def _image_config(gen_cfg):
-    cfg = {"aspect_ratio": gen_cfg.get("aspect_ratio", "1:1")}
+def call_nano_banana(prompt, ref_images, gen_cfg):
+    from google import genai
+
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    contents = [prompt] + list(ref_images)
+    image_config = {"aspect_ratio": gen_cfg.get("aspect_ratio", "1:1")}
     if gen_cfg.get("image_size"):  # image_sizeはPro系のみ対応。null時は送らない
-        cfg["image_size"] = gen_cfg["image_size"]
-    return cfg
-
-
-def _retry_loop(gen_cfg, attempt_fn):
-    """attempt_fn()を呼び、成功したらPIL Imageを返す。失敗はリトライ、
-    課金不足など回復不能なエラーは即座に投げ直す。"""
+        image_config["image_size"] = gen_cfg["image_size"]
+    gen_config = {
+        "response_modalities": ["TEXT", "IMAGE"],
+        "image_config": image_config,
+    }
     last_err = None
     for attempt in range(1, gen_cfg.get("max_retries", 3) + 1):
         try:
-            return attempt_fn()
-        except _Fatal:
-            raise
+            resp = client.models.generate_content(
+                model=gen_cfg["model"], contents=contents, config=gen_config)
+            for cand in resp.candidates or []:
+                for part in cand.content.parts or []:
+                    data = getattr(part, "inline_data", None)
+                    if data and data.data:
+                        return Image.open(io.BytesIO(data.data))
+            last_err = RuntimeError("no image in response")
         except Exception as e:  # レート制限・一時エラーを含む
             last_err = e
         wait = gen_cfg.get("retry_wait_seconds", 20) * attempt
         print(f"  attempt {attempt} failed ({last_err}); retrying in {wait}s")
         time.sleep(wait)
     raise RuntimeError(f"image generation failed: {last_err}")
-
-
-class _Fatal(Exception):
-    """リトライしても無駄なエラー（課金未設定など）。"""
-
-
-def call_gemini_direct(prompt, ref_images, gen_cfg):
-    """Google AI Studio直接（google-genai SDK）。GEMINI_API_KEYが必要。"""
-    from google import genai
-
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-    contents = [prompt] + list(ref_images)
-    gen_config = {
-        "response_modalities": ["TEXT", "IMAGE"],
-        "image_config": _image_config(gen_cfg),
-    }
-
-    def attempt():
-        resp = client.models.generate_content(
-            model=gen_cfg["model"], contents=contents, config=gen_config)
-        for cand in resp.candidates or []:
-            for part in cand.content.parts or []:
-                data = getattr(part, "inline_data", None)
-                if data and data.data:
-                    return Image.open(io.BytesIO(data.data))
-        raise RuntimeError("no image in response")
-
-    return _retry_loop(gen_cfg, attempt)
-
-
-def _to_data_url(img):
-    buf = io.BytesIO()
-    img.convert("RGB").save(buf, format="PNG")
-    return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode("ascii")
-
-
-def call_openrouter(prompt, ref_images, gen_cfg):
-    """OpenRouter経由（chat completions API）。OPENROUTER_API_KEYが必要。
-    同じGeminiモデルを、GCPの請求先アカウント設定なしにOpenRouterの
-    クレジット残高で呼べる（https://openrouter.ai/settings/credits）。"""
-    api_key = os.environ["OPENROUTER_API_KEY"]
-    model = gen_cfg["model"]
-    if "/" not in model:
-        model = f"google/{model}"  # OpenRouterのモデルスラッグは "google/" 接頭辞付き
-
-    content = [{"type": "text", "text": prompt}]
-    for img in ref_images:
-        content.append({"type": "image_url", "image_url": {"url": _to_data_url(img)}})
-
-    body = {
-        "model": model,
-        "modalities": ["image", "text"],
-        "messages": [{"role": "user", "content": content}],
-        "image_config": _image_config(gen_cfg),
-    }
-    headers = {"Authorization": f"Bearer {api_key}"}
-
-    def attempt():
-        resp = requests.post("https://openrouter.ai/api/v1/chat/completions",
-                             headers=headers, json=body, timeout=180)
-        if 400 <= resp.status_code < 500:
-            # クライアントエラー（クレジット不足・モデル未許可・データポリシー未設定など）は
-            # リトライしても直らないので即座に失敗させ、レスポンス本文をそのまま出す
-            raise _Fatal(f"OpenRouter {resp.status_code}: {resp.text[:500]}")
-        resp.raise_for_status()
-        data = resp.json()
-        images = ((data.get("choices") or [{}])[0].get("message") or {}).get("images") or []
-        if not images:
-            raise RuntimeError(f"no image in response: {json.dumps(data)[:300]}")
-        url = images[0]["image_url"]["url"]
-        return Image.open(io.BytesIO(base64.b64decode(url.split(",", 1)[1])))
-
-    return _retry_loop(gen_cfg, attempt)
-
-
-def call_generate(prompt, ref_images, gen_cfg):
-    provider = gen_cfg.get("provider", "gemini")
-    if provider == "openrouter":
-        return call_openrouter(prompt, ref_images, gen_cfg)
-    if provider == "gemini":
-        return call_gemini_direct(prompt, ref_images, gen_cfg)
-    raise ValueError(f"unknown generation.provider: {provider}")
 
 
 def make_mock_panel(index):
@@ -217,7 +134,7 @@ def generate(script, cfgs, mock=False):
             img = make_mock_panel(i)
         else:
             refs = collect_reference_images(script, panel, cfgs, prev_paths)
-            img = call_generate(prompt, refs, gen_cfg)
+            img = call_nano_banana(prompt, refs, gen_cfg)
         img.convert("RGB").save(out_path)
         prev_paths.append(out_path)
 
