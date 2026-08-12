@@ -45,22 +45,25 @@ state/used.json             ← 生成済みSCPの記録（重複生成防止。
 
 ## セットアップ
 
-画像生成モデル（Gemini / Nano Banana）は無料枠が無い（quota 0）ため、
-どちらかの課金設定が必須。`config/style.yaml` の `generation.provider` で選ぶ。
+画像生成はGoogle AI Studio直接だとNano Banana系は無料枠が無い（quota 0）ため課金必須だが、
+**既定ではOpenRouter経由の無料枠モデル（`gemini-2.5-flash-image-preview:free`）を使う**ので
+クレジットカード不要で動く。ただし1日50リクエストまで（OpenRouterアカウントに$10以上
+チャージ済みなら1日1000リクエストまで拡張）。`config/style.yaml` の `generation.provider` /
+`model` で切り替え可能。
 
 ```bash
-# provider: gemini の場合（Google AI Studio直接）
+# 既定（provider: openrouter, model: gemini-2.5-flash-image-preview:free）
+# → openrouter.ai でアカウント作成してAPIキーを発行するだけ。クレカ・入金は不要:
+gh secret set OPENROUTER_API_KEY --repo <owner>/<repo>
+
+# provider: gemini に変更する場合（Google AI Studio直接）
 # → AI StudioでAPIキーのプロジェクトにGCPの請求先アカウントを紐付けてから:
 gh secret set GEMINI_API_KEY --repo <owner>/<repo>
-
-# provider: openrouter の場合（OpenRouter経由。既定）
-# → openrouter.ai でアカウント作成しクレジットを入金してから:
-gh secret set OPENROUTER_API_KEY --repo <owner>/<repo>
 ```
 
-OpenRouterはGCPの請求先アカウント紐付けが不要で、クレジットカードでの入金だけで
-使い始められる（同じGeminiモデルをOpenRouter経由で呼ぶだけなので画質・機能差は無い）。
-料金はどちらの経路でもほぼ同額（Gemini API従量課金相当）。
+OpenRouterの `:free` を外したモデル（例: `gemini-2.5-flash-image` や
+`gemini-3-pro-image-preview`＝Nano Banana Pro）はOpenRouterのクレジット残高からの課金が必要。
+無料枠の1日50リクエストで足りなくなったら、そちらへの切り替えを検討する。
 
 Actionsは毎日 6:00 JST に `comics/queue/` の先頭（ファイル名昇順）を1本処理し、
 台本を `comics/done/` に移動してコミットする。キューが空の日は何もしない。
@@ -75,8 +78,8 @@ python scripts/download_fonts.py
 # APIを呼ばずレイアウト・吹き出し・多言語埋め込みを確認（プレースホルダー画像）
 python scripts/run_pipeline.py --id scp-999 --mock
 
-# 本番同様に生成（要 GEMINI_API_KEY）
-set GEMINI_API_KEY=... && python scripts/run_pipeline.py --id scp-999
+# 本番同様に生成（既定は要 OPENROUTER_API_KEY。provider: gemini なら GEMINI_API_KEY）
+set OPENROUTER_API_KEY=... && python scripts/run_pipeline.py --id scp-999
 
 # 生成済みコマを使い、合成・埋め込みだけやり直す（レイアウト調整時）
 python scripts/run_pipeline.py --id scp-999 --skip-generate --languages ja,en
