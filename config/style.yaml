@@ -29,15 +29,9 @@ no_text_rules: >
 
 # 生成APIの設定
 generation:
-  # 呼び出し先:
-  #   gemini      -> Google AI Studio直接（GEMINI_API_KEY, GCPの請求先アカウント紐付けが必要）
-  #   openrouter  -> OpenRouter経由（OPENROUTER_API_KEY, openrouter.aiのクレジット残高で課金）
-  # どちらも同じGeminiモデルを叩く。Gemini画像生成モデルは無料枠が無い（0 quota）ため、
-  # いずれかの課金設定は必須。
-  provider: openrouter
-  # モデルは無印（Gemini API形式）で書く。providerがopenrouterの場合はコード側で
-  # "google/"を自動的に前置してOpenRouterのモデルスラッグに変換する。
-  # gemini-2.5-flash-image（安価・検証向け） / gemini-3-pro-image-preview（Nano Banana Pro・高品質）
+  # 無料枠で検証中は gemini-2.5-flash-image（無料版 Nano Banana）。
+  # 課金を有効化したら gemini-3-pro-image-preview（Nano Banana Pro）に戻す。
+  # ※ Pro は無料枠では limit: 0 で使えない（429になる）
   model: gemini-2.5-flash-image
   aspect_ratio: "1:1"                 # コマは正方形で統一（layout.yamlのpanelと合わせる）
   image_size: null                    # Pro専用（"1K"/"2K"/"4K"）。flashでは null にする
