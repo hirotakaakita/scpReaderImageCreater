@@ -4,9 +4,14 @@
   python scripts/run_pipeline.py --from-queue --count 2
   python scripts/run_pipeline.py --id scp-999            # 指定台本を(再)処理
   python scripts/run_pipeline.py --id scp-999 --skip-generate --mock  # 合成以降のみ
+  python scripts/run_pipeline.py --id scp-999 --export-prompts  # Google AI Studio向けに書き出し
 
 処理内容: 生成(generate_panels) -> 合成(compose) -> 言語別埋め込み(embed_text)
           -> 台本をdone/へ移動 -> index.json更新
+
+--export-prompts を付けるとAPIを呼ばず、output/<id>/prompts/ にプロンプトと参照画像・
+手順書(README.txt)を書き出すだけで終了する。Google AI Studioで手動生成した画像を
+output/<id>/panels/panel_N.png として保存したら、--skip-generate で続きを実行する。
 """
 import argparse
 import os
@@ -51,9 +56,13 @@ def move_to_done(script_path):
     print(f"[queue] moved to done/: {os.path.basename(dest)}")
 
 
-def process(script_path, cfgs, mock=False, languages=None, skip_generate=False):
+def process(script_path, cfgs, mock=False, languages=None, skip_generate=False,
+            export_prompts=False):
     script = cfglib.load_script(script_path)
     print(f"=== {script['id']} ({script_path}) ===")
+    if export_prompts:
+        generate_panels.export_prompts(script, cfgs)
+        return
     if not skip_generate:
         generate_panels.generate(script, cfgs, mock=mock)
     compose.compose(script, cfgs)
@@ -76,19 +85,23 @@ def main():
     ap.add_argument("--languages", help="カンマ区切りで対象言語を限定 (例: ja,en)")
     ap.add_argument("--skip-generate", action="store_true",
                     help="画像生成を飛ばし合成・埋め込みのみ再実行")
+    ap.add_argument("--export-prompts", action="store_true",
+                    help="APIを呼ばずGoogle AI Studio向けにプロンプト・参照画像を"
+                         "output/<id>/prompts/ に書き出す（合成・埋め込みは行わない）")
     args = ap.parse_args()
 
     cfgs = cfglib.load_configs()
     langs = args.languages.split(",") if args.languages else None
 
-    if not args.mock and not args.skip_generate and not os.environ.get("GEMINI_API_KEY"):
+    if (not args.mock and not args.skip_generate and not args.export_prompts
+            and not os.environ.get("GEMINI_API_KEY")):
         print("ERROR: GEMINI_API_KEY is not set (use --mock for a dry run)")
         sys.exit(1)
 
     if args.comic_id:
         # --id は明示指定なので生成済みでも(再)処理する
         process(find_script(args.comic_id), cfgs, mock=args.mock, languages=langs,
-                skip_generate=args.skip_generate)
+                skip_generate=args.skip_generate, export_prompts=args.export_prompts)
     else:
         queue = queued_scripts()
         if not queue:
@@ -107,11 +120,12 @@ def main():
                     move_to_done(path)
                 continue
             process(path, cfgs, mock=args.mock, languages=langs,
-                    skip_generate=args.skip_generate)
+                    skip_generate=args.skip_generate, export_prompts=args.export_prompts)
             processed += 1
         if processed == 0:
             print("No unprocessed scripts in queue. Nothing generated.")
-    build_index.build()
+    if not args.export_prompts:
+        build_index.build()
 
 
 if __name__ == "__main__":

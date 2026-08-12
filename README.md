@@ -71,6 +71,20 @@ set GEMINI_API_KEY=... && python scripts/run_pipeline.py --id scp-999
 python scripts/run_pipeline.py --id scp-999 --skip-generate --languages ja,en
 ```
 
+### Google AI Studioで手動生成する場合
+
+APIキーを使わず、[aistudio.google.com](https://aistudio.google.com) のチャットUIで手動生成して
+リポジトリに格納することもできる。
+
+```bash
+# APIを呼ばず output/scp-999/prompts/ にプロンプト・参照画像・手順書を書き出す
+python scripts/run_pipeline.py --id scp-999 --export-prompts
+```
+
+`output/scp-999/prompts/README.txt` の手順に従い、`panel_N.txt` の内容をAI Studioに貼り付けて
+生成した画像を `output/scp-999/panels/panel_N.png` として保存する。全コマ保存したら
+`python scripts/run_pipeline.py --id scp-999 --skip-generate` で合成・多言語埋め込みまで実行できる。
+
 **mock実行の出力（output/）はコミットしないこと**（実生成で上書きされる前提のダミー）。
 
 ## アプリ / bot からの参照
