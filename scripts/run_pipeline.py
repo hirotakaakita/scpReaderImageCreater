@@ -81,8 +81,10 @@ def main():
     cfgs = cfglib.load_configs()
     langs = args.languages.split(",") if args.languages else None
 
-    if not args.mock and not args.skip_generate and not os.environ.get("GEMINI_API_KEY"):
-        print("ERROR: GEMINI_API_KEY is not set (use --mock for a dry run)")
+    provider = cfgs["style"]["generation"].get("provider", "gemini")
+    key_name = "OPENROUTER_API_KEY" if provider == "openrouter" else "GEMINI_API_KEY"
+    if not args.mock and not args.skip_generate and not os.environ.get(key_name):
+        print(f"ERROR: {key_name} is not set for provider={provider} (use --mock for a dry run)")
         sys.exit(1)
 
     if args.comic_id:

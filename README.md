@@ -33,7 +33,7 @@ state/used.json             ← 生成済みSCPの記録（重複生成防止。
 
 | ファイル | 役割 |
 |---|---|
-| `config/style.yaml` | **絵柄の中央定義**（全漫画共通のプロンプト）と生成APIの設定 |
+| `config/style.yaml` | **絵柄の中央定義**（全漫画共通のプロンプト）と生成APIの設定（provider/model切り替え含む） |
 | `config/characters.yaml` | **キャラクターの中央定義**。複数の漫画で同じ見た目を保つ。参照画像も登録可 |
 | `config/layout.yaml` | コマサイズ・列数・余白・吹き出しの見た目・タイトル/フッター帯 |
 | `config/languages.yaml` | 対応言語・フォント割り当て・フォントDL元 |
@@ -45,11 +45,22 @@ state/used.json             ← 生成済みSCPの記録（重複生成防止。
 
 ## セットアップ
 
+画像生成モデル（Gemini / Nano Banana）は無料枠が無い（quota 0）ため、
+どちらかの課金設定が必須。`config/style.yaml` の `generation.provider` で選ぶ。
+
 ```bash
-git init まで済み。GitHubへ:
-gh repo create <name> --public --source . --push
-gh secret set GEMINI_API_KEY   # Google AI StudioのAPIキー
+# provider: gemini の場合（Google AI Studio直接）
+# → AI StudioでAPIキーのプロジェクトにGCPの請求先アカウントを紐付けてから:
+gh secret set GEMINI_API_KEY --repo <owner>/<repo>
+
+# provider: openrouter の場合（OpenRouter経由。既定）
+# → openrouter.ai でアカウント作成しクレジットを入金してから:
+gh secret set OPENROUTER_API_KEY --repo <owner>/<repo>
 ```
+
+OpenRouterはGCPの請求先アカウント紐付けが不要で、クレジットカードでの入金だけで
+使い始められる（同じGeminiモデルをOpenRouter経由で呼ぶだけなので画質・機能差は無い）。
+料金はどちらの経路でもほぼ同額（Gemini API従量課金相当）。
 
 Actionsは毎日 6:00 JST に `comics/queue/` の先頭（ファイル名昇順）を1本処理し、
 台本を `comics/done/` に移動してコミットする。キューが空の日は何もしない。
