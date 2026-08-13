@@ -10,6 +10,7 @@ import argparse
 import io
 import json
 import os
+import shutil
 import sys
 import time
 
@@ -143,14 +144,96 @@ def generate(script, cfgs, mock=False):
     return comic_dir
 
 
+def export_prompts(script, cfgs):
+    """APIを呼ばず、Google AI Studioで手動生成するためのプロンプト・参照画像・
+    手順書を output/<id>/prompts/ に書き出す。画像生成そのものは行わない。"""
+    comic_dir = os.path.join(cfglib.OUTPUT_DIR, script["id"])
+    prompts_dir = os.path.join(comic_dir, "prompts")
+    panels_dir = os.path.join(comic_dir, "panels")
+    os.makedirs(prompts_dir, exist_ok=True)
+    os.makedirs(panels_dir, exist_ok=True)
+
+    gen_cfg = cfgs["style"]["generation"]
+    use_prev = gen_cfg.get("use_previous_panels_as_reference")
+    panels_rel = os.path.relpath(panels_dir, cfglib.ROOT)
+
+    for i, panel in enumerate(script["panels"], 1):
+        prompt = build_prompt(script, panel, cfgs)
+
+        char_refs = []
+        for key in panel.get("characters") or []:
+            char = cfgs["characters"].get(key) or {}
+            for rel in char.get("reference_images") or []:
+                src = cfglib.rootpath(rel)
+                if os.path.exists(src):
+                    char_refs.append((key, src))
+
+        note_lines = []
+        if char_refs:
+            note_lines.append(f"[添付する参照画像: panel_{i}_refs/ 内の全ファイル]")
+        if use_prev and i > 1:
+            prev_ids = [p for p in range(max(1, i - 2), i)]
+            note_lines.append(
+                "[前コマ参照が有効: panel_" + ", panel_".join(str(p) for p in prev_ids)
+                + " を生成済みならその画像も参照画像として追加で添付してください]")
+
+        prompt_path = os.path.join(prompts_dir, f"panel_{i}.txt")
+        with open(prompt_path, "w", encoding="utf-8") as f:
+            f.write(prompt + "\n")
+            if note_lines:
+                f.write("\n" + "\n".join(note_lines) + "\n")
+
+        if char_refs:
+            refs_dir = os.path.join(prompts_dir, f"panel_{i}_refs")
+            os.makedirs(refs_dir, exist_ok=True)
+            for idx, (key, src) in enumerate(char_refs, 1):
+                ext = os.path.splitext(src)[1] or ".png"
+                shutil.copyfile(src, os.path.join(refs_dir, f"{idx:02d}_{key}{ext}"))
+
+        print(f"[export] panel {i}/{len(script['panels'])} -> "
+              f"{os.path.relpath(prompt_path, cfglib.ROOT)}")
+
+    readme_lines = [
+        f"=== {script['id']} を Google AI Studio (aistudio.google.com) で手動生成する手順 ===",
+        "",
+        f"1. Nano Banana系の画像生成モデル（設定上は {gen_cfg.get('model')}）のチャットを開く。",
+        "2. アスペクト比は " + gen_cfg.get("aspect_ratio", "1:1")
+        + (f"、画像サイズは {gen_cfg['image_size']}" if gen_cfg.get("image_size") else "")
+        + " を選ぶ（AI StudioのUIに設定項目があれば）。",
+        "3. panel_N.txt の中身をそのままプロンプトとして貼り付け、末尾に[添付する...]の",
+        "   注記があれば同じ番号の panel_N_refs/ 内の画像を全て添付してから生成する。",
+        f"4. 気に入った画像を {panels_rel}/panel_N.png として保存する（Nと採番を一致させること）。",
+    ]
+    if use_prev:
+        readme_lines.append(
+            "5. このスタイルは前コマ参照が有効。panel_2以降はprompt末尾の注記に従い、"
+            "直前1〜2コマの完成画像も参照画像として追加で添付すること。")
+    readme_lines += [
+        "",
+        f"全コマ分の画像を {panels_rel}/panel_N.png として保存し終えたら:",
+        f"  python scripts/run_pipeline.py --id {script['id']} --skip-generate",
+        "を実行すると、合成・15言語分のテキスト埋め込みまで自動で行われる。",
+    ]
+    readme_path = os.path.join(prompts_dir, "README.txt")
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(readme_lines) + "\n")
+    print(f"[export] instructions -> {os.path.relpath(readme_path, cfglib.ROOT)}")
+    return prompts_dir
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("script_path")
     ap.add_argument("--mock", action="store_true")
+    ap.add_argument("--export-prompts", action="store_true",
+                    help="APIを呼ばずGoogle AI Studio向けにプロンプト・参照画像を書き出す")
     args = ap.parse_args()
     cfgs = cfglib.load_configs()
     script = cfglib.load_script(args.script_path)
-    generate(script, cfgs, mock=args.mock)
+    if args.export_prompts:
+        export_prompts(script, cfgs)
+    else:
+        generate(script, cfgs, mock=args.mock)
 
 
 if __name__ == "__main__":

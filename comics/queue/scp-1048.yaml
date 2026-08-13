@@ -1,0 +1,132 @@
+# SCP-1048「ビルダーベア」4コマ台本
+id: scp-1048
+
+title:
+  en: "SCP-1048: Builder Bear"
+  ja: "SCP-1048：ビルダーベア"
+  cs: "SCP-1048: Medvídek Stavitel"
+  de: "SCP-1048: Baumeister-Bär"
+  es: "SCP-1048: El Osito Constructor"
+  fr: "SCP-1048 : L'Ours Bâtisseur"
+  it: "SCP-1048: L'Orsetto Costruttore"
+  ko: "SCP-1048: 빌더 베어"
+  pl: "SCP-1048: Miś Budowniczy"
+  pt: "SCP-1048: Urso Construtor"
+  th: "SCP-1048: หมีช่างก่อสร้าง"
+  uk: "SCP-1048: Ведмедик-Будівельник"
+  vi: "SCP-1048: Gấu Thợ Xây"
+  zh: "SCP-1048：建造熊"
+  zh_Hant: "SCP-1048：建造熊"
+
+attribution:
+  article: "SCP-1048"
+  author: "Andrew E."
+  source_url: "http://scp-wiki.wikidot.com/scp-1048"
+  license: "CC BY-SA 3.0"
+
+characters: [researcher-hana]
+
+panels:
+  - scene: >
+      A quiet concrete facility corridor. Dr. Hana walks along carrying a
+      stack of folders, glancing down in surprise as a small worn teddy
+      bear about knee-height peeks out from around the corner ahead of
+      her, its stitched button eyes fixed curiously on her.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-left
+        tail: down-right
+        text:
+          ja: "あら、こんにちは。"
+          en: "Oh... hello there."
+          cs: "Ale, ahoj."
+          de: "Oh... hallo."
+          es: "Oh... hola."
+          fr: "Oh... bonjour toi."
+          it: "Oh... ciao."
+          ko: "어, 안녕."
+          pl: "Ojej, cześć."
+          pt: "Oh... olá."
+          th: "โอ้ สวัสดีจ้ะ"
+          uk: "Ой... привіт."
+          vi: "Ồ... chào nhé."
+          zh: "哦，你好呀。"
+          zh_Hant: "哦，你好呀。"
+
+  - scene: >
+      The small teddy bear rushes forward and wraps both stubby arms
+      tightly around Dr. Hana's leg in an affectionate hug. Her folders
+      spill slightly as she looks down with a surprised, softening smile,
+      one hand reaching to pat the bear's head.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "きゃっ、かわいい！"
+          en: "Aww!"
+          cs: "Ále, jak roztomilé!"
+          de: "Ach, wie süß!"
+          es: "¡Ay, qué tierno!"
+          fr: "Oh, trop mignon !"
+          it: "Ohh, che tenero!"
+          ko: "어멋, 귀여워!"
+          pl: "Ojej, jaki słodki!"
+          pt: "Ai, que fofo!"
+          th: "โอ้โห น่ารักจัง!"
+          uk: "Ой, як мило!"
+          vi: "Ôi, dễ thương quá!"
+          zh: "哇，好可爱！"
+          zh_Hant: "哇，好可愛！"
+
+  - scene: >
+      The teddy bear proudly holds up a crumpled crayon drawing with both
+      paws, offering it to Dr. Hana. The drawing shows simple stick-figure
+      shapes. Dr. Hana crouches down, taking the drawing gently with both
+      hands, touched.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-right
+        tail: down-left
+        text:
+          ja: "私にくれるの？"
+          en: "For me?"
+          cs: "To je pro mě?"
+          de: "Für mich?"
+          es: "¿Es para mí?"
+          fr: "C'est pour moi ?"
+          it: "È per me?"
+          ko: "나 주는 거야?"
+          pl: "To dla mnie?"
+          pt: "É para mim?"
+          th: "ให้ฉันเหรอ?"
+          uk: "Це мені?"
+          vi: "Cho tôi à?"
+          zh: "这是给我的吗？"
+          zh_Hant: "這是給我的嗎？"
+
+  - scene: >
+      Dr. Hana's office corkboard, now decorated with the crayon drawing
+      pinned proudly at the center among official Foundation memos and
+      forms. Dr. Hana sits at her desk in the foreground, glancing back at
+      it with a warm, content smile.
+    characters: [researcher-hana]
+    bubbles:
+      - position: bottom-right
+        tail: up-left
+        text:
+          ja: "職場で一番の傑作ね。"
+          en: "Best decoration in the office."
+          cs: "Nejlepší výzdoba v kanceláři."
+          de: "Die beste Deko im Büro."
+          es: "La mejor decoración de la oficina."
+          fr: "La plus belle déco du bureau."
+          it: "La miglior decorazione dell'ufficio."
+          ko: "사무실 최고의 작품이야."
+          pl: "Najlepsza dekoracja w biurze."
+          pt: "A melhor decoração do escritório."
+          th: "ของประดับที่ดีที่สุดในออฟฟิศเลย"
+          uk: "Найкраща прикраса в офісі."
+          vi: "Món trang trí đẹp nhất văn phòng."
+          zh: "办公室里最棒的装饰品。"
+          zh_Hant: "辦公室裡最棒的裝飾品。"

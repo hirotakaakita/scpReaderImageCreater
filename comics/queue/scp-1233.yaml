@@ -1,0 +1,132 @@
+# SCP-1233「月の勇者」4コマ台本
+id: scp-1233
+
+title:
+  en: "SCP-1233: The Moon Champion"
+  ja: "SCP-1233：月の勇者"
+  cs: "SCP-1233: Měsíční šampion"
+  de: "SCP-1233: Der Mondchampion"
+  es: "SCP-1233: El Campeón de la Luna"
+  fr: "SCP-1233 : Le Champion de la Lune"
+  it: "SCP-1233: Il Campione della Luna"
+  ko: "SCP-1233: 달의 챔피언"
+  pl: "SCP-1233: Mistrz Księżyca"
+  pt: "SCP-1233: O Campeão da Lua"
+  th: "SCP-1233: จอมทัพแห่งดวงจันทร์"
+  uk: "SCP-1233: Місячний Чемпіон"
+  vi: "SCP-1233: Nhà Vô Địch Mặt Trăng"
+  zh: "SCP-1233：月之勇者"
+  zh_Hant: "SCP-1233：月之勇者"
+
+attribution:
+  article: "SCP-1233"
+  author: "CadaverCommander"
+  source_url: "http://scp-wiki.wikidot.com/scp-1233"
+  license: "CC BY-SA 3.0"
+
+characters: [researcher-hana]
+
+panels:
+  - scene: >
+      A facility hallway. A figure in a bulky vintage EMU-style spacesuit
+      with an opaque visor and a jetpack marches in dramatically, one fist
+      raised triumphantly in the air. Dr. Hana stands to the side with a
+      clipboard, watching with a deadpan, unimpressed expression.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-right
+        tail: down-left
+        text:
+          ja: "我は月の勇者なり！"
+          en: "I am the Moon Champion!"
+          cs: "Já jsem Měsíční šampion!"
+          de: "Ich bin der Mondchampion!"
+          es: "¡Soy el Campeón de la Luna!"
+          fr: "Je suis le Champion de la Lune !"
+          it: "Sono il Campione della Luna!"
+          ko: "나는 달의 챔피언이다!"
+          pl: "Jestem Mistrzem Księżyca!"
+          pt: "Eu sou o Campeão da Lua!"
+          th: "ข้าคือจอมทัพแห่งดวงจันทร์!"
+          uk: "Я — Місячний Чемпіон!"
+          vi: "Ta là Nhà Vô Địch Mặt Trăng!"
+          zh: "我乃月之勇者！"
+          zh_Hant: "我乃月之勇者！"
+
+  - scene: >
+      The spacesuited figure snaps a crisp, formal salute directly at a
+      humming vending machine in the hallway, standing at rigid attention
+      as if greeting a fellow soldier. Dr. Hana facepalms quietly in the
+      background.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-left
+        tail: down-right
+        text:
+          ja: "休め、戦友よ。"
+          en: "At ease, soldier."
+          cs: "Pohov, vojáku."
+          de: "Ruht euch aus, Soldat."
+          es: "Descansa, soldado."
+          fr: "Repos, soldat."
+          it: "Riposo, soldato."
+          ko: "쉬어, 전우여."
+          pl: "Spocznij, żołnierzu."
+          pt: "Descansar, soldado."
+          th: "ตามสบาย ทหาร"
+          uk: "Вільно, солдате."
+          vi: "Nghỉ, chiến hữu."
+          zh: "稍息，战友。"
+          zh_Hant: "稍息，戰友。"
+
+  - scene: >
+      In the break room, the spacesuited figure plants an ordinary pen
+      upright into a potted plant like a flag, striking a heroic pose with
+      one boot on a chair. Dr. Hana leans in the doorway, arms crossed,
+      watching with tired amusement.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "この休憩室は月王国の領土なり！"
+          en: "This break room is now Moon Kingdom territory!"
+          cs: "Tato jídelna je nyní území Měsíčního království!"
+          de: "Dieser Pausenraum gehört nun zum Mondreich!"
+          es: "¡Esta sala de descanso ahora es territorio del Reino Lunar!"
+          fr: "Cette salle de pause appartient au Royaume Lunaire !"
+          it: "Questa sala relax è ora territorio del Regno Lunare!"
+          ko: "이 휴게실은 이제 달 왕국의 영토다!"
+          pl: "Ten pokój socjalny należy teraz do Księżycowego Królestwa!"
+          pt: "Esta sala de descanso agora é território do Reino Lunar!"
+          th: "ห้องพักนี้เป็นดินแดนของอาณาจักรจันทราแล้ว!"
+          uk: "Ця кімната відпочинку тепер територія Місячного Королівства!"
+          vi: "Phòng nghỉ này giờ thuộc lãnh thổ Vương Quốc Mặt Trăng!"
+          zh: "这间休息室现属月之王国领土！"
+          zh_Hant: "這間休息室現屬月之王國領土！"
+
+  - scene: >
+      Dr. Hana stands in the break room doorway with arms still crossed
+      and a small resigned smile, watching the spacesuited figure proudly
+      posing beside the pen-flagged plant, clearly having given up trying
+      to make sense of the situation.
+    characters: [researcher-hana]
+    bubbles:
+      - position: bottom-left
+        tail: up-right
+        text:
+          ja: "…まあ、いいか。"
+          en: "...sure, why not."
+          cs: "…no, proč ne."
+          de: "…na gut, warum nicht."
+          es: "…bueno, ¿por qué no?"
+          fr: "…bon, pourquoi pas."
+          it: "…va bene, perché no."
+          ko: "…뭐, 어때."
+          pl: "…no, czemu nie."
+          pt: "…tá, tudo bem então."
+          th: "…ก็ได้ ทำไมจะไม่ได้"
+          uk: "…ну, чом би й ні."
+          vi: "…thôi được, sao cũng được."
+          zh: "…好吧，随便了。"
+          zh_Hant: "…好吧，隨便了。"

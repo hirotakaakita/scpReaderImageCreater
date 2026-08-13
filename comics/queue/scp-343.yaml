@@ -1,0 +1,130 @@
+# SCP-343「神様」4コマ台本
+id: scp-343
+
+title:
+  en: "SCP-343: God"
+  ja: "SCP-343：神様"
+  cs: "SCP-343: Bůh"
+  de: "SCP-343: Gott"
+  es: "SCP-343: Dios"
+  fr: "SCP-343 : Dieu"
+  it: "SCP-343: Dio"
+  ko: "SCP-343: 신"
+  pl: "SCP-343: Bóg"
+  pt: "SCP-343: Deus"
+  th: "SCP-343: พระเจ้า"
+  uk: "SCP-343: Бог"
+  vi: "SCP-343: Thượng Đế"
+  zh: "SCP-343：神"
+  zh_Hant: "SCP-343：神"
+
+attribution:
+  article: "SCP-343"
+  source_url: "http://scp-wiki.wikidot.com/scp-343"
+  license: "CC BY-SA 3.0"
+
+characters: [researcher-hana]
+
+panels:
+  - scene: >
+      A modest break room. Dr. Hana enters carrying an empty mug and
+      stops short, noticing a kindly elderly man with a gentle, faintly
+      glowing presence sitting calmly at the table, sipping tea with
+      perfect serenity, features soft and hard to quite focus on.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-left
+        tail: down-right
+        text:
+          ja: "あの…本当に、神様なんですか？"
+          en: "Um... are you really God?"
+          cs: "Ehm… jste vážně Bůh?"
+          de: "Äh... sind Sie wirklich Gott?"
+          es: "Eh... ¿de verdad eres Dios?"
+          fr: "Euh... vous êtes vraiment Dieu ?"
+          it: "Ehm... sei davvero Dio?"
+          ko: "저, 정말로 신이세요?"
+          pl: "Ech… naprawdę jesteś Bogiem?"
+          pt: "Hã... você é mesmo Deus?"
+          th: "เอ่อ...คุณคือพระเจ้าจริงๆเหรอ?"
+          uk: "Гм... ви справді Бог?"
+          vi: "Ơ... ngài thật sự là Thượng Đế à?"
+          zh: "呃……你真的是神吗？"
+          zh_Hant: "呃……你真的是神嗎？"
+
+  - scene: >
+      The elderly man smiles warmly and nods once, setting down his
+      teacup, radiating calm confidence without any drama, hands folded
+      politely on the table. Dr. Hana leans in, half-convinced, half-
+      amused.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-right
+        tail: down-left
+        text:
+          ja: "いかにも、その通りだよ。"
+          en: "Indeed I am, my child."
+          cs: "Ano, přesně tak, dítě mé."
+          de: "In der Tat, mein Kind."
+          es: "Así es, hija mía."
+          fr: "En effet, mon enfant."
+          it: "Esatto, figlia mia."
+          ko: "그렇단다, 얘야."
+          pl: "Owszem, dziecko moje."
+          pt: "De fato, minha filha."
+          th: "ใช่แล้วจ้ะ ลูกข้า"
+          uk: "Так і є, дитя моє."
+          vi: "Đúng vậy, con ạ."
+          zh: "正是如此，孩子。"
+          zh_Hant: "正是如此，孩子。"
+
+  - scene: >
+      The old man gives a small casual snap of his fingers over Dr. Hana's
+      empty mug, and it instantly fills to the brim with steaming fresh
+      coffee, a faint sparkle in the air. Dr. Hana watches, mug now
+      steaming, eyebrows raised in surprise.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "はい、できたてだよ。"
+          en: "There. Fresh and hot."
+          cs: "Tak. Čerstvá a horká."
+          de: "So. Frisch und heiß."
+          es: "Listo. Recién hecho y caliente."
+          fr: "Voilà. Frais et chaud."
+          it: "Ecco. Fresco e caldo."
+          ko: "자, 갓 내렸단다."
+          pl: "Proszę. Świeża i gorąca."
+          pt: "Pronto. Fresquinho e quente."
+          th: "นี่ไง สดใหม่และร้อนพอดี"
+          uk: "Ось. Свіжа і гаряча."
+          vi: "Đây. Nóng hổi vừa mới ra lò."
+          zh: "好了，新鲜滚烫。"
+          zh_Hant: "好了，新鮮滾燙。"
+
+  - scene: >
+      Dr. Hana sits down at the table across from the old man, sipping the
+      coffee contentedly with a small satisfied smile, while he continues
+      calmly sipping his own tea across from her, both perfectly relaxed.
+    characters: [researcher-hana]
+    bubbles:
+      - position: bottom-left
+        tail: up-right
+        text:
+          ja: "…なんか、便利ですね。"
+          en: "Well, that's convenient."
+          cs: "No, to je praktické."
+          de: "Nun, das ist praktisch."
+          es: "Bueno, eso es conveniente."
+          fr: "Bon, c'est pratique."
+          it: "Beh, che comodo."
+          ko: "…뭐, 편리하네요."
+          pl: "No, to wygodne."
+          pt: "Bem, isso é conveniente."
+          th: "…สะดวกดีเหมือนกันนะ"
+          uk: "Ну, це зручно."
+          vi: "…thế cũng tiện đấy."
+          zh: "…还挺方便的嘛。"
+          zh_Hant: "…還挺方便的嘛。"

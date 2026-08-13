@@ -1,0 +1,129 @@
+# SCP-1025「よくある病気の大百科」4コマ台本
+id: scp-1025
+
+title:
+  en: "SCP-1025: The Encyclopedia of Common Diseases"
+  ja: "SCP-1025：よくある病気の大百科"
+  cs: "SCP-1025: Encyklopedie běžných nemocí"
+  de: "SCP-1025: Die Enzyklopädie häufiger Krankheiten"
+  es: "SCP-1025: La Enciclopedia de Enfermedades Comunes"
+  fr: "SCP-1025 : L'Encyclopédie des Maladies Courantes"
+  it: "SCP-1025: L'Enciclopedia delle Malattie Comuni"
+  ko: "SCP-1025: 흔한 질병 백과사전"
+  pl: "SCP-1025: Encyklopedia Powszechnych Chorób"
+  pt: "SCP-1025: A Enciclopédia de Doenças Comuns"
+  th: "SCP-1025: สารานุกรมโรคทั่วไป"
+  uk: "SCP-1025: Енциклопедія Поширених Хвороб"
+  vi: "SCP-1025: Bách Khoa Toàn Thư Về Bệnh Thường Gặp"
+  zh: "SCP-1025：常见病百科全书"
+  zh_Hant: "SCP-1025：常見病百科全書"
+
+attribution:
+  article: "SCP-1025"
+  source_url: "http://scp-wiki.wikidot.com/scp-1025"
+  license: "CC BY-SA 3.0"
+
+characters: [researcher-hana]
+
+panels:
+  - scene: >
+      Dr. Hana sits at her desk during a quiet moment, idly flipping
+      through a thick hardcover book titled "The Encyclopedia of Common
+      Diseases," reading with mild curiosity, one finger tracing a line of
+      text on the open page.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "ふうん、『しゃっくり』…"
+          en: "Hm, 'common hiccups'..."
+          cs: "Hm, 'obyčejné škytavky'…"
+          de: "Hm, 'gewöhnlicher Schluckauf'…"
+          es: "Mm, 'hipo común'…"
+          fr: "Hmm, « hoquet ordinaire »…"
+          it: "Mmh, 'singhiozzo comune'…"
+          ko: "흠, '흔한 딸꾹질'…"
+          pl: "Hm, 'zwykła czkawka'…"
+          pt: "Hum, 'soluço comum'…"
+          th: "อืม 'อาการสะอึกทั่วไป'…"
+          uk: "Хм, 'звичайна гикавка'…"
+          vi: "Ừm, 'nấc cụt thông thường'…"
+          zh: "嗯，『常见的打嗝』…"
+          zh_Hant: "嗯，『常見的打嗝』…"
+
+  - scene: >
+      Dr. Hana suddenly jolts upright in her chair, one hand flying to her
+      own mouth, shoulders hiccuping visibly, eyes wide with surprise as
+      she stares down at the book in confused alarm.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-left
+        tail: down-right
+        text:
+          ja: "ひっく！な、なんで！？"
+          en: "*Hic*! Wait, why—"
+          cs: "*Ik*! Počkat, proč—"
+          de: "*Hicks*! Moment, wieso—"
+          es: "¡*Hip*! Espera, ¿por qué—?"
+          fr: "*Hips* ! Attends, pourquoi—"
+          it: "*Hic*! Aspetta, perché—"
+          ko: "딸꾹! 잠깐, 왜—"
+          pl: "*Czk*! Czekaj, dlaczego—"
+          pt: "*Soluço*! Espera, por quê—"
+          th: "สะอึก! เดี๋ยวนะ ทำไม—"
+          uk: "*Гик*! Стривай, чому—"
+          vi: "*Nấc*! Khoan, sao lại—"
+          zh: "打嗝！等等，为什么——"
+          zh_Hant: "打嗝！等等，為什麼——"
+
+  - scene: >
+      A concerned coworker leans into the office doorway, tilting his head
+      with a puzzled expression at Dr. Hana, who is still hiccuping and
+      pointing guiltily with one hand at the book lying open on her desk.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top-right
+        tail: down-left
+        text:
+          ja: "大丈夫？"
+          en: "Everything okay over there?"
+          cs: "Je tam všechno v pořádku?"
+          de: "Ist bei dir alles okay?"
+          es: "¿Todo bien por ahí?"
+          fr: "Tout va bien par ici ?"
+          it: "Tutto bene lì?"
+          ko: "거기 괜찮은 거야?"
+          pl: "Wszystko w porządku?"
+          pt: "Está tudo bem aí?"
+          th: "ตรงนั้นโอเคไหม?"
+          uk: "У тебе там все гаразд?"
+          vi: "Bên đó ổn không đấy?"
+          zh: "你那边还好吗？"
+          zh_Hant: "你那邊還好嗎？"
+
+  - scene: >
+      Both Dr. Hana and the coworker now stand hiccuping in unison,
+      shoulders jerking at the same time, staring at each other with wide
+      startled eyes while the encyclopedia sits closed on the desk between
+      them, comedic chaos in the small office.
+    characters: [researcher-hana]
+    bubbles:
+      - position: top
+        tail: down
+        text:
+          ja: "ひっく！あなたもなの！？"
+          en: "*Hic* You too?!"
+          cs: "*Ik* Ty taky?!"
+          de: "*Hicks* Du auch?!"
+          es: "*Hip* ¡¿Tú también?!"
+          fr: "*Hips* Toi aussi ?!"
+          it: "*Hic* Anche tu?!"
+          ko: "딸꾹! 너도야?!"
+          pl: "*Czk* Ty też?!"
+          pt: "*Soluço* Você também?!"
+          th: "สะอึก! เธอด้วยเหรอ!?"
+          uk: "*Гик* І ти теж?!"
+          vi: "*Nấc* Anh cũng vậy à?!"
+          zh: "打嗝！你也是！？"
+          zh_Hant: "打嗝！你也是！？"
