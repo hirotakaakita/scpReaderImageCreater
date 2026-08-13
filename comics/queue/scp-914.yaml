@@ -1,4 +1,7 @@
 # SCP-914「からくり精製機」4コマ台本
+# キャラにセリフは言わせない。各コマの絵は、そのコマのcaption（記事原文に近い引用）を
+# 視覚化する背景として機能させる。
+
 id: scp-914
 
 title:
@@ -34,159 +37,95 @@ panels:
       enormous intricate clockwork machine towers over the frame, filling
       most of the room with countless brass gears, pulleys, and pipes.
       Dr. Hana is small in the lower corner of the frame at its Intake
-      booth, holding a small chipped ceramic mug, reaching toward a
-      control panel with a dial labeled with settings from Rough to Very
-      Fine.
+      booth, holding a small chipped ceramic mug.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-914は、投入した物体を『精製』する大型のからくり装置である。設定はRough、Coarse、1:1、Fine、Very Fineの5段階。"
-      en: "SCP-914 is a large clockwork device that \"refines\" any object placed inside it. Settings range from Rough to Very Fine."
-      cs: "SCP-914 je velké hodinové zařízení, které „zjemňuje“ jakýkoli vložený předmět. Nastavení sahá od Hrubého po Velmi jemné."
-      de: "SCP-914 ist ein großes Uhrwerk, das jeden hineingelegten Gegenstand „verfeinert“. Die Einstellungen reichen von Grob bis Sehr fein."
-      es: "SCP-914 es un gran dispositivo de relojería que \"refina\" cualquier objeto colocado en su interior. Los ajustes van de Basto a Muy fino."
-      fr: "SCP-914 est un vaste mécanisme d'horlogerie qui « raffine » tout objet placé à l'intérieur. Les réglages vont de Grossier à Très fin."
-      it: "SCP-914 è un grande dispositivo a orologeria che \"raffina\" qualsiasi oggetto inserito. Le impostazioni vanno da Grezzo a Molto fine."
-      ko: "SCP-914는 내부에 넣은 물체를 '정제'하는 대형 시계태엽 장치이다. 설정은 거침부터 매우 정밀까지 5단계이다."
-      pl: "SCP-914 to duże urządzenie zegarowe, które „rafinuje” każdy włożony do niego przedmiot. Ustawienia sięgają od Zgrubnego po Bardzo dokładne."
-      pt: "SCP-914 é um grande dispositivo de relojoaria que \"refina\" qualquer objeto colocado em seu interior. Os ajustes vão de Bruto a Muito fino."
-      th: "SCP-914 คือเครื่องจักรนาฬิกาขนาดใหญ่ที่ 'กลั่นกรอง' วัตถุใดๆ ที่ใส่เข้าไป การตั้งค่ามีตั้งแต่หยาบไปจนถึงละเอียดมาก"
-      uk: "SCP-914 — великий годинниковий механізм, що «рафінує» будь-який вкладений об'єкт. Налаштування — від Грубого до Дуже тонкого."
-      vi: "SCP-914 là một cỗ máy đồng hồ lớn có khả năng 'tinh chế' bất kỳ vật thể nào được đặt vào trong. Các mức cài đặt từ Thô đến Rất tinh."
-      zh: "SCP-914是一台大型钟表装置，能够『精炼』放入其中的任何物体。档位从粗糙到极精细共五级。"
-      zh_Hant: "SCP-914是一台大型鐘錶裝置，能夠『精煉』放入其中的任何物體。檔位從粗糙到極精細共五級。"
-    bubbles:
-      - position: top
-        tail: down
-        text:
-          ja: "ちょっと直すだけよ…"
-          en: "Just a little touch-up..."
-          cs: "Jen malá oprava…"
-          de: "Nur eine kleine Reparatur…"
-          es: "Solo un pequeño arreglo…"
-          fr: "Juste une petite retouche…"
-          it: "Solo un piccolo ritocco…"
-          ko: "그냥 살짝 고치는 거야…"
-          pl: "Tylko mała naprawa…"
-          pt: "Só um pequeno reparo…"
-          th: "แค่ซ่อมนิดหน่อย…"
-          uk: "Просто трохи полагоджу…"
-          vi: "Chỉ sửa chút thôi…"
-          zh: "只是稍微修一下…"
-          zh_Hant: "只是稍微修一下…"
+      ja: "SCP-914は、時計仕掛けの機構で構成された大型の機械であり、単一のダイヤルを持つ制御盤に接続されている。"
+      en: "SCP-914 is a large machine constructed of clockwork mechanisms, connected to a control panel with a single input dial."
+      cs: "SCP-914 je velký stroj sestavený z hodinových mechanismů, napojený na ovládací panel s jedním vstupním ciferníkem."
+      de: "SCP-914 ist eine große Maschine aus Uhrwerkmechanismen, verbunden mit einem Bedienfeld mit einem einzigen Eingabewahlrad."
+      es: "SCP-914 es una gran máquina construida con mecanismos de relojería, conectada a un panel de control con un único dial de entrada."
+      fr: "SCP-914 est une grande machine constituée de mécanismes d'horlogerie, reliée à un panneau de contrôle doté d'un unique cadran d'entrée."
+      it: "SCP-914 è una grande macchina costruita con meccanismi a orologeria, collegata a un pannello di controllo con un'unica manopola di ingresso."
+      ko: "SCP-914는 시계태엽 기구로 구성된 대형 기계로, 단일 입력 다이얼이 달린 제어판에 연결되어 있다."
+      pl: "SCP-914 to duża maszyna zbudowana z mechanizmów zegarowych, połączona z panelem sterowania z pojedynczym pokrętłem wejściowym."
+      pt: "SCP-914 é uma grande máquina construída com mecanismos de relojoaria, conectada a um painel de controle com um único mostrador de entrada."
+      th: "SCP-914 คือเครื่องจักรขนาดใหญ่ที่สร้างจากกลไกนาฬิกา เชื่อมต่อกับแผงควบคุมที่มีปุ่มหมุนเพียงปุ่มเดียว"
+      uk: "SCP-914 — великий механізм, побудований із годинникових механізмів, з'єднаний із панеллю керування з єдиним вхідним диском."
+      vi: "SCP-914 là một cỗ máy lớn được cấu tạo từ các cơ chế đồng hồ, kết nối với bảng điều khiển có một núm vặn đầu vào duy nhất."
+      zh: "SCP-914是一台由钟表机构构成的大型机械，连接着一个只有一个输入旋钮的控制面板。"
+      zh_Hant: "SCP-914是一台由鐘錶機構構成的大型機械，連接著一個只有一個輸入旋鈕的控制面板。"
 
   - scene: >
-      Medium shot, waist-up, camera close behind Dr. Hana's shoulder
-      looking past her toward the machine. The clockwork machine roars to
-      life, gears spinning wildly, steam hissing from pipes, motion lines
-      showing the whole room shaking. Dr. Hana grips the control panel
-      with both hands, leaning back off-balance, eyes wide and hair
-      blown back by the vibration, clearly alarmed.
+      Close-up shot on the control panel itself, filling most of the frame.
+      Dr. Hana's hand grips a large brass dial mid-turn, surrounded by
+      dozens of small gauges and exposed gears. Her face is a small sliver
+      at the frame's edge, focused in concentration.
     characters: [researcher-hana]
     caption:
-      ja: "精製の結果は予測不能であり、生体を対象とした試験は原則禁止されている。"
-      en: "The outcome of refinement is unpredictable; testing on biological subjects is generally prohibited."
-      cs: "Výsledek zjemnění je nepředvídatelný; testování na biologických subjektech je zásadně zakázáno."
-      de: "Das Ergebnis der Verfeinerung ist unvorhersehbar; Tests an biologischen Subjekten sind grundsätzlich untersagt."
-      es: "El resultado del refinado es impredecible; las pruebas con sujetos biológicos están generalmente prohibidas."
-      fr: "Le résultat du raffinage est imprévisible ; les tests sur des sujets biologiques sont généralement interdits."
-      it: "L'esito della raffinazione è imprevedibile; i test su soggetti biologici sono generalmente vietati."
-      ko: "정제 결과는 예측 불가능하며, 생체 대상 실험은 원칙적으로 금지되어 있다."
-      pl: "Wynik rafinacji jest nieprzewidywalny; testy na obiektach biologicznych są zasadniczo zabronione."
-      pt: "O resultado do refino é imprevisível; testes em sujeitos biológicos são geralmente proibidos."
-      th: "ผลลัพธ์ของการกลั่นกรองนั้นคาดเดาไม่ได้ การทดสอบกับสิ่งมีชีวิตจึงถูกห้ามโดยหลักการ"
-      uk: "Результат рафінування непередбачуваний; тестування на біологічних об'єктах загалом заборонено."
-      vi: "Kết quả tinh chế là không thể đoán trước; việc thử nghiệm trên đối tượng sinh học nhìn chung bị cấm."
-      zh: "精炼的结果无法预测；原则上禁止以生物体为对象进行测试。"
-      zh_Hant: "精煉的結果無法預測；原則上禁止以生物體為對象進行測試。"
-    bubbles:
-      - position: top-left
-        tail: down-right
-        text:
-          ja: "な、なんか揺れてない…！？"
-          en: "It's... really shaking!"
-          cs: "Ono se to… hodně třese!"
-          de: "Es... zittert ziemlich stark!"
-          es: "¡Esto... tiembla mucho!"
-          fr: "Ça... tremble beaucoup !"
-          it: "Sta... tremando parecchio!"
-          ko: "이, 이거 많이 흔들리는데!"
-          pl: "To… mocno się trzęsie!"
-          pt: "Isso... está tremendo muito!"
-          th: "มัน... สั่นแรงมากเลย!"
-          uk: "Воно... сильно трясеться!"
-          vi: "Nó... rung dữ quá!"
-          zh: "这、这震得也太厉害了！"
-          zh_Hant: "這、這震得也太厉害了！"
+      ja: "ダイヤルはRough、Coarse、1:1、Fine、Very Fineの5段階のいずれかに設定できる。"
+      en: "The dial can be turned to one of five settings: Rough, Coarse, 1:1, Fine, or Very Fine."
+      cs: "Ciferník lze nastavit na jednu z pěti poloh: Hrubé, Nahrubo, 1:1, Jemné nebo Velmi jemné."
+      de: "Das Wahlrad lässt sich auf eine von fünf Stufen einstellen: Grob, Rau, 1:1, Fein oder Sehr fein."
+      es: "El dial puede ajustarse a uno de cinco niveles: Basto, Tosco, 1:1, Fino o Muy fino."
+      fr: "Le cadran peut être réglé sur l'un des cinq niveaux : Grossier, Brut, 1:1, Fin ou Très fin."
+      it: "La manopola può essere impostata su uno dei cinque livelli: Grezzo, Ruvido, 1:1, Fine o Molto fine."
+      ko: "다이얼은 거침, 조악함, 1:1, 정밀, 매우 정밀의 다섯 단계 중 하나로 설정할 수 있다."
+      pl: "Pokrętło można ustawić na jeden z pięciu poziomów: Zgrubny, Chropowaty, 1:1, Dokładny lub Bardzo dokładny."
+      pt: "O mostrador pode ser ajustado para um dos cinco níveis: Bruto, Grosseiro, 1:1, Fino ou Muito fino."
+      th: "ปุ่มหมุนสามารถตั้งค่าได้ 5 ระดับ ได้แก่ หยาบมาก หยาบ 1:1 ละเอียด หรือละเอียดมาก"
+      uk: "Диск можна встановити на одне з п'яти положень: Грубе, Черенове, 1:1, Тонке або Дуже тонке."
+      vi: "Núm vặn có thể xoay đến một trong năm mức: Thô nặng, Thô, 1:1, Tinh, hoặc Rất tinh."
+      zh: "旋钮可调至五档之一：粗糙、粗、1:1、精细或极精细。"
+      zh_Hant: "旋鈕可調至五檔之一：粗糙、粗、1:1、精細或極精細。"
 
   - scene: >
-      Close-up shot centered on the Output booth opening, the absurdly
-      over-engineered teacup filling most of the frame, covered in extra
-      tiny gears, needless spouts, miniature dials, and ornate handles on
-      every side. Dr. Hana's stunned, deadpan face with one eyebrow raised
-      is visible peeking in from the frame's edge, small in comparison.
+      Medium shot, dynamic diagonal composition. The Output booth door
+      hisses open in a burst of steam. Inside sits an absurdly
+      over-engineered teacup covered in extra tiny gears, needless spouts,
+      and ornate handles. Dr. Hana's stunned, deadpan face peeks in from
+      the frame's edge.
     characters: [researcher-hana]
     caption:
-      ja: "出力室から排出される物体は、投入時とは大きく異なる形状を取ることが多い。"
-      en: "Objects retrieved from the Output chamber often differ drastically in form from what was inserted."
-      cs: "Předměty vyjmuté z výstupní komory se svým tvarem často zásadně liší od toho, co bylo vloženo."
-      de: "Aus der Ausgabekammer entnommene Gegenstände unterscheiden sich in ihrer Form oft drastisch vom eingelegten Original."
-      es: "Los objetos recuperados de la cámara de salida suelen diferir drásticamente en forma del objeto insertado."
-      fr: "Les objets récupérés dans la chambre de sortie diffèrent souvent radicalement de l'objet inséré."
-      it: "Gli oggetti prelevati dalla camera di uscita spesso differiscono drasticamente nella forma da quanto inserito."
-      ko: "출력실에서 회수되는 물체는 투입 당시와 크게 다른 형태를 띠는 경우가 많다."
-      pl: "Przedmioty pobrane z komory wyjściowej często drastycznie różnią się kształtem od tego, co włożono."
-      pt: "Objetos retirados da câmara de saída frequentemente diferem drasticamente em forma do que foi inserido."
-      th: "วัตถุที่นำออกมาจากห้องส่งออกมักมีรูปทรงแตกต่างอย่างมากจากตอนที่ใส่เข้าไป"
-      uk: "Об'єкти, вилучені з вихідної камери, часто разюче відрізняються за формою від вкладених."
-      vi: "Các vật thể lấy ra từ buồng xuất thường có hình dạng khác biệt rõ rệt so với lúc đưa vào."
-      zh: "从输出室取出的物体，其形状通常与放入时大相径庭。"
-      zh_Hant: "從輸出室取出的物體，其形狀通常與放入時大相逕庭。"
-    bubbles:
-      - position: top
-        tail: down
-        text:
-          ja: "…頼んでないんだけど。"
-          en: "That's not what I asked for."
-          cs: "To jsem si nežádala."
-          de: "Das habe ich nicht verlangt."
-          es: "Eso no es lo que pedí."
-          fr: "Ce n'est pas ce que j'ai demandé."
-          it: "Non è quello che ho chiesto."
-          ko: "이런 거 부탁한 적 없는데."
-          pl: "Nie o to prosiłam."
-          pt: "Não foi isso que eu pedi."
-          th: "ฉันไม่ได้ขอแบบนี้นะ"
-          uk: "Я не про це просила."
-          vi: "Tôi đâu có yêu cầu vậy."
-          zh: "我可没要求这个。"
-          zh_Hant: "我可沒要求這個。"
+      ja: "精製処理の結果は設定によって異なり、必ずしも予測可能ではない。"
+      en: "The outcome of the refining process differs depending on the setting used, and is not entirely predictable."
+      cs: "Výsledek procesu zjemňování se liší podle použitého nastavení a není zcela předvídatelný."
+      de: "Das Ergebnis des Verfeinerungsprozesses variiert je nach verwendeter Einstellung und ist nicht vollständig vorhersehbar."
+      es: "El resultado del proceso de refinado varía según el ajuste utilizado y no es totalmente predecible."
+      fr: "Le résultat du processus de raffinage varie selon le réglage utilisé et n'est pas entièrement prévisible."
+      it: "L'esito del processo di raffinazione varia a seconda dell'impostazione utilizzata e non è del tutto prevedibile."
+      ko: "정제 과정의 결과는 사용된 설정에 따라 달라지며, 완전히 예측 가능하지는 않다."
+      pl: "Wynik procesu rafinacji różni się w zależności od zastosowanego ustawienia i nie jest w pełni przewidywalny."
+      pt: "O resultado do processo de refino varia conforme o ajuste utilizado e não é totalmente previsível."
+      th: "ผลลัพธ์ของกระบวนการกลั่นกรองจะแตกต่างกันไปตามการตั้งค่าที่ใช้ และไม่สามารถคาดเดาได้ทั้งหมด"
+      uk: "Результат процесу рафінування залежить від використаного налаштування і не є повністю передбачуваним."
+      vi: "Kết quả của quá trình tinh chế thay đổi tùy theo mức cài đặt được sử dụng và không hoàn toàn có thể đoán trước."
+      zh: "精炼过程的结果因所用档位而异，并非完全可以预测。"
+      zh_Hant: "精煉過程的結果因所用檔位而異，並非完全可以預測。"
 
   - scene: >
-      Wide shot, full body, eye level, showing Dr. Hana's whole office
-      desk and chair from a slight side angle. She leans back in her
-      chair holding the ridiculous over-engineered teacup up to the
-      light at arm's length, examining its many tiny gears with a tired
-      but faintly amused half-smile, one foot propped against the desk.
+      Wide shot, full body, eye level, showing Dr. Hana's whole office desk
+      and chair from a slight side angle. She leans back in her chair
+      holding the ridiculous over-engineered teacup up to the light at
+      arm's length, examining its many tiny gears with a tired but
+      faintly amused half-smile.
     characters: [researcher-hana]
-    bubbles:
-      - position: top-right
-        tail: down-left
-        text:
-          ja: "…まあ、世界に一つね。"
-          en: "...well, it's one of a kind."
-          cs: "…no, aspoň je originální."
-          de: "…nun, es ist einzigartig."
-          es: "…bueno, es única en su tipo."
-          fr: "…bon, au moins c'est unique."
-          it: "…beh, è un pezzo unico."
-          ko: "…뭐, 세상에 하나뿐이네."
-          pl: "…no, przynajmniej unikat."
-          pt: "…bem, é única no mundo."
-          th: "…ก็นะ มันมีชิ้นเดียวในโลก"
-          uk: "…ну, вона хоч унікальна."
-          vi: "…thôi thì, có một không hai."
-          zh: "…算了，独一无二嘛。"
-          zh_Hant: "…算了，獨一無二嘛。"
+    caption:
+      ja: "SCP-914の操作は、正式な申請書を提出しサイト司令部の承認を得た職員のみに許可されている。"
+      en: "Only personnel who submit a formal request and receive approval from site command may operate SCP-914."
+      cs: "Obsluhovat SCP-914 smí pouze personál, který podá formální žádost a obdrží schválení od velitelství areálu."
+      de: "Nur Personal, das einen formellen Antrag stellt und die Genehmigung der Standortleitung erhält, darf SCP-914 bedienen."
+      es: "Solo el personal que presente una solicitud formal y reciba la aprobación del comando del sitio puede operar SCP-914."
+      fr: "Seul le personnel ayant soumis une demande formelle et reçu l'approbation du commandement du site peut faire fonctionner SCP-914."
+      it: "Solo il personale che presenta una richiesta formale e riceve l'approvazione del comando del sito può azionare SCP-914."
+      ko: "정식 신청서를 제출하고 사이트 사령부의 승인을 받은 직원만이 SCP-914를 조작할 수 있다."
+      pl: "Obsługiwać SCP-914 może wyłącznie personel, który złoży formalny wniosek i otrzyma zgodę dowództwa placówki."
+      pt: "Somente pessoal que apresente uma solicitação formal e receba aprovação do comando do local pode operar SCP-914."
+      th: "มีเพียงเจ้าหน้าที่ที่ยื่นคำร้องอย่างเป็นทางการและได้รับอนุมัติจากหน่วยบัญชาการไซต์เท่านั้นที่สามารถควบคุม SCP-914 ได้"
+      uk: "Керувати SCP-914 дозволено лише персоналу, який подав офіційний запит і отримав схвалення командування об'єкта."
+      vi: "Chỉ những nhân viên nộp đơn yêu cầu chính thức và được sự chấp thuận của ban chỉ huy cơ sở mới được phép vận hành SCP-914."
+      zh: "只有提交正式申请并获得站点指挥部批准的人员，才能操作SCP-914。"
+      zh_Hant: "只有提交正式申請並獲得站點指揮部批准的人員，才能操作SCP-914。"
 
 addendum:
   ja: "補遺914-1：Very Fine設定での精製結果に、明確な法則性は確認されていない。"

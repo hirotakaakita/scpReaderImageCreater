@@ -1,4 +1,6 @@
 # SCP-105「アイリス」4コマ台本
+# キャラにセリフは言わせない。captionは記事本文からの引用。
+
 id: scp-105
 
 title:
@@ -34,158 +36,95 @@ panels:
       from a corner angle. A colleague holds up an old-style Polaroid
       photograph showing a storage room shelf, pinning it to a corkboard
       on the wall as Dr. Hana glances over from her desk on the other
-      side of the room, a stapler visible near her keyboard.
+      side of the room.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-105-Bは1982年製のポラロイドカメラである。撮影者本人（SCP-105）以外には何ら異常のない機材として作動する。"
-      en: "SCP-105-B is a Polaroid camera manufactured in 1982. It functions as an ordinary camera for anyone other than SCP-105 herself."
-      cs: "SCP-105-B je polaroidový fotoaparát vyrobený v roce 1982. Pro kohokoli jiného než SCP-105 funguje jako běžný fotoaparát."
-      de: "SCP-105-B ist eine 1982 hergestellte Polaroidkamera. Für jeden außer SCP-105 selbst funktioniert sie wie eine gewöhnliche Kamera."
-      es: "SCP-105-B es una cámara Polaroid fabricada en 1982. Funciona como una cámara normal para cualquiera que no sea la propia SCP-105."
-      fr: "SCP-105-B est un appareil Polaroid fabriqué en 1982. Il fonctionne comme un appareil ordinaire pour quiconque hormis SCP-105 elle-même."
-      it: "SCP-105-B è una fotocamera Polaroid prodotta nel 1982. Funziona come una normale fotocamera per chiunque tranne SCP-105 stessa."
-      ko: "SCP-105-B는 1982년에 제조된 폴라로이드 카메라이다. SCP-105 본인 외의 사람에게는 평범한 카메라로 작동한다."
-      pl: "SCP-105-B to aparat Polaroid wyprodukowany w 1982 roku. Dla każdego poza samą SCP-105 działa jak zwykły aparat."
-      pt: "SCP-105-B é uma câmera Polaroid fabricada em 1982. Funciona como uma câmera comum para qualquer pessoa exceto a própria SCP-105."
-      th: "SCP-105-B คือกล้องโพลารอยด์ที่ผลิตขึ้นในปี 1982 มันทำงานเหมือนกล้องธรรมดาสำหรับทุกคน ยกเว้น SCP-105 เอง"
-      uk: "SCP-105-B — фотокамера Polaroid, виготовлена 1982 року. Для будь-кого, крім самої SCP-105, вона працює як звичайна камера."
-      vi: "SCP-105-B là máy ảnh Polaroid sản xuất năm 1982. Nó hoạt động như một máy ảnh bình thường đối với bất kỳ ai ngoại trừ chính SCP-105."
-      zh: "SCP-105-B是一台1982年生产的宝丽来相机。对SCP-105本人以外的任何人而言，它都只是一台普通相机。"
-      zh_Hant: "SCP-105-B是一台1982年生產的寶麗來相機。對SCP-105本人以外的任何人而言，它都只是一台普通相機。"
-    bubbles:
-      - position: top-left
-        tail: down-right
-        text:
-          ja: "これ、今日の倉庫の写真です。"
-          en: "This is today's storage room."
-          cs: "Tohle je dnešní sklad."
-          de: "Das ist das heutige Lager."
-          es: "Esta es la bodega de hoy."
-          fr: "Voici la réserve d'aujourd'hui."
-          it: "Questo è il magazzino di oggi."
-          ko: "오늘 창고 사진이에요."
-          pl: "To dzisiejszy magazyn."
-          pt: "Este é o depósito de hoje."
-          th: "นี่คือคลังของวันนี้"
-          uk: "Це сьогоднішній склад."
-          vi: "Đây là kho hàng hôm nay."
-          zh: "这是今天的仓库。"
-          zh_Hant: "這是今天的倉庫。"
+      ja: "SCP-105（旧名アイリス・トンプソン）は白人女性であり、その生理機能は通常の人間と見分けがつかない。"
+      en: "SCP-105 (formerly known as Iris Thompson) is a female human; her physiology is indistinguishable from that of a normal human being."
+      cs: "SCP-105 (dříve známá jako Iris Thompsonová) je lidská žena; její fyziologie je k nerozeznání od běžného člověka."
+      de: "SCP-105 (früher bekannt als Iris Thompson) ist eine menschliche Frau; ihre Physiologie ist von der eines gewöhnlichen Menschen nicht zu unterscheiden."
+      es: "SCP-105 (antes conocida como Iris Thompson) es una mujer humana; su fisiología es indistinguible de la de un ser humano normal."
+      fr: "SCP-105 (anciennement connue sous le nom d'Iris Thompson) est une femme humaine ; sa physiologie est indiscernable de celle d'un être humain ordinaire."
+      it: "SCP-105 (in precedenza nota come Iris Thompson) è una donna umana; la sua fisiologia è indistinguibile da quella di un normale essere umano."
+      ko: "SCP-105（구 명칭 아이리스 톰슨）는 인간 여성이며, 그 생리 기능은 일반적인 인간과 구별되지 않는다."
+      pl: "SCP-105 (dawniej znana jako Iris Thompson) jest kobietą; jej fizjologia jest nieodróżnialna od fizjologii zwykłego człowieka."
+      pt: "SCP-105 (anteriormente conhecida como Iris Thompson) é uma mulher humana; sua fisiologia é indistinguível da de um ser humano normal."
+      th: "SCP-105 (เดิมชื่อไอริส ทอมป์สัน) คือมนุษย์เพศหญิง สรีรวิทยาของเธอไม่ต่างจากมนุษย์ทั่วไปแต่อย่างใด"
+      uk: "SCP-105 (раніше відома як Айріс Томпсон) — жінка; її фізіологія не відрізняється від фізіології звичайної людини."
+      vi: "SCP-105 (trước đây được biết đến với tên Iris Thompson) là một phụ nữ; sinh lý học của cô không thể phân biệt được với một con người bình thường."
+      zh: "SCP-105（原名爱瑞丝·汤普森）是一名女性人类；她的生理机能与普通人无异。"
+      zh_Hant: "SCP-105（原名愛瑞絲·湯普森）是一名女性人類；她的生理機能與普通人無異。"
 
   - scene: >
       Close-up shot centered on the corkboard and photograph, filling
       most of the frame: a pale disembodied female hand emerges straight
       out of the flat surface of the pinned photograph, fingers wiggling
       in the air. Dr. Hana's shocked face with huge eyes is a small
-      sliver at the frame's edge, pointing at it.
+      sliver at the frame's edge.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-105がSCP-105-Bで撮影した写真を保持すると、写真は撮影地点の実時間映像へと変化する。"
-      en: "When SCP-105 holds a photograph taken with SCP-105-B, the image transforms into a real-time view of the location shown."
-      cs: "Když SCP-105 drží fotografii pořízenou pomocí SCP-105-B, obraz se promění v obraz místa v reálném čase."
-      de: "Hält SCP-105 ein mit SCP-105-B aufgenommenes Foto, verwandelt sich das Bild in eine Echtzeitansicht des gezeigten Ortes."
-      es: "Cuando SCP-105 sostiene una fotografía tomada con SCP-105-B, la imagen se transforma en una vista en tiempo real del lugar mostrado."
-      fr: "Lorsque SCP-105 tient une photo prise avec SCP-105-B, l'image se transforme en une vue en temps réel du lieu représenté."
-      it: "Quando SCP-105 tiene in mano una foto scattata con SCP-105-B, l'immagine si trasforma in una vista in tempo reale del luogo raffigurato."
-      ko: "SCP-105가 SCP-105-B로 찍은 사진을 손에 들면, 그 사진은 촬영 장소의 실시간 영상으로 변화한다."
-      pl: "Gdy SCP-105 trzyma zdjęcie zrobione aparatem SCP-105-B, obraz zmienia się w widok danego miejsca w czasie rzeczywistym."
-      pt: "Quando SCP-105 segura uma fotografia tirada com SCP-105-B, a imagem se transforma em uma visão em tempo real do local mostrado."
-      th: "เมื่อ SCP-105 ถือภาพถ่ายที่ถ่ายด้วย SCP-105-B ภาพนั้นจะเปลี่ยนเป็นภาพเรียลไทม์ของสถานที่ที่ปรากฏ"
-      uk: "Коли SCP-105 тримає фотографію, зроблену SCP-105-B, зображення перетворюється на вигляд місця в реальному часі."
-      vi: "Khi SCP-105 cầm một bức ảnh chụp bằng SCP-105-B, hình ảnh sẽ chuyển thành cảnh quay trực tiếp của địa điểm được chụp."
-      zh: "当SCP-105持有用SCP-105-B拍摄的照片时，画面会转变为该地点的实时影像。"
-      zh_Hant: "當SCP-105持有用SCP-105-B拍攝的照片時，畫面會轉變為該地點的即時影像。"
-    bubbles:
-      - position: top
-        tail: down
-        text:
-          ja: "て、手ぇぇぇ！？"
-          en: "Wait, is that a HAND?!"
-          cs: "Počkat, to je RUKA?!"
-          de: "Moment, ist das eine HAND?!"
-          es: "¡¿Eso es una MANO?!"
-          fr: "Attends, c'est une MAIN ?!"
-          it: "Aspetta, quella è una MANO?!"
-          ko: "잠깐, 저거 손이야?!"
-          pl: "Czekaj, to jest DŁOŃ?!"
-          pt: "Espera, isso é uma MÃO?!"
-          th: "เดี๋ยว นั่นมันมือ!?"
-          uk: "Стривай, це РУКА?!"
-          vi: "Khoan, đó là BÀN TAY?!"
-          zh: "等等，那是一只手！？"
-          zh_Hant: "等等，那是一隻手！？"
+      ja: "SCP-105がSCP-105-Bで撮影した写真を保持すると、その写真は静止画から撮影地点の実時間映像へと変化する。"
+      en: "When SCP-105 holds a photograph taken by SCP-105-B, the image changes from a still photo to a real-time view of the location shown."
+      cs: "Když SCP-105 drží fotografii pořízenou pomocí SCP-105-B, snímek se změní ze statické fotografie na obraz místa v reálném čase."
+      de: "Hält SCP-105 ein mit SCP-105-B aufgenommenes Foto, wandelt sich das Bild von einem Standbild zu einer Echtzeitansicht des gezeigten Ortes."
+      es: "Cuando SCP-105 sostiene una fotografía tomada con SCP-105-B, la imagen pasa de ser una foto fija a una vista en tiempo real del lugar mostrado."
+      fr: "Lorsque SCP-105 tient une photo prise avec SCP-105-B, l'image passe d'une photo fixe à une vue en temps réel du lieu représenté."
+      it: "Quando SCP-105 tiene in mano una foto scattata con SCP-105-B, l'immagine passa da una foto statica a una vista in tempo reale del luogo raffigurato."
+      ko: "SCP-105가 SCP-105-B로 찍은 사진을 손에 들면, 그 사진은 정지된 이미지에서 촬영 장소의 실시간 영상으로 변화한다."
+      pl: "Gdy SCP-105 trzyma zdjęcie zrobione aparatem SCP-105-B, obraz zmienia się z nieruchomego zdjęcia w widok danego miejsca w czasie rzeczywistym."
+      pt: "Quando SCP-105 segura uma fotografia tirada com SCP-105-B, a imagem passa de uma foto estática para uma visão em tempo real do local mostrado."
+      th: "เมื่อ SCP-105 ถือภาพถ่ายที่ถ่ายด้วย SCP-105-B ภาพนั้นจะเปลี่ยนจากภาพนิ่งเป็นภาพเรียลไทม์ของสถานที่ที่ปรากฏ"
+      uk: "Коли SCP-105 тримає фотографію, зроблену SCP-105-B, зображення перетворюється зі статичного знімка на вигляд місця в реальному часі."
+      vi: "Khi SCP-105 cầm một bức ảnh chụp bằng SCP-105-B, hình ảnh chuyển từ ảnh tĩnh sang cảnh quay trực tiếp của địa điểm được chụp."
+      zh: "当SCP-105持有用SCP-105-B拍摄的照片时，画面会从静止照片转变为该地点的实时影像。"
+      zh_Hant: "當SCP-105持有用SCP-105-B拍攝的照片時，畫面會從靜止照片轉變為該地點的即時影像。"
 
   - scene: >
       Medium shot, waist-up, dynamic diagonal composition spanning from
       the desk to the corkboard. The disembodied hand casually plucks the
       stapler off Dr. Hana's desk and pulls it smoothly back into the
-      flat surface of the photograph, the stapler vanishing as if sinking
-      into water. Dr. Hana lunges out of her chair, reaching too late,
-      mouth open.
+      flat surface of the photograph. Dr. Hana lunges out of her chair,
+      reaching too late, mouth open.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-105は当該写真を通じ、撮影地点にある物体へ物理的に干渉することが可能である。目撃者は宙に浮かぶ片手のみを認識する。"
-      en: "Through such a photograph, SCP-105 can physically interact with objects at the depicted location; witnesses report only a disembodied hand."
-      cs: "Prostřednictvím takové fotografie může SCP-105 fyzicky manipulovat s předměty na zobrazeném místě; svědci hlásí pouze osamocenou ruku."
-      de: "Durch ein solches Foto kann SCP-105 physisch mit Objekten am gezeigten Ort interagieren; Zeugen berichten nur von einer körperlosen Hand."
-      es: "A través de tal fotografía, SCP-105 puede interactuar físicamente con objetos en el lugar mostrado; los testigos solo reportan una mano sin cuerpo."
-      fr: "Grâce à une telle photo, SCP-105 peut interagir physiquement avec des objets à l'endroit représenté ; les témoins ne signalent qu'une main désincarnée."
-      it: "Attraverso tale fotografia, SCP-105 può interagire fisicamente con oggetti nel luogo raffigurato; i testimoni riferiscono solo una mano incorporea."
-      ko: "SCP-105는 이러한 사진을 통해 사진 속 장소에 있는 물체와 물리적으로 상호작용할 수 있으며, 목격자는 허공에 뜬 손 하나만을 인지한다."
-      pl: "Za pomocą takiego zdjęcia SCP-105 może fizycznie oddziaływać na przedmioty w przedstawionym miejscu; świadkowie zgłaszają jedynie bezcielesną dłoń."
-      pt: "Através dessa fotografia, SCP-105 pode interagir fisicamente com objetos no local retratado; testemunhas relatam apenas uma mão desencarnada."
-      th: "ผ่านภาพถ่ายดังกล่าว SCP-105 สามารถมีปฏิสัมพันธ์ทางกายภาพกับวัตถุในสถานที่นั้นได้ พยานรายงานว่าเห็นเพียงมือที่ลอยอยู่กลางอากาศ"
-      uk: "Через таку фотографію SCP-105 може фізично взаємодіяти з об'єктами у зображеному місці; свідки повідомляють лише про безтілесну руку."
-      vi: "Thông qua bức ảnh đó, SCP-105 có thể tương tác vật lý với các vật thể tại địa điểm được chụp; nhân chứng chỉ ghi nhận một bàn tay vô hình."
-      zh: "SCP-105可以透过该照片对拍摄地点的物体进行物理干涉；目击者只能看到一只悬空的手。"
-      zh_Hant: "SCP-105可以透過該照片對拍攝地點的物體進行物理干涉；目擊者只能看到一隻懸空的手。"
-    bubbles:
-      - position: top-right
-        tail: down-left
-        text:
-          ja: "あっ、それ私のホチキス！"
-          en: "Hey, that's my stapler!"
-          cs: "Hej, to je moje sešívačka!"
-          de: "Hey, das ist mein Tacker!"
-          es: "¡Oye, esa es mi grapadora!"
-          fr: "Hé, c'est mon agrafeuse !"
-          it: "Ehi, quella è la mia cucitrice!"
-          ko: "야, 그거 내 스테이플러야!"
-          pl: "Hej, to mój zszywacz!"
-          pt: "Ei, esse é meu grampeador!"
-          th: "เฮ้ นั่นแม็กเย็บกระดาษฉันนะ!"
-          uk: "Гей, це мій степлер!"
-          vi: "Ê, đó là cái bấm kim của tôi!"
-          zh: "喂，那是我的订书机！"
-          zh_Hant: "喂，那是我的釘書機！"
+      ja: "SCP-105は写真を通じ、撮影地点の届く範囲にある物体を操作することができる。"
+      en: "SCP-105 is able to reach through the photograph and manipulate objects within reach of the original point where it was taken."
+      cs: "SCP-105 dokáže sáhnout skrze fotografii a manipulovat s předměty v dosahu původního místa, kde byla pořízena."
+      de: "SCP-105 kann durch das Foto hindurchgreifen und Gegenstände in Reichweite des ursprünglichen Aufnahmeortes manipulieren."
+      es: "SCP-105 es capaz de introducir la mano a través de la fotografía y manipular objetos al alcance del punto original donde fue tomada."
+      fr: "SCP-105 est capable de passer la main à travers la photographie et de manipuler des objets à portée du point d'origine où elle a été prise."
+      it: "SCP-105 è in grado di allungare la mano attraverso la fotografia e manipolare oggetti alla portata del punto originale in cui è stata scattata."
+      ko: "SCP-105는 사진을 통해 손을 뻗어, 촬영 지점 근처에 있는 물체를 조작할 수 있다."
+      pl: "SCP-105 potrafi sięgnąć przez fotografię i manipulować przedmiotami w zasięgu pierwotnego miejsca, w którym została zrobiona."
+      pt: "SCP-105 é capaz de estender a mão através da fotografia e manipular objetos ao alcance do ponto original onde foi tirada."
+      th: "SCP-105 สามารถยื่นมือผ่านภาพถ่ายเพื่อจัดการกับวัตถุที่อยู่ในระยะเอื้อมถึงจากจุดที่ถ่ายภาพเดิมได้"
+      uk: "SCP-105 здатна простягнути руку крізь фотографію та маніпулювати об'єктами в межах досяжності від початкової точки зйомки."
+      vi: "SCP-105 có thể đưa tay xuyên qua bức ảnh và điều khiển các vật thể trong tầm với của địa điểm gốc nơi bức ảnh được chụp."
+      zh: "SCP-105能够将手伸入照片之中，操纵拍摄地点触手可及范围内的物体。"
+      zh_Hant: "SCP-105能夠將手伸入照片之中，操縱拍攝地點觸手可及範圍內的物體。"
 
   - scene: >
       Wide shot, full body, eye level, pulled back to show the whole
       office again. Dr. Hana leans back in her chair staring blankly at
       the small empty space on her desk where the stapler used to be,
-      arms crossed, one eyebrow raised in mild annoyance, while the
-      photograph on the corkboard across the room now looks perfectly
-      still and ordinary again.
+      arms crossed, one eyebrow raised in mild annoyance.
     characters: [researcher-hana]
-    bubbles:
-      - position: bottom
-        tail: up
-        text:
-          ja: "…新しいの、買わなきゃ。"
-          en: "...I need a new stapler."
-          cs: "…potřebuju novou sešívačku."
-          de: "…ich brauche einen neuen Tacker."
-          es: "…necesito una grapadora nueva."
-          fr: "…il me faut une nouvelle agrafeuse."
-          it: "…mi serve una nuova cucitrice."
-          ko: "…스테이플러 새로 사야겠다."
-          pl: "…potrzebuję nowego zszywacza."
-          pt: "…preciso de um grampeador novo."
-          th: "…ต้องซื้อแม็กเย็บกระดาษใหม่แล้ว"
-          uk: "…треба купити новий степлер."
-          vi: "…phải mua cái bấm kim mới rồi."
-          zh: "…看来得买个新订书机了。"
-          zh_Hant: "…看來得買個新釘書機了。"
+    caption:
+      ja: "SCP-105とSCP-105-B（あるいは他のカメラ）の接触は、現担当研究員の承認がある場合のみ許可される。"
+      en: "SCP-105 and SCP-105-B are only to be allowed contact with each other with the approval of the current managing researcher."
+      cs: "Kontakt mezi SCP-105 a SCP-105-B je povolen pouze se souhlasem aktuálně pověřeného výzkumníka."
+      de: "Kontakt zwischen SCP-105 und SCP-105-B ist nur mit Genehmigung des aktuell zuständigen Forschers gestattet."
+      es: "El contacto entre SCP-105 y SCP-105-B solo se permite con la aprobación del investigador a cargo en ese momento."
+      fr: "Le contact entre SCP-105 et SCP-105-B n'est autorisé qu'avec l'approbation du chercheur responsable en poste."
+      it: "Il contatto tra SCP-105 e SCP-105-B è consentito solo con l'approvazione del ricercatore responsabile in carica."
+      ko: "SCP-105와 SCP-105-B의 접촉은 현재 담당 연구원의 승인이 있을 때만 허용된다."
+      pl: "Kontakt między SCP-105 a SCP-105-B jest dozwolony wyłącznie za zgodą aktualnie odpowiedzialnego badacza."
+      pt: "O contato entre SCP-105 e SCP-105-B só é permitido com a aprovação do pesquisador responsável atual."
+      th: "การสัมผัสระหว่าง SCP-105 กับ SCP-105-B จะได้รับอนุญาตก็ต่อเมื่อได้รับการอนุมัติจากนักวิจัยผู้ดูแลในขณะนั้นเท่านั้น"
+      uk: "Контакт між SCP-105 та SCP-105-B дозволяється лише за схваленням поточного відповідального дослідника."
+      vi: "Sự tiếp xúc giữa SCP-105 và SCP-105-B chỉ được phép khi có sự chấp thuận của nhà nghiên cứu phụ trách hiện tại."
+      zh: "SCP-105与SCP-105-B之间的接触，仅在现任负责研究员批准的情况下方可进行。"
+      zh_Hant: "SCP-105與SCP-105-B之間的接觸，僅在現任負責研究員批准的情況下方可進行。"
 
 addendum:
   ja: "補遺105-1：SCP-105-Bの単独使用は許可されておらず、常に監督者の同伴が義務付けられている。"

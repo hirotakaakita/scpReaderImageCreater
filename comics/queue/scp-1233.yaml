@@ -1,4 +1,6 @@
 # SCP-1233「月の勇者」4コマ台本
+# キャラにセリフは言わせない。captionは記事本文からの引用。
+
 id: scp-1233
 
 title:
@@ -33,46 +35,26 @@ panels:
       Wide shot, full body, low angle looking up so the figure looms
       large, filling most of the long facility hallway. A figure in a
       bulky vintage EMU-style spacesuit with an opaque visor and a
-      jetpack marches in mid-stride, dramatically, one fist raised
-      triumphantly in the air. Dr. Hana is small in the corner of the
-      frame with a clipboard, watching with a deadpan, unimpressed
-      expression.
+      jetpack marches in mid-stride, one fist raised triumphantly in the
+      air. Dr. Hana is small in the corner of the frame with a clipboard,
+      watching with a deadpan, unimpressed expression.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-1233は与圧服型の装備を纏った人型実体であり、自らを『月の勇者』と称している。"
-      en: "SCP-1233 is a humanoid entity clad in pressurized spacesuit-like equipment, referring to itself as the \"Moon Champion.\""
-      cs: "SCP-1233 je humanoidní entita oděná do vybavení připomínajícího přetlakový skafandr, která se sama nazývá „Měsíční šampion“."
-      de: "SCP-1233 ist eine humanoide Entität in druckanzugähnlicher Ausrüstung, die sich selbst als „Mondchampion“ bezeichnet."
-      es: "SCP-1233 es una entidad humanoide vestida con un equipo similar a un traje espacial presurizado, que se refiere a sí misma como el 'Campeón de la Luna'."
-      fr: "SCP-1233 est une entité humanoïde vêtue d'un équipement semblable à une combinaison spatiale pressurisée, se désignant elle-même comme le « Champion de la Lune »."
-      it: "SCP-1233 è un'entità umanoide vestita con un'attrezzatura simile a una tuta spaziale pressurizzata, che si definisce il 'Campione della Luna'."
-      ko: "SCP-1233는 가압복형 장비를 착용한 인간형 실체로, 스스로를 '달의 챔피언'이라 칭한다."
-      pl: "SCP-1233 to humanoidalna istota odziana w sprzęt przypominający skafander ciśnieniowy, nazywająca siebie 'Mistrzem Księżyca'."
-      pt: "SCP-1233 é uma entidade humanoide vestida com equipamento semelhante a um traje espacial pressurizado, que se autodenomina o 'Campeão da Lua'."
-      th: "SCP-1233 คือสิ่งมีชีวิตรูปร่างคล้ายมนุษย์ที่สวมชุดคล้ายชุดอวกาศแรงดัน โดยเรียกตัวเองว่า 'จอมทัพแห่งดวงจันทร์'"
-      uk: "SCP-1233 — гуманоїдна сутність, вдягнена в екіпіровку на кшталт герметичного скафандра, яка називає себе «Місячним Чемпіоном»."
-      vi: "SCP-1233 là một thực thể hình người mặc trang bị giống bộ đồ vũ trụ có áp suất, tự xưng là 'Nhà Vô Địch Mặt Trăng'."
-      zh: "SCP-1233是一个身穿加压宇航服式装备的人形实体，自称为『月之勇者』。"
-      zh_Hant: "SCP-1233是一個身穿加壓太空衣式裝備的人形實體，自稱為『月之勇者』。"
-    bubbles:
-      - position: top-right
-        tail: down-left
-        text:
-          ja: "我は月の勇者なり！"
-          en: "I am the Moon Champion!"
-          cs: "Já jsem Měsíční šampion!"
-          de: "Ich bin der Mondchampion!"
-          es: "¡Soy el Campeón de la Luna!"
-          fr: "Je suis le Champion de la Lune !"
-          it: "Sono il Campione della Luna!"
-          ko: "나는 달의 챔피언이다!"
-          pl: "Jestem Mistrzem Księżyca!"
-          pt: "Eu sou o Campeão da Lua!"
-          th: "ข้าคือจอมทัพแห่งดวงจันทร์!"
-          uk: "Я — Місячний Чемпіон!"
-          vi: "Ta là Nhà Vô Địch Mặt Trăng!"
-          zh: "我乃月之勇者！"
-          zh_Hant: "我乃月之勇者！"
+      ja: "SCP-1233は、不透明なバイザーと推進用ジェットパックを備えた与圧服型の装備をまとった人型実体である。"
+      en: "SCP-1233 is a humanoid entity resembling an individual wearing an EMU-type spacesuit with an opaque visor and jetpack."
+      cs: "SCP-1233 je humanoidní entita připomínající osobu v přetlakovém skafandru typu EMU s neprůhledným hledím a tryskovým batohem."
+      de: "SCP-1233 ist eine humanoide Entität, die einer Person in einem druckanzugähnlichen EMU-Raumanzug mit undurchsichtigem Visier und Rückstoß-Rucksack ähnelt."
+      es: "SCP-1233 es una entidad humanoide que se asemeja a una persona con un traje espacial tipo EMU, visor opaco y mochila propulsora."
+      fr: "SCP-1233 est une entité humanoïde ressemblant à une personne portant une combinaison spatiale de type EMU avec visière opaque et propulseur dorsal."
+      it: "SCP-1233 è un'entità umanoide che assomiglia a una persona che indossa una tuta spaziale di tipo EMU con visiera opaca e zaino propulsore."
+      ko: "SCP-1233는 불투명한 바이저와 추진용 제트팩을 장착한 EMU형 우주복을 입은 사람처럼 보이는 인간형 실체이다."
+      pl: "SCP-1233 to humanoidalna istota przypominająca osobę w skafandrze kosmicznym typu EMU z nieprzezroczystą szybą i plecakiem odrzutowym."
+      pt: "SCP-1233 é uma entidade humanoide que se assemelha a uma pessoa usando um traje espacial tipo EMU com viseira opaca e mochila propulsora."
+      th: "SCP-1233 คือสิ่งมีชีวิตรูปร่างคล้ายมนุษย์ที่ดูเหมือนสวมชุดอวกาศแบบ EMU พร้อมกระจกบังหน้าทึบแสงและเจ็ตแพ็คขับเคลื่อน"
+      uk: "SCP-1233 — гуманоїдна сутність, схожа на людину в скафандрі типу EMU з непрозорим щитком і реактивним ранцем."
+      vi: "SCP-1233 là một thực thể hình người trông giống một cá nhân mặc bộ đồ vũ trụ kiểu EMU với tấm che mặt mờ đục và ba lô phản lực."
+      zh: "SCP-1233是一个外观酷似身穿EMU型加压宇航服、佩戴不透明面罩与喷气背包的人形实体。"
+      zh_Hant: "SCP-1233是一個外觀酷似身穿EMU型加壓太空衣、佩戴不透明面罩與噴氣背包的人形實體。"
 
   - scene: >
       Medium shot, waist-up, side-on composition with the vending machine
@@ -82,40 +64,21 @@ panels:
       soldier. Dr. Hana facepalms quietly in the background.
     characters: [researcher-hana]
     caption:
-      ja: "本オブジェクトの装備は、通常の宇宙服をはるかに超える耐久性を示すことが確認されている。"
-      en: "The object's equipment has demonstrated durability far exceeding that of a standard spacesuit."
-      cs: "Bylo prokázáno, že vybavení objektu má odolnost daleko přesahující běžný skafandr."
-      de: "Die Ausrüstung des Objekts hat eine Widerstandsfähigkeit gezeigt, die weit über die eines gewöhnlichen Raumanzugs hinausgeht."
-      es: "El equipo del objeto ha demostrado una durabilidad que supera con creces la de un traje espacial estándar."
-      fr: "L'équipement de l'objet a démontré une résistance bien supérieure à celle d'une combinaison spatiale standard."
-      it: "L'equipaggiamento dell'oggetto ha dimostrato una resistenza di gran lunga superiore a quella di una normale tuta spaziale."
-      ko: "본 오브젝트의 장비는 일반 우주복을 훨씬 능가하는 내구성을 보이는 것으로 확인되었다."
-      pl: "Wykazano, że wyposażenie obiektu ma wytrzymałość znacznie przewyższającą standardowy skafander kosmiczny."
-      pt: "O equipamento do objeto demonstrou durabilidade muito superior à de um traje espacial padrão."
-      th: "อุปกรณ์ของวัตถุนี้พิสูจน์แล้วว่ามีความทนทานเหนือกว่าชุดอวกาศมาตรฐานทั่วไปอย่างมาก"
-      uk: "Екіпіровка об'єкта продемонструвала міцність, що значно перевищує стандартний космічний скафандр."
-      vi: "Trang bị của vật thể đã cho thấy độ bền vượt xa một bộ đồ vũ trụ tiêu chuẩn."
-      zh: "已证实该对象的装备具有远超普通宇航服的耐久性。"
-      zh_Hant: "已證實該對象的裝備具有遠超普通太空衣的耐久性。"
-    bubbles:
-      - position: top-left
-        tail: down-right
-        text:
-          ja: "休め、戦友よ。"
-          en: "At ease, soldier."
-          cs: "Pohov, vojáku."
-          de: "Ruht euch aus, Soldat."
-          es: "Descansa, soldado."
-          fr: "Repos, soldat."
-          it: "Riposo, soldato."
-          ko: "쉬어, 전우여."
-          pl: "Spocznij, żołnierzu."
-          pt: "Descansar, soldado."
-          th: "ตามสบาย ทหาร"
-          uk: "Вільно, солдате."
-          vi: "Nghỉ, chiến hữu."
-          zh: "稍息，战友。"
-          zh_Hant: "稍息，戰友。"
+      ja: "SCP-1233は自らを『月の勇者、宇宙正義の守護者、悪の滅ぼす者』と称している。"
+      en: "SCP-1233 claims to be \"champion of the Moon, defender of space justice and destroyer of evil.\""
+      cs: "SCP-1233 se prohlašuje za „šampiona Měsíce, obránce vesmírné spravedlnosti a ničitele zla“."
+      de: "SCP-1233 gibt sich als „Champion des Mondes, Verteidiger der Weltraumgerechtigkeit und Vernichter des Bösen“ aus."
+      es: "SCP-1233 afirma ser el «campeón de la Luna, defensor de la justicia espacial y destructor del mal»."
+      fr: "SCP-1233 prétend être le « champion de la Lune, défenseur de la justice spatiale et destructeur du mal »."
+      it: "SCP-1233 afferma di essere il \"campione della Luna, difensore della giustizia spaziale e distruttore del male\"."
+      ko: "SCP-1233는 스스로를 '달의 챔피언, 우주 정의의 수호자, 악의 파괴자'라고 주장한다."
+      pl: "SCP-1233 twierdzi, że jest „mistrzem Księżyca, obrońcą kosmicznej sprawiedliwości i niszczycielem zła”."
+      pt: "SCP-1233 afirma ser o \"campeão da Lua, defensor da justiça espacial e destruidor do mal\"."
+      th: "SCP-1233 อ้างว่าตนคือ 'จอมทัพแห่งดวงจันทร์ ผู้พิทักษ์ความยุติธรรมแห่งอวกาศ และผู้ทำลายล้างความชั่วร้าย'"
+      uk: "SCP-1233 стверджує, що є «чемпіоном Місяця, захисником космічної справедливості та знищувачем зла»."
+      vi: "SCP-1233 tự nhận là \"nhà vô địch Mặt Trăng, người bảo vệ công lý vũ trụ và kẻ hủy diệt cái ác\"."
+      zh: "SCP-1233自称是『月之勇者、宇宙正义的守护者、邪恶的毁灭者』。"
+      zh_Hant: "SCP-1233自稱是『月之勇者、宇宙正義的守護者、邪惡的毀滅者』。"
 
   - scene: >
       Low angle close-up shot, camera near the potted plant looking up at
@@ -126,67 +89,44 @@ panels:
       amusement.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-1233は友好的だが極めて予測不能であり、接触した人員や施設に意図せぬ被害を及ぼすことがある。"
-      en: "SCP-1233 is cordial but highly unpredictable, and may cause unintended harm to personnel or facilities it encounters."
-      cs: "SCP-1233 je přátelský, ale velmi nevyzpytatelný a může neúmyslně poškodit personál či zařízení, se kterými přijde do styku."
-      de: "SCP-1233 ist zuvorkommend, aber äußerst unberechenbar und kann Personal oder Einrichtungen, auf die es trifft, unbeabsichtigt schaden."
-      es: "SCP-1233 es cordial pero muy impredecible, y puede causar daños involuntarios al personal o las instalaciones con las que se encuentre."
-      fr: "SCP-1233 est cordial mais extrêmement imprévisible, et peut causer des dommages involontaires au personnel ou aux installations qu'il rencontre."
-      it: "SCP-1233 è cordiale ma estremamente imprevedibile, e può causare danni involontari al personale o alle strutture che incontra."
-      ko: "SCP-1233는 우호적이지만 극도로 예측 불가능하며, 접촉하는 인원이나 시설에 의도치 않은 피해를 줄 수 있다."
-      pl: "SCP-1233 jest uprzejmy, ale wyjątkowo nieprzewidywalny i może nieumyślnie zaszkodzić personelowi lub obiektom, z którymi się zetknie."
-      pt: "SCP-1233 é cordial, mas extremamente imprevisível, podendo causar danos não intencionais à equipe ou instalações que encontra."
-      th: "SCP-1233 เป็นมิตรแต่คาดเดาไม่ได้อย่างยิ่ง และอาจก่อความเสียหายโดยไม่ตั้งใจต่อเจ้าหน้าที่หรือสถานที่ที่พบเจอ"
-      uk: "SCP-1233 доброзичливий, але вкрай непередбачуваний, і може ненавмисно завдати шкоди персоналу чи об'єктам, з якими стикається."
-      vi: "SCP-1233 thân thiện nhưng cực kỳ khó lường, và có thể vô tình gây hại cho nhân viên hoặc cơ sở mà nó gặp phải."
-      zh: "SCP-1233态度友善但极难预测，可能对接触到的人员或设施造成非蓄意的损害。"
-      zh_Hant: "SCP-1233態度友善但極難預測，可能對接觸到的人員或設施造成非蓄意的損害。"
-    bubbles:
-      - position: top
-        tail: down
-        text:
-          ja: "この休憩室は月王国の領土なり！"
-          en: "This break room is now Moon Kingdom territory!"
-          cs: "Tato jídelna je nyní území Měsíčního království!"
-          de: "Dieser Pausenraum gehört nun zum Mondreich!"
-          es: "¡Esta sala de descanso ahora es territorio del Reino Lunar!"
-          fr: "Cette salle de pause appartient au Royaume Lunaire !"
-          it: "Questa sala relax è ora territorio del Regno Lunare!"
-          ko: "이 휴게실은 이제 달 왕국의 영토다!"
-          pl: "Ten pokój socjalny należy teraz do Księżycowego Królestwa!"
-          pt: "Esta sala de descanso agora é território do Reino Lunar!"
-          th: "ห้องพักนี้เป็นดินแดนของอาณาจักรจันทราแล้ว!"
-          uk: "Ця кімната відпочинку тепер територія Місячного Королівства!"
-          vi: "Phòng nghỉ này giờ thuộc lãnh thổ Vương Quốc Mặt Trăng!"
-          zh: "这间休息室现属月之王国领土！"
-          zh_Hant: "這間休息室現屬月之王國領土！"
+      ja: "SCP-1233は、人類の文化についてより深く学ぶために地球へ来たと述べている。"
+      en: "SCP-1233 states it has come to Earth to learn more of human culture."
+      cs: "SCP-1233 uvádí, že přišel na Zemi, aby se dozvěděl více o lidské kultuře."
+      de: "SCP-1233 gibt an, zur Erde gekommen zu sein, um mehr über die menschliche Kultur zu erfahren."
+      es: "SCP-1233 afirma haber venido a la Tierra para aprender más sobre la cultura humana."
+      fr: "SCP-1233 déclare être venu sur Terre pour en apprendre davantage sur la culture humaine."
+      it: "SCP-1233 dichiara di essere venuto sulla Terra per conoscere meglio la cultura umana."
+      ko: "SCP-1233는 인간 문화를 더 배우기 위해 지구에 왔다고 말한다."
+      pl: "SCP-1233 twierdzi, że przybył na Ziemię, aby lepiej poznać ludzką kulturę."
+      pt: "SCP-1233 declara ter vindo à Terra para aprender mais sobre a cultura humana."
+      th: "SCP-1233 กล่าวว่าตนมายังโลกเพื่อเรียนรู้เกี่ยวกับวัฒนธรรมมนุษย์เพิ่มเติม"
+      uk: "SCP-1233 стверджує, що прибув на Землю, щоб більше дізнатися про людську культуру."
+      vi: "SCP-1233 tuyên bố rằng nó đến Trái Đất để tìm hiểu thêm về văn hóa con người."
+      zh: "SCP-1233表示自己来到地球是为了更多地了解人类文化。"
+      zh_Hant: "SCP-1233表示自己來到地球是為了更多地了解人類文化。"
 
   - scene: >
       Wide shot, full body, eye level, pulled back to show the whole
       break room. Dr. Hana stands in the doorway with arms still crossed
       and a small resigned smile, watching the spacesuited figure proudly
-      posing beside the pen-flagged plant across the room, clearly having
-      given up trying to make sense of the situation.
+      posing beside the pen-flagged plant across the room.
     characters: [researcher-hana]
-    bubbles:
-      - position: bottom-left
-        tail: up-right
-        text:
-          ja: "…まあ、いいか。"
-          en: "...sure, why not."
-          cs: "…no, proč ne."
-          de: "…na gut, warum nicht."
-          es: "…bueno, ¿por qué no?"
-          fr: "…bon, pourquoi pas."
-          it: "…va bene, perché no."
-          ko: "…뭐, 어때."
-          pl: "…no, czemu nie."
-          pt: "…tá, tudo bem então."
-          th: "…ก็ได้ ทำไมจะไม่ได้"
-          uk: "…ну, чом би й ні."
-          vi: "…thôi được, sao cũng được."
-          zh: "…好吧，随便了。"
-          zh_Hant: "…好吧，隨便了。"
+    caption:
+      ja: "その装備は標準的な宇宙服をはるかに超える耐久性を示しており、小火器・地雷・溶岩への完全な水没にも損傷は確認されていない。"
+      en: "The suit has shown durability far exceeding that of a standard spacesuit, withstanding small-arms fire, landmines, and even total submersion in magma without damage."
+      cs: "Skafandr vykazuje odolnost daleko přesahující běžný skafandr, vydržel palbu ze zbraní, miny i úplné ponoření do magmatu bez poškození."
+      de: "Der Anzug zeigt eine Widerstandsfähigkeit, die weit über die eines gewöhnlichen Raumanzugs hinausgeht, und übersteht Beschuss aus Handfeuerwaffen, Landminen und sogar vollständiges Eintauchen in Magma ohne Schaden."
+      es: "El traje ha demostrado una durabilidad que supera con creces la de un traje espacial estándar, resistiendo disparos de armas ligeras, minas terrestres e incluso la inmersión total en magma sin daños."
+      fr: "La combinaison a démontré une résistance bien supérieure à celle d'une combinaison spatiale standard, résistant aux tirs d'armes légères, aux mines terrestres et même à une immersion totale dans du magma sans dommage."
+      it: "La tuta ha dimostrato una resistenza di gran lunga superiore a quella di una normale tuta spaziale, resistendo a colpi di armi leggere, mine terrestri e persino alla totale immersione nel magma senza danni."
+      ko: "이 장비는 일반 우주복을 훨씬 능가하는 내구성을 보이며, 소화기 사격, 지뢰, 심지어 용암에 완전히 잠긴 상태에서도 손상 없이 버텨냈다."
+      pl: "Skafander wykazał wytrzymałość znacznie przewyższającą standardowy skafander kosmiczny, wytrzymując ostrzał z broni strzeleckiej, miny lądowe, a nawet całkowite zanurzenie w magmie bez uszkodzeń."
+      pt: "O traje demonstrou durabilidade muito superior à de um traje espacial padrão, resistindo a tiros de armas leves, minas terrestres e até imersão total em magma sem danos."
+      th: "ชุดนี้แสดงความทนทานเหนือกว่าชุดอวกาศมาตรฐานอย่างมาก ทนทั้งกระสุนปืนเล็ก ทุ่นระเบิด และแม้แต่การจมอยู่ในลาวาทั้งตัวโดยไม่เสียหาย"
+      uk: "Костюм продемонстрував міцність, що значно перевищує стандартний космічний скафандр, витримавши обстріл зі стрілецької зброї, наземні міни й навіть повне занурення в магму без пошкоджень."
+      vi: "Bộ đồ đã cho thấy độ bền vượt xa một bộ đồ vũ trụ tiêu chuẩn, chịu được hỏa lực vũ khí nhỏ, mìn, và thậm chí ngâm hoàn toàn trong dung nham mà không hư hại."
+      zh: "该装备展现出远超标准宇航服的耐久性，能承受轻武器射击、地雷，甚至完全浸入岩浆而不受损伤。"
+      zh_Hant: "該裝備展現出遠超標準太空衣的耐久性，能承受輕武器射擊、地雷，甚至完全浸入岩漿而不受損傷。"
 
 addendum:
   ja: "補遺1233-1：本オブジェクトへの積極的な攻撃は、これまでのところ有効な収容手段として確認されていない。"

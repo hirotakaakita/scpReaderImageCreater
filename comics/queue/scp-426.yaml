@@ -1,4 +1,7 @@
-# SCP-426「トースターの私」4コマ台本
+# SCP-426「わたしはトースター」4コマ台本
+# キャラにセリフは言わせない。captionは記事本文からの一人称の引用
+# （SCP-426自身が一人称で書いた記事という原文の特徴をそのまま活かす）。
+
 id: scp-426
 
 title:
@@ -33,86 +36,48 @@ panels:
       room from a corner angle. A plain metal toaster sits on a shelf with
       a small warning placard beside it. A young male intern in a
       Foundation polo shirt leans in curiously toward it, reading the
-      placard out loud, while Dr. Hana watches from a doorway across the
-      room with a mug in hand, unconcerned.
+      placard, while Dr. Hana watches from a doorway across the room with
+      a mug in hand, unconcerned.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-426は一見ごく普通のトースターである。ただし、これに言及する者は一人称で自らを指すようになる。"
-      en: "SCP-426 appears to be an ordinary toaster. However, anyone who refers to it begins speaking of themselves in the first person."
-      cs: "SCP-426 vypadá jako běžný topinkovač. Kdokoli se o něm zmíní, ale začne o sobě mluvit v první osobě."
-      de: "SCP-426 wirkt wie ein gewöhnlicher Toaster. Wer jedoch über ihn spricht, beginnt, von sich selbst in der ersten Person zu sprechen."
-      es: "SCP-426 parece una tostadora normal. Sin embargo, quien se refiere a él empieza a hablar de sí mismo en primera persona."
-      fr: "SCP-426 ressemble à un grille-pain ordinaire. Cependant, quiconque le mentionne commence à parler de lui-même à la première personne."
-      it: "SCP-426 sembra un normale tostapane. Tuttavia, chiunque lo nomini inizia a parlare di sé in prima persona."
-      ko: "SCP-426는 평범한 토스터처럼 보인다. 그러나 이를 언급하는 자는 자신을 1인칭으로 지칭하게 된다."
-      pl: "SCP-426 wygląda jak zwykły toster. Jednak każdy, kto o nim wspomina, zaczyna mówić o sobie w pierwszej osobie."
-      pt: "SCP-426 parece uma torradeira comum. No entanto, quem se refere a ele passa a falar de si mesmo em primeira pessoa."
-      th: "SCP-426 ดูเหมือนเครื่องปิ้งขนมปังธรรมดา แต่ผู้ใดที่กล่าวถึงมันจะเริ่มพูดถึงตัวเองในบุรุษที่หนึ่ง"
-      uk: "SCP-426 виглядає як звичайний тостер. Однак кожен, хто згадує про нього, починає говорити про себе від першої особи."
-      vi: "SCP-426 trông giống một chiếc máy nướng bánh bình thường. Tuy nhiên, ai nhắc đến nó sẽ bắt đầu nói về bản thân ở ngôi thứ nhất."
-      zh: "SCP-426看起来是一台普通的烤面包机。然而，任何提及它的人都会开始以第一人称称呼自己。"
-      zh_Hant: "SCP-426看起來是一台普通的烤麵包機。然而，任何提及它的人都會開始以第一人稱稱呼自己。"
-    bubbles:
-      - position: top-left
-        tail: down-right
-        text:
-          ja: "このトースター、なんだろ？"
-          en: "What's up with this toaster?"
-          cs: "Co je s tím topinkovačem?"
-          de: "Was ist mit diesem Toaster los?"
-          es: "¿Qué le pasa a esta tostadora?"
-          fr: "C'est quoi cette histoire de grille-pain ?"
-          it: "Cosa ha questo tostapane?"
-          ko: "이 토스터 뭐지?"
-          pl: "Co z tym tosterem?"
-          pt: "O que tem essa torradeira?"
-          th: "เครื่องปิ้งขนมปังนี่มันอะไรกัน?"
-          uk: "Що не так із цим тостером?"
-          vi: "Cái máy nướng bánh này sao vậy?"
-          zh: "这个烤面包机是怎么回事？"
-          zh_Hant: "這個烤麵包機是怎麼回事？"
+      ja: "『はじめまして、私はSCP-426です。電気を供給すればパンを焼くことができる、ごく普通のトースターです。』"
+      en: "\"Hello, I am SCP-426. I am an ordinary toaster, able to toast bread when supplied with electricity.\""
+      cs: "„Dobrý den, jsem SCP-426. Jsem obyčejný topinkovač, schopný opékat chléb, je-li mi dodána elektřina.“"
+      de: "„Hallo, ich bin SCP-426. Ich bin ein gewöhnlicher Toaster, der Brot toasten kann, wenn er mit Strom versorgt wird.“"
+      es: "«Hola, soy SCP-426. Soy una tostadora normal, capaz de tostar pan si se me suministra electricidad.»"
+      fr: "« Bonjour, je suis SCP-426. Je suis un grille-pain ordinaire, capable de griller du pain lorsqu'on m'alimente en électricité. »"
+      it: "\"Salve, sono SCP-426. Sono un normale tostapane, capace di tostare il pane se alimentato con elettricità.\""
+      ko: "「안녕하세요, 저는 SCP-426입니다. 전기가 공급되면 빵을 구울 수 있는 평범한 토스터입니다.」"
+      pl: "„Witam, jestem SCP-426. Jestem zwykłym tosterem, zdolnym opiekać chleb, gdy podłączony jest prąd.”"
+      pt: "\"Olá, eu sou SCP-426. Sou uma torradeira comum, capaz de torrar pão quando recebo eletricidade.\""
+      th: "'สวัสดี ฉันคือ SCP-426 ฉันเป็นเครื่องปิ้งขนมปังธรรมดาที่สามารถปิ้งขนมปังได้เมื่อได้รับกระแสไฟฟ้า'"
+      uk: "«Привіт, я SCP-426. Я звичайний тостер, здатний підсмажувати хліб, якщо мене підключити до електрики»."
+      vi: "\"Xin chào, tôi là SCP-426. Tôi là một chiếc máy nướng bánh bình thường, có thể nướng bánh mì khi được cấp điện.\""
+      zh: "『你好，我是SCP-426。我是一台普通的烤面包机，只要通电就能烤面包。』"
+      zh_Hant: "『你好，我是SCP-426。我是一台普通的烤麵包機，只要通電就能烤麵包。』"
 
   - scene: >
       Close-up shot centered tightly on the intern's face, filling most of
       the frame: a blank glassy stare, mouth slightly open, speaking in a
       flat monotone. Dr. Hana is small and out of focus in the background,
       eyes wide in alarm.
-    caption:
-      ja: "SCP-426に2ヶ月以上継続して接触した人物は、自身をトースターだと確信するようになる。"
-      en: "Individuals exposed to SCP-426 for over two months become convinced they themselves are toasters."
-      cs: "Osoby vystavené SCP-426 po dobu delší než dva měsíce se přesvědčí, že jsou samy topinkovačem."
-      de: "Personen, die SCP-426 länger als zwei Monate ausgesetzt sind, überzeugen sich davon, selbst ein Toaster zu sein."
-      es: "Las personas expuestas a SCP-426 durante más de dos meses se convencen de que ellas mismas son tostadoras."
-      fr: "Les personnes exposées à SCP-426 pendant plus de deux mois se convainquent d'être elles-mêmes un grille-pain."
-      it: "Le persone esposte a SCP-426 per oltre due mesi si convincono di essere loro stesse un tostapane."
-      ko: "SCP-426에 2개월 이상 노출된 인원은 스스로를 토스터라고 확신하게 된다."
-      pl: "Osoby narażone na SCP-426 przez ponad dwa miesiące zaczynają wierzyć, że same są tosterem."
-      pt: "Pessoas expostas a SCP-426 por mais de dois meses ficam convencidas de que elas mesmas são torradeiras."
-      th: "ผู้ที่สัมผัสกับ SCP-426 นานเกินสองเดือนจะเริ่มเชื่อว่าตนเองคือเครื่องปิ้งขนมปัง"
-      uk: "Особи, які контактують із SCP-426 понад два місяці, переконуються, що вони самі є тостером."
-      vi: "Những người tiếp xúc với SCP-426 hơn hai tháng sẽ tin rằng chính bản thân họ là một máy nướng bánh."
-      zh: "与SCP-426持续接触超过两个月的人员，会开始确信自己就是一台烤面包机。"
-      zh_Hant: "與SCP-426持續接觸超過兩個月的人員，會開始確信自己就是一台烤麵包機。"
     characters: [researcher-hana]
-    bubbles:
-      - position: top
-        tail: down
-        text:
-          ja: "…わたしは、トースターです。"
-          en: "I... am a toaster."
-          cs: "Já… jsem topinkovač."
-          de: "Ich... bin ein Toaster."
-          es: "Yo... soy una tostadora."
-          fr: "Je... suis un grille-pain."
-          it: "Io... sono un tostapane."
-          ko: "나는… 토스터입니다."
-          pl: "Ja… jestem tosterem."
-          pt: "Eu... sou uma torradeira."
-          th: "ฉัน...คือเครื่องปิ้งขนมปัง"
-          uk: "Я... тостер."
-          vi: "Tôi... là máy nướng bánh."
-          zh: "我……是一台烤面包机。"
-          zh_Hant: "我……是一台烤麵包機。"
+    caption:
+      ja: "私について言及した者は、無意識のうちに、私と同じく一人称で自分自身を語るようになる。"
+      en: "Anyone who mentions me will begin, unconsciously, to refer to themselves in the first person, as I do."
+      cs: "Kdokoli se o mně zmíní, začne o sobě nevědomky mluvit v první osobě, stejně jako já."
+      de: "Wer mich erwähnt, beginnt unbewusst, von sich selbst in der ersten Person zu sprechen, so wie ich es tue."
+      es: "Quien me mencione empezará, inconscientemente, a referirse a sí mismo en primera persona, tal como hago yo."
+      fr: "Quiconque me mentionne se met, inconsciemment, à parler de lui-même à la première personne, comme moi."
+      it: "Chiunque mi nomini inizierà, inconsciamente, a riferirsi a se stesso in prima persona, come faccio io."
+      ko: "나를 언급하는 자는 무의식중에, 나와 마찬가지로 자신을 1인칭으로 지칭하기 시작한다."
+      pl: "Każdy, kto o mnie wspomni, zacznie nieświadomie mówić o sobie w pierwszej osobie, tak jak ja."
+      pt: "Quem me mencionar passará, inconscientemente, a falar de si mesmo em primeira pessoa, como eu faço."
+      th: "ผู้ใดที่กล่าวถึงฉันจะเริ่มพูดถึงตัวเองในบุรุษที่หนึ่งโดยไม่รู้ตัว เหมือนที่ฉันทำ"
+      uk: "Кожен, хто згадує про мене, несвідомо починає говорити про себе від першої особи, як і я."
+      vi: "Bất kỳ ai nhắc đến tôi sẽ vô thức bắt đầu nói về bản thân ở ngôi thứ nhất, giống như tôi."
+      zh: "任何提及我的人，都会不自觉地开始以第一人称谈论自己，就像我一样。"
+      zh_Hant: "任何提及我的人，都會不自覺地開始以第一人稱談論自己，就像我一樣。"
 
   - scene: >
       Medium shot, waist-up, dynamic diagonal composition. The intern
@@ -123,68 +88,45 @@ panels:
       startled.
     characters: [researcher-hana]
     caption:
-      ja: "対象が自身をトースターとして扱う行動を強制的に制止しない限り、自傷の危険がある。"
-      en: "Unless physically restrained from acting on this belief, affected subjects risk self-harm."
-      cs: "Pokud není subjektu fyzicky zabráněno jednat podle této víry, hrozí mu sebepoškození."
-      de: "Wird der betroffene Subjekt nicht physisch daran gehindert, danach zu handeln, besteht die Gefahr der Selbstverletzung."
-      es: "A menos que se le impida físicamente actuar según esta creencia, el sujeto afectado corre riesgo de autolesionarse."
-      fr: "Sauf contrainte physique empêchant d'agir selon cette conviction, le sujet affecté risque de s'auto-mutiler."
-      it: "Se non fisicamente impedito dall'agire secondo questa convinzione, il soggetto rischia l'autolesionismo."
-      ko: "이러한 믿음에 따라 행동하지 못하도록 물리적으로 제지하지 않으면, 대상은 자해 위험이 있다."
-      pl: "Jeśli obiekt nie zostanie fizycznie powstrzymany przed działaniem zgodnie z tym przekonaniem, grozi mu samookaleczenie."
-      pt: "A menos que seja fisicamente impedido de agir conforme essa crença, o sujeito afetado corre risco de automutilação."
-      th: "หากไม่ถูกยับยั้งทางกายภาพจากความเชื่อนี้ ผู้ได้รับผลกระทบมีความเสี่ยงที่จะทำร้ายตนเอง"
-      uk: "Якщо суб'єкта фізично не стримати від дій відповідно до цього переконання, існує ризик самоушкодження."
-      vi: "Nếu không bị ngăn chặn về mặt vật lý khỏi hành động theo niềm tin này, đối tượng có nguy cơ tự làm hại bản thân."
-      zh: "若不以物理方式加以制止，受影响人员有自伤的风险。"
-      zh_Hant: "若不以物理方式加以制止，受影響人員有自傷的風險。"
-    bubbles:
-      - position: top-right
-        tail: down-left
-        text:
-          ja: "うわ、いつからそうなったの！？"
-          en: "Wait, since when?!"
-          cs: "Počkat, odkdy?!"
-          de: "Moment, seit wann?!"
-          es: "¡Espera, desde cuándo!"
-          fr: "Attends, depuis quand ?!"
-          it: "Aspetta, da quando?!"
-          ko: "잠깐, 언제부터 그런 거야?!"
-          pl: "Czekaj, odkąd?!"
-          pt: "Espera, desde quando?!"
-          th: "เดี๋ยวนะ ตั้งแต่เมื่อไหร่!?"
-          uk: "Зачекай, відколи?!"
-          vi: "Khoan, từ khi nào vậy?!"
-          zh: "等等，从什么时候开始的！？"
-          zh_Hant: "等等，從什麼時候開始的！？"
+      ja: "私の第二の効果による汚染を防ぐため、担当職員は毎月ローテーションで交代させること。"
+      en: "Assigned personnel are to be rotated out on a monthly basis to prevent contamination by my secondary effect."
+      cs: "Přidělený personál má být měsíčně střídán, aby se předešlo kontaminaci mým druhotným účinkem."
+      de: "Zugewiesenes Personal ist monatlich zu rotieren, um eine Kontamination durch meinen sekundären Effekt zu verhindern."
+      es: "El personal asignado debe rotarse mensualmente para evitar la contaminación por mi efecto secundario."
+      fr: "Le personnel affecté doit être remplacé chaque mois afin d'éviter toute contamination par mon effet secondaire."
+      it: "Il personale assegnato deve essere avvicendato mensilmente per prevenire la contaminazione dal mio effetto secondario."
+      ko: "나의 이차 효과로 인한 오염을 방지하기 위해, 배정된 직원은 매달 교대로 순환시켜야 한다."
+      pl: "Przydzielony personel należy rotować co miesiąc, aby zapobiec skażeniu moim wtórnym efektem."
+      pt: "O pessoal designado deve ser trocado mensalmente para evitar contaminação pelo meu efeito secundário."
+      th: "เจ้าหน้าที่ที่ได้รับมอบหมายจะต้องถูกหมุนเวียนทุกเดือนเพื่อป้องกันการปนเปื้อนจากผลกระทบรองของฉัน"
+      uk: "Призначений персонал слід щомісяця ротувати, щоб запобігти зараженню моїм вторинним ефектом."
+      vi: "Nhân viên được phân công phải được luân chuyển hàng tháng để ngăn ngừa nhiễm hiệu ứng thứ cấp của tôi."
+      zh: "为防止受到我的次生效应污染，指派的人员应每月轮换一次。"
+      zh_Hant: "為防止受到我的次生效應污染，指派的人員應每月輪換一次。"
 
   - scene: >
-      Wide shot, full body, viewed from inside the doorway looking out
-      into the corridor. Dr. Hana firmly drags the intern out of the
-      break room by the collar, both mid-stride, while pointing sternly
-      with her other hand at a large new sign taped to the door reading
-      nothing but a crossed-out toaster icon. The intern still has the
-      same vacant grin, arms limp and trailing behind him.
+      Wide shot, full body, viewed from inside the doorway looking out into
+      the corridor. Dr. Hana firmly drags the intern out of the break room
+      by the collar, both mid-stride, while pointing sternly with her
+      other hand at a large sign taped to the door with an unreadable
+      pictogram on it. The intern still has the same vacant grin.
     characters: [researcher-hana]
-    bubbles:
-      - position: bottom
-        tail: up
-        text:
-          ja: "第一の掟：説明書を読むな。"
-          en: "Rule one: don't read the label."
-          cs: "Pravidlo jedna: nečti ceduli."
-          de: "Regel eins: Schild nicht lesen."
-          es: "Regla uno: no leas la etiqueta."
-          fr: "Règle un : ne lis pas l'écriteau."
-          it: "Regola uno: non leggere il cartello."
-          ko: "규칙 첫째: 팻말 읽지 말기."
-          pl: "Zasada pierwsza: nie czytaj tabliczki."
-          pt: "Regra um: não leia a placa."
-          th: "กฎข้อหนึ่ง: ห้ามอ่านป้าย"
-          uk: "Правило перше: не читай напис."
-          vi: "Quy tắc một: đừng đọc bảng hiệu."
-          zh: "第一条规矩：别读那张告示。"
-          zh_Hant: "第一條規矩：別讀那張告示。"
+    caption:
+      ja: "私の収容室の扉には、私の識別名や正体とは無関係な表示のみを付けること。"
+      en: "The door to my chamber must have a label completely unrelated to my designation or identity."
+      cs: "Dveře do mé komory musí mít cedulku zcela nesouvisející s mým označením nebo identitou."
+      de: "Die Tür zu meiner Kammer muss ein Schild tragen, das in keinerlei Zusammenhang mit meiner Bezeichnung oder Identität steht."
+      es: "La puerta de mi cámara debe tener una etiqueta completamente ajena a mi designación o identidad."
+      fr: "La porte de ma chambre doit porter un écriteau totalement sans rapport avec ma désignation ou mon identité."
+      it: "La porta della mia camera deve recare un'etichetta del tutto estranea alla mia designazione o identità."
+      ko: "내 수용실 문에는 나의 지정 명칭이나 정체와는 전혀 무관한 표지만을 붙여야 한다."
+      pl: "Drzwi do mojej komory muszą mieć etykietę zupełnie niezwiązaną z moim oznaczeniem czy tożsamością."
+      pt: "A porta da minha câmara deve ter uma placa completamente sem relação com minha designação ou identidade."
+      th: "ประตูห้องกักกันของฉันต้องติดป้ายที่ไม่เกี่ยวข้องกับชื่อเรียกหรือตัวตนของฉันเลย"
+      uk: "На дверях моєї камери має бути напис, що не має жодного стосунку до мого позначення чи особистості."
+      vi: "Cửa buồng giam giữ tôi phải có bảng hiệu hoàn toàn không liên quan đến tên gọi hay danh tính của tôi."
+      zh: "我的收容室门上，只能张贴与我的编号或身份毫无关联的标示。"
+      zh_Hant: "我的收容室門上，只能張貼與我的編號或身份毫無關聯的標示。"
 
 addendum:
   ja: "補遺426-1：本オブジェクトの収容室には、その正体を示さない表示のみが許可されている。"

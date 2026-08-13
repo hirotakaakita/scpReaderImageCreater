@@ -1,4 +1,6 @@
 # SCP-529「ハーフキャットのジョジー」4コマ台本
+# キャラにセリフは言わせない。captionは記事本文からの引用。
+
 id: scp-529
 
 title:
@@ -33,158 +35,94 @@ panels:
       hallway. Dr. Hana crouches down to pet a small grey tabby cat whose
       body ends abruptly in a flat black cross-section just behind the
       ribcage, as if neatly sliced away, yet the cat sits and balances
-      completely normally. Dr. Hana smiles warmly, scratching behind its
-      ears.
-    caption:
-      ja: "SCP-529はグレーの縞模様を持つ家猫である。肋骨の後方から先の身体が存在しない。"
-      en: "SCP-529 is a grey tabby house cat. Its body is entirely absent from just behind the ribcage."
-      cs: "SCP-529 je šedý mourovatý domácí kocour. Jeho tělo zcela chybí od místa těsně za žebry."
-      de: "SCP-529 ist eine graue getigerte Hauskatze. Ihr Körper fehlt vollständig ab einer Stelle direkt hinter dem Brustkorb."
-      es: "SCP-529 es un gato doméstico atigrado gris. Su cuerpo está completamente ausente justo detrás de la caja torácica."
-      fr: "SCP-529 est un chat domestique tigré gris. Son corps est entièrement absent juste derrière la cage thoracique."
-      it: "SCP-529 è un gatto domestico tigrato grigio. Il suo corpo è completamente assente subito dietro la gabbia toracica."
-      ko: "SCP-529는 회색 줄무늬 집고양이이다. 갈비뼈 바로 뒤쪽부터 신체가 완전히 없다."
-      pl: "SCP-529 to szary kot domowy w prążki. Jego ciało całkowicie znika tuż za klatką piersiową."
-      pt: "SCP-529 é um gato doméstico tigrado cinza. Seu corpo está completamente ausente logo atrás da caixa torácica."
-      th: "SCP-529 คือแมวบ้านลายเสือสีเทา ร่างกายของมันหายไปทั้งหมดตั้งแต่บริเวณหลังซี่โครง"
-      uk: "SCP-529 — сірий смугастий домашній кіт. Його тіло повністю відсутнє одразу за грудною кліткою."
-      vi: "SCP-529 là một con mèo nhà vằn xám. Cơ thể nó hoàn toàn biến mất ngay phía sau lồng ngực."
-      zh: "SCP-529是一只灰色虎斑家猫。它的身体在肋骨后方完全缺失。"
-      zh_Hant: "SCP-529是一隻灰色虎斑家貓。牠的身體在肋骨後方完全缺失。"
+      completely normally.
     characters: [researcher-hana]
-    bubbles:
-      - position: top-left
-        tail: down-right
-        text:
-          ja: "ジョジー、いい子ね。"
-          en: "Hey Josie, good girl."
-          cs: "Ahoj Josie, hodná holka."
-          de: "Hallo Josie, braves Mädchen."
-          es: "Hola Josie, buena chica."
-          fr: "Salut Josie, gentille fille."
-          it: "Ciao Josie, brava ragazza."
-          ko: "조시, 착하지."
-          pl: "Cześć Josie, grzeczna dziewczynka."
-          pt: "Oi Josie, boa menina."
-          th: "ไง โจซี่ เด็กดี"
-          uk: "Привіт, Джосі, гарна дівчинка."
-          vi: "Chào Josie, ngoan lắm."
-          zh: "嗨，乔西，真乖。"
-          zh_Hant: "嗨，喬西，真乖。"
+    caption:
+      ja: "SCP-529は灰色の縞模様を持つ小型の家猫である。肋骨の後方にあたる部分が欠損しているように見える。"
+      en: "SCP-529 is a small house cat with grey tabby markings. Parts of the animal to the rear of the ribcage appear to be missing."
+      cs: "SCP-529 je malá domácí kočka se šedým mourovatým vzorem. Zdá se, že části zvířete za žebry chybí."
+      de: "SCP-529 ist eine kleine Hauskatze mit grauer Tigerung. Teile des Tieres hinter dem Brustkorb scheinen zu fehlen."
+      es: "SCP-529 es un pequeño gato doméstico con manchas atigradas grises. Partes del animal detrás de la caja torácica parecen faltar."
+      fr: "SCP-529 est un petit chat domestique au pelage tigré gris. Des parties de l'animal situées à l'arrière de la cage thoracique semblent manquantes."
+      it: "SCP-529 è un piccolo gatto domestico con macchie tigrate grigie. Parti dell'animale dietro la gabbia toracica sembrano mancanti."
+      ko: "SCP-529는 회색 줄무늬를 가진 작은 집고양이이다. 갈비뼈 뒤쪽에 해당하는 신체 부위가 없는 것으로 보인다."
+      pl: "SCP-529 to mały kot domowy w szare prążki. Części zwierzęcia znajdujące się za klatką piersiową wydają się nieobecne."
+      pt: "SCP-529 é um pequeno gato doméstico com pelagem tigrada cinza. Partes do animal atrás da caixa torácica parecem estar ausentes."
+      th: "SCP-529 คือแมวบ้านตัวเล็กลายเสือสีเทา ส่วนที่อยู่ด้านหลังซี่โครงของมันดูเหมือนจะหายไป"
+      uk: "SCP-529 — маленький домашній кіт із сірим смугастим забарвленням. Частини тіла тварини позаду грудної клітки, схоже, відсутні."
+      vi: "SCP-529 là một con mèo nhà nhỏ với đốm vằn xám. Các phần của con vật phía sau lồng ngực có vẻ như đã biến mất."
+      zh: "SCP-529是一只带有灰色虎斑纹的小型家猫。它肋骨后方的部分身体似乎缺失了。"
+      zh_Hant: "SCP-529是一隻帶有灰色虎斑紋的小型家貓。牠肋骨後方的部分身體似乎缺失了。"
 
   - scene: >
       Extreme close-up shot on the half-cat's face, filling almost the
       entire frame: ears perked and mouth open wide in an insistent meow,
       eyes fixed pointedly toward a cheese sandwich sticking out of a
       lunch bag blurred in the background. Dr. Hana's startled face is a
-      small sliver at the very edge of the frame, leaning back from the
-      intensity.
+      small sliver at the very edge of the frame.
     characters: [researcher-hana]
     caption:
-      ja: "身体欠損部の断面は完全な黒色を呈し、可視光以外の波長も吸収する。"
-      en: "The cross-section of the missing portion is pure black and absorbs wavelengths outside the visible spectrum."
-      cs: "Průřez chybějící části je zcela černý a pohlcuje i vlnové délky mimo viditelné spektrum."
-      de: "Der Querschnitt des fehlenden Teils ist vollkommen schwarz und absorbiert auch Wellenlängen außerhalb des sichtbaren Spektrums."
-      es: "La sección transversal de la parte faltante es de un negro puro y absorbe longitudes de onda fuera del espectro visible."
-      fr: "La section transversale de la partie manquante est d'un noir pur et absorbe des longueurs d'onde hors du spectre visible."
-      it: "La sezione trasversale della parte mancante è di un nero assoluto e assorbe lunghezze d'onda al di fuori dello spettro visibile."
-      ko: "결손 부위의 단면은 완전한 검은색을 띠며, 가시광선 외의 파장도 흡수한다."
-      pl: "Przekrój brakującej części jest całkowicie czarny i pochłania fale spoza widzialnego spektrum."
-      pt: "A seção transversal da parte ausente é de um preto absoluto e absorve comprimentos de onda fora do espectro visível."
-      th: "หน้าตัดของส่วนที่หายไปเป็นสีดำสนิทและดูดซับคลื่นความยาวคลื่นนอกช่วงแสงที่มองเห็นได้ด้วย"
-      uk: "Переріз відсутньої частини абсолютно чорний і поглинає хвилі поза видимим спектром."
-      vi: "Mặt cắt của phần bị thiếu có màu đen tuyệt đối và hấp thụ cả các bước sóng ngoài phổ khả kiến."
-      zh: "缺失部位的截面呈纯黑色，并能吸收可见光谱以外的波长。"
-      zh_Hant: "缺失部位的截面呈純黑色，並能吸收可見光譜以外的波長。"
-    bubbles:
-      - position: top
-        tail: down
-        text:
-          ja: "ニャアッ！（チーズ、今すぐ）"
-          en: "Meow!! (Cheese. Now.)"
-          cs: "Mňauu!! (Sýr. Hned.)"
-          de: "Miau!! (Käse. Sofort.)"
-          es: "¡¡Miau!! (Queso. Ya.)"
-          fr: "Miaou !! (Du fromage. Maintenant.)"
-          it: "Miao!! (Formaggio. Subito.)"
-          ko: "야옹!! (치즈. 지금.)"
-          pl: "Miau!! (Ser. Teraz.)"
-          pt: "Miau!! (Queijo. Agora.)"
-          th: "เมี้ยว!! (ชีส เดี๋ยวนี้)"
-          uk: "Няв!! (Сир. Негайно.)"
-          vi: "Meo!! (Phô mai. Ngay.)"
-          zh: "喵！！（芝士，马上。）"
-          zh_Hant: "喵！！（起司，馬上。）"
+      ja: "本個体に健康上の問題は無く、後半身がまだ存在するかのように振る舞う。"
+      en: "The animal has no health problems, and moves about as if its hindquarters were still in place."
+      cs: "Zvíře nemá žádné zdravotní problémy a pohybuje se, jako by mělo zadní část těla stále na místě."
+      de: "Das Tier hat keinerlei gesundheitliche Probleme und bewegt sich, als wäre sein Hinterteil noch vorhanden."
+      es: "El animal no presenta problemas de salud y se desplaza como si su parte trasera aún estuviera en su lugar."
+      fr: "L'animal ne présente aucun problème de santé et se déplace comme si son arrière-train était encore en place."
+      it: "L'animale non presenta problemi di salute e si muove come se il suo posteriore fosse ancora al suo posto."
+      ko: "본 동물은 건강상의 문제가 전혀 없으며, 마치 뒷몸이 그대로 있는 것처럼 움직인다."
+      pl: "Zwierzę nie ma żadnych problemów zdrowotnych i porusza się tak, jakby jego tylna część ciała wciąż była na miejscu."
+      pt: "O animal não apresenta problemas de saúde e se move como se sua traseira ainda estivesse em seu lugar."
+      th: "สัตว์ตัวนี้ไม่มีปัญหาสุขภาพใดๆ และเคลื่อนไหวราวกับว่าส่วนหลังของมันยังคงอยู่"
+      uk: "Тварина не має жодних проблем зі здоров'ям і рухається так, ніби її задня частина тіла все ще на місці."
+      vi: "Con vật không có vấn đề sức khỏe nào và di chuyển như thể phần thân sau của nó vẫn còn nguyên vẹn."
+      zh: "该动物没有任何健康问题，行动起来就像它的后半身仍然存在一样。"
+      zh_Hant: "該動物沒有任何健康問題，行動起來就像牠的後半身仍然存在一樣。"
 
   - scene: >
       Medium shot, waist-up, high angle looking down over Dr. Hana's
       shoulder toward the cat below. She kneels with a slightly nervous
       expression, carefully holding out a small slice of cheese between
-      two fingers toward the half-cat, arm extended cautiously as if
-      approaching something that might swipe at her.
+      two fingers toward the half-cat.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-529には健康上の問題は一切確認されていない。チーズの給餌を怠ると強い苦痛を示す。"
-      en: "No health issues have been identified in SCP-529. It exhibits severe distress if not regularly fed cheese."
-      cs: "U SCP-529 nebyly zjištěny žádné zdravotní potíže. Pokud mu není pravidelně podáván sýr, projevuje silné rozrušení."
-      de: "Bei SCP-529 wurden keine gesundheitlichen Probleme festgestellt. Ohne regelmäßige Käsefütterung zeigt es starke Unruhe."
-      es: "No se han identificado problemas de salud en SCP-529. Muestra una angustia severa si no se le da queso regularmente."
-      fr: "Aucun problème de santé n'a été identifié chez SCP-529. Il manifeste une grande détresse s'il n'est pas nourri régulièrement de fromage."
-      it: "Non sono stati riscontrati problemi di salute in SCP-529. Manifesta grave disagio se non viene nutrito regolarmente con formaggio."
-      ko: "SCP-529에서 건강상의 문제는 확인되지 않았다. 정기적으로 치즈를 급여하지 않으면 심한 불안 증세를 보인다."
-      pl: "U SCP-529 nie stwierdzono żadnych problemów zdrowotnych. Wykazuje silny niepokój, jeśli nie jest regularnie karmiony serem."
-      pt: "Nenhum problema de saúde foi identificado em SCP-529. Ele demonstra grande angústia se não receber queijo regularmente."
-      th: "ไม่พบปัญหาสุขภาพใดๆ ใน SCP-529 แต่จะแสดงอาการทุกข์ทรมานอย่างมากหากไม่ได้รับชีสเป็นประจำ"
-      uk: "У SCP-529 не виявлено жодних проблем зі здоров'ям. Виявляє сильний дистрес, якщо не отримує сир регулярно."
-      vi: "Không phát hiện vấn đề sức khỏe nào ở SCP-529. Nó tỏ ra vô cùng đau khổ nếu không được cho ăn phô mai thường xuyên."
-      zh: "SCP-529未发现任何健康问题。若不定期喂食芝士，它会表现出强烈的不安。"
-      zh_Hant: "SCP-529未發現任何健康問題。若不定期餵食起司，牠會表現出強烈的不安。"
-    bubbles:
-      - position: top-right
-        tail: down-left
-        text:
-          ja: "は、はい、チーズどうぞ…"
-          en: "O-okay, here's your cheese..."
-          cs: "D-dobře, tady máš sýr…"
-          de: "O-okay, hier ist dein Käse…"
-          es: "V-vale, aquí tienes tu queso…"
-          fr: "D-d'accord, voilà ton fromage…"
-          it: "V-va bene, ecco il tuo formaggio…"
-          ko: "아, 알았어, 치즈 여깄어…"
-          pl: "D-dobrze, oto twój ser…"
-          pt: "T-tá bom, aqui está seu queijo…"
-          th: "โ-โอเค นี่ชีสของเธอ…"
-          uk: "Г-гаразд, ось твій сир…"
-          vi: "Đ-được rồi, phô mai của cưng đây…"
-          zh: "好、好的，你的芝士…"
-          zh_Hant: "好、好的，你的起司…"
+      ja: "『ジョジー』には定期的にチーズを与える必要があり、不足すると強い苦痛を示す。"
+      en: "'Josie' must be provided with cheese regularly; she becomes distressed if not given sufficient cheese."
+      cs: "„Josie“ musí být pravidelně krmena sýrem; pokud jí není podáno dostatečné množství sýra, projevuje rozrušení."
+      de: "„Josie“ muss regelmäßig mit Käse versorgt werden; ohne ausreichend Käse zeigt sie Anzeichen von Unruhe."
+      es: "A «Josie» se le debe suministrar queso regularmente; se angustia si no recibe suficiente queso."
+      fr: "« Josie » doit recevoir du fromage régulièrement ; elle devient anxieuse si elle n'en reçoit pas assez."
+      it: "A \"Josie\" va fornito regolarmente del formaggio; manifesta disagio se non ne riceve a sufficienza."
+      ko: "'조시'에게는 정기적으로 치즈를 제공해야 하며, 충분히 주지 않으면 불안 증세를 보인다."
+      pl: "„Josie” należy regularnie podawać ser; wykazuje niepokój, jeśli nie dostaje go wystarczająco dużo."
+      pt: "\"Josie\" deve receber queijo regularmente; ela fica angustiada se não receber queijo suficiente."
+      th: "'โจซี่' ต้องได้รับชีสเป็นประจำ มิฉะนั้นเธอจะแสดงอาการทุกข์ทรมานหากได้รับไม่เพียงพอ"
+      uk: "«Джосі» потрібно регулярно давати сир; вона стає знервованою, якщо не отримує його достатньо."
+      vi: "\"Josie\" phải được cung cấp phô mai thường xuyên; nó sẽ trở nên đau khổ nếu không được ăn đủ phô mai."
+      zh: "必须定期为『乔西』提供芝士；如果给的芝士不够，它会表现出明显的不安。"
+      zh_Hant: "必須定期為『喬西』提供起司；如果給的起司不夠，牠會表現出明顯的不安。"
 
   - scene: >
       Wide shot, full body, eye level, pulled back to show the whole
       hallway. Dr. Hana sits sprawled on the floor, leaning back on her
-      hands with visible relief and legs stretched out, while the
-      half-cat happily nibbles the cheese in front of her, tail curled
-      contentedly, purring loudly.
+      hands with visible relief, while the half-cat happily nibbles the
+      cheese in front of her, tail curled contentedly, purring loudly.
     characters: [researcher-hana]
-    bubbles:
-      - position: bottom
-        tail: up
-        text:
-          ja: "…危機は去ったわ。"
-          en: "Crisis averted."
-          cs: "Krize zažehnána."
-          de: "Krise abgewendet."
-          es: "Crisis evitada."
-          fr: "Crise évitée."
-          it: "Crisi evitata."
-          ko: "위기는 넘겼네."
-          pl: "Kryzys zażegnany."
-          pt: "Crise evitada."
-          th: "รอดพ้นวิกฤตแล้ว"
-          uk: "Кризу відвернено."
-          vi: "Khủng hoảng đã qua."
-          zh: "危机解除了。"
-          zh_Hant: "危機解除了。"
+    caption:
+      ja: "『ジョジー』は非常に人懐こく、現段階では施設下層階を自由に移動することが許可されている。"
+      en: "'Josie' is quite affectionate, and is free to move about the lower levels of the facility."
+      cs: "„Josie“ je velmi přítulná a smí se volně pohybovat po nižších patrech zařízení."
+      de: "„Josie“ ist sehr anhänglich und darf sich frei in den unteren Ebenen der Einrichtung bewegen."
+      es: "«Josie» es muy cariñosa y tiene libertad para moverse por los niveles inferiores de las instalaciones."
+      fr: "« Josie » est très affectueuse et peut se déplacer librement dans les niveaux inférieurs de l'installation."
+      it: "\"Josie\" è molto affettuosa ed è libera di muoversi nei livelli inferiori della struttura."
+      ko: "'조시'는 매우 다정하며, 현재 시설 하층부를 자유롭게 이동하는 것이 허용되어 있다."
+      pl: "„Josie” jest bardzo przyjacielska i może swobodnie poruszać się po niższych poziomach placówki."
+      pt: "\"Josie\" é bastante afetuosa e tem liberdade para circular pelos níveis inferiores das instalações."
+      th: "'โจซี่' เป็นแมวที่ขี้อ้อนมาก และได้รับอนุญาตให้เดินเล่นอย่างอิสระในชั้นล่างของสถานที่"
+      uk: "«Джосі» дуже прив'язлива і може вільно пересуватися нижніми поверхами об'єкта."
+      vi: "\"Josie\" rất quấn quýt và được tự do di chuyển ở các tầng dưới của cơ sở."
+      zh: "『乔西』非常亲人，目前被允许在设施下层自由活动。"
+      zh_Hant: "『喬西』非常親人，目前被允許在設施下層自由活動。"
 
 addendum:
   ja: "補遺529-1：本オブジェクトへのチーズの供給停止は明確に禁止されている。"
