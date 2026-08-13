@@ -24,6 +24,8 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-1233"
   license: "CC BY-SA 3.0"
 
+object_class: Keter
+
 characters: [researcher-hana]
 
 panels:
@@ -33,6 +35,22 @@ panels:
       raised triumphantly in the air. Dr. Hana stands to the side with a
       clipboard, watching with a deadpan, unimpressed expression.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-1233は与圧服型の装備を纏った人型実体であり、自らを『月の勇者』と称している。"
+      en: "SCP-1233 is a humanoid entity clad in pressurized spacesuit-like equipment, referring to itself as the \"Moon Champion.\""
+      cs: "SCP-1233 je humanoidní entita oděná do vybavení připomínajícího přetlakový skafandr, která se sama nazývá „Měsíční šampion“."
+      de: "SCP-1233 ist eine humanoide Entität in druckanzugähnlicher Ausrüstung, die sich selbst als „Mondchampion“ bezeichnet."
+      es: "SCP-1233 es una entidad humanoide vestida con un equipo similar a un traje espacial presurizado, que se refiere a sí misma como el 'Campeón de la Luna'."
+      fr: "SCP-1233 est une entité humanoïde vêtue d'un équipement semblable à une combinaison spatiale pressurisée, se désignant elle-même comme le « Champion de la Lune »."
+      it: "SCP-1233 è un'entità umanoide vestita con un'attrezzatura simile a una tuta spaziale pressurizzata, che si definisce il 'Campione della Luna'."
+      ko: "SCP-1233는 가압복형 장비를 착용한 인간형 실체로, 스스로를 '달의 챔피언'이라 칭한다."
+      pl: "SCP-1233 to humanoidalna istota odziana w sprzęt przypominający skafander ciśnieniowy, nazywająca siebie 'Mistrzem Księżyca'."
+      pt: "SCP-1233 é uma entidade humanoide vestida com equipamento semelhante a um traje espacial pressurizado, que se autodenomina o 'Campeão da Lua'."
+      th: "SCP-1233 คือสิ่งมีชีวิตรูปร่างคล้ายมนุษย์ที่สวมชุดคล้ายชุดอวกาศแรงดัน โดยเรียกตัวเองว่า 'จอมทัพแห่งดวงจันทร์'"
+      uk: "SCP-1233 — гуманоїдна сутність, вдягнена в екіпіровку на кшталт герметичного скафандра, яка називає себе «Місячним Чемпіоном»."
+      vi: "SCP-1233 là một thực thể hình người mặc trang bị giống bộ đồ vũ trụ có áp suất, tự xưng là 'Nhà Vô Địch Mặt Trăng'."
+      zh: "SCP-1233是一个身穿加压宇航服式装备的人形实体，自称为『月之勇者』。"
+      zh_Hant: "SCP-1233是一個身穿加壓太空衣式裝備的人形實體，自稱為『月之勇者』。"
     bubbles:
       - position: top-right
         tail: down-left
@@ -59,6 +77,22 @@ panels:
       as if greeting a fellow soldier. Dr. Hana facepalms quietly in the
       background.
     characters: [researcher-hana]
+    caption:
+      ja: "本オブジェクトの装備は、通常の宇宙服をはるかに超える耐久性を示すことが確認されている。"
+      en: "The object's equipment has demonstrated durability far exceeding that of a standard spacesuit."
+      cs: "Bylo prokázáno, že vybavení objektu má odolnost daleko přesahující běžný skafandr."
+      de: "Die Ausrüstung des Objekts hat eine Widerstandsfähigkeit gezeigt, die weit über die eines gewöhnlichen Raumanzugs hinausgeht."
+      es: "El equipo del objeto ha demostrado una durabilidad que supera con creces la de un traje espacial estándar."
+      fr: "L'équipement de l'objet a démontré une résistance bien supérieure à celle d'une combinaison spatiale standard."
+      it: "L'equipaggiamento dell'oggetto ha dimostrato una resistenza di gran lunga superiore a quella di una normale tuta spaziale."
+      ko: "본 오브젝트의 장비는 일반 우주복을 훨씬 능가하는 내구성을 보이는 것으로 확인되었다."
+      pl: "Wykazano, że wyposażenie obiektu ma wytrzymałość znacznie przewyższającą standardowy skafander kosmiczny."
+      pt: "O equipamento do objeto demonstrou durabilidade muito superior à de um traje espacial padrão."
+      th: "อุปกรณ์ของวัตถุนี้พิสูจน์แล้วว่ามีความทนทานเหนือกว่าชุดอวกาศมาตรฐานทั่วไปอย่างมาก"
+      uk: "Екіпіровка об'єкта продемонструвала міцність, що значно перевищує стандартний космічний скафандр."
+      vi: "Trang bị của vật thể đã cho thấy độ bền vượt xa một bộ đồ vũ trụ tiêu chuẩn."
+      zh: "已证实该对象的装备具有远超普通宇航服的耐久性。"
+      zh_Hant: "已證實該對象的裝備具有遠超普通太空衣的耐久性。"
     bubbles:
       - position: top-left
         tail: down-right
@@ -85,6 +119,22 @@ panels:
       one boot on a chair. Dr. Hana leans in the doorway, arms crossed,
       watching with tired amusement.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-1233は友好的だが極めて予測不能であり、接触した人員や施設に意図せぬ被害を及ぼすことがある。"
+      en: "SCP-1233 is cordial but highly unpredictable, and may cause unintended harm to personnel or facilities it encounters."
+      cs: "SCP-1233 je přátelský, ale velmi nevyzpytatelný a může neúmyslně poškodit personál či zařízení, se kterými přijde do styku."
+      de: "SCP-1233 ist zuvorkommend, aber äußerst unberechenbar und kann Personal oder Einrichtungen, auf die es trifft, unbeabsichtigt schaden."
+      es: "SCP-1233 es cordial pero muy impredecible, y puede causar daños involuntarios al personal o las instalaciones con las que se encuentre."
+      fr: "SCP-1233 est cordial mais extrêmement imprévisible, et peut causer des dommages involontaires au personnel ou aux installations qu'il rencontre."
+      it: "SCP-1233 è cordiale ma estremamente imprevedibile, e può causare danni involontari al personale o alle strutture che incontra."
+      ko: "SCP-1233는 우호적이지만 극도로 예측 불가능하며, 접촉하는 인원이나 시설에 의도치 않은 피해를 줄 수 있다."
+      pl: "SCP-1233 jest uprzejmy, ale wyjątkowo nieprzewidywalny i może nieumyślnie zaszkodzić personelowi lub obiektom, z którymi się zetknie."
+      pt: "SCP-1233 é cordial, mas extremamente imprevisível, podendo causar danos não intencionais à equipe ou instalações que encontra."
+      th: "SCP-1233 เป็นมิตรแต่คาดเดาไม่ได้อย่างยิ่ง และอาจก่อความเสียหายโดยไม่ตั้งใจต่อเจ้าหน้าที่หรือสถานที่ที่พบเจอ"
+      uk: "SCP-1233 доброзичливий, але вкрай непередбачуваний, і може ненавмисно завдати шкоди персоналу чи об'єктам, з якими стикається."
+      vi: "SCP-1233 thân thiện nhưng cực kỳ khó lường, và có thể vô tình gây hại cho nhân viên hoặc cơ sở mà nó gặp phải."
+      zh: "SCP-1233态度友善但极难预测，可能对接触到的人员或设施造成非蓄意的损害。"
+      zh_Hant: "SCP-1233態度友善但極難預測，可能對接觸到的人員或設施造成非蓄意的損害。"
     bubbles:
       - position: top
         tail: down
@@ -130,3 +180,20 @@ panels:
           vi: "…thôi được, sao cũng được."
           zh: "…好吧，随便了。"
           zh_Hant: "…好吧，隨便了。"
+
+addendum:
+  ja: "補遺1233-1：本オブジェクトへの積極的な攻撃は、これまでのところ有効な収容手段として確認されていない。"
+  en: "Addendum 1233-1: Active hostile engagement with the object has not proven to be an effective containment method to date."
+  cs: "Dodatek 1233-1: Aktivní nepřátelský zásah proti objektu se dosud neprokázal jako účinná metoda zadržení."
+  de: "Anhang 1233-1: Aktive feindselige Konfrontation mit dem Objekt hat sich bislang nicht als wirksame Sicherungsmethode erwiesen."
+  es: "Adenda 1233-1: El enfrentamiento hostil activo con el objeto no ha demostrado ser un método de contención eficaz hasta la fecha."
+  fr: "Addendum 1233-1 : Un engagement hostile actif contre l'objet ne s'est pas révélé, à ce jour, être une méthode de confinement efficace."
+  it: "Addendum 1233-1: Un confronto ostile attivo con l'oggetto non si è finora dimostrato un metodo di contenimento efficace."
+  ko: "부록 1233-1: 본 오브젝트에 대한 적극적인 적대적 대응은 현재까지 유효한 수용 수단으로 확인되지 않았다."
+  pl: "Aneks 1233-1: Aktywne wrogie starcie z obiektem jak dotąd nie okazało się skuteczną metodą przetrzymywania."
+  pt: "Adendo 1233-1: O confronto hostil ativo com o objeto ainda não se mostrou um método de contenção eficaz até o momento."
+  th: "ภาคผนวก 1233-1: การเข้าปะทะอย่างรุนแรงกับวัตถุนี้ยังไม่พิสูจน์ว่าเป็นวิธีกักกันที่ได้ผลจนถึงปัจจุบัน"
+  uk: "Додаток 1233-1: Активна ворожа взаємодія з об'єктом досі не довела свою ефективність як метод утримання."
+  vi: "Phụ lục 1233-1: Việc chủ động đối đầu với vật thể này cho đến nay chưa được chứng minh là một phương pháp giam giữ hiệu quả."
+  zh: "补遗1233-1：截至目前，对该对象采取主动敌对行动尚未被证实为有效的收容手段。"
+  zh_Hant: "補遺1233-1：截至目前，對該對象採取主動敵對行動尚未被證實為有效的收容手段。"

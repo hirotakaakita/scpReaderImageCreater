@@ -23,6 +23,8 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-1025"
   license: "CC BY-SA 3.0"
 
+object_class: Safe
+
 characters: [researcher-hana]
 
 panels:
@@ -32,6 +34,22 @@ panels:
       Diseases," reading with mild curiosity, one finger tracing a line of
       text on the open page.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-1025は『よくある病気の大百科』と題された、約1500ページの書籍である。"
+      en: "SCP-1025 is a roughly 1,500-page book titled 'The Encyclopedia of Common Diseases.'"
+      cs: "SCP-1025 je kniha o zhruba 1500 stranách s názvem „Encyklopedie běžných nemocí“."
+      de: "SCP-1025 ist ein etwa 1500-seitiges Buch mit dem Titel „Die Enzyklopädie häufiger Krankheiten“."
+      es: "SCP-1025 es un libro de aproximadamente 1500 páginas titulado 'La Enciclopedia de Enfermedades Comunes'."
+      fr: "SCP-1025 est un livre d'environ 1500 pages intitulé « L'Encyclopédie des Maladies Courantes »."
+      it: "SCP-1025 è un libro di circa 1500 pagine intitolato 'L'Enciclopedia delle Malattie Comuni'."
+      ko: "SCP-1025는 약 1500페이지 분량의 책으로, 제목은 '흔한 질병 백과사전'이다."
+      pl: "SCP-1025 to licząca około 1500 stron książka zatytułowana 'Encyklopedia Powszechnych Chorób'."
+      pt: "SCP-1025 é um livro de aproximadamente 1500 páginas intitulado 'A Enciclopédia de Doenças Comuns'."
+      th: "SCP-1025 คือหนังสือความยาวประมาณ 1,500 หน้า ชื่อว่า 'สารานุกรมโรคทั่วไป'"
+      uk: "SCP-1025 — книга обсягом близько 1500 сторінок під назвою «Енциклопедія Поширених Хвороб»."
+      vi: "SCP-1025 là một cuốn sách dày khoảng 1.500 trang có tựa đề 'Bách Khoa Toàn Thư Về Bệnh Thường Gặp'."
+      zh: "SCP-1025是一本约1500页的书籍，书名为《常见病百科全书》。"
+      zh_Hant: "SCP-1025是一本約1500頁的書籍，書名為《常見病百科全書》。"
     bubbles:
       - position: top
         tail: down
@@ -57,6 +75,22 @@ panels:
       own mouth, shoulders hiccuping visibly, eyes wide with surprise as
       she stares down at the book in confused alarm.
     characters: [researcher-hana]
+    caption:
+      ja: "本を読んだ者は、記載された病気の症状を自らに自覚するようになる。"
+      en: "Readers of the book come to perceive in themselves the symptoms of whatever disease they have read about."
+      cs: "Čtenáři knihy u sebe začnou vnímat příznaky jakékoli nemoci, o níž si přečetli."
+      de: "Leser des Buches nehmen bei sich selbst die Symptome jeder gelesenen Krankheit wahr."
+      es: "Los lectores del libro comienzan a percibir en sí mismos los síntomas de cualquier enfermedad sobre la que hayan leído."
+      fr: "Les lecteurs du livre en viennent à percevoir en eux-mêmes les symptômes de toute maladie qu'ils ont lue."
+      it: "I lettori del libro iniziano a percepire in sé stessi i sintomi di qualunque malattia abbiano letto."
+      ko: "이 책을 읽은 사람은 자신이 읽은 질병의 증상을 스스로에게서 느끼게 된다."
+      pl: "Czytelnicy książki zaczynają odczuwać u siebie objawy każdej przeczytanej choroby."
+      pt: "Os leitores do livro passam a perceber em si mesmos os sintomas de qualquer doença sobre a qual leram."
+      th: "ผู้อ่านหนังสือเล่มนี้จะเริ่มรู้สึกถึงอาการของโรคที่ตนอ่านราวกับเป็นของตัวเอง"
+      uk: "Читачі книги починають відчувати в собі симптоми будь-якої хвороби, про яку прочитали."
+      vi: "Người đọc cuốn sách này bắt đầu cảm nhận trên chính mình các triệu chứng của bất kỳ căn bệnh nào họ đã đọc."
+      zh: "阅读此书的人，会开始在自己身上察觉到所读到疾病的症状。"
+      zh_Hant: "閱讀此書的人，會開始在自己身上察覺到所讀到疾病的症狀。"
     bubbles:
       - position: top-left
         tail: down-right
@@ -82,6 +116,22 @@ panels:
       with a puzzled expression at Dr. Hana, who is still hiccuping and
       pointing guiltily with one hand at the book lying open on her desk.
     characters: [researcher-hana]
+    caption:
+      ja: "本オブジェクトは生物学的危害物質ではなく、記述された症状への思い込みを誘発する記憶災害と判定されている。"
+      en: "The object has been determined not to be a biological hazard, but a memetic hazard inducing false belief in the described symptoms."
+      cs: "Bylo zjištěno, že objekt není biologickým nebezpečím, ale memetickým nebezpečím vyvolávajícím mylnou víru v popsané příznaky."
+      de: "Es wurde festgestellt, dass das Objekt keine biologische, sondern eine memetische Gefahr darstellt, die den falschen Glauben an die beschriebenen Symptome auslöst."
+      es: "Se ha determinado que el objeto no es un peligro biológico, sino un peligro memético que induce la falsa creencia en los síntomas descritos."
+      fr: "Il a été établi que l'objet n'est pas un danger biologique, mais un danger mémétique induisant une fausse croyance dans les symptômes décrits."
+      it: "È stato stabilito che l'oggetto non è un pericolo biologico, bensì un pericolo memetico che induce una falsa convinzione nei sintomi descritti."
+      ko: "본 오브젝트는 생물학적 위해가 아니라, 서술된 증상에 대한 잘못된 믿음을 유발하는 밈 재해로 판정되었다."
+      pl: "Ustalono, że obiekt nie stanowi zagrożenia biologicznego, lecz memetyczne, wywołujące fałszywe przekonanie o opisanych objawach."
+      pt: "Determinou-se que o objeto não é um perigo biológico, mas sim um perigo memético que induz a crença falsa nos sintomas descritos."
+      th: "วัตถุนี้ถูกระบุว่าไม่ใช่ภัยทางชีวภาพ แต่เป็นภัยเชิงมีมที่ก่อให้เกิดความเชื่อผิดๆ ต่ออาการที่บรรยายไว้"
+      uk: "Встановлено, що об'єкт є не біологічною, а меметичною небезпекою, яка викликає хибну віру в описані симптоми."
+      vi: "Vật thể được xác định không phải là mối nguy sinh học, mà là mối nguy meme gây ra niềm tin sai lệch về các triệu chứng được mô tả."
+      zh: "本对象被判定并非生物危害，而是一种诱发对所述症状产生错误认知的模因型危害。"
+      zh_Hant: "本對象被判定並非生物危害，而是一種誘發對所述症狀產生錯誤認知的迷因型危害。"
     bubbles:
       - position: top-right
         tail: down-left
@@ -127,3 +177,20 @@ panels:
           vi: "*Nấc* Anh cũng vậy à?!"
           zh: "打嗝！你也是！？"
           zh_Hant: "打嗝！你也是！？"
+
+addendum:
+  ja: "補遺1025-1：症状は本を読むのを止めれば自然に消失することが確認されている。"
+  en: "Addendum 1025-1: Symptoms have been confirmed to resolve naturally once the subject stops reading."
+  cs: "Dodatek 1025-1: Bylo potvrzeno, že příznaky samovolně odezní, jakmile subjekt přestane číst."
+  de: "Anhang 1025-1: Es wurde bestätigt, dass die Symptome von selbst abklingen, sobald das Subjekt mit dem Lesen aufhört."
+  es: "Adenda 1025-1: Se ha confirmado que los síntomas remiten de forma natural en cuanto el sujeto deja de leer."
+  fr: "Addendum 1025-1 : Il a été confirmé que les symptômes disparaissent naturellement dès que le sujet cesse de lire."
+  it: "Addendum 1025-1: È stato confermato che i sintomi regrediscono naturalmente non appena il soggetto smette di leggere."
+  ko: "부록 1025-1: 대상이 독서를 멈추면 증상이 자연히 사라지는 것으로 확인되었다."
+  pl: "Aneks 1025-1: Potwierdzono, że objawy ustępują samoistnie, gdy obiekt przestaje czytać."
+  pt: "Adendo 1025-1: Confirmou-se que os sintomas desaparecem naturalmente assim que o sujeito para de ler."
+  th: "ภาคผนวก 1025-1: ได้รับการยืนยันว่าอาการจะหายไปเองเมื่อผู้ป่วยหยุดอ่าน"
+  uk: "Додаток 1025-1: Підтверджено, що симптоми зникають самі собою, щойно суб'єкт припиняє читати."
+  vi: "Phụ lục 1025-1: Đã xác nhận rằng các triệu chứng tự biến mất khi đối tượng ngừng đọc."
+  zh: "补遗1025-1：已确认只要对象停止阅读，症状便会自然消退。"
+  zh_Hant: "補遺1025-1：已確認只要對象停止閱讀，症狀便會自然消退。"

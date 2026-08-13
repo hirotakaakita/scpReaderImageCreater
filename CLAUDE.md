@@ -27,6 +27,17 @@ SCP記事を題材にした多言語コマ漫画を生成する。生成はGitHu
      セリフは短く（日本語で20文字前後まで）。翻訳はClaudeが直接書いてよい
    - `attribution`: 記事のURL・著者を記載。著者は記事ページ下部やクレジットモジュールで
      確認できる。不明なら `author` を省略してよい（フッターには出典URLが必ず入る）
+   - `object_class`（任意）: Safe / Euclid / Keter 等を**英語のまま**トップレベルに書く。
+     タイトル下に「オブジェクトクラス：Safe」のように表示される（ラベルの翻訳は
+     `config/languages.yaml` の `object_class_label` が共通で担うので、台本側では翻訳しない）
+   - `panels[].caption`（任意・15言語）: そのコマの上に白地黒枠のボックスで表示される、
+     SCP文書からの引用のような**淡々とした説明文**（scene/text とは別物）。実際の記事の
+     Special Containment Procedures / Description の記述を要約・引用する形で書く。
+     `scene`（絵の指示）や吹き出しの`text`（キャラの発話）とは違い、三人称・現在形の
+     事務的な文体にする。**全コマに付ける必要はない**（起承転結の「転」＝オチのコマは
+     captionを省略して間を作ると効果的。scp-999.yamlの書式見本を参照）
+   - `addendum`（任意・15言語、台本トップレベル）: 最後のコマの下に表示される補遺
+     （「補遺999-J：〜」）。オチを収容記録っぽく締める一言に使う
 4. 検証: `python scripts/run_pipeline.py --id scp-XXX --mock` を実行し、
    吹き出しの位置・あふれ警告（`WARN: text overflow`）を確認。あふれたらセリフを短くする
    - 初回は `pip install -r requirements.txt` と `python scripts/download_fonts.py` が必要
@@ -41,5 +52,8 @@ SCP記事を題材にした多言語コマ漫画を生成する。生成はGitHu
   FontSetがNotoSansへ自動フォールバックする
 - コマ座標は `output/<id>/meta.json` 経由で `embed_text.py` に渡る。
   `layout.yaml` を変えたら `--skip-generate` で合成・埋め込みだけ再実行できる
+- キャプション枠・補遺枠は `compose.py` が白地黒枠の箱（言語非依存）を確保・描画し、
+  `embed_text.py` が言語別テキストを流し込む（吹き出しと同じ「枠は先、文字は後」方式）。
+  台本にcaptionが1つも無ければ枠ごと確保されず、レイアウトは元のまま
 - キャラの見た目が漫画間でブレたら: 良いコマから立ち姿を切り出して `characters/refs/` に保存し、
   `config/characters.yaml` の `reference_images` に登録する

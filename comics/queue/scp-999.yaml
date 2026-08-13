@@ -27,6 +27,9 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-999"
   license: "CC BY-SA 3.0"
 
+# オブジェクトクラス（英語のまま。ラベルの翻訳はconfig/languages.yamlのobject_class_labelが担う）
+object_class: Safe
+
 # 登場する中央定義キャラ（config/characters.yaml のキー）
 characters: [researcher-hana]
 
@@ -36,6 +39,22 @@ panels:
       piled high with paperwork, lit only by a computer monitor, sighing
       with dark circles under her eyes.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-999はオレンジ色の粘性生物である。接触した対象に強い多幸感をもたらす。"
+      en: "SCP-999 is an orange gelatinous organism. Contact induces a powerful sense of euphoria."
+      cs: "SCP-999 je oranžový rosolovitý organismus. Kontakt vyvolává silnou euforii."
+      de: "SCP-999 ist ein orangefarbener gallertartiger Organismus. Kontakt löst starke Euphorie aus."
+      es: "SCP-999 es un organismo gelatinoso de color naranja. El contacto induce una fuerte euforia."
+      fr: "SCP-999 est un organisme gélatineux orange. Le contact induit une forte euphorie."
+      it: "SCP-999 è un organismo gelatinoso arancione. Il contatto induce una forte euforia."
+      ko: "SCP-999는 주황색 젤라틴상 유기체이다. 접촉 시 강한 행복감을 유발한다."
+      pl: "SCP-999 to pomarańczowy, galaretowaty organizm. Kontakt wywołuje silną euforię."
+      pt: "SCP-999 é um organismo gelatinoso alaranjado. O contato induz forte euforia."
+      th: "SCP-999 คือสิ่งมีชีวิตคล้ายเจลลี่สีส้ม การสัมผัสก่อให้เกิดความรู้สึกเคลิบเคลิ้มอย่างรุนแรง"
+      uk: "SCP-999 — помаранчевий драглистий організм. Контакт викликає сильну ейфорію."
+      vi: "SCP-999 là một sinh vật dạng keo màu cam. Tiếp xúc gây ra cảm giác hưng phấn mãnh liệt."
+      zh: "SCP-999是一种橙色胶状生物。接触会引发强烈的欣快感。"
+      zh_Hant: "SCP-999是一種橙色膠狀生物。接觸會引發強烈的欣快感。"
     bubbles:
       - position: top
         tail: down
@@ -62,6 +81,22 @@ panels:
       jelly, leaving a faint shiny trail on the floor. Dr. Hana in the
       background has not noticed it yet.
     characters: [researcher-hana]
+    caption:
+      ja: "本オブジェクトは施設内を自由に移動することが許可されている。"
+      en: "This object is permitted to move freely throughout the facility."
+      cs: "Tomuto objektu je povoleno volně se pohybovat po zařízení."
+      de: "Diesem Objekt ist es gestattet, sich frei innerhalb der Einrichtung zu bewegen."
+      es: "Se permite que este objeto se desplace libremente por las instalaciones."
+      fr: "Cet objet est autorisé à se déplacer librement dans l'installation."
+      it: "A questo oggetto è consentito muoversi liberamente all'interno della struttura."
+      ko: "본 개체는 시설 내를 자유롭게 이동하는 것이 허가되어 있다."
+      pl: "Ten obiekt ma pozwolenie na swobodne poruszanie się po placówce."
+      pt: "Este objeto tem permissão para se mover livremente pelas instalações."
+      th: "วัตถุนี้ได้รับอนุญาตให้เคลื่อนที่ได้อย่างอิสระภายในสถานที่"
+      uk: "Цьому об'єкту дозволено вільно пересуватися комплексом."
+      vi: "Đối tượng này được phép di chuyển tự do trong cơ sở."
+      zh: "本对象被允许在设施内自由移动。"
+      zh_Hant: "本對象被允許在設施內自由移動。"
     bubbles:
       - position: top-left
         tail: down-right
@@ -87,6 +122,22 @@ panels:
       bursts out laughing with tears in her eyes, glasses askew, papers
       flying everywhere. Dynamic comedic action.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-999の接触行動に対する有効な防御手段は現在まで確認されていない。"
+      en: "No effective countermeasure against SCP-999's contact behavior has been identified to date."
+      cs: "Dosud nebylo nalezeno žádné účinné protiopatření proti kontaktnímu chování SCP-999."
+      de: "Bislang wurde keine wirksame Gegenmaßnahme gegen das Kontaktverhalten von SCP-999 gefunden."
+      es: "Hasta la fecha no se ha identificado ninguna contramedida eficaz contra el comportamiento de contacto de SCP-999."
+      fr: "Aucune contre-mesure efficace contre le comportement de contact de SCP-999 n'a été identifiée à ce jour."
+      it: "Ad oggi non è stata individuata alcuna contromisura efficace contro il comportamento di contatto di SCP-999."
+      ko: "현재까지 SCP-999의 접촉 행동에 대한 유효한 방어 수단은 확인되지 않았다."
+      pl: "Do tej pory nie znaleziono skutecznego środka zaradczego przeciw kontaktowemu zachowaniu SCP-999."
+      pt: "Até o momento, nenhuma contramedida eficaz contra o comportamento de contato de SCP-999 foi identificada."
+      th: "ยังไม่พบมาตรการป้องกันที่มีประสิทธิภาพต่อพฤติกรรมการสัมผัสของ SCP-999 จนถึงปัจจุบัน"
+      uk: "Досі не виявлено ефективного засобу протидії контактній поведінці SCP-999."
+      vi: "Cho đến nay vẫn chưa xác định được biện pháp đối phó hiệu quả với hành vi tiếp xúc của SCP-999."
+      zh: "截至目前，尚未发现针对SCP-999接触行为的有效应对措施。"
+      zh_Hant: "截至目前，尚未發現針對SCP-999接觸行為的有效應對措施。"
     bubbles:
       - position: top
         tail: down
@@ -132,3 +183,21 @@ panels:
           vi: "Thử nghiệm… thành công…"
           zh: "实验……成功……"
           zh_Hant: "實驗……成功……"
+
+# 最後のコマの下に置く補遺（省略可）
+addendum:
+  ja: "補遺999-J：当該研究員の報告書は粘液により判読不能となり、再提出が命じられた。"
+  en: "Addendum 999-J: The researcher's report was rendered illegible by residual slime and resubmission was ordered."
+  cs: "Dodatek 999-J: Hlášení výzkumníka bylo slizem znečitelněno; bylo nařízeno opětovné podání."
+  de: "Anhang 999-J: Der Bericht des Forschers wurde durch Schleimrückstände unleserlich; eine erneute Einreichung wurde angeordnet."
+  es: "Adenda 999-J: El informe del investigador quedó ilegible por residuos de la sustancia; se ordenó su reenvío."
+  fr: "Addendum 999-J : Le rapport du chercheur a été rendu illisible par des résidus de gel ; un nouvel envoi a été ordonné."
+  it: "Addendum 999-J: Il rapporto del ricercatore è stato reso illeggibile dal residuo gelatinoso; ne è stata ordinata la nuova presentazione."
+  ko: "부록 999-J: 해당 연구원의 보고서는 잔여 점액으로 인해 판독 불가능해져 재제출이 명령되었다."
+  pl: "Aneks 999-J: Raport badacza stał się nieczytelny z powodu pozostałości śluzu; nakazano ponowne złożenie."
+  pt: "Adendo 999-J: O relatório do pesquisador ficou ilegível devido a resíduos de gosma; foi ordenada a reapresentação."
+  th: "ภาคผนวก 999-J: รายงานของนักวิจัยอ่านไม่ออกเนื่องจากคราบเมือกตกค้าง จึงมีคำสั่งให้ส่งใหม่"
+  uk: "Додаток 999-J: Звіт дослідника став нечитабельним через залишки слизу; наказано подати повторно."
+  vi: "Phụ lục 999-J: Báo cáo của nhà nghiên cứu bị nhòe không đọc được do chất nhầy còn sót lại; đã ra lệnh nộp lại."
+  zh: "补遗999-J：该研究员的报告因残留黏液而无法辨认，已被要求重新提交。"
+  zh_Hant: "補遺999-J：該研究員的報告因殘留黏液而無法辨認，已被要求重新提交。"

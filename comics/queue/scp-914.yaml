@@ -24,6 +24,8 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-914"
   license: "CC BY-SA 3.0"
 
+object_class: Safe
+
 characters: [researcher-hana]
 
 panels:
@@ -34,6 +36,22 @@ panels:
       small chipped ceramic mug, reaching toward a control panel with a
       dial labeled with settings from Rough to Very Fine.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-914は、投入した物体を『精製』する大型のからくり装置である。設定はRough、Coarse、1:1、Fine、Very Fineの5段階。"
+      en: "SCP-914 is a large clockwork device that \"refines\" any object placed inside it. Settings range from Rough to Very Fine."
+      cs: "SCP-914 je velké hodinové zařízení, které „zjemňuje“ jakýkoli vložený předmět. Nastavení sahá od Hrubého po Velmi jemné."
+      de: "SCP-914 ist ein großes Uhrwerk, das jeden hineingelegten Gegenstand „verfeinert“. Die Einstellungen reichen von Grob bis Sehr fein."
+      es: "SCP-914 es un gran dispositivo de relojería que \"refina\" cualquier objeto colocado en su interior. Los ajustes van de Basto a Muy fino."
+      fr: "SCP-914 est un vaste mécanisme d'horlogerie qui « raffine » tout objet placé à l'intérieur. Les réglages vont de Grossier à Très fin."
+      it: "SCP-914 è un grande dispositivo a orologeria che \"raffina\" qualsiasi oggetto inserito. Le impostazioni vanno da Grezzo a Molto fine."
+      ko: "SCP-914는 내부에 넣은 물체를 '정제'하는 대형 시계태엽 장치이다. 설정은 거침부터 매우 정밀까지 5단계이다."
+      pl: "SCP-914 to duże urządzenie zegarowe, które „rafinuje” każdy włożony do niego przedmiot. Ustawienia sięgają od Zgrubnego po Bardzo dokładne."
+      pt: "SCP-914 é um grande dispositivo de relojoaria que \"refina\" qualquer objeto colocado em seu interior. Os ajustes vão de Bruto a Muito fino."
+      th: "SCP-914 คือเครื่องจักรนาฬิกาขนาดใหญ่ที่ 'กลั่นกรอง' วัตถุใดๆ ที่ใส่เข้าไป การตั้งค่ามีตั้งแต่หยาบไปจนถึงละเอียดมาก"
+      uk: "SCP-914 — великий годинниковий механізм, що «рафінує» будь-який вкладений об'єкт. Налаштування — від Грубого до Дуже тонкого."
+      vi: "SCP-914 là một cỗ máy đồng hồ lớn có khả năng 'tinh chế' bất kỳ vật thể nào được đặt vào trong. Các mức cài đặt từ Thô đến Rất tinh."
+      zh: "SCP-914是一台大型钟表装置，能够『精炼』放入其中的任何物体。档位从粗糙到极精细共五级。"
+      zh_Hant: "SCP-914是一台大型鐘錶裝置，能夠『精煉』放入其中的任何物體。檔位從粗糙到極精細共五級。"
     bubbles:
       - position: top
         tail: down
@@ -60,6 +78,22 @@ panels:
       control panel with both hands, eyes wide and hair blown back by
       the vibration, clearly alarmed by how violent the machine sounds.
     characters: [researcher-hana]
+    caption:
+      ja: "精製の結果は予測不能であり、生体を対象とした試験は原則禁止されている。"
+      en: "The outcome of refinement is unpredictable; testing on biological subjects is generally prohibited."
+      cs: "Výsledek zjemnění je nepředvídatelný; testování na biologických subjektech je zásadně zakázáno."
+      de: "Das Ergebnis der Verfeinerung ist unvorhersehbar; Tests an biologischen Subjekten sind grundsätzlich untersagt."
+      es: "El resultado del refinado es impredecible; las pruebas con sujetos biológicos están generalmente prohibidas."
+      fr: "Le résultat du raffinage est imprévisible ; les tests sur des sujets biologiques sont généralement interdits."
+      it: "L'esito della raffinazione è imprevedibile; i test su soggetti biologici sono generalmente vietati."
+      ko: "정제 결과는 예측 불가능하며, 생체 대상 실험은 원칙적으로 금지되어 있다."
+      pl: "Wynik rafinacji jest nieprzewidywalny; testy na obiektach biologicznych są zasadniczo zabronione."
+      pt: "O resultado do refino é imprevisível; testes em sujeitos biológicos são geralmente proibidos."
+      th: "ผลลัพธ์ของการกลั่นกรองนั้นคาดเดาไม่ได้ การทดสอบกับสิ่งมีชีวิตจึงถูกห้ามโดยหลักการ"
+      uk: "Результат рафінування непередбачуваний; тестування на біологічних об'єктах загалом заборонено."
+      vi: "Kết quả tinh chế là không thể đoán trước; việc thử nghiệm trên đối tượng sinh học nhìn chung bị cấm."
+      zh: "精炼的结果无法预测；原则上禁止以生物体为对象进行测试。"
+      zh_Hant: "精煉的結果無法預測；原則上禁止以生物體為對象進行測試。"
     bubbles:
       - position: top-left
         tail: down-right
@@ -87,6 +121,22 @@ panels:
       Dr. Hana stares at it with a stunned, deadpan expression, one eyebrow
       raised.
     characters: [researcher-hana]
+    caption:
+      ja: "出力室から排出される物体は、投入時とは大きく異なる形状を取ることが多い。"
+      en: "Objects retrieved from the Output chamber often differ drastically in form from what was inserted."
+      cs: "Předměty vyjmuté z výstupní komory se svým tvarem často zásadně liší od toho, co bylo vloženo."
+      de: "Aus der Ausgabekammer entnommene Gegenstände unterscheiden sich in ihrer Form oft drastisch vom eingelegten Original."
+      es: "Los objetos recuperados de la cámara de salida suelen diferir drásticamente en forma del objeto insertado."
+      fr: "Les objets récupérés dans la chambre de sortie diffèrent souvent radicalement de l'objet inséré."
+      it: "Gli oggetti prelevati dalla camera di uscita spesso differiscono drasticamente nella forma da quanto inserito."
+      ko: "출력실에서 회수되는 물체는 투입 당시와 크게 다른 형태를 띠는 경우가 많다."
+      pl: "Przedmioty pobrane z komory wyjściowej często drastycznie różnią się kształtem od tego, co włożono."
+      pt: "Objetos retirados da câmara de saída frequentemente diferem drasticamente em forma do que foi inserido."
+      th: "วัตถุที่นำออกมาจากห้องส่งออกมักมีรูปทรงแตกต่างอย่างมากจากตอนที่ใส่เข้าไป"
+      uk: "Об'єкти, вилучені з вихідної камери, часто разюче відрізняються за формою від вкладених."
+      vi: "Các vật thể lấy ra từ buồng xuất thường có hình dạng khác biệt rõ rệt so với lúc đưa vào."
+      zh: "从输出室取出的物体，其形状通常与放入时大相径庭。"
+      zh_Hant: "從輸出室取出的物體，其形狀通常與放入時大相逕庭。"
     bubbles:
       - position: top
         tail: down
@@ -131,3 +181,20 @@ panels:
           vi: "…thôi thì, có một không hai."
           zh: "…算了，独一无二嘛。"
           zh_Hant: "…算了，獨一無二嘛。"
+
+addendum:
+  ja: "補遺914-1：Very Fine設定での精製結果に、明確な法則性は確認されていない。"
+  en: "Addendum 914-1: No consistent pattern has been identified in refinement outcomes at the Very Fine setting."
+  cs: "Dodatek 914-1: U nastavení Velmi jemné nebyl zjištěn žádný konzistentní vzorec výsledků zjemnění."
+  de: "Anhang 914-1: Bei der Einstellung Sehr fein wurde kein einheitliches Muster der Verfeinerungsergebnisse festgestellt."
+  es: "Adenda 914-1: No se ha identificado un patrón consistente en los resultados del refinado con el ajuste Muy fino."
+  fr: "Addendum 914-1 : Aucun schéma cohérent n'a été identifié dans les résultats du raffinage au réglage Très fin."
+  it: "Addendum 914-1: Non è stato individuato alcuno schema coerente nei risultati della raffinazione con l'impostazione Molto fine."
+  ko: "부록 914-1: 매우 정밀 설정에서의 정제 결과에는 일관된 규칙성이 확인되지 않았다."
+  pl: "Aneks 914-1: Nie zidentyfikowano spójnego wzorca wyników rafinacji przy ustawieniu Bardzo dokładne."
+  pt: "Adendo 914-1: Nenhum padrão consistente foi identificado nos resultados do refino no ajuste Muito fino."
+  th: "ภาคผนวก 914-1: ยังไม่พบรูปแบบที่แน่นอนของผลลัพธ์การกลั่นกรองในการตั้งค่าละเอียดมาก"
+  uk: "Додаток 914-1: На налаштуванні Дуже тонке не виявлено жодної послідовної закономірності результатів рафінування."
+  vi: "Phụ lục 914-1: Chưa xác định được quy luật nhất quán nào trong kết quả tinh chế ở mức Rất tinh."
+  zh: "补遗914-1：在『极精细』档位下，精炼结果尚未发现明确规律。"
+  zh_Hant: "補遺914-1：在『極精細』檔位下，精煉結果尚未發現明確規律。"

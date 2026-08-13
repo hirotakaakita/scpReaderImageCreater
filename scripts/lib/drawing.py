@@ -116,26 +116,90 @@ def draw_speech(draw, panel_rect, area_norm, text, font_path, bubble_cfg,
 
 
 def draw_header_text(draw, header_rect, title, font_path, header_cfg,
-                     fallback_path=None):
-    """タイトル帯にタイトルを描く（幅に収まるよう自動縮小）。"""
+                     subtitle=None, fallback_path=None):
+    """タイトル帯にタイトル（+ 任意でオブジェクトクラスのサブタイトル）を描く。"""
     x0, y0, x1, y1 = header_rect
+    full_h = y1 - y0
+    title_h = full_h * (0.62 if subtitle else 0.9)
     font, lines, bw, bh = textutil.fit_text(
         draw, title, font_path,
         max_width=(x1 - x0) * 0.94,
-        max_height=(y1 - y0) * 0.9,
+        max_height=title_h,
         start_size=header_cfg["font_size"],
         min_size=max(12, header_cfg["font_size"] // 3),
         line_spacing=2,
         char_wrap=False,
         fallback_path=fallback_path,
     )
+    if not subtitle:
+        textutil.draw_text_block(
+            draw, lines, font,
+            center_x=(x0 + x1) / 2,
+            top_y=y0 + (full_h - bh) / 2,
+            line_spacing=2,
+            fill=header_cfg["color"],
+        )
+        return
+
+    sub_h = full_h - title_h
+    sub_font, sub_lines, sbw, sbh = textutil.fit_text(
+        draw, subtitle, font_path,
+        max_width=(x1 - x0) * 0.94,
+        max_height=sub_h * 0.9,
+        start_size=header_cfg.get("subtitle_font_size", header_cfg["font_size"] // 2),
+        min_size=max(10, header_cfg["font_size"] // 4),
+        line_spacing=2,
+        char_wrap=False,
+        fallback_path=fallback_path,
+    )
+    block_h = bh + sbh
+    top_y = y0 + (full_h - block_h) / 2
     textutil.draw_text_block(
         draw, lines, font,
         center_x=(x0 + x1) / 2,
-        top_y=y0 + ((y1 - y0) - bh) / 2,
+        top_y=top_y,
         line_spacing=2,
         fill=header_cfg["color"],
     )
+    textutil.draw_text_block(
+        draw, sub_lines, sub_font,
+        center_x=(x0 + x1) / 2,
+        top_y=top_y + bh,
+        line_spacing=2,
+        fill=header_cfg["color"],
+    )
+
+
+def draw_caption_frame(draw, rect, caption_cfg):
+    """SCP文書調のキャプション枠（白地・黒枠）を描く。文字は別途draw_caption_textで描く。"""
+    draw.rectangle(rect, fill=caption_cfg["fill"], outline=caption_cfg["outline"],
+                   width=caption_cfg["outline_width"])
+
+
+def draw_caption_text(draw, rect, text, font_path, caption_cfg,
+                      char_wrap=False, fallback_path=None):
+    """キャプション枠内に左揃えでテキストを描く。収まったかどうかを返す。"""
+    x0, y0, x1, y1 = rect
+    pad = caption_cfg["padding"]
+    font, lines, bw, bh = textutil.fit_text(
+        draw, text, font_path,
+        max_width=(x1 - x0) - pad * 2,
+        max_height=(y1 - y0) - pad * 2,
+        start_size=caption_cfg["font_size"],
+        min_size=caption_cfg["min_font_size"],
+        line_spacing=caption_cfg["line_spacing"],
+        char_wrap=char_wrap,
+        fallback_path=fallback_path,
+    )
+    fits = bw <= (x1 - x0) - pad * 2 and bh <= (y1 - y0) - pad * 2
+    textutil.draw_text_block_left(
+        draw, lines, font,
+        left_x=x0 + pad,
+        top_y=y0 + ((y1 - y0) - bh) / 2,
+        line_spacing=caption_cfg["line_spacing"],
+        fill=caption_cfg["text_color"],
+    )
+    return fits
 
 
 def draw_footer_text(draw, footer_rect, lines_of_text, font_path, footer_cfg):

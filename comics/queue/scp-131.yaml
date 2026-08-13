@@ -24,14 +24,34 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-131"
   license: "CC BY-SA 3.0"
 
+object_class: Safe
+
 characters: [researcher-hana]
 
 panels:
   - scene: >
-      Dr. Hana works quietly at her desk when two small teardrop-shaped
-      creatures roll into the office on tiny wheels at their base, each
-      with one large unblinking eye in the center of its body, one burnt
-      orange and one mustard yellow, tilting curiously toward her.
+      Low angle close-up shot, camera near floor level looking up toward
+      the desk. Dr. Hana works quietly at her desk in the background when
+      two small teardrop-shaped creatures roll into frame on tiny wheels
+      at their base, filling the foreground, each with one large
+      unblinking eye in the center of its body, one burnt orange and one
+      mustard yellow, tilting curiously toward her.
+    caption:
+      ja: "SCP-131-A及びSCP-131-Bは、中央に大きな目を持つ涙滴状の個体である。基部の車輪様器官で移動する。"
+      en: "SCP-131-A and SCP-131-B are teardrop-shaped entities with a large eye at their center, moving via a wheel-like appendage at their base."
+      cs: "SCP-131-A a SCP-131-B jsou entity tvaru slzy s velkým okem uprostřed, pohybující se pomocí kolovitého výběžku na základně."
+      de: "SCP-131-A und SCP-131-B sind tropfenförmige Wesen mit einem großen Auge in der Mitte, die sich mittels eines radartigen Fortsatzes an ihrer Basis fortbewegen."
+      es: "SCP-131-A y SCP-131-B son entidades con forma de lágrima con un gran ojo en el centro, que se desplazan mediante un apéndice similar a una rueda en su base."
+      fr: "SCP-131-A et SCP-131-B sont des entités en forme de larme dotées d'un grand œil en leur centre, se déplaçant grâce à un appendice en forme de roue à leur base."
+      it: "SCP-131-A e SCP-131-B sono entità a forma di lacrima con un grande occhio al centro, che si muovono tramite un'appendice simile a una ruota alla base."
+      ko: "SCP-131-A와 SCP-131-B는 중앙에 커다란 눈을 가진 눈물방울 모양의 개체로, 기저부의 바퀴 모양 부속기관으로 이동한다."
+      pl: "SCP-131-A i SCP-131-B to istoty w kształcie łzy z dużym okiem pośrodku, poruszające się za pomocą kołopodobnego wyrostka u podstawy."
+      pt: "SCP-131-A e SCP-131-B são entidades em forma de lágrima com um grande olho no centro, que se movem por meio de um apêndice semelhante a uma roda na base."
+      th: "SCP-131-A และ SCP-131-B คือสิ่งมีชีวิตรูปทรงหยดน้ำที่มีตาขนาดใหญ่อยู่ตรงกลาง เคลื่อนที่ด้วยอวัยวะคล้ายล้อที่ฐาน"
+      uk: "SCP-131-A та SCP-131-B — краплеподібні істоти з великим оком у центрі, що пересуваються за допомогою колесоподібного відростка в основі."
+      vi: "SCP-131-A và SCP-131-B là những thực thể hình giọt nước có một con mắt lớn ở giữa, di chuyển bằng một phần phụ giống bánh xe ở đáy."
+      zh: "SCP-131-A与SCP-131-B是泪滴状个体，中央有一只大眼睛，靠基部类似车轮的附肢移动。"
+      zh_Hant: "SCP-131-A與SCP-131-B是淚滴狀個體，中央有一隻大眼睛，靠基部類似車輪的附肢移動。"
     characters: [researcher-hana]
     bubbles:
       - position: top-left
@@ -54,11 +74,29 @@ panels:
           zh_Hant: "哦，還挺可愛的。"
 
   - scene: >
-      The two eye-pod creatures suddenly zoom across the office at high
-      speed on their wheels, weaving between desk legs and knocking a
-      stack of papers flying into the air. Dr. Hana throws her hands up in
-      surprise as papers scatter around her.
+      Wide shot, full body, high angle looking down over the whole
+      office, dynamic diagonal composition with motion lines. The two
+      eye-pod creatures zoom across the office at high speed on their
+      wheels, weaving between desk legs and knocking a stack of papers
+      flying into the air. Dr. Hana throws her hands up in surprise as
+      papers scatter around her.
     characters: [researcher-hana]
+    caption:
+      ja: "両個体は最大で毎秒60m以上の速度で移動可能であり、その知能はイエネコと同程度と推定されている。"
+      en: "Both entities can travel at speeds exceeding 60 meters per second and are estimated to have intelligence comparable to a domestic cat."
+      cs: "Obě entity se dokáží pohybovat rychlostí přesahující 60 metrů za sekundu a jejich inteligence je odhadována na úroveň domácí kočky."
+      de: "Beide Wesen können sich mit Geschwindigkeiten von über 60 Metern pro Sekunde bewegen; ihre Intelligenz wird auf das Niveau einer Hauskatze geschätzt."
+      es: "Ambas entidades pueden desplazarse a velocidades superiores a 60 metros por segundo y se estima que su inteligencia es comparable a la de un gato doméstico."
+      fr: "Les deux entités peuvent se déplacer à des vitesses dépassant 60 mètres par seconde et leur intelligence est estimée comparable à celle d'un chat domestique."
+      it: "Entrambe le entità possono muoversi a velocità superiori a 60 metri al secondo e la loro intelligenza è stimata paragonabile a quella di un gatto domestico."
+      ko: "두 개체 모두 초당 60미터 이상의 속도로 이동할 수 있으며, 지능은 집고양이 수준으로 추정된다."
+      pl: "Obie istoty potrafią poruszać się z prędkością przekraczającą 60 metrów na sekundę, a ich inteligencję szacuje się na poziomie kota domowego."
+      pt: "Ambas as entidades conseguem se mover a velocidades superiores a 60 metros por segundo e estima-se que sua inteligência seja comparável à de um gato doméstico."
+      th: "ทั้งสองตัวสามารถเคลื่อนที่ด้วยความเร็วเกิน 60 เมตรต่อวินาที และคาดว่ามีสติปัญญาเทียบเท่าแมวบ้าน"
+      uk: "Обидві істоти можуть рухатися зі швидкістю понад 60 метрів за секунду, а їхній інтелект оцінюється на рівні домашнього кота."
+      vi: "Cả hai thực thể có thể di chuyển với tốc độ vượt quá 60 mét mỗi giây và được ước tính có trí thông minh tương đương một con mèo nhà."
+      zh: "两个个体的移动速度均可超过每秒60米，其智力估计与家猫相当。"
+      zh_Hant: "兩個個體的移動速度均可超過每秒60公尺，其智力估計與家貓相當。"
     bubbles:
       - position: top
         tail: down
@@ -80,12 +118,28 @@ panels:
           zh_Hant: "喂、喂，慢點！"
 
   - scene: >
-      Both eye-pod creatures disappear one after another into a low
-      ventilation grate on the office wall, their round eyes vanishing
-      into the dark opening. Dr. Hana kneels in front of the grate,
-      reaching toward it with one hand, papers still scattered on the
-      floor behind her.
+      Close-up shot centered tightly on the low ventilation grate,
+      filling most of the frame, the two eye-pod creatures' round eyes
+      vanishing one after another into the dark opening. Dr. Hana's
+      reaching hand and kneeling shoulder are visible at the frame's
+      edge, papers still scattered on the floor behind her.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-131には食事・排泄・睡眠のいずれも確認されておらず、特別な収容は必要とされていない。"
+      en: "SCP-131 has never been observed to eat, excrete, or sleep, and requires no special containment."
+      cs: "U SCP-131 nebylo nikdy pozorováno jedení, vylučování ani spánek a nevyžaduje žádné zvláštní zadržení."
+      de: "Bei SCP-131 wurde nie Nahrungsaufnahme, Ausscheidung oder Schlaf beobachtet, und es erfordert keine besondere Sicherungsverwahrung."
+      es: "Nunca se ha observado que SCP-131 coma, excrete o duerma, y no requiere contención especial."
+      fr: "SCP-131 n'a jamais été observé mangeant, excrétant ou dormant, et ne nécessite aucun confinement particulier."
+      it: "SCP-131 non è mai stato osservato mangiare, defecare o dormire e non richiede alcun contenimento speciale."
+      ko: "SCP-131은 섭식, 배설, 수면 중 어느 것도 관찰된 바 없으며, 특별한 수용이 필요하지 않다."
+      pl: "Nigdy nie zaobserwowano, by SCP-131 jadło, wydalało czy spało, i nie wymaga specjalnego przetrzymywania."
+      pt: "Nunca se observou SCP-131 comendo, excretando ou dormindo, e não requer contenção especial."
+      th: "ไม่เคยพบว่า SCP-131 กิน ขับถ่าย หรือหลับเลย และไม่จำเป็นต้องมีการกักกันเป็นพิเศษ"
+      uk: "SCP-131 ніколи не спостерігали за їжею, виділенням чи сном, і воно не потребує особливого утримання."
+      vi: "Chưa từng quan sát thấy SCP-131 ăn, bài tiết hay ngủ, và không cần biện pháp giam giữ đặc biệt."
+      zh: "从未观察到SCP-131进食、排泄或睡眠，也不需要特殊收容。"
+      zh_Hant: "從未觀察到SCP-131進食、排泄或睡眠，也不需要特殊收容。"
     bubbles:
       - position: top-right
         tail: down-left
@@ -107,9 +161,11 @@ panels:
           zh_Hant: "等等，快回來！"
 
   - scene: >
-      Dr. Hana sits slumped on the floor amid scattered papers in front of
-      the empty ventilation grate, holding an empty coffee mug upside down
-      with a tired, exasperated expression, staring blankly at the wall.
+      Wide shot, full body, eye level, pulled back to show the whole
+      office floor. Dr. Hana sits slumped amid scattered papers in front
+      of the empty ventilation grate, holding an empty coffee mug upside
+      down with a tired, exasperated expression, staring blankly at the
+      wall.
     characters: [researcher-hana]
     bubbles:
       - position: bottom
@@ -130,3 +186,20 @@ panels:
           vi: "…phải uống thêm cà phê mới được."
           zh: "…这得再来杯咖啡才行。"
           zh_Hant: "…這得再來杯咖啡才行。"
+
+addendum:
+  ja: "補遺131-1：施設内の制限区域への侵入を除き、両個体の自由な移動は許可されている。"
+  en: "Addendum 131-1: Free movement throughout the facility is permitted, except within restricted areas."
+  cs: "Dodatek 131-1: Volný pohyb po zařízení je povolen, s výjimkou oblastí s omezeným přístupem."
+  de: "Anhang 131-1: Freie Bewegung innerhalb der Einrichtung ist gestattet, außer in Sperrbereichen."
+  es: "Adenda 131-1: Se permite el movimiento libre por las instalaciones, excepto en las áreas restringidas."
+  fr: "Addendum 131-1 : La libre circulation dans l'installation est autorisée, sauf dans les zones à accès restreint."
+  it: "Addendum 131-1: È consentito il libero movimento all'interno della struttura, tranne che nelle aree riservate."
+  ko: "부록 131-1: 제한 구역을 제외하고 시설 내 자유로운 이동이 허용된다."
+  pl: "Aneks 131-1: Swobodne poruszanie się po placówce jest dozwolone, z wyjątkiem stref o ograniczonym dostępie."
+  pt: "Adendo 131-1: Movimento livre por toda a instalação é permitido, exceto em áreas restritas."
+  th: "ภาคผนวก 131-1: อนุญาตให้เคลื่อนที่ได้อย่างอิสระทั่วสถานที่ ยกเว้นพื้นที่หวงห้าม"
+  uk: "Додаток 131-1: Вільне пересування об'єктом дозволено, за винятком зон обмеженого доступу."
+  vi: "Phụ lục 131-1: Cho phép di chuyển tự do trong toàn bộ cơ sở, ngoại trừ các khu vực hạn chế."
+  zh: "补遗131-1：除限制区域外，允许两个个体在设施内自由移动。"
+  zh_Hant: "補遺131-1：除限制區域外，允許兩個個體在設施內自由移動。"
