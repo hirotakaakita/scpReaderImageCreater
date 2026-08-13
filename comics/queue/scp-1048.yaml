@@ -30,10 +30,12 @@ characters: [researcher-hana]
 
 panels:
   - scene: >
-      A quiet concrete facility corridor. Dr. Hana walks along carrying a
-      stack of folders, glancing down in surprise as a small worn teddy
-      bear about knee-height peeks out from around the corner ahead of
-      her, its stitched button eyes fixed curiously on her.
+      Wide establishing shot, full body, long quiet concrete facility
+      corridor stretching into the distance. Dr. Hana walks along mid-
+      stride carrying a stack of folders, glancing down in surprise
+      toward a small worn teddy bear about knee-height peeking out from
+      around the corner ahead of her, its stitched button eyes fixed
+      curiously on her.
     characters: [researcher-hana]
     caption:
       ja: "SCP-1048は自律的に移動する体長33cmのテディベアである。周囲の人員に対し愛着行動を示す。"
@@ -72,10 +74,12 @@ panels:
           zh_Hant: "哦，你好呀。"
 
   - scene: >
-      The small teddy bear rushes forward and wraps both stubby arms
-      tightly around Dr. Hana's leg in an affectionate hug. Her folders
-      spill slightly as she looks down with a surprised, softening smile,
-      one hand reaching to pat the bear's head.
+      Low angle close-up shot, camera near floor level looking up. The
+      small teddy bear rushes forward and wraps both stubby arms tightly
+      around Dr. Hana's leg in an affectionate hug, filling the lower
+      frame. Her folders spill slightly as she looks down from above with
+      a surprised, softening smile, one hand reaching down to pat the
+      bear's head.
     characters: [researcher-hana]
     caption:
       ja: "本オブジェクトは職員への抱擁や簡単な身振りによるコミュニケーションが確認されている。"
@@ -114,10 +118,11 @@ panels:
           zh_Hant: "哇，好可愛！"
 
   - scene: >
-      The teddy bear proudly holds up a crumpled crayon drawing with both
-      paws, offering it to Dr. Hana. The drawing shows simple stick-figure
-      shapes. Dr. Hana crouches down, taking the drawing gently with both
-      hands, touched.
+      Medium shot, waist-up, both subjects now at the same eye level
+      since Dr. Hana has crouched down. The teddy bear proudly holds up a
+      crumpled crayon drawing with both paws, offering it to her. The
+      drawing shows simple stick-figure shapes. Dr. Hana reaches out,
+      taking the drawing gently with both hands, visibly touched.
     characters: [researcher-hana]
     caption:
       ja: "SCP-1048は周辺の材料を用いて自身の複製を作成する能力を持つ。生成物の安全性は未確認である。"
@@ -156,10 +161,12 @@ panels:
           zh_Hant: "這是給我的嗎？"
 
   - scene: >
-      Dr. Hana's office corkboard, now decorated with the crayon drawing
-      pinned proudly at the center among official Foundation memos and
-      forms. Dr. Hana sits at her desk in the foreground, glancing back at
-      it with a warm, content smile.
+      Wide shot, full body, showing the whole office from behind Dr. Hana
+      at an angle. She sits at her desk in the foreground, turned around
+      in her chair to glance back over her shoulder at the corkboard on
+      the far wall, now decorated with the crayon drawing pinned proudly
+      at the center among official Foundation memos and forms, a warm
+      content smile on her face.
     characters: [researcher-hana]
     bubbles:
       - position: bottom-right

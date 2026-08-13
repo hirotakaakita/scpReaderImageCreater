@@ -30,10 +30,13 @@ characters: [researcher-hana]
 
 panels:
   - scene: >
-      A facility hallway. A figure in a bulky vintage EMU-style spacesuit
-      with an opaque visor and a jetpack marches in dramatically, one fist
-      raised triumphantly in the air. Dr. Hana stands to the side with a
-      clipboard, watching with a deadpan, unimpressed expression.
+      Wide shot, full body, low angle looking up so the figure looms
+      large, filling most of the long facility hallway. A figure in a
+      bulky vintage EMU-style spacesuit with an opaque visor and a
+      jetpack marches in mid-stride, dramatically, one fist raised
+      triumphantly in the air. Dr. Hana is small in the corner of the
+      frame with a clipboard, watching with a deadpan, unimpressed
+      expression.
     characters: [researcher-hana]
     caption:
       ja: "SCP-1233は与圧服型の装備を纏った人型実体であり、自らを『月の勇者』と称している。"
@@ -72,10 +75,11 @@ panels:
           zh_Hant: "我乃月之勇者！"
 
   - scene: >
-      The spacesuited figure snaps a crisp, formal salute directly at a
-      humming vending machine in the hallway, standing at rigid attention
-      as if greeting a fellow soldier. Dr. Hana facepalms quietly in the
-      background.
+      Medium shot, waist-up, side-on composition with the vending machine
+      on one side and the spacesuited figure on the other. The figure
+      snaps a crisp, formal salute directly at the humming vending
+      machine, standing at rigid attention as if greeting a fellow
+      soldier. Dr. Hana facepalms quietly in the background.
     characters: [researcher-hana]
     caption:
       ja: "本オブジェクトの装備は、通常の宇宙服をはるかに超える耐久性を示すことが確認されている。"
@@ -114,10 +118,12 @@ panels:
           zh_Hant: "稍息，戰友。"
 
   - scene: >
-      In the break room, the spacesuited figure plants an ordinary pen
-      upright into a potted plant like a flag, striking a heroic pose with
-      one boot on a chair. Dr. Hana leans in the doorway, arms crossed,
-      watching with tired amusement.
+      Low angle close-up shot, camera near the potted plant looking up at
+      the figure towering above. In the break room, the spacesuited
+      figure plants an ordinary pen upright into the potted plant like a
+      flag, striking a heroic pose with one boot on a chair. Dr. Hana is
+      small in the background doorway, arms crossed, watching with tired
+      amusement.
     characters: [researcher-hana]
     caption:
       ja: "SCP-1233は友好的だが極めて予測不能であり、接触した人員や施設に意図せぬ被害を及ぼすことがある。"
@@ -156,10 +162,11 @@ panels:
           zh_Hant: "這間休息室現屬月之王國領土！"
 
   - scene: >
-      Dr. Hana stands in the break room doorway with arms still crossed
+      Wide shot, full body, eye level, pulled back to show the whole
+      break room. Dr. Hana stands in the doorway with arms still crossed
       and a small resigned smile, watching the spacesuited figure proudly
-      posing beside the pen-flagged plant, clearly having given up trying
-      to make sense of the situation.
+      posing beside the pen-flagged plant across the room, clearly having
+      given up trying to make sense of the situation.
     characters: [researcher-hana]
     bubbles:
       - position: bottom-left

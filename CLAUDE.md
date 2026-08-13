@@ -18,6 +18,11 @@ SCP記事を題材にした多言語コマ漫画を生成する。生成はGitHu
      （SCP-173の彫刻写真などCCライセンスでない画像があるため）
 3. `comics/queue/scp-XXX.yaml` を書く。既存の台本（`comics/queue/` か `comics/done/` の scp-999.yaml）が書式見本
    - `scene`: 英語で具体的に。構図・表情・小道具まで。**絵柄のことは書かない**（style.yamlが担う）
+     - **同じ漫画の4コマで同じショット（画角・アングル・構図）を繰り返さない**。各コマの冒頭で
+       ショット種別を明示する（例: "Wide shot, full body, showing the whole room..." /
+       "Medium shot, waist-up..." / "Close-up on her face..." / "Low angle looking up at..."）。
+       起承転結に合わせて 遠景（状況説明）→ 中景（動作）→ 寄り（オチ・感情の頂点）→ 中景/遠景（オチの余韻）
+       のように引き・寄りを変化させると単調にならない
    - `characters`: 繰り返し登場させるキャラは `config/characters.yaml` に定義してキー名で参照。
      その漫画限りのキャラ・オブジェクトはsceneに直接書く
    - `bubbles`: `position` はプリセット（top / top-left / top-right / bottom / bottom-left /

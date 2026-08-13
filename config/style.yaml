@@ -19,6 +19,15 @@ composition_rules: >
   Single manga panel, full-bleed illustration filling the entire square image.
   Characters drawn at a readable size, main subject clearly visible.
   Consistent character designs must be kept exactly as described.
+  Vary the shot scale and camera angle from panel to panel within the same
+  comic: mix wide/establishing shots (full body, showing the room), medium
+  shots (waist-up), and close-ups (face or a key object/detail filling most
+  of the frame), and vary the camera height (eye-level, low angle looking
+  up, high angle looking down) and character placement (off-center,
+  foreground/background depth). Do not repeat the same framing, angle, and
+  pose in consecutive panels of one comic. Favor dynamic, asymmetric poses
+  and motion (mid-stride, leaning, reaching, turning) over static
+  front-facing standing poses.
 
 # 文字を入れないためのルール（テキストは後からPythonで埋め込む）
 no_text_rules: >

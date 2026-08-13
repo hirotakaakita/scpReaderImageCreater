@@ -30,10 +30,11 @@ characters: [researcher-hana]
 
 panels:
   - scene: >
-      Dr. Hana's cluttered office. A colleague holds up an old-style
-      Polaroid photograph showing a storage room shelf, pinning it to a
-      corkboard as Dr. Hana glances over from her desk, a stapler visible
-      near her keyboard.
+      Wide shot, full body, showing all of Dr. Hana's cluttered office
+      from a corner angle. A colleague holds up an old-style Polaroid
+      photograph showing a storage room shelf, pinning it to a corkboard
+      on the wall as Dr. Hana glances over from her desk on the other
+      side of the room, a stapler visible near her keyboard.
     characters: [researcher-hana]
     caption:
       ja: "SCP-105-Bは1982年製のポラロイドカメラである。撮影者本人（SCP-105）以外には何ら異常のない機材として作動する。"
@@ -72,10 +73,11 @@ panels:
           zh_Hant: "這是今天的倉庫。"
 
   - scene: >
-      A pale disembodied female hand suddenly emerges straight out of the
-      flat surface of the pinned photograph, fingers wiggling in the air
-      of the office. Dr. Hana jerks back in her chair, eyes huge, pointing
-      at it in shock.
+      Close-up shot centered on the corkboard and photograph, filling
+      most of the frame: a pale disembodied female hand emerges straight
+      out of the flat surface of the pinned photograph, fingers wiggling
+      in the air. Dr. Hana's shocked face with huge eyes is a small
+      sliver at the frame's edge, pointing at it.
     characters: [researcher-hana]
     caption:
       ja: "SCP-105がSCP-105-Bで撮影した写真を保持すると、写真は撮影地点の実時間映像へと変化する。"
@@ -114,10 +116,12 @@ panels:
           zh_Hant: "等等，那是一隻手！？"
 
   - scene: >
-      The disembodied hand casually plucks the stapler off Dr. Hana's desk
-      and pulls it smoothly back into the flat surface of the photograph,
-      the stapler vanishing as if sinking into water. Dr. Hana reaches out
-      too late, mouth open.
+      Medium shot, waist-up, dynamic diagonal composition spanning from
+      the desk to the corkboard. The disembodied hand casually plucks the
+      stapler off Dr. Hana's desk and pulls it smoothly back into the
+      flat surface of the photograph, the stapler vanishing as if sinking
+      into water. Dr. Hana lunges out of her chair, reaching too late,
+      mouth open.
     characters: [researcher-hana]
     caption:
       ja: "SCP-105は当該写真を通じ、撮影地点にある物体へ物理的に干渉することが可能である。目撃者は宙に浮かぶ片手のみを認識する。"
@@ -156,10 +160,12 @@ panels:
           zh_Hant: "喂，那是我的釘書機！"
 
   - scene: >
-      Dr. Hana stares blankly at the small empty space on her desk where
-      the stapler used to be, arms crossed, one eyebrow raised in mild
-      annoyance, while the photograph on the corkboard now looks
-      perfectly still and ordinary again.
+      Wide shot, full body, eye level, pulled back to show the whole
+      office again. Dr. Hana leans back in her chair staring blankly at
+      the small empty space on her desk where the stapler used to be,
+      arms crossed, one eyebrow raised in mild annoyance, while the
+      photograph on the corkboard across the room now looks perfectly
+      still and ordinary again.
     characters: [researcher-hana]
     bubbles:
       - position: bottom

@@ -30,11 +30,13 @@ characters: [researcher-hana]
 
 panels:
   - scene: >
-      Inside a large chamber dominated by an enormous, intricate clockwork
-      machine covering most of the room, made of countless brass gears,
-      pulleys, and pipes. Dr. Hana stands at its Intake booth holding a
-      small chipped ceramic mug, reaching toward a control panel with a
-      dial labeled with settings from Rough to Very Fine.
+      Wide establishing shot, full body, seen from a low angle so the
+      enormous intricate clockwork machine towers over the frame, filling
+      most of the room with countless brass gears, pulleys, and pipes.
+      Dr. Hana is small in the lower corner of the frame at its Intake
+      booth, holding a small chipped ceramic mug, reaching toward a
+      control panel with a dial labeled with settings from Rough to Very
+      Fine.
     characters: [researcher-hana]
     caption:
       ja: "SCP-914は、投入した物体を『精製』する大型のからくり装置である。設定はRough、Coarse、1:1、Fine、Very Fineの5段階。"
@@ -73,10 +75,12 @@ panels:
           zh_Hant: "只是稍微修一下…"
 
   - scene: >
-      The clockwork machine roars to life, gears spinning wildly, steam
-      hissing from pipes, the whole room shaking. Dr. Hana grips the
-      control panel with both hands, eyes wide and hair blown back by
-      the vibration, clearly alarmed by how violent the machine sounds.
+      Medium shot, waist-up, camera close behind Dr. Hana's shoulder
+      looking past her toward the machine. The clockwork machine roars to
+      life, gears spinning wildly, steam hissing from pipes, motion lines
+      showing the whole room shaking. Dr. Hana grips the control panel
+      with both hands, leaning back off-balance, eyes wide and hair
+      blown back by the vibration, clearly alarmed.
     characters: [researcher-hana]
     caption:
       ja: "精製の結果は予測不能であり、生体を対象とした試験は原則禁止されている。"
@@ -115,11 +119,11 @@ panels:
           zh_Hant: "這、這震得也太厉害了！"
 
   - scene: >
-      The Output booth door slides open with a hiss of steam. Inside sits
-      an absurdly over-engineered teacup covered in extra tiny gears,
-      needless spouts, miniature dials, and ornate handles on every side.
-      Dr. Hana stares at it with a stunned, deadpan expression, one eyebrow
-      raised.
+      Close-up shot centered on the Output booth opening, the absurdly
+      over-engineered teacup filling most of the frame, covered in extra
+      tiny gears, needless spouts, miniature dials, and ornate handles on
+      every side. Dr. Hana's stunned, deadpan face with one eyebrow raised
+      is visible peeking in from the frame's edge, small in comparison.
     characters: [researcher-hana]
     caption:
       ja: "出力室から排出される物体は、投入時とは大きく異なる形状を取ることが多い。"
@@ -158,9 +162,11 @@ panels:
           zh_Hant: "我可沒要求這個。"
 
   - scene: >
-      Dr. Hana sits at her desk holding the ridiculous over-engineered
-      teacup up to the light, examining its many tiny gears with a tired
-      but faintly amused half-smile, giving up on making sense of it.
+      Wide shot, full body, eye level, showing Dr. Hana's whole office
+      desk and chair from a slight side angle. She leans back in her
+      chair holding the ridiculous over-engineered teacup up to the
+      light at arm's length, examining its many tiny gears with a tired
+      but faintly amused half-smile, one foot propped against the desk.
     characters: [researcher-hana]
     bubbles:
       - position: top-right
