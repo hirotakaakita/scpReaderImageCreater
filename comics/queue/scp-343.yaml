@@ -23,14 +23,33 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-343"
   license: "CC BY-SA 3.0"
 
+object_class: Safe
+
 characters: [researcher-hana]
 
 panels:
   - scene: >
-      A modest break room. Dr. Hana enters carrying an empty mug and
-      stops short, noticing a kindly elderly man with a gentle, faintly
-      glowing presence sitting calmly at the table, sipping tea with
-      perfect serenity, features soft and hard to quite focus on.
+      Wide shot, full body, showing the whole modest break room from the
+      doorway. Dr. Hana enters carrying an empty mug and stops mid-step,
+      noticing a kindly elderly man with a gentle, faintly glowing
+      presence sitting calmly at the table across the room, sipping tea
+      with perfect serenity, features soft and hard to quite focus on.
+    caption:
+      ja: "SCP-343はプラハ市内で発見された、人間種と酷似した男性の人型実体である。"
+      en: "SCP-343 is a humanoid male entity closely resembling a human, discovered within the city of Prague."
+      cs: "SCP-343 je humanoidní mužská entita velmi podobná člověku, objevená ve městě Praha."
+      de: "SCP-343 ist eine humanoide männliche Entität, die einem Menschen stark ähnelt und in der Stadt Prag entdeckt wurde."
+      es: "SCP-343 es una entidad humanoide masculina muy parecida a un humano, descubierta en la ciudad de Praga."
+      fr: "SCP-343 est une entité humanoïde masculine ressemblant fortement à un humain, découverte dans la ville de Prague."
+      it: "SCP-343 è un'entità umanoide maschile molto simile a un essere umano, scoperta nella città di Praga."
+      ko: "SCP-343는 인간과 매우 흡사한 남성형 휴머노이드 실체로, 프라하 시내에서 발견되었다."
+      pl: "SCP-343 to humanoidalna męska istota bardzo przypominająca człowieka, odkryta w mieście Praga."
+      pt: "SCP-343 é uma entidade humanoide masculina muito semelhante a um humano, descoberta na cidade de Praga."
+      th: "SCP-343 คือสิ่งมีชีวิตรูปร่างคล้ายมนุษย์เพศชายที่มีลักษณะใกล้เคียงมนุษย์มาก ถูกพบในเมืองปราก"
+      uk: "SCP-343 — гуманоїдна чоловіча сутність, дуже схожа на людину, виявлена в місті Прага."
+      vi: "SCP-343 là một thực thể hình người nam giới trông rất giống con người, được phát hiện tại thành phố Praha."
+      zh: "SCP-343是一个与人类极为相似的男性人形实体，发现于布拉格市内。"
+      zh_Hant: "SCP-343是一個與人類極為相似的男性人形實體，發現於布拉格市內。"
     characters: [researcher-hana]
     bubbles:
       - position: top-left
@@ -53,11 +72,28 @@ panels:
           zh_Hant: "呃……你真的是神嗎？"
 
   - scene: >
-      The elderly man smiles warmly and nods once, setting down his
-      teacup, radiating calm confidence without any drama, hands folded
-      politely on the table. Dr. Hana leans in, half-convinced, half-
-      amused.
+      Close-up shot centered on the elderly man's face, filling most of
+      the frame: he smiles warmly and nods once, setting down his teacup
+      just visible below, radiating calm confidence without any drama.
+      Dr. Hana's face, half-convinced and half-amused, is a small sliver
+      at the frame's edge, leaning in.
     characters: [researcher-hana]
+    caption:
+      ja: "本オブジェクトは自らを『宇宙の創造主』と称しており、能力には現時点で確認できる限界がない。"
+      en: "The object claims to be the creator of the universe; no upper limit to its abilities has been identified to date."
+      cs: "Objekt tvrdí, že je stvořitelem vesmíru; horní hranice jeho schopností dosud nebyla zjištěna."
+      de: "Das Objekt behauptet, der Schöpfer des Universums zu sein; eine Obergrenze seiner Fähigkeiten wurde bislang nicht festgestellt."
+      es: "El objeto afirma ser el creador del universo; hasta la fecha no se ha identificado un límite superior a sus habilidades."
+      fr: "L'objet prétend être le créateur de l'univers ; aucune limite supérieure à ses capacités n'a été identifiée à ce jour."
+      it: "L'oggetto afferma di essere il creatore dell'universo; ad oggi non è stato individuato alcun limite superiore alle sue capacità."
+      ko: "본 오브젝트는 스스로를 우주의 창조주라 칭하며, 현재까지 그 능력의 상한선은 확인되지 않았다."
+      pl: "Obiekt twierdzi, że jest stwórcą wszechświata; do tej pory nie ustalono górnej granicy jego zdolności."
+      pt: "O objeto afirma ser o criador do universo; até o momento, nenhum limite superior para suas habilidades foi identificado."
+      th: "วัตถุนี้อ้างว่าตนคือผู้สร้างจักรวาล และจนถึงปัจจุบันยังไม่พบขีดจำกัดสูงสุดของความสามารถของมัน"
+      uk: "Об'єкт стверджує, що є творцем всесвіту; верхньої межі його здібностей досі не встановлено."
+      vi: "Vật thể tự nhận là đấng sáng tạo vũ trụ; cho đến nay chưa xác định được giới hạn trên nào đối với năng lực của nó."
+      zh: "本对象自称为宇宙的创造者；截至目前，尚未发现其能力存在任何上限。"
+      zh_Hant: "本對象自稱為宇宙的創造者；截至目前，尚未發現其能力存在任何上限。"
     bubbles:
       - position: top-right
         tail: down-left
@@ -79,11 +115,28 @@ panels:
           zh_Hant: "正是如此，孩子。"
 
   - scene: >
-      The old man gives a small casual snap of his fingers over Dr. Hana's
-      empty mug, and it instantly fills to the brim with steaming fresh
-      coffee, a faint sparkle in the air. Dr. Hana watches, mug now
-      steaming, eyebrows raised in surprise.
+      Extreme close-up shot on the mug itself sitting on the table,
+      filling most of the frame, with the old man's snapping fingers just
+      above it and a faint sparkle in the air as it instantly fills to
+      the brim with steaming fresh coffee. Dr. Hana's surprised eyes are
+      visible peeking in from the frame's edge.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-343は職員との対話を好み、収容室からの拘束のない状態での自発的な収容に同意している。"
+      en: "SCP-343 enjoys conversing with personnel and has voluntarily agreed to unrestrained containment."
+      cs: "SCP-343 rád konverzuje s personálem a dobrovolně souhlasil s neomezeným zadržením."
+      de: "SCP-343 unterhält sich gerne mit Personal und hat einer nicht eingeschränkten Sicherungsverwahrung freiwillig zugestimmt."
+      es: "SCP-343 disfruta conversando con el personal y ha aceptado voluntariamente una contención sin restricciones."
+      fr: "SCP-343 aime converser avec le personnel et a volontairement accepté un confinement sans contrainte."
+      it: "SCP-343 apprezza conversare con il personale e ha accettato volontariamente un contenimento non vincolato."
+      ko: "SCP-343는 직원들과의 대화를 즐기며, 구속 없는 수용에 자발적으로 동의하였다."
+      pl: "SCP-343 lubi rozmawiać z personelem i dobrowolnie zgodził się na przetrzymywanie bez ograniczeń."
+      pt: "SCP-343 gosta de conversar com a equipe e concordou voluntariamente com uma contenção sem restrições."
+      th: "SCP-343 ชอบสนทนากับเจ้าหน้าที่ และยินยอมเข้ารับการกักกันโดยไม่มีการควบคุมด้วยความสมัครใจ"
+      uk: "SCP-343 любить спілкуватися з персоналом і добровільно погодився на утримання без обмежень."
+      vi: "SCP-343 thích trò chuyện với nhân viên và đã tự nguyện đồng ý bị giam giữ mà không cần ràng buộc."
+      zh: "SCP-343乐于与工作人员交谈，并自愿同意在无约束状态下接受收容。"
+      zh_Hant: "SCP-343樂於與工作人員交談，並自願同意在無約束狀態下接受收容。"
     bubbles:
       - position: top
         tail: down
@@ -105,9 +158,11 @@ panels:
           zh_Hant: "好了，新鮮滾燙。"
 
   - scene: >
-      Dr. Hana sits down at the table across from the old man, sipping the
-      coffee contentedly with a small satisfied smile, while he continues
-      calmly sipping his own tea across from her, both perfectly relaxed.
+      Wide shot, full body, pulled back to show the whole break room
+      table from a slight side angle. Dr. Hana sits across from the old
+      man, sipping the coffee contentedly with a small satisfied smile,
+      while he continues calmly sipping his own tea across from her, both
+      perfectly relaxed.
     characters: [researcher-hana]
     bubbles:
       - position: bottom-left
@@ -128,3 +183,20 @@ panels:
           vi: "…thế cũng tiện đấy."
           zh: "…还挺方便的嘛。"
           zh_Hant: "…還挺方便的嘛。"
+
+addendum:
+  ja: "補遺343-1：本オブジェクトとの定期的な面会は、多くの職員にとって日課となっている。"
+  en: "Addendum 343-1: Regular visits with the object have become a daily routine for many staff members."
+  cs: "Dodatek 343-1: Pravidelné návštěvy u objektu se pro mnoho členů personálu staly každodenní rutinou."
+  de: "Anhang 343-1: Regelmäßige Besuche bei dem Objekt sind für viele Mitarbeiter zur täglichen Routine geworden."
+  es: "Adenda 343-1: Las visitas regulares al objeto se han convertido en una rutina diaria para muchos miembros del personal."
+  fr: "Addendum 343-1 : Les visites régulières auprès de l'objet sont devenues une routine quotidienne pour de nombreux membres du personnel."
+  it: "Addendum 343-1: Le visite regolari all'oggetto sono diventate una routine quotidiana per molti membri del personale."
+  ko: "부록 343-1: 본 오브젝트와의 정기적인 면담은 많은 직원들에게 일상적인 일과가 되었다."
+  pl: "Aneks 343-1: Regularne wizyty u obiektu stały się codzienną rutyną dla wielu członków personelu."
+  pt: "Adendo 343-1: Visitas regulares ao objeto se tornaram uma rotina diária para muitos membros da equipe."
+  th: "ภาคผนวก 343-1: การเยี่ยมเยียนวัตถุนี้เป็นประจำได้กลายเป็นกิจวัตรประจำวันของเจ้าหน้าที่หลายคน"
+  uk: "Додаток 343-1: Регулярні відвідування об'єкта стали для багатьох працівників щоденною рутиною."
+  vi: "Phụ lục 343-1: Việc thăm hỏi vật thể này thường xuyên đã trở thành thói quen hàng ngày của nhiều nhân viên."
+  zh: "补遗343-1：定期探访该对象已成为许多工作人员的日常习惯。"
+  zh_Hant: "補遺343-1：定期探訪該對象已成為許多工作人員的日常習慣。"

@@ -24,15 +24,35 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-1048"
   license: "CC BY-SA 3.0"
 
+object_class: Keter
+
 characters: [researcher-hana]
 
 panels:
   - scene: >
-      A quiet concrete facility corridor. Dr. Hana walks along carrying a
-      stack of folders, glancing down in surprise as a small worn teddy
-      bear about knee-height peeks out from around the corner ahead of
-      her, its stitched button eyes fixed curiously on her.
+      Wide establishing shot, full body, long quiet concrete facility
+      corridor stretching into the distance. Dr. Hana walks along mid-
+      stride carrying a stack of folders, glancing down in surprise
+      toward a small worn teddy bear about knee-height peeking out from
+      around the corner ahead of her, its stitched button eyes fixed
+      curiously on her.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-1048は自律的に移動する体長33cmのテディベアである。周囲の人員に対し愛着行動を示す。"
+      en: "SCP-1048 is a 33cm teddy bear capable of autonomous movement. It displays affectionate behavior toward personnel."
+      cs: "SCP-1048 je 33 cm vysoký medvídek schopný samostatného pohybu. Vůči personálu projevuje náklonnost."
+      de: "SCP-1048 ist ein 33 cm großer Teddybär, der sich selbstständig bewegen kann. Er zeigt Zuneigung gegenüber Personal."
+      es: "SCP-1048 es un osito de peluche de 33 cm capaz de moverse de forma autónoma. Muestra comportamiento afectuoso hacia el personal."
+      fr: "SCP-1048 est un ours en peluche de 33 cm capable de se déplacer seul. Il manifeste de l'affection envers le personnel."
+      it: "SCP-1048 è un orsacchiotto di 33 cm capace di muoversi autonomamente. Mostra comportamenti affettuosi verso il personale."
+      ko: "SCP-1048은 자율적으로 이동하는 33cm 크기의 곰인형이다. 직원들에게 애정 행동을 보인다."
+      pl: "SCP-1048 to 33-centymetrowy pluszowy miś zdolny do samodzielnego poruszania się. Okazuje przywiązanie personelowi."
+      pt: "SCP-1048 é um ursinho de pelúcia de 33cm capaz de se mover de forma autônoma. Demonstra comportamento afetuoso com a equipe."
+      th: "SCP-1048 คือหมีตุ๊กตาสูง 33 ซม. ที่เคลื่อนที่ได้เอง และแสดงพฤติกรรมผูกพันต่อเจ้าหน้าที่"
+      uk: "SCP-1048 — плюшевий ведмедик заввишки 33 см, здатний рухатися самостійно. Виявляє прихильність до персоналу."
+      vi: "SCP-1048 là một chú gấu bông cao 33cm có khả năng tự di chuyển. Nó thể hiện hành vi trìu mến với nhân viên."
+      zh: "SCP-1048是一只体长33厘米、能够自主移动的泰迪熊。它对工作人员表现出亲昵行为。"
+      zh_Hant: "SCP-1048是一隻體長33公分、能夠自主移動的泰迪熊。牠對工作人員表現出親暱行為。"
     bubbles:
       - position: top-left
         tail: down-right
@@ -54,11 +74,29 @@ panels:
           zh_Hant: "哦，你好呀。"
 
   - scene: >
-      The small teddy bear rushes forward and wraps both stubby arms
-      tightly around Dr. Hana's leg in an affectionate hug. Her folders
-      spill slightly as she looks down with a surprised, softening smile,
-      one hand reaching to pat the bear's head.
+      Low angle close-up shot, camera near floor level looking up. The
+      small teddy bear rushes forward and wraps both stubby arms tightly
+      around Dr. Hana's leg in an affectionate hug, filling the lower
+      frame. Her folders spill slightly as she looks down from above with
+      a surprised, softening smile, one hand reaching down to pat the
+      bear's head.
     characters: [researcher-hana]
+    caption:
+      ja: "本オブジェクトは職員への抱擁や簡単な身振りによるコミュニケーションが確認されている。"
+      en: "The object has been observed hugging staff and communicating through simple gestures."
+      cs: "U objektu bylo pozorováno objímání personálu a komunikace prostřednictvím jednoduchých gest."
+      de: "Bei dem Objekt wurden Umarmungen von Personal sowie Kommunikation durch einfache Gesten beobachtet."
+      es: "Se ha observado que el objeto abraza al personal y se comunica mediante gestos sencillos."
+      fr: "L'objet a été observé enlaçant le personnel et communiquant par des gestes simples."
+      it: "È stato osservato che l'oggetto abbraccia il personale e comunica tramite semplici gesti."
+      ko: "본 오브젝트는 직원을 껴안거나 간단한 몸짓으로 의사소통하는 모습이 관찰되었다."
+      pl: "Zaobserwowano, że obiekt przytula personel i komunikuje się za pomocą prostych gestów."
+      pt: "Observou-se que o objeto abraça a equipe e se comunica por meio de gestos simples."
+      th: "พบว่าวัตถุนี้กอดเจ้าหน้าที่และสื่อสารผ่านท่าทางง่ายๆ"
+      uk: "Було помічено, що об'єкт обіймає персонал і спілкується простими жестами."
+      vi: "Vật thể được ghi nhận là có hành vi ôm nhân viên và giao tiếp bằng các cử chỉ đơn giản."
+      zh: "已观察到该对象会拥抱工作人员，并通过简单的手势进行交流。"
+      zh_Hant: "已觀察到該對象會擁抱工作人員，並透過簡單的手勢進行交流。"
     bubbles:
       - position: top
         tail: down
@@ -80,11 +118,28 @@ panels:
           zh_Hant: "哇，好可愛！"
 
   - scene: >
-      The teddy bear proudly holds up a crumpled crayon drawing with both
-      paws, offering it to Dr. Hana. The drawing shows simple stick-figure
-      shapes. Dr. Hana crouches down, taking the drawing gently with both
-      hands, touched.
+      Medium shot, waist-up, both subjects now at the same eye level
+      since Dr. Hana has crouched down. The teddy bear proudly holds up a
+      crumpled crayon drawing with both paws, offering it to her. The
+      drawing shows simple stick-figure shapes. Dr. Hana reaches out,
+      taking the drawing gently with both hands, visibly touched.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-1048は周辺の材料を用いて自身の複製を作成する能力を持つ。生成物の安全性は未確認である。"
+      en: "SCP-1048 is capable of fabricating replicas of itself from nearby materials; the safety of these creations is unconfirmed."
+      cs: "SCP-1048 dokáže z okolních materiálů vytvářet své vlastní repliky; bezpečnost těchto výtvorů nebyla potvrzena."
+      de: "SCP-1048 kann aus umliegenden Materialien Nachbildungen seiner selbst herstellen; die Sicherheit dieser Kreationen ist nicht bestätigt."
+      es: "SCP-1048 es capaz de fabricar réplicas de sí mismo con materiales cercanos; no se ha confirmado la seguridad de estas creaciones."
+      fr: "SCP-1048 est capable de fabriquer des répliques de lui-même à partir de matériaux à proximité ; la sécurité de ces créations n'est pas confirmée."
+      it: "SCP-1048 è in grado di fabbricare repliche di sé stesso con materiali nelle vicinanze; la sicurezza di tali creazioni non è confermata."
+      ko: "SCP-1048은 주변 재료로 자신의 복제품을 제작할 수 있으며, 그 결과물의 안전성은 확인되지 않았다."
+      pl: "SCP-1048 potrafi wytwarzać własne repliki z pobliskich materiałów; bezpieczeństwo tych tworów nie zostało potwierdzone."
+      pt: "SCP-1048 é capaz de fabricar réplicas de si mesmo a partir de materiais próximos; a segurança dessas criações não foi confirmada."
+      th: "SCP-1048 สามารถสร้างสำเนาของตัวเองจากวัสดุใกล้เคียงได้ ความปลอดภัยของสิ่งที่สร้างขึ้นยังไม่ได้รับการยืนยัน"
+      uk: "SCP-1048 здатен виготовляти власні репліки з навколишніх матеріалів; безпека цих витворів не підтверджена."
+      vi: "SCP-1048 có khả năng tạo ra bản sao của chính mình từ vật liệu xung quanh; độ an toàn của các sản phẩm này chưa được xác nhận."
+      zh: "SCP-1048能够利用周围材料制造自身的复制品；这些造物的安全性尚未得到确认。"
+      zh_Hant: "SCP-1048能夠利用周圍材料製造自身的複製品；這些造物的安全性尚未得到確認。"
     bubbles:
       - position: top-right
         tail: down-left
@@ -106,10 +161,12 @@ panels:
           zh_Hant: "這是給我的嗎？"
 
   - scene: >
-      Dr. Hana's office corkboard, now decorated with the crayon drawing
-      pinned proudly at the center among official Foundation memos and
-      forms. Dr. Hana sits at her desk in the foreground, glancing back at
-      it with a warm, content smile.
+      Wide shot, full body, showing the whole office from behind Dr. Hana
+      at an angle. She sits at her desk in the foreground, turned around
+      in her chair to glance back over her shoulder at the corkboard on
+      the far wall, now decorated with the crayon drawing pinned proudly
+      at the center among official Foundation memos and forms, a warm
+      content smile on her face.
     characters: [researcher-hana]
     bubbles:
       - position: bottom-right
@@ -130,3 +187,20 @@ panels:
           vi: "Món trang trí đẹp nhất văn phòng."
           zh: "办公室里最棒的装饰品。"
           zh_Hant: "辦公室裡最棒的裝飾品。"
+
+addendum:
+  ja: "補遺1048-1：職員の士気向上効果が確認されているため、発見時の破壊は最終手段とされている。"
+  en: "Addendum 1048-1: Due to its documented effect on staff morale, destruction on sight remains a last resort."
+  cs: "Dodatek 1048-1: Vzhledem k jeho zdokumentovanému vlivu na morálku personálu zůstává zničení na místě až posledním řešením."
+  de: "Anhang 1048-1: Aufgrund der dokumentierten Wirkung auf die Personalmoral bleibt die sofortige Zerstörung nur letztes Mittel."
+  es: "Adenda 1048-1: Debido a su efecto documentado en la moral del personal, la destrucción al ser detectado sigue siendo el último recurso."
+  fr: "Addendum 1048-1 : En raison de son effet documenté sur le moral du personnel, la destruction à vue reste un dernier recours."
+  it: "Addendum 1048-1: Vista la documentata influenza sul morale del personale, la distruzione a vista resta l'ultima risorsa."
+  ko: "부록 1048-1: 직원 사기에 미치는 효과가 확인되었으므로, 발견 즉시 파괴는 최후의 수단으로 남겨둔다."
+  pl: "Aneks 1048-1: Ze względu na udokumentowany wpływ na morale personelu, natychmiastowe zniszczenie pozostaje ostatecznością."
+  pt: "Adendo 1048-1: Devido ao efeito documentado sobre o moral da equipe, a destruição à vista continua sendo o último recurso."
+  th: "ภาคผนวก 1048-1: เนื่องจากมีผลบวกต่อขวัญกำลังใจของเจ้าหน้าที่ที่ได้รับการบันทึกไว้ การทำลายทันทีที่พบเห็นจึงถือเป็นทางเลือกสุดท้าย"
+  uk: "Додаток 1048-1: Через задокументований вплив на моральний дух персоналу знищення на місці залишається крайнім заходом."
+  vi: "Phụ lục 1048-1: Do tác động tích cực đã được ghi nhận đối với tinh thần nhân viên, việc tiêu hủy ngay khi phát hiện chỉ là biện pháp cuối cùng."
+  zh: "补遗1048-1：鉴于其对员工士气有据可查的正面影响，发现即销毁仅作为最后手段。"
+  zh_Hant: "補遺1048-1：鑑於其對員工士氣有據可查的正面影響，發現即銷毀僅作為最後手段。"

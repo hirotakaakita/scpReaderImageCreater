@@ -23,15 +23,34 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-529"
   license: "CC BY-SA 3.0"
 
+object_class: Safe
+
 characters: [researcher-hana]
 
 panels:
   - scene: >
-      A quiet facility hallway. Dr. Hana crouches down to pet a small grey
-      tabby cat whose body ends abruptly in a flat black cross-section
-      just behind the ribcage, as if neatly sliced away, yet the cat sits
-      and balances completely normally. Dr. Hana smiles warmly, scratching
-      behind its ears.
+      Wide shot, full body, eye level, showing the whole quiet facility
+      hallway. Dr. Hana crouches down to pet a small grey tabby cat whose
+      body ends abruptly in a flat black cross-section just behind the
+      ribcage, as if neatly sliced away, yet the cat sits and balances
+      completely normally. Dr. Hana smiles warmly, scratching behind its
+      ears.
+    caption:
+      ja: "SCP-529はグレーの縞模様を持つ家猫である。肋骨の後方から先の身体が存在しない。"
+      en: "SCP-529 is a grey tabby house cat. Its body is entirely absent from just behind the ribcage."
+      cs: "SCP-529 je šedý mourovatý domácí kocour. Jeho tělo zcela chybí od místa těsně za žebry."
+      de: "SCP-529 ist eine graue getigerte Hauskatze. Ihr Körper fehlt vollständig ab einer Stelle direkt hinter dem Brustkorb."
+      es: "SCP-529 es un gato doméstico atigrado gris. Su cuerpo está completamente ausente justo detrás de la caja torácica."
+      fr: "SCP-529 est un chat domestique tigré gris. Son corps est entièrement absent juste derrière la cage thoracique."
+      it: "SCP-529 è un gatto domestico tigrato grigio. Il suo corpo è completamente assente subito dietro la gabbia toracica."
+      ko: "SCP-529는 회색 줄무늬 집고양이이다. 갈비뼈 바로 뒤쪽부터 신체가 완전히 없다."
+      pl: "SCP-529 to szary kot domowy w prążki. Jego ciało całkowicie znika tuż za klatką piersiową."
+      pt: "SCP-529 é um gato doméstico tigrado cinza. Seu corpo está completamente ausente logo atrás da caixa torácica."
+      th: "SCP-529 คือแมวบ้านลายเสือสีเทา ร่างกายของมันหายไปทั้งหมดตั้งแต่บริเวณหลังซี่โครง"
+      uk: "SCP-529 — сірий смугастий домашній кіт. Його тіло повністю відсутнє одразу за грудною кліткою."
+      vi: "SCP-529 là một con mèo nhà vằn xám. Cơ thể nó hoàn toàn biến mất ngay phía sau lồng ngực."
+      zh: "SCP-529是一只灰色虎斑家猫。它的身体在肋骨后方完全缺失。"
+      zh_Hant: "SCP-529是一隻灰色虎斑家貓。牠的身體在肋骨後方完全缺失。"
     characters: [researcher-hana]
     bubbles:
       - position: top-left
@@ -54,11 +73,29 @@ panels:
           zh_Hant: "嗨，喬西，真乖。"
 
   - scene: >
-      The half-cat suddenly turns to face Dr. Hana directly, ears perked
-      and mouth open in an insistent meow, eyes fixed pointedly on the
-      cheese sandwich sticking out of the lunch bag on Dr. Hana's shoulder.
-      Dr. Hana leans back slightly, startled by the intensity.
+      Extreme close-up shot on the half-cat's face, filling almost the
+      entire frame: ears perked and mouth open wide in an insistent meow,
+      eyes fixed pointedly toward a cheese sandwich sticking out of a
+      lunch bag blurred in the background. Dr. Hana's startled face is a
+      small sliver at the very edge of the frame, leaning back from the
+      intensity.
     characters: [researcher-hana]
+    caption:
+      ja: "身体欠損部の断面は完全な黒色を呈し、可視光以外の波長も吸収する。"
+      en: "The cross-section of the missing portion is pure black and absorbs wavelengths outside the visible spectrum."
+      cs: "Průřez chybějící části je zcela černý a pohlcuje i vlnové délky mimo viditelné spektrum."
+      de: "Der Querschnitt des fehlenden Teils ist vollkommen schwarz und absorbiert auch Wellenlängen außerhalb des sichtbaren Spektrums."
+      es: "La sección transversal de la parte faltante es de un negro puro y absorbe longitudes de onda fuera del espectro visible."
+      fr: "La section transversale de la partie manquante est d'un noir pur et absorbe des longueurs d'onde hors du spectre visible."
+      it: "La sezione trasversale della parte mancante è di un nero assoluto e assorbe lunghezze d'onda al di fuori dello spettro visibile."
+      ko: "결손 부위의 단면은 완전한 검은색을 띠며, 가시광선 외의 파장도 흡수한다."
+      pl: "Przekrój brakującej części jest całkowicie czarny i pochłania fale spoza widzialnego spektrum."
+      pt: "A seção transversal da parte ausente é de um preto absoluto e absorve comprimentos de onda fora do espectro visível."
+      th: "หน้าตัดของส่วนที่หายไปเป็นสีดำสนิทและดูดซับคลื่นความยาวคลื่นนอกช่วงแสงที่มองเห็นได้ด้วย"
+      uk: "Переріз відсутньої частини абсолютно чорний і поглинає хвилі поза видимим спектром."
+      vi: "Mặt cắt của phần bị thiếu có màu đen tuyệt đối và hấp thụ cả các bước sóng ngoài phổ khả kiến."
+      zh: "缺失部位的截面呈纯黑色，并能吸收可见光谱以外的波长。"
+      zh_Hant: "缺失部位的截面呈純黑色，並能吸收可見光譜以外的波長。"
     bubbles:
       - position: top
         tail: down
@@ -80,11 +117,28 @@ panels:
           zh_Hant: "喵！！（起司，馬上。）"
 
   - scene: >
-      Dr. Hana kneels with a slightly nervous expression, carefully
-      holding out a small slice of cheese between two fingers toward the
-      half-cat, arm extended cautiously as if approaching something that
-      might swipe at her.
+      Medium shot, waist-up, high angle looking down over Dr. Hana's
+      shoulder toward the cat below. She kneels with a slightly nervous
+      expression, carefully holding out a small slice of cheese between
+      two fingers toward the half-cat, arm extended cautiously as if
+      approaching something that might swipe at her.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-529には健康上の問題は一切確認されていない。チーズの給餌を怠ると強い苦痛を示す。"
+      en: "No health issues have been identified in SCP-529. It exhibits severe distress if not regularly fed cheese."
+      cs: "U SCP-529 nebyly zjištěny žádné zdravotní potíže. Pokud mu není pravidelně podáván sýr, projevuje silné rozrušení."
+      de: "Bei SCP-529 wurden keine gesundheitlichen Probleme festgestellt. Ohne regelmäßige Käsefütterung zeigt es starke Unruhe."
+      es: "No se han identificado problemas de salud en SCP-529. Muestra una angustia severa si no se le da queso regularmente."
+      fr: "Aucun problème de santé n'a été identifié chez SCP-529. Il manifeste une grande détresse s'il n'est pas nourri régulièrement de fromage."
+      it: "Non sono stati riscontrati problemi di salute in SCP-529. Manifesta grave disagio se non viene nutrito regolarmente con formaggio."
+      ko: "SCP-529에서 건강상의 문제는 확인되지 않았다. 정기적으로 치즈를 급여하지 않으면 심한 불안 증세를 보인다."
+      pl: "U SCP-529 nie stwierdzono żadnych problemów zdrowotnych. Wykazuje silny niepokój, jeśli nie jest regularnie karmiony serem."
+      pt: "Nenhum problema de saúde foi identificado em SCP-529. Ele demonstra grande angústia se não receber queijo regularmente."
+      th: "ไม่พบปัญหาสุขภาพใดๆ ใน SCP-529 แต่จะแสดงอาการทุกข์ทรมานอย่างมากหากไม่ได้รับชีสเป็นประจำ"
+      uk: "У SCP-529 не виявлено жодних проблем зі здоров'ям. Виявляє сильний дистрес, якщо не отримує сир регулярно."
+      vi: "Không phát hiện vấn đề sức khỏe nào ở SCP-529. Nó tỏ ra vô cùng đau khổ nếu không được cho ăn phô mai thường xuyên."
+      zh: "SCP-529未发现任何健康问题。若不定期喂食芝士，它会表现出强烈的不安。"
+      zh_Hant: "SCP-529未發現任何健康問題。若不定期餵食起司，牠會表現出強烈的不安。"
     bubbles:
       - position: top-right
         tail: down-left
@@ -106,9 +160,11 @@ panels:
           zh_Hant: "好、好的，你的起司…"
 
   - scene: >
-      Dr. Hana sits on the hallway floor, leaning back on her hands with
-      visible relief, while the half-cat happily nibbles the cheese in
-      front of her, tail curled contentedly, purring loudly.
+      Wide shot, full body, eye level, pulled back to show the whole
+      hallway. Dr. Hana sits sprawled on the floor, leaning back on her
+      hands with visible relief and legs stretched out, while the
+      half-cat happily nibbles the cheese in front of her, tail curled
+      contentedly, purring loudly.
     characters: [researcher-hana]
     bubbles:
       - position: bottom
@@ -129,3 +185,20 @@ panels:
           vi: "Khủng hoảng đã qua."
           zh: "危机解除了。"
           zh_Hant: "危機解除了。"
+
+addendum:
+  ja: "補遺529-1：本オブジェクトへのチーズの供給停止は明確に禁止されている。"
+  en: "Addendum 529-1: Withholding cheese from this object is explicitly prohibited."
+  cs: "Dodatek 529-1: Odepření sýra tomuto objektu je výslovně zakázáno."
+  de: "Anhang 529-1: Dem Objekt Käse vorzuenthalten ist ausdrücklich untersagt."
+  es: "Adenda 529-1: Negar queso a este objeto está expresamente prohibido."
+  fr: "Addendum 529-1 : Priver cet objet de fromage est explicitement interdit."
+  it: "Addendum 529-1: Negare il formaggio a questo oggetto è espressamente vietato."
+  ko: "부록 529-1: 본 오브젝트에게 치즈 급여를 중단하는 행위는 명백히 금지된다."
+  pl: "Aneks 529-1: Wstrzymywanie sera temu obiektowi jest wyraźnie zabronione."
+  pt: "Adendo 529-1: Negar queijo a este objeto é expressamente proibido."
+  th: "ภาคผนวก 529-1: ห้ามงดให้ชีสแก่วัตถุนี้โดยเด็ดขาด"
+  uk: "Додаток 529-1: Позбавляти цей об'єкт сиру категорично заборонено."
+  vi: "Phụ lục 529-1: Nghiêm cấm việc không cho vật thể này ăn phô mai."
+  zh: "补遗529-1：明确禁止停止向该对象提供芝士。"
+  zh_Hant: "補遺529-1：明確禁止停止向該對象提供起司。"

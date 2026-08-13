@@ -23,14 +23,33 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-978"
   license: "CC BY-SA 3.0"
 
+object_class: Safe
+
 characters: [researcher-hana]
 
 panels:
   - scene: >
-      A cramped office buried in stacks of paperwork. Dr. Hana sits
-      hunched at her desk looking exhausted, while a cheerful coworker
-      leans in from the side holding up an old red-and-black Polaroid
-      camera, aiming it playfully at her.
+      Wide shot, full body, high angle looking down over the cramped
+      office buried in stacks of paperwork. Dr. Hana sits hunched at her
+      desk looking exhausted, while a cheerful coworker leans in from the
+      side holding up an old red-and-black Polaroid camera, aiming it
+      playfully at her.
+    caption:
+      ja: "SCP-978は赤と黒のポラロイドカメラである。外観上、通常のカメラとの相違点は確認されていない。"
+      en: "SCP-978 is a red-and-black Polaroid camera. No differences from a standard camera have been identified in its appearance."
+      cs: "SCP-978 je červeno-černý polaroidový fotoaparát. Na jeho vzhledu nebyly zjištěny žádné odlišnosti od běžného fotoaparátu."
+      de: "SCP-978 ist eine rot-schwarze Polaroidkamera. Äußerlich wurden keine Unterschiede zu einer gewöhnlichen Kamera festgestellt."
+      es: "SCP-978 es una cámara Polaroid roja y negra. No se han identificado diferencias con una cámara estándar en su apariencia."
+      fr: "SCP-978 est un appareil Polaroid rouge et noir. Aucune différence avec un appareil standard n'a été identifiée dans son apparence."
+      it: "SCP-978 è una fotocamera Polaroid rossa e nera. Non sono state riscontrate differenze rispetto a una normale fotocamera nel suo aspetto."
+      ko: "SCP-978은 빨간색과 검은색의 폴라로이드 카메라이다. 외관상 일반 카메라와의 차이점은 확인되지 않았다."
+      pl: "SCP-978 to czerwono-czarny aparat Polaroid. Pod względem wyglądu nie stwierdzono różnic względem zwykłego aparatu."
+      pt: "SCP-978 é uma câmera Polaroid vermelha e preta. Nenhuma diferença em relação a uma câmera padrão foi identificada em sua aparência."
+      th: "SCP-978 คือกล้องโพลารอยด์สีแดงและดำ ไม่พบความแตกต่างจากกล้องทั่วไปในด้านรูปลักษณ์ภายนอก"
+      uk: "SCP-978 — червоно-чорна фотокамера Polaroid. За зовнішнім виглядом жодних відмінностей від звичайної камери не виявлено."
+      vi: "SCP-978 là một máy ảnh Polaroid màu đỏ và đen. Không phát hiện khác biệt nào về hình dáng bên ngoài so với máy ảnh thông thường."
+      zh: "SCP-978是一台红黑相间的宝丽来相机。外观上未发现与普通相机有任何差异。"
+      zh_Hant: "SCP-978是一台紅黑相間的寶麗來相機。外觀上未發現與普通相機有任何差異。"
     characters: [researcher-hana]
     bubbles:
       - position: top-right
@@ -53,10 +72,27 @@ panels:
           zh_Hant: "笑一個！"
 
   - scene: >
-      A bright camera flash fills the cramped office, Dr. Hana squinting
-      and flinching with one hand half-raised against the light, papers on
-      her desk lit starkly white for an instant.
+      Close-up shot centered on Dr. Hana's face, filling most of the
+      frame, lit starkly white by a bright camera flash from off-frame.
+      She squints and flinches with one hand half-raised against the
+      light.
     characters: [researcher-hana]
+    caption:
+      ja: "本オブジェクトで撮影された写真には、被写体が現在行っている行動ではなく、被写体が望んでいる状況が写し出される。"
+      en: "Photographs taken with the object depict not what the subject is currently doing, but what the subject desires to be doing."
+      cs: "Fotografie pořízené tímto objektem nezachycují, co subjekt právě dělá, ale co si přeje dělat."
+      de: "Mit dem Objekt aufgenommene Fotos zeigen nicht, was das Subjekt gerade tut, sondern was es zu tun wünscht."
+      es: "Las fotografías tomadas con el objeto no muestran lo que el sujeto está haciendo, sino lo que desea estar haciendo."
+      fr: "Les photographies prises avec l'objet ne montrent pas ce que fait le sujet, mais ce qu'il désire faire."
+      it: "Le fotografie scattate con l'oggetto non mostrano ciò che il soggetto sta facendo, bensì ciò che desidera fare."
+      ko: "본 오브젝트로 촬영한 사진에는 대상이 현재 하고 있는 행동이 아니라, 대상이 하고 싶어 하는 상황이 찍힌다."
+      pl: "Zdjęcia zrobione tym obiektem nie przedstawiają tego, co obiekt aktualnie robi, lecz to, co pragnie robić."
+      pt: "Fotografias tiradas com o objeto não retratam o que o sujeito está fazendo, mas sim o que ele deseja estar fazendo."
+      th: "ภาพถ่ายที่ถ่ายด้วยวัตถุนี้ไม่ได้แสดงสิ่งที่ผู้ถูกถ่ายกำลังทำอยู่ แต่แสดงสิ่งที่ผู้ถูกถ่ายปรารถนาจะทำ"
+      uk: "Фотографії, зроблені цим об'єктом, зображують не те, що суб'єкт робить зараз, а те, що він бажає робити."
+      vi: "Những bức ảnh chụp bằng vật thể này không phản ánh việc đối tượng đang làm, mà là điều đối tượng mong muốn được làm."
+      zh: "用该对象拍摄的照片，呈现的并非被摄者当下的行为，而是被摄者内心渴望的情境。"
+      zh_Hant: "用該對象拍攝的照片，呈現的並非被攝者當下的行為，而是被攝者內心渴望的情境。"
     bubbles:
       - position: top
         tail: down
@@ -78,11 +114,28 @@ panels:
           zh_Hant: "哇，好刺眼！"
 
   - scene: >
-      Dr. Hana and the coworker both stare down at a freshly developed
-      Polaroid photo held between them. The photo clearly shows Dr. Hana
-      lounging in a beach chair under a palm tree, sipping a drink with a
-      tiny umbrella, completely at ease.
+      Extreme close-up shot on the small Polaroid photo itself, filling
+      almost the entire frame, held between two blurred pairs of fingers.
+      The photo clearly shows Dr. Hana lounging in a beach chair under a
+      palm tree, sipping a drink with a tiny umbrella, completely at
+      ease.
     characters: [researcher-hana]
+    caption:
+      ja: "2名以上を同時に撮影した場合、それぞれの願望が写真上で混ざり合う現象が確認されている。"
+      en: "When two or more subjects are photographed together, their desires have been observed to blend within the resulting image."
+      cs: "Jsou-li vyfotografovány společně dva či více subjektů, bylo pozorováno, že se jejich přání ve výsledném snímku prolínají."
+      de: "Werden zwei oder mehr Subjekte gemeinsam fotografiert, wurde beobachtet, dass sich ihre Wünsche im entstehenden Bild vermischen."
+      es: "Cuando se fotografía juntos a dos o más sujetos, se ha observado que sus deseos se mezclan en la imagen resultante."
+      fr: "Lorsque deux sujets ou plus sont photographiés ensemble, leurs désirs ont été observés se mélangeant dans l'image obtenue."
+      it: "Quando due o più soggetti vengono fotografati insieme, si è osservato che i loro desideri si fondono nell'immagine risultante."
+      ko: "두 명 이상의 대상을 함께 촬영하면, 각자의 욕망이 결과물 속에서 뒤섞이는 현상이 확인되었다."
+      pl: "Gdy dwóch lub więcej obiektów jest fotografowanych razem, zaobserwowano, że ich pragnienia mieszają się na wynikowym zdjęciu."
+      pt: "Quando dois ou mais sujeitos são fotografados juntos, observou-se que seus desejos se misturam na imagem resultante."
+      th: "เมื่อถ่ายภาพผู้ถูกถ่ายตั้งแต่สองคนขึ้นไปพร้อมกัน พบว่าความปรารถนาของแต่ละคนจะผสมปนเปกันในภาพที่ได้"
+      uk: "Коли двох чи більше суб'єктів фотографують разом, було помічено, що їхні бажання змішуються в отриманому зображенні."
+      vi: "Khi hai đối tượng trở lên được chụp cùng nhau, người ta quan sát thấy mong muốn của họ hòa trộn vào nhau trong bức ảnh."
+      zh: "当两名或以上被摄者同时入镜时，已观察到他们的欲望会在成像中相互融合。"
+      zh_Hant: "當兩名或以上被攝者同時入鏡時，已觀察到他們的慾望會在成像中相互融合。"
     bubbles:
       - position: bottom
         tail: up
@@ -104,10 +157,11 @@ panels:
           zh_Hant: "…海灘？真的假的？"
 
   - scene: >
-      Dr. Hana pins the beach photo to the edge of her monitor and slumps
-      back over her keyboard, staring wistfully at it while towering
-      stacks of paperwork surround her on the desk, a small resigned sigh
-      visible in her posture.
+      Wide shot, full body, low angle from across the desk, showing the
+      whole cramped office again. Dr. Hana pins the beach photo to the
+      edge of her monitor and slumps back over her keyboard, staring
+      wistfully at it while towering stacks of paperwork surround her on
+      the desk, a small resigned sigh visible in her posture.
     characters: [researcher-hana]
     bubbles:
       - position: top-left
@@ -128,3 +182,20 @@ panels:
           vi: "…thôi, quay lại đống giấy tờ vậy."
           zh: "…还是回去处理文件吧。"
           zh_Hant: "…還是回去處理文件吧。"
+
+addendum:
+  ja: "補遺978-1：本オブジェクトは人間以外の生物、および非生物のSCPに対しても効果を示す。"
+  en: "Addendum 978-1: The object has also proven effective on non-human organisms and non-living SCP objects."
+  cs: "Dodatek 978-1: Objekt se ukázal být účinný i na nelidských organismech a neživých SCP objektech."
+  de: "Anhang 978-1: Das Objekt hat sich auch bei nichtmenschlichen Organismen und nichtlebenden SCP-Objekten als wirksam erwiesen."
+  es: "Adenda 978-1: El objeto también ha demostrado ser eficaz en organismos no humanos y objetos SCP no vivos."
+  fr: "Addendum 978-1 : L'objet s'est également révélé efficace sur des organismes non humains et des objets SCP non vivants."
+  it: "Addendum 978-1: L'oggetto si è dimostrato efficace anche su organismi non umani e oggetti SCP non viventi."
+  ko: "부록 978-1: 본 오브젝트는 인간 외의 생물체 및 비생물 SCP 오브젝트에도 효과가 있는 것으로 확인되었다."
+  pl: "Aneks 978-1: Obiekt okazał się skuteczny również wobec organizmów innych niż ludzie oraz nieożywionych obiektów SCP."
+  pt: "Adendo 978-1: O objeto também se mostrou eficaz em organismos não humanos e objetos SCP não vivos."
+  th: "ภาคผนวก 978-1: วัตถุนี้ยังพิสูจน์แล้วว่าได้ผลกับสิ่งมีชีวิตที่ไม่ใช่มนุษย์ และวัตถุ SCP ที่ไม่มีชีวิตด้วย"
+  uk: "Додаток 978-1: Об'єкт також виявився ефективним щодо нелюдських організмів та неживих об'єктів SCP."
+  vi: "Phụ lục 978-1: Vật thể này cũng được chứng minh có hiệu quả với các sinh vật không phải người và các đối tượng SCP vô tri."
+  zh: "补遗978-1：该对象对非人类生物及非生命体SCP对象同样有效。"
+  zh_Hant: "補遺978-1：該對象對非人類生物及非生命體SCP對象同樣有效。"

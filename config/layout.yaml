@@ -20,11 +20,41 @@ strip:
   panel_border_color: "#000000"
 
 # タイトル帯（テキストは言語別にembed_text.pyが描く）
+# object_classを台本に書くと、タイトル下にオブジェクトクラスのサブタイトルが入る
+# （その分タイトル自体は上寄りに縮む）
 header:
-  height: 96
+  height: 120
   font_size: 40
+  subtitle_font_size: 22
   color: "#000000"
   rule_width: 3       # タイトル下の罫線
+
+# 各コマ上のSCP文書調キャプション枠（台本のpanels[].captionを描く。
+# 台本にcaptionが無いコマは枠ごと省略される）
+caption:
+  height: 84
+  gap: 6              # キャプション枠とコマ画像の間隔(px)
+  font_size: 20
+  min_font_size: 12
+  line_spacing: 4
+  padding: 12
+  fill: "#FFFFFF"
+  outline: "#000000"
+  outline_width: 2
+  text_color: "#000000"
+
+# 最後のコマの下に置く補遺ボックス（台本のaddendumを描く。無ければ省略）
+addendum:
+  height: 84
+  gap: 16             # 最後のコマとの間隔(px)
+  font_size: 20
+  min_font_size: 12
+  line_spacing: 4
+  padding: 12
+  fill: "#FFFFFF"
+  outline: "#000000"
+  outline_width: 2
+  text_color: "#000000"
 
 # ライセンス表記帯（compose.pyが自動で描く）
 footer:

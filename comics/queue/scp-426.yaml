@@ -23,16 +23,35 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-426"
   license: "CC BY-SA 3.0"
 
+object_class: Euclid
+
 characters: [researcher-hana]
 
 panels:
   - scene: >
-      A cluttered break room shelf holds a plain, ordinary-looking metal
-      toaster with a small warning placard beside it. A young male intern
-      in a Foundation polo shirt leans in curiously, reading the placard
-      out loud, while Dr. Hana watches from a doorway with a mug in hand,
-      unconcerned.
+      Wide establishing shot, full body, showing the whole cluttered break
+      room from a corner angle. A plain metal toaster sits on a shelf with
+      a small warning placard beside it. A young male intern in a
+      Foundation polo shirt leans in curiously toward it, reading the
+      placard out loud, while Dr. Hana watches from a doorway across the
+      room with a mug in hand, unconcerned.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-426は一見ごく普通のトースターである。ただし、これに言及する者は一人称で自らを指すようになる。"
+      en: "SCP-426 appears to be an ordinary toaster. However, anyone who refers to it begins speaking of themselves in the first person."
+      cs: "SCP-426 vypadá jako běžný topinkovač. Kdokoli se o něm zmíní, ale začne o sobě mluvit v první osobě."
+      de: "SCP-426 wirkt wie ein gewöhnlicher Toaster. Wer jedoch über ihn spricht, beginnt, von sich selbst in der ersten Person zu sprechen."
+      es: "SCP-426 parece una tostadora normal. Sin embargo, quien se refiere a él empieza a hablar de sí mismo en primera persona."
+      fr: "SCP-426 ressemble à un grille-pain ordinaire. Cependant, quiconque le mentionne commence à parler de lui-même à la première personne."
+      it: "SCP-426 sembra un normale tostapane. Tuttavia, chiunque lo nomini inizia a parlare di sé in prima persona."
+      ko: "SCP-426는 평범한 토스터처럼 보인다. 그러나 이를 언급하는 자는 자신을 1인칭으로 지칭하게 된다."
+      pl: "SCP-426 wygląda jak zwykły toster. Jednak każdy, kto o nim wspomina, zaczyna mówić o sobie w pierwszej osobie."
+      pt: "SCP-426 parece uma torradeira comum. No entanto, quem se refere a ele passa a falar de si mesmo em primeira pessoa."
+      th: "SCP-426 ดูเหมือนเครื่องปิ้งขนมปังธรรมดา แต่ผู้ใดที่กล่าวถึงมันจะเริ่มพูดถึงตัวเองในบุรุษที่หนึ่ง"
+      uk: "SCP-426 виглядає як звичайний тостер. Однак кожен, хто згадує про нього, починає говорити про себе від першої особи."
+      vi: "SCP-426 trông giống một chiếc máy nướng bánh bình thường. Tuy nhiên, ai nhắc đến nó sẽ bắt đầu nói về bản thân ở ngôi thứ nhất."
+      zh: "SCP-426看起来是一台普通的烤面包机。然而，任何提及它的人都会开始以第一人称称呼自己。"
+      zh_Hant: "SCP-426看起來是一台普通的烤麵包機。然而，任何提及它的人都會開始以第一人稱稱呼自己。"
     bubbles:
       - position: top-left
         tail: down-right
@@ -54,9 +73,26 @@ panels:
           zh_Hant: "這個烤麵包機是怎麼回事？"
 
   - scene: >
-      The intern stands stiffly upright with his arms pressed flat to his
-      sides, a blank glassy stare on his face, speaking in a flat monotone.
-      Dr. Hana's eyes go wide in alarm behind him.
+      Close-up shot centered tightly on the intern's face, filling most of
+      the frame: a blank glassy stare, mouth slightly open, speaking in a
+      flat monotone. Dr. Hana is small and out of focus in the background,
+      eyes wide in alarm.
+    caption:
+      ja: "SCP-426に2ヶ月以上継続して接触した人物は、自身をトースターだと確信するようになる。"
+      en: "Individuals exposed to SCP-426 for over two months become convinced they themselves are toasters."
+      cs: "Osoby vystavené SCP-426 po dobu delší než dva měsíce se přesvědčí, že jsou samy topinkovačem."
+      de: "Personen, die SCP-426 länger als zwei Monate ausgesetzt sind, überzeugen sich davon, selbst ein Toaster zu sein."
+      es: "Las personas expuestas a SCP-426 durante más de dos meses se convencen de que ellas mismas son tostadoras."
+      fr: "Les personnes exposées à SCP-426 pendant plus de deux mois se convainquent d'être elles-mêmes un grille-pain."
+      it: "Le persone esposte a SCP-426 per oltre due mesi si convincono di essere loro stesse un tostapane."
+      ko: "SCP-426에 2개월 이상 노출된 인원은 스스로를 토스터라고 확신하게 된다."
+      pl: "Osoby narażone na SCP-426 przez ponad dwa miesiące zaczynają wierzyć, że same są tosterem."
+      pt: "Pessoas expostas a SCP-426 por mais de dois meses ficam convencidas de que elas mesmas são torradeiras."
+      th: "ผู้ที่สัมผัสกับ SCP-426 นานเกินสองเดือนจะเริ่มเชื่อว่าตนเองคือเครื่องปิ้งขนมปัง"
+      uk: "Особи, які контактують із SCP-426 понад два місяці, переконуються, що вони самі є тостером."
+      vi: "Những người tiếp xúc với SCP-426 hơn hai tháng sẽ tin rằng chính bản thân họ là một máy nướng bánh."
+      zh: "与SCP-426持续接触超过两个月的人员，会开始确信自己就是一台烤面包机。"
+      zh_Hant: "與SCP-426持續接觸超過兩個月的人員，會開始確信自己就是一台烤麵包機。"
     characters: [researcher-hana]
     bubbles:
       - position: top
@@ -79,11 +115,29 @@ panels:
           zh_Hant: "我……是一台烤麵包機。"
 
   - scene: >
-      The intern pops both arms straight up above his head suddenly, like
-      toast popping out, a wide vacant grin on his face. Dr. Hana recoils
-      backward with both hands raised, spilling her coffee, utterly
+      Medium shot, waist-up, dynamic diagonal composition. The intern
+      pops both arms straight up above his head suddenly, like toast
+      popping out, a wide vacant grin on his face, motion lines around
+      his arms. Beside him Dr. Hana recoils backward off-balance with
+      both hands raised, spilling her coffee cup in mid-air, utterly
       startled.
     characters: [researcher-hana]
+    caption:
+      ja: "対象が自身をトースターとして扱う行動を強制的に制止しない限り、自傷の危険がある。"
+      en: "Unless physically restrained from acting on this belief, affected subjects risk self-harm."
+      cs: "Pokud není subjektu fyzicky zabráněno jednat podle této víry, hrozí mu sebepoškození."
+      de: "Wird der betroffene Subjekt nicht physisch daran gehindert, danach zu handeln, besteht die Gefahr der Selbstverletzung."
+      es: "A menos que se le impida físicamente actuar según esta creencia, el sujeto afectado corre riesgo de autolesionarse."
+      fr: "Sauf contrainte physique empêchant d'agir selon cette conviction, le sujet affecté risque de s'auto-mutiler."
+      it: "Se non fisicamente impedito dall'agire secondo questa convinzione, il soggetto rischia l'autolesionismo."
+      ko: "이러한 믿음에 따라 행동하지 못하도록 물리적으로 제지하지 않으면, 대상은 자해 위험이 있다."
+      pl: "Jeśli obiekt nie zostanie fizycznie powstrzymany przed działaniem zgodnie z tym przekonaniem, grozi mu samookaleczenie."
+      pt: "A menos que seja fisicamente impedido de agir conforme essa crença, o sujeito afetado corre risco de automutilação."
+      th: "หากไม่ถูกยับยั้งทางกายภาพจากความเชื่อนี้ ผู้ได้รับผลกระทบมีความเสี่ยงที่จะทำร้ายตนเอง"
+      uk: "Якщо суб'єкта фізично не стримати від дій відповідно до цього переконання, існує ризик самоушкодження."
+      vi: "Nếu không bị ngăn chặn về mặt vật lý khỏi hành động theo niềm tin này, đối tượng có nguy cơ tự làm hại bản thân."
+      zh: "若不以物理方式加以制止，受影响人员有自伤的风险。"
+      zh_Hant: "若不以物理方式加以制止，受影響人員有自傷的風險。"
     bubbles:
       - position: top-right
         tail: down-left
@@ -105,10 +159,12 @@ panels:
           zh_Hant: "等等，從什麼時候開始的！？"
 
   - scene: >
-      Dr. Hana firmly drags the intern out of the break room by the collar
-      while pointing sternly with her other hand at a large new sign taped
-      to the door reading nothing but a crossed-out toaster icon. The
-      intern still has the same vacant grin, arms limp.
+      Wide shot, full body, viewed from inside the doorway looking out
+      into the corridor. Dr. Hana firmly drags the intern out of the
+      break room by the collar, both mid-stride, while pointing sternly
+      with her other hand at a large new sign taped to the door reading
+      nothing but a crossed-out toaster icon. The intern still has the
+      same vacant grin, arms limp and trailing behind him.
     characters: [researcher-hana]
     bubbles:
       - position: bottom
@@ -129,3 +185,20 @@ panels:
           vi: "Quy tắc một: đừng đọc bảng hiệu."
           zh: "第一条规矩：别读那张告示。"
           zh_Hant: "第一條規矩：別讀那張告示。"
+
+addendum:
+  ja: "補遺426-1：本オブジェクトの収容室には、その正体を示さない表示のみが許可されている。"
+  en: "Addendum 426-1: Only signage that does not reveal the object's true nature is permitted on its containment chamber."
+  cs: "Dodatek 426-1: Na komoře pro zadržení objektu je povoleno pouze označení, které neprozrazuje jeho skutečnou povahu."
+  de: "Anhang 426-1: An der Sicherungskammer des Objekts ist nur eine Beschriftung erlaubt, die dessen wahre Natur nicht preisgibt."
+  es: "Adenda 426-1: Solo se permite en su cámara de contención una señalización que no revele la verdadera naturaleza del objeto."
+  fr: "Addendum 426-1 : Seule une signalétique ne révélant pas la nature réelle de l'objet est autorisée sur sa chambre de confinement."
+  it: "Addendum 426-1: Sulla camera di contenimento dell'oggetto è consentita solo segnaletica che non ne riveli la vera natura."
+  ko: "부록 426-1: 본 오브젝트의 수용실에는 정체를 드러내지 않는 표지만이 허용된다."
+  pl: "Aneks 426-1: Na komorze przetrzymywania obiektu dozwolone jest wyłącznie oznakowanie, które nie ujawnia jego prawdziwej natury."
+  pt: "Adendo 426-1: Apenas sinalização que não revele a verdadeira natureza do objeto é permitida em sua câmara de contenção."
+  th: "ภาคผนวก 426-1: อนุญาตให้ติดป้ายที่ห้องกักกันของวัตถุนี้ได้เฉพาะป้ายที่ไม่เปิดเผยธรรมชาติที่แท้จริงของมันเท่านั้น"
+  uk: "Додаток 426-1: На камері утримання об'єкта дозволено лише позначення, що не розкриває його справжню природу."
+  vi: "Phụ lục 426-1: Chỉ được phép gắn biển báo không tiết lộ bản chất thật của vật thể tại buồng giam giữ nó."
+  zh: "补遗426-1：该对象的收容室仅允许张贴不透露其真实身份的标示。"
+  zh_Hant: "補遺426-1：該對象的收容室僅允許張貼不透露其真實身份的標示。"

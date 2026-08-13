@@ -25,6 +25,26 @@ languages:
 # 単語区切りのスペースが無い言語（1文字単位で折り返す）
 char_wrap: [ja, zh, zh_Hant, th]
 
+# タイトル下のオブジェクトクラス行のラベル（末尾の区切り記号込み）。
+# 台本の object_class（Safe/Euclid/Keter等、英語のまま）の直前に付けて表示する。
+# 全漫画共通なので台本側では翻訳しない。
+object_class_label:
+  ja: "オブジェクトクラス："
+  en: "Object Class: "
+  cs: "Třída objektu: "
+  de: "Objektklasse: "
+  es: "Clase de objeto: "
+  fr: "Classe d'objet : "
+  it: "Classe dell'oggetto: "
+  ko: "객체 등급: "
+  pl: "Klasa obiektu: "
+  pt: "Classe do objeto: "
+  th: "ระดับวัตถุ: "
+  uk: "Клас об'єкта: "
+  vi: "Cấp độ đối tượng: "
+  zh: "对象等级："
+  zh_Hant: "對象等級："
+
 fonts:
   default: fonts/NotoSans-Bold.ttf   # ラテン文字・キリル文字・ベトナム語をカバー
   by_language:

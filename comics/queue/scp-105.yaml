@@ -24,15 +24,34 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-105"
   license: "CC BY-SA 3.0"
 
+object_class: Euclid
+
 characters: [researcher-hana]
 
 panels:
   - scene: >
-      Dr. Hana's cluttered office. A colleague holds up an old-style
-      Polaroid photograph showing a storage room shelf, pinning it to a
-      corkboard as Dr. Hana glances over from her desk, a stapler visible
-      near her keyboard.
+      Wide shot, full body, showing all of Dr. Hana's cluttered office
+      from a corner angle. A colleague holds up an old-style Polaroid
+      photograph showing a storage room shelf, pinning it to a corkboard
+      on the wall as Dr. Hana glances over from her desk on the other
+      side of the room, a stapler visible near her keyboard.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-105-Bは1982年製のポラロイドカメラである。撮影者本人（SCP-105）以外には何ら異常のない機材として作動する。"
+      en: "SCP-105-B is a Polaroid camera manufactured in 1982. It functions as an ordinary camera for anyone other than SCP-105 herself."
+      cs: "SCP-105-B je polaroidový fotoaparát vyrobený v roce 1982. Pro kohokoli jiného než SCP-105 funguje jako běžný fotoaparát."
+      de: "SCP-105-B ist eine 1982 hergestellte Polaroidkamera. Für jeden außer SCP-105 selbst funktioniert sie wie eine gewöhnliche Kamera."
+      es: "SCP-105-B es una cámara Polaroid fabricada en 1982. Funciona como una cámara normal para cualquiera que no sea la propia SCP-105."
+      fr: "SCP-105-B est un appareil Polaroid fabriqué en 1982. Il fonctionne comme un appareil ordinaire pour quiconque hormis SCP-105 elle-même."
+      it: "SCP-105-B è una fotocamera Polaroid prodotta nel 1982. Funziona come una normale fotocamera per chiunque tranne SCP-105 stessa."
+      ko: "SCP-105-B는 1982년에 제조된 폴라로이드 카메라이다. SCP-105 본인 외의 사람에게는 평범한 카메라로 작동한다."
+      pl: "SCP-105-B to aparat Polaroid wyprodukowany w 1982 roku. Dla każdego poza samą SCP-105 działa jak zwykły aparat."
+      pt: "SCP-105-B é uma câmera Polaroid fabricada em 1982. Funciona como uma câmera comum para qualquer pessoa exceto a própria SCP-105."
+      th: "SCP-105-B คือกล้องโพลารอยด์ที่ผลิตขึ้นในปี 1982 มันทำงานเหมือนกล้องธรรมดาสำหรับทุกคน ยกเว้น SCP-105 เอง"
+      uk: "SCP-105-B — фотокамера Polaroid, виготовлена 1982 року. Для будь-кого, крім самої SCP-105, вона працює як звичайна камера."
+      vi: "SCP-105-B là máy ảnh Polaroid sản xuất năm 1982. Nó hoạt động như một máy ảnh bình thường đối với bất kỳ ai ngoại trừ chính SCP-105."
+      zh: "SCP-105-B是一台1982年生产的宝丽来相机。对SCP-105本人以外的任何人而言，它都只是一台普通相机。"
+      zh_Hant: "SCP-105-B是一台1982年生產的寶麗來相機。對SCP-105本人以外的任何人而言，它都只是一台普通相機。"
     bubbles:
       - position: top-left
         tail: down-right
@@ -54,11 +73,28 @@ panels:
           zh_Hant: "這是今天的倉庫。"
 
   - scene: >
-      A pale disembodied female hand suddenly emerges straight out of the
-      flat surface of the pinned photograph, fingers wiggling in the air
-      of the office. Dr. Hana jerks back in her chair, eyes huge, pointing
-      at it in shock.
+      Close-up shot centered on the corkboard and photograph, filling
+      most of the frame: a pale disembodied female hand emerges straight
+      out of the flat surface of the pinned photograph, fingers wiggling
+      in the air. Dr. Hana's shocked face with huge eyes is a small
+      sliver at the frame's edge, pointing at it.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-105がSCP-105-Bで撮影した写真を保持すると、写真は撮影地点の実時間映像へと変化する。"
+      en: "When SCP-105 holds a photograph taken with SCP-105-B, the image transforms into a real-time view of the location shown."
+      cs: "Když SCP-105 drží fotografii pořízenou pomocí SCP-105-B, obraz se promění v obraz místa v reálném čase."
+      de: "Hält SCP-105 ein mit SCP-105-B aufgenommenes Foto, verwandelt sich das Bild in eine Echtzeitansicht des gezeigten Ortes."
+      es: "Cuando SCP-105 sostiene una fotografía tomada con SCP-105-B, la imagen se transforma en una vista en tiempo real del lugar mostrado."
+      fr: "Lorsque SCP-105 tient une photo prise avec SCP-105-B, l'image se transforme en une vue en temps réel du lieu représenté."
+      it: "Quando SCP-105 tiene in mano una foto scattata con SCP-105-B, l'immagine si trasforma in una vista in tempo reale del luogo raffigurato."
+      ko: "SCP-105가 SCP-105-B로 찍은 사진을 손에 들면, 그 사진은 촬영 장소의 실시간 영상으로 변화한다."
+      pl: "Gdy SCP-105 trzyma zdjęcie zrobione aparatem SCP-105-B, obraz zmienia się w widok danego miejsca w czasie rzeczywistym."
+      pt: "Quando SCP-105 segura uma fotografia tirada com SCP-105-B, a imagem se transforma em uma visão em tempo real do local mostrado."
+      th: "เมื่อ SCP-105 ถือภาพถ่ายที่ถ่ายด้วย SCP-105-B ภาพนั้นจะเปลี่ยนเป็นภาพเรียลไทม์ของสถานที่ที่ปรากฏ"
+      uk: "Коли SCP-105 тримає фотографію, зроблену SCP-105-B, зображення перетворюється на вигляд місця в реальному часі."
+      vi: "Khi SCP-105 cầm một bức ảnh chụp bằng SCP-105-B, hình ảnh sẽ chuyển thành cảnh quay trực tiếp của địa điểm được chụp."
+      zh: "当SCP-105持有用SCP-105-B拍摄的照片时，画面会转变为该地点的实时影像。"
+      zh_Hant: "當SCP-105持有用SCP-105-B拍攝的照片時，畫面會轉變為該地點的即時影像。"
     bubbles:
       - position: top
         tail: down
@@ -80,11 +116,29 @@ panels:
           zh_Hant: "等等，那是一隻手！？"
 
   - scene: >
-      The disembodied hand casually plucks the stapler off Dr. Hana's desk
-      and pulls it smoothly back into the flat surface of the photograph,
-      the stapler vanishing as if sinking into water. Dr. Hana reaches out
-      too late, mouth open.
+      Medium shot, waist-up, dynamic diagonal composition spanning from
+      the desk to the corkboard. The disembodied hand casually plucks the
+      stapler off Dr. Hana's desk and pulls it smoothly back into the
+      flat surface of the photograph, the stapler vanishing as if sinking
+      into water. Dr. Hana lunges out of her chair, reaching too late,
+      mouth open.
     characters: [researcher-hana]
+    caption:
+      ja: "SCP-105は当該写真を通じ、撮影地点にある物体へ物理的に干渉することが可能である。目撃者は宙に浮かぶ片手のみを認識する。"
+      en: "Through such a photograph, SCP-105 can physically interact with objects at the depicted location; witnesses report only a disembodied hand."
+      cs: "Prostřednictvím takové fotografie může SCP-105 fyzicky manipulovat s předměty na zobrazeném místě; svědci hlásí pouze osamocenou ruku."
+      de: "Durch ein solches Foto kann SCP-105 physisch mit Objekten am gezeigten Ort interagieren; Zeugen berichten nur von einer körperlosen Hand."
+      es: "A través de tal fotografía, SCP-105 puede interactuar físicamente con objetos en el lugar mostrado; los testigos solo reportan una mano sin cuerpo."
+      fr: "Grâce à une telle photo, SCP-105 peut interagir physiquement avec des objets à l'endroit représenté ; les témoins ne signalent qu'une main désincarnée."
+      it: "Attraverso tale fotografia, SCP-105 può interagire fisicamente con oggetti nel luogo raffigurato; i testimoni riferiscono solo una mano incorporea."
+      ko: "SCP-105는 이러한 사진을 통해 사진 속 장소에 있는 물체와 물리적으로 상호작용할 수 있으며, 목격자는 허공에 뜬 손 하나만을 인지한다."
+      pl: "Za pomocą takiego zdjęcia SCP-105 może fizycznie oddziaływać na przedmioty w przedstawionym miejscu; świadkowie zgłaszają jedynie bezcielesną dłoń."
+      pt: "Através dessa fotografia, SCP-105 pode interagir fisicamente com objetos no local retratado; testemunhas relatam apenas uma mão desencarnada."
+      th: "ผ่านภาพถ่ายดังกล่าว SCP-105 สามารถมีปฏิสัมพันธ์ทางกายภาพกับวัตถุในสถานที่นั้นได้ พยานรายงานว่าเห็นเพียงมือที่ลอยอยู่กลางอากาศ"
+      uk: "Через таку фотографію SCP-105 може фізично взаємодіяти з об'єктами у зображеному місці; свідки повідомляють лише про безтілесну руку."
+      vi: "Thông qua bức ảnh đó, SCP-105 có thể tương tác vật lý với các vật thể tại địa điểm được chụp; nhân chứng chỉ ghi nhận một bàn tay vô hình."
+      zh: "SCP-105可以透过该照片对拍摄地点的物体进行物理干涉；目击者只能看到一只悬空的手。"
+      zh_Hant: "SCP-105可以透過該照片對拍攝地點的物體進行物理干涉；目擊者只能看到一隻懸空的手。"
     bubbles:
       - position: top-right
         tail: down-left
@@ -106,10 +160,12 @@ panels:
           zh_Hant: "喂，那是我的釘書機！"
 
   - scene: >
-      Dr. Hana stares blankly at the small empty space on her desk where
-      the stapler used to be, arms crossed, one eyebrow raised in mild
-      annoyance, while the photograph on the corkboard now looks
-      perfectly still and ordinary again.
+      Wide shot, full body, eye level, pulled back to show the whole
+      office again. Dr. Hana leans back in her chair staring blankly at
+      the small empty space on her desk where the stapler used to be,
+      arms crossed, one eyebrow raised in mild annoyance, while the
+      photograph on the corkboard across the room now looks perfectly
+      still and ordinary again.
     characters: [researcher-hana]
     bubbles:
       - position: bottom
@@ -130,3 +186,20 @@ panels:
           vi: "…phải mua cái bấm kim mới rồi."
           zh: "…看来得买个新订书机了。"
           zh_Hant: "…看來得買個新釘書機了。"
+
+addendum:
+  ja: "補遺105-1：SCP-105-Bの単独使用は許可されておらず、常に監督者の同伴が義務付けられている。"
+  en: "Addendum 105-1: Unsupervised use of SCP-105-B by SCP-105 is not permitted under any circumstances."
+  cs: "Dodatek 105-1: Nedozorované použití SCP-105-B ze strany SCP-105 není za žádných okolností povoleno."
+  de: "Anhang 105-1: Eine unbeaufsichtigte Nutzung von SCP-105-B durch SCP-105 ist unter keinen Umständen gestattet."
+  es: "Adenda 105-1: El uso no supervisado de SCP-105-B por parte de SCP-105 no está permitido bajo ninguna circunstancia."
+  fr: "Addendum 105-1 : L'utilisation non supervisée de SCP-105-B par SCP-105 n'est autorisée en aucune circonstance."
+  it: "Addendum 105-1: L'uso non supervisionato di SCP-105-B da parte di SCP-105 non è consentito in nessuna circostanza."
+  ko: "부록 105-1: SCP-105가 SCP-105-B를 감독자 없이 사용하는 것은 어떠한 경우에도 허용되지 않는다."
+  pl: "Aneks 105-1: Użycie SCP-105-B przez SCP-105 bez nadzoru nie jest dozwolone w żadnych okolicznościach."
+  pt: "Adendo 105-1: O uso não supervisionado de SCP-105-B por SCP-105 não é permitido em nenhuma circunstância."
+  th: "ภาคผนวก 105-1: ห้ามมิให้ SCP-105 ใช้ SCP-105-B โดยไม่มีผู้ควบคุมดูแลไม่ว่ากรณีใดๆ"
+  uk: "Додаток 105-1: Використання SCP-105-B суб'єктом SCP-105 без нагляду не дозволяється за жодних обставин."
+  vi: "Phụ lục 105-1: Việc SCP-105 sử dụng SCP-105-B mà không có người giám sát không được phép trong bất kỳ trường hợp nào."
+  zh: "补遗105-1：任何情况下都不允许SCP-105在无人监督的情况下单独使用SCP-105-B。"
+  zh_Hant: "補遺105-1：任何情況下都不允許SCP-105在無人監督的情況下單獨使用SCP-105-B。"

@@ -28,6 +28,15 @@ def title_for(script, lang):
     return titles.get(lang) or titles.get("en") or script["id"].upper()
 
 
+def subtitle_for(script, lang, lang_cfg):
+    object_class = script.get("object_class")
+    if not object_class:
+        return None
+    label = (lang_cfg.get("object_class_label") or {}).get(lang) \
+        or (lang_cfg.get("object_class_label") or {}).get("en") or "Object Class: "
+    return f"{label}{object_class}"
+
+
 def embed(script, cfgs, languages=None):
     layout = cfgs["layout"]
     lang_cfg = cfgs["languages"]
@@ -50,10 +59,23 @@ def embed(script, cfgs, languages=None):
         draw = ImageDraw.Draw(img)
         drawing.draw_header_text(draw, meta["header_rect"], title_for(script, lang),
                                  font_path, layout["header"],
+                                 subtitle=subtitle_for(script, lang, lang_cfg),
                                  fallback_path=fallback_path)
 
         for idx, panel in enumerate(script["panels"]):
             rect = meta["panel_rects"][idx]
+            caption_text = (panel.get("caption") or {}).get(lang) \
+                or (panel.get("caption") or {}).get("en")
+            caption_rects = meta.get("caption_rects") or []
+            caption_rect = caption_rects[idx] if idx < len(caption_rects) else None
+            if caption_text and caption_rect:
+                fits = drawing.draw_caption_text(
+                    draw, caption_rect, caption_text, font_path,
+                    layout["caption"], char_wrap=char_wrap,
+                    fallback_path=fallback_path)
+                if not fits:
+                    print(f"[embed] WARN: text overflow {script['id']} "
+                          f"panel {idx + 1} caption lang={lang}")
             for bubble in panel.get("bubbles") or []:
                 text = (bubble.get("text") or {}).get(lang) \
                     or (bubble.get("text") or {}).get("en")
@@ -68,6 +90,17 @@ def embed(script, cfgs, languages=None):
                 if not fits:
                     print(f"[embed] WARN: text overflow {script['id']} "
                           f"panel {idx + 1} lang={lang}")
+
+        addendum = script.get("addendum") or {}
+        addendum_text = addendum.get(lang) or addendum.get("en")
+        if addendum_text and meta.get("addendum_rect"):
+            fits = drawing.draw_caption_text(
+                draw, meta["addendum_rect"], addendum_text, font_path,
+                layout["addendum"], char_wrap=char_wrap,
+                fallback_path=fallback_path)
+            if not fits:
+                print(f"[embed] WARN: text overflow {script['id']} "
+                      f"addendum lang={lang}")
 
         out = os.path.join(comic_dir, f"{lang}.png")
         img.save(out)

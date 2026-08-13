@@ -155,3 +155,12 @@ def draw_text_block(draw, lines, fs, center_x, top_y, line_spacing, fill):
         w = fs.width(draw, ln)
         fs.draw_line(draw, center_x - w / 2, y, ln, fill)
         y += lh + line_spacing
+
+
+def draw_text_block_left(draw, lines, fs, left_x, top_y, line_spacing, fill):
+    """行リストを左揃えで描く（SCP文書調のキャプション用）。"""
+    y = top_y
+    lh = fs.line_height()
+    for ln in lines:
+        fs.draw_line(draw, left_x, y, ln, fill)
+        y += lh + line_spacing
