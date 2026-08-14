@@ -25,22 +25,23 @@ SCP記事を題材にした多言語コマ漫画を生成する。生成はGitHu
        のように引き・寄りを変化させると単調にならない
    - `characters`: 繰り返し登場させるキャラは `config/characters.yaml` に定義してキー名で参照。
      その漫画限りのキャラ・オブジェクトはsceneに直接書く
-   - `bubbles`: `position` はプリセット（top / top-left / top-right / bottom / bottom-left /
-     bottom-right / center）か正規化座標 `{x,y,w,h}`。`tail` は down / down-left / down-right /
-     up / up-left / up-right / left / right
-   - `text`: **15言語すべて**書く（ja, en, cs, de, es, fr, it, ko, pl, pt, th, uk, vi, zh, zh_Hant）。
-     セリフは短く（日本語で20文字前後まで）。翻訳はClaudeが直接書いてよい
+   - **キャラクターに吹き出しでセリフを言わせない**（`bubbles`は使わない）。台本のスタイルは
+     「収容記録を模した無言の4コマ＋各コマ上の解説文ボックス」。演出は`scene`（表情・動作）と
+     `caption`の文章だけで作る
+   - `panels[].caption`（**全コマ必須・15言語**）: そのコマの上に白地黒枠のボックスで表示される、
+     SCP文書からの引用のような**淡々とした説明文**。**要約や言い換えではなく、記事の
+     Special Containment Procedures / Descriptionの実際の文章にできるだけ近い形**で、
+     記事本文を4コマぶんに分割して引用する（1文をまるごと1コマに、長い場合は2〜3コマに
+     分けてもよい）。三人称・現在形の事務的な文体（一人称記事なら一人称のまま引用してよい。
+     scp-426.yamlの書式見本を参照）。`scene`（絵の指示）とは別物だが、**その引用が何を
+     言っているかを絵で視覚化する背景として`scene`を書く**（漫画の演出を先に決めてから
+     captionを付けるのではなく、captionで割り当てた記事の一節に合わせてsceneを書く）。
+     4コマ目（オチ）も含め**全てのコマに付ける**
    - `attribution`: 記事のURL・著者を記載。著者は記事ページ下部やクレジットモジュールで
      確認できる。不明なら `author` を省略してよい（フッターには出典URLが必ず入る）
    - `object_class`（任意）: Safe / Euclid / Keter 等を**英語のまま**トップレベルに書く。
      タイトル下に「オブジェクトクラス：Safe」のように表示される（ラベルの翻訳は
      `config/languages.yaml` の `object_class_label` が共通で担うので、台本側では翻訳しない）
-   - `panels[].caption`（任意・15言語）: そのコマの上に白地黒枠のボックスで表示される、
-     SCP文書からの引用のような**淡々とした説明文**（scene/text とは別物）。実際の記事の
-     Special Containment Procedures / Description の記述を要約・引用する形で書く。
-     `scene`（絵の指示）や吹き出しの`text`（キャラの発話）とは違い、三人称・現在形の
-     事務的な文体にする。**全コマに付ける必要はない**（起承転結の「転」＝オチのコマは
-     captionを省略して間を作ると効果的。scp-999.yamlの書式見本を参照）
    - `addendum`（任意・15言語、台本トップレベル）: 最後のコマの下に表示される補遺
      （「補遺999-J：〜」）。オチを収容記録っぽく締める一言に使う
 4. 検証: `python scripts/run_pipeline.py --id scp-XXX --mock` を実行し、

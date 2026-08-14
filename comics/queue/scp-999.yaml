@@ -1,6 +1,7 @@
 # SCP-999「くすぐりオバケ」4コマ台本
 # 絵柄はconfig/style.yaml、キャラの見た目はconfig/characters.yamlで定義される。
-# ここには「何が起きるか(scene)」と「セリフ(text)」だけを書く。
+# キャラにセリフは言わせない。各コマの絵は、そのコマのcaption（記事原文に近い引用）を
+# 視覚化する背景として機能させる。captionを4コマに分割して記事の流れを追う。
 
 id: scp-999
 
@@ -27,162 +28,105 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-999"
   license: "CC BY-SA 3.0"
 
-# オブジェクトクラス（英語のまま。ラベルの翻訳はconfig/languages.yamlのobject_class_labelが担う）
 object_class: Safe
 
-# 登場する中央定義キャラ（config/characters.yaml のキー）
 characters: [researcher-hana]
 
 panels:
   - scene: >
-      Night inside a dim SCP Foundation office. Dr. Hana slumps at a desk
-      piled high with paperwork, lit only by a computer monitor, sighing
-      with dark circles under her eyes.
+      Wide shot, full body, eye level. A quiet holding pen area at night.
+      SCP-999, a translucent orange gelatinous slime creature about the
+      size of a large dog with two simple dot eyes, rests quietly in a
+      corner. Dr. Hana stands at a clipboard nearby, glancing at it while
+      writing notes, computer monitor glow in the background.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-999はオレンジ色の粘性生物である。接触した対象に強い多幸感をもたらす。"
-      en: "SCP-999 is an orange gelatinous organism. Contact induces a powerful sense of euphoria."
-      cs: "SCP-999 je oranžový rosolovitý organismus. Kontakt vyvolává silnou euforii."
-      de: "SCP-999 ist ein orangefarbener gallertartiger Organismus. Kontakt löst starke Euphorie aus."
-      es: "SCP-999 es un organismo gelatinoso de color naranja. El contacto induce una fuerte euforia."
-      fr: "SCP-999 est un organisme gélatineux orange. Le contact induit une forte euphorie."
-      it: "SCP-999 è un organismo gelatinoso arancione. Il contatto induce una forte euforia."
-      ko: "SCP-999는 주황색 젤라틴상 유기체이다. 접촉 시 강한 행복감을 유발한다."
-      pl: "SCP-999 to pomarańczowy, galaretowaty organizm. Kontakt wywołuje silną euforię."
-      pt: "SCP-999 é um organismo gelatinoso alaranjado. O contato induz forte euforia."
-      th: "SCP-999 คือสิ่งมีชีวิตคล้ายเจลลี่สีส้ม การสัมผัสก่อให้เกิดความรู้สึกเคลิบเคลิ้มอย่างรุนแรง"
-      uk: "SCP-999 — помаранчевий драглистий організм. Контакт викликає сильну ейфорію."
-      vi: "SCP-999 là một sinh vật dạng keo màu cam. Tiếp xúc gây ra cảm giác hưng phấn mãnh liệt."
-      zh: "SCP-999是一种橙色胶状生物。接触会引发强烈的欣快感。"
-      zh_Hant: "SCP-999是一種橙色膠狀生物。接觸會引發強烈的欣快感。"
-    bubbles:
-      - position: top
-        tail: down
-        text:
-          ja: "また残業…"
-          en: "Overtime again..."
-          cs: "Zase přesčas…"
-          de: "Schon wieder Überstunden…"
-          es: "Otra vez horas extra…"
-          fr: "Encore des heures sup…"
-          it: "Ancora straordinari…"
-          ko: "또 야근이야…"
-          pl: "Znowu nadgodziny…"
-          pt: "Hora extra de novo…"
-          th: "ทำโอทีอีกแล้ว…"
-          uk: "Знову понаднормові…"
-          vi: "Lại tăng ca…"
-          zh: "又要加班…"
-          zh_Hant: "又要加班…"
+      ja: "SCP-999は半透明のオレンジ色の粘液から成る、体重約54kgの移動可能な塊である。"
+      en: "SCP-999 is a mobile mass of translucent orange, gelatinous slime weighing approximately 54 kilograms."
+      cs: "SCP-999 je pohyblivá hmota průsvitného oranžového rosolovitého slizu o hmotnosti přibližně 54 kilogramů."
+      de: "SCP-999 ist eine bewegliche Masse aus durchscheinendem orangefarbenem, gallertartigem Schleim mit einem Gewicht von etwa 54 Kilogramm."
+      es: "SCP-999 es una masa móvil de baba gelatinosa translúcida de color naranja que pesa aproximadamente 54 kilogramos."
+      fr: "SCP-999 est une masse mobile de gel translucide orange, gélatineuse, pesant environ 54 kilogrammes."
+      it: "SCP-999 è una massa mobile di melma gelatinosa traslucida arancione del peso di circa 54 chilogrammi."
+      ko: "SCP-999는 반투명한 주황색 젤라틴 형태의 점액으로 이루어진, 약 54kg의 이동 가능한 덩어리이다."
+      pl: "SCP-999 to ruchoma masa półprzezroczystego, pomarańczowego, galaretowatego śluzu ważąca około 54 kilogramów."
+      pt: "SCP-999 é uma massa móvel de gosma gelatinosa translúcida e alaranjada, pesando cerca de 54 quilogramas."
+      th: "SCP-999 คือก้อนเมือกเจลาตินสีส้มโปร่งแสงที่เคลื่อนที่ได้ มีน้ำหนักประมาณ 54 กิโลกรัม"
+      uk: "SCP-999 — рухома маса напівпрозорого помаранчевого драглистого слизу вагою приблизно 54 кілограми."
+      vi: "SCP-999 là một khối chất nhầy dạng keo màu cam trong suốt có thể di chuyển được, nặng khoảng 54 kg."
+      zh: "SCP-999是一团可移动的半透明橙色胶状黏液，体重约54千克。"
+      zh_Hant: "SCP-999是一團可移動的半透明橙色膠狀黏液，體重約54公斤。"
 
   - scene: >
-      Same dim office. A cheerful blob of translucent orange slime with two
-      simple dot eyes (SCP-999) peeks around the door frame, wobbling like
-      jelly, leaving a faint shiny trail on the floor. Dr. Hana in the
-      background has not noticed it yet.
+      Medium shot, waist-up, low angle from the corridor floor. SCP-999
+      wobbles happily down a facility corridor of its own accord, leaving
+      a faint shiny trail. Dr. Hana leans out from an office doorway
+      further down the hall, glancing over in mild surprise but not
+      alarmed.
     characters: [researcher-hana]
     caption:
-      ja: "本オブジェクトは施設内を自由に移動することが許可されている。"
-      en: "This object is permitted to move freely throughout the facility."
-      cs: "Tomuto objektu je povoleno volně se pohybovat po zařízení."
-      de: "Diesem Objekt ist es gestattet, sich frei innerhalb der Einrichtung zu bewegen."
-      es: "Se permite que este objeto se desplace libremente por las instalaciones."
-      fr: "Cet objet est autorisé à se déplacer librement dans l'installation."
-      it: "A questo oggetto è consentito muoversi liberamente all'interno della struttura."
-      ko: "본 개체는 시설 내를 자유롭게 이동하는 것이 허가되어 있다."
-      pl: "Ten obiekt ma pozwolenie na swobodne poruszanie się po placówce."
-      pt: "Este objeto tem permissão para se mover livremente pelas instalações."
-      th: "วัตถุนี้ได้รับอนุญาตให้เคลื่อนที่ได้อย่างอิสระภายในสถานที่"
-      uk: "Цьому об'єкту дозволено вільно пересуватися комплексом."
-      vi: "Đối tượng này được phép di chuyển tự do trong cơ sở."
-      zh: "本对象被允许在设施内自由移动。"
-      zh_Hant: "本對象被允許在設施內自由移動。"
-    bubbles:
-      - position: top-left
-        tail: down-right
-        text:
-          ja: "ん？"
-          en: "Hm?"
-          cs: "Hm?"
-          de: "Hm?"
-          es: "¿Eh?"
-          fr: "Hein ?"
-          it: "Eh?"
-          ko: "응?"
-          pl: "Hm?"
-          pt: "Hã?"
-          th: "หืม?"
-          uk: "Га?"
-          vi: "Hả?"
-          zh: "嗯？"
-          zh_Hant: "嗯？"
+      ja: "SCP-999は、望めば施設内を自由に歩き回ることが許可されている。"
+      en: "SCP-999 is allowed to freely roam the facility should it desire to."
+      cs: "SCP-999 smí volně procházet zařízením, pokud si to přeje."
+      de: "SCP-999 darf sich frei in der Einrichtung bewegen, sofern es dies wünscht."
+      es: "SCP-999 tiene permitido deambular libremente por las instalaciones si así lo desea."
+      fr: "SCP-999 est autorisé à se déplacer librement dans l'installation s'il le souhaite."
+      it: "A SCP-999 è consentito muoversi liberamente nella struttura se lo desidera."
+      ko: "SCP-999는 원할 경우 시설 내를 자유롭게 돌아다니는 것이 허용된다."
+      pl: "SCP-999 może swobodnie poruszać się po placówce, jeśli tego zechce."
+      pt: "SCP-999 tem permissão para vagar livremente pelas instalações caso deseje."
+      th: "SCP-999 ได้รับอนุญาตให้เดินเตร่ไปทั่วสถานที่ได้อย่างอิสระหากต้องการ"
+      uk: "SCP-999 дозволено вільно пересуватися об'єктом, якщо воно того забажає."
+      vi: "SCP-999 được phép tự do đi lại khắp cơ sở nếu nó muốn."
+      zh: "如果SCP-999愿意，允许其在设施内自由走动。"
+      zh_Hant: "如果SCP-999願意，允許其在設施內自由走動。"
 
   - scene: >
-      The orange slime blob pounces onto Dr. Hana and tickles her. She
-      bursts out laughing with tears in her eyes, glasses askew, papers
-      flying everywhere. Dynamic comedic action.
+      Close-up shot centered on Dr. Hana's face and shoulders, filling most
+      of the frame. The orange slime has pounced onto her; she bursts out
+      laughing with tears in her eyes, glasses askew, papers flying
+      everywhere. Dynamic comedic action.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-999の接触行動に対する有効な防御手段は現在まで確認されていない。"
-      en: "No effective countermeasure against SCP-999's contact behavior has been identified to date."
-      cs: "Dosud nebylo nalezeno žádné účinné protiopatření proti kontaktnímu chování SCP-999."
-      de: "Bislang wurde keine wirksame Gegenmaßnahme gegen das Kontaktverhalten von SCP-999 gefunden."
-      es: "Hasta la fecha no se ha identificado ninguna contramedida eficaz contra el comportamiento de contacto de SCP-999."
-      fr: "Aucune contre-mesure efficace contre le comportement de contact de SCP-999 n'a été identifiée à ce jour."
-      it: "Ad oggi non è stata individuata alcuna contromisura efficace contro il comportamento di contatto di SCP-999."
-      ko: "현재까지 SCP-999의 접촉 행동에 대한 유효한 방어 수단은 확인되지 않았다."
-      pl: "Do tej pory nie znaleziono skutecznego środka zaradczego przeciw kontaktowemu zachowaniu SCP-999."
-      pt: "Até o momento, nenhuma contramedida eficaz contra o comportamento de contato de SCP-999 foi identificada."
-      th: "ยังไม่พบมาตรการป้องกันที่มีประสิทธิภาพต่อพฤติกรรมการสัมผัสของ SCP-999 จนถึงปัจจุบัน"
-      uk: "Досі не виявлено ефективного засобу протидії контактній поведінці SCP-999."
-      vi: "Cho đến nay vẫn chưa xác định được biện pháp đối phó hiệu quả với hành vi tiếp xúc của SCP-999."
-      zh: "截至目前，尚未发现针对SCP-999接触行为的有效应对措施。"
-      zh_Hant: "截至目前，尚未發現針對SCP-999接觸行為的有效應對措施。"
-    bubbles:
-      - position: top
-        tail: down
-        text:
-          ja: "あははは！やめてー！"
-          en: "Ahaha! Stop it!"
-          cs: "Hahaha! Přestaň!"
-          de: "Hahaha! Hör auf!"
-          es: "¡Jajaja! ¡Para!"
-          fr: "Ahaha ! Arrête !"
-          it: "Ahaha! Smettila!"
-          ko: "아하하! 그만해!"
-          pl: "Hahaha! Przestań!"
-          pt: "Hahaha! Para com isso!"
-          th: "ฮ่าๆๆ! หยุดนะ!"
-          uk: "Ахаха! Припини!"
-          vi: "Haha! Dừng lại đi!"
-          zh: "哈哈哈！别闹了！"
-          zh_Hant: "哈哈哈！別鬧了！"
+      ja: "SCP-999との接触は、対象に即座に強い多幸感をもたらすことが確認されている。"
+      en: "The touch of SCP-999 has proven capable of inducing an immediate state of euphoria in a subject."
+      cs: "Bylo prokázáno, že dotek SCP-999 dokáže u subjektu vyvolat okamžitý stav euforie."
+      de: "Es wurde nachgewiesen, dass die Berührung von SCP-999 bei einem Subjekt einen sofortigen Zustand der Euphorie auslösen kann."
+      es: "Se ha comprobado que el contacto con SCP-999 puede inducir un estado inmediato de euforia en el sujeto."
+      fr: "Il a été démontré que le contact avec SCP-999 peut provoquer un état immédiat d'euphorie chez le sujet."
+      it: "È stato dimostrato che il contatto con SCP-999 può indurre nel soggetto uno stato immediato di euforia."
+      ko: "SCP-999와의 접촉은 대상에게 즉각적인 행복감을 유발할 수 있는 것으로 확인되었다."
+      pl: "Udowodniono, że dotyk SCP-999 potrafi wywołać u obiektu natychmiastowy stan euforii."
+      pt: "Comprovou-se que o toque de SCP-999 é capaz de induzir um estado imediato de euforia no sujeito."
+      th: "พิสูจน์แล้วว่าการสัมผัส SCP-999 สามารถกระตุ้นให้เกิดความรู้สึกเคลิบเคลิ้มขึ้นทันทีในตัวบุคคล"
+      uk: "Доведено, що дотик SCP-999 здатен викликати у суб'єкта миттєвий стан ейфорії."
+      vi: "Đã chứng minh rằng việc chạm vào SCP-999 có thể gây ra trạng thái hưng phấn tức thì ở đối tượng."
+      zh: "已证实与SCP-999的接触能够立即引发对象产生欣快状态。"
+      zh_Hant: "已證實與SCP-999的接觸能夠立即引發對象產生欣快狀態。"
 
   - scene: >
-      Dr. Hana sits on the floor completely relaxed and smiling peacefully,
-      wiping a happy tear, while the orange slime purrs contentedly in her
-      lap like a giant water balloon. The scattered papers lie forgotten
-      around them. Warm, heartwarming mood.
+      Wide shot, full body, eye level, pulled back to show the whole office.
+      Dr. Hana sits alone on the floor, completely relaxed and smiling
+      peacefully, wiping a happy tear. The orange slime has already
+      wandered a short distance away toward the door, glancing back at her.
+      The scattered papers lie forgotten around her.
     characters: [researcher-hana]
-    bubbles:
-      - position: top-right
-        tail: down-left
-        text:
-          ja: "実験は…成功です…"
-          en: "Test... successful..."
-          cs: "Test… úspěšný…"
-          de: "Test… erfolgreich…"
-          es: "Prueba… superada…"
-          fr: "Test… réussi…"
-          it: "Test… riuscito…"
-          ko: "실험은… 성공…"
-          pl: "Test… zaliczony…"
-          pt: "Teste… bem-sucedido…"
-          th: "การทดสอบ…สำเร็จ…"
-          uk: "Тест… успішний…"
-          vi: "Thử nghiệm… thành công…"
-          zh: "实验……成功……"
-          zh_Hant: "實驗……成功……"
+    caption:
+      ja: "この多幸感は、SCP-999との接触が終わった後も、しばらく持続することが確認されている。"
+      en: "This euphoric effect has been shown to persist for a period of time after contact with SCP-999 has ceased."
+      cs: "Bylo prokázáno, že tento euforický efekt přetrvává i po ukončení kontaktu se SCP-999."
+      de: "Es wurde gezeigt, dass dieser euphorische Effekt auch nach Beendigung des Kontakts mit SCP-999 noch eine Zeit lang anhält."
+      es: "Se ha demostrado que este efecto eufórico persiste durante un tiempo después de que cesa el contacto con SCP-999."
+      fr: "Il a été démontré que cet effet euphorique persiste un certain temps après la fin du contact avec SCP-999."
+      it: "È stato dimostrato che questo effetto euforico persiste per un periodo di tempo dopo la cessazione del contatto con SCP-999."
+      ko: "이 행복감 효과는 SCP-999와의 접촉이 끝난 후에도 한동안 지속되는 것으로 나타났다."
+      pl: "Wykazano, że ten euforyczny efekt utrzymuje się przez pewien czas po zakończeniu kontaktu z SCP-999."
+      pt: "Demonstrou-se que esse efeito eufórico persiste por um período após o fim do contato com SCP-999."
+      th: "แสดงให้เห็นว่าความรู้สึกเคลิบเคลิ้มนี้ยังคงอยู่ต่อไปช่วงหนึ่งหลังจากการสัมผัส SCP-999 สิ้นสุดลง"
+      uk: "Показано, що цей ейфоричний ефект зберігається деякий час після завершення контакту з SCP-999."
+      vi: "Đã cho thấy hiệu ứng hưng phấn này còn kéo dài một thời gian sau khi việc tiếp xúc với SCP-999 kết thúc."
+      zh: "已证实这种欣快效应在与SCP-999的接触结束后仍会持续一段时间。"
+      zh_Hant: "已證實這種欣快效應在與SCP-999的接觸結束後仍會持續一段時間。"
 
 # 最後のコマの下に置く補遺（省略可）
 addendum:

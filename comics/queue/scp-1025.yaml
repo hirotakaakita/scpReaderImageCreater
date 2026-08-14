@@ -1,4 +1,6 @@
 # SCP-1025「よくある病気の大百科」4コマ台本
+# キャラにセリフは言わせない。captionは記事本文からの引用。
+
 id: scp-1025
 
 title:
@@ -31,45 +33,25 @@ panels:
   - scene: >
       Wide shot, full body, eye level, showing Dr. Hana's whole desk and
       office from a slight side angle during a quiet moment. She sits
-      idly flipping through a thick hardcover book titled "The
-      Encyclopedia of Common Diseases," reading with mild curiosity, one
-      finger tracing a line of text on the open page.
+      idly flipping through a thick hardcover book, reading with mild
+      curiosity, one finger tracing a line of text on the open page.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-1025は『よくある病気の大百科』と題された、約1500ページの書籍である。"
-      en: "SCP-1025 is a roughly 1,500-page book titled 'The Encyclopedia of Common Diseases.'"
-      cs: "SCP-1025 je kniha o zhruba 1500 stranách s názvem „Encyklopedie běžných nemocí“."
-      de: "SCP-1025 ist ein etwa 1500-seitiges Buch mit dem Titel „Die Enzyklopädie häufiger Krankheiten“."
-      es: "SCP-1025 es un libro de aproximadamente 1500 páginas titulado 'La Enciclopedia de Enfermedades Comunes'."
-      fr: "SCP-1025 est un livre d'environ 1500 pages intitulé « L'Encyclopédie des Maladies Courantes »."
-      it: "SCP-1025 è un libro di circa 1500 pagine intitolato 'L'Enciclopedia delle Malattie Comuni'."
-      ko: "SCP-1025는 약 1500페이지 분량의 책으로, 제목은 '흔한 질병 백과사전'이다."
-      pl: "SCP-1025 to licząca około 1500 stron książka zatytułowana 'Encyklopedia Powszechnych Chorób'."
-      pt: "SCP-1025 é um livro de aproximadamente 1500 páginas intitulado 'A Enciclopédia de Doenças Comuns'."
-      th: "SCP-1025 คือหนังสือความยาวประมาณ 1,500 หน้า ชื่อว่า 'สารานุกรมโรคทั่วไป'"
-      uk: "SCP-1025 — книга обсягом близько 1500 сторінок під назвою «Енциклопедія Поширених Хвороб»."
-      vi: "SCP-1025 là một cuốn sách dày khoảng 1.500 trang có tựa đề 'Bách Khoa Toàn Thư Về Bệnh Thường Gặp'."
-      zh: "SCP-1025是一本约1500页的书籍，书名为《常见病百科全书》。"
-      zh_Hant: "SCP-1025是一本約1500頁的書籍，書名為《常見病百科全書》。"
-    bubbles:
-      - position: top
-        tail: down
-        text:
-          ja: "ふうん、『しゃっくり』…"
-          en: "Hm, 'common hiccups'..."
-          cs: "Hm, 'obyčejné škytavky'…"
-          de: "Hm, 'gewöhnlicher Schluckauf'…"
-          es: "Mm, 'hipo común'…"
-          fr: "Hmm, « hoquet ordinaire »…"
-          it: "Mmh, 'singhiozzo comune'…"
-          ko: "흠, '흔한 딸꾹질'…"
-          pl: "Hm, 'zwykła czkawka'…"
-          pt: "Hum, 'soluço comum'…"
-          th: "อืม 'อาการสะอึกทั่วไป'…"
-          uk: "Хм, 'звичайна гикавка'…"
-          vi: "Ừm, 'nấc cụt thông thường'…"
-          zh: "嗯，『常见的打嗝』…"
-          zh_Hant: "嗯，『常見的打嗝』…"
+      ja: "SCP-1025は約1500ページに及ぶハードカバーの書籍であり、表紙と背表紙には『よくある病気の大百科』という題名が記されている。"
+      en: "SCP-1025 is a hardcover book, approximately 1,500 pages long, titled \"The Encyclopedia of Common Diseases.\""
+      cs: "SCP-1025 je vázaná kniha o délce přibližně 1500 stran s názvem „Encyklopedie běžných nemocí“."
+      de: "SCP-1025 ist ein gebundenes Buch mit etwa 1500 Seiten, betitelt „Die Enzyklopädie häufiger Krankheiten“."
+      es: "SCP-1025 es un libro de tapa dura de aproximadamente 1500 páginas, titulado «La Enciclopedia de Enfermedades Comunes»."
+      fr: "SCP-1025 est un livre relié d'environ 1500 pages, intitulé « L'Encyclopédie des Maladies Courantes »."
+      it: "SCP-1025 è un libro con copertina rigida di circa 1500 pagine, intitolato \"L'Enciclopedia delle Malattie Comuni\"."
+      ko: "SCP-1025는 약 1500페이지 분량의 양장본 서적으로, 제목은 '흔한 질병 백과사전'이다."
+      pl: "SCP-1025 to licząca około 1500 stron książka w twardej oprawie, zatytułowana „Encyklopedia Powszechnych Chorób”."
+      pt: "SCP-1025 é um livro de capa dura com aproximadamente 1500 páginas, intitulado \"A Enciclopédia de Doenças Comuns\"."
+      th: "SCP-1025 คือหนังสือปกแข็งความยาวประมาณ 1,500 หน้า ชื่อว่า 'สารานุกรมโรคทั่วไป'"
+      uk: "SCP-1025 — книга в твердій палітурці обсягом близько 1500 сторінок під назвою «Енциклопедія Поширених Хвороб»."
+      vi: "SCP-1025 là một cuốn sách bìa cứng dày khoảng 1.500 trang, có tựa đề \"Bách Khoa Toàn Thư Về Bệnh Thường Gặp\"."
+      zh: "SCP-1025是一本约1500页的精装书，书名为《常见病百科全书》。"
+      zh_Hant: "SCP-1025是一本約1500頁的精裝書，書名為《常見病百科全書》。"
 
   - scene: >
       Close-up shot centered tightly on Dr. Hana's face, filling most of
@@ -78,40 +60,21 @@ panels:
       just a blurred sliver at the bottom edge of the frame.
     characters: [researcher-hana]
     caption:
-      ja: "本を読んだ者は、記載された病気の症状を自らに自覚するようになる。"
-      en: "Readers of the book come to perceive in themselves the symptoms of whatever disease they have read about."
-      cs: "Čtenáři knihy u sebe začnou vnímat příznaky jakékoli nemoci, o níž si přečetli."
-      de: "Leser des Buches nehmen bei sich selbst die Symptome jeder gelesenen Krankheit wahr."
-      es: "Los lectores del libro comienzan a percibir en sí mismos los síntomas de cualquier enfermedad sobre la que hayan leído."
-      fr: "Les lecteurs du livre en viennent à percevoir en eux-mêmes les symptômes de toute maladie qu'ils ont lue."
-      it: "I lettori del libro iniziano a percepire in sé stessi i sintomi di qualunque malattia abbiano letto."
-      ko: "이 책을 읽은 사람은 자신이 읽은 질병의 증상을 스스로에게서 느끼게 된다."
-      pl: "Czytelnicy książki zaczynają odczuwać u siebie objawy każdej przeczytanej choroby."
-      pt: "Os leitores do livro passam a perceber em si mesmos os sintomas de qualquer doença sobre a qual leram."
-      th: "ผู้อ่านหนังสือเล่มนี้จะเริ่มรู้สึกถึงอาการของโรคที่ตนอ่านราวกับเป็นของตัวเอง"
-      uk: "Читачі книги починають відчувати в собі симптоми будь-якої хвороби, про яку прочитали."
-      vi: "Người đọc cuốn sách này bắt đầu cảm nhận trên chính mình các triệu chứng của bất kỳ căn bệnh nào họ đã đọc."
-      zh: "阅读此书的人，会开始在自己身上察觉到所读到疾病的症状。"
-      zh_Hant: "閱讀此書的人，會開始在自己身上察覺到所讀到疾病的症狀。"
-    bubbles:
-      - position: top-left
-        tail: down-right
-        text:
-          ja: "ひっく！な、なんで！？"
-          en: "*Hic*! Wait, why—"
-          cs: "*Ik*! Počkat, proč—"
-          de: "*Hicks*! Moment, wieso—"
-          es: "¡*Hip*! Espera, ¿por qué—?"
-          fr: "*Hips* ! Attends, pourquoi—"
-          it: "*Hic*! Aspetta, perché—"
-          ko: "딸꾹! 잠깐, 왜—"
-          pl: "*Czk*! Czekaj, dlaczego—"
-          pt: "*Soluço*! Espera, por quê—"
-          th: "สะอึก! เดี๋ยวนะ ทำไม—"
-          uk: "*Гик*! Стривай, чому—"
-          vi: "*Nấc*! Khoan, sao lại—"
-          zh: "打嗝！等等，为什么——"
-          zh_Hant: "打嗝！等等，為什麼——"
+      ja: "本を読んだ者は、自らが読んだ病気の症状を呈するようになる。効果が現れるまでには数時間を要することがある。"
+      en: "Readers of the book exhibit symptoms of any disease they read about; the effect can take several hours to manifest."
+      cs: "Čtenáři knihy vykazují příznaky jakékoli nemoci, o níž si přečtou; projev účinku může trvat několik hodin."
+      de: "Leser des Buches zeigen Symptome jeder gelesenen Krankheit; die Wirkung kann mehrere Stunden bis zum Auftreten benötigen."
+      es: "Los lectores del libro presentan síntomas de cualquier enfermedad sobre la que lean; el efecto puede tardar varias horas en manifestarse."
+      fr: "Les lecteurs du livre présentent les symptômes de toute maladie qu'ils lisent ; l'effet peut mettre plusieurs heures à se manifester."
+      it: "I lettori del libro presentano i sintomi di qualunque malattia leggano; l'effetto può impiegare diverse ore a manifestarsi."
+      ko: "이 책을 읽은 사람은 읽은 질병의 증상을 나타내게 된다. 효과가 나타나기까지 몇 시간이 걸릴 수 있다."
+      pl: "Czytelnicy książki wykazują objawy każdej przeczytanej choroby; efekt może ujawnić się po kilku godzinach."
+      pt: "Os leitores do livro apresentam sintomas de qualquer doença sobre a qual leiam; o efeito pode levar várias horas para se manifestar."
+      th: "ผู้อ่านหนังสือเล่มนี้จะแสดงอาการของโรคใดก็ตามที่พวกเขาอ่าน ผลกระทบอาจใช้เวลาหลายชั่วโมงกว่าจะปรากฏ"
+      uk: "У читачів книги виявляються симптоми будь-якої хвороби, про яку вони прочитали; ефект може проявитися за кілька годин."
+      vi: "Người đọc cuốn sách này biểu hiện triệu chứng của bất kỳ căn bệnh nào họ đọc; hiệu ứng có thể mất vài giờ để xuất hiện."
+      zh: "阅读此书的人会表现出所读疾病的症状；该效应可能需要数小时才会显现。"
+      zh_Hant: "閱讀此書的人會表現出所讀疾病的症狀；該效應可能需要數小時才會顯現。"
 
   - scene: >
       Medium shot, waist-up, wide two-shot composition with the doorway
@@ -136,25 +99,6 @@ panels:
       vi: "Vật thể được xác định không phải là mối nguy sinh học, mà là mối nguy meme gây ra niềm tin sai lệch về các triệu chứng được mô tả."
       zh: "本对象被判定并非生物危害，而是一种诱发对所述症状产生错误认知的模因型危害。"
       zh_Hant: "本對象被判定並非生物危害，而是一種誘發對所述症狀產生錯誤認知的迷因型危害。"
-    bubbles:
-      - position: top-right
-        tail: down-left
-        text:
-          ja: "大丈夫？"
-          en: "Everything okay over there?"
-          cs: "Je tam všechno v pořádku?"
-          de: "Ist bei dir alles okay?"
-          es: "¿Todo bien por ahí?"
-          fr: "Tout va bien par ici ?"
-          it: "Tutto bene lì?"
-          ko: "거기 괜찮은 거야?"
-          pl: "Wszystko w porządku?"
-          pt: "Está tudo bem aí?"
-          th: "ตรงนั้นโอเคไหม?"
-          uk: "У тебе там все гаразд?"
-          vi: "Bên đó ổn không đấy?"
-          zh: "你那边还好吗？"
-          zh_Hant: "你那邊還好嗎？"
 
   - scene: >
       Wide shot, full body, symmetrical composition with Dr. Hana on one
@@ -163,39 +107,36 @@ panels:
       each other with wide startled eyes, while the encyclopedia sits
       closed on the desk directly between them.
     characters: [researcher-hana]
-    bubbles:
-      - position: top
-        tail: down
-        text:
-          ja: "ひっく！あなたもなの！？"
-          en: "*Hic* You too?!"
-          cs: "*Ik* Ty taky?!"
-          de: "*Hicks* Du auch?!"
-          es: "*Hip* ¡¿Tú también?!"
-          fr: "*Hips* Toi aussi ?!"
-          it: "*Hic* Anche tu?!"
-          ko: "딸꾹! 너도야?!"
-          pl: "*Czk* Ty też?!"
-          pt: "*Soluço* Você também?!"
-          th: "สะอึก! เธอด้วยเหรอ!?"
-          uk: "*Гик* І ти теж?!"
-          vi: "*Nấc* Anh cũng vậy à?!"
-          zh: "打嗝！你也是！？"
-          zh_Hant: "打嗝！你也是！？"
+    caption:
+      ja: "症状は、対象が読書を中止すれば自然に消失することが確認されている。"
+      en: "Symptoms have been confirmed to resolve naturally once the subject stops reading."
+      cs: "Bylo potvrzeno, že příznaky samovolně odezní, jakmile subjekt přestane číst."
+      de: "Es wurde bestätigt, dass die Symptome von selbst abklingen, sobald das Subjekt mit dem Lesen aufhört."
+      es: "Se ha confirmado que los síntomas remiten de forma natural en cuanto el sujeto deja de leer."
+      fr: "Il a été confirmé que les symptômes disparaissent naturellement dès que le sujet cesse de lire."
+      it: "È stato confermato che i sintomi regrediscono naturalmente non appena il soggetto smette di leggere."
+      ko: "대상이 독서를 멈추면 증상이 자연히 사라지는 것으로 확인되었다."
+      pl: "Potwierdzono, że objawy ustępują samoistnie, gdy obiekt przestaje czytać."
+      pt: "Confirmou-se que os sintomas desaparecem naturalmente assim que o sujeito para de ler."
+      th: "ได้รับการยืนยันว่าอาการจะหายไปเองเมื่อผู้ป่วยหยุดอ่าน"
+      uk: "Підтверджено, що симптоми зникають самі собою, щойно суб'єкт припиняє читати."
+      vi: "Đã xác nhận rằng các triệu chứng tự biến mất khi đối tượng ngừng đọc."
+      zh: "已确认只要对象停止阅读，症状便会自然消退。"
+      zh_Hant: "已確認只要對象停止閱讀，症狀便會自然消退。"
 
 addendum:
-  ja: "補遺1025-1：症状は本を読むのを止めれば自然に消失することが確認されている。"
-  en: "Addendum 1025-1: Symptoms have been confirmed to resolve naturally once the subject stops reading."
-  cs: "Dodatek 1025-1: Bylo potvrzeno, že příznaky samovolně odezní, jakmile subjekt přestane číst."
-  de: "Anhang 1025-1: Es wurde bestätigt, dass die Symptome von selbst abklingen, sobald das Subjekt mit dem Lesen aufhört."
-  es: "Adenda 1025-1: Se ha confirmado que los síntomas remiten de forma natural en cuanto el sujeto deja de leer."
-  fr: "Addendum 1025-1 : Il a été confirmé que les symptômes disparaissent naturellement dès que le sujet cesse de lire."
-  it: "Addendum 1025-1: È stato confermato che i sintomi regrediscono naturalmente non appena il soggetto smette di leggere."
-  ko: "부록 1025-1: 대상이 독서를 멈추면 증상이 자연히 사라지는 것으로 확인되었다."
-  pl: "Aneks 1025-1: Potwierdzono, że objawy ustępują samoistnie, gdy obiekt przestaje czytać."
-  pt: "Adendo 1025-1: Confirmou-se que os sintomas desaparecem naturalmente assim que o sujeito para de ler."
-  th: "ภาคผนวก 1025-1: ได้รับการยืนยันว่าอาการจะหายไปเองเมื่อผู้ป่วยหยุดอ่าน"
-  uk: "Додаток 1025-1: Підтверджено, що симптоми зникають самі собою, щойно суб'єкт припиняє читати."
-  vi: "Phụ lục 1025-1: Đã xác nhận rằng các triệu chứng tự biến mất khi đối tượng ngừng đọc."
-  zh: "补遗1025-1：已确认只要对象停止阅读，症状便会自然消退。"
-  zh_Hant: "補遺1025-1：已確認只要對象停止閱讀，症狀便會自然消退。"
+  ja: "補遺1025-1：症状が一時的に周囲の者へ伝播した事例が複数報告されている。"
+  en: "Addendum 1025-1: Multiple cases have been reported in which symptoms temporarily spread to nearby bystanders."
+  cs: "Dodatek 1025-1: Bylo nahlášeno více případů, kdy se příznaky dočasně přenesly na okolní přihlížející."
+  de: "Anhang 1025-1: Es wurden mehrere Fälle gemeldet, in denen die Symptome vorübergehend auf umstehende Personen übergingen."
+  es: "Adenda 1025-1: Se han reportado múltiples casos en los que los síntomas se propagaron temporalmente a los presentes cercanos."
+  fr: "Addendum 1025-1 : Plusieurs cas ont été signalés où les symptômes se sont temporairement propagés aux témoins présents."
+  it: "Addendum 1025-1: Sono stati segnalati diversi casi in cui i sintomi si sono temporaneamente diffusi agli astanti nelle vicinanze."
+  ko: "부록 1025-1: 증상이 주변 목격자에게 일시적으로 전이된 사례가 다수 보고되었다."
+  pl: "Aneks 1025-1: Odnotowano wiele przypadków, w których objawy tymczasowo rozprzestrzeniały się na osoby postronne w pobliżu."
+  pt: "Adendo 1025-1: Vários casos foram relatados nos quais os sintomas se espalharam temporariamente para espectadores próximos."
+  th: "ภาคผนวก 1025-1: มีรายงานหลายกรณีที่อาการแพร่กระจายไปยังผู้อยู่ใกล้เคียงเป็นการชั่วคราว"
+  uk: "Додаток 1025-1: Зафіксовано кілька випадків, коли симптоми тимчасово поширювалися на присутніх поруч осіб."
+  vi: "Phụ lục 1025-1: Đã có nhiều trường hợp được báo cáo trong đó triệu chứng tạm thời lan sang những người xung quanh."
+  zh: "补遗1025-1：已有多起症状暂时性传播给附近旁观者的案例报告。"
+  zh_Hant: "補遺1025-1：已有多起症狀暫時性傳播給附近旁觀者的案例報告。"

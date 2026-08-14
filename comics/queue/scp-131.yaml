@@ -1,4 +1,6 @@
 # SCP-131「アイポッド」4コマ台本
+# キャラにセリフは言わせない。captionは記事本文からの引用。
+
 id: scp-131
 
 title:
@@ -35,43 +37,24 @@ panels:
       two small teardrop-shaped creatures roll into frame on tiny wheels
       at their base, filling the foreground, each with one large
       unblinking eye in the center of its body, one burnt orange and one
-      mustard yellow, tilting curiously toward her.
-    caption:
-      ja: "SCP-131-A及びSCP-131-Bは、中央に大きな目を持つ涙滴状の個体である。基部の車輪様器官で移動する。"
-      en: "SCP-131-A and SCP-131-B are teardrop-shaped entities with a large eye at their center, moving via a wheel-like appendage at their base."
-      cs: "SCP-131-A a SCP-131-B jsou entity tvaru slzy s velkým okem uprostřed, pohybující se pomocí kolovitého výběžku na základně."
-      de: "SCP-131-A und SCP-131-B sind tropfenförmige Wesen mit einem großen Auge in der Mitte, die sich mittels eines radartigen Fortsatzes an ihrer Basis fortbewegen."
-      es: "SCP-131-A y SCP-131-B son entidades con forma de lágrima con un gran ojo en el centro, que se desplazan mediante un apéndice similar a una rueda en su base."
-      fr: "SCP-131-A et SCP-131-B sont des entités en forme de larme dotées d'un grand œil en leur centre, se déplaçant grâce à un appendice en forme de roue à leur base."
-      it: "SCP-131-A e SCP-131-B sono entità a forma di lacrima con un grande occhio al centro, che si muovono tramite un'appendice simile a una ruota alla base."
-      ko: "SCP-131-A와 SCP-131-B는 중앙에 커다란 눈을 가진 눈물방울 모양의 개체로, 기저부의 바퀴 모양 부속기관으로 이동한다."
-      pl: "SCP-131-A i SCP-131-B to istoty w kształcie łzy z dużym okiem pośrodku, poruszające się za pomocą kołopodobnego wyrostka u podstawy."
-      pt: "SCP-131-A e SCP-131-B são entidades em forma de lágrima com um grande olho no centro, que se movem por meio de um apêndice semelhante a uma roda na base."
-      th: "SCP-131-A และ SCP-131-B คือสิ่งมีชีวิตรูปทรงหยดน้ำที่มีตาขนาดใหญ่อยู่ตรงกลาง เคลื่อนที่ด้วยอวัยวะคล้ายล้อที่ฐาน"
-      uk: "SCP-131-A та SCP-131-B — краплеподібні істоти з великим оком у центрі, що пересуваються за допомогою колесоподібного відростка в основі."
-      vi: "SCP-131-A và SCP-131-B là những thực thể hình giọt nước có một con mắt lớn ở giữa, di chuyển bằng một phần phụ giống bánh xe ở đáy."
-      zh: "SCP-131-A与SCP-131-B是泪滴状个体，中央有一只大眼睛，靠基部类似车轮的附肢移动。"
-      zh_Hant: "SCP-131-A與SCP-131-B是淚滴狀個體，中央有一隻大眼睛，靠基部類似車輪的附肢移動。"
+      mustard yellow.
     characters: [researcher-hana]
-    bubbles:
-      - position: top-left
-        tail: down-right
-        text:
-          ja: "あら、ちょっとかわいいかも。"
-          en: "Aw, they're kind of cute."
-          cs: "Ále, jsou docela roztomilí."
-          de: "Ach, die sind irgendwie süß."
-          es: "Ay, son bastante lindos."
-          fr: "Oh, ils sont plutôt mignons."
-          it: "Ohh, sono carini."
-          ko: "어머, 좀 귀엽네."
-          pl: "Ojej, są całkiem urocze."
-          pt: "Ai, são meio fofinhos."
-          th: "โอ้โห น่ารักดีเหมือนกัน"
-          uk: "Ой, вони доволі милі."
-          vi: "Ồ, tụi nó cũng dễ thương."
-          zh: "哦，还挺可爱的。"
-          zh_Hant: "哦，還挺可愛的。"
+    caption:
+      ja: "SCP-131-Aと131-Bは体高約30cmの涙滴状の個体で、中央に一つの目を持ち、基部の車輪機構で移動する。"
+      en: "SCP-131-A and SCP-131-B are a pair of teardrop-shaped creatures roughly 30 cm in height, with a single eye in the middle of their bodies, moving via a wheel mechanism at their base."
+      cs: "SCP-131-A a SCP-131-B jsou dvojice tvorů ve tvaru slzy vysokých zhruba 30 cm, s jedním okem uprostřed těla, pohybujících se pomocí kolového mechanismu na základně."
+      de: "SCP-131-A und SCP-131-B sind ein Paar tropfenförmiger Wesen von etwa 30 cm Höhe, mit einem einzelnen Auge in der Körpermitte, die sich mittels eines Radmechanismus an ihrer Basis fortbewegen."
+      es: "SCP-131-A y SCP-131-B son un par de criaturas con forma de lágrima de aproximadamente 30 cm de altura, con un único ojo en el centro de su cuerpo, que se desplazan mediante un mecanismo de rueda en su base."
+      fr: "SCP-131-A et SCP-131-B forment une paire de créatures en forme de larme d'environ 30 cm de haut, dotées d'un œil unique au centre de leur corps, se déplaçant grâce à un mécanisme à roue à leur base."
+      it: "SCP-131-A e SCP-131-B sono una coppia di creature a forma di lacrima alte circa 30 cm, con un unico occhio al centro del corpo, che si muovono tramite un meccanismo a ruota alla base."
+      ko: "SCP-131-A와 SCP-131-B는 높이 약 30cm의 눈물방울 형태 개체 한 쌍으로, 몸 중앙에 하나의 눈이 있으며 기저부의 바퀴 기구로 이동한다."
+      pl: "SCP-131-A i SCP-131-B to para stworzeń w kształcie łzy o wysokości około 30 cm, z pojedynczym okiem pośrodku ciała, poruszających się za pomocą mechanizmu kołowego u podstawy."
+      pt: "SCP-131-A e SCP-131-B são um par de criaturas em forma de lágrima com cerca de 30 cm de altura, com um único olho no centro do corpo, movendo-se por meio de um mecanismo de roda na base."
+      th: "SCP-131-A และ SCP-131-B คือคู่สิ่งมีชีวิตรูปทรงหยดน้ำสูงประมาณ 30 ซม. มีตาเดียวอยู่ตรงกลางลำตัว เคลื่อนที่ด้วยกลไกคล้ายล้อที่ฐาน"
+      uk: "SCP-131-A та SCP-131-B — пара краплеподібних істот заввишки близько 30 см з одним оком у центрі тіла, що пересуваються за допомогою колісного механізму в основі."
+      vi: "SCP-131-A và SCP-131-B là một cặp sinh vật hình giọt nước cao khoảng 30 cm, có một con mắt duy nhất ở giữa cơ thể, di chuyển bằng cơ chế bánh xe ở đáy."
+      zh: "SCP-131-A与SCP-131-B是一对高约30厘米的泪滴状生物，身体中央有一只眼睛，靠基部的车轮机构移动。"
+      zh_Hant: "SCP-131-A與SCP-131-B是一對高約30公分的淚滴狀生物，身體中央有一隻眼睛，靠基部的車輪機構移動。"
 
   - scene: >
       Wide shot, full body, high angle looking down over the whole
@@ -82,40 +65,21 @@ panels:
       papers scatter around her.
     characters: [researcher-hana]
     caption:
-      ja: "両個体は最大で毎秒60m以上の速度で移動可能であり、その知能はイエネコと同程度と推定されている。"
-      en: "Both entities can travel at speeds exceeding 60 meters per second and are estimated to have intelligence comparable to a domestic cat."
-      cs: "Obě entity se dokáží pohybovat rychlostí přesahující 60 metrů za sekundu a jejich inteligence je odhadována na úroveň domácí kočky."
-      de: "Beide Wesen können sich mit Geschwindigkeiten von über 60 Metern pro Sekunde bewegen; ihre Intelligenz wird auf das Niveau einer Hauskatze geschätzt."
-      es: "Ambas entidades pueden desplazarse a velocidades superiores a 60 metros por segundo y se estima que su inteligencia es comparable a la de un gato doméstico."
-      fr: "Les deux entités peuvent se déplacer à des vitesses dépassant 60 mètres par seconde et leur intelligence est estimée comparable à celle d'un chat domestique."
-      it: "Entrambe le entità possono muoversi a velocità superiori a 60 metri al secondo e la loro intelligenza è stimata paragonabile a quella di un gatto domestico."
-      ko: "두 개체 모두 초당 60미터 이상의 속도로 이동할 수 있으며, 지능은 집고양이 수준으로 추정된다."
-      pl: "Obie istoty potrafią poruszać się z prędkością przekraczającą 60 metrów na sekundę, a ich inteligencję szacuje się na poziomie kota domowego."
-      pt: "Ambas as entidades conseguem se mover a velocidades superiores a 60 metros por segundo e estima-se que sua inteligência seja comparável à de um gato doméstico."
-      th: "ทั้งสองตัวสามารถเคลื่อนที่ด้วยความเร็วเกิน 60 เมตรต่อวินาที และคาดว่ามีสติปัญญาเทียบเท่าแมวบ้าน"
-      uk: "Обидві істоти можуть рухатися зі швидкістю понад 60 метрів за секунду, а їхній інтелект оцінюється на рівні домашнього кота."
-      vi: "Cả hai thực thể có thể di chuyển với tốc độ vượt quá 60 mét mỗi giây và được ước tính có trí thông minh tương đương một con mèo nhà."
-      zh: "两个个体的移动速度均可超过每秒60米，其智力估计与家猫相当。"
-      zh_Hant: "兩個個體的移動速度均可超過每秒60公尺，其智力估計與家貓相當。"
-    bubbles:
-      - position: top
-        tail: down
-        text:
-          ja: "ちょ、ちょっと待って！"
-          en: "H-hey, slow down!"
-          cs: "H-hej, zpomalte!"
-          de: "H-hey, langsamer!"
-          es: "¡O-oye, más despacio!"
-          fr: "H-hé, doucement !"
-          it: "E-ehi, rallentate!"
-          ko: "자, 잠깐, 천천히!"
-          pl: "H-hej, wolniej!"
-          pt: "E-ei, devagar!"
-          th: "เ-เดี๋ยวก่อน ช้าลงหน่อย!"
-          uk: "Г-гей, повільніше!"
-          vi: "Ê, ê, chậm thôi!"
-          zh: "喂、喂，慢点！"
-          zh_Hant: "喂、喂，慢點！"
+      ja: "SCP-131の知能はイエネコと同程度である。"
+      en: "SCP-131 has the same intelligence as a house cat."
+      cs: "SCP-131 má inteligenci srovnatelnou s domácí kočkou."
+      de: "SCP-131 besitzt die gleiche Intelligenz wie eine Hauskatze."
+      es: "SCP-131 tiene la misma inteligencia que un gato doméstico."
+      fr: "SCP-131 possède la même intelligence qu'un chat domestique."
+      it: "SCP-131 ha la stessa intelligenza di un gatto domestico."
+      ko: "SCP-131의 지능은 집고양이와 동등한 수준이다."
+      pl: "SCP-131 ma taką samą inteligencję jak kot domowy."
+      pt: "SCP-131 tem a mesma inteligência de um gato doméstico."
+      th: "SCP-131 มีสติปัญญาเทียบเท่ากับแมวบ้าน"
+      uk: "SCP-131 має такий самий інтелект, як домашній кіт."
+      vi: "SCP-131 có trí thông minh tương đương với một con mèo nhà."
+      zh: "SCP-131的智力与家猫相当。"
+      zh_Hant: "SCP-131的智力與家貓相當。"
 
   - scene: >
       Close-up shot centered tightly on the low ventilation grate,
@@ -125,81 +89,58 @@ panels:
       edge, papers still scattered on the floor behind her.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-131には食事・排泄・睡眠のいずれも確認されておらず、特別な収容は必要とされていない。"
-      en: "SCP-131 has never been observed to eat, excrete, or sleep, and requires no special containment."
-      cs: "U SCP-131 nebylo nikdy pozorováno jedení, vylučování ani spánek a nevyžaduje žádné zvláštní zadržení."
-      de: "Bei SCP-131 wurde nie Nahrungsaufnahme, Ausscheidung oder Schlaf beobachtet, und es erfordert keine besondere Sicherungsverwahrung."
-      es: "Nunca se ha observado que SCP-131 coma, excrete o duerma, y no requiere contención especial."
-      fr: "SCP-131 n'a jamais été observé mangeant, excrétant ou dormant, et ne nécessite aucun confinement particulier."
-      it: "SCP-131 non è mai stato osservato mangiare, defecare o dormire e non richiede alcun contenimento speciale."
-      ko: "SCP-131은 섭식, 배설, 수면 중 어느 것도 관찰된 바 없으며, 특별한 수용이 필요하지 않다."
-      pl: "Nigdy nie zaobserwowano, by SCP-131 jadło, wydalało czy spało, i nie wymaga specjalnego przetrzymywania."
-      pt: "Nunca se observou SCP-131 comendo, excretando ou dormindo, e não requer contenção especial."
-      th: "ไม่เคยพบว่า SCP-131 กิน ขับถ่าย หรือหลับเลย และไม่จำเป็นต้องมีการกักกันเป็นพิเศษ"
-      uk: "SCP-131 ніколи не спостерігали за їжею, виділенням чи сном, і воно не потребує особливого утримання."
-      vi: "Chưa từng quan sát thấy SCP-131 ăn, bài tiết hay ngủ, và không cần biện pháp giam giữ đặc biệt."
-      zh: "从未观察到SCP-131进食、排泄或睡眠，也不需要特殊收容。"
-      zh_Hant: "從未觀察到SCP-131進食、排泄或睡眠，也不需要特殊收容。"
-    bubbles:
-      - position: top-right
-        tail: down-left
-        text:
-          ja: "あっ、待って、戻ってきて！"
-          en: "Wait, come back!"
-          cs: "Počkejte, vraťte se!"
-          de: "Warte, kommt zurück!"
-          es: "¡Esperen, vuelvan!"
-          fr: "Attendez, revenez !"
-          it: "Aspettate, tornate!"
-          ko: "잠깐, 돌아와!"
-          pl: "Czekajcie, wróćcie!"
-          pt: "Esperem, voltem!"
-          th: "เดี๋ยวสิ กลับมานะ!"
-          uk: "Зачекайте, поверніться!"
-          vi: "Khoan, quay lại đi!"
-          zh: "等等，快回来！"
-          zh_Hant: "等等，快回來！"
+      ja: "両個体は、制限区域への侵入や施設からの脱出を試みない限り、自由に移動することが許可されている。"
+      en: "SCP-131-A and SCP-131-B are free to travel about the site, so long as they do not attempt to enter any restricted areas or leave the facility."
+      cs: "SCP-131-A a SCP-131-B se mohou volně pohybovat po areálu, pokud se nepokoušejí vstoupit do jakýchkoli vyhrazených oblastí nebo opustit zařízení."
+      de: "SCP-131-A und SCP-131-B dürfen sich frei auf dem Gelände bewegen, solange sie nicht versuchen, Sperrbereiche zu betreten oder die Einrichtung zu verlassen."
+      es: "SCP-131-A y SCP-131-B tienen libertad para desplazarse por el sitio, siempre que no intenten entrar en zonas restringidas ni abandonar las instalaciones."
+      fr: "SCP-131-A et SCP-131-B sont libres de circuler dans le site, tant qu'ils ne tentent pas d'entrer dans des zones à accès restreint ou de quitter l'installation."
+      it: "SCP-131-A e SCP-131-B sono liberi di muoversi nel sito, purché non tentino di entrare in aree riservate o di lasciare la struttura."
+      ko: "SCP-131-A와 SCP-131-B는 제한 구역에 진입하거나 시설을 벗어나려 하지 않는 한, 부지 내를 자유롭게 이동할 수 있다."
+      pl: "SCP-131-A i SCP-131-B mogą swobodnie poruszać się po terenie placówki, o ile nie próbują wejść do stref zastrzeżonych ani jej opuścić."
+      pt: "SCP-131-A e SCP-131-B têm liberdade para circular pelo local, desde que não tentem entrar em áreas restritas nem deixar as instalações."
+      th: "SCP-131-A และ SCP-131-B มีอิสระในการเดินทางไปทั่วไซต์ ตราบใดที่ไม่พยายามเข้าพื้นที่หวงห้ามหรือออกจากสถานที่"
+      uk: "SCP-131-A та SCP-131-B можуть вільно пересуватися об'єктом, доки не намагаються потрапити в зони обмеженого доступу чи залишити об'єкт."
+      vi: "SCP-131-A và SCP-131-B được tự do di chuyển trong khu vực, miễn là chúng không cố gắng vào các khu vực hạn chế hoặc rời khỏi cơ sở."
+      zh: "只要不试图进入限制区域或离开设施，SCP-131-A与SCP-131-B可自由在场所内活动。"
+      zh_Hant: "只要不試圖進入限制區域或離開設施，SCP-131-A與SCP-131-B可自由在場所內活動。"
 
   - scene: >
       Wide shot, full body, eye level, pulled back to show the whole
       office floor. Dr. Hana sits slumped amid scattered papers in front
       of the empty ventilation grate, holding an empty coffee mug upside
-      down with a tired, exasperated expression, staring blankly at the
-      wall.
+      down with a tired, exasperated expression.
     characters: [researcher-hana]
-    bubbles:
-      - position: bottom
-        tail: up
-        text:
-          ja: "…コーヒーのおかわり要るわ。"
-          en: "...I need more coffee for this."
-          cs: "…na tohle potřebuju víc kávy."
-          de: "…dafür brauche ich mehr Kaffee."
-          es: "…necesito más café para esto."
-          fr: "…il me faut plus de café pour ça."
-          it: "…mi serve altro caffè per questo."
-          ko: "…이거 커피 더 마셔야겠다."
-          pl: "…potrzebuję więcej kawy na to."
-          pt: "…preciso de mais café pra isso."
-          th: "…ต้องดื่มกาแฟเพิ่มอีกแล้ว"
-          uk: "…мені треба ще кави на це."
-          vi: "…phải uống thêm cà phê mới được."
-          zh: "…这得再来杯咖啡才行。"
-          zh_Hant: "…這得再來杯咖啡才行。"
+    caption:
+      ja: "両個体の所在は1時間ごとに確認されるものとし、この確認が取れない場合はレベル1封鎖態勢が発令される。"
+      en: "Hourly tabs are to be kept on the subjects at all times; failure to account for their presence constitutes a level one lockdown situation."
+      cs: "O subjektech musí být vedeny hodinové záznamy; nedostatečné doložení jejich přítomnosti představuje situaci s uzamčením úrovně jedna."
+      de: "Über die Subjekte sind stündlich Aufzeichnungen zu führen; kann ihre Anwesenheit nicht nachgewiesen werden, gilt dies als Lockdown-Situation Stufe eins."
+      es: "Se deben mantener registros horarios de los sujetos en todo momento; no dar cuenta de su presencia constituye una situación de bloqueo de nivel uno."
+      fr: "Un pointage horaire des sujets doit être maintenu en permanence ; l'impossibilité de rendre compte de leur présence constitue une situation de confinement de niveau un."
+      it: "I soggetti devono essere monitorati ogni ora in ogni momento; la mancata verifica della loro presenza costituisce una situazione di blocco di livello uno."
+      ko: "대상들의 소재는 항상 매시간 확인되어야 하며, 소재를 확인하지 못할 경우 레벨 1 봉쇄 상황으로 간주된다."
+      pl: "Obecność obiektów musi być sprawdzana co godzinę; brak potwierdzenia ich obecności oznacza sytuację blokady poziomu pierwszego."
+      pt: "Registros horários dos sujeitos devem ser mantidos o tempo todo; a falha em confirmar sua presença constitui uma situação de bloqueio de nível um."
+      th: "ต้องมีการตรวจสอบตำแหน่งของวัตถุทุกชั่วโมงตลอดเวลา หากไม่สามารถยืนยันการมีอยู่ได้ ถือเป็นสถานการณ์ล็อกดาวน์ระดับหนึ่ง"
+      uk: "Місцезнаходження суб'єктів має перевірятися щогодини; неможливість підтвердити їхню присутність означає ситуацію блокування рівня один."
+      vi: "Phải theo dõi vị trí của các đối tượng theo từng giờ; việc không xác định được sự hiện diện của chúng đồng nghĩa với tình trạng phong tỏa cấp một."
+      zh: "须每小时对两个个体的位置进行核实；若无法确认其所在，即构成一级封锁状态。"
+      zh_Hant: "須每小時對兩個個體的位置進行核實；若無法確認其所在，即構成一級封鎖狀態。"
 
 addendum:
-  ja: "補遺131-1：施設内の制限区域への侵入を除き、両個体の自由な移動は許可されている。"
-  en: "Addendum 131-1: Free movement throughout the facility is permitted, except within restricted areas."
-  cs: "Dodatek 131-1: Volný pohyb po zařízení je povolen, s výjimkou oblastí s omezeným přístupem."
-  de: "Anhang 131-1: Freie Bewegung innerhalb der Einrichtung ist gestattet, außer in Sperrbereichen."
-  es: "Adenda 131-1: Se permite el movimiento libre por las instalaciones, excepto en las áreas restringidas."
-  fr: "Addendum 131-1 : La libre circulation dans l'installation est autorisée, sauf dans les zones à accès restreint."
-  it: "Addendum 131-1: È consentito il libero movimento all'interno della struttura, tranne che nelle aree riservate."
-  ko: "부록 131-1: 제한 구역을 제외하고 시설 내 자유로운 이동이 허용된다."
-  pl: "Aneks 131-1: Swobodne poruszanie się po placówce jest dozwolone, z wyjątkiem stref o ograniczonym dostępie."
-  pt: "Adendo 131-1: Movimento livre por toda a instalação é permitido, exceto em áreas restritas."
-  th: "ภาคผนวก 131-1: อนุญาตให้เคลื่อนที่ได้อย่างอิสระทั่วสถานที่ ยกเว้นพื้นที่หวงห้าม"
-  uk: "Додаток 131-1: Вільне пересування об'єктом дозволено, за винятком зон обмеженого доступу."
-  vi: "Phụ lục 131-1: Cho phép di chuyển tự do trong toàn bộ cơ sở, ngoại trừ các khu vực hạn chế."
-  zh: "补遗131-1：除限制区域外，允许两个个体在设施内自由移动。"
-  zh_Hant: "補遺131-1：除限制區域外，允許兩個個體在設施內自由移動。"
+  ja: "補遺131-1：本個体は職員に対し愛着を形成する傾向があるため、過度な接触は推奨されない。"
+  en: "Addendum 131-1: The subjects have shown a tendency to form attachments to personnel, and excessive contact is discouraged."
+  cs: "Dodatek 131-1: Subjekty vykazují tendenci vytvářet si vazby k personálu, a nadměrný kontakt se proto nedoporučuje."
+  de: "Anhang 131-1: Die Subjekte zeigen die Tendenz, Bindungen zum Personal aufzubauen; übermäßiger Kontakt wird daher nicht empfohlen."
+  es: "Adenda 131-1: Los sujetos han mostrado tendencia a formar vínculos con el personal, por lo que se desaconseja el contacto excesivo."
+  fr: "Addendum 131-1 : Les sujets ont montré une tendance à s'attacher au personnel, un contact excessif est donc déconseillé."
+  it: "Addendum 131-1: I soggetti hanno mostrato la tendenza a legarsi al personale, pertanto un contatto eccessivo è sconsigliato."
+  ko: "부록 131-1: 개체들은 직원에게 애착을 형성하는 경향을 보였으므로, 과도한 접촉은 권장되지 않는다."
+  pl: "Aneks 131-1: Obiekty wykazują tendencję do przywiązywania się do personelu, dlatego nadmierny kontakt jest odradzany."
+  pt: "Adendo 131-1: Os sujeitos demonstraram tendência a criar vínculos com a equipe, portanto o contato excessivo não é recomendado."
+  th: "ภาคผนวก 131-1: วัตถุมีแนวโน้มที่จะผูกพันกับเจ้าหน้าที่ จึงไม่แนะนำให้มีการสัมผัสมากเกินไป"
+  uk: "Додаток 131-1: Суб'єкти виявляють схильність прив'язуватися до персоналу, тому надмірний контакт не рекомендований."
+  vi: "Phụ lục 131-1: Các đối tượng có xu hướng gắn bó với nhân viên, do đó không khuyến khích tiếp xúc quá mức."
+  zh: "补遗131-1：该个体表现出对工作人员产生依恋的倾向，因此不建议过度接触。"
+  zh_Hant: "補遺131-1：該個體表現出對工作人員產生依戀的傾向，因此不建議過度接觸。"

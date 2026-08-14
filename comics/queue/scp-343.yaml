@@ -1,4 +1,6 @@
 # SCP-343「神様」4コマ台本
+# キャラにセリフは言わせない。captionは記事本文からの引用。
+
 id: scp-343
 
 title:
@@ -34,155 +36,94 @@ panels:
       noticing a kindly elderly man with a gentle, faintly glowing
       presence sitting calmly at the table across the room, sipping tea
       with perfect serenity, features soft and hard to quite focus on.
-    caption:
-      ja: "SCP-343はプラハ市内で発見された、人間種と酷似した男性の人型実体である。"
-      en: "SCP-343 is a humanoid male entity closely resembling a human, discovered within the city of Prague."
-      cs: "SCP-343 je humanoidní mužská entita velmi podobná člověku, objevená ve městě Praha."
-      de: "SCP-343 ist eine humanoide männliche Entität, die einem Menschen stark ähnelt und in der Stadt Prag entdeckt wurde."
-      es: "SCP-343 es una entidad humanoide masculina muy parecida a un humano, descubierta en la ciudad de Praga."
-      fr: "SCP-343 est une entité humanoïde masculine ressemblant fortement à un humain, découverte dans la ville de Prague."
-      it: "SCP-343 è un'entità umanoide maschile molto simile a un essere umano, scoperta nella città di Praga."
-      ko: "SCP-343는 인간과 매우 흡사한 남성형 휴머노이드 실체로, 프라하 시내에서 발견되었다."
-      pl: "SCP-343 to humanoidalna męska istota bardzo przypominająca człowieka, odkryta w mieście Praga."
-      pt: "SCP-343 é uma entidade humanoide masculina muito semelhante a um humano, descoberta na cidade de Praga."
-      th: "SCP-343 คือสิ่งมีชีวิตรูปร่างคล้ายมนุษย์เพศชายที่มีลักษณะใกล้เคียงมนุษย์มาก ถูกพบในเมืองปราก"
-      uk: "SCP-343 — гуманоїдна чоловіча сутність, дуже схожа на людину, виявлена в місті Прага."
-      vi: "SCP-343 là một thực thể hình người nam giới trông rất giống con người, được phát hiện tại thành phố Praha."
-      zh: "SCP-343是一个与人类极为相似的男性人形实体，发现于布拉格市内。"
-      zh_Hant: "SCP-343是一個與人類極為相似的男性人形實體，發現於布拉格市內。"
     characters: [researcher-hana]
-    bubbles:
-      - position: top-left
-        tail: down-right
-        text:
-          ja: "あの…本当に、神様なんですか？"
-          en: "Um... are you really God?"
-          cs: "Ehm… jste vážně Bůh?"
-          de: "Äh... sind Sie wirklich Gott?"
-          es: "Eh... ¿de verdad eres Dios?"
-          fr: "Euh... vous êtes vraiment Dieu ?"
-          it: "Ehm... sei davvero Dio?"
-          ko: "저, 정말로 신이세요?"
-          pl: "Ech… naprawdę jesteś Bogiem?"
-          pt: "Hã... você é mesmo Deus?"
-          th: "เอ่อ...คุณคือพระเจ้าจริงๆเหรอ?"
-          uk: "Гм... ви справді Бог?"
-          vi: "Ơ... ngài thật sự là Thượng Đế à?"
-          zh: "呃……你真的是神吗？"
-          zh_Hant: "呃……你真的是神嗎？"
+    caption:
+      ja: "SCP-343は男性の姿をした、人種の判然としない人型実体であり、外見上あらゆる能力を持つように見える。"
+      en: "SCP-343 is a male, seemingly race-less, humanoid in appearance with apparent omnipotence."
+      cs: "SCP-343 je muž, zdánlivě bez rasového určení, lidského vzhledu, se zjevnou všemohoucností."
+      de: "SCP-343 ist männlich, scheinbar ohne erkennbare Ethnizität, humanoid im Erscheinungsbild und offenbar allmächtig."
+      es: "SCP-343 es de apariencia masculina, aparentemente sin raza definida, de aspecto humanoide y con aparente omnipotencia."
+      fr: "SCP-343 est un homme, apparemment sans race définie, d'apparence humanoïde et doté d'une apparente omnipotence."
+      it: "SCP-343 è di sesso maschile, apparentemente senza razza definita, dall'aspetto umanoide e dotato di apparente onnipotenza."
+      ko: "SCP-343는 남성형이며 인종을 특정할 수 없는 인간형 외모를 지녔고, 겉보기에 전능한 능력을 가진 것으로 보인다."
+      pl: "SCP-343 ma męski, pozornie pozbawiony rasy, humanoidalny wygląd i wykazuje pozorną wszechmoc."
+      pt: "SCP-343 é do sexo masculino, aparentemente sem raça definida, de aparência humanoide e com aparente onipotência."
+      th: "SCP-343 มีลักษณะเป็นเพศชาย ดูเหมือนไม่มีเชื้อชาติที่ชัดเจน มีรูปร่างคล้ายมนุษย์ และดูเหมือนจะทรงอำนาจสูงสุด"
+      uk: "SCP-343 має чоловічу подобу, вочевидь без вираженої раси, гуманоїдну зовнішність і, схоже, всемогутність."
+      vi: "SCP-343 mang hình dáng nam giới, dường như không thuộc chủng tộc nào rõ ràng, có ngoại hình giống người và dường như toàn năng."
+      zh: "SCP-343呈男性外貌，种族特征不明，形态似人类，表面上似乎拥有全能之力。"
+      zh_Hant: "SCP-343呈男性外貌，種族特徵不明，形態似人類，表面上似乎擁有全能之力。"
 
   - scene: >
       Close-up shot centered on the elderly man's face, filling most of
       the frame: he smiles warmly and nods once, setting down his teacup
       just visible below, radiating calm confidence without any drama.
       Dr. Hana's face, half-convinced and half-amused, is a small sliver
-      at the frame's edge, leaning in.
+      at the frame's edge.
     characters: [researcher-hana]
     caption:
-      ja: "本オブジェクトは自らを『宇宙の創造主』と称しており、能力には現時点で確認できる限界がない。"
-      en: "The object claims to be the creator of the universe; no upper limit to its abilities has been identified to date."
-      cs: "Objekt tvrdí, že je stvořitelem vesmíru; horní hranice jeho schopností dosud nebyla zjištěna."
-      de: "Das Objekt behauptet, der Schöpfer des Universums zu sein; eine Obergrenze seiner Fähigkeiten wurde bislang nicht festgestellt."
-      es: "El objeto afirma ser el creador del universo; hasta la fecha no se ha identificado un límite superior a sus habilidades."
-      fr: "L'objet prétend être le créateur de l'univers ; aucune limite supérieure à ses capacités n'a été identifiée à ce jour."
-      it: "L'oggetto afferma di essere il creatore dell'universo; ad oggi non è stato individuato alcun limite superiore alle sue capacità."
-      ko: "본 오브젝트는 스스로를 우주의 창조주라 칭하며, 현재까지 그 능력의 상한선은 확인되지 않았다."
-      pl: "Obiekt twierdzi, że jest stwórcą wszechświata; do tej pory nie ustalono górnej granicy jego zdolności."
-      pt: "O objeto afirma ser o criador do universo; até o momento, nenhum limite superior para suas habilidades foi identificado."
-      th: "วัตถุนี้อ้างว่าตนคือผู้สร้างจักรวาล และจนถึงปัจจุบันยังไม่พบขีดจำกัดสูงสุดของความสามารถของมัน"
-      uk: "Об'єкт стверджує, що є творцем всесвіту; верхньої межі його здібностей досі не встановлено."
-      vi: "Vật thể tự nhận là đấng sáng tạo vũ trụ; cho đến nay chưa xác định được giới hạn trên nào đối với năng lực của nó."
-      zh: "本对象自称为宇宙的创造者；截至目前，尚未发现其能力存在任何上限。"
-      zh_Hant: "本對象自稱為宇宙的創造者；截至目前，尚未發現其能力存在任何上限。"
-    bubbles:
-      - position: top-right
-        tail: down-left
-        text:
-          ja: "いかにも、その通りだよ。"
-          en: "Indeed I am, my child."
-          cs: "Ano, přesně tak, dítě mé."
-          de: "In der Tat, mein Kind."
-          es: "Así es, hija mía."
-          fr: "En effet, mon enfant."
-          it: "Esatto, figlia mia."
-          ko: "그렇단다, 얘야."
-          pl: "Owszem, dziecko moje."
-          pt: "De fato, minha filha."
-          th: "ใช่แล้วจ้ะ ลูกข้า"
-          uk: "Так і є, дитя моє."
-          vi: "Đúng vậy, con ạ."
-          zh: "正是如此，孩子。"
-          zh_Hant: "正是如此，孩子。"
+      ja: "初めての面談で、SCP-343は自らを宇宙の創造主であると率直に主張した。"
+      en: "In his first interview, SCP-343 claimed outright to be the creator of the universe."
+      cs: "Při prvním rozhovoru SCP-343 rovnou tvrdil, že je stvořitelem vesmíru."
+      de: "Im ersten Gespräch behauptete SCP-343 unumwunden, der Schöpfer des Universums zu sein."
+      es: "En su primera entrevista, SCP-343 afirmó rotundamente ser el creador del universo."
+      fr: "Lors de son premier entretien, SCP-343 a affirmé sans détour être le créateur de l'univers."
+      it: "Nel suo primo colloquio, SCP-343 ha affermato apertamente di essere il creatore dell'universo."
+      ko: "첫 면담에서 SCP-343는 자신이 우주의 창조주라고 단도직입적으로 주장했다."
+      pl: "Podczas pierwszego wywiadu SCP-343 wprost twierdził, że jest stwórcą wszechświata."
+      pt: "Em sua primeira entrevista, SCP-343 afirmou categoricamente ser o criador do universo."
+      th: "ในการสัมภาษณ์ครั้งแรก SCP-343 อ้างอย่างตรงไปตรงมาว่าตนคือผู้สร้างจักรวาล"
+      uk: "На першому інтерв'ю SCP-343 прямо заявив, що є творцем всесвіту."
+      vi: "Trong cuộc phỏng vấn đầu tiên, SCP-343 đã thẳng thắn tuyên bố mình là đấng sáng tạo vũ trụ."
+      zh: "在首次访谈中，SCP-343直接宣称自己是宇宙的创造者。"
+      zh_Hant: "在首次訪談中，SCP-343直接宣稱自己是宇宙的創造者。"
 
   - scene: >
-      Extreme close-up shot on the mug itself sitting on the table,
-      filling most of the frame, with the old man's snapping fingers just
-      above it and a faint sparkle in the air as it instantly fills to
-      the brim with steaming fresh coffee. Dr. Hana's surprised eyes are
-      visible peeking in from the frame's edge.
+      Medium shot, dynamic composition. The old man's arm reaches directly
+      into the solid wall of the break room as if it were not there,
+      then withdraws holding a hamburger, offering it out casually with a
+      small smile. Dr. Hana stares at the wall and the hamburger, utterly
+      stunned.
     characters: [researcher-hana]
     caption:
-      ja: "SCP-343は職員との対話を好み、収容室からの拘束のない状態での自発的な収容に同意している。"
-      en: "SCP-343 enjoys conversing with personnel and has voluntarily agreed to unrestrained containment."
-      cs: "SCP-343 rád konverzuje s personálem a dobrovolně souhlasil s neomezeným zadržením."
-      de: "SCP-343 unterhält sich gerne mit Personal und hat einer nicht eingeschränkten Sicherungsverwahrung freiwillig zugestimmt."
-      es: "SCP-343 disfruta conversando con el personal y ha aceptado voluntariamente una contención sin restricciones."
-      fr: "SCP-343 aime converser avec le personnel et a volontairement accepté un confinement sans contrainte."
-      it: "SCP-343 apprezza conversare con il personale e ha accettato volontariamente un contenimento non vincolato."
-      ko: "SCP-343는 직원들과의 대화를 즐기며, 구속 없는 수용에 자발적으로 동의하였다."
-      pl: "SCP-343 lubi rozmawiać z personelem i dobrowolnie zgodził się na przetrzymywanie bez ograniczeń."
-      pt: "SCP-343 gosta de conversar com a equipe e concordou voluntariamente com uma contenção sem restrições."
-      th: "SCP-343 ชอบสนทนากับเจ้าหน้าที่ และยินยอมเข้ารับการกักกันโดยไม่มีการควบคุมด้วยความสมัครใจ"
-      uk: "SCP-343 любить спілкуватися з персоналом і добровільно погодився на утримання без обмежень."
-      vi: "SCP-343 thích trò chuyện với nhân viên và đã tự nguyện đồng ý bị giam giữ mà không cần ràng buộc."
-      zh: "SCP-343乐于与工作人员交谈，并自愿同意在无约束状态下接受收容。"
-      zh_Hant: "SCP-343樂於與工作人員交談，並自願同意在無約束狀態下接受收容。"
-    bubbles:
-      - position: top
-        tail: down
-        text:
-          ja: "はい、できたてだよ。"
-          en: "There. Fresh and hot."
-          cs: "Tak. Čerstvá a horká."
-          de: "So. Frisch und heiß."
-          es: "Listo. Recién hecho y caliente."
-          fr: "Voilà. Frais et chaud."
-          it: "Ecco. Fresco e caldo."
-          ko: "자, 갓 내렸단다."
-          pl: "Proszę. Świeża i gorąca."
-          pt: "Pronto. Fresquinho e quente."
-          th: "นี่ไง สดใหม่และร้อนพอดี"
-          uk: "Ось. Свіжа і гаряча."
-          vi: "Đây. Nóng hổi vừa mới ra lò."
-          zh: "好了，新鲜滚烫。"
-          zh_Hant: "好了，新鮮滾燙。"
+      ja: "証明を求められると、彼は笑い、壁をすり抜けて姿を消し、数秒後にハンバーガーを手にして戻ってきた。"
+      en: "When asked to prove this, he laughed, walked through the wall of the chamber, and returned seconds later with a hamburger in his hand."
+      cs: "Když byl požádán o důkaz, zasmál se, prošel stěnou komory a o pár vteřin později se vrátil s hamburgerem v ruce."
+      de: "Als er um einen Beweis gebeten wurde, lachte er, ging durch die Wand der Kammer und kehrte Sekunden später mit einem Hamburger in der Hand zurück."
+      es: "Cuando se le pidió que lo demostrara, se rio, atravesó la pared de la cámara y regresó segundos después con una hamburguesa en la mano."
+      fr: "Lorsqu'on lui a demandé de le prouver, il a ri, traversé le mur de la chambre et est revenu quelques secondes plus tard avec un hamburger à la main."
+      it: "Quando gli fu chiesto di dimostrarlo, rise, attraversò il muro della camera e tornò pochi secondi dopo con un hamburger in mano."
+      ko: "이를 증명해 달라고 요청받자 그는 웃으며 방의 벽을 통과했고, 몇 초 후 손에 햄버거를 들고 돌아왔다."
+      pl: "Gdy poproszono go o dowód, roześmiał się, przeszedł przez ścianę komory i po kilku sekundach wrócił z hamburgerem w dłoni."
+      pt: "Quando pediram que provasse isso, ele riu, atravessou a parede da câmara e voltou segundos depois com um hambúrguer na mão."
+      th: "เมื่อถูกขอให้พิสูจน์ เขาหัวเราะ เดินทะลุกำแพงห้องออกไป แล้วกลับมาอีกไม่กี่วินาทีต่อมาพร้อมแฮมเบอร์เกอร์ในมือ"
+      uk: "Коли його попросили довести це, він засміявся, пройшов крізь стіну камери й за кілька секунд повернувся з гамбургером у руці."
+      vi: "Khi được yêu cầu chứng minh, ông ta cười, xuyên qua bức tường của căn phòng, rồi vài giây sau quay lại với một chiếc bánh hamburger trên tay."
+      zh: "当被要求证明这一点时，他笑了笑，径直穿过房间的墙壁，几秒后手拿一个汉堡包回来了。"
+      zh_Hant: "當被要求證明這一點時，他笑了笑，逕直穿過房間的牆壁，幾秒後手拿一個漢堡回來了。"
 
   - scene: >
       Wide shot, full body, pulled back to show the whole break room
       table from a slight side angle. Dr. Hana sits across from the old
-      man, sipping the coffee contentedly with a small satisfied smile,
-      while he continues calmly sipping his own tea across from her, both
-      perfectly relaxed.
+      man, sipping her own coffee contentedly, while he continues calmly
+      sipping his tea across from her, both perfectly relaxed.
     characters: [researcher-hana]
-    bubbles:
-      - position: bottom-left
-        tail: up-right
-        text:
-          ja: "…なんか、便利ですね。"
-          en: "Well, that's convenient."
-          cs: "No, to je praktické."
-          de: "Nun, das ist praktisch."
-          es: "Bueno, eso es conveniente."
-          fr: "Bon, c'est pratique."
-          it: "Beh, che comodo."
-          ko: "…뭐, 편리하네요."
-          pl: "No, to wygodne."
-          pt: "Bem, isso é conveniente."
-          th: "…สะดวกดีเหมือนกันนะ"
-          uk: "Ну, це зручно."
-          vi: "…thế cũng tiện đấy."
-          zh: "…还挺方便的嘛。"
-          zh_Hant: "…還挺方便的嘛。"
+    caption:
+      ja: "SCP-343の収容手順は、日々の対話の機会を設けることのみである。彼の部屋は本人の意思で拡張し、物理的に拘束することはできない。"
+      en: "Containment procedures for SCP-343 consist solely of providing daily interaction, as his chamber expands at will and cannot be physically constrained."
+      cs: "Zadržovací postupy pro SCP-343 spočívají pouze v zajištění denní interakce, neboť se jeho komora rozšiřuje podle jeho vůle a nelze ji fyzicky omezit."
+      de: "Die Sicherungsmaßnahmen für SCP-343 bestehen lediglich darin, tägliche Interaktion zu ermöglichen, da sich seine Kammer nach seinem Willen ausdehnt und physisch nicht eingegrenzt werden kann."
+      es: "Los procedimientos de contención de SCP-343 consisten únicamente en proporcionar interacción diaria, ya que su cámara se expande a voluntad y no puede ser restringida físicamente."
+      fr: "Les procédures de confinement de SCP-343 consistent uniquement à assurer une interaction quotidienne, car sa chambre s'étend à volonté et ne peut être contrainte physiquement."
+      it: "Le procedure di contenimento per SCP-343 consistono unicamente nel fornire interazione quotidiana, poiché la sua camera si espande a piacimento e non può essere fisicamente vincolata."
+      ko: "SCP-343의 수용 절차는 매일의 상호작용을 제공하는 것뿐이다. 그의 방은 본인의 의지에 따라 확장되며 물리적으로 구속할 수 없다."
+      pl: "Procedury przetrzymywania SCP-343 polegają wyłącznie na zapewnianiu codziennej interakcji, ponieważ jego komora rozszerza się zgodnie z jego wolą i nie można jej fizycznie ograniczyć."
+      pt: "Os procedimentos de contenção de SCP-343 consistem apenas em fornecer interação diária, já que sua câmara se expande à vontade e não pode ser fisicamente restringida."
+      th: "มาตรการกักกัน SCP-343 มีเพียงการจัดให้มีปฏิสัมพันธ์รายวันเท่านั้น เนื่องจากห้องของเขาขยายได้ตามใจเขาและไม่สามารถควบคุมทางกายภาพได้"
+      uk: "Заходи утримання SCP-343 полягають лише в забезпеченні щоденної взаємодії, оскільки його камера розширюється за його волею і не може бути фізично обмежена."
+      vi: "Các biện pháp giam giữ đối với SCP-343 chỉ đơn giản là duy trì sự tương tác hàng ngày, vì căn phòng của ông ta mở rộng theo ý muốn và không thể bị giới hạn về mặt vật lý."
+      zh: "对SCP-343的收容措施仅限于每日进行互动，因为他的房间会随其意愿扩张，无法以物理方式加以限制。"
+      zh_Hant: "對SCP-343的收容措施僅限於每日進行互動，因為他的房間會隨其意願擴張，無法以物理方式加以限制。"
 
 addendum:
   ja: "補遺343-1：本オブジェクトとの定期的な面会は、多くの職員にとって日課となっている。"
