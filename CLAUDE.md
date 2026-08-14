@@ -52,14 +52,17 @@ SCP記事を題材にした多言語コマ漫画を生成する。生成はGitHu
 ## 実装メモ
 
 - 生成プロンプトの組み立ては `scripts/generate_panels.py` の `build_prompt()`。
-  順序: style_prompt → キャラ定義 → scene → 吹き出しスペース確保の指示 → 構図規則 → 文字禁止規則
-- 画像には**一切文字を描かせない**。タイトル・セリフ・ライセンスはPython（Pillow）が後から描く
+  順序: style_prompt → キャラ定義 → scene → 吹き出しスペース確保の指示 → キャプションスペース
+  確保の指示 → 構図規則 → 文字禁止規則
+- 画像には**一切文字を描かせない**。タイトル・セリフ・キャプション・ライセンスはPython（Pillow）が後から描く
 - 言語別フォントに無いグリフ（タイ語フォントのラテン文字等）は `lib/textutil.py` の
   FontSetがNotoSansへ自動フォールバックする
 - コマ座標は `output/<id>/meta.json` 経由で `embed_text.py` に渡る。
   `layout.yaml` を変えたら `--skip-generate` で合成・埋め込みだけ再実行できる
-- キャプション枠・補遺枠は `compose.py` が白地黒枠の箱（言語非依存）を確保・描画し、
-  `embed_text.py` が言語別テキストを流し込む（吹き出しと同じ「枠は先、文字は後」方式）。
-  台本にcaptionが1つも無ければ枠ごと確保されず、レイアウトは元のまま
+- キャプション枠は**コマの内側に重ねて**描かれる（吹き出しと同じ、`layout.yaml`の
+  `caption.area`で正規化座標指定・既定はコマ上端の帯）。`compose.py`が白地黒枠の箱
+  （言語非依存）を確保・描画し、`embed_text.py`が言語別テキストを流し込む
+  （「枠は先、文字は後」方式）。補遺枠だけはコマの外＝最後のコマの下に別途配置される。
+  台本にcaptionが無いコマは枠ごと省略される
 - キャラの見た目が漫画間でブレたら: 良いコマから立ち姿を切り出して `characters/refs/` に保存し、
   `config/characters.yaml` の `reference_images` に登録する

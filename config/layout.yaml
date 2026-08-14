@@ -29,11 +29,11 @@ header:
   color: "#000000"
   rule_width: 3       # タイトル下の罫線
 
-# 各コマ上のSCP文書調キャプション枠（台本のpanels[].captionを描く。
-# 台本にcaptionが無いコマは枠ごと省略される）
+# コマ内に重ねて描くSCP文書調キャプション枠（台本のpanels[].captionを描く。
+# 台本にcaptionが無いコマは枠ごと省略される）。areaはコマ内の正規化座標 x,y,w,h
+# （bubble_presetsと同じ仕組み）。既定は画像の上端に貼り付く全幅の帯
 caption:
-  height: 84
-  gap: 6              # キャプション枠とコマ画像の間隔(px)
+  area: {x: 0.0, y: 0.0, w: 1.0, h: 0.24}
   font_size: 20
   min_font_size: 12
   line_spacing: 4
