@@ -57,6 +57,13 @@ def build_prompt(script, panel, cfgs):
                      + " and ".join(dict.fromkeys(hints))
                      + " so a speech bubble can be overlaid there later.")
 
+    if panel.get("caption"):
+        cap_area = (cfgs["layout"].get("caption") or {}).get("area") or {"y": 0}
+        cap_pos = "top" if cap_area.get("y", 0) < 0.5 else "bottom"
+        parts.append("Leave calm, uncluttered empty space (plain background) in "
+                     + _SPACE_HINTS.get(cap_pos, "the top area of the image")
+                     + " so a caption box can be overlaid there later.")
+
     parts.append(style["composition_rules"].strip())
     parts.append(style["no_text_rules"].strip())
     return "\n\n".join(parts)
