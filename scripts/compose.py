@@ -53,19 +53,9 @@ def compose(script, cfgs):
     header_h = layout["header"]["height"]
     footer_h = layout["footer"]["height"]
 
-    # SCP文書調のキャプション枠。行内のどれか1コマにでも caption があれば、
-    # その行全体（グリッド整列のため）にキャプション枠の高さを確保する。
-    # caption の無いコマはその行に枠だけ確保されつつ空欄になる。
-    caption_cfg = layout.get("caption") or {}
-    cap_h_full = caption_cfg.get("height", 0)
-    cap_gap_full = caption_cfg.get("gap", 0)
-    row_has_caption = [False] * rows
-    for i, p in enumerate(script["panels"]):
-        if p.get("caption"):
-            row_has_caption[i % rows] = True
-    row_cap_h = [cap_h_full if row_has_caption[r] else 0 for r in range(rows)]
-    row_cap_gap = [cap_gap_full if row_has_caption[r] else 0 for r in range(rows)]
-    row_cell_h = [row_cap_h[r] + row_cap_gap[r] + ph for r in range(rows)]
+    # SCP文書調のキャプションは各コマの絵の上（内側）に文字量に合わせて重ねて描く
+    # （embed_text.pyが言語別に描く）ので、グリッドの行の高さはコマの高さそのまま。
+    row_cell_h = [ph] * rows
 
     # 補遺ボックスは台本に addendum があるときだけ確保する
     addendum_cfg = layout.get("addendum") or {}
@@ -106,29 +96,20 @@ def compose(script, cfgs):
         draw.rectangle((margin, y - rule_w, width - margin, y), fill="#000000")
 
     panel_rects = []
-    caption_rects = []
     for i in range(n):
         col = i // rows
         row = i % rows
         if strip.get("column_order") == "rtl":
             col = cols - 1 - col
         x0 = margin + col * (pw + gutter)
-        cell_y0 = row_tops[row]
-
-        cap_rect = None
-        if row_cap_h[row]:
-            cap_rect = (x0, cell_y0, x0 + pw, cell_y0 + row_cap_h[row])
-            drawing.draw_caption_frame(draw, cap_rect, caption_cfg)
-        caption_rects.append(cap_rect)  # captionが無いコマはNone
-
-        y0 = cell_y0 + row_cap_h[row] + row_cap_gap[row]
+        y0 = row_tops[row]
         rect = (x0, y0, x0 + pw, y0 + ph)
         panel_rects.append(rect)
 
         panel = Image.open(panel_files[i]).convert("RGB").resize((pw, ph), Image.LANCZOS)
         img.paste(panel, (x0, y0))
-        draw.rectangle(rect, outline=strip["panel_border_color"],
-                       width=strip["panel_border_width"])
+        # コマ自体の縁取りは描かない（gutterの余白だけでコマを区切る）
+        # キャプションの枠+文字は言語別に文字量に合わせてembed_text.pyが描く
 
     if has_addendum:
         drawing.draw_caption_frame(draw, addendum_rect, addendum_cfg)
@@ -150,7 +131,6 @@ def compose(script, cfgs):
         "panels": n,
         "image_size": [width, height],
         "panel_rects": panel_rects,
-        "caption_rects": caption_rects,
         "addendum_rect": addendum_rect,
         "header_rect": header_rect,
         "footer_rect": footer_rect,

@@ -1,5 +1,5 @@
-google-genai>=1.0
+google-genai>=1.0    # generation.provider: gemini のときのみ必要（comfyui単体運用なら未インストールでも可）
 Pillow>=10.4
 PyYAML>=6.0
-requests>=2.31
+requests>=2.31       # comfyui プロバイダのAPI呼び出しにも使用
 fonttools>=4.50

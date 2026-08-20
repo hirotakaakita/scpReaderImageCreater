@@ -176,6 +176,50 @@ def draw_caption_frame(draw, rect, caption_cfg):
                    width=caption_cfg["outline_width"])
 
 
+def draw_caption(draw, panel_rect, area_norm, anchor, text, font_path, caption_cfg,
+                 char_wrap=False, fallback_path=None):
+    """コマ内area_norm領域の隅（anchor）に、文字量に合わせて縮む枠+文字を描く。
+
+    draw_speech（吹き出し）と同じ「最大領域を決めてから文字に合わせて箱を縮める」方式。
+    幅いっぱいに広がるバナーにならないよう、area_normで最大幅を絞っておく想定。
+    """
+    px0, py0, px1, py1 = panel_rect
+    pw, ph = px1 - px0, py1 - py0
+    ax0 = px0 + area_norm["x"] * pw
+    ay0 = py0 + area_norm["y"] * ph
+    aw = area_norm["w"] * pw
+    ah = area_norm["h"] * ph
+
+    pad = caption_cfg["padding"]
+    font, lines, bw, bh = textutil.fit_text(
+        draw, text, font_path,
+        max_width=aw - pad * 2,
+        max_height=ah - pad * 2,
+        start_size=caption_cfg["font_size"],
+        min_size=caption_cfg["min_font_size"],
+        line_spacing=caption_cfg["line_spacing"],
+        char_wrap=char_wrap,
+        fallback_path=fallback_path,
+    )
+    fits = bw <= aw - pad * 2 and bh <= ah - pad * 2
+    box_w = min(bw + pad * 2, aw)
+    box_h = min(bh + pad * 2, ah)
+
+    bx0 = ax0 + (aw - box_w) if "right" in anchor else ax0
+    by0 = ay0 + (ah - box_h) if "bottom" in anchor else ay0
+    box = (bx0, by0, bx0 + box_w, by0 + box_h)
+
+    draw_caption_frame(draw, box, caption_cfg)
+    textutil.draw_text_block_left(
+        draw, lines, font,
+        left_x=bx0 + pad,
+        top_y=by0 + (box_h - bh) / 2,
+        line_spacing=caption_cfg["line_spacing"],
+        fill=caption_cfg["text_color"],
+    )
+    return fits
+
+
 def draw_caption_text(draw, rect, text, font_path, caption_cfg,
                       char_wrap=False, fallback_path=None):
     """キャプション枠内に左揃えでテキストを描く。収まったかどうかを返す。"""

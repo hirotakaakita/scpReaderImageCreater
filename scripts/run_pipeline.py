@@ -93,10 +93,11 @@ def main():
     cfgs = cfglib.load_configs()
     langs = args.languages.split(",") if args.languages else None
 
-    if (not args.mock and not args.skip_generate and not args.export_prompts
-            and not os.environ.get("GEMINI_API_KEY")):
-        print("ERROR: GEMINI_API_KEY is not set (use --mock for a dry run)")
-        sys.exit(1)
+    provider_name = cfgs["style"]["generation"].get("provider", "gemini")
+    if not args.mock and not args.skip_generate and not args.export_prompts:
+        if provider_name == "gemini" and not os.environ.get("GEMINI_API_KEY"):
+            print("ERROR: GEMINI_API_KEY is not set (use --mock for a dry run)")
+            sys.exit(1)
 
     if args.comic_id:
         # --id は明示指定なので生成済みでも(再)処理する

@@ -2,50 +2,133 @@
 # 絵柄の中央定義（ここを変えると全SCP漫画の画風が変わる）
 #
 # 各コマの生成プロンプトは以下の順で組み立てられる:
-#   style_prompt + キャラクター定義 + 台本のscene + composition_rules + no_text_rules
+#   style_prompt + キャラクター定義 + 台本のcaption(en、絵が何を描くべきかの根拠)
+#   + 台本のscene + composition_rules + no_text_rules
 # 台本(comics/queue/*.yaml)側には絵柄を書かないこと。
+#
+# style_prompt/composition_rules/no_text_rulesは prompt.<provider> 以下に
+# プロバイダごとに完全に分けて持つ（モデルによって効く指示の強さ・言い回しが
+# 違うため、Gemini向けの文言をComfyUI向けにそのまま使い回さない）。
+# 台本のscene・caption・characters等の「内容」は共通（build_prompt()参照）。
 # ============================================================
 
-style_prompt: >
-  Japanese yonkoma manga panel illustration. Clean bold black ink outlines,
-  flat cel-shaded colors with soft muted palette, simple uncluttered
-  backgrounds, expressive cartoon characters with slightly chibi proportions,
-  gentle lighting. The mood is lightly comedic with a hint of eerie SCP
-  Foundation atmosphere (concrete corridors, fluorescent lights, containment
-  facility props).
+prompt:
+  gemini:
+    style_prompt: >
+      Japanese yonkoma manga panel illustration. Clean bold black ink outlines,
+      flat cel-shaded colors with soft muted palette, simple uncluttered
+      backgrounds, expressive cartoon characters with slightly chibi proportions,
+      gentle lighting. The mood is lightly comedic with a hint of eerie SCP
+      Foundation atmosphere (concrete corridors, fluorescent lights, containment
+      facility props).
 
-# 構図の共通ルール（全コマに付与）
-composition_rules: >
-  Single manga panel, full-bleed illustration filling the entire square image.
-  Characters drawn at a readable size, main subject clearly visible.
-  Consistent character designs must be kept exactly as described.
-  Vary the shot scale and camera angle from panel to panel within the same
-  comic: mix wide/establishing shots (full body, showing the room), medium
-  shots (waist-up), and close-ups (face or a key object/detail filling most
-  of the frame), and vary the camera height (eye-level, low angle looking
-  up, high angle looking down) and character placement (off-center,
-  foreground/background depth). Do not repeat the same framing, angle, and
-  pose in consecutive panels of one comic. Favor dynamic, asymmetric poses
-  and motion (mid-stride, leaning, reaching, turning) over static
-  front-facing standing poses.
+    composition_rules: >
+      Single manga panel, full-bleed illustration filling the entire square image.
+      Characters drawn at a readable size, main subject clearly visible.
+      Consistent character designs must be kept exactly as described.
+      Vary the shot scale and camera angle from panel to panel within the same
+      comic: mix wide/establishing shots (full body, showing the room), medium
+      shots (waist-up), and close-ups (face or a key object/detail filling most
+      of the frame), and vary the camera height (eye-level, low angle looking
+      up, high angle looking down) and character placement (off-center,
+      foreground/background depth). Do not repeat the same framing, angle, and
+      pose in consecutive panels of one comic. Favor dynamic, asymmetric poses
+      and motion (mid-stride, leaning, reaching, turning) over static
+      front-facing standing poses.
 
-# 文字を入れないためのルール（テキストは後からPythonで埋め込む）
-no_text_rules: >
-  IMPORTANT: Do not draw any text, letters, numbers, logos, speech bubbles,
-  captions, sound effect lettering, or written signs anywhere in the image.
-  The image must be completely free of text. Leave clean empty space where
-  indicated so a speech bubble can be added later.
+    no_text_rules: >
+      IMPORTANT: Do not draw any text, letters, numbers, logos, speech bubbles,
+      captions, sound effect lettering, or written signs anywhere in the image.
+      The image must be completely free of text. Leave clean empty space where
+      indicated so a speech bubble can be added later.
 
-# 生成APIの設定
+  comfyui:
+    # Z-Image Turbo向け。「yonkoma/manga panel」という語だけだと4コマ漫画の
+    # ページ全体（コマ割り+吹き出し+文字入り）を1枚に描いてしまう傾向があるため、
+    # 「1枚の絵だけ」であることを繰り返し明示する言い回しにしている。
+    style_prompt: >
+      A single full-bleed illustration frame in Japanese anime/manga art style
+      (like one frame of an anime storyboard, NOT a manga page or comic strip
+      layout). Clean bold black ink outlines, flat cel-shaded colors with soft
+      muted palette, simple uncluttered backgrounds, expressive cartoon
+      characters with slightly chibi proportions, gentle lighting. The mood is
+      lightly comedic with a hint of eerie SCP Foundation atmosphere (concrete
+      corridors, fluorescent lights, containment facility props).
+
+    composition_rules: >
+      This is ONE single continuous illustration filling the entire square
+      image edge to edge — there is only one scene, one moment in time, no
+      panel borders or gutters inside the image, and no grid of smaller
+      pictures. Characters drawn at a readable size, main subject clearly
+      visible. Consistent character designs must be kept exactly as described.
+      Vary the shot scale and camera angle between generations: mix
+      wide/establishing shots (full body, showing the room), medium shots
+      (waist-up), and close-ups (face or a key object/detail filling most of
+      the frame), and vary the camera height (eye-level, low angle looking up,
+      high angle looking down) and character placement (off-center,
+      foreground/background depth). Favor dynamic, asymmetric poses and motion
+      (mid-stride, leaning, reaching, turning) over static front-facing
+      standing poses.
+
+    no_text_rules: >
+      ABSOLUTE RULE, HIGHEST PRIORITY: this image contains ZERO text of any
+      kind. Do not draw any letters, words, numbers, logos, signage, or
+      written characters in any language, anywhere in the image, for any
+      reason — not on objects, walls, screens, books, or clothing. Do not draw
+      any speech bubbles, thought bubbles, dialogue boxes, caption boxes, or
+      sound-effect lettering. Do not divide the image into multiple panels or
+      sub-frames — draw only one single unified scene. Leave clean, empty,
+      uncluttered background areas instead of text or bubbles.
+
+# 生成APIの設定。
+# provider: gemini（Nano Banana, デフォルト） / comfyui（ローカルComfyUI）を切替可能。
+# 実装は scripts/providers/<provider>/ にまとまっている（各フォルダのREADME.md参照）。
+# provider共通のキーはトップレベルに、プロバイダ固有のキーは gemini: / comfyui: 以下に書く。
 generation:
-  # 無料枠で検証中は gemini-2.5-flash-image（無料版 Nano Banana）。
-  # 課金を有効化したら gemini-3-pro-image-preview（Nano Banana Pro）に戻す。
-  # ※ Pro は無料枠では limit: 0 で使えない（429になる）
-  model: gemini-2.5-flash-image
+  provider: comfyui                   # gemini | comfyui
   aspect_ratio: "1:1"                 # コマは正方形で統一（layout.yamlのpanelと合わせる）
-  image_size: null                    # Pro専用（"1K"/"2K"/"4K"）。flashでは null にする
-  max_retries: 3
-  retry_wait_seconds: 20
   # 同じ漫画の直前のコマを参照画像として渡し、コマ間のキャラ一貫性を上げる
+  # （ComfyUI版の汎用txt2imgワークフローは画像入力ノードが無いため現状は無視される。
+  #   scripts/providers/comfyui/README.md 参照）
   use_previous_panels_as_reference: true
   max_reference_images: 6
+
+  gemini:
+    # 無料枠で検証中は gemini-2.5-flash-image（無料版 Nano Banana）。
+    # 課金を有効化したら gemini-3-pro-image-preview（Nano Banana Pro）に戻す。
+    # ※ Pro は無料枠では limit: 0 で使えない（429になる）
+    model: gemini-2.5-flash-image
+    image_size: null                  # Pro専用（"1K"/"2K"/"4K"）。flashでは null にする
+    max_retries: 3
+    retry_wait_seconds: 20
+
+  comfyui:
+    # ローカルで起動したComfyUIのAPIを叩いて生成する。要セットアップ、詳細は
+    # scripts/providers/comfyui/README.md 参照。
+    # モデルは Z-Image Turbo（Apache 2.0、8ステップで高速、アニメ調にも強い）。
+    # ComfyUIの「Browse Templates」→「Text to Image (Z-Image-Turbo)」を開くと
+    # 下記3ファイルが自動ダウンロードされる（models/配下の対応フォルダに入る）:
+    #   unet_name:  diffusion_models/z_image_turbo_bf16.safetensors
+    #   clip_name:  text_encoders/qwen_3_4b.safetensors
+    #   vae_name:   vae/ae.safetensors
+    server: "http://127.0.0.1:8188"
+    workflow_path: "scripts/providers/comfyui/workflow_api.json"
+    unet_name: "z_image_turbo_bf16.safetensors"
+    clip_name: "qwen_3_4b.safetensors"
+    vae_name: "ae.safetensors"
+    width: 1024
+    height: 1024
+    steps: 8                          # Z-Image Turbo公式推奨（8ステップ蒸留モデル）
+    cfg: 1                            # 公式推奨値。2まで上げてもコマ割り/文字焼き込みの
+                                       # 誤生成は改善しなかったため公式値に戻した
+    sampler_name: res_multistep
+    scheduler: simple
+    # Z-Image Turboの公式ワークフローは実際のネガティブプロンプトを使わず
+    # ConditioningZeroOutで代用しているため、この値は現状無視される
+    # （SDXL系など「Negative Prompt」ノードを持つワークフローに差し替えた場合のみ使われる）
+    negative_prompt: "text, watermark, signature, blurry, lowres, extra limbs, bad anatomy, jpeg artifacts"
+    seed: -1                          # -1 なら生成のたびにランダム
+    max_retries: 3
+    retry_wait_seconds: 5
+    poll_interval_seconds: 2
+    timeout_seconds: 300

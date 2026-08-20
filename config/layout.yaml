@@ -13,11 +13,9 @@ panel:
 strip:
   columns: 1          # 列数。4コマ=1列、8コマなら1列(縦長) or 2列(4コマ×2本)
   column_order: ltr   # 2列以上のときの列の並び順: ltr(左→右) / rtl(右→左)
-  gutter: 20          # コマ間の余白(px)
+  gutter: 20          # コマ間の余白(px)。コマ同士はこの余白だけで区切る（縁取りは描かない）
   margin: 28          # 外周の余白(px)
   background: "#FFFFFF"
-  panel_border_width: 4
-  panel_border_color: "#000000"
 
 # タイトル帯（テキストは言語別にembed_text.pyが描く）
 # object_classを台本に書くと、タイトル下にオブジェクトクラスのサブタイトルが入る
@@ -29,11 +27,15 @@ header:
   color: "#000000"
   rule_width: 3       # タイトル下の罫線
 
-# 各コマ上のSCP文書調キャプション枠（台本のpanels[].captionを描く。
-# 台本にcaptionが無いコマは枠ごと省略される）
+# 各コマの絵の上（内側）に重ねるSCP文書調キャプション枠（台本のpanels[].captionを描く。
+# 台本にcaptionが無いコマは枠ごと省略される）。
+# 吹き出しと同様、caption_presetsで確保した最大領域の中で文字量に合わせて箱が縮む
+# （幅いっぱいのバナーにはならず、コマの隅に収まる小さな箱になる）。
 caption:
-  height: 84
-  gap: 6              # キャプション枠とコマ画像の間隔(px)
+  # コマごとの既定配置。"alternate"なら偶数コマ=top-left/奇数コマ=top-right で
+  # 左寄り・右寄りが交互になる。固定したい場合はプリセット名（例: top-left）を書く。
+  # 台本のpanelsで caption_position を指定すれば個別に上書き可。
+  default_position: alternate
   font_size: 20
   min_font_size: 12
   line_spacing: 4
@@ -42,6 +44,14 @@ caption:
   outline: "#000000"
   outline_width: 2
   text_color: "#000000"
+
+# キャプションの最大領域プリセット（コマ内の正規化座標 x, y, w, h）。
+# 実際の箱はこの領域内で文字量に合わせて縮み、anchor側の隅に寄せて配置される。
+caption_presets:
+  top-left:     {x: 0.06, y: 0.06, w: 0.60, h: 0.40}
+  top-right:    {x: 0.34, y: 0.06, w: 0.60, h: 0.40}
+  bottom-left:  {x: 0.06, y: 0.54, w: 0.60, h: 0.40}
+  bottom-right: {x: 0.34, y: 0.54, w: 0.60, h: 0.40}
 
 # 最後のコマの下に置く補遺ボックス（台本のaddendumを描く。無ければ省略）
 addendum:

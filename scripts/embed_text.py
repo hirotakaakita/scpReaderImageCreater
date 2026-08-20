@@ -23,6 +23,21 @@ def resolve_area(position, presets):
     raise ValueError(f"unknown bubble position: {position}")
 
 
+def caption_position_for(panel, idx, caption_cfg):
+    """コマごとのキャプション位置。台本で明示指定が無ければ既定パターンに従う。
+
+    default_position: "alternate" なら左寄り/右寄りをコマ順に交互配置
+    （偶数=top-left, 奇数=top-right）。プリセット名を直接指定すれば全コマ固定になる。
+    """
+    explicit = panel.get("caption_position")
+    if explicit:
+        return explicit
+    default = caption_cfg.get("default_position", "top-left")
+    if default == "alternate":
+        return "top-left" if idx % 2 == 0 else "top-right"
+    return default
+
+
 def title_for(script, lang):
     titles = script.get("title") or {}
     return titles.get(lang) or titles.get("en") or script["id"].upper()
@@ -66,11 +81,12 @@ def embed(script, cfgs, languages=None):
             rect = meta["panel_rects"][idx]
             caption_text = (panel.get("caption") or {}).get(lang) \
                 or (panel.get("caption") or {}).get("en")
-            caption_rects = meta.get("caption_rects") or []
-            caption_rect = caption_rects[idx] if idx < len(caption_rects) else None
-            if caption_text and caption_rect:
-                fits = drawing.draw_caption_text(
-                    draw, caption_rect, caption_text, font_path,
+            if caption_text:
+                position = caption_position_for(panel, idx, layout["caption"])
+                area = resolve_area(position, layout["caption_presets"])
+                anchor = position if isinstance(position, str) else "top-left"
+                fits = drawing.draw_caption(
+                    draw, rect, area, anchor, caption_text, font_path,
                     layout["caption"], char_wrap=char_wrap,
                     fallback_path=fallback_path)
                 if not fits:

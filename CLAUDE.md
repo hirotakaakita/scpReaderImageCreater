@@ -51,15 +51,25 @@ SCP記事を題材にした多言語コマ漫画を生成する。生成はGitHu
 
 ## 実装メモ
 
+- 画像生成の実行部分（API呼び出し）はプロバイダ別に `scripts/providers/<name>/` に
+  切り出してある（`gemini`: Nano Banana、`comfyui`: ローカルComfyUI）。切替は
+  `config/style.yaml` の `generation.provider`。各フォルダの`README.md`にセットアップ
+  手順あり。新プロバイダを足す場合は`generate_image(prompt, ref_images, gen_cfg)`を
+  実装して`scripts/providers/__init__.py`に登録する
 - 生成プロンプトの組み立ては `scripts/generate_panels.py` の `build_prompt()`。
-  順序: style_prompt → キャラ定義 → scene → 吹き出しスペース確保の指示 → 構図規則 → 文字禁止規則
+  順序: style_prompt → キャラ定義 → caption(en、絵が何を描くべきかの根拠) → scene →
+  吹き出しスペース確保の指示 → 構図規則 → 文字禁止規則。**caption(en)を必ず絵に一致させる
+  ため、captionの英語文をそのままプロンプトに含めている**（scene単独では絵が
+  captionの内容とズレることがあるため、ズレ防止の二重根拠）。scene執筆時から
+  captionの内容と食い違わないよう意識すること
 - 画像には**一切文字を描かせない**。タイトル・セリフ・ライセンスはPython（Pillow）が後から描く
 - 言語別フォントに無いグリフ（タイ語フォントのラテン文字等）は `lib/textutil.py` の
   FontSetがNotoSansへ自動フォールバックする
 - コマ座標は `output/<id>/meta.json` 経由で `embed_text.py` に渡る。
   `layout.yaml` を変えたら `--skip-generate` で合成・埋め込みだけ再実行できる
-- キャプション枠・補遺枠は `compose.py` が白地黒枠の箱（言語非依存）を確保・描画し、
-  `embed_text.py` が言語別テキストを流し込む（吹き出しと同じ「枠は先、文字は後」方式）。
-  台本にcaptionが1つも無ければ枠ごと確保されず、レイアウトは元のまま
+- キャプション枠は各コマの絵の**内側**（デフォルト左上、`caption_position`で
+  `top-right`/`bottom-left`/`bottom-right`に変更可）に、文字量に合わせて縮む箱として
+  `embed_text.py`が言語別に描く（吹き出しのdraw_speechと同じ「最大領域→文字に合わせて縮小」
+  方式。`compose.py`側では確保しない）。補遺枠は従来通り`compose.py`が最終コマ下に確保する
 - キャラの見た目が漫画間でブレたら: 良いコマから立ち姿を切り出して `characters/refs/` に保存し、
   `config/characters.yaml` の `reference_images` に登録する

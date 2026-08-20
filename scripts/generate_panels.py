@@ -1,23 +1,25 @@
-"""Nano Banana Pro (Gemini) で各コマの画像を生成する。
+"""各コマの画像を生成する（プロバイダはconfig/style.yamlのgeneration.providerで切替）。
 
 台本のscene + config/style.yaml(絵柄) + config/characters.yaml(キャラ定義)から
 プロンプトを組み立て、output/<id>/panels/panel_N.png に保存する。
 テキスト・吹き出しは一切描かせない（後工程のembed_text.pyが埋め込む）。
 
+実際の画像生成APIの呼び出しは scripts/providers/<provider>/ に切り出してある
+（gemini: Nano Banana / comfyui: ローカルComfyUI API）。
+
 --mock を付けるとAPIを呼ばずプレースホルダー画像を生成する（レイアウト確認用）。
 """
 import argparse
-import io
 import json
 import os
 import shutil
 import sys
-import time
 
 from PIL import Image, ImageDraw
 
 sys.path.insert(0, os.path.dirname(__file__))
 from lib import config as cfglib  # noqa: E402
+import providers  # noqa: E402
 
 # 吹き出しプリセット位置 → 空けておいてほしい場所の指示
 _SPACE_HINTS = {
@@ -31,10 +33,12 @@ _SPACE_HINTS = {
 }
 
 
-def build_prompt(script, panel, cfgs):
+def build_prompt(script, panel, cfgs, provider_name=None):
     style = cfgs["style"]
     characters = cfgs["characters"]
-    parts = [style["style_prompt"].strip()]
+    provider_name = provider_name or style["generation"].get("provider", "gemini")
+    prompt_style = style["prompt"][provider_name]
+    parts = [prompt_style["style_prompt"].strip()]
 
     names = panel.get("characters") or []
     descs = []
@@ -44,6 +48,16 @@ def build_prompt(script, panel, cfgs):
     if descs:
         parts.append("Characters appearing in this panel (keep these designs exactly consistent):\n- "
                      + "\n- ".join(descs))
+
+    caption_en = (panel.get("caption") or {}).get("en")
+    if caption_en:
+        parts.append(
+            "This panel illustrates the following in-universe document sentence. "
+            "The scene description below must depict exactly what this sentence "
+            "describes (same subject, same action/state) — do not draw a different "
+            "moment or unrelated action. Do NOT render this sentence, or any text, "
+            "as writing anywhere in the image; it is context only:\n"
+            f"\"{caption_en.strip()}\"")
 
     parts.append("Scene: " + panel["scene"].strip())
 
@@ -57,8 +71,8 @@ def build_prompt(script, panel, cfgs):
                      + " and ".join(dict.fromkeys(hints))
                      + " so a speech bubble can be overlaid there later.")
 
-    parts.append(style["composition_rules"].strip())
-    parts.append(style["no_text_rules"].strip())
+    parts.append(prompt_style["composition_rules"].strip())
+    parts.append(prompt_style["no_text_rules"].strip())
     return "\n\n".join(parts)
 
 
@@ -78,37 +92,6 @@ def collect_reference_images(script, panel, cfgs, prev_panel_paths):
     return refs[: gen.get("max_reference_images", 6)]
 
 
-def call_nano_banana(prompt, ref_images, gen_cfg):
-    from google import genai
-
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-    contents = [prompt] + list(ref_images)
-    image_config = {"aspect_ratio": gen_cfg.get("aspect_ratio", "1:1")}
-    if gen_cfg.get("image_size"):  # image_sizeはPro系のみ対応。null時は送らない
-        image_config["image_size"] = gen_cfg["image_size"]
-    gen_config = {
-        "response_modalities": ["TEXT", "IMAGE"],
-        "image_config": image_config,
-    }
-    last_err = None
-    for attempt in range(1, gen_cfg.get("max_retries", 3) + 1):
-        try:
-            resp = client.models.generate_content(
-                model=gen_cfg["model"], contents=contents, config=gen_config)
-            for cand in resp.candidates or []:
-                for part in cand.content.parts or []:
-                    data = getattr(part, "inline_data", None)
-                    if data and data.data:
-                        return Image.open(io.BytesIO(data.data))
-            last_err = RuntimeError("no image in response")
-        except Exception as e:  # レート制限・一時エラーを含む
-            last_err = e
-        wait = gen_cfg.get("retry_wait_seconds", 20) * attempt
-        print(f"  attempt {attempt} failed ({last_err}); retrying in {wait}s")
-        time.sleep(wait)
-    raise RuntimeError(f"image generation failed: {last_err}")
-
-
 def make_mock_panel(index):
     img = Image.new("RGB", (1024, 1024), (225, 225, 228))
     d = ImageDraw.Draw(img)
@@ -124,18 +107,20 @@ def generate(script, cfgs, mock=False):
     os.makedirs(panels_dir, exist_ok=True)
 
     gen_cfg = cfgs["style"]["generation"]
+    provider_name = gen_cfg.get("provider", "gemini")
+    provider = providers.get(provider_name) if not mock else None
     prompts_log = []
     prev_paths = []
     for i, panel in enumerate(script["panels"], 1):
         out_path = os.path.join(panels_dir, f"panel_{i}.png")
-        prompt = build_prompt(script, panel, cfgs)
+        prompt = build_prompt(script, panel, cfgs, provider_name)
         prompts_log.append({"panel": i, "prompt": prompt})
         print(f"[generate] panel {i}/{len(script['panels'])}")
         if mock:
             img = make_mock_panel(i)
         else:
             refs = collect_reference_images(script, panel, cfgs, prev_paths)
-            img = call_nano_banana(prompt, refs, gen_cfg)
+            img = provider.generate_image(prompt, refs, gen_cfg)
         img.convert("RGB").save(out_path)
         prev_paths.append(out_path)
 
@@ -154,11 +139,12 @@ def export_prompts(script, cfgs):
     os.makedirs(panels_dir, exist_ok=True)
 
     gen_cfg = cfgs["style"]["generation"]
+    provider_name = gen_cfg.get("provider", "gemini")
     use_prev = gen_cfg.get("use_previous_panels_as_reference")
     panels_rel = os.path.relpath(panels_dir, cfglib.ROOT)
 
     for i, panel in enumerate(script["panels"], 1):
-        prompt = build_prompt(script, panel, cfgs)
+        prompt = build_prompt(script, panel, cfgs, provider_name)
 
         char_refs = []
         for key in panel.get("characters") or []:
@@ -193,27 +179,47 @@ def export_prompts(script, cfgs):
         print(f"[export] panel {i}/{len(script['panels'])} -> "
               f"{os.path.relpath(prompt_path, cfglib.ROOT)}")
 
-    readme_lines = [
-        f"=== {script['id']} を Google AI Studio (aistudio.google.com) で手動生成する手順 ===",
-        "",
-        f"1. Nano Banana系の画像生成モデル（設定上は {gen_cfg.get('model')}）のチャットを開く。",
-        "2. アスペクト比は " + gen_cfg.get("aspect_ratio", "1:1")
-        + (f"、画像サイズは {gen_cfg['image_size']}" if gen_cfg.get("image_size") else "")
-        + " を選ぶ（AI StudioのUIに設定項目があれば）。",
-        "3. panel_N.txt の中身をそのままプロンプトとして貼り付け、末尾に[添付する...]の",
-        "   注記があれば同じ番号の panel_N_refs/ 内の画像を全て添付してから生成する。",
-        f"4. 気に入った画像を {panels_rel}/panel_N.png として保存する（Nと採番を一致させること）。",
-    ]
-    if use_prev:
-        readme_lines.append(
-            "5. このスタイルは前コマ参照が有効。panel_2以降はprompt末尾の注記に従い、"
-            "直前1〜2コマの完成画像も参照画像として追加で添付すること。")
-    readme_lines += [
-        "",
-        f"全コマ分の画像を {panels_rel}/panel_N.png として保存し終えたら:",
-        f"  python scripts/run_pipeline.py --id {script['id']} --skip-generate",
-        "を実行すると、合成・15言語分のテキスト埋め込みまで自動で行われる。",
-    ]
+    if provider_name == "comfyui":
+        cfg = gen_cfg.get("comfyui", {})
+        readme_lines = [
+            f"=== {script['id']} をComfyUIで手動生成する手順 ===",
+            "",
+            "このプロジェクトは通常 `python scripts/run_pipeline.py --id "
+            f"{script['id']}` でComfyUIのAPI ({cfg.get('server', 'http://127.0.0.1:8188')}) "
+            "を自動的に叩いて生成する（詳細: scripts/providers/comfyui/README.md）。",
+            "APIサーバーを使わずComfyUIのUIで手動生成したい場合:",
+            f"1. ComfyUIのUIで scripts/providers/comfyui/workflow_api.json 相当の"
+            f"txt2imgワークフロー（チェックポイント: {cfg.get('checkpoint')}）を組む。",
+            "2. panel_N.txt の中身をPositive Promptノードに貼り付けて生成する。",
+            f"3. 気に入った画像を {panels_rel}/panel_N.png として保存する（Nと採番を一致させること）。",
+            "",
+            f"全コマ分の画像を {panels_rel}/panel_N.png として保存し終えたら:",
+            f"  python scripts/run_pipeline.py --id {script['id']} --skip-generate",
+            "を実行すると、合成・15言語分のテキスト埋め込みまで自動で行われる。",
+        ]
+    else:
+        cfg = gen_cfg.get("gemini", {})
+        readme_lines = [
+            f"=== {script['id']} を Google AI Studio (aistudio.google.com) で手動生成する手順 ===",
+            "",
+            f"1. Nano Banana系の画像生成モデル（設定上は {cfg.get('model')}）のチャットを開く。",
+            "2. アスペクト比は " + gen_cfg.get("aspect_ratio", "1:1")
+            + (f"、画像サイズは {cfg['image_size']}" if cfg.get("image_size") else "")
+            + " を選ぶ（AI StudioのUIに設定項目があれば）。",
+            "3. panel_N.txt の中身をそのままプロンプトとして貼り付け、末尾に[添付する...]の",
+            "   注記があれば同じ番号の panel_N_refs/ 内の画像を全て添付してから生成する。",
+            f"4. 気に入った画像を {panels_rel}/panel_N.png として保存する（Nと採番を一致させること）。",
+        ]
+        if use_prev:
+            readme_lines.append(
+                "5. このスタイルは前コマ参照が有効。panel_2以降はprompt末尾の注記に従い、"
+                "直前1〜2コマの完成画像も参照画像として追加で添付すること。")
+        readme_lines += [
+            "",
+            f"全コマ分の画像を {panels_rel}/panel_N.png として保存し終えたら:",
+            f"  python scripts/run_pipeline.py --id {script['id']} --skip-generate",
+            "を実行すると、合成・15言語分のテキスト埋め込みまで自動で行われる。",
+        ]
     readme_path = os.path.join(prompts_dir, "README.txt")
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write("\n".join(readme_lines) + "\n")
