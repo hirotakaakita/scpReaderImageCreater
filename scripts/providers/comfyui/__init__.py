@@ -15,7 +15,6 @@ import sys
 import time
 import uuid
 
-import numpy as np
 import requests
 from PIL import Image
 
@@ -191,53 +190,3 @@ def generate_image(prompt, ref_images, gen_cfg):
         print(f"  attempt {attempt} failed ({last_err}); retrying in {wait}s")
         time.sleep(wait)
     raise RuntimeError(f"image generation failed: {last_err}")
-
-
-def _find_grid_lines(darkness, count, total):
-    """darkness: 軸方向の各画素列(行)の暗さの1次元配列。count-1本の境界線の
-    実際の位置を、均等割りの想定位置の近傍で最も暗い（=AIが描いた黒枠線に
-    最も近い）位置にスナップさせて返す。"""
-    positions = []
-    cell = total / count
-    margin = max(4, int(cell * 0.15))
-    for i in range(1, count):
-        expected = int(round(i * cell))
-        lo, hi = max(0, expected - margin), min(total, expected + margin)
-        window = darkness[lo:hi]
-        positions.append(lo + int(window.argmax()) if window.size else expected)
-    return positions
-
-
-def _split_grid(img, cols, rows):
-    """画像をrows x colsのコマに分割する。
-
-    単純に幅・高さをcols/rows等分すると、AIが描いた黒枠線の実際の位置は
-    生成のたびに数〜十数px単位でズレるため、境界がコマの片側にだけ残ったり
-    どちらにも残らなかったりして「コマの位置が左右にずれて見える」原因に
-    なっていた。ここでは列・行ごとの明度から黒枠線の実位置を検出し、その
-    線の中心で切ることでズレを防ぐ。
-    """
-    gray = np.asarray(img.convert("L"), dtype=np.float32)
-    h, w = gray.shape
-    darkness_x = 255.0 - gray.mean(axis=0)  # 列ごとの暗さ（縦の枠線を探す）
-    darkness_y = 255.0 - gray.mean(axis=1)  # 行ごとの暗さ（横の枠線を探す）
-    xs = [0] + _find_grid_lines(darkness_x, cols, w) + [w]
-    ys = [0] + _find_grid_lines(darkness_y, rows, h) + [h]
-
-    crops = []
-    for r in range(rows):
-        for c in range(cols):
-            crops.append(img.crop((xs[c], ys[r], xs[c + 1], ys[r + 1])))
-    return crops
-
-
-def generate_page(prompt, cols, rows, gen_cfg):
-    """全コマ分を1枚のグリッド画像として生成し、rows x cols で分割して返す。
-
-    generation.comfyui.page_mode: true のときに generate_panels.py から呼ばれる。
-    戻り値は行優先（左上→右上→...→左下→右下）のPIL.Imageリスト。
-    1回の生成で全コマを描かせる方式で、Z-Image Turboは単一シーン指示より
-    こちらの方が文字焼き込み無しで安定することを確認済み（README参照）。
-    """
-    img = generate_image(prompt, [], gen_cfg)
-    return _split_grid(img, cols, rows)

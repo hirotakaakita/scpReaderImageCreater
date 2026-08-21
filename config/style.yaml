@@ -80,34 +80,6 @@ prompt:
       sub-frames — draw only one single unified scene. Leave clean, empty,
       uncluttered background areas instead of text or bubbles.
 
-  # ComfyUI用「1枚のページにまとめて生成」モード（generation.comfyui.page_mode:
-  # true のときに使われる。generate_panels.build_page_prompt()参照）。
-  # Z-Image Turboは単発の単一シーン指示より「Nコマのグリッドを1枚描け」という
-  # 指示の方が圧倒的に安定して従う（コマ割り自体を許可しているため矛盾がない）。
-  # 検証では6/6で文字焼き込み・吹き出しなしの綺麗なグリッドが得られた。
-  comfyui_page:
-    style_prompt: >
-      A single Japanese yonkoma manga page, one continuous image divided into a
-      grid of panels with thin black panel borders. Clean bold black ink
-      outlines, flat cel-shaded colors with soft muted palette, expressive
-      chibi-proportioned characters, gentle lighting, lightly comedic mood with
-      a hint of eerie SCP Foundation atmosphere (concrete corridors,
-      fluorescent lights, containment facility props).
-
-    composition_rules: >
-      Keep each panel's character designs exactly consistent with the
-      descriptions given. Vary the shot scale and camera angle between panels:
-      mix wide/establishing shots (full body, showing the room), medium shots
-      (waist-up), and close-ups (face or a key object/detail filling most of
-      the frame). Favor dynamic, asymmetric poses and motion over static
-      front-facing standing poses.
-
-    no_text_rules: >
-      ABSOLUTE RULE: do not draw any text, letters, numbers, speech bubbles,
-      thought bubbles, caption boxes, or written characters of any kind
-      anywhere in the image, in any panel. Only the black panel border lines
-      separating the panels are allowed as line art; no other markings.
-
 # 生成APIの設定。
 # provider: gemini（Nano Banana, デフォルト） / comfyui（ローカルComfyUI）を切替可能。
 # 実装は scripts/providers/<provider>/ にまとまっている（各フォルダのREADME.md参照）。
@@ -146,7 +118,7 @@ generation:
     #   loras/QwenImage_blackline.safetensors（画風。差し替えれば別の画風も試せる）
     #
     # 過去に検証したZ-Image Turbo設定は workflow_api.json 側に残してあるので、
-    # 戻したい場合は workflow_path/unet_name/clip_name/vae_name/page_mode等を
+    # 戻したい場合は workflow_path/unet_name/clip_name/vae_name等を
     # 過去のコミット（scripts/providers/comfyui/README.md参照）から復元すること。
     server: "http://127.0.0.1:8188"
     workflow_path: "scripts/providers/comfyui/workflow_api_qwen_style.json"
@@ -155,7 +127,6 @@ generation:
     vae_name: "qwen_image_vae.safetensors"
     style_lora_name: "QwenImage_blackline.safetensors"
     style_lora_strength: 1.0
-    page_mode: false                  # Qwen-Imageは単発コマ生成でも十分安定するため無効
     width: 1328                       # Qwen-Image公式推奨の正方形解像度
     height: 1328
     steps: 2                          # 2ステップ高速化LoRA前提
