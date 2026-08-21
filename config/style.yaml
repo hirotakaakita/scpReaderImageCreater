@@ -133,35 +133,40 @@ generation:
   comfyui:
     # ローカルで起動したComfyUIのAPIを叩いて生成する。要セットアップ、詳細は
     # scripts/providers/comfyui/README.md 参照。
-    # モデルは Z-Image Turbo（Apache 2.0、8ステップで高速、アニメ調にも強い）。
-    # ComfyUIの「Browse Templates」→「Text to Image (Z-Image-Turbo)」を開くと
-    # 下記3ファイルが自動ダウンロードされる（models/配下の対応フォルダに入る）:
-    #   unet_name:  diffusion_models/z_image_turbo_bf16.safetensors
-    #   clip_name:  text_encoders/qwen_3_4b.safetensors
-    #   vae_name:   vae/ae.safetensors
+    #
+    # モデルは Qwen-Image 2512（fp8, 2ステップ高速化LoRA付き）+ 画風LoRA
+    # 「QwenImage_blackline」（モノクロ・リソグラフ調の線画スタイル）。
+    # 自然文のscene指示への追従力が非常に高く、単発コマ生成でも文字焼き込みが
+    # 無く安定することを確認済み（Z-Image Turbo/Animagine XLとの比較検証より）。
+    # 必要ファイル（models/配下の対応フォルダに配置）:
+    #   diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors
+    #   text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
+    #   vae/qwen_image_vae.safetensors
+    #   loras/Wuli-Qwen-Image-2512-Turbo-LoRA-2steps-V1.0-bf16.safetensors（高速化用、常時適用）
+    #   loras/QwenImage_blackline.safetensors（画風。差し替えれば別の画風も試せる）
+    #
+    # 過去に検証したZ-Image Turbo設定は workflow_api.json 側に残してあるので、
+    # 戻したい場合は workflow_path/unet_name/clip_name/vae_name/page_mode等を
+    # 過去のコミット（scripts/providers/comfyui/README.md参照）から復元すること。
     server: "http://127.0.0.1:8188"
-    workflow_path: "scripts/providers/comfyui/workflow_api.json"
-    unet_name: "z_image_turbo_bf16.safetensors"
-    clip_name: "qwen_3_4b.safetensors"
-    vae_name: "ae.safetensors"
-    # page_mode: true だと、コマを1枚ずつ個別生成する代わりに全コマを1枚の
-    # グリッド画像として1回で生成し、Pythonでコマ数ぶんに切り出す
-    # （検証の結果、Z-Image Turboはこちらの方が文字焼き込み無しで安定する）。
-    page_mode: true
-    page_grid_cols: 2                 # ページ内の列数。行数は自動計算 (ceil(コマ数/列数))
-    width: 1024                       # page_mode時はページ全体のサイズ（切り出し前）
-    height: 1024
-    steps: 8                          # Z-Image Turbo公式推奨（8ステップ蒸留モデル）
-    cfg: 1                            # 公式推奨値。2まで上げてもコマ割り/文字焼き込みの
-                                       # 誤生成は改善しなかったため公式値に戻した
-    sampler_name: res_multistep
+    workflow_path: "scripts/providers/comfyui/workflow_api_qwen_style.json"
+    unet_name: "qwen_image_2512_fp8_e4m3fn.safetensors"
+    clip_name: "qwen_2.5_vl_7b_fp8_scaled.safetensors"
+    vae_name: "qwen_image_vae.safetensors"
+    style_lora_name: "QwenImage_blackline.safetensors"
+    style_lora_strength: 1.0
+    page_mode: false                  # Qwen-Imageは単発コマ生成でも十分安定するため無効
+    width: 1328                       # Qwen-Image公式推奨の正方形解像度
+    height: 1328
+    steps: 2                          # 2ステップ高速化LoRA前提
+    cfg: 1
+    sampler_name: euler
     scheduler: simple
-    # Z-Image Turboの公式ワークフローは実際のネガティブプロンプトを使わず
+    # Qwen-Imageの公式ワークフローも実際のネガティブプロンプトを使わず
     # ConditioningZeroOutで代用しているため、この値は現状無視される
-    # （SDXL系など「Negative Prompt」ノードを持つワークフローに差し替えた場合のみ使われる）
     negative_prompt: "text, watermark, signature, blurry, lowres, extra limbs, bad anatomy, jpeg artifacts"
     seed: -1                          # -1 なら生成のたびにランダム
     max_retries: 3
-    retry_wait_seconds: 5
-    poll_interval_seconds: 2
-    timeout_seconds: 300
+    retry_wait_seconds: 10
+    poll_interval_seconds: 3
+    timeout_seconds: 600

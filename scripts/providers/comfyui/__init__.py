@@ -50,11 +50,31 @@ def _find_by_class(workflow, class_type, required=True):
     return None
 
 
-def _build_workflow(prompt, cfg):
+def _upload_image(server, pil_image):
+    """PIL画像をComfyUIのinputフォルダにアップロードし、サーバー側のファイル名を返す
+    （LoadImageノードはローカルパスでなくこのファイル名で参照する）。"""
+    buf = io.BytesIO()
+    pil_image.convert("RGB").save(buf, format="PNG")
+    buf.seek(0)
+    resp = requests.post(f"{server}/upload/image",
+                         files={"image": ("ref.png", buf, "image/png")},
+                         data={"overwrite": "true"}, timeout=30)
+    resp.raise_for_status()
+    return resp.json()["name"]
+
+
+def _build_workflow(prompt, cfg, ref_images=None):
     workflow_path = cfglib.rootpath(cfg["workflow_path"])
     workflow = copy.deepcopy(_load_workflow(workflow_path))
 
     _find_by_title(workflow, "Positive Prompt")["inputs"]["text"] = prompt
+
+    # IPAdapter等、参照画像を使うワークフローにのみ存在するノード。
+    # 無いワークフロー（Z-Image Turbo/素のSDXL等）ではref_imagesは単に無視される。
+    ref_node = _find_by_title(workflow, "Reference Image", required=False)
+    if ref_node is not None and ref_images:
+        server = cfg.get("server", "http://127.0.0.1:8188")
+        ref_node["inputs"]["image"] = _upload_image(server, ref_images[0])
 
     # ネガティブプロンプトは無いモデル向けワークフローもある（例: Z-Image Turboの公式
     # テンプレートはConditioningZeroOutでネガティブを代用しており、textノードが無い）
@@ -82,6 +102,13 @@ def _build_workflow(prompt, cfg):
     vae_node = _find_by_class(workflow, "VAELoader", required=False)
     if vae_node is not None and cfg.get("vae_name"):
         vae_node["inputs"]["vae_name"] = cfg["vae_name"]
+
+    # 画風LoRA（任意）。"Style LoRA"というtitleのLoraLoaderModelOnlyノードが
+    # ワークフローにある場合のみ書き換える。
+    style_lora_node = _find_by_title(workflow, "Style LoRA", required=False)
+    if style_lora_node is not None and cfg.get("style_lora_name"):
+        style_lora_node["inputs"]["lora_name"] = cfg["style_lora_name"]
+        style_lora_node["inputs"]["strength_model"] = cfg.get("style_lora_strength", 1.0)
 
     # 潜在画像サイズのノードもモデルによってクラス名が異なる
     latent_node = (_find_by_class(workflow, "EmptyLatentImage", required=False)
@@ -131,13 +158,11 @@ def _fetch_image(server, image_ref):
 
 
 def generate_image(prompt, ref_images, gen_cfg):
-    """ref_imagesは現状無視される（汎用txt2imgワークフローは画像入力に非対応のため）。
-    キャラクター一貫性を上げたい場合はワークフローにIPAdapter等を組み込み、
-    このプロバイダを拡張すること。"""
+    """ref_imagesは、ワークフローに"Reference Image"というLoadImageノードが
+    ある場合のみ使われる（IPAdapter系ワークフロー等）。無ければ無視される
+    （Z-Image Turbo/素のSDXLワークフローは画像入力に非対応のため）。
+    複数枚渡されても現状は先頭の1枚しか使われない。"""
     cfg = gen_cfg.get("comfyui", {})
-    if ref_images:
-        print(f"  [comfyui] NOTE: {len(ref_images)} reference image(s) ignored "
-              "(workflow_api.json has no image input node)")
 
     server = cfg.get("server", "http://127.0.0.1:8188")
     max_retries = cfg.get("max_retries", 3)
@@ -148,7 +173,7 @@ def generate_image(prompt, ref_images, gen_cfg):
     last_err = None
     for attempt in range(1, max_retries + 1):
         try:
-            workflow = _build_workflow(prompt, cfg)
+            workflow = _build_workflow(prompt, cfg, ref_images)
             client_id = str(uuid.uuid4())
             prompt_id = _queue_prompt(server, workflow, client_id)
             result = _wait_for_result(server, prompt_id, poll_interval, timeout)
