@@ -3,3 +3,4 @@ Pillow>=10.4
 PyYAML>=6.0
 requests>=2.31       # comfyui プロバイダのAPI呼び出しにも使用
 fonttools>=4.50
+numpy>=1.26          # comfyui プロバイダのpage_mode（コマ境界線検出）に使用

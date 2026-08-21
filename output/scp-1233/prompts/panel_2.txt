@@ -1,0 +1,15 @@
+Japanese yonkoma manga panel illustration. Clean bold black ink outlines, flat cel-shaded colors with soft muted palette, simple uncluttered backgrounds, expressive cartoon characters with slightly chibi proportions, gentle lighting. The mood is lightly comedic with a hint of eerie SCP Foundation atmosphere (concrete corridors, fluorescent lights, containment facility props).
+
+Characters appearing in this panel (keep these designs exactly consistent):
+- Dr. Hana, a young female SCP Foundation researcher in her late 20s. Chin-length straight black bob hair, thin round glasses, calm slightly tired eyes. Wears a plain white lab coat over a dark navy turtleneck, with a blank white ID card clipped to the chest pocket. Slim, average height.
+
+This panel illustrates the following in-universe document sentence. The scene description below must depict exactly what this sentence describes (same subject, same action/state) — do not draw a different moment or unrelated action. Do NOT render this sentence, or any text, as writing anywhere in the image; it is context only:
+"SCP-1233 claims to be "champion of the Moon, defender of space justice and destroyer of evil.""
+
+Scene: Medium shot, waist-up, side-on composition with the vending machine on one side and the spacesuited figure on the other. The figure snaps a crisp, formal salute directly at the humming vending machine, standing at rigid attention as if greeting a fellow soldier. Dr. Hana facepalms quietly in the background.
+
+Single manga panel, full-bleed illustration filling the entire square image. Characters drawn at a readable size, main subject clearly visible. Consistent character designs must be kept exactly as described. Vary the shot scale and camera angle from panel to panel within the same comic: mix wide/establishing shots (full body, showing the room), medium shots (waist-up), and close-ups (face or a key object/detail filling most of the frame), and vary the camera height (eye-level, low angle looking up, high angle looking down) and character placement (off-center, foreground/background depth). Do not repeat the same framing, angle, and pose in consecutive panels of one comic. Favor dynamic, asymmetric poses and motion (mid-stride, leaning, reaching, turning) over static front-facing standing poses.
+
+IMPORTANT: Do not draw any text, letters, numbers, logos, speech bubbles, captions, sound effect lettering, or written signs anywhere in the image. The image must be completely free of text. Leave clean empty space where indicated so a speech bubble can be added later.
+
+[前コマ参照が有効: panel_1 を生成済みならその画像も参照画像として追加で添付してください]

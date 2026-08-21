@@ -1,0 +1,93 @@
+{
+  "id": "scp-1025",
+  "panels": 4,
+  "image_size": [
+    776,
+    3368
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": [
+    28,
+    3124,
+    748,
+    3208
+  ],
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3228,
+    748,
+    3340
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-1025",
+    "source_url": "http://scp-wiki.wikidot.com/scp-1025",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "en": "SCP-1025: The Encyclopedia of Common Diseases",
+    "ja": "SCP-1025\uff1a\u3088\u304f\u3042\u308b\u75c5\u6c17\u306e\u5927\u767e\u79d1",
+    "cs": "SCP-1025: Encyklopedie b\u011b\u017en\u00fdch nemoc\u00ed",
+    "de": "SCP-1025: Die Enzyklop\u00e4die h\u00e4ufiger Krankheiten",
+    "es": "SCP-1025: La Enciclopedia de Enfermedades Comunes",
+    "fr": "SCP-1025 : L'Encyclop\u00e9die des Maladies Courantes",
+    "it": "SCP-1025: L'Enciclopedia delle Malattie Comuni",
+    "ko": "SCP-1025: \ud754\ud55c \uc9c8\ubcd1 \ubc31\uacfc\uc0ac\uc804",
+    "pl": "SCP-1025: Encyklopedia Powszechnych Chor\u00f3b",
+    "pt": "SCP-1025: A Enciclop\u00e9dia de Doen\u00e7as Comuns",
+    "th": "SCP-1025: \u0e2a\u0e32\u0e23\u0e32\u0e19\u0e38\u0e01\u0e23\u0e21\u0e42\u0e23\u0e04\u0e17\u0e31\u0e48\u0e27\u0e44\u0e1b",
+    "uk": "SCP-1025: \u0415\u043d\u0446\u0438\u043a\u043b\u043e\u043f\u0435\u0434\u0456\u044f \u041f\u043e\u0448\u0438\u0440\u0435\u043d\u0438\u0445 \u0425\u0432\u043e\u0440\u043e\u0431",
+    "vi": "SCP-1025: B\u00e1ch Khoa To\u00e0n Th\u01b0 V\u1ec1 B\u1ec7nh Th\u01b0\u1eddng G\u1eb7p",
+    "zh": "SCP-1025\uff1a\u5e38\u89c1\u75c5\u767e\u79d1\u5168\u4e66",
+    "zh_Hant": "SCP-1025\uff1a\u5e38\u898b\u75c5\u767e\u79d1\u5168\u66f8"
+  },
+  "created_at": "2026-08-21T06:12:35Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ]
+}

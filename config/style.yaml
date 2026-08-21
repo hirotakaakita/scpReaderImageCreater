@@ -80,6 +80,34 @@ prompt:
       sub-frames — draw only one single unified scene. Leave clean, empty,
       uncluttered background areas instead of text or bubbles.
 
+  # ComfyUI用「1枚のページにまとめて生成」モード（generation.comfyui.page_mode:
+  # true のときに使われる。generate_panels.build_page_prompt()参照）。
+  # Z-Image Turboは単発の単一シーン指示より「Nコマのグリッドを1枚描け」という
+  # 指示の方が圧倒的に安定して従う（コマ割り自体を許可しているため矛盾がない）。
+  # 検証では6/6で文字焼き込み・吹き出しなしの綺麗なグリッドが得られた。
+  comfyui_page:
+    style_prompt: >
+      A single Japanese yonkoma manga page, one continuous image divided into a
+      grid of panels with thin black panel borders. Clean bold black ink
+      outlines, flat cel-shaded colors with soft muted palette, expressive
+      chibi-proportioned characters, gentle lighting, lightly comedic mood with
+      a hint of eerie SCP Foundation atmosphere (concrete corridors,
+      fluorescent lights, containment facility props).
+
+    composition_rules: >
+      Keep each panel's character designs exactly consistent with the
+      descriptions given. Vary the shot scale and camera angle between panels:
+      mix wide/establishing shots (full body, showing the room), medium shots
+      (waist-up), and close-ups (face or a key object/detail filling most of
+      the frame). Favor dynamic, asymmetric poses and motion over static
+      front-facing standing poses.
+
+    no_text_rules: >
+      ABSOLUTE RULE: do not draw any text, letters, numbers, speech bubbles,
+      thought bubbles, caption boxes, or written characters of any kind
+      anywhere in the image, in any panel. Only the black panel border lines
+      separating the panels are allowed as line art; no other markings.
+
 # 生成APIの設定。
 # provider: gemini（Nano Banana, デフォルト） / comfyui（ローカルComfyUI）を切替可能。
 # 実装は scripts/providers/<provider>/ にまとまっている（各フォルダのREADME.md参照）。
@@ -116,7 +144,12 @@ generation:
     unet_name: "z_image_turbo_bf16.safetensors"
     clip_name: "qwen_3_4b.safetensors"
     vae_name: "ae.safetensors"
-    width: 1024
+    # page_mode: true だと、コマを1枚ずつ個別生成する代わりに全コマを1枚の
+    # グリッド画像として1回で生成し、Pythonでコマ数ぶんに切り出す
+    # （検証の結果、Z-Image Turboはこちらの方が文字焼き込み無しで安定する）。
+    page_mode: true
+    page_grid_cols: 2                 # ページ内の列数。行数は自動計算 (ceil(コマ数/列数))
+    width: 1024                       # page_mode時はページ全体のサイズ（切り出し前）
     height: 1024
     steps: 8                          # Z-Image Turbo公式推奨（8ステップ蒸留モデル）
     cfg: 1                            # 公式推奨値。2まで上げてもコマ割り/文字焼き込みの

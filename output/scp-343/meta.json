@@ -1,0 +1,93 @@
+{
+  "id": "scp-343",
+  "panels": 4,
+  "image_size": [
+    776,
+    3368
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": [
+    28,
+    3124,
+    748,
+    3208
+  ],
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3228,
+    748,
+    3340
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-343",
+    "source_url": "http://scp-wiki.wikidot.com/scp-343",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "en": "SCP-343: God",
+    "ja": "SCP-343\uff1a\u795e\u69d8",
+    "cs": "SCP-343: B\u016fh",
+    "de": "SCP-343: Gott",
+    "es": "SCP-343: Dios",
+    "fr": "SCP-343 : Dieu",
+    "it": "SCP-343: Dio",
+    "ko": "SCP-343: \uc2e0",
+    "pl": "SCP-343: B\u00f3g",
+    "pt": "SCP-343: Deus",
+    "th": "SCP-343: \u0e1e\u0e23\u0e30\u0e40\u0e08\u0e49\u0e32",
+    "uk": "SCP-343: \u0411\u043e\u0433",
+    "vi": "SCP-343: Th\u01b0\u1ee3ng \u0110\u1ebf",
+    "zh": "SCP-343\uff1a\u795e",
+    "zh_Hant": "SCP-343\uff1a\u795e"
+  },
+  "created_at": "2026-08-20T16:00:55Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ]
+}

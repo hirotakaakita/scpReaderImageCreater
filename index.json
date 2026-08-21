@@ -1,3 +1,190 @@
 {
-  "comics": []
+  "comics": [
+    {
+      "id": "scp-105",
+      "title": {
+        "en": "SCP-105: Iris",
+        "ja": "SCP-105\uff1a\u30a2\u30a4\u30ea\u30b9",
+        "cs": "SCP-105: Iris",
+        "de": "SCP-105: Iris",
+        "es": "SCP-105: Iris",
+        "fr": "SCP-105 : Iris",
+        "it": "SCP-105: Iris",
+        "ko": "SCP-105: \uc544\uc774\ub9ac\uc2a4",
+        "pl": "SCP-105: Iris",
+        "pt": "SCP-105: Iris",
+        "th": "SCP-105: \u0e44\u0e2d\u0e23\u0e34\u0e2a",
+        "uk": "SCP-105: \u0410\u0439\u0440\u0456\u0441",
+        "vi": "SCP-105: Iris",
+        "zh": "SCP-105\uff1a\u7231\u745e\u4e1d",
+        "zh_Hant": "SCP-105\uff1a\u611b\u745e\u7d72"
+      },
+      "languages": [
+        "ja",
+        "en",
+        "cs",
+        "de",
+        "es",
+        "fr",
+        "it",
+        "ko",
+        "pl",
+        "pt",
+        "th",
+        "uk",
+        "vi",
+        "zh",
+        "zh_Hant"
+      ],
+      "panels": 4,
+      "createdAt": "2026-08-21T10:53:40Z",
+      "basePath": "output/scp-105/base.png",
+      "imagePathTemplate": "output/scp-105/{lang}.png",
+      "attribution": {
+        "article": "SCP-105",
+        "author": "thedeadlymoose, Dantensen, DrClef",
+        "source_url": "http://scp-wiki.wikidot.com/scp-105",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "scp-1025",
+      "title": {
+        "en": "SCP-1025: The Encyclopedia of Common Diseases",
+        "ja": "SCP-1025\uff1a\u3088\u304f\u3042\u308b\u75c5\u6c17\u306e\u5927\u767e\u79d1",
+        "cs": "SCP-1025: Encyklopedie b\u011b\u017en\u00fdch nemoc\u00ed",
+        "de": "SCP-1025: Die Enzyklop\u00e4die h\u00e4ufiger Krankheiten",
+        "es": "SCP-1025: La Enciclopedia de Enfermedades Comunes",
+        "fr": "SCP-1025 : L'Encyclop\u00e9die des Maladies Courantes",
+        "it": "SCP-1025: L'Enciclopedia delle Malattie Comuni",
+        "ko": "SCP-1025: \ud754\ud55c \uc9c8\ubcd1 \ubc31\uacfc\uc0ac\uc804",
+        "pl": "SCP-1025: Encyklopedia Powszechnych Chor\u00f3b",
+        "pt": "SCP-1025: A Enciclop\u00e9dia de Doen\u00e7as Comuns",
+        "th": "SCP-1025: \u0e2a\u0e32\u0e23\u0e32\u0e19\u0e38\u0e01\u0e23\u0e21\u0e42\u0e23\u0e04\u0e17\u0e31\u0e48\u0e27\u0e44\u0e1b",
+        "uk": "SCP-1025: \u0415\u043d\u0446\u0438\u043a\u043b\u043e\u043f\u0435\u0434\u0456\u044f \u041f\u043e\u0448\u0438\u0440\u0435\u043d\u0438\u0445 \u0425\u0432\u043e\u0440\u043e\u0431",
+        "vi": "SCP-1025: B\u00e1ch Khoa To\u00e0n Th\u01b0 V\u1ec1 B\u1ec7nh Th\u01b0\u1eddng G\u1eb7p",
+        "zh": "SCP-1025\uff1a\u5e38\u89c1\u75c5\u767e\u79d1\u5168\u4e66",
+        "zh_Hant": "SCP-1025\uff1a\u5e38\u898b\u75c5\u767e\u79d1\u5168\u66f8"
+      },
+      "languages": [
+        "ja",
+        "en",
+        "cs",
+        "de",
+        "es",
+        "fr",
+        "it",
+        "ko",
+        "pl",
+        "pt",
+        "th",
+        "uk",
+        "vi",
+        "zh",
+        "zh_Hant"
+      ],
+      "panels": 4,
+      "createdAt": "2026-08-21T06:12:35Z",
+      "basePath": "output/scp-1025/base.png",
+      "imagePathTemplate": "output/scp-1025/{lang}.png",
+      "attribution": {
+        "article": "SCP-1025",
+        "source_url": "http://scp-wiki.wikidot.com/scp-1025",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "scp-343",
+      "title": {
+        "en": "SCP-343: God",
+        "ja": "SCP-343\uff1a\u795e\u69d8",
+        "cs": "SCP-343: B\u016fh",
+        "de": "SCP-343: Gott",
+        "es": "SCP-343: Dios",
+        "fr": "SCP-343 : Dieu",
+        "it": "SCP-343: Dio",
+        "ko": "SCP-343: \uc2e0",
+        "pl": "SCP-343: B\u00f3g",
+        "pt": "SCP-343: Deus",
+        "th": "SCP-343: \u0e1e\u0e23\u0e30\u0e40\u0e08\u0e49\u0e32",
+        "uk": "SCP-343: \u0411\u043e\u0433",
+        "vi": "SCP-343: Th\u01b0\u1ee3ng \u0110\u1ebf",
+        "zh": "SCP-343\uff1a\u795e",
+        "zh_Hant": "SCP-343\uff1a\u795e"
+      },
+      "languages": [
+        "ja",
+        "en",
+        "cs",
+        "de",
+        "es",
+        "fr",
+        "it",
+        "ko",
+        "pl",
+        "pt",
+        "th",
+        "uk",
+        "vi",
+        "zh",
+        "zh_Hant"
+      ],
+      "panels": 4,
+      "createdAt": "2026-08-20T16:00:55Z",
+      "basePath": "output/scp-343/base.png",
+      "imagePathTemplate": "output/scp-343/{lang}.png",
+      "attribution": {
+        "article": "SCP-343",
+        "source_url": "http://scp-wiki.wikidot.com/scp-343",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "scp-131",
+      "title": {
+        "en": "SCP-131: The Eye Pods",
+        "ja": "SCP-131\uff1a\u30a2\u30a4\u30dd\u30c3\u30c9",
+        "cs": "SCP-131: O\u010dn\u00ed kapsle",
+        "de": "SCP-131: Die Augenkapseln",
+        "es": "SCP-131: Las Vainas de Ojos",
+        "fr": "SCP-131 : Les \u0152ilcosses",
+        "it": "SCP-131: I Baccelli Oculari",
+        "ko": "SCP-131: \uc544\uc774 \ud3ec\ub4dc",
+        "pl": "SCP-131: Kapsu\u0142y Oczne",
+        "pt": "SCP-131: As C\u00e1psulas Oculares",
+        "th": "SCP-131: \u0e1d\u0e31\u0e01\u0e25\u0e39\u0e01\u0e15\u0e32",
+        "uk": "SCP-131: \u041e\u043a\u043e\u0432\u0430\u043d\u0456 \u0421\u0442\u0440\u0443\u0447\u043a\u0438",
+        "vi": "SCP-131: Nh\u1eefng Qu\u1ea3 M\u1eaft Nh\u1ecf",
+        "zh": "SCP-131\uff1a\u773c\u7403\u835a",
+        "zh_Hant": "SCP-131\uff1a\u773c\u7403\u83a2"
+      },
+      "languages": [
+        "ja",
+        "en",
+        "cs",
+        "de",
+        "es",
+        "fr",
+        "it",
+        "ko",
+        "pl",
+        "pt",
+        "th",
+        "uk",
+        "vi",
+        "zh",
+        "zh_Hant"
+      ],
+      "panels": 4,
+      "createdAt": "2026-08-20T15:28:08Z",
+      "basePath": "output/scp-131/base.png",
+      "imagePathTemplate": "output/scp-131/{lang}.png",
+      "attribution": {
+        "article": "SCP-131",
+        "author": "Lt Masipag",
+        "source_url": "http://scp-wiki.wikidot.com/scp-131",
+        "license": "CC BY-SA 3.0"
+      }
+    }
+  ]
 }
