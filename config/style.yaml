@@ -43,17 +43,17 @@ prompt:
       indicated so a speech bubble can be added later.
 
   comfyui:
-    # Z-Image Turbo向け。「yonkoma/manga panel」という語だけだと4コマ漫画の
-    # ページ全体（コマ割り+吹き出し+文字入り）を1枚に描いてしまう傾向があるため、
-    # 「1枚の絵だけ」であることを繰り返し明示する言い回しにしている。
+    # 画風（線・配色・プロポーション等）は generation.comfyui.style_lora_name の
+    # LoRAが担うので、ここでは色・線・chibi等の画風描写をあえて書かない
+    # （LoRAが実際に描く絵（例: モノクロ線画）と食い違う画風指示を入れると
+    # LoRAの効きを阻害するため）。ここに書くのはジャンル・雰囲気・世界観など
+    # 画風LoRAを差し替えても変わらない内容のみ。「1枚の絵だけ」という構図の
+    # 制約はcomposition_rules側で明示している。
     style_prompt: >
-      A single full-bleed illustration frame in Japanese anime/manga art style
-      (like one frame of an anime storyboard, NOT a manga page or comic strip
-      layout). Clean bold black ink outlines, flat cel-shaded colors with soft
-      muted palette, simple uncluttered backgrounds, expressive cartoon
-      characters with slightly chibi proportions, gentle lighting. The mood is
-      lightly comedic with a hint of eerie SCP Foundation atmosphere (concrete
-      corridors, fluorescent lights, containment facility props).
+      A single illustration frame from a Japanese-style SCP Foundation yonkoma
+      gag comic. The mood is lightly comedic with a hint of eerie SCP
+      Foundation atmosphere (concrete corridors, fluorescent lights,
+      containment facility props).
 
     composition_rules: >
       This is ONE single continuous illustration filling the entire square

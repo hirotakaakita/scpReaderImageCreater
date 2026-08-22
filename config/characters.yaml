@@ -3,8 +3,16 @@
 #
 # 複数のSCP漫画に登場するキャラクターはここで一元管理する。
 # 台本(panels[].characters)からキー名で参照すると、descriptionが
-# 生成プロンプトに自動で挿入され、reference_imagesがNano Banana Proに
-# 参照画像として渡される。
+# 生成プロンプトに自動で挿入され、reference_imagesが参照画像として渡される。
+#
+# 【重要】ここに載せるのは実在のSCP財団正史（キャノン）に登場する職員・人物のみ。
+# 各SCP記事に固有の登場人物は書かれていないことが多いので、Dr. Hanaのような
+# その場しのぎの創作キャラを勝手に作って繰り返し使い回さないこと。
+# 選定元: http://scp-jp.wikidot.com/personnel-and-character-dossier
+# （財団職員・要注意人物の公式人物ファイル集。他のキャラを追加する場合もここから選ぶ）
+#
+# ある漫画1本にしか出ない、その場限りの人物・オブジェクトは無理にここへ追加せず、
+# 台本のsceneに直接書く（CLAUDE.md参照）。
 #
 # 参照画像の運用:
 #   初回生成後、気に入ったコマから該当キャラの立ち姿を切り出して
@@ -16,29 +24,35 @@
 
 characters:
 
-  researcher-hana:
-    name: Dr. Hana
+  dr-sage-west:
+    name: Dr. Sage West
+    # 出典: personnel-and-character-dossier「セージ・ウェスト博士」
+    # サイト-404化学部門所属。小柄で赤毛、爆竹のように強烈な人物。
     description: >
-      Dr. Hana, a young female SCP Foundation researcher in her late 20s.
-      Chin-length straight black bob hair, thin round glasses, calm slightly
-      tired eyes. Wears a plain white lab coat over a dark navy turtleneck,
-      with a blank white ID card clipped to the chest pocket. Slim, average
-      height.
+      Dr. Sage West, a female SCP Foundation researcher in the chemistry
+      department. Petite and short, with vivid red hair, a fiery and
+      quick-tempered presence. Wears a plain white lab coat over regular
+      clothes, with a blank white ID card clipped to the chest pocket.
     reference_images: []
-      # - characters/refs/researcher-hana.png
 
-  site-director:
-    name: The Site Director
+  dr-johannes-sorts:
+    name: Dr. Johannes Sorts
+    # 出典: personnel-and-character-dossier「ヨハネス・ソーツ博士」
+    # ミーム専門家・フィールド研究者。白人男性30代後半、無精髭、白髪交じりの
+    # 茶髪、小太り、常に灰色の帽子をかぶっている。
     description: >
-      The Site Director, a stern man in his 60s. Swept-back gray hair, trimmed
-      gray beard, deep wrinkles, sharp narrow eyes. Wears a dark charcoal
-      three-piece suit with a black necktie. Tall and broad-shouldered.
+      Dr. Johannes Sorts, a male SCP Foundation researcher in his late 30s,
+      a memetics specialist and field researcher. White, unshaven with
+      graying brown hair, slightly overweight build, always wearing a gray
+      hat. Wears a plain white lab coat over regular clothes.
     reference_images: []
 
   d-class:
-    name: D-boy
+    # D-classは財団正史でも基本的に無名・使い捨ての被験者として描かれる役割
+    # （特定の人格を持つキャノンキャラクターではない）。そのため見た目も
+    # 個性を持たせすぎない、汎用的な記述にとどめる。
+    name: D-Class Personnel
     description: >
-      A D-class personnel, a young man in his 20s with a buzz cut and a
-      nervous expression. Wears a plain bright orange jumpsuit with no
-      markings, and gray sneakers. Lanky build.
+      An anonymous D-class test subject, a person in a plain bright orange
+      jumpsuit with no markings and gray sneakers. Nervous expression.
     reference_images: []

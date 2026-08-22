@@ -37,7 +37,7 @@
         "zh_Hant"
       ],
       "panels": 4,
-      "createdAt": "2026-08-21T19:08:39Z",
+      "createdAt": "2026-08-21T21:25:37Z",
       "basePath": "output/scp-105/base.png",
       "imagePathTemplate": "output/scp-105/{lang}.png",
       "attribution": {

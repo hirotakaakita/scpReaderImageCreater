@@ -1,5 +1,7 @@
 # SCP-105「アイリス」4コマ台本
-# キャラにセリフは言わせない。captionは記事本文からの引用。
+# キャラにセリフは言わせない。captionは記事本文（Description全体）からの引用。
+# 2026-08-22改訂: 記事の実際の記述（外見・SCP-105-Bのカメラ・現象3種）に
+# 即した内容に描き直し。旧版は記事に無いオリジナルの寸劇（ホチキス盗難）だった。
 
 id: scp-105
 
@@ -26,44 +28,48 @@ attribution:
   source_url: "http://scp-wiki.wikidot.com/scp-105"
   license: "CC BY-SA 3.0"
 
-object_class: Euclid
+object_class: Safe
 
-characters: [researcher-hana]
+characters: [dr-sage-west]
 
 panels:
   - scene: >
-      Wide shot, full body, showing all of Dr. Hana's cluttered office
-      from a corner angle. A colleague holds up an old-style Polaroid
-      photograph showing a storage room shelf, pinning it to a corkboard
-      on the wall as Dr. Hana glances over from her desk on the other
-      side of the room.
-    characters: [researcher-hana]
+      Wide shot, full body, eye level. In a plain clinical observation room,
+      SCP-105 (a young blonde European woman with blue eyes, petite,
+      unremarkable) stands calmly against a bare wall for an intake
+      photograph, composed and cooperative. Off to the side, Dr. Sage West
+      stands at a table, carefully examining a vintage early-1980s Polaroid
+      instant camera with a magnifying loupe and taking notes on a
+      clipboard.
+    characters: [dr-sage-west]
     caption:
-      ja: "SCP-105（旧名アイリス・トンプソン）は白人女性であり、その生理機能は通常の人間と見分けがつかない。"
-      en: "SCP-105 (formerly known as Iris Thompson) is a female human; her physiology is indistinguishable from that of a normal human being."
-      cs: "SCP-105 (dříve známá jako Iris Thompsonová) je lidská žena; její fyziologie je k nerozeznání od běžného člověka."
-      de: "SCP-105 (früher bekannt als Iris Thompson) ist eine menschliche Frau; ihre Physiologie ist von der eines gewöhnlichen Menschen nicht zu unterscheiden."
-      es: "SCP-105 (antes conocida como Iris Thompson) es una mujer humana; su fisiología es indistinguible de la de un ser humano normal."
-      fr: "SCP-105 (anciennement connue sous le nom d'Iris Thompson) est une femme humaine ; sa physiologie est indiscernable de celle d'un être humain ordinaire."
-      it: "SCP-105 (in precedenza nota come Iris Thompson) è una donna umana; la sua fisiologia è indistinguibile da quella di un normale essere umano."
-      ko: "SCP-105（구 명칭 아이리스 톰슨）는 인간 여성이며, 그 생리 기능은 일반적인 인간과 구별되지 않는다."
-      pl: "SCP-105 (dawniej znana jako Iris Thompson) jest kobietą; jej fizjologia jest nieodróżnialna od fizjologii zwykłego człowieka."
-      pt: "SCP-105 (anteriormente conhecida como Iris Thompson) é uma mulher humana; sua fisiologia é indistinguível da de um ser humano normal."
-      th: "SCP-105 (เดิมชื่อไอริส ทอมป์สัน) คือมนุษย์เพศหญิง สรีรวิทยาของเธอไม่ต่างจากมนุษย์ทั่วไปแต่อย่างใด"
-      uk: "SCP-105 (раніше відома як Айріс Томпсон) — жінка; її фізіологія не відрізняється від фізіології звичайної людини."
-      vi: "SCP-105 (trước đây được biết đến với tên Iris Thompson) là một phụ nữ; sinh lý học của cô không thể phân biệt được với một con người bình thường."
-      zh: "SCP-105（原名爱瑞丝·汤普森）是一名女性人类；她的生理机能与普通人无异。"
-      zh_Hant: "SCP-105（原名愛瑞絲·湯普森）是一名女性人類；她的生理機能與普通人無異。"
+      ja: "SCP-105(旧名アイリス・トンプソン)はヨーロッパ系の女性で、ブロンドの髪に青い目、身長1.54m・体重50kg。あらゆる点で標準的かつ健康な人間と観察されます。SCP-105-Bは1982年製のポラロイド One Step 600カメラで、SCP-105以外が使用しても異常性は見られません。"
+      en: "SCP-105 (formerly known as Iris Thompson) is a female human of European descent, with blonde hair and blue eyes, 1.54 meters in height and 50kg in weight — in every respect a normal, healthy human being. SCP-105-B is a Polaroid One Step Express camera manufactured in 1982, operating normally for anyone other than SCP-105."
+      cs: "SCP-105 (dříve Iris Thompsonová) je žena evropského původu, s blond vlasy a modrýma očima, měří 1,54 m a váží 50 kg – ve všech ohledech normální, zdravý člověk. SCP-105-B je fotoaparát Polaroid One Step Express z roku 1982, který u kohokoli jiného než SCP-105 funguje zcela běžně."
+      de: "SCP-105 (früher Iris Thompson) ist eine Frau europäischer Abstammung mit blondem Haar und blauen Augen, 1,54 m groß und 50 kg schwer – in jeder Hinsicht ein normaler, gesunder Mensch. SCP-105-B ist eine 1982 gebaute Polaroid-One-Step-Express-Kamera, die bei jeder Person außer SCP-105 ganz normal funktioniert."
+      es: "SCP-105 (antes Iris Thompson) es una mujer de ascendencia europea, cabello rubio y ojos azules, 1,54 m de estatura y 50 kg de peso: en todo sentido, un ser humano normal y sano. SCP-105-B es una cámara Polaroid One Step Express de 1982 que funciona con normalidad para cualquiera excepto SCP-105."
+      fr: "SCP-105 (anciennement Iris Thompson) est une femme d'origine européenne, cheveux blonds et yeux bleus, mesurant 1,54 m pour 50 kg — à tous égards un être humain normal et en bonne santé. SCP-105-B est un appareil Polaroid One Step Express de 1982, fonctionnant normalement pour toute personne autre que SCP-105."
+      it: "SCP-105 (in precedenza Iris Thompson) è una donna di origine europea, capelli biondi e occhi azzurri, alta 1,54 m e 50 kg — sotto ogni aspetto un essere umano normale e sano. SCP-105-B è una fotocamera Polaroid One Step Express del 1982, che funziona normalmente per chiunque tranne SCP-105."
+      ko: "SCP-105（구 아이리스 톰슨）는 유럽계 여성으로, 금발에 파란 눈, 신장 1.54m·체중 50kg이며 모든 면에서 건강한 표준적 인간이다. SCP-105-B는 1982년제 폴라로이드 원스텝 익스프레스 카메라로, SCP-105 외의 사람에게는 정상적으로 작동한다."
+      pl: "SCP-105 (dawniej Iris Thompson) to kobieta pochodzenia europejskiego, blond włosy i niebieskie oczy, 1,54 m wzrostu i 50 kg wagi — pod każdym względem zwykły, zdrowy człowiek. SCP-105-B to aparat Polaroid One Step Express z 1982 roku, działający normalnie dla każdego oprócz SCP-105."
+      pt: "SCP-105 (antes Iris Thompson) é uma mulher de ascendência europeia, cabelo loiro e olhos azuis, 1,54 m de altura e 50 kg — em todos os aspectos um ser humano normal e saudável. SCP-105-B é uma câmera Polaroid One Step Express de 1982, que funciona normalmente para qualquer pessoa exceto SCP-105."
+      th: "SCP-105 (เดิมชื่อไอริส ทอมป์สัน) เป็นหญิงเชื้อสายยุโรป ผมบลอนด์ตาสีฟ้า สูง 1.54 ม. หนัก 50 กก. ดูเป็นมนุษย์ปกติและสุขภาพดีในทุกด้าน SCP-105-B คือกล้อง Polaroid One Step Express ปี 1982 ที่ทำงานปกติสำหรับทุกคนยกเว้น SCP-105"
+      uk: "SCP-105 (раніше Айріс Томпсон) — жінка європейського походження, зі світлим волоссям і блакитними очима, зростом 1,54 м і вагою 50 кг — в усіх відношеннях звичайна здорова людина. SCP-105-B — фотоапарат Polaroid One Step Express 1982 року, що працює нормально для будь-кого, крім SCP-105."
+      vi: "SCP-105 (trước đây là Iris Thompson) là phụ nữ gốc Âu, tóc vàng mắt xanh, cao 1,54m nặng 50kg — về mọi mặt là một con người bình thường, khỏe mạnh. SCP-105-B là máy ảnh Polaroid One Step Express sản xuất năm 1982, hoạt động bình thường với bất kỳ ai ngoại trừ SCP-105."
+      zh: "SCP-105（原名爱瑞丝·汤普森）是一名欧洲裔女性，金发碧眼，身高1.54米、体重50公斤，各方面都是标准且健康的人类。SCP-105-B是一台1982年制造的宝丽来One Step Express相机，对SCP-105以外的人使用均正常。"
+      zh_Hant: "SCP-105（原名愛瑞絲·湯普森）是一名歐洲裔女性，金髮碧眼，身高1.54公尺、體重50公斤，各方面都是標準且健康的人類。SCP-105-B是一台1982年製造的寶麗來One Step Express相機，對SCP-105以外的人使用均正常。"
 
   - scene: >
-      Close-up shot centered on the corkboard and photograph, filling
-      most of the frame: a pale disembodied female hand emerges straight
-      out of the flat surface of the pinned photograph, fingers wiggling
-      in the air. Dr. Hana's shocked face with huge eyes is a small
-      sliver at the frame's edge.
-    characters: [researcher-hana]
+      Close-up shot centered on a Polaroid photograph held in the hands of
+      SCP-105 (a young blonde European woman with blue eyes, petite),
+      filling most of the frame: the photo does not look like a static
+      picture but subtly shimmers, showing real, moving footage of the
+      location it depicts instead of a still image. Dr. Sage West leans in
+      from the side, eyes wide with fascination, watching the photograph
+      closely.
+    characters: [dr-sage-west]
     caption:
-      ja: "SCP-105がSCP-105-Bで撮影した写真を保持すると、その写真は静止画から撮影地点の実時間映像へと変化する。"
+      ja: "SCP-105がSCP-105-Bにより撮影された写真を所持している場合、写真は静止した画像から当該の場所のリアルタイムの映像へと変質します。"
       en: "When SCP-105 holds a photograph taken by SCP-105-B, the image changes from a still photo to a real-time view of the location shown."
       cs: "Když SCP-105 drží fotografii pořízenou pomocí SCP-105-B, snímek se změní ze statické fotografie na obraz místa v reálném čase."
       de: "Hält SCP-105 ein mit SCP-105-B aufgenommenes Foto, wandelt sich das Bild von einem Standbild zu einer Echtzeitansicht des gezeigten Ortes."
@@ -80,51 +86,58 @@ panels:
       zh_Hant: "當SCP-105持有用SCP-105-B拍攝的照片時，畫面會從靜止照片轉變為該地點的即時影像。"
 
   - scene: >
-      Medium shot, waist-up, dynamic diagonal composition spanning from
-      the desk to the corkboard. The disembodied hand casually plucks the
-      stapler off Dr. Hana's desk and pulls it smoothly back into the
-      flat surface of the photograph. Dr. Hana lunges out of her chair,
-      reaching too late, mouth open.
-    characters: [researcher-hana]
+      Medium shot, dynamic diagonal composition. SCP-105 (a young blonde
+      European woman with blue eyes, petite) holds a photograph out in
+      front of her with both hands; a pale, disembodied female hand emerges
+      straight out of the flat surface of the photo, reaching into the real
+      room and closing its fingers around a small object on a nearby table.
+      Dr. Sage West flinches back in shock, eyes huge, one hand raised
+      defensively.
+    characters: [dr-sage-west]
     caption:
-      ja: "SCP-105は写真を通じ、撮影地点の届く範囲にある物体を操作することができる。"
-      en: "SCP-105 is able to reach through the photograph and manipulate objects within reach of the original point where it was taken."
-      cs: "SCP-105 dokáže sáhnout skrze fotografii a manipulovat s předměty v dosahu původního místa, kde byla pořízena."
-      de: "SCP-105 kann durch das Foto hindurchgreifen und Gegenstände in Reichweite des ursprünglichen Aufnahmeortes manipulieren."
-      es: "SCP-105 es capaz de introducir la mano a través de la fotografía y manipular objetos al alcance del punto original donde fue tomada."
-      fr: "SCP-105 est capable de passer la main à travers la photographie et de manipuler des objets à portée du point d'origine où elle a été prise."
-      it: "SCP-105 è in grado di allungare la mano attraverso la fotografia e manipolare oggetti alla portata del punto originale in cui è stata scattata."
-      ko: "SCP-105는 사진을 통해 손을 뻗어, 촬영 지점 근처에 있는 물체를 조작할 수 있다."
-      pl: "SCP-105 potrafi sięgnąć przez fotografię i manipulować przedmiotami w zasięgu pierwotnego miejsca, w którym została zrobiona."
-      pt: "SCP-105 é capaz de estender a mão através da fotografia e manipular objetos ao alcance do ponto original onde foi tirada."
-      th: "SCP-105 สามารถยื่นมือผ่านภาพถ่ายเพื่อจัดการกับวัตถุที่อยู่ในระยะเอื้อมถึงจากจุดที่ถ่ายภาพเดิมได้"
-      uk: "SCP-105 здатна простягнути руку крізь фотографію та маніпулювати об'єктами в межах досяжності від початкової точки зйомки."
-      vi: "SCP-105 có thể đưa tay xuyên qua bức ảnh và điều khiển các vật thể trong tầm với của địa điểm gốc nơi bức ảnh được chụp."
-      zh: "SCP-105能够将手伸入照片之中，操纵拍摄地点触手可及范围内的物体。"
-      zh_Hant: "SCP-105能夠將手伸入照片之中，操縱拍攝地點觸手可及範圍內的物體。"
+      ja: "SCP-105は写真を通じ、撮影地点の届く範囲にある物体を操作することができます。目撃者は、肉体から離れた女性の手が目に見えない穴からのびて動作を行ったと報告しています。"
+      en: "SCP-105 is able to reach through the photograph and manipulate objects within reach of the original point where it was taken. Witnesses report seeing a disembodied female hand reaching out from an invisible portal to carry out the actions."
+      cs: "SCP-105 dokáže sáhnout skrze fotografii a manipulovat s předměty v dosahu místa, kde byla pořízena. Svědci hlásí, že vidí netělesnou ženskou ruku, jak vystupuje z neviditelného portálu a provádí dané činnosti."
+      de: "SCP-105 kann durch das Foto hindurchgreifen und Gegenstände in Reichweite des Aufnahmeortes manipulieren. Zeugen berichten von einer körperlosen weiblichen Hand, die aus einem unsichtbaren Portal greift und die Handlungen ausführt."
+      es: "SCP-105 puede introducir la mano a través de la fotografía y manipular objetos al alcance del lugar donde fue tomada. Los testigos informan haber visto una mano femenina incorpórea emerger de un portal invisible para realizar las acciones."
+      fr: "SCP-105 peut passer la main à travers la photographie et manipuler des objets à portée du lieu où elle a été prise. Des témoins rapportent avoir vu une main féminine désincarnée surgir d'un portail invisible pour accomplir ces actions."
+      it: "SCP-105 può allungare la mano attraverso la fotografia e manipolare oggetti alla portata del luogo in cui è stata scattata. I testimoni riferiscono di aver visto una mano femminile incorporea sporgersi da un portale invisibile per compiere le azioni."
+      ko: "SCP-105는 사진을 통해 손을 뻗어 촬영 지점 근처의 물체를 조작할 수 있다. 목격자들은 보이지 않는 구멍에서 여성의 손이 뻗어 나와 동작을 수행하는 것을 보았다고 보고한다."
+      pl: "SCP-105 potrafi sięgnąć przez fotografię i manipulować przedmiotami w zasięgu miejsca, w którym została zrobiona. Świadkowie zgłaszają, że widzą bezcielesną kobiecą dłoń wyłaniającą się z niewidzialnego portalu, by wykonać te czynności."
+      pt: "SCP-105 é capaz de estender a mão através da fotografia e manipular objetos ao alcance do local onde foi tirada. Testemunhas relatam ver uma mão feminina incorpórea surgindo de um portal invisível para realizar as ações."
+      th: "SCP-105 สามารถยื่นมือผ่านภาพถ่ายเพื่อจัดการวัตถุที่อยู่ในระยะเอื้อมถึงจากจุดที่ถ่ายภาพได้ ผู้พบเห็นรายงานว่าเห็นมือผู้หญิงที่ไม่มีร่างกายยื่นออกมาจากช่องที่มองไม่เห็นเพื่อกระทำการดังกล่าว"
+      uk: "SCP-105 здатна простягнути руку крізь фотографію та маніпулювати об'єктами в межах місця зйомки. Свідки повідомляють, що бачать безтілесну жіночу руку, яка виринає з невидимого порталу, щоб виконати ці дії."
+      vi: "SCP-105 có thể đưa tay xuyên qua bức ảnh để điều khiển vật thể trong tầm với của nơi ảnh được chụp. Nhân chứng báo cáo nhìn thấy một bàn tay phụ nữ vô hình thò ra từ một cổng vô hình để thực hiện các hành động đó."
+      zh: "SCP-105能够将手伸入照片，操纵拍摄地点触手可及范围内的物体。目击者报告称，看到一只脱离肉体的女性手臂从隐形洞口伸出并做出相应动作。"
+      zh_Hant: "SCP-105能夠將手伸入照片，操縱拍攝地點觸手可及範圍內的物體。目擊者報告稱，看到一隻脫離肉體的女性手臂從隱形洞口伸出並做出相應動作。"
 
   - scene: >
       Wide shot, full body, eye level, pulled back to show the whole
-      office again. Dr. Hana leans back in her chair staring blankly at
-      the small empty space on her desk where the stapler used to be,
-      arms crossed, one eyebrow raised in mild annoyance.
-    characters: [researcher-hana]
+      observation room. SCP-105 (a young blonde European woman with blue
+      eyes, petite) sits at a table holding up two photographs side by side
+      for comparison: one taken with the vintage Polaroid,
+      from which a small ghostly hand emerges strongly and clearly, and one
+      taken with an ordinary modern camera, from which only a faint,
+      barely-visible hand weakly grasps at the air. Dr. Sage West sits
+      across from her, comparing the two effects and writing notes, mildly
+      impressed.
+    characters: [dr-sage-west]
     caption:
-      ja: "SCP-105とSCP-105-B（あるいは他のカメラ）の接触は、現担当研究員の承認がある場合のみ許可される。"
-      en: "SCP-105 and SCP-105-B are only to be allowed contact with each other with the approval of the current managing researcher."
-      cs: "Kontakt mezi SCP-105 a SCP-105-B je povolen pouze se souhlasem aktuálně pověřeného výzkumníka."
-      de: "Kontakt zwischen SCP-105 und SCP-105-B ist nur mit Genehmigung des aktuell zuständigen Forschers gestattet."
-      es: "El contacto entre SCP-105 y SCP-105-B solo se permite con la aprobación del investigador a cargo en ese momento."
-      fr: "Le contact entre SCP-105 et SCP-105-B n'est autorisé qu'avec l'approbation du chercheur responsable en poste."
-      it: "Il contatto tra SCP-105 e SCP-105-B è consentito solo con l'approvazione del ricercatore responsabile in carica."
-      ko: "SCP-105와 SCP-105-B의 접촉은 현재 담당 연구원의 승인이 있을 때만 허용된다."
-      pl: "Kontakt między SCP-105 a SCP-105-B jest dozwolony wyłącznie za zgodą aktualnie odpowiedzialnego badacza."
-      pt: "O contato entre SCP-105 e SCP-105-B só é permitido com a aprovação do pesquisador responsável atual."
-      th: "การสัมผัสระหว่าง SCP-105 กับ SCP-105-B จะได้รับอนุญาตก็ต่อเมื่อได้รับการอนุมัติจากนักวิจัยผู้ดูแลในขณะนั้นเท่านั้น"
-      uk: "Контакт між SCP-105 та SCP-105-B дозволяється лише за схваленням поточного відповідального дослідника."
-      vi: "Sự tiếp xúc giữa SCP-105 và SCP-105-B chỉ được phép khi có sự chấp thuận của nhà nghiên cứu phụ trách hiện tại."
-      zh: "SCP-105与SCP-105-B之间的接触，仅在现任负责研究员批准的情况下方可进行。"
-      zh_Hant: "SCP-105與SCP-105-B之間的接觸，僅在現任負責研究員批准的情況下方可進行。"
+      ja: "SCP-105は他のカメラで撮った写真でも限定的に物体を操作できますが、精密な制御はSCP-105-Bの写真でのみ可能です。能力を大幅に高められるのもSCP-105-Bの写真に限られます。"
+      en: "SCP-105 has shown limited ability to manipulate objects through other photographs, but can only achieve fine control using photographs taken with SCP-105-B — the only ones known to significantly enhance her ability."
+      cs: "SCP-105 dokáže omezeně manipulovat s předměty i skrze jiné fotografie, avšak jemné ovládání dosahuje pouze pomocí fotografií pořízených SCP-105-B — jediných, které výrazně posilují její schopnost."
+      de: "SCP-105 zeigt begrenzte Fähigkeiten, auch durch andere Fotografien Objekte zu manipulieren, erreicht aber feine Kontrolle nur mit Fotos von SCP-105-B — den einzigen, die ihre Fähigkeit deutlich verstärken."
+      es: "SCP-105 muestra una capacidad limitada para manipular objetos a través de otras fotografías, pero solo logra un control preciso con fotos tomadas con SCP-105-B, las únicas que potencian notablemente su habilidad."
+      fr: "SCP-105 montre une capacité limitée à manipuler des objets via d'autres photographies, mais n'obtient un contrôle précis qu'avec des photos prises avec SCP-105-B, les seules à renforcer nettement sa capacité."
+      it: "SCP-105 mostra una capacità limitata di manipolare oggetti tramite altre fotografie, ma ottiene un controllo preciso solo con foto scattate con SCP-105-B, le uniche in grado di potenziare notevolmente la sua abilità."
+      ko: "SCP-105는 다른 카메라 사진으로도 제한적으로 물체를 조작할 수 있으나, 정밀한 제어는 SCP-105-B의 사진으로만 가능하다. 능력을 크게 향상시키는 것도 SCP-105-B의 사진뿐이다."
+      pl: "SCP-105 wykazuje ograniczoną zdolność manipulowania przedmiotami także za pomocą innych fotografii, lecz precyzyjną kontrolę osiąga wyłącznie dzięki zdjęciom z SCP-105-B — jedynym, które znacząco wzmacniają jej zdolność."
+      pt: "SCP-105 demonstra capacidade limitada de manipular objetos por meio de outras fotografias, mas só obtém controle preciso com fotos tiradas com SCP-105-B — as únicas que ampliam significativamente sua habilidade."
+      th: "SCP-105 มีความสามารถจำกัดในการควบคุมวัตถุผ่านภาพถ่ายอื่น แต่จะควบคุมได้ละเอียดก็ต่อเมื่อใช้ภาพจาก SCP-105-B เท่านั้น ซึ่งเป็นภาพเดียวที่เพิ่มความสามารถของเธอได้อย่างมาก"
+      uk: "SCP-105 демонструє обмежену здатність маніпулювати об'єктами й через інші фотографії, але точного контролю досягає лише за допомогою знімків SCP-105-B — єдиних, що суттєво підсилюють її здатність."
+      vi: "SCP-105 thể hiện khả năng hạn chế trong việc điều khiển vật thể qua các ảnh khác, nhưng chỉ đạt được sự kiểm soát tinh vi khi dùng ảnh chụp bằng SCP-105-B — loại ảnh duy nhất giúp nâng cao đáng kể khả năng của cô."
+      zh: "SCP-105通过其他相机拍摄的照片也能有限度地操纵物体，但只有使用SCP-105-B拍摄的照片才能实现精细控制，也只有这种照片能显著提升其能力。"
+      zh_Hant: "SCP-105透過其他相機拍攝的照片也能有限度地操縱物體，但只有使用SCP-105-B拍攝的照片才能實現精細控制，也只有這種照片能顯著提升其能力。"
 
 addendum:
   ja: "補遺105-1：SCP-105-Bの単独使用は許可されておらず、常に監督者の同伴が義務付けられている。"
