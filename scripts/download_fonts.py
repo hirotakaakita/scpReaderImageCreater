@@ -1,6 +1,6 @@
 """config/languages.yaml のdownloads定義に従いフォントを取得する。
 
-fonts/ はgit管理外。GitHub Actionsではactions/cacheでキャッシュされる。
+fonts/ はgit管理外。初回実行時にローカルへダウンロードしておくこと。
 """
 import os
 import sys

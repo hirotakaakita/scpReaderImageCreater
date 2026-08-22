@@ -54,7 +54,7 @@ fonts:
     zh_Hant: fonts/NotoSansCJKtc-Bold.otf
     th: fonts/NotoSansThai-Bold.ttf
 
-# scripts/download_fonts.py がダウンロードする（fonts/はgit管理外・Actionsでキャッシュ）
+# scripts/download_fonts.py がダウンロードする（fonts/はgit管理外）
 downloads:
   - url: https://raw.githubusercontent.com/notofonts/notofonts.github.io/main/fonts/NotoSans/hinted/ttf/NotoSans-Bold.ttf
     dest: fonts/NotoSans-Bold.ttf

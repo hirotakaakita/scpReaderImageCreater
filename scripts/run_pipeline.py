@@ -1,4 +1,4 @@
-"""パイプライン一括実行（GitHub Actionsのエントリポイント）。
+"""パイプライン一括実行（ローカルで手動実行する）。
 
   python scripts/run_pipeline.py --from-queue            # キュー先頭を1本処理
   python scripts/run_pipeline.py --from-queue --count 2

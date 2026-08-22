@@ -1,14 +1,20 @@
 # SCP漫画ジェネレーター
 
-SCP記事を題材にした多言語コマ漫画を生成する。生成はGitHub Actions（毎日1本）、
-**台本作りはローカルでClaude Codeが行う**。全体像はREADME.md参照。
+SCP記事を題材にした多言語コマ漫画を生成する。台本作り・画像生成とも**すべてローカルで
+Claude Codeが行う**（自動化なし）。全体像はREADME.md参照。
 
 ## 台本作成の手順（「台本を作って」「N本作って」と言われたらこれを実行）
 
 1. 題材のSCPを選ぶ
-   - 記事データ: `../scpjp_reader_github_actions/local-data/scp-data.json`（日本語）ほか言語別ディレクトリ
+   - 記事データ: `../scpjpReaderGithubActions/local-data/scp-data.json` ほか言語別ディレクトリ。
+     ただしこれは記事一覧のメタデータ（タイトル・URL等）のみで本文は含まれていない。
+     **台本執筆時は`urlJP`/`urlEN`の記事ページを直接取得し、そこにある実際の本文
+     （Special Containment Procedures / Description等）を根拠にすること**。ローカルの
+     要約や記憶だけで書くと、記事が改訂されている場合に内容がズレる（実例:
+     scp-105は台本作成時点の記事情報が古く、実際の記事にある外見描写やSCP-105-Bの
+     カメラの型番等が反映されていなかった）
    - **`state/used.json`（生成済みSCPの記録）にあるIDと、`comics/queue/` に積まれているIDは避ける**。
-     used.jsonはActionsが生成成功時に自動更新する。**消すと重複生成の恐れがあるので消さない**
+     used.jsonは`run_pipeline.py`が生成成功時に自動更新する。**消すと重複生成の恐れがあるので消さない**
    - パイプラインも二重防御として、used.jsonにあるIDの台本をキューから
      スキップする（意図的に再生成したい場合は台本に `regenerate: true` を書くか `--id` で実行）
    - ユーザーが指定した場合はそれに従う
@@ -23,8 +29,19 @@ SCP記事を題材にした多言語コマ漫画を生成する。生成はGitHu
        "Medium shot, waist-up..." / "Close-up on her face..." / "Low angle looking up at..."）。
        起承転結に合わせて 遠景（状況説明）→ 中景（動作）→ 寄り（オチ・感情の頂点）→ 中景/遠景（オチの余韻）
        のように引き・寄りを変化させると単調にならない
-   - `characters`: 繰り返し登場させるキャラは `config/characters.yaml` に定義してキー名で参照。
-     その漫画限りのキャラ・オブジェクトはsceneに直接書く
+     - SCP本人など**characters.yamlに載せない記事固有のキャラ**を複数コマに登場させる
+       場合、外見の説明は最初のコマだけでなく**毎コマのsceneに繰り返し書く**こと
+       （characters.yamlのキャラはコマごとに自動でdescriptionが挿入されるが、
+       記事固有キャラはその仕組みが無いため、書き忘れたコマだけ見た目がブレる）
+   - `characters`: **記事に書かれていない人物を勝手に創作しない**。財団職員として
+     登場させるなら、SCP財団正史（キャノン）に実在する人物を使う。選定元は
+     `config/characters.yaml`（すでに登録済みのキャノン職員はキー名で参照するだけでよい）。
+     未登録の職員を新たに使いたい場合は
+     http://scp-jp.wikidot.com/personnel-and-character-dossier
+     （財団職員・要注意人物の公式人物ファイル集）から選び、`config/characters.yaml`に
+     追加してから参照する（詳細は同ファイル冒頭のコメント参照）。記事自体に固有の
+     人物（SCP本人や記事内の関係者等）は、その記事の記述に基づいてsceneに直接書く
+     （characters.yamlには載せない。他の漫画で使い回すキャラのためのファイルのため）
    - **キャラクターに吹き出しでセリフを言わせない**（`bubbles`は使わない）。台本のスタイルは
      「収容記録を模した無言の4コマ＋各コマ上の解説文ボックス」。演出は`scene`（表情・動作）と
      `caption`の文章だけで作る

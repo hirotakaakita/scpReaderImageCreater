@@ -1,21 +1,25 @@
 # SCP Reader Comic Generator
 
-SCP記事を題材にした4コマ漫画（コマ数可変）を自動生成するリポジトリ。
+SCP記事を題材にした4コマ漫画（コマ数可変）を生成するリポジトリ。台本作成から画像生成まで、
+**すべてローカルでClaude Codeが実行する**（自動化・スケジュール実行は無し）。
 
 - **台本**はローカルでClaude Codeと一緒に作成し `comics/queue/` に積む（→ CLAUDE.md）
-- **画像生成**はGitHub Actionsが毎日1本、Nano Banana Pro (Gemini) で実行
-- **セリフは画像に描かせず**、後工程のPythonがSCP Readerアプリの対応15言語分を吹き出しごと埋め込む
-- 生成物は `output/<id>/` にコミットされ、アプリ / SCP紹介bot (X) からraw URLで参照する
+- **画像生成**はプロバイダ切替式（Gemini / ローカルComfyUI）。
+  `config/style.yaml` の `generation.provider` で選んだプロバイダをローカルで実行する
+- **セリフ・キャプションは画像に描かせず**、後工程のPythonがSCP Readerアプリの対応15言語分を
+  各コマの絵の内側に埋め込む
+- 生成物は `output/<id>/` にコミットし、アプリ / SCP紹介bot (X) からraw URLで参照する
 
 ## パイプライン
 
 ```
-comics/queue/scp-XXX.yaml   ← 台本（scene英語 + セリフ15言語）: ローカルで作成
+comics/queue/scp-XXX.yaml   ← 台本（scene英語 + caption15言語）: ローカルで作成
         │
-        ▼  GitHub Actions（毎日 6:00 JST / 手動実行可）
-scripts/generate_panels.py  ← コマごとにNano Banana Proで画像生成（文字なし）
+        ▼  ローカルで python scripts/run_pipeline.py --id scp-XXX を実行
+scripts/generate_panels.py  ← コマごとにプロンプトを組み立て、選択中のプロバイダで画像生成（文字なし）
+  └ scripts/providers/<name>/   ← 実際のAPI呼び出し（gemini / comfyui）
 scripts/compose.py          ← コマを統一サイズで1枚に合成 + ライセンス表記フッター
-scripts/embed_text.py       ← 言語別にタイトル・吹き出しテキストを埋め込み
+scripts/embed_text.py       ← 言語別にタイトル・キャプション・吹き出しテキストを埋め込み
 scripts/build_index.py      ← index.json 更新
         │
         ▼
@@ -27,33 +31,55 @@ state/used.json             ← 生成済みSCPの記録（重複生成防止。
 ```
 
 生成済みのSCPと同じIDの台本がキューにあってもスキップされる
-（再生成したい場合は台本に `regenerate: true` を書くか、手動実行で台本IDを指定する）。
+（再生成したい場合は台本に `regenerate: true` を書くか、`--id` で明示的に実行する）。
+
+## 画像生成プロバイダ
+
+`config/style.yaml` の `generation.provider` で切り替える。実装は
+`scripts/providers/<name>/` に分かれており、各フォルダの `README.md` にセットアップ
+手順がある。
+
+| provider | 実行環境 | 特徴 |
+|---|---|---|
+| `gemini` | クラウドAPI（`GEMINI_API_KEY`が要る） | Nano Banana / Nano Banana Pro。APIキーさえあれば環境を選ばない |
+| `comfyui` | ローカルで起動したComfyUIのAPI（`http://127.0.0.1:8188`）を叩く | GPUが要る代わりに無料。モデル・LoRAを差し替えて画風を調整できる |
+
+現在ローカル検証で使っているのは `comfyui`（Qwen-Image 2512 + 2ステップ高速化LoRA +
+画風LoRA `QwenImage_blackline`）。プロンプトの組み立て方（`prompt.<provider>` の
+style_prompt/composition_rules/no_text_rules）もプロバイダごとに完全に分けて持っており、
+モデルによって効く指示の強さ・言い回しが違うことを踏まえて調整してある
+（`scripts/generate_panels.py` の `build_prompt()` 参照）。
+
+新しいプロバイダを足す場合は `generate_image(prompt, ref_images, gen_cfg)` を実装して
+`scripts/providers/__init__.py` に登録する。
 
 ## 設定（すべて後から調整可能）
 
 | ファイル | 役割 |
 |---|---|
-| `config/style.yaml` | **絵柄の中央定義**（全漫画共通のプロンプト）と生成APIの設定 |
-| `config/characters.yaml` | **キャラクターの中央定義**。複数の漫画で同じ見た目を保つ。参照画像も登録可 |
-| `config/layout.yaml` | コマサイズ・列数・余白・吹き出しの見た目・タイトル/フッター帯 |
+| `config/style.yaml` | **絵柄の中央定義**（プロバイダ別プロンプト）と生成APIの設定 |
+| `config/characters.yaml` | **キャラクターの中央定義**。SCP財団正史（キャノン）の実在職員のみを登録し、複数の漫画で同じ見た目を保つ。参照画像も登録可（オリジナルキャラを創作して登録しないこと。詳細はCLAUDE.md） |
+| `config/layout.yaml` | コマサイズ・列数・余白・キャプション/吹き出しの見た目・タイトル/フッター帯 |
 | `config/languages.yaml` | 対応言語・フォント割り当て・フォントDL元 |
+| `scripts/providers/*/README.md` | 各画像生成プロバイダのセットアップ手順 |
 
 - **8コマにしたい** → 台本のpanelsを8個書くだけ。2列にするなら `layout.yaml` の `strip.columns: 2`
-- **絵柄を変えたい** → `style.yaml` の `style_prompt` を書き換え（台本には絵柄を書かない）
+- **絵柄を変えたい** → `style.yaml` の `prompt.<provider>.style_prompt` を書き換え
+  （comfyuiの場合は画風LoRAの差し替えが主。台本には絵柄を書かない）
 - **キャラを固定したい** → 生成済みのコマからキャラ立ち姿を切り出して `characters/refs/` に置き、
-  `characters.yaml` の `reference_images` に登録（以後の生成で参照画像としてAPIに渡される）
+  `characters.yaml` の `reference_images` に登録（以後の生成で参照画像としてAPIに渡される。
+  ただしComfyUI側の汎用ワークフローは画像入力に非対応のため、providerによっては無視される）
 
 ## セットアップ
 
 ```bash
-git init まで済み。GitHubへ:
+git init まで済み。GitHubへpushしておくと raw.githubusercontent.com 経由で
+アプリ/botから画像を参照できる:
 gh repo create <name> --public --source . --push
-gh secret set GEMINI_API_KEY   # Google AI StudioのAPIキー
 ```
 
-Actionsは毎日 6:00 JST に `comics/queue/` の先頭（ファイル名昇順）を1本処理し、
-台本を `comics/done/` に移動してコミットする。キューが空の日は何もしない。
-手動実行（Actionsタブ）では台本IDや本数を指定できる。
+`provider: gemini` を使う場合は `GEMINI_API_KEY` 環境変数をローカルにセットしておく
+（クラウド上でキーを共有する必要はない。実行のたびに手元の環境から読まれる）。
 
 ## ローカルでの動作確認
 
@@ -61,17 +87,20 @@ Actionsは毎日 6:00 JST に `comics/queue/` の先頭（ファイル名昇順�
 pip install -r requirements.txt
 python scripts/download_fonts.py
 
-# APIを呼ばずレイアウト・吹き出し・多言語埋め込みを確認（プレースホルダー画像）
+# APIを呼ばずレイアウト・キャプション・多言語埋め込みを確認（プレースホルダー画像）
 python scripts/run_pipeline.py --id scp-999 --mock
 
-# 本番同様に生成（要 GEMINI_API_KEY）
-set GEMINI_API_KEY=... && python scripts/run_pipeline.py --id scp-999
+# 本番同様に生成（config/style.yamlのprovider設定に従う。geminiならGEMINI_API_KEYが要る）
+python scripts/run_pipeline.py --id scp-999
 
 # 生成済みコマを使い、合成・埋め込みだけやり直す（レイアウト調整時）
 python scripts/run_pipeline.py --id scp-999 --skip-generate --languages ja,en
 ```
 
-### Google AI Studioで手動生成する場合
+`provider: comfyui` の場合は事前にComfyUIをローカルで起動し、必要なモデル・LoRAを
+配置しておくこと（`scripts/providers/comfyui/README.md` 参照）。
+
+### Google AI Studioで手動生成する場合（gemini専用）
 
 APIキーを使わず、[aistudio.google.com](https://aistudio.google.com) のチャットUIで手動生成して
 リポジトリに格納することもできる。
