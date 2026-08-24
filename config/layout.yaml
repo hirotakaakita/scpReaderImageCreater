@@ -36,8 +36,11 @@ caption:
   # 左寄り・右寄りが交互になる。固定したい場合はプリセット名（例: top-left）を書く。
   # 台本のpanelsで caption_position を指定すれば個別に上書き可。
   default_position: alternate
-  font_size: 16
-  min_font_size: 10
+  # captionは記事本文からの引用を短縮せずそのまま使う方針のため、行数では
+  # なくフォントサイズ側で箱の高さを抑える（16→13に縮小。3行に収める形での
+  # テキスト短縮は不自然になるため採用しない）
+  font_size: 13
+  min_font_size: 9
   line_spacing: 3
   padding: 10
   fill: "#FFFFFF"
