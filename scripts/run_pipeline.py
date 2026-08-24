@@ -5,6 +5,7 @@
   python scripts/run_pipeline.py --id scp-999            # 指定台本を(再)処理
   python scripts/run_pipeline.py --id scp-999 --skip-generate --mock  # 合成以降のみ
   python scripts/run_pipeline.py --id scp-999 --export-prompts  # Google AI Studio向けに書き出し
+  python scripts/run_pipeline.py --id scp-999 --variants 4      # 選別用に候補を複数生成
 
 処理内容: 生成(generate_panels) -> 合成(compose) -> 言語別埋め込み(embed_text)
           -> 台本をdone/へ移動 -> index.json更新
@@ -12,6 +13,11 @@
 --export-prompts を付けるとAPIを呼ばず、output/<id>/prompts/ にプロンプトと参照画像・
 手順書(README.txt)を書き出すだけで終了する。Google AI Studioで手動生成した画像を
 output/<id>/panels/panel_N.png として保存したら、--skip-generate で続きを実行する。
+
+--variants N を付けると、コマごとにN枚の候補を output/<id>/panels_temp/panel_N_vM.png
+に生成して停止する（panels/panel_N.pngはまだ書き換えない）。人手で気に入った候補を
+panels/panel_N.png としてコピーしてから --skip-generate で合成以降を実行する。
+生成精度がまだ安定しない間の運用（画像生成の精度がゆらぐ間、複数候補から目視で選ぶ）。
 """
 import argparse
 import os
@@ -57,11 +63,16 @@ def move_to_done(script_path):
 
 
 def process(script_path, cfgs, mock=False, languages=None, skip_generate=False,
-            export_prompts=False):
+            export_prompts=False, variants=None):
     script = cfglib.load_script(script_path)
     print(f"=== {script['id']} ({script_path}) ===")
     if export_prompts:
         generate_panels.export_prompts(script, cfgs)
+        return
+    if variants:
+        # 選別用の候補生成のみ行う。panels/はまだ確定していないので
+        # 合成・埋め込み・done移動・used.json記録は行わずここで止める
+        generate_panels.generate_variants(script, cfgs, variants, mock=mock)
         return
     if not skip_generate:
         generate_panels.generate(script, cfgs, mock=mock)
@@ -88,6 +99,10 @@ def main():
     ap.add_argument("--export-prompts", action="store_true",
                     help="APIを呼ばずGoogle AI Studio向けにプロンプト・参照画像を"
                          "output/<id>/prompts/ に書き出す（合成・埋め込みは行わない）")
+    ap.add_argument("--variants", type=int,
+                    help="コマごとにN枚の候補をoutput/<id>/panels_temp/に生成して停止する"
+                         "（panels/は書き換えない。選別後にpanels/panel_N.pngへ手動で"
+                         "コピーしてから--skip-generateで続きを実行する）")
     args = ap.parse_args()
 
     cfgs = cfglib.load_configs()
@@ -102,7 +117,8 @@ def main():
     if args.comic_id:
         # --id は明示指定なので生成済みでも(再)処理する
         process(find_script(args.comic_id), cfgs, mock=args.mock, languages=langs,
-                skip_generate=args.skip_generate, export_prompts=args.export_prompts)
+                skip_generate=args.skip_generate, export_prompts=args.export_prompts,
+                variants=args.variants)
     else:
         queue = queued_scripts()
         if not queue:
@@ -121,11 +137,12 @@ def main():
                     move_to_done(path)
                 continue
             process(path, cfgs, mock=args.mock, languages=langs,
-                    skip_generate=args.skip_generate, export_prompts=args.export_prompts)
+                    skip_generate=args.skip_generate, export_prompts=args.export_prompts,
+                    variants=args.variants)
             processed += 1
         if processed == 0:
             print("No unprocessed scripts in queue. Nothing generated.")
-    if not args.export_prompts:
+    if not args.export_prompts and not args.variants:
         build_index.build()
 
 

@@ -131,6 +131,49 @@ def generate(script, cfgs, mock=False):
     return comic_dir
 
 
+def generate_variants(script, cfgs, count, mock=False):
+    """各コマにつきcount枚の候補を output/<id>/panels_temp/panel_N_vM.png に生成する。
+
+    panels/panel_N.png には一切書き込まない（選別前の下書き置き場）。
+    人手でpanels_temp/から気に入った1枚を選び、panels/panel_N.pngとして
+    保存してから --skip-generate で合成・埋め込みを実行する運用を想定している。
+    """
+    comic_dir = os.path.join(cfglib.OUTPUT_DIR, script["id"])
+    temp_dir = os.path.join(comic_dir, "panels_temp")
+    os.makedirs(temp_dir, exist_ok=True)
+
+    gen_cfg = cfgs["style"]["generation"]
+    provider_name = gen_cfg.get("provider", "gemini")
+    provider = providers.get(provider_name) if not mock else None
+
+    prompts_log = []
+    n = len(script["panels"])
+    for i, panel in enumerate(script["panels"], 1):
+        prompt = build_prompt(script, panel, cfgs, provider_name)
+        prompts_log.append({"panel": i, "prompt": prompt})
+        for v in range(1, count + 1):
+            out_path = os.path.join(temp_dir, f"panel_{i}_v{v}.png")
+            print(f"[generate] panel {i}/{n} variant {v}/{count}")
+            if mock:
+                img = make_mock_panel(i)
+            else:
+                # 選別前の下書きなので前コマ参照は使わない（コマ間でまだキャラが
+                # 確定していないため）
+                img = provider.generate_image(prompt, [], gen_cfg)
+            img.convert("RGB").save(out_path)
+
+    with open(os.path.join(temp_dir, "prompts.json"), "w", encoding="utf-8") as f:
+        json.dump(prompts_log, f, ensure_ascii=False, indent=2)
+
+    panels_rel = os.path.relpath(os.path.join(comic_dir, "panels"), cfglib.ROOT)
+    temp_rel = os.path.relpath(temp_dir, cfglib.ROOT)
+    print(f"\n[generate] {n} panels x {count} variants -> {temp_rel}/")
+    print(f"気に入った候補を選び {temp_rel}/panel_N_vM.png を {panels_rel}/panel_N.png "
+          f"としてコピーしたら、次を実行してください:")
+    print(f"  python scripts/run_pipeline.py --id {script['id']} --skip-generate")
+    return temp_dir
+
+
 def export_prompts(script, cfgs):
     """APIを呼ばず、Google AI Studioで手動生成するためのプロンプト・参照画像・
     手順書を output/<id>/prompts/ に書き出す。画像生成そのものは行わない。"""
@@ -235,11 +278,15 @@ def main():
     ap.add_argument("--mock", action="store_true")
     ap.add_argument("--export-prompts", action="store_true",
                     help="APIを呼ばずGoogle AI Studio向けにプロンプト・参照画像を書き出す")
+    ap.add_argument("--variants", type=int,
+                    help="コマごとにN枚の候補をpanels_temp/に生成する（選別用、panels/は書き換えない）")
     args = ap.parse_args()
     cfgs = cfglib.load_configs()
     script = cfglib.load_script(args.script_path)
     if args.export_prompts:
         export_prompts(script, cfgs)
+    elif args.variants:
+        generate_variants(script, cfgs, args.variants, mock=args.mock)
     else:
         generate(script, cfgs, mock=args.mock)
 

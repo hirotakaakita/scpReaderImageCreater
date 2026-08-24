@@ -2,3 +2,4 @@ fonts/
 __pycache__/
 *.pyc
 .venv/
+output/*/panels_temp/

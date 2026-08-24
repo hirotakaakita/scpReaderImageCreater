@@ -18,6 +18,9 @@ comics/queue/scp-XXX.yaml   ← 台本（scene英語 + caption15言語）: ロ�
         ▼  ローカルで python scripts/run_pipeline.py --id scp-XXX を実行
 scripts/generate_panels.py  ← コマごとにプロンプトを組み立て、選択中のプロバイダで画像生成（文字なし）
   └ scripts/providers/<name>/   ← 実際のAPI呼び出し（gemini / comfyui）
+        │  （--variants N なら output/scp-XXX/panels_temp/panel_N_vM.png に
+        │    候補をN枚生成してここで停止。人手で1枚選びpanels/panel_N.png
+        │    としてコピーしてから --skip-generate で以下を続行）
 scripts/compose.py          ← コマを統一サイズで1枚に合成 + ライセンス表記フッター
 scripts/embed_text.py       ← 言語別にタイトル・キャプション・吹き出しテキストを埋め込み
 scripts/build_index.py      ← index.json 更新
@@ -100,7 +103,12 @@ python scripts/run_pipeline.py --id scp-999 --mock
 # 本番同様に生成（config/style.yamlのprovider設定に従う。geminiならGEMINI_API_KEYが要る）
 python scripts/run_pipeline.py --id scp-999
 
-# 生成済みコマを使い、合成・埋め込みだけやり直す（レイアウト調整時）
+# コマごとに複数候補を生成して人手で選ぶ（生成精度が安定しない間の運用）
+python scripts/run_pipeline.py --id scp-999 --variants 4
+# -> output/scp-999/panels_temp/panel_N_vM.png から気に入った1枚を選び、
+#    output/scp-999/panels/panel_N.png としてコピーしてから↓を実行する
+
+# 生成済みコマを使い、合成・埋め込みだけやり直す（レイアウト調整時、--variants選別後も）
 python scripts/run_pipeline.py --id scp-999 --skip-generate --languages ja,en
 ```
 

@@ -77,6 +77,13 @@ Claude Codeが行う**（自動化なし）。全体像はREADME.md参照。
    吹き出しの位置・あふれ警告（`WARN: text overflow`）を確認。あふれたらセリフを短くする
    - 初回は `pip install -r requirements.txt` と `python scripts/download_fonts.py` が必要
    - **mock実行で作られた output/scp-XXX/ はコミットしない**（`git checkout`等で戻すか削除）
+5. 画像生成（現状、生成精度がまだ安定しないため候補を複数出して人手で選ぶ運用）:
+   `python scripts/run_pipeline.py --id scp-XXX --variants N` を実行すると、コマごとに
+   N枚の候補が `output/scp-XXX/panels_temp/panel_N_vM.png` に生成され、そこで停止する
+   （`panels/panel_N.png`はまだ書き換わらない）。ユーザーが候補を目視で選び、気に入った
+   1枚を `output/scp-XXX/panels/panel_N.png` としてコピーし直したら、
+   `python scripts/run_pipeline.py --id scp-XXX --skip-generate` で合成・15言語埋め込み
+   まで実行する。`panels_temp/`はコミットしない（`.gitignore`済み）
 
 ## 実装メモ
 
