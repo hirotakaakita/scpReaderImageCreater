@@ -126,13 +126,18 @@ generation:
     # prompt.comfyui.*から該当語を排除済みのため、高速化LoRAを使うsteps=2/cfg=1
     # に戻してもグリッド化は再発しない。
     #
-    # steps=2/cfg=1では、1コマ内に同じキャラが重複して描かれる問題が確率的に
-    # 発生する（検証では4コマ中1コマ程度）。速度（1コマ数十秒、フル品質の
-    # 1/10〜1/20）を優先してこの設定を採用しているが、生成のたびに重複キャラが
-    # 無いか目視確認し、発生コマだけ再生成（リロール）する運用が前提。
-    # 安定性を優先する場合はsteps=30/cfg=2（高速化LoRA無し。workflow_api_qwen_
-    # style.jsonの"Turbo LoRA"ノードを外し、Style LoRAの model入力をUNET Loader
-    # に直結すればよい）に戻すこと（この場合はstyle_lora_strengthも1.4に
+    # steps=2/cfg=1では、1コマ内に同じキャラが重複して描かれる／2人のキャラの
+    # 髪色などの属性が混ざる（両方黒髪になる等）問題が確率的に発生する
+    # （検証では4コマ中1コマ程度）。steps=4/8で検証したところ、steps=4では
+    # 改善が見られなかったが、steps=8ではcharacters.yamlの記述を髪型・服装まで
+    # 具体的に書くようにした後の検証で3/3成功と改善傾向が見られたため、steps=8
+    # を採用している（サンプル数はまだ少なく、確率的な失敗が完全に無くなった
+    # わけではない。速度は1コマ約50秒、フル品質の1/6〜1/10程度）。生成のたびに
+    # 重複キャラ・属性混同が無いか目視確認し、発生コマだけ再生成（リロール）
+    # する運用が前提。
+    # 安定性をさらに優先する場合はsteps=30/cfg=2（高速化LoRA無し。workflow_api_
+    # qwen_style.jsonの"Turbo LoRA"ノードを外し、Style LoRAの model入力をUNET
+    # Loaderに直結すればよい）に戻すこと（この場合はstyle_lora_strengthも1.4に
     # 上げる。理由は下記コメント参照）。
     # 必要ファイル（models/配下の対応フォルダに配置）:
     #   diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors
@@ -157,7 +162,7 @@ generation:
     style_lora_strength: 1.0
     width: 1328                       # Qwen-Image公式推奨の正方形解像度
     height: 1328
-    steps: 2
+    steps: 8
     cfg: 1
     sampler_name: euler
     scheduler: simple

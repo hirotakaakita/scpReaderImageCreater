@@ -60,13 +60,14 @@ panels:
       zh_Hant: "SCP-105（原名愛瑞絲·湯普森）是一名歐洲裔女性，金髮碧眼，身高1.54公尺、體重50公斤，各方面都是標準且健康的人類。SCP-105-B是一台1982年製造的寶麗來One Step Express相機，對SCP-105以外的人使用均正常。"
 
   - scene: >
-      Close-up shot centered on a Polaroid photograph held in the hands of
-      SCP-105 (a young blonde European woman with blue eyes, petite),
-      filling most of the frame: the photo does not look like a static
-      picture but subtly shimmers, showing real, moving footage of the
-      location it depicts instead of a still image. The attending researcher leans in
-      from the side, eyes wide with fascination, watching the photograph
-      closely.
+      Medium shot, waist-up, slightly low angle looking up at both of them.
+      SCP-105 (a young blonde European woman with blue eyes, petite) holds a
+      Polaroid photograph out in front of her at chest height with both
+      hands, clearly visible but not filling the frame: the photo does not
+      look like a static picture but subtly shimmers, showing real, moving
+      footage of the location it depicts instead of a still image. The
+      attending researcher leans in close from the side, eyes wide with
+      fascination, watching the photograph closely.
     characters: [attending-researcher-f]
     caption:
       ja: "SCP-105がSCP-105-Bにより撮影された写真を所持している場合、写真は静止した画像から当該の場所のリアルタイムの映像へと変質します。"

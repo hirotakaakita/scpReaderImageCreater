@@ -131,12 +131,29 @@ def generate(script, cfgs, mock=False):
     return comic_dir
 
 
+def _next_variant_start(temp_dir, panel_index):
+    """panel_{panel_index}_vM.pngの既存最大Mを調べ、続きの番号(M+1)を返す。
+
+    既存候補を上書きしないよう、生成のたびに新しいバージョン番号から採番する。
+    """
+    prefix = f"panel_{panel_index}_v"
+    max_v = 0
+    if os.path.isdir(temp_dir):
+        for name in os.listdir(temp_dir):
+            if name.startswith(prefix) and name.endswith(".png"):
+                num = name[len(prefix):-len(".png")]
+                if num.isdigit():
+                    max_v = max(max_v, int(num))
+    return max_v + 1
+
+
 def generate_variants(script, cfgs, count, mock=False):
     """各コマにつきcount枚の候補を output/<id>/panels_temp/panel_N_vM.png に生成する。
 
     panels/panel_N.png には一切書き込まない（選別前の下書き置き場）。
     人手でpanels_temp/から気に入った1枚を選び、panels/panel_N.pngとして
     保存してから --skip-generate で合成・埋め込みを実行する運用を想定している。
+    既に候補が残っている場合は上書きせず、次のバージョン番号から追加生成する。
     """
     comic_dir = os.path.join(cfglib.OUTPUT_DIR, script["id"])
     temp_dir = os.path.join(comic_dir, "panels_temp")
@@ -151,9 +168,11 @@ def generate_variants(script, cfgs, count, mock=False):
     for i, panel in enumerate(script["panels"], 1):
         prompt = build_prompt(script, panel, cfgs, provider_name)
         prompts_log.append({"panel": i, "prompt": prompt})
-        for v in range(1, count + 1):
+        start = _next_variant_start(temp_dir, i)
+        for offset in range(count):
+            v = start + offset
             out_path = os.path.join(temp_dir, f"panel_{i}_v{v}.png")
-            print(f"[generate] panel {i}/{n} variant {v}/{count}")
+            print(f"[generate] panel {i}/{n} variant v{v} ({offset + 1}/{count})")
             if mock:
                 img = make_mock_panel(i)
             else:
@@ -162,8 +181,13 @@ def generate_variants(script, cfgs, count, mock=False):
                 img = provider.generate_image(prompt, [], gen_cfg)
             img.convert("RGB").save(out_path)
 
-    with open(os.path.join(temp_dir, "prompts.json"), "w", encoding="utf-8") as f:
-        json.dump(prompts_log, f, ensure_ascii=False, indent=2)
+    prompts_path = os.path.join(temp_dir, "prompts.json")
+    existing_log = []
+    if os.path.exists(prompts_path):
+        with open(prompts_path, encoding="utf-8") as f:
+            existing_log = json.load(f)
+    with open(prompts_path, "w", encoding="utf-8") as f:
+        json.dump(existing_log + prompts_log, f, ensure_ascii=False, indent=2)
 
     panels_rel = os.path.relpath(os.path.join(comic_dir, "panels"), cfglib.ROOT)
     temp_rel = os.path.relpath(temp_dir, cfglib.ROOT)
