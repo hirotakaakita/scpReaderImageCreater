@@ -33,9 +33,17 @@ _SPACE_HINTS = {
 }
 
 
+def lookup_character(key, script, cfgs):
+    """台本の local_characters（記事固有キャラ）を優先し、次に
+    config/characters.yaml（複数漫画で使い回すキャノンキャラ）を見る。"""
+    local = (script.get("local_characters") or {}).get(key)
+    if local:
+        return local
+    return cfgs["characters"].get(key)
+
+
 def build_prompt(script, panel, cfgs, provider_name=None):
     style = cfgs["style"]
-    characters = cfgs["characters"]
     provider_name = provider_name or style["generation"].get("provider", "gemini")
     prompt_style = style["prompt"][provider_name]
     parts = [prompt_style["style_prompt"].strip()]
@@ -43,8 +51,9 @@ def build_prompt(script, panel, cfgs, provider_name=None):
     names = panel.get("characters") or []
     descs = []
     for key in names:
-        if key in characters:
-            descs.append(characters[key]["description"].strip())
+        char = lookup_character(key, script, cfgs)
+        if char:
+            descs.append(char["description"].strip())
     if descs:
         parts.append("Characters appearing in this image (keep these designs exactly consistent):\n- "
                      + "\n- ".join(descs))
@@ -81,7 +90,7 @@ def collect_reference_images(script, panel, cfgs, prev_panel_paths):
     gen = cfgs["style"]["generation"]
     refs = []
     for key in panel.get("characters") or []:
-        char = cfgs["characters"].get(key) or {}
+        char = lookup_character(key, script, cfgs) or {}
         for rel in char.get("reference_images") or []:
             path = cfglib.rootpath(rel)
             if os.path.exists(path):
@@ -217,7 +226,7 @@ def export_prompts(script, cfgs):
 
         char_refs = []
         for key in panel.get("characters") or []:
-            char = cfgs["characters"].get(key) or {}
+            char = lookup_character(key, script, cfgs) or {}
             for rel in char.get("reference_images") or []:
                 src = cfglib.rootpath(rel)
                 if os.path.exists(src):

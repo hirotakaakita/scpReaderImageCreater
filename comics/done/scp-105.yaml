@@ -30,18 +30,24 @@ attribution:
 
 object_class: Safe
 
-characters: [attending-researcher-f]
+local_characters:
+  scp-105:
+    name: SCP-105
+    description: >
+      SCP-105, a young blonde European woman with blue eyes, petite,
+      unremarkable.
+
+characters: [scp-105, attending-researcher-f]
 
 panels:
   - scene: >
       Wide shot, full body, eye level. In a plain clinical observation room,
-      SCP-105 (a young blonde European woman with blue eyes, petite,
-      unremarkable) stands calmly against a bare wall for an intake
-      photograph, composed and cooperative. Off to the side, the attending researcher
+      SCP-105 stands calmly against a bare wall for an intake photograph,
+      composed and cooperative. Off to the side, the attending researcher
       stands at a table, carefully examining a vintage early-1980s Polaroid
       instant camera with a magnifying loupe and taking notes on a
       clipboard.
-    characters: [attending-researcher-f]
+    characters: [scp-105, attending-researcher-f]
     caption:
       ja: "SCP-105(旧名アイリス・トンプソン)はヨーロッパ系の女性で、ブロンドの髪に青い目、身長1.54m・体重50kg。あらゆる点で標準的かつ健康な人間と観察されます。SCP-105-Bは1982年製のポラロイド One Step 600カメラで、SCP-105以外が使用しても異常性は見られません。"
       en: "SCP-105 (formerly known as Iris Thompson) is a female human of European descent, with blonde hair and blue eyes, 1.54 meters in height and 50kg in weight — in every respect a normal, healthy human being. SCP-105-B is a Polaroid One Step Express camera manufactured in 1982, operating normally for anyone other than SCP-105."
@@ -61,14 +67,14 @@ panels:
 
   - scene: >
       Medium shot, waist-up, slightly low angle looking up at both of them.
-      SCP-105 (a young blonde European woman with blue eyes, petite) holds a
-      Polaroid photograph out in front of her at chest height with both
-      hands, clearly visible but not filling the frame: the photo does not
+      SCP-105 holds a Polaroid photograph out in front of her at chest
+      height with both hands, clearly visible but not filling the frame:
+      the photo does not
       look like a static picture but subtly shimmers, showing real, moving
       footage of the location it depicts instead of a still image. The
       attending researcher leans in close from the side, eyes wide with
       fascination, watching the photograph closely.
-    characters: [attending-researcher-f]
+    characters: [scp-105, attending-researcher-f]
     caption:
       ja: "SCP-105がSCP-105-Bにより撮影された写真を所持している場合、写真は静止した画像から当該の場所のリアルタイムの映像へと変質します。"
       en: "When SCP-105 holds a photograph taken by SCP-105-B, the image changes from a still photo to a real-time view of the location shown."
@@ -87,14 +93,14 @@ panels:
       zh_Hant: "當SCP-105持有用SCP-105-B拍攝的照片時，畫面會從靜止照片轉變為該地點的即時影像。"
 
   - scene: >
-      Medium shot, dynamic diagonal composition. SCP-105 (a young blonde
-      European woman with blue eyes, petite) holds a photograph out in
-      front of her with both hands; a pale, disembodied female hand emerges
+      Medium shot, dynamic diagonal composition. SCP-105 holds a photograph
+      out in front of her with both hands; a pale, disembodied female hand
+      emerges
       straight out of the flat surface of the photo, reaching into the real
       room and closing its fingers around a small object on a nearby table.
       The attending researcher flinches back in shock, eyes huge, one hand raised
       defensively.
-    characters: [attending-researcher-f]
+    characters: [scp-105, attending-researcher-f]
     caption:
       ja: "SCP-105は写真を通じ、撮影地点の届く範囲にある物体を操作することができます。目撃者は、肉体から離れた女性の手が目に見えない穴からのびて動作を行ったと報告しています。"
       en: "SCP-105 is able to reach through the photograph and manipulate objects within reach of the original point where it was taken. Witnesses report seeing a disembodied female hand reaching out from an invisible portal to carry out the actions."
@@ -114,15 +120,14 @@ panels:
 
   - scene: >
       Wide shot, full body, eye level, pulled back to show the whole
-      observation room. SCP-105 (a young blonde European woman with blue
-      eyes, petite) sits at a table holding up two photographs side by side
-      for comparison: one taken with the vintage Polaroid,
+      observation room. SCP-105 sits at a table holding up two photographs
+      side by side for comparison: one taken with the vintage Polaroid,
       from which a small ghostly hand emerges strongly and clearly, and one
       taken with an ordinary modern camera, from which only a faint,
       barely-visible hand weakly grasps at the air. The attending researcher sits
       across from her, comparing the two effects and writing notes, mildly
       impressed.
-    characters: [attending-researcher-f]
+    characters: [scp-105, attending-researcher-f]
     caption:
       ja: "SCP-105は他のカメラで撮った写真でも限定的に物体を操作できますが、精密な制御はSCP-105-Bの写真でのみ可能です。能力を大幅に高められるのもSCP-105-Bの写真に限られます。"
       en: "SCP-105 has shown limited ability to manipulate objects through other photographs, but can only achieve fine control using photographs taken with SCP-105-B — the only ones known to significantly enhance her ability."

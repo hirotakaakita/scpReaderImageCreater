@@ -23,16 +23,16 @@ Geminiプロバイダ（`scripts/providers/gemini/`）と同じ
 4. `scripts/providers/comfyui/workflow_api_qwen_style.json` は、
    `UNETLoader` → 高速化LoRA「Turbo LoRA」(`LoraLoaderModelOnly`) → 画風LoRA
    「Style LoRA」(`LoraLoaderModelOnly`) → `ModelSamplingAuraFlow` →
-   `KSampler` という構成。既定は**2ステップ専用の高速化LoRA
-   `Wuli-Qwen-Image-2512-Turbo-LoRA-2steps-V1.0-bf16.safetensors`を使いつつ
-   steps: 8で運用**（`cfg: 1` / `sampler_name: euler` / `scheduler: simple`、
-   `style_lora_strength: 1.0`）。このLoRAは本来2ステップ用に蒸留されたものだが、
-   steps=2/4では1コマ内に同じキャラが重複して描かれる／2人の髪色などの属性が
-   混同される問題が確率的に発生し（検証では4コマ中1コマ程度）、steps=4への
-   引き上げでは改善しなかったが、steps=8では改善傾向が見られたためこの値を
-   採用している（1コマ約50秒。サンプル数はまだ少なく、確率的な失敗が完全に
-   無くなったわけではない）。生成のたびに目視確認し、発生したコマだけ
-   再生成（リロール）する運用が前提。安定性をさらに優先する場合は
+   `KSampler` という構成。既定は**2ステップ高速化LoRA
+   `Wuli-Qwen-Image-2512-Turbo-LoRA-2steps-V1.0-bf16.safetensors`使用**
+   （`steps: 2` / `cfg: 1` / `sampler_name: euler` / `scheduler: simple`、
+   `style_lora_strength: 1.0`）。1コマ数十秒で生成できるが、**1コマ内に同じ
+   キャラが重複して描かれる／2人の髪色などの属性が混同される問題が確率的に
+   発生する**（検証では4コマ中1コマ程度）。steps=4/8も試したが、いずれも
+   安定した改善は確認できなかった（steps=8はある検証回では3/3成功したが
+   再現せず、steps数を上げること自体に確実な効果は無いと判断）ため、速度を
+   優先してsteps=2に戻している。生成のたびに目視確認し、発生したコマだけ
+   再生成（リロール）する運用が前提。安定性を優先する場合は
    「Turbo LoRA」ノードを外してStyle LoRAの`model`入力をUNET Loaderに直結し、
    `steps: 30` / `cfg: 2` / `style_lora_strength: 1.4`に戻すこと（1コマ数分〜
    十数分かかるが重複キャラ・属性混同は起きにくい）。`style_lora_strength`は
