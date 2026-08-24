@@ -21,13 +21,21 @@ Geminiプロバイダ（`scripts/providers/gemini/`）と同じ
    Civitai等で配布されているQwen-Image用スタイルLoRAを差し替えれば別の画風も試せる
    （ライセンスは配布元ごとに要確認）。
 4. `scripts/providers/comfyui/workflow_api_qwen_style.json` は、
-   `UNETLoader` → 画風LoRA(`LoraLoaderModelOnly`) → `ModelSamplingAuraFlow` →
-   `KSampler` という構成。既定は**高速化LoRA無し**（`steps: 30` / `cfg: 2` /
-   `sampler_name: euler` / `scheduler: simple`）。速度を優先したい場合は
-   `LoraLoaderModelOnly` ノードを追加してUNETLoaderと画風LoRAの間に高速化LoRA
-   （例: `Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors`）を挟み、
-   `steps`/`cfg`をそのLoRAの推奨値に合わせて下げること（ただし下記の重複キャラ
-   問題が再発しやすい）。
+   `UNETLoader` → 高速化LoRA「Turbo LoRA」(`LoraLoaderModelOnly`) → 画風LoRA
+   「Style LoRA」(`LoraLoaderModelOnly`) → `ModelSamplingAuraFlow` →
+   `KSampler` という構成。既定は**2ステップ高速化LoRA
+   `Wuli-Qwen-Image-2512-Turbo-LoRA-2steps-V1.0-bf16.safetensors`使用**
+   （`steps: 2` / `cfg: 1` / `sampler_name: euler` / `scheduler: simple`、
+   `style_lora_strength: 1.0`）。1コマ数十秒で生成できるが、**1コマ内に同じ
+   キャラが重複して描かれる問題が確率的に発生する**（検証では4コマ中1コマ
+   程度）ため、生成のたびに目視確認し、発生したコマだけ再生成（リロール）
+   する運用が前提。安定性を優先する場合は「Turbo LoRA」ノードを外して
+   Style LoRAの`model`入力をUNET Loaderに直結し、`steps: 30` / `cfg: 2` /
+   `style_lora_strength: 1.4`に戻すこと（1コマ数分〜十数分かかるが重複キャラは
+   起きにくい）。`style_lora_strength`はsteps数に応じて調整が要る
+   （steps=30だとベースモデル自身の色彩表現が乗ってモノクロ表現が薄まるため
+   1.4まで上げて補正しているが、steps=2でこの値のままだと逆に線が甘く・
+   不確かになる）。
 
    **重要**: プロンプト文中（`generate_panels.py`の`build_prompt()`と
    `config/style.yaml`の`prompt.comfyui.*`）には`"panel"`/`"grid"`/`"frame"`/
@@ -35,9 +43,8 @@ Geminiプロバイダ（`scripts/providers/gemini/`）と同じ
    一切使わないこと（「〜にしないで」という否定形で使うのも不可）。検証の結果、
    これらの単語が入っていると、cfgを上げるほど単語への忠実度が増して、
    1枚の絵のはずが2×2グリッドの複数コマ画像として生成されてしまう問題が
-   毎回発生することが分かった。逆にこれらの単語を排除した上でcfgを上げると、
-   グリッド化を防ぎつつ、低cfg（`cfg: 1`、2ステップ高速化LoRA使用時など）で
-   起きやすかった「1コマ内に同じキャラが重複して描かれる」問題も解消された。
+   毎回発生することが分かった（cfg=1でも稀に発生した）。これは高速化LoRAの
+   有無やcfg/stepsとは別軸の問題で、重複キャラ問題（上記）とは原因が異なる。
 5. `config/style.yaml` の `generation.provider` を `comfyui` にする。
 
 ## workflow_api.json の差し替えルール
@@ -58,12 +65,13 @@ Geminiプロバイダ（`scripts/providers/gemini/`）と同じ
 | `class_type == "KSampler"` | サンプラー設定（必須） | `seed` / `steps` / `cfg` / `sampler_name` / `scheduler` |
 | `class_type == "SaveImage"` | 出力ノード（必須） | （書き換えなし。結果取得に使うだけ） |
 
-`workflow_api_qwen_style.json`（既定のフル品質ワークフロー）は実際の
+`workflow_api_qwen_style.json`（既定のワークフロー）は実際の
 「Negative Prompt」titleのCLIPTextEncodeノードを持つため、`negative_prompt` の
-設定値がそのままプロンプトに反映される。一方、Z-Image Turbo等の高速化LoRA前提の
-公式テンプレートはネガティブプロンプトの代わりに `ConditioningZeroOut`
-（Positiveの条件付けをゼロ化したものをそのままnegativeに使う）を使っており、
-その場合は `negative_prompt` の設定値は無視される（`workflow_api.json` 参照）。
+設定値はプロンプトとしては常にエンコードされる。ただし既定の`cfg: 1`では
+CFGの数式上negative項が結果に影響しない（cfgを2以上に上げれば効くようになる）。
+一方、Z-Image Turbo等の高速化LoRA前提の公式テンプレートはネガティブプロンプト
+の代わりに `ConditioningZeroOut`（Positiveの条件付けをゼロ化したものをそのまま
+negativeに使う）を使っているものもある（`workflow_api.json` 参照）。
 
 IPAdapterやControlNetなど画像入力ノードを足せば、`ref_images`
 （キャラ参照画像・直前コマ画像）を渡すよう拡張することも可能

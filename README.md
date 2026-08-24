@@ -44,14 +44,18 @@ state/used.json             ← 生成済みSCPの記録（重複生成防止。
 | `gemini` | クラウドAPI（`GEMINI_API_KEY`が要る） | Nano Banana / Nano Banana Pro。APIキーさえあれば環境を選ばない |
 | `comfyui` | ローカルで起動したComfyUIのAPI（`http://127.0.0.1:8188`）を叩く | GPUが要る代わりに無料。モデル・LoRAを差し替えて画風を調整できる |
 
-現在ローカル検証で使っているのは `comfyui`（Qwen-Image 2512、高速化LoRA無し、
-画風LoRA `QwenImage_blackline` strength 1.4、steps 30 / cfg 2）。プロンプトの組み立て方
-（`prompt.<provider>` の style_prompt/composition_rules/no_text_rules）もプロバイダごとに
-完全に分けて持っており、モデルによって効く指示の強さ・言い回しが違うことを踏まえて
-調整してある（`scripts/generate_panels.py` の `build_prompt()` 参照）。
+現在ローカル検証で使っているのは `comfyui`（Qwen-Image 2512 + 2ステップ高速化LoRA
+`Wuli-Qwen-Image-2512-Turbo-LoRA-2steps` + 画風LoRA `QwenImage_blackline`
+strength 1.0、steps 2 / cfg 1）。1コマ数十秒で生成できるが、1コマ内に同じキャラが
+重複して描かれる問題が確率的に発生する（4コマ中1コマ程度）ため、生成結果は毎回
+目視確認しリロールする運用が前提（詳細・安定重視設定への切り替え方は
+`scripts/providers/comfyui/README.md`）。プロンプトの組み立て方（`prompt.<provider>`
+の style_prompt/composition_rules/no_text_rules）もプロバイダごとに完全に分けて持って
+おり、モデルによって効く指示の強さ・言い回しが違うことを踏まえて調整してある
+（`scripts/generate_panels.py` の `build_prompt()` 参照）。
 **"panel"/"grid"/"frame"/"comic"/"manga"のような複数コマ・ページ構成を連想させる単語は
 （否定形でも）プロンプトに使わない**——cfgを上げるほどモデルがグリッド状の複数コマ画像を
-生成しやすくなる現象を検証で確認したため（詳細は `scripts/providers/comfyui/README.md`）。
+生成しやすくなる現象を検証で確認したため。
 
 新しいプロバイダを足す場合は `generate_image(prompt, ref_images, gen_cfg)` を実装して
 `scripts/providers/__init__.py` に登録する。

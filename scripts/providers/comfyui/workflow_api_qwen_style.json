@@ -23,10 +23,19 @@
     },
     "_meta": { "title": "VAE Loader" }
   },
-  "12": {
+  "13": {
     "class_type": "LoraLoaderModelOnly",
     "inputs": {
       "model": ["1", 0],
+      "lora_name": "Wuli-Qwen-Image-2512-Turbo-LoRA-2steps-V1.0-bf16.safetensors",
+      "strength_model": 1.0
+    },
+    "_meta": { "title": "Turbo LoRA" }
+  },
+  "12": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": ["13", 0],
       "lora_name": "QwenImage_blackline.safetensors",
       "strength_model": 1.0
     },
@@ -69,8 +78,8 @@
     "class_type": "KSampler",
     "inputs": {
       "seed": 0,
-      "steps": 30,
-      "cfg": 2,
+      "steps": 2,
+      "cfg": 1,
       "sampler_name": "euler",
       "scheduler": "simple",
       "denoise": 1.0,
