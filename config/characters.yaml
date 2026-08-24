@@ -56,3 +56,31 @@ characters:
       An anonymous D-class test subject, a person in a plain bright orange
       jumpsuit with no markings and gray sneakers. Nervous expression.
     reference_images: []
+
+  attending-researcher-m:
+    # 記事本文に固有の担当者が書かれていない場合の「立ち会う財団職員」役。
+    # dr-sage-west/dr-johannes-sortsのような特定の個性を持つキャノンキャラを
+    # 本来不要な単なる立会人役に流用すると見た目・性格の印象がズレるため、
+    # d-classと同様に無個性・汎用的な記述の職員として別途用意している。
+    name: Attending Researcher (Male)
+    description: >
+      A male SCP Foundation researcher with short black hair, unremarkable
+      average build, neutral calm expression, no distinguishing features.
+      Wears a plain white lab coat over regular clothes, with a blank white
+      ID card clipped to the chest pocket.
+    reference_images: []
+
+  attending-researcher-f:
+    # 同上（女性版）。
+    # モノクロ画風では髪の「色」の違いが塗りの濃淡だけでは判別しづらく、
+    # メガネ等の形状特徴を追加してみたが、参照画像なしのtxt2imgでは
+    # その特徴が他キャラ（SCP-105側）にも混入してしまい逆効果だったため、
+    # 元の記述に戻した。この画像生成方式（キャラ参照画像なし）での
+    # 見た目の完全な描き分けは既知の限界として許容する。
+    name: Attending Researcher (Female)
+    description: >
+      A female SCP Foundation researcher with straight black hair tied back,
+      unremarkable average build, neutral calm expression, no distinguishing
+      features. Wears a plain white lab coat over regular clothes, with a
+      blank white ID card clipped to the chest pocket.
+    reference_images: []

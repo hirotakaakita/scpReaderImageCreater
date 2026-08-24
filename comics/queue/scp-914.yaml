@@ -29,16 +29,16 @@ attribution:
 
 object_class: Safe
 
-characters: [researcher-hana]
+characters: [attending-researcher-f]
 
 panels:
   - scene: >
       Wide establishing shot, full body, seen from a low angle so the
       enormous intricate clockwork machine towers over the frame, filling
       most of the room with countless brass gears, pulleys, and pipes.
-      Dr. Hana is small in the lower corner of the frame at its Intake
+      The attending researcher is small in the lower corner of the frame at its Intake
       booth, holding a small chipped ceramic mug.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-914は、時計仕掛けの機構で構成された大型の機械であり、単一のダイヤルを持つ制御盤に接続されている。"
       en: "SCP-914 is a large machine constructed of clockwork mechanisms, connected to a control panel with a single input dial."
@@ -58,10 +58,10 @@ panels:
 
   - scene: >
       Close-up shot on the control panel itself, filling most of the frame.
-      Dr. Hana's hand grips a large brass dial mid-turn, surrounded by
+      The attending researcher's hand grips a large brass dial mid-turn, surrounded by
       dozens of small gauges and exposed gears. Her face is a small sliver
       at the frame's edge, focused in concentration.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "ダイヤルはRough、Coarse、1:1、Fine、Very Fineの5段階のいずれかに設定できる。"
       en: "The dial can be turned to one of five settings: Rough, Coarse, 1:1, Fine, or Very Fine."
@@ -83,9 +83,9 @@ panels:
       Medium shot, dynamic diagonal composition. The Output booth door
       hisses open in a burst of steam. Inside sits an absurdly
       over-engineered teacup covered in extra tiny gears, needless spouts,
-      and ornate handles. Dr. Hana's stunned, deadpan face peeks in from
+      and ornate handles. The attending researcher's stunned, deadpan face peeks in from
       the frame's edge.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "精製処理の結果は設定によって異なり、必ずしも予測可能ではない。"
       en: "The outcome of the refining process differs depending on the setting used, and is not entirely predictable."
@@ -104,12 +104,12 @@ panels:
       zh_Hant: "精煉過程的結果因所用檔位而異，並非完全可以預測。"
 
   - scene: >
-      Wide shot, full body, eye level, showing Dr. Hana's whole office desk
+      Wide shot, full body, eye level, showing the attending researcher's whole office desk
       and chair from a slight side angle. She leans back in her chair
       holding the ridiculous over-engineered teacup up to the light at
       arm's length, examining its many tiny gears with a tired but
       faintly amused half-smile.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-914の操作は、正式な申請書を提出しサイト司令部の承認を得た職員のみに許可されている。"
       en: "Only personnel who submit a formal request and receive approval from site command may operate SCP-914."

@@ -27,16 +27,16 @@ attribution:
 
 object_class: Safe
 
-characters: [researcher-hana]
+characters: [attending-researcher-f]
 
 panels:
   - scene: >
       Wide shot, full body, eye level, showing the whole quiet facility
-      hallway. Dr. Hana crouches down to pet a small grey tabby cat whose
+      hallway. The attending researcher crouches down to pet a small grey tabby cat whose
       body ends abruptly in a flat black cross-section just behind the
       ribcage, as if neatly sliced away, yet the cat sits and balances
       completely normally.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-529は灰色の縞模様を持つ小型の家猫である。肋骨の後方にあたる部分が欠損しているように見える。"
       en: "SCP-529 is a small house cat with grey tabby markings. Parts of the animal to the rear of the ribcage appear to be missing."
@@ -58,9 +58,9 @@ panels:
       Extreme close-up shot on the half-cat's face, filling almost the
       entire frame: ears perked and mouth open wide in an insistent meow,
       eyes fixed pointedly toward a cheese sandwich sticking out of a
-      lunch bag blurred in the background. Dr. Hana's startled face is a
+      lunch bag blurred in the background. The attending researcher's startled face is a
       small sliver at the very edge of the frame.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "本個体に健康上の問題は無く、後半身がまだ存在するかのように振る舞う。"
       en: "The animal has no health problems, and moves about as if its hindquarters were still in place."
@@ -79,11 +79,11 @@ panels:
       zh_Hant: "該動物沒有任何健康問題，行動起來就像牠的後半身仍然存在一樣。"
 
   - scene: >
-      Medium shot, waist-up, high angle looking down over Dr. Hana's
+      Medium shot, waist-up, high angle looking down over the attending researcher's
       shoulder toward the cat below. She kneels with a slightly nervous
       expression, carefully holding out a small slice of cheese between
       two fingers toward the half-cat.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "『ジョジー』には定期的にチーズを与える必要があり、不足すると強い苦痛を示す。"
       en: "'Josie' must be provided with cheese regularly; she becomes distressed if not given sufficient cheese."
@@ -103,10 +103,10 @@ panels:
 
   - scene: >
       Wide shot, full body, eye level, pulled back to show the whole
-      hallway. Dr. Hana sits sprawled on the floor, leaning back on her
+      hallway. The attending researcher sits sprawled on the floor, leaning back on her
       hands with visible relief, while the half-cat happily nibbles the
       cheese in front of her, tail curled contentedly, purring loudly.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "『ジョジー』は非常に人懐こく、現段階では施設下層階を自由に移動することが許可されている。"
       en: "'Josie' is quite affectionate, and is free to move about the lower levels of the facility."

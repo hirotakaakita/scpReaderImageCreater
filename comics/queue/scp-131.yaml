@@ -28,17 +28,17 @@ attribution:
 
 object_class: Safe
 
-characters: [researcher-hana]
+characters: [attending-researcher-f]
 
 panels:
   - scene: >
       Low angle close-up shot, camera near floor level looking up toward
-      the desk. Dr. Hana works quietly at her desk in the background when
+      the desk. The attending researcher works quietly at her desk in the background when
       two small teardrop-shaped creatures roll into frame on tiny wheels
       at their base, filling the foreground, each with one large
       unblinking eye in the center of its body, one burnt orange and one
       mustard yellow.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-131-Aと131-Bは体高約30cmの涙滴状の個体で、中央に一つの目を持ち、基部の車輪機構で移動する。"
       en: "SCP-131-A and SCP-131-B are a pair of teardrop-shaped creatures roughly 30 cm in height, with a single eye in the middle of their bodies, moving via a wheel mechanism at their base."
@@ -61,9 +61,9 @@ panels:
       office, dynamic diagonal composition with motion lines. The two
       eye-pod creatures zoom across the office at high speed on their
       wheels, weaving between desk legs and knocking a stack of papers
-      flying into the air. Dr. Hana throws her hands up in surprise as
+      flying into the air. The attending researcher throws her hands up in surprise as
       papers scatter around her.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-131の知能はイエネコと同程度である。"
       en: "SCP-131 has the same intelligence as a house cat."
@@ -84,10 +84,10 @@ panels:
   - scene: >
       Close-up shot centered tightly on the low ventilation grate,
       filling most of the frame, the two eye-pod creatures' round eyes
-      vanishing one after another into the dark opening. Dr. Hana's
+      vanishing one after another into the dark opening. The attending researcher's
       reaching hand and kneeling shoulder are visible at the frame's
       edge, papers still scattered on the floor behind her.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "両個体は、制限区域への侵入や施設からの脱出を試みない限り、自由に移動することが許可されている。"
       en: "SCP-131-A and SCP-131-B are free to travel about the site, so long as they do not attempt to enter any restricted areas or leave the facility."
@@ -107,10 +107,10 @@ panels:
 
   - scene: >
       Wide shot, full body, eye level, pulled back to show the whole
-      office floor. Dr. Hana sits slumped amid scattered papers in front
+      office floor. The attending researcher sits slumped amid scattered papers in front
       of the empty ventilation grate, holding an empty coffee mug upside
       down with a tired, exasperated expression.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "両個体の所在は1時間ごとに確認されるものとし、この確認が取れない場合はレベル1封鎖態勢が発令される。"
       en: "Hourly tabs are to be kept on the subjects at all times; failure to account for their presence constitutes a level one lockdown situation."

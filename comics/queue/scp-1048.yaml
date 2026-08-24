@@ -28,16 +28,16 @@ attribution:
 
 object_class: Keter
 
-characters: [researcher-hana]
+characters: [attending-researcher-f]
 
 panels:
   - scene: >
       Wide establishing shot, full body, long quiet concrete facility
-      corridor stretching into the distance. Dr. Hana walks along mid-
+      corridor stretching into the distance. The attending researcher walks along mid-
       stride carrying a stack of folders, glancing down in surprise
       toward a small worn teddy bear about knee-height peeking out from
       around the corner ahead of her.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-1048は体長約33cmの小さなテディベアであり、自らの意志で移動することができる。"
       en: "SCP-1048 is a small teddy bear, approximately 33 centimeters in height, capable of moving of its own accord."
@@ -58,10 +58,10 @@ panels:
   - scene: >
       Low angle close-up shot, camera near floor level looking up. The
       small teddy bear rushes forward and wraps both stubby arms tightly
-      around Dr. Hana's leg in an affectionate hug, filling the lower
+      around the attending researcher's leg in an affectionate hug, filling the lower
       frame. Her folders spill slightly as she looks down from above with
       a surprised, softening smile.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "本個体は、多くの者が愛らしいと感じる形で、人々に対して繰り返し愛情表現を示す。"
       en: "The subject regularly shows affection to individuals in ways found endearing by most people."
@@ -81,11 +81,11 @@ panels:
 
   - scene: >
       Medium shot, waist-up, both subjects at the same eye level since
-      Dr. Hana has crouched down. The teddy bear proudly holds up a
-      crumpled crayon drawing with both paws, offering it to her. Dr. Hana
+      the attending researcher has crouched down. The teddy bear proudly holds up a
+      crumpled crayon drawing with both paws, offering it to her. The attending researcher
       reaches out, taking the drawing gently with both hands, visibly
       touched.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "本個体は、限られた身振りを通じてコミュニケーションを取ることができる。"
       en: "The subject is capable of communicating through a small range of gestures."
@@ -104,12 +104,12 @@ panels:
       zh_Hant: "該個體能夠透過有限的一些手勢進行交流。"
 
   - scene: >
-      Wide shot, full body, showing the whole office from behind Dr. Hana
+      Wide shot, full body, showing the whole office from behind the attending researcher
       at an angle. She sits at her desk in the foreground, turned around
       in her chair to glance back over her shoulder at the corkboard on
       the far wall, now decorated with the crayon drawing pinned proudly
       at the center among official Foundation memos.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "本個体が作り出したものは、さらなる証拠がより穏当な対応を正当化しない限り、発見次第破壊するものとする。"
       en: "Any creation of SCP-1048's is to be destroyed on sight, unless further evidence warrants less extreme action."

@@ -28,7 +28,7 @@ attribution:
 
 object_class: Keter
 
-characters: [researcher-hana]
+characters: [attending-researcher-f]
 
 panels:
   - scene: >
@@ -36,9 +36,9 @@ panels:
       large, filling most of the long facility hallway. A figure in a
       bulky vintage EMU-style spacesuit with an opaque visor and a
       jetpack marches in mid-stride, one fist raised triumphantly in the
-      air. Dr. Hana is small in the corner of the frame with a clipboard,
+      air. The attending researcher is small in the corner of the frame with a clipboard,
       watching with a deadpan, unimpressed expression.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-1233は、不透明なバイザーと推進用ジェットパックを備えた与圧服型の装備をまとった人型実体である。"
       en: "SCP-1233 is a humanoid entity resembling an individual wearing an EMU-type spacesuit with an opaque visor and jetpack."
@@ -61,8 +61,8 @@ panels:
       on one side and the spacesuited figure on the other. The figure
       snaps a crisp, formal salute directly at the humming vending
       machine, standing at rigid attention as if greeting a fellow
-      soldier. Dr. Hana facepalms quietly in the background.
-    characters: [researcher-hana]
+      soldier. The attending researcher facepalms quietly in the background.
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-1233は自らを『月の勇者、宇宙正義の守護者、悪の滅ぼす者』と称している。"
       en: "SCP-1233 claims to be \"champion of the Moon, defender of space justice and destroyer of evil.\""
@@ -84,10 +84,10 @@ panels:
       Low angle close-up shot, camera near the potted plant looking up at
       the figure towering above. In the break room, the spacesuited
       figure plants an ordinary pen upright into the potted plant like a
-      flag, striking a heroic pose with one boot on a chair. Dr. Hana is
+      flag, striking a heroic pose with one boot on a chair. The attending researcher is
       small in the background doorway, arms crossed, watching with tired
       amusement.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-1233は、人類の文化についてより深く学ぶために地球へ来たと述べている。"
       en: "SCP-1233 states it has come to Earth to learn more of human culture."
@@ -107,10 +107,10 @@ panels:
 
   - scene: >
       Wide shot, full body, eye level, pulled back to show the whole
-      break room. Dr. Hana stands in the doorway with arms still crossed
+      break room. The attending researcher stands in the doorway with arms still crossed
       and a small resigned smile, watching the spacesuited figure proudly
       posing beside the pen-flagged plant across the room.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "その装備は標準的な宇宙服をはるかに超える耐久性を示しており、小火器・地雷・溶岩への完全な水没にも損傷は確認されていない。"
       en: "The suit has shown durability far exceeding that of a standard spacesuit, withstanding small-arms fire, landmines, and even total submersion in magma without damage."

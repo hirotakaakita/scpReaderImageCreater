@@ -46,13 +46,13 @@ def build_prompt(script, panel, cfgs, provider_name=None):
         if key in characters:
             descs.append(characters[key]["description"].strip())
     if descs:
-        parts.append("Characters appearing in this panel (keep these designs exactly consistent):\n- "
+        parts.append("Characters appearing in this image (keep these designs exactly consistent):\n- "
                      + "\n- ".join(descs))
 
     caption_en = (panel.get("caption") or {}).get("en")
     if caption_en:
         parts.append(
-            "This panel illustrates the following in-universe document sentence. "
+            "This image illustrates the following in-universe document sentence. "
             "The scene description below must depict exactly what this sentence "
             "describes (same subject, same action/state) — do not draw a different "
             "moment or unrelated action. Do NOT render this sentence, or any text, "

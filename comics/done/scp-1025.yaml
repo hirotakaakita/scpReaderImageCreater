@@ -27,15 +27,15 @@ attribution:
 
 object_class: Safe
 
-characters: [researcher-hana]
+characters: [attending-researcher-f]
 
 panels:
   - scene: >
-      Wide shot, full body, eye level, showing Dr. Hana's whole desk and
+      Wide shot, full body, eye level, showing the attending researcher's whole desk and
       office from a slight side angle during a quiet moment. She sits
       idly flipping through a thick hardcover book, reading with mild
       curiosity, one finger tracing a line of text on the open page.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-1025は約1500ページに及ぶハードカバーの書籍であり、表紙と背表紙には『よくある病気の大百科』という題名が記されている。"
       en: "SCP-1025 is a hardcover book, approximately 1,500 pages long, titled \"The Encyclopedia of Common Diseases.\""
@@ -54,11 +54,11 @@ panels:
       zh_Hant: "SCP-1025是一本約1500頁的精裝書，書名為《常見病百科全書》。"
 
   - scene: >
-      Close-up shot centered tightly on Dr. Hana's face, filling most of
+      Close-up shot centered tightly on the attending researcher's face, filling most of
       the frame: she jolts upright, one hand flying to her own mouth,
       shoulders hiccuping visibly, eyes wide with surprise, the open book
       just a blurred sliver at the bottom edge of the frame.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "本を読んだ者は、自らが読んだ病気の症状を呈するようになる。効果が現れるまでには数時間を要することがある。"
       en: "Readers of the book exhibit symptoms of any disease they read about; the effect can take several hours to manifest."
@@ -80,9 +80,9 @@ panels:
       Medium shot, waist-up, wide two-shot composition with the doorway
       on one side and the desk on the other. A concerned coworker leans
       into the office doorway, tilting his head with a puzzled expression
-      at Dr. Hana across the room, who is still hiccuping and pointing
+      at the attending researcher across the room, who is still hiccuping and pointing
       guiltily with one hand at the book lying open on her desk.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "本オブジェクトは生物学的危害物質ではなく、記述された症状への思い込みを誘発する記憶災害と判定されている。"
       en: "The object has been determined not to be a biological hazard, but a memetic hazard inducing false belief in the described symptoms."
@@ -101,12 +101,12 @@ panels:
       zh_Hant: "本對象被判定並非生物危害，而是一種誘發對所述症狀產生錯誤認知的迷因型危害。"
 
   - scene: >
-      Wide shot, full body, symmetrical composition with Dr. Hana on one
+      Wide shot, full body, symmetrical composition with the attending researcher on one
       side and the coworker mirrored on the other, both standing and
       hiccuping in unison, shoulders jerking at the same time, staring at
       each other with wide startled eyes, while the encyclopedia sits
       closed on the desk directly between them.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "症状は、対象が読書を中止すれば自然に消失することが確認されている。"
       en: "Symptoms have been confirmed to resolve naturally once the subject stops reading."

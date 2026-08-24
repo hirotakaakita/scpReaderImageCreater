@@ -9,7 +9,8 @@ Claude Codeが行う**（自動化なし）。全体像はREADME.md参照。
    - 記事データ: `../scpjpReaderGithubActions/local-data/scp-data.json` ほか言語別ディレクトリ。
      ただしこれは記事一覧のメタデータ（タイトル・URL等）のみで本文は含まれていない。
      **台本執筆時は`urlJP`/`urlEN`の記事ページを直接取得し、そこにある実際の本文
-     （Special Containment Procedures / Description等）を根拠にすること**。ローカルの
+     （Special Containment Procedures / Description等）を根拠にすること**。
+     **補遺（Addendum）は4コマ本編の題材にしない**（後述）。ローカルの
      要約や記憶だけで書くと、記事が改訂されている場合に内容がズレる（実例:
      scp-105は台本作成時点の記事情報が古く、実際の記事にある外見描写やSCP-105-Bの
      カメラの型番等が反映されていなかった）
@@ -36,6 +37,10 @@ Claude Codeが行う**（自動化なし）。全体像はREADME.md参照。
    - `characters`: **記事に書かれていない人物を勝手に創作しない**。財団職員として
      登場させるなら、SCP財団正史（キャノン）に実在する人物を使う。選定元は
      `config/characters.yaml`（すでに登録済みのキャノン職員はキー名で参照するだけでよい）。
+     ただし単に「立ち会う職員が1人いる」程度で、特定の個性・見た目が物語上
+     重要でない役には、`dr-sage-west`のような個性の強いキャノンキャラを流用せず
+     `attending-researcher-m`/`attending-researcher-f`（無個性・黒髪の汎用職員、
+     `d-class`と同じ位置づけ）を使う。
      未登録の職員を新たに使いたい場合は
      http://scp-jp.wikidot.com/personnel-and-character-dossier
      （財団職員・要注意人物の公式人物ファイル集）から選び、`config/characters.yaml`に
@@ -54,6 +59,13 @@ Claude Codeが行う**（自動化なし）。全体像はREADME.md参照。
      言っているかを絵で視覚化する背景として`scene`を書く**（漫画の演出を先に決めてから
      captionを付けるのではなく、captionで割り当てた記事の一節に合わせてsceneを書く）。
      4コマ目（オチ）も含め**全てのコマに付ける**
+     - **本編4コマの題材はSpecial Containment Procedures / Descriptionのみから選ぶ。
+       補遺（Addendum/Addenda、実験記録、面接記録等の付随文書）の内容は本編captionに
+       混ぜない**。補遺は別インシデント・別時系列のサブエピソードであることが多く、
+       Descriptionの内容と補遺の内容を1つの4コマに混在させると、時系列や場面が
+       ズレて1本の小話として成立しなくなる（実例: scp-105で発生）。補遺の内容を
+       使いたい場合は、4コマとは別に台本トップレベルの`addendum`（1行・最後のコマ下）
+       に留めるか、補遺だけで完結する別の台本として独立させる
    - `attribution`: 記事のURL・著者を記載。著者は記事ページ下部やクレジットモジュールで
      確認できる。不明なら `author` を省略してよい（フッターには出典URLが必ず入る）
    - `object_class`（任意）: Safe / Euclid / Keter 等を**英語のまま**トップレベルに書く。

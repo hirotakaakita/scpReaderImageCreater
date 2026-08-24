@@ -8,27 +8,37 @@ Geminiプロバイダ（`scripts/providers/gemini/`）と同じ
 ## セットアップ
 
 1. ComfyUIをローカルで起動する（既定では `http://127.0.0.1:8188`）。
-2. モデルは **Z-Image Turbo**（Tongyi-MAI、6B、Apache 2.0、8ステップ蒸留で
-   高速・アニメ調にも強い）。**ComfyUIに標準搭載の公式テンプレートで導入する
-   のが一番簡単**（Civitai等でマージ版を探す必要は無い）:
-   - ComfyUIのメニューから `Workflow` → `Browse Templates`（またはトップ画面の
-     テンプレート一覧）を開き、**「Text to Image (Z-Image-Turbo)」**を選ぶ
-   - 選ぶと以下3ファイルの自動ダウンロードを提案される（実行すると
-     `models/` 配下の対応フォルダに保存される）:
-     | ファイル | 保存先 |
-     |---|---|
-     | `z_image_turbo_bf16.safetensors` | `models/diffusion_models/` |
-     | `qwen_3_4b.safetensors` | `models/text_encoders/` |
-     | `ae.safetensors` | `models/vae/` |
-   - `scripts/providers/comfyui/workflow_api.json` は、この公式テンプレートの
-     ノード構成（`UNETLoader` + `CLIPLoader` + `VAELoader` +
-     `ModelSamplingAuraFlow` + `KSampler` 等）をAPI形式で再現したもの。
-     上記3ファイルのデフォルトファイル名と一致していればそのまま動く
-   - VRAMが厳しい場合は同テンプレート内でfp8/GGUF版への差し替えも案内される
-3. `config/style.yaml` の `generation.provider` を `comfyui` にする
-   （`generation.comfyui` の `unet_name` / `clip_name` / `vae_name` /
-   `steps: 8` / `cfg: 1` / `sampler_name: res_multistep` / `scheduler: simple`
-   はZ-Image Turbo公式テンプレートの推奨値。ファイル名を変えた場合はそこも合わせる）。
+2. モデルは **Qwen-Image 2512**（fp8）。ComfyUIの `Workflow` → `Browse Templates` →
+   「Text to Image (Qwen-Image 2512)」を選ぶと、以下3ファイルの自動ダウンロードを
+   提案される（`models/` 配下の対応フォルダに保存される）:
+   | ファイル | 保存先 |
+   |---|---|
+   | `qwen_image_2512_fp8_e4m3fn.safetensors` | `models/diffusion_models/` |
+   | `qwen_2.5_vl_7b_fp8_scaled.safetensors` | `models/text_encoders/` |
+   | `qwen_image_vae.safetensors` | `models/vae/` |
+3. 画風LoRA（`generation.comfyui.style_lora_name`、既定は
+   `QwenImage_blackline.safetensors`）を `models/loras/` に配置する。
+   Civitai等で配布されているQwen-Image用スタイルLoRAを差し替えれば別の画風も試せる
+   （ライセンスは配布元ごとに要確認）。
+4. `scripts/providers/comfyui/workflow_api_qwen_style.json` は、
+   `UNETLoader` → 画風LoRA(`LoraLoaderModelOnly`) → `ModelSamplingAuraFlow` →
+   `KSampler` という構成。既定は**高速化LoRA無し**（`steps: 30` / `cfg: 2` /
+   `sampler_name: euler` / `scheduler: simple`）。速度を優先したい場合は
+   `LoraLoaderModelOnly` ノードを追加してUNETLoaderと画風LoRAの間に高速化LoRA
+   （例: `Qwen-Image-2512-Lightning-4steps-V1.0-fp32.safetensors`）を挟み、
+   `steps`/`cfg`をそのLoRAの推奨値に合わせて下げること（ただし下記の重複キャラ
+   問題が再発しやすい）。
+
+   **重要**: プロンプト文中（`generate_panels.py`の`build_prompt()`と
+   `config/style.yaml`の`prompt.comfyui.*`）には`"panel"`/`"grid"`/`"frame"`/
+   `"comic"`/`"manga"`/`"story"`等、複数コマ・ページ構成を連想させる単語を
+   一切使わないこと（「〜にしないで」という否定形で使うのも不可）。検証の結果、
+   これらの単語が入っていると、cfgを上げるほど単語への忠実度が増して、
+   1枚の絵のはずが2×2グリッドの複数コマ画像として生成されてしまう問題が
+   毎回発生することが分かった。逆にこれらの単語を排除した上でcfgを上げると、
+   グリッド化を防ぎつつ、低cfg（`cfg: 1`、2ステップ高速化LoRA使用時など）で
+   起きやすかった「1コマ内に同じキャラが重複して描かれる」問題も解消された。
+5. `config/style.yaml` の `generation.provider` を `comfyui` にする。
 
 ## workflow_api.json の差し替えルール
 
@@ -48,15 +58,16 @@ Geminiプロバイダ（`scripts/providers/gemini/`）と同じ
 | `class_type == "KSampler"` | サンプラー設定（必須） | `seed` / `steps` / `cfg` / `sampler_name` / `scheduler` |
 | `class_type == "SaveImage"` | 出力ノード（必須） | （書き換えなし。結果取得に使うだけ） |
 
-Z-Image Turbo公式テンプレートはネガティブプロンプトの代わりに
-`ConditioningZeroOut`（Positiveの条件付けをゼロ化したものをそのままnegativeに使う）
-を使っているため、`negative_prompt` の設定値は無視される。SDXL系など
-実際に「Negative Prompt」というtitleのCLIPTextEncodeノードを持つワークフローに
-差し替えれば、その値が反映されるようになる。
+`workflow_api_qwen_style.json`（既定のフル品質ワークフロー）は実際の
+「Negative Prompt」titleのCLIPTextEncodeノードを持つため、`negative_prompt` の
+設定値がそのままプロンプトに反映される。一方、Z-Image Turbo等の高速化LoRA前提の
+公式テンプレートはネガティブプロンプトの代わりに `ConditioningZeroOut`
+（Positiveの条件付けをゼロ化したものをそのままnegativeに使う）を使っており、
+その場合は `negative_prompt` の設定値は無視される（`workflow_api.json` 参照）。
 
 IPAdapterやControlNetなど画像入力ノードを足せば、`ref_images`
 （キャラ参照画像・直前コマ画像）を渡すよう拡張することも可能
-（現状のZ-Image Turboテンプレートは画像入力が無いため `ref_images` は無視される）。
+（現状のQwen-Image用ワークフローは画像入力が無いため `ref_images` は無視される）。
 
 ## 挙動
 

@@ -23,19 +23,10 @@
     },
     "_meta": { "title": "VAE Loader" }
   },
-  "4": {
-    "class_type": "LoraLoaderModelOnly",
-    "inputs": {
-      "model": ["1", 0],
-      "lora_name": "Wuli-Qwen-Image-2512-Turbo-LoRA-2steps-V1.0-bf16.safetensors",
-      "strength_model": 1.0
-    },
-    "_meta": { "title": "LoRA Loader (2-step turbo)" }
-  },
   "12": {
     "class_type": "LoraLoaderModelOnly",
     "inputs": {
-      "model": ["4", 0],
+      "model": ["1", 0],
       "lora_name": "QwenImage_blackline.safetensors",
       "strength_model": 1.0
     },
@@ -45,7 +36,7 @@
     "class_type": "ModelSamplingAuraFlow",
     "inputs": {
       "model": ["12", 0],
-      "shift": 3
+      "shift": 3.1
     },
     "_meta": { "title": "Model Sampling (AuraFlow)" }
   },
@@ -58,11 +49,12 @@
     "_meta": { "title": "Positive Prompt" }
   },
   "7": {
-    "class_type": "ConditioningZeroOut",
+    "class_type": "CLIPTextEncode",
     "inputs": {
-      "conditioning": ["6", 0]
+      "text": "text, watermark, signature, blurry, lowres, extra limbs, bad anatomy, jpeg artifacts, duplicate character, extra person, cloned face",
+      "clip": ["2", 0]
     },
-    "_meta": { "title": "Negative (Zeroed Conditioning)" }
+    "_meta": { "title": "Negative Prompt" }
   },
   "8": {
     "class_type": "EmptySD3LatentImage",
@@ -77,8 +69,8 @@
     "class_type": "KSampler",
     "inputs": {
       "seed": 0,
-      "steps": 2,
-      "cfg": 1,
+      "steps": 30,
+      "cfg": 2,
       "sampler_name": "euler",
       "scheduler": "simple",
       "denoise": 1.0,

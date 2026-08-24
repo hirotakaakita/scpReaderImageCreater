@@ -7,6 +7,7 @@ import argparse
 import json
 import os
 import sys
+import time
 
 from PIL import Image, ImageDraw
 
@@ -119,7 +120,16 @@ def embed(script, cfgs, languages=None):
                       f"addendum lang={lang}")
 
         out = os.path.join(comic_dir, f"{lang}.png")
-        img.save(out)
+        # Windows環境で稀に一時的なファイルロック(OSError: Invalid argument)が
+        # 発生することがあるため、短い間隔でリトライする
+        for attempt in range(5):
+            try:
+                img.save(out)
+                break
+            except OSError:
+                if attempt == 4:
+                    raise
+                time.sleep(0.5)
         generated.append(lang)
 
     meta["languages"] = generated

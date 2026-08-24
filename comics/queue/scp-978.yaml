@@ -27,16 +27,16 @@ attribution:
 
 object_class: Safe
 
-characters: [researcher-hana]
+characters: [attending-researcher-f]
 
 panels:
   - scene: >
       Wide shot, full body, high angle looking down over the cramped
-      office buried in stacks of paperwork. Dr. Hana sits hunched at her
+      office buried in stacks of paperwork. The attending researcher sits hunched at her
       desk looking exhausted, while a cheerful coworker leans in from the
       side holding up an old red-and-black Polaroid camera, aiming it
       playfully at her.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-978は赤と黒の標準的なポラロイドカメラであり、外見上目立った特徴や損傷は見られない。"
       en: "SCP-978 appears to be a standard red-and-black Polaroid camera, with no distinctive identifying marks."
@@ -55,11 +55,11 @@ panels:
       zh_Hant: "SCP-978外觀上是一台標準的紅黑相間寶麗來相機，沒有明顯的識別特徵。"
 
   - scene: >
-      Close-up shot centered on Dr. Hana's face, filling most of the
+      Close-up shot centered on the attending researcher's face, filling most of the
       frame, lit starkly white by a bright camera flash from off-frame.
       She squints and flinches with one hand half-raised against the
       light.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-978はセキュリティロッカーに保管され、レベル2以上の権限を持つ職員のみが取り扱うことを許される。"
       en: "SCP-978 is to be kept in a security locker, and may only be handled by personnel with Level-2 clearance or higher."
@@ -80,10 +80,10 @@ panels:
   - scene: >
       Extreme close-up shot on the small Polaroid photo itself, filling
       almost the entire frame, held between two blurred pairs of fingers.
-      The photo clearly shows Dr. Hana lounging in a beach chair under a
+      The photo clearly shows the attending researcher lounging in a beach chair under a
       palm tree, sipping a drink with a tiny umbrella, completely at
       ease.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-978で撮影された写真には、被写体が撮影時に行っていたことではなく、被写体が行いたいと望んでいたことが写る。"
       en: "A photograph taken with SCP-978 shows not what the subject was doing at the time, but what the subject wanted to be doing."
@@ -103,10 +103,10 @@ panels:
 
   - scene: >
       Wide shot, full body, low angle from across the desk, showing the
-      whole cramped office again. Dr. Hana pins the beach photo to the
+      whole cramped office again. The attending researcher pins the beach photo to the
       edge of her monitor and slumps back over her keyboard, staring
       wistfully at it while towering stacks of paperwork surround her.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-978は、脅迫・娯楽・私的な目的のために使用してはならない。"
       en: "SCP-978 is not to be used for blackmail, entertainment, or personal reasons."

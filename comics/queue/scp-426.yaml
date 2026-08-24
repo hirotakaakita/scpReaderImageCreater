@@ -28,7 +28,7 @@ attribution:
 
 object_class: Euclid
 
-characters: [researcher-hana]
+characters: [attending-researcher-f]
 
 panels:
   - scene: >
@@ -36,9 +36,9 @@ panels:
       room from a corner angle. A plain metal toaster sits on a shelf with
       a small warning placard beside it. A young male intern in a
       Foundation polo shirt leans in curiously toward it, reading the
-      placard, while Dr. Hana watches from a doorway across the room with
+      placard, while the attending researcher watches from a doorway across the room with
       a mug in hand, unconcerned.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "『はじめまして、私はSCP-426です。電気を供給すればパンを焼くことができる、ごく普通のトースターです。』"
       en: "\"Hello, I am SCP-426. I am an ordinary toaster, able to toast bread when supplied with electricity.\""
@@ -59,9 +59,9 @@ panels:
   - scene: >
       Close-up shot centered tightly on the intern's face, filling most of
       the frame: a blank glassy stare, mouth slightly open, speaking in a
-      flat monotone. Dr. Hana is small and out of focus in the background,
+      flat monotone. The attending researcher is small and out of focus in the background,
       eyes wide in alarm.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "私について言及した者は、無意識のうちに、私と同じく一人称で自分自身を語るようになる。"
       en: "Anyone who mentions me will begin, unconsciously, to refer to themselves in the first person, as I do."
@@ -83,10 +83,10 @@ panels:
       Medium shot, waist-up, dynamic diagonal composition. The intern
       pops both arms straight up above his head suddenly, like toast
       popping out, a wide vacant grin on his face, motion lines around
-      his arms. Beside him Dr. Hana recoils backward off-balance with
+      his arms. Beside him the attending researcher recoils backward off-balance with
       both hands raised, spilling her coffee cup in mid-air, utterly
       startled.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "私の第二の効果による汚染を防ぐため、担当職員は毎月ローテーションで交代させること。"
       en: "Assigned personnel are to be rotated out on a monthly basis to prevent contamination by my secondary effect."
@@ -106,11 +106,11 @@ panels:
 
   - scene: >
       Wide shot, full body, viewed from inside the doorway looking out into
-      the corridor. Dr. Hana firmly drags the intern out of the break room
+      the corridor. The attending researcher firmly drags the intern out of the break room
       by the collar, both mid-stride, while pointing sternly with her
       other hand at a large sign taped to the door with an unreadable
       pictogram on it. The intern still has the same vacant grin.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "私の収容室の扉には、私の識別名や正体とは無関係な表示のみを付けること。"
       en: "The door to my chamber must have a label completely unrelated to my designation or identity."

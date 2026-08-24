@@ -27,16 +27,16 @@ attribution:
 
 object_class: Safe
 
-characters: [researcher-hana]
+characters: [attending-researcher-f]
 
 panels:
   - scene: >
       Wide shot, full body, showing the whole modest break room from the
-      doorway. Dr. Hana enters carrying an empty mug and stops mid-step,
+      doorway. The attending researcher enters carrying an empty mug and stops mid-step,
       noticing a kindly elderly man with a gentle, faintly glowing
       presence sitting calmly at the table across the room, sipping tea
       with perfect serenity, features soft and hard to quite focus on.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-343は男性の姿をした、人種の判然としない人型実体であり、外見上あらゆる能力を持つように見える。"
       en: "SCP-343 is a male, seemingly race-less, humanoid in appearance with apparent omnipotence."
@@ -58,9 +58,9 @@ panels:
       Close-up shot centered on the elderly man's face, filling most of
       the frame: he smiles warmly and nods once, setting down his teacup
       just visible below, radiating calm confidence without any drama.
-      Dr. Hana's face, half-convinced and half-amused, is a small sliver
+      The attending researcher's face, half-convinced and half-amused, is a small sliver
       at the frame's edge.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "初めての面談で、SCP-343は自らを宇宙の創造主であると率直に主張した。"
       en: "In his first interview, SCP-343 claimed outright to be the creator of the universe."
@@ -82,9 +82,9 @@ panels:
       Medium shot, dynamic composition. The old man's arm reaches directly
       into the solid wall of the break room as if it were not there,
       then withdraws holding a hamburger, offering it out casually with a
-      small smile. Dr. Hana stares at the wall and the hamburger, utterly
+      small smile. The attending researcher stares at the wall and the hamburger, utterly
       stunned.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "証明を求められると、彼は笑い、壁をすり抜けて姿を消し、数秒後にハンバーガーを手にして戻ってきた。"
       en: "When asked to prove this, he laughed, walked through the wall of the chamber, and returned seconds later with a hamburger in his hand."
@@ -104,10 +104,10 @@ panels:
 
   - scene: >
       Wide shot, full body, pulled back to show the whole break room
-      table from a slight side angle. Dr. Hana sits across from the old
+      table from a slight side angle. The attending researcher sits across from the old
       man, sipping her own coffee contentedly, while he continues calmly
       sipping his tea across from her, both perfectly relaxed.
-    characters: [researcher-hana]
+    characters: [attending-researcher-f]
     caption:
       ja: "SCP-343の収容手順は、日々の対話の機会を設けることのみである。彼の部屋は本人の意思で拡張し、物理的に拘束することはできない。"
       en: "Containment procedures for SCP-343 consist solely of providing daily interaction, as his chamber expands at will and cannot be physically constrained."

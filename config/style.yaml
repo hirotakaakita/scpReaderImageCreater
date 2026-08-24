@@ -49,36 +49,44 @@ prompt:
     # LoRAの効きを阻害するため）。ここに書くのはジャンル・雰囲気・世界観など
     # 画風LoRAを差し替えても変わらない内容のみ。「1枚の絵だけ」という構図の
     # 制約はcomposition_rules側で明示している。
+    # "yonkoma"（四コマ）だけでなく"manga"/"comic"/"story"のような、複数ページ・
+    # コマ割りを連想させる単語は一切入れない。single-panel指示と矛盾し、cfgを
+    # 上げるほどモデルがグリッド割りの方に強く引っ張られることを検証で確認した。
+    # style_lora_strength=0（LoRA無し）でも同じくグリッド化したため、原因は
+    # LoRAではなくベースモデルが"manga"等の語からページ形式の学習分布を
+    # 強く連想することだと判明している。
     style_prompt: >
-      A single illustration frame from a Japanese-style SCP Foundation yonkoma
-      gag comic. The mood is lightly comedic with a hint of eerie SCP
-      Foundation atmosphere (concrete corridors, fluorescent lights,
-      containment facility props).
+      A single anime-style character illustration, one continuous scene
+      capturing a lightly comedic moment from an SCP Foundation incident
+      report. A hint of eerie SCP Foundation atmosphere (concrete corridors,
+      fluorescent lights, containment facility props).
 
+    # 画角のバリエーション（wide/medium/close-up等の指定）は台本(scene)側で
+    # コマごとに個別に書く運用にしている（CLAUDE.md参照）ため、ここで複数の
+    # 画角候補を列挙しない。
+    # また、"panel"/"grid"/"frame"/"multiple"のような単語は否定形（〜にしない
+    # で）であっても一切使わない。拡散モデルは否定を苦手とし、cfgが高いほど
+    # プロンプト中の単語自体への忠実度が上がるため、「grid化するな」という
+    # 指示がかえって「grid」という概念を強めてしまい、SCP漫画の実プロンプト
+    # （文章量が多く、キャラ説明・引用文・sceneが並ぶ構造）でgrid状の複数コマ
+    # 画像が生成される主因になっていたことを検証で確認した（同じcfg/stepsでも
+    # panel/grid語を含まない単純なプロンプトではgrid化しなかった）。
     composition_rules: >
-      This is ONE single continuous illustration filling the entire square
-      image edge to edge — there is only one scene, one moment in time, no
-      panel borders or gutters inside the image, and no grid of smaller
-      pictures. Characters drawn at a readable size, main subject clearly
-      visible. Consistent character designs must be kept exactly as described.
-      Vary the shot scale and camera angle between generations: mix
-      wide/establishing shots (full body, showing the room), medium shots
-      (waist-up), and close-ups (face or a key object/detail filling most of
-      the frame), and vary the camera height (eye-level, low angle looking up,
-      high angle looking down) and character placement (off-center,
-      foreground/background depth). Favor dynamic, asymmetric poses and motion
-      (mid-stride, leaning, reaching, turning) over static front-facing
-      standing poses.
+      One unified, seamless illustration filling the entire square image
+      edge to edge, depicting a single continuous moment in time. Characters
+      drawn at a readable size, main subject clearly visible. Consistent
+      character designs must be kept exactly as described. Favor dynamic,
+      asymmetric poses and motion (mid-stride, leaning, reaching, turning)
+      over static front-facing standing poses.
 
     no_text_rules: >
       ABSOLUTE RULE, HIGHEST PRIORITY: this image contains ZERO text of any
       kind. Do not draw any letters, words, numbers, logos, signage, or
       written characters in any language, anywhere in the image, for any
       reason — not on objects, walls, screens, books, or clothing. Do not draw
-      any speech bubbles, thought bubbles, dialogue boxes, caption boxes, or
-      sound-effect lettering. Do not divide the image into multiple panels or
-      sub-frames — draw only one single unified scene. Leave clean, empty,
-      uncluttered background areas instead of text or bubbles.
+      any speech bubbles, thought bubbles, dialogue boxes, or sound-effect
+      lettering. Leave clean, empty, uncluttered background areas instead of
+      text or bubbles.
 
 # 生成APIの設定。
 # provider: gemini（Nano Banana, デフォルト） / comfyui（ローカルComfyUI）を切替可能。
@@ -106,15 +114,27 @@ generation:
     # ローカルで起動したComfyUIのAPIを叩いて生成する。要セットアップ、詳細は
     # scripts/providers/comfyui/README.md 参照。
     #
-    # モデルは Qwen-Image 2512（fp8, 2ステップ高速化LoRA付き）+ 画風LoRA
-    # 「QwenImage_blackline」（モノクロ・リソグラフ調の線画スタイル）。
-    # 自然文のscene指示への追従力が非常に高く、単発コマ生成でも文字焼き込みが
-    # 無く安定することを確認済み（Z-Image Turbo/Animagine XLとの比較検証より）。
+    # モデルは Qwen-Image 2512（fp8）+ 画風LoRA「QwenImage_blackline」
+    # （モノクロ・リソグラフ調の線画スタイル）。高速化LoRA無し、実際の
+    # CLIPTextEncodeによるnegative promptを使う構成。
+    #
+    # steps=30/cfg=2で運用する。以前はsteps=50/cfg=4（Qwen-Image 2512公式の
+    # フルモード推奨値）だったが、cfgを上げるほど毎回グリッド状の複数コマ画像
+    # が生成される問題が発生した。原因はcfgやLoRAではなく、プロンプト文中に
+    # "panel"/"grid"/"frame"/"comic"/"manga"/"story"等、複数コマ・ページ構成を
+    # 連想させる単語が（"〜にしないで"という否定形も含めて）含まれていたこと
+    # だと検証で特定した。拡散モデルは否定を苦手とし、cfgが高いほどプロンプト
+    # 中の単語自体への忠実度が上がるため、それらの単語がむしろ強調されていた
+    # （generate_panels.pyのbuild_prompt()とprompt.comfyui.*から該当語を排除
+    # 済み）。単語を除去した上でsteps=30/cfg=2にしたところ、グリッド化と
+    # cfg=1/steps=2（旧・高速化LoRA設定）で見られた1コマ内の同一キャラ重複の
+    # 両方が解消された。高速化したい場合はworkflow_api_qwen_style.jsonに
+    # "LoRA Loader (2-step turbo)" ノードを復元しstyle_lora手前に繋ぎ直し、
+    # steps=2/cfg=1に戻すこと（ただし上記の重複キャラ問題が再発しやすい）。
     # 必要ファイル（models/配下の対応フォルダに配置）:
     #   diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors
     #   text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
     #   vae/qwen_image_vae.safetensors
-    #   loras/Wuli-Qwen-Image-2512-Turbo-LoRA-2steps-V1.0-bf16.safetensors（高速化用、常時適用）
     #   loras/QwenImage_blackline.safetensors（画風。差し替えれば別の画風も試せる）
     #
     # 過去に検証したZ-Image Turbo設定は workflow_api.json 側に残してあるので、
@@ -126,16 +146,19 @@ generation:
     clip_name: "qwen_2.5_vl_7b_fp8_scaled.safetensors"
     vae_name: "qwen_image_vae.safetensors"
     style_lora_name: "QwenImage_blackline.safetensors"
-    style_lora_strength: 1.0
+    # steps=30まで上げるとベースモデル自身の色彩表現が乗ってきてLoRAの
+    # モノクロ・リソグラフ調が薄まるため、strength 1.0→1.4に上げて補正した
+    # （検証: strength 1.4でLoRA選定時の見た目に近い出力に戻ることを確認）。
+    style_lora_strength: 1.4
     width: 1328                       # Qwen-Image公式推奨の正方形解像度
     height: 1328
-    steps: 2                          # 2ステップ高速化LoRA前提
-    cfg: 1
+    steps: 30
+    cfg: 2
     sampler_name: euler
     scheduler: simple
-    # Qwen-Imageの公式ワークフローも実際のネガティブプロンプトを使わず
-    # ConditioningZeroOutで代用しているため、この値は現状無視される
-    negative_prompt: "text, watermark, signature, blurry, lowres, extra limbs, bad anatomy, jpeg artifacts"
+    # フル品質ワークフローでは実際のCLIPTextEncodeノードを使うため、この値は
+    # 実際にプロンプトへ反映される（高速化LoRA使用時のConditioningZeroOutとは異なる）
+    negative_prompt: "text, watermark, signature, blurry, lowres, extra limbs, bad anatomy, jpeg artifacts, duplicate character, extra person, cloned face, comic page, manga page, panel grid, four panel comic, multiple panels, comic strip, storyboard, page layout, panel borders, split screen"
     seed: -1                          # -1 なら生成のたびにランダム
     max_retries: 3
     retry_wait_seconds: 10
