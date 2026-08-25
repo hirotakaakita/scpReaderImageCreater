@@ -35,7 +35,8 @@ local_characters:
     name: SCP-105
     description: >
       SCP-105, a young blonde European woman with blue eyes, petite,
-      unremarkable.
+      unremarkable. Wears a plain white lab coat over regular clothes,
+      with a blank white ID card clipped to the chest pocket.
 
 characters: [scp-105, attending-researcher-f]
 
@@ -93,13 +94,18 @@ panels:
       zh_Hant: "當SCP-105持有用SCP-105-B拍攝的照片時，畫面會從靜止照片轉變為該地點的即時影像。"
 
   - scene: >
-      Medium shot, dynamic diagonal composition. SCP-105 holds a photograph
-      out in front of her with both hands; a pale, disembodied female hand
-      emerges
-      straight out of the flat surface of the photo, reaching into the real
-      room and closing its fingers around a small object on a nearby table.
-      The attending researcher flinches back in shock, eyes huge, one hand raised
-      defensively.
+      Medium shot, dynamic diagonal composition. On the left side of the
+      frame, SCP-105 holds a Polaroid photograph up in front of her; her
+      free hand reaches around behind the photograph and disappears into
+      its back side, as though passing through a hidden doorway there (her
+      hand does not emerge from the front of the photo). The photograph
+      itself displays a live, moving view of the very room they are
+      standing in, not a static picture. On the right side of the
+      frame, a faint shimmering warp-gate-like portal hovers in midair
+      above a small table, and a pale, disembodied female hand emerges from
+      the portal, reaching down toward a small object on the table. The
+      attending researcher stands nearby, watching with a shocked
+      expression, eyes wide, one hand raised in surprise.
     characters: [scp-105, attending-researcher-f]
     caption:
       ja: "SCP-105は写真を通じ、撮影地点の届く範囲にある物体を操作することができます。目撃者は、肉体から離れた女性の手が目に見えない穴からのびて動作を行ったと報告しています。"

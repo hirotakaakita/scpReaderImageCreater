@@ -114,14 +114,13 @@ def compose(script, cfgs):
     if has_addendum:
         drawing.draw_caption_frame(draw, addendum_rect, addendum_cfg)
 
-    # フッター（ライセンス表記・全言語共通）
+    # フッターの罫線のみここで描く（文字は「AI利用」の一文を言語別にする都合上、
+    # ライセンス表記2行とまとめてembed_text.pyが言語別に描く。build_footer_linesは
+    # そちらから呼ばれる）
     frule = layout["footer"].get("rule_width", 0)
     if frule:
         y = footer_rect[1]
         draw.rectangle((margin, y, width - margin, y + frule), fill="#AAAAAA")
-    footer_font = cfglib.rootpath(lang_cfg["fonts"]["default"])
-    drawing.draw_footer_text(draw, footer_rect, build_footer_lines(script),
-                             footer_font, layout["footer"])
 
     base_path = os.path.join(comic_dir, "base.png")
     img.save(base_path)

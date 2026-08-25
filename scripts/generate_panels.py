@@ -110,7 +110,24 @@ def make_mock_panel(index):
     return img
 
 
-def generate(script, cfgs, mock=False):
+def _check_panel_index(script, panel):
+    n = len(script["panels"])
+    if panel is not None and not (1 <= panel <= n):
+        raise ValueError(f"--panel must be between 1 and {n} (got {panel})")
+
+
+def _merge_prompts_log(existing, new_entries):
+    """panel番号をキーに、既存ログへ新しいエントリを上書きマージする
+    （--panel指定で1コマだけ再生成した場合に他コマのログを消さないため）。"""
+    by_panel = {e["panel"]: e for e in existing}
+    for e in new_entries:
+        by_panel[e["panel"]] = e
+    return [by_panel[k] for k in sorted(by_panel)]
+
+
+def generate(script, cfgs, mock=False, panel=None):
+    """全コマ、または panel（1始まりのコマ番号）を指定すればそのコマだけ生成する。"""
+    _check_panel_index(script, panel)
     comic_dir = os.path.join(cfglib.OUTPUT_DIR, script["id"])
     panels_dir = os.path.join(comic_dir, "panels")
     os.makedirs(panels_dir, exist_ok=True)
@@ -119,24 +136,38 @@ def generate(script, cfgs, mock=False):
     provider_name = gen_cfg.get("provider", "gemini")
     provider = providers.get(provider_name) if not mock else None
 
-    prompts_log = []
     n = len(script["panels"])
+    targets = [panel] if panel else list(range(1, n + 1))
+
+    # 単一コマ指定時、前コマ参照用にディスク上の既存panel_k.pngを拾っておく
     prev_paths = []
-    for i, panel in enumerate(script["panels"], 1):
+    for k in range(1, targets[0]):
+        existing = os.path.join(panels_dir, f"panel_{k}.png")
+        if os.path.exists(existing):
+            prev_paths.append(existing)
+
+    prompts_log = []
+    for i in targets:
+        p = script["panels"][i - 1]
         out_path = os.path.join(panels_dir, f"panel_{i}.png")
-        prompt = build_prompt(script, panel, cfgs, provider_name)
+        prompt = build_prompt(script, p, cfgs, provider_name)
         prompts_log.append({"panel": i, "prompt": prompt})
         print(f"[generate] panel {i}/{n}")
         if mock:
             img = make_mock_panel(i)
         else:
-            refs = collect_reference_images(script, panel, cfgs, prev_paths)
+            refs = collect_reference_images(script, p, cfgs, prev_paths)
             img = provider.generate_image(prompt, refs, gen_cfg)
         img.convert("RGB").save(out_path)
         prev_paths.append(out_path)
 
-    with open(os.path.join(panels_dir, "prompts.json"), "w", encoding="utf-8") as f:
-        json.dump(prompts_log, f, ensure_ascii=False, indent=2)
+    prompts_path = os.path.join(panels_dir, "prompts.json")
+    existing_log = []
+    if os.path.exists(prompts_path):
+        with open(prompts_path, encoding="utf-8") as f:
+            existing_log = json.load(f)
+    with open(prompts_path, "w", encoding="utf-8") as f:
+        json.dump(_merge_prompts_log(existing_log, prompts_log), f, ensure_ascii=False, indent=2)
     return comic_dir
 
 
@@ -156,14 +187,16 @@ def _next_variant_start(temp_dir, panel_index):
     return max_v + 1
 
 
-def generate_variants(script, cfgs, count, mock=False):
+def generate_variants(script, cfgs, count, mock=False, panel=None):
     """各コマにつきcount枚の候補を output/<id>/panels_temp/panel_N_vM.png に生成する。
+    panel（1始まりのコマ番号）を指定すればそのコマだけ候補を追加生成する。
 
     panels/panel_N.png には一切書き込まない（選別前の下書き置き場）。
     人手でpanels_temp/から気に入った1枚を選び、panels/panel_N.pngとして
     保存してから --skip-generate で合成・埋め込みを実行する運用を想定している。
     既に候補が残っている場合は上書きせず、次のバージョン番号から追加生成する。
     """
+    _check_panel_index(script, panel)
     comic_dir = os.path.join(cfglib.OUTPUT_DIR, script["id"])
     temp_dir = os.path.join(comic_dir, "panels_temp")
     os.makedirs(temp_dir, exist_ok=True)
@@ -172,10 +205,13 @@ def generate_variants(script, cfgs, count, mock=False):
     provider_name = gen_cfg.get("provider", "gemini")
     provider = providers.get(provider_name) if not mock else None
 
-    prompts_log = []
     n = len(script["panels"])
-    for i, panel in enumerate(script["panels"], 1):
-        prompt = build_prompt(script, panel, cfgs, provider_name)
+    targets = [panel] if panel else list(range(1, n + 1))
+
+    prompts_log = []
+    for i in targets:
+        p = script["panels"][i - 1]
+        prompt = build_prompt(script, p, cfgs, provider_name)
         prompts_log.append({"panel": i, "prompt": prompt})
         start = _next_variant_start(temp_dir, i)
         for offset in range(count):
@@ -190,17 +226,19 @@ def generate_variants(script, cfgs, count, mock=False):
                 img = provider.generate_image(prompt, [], gen_cfg)
             img.convert("RGB").save(out_path)
 
+    # 画像候補(panel_N_vM.png)は上書きせず積み上げるが、prompts.jsonは
+    # パネル番号ごとに最新のプロンプトだけ残す（ログの肥大・重複を防ぐ）
     prompts_path = os.path.join(temp_dir, "prompts.json")
     existing_log = []
     if os.path.exists(prompts_path):
         with open(prompts_path, encoding="utf-8") as f:
             existing_log = json.load(f)
     with open(prompts_path, "w", encoding="utf-8") as f:
-        json.dump(existing_log + prompts_log, f, ensure_ascii=False, indent=2)
+        json.dump(_merge_prompts_log(existing_log, prompts_log), f, ensure_ascii=False, indent=2)
 
     panels_rel = os.path.relpath(os.path.join(comic_dir, "panels"), cfglib.ROOT)
     temp_rel = os.path.relpath(temp_dir, cfglib.ROOT)
-    print(f"\n[generate] {n} panels x {count} variants -> {temp_rel}/")
+    print(f"\n[generate] {len(targets)} panel(s) x {count} variants -> {temp_rel}/")
     print(f"気に入った候補を選び {temp_rel}/panel_N_vM.png を {panels_rel}/panel_N.png "
           f"としてコピーしたら、次を実行してください:")
     print(f"  python scripts/run_pipeline.py --id {script['id']} --skip-generate")
@@ -313,15 +351,17 @@ def main():
                     help="APIを呼ばずGoogle AI Studio向けにプロンプト・参照画像を書き出す")
     ap.add_argument("--variants", type=int,
                     help="コマごとにN枚の候補をpanels_temp/に生成する（選別用、panels/は書き換えない）")
+    ap.add_argument("--panel", type=int,
+                    help="指定したコマ番号（1始まり）だけ生成する。省略時は全コマ")
     args = ap.parse_args()
     cfgs = cfglib.load_configs()
     script = cfglib.load_script(args.script_path)
     if args.export_prompts:
         export_prompts(script, cfgs)
     elif args.variants:
-        generate_variants(script, cfgs, args.variants, mock=args.mock)
+        generate_variants(script, cfgs, args.variants, mock=args.mock, panel=args.panel)
     else:
-        generate(script, cfgs, mock=args.mock)
+        generate(script, cfgs, mock=args.mock, panel=args.panel)
 
 
 if __name__ == "__main__":

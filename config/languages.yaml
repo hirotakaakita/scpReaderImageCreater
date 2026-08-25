@@ -45,6 +45,24 @@ object_class_label:
   zh: "对象等级："
   zh_Hant: "對象等級："
 
+# フッター最下部に言語別で表示するAI利用の告知（embed_text.pyが描く）
+ai_notice:
+  ja: "本作品のイラスト・翻訳はAIによって生成されています。"
+  en: "This comic's artwork and translations were generated with AI."
+  cs: "Ilustrace a překlady tohoto komiksu byly vytvořeny pomocí AI."
+  de: "Die Illustrationen und Übersetzungen dieses Comics wurden mit KI erstellt."
+  es: "Las ilustraciones y traducciones de este cómic fueron generadas con IA."
+  fr: "Les illustrations et traductions de cette bande dessinée ont été générées par IA."
+  it: "Le illustrazioni e le traduzioni di questo fumetto sono state generate con l'IA."
+  ko: "이 만화의 일러스트와 번역은 AI로 생성되었습니다."
+  pl: "Ilustracje i tłumaczenia tego komiksu zostały wygenerowane przez AI."
+  pt: "As ilustrações e traduções desta história em quadrinhos foram geradas por IA."
+  th: "ภาพประกอบและคำแปลของการ์ตูนเรื่องนี้สร้างขึ้นด้วย AI"
+  uk: "Ілюстрації та переклади цього коміксу створені за допомогою ШІ."
+  vi: "Hình minh họa và bản dịch của truyện tranh này được tạo bằng AI."
+  zh: "本漫画的插图与翻译均由AI生成。"
+  zh_Hant: "本漫畫的插圖與翻譯均由AI生成。"
+
 fonts:
   default: fonts/NotoSans-Bold.ttf   # ラテン文字・キリル文字・ベトナム語をカバー
   by_language:

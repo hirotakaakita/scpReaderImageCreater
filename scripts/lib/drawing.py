@@ -246,15 +246,16 @@ def draw_caption_text(draw, rect, text, font_path, caption_cfg,
     return fits
 
 
-def draw_footer_text(draw, footer_rect, lines_of_text, font_path, footer_cfg):
-    """ライセンス表記をフッター帯に描く。"""
+def draw_footer_text(draw, footer_rect, lines_of_text, font_path, footer_cfg,
+                     fallback_path=None):
+    """ライセンス表記（+言語別のAI利用告知）をフッター帯に描く。"""
     x0, y0, x1, y1 = footer_rect
     size = footer_cfg["font_size"]
     spacing = footer_cfg["line_spacing"]
     # 全行が幅に収まるサイズまで縮小
-    fs = textutil.FontSet(font_path, size)
+    fs = textutil.FontSet(font_path, size, fallback_path=fallback_path)
     while size > 10:
-        fs = textutil.FontSet(font_path, size)
+        fs = textutil.FontSet(font_path, size, fallback_path=fallback_path)
         if all(fs.width(draw, ln) <= (x1 - x0) * 0.96 for ln in lines_of_text):
             break
         size -= 1

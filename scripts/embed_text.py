@@ -14,6 +14,7 @@ from PIL import Image, ImageDraw
 sys.path.insert(0, os.path.dirname(__file__))
 from lib import config as cfglib  # noqa: E402
 from lib import drawing  # noqa: E402
+import compose  # noqa: E402
 
 
 def resolve_area(position, presets):
@@ -118,6 +119,16 @@ def embed(script, cfgs, languages=None):
             if not fits:
                 print(f"[embed] WARN: text overflow {script['id']} "
                       f"addendum lang={lang}")
+
+        if meta.get("footer_rect"):
+            ai_notice = (lang_cfg.get("ai_notice") or {}).get(lang) \
+                or (lang_cfg.get("ai_notice") or {}).get("en")
+            footer_lines = compose.build_footer_lines(script)
+            if ai_notice:
+                footer_lines = footer_lines + [ai_notice]
+            drawing.draw_footer_text(draw, meta["footer_rect"], footer_lines,
+                                     font_path, layout["footer"],
+                                     fallback_path=fallback_path)
 
         out = os.path.join(comic_dir, f"{lang}.png")
         # Windows環境で稀に一時的なファイルロック(OSError: Invalid argument)が

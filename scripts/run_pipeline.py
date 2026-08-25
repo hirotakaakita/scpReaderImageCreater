@@ -6,6 +6,8 @@
   python scripts/run_pipeline.py --id scp-999 --skip-generate --mock  # 合成以降のみ
   python scripts/run_pipeline.py --id scp-999 --export-prompts  # Google AI Studio向けに書き出し
   python scripts/run_pipeline.py --id scp-999 --variants 4      # 選別用に候補を複数生成
+  python scripts/run_pipeline.py --id scp-999 --panel 3         # 3コマ目だけ再生成
+  python scripts/run_pipeline.py --id scp-999 --panel 3 --variants 4  # 3コマ目だけ候補を追加生成
 
 処理内容: 生成(generate_panels) -> 合成(compose) -> 言語別埋め込み(embed_text)
           -> 台本をdone/へ移動 -> index.json更新
@@ -63,7 +65,7 @@ def move_to_done(script_path):
 
 
 def process(script_path, cfgs, mock=False, languages=None, skip_generate=False,
-            export_prompts=False, variants=None):
+            export_prompts=False, variants=None, panel=None):
     script = cfglib.load_script(script_path)
     print(f"=== {script['id']} ({script_path}) ===")
     if export_prompts:
@@ -72,10 +74,10 @@ def process(script_path, cfgs, mock=False, languages=None, skip_generate=False,
     if variants:
         # 選別用の候補生成のみ行う。panels/はまだ確定していないので
         # 合成・埋め込み・done移動・used.json記録は行わずここで止める
-        generate_panels.generate_variants(script, cfgs, variants, mock=mock)
+        generate_panels.generate_variants(script, cfgs, variants, mock=mock, panel=panel)
         return
     if not skip_generate:
-        generate_panels.generate(script, cfgs, mock=mock)
+        generate_panels.generate(script, cfgs, mock=mock, panel=panel)
     compose.compose(script, cfgs)
     embed_text.embed(script, cfgs, languages=languages)
     # 成功したらキューからdoneへ移し、生成済みとして記録（mock実行では何もしない）
@@ -103,6 +105,9 @@ def main():
                     help="コマごとにN枚の候補をoutput/<id>/panels_temp/に生成して停止する"
                          "（panels/は書き換えない。選別後にpanels/panel_N.pngへ手動で"
                          "コピーしてから--skip-generateで続きを実行する）")
+    ap.add_argument("--panel", type=int,
+                    help="指定したコマ番号（1始まり）だけ生成する。省略時は全コマ。"
+                         "--variantsと併用可（そのコマだけ候補を追加生成）")
     args = ap.parse_args()
 
     cfgs = cfglib.load_configs()
@@ -118,7 +123,7 @@ def main():
         # --id は明示指定なので生成済みでも(再)処理する
         process(find_script(args.comic_id), cfgs, mock=args.mock, languages=langs,
                 skip_generate=args.skip_generate, export_prompts=args.export_prompts,
-                variants=args.variants)
+                variants=args.variants, panel=args.panel)
     else:
         queue = queued_scripts()
         if not queue:
@@ -138,7 +143,7 @@ def main():
                 continue
             process(path, cfgs, mock=args.mock, languages=langs,
                     skip_generate=args.skip_generate, export_prompts=args.export_prompts,
-                    variants=args.variants)
+                    variants=args.variants, panel=args.panel)
             processed += 1
         if processed == 0:
             print("No unprocessed scripts in queue. Nothing generated.")
