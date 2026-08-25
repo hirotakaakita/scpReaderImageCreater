@@ -1,8 +1,8 @@
 """ローカルComfyUIのAPIで画像を生成するプロバイダ。
 
 generate_panels.py から generate_image(prompt, ref_images, gen_cfg) が呼ばれる。
-gemini プロバイダ（scripts/providers/gemini/）と同じインターフェースで、
-config/style.yaml の generation.provider: comfyui を指定すると自動的にこちらが使われる。
+config/style.yaml の generation.provider: comfyui（現状唯一のプロバイダ）を
+指定すると自動的にこちらが使われる。
 
 前提: ComfyUIをローカルで起動しておくこと（既定 http://127.0.0.1:8188）。
 設定・セットアップ手順は README.md 参照。

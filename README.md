@@ -4,7 +4,7 @@ SCP記事を題材にした4コマ漫画（コマ数可変）を生成するリ�
 **すべてローカルでClaude Codeが実行する**（自動化・スケジュール実行は無し）。
 
 - **台本**はローカルでClaude Codeと一緒に作成し `comics/queue/` に積む（→ CLAUDE.md）
-- **画像生成**はプロバイダ切替式（Gemini / ローカルComfyUI）。
+- **画像生成**はプロバイダ切替式の設計だが、現状は`comfyui`（ローカルComfyUI）のみ使用。
   `config/style.yaml` の `generation.provider` で選んだプロバイダをローカルで実行する
 - **セリフ・キャプションは画像に描かせず**、後工程のPythonがSCP Readerアプリの対応15言語分を
   各コマの絵の内側に埋め込む
@@ -17,7 +17,7 @@ comics/queue/scp-XXX.yaml   ← 台本（scene英語 + caption15言語）: ロ�
         │
         ▼  ローカルで python scripts/run_pipeline.py --id scp-XXX を実行
 scripts/generate_panels.py  ← コマごとにプロンプトを組み立て、選択中のプロバイダで画像生成（文字なし）
-  └ scripts/providers/<name>/   ← 実際のAPI呼び出し（gemini / comfyui）
+  └ scripts/providers/<name>/   ← 実際のAPI呼び出し（現状comfyuiのみ）
         │  （--variants N なら output/scp-XXX/panels_temp/panel_N_vM.png に
         │    候補をN枚生成してここで停止。人手で1枚選びpanels/panel_N.png
         │    としてコピーしてから --skip-generate で以下を続行）
@@ -44,7 +44,6 @@ state/used.json             ← 生成済みSCPの記録（重複生成防止。
 
 | provider | 実行環境 | 特徴 |
 |---|---|---|
-| `gemini` | クラウドAPI（`GEMINI_API_KEY`が要る） | Nano Banana / Nano Banana Pro。APIキーさえあれば環境を選ばない |
 | `comfyui` | ローカルで起動したComfyUIのAPI（`http://127.0.0.1:8188`）を叩く | GPUが要る代わりに無料。モデル・LoRAを差し替えて画風を調整できる |
 
 現在ローカル検証で使っているのは `comfyui`（Qwen-Image 2512 + 2ステップ高速化LoRA
@@ -89,9 +88,6 @@ git init まで済み。GitHubへpushしておくと raw.githubusercontent.com �
 gh repo create <name> --public --source . --push
 ```
 
-`provider: gemini` を使う場合は `GEMINI_API_KEY` 環境変数をローカルにセットしておく
-（クラウド上でキーを共有する必要はない。実行のたびに手元の環境から読まれる）。
-
 ## ローカルでの動作確認
 
 ```bash
@@ -101,7 +97,7 @@ python scripts/download_fonts.py
 # APIを呼ばずレイアウト・キャプション・多言語埋め込みを確認（プレースホルダー画像）
 python scripts/run_pipeline.py --id scp-999 --mock
 
-# 本番同様に生成（config/style.yamlのprovider設定に従う。geminiならGEMINI_API_KEYが要る）
+# 本番同様に生成（config/style.yamlのprovider設定に従う。ComfyUIをローカルで起動しておくこと）
 python scripts/run_pipeline.py --id scp-999
 
 # コマごとに複数候補を生成して人手で選ぶ（生成精度が安定しない間の運用）
@@ -116,19 +112,19 @@ python scripts/run_pipeline.py --id scp-999 --skip-generate --languages ja,en
 `provider: comfyui` の場合は事前にComfyUIをローカルで起動し、必要なモデル・LoRAを
 配置しておくこと（`scripts/providers/comfyui/README.md` 参照）。
 
-### Google AI Studioで手動生成する場合（gemini専用）
+### ComfyUIのUIで手動生成する場合
 
-APIキーを使わず、[aistudio.google.com](https://aistudio.google.com) のチャットUIで手動生成して
-リポジトリに格納することもできる。
+APIを使わず、ComfyUIのUI上でワークフローを組んで手動生成することもできる。
 
 ```bash
-# APIを呼ばず output/scp-999/prompts/ にプロンプト・参照画像・手順書を書き出す
+# APIを呼ばず output/scp-999/prompts/ にプロンプト・手順書を書き出す
 python scripts/run_pipeline.py --id scp-999 --export-prompts
 ```
 
-`output/scp-999/prompts/README.txt` の手順に従い、`panel_N.txt` の内容をAI Studioに貼り付けて
-生成した画像を `output/scp-999/panels/panel_N.png` として保存する。全コマ保存したら
-`python scripts/run_pipeline.py --id scp-999 --skip-generate` で合成・多言語埋め込みまで実行できる。
+`output/scp-999/prompts/README.txt` の手順に従い、`panel_N.txt` の内容をComfyUIの
+Positive Promptノードに貼り付けて生成した画像を `output/scp-999/panels/panel_N.png` として
+保存する。全コマ保存したら `python scripts/run_pipeline.py --id scp-999 --skip-generate` で
+合成・多言語埋め込みまで実行できる。
 
 **mock実行の出力（output/）はコミットしないこと**（実生成で上書きされる前提のダミー）。
 

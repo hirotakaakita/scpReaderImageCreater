@@ -5,7 +5,7 @@
 テキスト・吹き出しは一切描かせない（後工程のembed_text.pyが埋め込む）。
 
 実際の画像生成APIの呼び出しは scripts/providers/<provider>/ に切り出してある
-（gemini: Nano Banana / comfyui: ローカルComfyUI API）。
+（現状は comfyui: ローカルComfyUI API のみ）。
 
 --mock を付けるとAPIを呼ばずプレースホルダー画像を生成する（レイアウト確認用）。
 """
@@ -44,7 +44,7 @@ def lookup_character(key, script, cfgs):
 
 def build_prompt(script, panel, cfgs, provider_name=None):
     style = cfgs["style"]
-    provider_name = provider_name or style["generation"].get("provider", "gemini")
+    provider_name = provider_name or style["generation"].get("provider", "comfyui")
     prompt_style = style["prompt"][provider_name]
     parts = [prompt_style["style_prompt"].strip()]
 
@@ -133,7 +133,7 @@ def generate(script, cfgs, mock=False, panel=None):
     os.makedirs(panels_dir, exist_ok=True)
 
     gen_cfg = cfgs["style"]["generation"]
-    provider_name = gen_cfg.get("provider", "gemini")
+    provider_name = gen_cfg.get("provider", "comfyui")
     provider = providers.get(provider_name) if not mock else None
 
     n = len(script["panels"])
@@ -202,7 +202,7 @@ def generate_variants(script, cfgs, count, mock=False, panel=None):
     os.makedirs(temp_dir, exist_ok=True)
 
     gen_cfg = cfgs["style"]["generation"]
-    provider_name = gen_cfg.get("provider", "gemini")
+    provider_name = gen_cfg.get("provider", "comfyui")
     provider = providers.get(provider_name) if not mock else None
 
     n = len(script["panels"])
@@ -255,7 +255,7 @@ def export_prompts(script, cfgs):
     os.makedirs(panels_dir, exist_ok=True)
 
     gen_cfg = cfgs["style"]["generation"]
-    provider_name = gen_cfg.get("provider", "gemini")
+    provider_name = gen_cfg.get("provider", "comfyui")
     use_prev = gen_cfg.get("use_previous_panels_as_reference")
     panels_rel = os.path.relpath(panels_dir, cfglib.ROOT)
 
@@ -295,47 +295,23 @@ def export_prompts(script, cfgs):
         print(f"[export] panel {i}/{len(script['panels'])} -> "
               f"{os.path.relpath(prompt_path, cfglib.ROOT)}")
 
-    if provider_name == "comfyui":
-        cfg = gen_cfg.get("comfyui", {})
-        readme_lines = [
-            f"=== {script['id']} をComfyUIで手動生成する手順 ===",
-            "",
-            "このプロジェクトは通常 `python scripts/run_pipeline.py --id "
-            f"{script['id']}` でComfyUIのAPI ({cfg.get('server', 'http://127.0.0.1:8188')}) "
-            "を自動的に叩いて生成する（詳細: scripts/providers/comfyui/README.md）。",
-            "APIサーバーを使わずComfyUIのUIで手動生成したい場合:",
-            f"1. ComfyUIのUIで scripts/providers/comfyui/workflow_api.json 相当の"
-            f"txt2imgワークフロー（チェックポイント: {cfg.get('checkpoint')}）を組む。",
-            "2. panel_N.txt の中身をPositive Promptノードに貼り付けて生成する。",
-            f"3. 気に入った画像を {panels_rel}/panel_N.png として保存する（Nと採番を一致させること）。",
-            "",
-            f"全コマ分の画像を {panels_rel}/panel_N.png として保存し終えたら:",
-            f"  python scripts/run_pipeline.py --id {script['id']} --skip-generate",
-            "を実行すると、合成・15言語分のテキスト埋め込みまで自動で行われる。",
-        ]
-    else:
-        cfg = gen_cfg.get("gemini", {})
-        readme_lines = [
-            f"=== {script['id']} を Google AI Studio (aistudio.google.com) で手動生成する手順 ===",
-            "",
-            f"1. Nano Banana系の画像生成モデル（設定上は {cfg.get('model')}）のチャットを開く。",
-            "2. アスペクト比は " + gen_cfg.get("aspect_ratio", "1:1")
-            + (f"、画像サイズは {cfg['image_size']}" if cfg.get("image_size") else "")
-            + " を選ぶ（AI StudioのUIに設定項目があれば）。",
-            "3. panel_N.txt の中身をそのままプロンプトとして貼り付け、末尾に[添付する...]の",
-            "   注記があれば同じ番号の panel_N_refs/ 内の画像を全て添付してから生成する。",
-            f"4. 気に入った画像を {panels_rel}/panel_N.png として保存する（Nと採番を一致させること）。",
-        ]
-        if use_prev:
-            readme_lines.append(
-                "5. このスタイルは前コマ参照が有効。panel_2以降はprompt末尾の注記に従い、"
-                "直前1〜2コマの完成画像も参照画像として追加で添付すること。")
-        readme_lines += [
-            "",
-            f"全コマ分の画像を {panels_rel}/panel_N.png として保存し終えたら:",
-            f"  python scripts/run_pipeline.py --id {script['id']} --skip-generate",
-            "を実行すると、合成・15言語分のテキスト埋め込みまで自動で行われる。",
-        ]
+    cfg = gen_cfg.get("comfyui", {})
+    readme_lines = [
+        f"=== {script['id']} をComfyUIで手動生成する手順 ===",
+        "",
+        "このプロジェクトは通常 `python scripts/run_pipeline.py --id "
+        f"{script['id']}` でComfyUIのAPI ({cfg.get('server', 'http://127.0.0.1:8188')}) "
+        "を自動的に叩いて生成する（詳細: scripts/providers/comfyui/README.md）。",
+        "APIサーバーを使わずComfyUIのUIで手動生成したい場合:",
+        f"1. ComfyUIのUIで scripts/providers/comfyui/workflow_api.json 相当の"
+        f"txt2imgワークフロー（チェックポイント: {cfg.get('checkpoint')}）を組む。",
+        "2. panel_N.txt の中身をPositive Promptノードに貼り付けて生成する。",
+        f"3. 気に入った画像を {panels_rel}/panel_N.png として保存する（Nと採番を一致させること）。",
+        "",
+        f"全コマ分の画像を {panels_rel}/panel_N.png として保存し終えたら:",
+        f"  python scripts/run_pipeline.py --id {script['id']} --skip-generate",
+        "を実行すると、合成・15言語分のテキスト埋め込みまで自動で行われる。",
+    ]
     readme_path = os.path.join(prompts_dir, "README.txt")
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write("\n".join(readme_lines) + "\n")

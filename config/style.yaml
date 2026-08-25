@@ -8,40 +8,11 @@
 #
 # style_prompt/composition_rules/no_text_rulesは prompt.<provider> 以下に
 # プロバイダごとに完全に分けて持つ（モデルによって効く指示の強さ・言い回しが
-# 違うため、Gemini向けの文言をComfyUI向けにそのまま使い回さない）。
-# 台本のscene・caption・characters等の「内容」は共通（build_prompt()参照）。
+# 違うため）。台本のscene・caption・characters等の「内容」は共通（build_prompt()参照）。
+# 現状はcomfyuiのみ使用（Geminiプロバイダは削除済み）。
 # ============================================================
 
 prompt:
-  gemini:
-    style_prompt: >
-      Japanese yonkoma manga panel illustration. Clean bold black ink outlines,
-      flat cel-shaded colors with soft muted palette, simple uncluttered
-      backgrounds, expressive cartoon characters with slightly chibi proportions,
-      gentle lighting. The mood is lightly comedic with a hint of eerie SCP
-      Foundation atmosphere (concrete corridors, fluorescent lights, containment
-      facility props).
-
-    composition_rules: >
-      Single manga panel, full-bleed illustration filling the entire square image.
-      Characters drawn at a readable size, main subject clearly visible.
-      Consistent character designs must be kept exactly as described.
-      Vary the shot scale and camera angle from panel to panel within the same
-      comic: mix wide/establishing shots (full body, showing the room), medium
-      shots (waist-up), and close-ups (face or a key object/detail filling most
-      of the frame), and vary the camera height (eye-level, low angle looking
-      up, high angle looking down) and character placement (off-center,
-      foreground/background depth). Do not repeat the same framing, angle, and
-      pose in consecutive panels of one comic. Favor dynamic, asymmetric poses
-      and motion (mid-stride, leaning, reaching, turning) over static
-      front-facing standing poses.
-
-    no_text_rules: >
-      IMPORTANT: Do not draw any text, letters, numbers, logos, speech bubbles,
-      captions, sound effect lettering, or written signs anywhere in the image.
-      The image must be completely free of text. Leave clean empty space where
-      indicated so a speech bubble can be added later.
-
   comfyui:
     # 画風（線・配色・プロポーション等）は generation.comfyui.style_lora_name の
     # LoRAが担うので、ここでは色・線・chibi等の画風描写をあえて書かない
@@ -89,26 +60,17 @@ prompt:
       text or bubbles.
 
 # 生成APIの設定。
-# provider: gemini（Nano Banana, デフォルト） / comfyui（ローカルComfyUI）を切替可能。
+# provider: comfyui（ローカルComfyUI）のみ使用（Geminiプロバイダは削除済み）。
 # 実装は scripts/providers/<provider>/ にまとまっている（各フォルダのREADME.md参照）。
-# provider共通のキーはトップレベルに、プロバイダ固有のキーは gemini: / comfyui: 以下に書く。
+# provider共通のキーはトップレベルに、プロバイダ固有のキーは comfyui: 以下に書く。
 generation:
-  provider: comfyui                   # gemini | comfyui
+  provider: comfyui                   # comfyui のみ
   aspect_ratio: "1:1"                 # コマは正方形で統一（layout.yamlのpanelと合わせる）
   # 同じ漫画の直前のコマを参照画像として渡し、コマ間のキャラ一貫性を上げる
   # （ComfyUI版の汎用txt2imgワークフローは画像入力ノードが無いため現状は無視される。
   #   scripts/providers/comfyui/README.md 参照）
   use_previous_panels_as_reference: true
   max_reference_images: 6
-
-  gemini:
-    # 無料枠で検証中は gemini-2.5-flash-image（無料版 Nano Banana）。
-    # 課金を有効化したら gemini-3-pro-image-preview（Nano Banana Pro）に戻す。
-    # ※ Pro は無料枠では limit: 0 で使えない（429になる）
-    model: gemini-2.5-flash-image
-    image_size: null                  # Pro専用（"1K"/"2K"/"4K"）。flashでは null にする
-    max_retries: 3
-    retry_wait_seconds: 20
 
   comfyui:
     # ローカルで起動したComfyUIのAPIを叩いて生成する。要セットアップ、詳細は

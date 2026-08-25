@@ -109,10 +109,11 @@ Claude Codeが行う**（自動化なし）。全体像はREADME.md参照。
 ## 実装メモ
 
 - 画像生成の実行部分（API呼び出し）はプロバイダ別に `scripts/providers/<name>/` に
-  切り出してある（`gemini`: Nano Banana、`comfyui`: ローカルComfyUI）。切替は
-  `config/style.yaml` の `generation.provider`。各フォルダの`README.md`にセットアップ
-  手順あり。新プロバイダを足す場合は`generate_image(prompt, ref_images, gen_cfg)`を
-  実装して`scripts/providers/__init__.py`に登録する
+  切り出してある。現状は `comfyui`（ローカルComfyUI）のみ使用（Geminiプロバイダは
+  削除済み）。`config/style.yaml` の `generation.provider` で切替可能な設計は残して
+  あり、`scripts/providers/comfyui/README.md`にセットアップ手順あり。新プロバイダを
+  足す場合は`generate_image(prompt, ref_images, gen_cfg)`を実装して
+  `scripts/providers/__init__.py`に登録する
 - 生成プロンプトの組み立ては `scripts/generate_panels.py` の `build_prompt()`。
   順序: style_prompt → キャラ定義 → caption(en、絵が何を描くべきかの根拠) → scene →
   吹き出しスペース確保の指示 → 構図規則 → 文字禁止規則。**caption(en)を必ず絵に一致させる

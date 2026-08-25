@@ -1,8 +1,7 @@
 # ComfyUI プロバイダ
 
-`config/style.yaml` の `generation.provider: comfyui` のときに使われる。
-Geminiプロバイダ（`scripts/providers/gemini/`）と同じ
-`generate_image(prompt, ref_images, gen_cfg)` インターフェースで、
+`config/style.yaml` の `generation.provider: comfyui`（現状唯一のプロバイダ）で
+使われる。`generate_image(prompt, ref_images, gen_cfg)` インターフェースで、
 ローカルで起動したComfyUIのHTTP APIにワークフローを投げて画像を受け取る。
 
 ## セットアップ
@@ -90,8 +89,3 @@ IPAdapterやControlNetなど画像入力ノードを足せば、`ref_images`
 5. 接続エラー・タイムアウト・ノード不備は `max_retries` 回まで
    `retry_wait_seconds` ずつ待ってリトライする
 
-## 制約
-
-- 現状の `--export-prompts`（Google AI Studio向けの手動書き出し）は
-  Gemini向けの文言のままなので、ComfyUI利用時はAPI経由の自動生成
-  （`python scripts/run_pipeline.py --id scp-XXX`）を使うこと。
