@@ -48,7 +48,10 @@ prompt:
       drawn at a readable size, main subject clearly visible. Consistent
       character designs must be kept exactly as described. Favor dynamic,
       asymmetric poses and motion (mid-stride, leaning, reaching, turning)
-      over static front-facing standing poses.
+      over static front-facing standing poses. Render the background wall
+      and floor in a flat, consistent pale cream-gray paper color (color
+      RGB 238,233,218) — do not render it noticeably lighter or darker
+      than this.
 
     no_text_rules: >
       ABSOLUTE RULE, HIGHEST PRIORITY: this image contains ZERO text of any

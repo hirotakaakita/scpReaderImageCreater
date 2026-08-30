@@ -34,7 +34,8 @@ local_characters:
   scp-105:
     name: SCP-105
     description: >
-      SCP-105, a young blonde European woman with blue eyes, petite,
+      SCP-105, a young European woman with blonde hair (color RGB
+      230,210,150) and blue eyes (color RGB 70,130,180), petite,
       unremarkable. Wears a plain white lab coat over regular clothes,
       with a blank white ID card clipped to the chest pocket.
 

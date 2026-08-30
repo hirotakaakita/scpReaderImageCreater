@@ -20,6 +20,9 @@
 #   以後の漫画で見た目が固定される。
 #
 # 注意: 服装に文字・番号を入れない（画像に文字を描かせないため）。
+# 色を指定する際は色名だけでなく "(color RGB R,G,B)" の形で具体的な数値も
+# 併記する（例: "red hair (color RGB 180,45,40)"）。色名だけだとコマごとに
+# 明るさ・色味がブレやすいことを検証で確認したため。
 # ============================================================
 
 characters:
@@ -30,11 +33,11 @@ characters:
     # サイト-404化学部門所属。小柄で赤毛、爆竹のように強烈な人物。
     description: >
       Dr. Sage West, a female SCP Foundation researcher in the chemistry
-      department. Petite and short, with vivid red hair worn short and
-      messy, a tousled bob falling just past her chin, a fiery and
-      quick-tempered presence. Wears a plain white lab coat, sleeves often
-      rolled up, over a dark turtleneck and trousers, with a blank white ID
-      card clipped to the chest pocket.
+      department. Petite and short, with vivid red hair (color RGB
+      180,45,40) worn short and messy, a tousled bob falling just past her
+      chin, a fiery and quick-tempered presence. Wears a plain white lab
+      coat, sleeves often rolled up, over a dark turtleneck and trousers,
+      with a blank white ID card clipped to the chest pocket.
     reference_images: []
 
   dr-johannes-sorts:
@@ -45,23 +48,27 @@ characters:
     description: >
       Dr. Johannes Sorts, a male SCP Foundation researcher in his late 30s,
       a memetics specialist and field researcher. White, unshaven, with
-      short graying brown hair mostly hidden under a gray hat, slightly
-      overweight build. Wears a plain white lab coat, somewhat rumpled, over
-      a plain shirt and khaki trousers, with a blank white ID card clipped
-      to the chest pocket.
+      short graying brown hair (color RGB 110,90,70) mostly hidden under a
+      gray hat, slightly overweight build. Wears a plain white lab coat,
+      somewhat rumpled, over a plain shirt and khaki trousers, with a blank
+      white ID card clipped to the chest pocket.
     reference_images: []
 
   d-class:
     # D-classは財団正史でも基本的に無名・使い捨ての被験者として描かれる役割
     # （特定の人格を持つキャノンキャラクターではない）。そのため見た目も
     # 個性を持たせすぎない、汎用的な記述にとどめる。財団職員ではないため
-    # 白衣は着せない（オレンジのつなぎのみ）。
+    # 白衣は着せない（つなぎのみ）。
+    # 正史ではオレンジのつなぎだが、このプロジェクトの画風（モノクロ・
+    # リソグラフ調）だとオレンジだけ浮いて見えるため、周囲と馴染む
+    # 濃いグレーのつなぎに変更している（画風優先の意図的な変更）。
     name: D-Class Personnel
     description: >
       An anonymous D-class test subject, with short, plain, unremarkable
-      dark hair with no particular style. Wears a plain bright orange
-      jumpsuit with no markings and gray sneakers, no lab coat. Nervous
-      expression.
+      dark hair (color RGB 30,30,30) with no particular style. Wears a
+      plain jumpsuit in a solid dark gray color (RGB 90,90,90, no other
+      colors on it) with no markings, and gray sneakers, no lab coat.
+      Nervous expression.
     reference_images: []
 
   attending-researcher-m:
@@ -71,10 +78,11 @@ characters:
     # d-classと同様に無個性・汎用的な記述の職員として別途用意している。
     name: Attending Researcher (Male)
     description: >
-      A male SCP Foundation researcher with short, neatly combed black hair,
-      unremarkable average build, neutral calm expression, no distinguishing
-      features. Wears a plain white lab coat over a collared shirt and dark
-      trousers, with a blank white ID card clipped to the chest pocket.
+      A male SCP Foundation researcher with short, neatly combed black hair
+      (color RGB 20,20,20), unremarkable average build, neutral calm
+      expression, no distinguishing features. Wears a plain white lab coat
+      over a collared shirt and dark trousers, with a blank white ID card
+      clipped to the chest pocket.
     reference_images: []
 
   attending-researcher-f:
@@ -86,9 +94,9 @@ characters:
     # 見た目の完全な描き分けは既知の限界として許容する。
     name: Attending Researcher (Female)
     description: >
-      A female SCP Foundation researcher with straight black hair,
-      shoulder-length, tied back in a low ponytail, unremarkable average
-      build, neutral calm expression, no distinguishing features. Wears a
-      plain white lab coat over a dark turtleneck and trousers, with a
-      blank white ID card clipped to the chest pocket.
+      A female SCP Foundation researcher with straight black hair (color
+      RGB 20,20,20), shoulder-length, tied back in a low ponytail,
+      unremarkable average build, neutral calm expression, no distinguishing
+      features. Wears a plain white lab coat over a dark turtleneck and
+      trousers, with a blank white ID card clipped to the chest pocket.
     reference_images: []

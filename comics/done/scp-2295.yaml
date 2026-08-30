@@ -1,0 +1,158 @@
+# SCP-2295「くまのカイロス」4コマ台本
+# captionは記事本文（Description）からの引用。キャラにセリフは言わせない。
+
+id: scp-2295
+
+title:
+  en: "SCP-2295: Kairos the Bear"
+  ja: "SCP-2295：くまのカイロス"
+  cs: "SCP-2295: Medvídek Kairos"
+  de: "SCP-2295: Kairos der Bär"
+  es: "SCP-2295: Kairos, el oso"
+  fr: "SCP-2295 : Kairos l'ours"
+  it: "SCP-2295: Kairos l'orsacchiotto"
+  ko: "SCP-2295: 곰인형 카이로스"
+  pl: "SCP-2295: Miś Kairos"
+  pt: "SCP-2295: Kairos, o Urso"
+  th: "SCP-2295: หมีไคโรส"
+  uk: "SCP-2295: Ведмедик Кайрос"
+  vi: "SCP-2295: Gấu Kairos"
+  zh: "SCP-2295：泰迪熊凯罗斯"
+  zh_Hant: "SCP-2295：泰迪熊凱羅斯"
+
+attribution:
+  article: "SCP-2295"
+  author: "K Mota"
+  source_url: "http://scp-wiki.wikidot.com/scp-2295"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-2295:
+    name: SCP-2295
+    description: >
+      SCP-2295, a small patchwork teddy bear about 0.46 meters tall, stuffed
+      with visibly mismatched fabric patches, alternating between two solid
+      colors only: medium gray (RGB 140,140,140) and off-white (RGB
+      225,222,210) — no other colors anywhere on the bear. It has a small
+      heart-shaped pin on its chest and a bow around its neck, with simple
+      stitched button eyes and a stitched seam for a mouth.
+
+characters: [scp-2295, attending-researcher-m, d-class]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level. In a plain clinical storage room,
+      SCP-2295 sits upright on a metal shelf. Beside it, the attending
+      researcher leans in with gloved hands, examining the bear closely and
+      taking notes on a clipboard.
+    characters: [scp-2295, attending-researcher-m]
+    caption:
+      ja: "SCP-2295は「頭」から「足」までおよそ0.46mのパッチワーク仕立ての縫いぐるみのクマで、合成繊維と綿が詰められている。胸には解剖学的に正確な小さなハート形のピンが、首にはリボンが付けられている。"
+      en: "SCP-2295 is a patchwork stuffed bear, approximately 0.46m from 'head' to 'foot,' stuffed with synthetic fiber and cotton. It has a small, anatomically correct heart pin on its chest, and a bow around its neck."
+      cs: "SCP-2295 je patchworkový plyšový medvídek, přibližně 0,46 m od 'hlavy' k 'noze', vycpaný syntetickým vláknem a bavlnou. Na hrudi má malý anatomicky přesný srdcový odznak a kolem krku mašli."
+      de: "SCP-2295 ist ein aus Flicken genähter Teddybär, etwa 0,46 m von 'Kopf' bis 'Fuß', gefüllt mit Synthetikfaser und Baumwolle. Er trägt eine kleine, anatomisch korrekte Herz-Anstecknadel an der Brust und eine Schleife um den Hals."
+      es: "SCP-2295 es un oso de peluche de retazos, de unos 0,46 m de 'cabeza' a 'pie', relleno de fibra sintética y algodón. Tiene un pequeño pin de corazón anatómicamente correcto en el pecho y un lazo alrededor del cuello."
+      fr: "SCP-2295 est un ours en peluche en patchwork, mesurant environ 0,46 m de la « tête » au « pied », rembourré de fibres synthétiques et de coton. Il porte une petite épingle en forme de cœur anatomiquement correcte sur la poitrine et un nœud autour du cou."
+      it: "SCP-2295 è un orsacchiotto di pezza patchwork, alto circa 0,46 m dalla 'testa' ai 'piedi', imbottito di fibra sintetica e cotone. Ha una piccola spilla a forma di cuore anatomicamente corretta sul petto e un fiocco intorno al collo."
+      ko: "SCP-2295는 '머리'부터 '발'까지 약 0.46m 크기의 패치워크 봉제 곰인형으로, 합성 섬유와 솜이 채워져 있다. 가슴에는 해부학적으로 정확한 작은 하트 모양 핀이, 목에는 리본이 달려 있다."
+      pl: "SCP-2295 to pluszowy miś patchworkowy, mierzący około 0,46 m od 'głowy' do 'stopy', wypchany włóknem syntetycznym i bawełną. Na piersi ma małą, anatomicznie poprawną przypinkę w kształcie serca, a na szyi kokardę."
+      pt: "SCP-2295 é um urso de pelúcia em patchwork, com cerca de 0,46 m da 'cabeça' ao 'pé', recheado com fibra sintética e algodão. Tem um pequeno broche de coração anatomicamente correto no peito e um laço em volta do pescoço."
+      th: "SCP-2295 คือหมีตุ๊กตาผ้าปะชิ้นส่วน สูงประมาณ 0.46 เมตรจาก 'หัว' ถึง 'เท้า' ยัดไส้ด้วยใยสังเคราะห์และสำลี มีเข็มกลัดรูปหัวใจที่ถูกต้องตามกายวิภาคติดที่หน้าอก และมีโบว์ผูกรอบคอ"
+      uk: "SCP-2295 — це плюшевий ведмедик з клаптиків, приблизно 0,46 м від 'голови' до 'ноги', набитий синтетичним волокном і бавовною. На грудях у нього маленька анатомічно точна шпилька у формі серця, а на шиї — бант."
+      vi: "SCP-2295 là một con gấu bông chắp vá, cao khoảng 0,46m từ 'đầu' đến 'chân', được nhồi bằng sợi tổng hợp và bông. Nó có một ghim hình trái tim đúng giải phẫu nhỏ trên ngực và một chiếc nơ quanh cổ."
+      zh: "SCP-2295是一只拼布填充熊玩偶，从「头部」到「脚部」约0.46米，内部填充合成纤维和棉花。胸前别着一枚解剖学上精确的心形小别针，脖子上系着蝴蝶结。"
+      zh_Hant: "SCP-2295是一隻拼布填充熊玩偶，從「頭部」到「腳部」約0.46公尺，內部填充合成纖維和棉花。胸前別著一枚解剖學上精確的心形小別針，脖子上繫著蝴蝶結。"
+
+  - scene: >
+      Medium shot, waist-up, low angle. On the left side of the frame, a
+      D-Class subject with a bandaged, bloodstained wound on his abdomen
+      stands nearby, wincing in pain. On the right side of the frame,
+      SCP-2295 sits upright on a table, its stitched button eyes seeming to
+      fix on him, a single thread already peeking from the seam of its
+      mouth.
+    characters: [d-class, scp-2295]
+    caption:
+      ja: "SCP-2295は、主要臓器に重度の外傷を負った人間の2メートル以内に入ると活動状態に入る。複数の対象候補が近くにいる場合、常に最も年少の者を選ぶ。"
+      en: "SCP-2295 enters an active state when within two (2) meters of a human sustaining major trauma to an organ. When several possible subjects are near, it invariably chooses the youngest."
+      cs: "SCP-2295 přechází do aktivního stavu, když se ocitne do dvou (2) metrů od člověka s vážným poraněním orgánu. Je-li poblíž více možných subjektů, vždy si vybere nejmladšího."
+      de: "SCP-2295 geht in einen aktiven Zustand über, wenn es sich innerhalb von zwei (2) Metern eines Menschen mit schwerem Organtrauma befindet. Sind mehrere mögliche Subjekte in der Nähe, wählt es stets das jüngste aus."
+      es: "SCP-2295 entra en estado activo cuando se encuentra a dos (2) metros de un humano que sufre un traumatismo grave en un órgano. Cuando hay varios sujetos posibles cerca, siempre elige al más joven."
+      fr: "SCP-2295 entre en état actif lorsqu'il se trouve à moins de deux (2) mètres d'un humain subissant un traumatisme grave à un organe. En présence de plusieurs sujets possibles, il choisit invariablement le plus jeune."
+      it: "SCP-2295 entra in stato attivo quando si trova entro due (2) metri da un essere umano che ha subito un trauma grave a un organo. In presenza di più soggetti possibili, sceglie invariabilmente il più giovane."
+      ko: "SCP-2295는 주요 장기에 중대한 외상을 입은 인간으로부터 2미터 이내에 있으면 활성 상태에 들어간다. 여러 명의 대상 후보가 근처에 있을 경우, 항상 가장 어린 개체를 선택한다."
+      pl: "SCP-2295 przechodzi w stan aktywny, gdy znajdzie się w promieniu dwóch (2) metrów od człowieka z poważnym urazem narządu. Gdy w pobliżu jest kilku możliwych osobników, zawsze wybiera najmłodszego."
+      pt: "SCP-2295 entra em estado ativo quando está a dois (2) metros de um humano que sofreu um trauma grave em um órgão. Quando há vários sujeitos possíveis por perto, escolhe invariavelmente o mais jovem."
+      th: "SCP-2295 จะเข้าสู่สถานะทำงานเมื่ออยู่ห่างจากมนุษย์ที่ได้รับบาดเจ็บรุนแรงที่อวัยวะภายในระยะสอง (2) เมตร หากมีผู้ที่เป็นไปได้หลายคนอยู่ใกล้ มันจะเลือกผู้ที่อายุน้อยที่สุดเสมอ"
+      uk: "SCP-2295 переходить в активний стан, коли опиняється в межах двох (2) метрів від людини з тяжкою травмою органа. Якщо поруч є кілька можливих суб'єктів, він завжди обирає наймолодшого."
+      vi: "SCP-2295 chuyển sang trạng thái hoạt động khi ở trong phạm vi hai (2) mét từ một người bị chấn thương nghiêm trọng ở nội tạng. Khi có nhiều đối tượng khả dĩ ở gần, nó luôn chọn người trẻ nhất."
+      zh: "当处于遭受重大器官创伤的人类两(2)米范围内时，SCP-2295会进入活跃状态。当附近有多名可能对象时，它总是选择年龄最小的一个。"
+      zh_Hant: "當處於遭受重大器官創傷的人類兩(2)公尺範圍內時，SCP-2295會進入活躍狀態。當附近有多名可能對象時，牠總是選擇年齡最小的一個。"
+
+  - scene: >
+      Close-up shot centered on SCP-2295's stitched face and front paws,
+      filling most of the frame. A pair of small scissors, white thread,
+      and a sewing needle protrude from its open stitched mouth, its paws
+      working with startling speed and precision as they stitch together a
+      small red patchwork shape.
+    characters: [scp-2295]
+    caption:
+      ja: "SCP-2295は異常な方法で口からハサミ、糸、針またはかぎ針を取り出し、近くにある布地を使って対象の臓器を模したパッチワークを作り上げる。"
+      en: "SCP-2295 will anomalously produce scissors, thread, and a needle or crochet hook from its mouth, using any nearby fabric to fashion a patchwork imitation of the subject's organ."
+      cs: "SCP-2295 anomálně vytvoří ze svých úst nůžky, nit a jehlu nebo háček na háčkování a pomocí jakékoli blízké látky vytvoří patchworkovou napodobeninu subjektova orgánu."
+      de: "SCP-2295 bringt auf anomale Weise Schere, Faden und eine Nadel oder Häkelnadel aus seinem Mund hervor und fertigt aus jedem in der Nähe befindlichen Stoff eine Flicken-Nachbildung des betroffenen Organs an."
+      es: "SCP-2295 produce de forma anómala tijeras, hilo y una aguja o gancho de crochet desde su boca, usando cualquier tela cercana para confeccionar una imitación de retazos del órgano del sujeto."
+      fr: "SCP-2295 produit de manière anormale des ciseaux, du fil et une aiguille ou un crochet depuis sa bouche, utilisant tout tissu à proximité pour façonner une imitation en patchwork de l'organe du sujet."
+      it: "SCP-2295 produce in modo anomalo forbici, filo e un ago o un uncinetto dalla propria bocca, utilizzando qualsiasi tessuto nelle vicinanze per creare un'imitazione patchwork dell'organo del soggetto."
+      ko: "SCP-2295는 이상 현상으로 입에서 가위, 실, 바늘 또는 코바늘을 만들어내며, 주변의 아무 천이나 사용해 대상의 장기를 모방한 패치워크를 만든다."
+      pl: "SCP-2295 w anomalny sposób wytwarza z ust nożyczki, nić oraz igłę lub szydełko, wykorzystując dowolną pobliską tkaninę do stworzenia patchworkowej imitacji narządu osobnika."
+      pt: "SCP-2295 produz anomalamente tesoura, linha e uma agulha ou gancho de crochê pela boca, usando qualquer tecido próximo para confeccionar uma imitação em patchwork do órgão do sujeito."
+      th: "SCP-2295 จะสร้างกรรไกร ด้าย และเข็มเย็บผ้าหรือเข็มโครเชต์จากปากอย่างผิดปกติ โดยใช้ผ้าที่อยู่ใกล้เคียงเพื่อสร้างอวัยวะจำลองแบบปะติดปะต่อของเป้าหมาย"
+      uk: "SCP-2295 аномальним чином видобуває з рота ножиці, нитку та голку чи гачок для в'язання, використовуючи будь-яку тканину поблизу, щоб створити клаптикову імітацію органа суб'єкта."
+      vi: "SCP-2295 sẽ dị thường tạo ra kéo, chỉ và một cây kim hoặc móc len từ miệng, sử dụng bất kỳ loại vải nào gần đó để tạo ra một bản mô phỏng chắp vá của nội tạng đối tượng."
+      zh: "SCP-2295会异常地从口中产生剪刀、线以及针或钩针，利用附近的任何布料制作出对象器官的拼布仿制品。"
+      zh_Hant: "SCP-2295會異常地從口中產生剪刀、線以及針或鉤針，利用附近的任何布料製作出對象器官的拼布仿製品。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole room.
+      On the left side of the frame, the D-Class subject sits upright on
+      the table, poking curiously at a neat row of stitches now closing his
+      wound, completely unbothered. On the right side of the frame, the
+      attending researcher stands frozen, holding up an X-ray that shows a
+      patchwork fabric shape where an organ should be, mouth open in
+      disbelief.
+    characters: [d-class, attending-researcher-m]
+    caption:
+      ja: "SCP-2295-1の個体は、予想される生物学的・化学的な不適合性にもかかわらず正常に機能する。拒絶反応が起きた事例はこれまでになく、全ての対象が完全に回復している。"
+      en: "Instances of SCP-2295-1 function normally despite expected biological and chemical incompatibilities. There have been no cases of rejection, and all subjects made full recoveries."
+      cs: "Instance SCP-2295-1 fungují normálně navzdory očekávaným biologickým a chemickým neslučitelnostem. Nebyl zaznamenán žádný případ odmítnutí a všichni subjekti se plně zotavili."
+      de: "Instanzen von SCP-2295-1 funktionieren normal, trotz zu erwartender biologischer und chemischer Unverträglichkeiten. Es gab keine Fälle von Abstoßung, und alle Subjekte erholten sich vollständig."
+      es: "Las instancias de SCP-2295-1 funcionan con normalidad a pesar de las incompatibilidades biológicas y químicas esperadas. No se ha registrado ningún caso de rechazo, y todos los sujetos se recuperaron por completo."
+      fr: "Les instances de SCP-2295-1 fonctionnent normalement malgré les incompatibilités biologiques et chimiques attendues. Aucun cas de rejet n'a été observé, et tous les sujets se sont complètement rétablis."
+      it: "Le istanze di SCP-2295-1 funzionano normalmente nonostante le previste incompatibilità biologiche e chimiche. Non si sono verificati casi di rigetto e tutti i soggetti sono guariti completamente."
+      ko: "SCP-2295-1 개체는 예상되는 생물학적·화학적 불일치에도 불구하고 정상적으로 기능한다. 거부 반응이 나타난 사례는 없었으며, 모든 대상이 완전히 회복했다."
+      pl: "Egzemplarze SCP-2295-1 funkcjonują normalnie pomimo oczekiwanych niezgodności biologicznych i chemicznych. Nie odnotowano żadnego przypadku odrzucenia, a wszyscy badani w pełni wyzdrowieli."
+      pt: "As instâncias de SCP-2295-1 funcionam normalmente apesar das incompatibilidades biológicas e químicas esperadas. Não houve casos de rejeição, e todos os sujeitos se recuperaram totalmente."
+      th: "ตัวอย่างของ SCP-2295-1 ทำงานได้ตามปกติแม้จะมีความไม่เข้ากันทางชีวภาพและเคมีตามที่คาดไว้ ไม่เคยมีกรณีการต่อต้านเกิดขึ้น และผู้ป่วยทุกรายฟื้นตัวเต็มที่"
+      uk: "Екземпляри SCP-2295-1 функціонують нормально, попри очікувану біологічну та хімічну несумісність. Випадків відторгнення не зафіксовано, і всі суб'єкти повністю одужали."
+      vi: "Các thực thể SCP-2295-1 hoạt động bình thường bất chấp những điểm không tương thích sinh học và hóa học dự kiến. Chưa từng có trường hợp đào thải, và mọi đối tượng đều hồi phục hoàn toàn."
+      zh: "尽管存在预期中的生物学和化学不相容性，SCP-2295-1个体仍能正常运作。至今没有出现排斥反应的案例，所有对象均完全康复。"
+      zh_Hant: "儘管存在預期中的生物學和化學不相容性，SCP-2295-1個體仍能正常運作。至今沒有出現排斥反應的案例，所有對象均完全康復。"
+
+addendum:
+  ja: "補遺：SCP-2295の内部から回収されたカードには「トミーへ、時だけがすべての傷を癒せるから。愛を込めて、おばあちゃんより」と書かれていた。"
+  en: "Addendum: A card recovered from inside SCP-2295 reads: 'To Tommy, because only time can mend all wounds. Love, Grammy.'"
+  cs: "Dodatek: Kartička nalezená uvnitř SCP-2295 zní: 'Pro Tommyho, protože jen čas dokáže zahojit všechny rány. S láskou, babička.'"
+  de: "Anhang: Eine im Inneren von SCP-2295 gefundene Karte lautet: 'Für Tommy, denn nur die Zeit kann alle Wunden heilen. In Liebe, Oma.'"
+  es: "Adenda: Una tarjeta recuperada del interior de SCP-2295 dice: 'Para Tommy, porque solo el tiempo puede sanar todas las heridas. Con cariño, la abuela.'"
+  fr: "Addendum : Une carte récupérée à l'intérieur de SCP-2295 indique : « Pour Tommy, car seul le temps peut guérir toutes les blessures. Avec amour, Mamie. »"
+  it: "Addendum: Un biglietto recuperato all'interno di SCP-2295 recita: 'Per Tommy, perché solo il tempo può guarire tutte le ferite. Con affetto, Nonna.'"
+  ko: "부록: SCP-2295 내부에서 회수된 카드에는 다음과 같이 적혀 있었다. '토미에게, 시간만이 모든 상처를 치유할 수 있으니까. 사랑을 담아, 할머니가.'"
+  pl: "Aneks: Kartka znaleziona wewnątrz SCP-2295 głosi: 'Dla Tommy'ego, bo tylko czas może zagoić wszystkie rany. Z miłością, Babcia.'"
+  pt: "Adendo: Um cartão recuperado de dentro do SCP-2295 diz: 'Para Tommy, porque só o tempo pode curar todas as feridas. Com amor, Vovó.'"
+  th: "ภาคผนวก: การ์ดที่กู้คืนได้จากภายใน SCP-2295 เขียนว่า 'ถึงทอมมี่ เพราะมีเพียงเวลาเท่านั้นที่จะเยียวยาบาดแผลทั้งหมดได้ ด้วยความรัก ยาย'"
+  uk: "Додаток: На картці, знайденій всередині SCP-2295, написано: 'Для Томмі, бо лише час здатен зцілити всі рани. З любов'ю, бабуся.'"
+  vi: "Phụ lục: Một tấm thiệp thu hồi được bên trong SCP-2295 viết: 'Gửi Tommy, vì chỉ có thời gian mới có thể hàn gắn mọi vết thương. Yêu con, Bà.'"
+  zh: "补遗：从SCP-2295内部回收的卡片上写着：「致汤米，因为只有时间才能治愈一切伤痛。爱你的，奶奶。」"
+  zh_Hant: "補遺：從SCP-2295內部回收的卡片上寫著：「致湯米，因為只有時間才能治癒一切傷痛。愛你的，奶奶。」"

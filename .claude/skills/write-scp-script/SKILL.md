@@ -59,6 +59,10 @@ description: Write a new SCP comic script (comics/queue/scp-XXX.yaml) for this p
   - **`characters`欄のキー順序は、sceneの文中でその人物の行動が説明される順序と
     一致させる**。順序がズレると、モデルが逆の人物にその役柄（容姿・動作）を
     割り当ててしまうことを検証で確認している（例: scp-105パネル3で発生した実例）。
+  - **`local_characters`で色を指定する際は、色名だけでなく`(color RGB R,G,B)`
+    の形で具体的な数値も併記する**（例: "medium gray (RGB 140,140,140)"）。
+    色名だけだとコマごとに明るさ・色味がブレやすいことを検証で確認している
+    （`config/characters.yaml`の既存キャラも同じ方針で記述済み）。
 - **`panels[].caption`**（全コマ必須・15言語: ja, en, cs, de, es, fr, it, ko, pl,
   pt, th, uk, vi, zh, zh_Hant）
   - **要約や言い換えではなく、記事のSpecial Containment Procedures / Description
