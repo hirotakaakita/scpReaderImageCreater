@@ -1,0 +1,249 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "qwen_image_2512_fp8_e4m3fn.safetensors",
+      "weight_dtype": "default"
+    },
+    "_meta": { "title": "UNET Loader" }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "type": "qwen_image",
+      "device": "default"
+    },
+    "_meta": { "title": "CLIP Loader" }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    },
+    "_meta": { "title": "VAE Loader" }
+  },
+  "13": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": ["1", 0],
+      "lora_name": "Wuli-Qwen-Image-2512-Turbo-LoRA-2steps-V1.0-bf16.safetensors",
+      "strength_model": 1.0
+    },
+    "_meta": { "title": "Turbo LoRA" }
+  },
+  "12": {
+    "class_type": "LoraLoaderModelOnly",
+    "inputs": {
+      "model": ["13", 0],
+      "lora_name": "QwenImage_blackline.safetensors",
+      "strength_model": 1.0
+    },
+    "_meta": { "title": "Style LoRA" }
+  },
+  "5": {
+    "class_type": "ModelSamplingAuraFlow",
+    "inputs": {
+      "model": ["12", 0],
+      "shift": 3.1
+    },
+    "_meta": { "title": "Model Sampling (AuraFlow)" }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "plain dark gray jumpsuit fabric, flat solid color, no bandage, no wrap texture, matching the surrounding clothing",
+      "clip": ["2", 0]
+    },
+    "_meta": { "title": "Positive Prompt" }
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "text, watermark, signature, blurry, lowres, extra limbs, bad anatomy, jpeg artifacts, seam, visible edge",
+      "clip": ["2", 0]
+    },
+    "_meta": { "title": "Negative Prompt" }
+  },
+  "20": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "panel_2_v10.png"
+    },
+    "_meta": {
+      "title": "Source Image",
+      "description": "修正したいコマのPNGをアップロードし、ノードを右クリック→「Open in MaskEditor」で塗り替えたい範囲を白でペイントする"
+    }
+  },
+  "21": {
+    "class_type": "VAEEncodeForInpaint",
+    "inputs": {
+      "pixels": ["20", 0],
+      "vae": ["3", 0],
+      "mask": ["20", 1],
+      "grow_mask_by": 6
+    },
+    "_meta": { "title": "VAE Encode (Inpaint)" }
+  },
+  "9": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 0,
+      "steps": 2,
+      "cfg": 1,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0,
+      "model": ["5", 0],
+      "positive": ["6", 0],
+      "negative": ["7", 0],
+      "latent_image": ["21", 0]
+    },
+    "_meta": { "title": "KSampler" }
+  },
+  "10": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": ["9", 0],
+      "vae": ["3", 0]
+    },
+    "_meta": { "title": "VAE Decode" }
+  },
+  "22": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": ["20", 0],
+      "source": ["10", 0],
+      "mask": ["20", 1],
+      "x": 0,
+      "y": 0,
+      "resize_source": false
+    },
+    "_meta": {
+      "title": "Composite Back",
+      "description": "マスク範囲の外側は元画像のピクセルをそのまま残し、範囲内だけ生成結果に置き換える（VAEの往復による画像全体の色ズレを防ぐ）"
+    }
+  },
+  "11": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": ["22", 0],
+      "filename_prefix": "scp_comic_inpaint"
+    },
+    "_meta": { "title": "Save Image (Generated)" }
+  },
+  "30": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1328,
+      "height": 1328,
+      "batch_size": 1,
+      "color": 4145729
+    },
+    "_meta": {
+      "title": "Flat Fill Color",
+      "description": "無地の生地など「新しく何かを描く」必要がなく、周りの色にそのまま合わせたいだけの場合に使う。colorはノードのカラーピッカーで直接選ぶか、0xRRGGBBの整数値で指定する（既定値はSCP-2295 panel_2の作業服の色 RGB 63,66,65 = 0x3F4241）。生成モデルを介さないため色が完全に一致する。"
+    }
+  },
+  "31": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": ["20", 0],
+      "source": ["30", 0],
+      "mask": ["20", 1],
+      "x": 0,
+      "y": 0,
+      "resize_source": false
+    },
+    "_meta": { "title": "Composite Flat Fill" }
+  },
+  "32": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": ["31", 0],
+      "filename_prefix": "scp_comic_flatfill"
+    },
+    "_meta": { "title": "Save Image (Flat Fill)" }
+  },
+  "40": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": ["20", 0],
+      "width": 240,
+      "height": 115,
+      "x": 260,
+      "y": 850
+    },
+    "_meta": {
+      "title": "Texture Donor",
+      "description": "同じ生地の別の場所（しわ・折り目がある部分）から切り取る範囲。x,yは切り取り開始位置、width,heightはサイズ。Swatch Packerツール等で画像を開き、カーソルを合わせて出るピクセル座標を見ながら決める。"
+    }
+  },
+  "43": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1328,
+      "height": 1328,
+      "batch_size": 1,
+      "color": 16777215
+    },
+    "_meta": { "title": "White Carrier" }
+  },
+  "44": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": ["43", 0],
+      "source": ["40", 0],
+      "x": 220,
+      "y": 682,
+      "resize_source": false
+    },
+    "_meta": {
+      "title": "Place Donor At Defect",
+      "description": "切り取ったTexture Donorを、直したい範囲（マスクの左上）の位置に置く。x,yはMaskEditorで塗った範囲の左上あたりに合わせる（Texture Donorと同じwidth/heightぶんそこを覆うように）。"
+    }
+  },
+  "45": {
+    "class_type": "GrowMask",
+    "inputs": {
+      "mask": ["20", 1],
+      "expand": 3,
+      "tapered_corners": true
+    },
+    "_meta": { "title": "Grow Mask" }
+  },
+  "46": {
+    "class_type": "FeatherMask",
+    "inputs": {
+      "mask": ["45", 0],
+      "left": 14,
+      "top": 14,
+      "right": 14,
+      "bottom": 14
+    },
+    "_meta": { "title": "Feather Mask" }
+  },
+  "47": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": ["20", 0],
+      "source": ["44", 0],
+      "mask": ["46", 0],
+      "x": 0,
+      "y": 0,
+      "resize_source": false
+    },
+    "_meta": {
+      "title": "Composite Clone Stamp",
+      "description": "マスク範囲だけ、Texture Donorの模様に置き換える。境界をFeather Maskでぼかしているので継ぎ目が目立ちにくい。"
+    }
+  },
+  "48": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": ["47", 0],
+      "filename_prefix": "scp_comic_clonestamp"
+    },
+    "_meta": { "title": "Save Image (Clone Stamp)" }
+  }
+}

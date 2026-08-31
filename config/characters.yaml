@@ -65,10 +65,11 @@ characters:
     name: D-Class Personnel
     description: >
       An anonymous D-class test subject, with short, plain, unremarkable
-      dark hair (color RGB 30,30,30) with no particular style. Wears a
-      plain jumpsuit in a solid dark gray color (RGB 90,90,90, no other
-      colors on it) with no markings, and gray sneakers, no lab coat.
-      Nervous expression.
+      dark hair (color RGB 30,30,30, do not render it noticeably lighter
+      or grayer than this) with no particular style. Wears a plain
+      jumpsuit in a solid dark gray color (RGB 90,90,90, no other colors
+      on it) with no markings, and gray sneakers, no lab coat. Nervous
+      expression.
     reference_images: []
 
   attending-researcher-m:

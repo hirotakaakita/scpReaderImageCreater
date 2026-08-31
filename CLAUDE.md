@@ -108,6 +108,11 @@ Claude Codeが行う**（自動化なし）。全体像はREADME.md参照。
    1枚を `output/scp-XXX/panels/panel_N.png` としてコピーし直したら、
    `python scripts/run_pipeline.py --id scp-XXX --skip-generate` で合成・15言語埋め込み
    まで実行する。`panels_temp/`はコミットしない（`.gitignore`済み）
+   - **1コマの中の一部分だけがおかしい場合**（模様の乱れ・局所的な色ズレ等）は、
+     そのコマ全体を再生成せず、ComfyUI画面上でのインペイントで直す方針
+     （Pythonでの画像後処理は行わない）。手順は
+     `scripts/providers/comfyui/README.md`の「生成済みコマの局所的な修正
+     （インペイント）」参照
 
 ## 実装メモ
 
