@@ -28,6 +28,7 @@ scripts/build_index.py      ← index.json 更新
         ▼
 output/scp-XXX/base.png     ← テキスト無し版
 output/scp-XXX/<lang>.png   ← 言語別（ja, en, cs, de, es, fr, it, ko, pl, pt, th, uk, vi, zh, zh_Hant）
+output/scp-XXX/thumbnail.png ← 漫画一覧画面用サムネイル（1コマ目のみ、文字無し、全言語共通）
 output/scp-XXX/meta.json    ← コマ座標・attribution等
 index.json                  ← 漫画一覧（アプリ/bot用）
 state/used.json             ← 生成済みSCPの記録（重複生成防止。消さないこと）

@@ -10,6 +10,10 @@ panel:
   width: 720          # 最終画像上のコマの幅(px)
   height: 720         # 高さ(px)。正方形推奨（生成時のaspect_ratioと合わせる）
 
+# 漫画一覧画面用のサムネイル（1コマ目のみ、文字無しの生成画像そのもの）
+thumbnail:
+  size: 480           # 正方形の一辺(px)
+
 strip:
   columns: 1          # 列数。4コマ=1列、8コマなら1列(縦長) or 2列(4コマ×2本)
   column_order: ltr   # 2列以上のときの列の並び順: ltr(左→右) / rtl(右→左)
@@ -39,8 +43,8 @@ caption:
   # captionは記事本文からの引用を短縮せずそのまま使う方針のため、行数では
   # なくフォントサイズ側で箱の高さを抑える（16→13に縮小。3行に収める形での
   # テキスト短縮は不自然になるため採用しない）
-  font_size: 13
-  min_font_size: 9
+  font_size: 15
+  min_font_size: 11
   line_spacing: 3
   padding: 10
   fill: "#FFFFFF"
@@ -51,10 +55,10 @@ caption:
 # キャプションの最大領域プリセット（コマ内の正規化座標 x, y, w, h）。
 # 実際の箱はこの領域内で文字量に合わせて縮み、anchor側の隅に寄せて配置される。
 caption_presets:
-  top-left:     {x: 0.06, y: 0.06, w: 0.60, h: 0.40}
-  top-right:    {x: 0.34, y: 0.06, w: 0.60, h: 0.40}
-  bottom-left:  {x: 0.06, y: 0.54, w: 0.60, h: 0.40}
-  bottom-right: {x: 0.34, y: 0.54, w: 0.60, h: 0.40}
+  top-left:     {x: 0.015, y: 0.015, w: 0.60, h: 0.40}
+  top-right:    {x: 0.385, y: 0.015, w: 0.60, h: 0.40}
+  bottom-left:  {x: 0.015, y: 0.585, w: 0.60, h: 0.40}
+  bottom-right: {x: 0.385, y: 0.585, w: 0.60, h: 0.40}
 
 # 最後のコマの下に置く補遺ボックス（台本のaddendumを描く。無ければ省略）
 addendum:

@@ -125,6 +125,17 @@ def compose(script, cfgs):
     base_path = os.path.join(comic_dir, "base.png")
     img.save(base_path)
 
+    # 漫画一覧画面用のサムネイル（1コマ目のみ、文字無し）。captionは言語別に
+    # embed_text.pyが後で描くため、この時点のpanel_1.pngはまだ文字無しで、
+    # 全言語共通で使い回せる
+    thumb_cfg = layout.get("thumbnail") or {}
+    thumb_size = thumb_cfg.get("size", 480)
+    thumb_path = os.path.join(comic_dir, "thumbnail.png")
+    thumb = Image.open(panel_files[0]).convert("RGB").resize(
+        (thumb_size, thumb_size), Image.LANCZOS)
+    thumb.save(thumb_path)
+    print(f"[compose] {thumb_path} ({thumb_size}x{thumb_size}, panel 1)")
+
     meta = {
         "id": script["id"],
         "panels": n,

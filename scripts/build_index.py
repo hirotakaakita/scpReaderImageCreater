@@ -29,6 +29,7 @@ def build():
                 "createdAt": meta.get("created_at"),
                 "basePath": f"output/{meta['id']}/base.png",
                 "imagePathTemplate": f"output/{meta['id']}/{{lang}}.png",
+                "thumbnailPath": f"output/{meta['id']}/thumbnail.png",
                 "attribution": meta.get("attribution") or {},
             })
     entries.sort(key=lambda e: e.get("createdAt") or "", reverse=True)
