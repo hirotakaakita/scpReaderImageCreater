@@ -1,0 +1,133 @@
+# SCP-037 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Addendum A（超新星化のおそれ・Pituaqプロトコル）は本編に混ぜない。
+# キャラにセリフは言わせない。JP公式訳が直接取得できなかったため、検証済みの
+# 英語本文からの翻訳（ja含む）。
+
+id: scp-037
+
+title:
+  en: "SCP-037"
+  ja: "SCP-037"
+  cs: "SCP-037"
+  de: "SCP-037"
+  es: "SCP-037"
+  fr: "SCP-037"
+  it: "SCP-037"
+  ko: "SCP-037"
+  pl: "SCP-037"
+  pt: "SCP-037"
+  th: "SCP-037"
+  uk: "SCP-037"
+  vi: "SCP-037"
+  zh: "SCP-037"
+  zh_Hant: "SCP-037"
+
+attribution:
+  article: "SCP-037"
+  source_url: "http://scp-wiki.wikidot.com/scp-037"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+characters: [attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the deck of an icebreaker
+      ship at night over the arctic ocean. A tiny intensely bright point
+      of light hovers just above the dark water in the distance, its
+      glow lighting up the surrounding fog. attending-researcher-m
+      stands at the railing, shielding his eyes, staring at it in awe.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-037は直径約5センチメートルの恒星のように見える。北磁極付近のボーフォート海上空で、激しい電磁干渉と、海に向かって降下する非常に明るい物体の目撃を受けて発見された。"
+      en: "SCP-037 appears to be a star approximately 5 cm in diameter. It was discovered above the Beaufort Sea near the North Magnetic Pole, following intense electromagnetic interference and an extremely bright object descending toward the ocean."
+      cs: "SCP-037 vypadá jako hvězda o průměru přibližně 5 centimetrů. Byla objevena nad Beaufortovým mořem poblíž severního magnetického pólu po intenzivním elektromagnetickém rušení a pozorování extrémně jasného objektu klesajícího k oceánu."
+      de: "SCP-037 erscheint als ein Stern mit einem Durchmesser von etwa 5 cm. Er wurde über der Beaufortsee in der Nähe des Magnetischen Nordpols entdeckt, nachdem es zu starken elektromagnetischen Störungen kam und ein extrem helles Objekt auf den Ozean zusteuerte."
+      es: "SCP-037 parece ser una estrella de aproximadamente 5 cm de diámetro. Fue descubierta sobre el mar de Beaufort, cerca del Polo Norte Magnético, tras una intensa interferencia electromagnética y un objeto extremadamente brillante descendiendo hacia el océano."
+      fr: "Le SCP-037 se présente comme une étoile d'environ 5 cm de diamètre. Il a été découvert au-dessus de la mer de Beaufort, près du pôle Nord magnétique, à la suite d'interférences électromagnétiques intenses et d'un objet extrêmement brillant descendant vers l'océan."
+      it: "SCP-037 appare come una stella di circa 5 cm di diametro. È stato scoperto sopra il mare di Beaufort vicino al Polo Nord magnetico, a seguito di intense interferenze elettromagnetiche e di un oggetto estremamente luminoso in discesa verso l'oceano."
+      ko: "SCP-037은 지름 약 5센티미터의 별처럼 보인다. 이는 북자극 근처 보퍼트해 상공에서, 극심한 전자기 간섭과 바다를 향해 하강하는 극도로 밝은 물체의 목격 이후 발견되었다."
+      pl: "SCP-037 wygląda jak gwiazda o średnicy około 5 centymetrów. Zostało odkryte nad Morzem Beauforta w pobliżu bieguna magnetycznego Ziemi, po intensywnych zakłóceniach elektromagnetycznych i zaobserwowaniu niezwykle jasnego obiektu opadającego w kierunku oceanu."
+      pt: "O SCP-037 aparece como uma estrela de aproximadamente 5 cm de diâmetro. Foi descoberto sobre o Mar de Beaufort, próximo ao Polo Norte Magnético, após intensas interferências eletromagnéticas e um objeto extremamente brilhante descendo em direção ao oceano."
+      th: "SCP-037 มีลักษณะเหมือนดาวฤกษ์ที่มีเส้นผ่านศูนย์กลางประมาณ 5 เซนติเมตร มันถูกค้นพบเหนือทะเลโบฟอร์ตใกล้ขั้วแม่เหล็กเหนือ หลังจากเกิดการรบกวนคลื่นแม่เหล็กไฟฟ้าอย่างรุนแรงและมีวัตถุที่สว่างจ้าอย่างยิ่งกำลังร่วงลงสู่มหาสมุทร"
+      uk: "SCP-037 виглядає як зірка діаметром приблизно 5 сантиметрів. Її виявили над морем Бофорта поблизу Північного магнітного полюса після інтенсивних електромагнітних перешкод і спостереження надзвичайно яскравого об'єкта, що спускався до океану."
+      vi: "SCP-037 trông giống một ngôi sao có đường kính khoảng 5 cm. Nó được phát hiện trên biển Beaufort gần Cực Bắc từ tính, sau hiện tượng nhiễu điện từ dữ dội và một vật thể cực kỳ sáng đang hạ xuống đại dương."
+      zh: "SCP-037外观是一颗直径约5厘米的恒星。它是在博福特海上空、靠近北磁极处被发现的，当时先出现强烈的电磁干扰，随后一个极其明亮的物体朝海洋下降。"
+      zh_Hant: "SCP-037外觀是一顆直徑約5公分的恆星。它是在博福特海上空、靠近北磁極處被發現的，當時先出現強烈的電磁干擾，隨後一個極其明亮的物體朝海洋下降。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show a vast
+      underground chamber deep in bedrock, a very different framing
+      from the ship deck shot before. At the center, suspended in a ring
+      of massive electromagnets inside an evacuated glass chamber, the
+      tiny star floats, radiating light in all directions.
+      attending-researcher-f stands at a distance behind thick
+      shielding, observing through a small viewport.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-037の収容と輸送は、強力な電磁石によって実現されている。その収容室は地下深くに設置されており、施設全体と周囲の岩盤が巨大な放熱板の役割を果たしている。"
+      en: "Containment and transport of SCP-037 have been achieved through powerful electromagnets. Its enclosure is located deep underground, where the entire facility and surrounding bedrock act as a massive heat sink."
+      cs: "Zadržení a přeprava SCP-037 bylo dosaženo pomocí výkonných elektromagnetů. Jeho pouzdro se nachází hluboko pod zemí, kde celé zařízení a okolní podloží slouží jako obrovský tepelný výměník."
+      de: "Die Eindämmung und der Transport von SCP-037 werden durch leistungsstarke Elektromagnete erreicht. Sein Gehäuse befindet sich tief unter der Erde, wo die gesamte Anlage und das umliegende Grundgestein als massiver Wärmeableiter fungieren."
+      es: "La contención y el transporte de SCP-037 se han logrado mediante potentes electroimanes. Su recinto se encuentra en las profundidades del subsuelo, donde toda la instalación y el lecho rocoso circundante actúan como un enorme disipador de calor."
+      fr: "Le confinement et le transport du SCP-037 ont été réalisés grâce à de puissants électroaimants. Son enceinte est située en profondeur sous terre, où l'ensemble de l'installation et la roche environnante servent de gigantesque dissipateur thermique."
+      it: "Il contenimento e il trasporto di SCP-037 sono stati ottenuti tramite potenti elettromagneti. Il suo alloggiamento si trova in profondità nel sottosuolo, dove l'intera struttura e la roccia circostante fungono da enorme dissipatore di calore."
+      ko: "SCP-037의 격리 및 운송은 강력한 전자석을 통해 이루어진다. 그 격리실은 지하 깊은 곳에 위치해 있으며, 시설 전체와 주변 암반이 거대한 방열판 역할을 한다."
+      pl: "Powstrzymywanie i transport SCP-037 osiągnięto za pomocą potężnych elektromagnesów. Jego obudowa znajduje się głęboko pod ziemią, gdzie cały obiekt i otaczające skały pełnią rolę ogromnego radiatora."
+      pt: "A contenção e o transporte do SCP-037 foram alcançados por meio de eletroímãs potentes. Seu invólucro está localizado nas profundezas do subsolo, onde toda a instalação e a rocha ao redor atuam como um enorme dissipador de calor."
+      th: "การกักกันและการขนส่ง SCP-037 ทำได้ด้วยแม่เหล็กไฟฟ้ากำลังสูง ห้องกักเก็บของมันตั้งอยู่ลึกใต้ดิน ซึ่งทั้งสถานที่และชั้นหินโดยรอบทำหน้าที่เป็นแผงระบายความร้อนขนาดมหึมา"
+      uk: "Стримування та транспортування SCP-037 здійснюється за допомогою потужних електромагнітів. Його камера розташована глибоко під землею, де весь об'єкт і навколишня скельна порода діють як величезний тепловідвід."
+      vi: "Việc chứa giữ và vận chuyển SCP-037 được thực hiện thông qua các nam châm điện mạnh. Buồng chứa của nó nằm sâu dưới lòng đất, nơi toàn bộ cơ sở và nền đá xung quanh hoạt động như một bộ tản nhiệt khổng lồ."
+      zh: "SCP-037的收容与运输是通过强力电磁铁实现的。其收容室位于地下深处，整个设施及周围的基岩共同充当巨大的散热器。"
+      zh_Hant: "SCP-037的收容與運輸是透過強力電磁鐵實現的。其收容室位於地下深處，整個設施及周圍的基岩共同充當巨大的散熱器。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a control room, a different
+      framing from the vast chamber shot before. attending-researcher-m
+      sits at a bank of dials and monitors tracking size, spectral
+      signature, and temperature readouts, attending-researcher-f leans
+      over his shoulder comparing notes on a clipboard.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "物体のサイズ、スペクトル特性、温度は、現地および遠隔の両方で常時監視されている。"
+      en: "Object size, spectral signature, and temperature are constantly monitored, both onsite and remotely."
+      cs: "Velikost objektu, spektrální signatura a teplota jsou neustále sledovány, jak na místě, tak vzdáleně."
+      de: "Größe, Spektralsignatur und Temperatur des Objekts werden ständig überwacht, sowohl vor Ort als auch aus der Ferne."
+      es: "El tamaño, la firma espectral y la temperatura del objeto se monitorean constantemente, tanto in situ como de forma remota."
+      fr: "La taille, la signature spectrale et la température de l'objet sont surveillées en permanence, tant sur place qu'à distance."
+      it: "Le dimensioni, la firma spettrale e la temperatura dell'oggetto sono costantemente monitorate, sia in loco che a distanza."
+      ko: "물체의 크기, 스펙트럼 서명, 온도는 현장과 원격 모두에서 지속적으로 모니터링된다."
+      pl: "Wielkość obiektu, sygnatura widmowa i temperatura są stale monitorowane, zarówno na miejscu, jak i zdalnie."
+      pt: "O tamanho, a assinatura espectral e a temperatura do objeto são constantemente monitorados, tanto no local quanto remotamente."
+      th: "ขนาดของวัตถุ ลายเซ็นสเปกตรัม และอุณหภูมิถูกตรวจสอบอย่างต่อเนื่อง ทั้งในสถานที่และจากระยะไกล"
+      uk: "Розмір об'єкта, спектральний підпис і температура постійно контролюються, як на місці, так і дистанційно."
+      vi: "Kích thước, dấu hiệu quang phổ và nhiệt độ của vật thể được giám sát liên tục, cả tại chỗ lẫn từ xa."
+      zh: "该物体的大小、光谱特征和温度会在现场及远程持续受到监测。"
+      zh_Hant: "該物體的大小、光譜特徵和溫度會在現場及遠端持續受到監測。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole
+      underground chamber in emergency mode, a very different framing
+      from the control room shot before. Red emergency lighting fills
+      the space, a shimmering violet plasma shield now enveloping the
+      tiny star. attending-researcher-m and attending-researcher-f rush
+      in through a blast door in protective gear, tools in hand.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "収容の完全性が損なわれた場合、緊急システムは低出力のアルゴンプラズマシールドを発生させ、現場の技術者が修理を行うための最低4時間を確保する。"
+      en: "Should enclosure integrity become compromised, the emergency system will generate a low-power argon plasma shield, providing a minimum of four hours for onsite engineers to effect repairs."
+      cs: "Pokud dojde k narušení celistvosti pouzdra, nouzový systém vygeneruje nízkoenergetický argonový plazmový štít, který poskytne technikům na místě minimálně čtyři hodiny na provedení oprav."
+      de: "Sollte die Integrität des Gehäuses beeinträchtigt werden, erzeugt das Notfallsystem einen Argon-Plasmaschild geringer Leistung, der den Vor-Ort-Ingenieuren mindestens vier Stunden Zeit für Reparaturen verschafft."
+      es: "Si se compromete la integridad del recinto, el sistema de emergencia generará un escudo de plasma de argón de baja potencia, que proporcionará un mínimo de cuatro horas para que los ingenieros in situ realicen las reparaciones."
+      fr: "Si l'intégrité de l'enceinte venait à être compromise, le système d'urgence générerait un bouclier de plasma d'argon à faible puissance, offrant un minimum de quatre heures aux ingénieurs sur place pour effectuer les réparations."
+      it: "Se l'integrità dell'alloggiamento dovesse essere compromessa, il sistema di emergenza genererà uno scudo al plasma di argon a bassa potenza, fornendo un minimo di quattro ore agli ingegneri in loco per effettuare le riparazioni."
+      ko: "격납 완전성이 손상될 경우, 비상 시스템은 저출력 아르곤 플라즈마 방벽을 생성하여 현장 기술자들이 수리를 수행할 수 있는 최소 4시간을 확보한다."
+      pl: "Jeśli integralność obudowy zostanie naruszona, system awaryjny wygeneruje niskoenergetyczną tarczę plazmową z argonu, dając technikom na miejscu co najmniej cztery godziny na przeprowadzenie napraw."
+      pt: "Caso a integridade do invólucro seja comprometida, o sistema de emergência gerará um escudo de plasma de argônio de baixa potência, proporcionando no mínimo quatro horas para que os engenheiros no local efetuem os reparos."
+      th: "หากความสมบูรณ์ของห้องกักเก็บถูกทำลาย ระบบฉุกเฉินจะสร้างเกราะพลาสมาอาร์กอนกำลังต่ำ เพื่อให้วิศวกรในสถานที่มีเวลาอย่างน้อยสี่ชั่วโมงในการซ่อมแซม"
+      uk: "Якщо цілісність камери буде порушено, аварійна система створить аргоновий плазмовий щит низької потужності, що надасть інженерам на місці щонайменше чотири години для проведення ремонту."
+      vi: "Nếu tính toàn vẹn của buồng chứa bị xâm phạm, hệ thống khẩn cấp sẽ tạo ra một lá chắn plasma argon công suất thấp, cung cấp tối thiểu bốn giờ để các kỹ sư tại chỗ tiến hành sửa chữa."
+      zh: "若收容完整性受损，紧急系统将生成低功率氩等离子体护盾，为现场工程师提供至少四小时进行维修。"
+      zh_Hant: "若收容完整性受損，緊急系統將產生低功率氬電漿護盾，為現場工程師提供至少四小時進行維修。"

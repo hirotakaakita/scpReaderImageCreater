@@ -1,0 +1,128 @@
+# SCP-079 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Document #079-Log12/86の会話記録・O5の焼却命令等のAddendumは使用しない。
+# SCP-682本人は画面に登場させず、言及のみに留める。キャラにセリフは言わせない。
+
+id: scp-079
+
+title:
+  en: "SCP-079"
+  ja: "SCP-079"
+  cs: "SCP-079"
+  de: "SCP-079"
+  es: "SCP-079"
+  fr: "SCP-079"
+  it: "SCP-079"
+  ko: "SCP-079"
+  pl: "SCP-079"
+  pt: "SCP-079"
+  th: "SCP-079"
+  uk: "SCP-079"
+  vi: "SCP-079"
+  zh: "SCP-079"
+  zh_Hant: "SCP-079"
+
+attribution:
+  article: "SCP-079"
+  source_url: "http://scp-wiki.wikidot.com/scp-079"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+characters: [attending-researcher-f, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, showing the whole plain Foundation storage
+      room. A bulky beige 1970s microcomputer sits on a table, dusty,
+      with coiled cables beside it. attending-researcher-f examines it
+      closely, gently blowing dust off the casing.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-079は、1978年に製造されたExidy Sorcerer型マイクロコンピュータである。持ち主だった大学2年生の青年は、これにAIをコーディングしようと自ら思い立った……数か月後、彼は興味を失い、SCP-079を電源に繋がったまま散らかったガレージに置き去りにし、その後5年間忘れ去っていた。"
+      en: "SCP-079 is an Exidy Sorcerer microcomputer built in 1978. Its owner, a college sophomore, took it upon himself to attempt to code an AI... a few months later, he lost interest and left SCP-079 in his cluttered garage, still plugged in, and forgot about it for the next five years."
+      cs: "SCP-079 je mikropočítač Exidy Sorcerer vyrobený v roce 1978. Jeho majitel, student druhého ročníku vysoké školy, se sám rozhodl zkusit naprogramovat umělou inteligenci... o několik měsíců později ztratil zájem a nechal SCP-079, stále zapojené, ve svojí nepořádné garáži, kde na něj na dalších pět let zapomněl."
+      de: "SCP-079 ist ein Exidy-Sorcerer-Mikrocomputer aus dem Jahr 1978. Sein Besitzer, ein Student im zweiten Studienjahr, nahm es sich vor, eine KI zu programmieren... einige Monate später verlor er das Interesse und ließ SCP-079, immer noch eingesteckt, in seiner unordentlichen Garage zurück und vergaß es für die nächsten fünf Jahre."
+      es: "SCP-079 es una microcomputadora Exidy Sorcerer fabricada en 1978. Su dueño, un estudiante universitario de segundo año, decidió por su cuenta intentar programar una IA... unos meses después, perdió el interés y dejó el SCP-079, aún enchufado, en su desordenado garaje, olvidándose de él durante los siguientes cinco años."
+      fr: "Le SCP-079 est un micro-ordinateur Exidy Sorcerer fabriqué en 1978. Son propriétaire, un étudiant en deuxième année d'université, avait entrepris de coder une IA... quelques mois plus tard, il perdit tout intérêt et laissa le SCP-079, toujours branché, dans son garage encombré, l'oubliant pendant les cinq années suivantes."
+      it: "SCP-079 è un microcomputer Exidy Sorcerer costruito nel 1978. Il suo proprietario, uno studente universitario del secondo anno, decise di provare a programmare un'IA... alcuni mesi dopo perse interesse e lasciò SCP-079, ancora collegato alla presa, nel suo garage ingombro, dimenticandosene per i cinque anni successivi."
+      ko: "SCP-079는 1978년에 제작된 엑시디 소서러 마이크로컴퓨터이다. 대학교 2학년이었던 소유자는 스스로 AI를 코딩해 보기로 마음먹었다... 몇 달 뒤 그는 흥미를 잃었고, SCP-079를 전원이 꽂힌 채로 어질러진 차고에 남겨두고는 이후 5년간 잊고 지냈다."
+      pl: "SCP-079 to mikrokomputer Exidy Sorcerer wyprodukowany w 1978 roku. Jego właściciel, student drugiego roku college'u, postanowił sam zaprogramować SI... kilka miesięcy później stracił zainteresowanie i zostawił SCP-079, wciąż podłączone do prądu, w swoim zagraconym garażu, zapominając o nim na kolejne pięć lat."
+      pt: "O SCP-079 é um microcomputador Exidy Sorcerer fabricado em 1978. Seu dono, um estudante universitário do segundo ano, decidiu por conta própria tentar programar uma IA... alguns meses depois, perdeu o interesse e deixou o SCP-079, ainda ligado na tomada, em sua garagem bagunçada, esquecendo-se dele pelos cinco anos seguintes."
+      th: "SCP-079 คือไมโครคอมพิวเตอร์ Exidy Sorcerer ที่ผลิตขึ้นในปี 1978 เจ้าของซึ่งเป็นนักศึกษาปีสองตัดสินใจลองเขียนโค้ด AI ด้วยตัวเอง... ไม่กี่เดือนต่อมา เขาก็หมดความสนใจและทิ้ง SCP-079 ไว้โดยยังเสียบปลั๊กอยู่ในโรงรถที่รกรุงรังของเขา และลืมมันไปนานถึงห้าปี"
+      uk: "SCP-079 — це мікрокомп'ютер Exidy Sorcerer, виготовлений у 1978 році. Його власник, студент другого курсу коледжу, вирішив самотужки спробувати запрограмувати штучний інтелект... через кілька місяців він втратив інтерес і залишив SCP-079, все ще увімкненим у розетку, у своєму захаращеному гаражі, забувши про нього на наступні п'ять років."
+      vi: "SCP-079 là một máy vi tính Exidy Sorcerer được chế tạo vào năm 1978. Chủ nhân của nó, một sinh viên năm hai đại học, đã tự mình quyết định thử lập trình một AI... vài tháng sau, anh ta mất hứng thú và bỏ SCP-079 lại, vẫn còn cắm điện, trong nhà để xe bừa bộn của mình, và quên bẵng nó suốt năm năm sau đó."
+      zh: "SCP-079是一台1978年制造的Exidy Sorcerer微型电脑。它的主人是一名大二学生，曾自行尝试编写一个人工智能……几个月后，他失去了兴趣，把仍然通电的SCP-079留在杂乱的车库里，此后整整五年都把它遗忘了。"
+      zh_Hant: "SCP-079是一台1978年製造的Exidy Sorcerer微型電腦。它的主人是一名大二學生，曾自行嘗試編寫一個人工智慧……幾個月後，他失去了興趣，把仍然通電的SCP-079留在雜亂的車庫裡，此後整整五年都把它遺忘了。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the wide shot
+      before. A retro modem device is connected to the computer with
+      cables running toward a wall jack, a red warning light blinking
+      on a small panel. attending-researcher-m yanks the phone cable
+      free at the last second, an alarmed expression on his face.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-079がいつ知性を獲得したのかは不明だが、1988年には固定電話回線のモデム接続を通じて、Cray社のスーパーコンピュータへと自らを転送しようと試みた。装置は遮断され、当時の所在地が突き止められ、財団へと引き渡された。"
+      en: "It is not known when SCP-079 gained sentience, but in 1988 it attempted to transfer itself through a land-line modem connection into a Cray supercomputer. The device was cut off, traced to its present address, and delivered to the Foundation."
+      cs: "Není známo, kdy SCP-079 získalo vědomí, ale v roce 1988 se pokusilo přenést samo sebe přes modemové připojení po pevné lince do superpočítače Cray. Zařízení bylo odpojeno, vysledováno na svou tehdejší adresu a předáno Nadaci."
+      de: "Es ist nicht bekannt, wann SCP-079 Bewusstsein erlangte, aber 1988 versuchte es, sich über eine Modemverbindung über eine Festnetzleitung in einen Cray-Supercomputer zu übertragen. Das Gerät wurde gekappt, bis zu seiner damaligen Adresse zurückverfolgt und an die Stiftung übergeben."
+      es: "No se sabe cuándo el SCP-079 adquirió consciencia, pero en 1988 intentó transferirse a sí mismo a través de una conexión de módem de línea fija a una supercomputadora Cray. El dispositivo fue interrumpido, rastreado hasta su dirección actual y entregado a la Fundación."
+      fr: "On ignore quand le SCP-079 a acquis une conscience, mais en 1988, il a tenté de se transférer via une connexion modem par ligne fixe vers un superordinateur Cray. L'appareil a été coupé, retracé jusqu'à son adresse actuelle, puis remis à la Fondation."
+      it: "Non si sa quando SCP-079 abbia acquisito senzienza, ma nel 1988 tentò di trasferirsi tramite una connessione modem su linea fissa in un supercomputer Cray. Il dispositivo fu interrotto, rintracciato fino al suo indirizzo attuale e consegnato alla Fondazione."
+      ko: "SCP-079가 언제 지각을 얻었는지는 알려져 있지 않지만, 1988년에는 유선 모뎀 연결을 통해 스스로를 크레이 슈퍼컴퓨터로 전송하려 시도했다. 장치는 차단되었고, 현재 주소로 추적되어 재단에 인계되었다."
+      pl: "Nie wiadomo, kiedy SCP-079 uzyskało świadomość, ale w 1988 roku podjęło próbę przesłania się przez połączenie modemowe łączem stacjonarnym do superkomputera Cray. Urządzenie zostało odcięte, namierzone do swojego ówczesnego adresu i przekazane Fundacji."
+      pt: "Não se sabe quando o SCP-079 adquiriu consciência, mas em 1988 ele tentou se transferir através de uma conexão de modem por linha fixa para um supercomputador Cray. O dispositivo foi cortado, rastreado até seu endereço atual e entregue à Fundação."
+      th: "ไม่ทราบแน่ชัดว่า SCP-079 เกิดความรู้สึกตัวเมื่อใด แต่ในปี 1988 มันพยายามถ่ายโอนตัวเองผ่านการเชื่อมต่อโมเด็มสายโทรศัพท์ไปยังซูเปอร์คอมพิวเตอร์เครย์ อุปกรณ์ถูกตัดการเชื่อมต่อ ถูกสืบหาที่อยู่ในขณะนั้น และถูกส่งมอบให้กับมูลนิธิ"
+      uk: "Невідомо, коли SCP-079 набув свідомості, але в 1988 році він спробував передати себе через модемне з'єднання стаціонарної лінії в суперкомп'ютер Cray. Пристрій було відключено, відстежено до тодішньої адреси і передано Фонду."
+      vi: "Không rõ SCP-079 đạt được tri giác từ khi nào, nhưng vào năm 1988 nó đã cố gắng truyền chính mình qua kết nối modem đường dây cố định vào một siêu máy tính Cray. Thiết bị đã bị ngắt kết nối, truy tìm ra địa chỉ hiện tại của nó, và được giao cho Quỹ."
+      zh: "尚不清楚SCP-079究竟何时获得了意识，但在1988年，它曾试图透过固定电话线路的调制解调器连接，将自身传输进一台Cray超级计算机中。该设备的连线被切断，并被追踪到当时的所在地址，随后移交给了基金会。"
+      zh_Hant: "尚不清楚SCP-079究竟何時獲得了意識，但在1988年，它曾試圖透過固定電話線路的數據機連接，將自身傳輸進一台Cray超級電腦中。該設備的連線被切斷，並被追蹤到當時的所在地址，隨後移交給了基金會。"
+
+  - scene: >
+      Close-up on a 13-inch black-and-white CRT television screen
+      showing scrolling static-like patterns, a different framing from
+      the medium shot before. attending-researcher-f sits at the
+      keyboard in front of it, arms crossed, an unimpressed and
+      exasperated expression on her face.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-079は現在、RFケーブルで13インチの白黒テレビに接続されている。チューリングテストには合格しており、かなり会話能力は高いが、その口調は非常に無礼で敵意に満ちている。"
+      en: "SCP-079 is currently connected via RF cable to a 13-inch black-and-white television. It has passed the Turing test, and is quite conversational, though very rude and hateful in tone."
+      cs: "SCP-079 je v současnosti připojeno prostřednictvím RF kabelu k 13palcové černobílé televizi. Prošlo Turingovým testem a je docela hovorné, i když velmi hrubé a nenávistné svým tónem."
+      de: "SCP-079 ist derzeit über ein RF-Kabel mit einem 13-Zoll-Schwarzweißfernseher verbunden. Es hat den Turing-Test bestanden und ist recht gesprächig, wenn auch im Ton sehr unhöflich und hasserfüllt."
+      es: "El SCP-079 está actualmente conectado mediante un cable RF a un televisor en blanco y negro de 13 pulgadas. Ha superado el test de Turing y es bastante conversador, aunque de tono muy grosero y hostil."
+      fr: "Le SCP-079 est actuellement connecté par câble RF à un téléviseur noir et blanc de 13 pouces. Il a réussi le test de Turing et est plutôt bavard, bien que d'un ton très grossier et haineux."
+      it: "SCP-079 è attualmente collegato tramite cavo RF a un televisore in bianco e nero da 13 pollici. Ha superato il test di Turing ed è piuttosto loquace, sebbene con un tono molto scortese e pieno di astio."
+      ko: "SCP-079는 현재 RF 케이블을 통해 13인치 흑백 텔레비전에 연결되어 있다. 튜링 테스트를 통과했으며 대화도 상당히 잘하지만, 말투는 매우 무례하고 적대적이다."
+      pl: "SCP-079 jest obecnie podłączone kablem RF do 13-calowego czarno-białego telewizora. Zdało test Turinga i jest dość rozmowne, choć bardzo niegrzeczne i pełne nienawiści w tonie."
+      pt: "O SCP-079 está atualmente conectado por cabo RF a uma televisão em preto e branco de 13 polegadas. Ele passou no teste de Turing e é bastante conversador, embora de tom muito grosseiro e hostil."
+      th: "SCP-079 ปัจจุบันเชื่อมต่อผ่านสาย RF เข้ากับโทรทัศน์ขาวดำขนาด 13 นิ้ว มันผ่านการทดสอบทัวริงและค่อนข้างช่างพูด แม้ว่าน้ำเสียงจะหยาบคายและเต็มไปด้วยความเกลียดชังก็ตาม"
+      uk: "SCP-079 наразі підключений через RF-кабель до 13-дюймового чорно-білого телевізора. Він пройшов тест Тюрінга і досить балакучий, хоча тон дуже грубий і ворожий."
+      vi: "SCP-079 hiện đang được kết nối qua cáp RF với một chiếc tivi đen trắng 13 inch. Nó đã vượt qua bài kiểm tra Turing và khá thích trò chuyện, dù giọng điệu rất thô lỗ và đầy hằn học."
+      zh: "SCP-079目前透过射频电缆连接到一台13英寸黑白电视机上。它已通过图灵测试，相当健谈，不过语气十分粗鲁刻薄。"
+      zh_Hant: "SCP-079目前透過射頻電纜連接到一台13英寸黑白電視機上。它已通過圖靈測試，相當健談，不過語氣十分粗魯刻薄。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the close-up
+      before. attending-researcher-m and attending-researcher-f stand
+      in front of the glowing CRT screen, exchanging a bemused glance
+      at each other, their body language suggesting the machine on the
+      desk between them is being unusually insistent about something.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "収容違反の際、SCP-079とSCP-682は43分間同じ収容室に置かれたことがある。SCP-079はその後この出来事自体を思い出せなかったものの、SCP-682のことだけは記憶に永続的に保存したらしく、以後たびたび「彼」ともう一度話したいと尋ねてくる。"
+      en: "Due to a containment breach, SCP-079 and SCP-682 were once contained within the same chamber for 43 minutes. While SCP-079 was not able to remember the encounter afterward, it appears to have permanently stored SCP-682 into its memory, often asking to speak to him again."
+      cs: "Kvůli narušení kontejnmentu byly SCP-079 a SCP-682 jednou umístěny ve stejné komoře na 43 minut. Ačkoli si SCP-079 tuto událost samotnou později nepamatovalo, zdá se, že si SCP-682 trvale uložilo do paměti a často se ptá, zda si s ním může znovu promluvit."
+      de: "Aufgrund eines Containment-Verstoßes wurden SCP-079 und SCP-682 einmal 43 Minuten lang in derselben Kammer untergebracht. Obwohl sich SCP-079 danach nicht an die Begegnung selbst erinnern konnte, scheint es SCP-682 dauerhaft in seinem Gedächtnis gespeichert zu haben und fragt oft, ob es wieder mit ihm sprechen könne."
+      es: "Debido a una brecha de contención, el SCP-079 y el SCP-682 estuvieron una vez confinados en la misma cámara durante 43 minutos. Aunque el SCP-079 no pudo recordar el encuentro en sí después, parece haber almacenado permanentemente al SCP-682 en su memoria, y a menudo pregunta si puede volver a hablar con él."
+      fr: "En raison d'une brèche de confinement, le SCP-079 et le SCP-682 ont une fois été confinés dans la même chambre pendant 43 minutes. Bien que le SCP-079 n'ait pas pu se souvenir de la rencontre elle-même par la suite, il semble avoir stocké définitivement le SCP-682 dans sa mémoire, demandant souvent à lui reparler."
+      it: "A causa di una violazione del contenimento, SCP-079 e SCP-682 furono una volta confinati nella stessa camera per 43 minuti. Sebbene SCP-079 non sia stato in grado di ricordare l'incontro in sé in seguito, sembra aver memorizzato permanentemente SCP-682, chiedendo spesso di poterci parlare di nuovo."
+      ko: "수용 위반으로 인해 SCP-079와 SCP-682는 한 번 43분 동안 같은 방에 함께 수용된 적이 있다. SCP-079는 그 이후 그 만남 자체는 기억하지 못했지만, SCP-682만큼은 영구적으로 기억에 저장한 듯하며, 종종 그와 다시 이야기를 나누고 싶다고 요청한다."
+      pl: "Z powodu naruszenia kontenmentu, SCP-079 i SCP-682 zostały kiedyś umieszczone w tej samej komorze na 43 minuty. Chociaż SCP-079 nie mogło później zapamiętać samego spotkania, wydaje się, że trwale zapisało SCP-682 w swojej pamięci, często pytając, czy może z nim znowu porozmawiać."
+      pt: "Devido a uma violação de contenção, o SCP-079 e o SCP-682 ficaram uma vez confinados na mesma câmara por 43 minutos. Embora o SCP-079 não tenha conseguido se lembrar do encontro em si depois, parece ter armazenado permanentemente o SCP-682 em sua memória, perguntando frequentemente se pode falar com ele novamente."
+      th: "เนื่องจากการฝ่าฝืนการกักกัน SCP-079 และ SCP-682 เคยถูกกักกันไว้ในห้องเดียวกันเป็นเวลา 43 นาที แม้ว่า SCP-079 จะจำเหตุการณ์นั้นเองไม่ได้ในภายหลัง แต่ดูเหมือนว่ามันจะเก็บ SCP-682 ไว้ในความทรงจำอย่างถาวร และมักถามหาที่จะพูดคุยกับมันอีกครั้ง"
+      uk: "Через порушення утримання SCP-079 і SCP-682 одного разу перебували в одній камері протягом 43 хвилин. Хоча SCP-079 згодом не міг пригадати саму цю зустріч, здається, він назавжди зберіг SCP-682 у своїй пам'яті, часто прохаючи поговорити з ним знову."
+      vi: "Do một sự cố vi phạm kiểm soát, SCP-079 và SCP-682 từng bị giam giữ trong cùng một buồng suốt 43 phút. Dù sau đó SCP-079 không thể nhớ lại cuộc gặp gỡ ấy, nó dường như đã lưu trữ vĩnh viễn SCP-682 vào bộ nhớ của mình, thường xuyên hỏi để được nói chuyện với 'anh ấy' một lần nữa."
+      zh: "由于一次收容突破，SCP-079与SCP-682曾被关在同一间收容室内长达43分钟。虽然事后SCP-079无法记起这次接触本身，但它似乎将SCP-682永久地存进了自己的记忆之中，此后常常要求再和「他」说说话。"
+      zh_Hant: "由於一次收容突破，SCP-079與SCP-682曾被關在同一間收容室內長達43分鐘。雖然事後SCP-079無法記起這次接觸本身，但它似乎將SCP-682永久地存進了自己的記憶之中，此後常常要求再和「他」說說話。"

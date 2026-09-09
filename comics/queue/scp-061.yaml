@@ -1,0 +1,146 @@
+# SCP-061 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Addendum-01（実験ログ）は本編に混ぜず、無害でコミカルな一部分のみを
+# addendumの一言として使用。キャラにセリフは言わせない。JP公式訳が直接
+# 取得できなかったため、検証済みの英語本文からの翻訳（ja含む）。
+
+id: scp-061
+
+title:
+  en: "SCP-061"
+  ja: "SCP-061"
+  cs: "SCP-061"
+  de: "SCP-061"
+  es: "SCP-061"
+  fr: "SCP-061"
+  it: "SCP-061"
+  ko: "SCP-061"
+  pl: "SCP-061"
+  pt: "SCP-061"
+  th: "SCP-061"
+  uk: "SCP-061"
+  vi: "SCP-061"
+  zh: "SCP-061"
+  zh_Hant: "SCP-061"
+
+attribution:
+  article: "SCP-061"
+  source_url: "http://scp-wiki.wikidot.com/scp-061"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+characters: [attending-researcher-m, attending-researcher-f, d-class]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, a computer lab. attending-researcher-m
+      sits at a workstation reviewing lines of code on a monitor,
+      headphones resting around his neck rather than on his ears.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-061は、世界各国の政府や個人が開発している類似のプログラムに対抗する手段を生み出すことを目的として開発されている、音響コンピュータープログラムである。"
+      en: "SCP-061 is an acoustic computer program being developed with the intent of producing countermeasures to similar programs developed by governments and individuals worldwide."
+      cs: "SCP-061 je akustický počítačový program vyvíjený s cílem vytvořit protiopatření proti podobným programům vyvíjeným vládami a jednotlivci po celém světě."
+      de: "SCP-061 ist ein akustisches Computerprogramm, das mit dem Ziel entwickelt wird, Gegenmaßnahmen gegen ähnliche Programme zu erzeugen, die von Regierungen und Einzelpersonen weltweit entwickelt werden."
+      es: "SCP-061 es un programa informático acústico que se está desarrollando con la intención de producir contramedidas para programas similares desarrollados por gobiernos e individuos en todo el mundo."
+      fr: "Le SCP-061 est un programme informatique acoustique développé dans le but de produire des contre-mesures à des programmes similaires développés par des gouvernements et des individus à travers le monde."
+      it: "SCP-061 è un programma informatico acustico in fase di sviluppo con l'intento di produrre contromisure a programmi simili sviluppati da governi e individui in tutto il mondo."
+      ko: "SCP-061은 전 세계 정부와 개인들이 개발 중인 유사한 프로그램에 대한 대응책을 만들어내기 위해 개발되고 있는 음향 컴퓨터 프로그램이다."
+      pl: "SCP-061 to akustyczny program komputerowy opracowywany w celu stworzenia środków zaradczych przeciwko podobnym programom rozwijanym przez rządy i osoby prywatne na całym świecie."
+      pt: "O SCP-061 é um programa de computador acústico em desenvolvimento com a intenção de produzir contramedidas para programas semelhantes desenvolvidos por governos e indivíduos em todo o mundo."
+      th: "SCP-061 คือโปรแกรมคอมพิวเตอร์ด้านเสียงที่กำลังพัฒนาขึ้นโดยมีเจตนาเพื่อสร้างมาตรการตอบโต้โปรแกรมที่คล้ายกันซึ่งพัฒนาโดยรัฐบาลและบุคคลทั่วโลก"
+      uk: "SCP-061 — це акустична комп'ютерна програма, що розробляється з метою створення контрзаходів проти подібних програм, розроблюваних урядами та окремими особами по всьому світу."
+      vi: "SCP-061 là một chương trình máy tính âm thanh đang được phát triển với mục đích tạo ra các biện pháp đối phó với các chương trình tương tự do các chính phủ và cá nhân trên toàn thế giới phát triển."
+      zh: "SCP-061是一款正在开发中的声学计算机程序，旨在针对全球各国政府和个人开发的类似程序制定应对措施。"
+      zh_Hant: "SCP-061是一款正在開發中的聲學電腦程式，旨在針對全球各國政府和個人開發的類似程式制定應對措施。"
+
+  - scene: >
+      Close-up, filling most of the frame, a different framing from the
+      wide lab shot before, on a locked security case holding a single
+      archival CD-ROM in a plain sleeve, thick tamper-evident seals
+      across the case. attending-researcher-f's hands carefully closing
+      and locking it.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-061は、インターネットまたは無線接続機能を持ついかなる装置においても、その接続が使用中であるか否かにかかわらず、読み込み・コンパイル・実行してはならない。"
+      en: "SCP-061 must never be loaded, compiled, or run on any device with internet or wireless connectivity, regardless of whether that connectivity is in use."
+      cs: "SCP-061 nesmí být nikdy nahráno, zkompilováno nebo spuštěno na jakémkoli zařízení s připojením k internetu nebo bezdrátovou konektivitou, bez ohledu na to, zda je toto připojení právě využíváno."
+      de: "SCP-061 darf niemals auf einem Gerät mit Internet- oder drahtloser Konnektivität geladen, kompiliert oder ausgeführt werden, unabhängig davon, ob diese Konnektivität genutzt wird."
+      es: "SCP-061 nunca debe cargarse, compilarse ni ejecutarse en ningún dispositivo con conectividad a internet o inalámbrica, independientemente de si dicha conectividad está en uso."
+      fr: "Le SCP-061 ne doit jamais être chargé, compilé ou exécuté sur un appareil disposant d'une connectivité Internet ou sans fil, que cette connectivité soit utilisée ou non."
+      it: "SCP-061 non deve mai essere caricato, compilato o eseguito su alcun dispositivo con connettività internet o wireless, indipendentemente dal fatto che tale connettività sia in uso."
+      ko: "SCP-061은 인터넷 또는 무선 연결 기능이 있는 어떠한 장치에서도 로드, 컴파일, 실행되어서는 안 되며, 이는 해당 연결이 사용 중인지 여부와 무관하다."
+      pl: "SCP-061 nigdy nie może być ładowane, kompilowane ani uruchamiane na żadnym urządzeniu z połączeniem internetowym lub bezprzewodowym, niezależnie od tego, czy to połączenie jest aktualnie używane."
+      pt: "O SCP-061 nunca deve ser carregado, compilado ou executado em qualquer dispositivo com conectividade à internet ou sem fio, independentemente de essa conectividade estar em uso."
+      th: "SCP-061 ต้องไม่ถูกโหลด คอมไพล์ หรือรันบนอุปกรณ์ใดๆ ที่มีการเชื่อมต่ออินเทอร์เน็ตหรือไร้สาย ไม่ว่าการเชื่อมต่อนั้นจะถูกใช้งานอยู่หรือไม่ก็ตาม"
+      uk: "SCP-061 ніколи не можна завантажувати, компілювати чи запускати на жодному пристрої з інтернет- або бездротовим з'єднанням, незалежно від того, чи використовується це з'єднання."
+      vi: "SCP-061 không bao giờ được nạp, biên dịch hoặc chạy trên bất kỳ thiết bị nào có kết nối internet hoặc không dây, bất kể kết nối đó có đang được sử dụng hay không."
+      zh: "SCP-061绝不可在任何具备互联网或无线连接能力的设备上加载、编译或运行，无论该连接是否正在使用。"
+      zh_Hant: "SCP-061絕不可在任何具備網際網路或無線連線能力的設備上載入、編譯或執行，無論該連線是否正在使用。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the
+      close-up before. d-class stands motionless in the center of a
+      bare testing room, wearing large over-ear headphones, face utterly
+      blank and expressionless, eyes wide open and unfocused, arms
+      hanging limp at his sides.
+    characters: [d-class]
+    caption:
+      ja: "SCP-061の影響下にある被験者は、通常「無表情」な顔つきになる。会話の試みには反応しないが、あらゆる命令には疑問を挟むことなく従う。"
+      en: "Subjects will normally have a 'blank' facial expression while under the influence of SCP-061. They are not responsive to attempts at conversation, but all commands are followed without question."
+      cs: "Subjekti mají obvykle pod vlivem SCP-061 'prázdný' výraz obličeje. Nereagují na pokusy o konverzaci, ale všechny příkazy jsou splněny bez otázek."
+      de: "Subjekte haben normalerweise einen 'leeren' Gesichtsausdruck, während sie unter dem Einfluss von SCP-061 stehen. Sie reagieren nicht auf Gesprächsversuche, doch alle Befehle werden ohne Widerspruch befolgt."
+      es: "Los sujetos suelen tener una expresión facial 'en blanco' mientras están bajo la influencia de SCP-061. No responden a los intentos de conversación, pero todas las órdenes se cumplen sin cuestionamiento."
+      fr: "Les sujets ont généralement une expression faciale « vide » sous l'influence du SCP-061. Ils ne réagissent pas aux tentatives de conversation, mais tous les ordres sont suivis sans discussion."
+      it: "I soggetti hanno solitamente un'espressione facciale 'vuota' mentre sono sotto l'influenza di SCP-061. Non rispondono ai tentativi di conversazione, ma tutti i comandi vengono seguiti senza discussione."
+      ko: "SCP-061의 영향을 받는 동안 대상은 보통 '멍한' 표정을 짓는다. 대화 시도에는 반응하지 않지만, 모든 명령은 의문 없이 수행된다."
+      pl: "Osobnicy pod wpływem SCP-061 zazwyczaj mają 'pusty' wyraz twarzy. Nie reagują na próby rozmowy, ale wszystkie polecenia są wykonywane bez sprzeciwu."
+      pt: "Os sujeitos normalmente têm uma expressão facial 'vazia' enquanto estão sob a influência do SCP-061. Eles não respondem a tentativas de conversa, mas todos os comandos são seguidos sem questionamento."
+      th: "ผู้ถูกทดสอบมักมีสีหน้า 'ว่างเปล่า' ขณะอยู่ภายใต้อิทธิพลของ SCP-061 พวกเขาไม่ตอบสนองต่อความพยายามสนทนา แต่คำสั่งทั้งหมดจะถูกปฏิบัติตามโดยไม่มีคำถาม"
+      uk: "Суб'єкти зазвичай мають 'порожній' вираз обличчя під впливом SCP-061. Вони не реагують на спроби розмови, але всі команди виконуються беззаперечно."
+      vi: "Các đối tượng thường có biểu cảm khuôn mặt 'trống rỗng' khi chịu ảnh hưởng của SCP-061. Họ không phản hồi trước các nỗ lực trò chuyện, nhưng mọi mệnh lệnh đều được tuân theo mà không thắc mắc."
+      zh: "被试者在SCP-061的影响下通常会呈现「空白」的面部表情。他们对交谈尝试没有反应，但会毫无异议地服从一切命令。"
+      zh_Hant: "受試者在SCP-061的影響下通常會呈現「空白」的面部表情。他們對交談嘗試沒有反應，但會毫無異議地服從一切命令。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole
+      testing room, a different framing from the tight medium shot
+      before. attending-researcher-m rushes forward clamping heavy
+      ear-protection muffs over d-class's headphones from behind, while
+      attending-researcher-f stands ready at a control panel, hand on a
+      switch.
+    characters: [attending-researcher-m, d-class, attending-researcher-f]
+    caption:
+      ja: "有効性が実証されている対抗手段は2つのみである：被験者の聴覚を遮り、プログラムを聞こえなくする方法、あるいはプログラム自体が聴覚中枢を恒久的に停止させる方法である。"
+      en: "Only two methods of countermeasure have proven successful: impairing the subject's hearing so they can no longer hear the program, or the program itself permanently shutting down the hearing center."
+      cs: "Jako úspěšné se zatím ukázaly pouze dvě protiopatření: znemožnění subjektu slyšet program poškozením sluchu, nebo program sám trvale vypne sluchové centrum."
+      de: "Nur zwei Gegenmaßnahmen haben sich als erfolgreich erwiesen: die Beeinträchtigung des Gehörs des Subjekts, sodass es das Programm nicht mehr hören kann, oder das Programm selbst, das das Hörzentrum dauerhaft abschaltet."
+      es: "Solo dos métodos de contramedida han demostrado ser exitosos: deteriorar la audición del sujeto para que ya no pueda oír el programa, o que el propio programa apague permanentemente el centro auditivo."
+      fr: "Seules deux méthodes de contre-mesure se sont révélées efficaces : altérer l'audition du sujet afin qu'il ne puisse plus entendre le programme, ou que le programme lui-même désactive de façon permanente le centre auditif."
+      it: "Solo due metodi di contromisura si sono dimostrati efficaci: compromettere l'udito del soggetto in modo che non possa più sentire il programma, oppure il programma stesso che disattiva permanentemente il centro uditivo."
+      ko: "지금까지 성공이 입증된 대응책은 단 두 가지뿐이다: 대상의 청력을 손상시켜 프로그램을 더 이상 들을 수 없게 하는 것, 또는 프로그램 자체가 청각 중추를 영구적으로 정지시키는 것이다."
+      pl: "Tylko dwie metody przeciwdziałania okazały się skuteczne: uszkodzenie słuchu osobnika, aby nie mógł już usłyszeć programu, lub sam program trwale wyłączający ośrodek słuchu."
+      pt: "Apenas dois métodos de contramedida se mostraram bem-sucedidos: prejudicar a audição do sujeito para que ele não possa mais ouvir o programa, ou o próprio programa desligando permanentemente o centro auditivo."
+      th: "มีเพียงสองวิธีการตอบโต้เท่านั้นที่พิสูจน์แล้วว่าได้ผล: การทำให้การได้ยินของผู้ถูกทดสอบบกพร่องจนไม่สามารถได้ยินโปรแกรมอีกต่อไป หรือให้โปรแกรมปิดศูนย์การได้ยินอย่างถาวรด้วยตัวมันเอง"
+      uk: "Успішними виявилися лише два методи протидії: погіршення слуху суб'єкта, щоб він більше не чув програму, або сама програма назавжди вимикає слуховий центр."
+      vi: "Chỉ có hai phương pháp đối phó đã chứng minh thành công: làm suy giảm thính giác của đối tượng để họ không còn nghe được chương trình nữa, hoặc chính chương trình đó vĩnh viễn tắt trung tâm thính giác."
+      zh: "迄今为止只有两种反制方法证明有效：损害被试者的听力使其无法再听到该程序，或者由该程序自身永久关闭听觉中枢。"
+      zh_Hant: "迄今為止只有兩種反制方法證明有效：損害受試者的聽力使其無法再聽到該程式，或者由該程式自身永久關閉聽覺中樞。"
+
+addendum:
+  ja: "補遺：ある試験では、被験者に電源を入れるよう指示せぬまま「トレッドミルを走れ」というコマンドが与えられた——被験者は停止したベルトの上に乗り、停止の指示があるまでその場で走り続けた。"
+  en: "Addendum: In one test, a subject was given the command '[Run on treadmill]' without first being told to turn it on — the subject mounted the stationary belt and kept running in place until told to stop."
+  cs: "Dodatek: V jednom testu byl subjekt vystaven příkazu 'Běž na běžeckém pásu' bez toho, aby mu bylo předtím řečeno, aby jej zapnul – subjekt vylezl na nehybný pás a běžel na místě, dokud mu nebylo řečeno, aby přestal."
+  de: "Anhang: In einem Test wurde einem Subjekt der Befehl 'Auf dem Laufband laufen' gegeben, ohne dass ihm zuvor gesagt wurde, es einzuschalten – das Subjekt stieg auf das stillstehende Band und lief auf der Stelle, bis ihm gesagt wurde, aufzuhören."
+  es: "Adenda: En una prueba, a un sujeto se le dio la orden '[Correr en la cinta]' sin haberle indicado antes que la encendiera; el sujeto se subió a la cinta detenida y siguió corriendo en el sitio hasta que se le dijo que se detuviera."
+  fr: "Addendum : Lors d'un test, un ordre « [Courir sur le tapis roulant] » a été donné à un sujet sans qu'on lui ait d'abord dit de l'allumer — le sujet est monté sur le tapis à l'arrêt et a couru sur place jusqu'à ce qu'on lui dise de s'arrêter."
+  it: "Addendum: In un test, a un soggetto è stato dato il comando '[Corri sul tapis roulant]' senza prima dirgli di accenderlo — il soggetto è salito sul nastro fermo e ha continuato a correre sul posto finché non gli è stato detto di fermarsi."
+  ko: "부록: 한 실험에서, 대상에게 먼저 전원을 켜라는 지시 없이 '[러닝머신에서 뛰어라]'라는 명령이 주어졌다 — 대상은 정지된 벨트 위에 올라가 멈추라는 지시가 있을 때까지 제자리에서 계속 뛰었다."
+  pl: "Aneks: W jednym z testów osobnikowi wydano polecenie '[Biegnij na bieżni]' bez wcześniejszego polecenia jej włączenia — osobnik wszedł na nieruchomy pas i biegał w miejscu, dopóki nie otrzymał polecenia zatrzymania się."
+  pt: "Adendo: Em um teste, um sujeito recebeu o comando '[Correr na esteira]' sem antes ser instruído a ligá-la — o sujeito subiu na esteira parada e continuou correndo no lugar até receber a ordem de parar."
+  th: "ภาคผนวก: ในการทดสอบครั้งหนึ่ง ผู้ถูกทดสอบได้รับคำสั่ง '[วิ่งบนลู่วิ่ง]' โดยไม่ได้รับคำสั่งให้เปิดเครื่องก่อน — ผู้ถูกทดสอบขึ้นไปบนสายพานที่หยุดนิ่งและวิ่งอยู่กับที่จนกว่าจะได้รับคำสั่งให้หยุด"
+  uk: "Додаток: В одному з тестів суб'єкту дали команду '[Біжи на біговій доріжці]', не сказавши спершу увімкнути її — суб'єкт заліз на нерухому стрічку й біг на місці, доки не пролунала команда зупинитися."
+  vi: "Phụ lục: Trong một thử nghiệm, đối tượng được ra lệnh '[Chạy trên máy chạy bộ]' mà không được bảo bật máy trước — đối tượng bước lên băng chuyền đứng yên và chạy tại chỗ cho đến khi được lệnh dừng lại."
+  zh: "补遗：在一次测试中，某对象被下达了「[在跑步机上跑步]」的指令，却未事先被告知要先开机——该对象踏上静止的跑步带，原地不断奔跑，直到被下令停止。"
+  zh_Hant: "補遺：在一次測試中，某對象被下達了「[在跑步機上跑步]」的指令，卻未事先被告知要先開機——該對象踏上靜止的跑步帶，原地不斷奔跑，直到被下令停止。"

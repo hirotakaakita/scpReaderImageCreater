@@ -1,0 +1,138 @@
+# SCP-091 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 記事にAddendumなし。キャラにセリフは言わせない。
+
+id: scp-091
+
+title:
+  en: "SCP-091"
+  ja: "SCP-091"
+  cs: "SCP-091"
+  de: "SCP-091"
+  es: "SCP-091"
+  fr: "SCP-091"
+  it: "SCP-091"
+  ko: "SCP-091"
+  pl: "SCP-091"
+  pt: "SCP-091"
+  th: "SCP-091"
+  uk: "SCP-091"
+  vi: "SCP-091"
+  zh: "SCP-091"
+  zh_Hant: "SCP-091"
+
+attribution:
+  article: "SCP-091"
+  source_url: "http://scp-wiki.wikidot.com/scp-091"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  wedding-guest:
+    name: "Wedding Guest"
+    description: >
+      A middle-aged man in a slightly rumpled navy blazer (color RGB
+      40,50,90), short gray-flecked hair (color RGB 130,125,120), an
+      ordinary, approachable face, dressed as if recently at a formal
+      event.
+
+characters: [attending-researcher-m, attending-researcher-f, wedding-guest]
+
+panels:
+  - scene: >
+      Close-up, on an ordinary empty "tissue box" sitting alone on a
+      metal shelf inside a containment locker, soft warm light on it.
+      attending-researcher-m glances at it with a faint, wistful,
+      misty-eyed expression despite trying to stay professional.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-091は「Scotties」ブランドのティッシュ箱で、現在は空である。SCP-091を目にした者は、たちどころに圧倒的な郷愁の念を報告する。"
+      en: "SCP-091 is a 'Scotties' brand tissue box, currently empty. Immediately upon observing SCP-091, viewers report an overwhelming sense of nostalgia."
+      cs: "SCP-091 je krabice papírových kapesníků značky „Scotties“, v současnosti prázdná. Ihned po spatření SCP-091 pozorovatelé hlásí ohromující pocit nostalgie."
+      de: "SCP-091 ist eine Taschentuchbox der Marke „Scotties“, derzeit leer. Unmittelbar nach dem Betrachten von SCP-091 berichten Beobachter von einem überwältigenden Gefühl der Nostalgie."
+      es: "SCP-091 es una caja de pañuelos de la marca 'Scotties', actualmente vacía. Inmediatamente después de observar el SCP-091, los espectadores informan una abrumadora sensación de nostalgia."
+      fr: "Le SCP-091 est une boîte de mouchoirs de marque « Scotties », actuellement vide. Dès qu'ils observent le SCP-091, les observateurs signalent un sentiment de nostalgie accablant."
+      it: "SCP-091 è una scatola di fazzoletti di marca 'Scotties', attualmente vuota. Immediatamente dopo aver osservato SCP-091, gli osservatori riferiscono un travolgente senso di nostalgia."
+      ko: "SCP-091은 '스코티스' 브랜드의 티슈 상자로, 현재는 비어 있다. SCP-091을 본 사람은 즉시 압도적인 향수를 느꼈다고 보고한다."
+      pl: "SCP-091 to pudełko chusteczek marki „Scotties”, obecnie puste. Natychmiast po zaobserwowaniu SCP-091 obserwatorzy zgłaszają przytłaczające uczucie nostalgii."
+      pt: "O SCP-091 é uma caixa de lenços de papel da marca 'Scotties', atualmente vazia. Imediatamente ao observar o SCP-091, os observadores relatam uma sensação avassaladora de nostalgia."
+      th: "SCP-091 คือกล่องกระดาษทิชชูยี่ห้อ 'Scotties' ซึ่งปัจจุบันว่างเปล่า ทันทีที่พบเห็น SCP-091 ผู้พบเห็นรายงานว่ารู้สึกถึงความคิดถึงอดีตอย่างท่วมท้น"
+      uk: "SCP-091 — це коробка серветок марки «Scotties», наразі порожня. Одразу після спостереження за SCP-091 спостерігачі повідомляють про непереборне почуття ностальгії."
+      vi: "SCP-091 là một hộp khăn giấy nhãn hiệu 'Scotties', hiện đang trống rỗng. Ngay khi quan sát SCP-091, người xem báo cáo cảm giác hoài niệm tràn ngập."
+      zh: "SCP-091是一个「Scotties」品牌的纸巾盒，目前是空的。观察者一旦看到SCP-091，便会立刻报告一种压倒性的怀旧感。"
+      zh_Hant: "SCP-091是一個「Scotties」品牌的面紙盒，目前是空的。觀察者一旦看到SCP-091，便會立刻報告一種壓倒性的懷舊感。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the close-up
+      before. attending-researcher-f sits at a desk watching an old
+      wedding video on a small screen, tears welling up unexpectedly as
+      she points at something faint in the background of the frame,
+      her other hand trembling slightly with emotion.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-091が注目されたのは、助手研究員████が自身の結婚式の映像を見ていたとき、背景にSCP-091が映っていることに気づき、それにまつわる強烈な郷愁の記憶——結婚式・披露宴・新婚旅行でのSCP-091の記憶——が押し寄せたことがきっかけだった。"
+      en: "SCP-091 came to attention when Assistant Researcher ████, while viewing a recording of her wedding, noted SCP-091 in the background and a strong flood of nostalgic memories attached to it—memories of SCP-091 at the wedding, the reception, and the honeymoon."
+      cs: "SCP-091 upoutalo pozornost, když si asistentka výzkumnice ████ při sledování záznamu ze své svatby všimla SCP-091 v pozadí, a spolu s tím se na ni vylila silná vlna nostalgických vzpomínek — vzpomínek na SCP-091 na svatbě, na hostině i na líbánkách."
+      de: "SCP-091 wurde erstmals bemerkt, als Forschungsassistentin ████ bei der Betrachtung einer Aufnahme ihrer Hochzeit SCP-091 im Hintergrund entdeckte, verbunden mit einer starken Flut nostalgischer Erinnerungen — Erinnerungen an SCP-091 bei der Hochzeit, dem Empfang und den Flitterwochen."
+      es: "El SCP-091 llamó la atención cuando la Investigadora Asistente ████, mientras veía una grabación de su boda, notó al SCP-091 en el fondo y una fuerte oleada de recuerdos nostálgicos vinculados a él: recuerdos del SCP-091 en la boda, la recepción y la luna de miel."
+      fr: "Le SCP-091 a attiré l'attention lorsque l'Assistante-chercheuse ████, en visionnant un enregistrement de son mariage, a remarqué le SCP-091 en arrière-plan, accompagné d'une puissante vague de souvenirs nostalgiques — des souvenirs du SCP-091 au mariage, à la réception et pendant la lune de miel."
+      it: "SCP-091 attirò l'attenzione quando l'Assistente Ricercatrice ████, guardando una registrazione del suo matrimonio, notò SCP-091 sullo sfondo insieme a una forte ondata di ricordi nostalgici — ricordi di SCP-091 al matrimonio, al ricevimento e durante la luna di miele."
+      ko: "SCP-091이 주목받게 된 것은 조수 연구원 ████가 자신의 결혼식 영상을 보다가 배경에서 SCP-091을 발견하고, 그와 얽힌 강렬한 향수의 기억—결혼식, 피로연, 신혼여행에서의 SCP-091에 대한 기억—이 밀려들었기 때문이었다."
+      pl: "SCP-091 zwróciło uwagę, gdy asystentka badawcza ████, oglądając nagranie swojego ślubu, zauważyła SCP-091 w tle wraz z silną falą nostalgicznych wspomnień związanych z nim — wspomnień o SCP-091 na ślubie, przyjęciu i miesiącu miodowym."
+      pt: "O SCP-091 chamou a atenção quando a Pesquisadora Assistente ████, ao assistir a uma gravação de seu casamento, notou o SCP-091 ao fundo e uma forte onda de memórias nostálgicas associadas a ele — memórias do SCP-091 no casamento, na recepção e na lua de mel."
+      th: "SCP-091 ได้รับความสนใจเมื่อผู้ช่วยนักวิจัย ████ ขณะดูวิดีโองานแต่งงานของตนเอง สังเกตเห็น SCP-091 อยู่ในฉากหลังพร้อมกับความทรงจำแห่งความคิดถึงที่หลั่งไหลเข้ามาอย่างรุนแรง เช่น ความทรงจำเกี่ยวกับ SCP-091 ในงานแต่งงาน งานเลี้ยงฉลอง และฮันนีมูน"
+      uk: "SCP-091 привернув увагу, коли помічниця дослідника ████, переглядаючи запис свого весілля, помітила SCP-091 на задньому плані разом із потужним потоком ностальгійних спогадів — спогадів про SCP-091 на весіллі, прийомі та медовому місяці."
+      vi: "SCP-091 được chú ý khi Trợ lý Nghiên cứu viên ████, trong lúc xem lại đoạn ghi hình đám cưới của mình, nhận thấy SCP-091 ở hậu cảnh cùng với một làn sóng ký ức hoài niệm mãnh liệt gắn liền với nó — những ký ức về SCP-091 tại đám cưới, tiệc chiêu đãi, và tuần trăng mật."
+      zh: "SCP-091引起注意，是因为助理研究员████在观看自己的婚礼录像时，注意到背景中的SCP-091，并涌现出与之相关的强烈怀旧记忆——包括婚礼、喜宴以及蜜月期间关于SCP-091的记忆。"
+      zh_Hant: "SCP-091引起注意，是因為助理研究員████在觀看自己的婚禮錄影時，注意到背景中的SCP-091，並湧現出與之相關的強烈懷舊記憶——包括婚禮、喜宴以及蜜月期間關於SCP-091的記憶。"
+
+  - scene: >
+      Wide shot, full body, showing the whole plain interview room, a
+      different framing from the medium shot before. On the left,
+      attending-researcher-f flips a photograph face-up on the table
+      between her and wedding-guest. On the right, wedding-guest, who
+      had been recounting the wedding evenly, suddenly grows misty-eyed
+      and emotional the instant he sees it.
+    characters: [attending-researcher-f, wedding-guest]
+    caption:
+      ja: "他の者たちは、SCP-091について知らされないまま結婚式について説明するよう求められた。彼らはそれを含めずに場面を描写していたが、SCP-091について直接尋ねられた瞬間、たちどころに同じ効果に見舞われた。"
+      en: "Others were asked to describe the wedding without being informed of SCP-091. They described the scene without including it—until questioned about it directly, at which point they immediately underwent the same effect."
+      cs: "Ostatní byli požádáni, aby popsali svatbu, aniž by byli informováni o SCP-091. Popisovali scénu bez jeho zmínky – dokud na něj nebyli přímo dotázáni, načež u nich okamžitě nastal stejný efekt."
+      de: "Andere wurden gebeten, die Hochzeit zu beschreiben, ohne von SCP-091 informiert zu werden. Sie beschrieben die Szene, ohne es zu erwähnen – bis sie direkt danach gefragt wurden, woraufhin bei ihnen sofort derselbe Effekt eintrat."
+      es: "A otros se les pidió describir la boda sin informarles sobre el SCP-091. Describieron la escena sin incluirlo, hasta que se les preguntó directamente por él, momento en el que sufrieron inmediatamente el mismo efecto."
+      fr: "D'autres ont été invités à décrire le mariage sans être informés du SCP-091. Ils ont décrit la scène sans l'inclure — jusqu'à ce qu'on les interroge directement à son sujet, moment auquel ils ont immédiatement subi le même effet."
+      it: "Ad altri fu chiesto di descrivere il matrimonio senza essere informati di SCP-091. Descrissero la scena senza includerlo, finché non furono interrogati direttamente al riguardo, momento in cui subirono immediatamente lo stesso effetto."
+      ko: "다른 이들에게는 SCP-091에 대해 알리지 않은 채 결혼식을 묘사해 달라고 요청했다. 그들은 그것을 포함하지 않고 장면을 묘사했지만, 그것에 대해 직접 질문을 받는 순간 즉시 동일한 효과를 겪었다."
+      pl: "Inne osoby poproszono o opisanie ślubu, nie informując ich o SCP-091. Opisywały scenę bez uwzględnienia go — dopóki nie zostały o nie zapytane bezpośrednio, po czym natychmiast doznały tego samego efektu."
+      pt: "Outros foram convidados a descrever o casamento sem serem informados sobre o SCP-091. Eles descreveram a cena sem incluí-lo — até serem questionados diretamente sobre ele, momento em que passaram imediatamente pelo mesmo efeito."
+      th: "ผู้อื่นถูกขอให้บรรยายงานแต่งงานโดยไม่ได้รับแจ้งเกี่ยวกับ SCP-091 พวกเขาบรรยายฉากนั้นโดยไม่รวม SCP-091 เข้าไปด้วย จนกระทั่งถูกถามถึงมันโดยตรง ซึ่งในขณะนั้นพวกเขาก็เกิดผลกระทบแบบเดียวกันทันที"
+      uk: "Інших попросили описати весілля, не повідомляючи їм про SCP-091. Вони описували сцену, не згадуючи про нього — доки їх не запитали про це безпосередньо, після чого вони одразу зазнали того самого ефекту."
+      vi: "Những người khác được yêu cầu mô tả đám cưới mà không được thông báo về SCP-091. Họ mô tả cảnh đó mà không nhắc đến nó — cho đến khi được hỏi trực tiếp về nó, lúc đó họ ngay lập tức trải qua hiệu ứng tương tự."
+      zh: "其他人被要求在不知情SCP-091的情况下描述婚礼场景。他们描述场景时并未提及它——直到被直接问及此物时，才立刻产生了同样的效果。"
+      zh_Hant: "其他人被要求在不知情SCP-091的情況下描述婚禮場景。他們描述場景時並未提及它——直到被直接問及此物時，才立刻產生了同樣的效果。"
+
+  - scene: >
+      Close-up on an old, grainy photograph held up to the light, a
+      different framing from the wide shot before, showing the same
+      tissue box neatly full of tissues in the image, while the actual
+      specimen in an evidence bag beside it on the table is completely
+      empty. attending-researcher-m compares the two, brow furrowed in
+      confusion.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "特筆すべきは、記録に残されたSCP-091のあらゆる映像・写真において、写っている箱には常にティッシュがぎっしり詰まっているという事実である。"
+      en: "Of note is the fact that in each recorded instance of SCP-091, the box pictured is full of tissues."
+      cs: "Za zmínku stojí skutečnost, že v každém zaznamenaném výskytu SCP-091 je zobrazená krabice plná kapesníků."
+      de: "Bemerkenswert ist die Tatsache, dass in jeder aufgezeichneten Erscheinung von SCP-091 die abgebildete Box voller Taschentücher ist."
+      es: "Cabe destacar el hecho de que en cada instancia registrada del SCP-091, la caja que aparece está llena de pañuelos."
+      fr: "Il convient de noter que dans chaque occurrence enregistrée du SCP-091, la boîte représentée est pleine de mouchoirs."
+      it: "È degno di nota il fatto che in ogni occorrenza registrata di SCP-091, la scatola raffigurata è piena di fazzoletti."
+      ko: "특기할 점은, 기록에 남아 있는 SCP-091의 모든 사례에서 그림 속 상자가 항상 티슈로 가득 차 있다는 사실이다."
+      pl: "Warto zauważyć, że w każdym zarejestrowanym przypadku SCP-091 przedstawione pudełko jest pełne chusteczek."
+      pt: "É digno de nota o fato de que em cada instância registrada do SCP-091, a caixa retratada está cheia de lenços."
+      th: "ข้อที่น่าสังเกตคือ ในทุกภาพบันทึกของ SCP-091 กล่องที่ปรากฏในภาพนั้นเต็มไปด้วยกระดาษทิชชูเสมอ"
+      uk: "Варто зазначити, що в кожному зафіксованому випадку SCP-091 зображена коробка завжди повна серветок."
+      vi: "Đáng chú ý là trong mọi trường hợp được ghi lại của SCP-091, chiếc hộp trong hình luôn đầy khăn giấy."
+      zh: "值得注意的是，在每一次留存下来的SCP-091影像记录中，画面里的盒子都装满了纸巾。"
+      zh_Hant: "值得注意的是，在每一次留存下來的SCP-091影像記錄中，畫面裡的盒子都裝滿了面紙。"

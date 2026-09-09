@@ -1,0 +1,143 @@
+# SCP-020 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 「町の住民を処分し森林火災を装って焼却した」という記述とAddendum 020-01
+# （銃撃戦の音声記録）はグロ・大量殺人描写のため本編から意図的に外した。
+# キャラにセリフは言わせない。JP公式訳が直接取得できなかったため、検証済みの
+# 英語本文からの翻訳（ja含む）。
+
+id: scp-020
+
+title:
+  en: "SCP-020"
+  ja: "SCP-020"
+  cs: "SCP-020"
+  de: "SCP-020"
+  es: "SCP-020"
+  fr: "SCP-020"
+  it: "SCP-020"
+  ko: "SCP-020"
+  pl: "SCP-020"
+  pt: "SCP-020"
+  th: "SCP-020"
+  uk: "SCP-020"
+  vi: "SCP-020"
+  zh: "SCP-020"
+  zh_Hant: "SCP-020"
+
+attribution:
+  article: "SCP-020"
+  source_url: "http://scp-wiki.wikidot.com/scp-020"
+  license: "CC BY-SA 3.0"
+
+object_class: Keter
+
+local_characters:
+  affected-resident:
+    name: Affected Resident
+    description: >
+      A civilian woman in her 40s, ordinary house dress, dark blonde hair
+      (color RGB 150,120,80) slightly damp with sweat, an unnervingly
+      wide and warm smile, cheeks flushed from the heat.
+
+characters: [attending-researcher-f, attending-researcher-m, affected-resident]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, a control room. On the left side
+      of the frame, a large window shows an ordinary, perfectly
+      clean-looking room beyond. On the right side of the frame,
+      attending-researcher-f stands before a bank of monitors displaying
+      the same room via camera feed — but on the screens, patches of
+      fuzzy gray-green mold visibly cover the walls and furniture,
+      completely invisible through the window itself.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-020は急速に拡散する真菌性生物で、生物——人間を含む——の感覚と行動に影響を及ぼすことができる。SCP-020の検体は、顕微鏡下でさえ直接観察では実質的に不可視となる未知の効果を示す——写真または映像による監視を通してのみ視認可能である。"
+      en: "SCP-020 is a fast-spreading fungal organism capable of affecting the senses and behavior of living creatures. Samples exhibit an unknown effect that renders them invisible to direct observation, even under a microscope — visible only through photographic or video surveillance."
+      cs: "SCP-020 je rychle se šířící houbový organismus schopný ovlivňovat smysly a chování živých tvorů. Vzorky vykazují neznámý efekt, díky němuž jsou při přímém pozorování prakticky neviditelné, dokonce i pod mikroskopem — viditelné pouze prostřednictvím fotografického nebo video sledování."
+      de: "SCP-020 ist ein sich schnell ausbreitender pilzartiger Organismus, der die Sinne und das Verhalten lebender Wesen beeinflussen kann. Proben zeigen einen unbekannten Effekt, der sie bei direkter Beobachtung praktisch unsichtbar macht, selbst unter dem Mikroskop – sichtbar nur durch fotografische oder Videoüberwachung."
+      es: "SCP-020 es un organismo fúngico de rápida propagación capaz de afectar los sentidos y el comportamiento de criaturas vivas. Las muestras presentan un efecto desconocido que las vuelve invisibles a la observación directa, incluso bajo microscopio, visibles solo mediante vigilancia fotográfica o de video."
+      fr: "Le SCP-020 est un organisme fongique à propagation rapide capable d'affecter les sens et le comportement des créatures vivantes. Les échantillons présentent un effet inconnu les rendant invisibles à l'observation directe, même au microscope — visibles uniquement par surveillance photographique ou vidéo."
+      it: "SCP-020 è un organismo fungino a rapida diffusione capace di influenzare i sensi e il comportamento delle creature viventi. I campioni mostrano un effetto sconosciuto che li rende invisibili all'osservazione diretta, persino al microscopio — visibili solo tramite sorveglianza fotografica o video."
+      ko: "SCP-020은 빠르게 확산되는 진균성 유기체로, 인간을 포함한 생명체의 감각과 행동에 영향을 미칠 수 있다. 표본은 현미경으로도 직접 관찰이 사실상 불가능해지는 미지의 효과를 나타내며, 사진 또는 영상 감시를 통해서만 관찰이 가능하다."
+      pl: "SCP-020 to szybko rozprzestrzeniający się organizm grzybowy zdolny wpływać na zmysły i zachowanie żywych istot. Próbki wykazują nieznany efekt, który czyni je praktycznie niewidocznymi przy bezpośredniej obserwacji, nawet pod mikroskopem — widoczne są jedynie poprzez monitoring fotograficzny lub wideo."
+      pt: "O SCP-020 é um organismo fúngico de rápida propagação capaz de afetar os sentidos e o comportamento de criaturas vivas. As amostras exibem um efeito desconhecido que as torna invisíveis à observação direta, mesmo sob microscópio — visíveis apenas por meio de vigilância fotográfica ou de vídeo."
+      th: "SCP-020 คือสิ่งมีชีวิตประเภทเชื้อราที่แพร่กระจายอย่างรวดเร็ว สามารถส่งผลต่อประสาทสัมผัสและพฤติกรรมของสิ่งมีชีวิต ตัวอย่างแสดงผลกระทบที่ไม่ทราบสาเหตุซึ่งทำให้มองไม่เห็นด้วยการสังเกตโดยตรง แม้กระทั่งภายใต้กล้องจุลทรรศน์ — มองเห็นได้เฉพาะผ่านการเฝ้าระวังด้วยภาพถ่ายหรือวิดีโอเท่านั้น"
+      uk: "SCP-020 — це швидкопоширюваний грибковий організм, здатний впливати на почуття та поведінку живих істот. Зразки демонструють невідомий ефект, що робить їх практично невидимими при прямому спостереженні, навіть під мікроскопом — видимими лише через фото- чи відеоспостереження."
+      vi: "SCP-020 là một sinh vật nấm lây lan nhanh có khả năng ảnh hưởng đến giác quan và hành vi của các sinh vật sống. Các mẫu vật thể hiện một hiệu ứng không xác định khiến chúng gần như vô hình khi quan sát trực tiếp, ngay cả dưới kính hiển vi — chỉ có thể nhìn thấy qua giám sát bằng ảnh chụp hoặc video."
+      zh: "SCP-020是一种快速扩散的真菌类生物，能够影响生物（包括人类）的感官与行为。样本表现出一种未知效应，使其在直接观察下——即使在显微镜下——实际上不可见，只有通过照片或视频监控才能观察到。"
+      zh_Hant: "SCP-020是一種快速擴散的真菌類生物，能夠影響生物（包括人類）的感官與行為。樣本表現出一種未知效應，使其在直接觀察下——即使在顯微鏡下——實際上不可見，只有透過照片或視訊監控才能觀察到。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the
+      wide establishing shot, a cozy living room with fogged-up windows.
+      Affected-resident stands in the doorway with arms wide open in an
+      overly warm welcome, ushering in two more houseguests just visible
+      at the door, an unnervingly wide smile on her face, sweat
+      glistening on her brow.
+    characters: [affected-resident]
+    caption:
+      ja: "SCP-020がコロニーを形成すると、周囲の人間の行動に影響を与える胞子を生成する。影響を受けた被験者は自宅内の温度と湿度を上げるようになり、しばしば知人を招いて生物をさらに広めようとする。"
+      en: "Once SCP-020 forms a colony, it produces spores that affect the behavior of humans around it. Affected subjects increase the heat and humidity within their homes, and often invite acquaintances over to further spread the organism."
+      cs: "Jakmile SCP-020 vytvoří kolonii, začne produkovat spory, které ovlivňují chování lidí v okolí. Postižení subjekti zvyšují teplo a vlhkost ve svých domovech a často zvou známé na návštěvu, aby organismus dále šířili."
+      de: "Sobald SCP-020 eine Kolonie bildet, produziert es Sporen, die das Verhalten der umgebenden Menschen beeinflussen. Betroffene Subjekte erhöhen die Wärme und Luftfeuchtigkeit in ihren Häusern und laden häufig Bekannte ein, um den Organismus weiter zu verbreiten."
+      es: "Una vez que SCP-020 forma una colonia, produce esporas que afectan el comportamiento de los humanos a su alrededor. Los sujetos afectados aumentan el calor y la humedad dentro de sus hogares, y a menudo invitan a conocidos para propagar aún más el organismo."
+      fr: "Une fois que le SCP-020 forme une colonie, il produit des spores qui affectent le comportement des humains à proximité. Les sujets affectés augmentent la chaleur et l'humidité dans leurs foyers, et invitent souvent des connaissances chez eux pour propager davantage l'organisme."
+      it: "Una volta che SCP-020 forma una colonia, produce spore che influenzano il comportamento degli esseri umani circostanti. I soggetti affetti aumentano il calore e l'umidità nelle loro case, e spesso invitano conoscenti per diffondere ulteriormente l'organismo."
+      ko: "SCP-020이 군집을 형성하면, 주변 인간의 행동에 영향을 미치는 포자를 생성한다. 영향을 받은 대상은 집 안의 온도와 습도를 높이며, 유기체를 더 퍼뜨리기 위해 지인을 초대하는 경우가 많다."
+      pl: "Gdy SCP-020 utworzy kolonię, zaczyna wytwarzać zarodniki wpływające na zachowanie otaczających go ludzi. Dotknięci osobnicy podnoszą temperaturę i wilgotność w swoich domach oraz często zapraszają znajomych, by dalej rozprzestrzeniać organizm."
+      pt: "Assim que o SCP-020 forma uma colônia, ele produz esporos que afetam o comportamento dos humanos ao seu redor. Os sujeitos afetados aumentam o calor e a umidade em suas casas, e frequentemente convidam conhecidos para propagar ainda mais o organismo."
+      th: "เมื่อ SCP-020 ก่อตัวเป็นอาณานิคมแล้ว มันจะผลิตสปอร์ที่ส่งผลต่อพฤติกรรมของมนุษย์รอบข้าง ผู้ที่ได้รับผลกระทบจะเพิ่มความร้อนและความชื้นภายในบ้านของตน และมักเชิญคนรู้จักมาที่บ้านเพื่อแพร่กระจายสิ่งมีชีวิตนี้ต่อไป"
+      uk: "Щойно SCP-020 утворює колонію, він виробляє спори, які впливають на поведінку людей навколо. Уражені суб'єкти підвищують тепло та вологість у своїх домівках і часто запрошують знайомих у гості, щоб ще більше поширити організм."
+      vi: "Khi SCP-020 hình thành một quần thể, nó sẽ sản sinh bào tử ảnh hưởng đến hành vi của con người xung quanh. Các đối tượng bị ảnh hưởng tăng nhiệt độ và độ ẩm trong nhà của họ, và thường mời người quen đến nhà để tiếp tục lây lan sinh vật này."
+      zh: "一旦SCP-020形成菌落，就会产生孢子影响周围人类的行为。受影响者会提高家中的温度和湿度，并经常邀请熟人来访，以进一步传播该生物。"
+      zh_Hant: "一旦SCP-020形成菌落，就會產生孢子影響周圍人類的行為。受影響者會提高家中的溫度和濕度，並經常邀請熟人來訪，以進一步傳播該生物。"
+
+  - scene: >
+      Close-up, filling most of the frame, on a security monitor screen:
+      a grainy black-and-white feed showing affected-resident's shoulder
+      and neck, a patch of fuzzy mold growth clearly visible on her skin
+      in the footage. At the edge of the frame, attending-researcher-m
+      leans in, one hand pointing at the screen in alarm.
+    characters: [affected-resident, attending-researcher-m]
+    caption:
+      ja: "胞子とコロニーは影響を受けた被験者には見えないため、カビが生きている被験者の体に直接生えることもある。"
+      en: "As the spores and colonies are invisible to affected subjects, the mold may sometimes grow directly on living subjects."
+      cs: "Vzhledem k tomu, že spory a kolonie jsou pro postižené subjekty neviditelné, plíseň může někdy růst přímo na živých subjektech."
+      de: "Da Sporen und Kolonien für betroffene Subjekte unsichtbar sind, kann der Schimmel manchmal direkt auf lebenden Subjekten wachsen."
+      es: "Dado que las esporas y las colonias son invisibles para los sujetos afectados, el moho a veces puede crecer directamente sobre sujetos vivos."
+      fr: "Comme les spores et les colonies sont invisibles pour les sujets affectés, la moisissure peut parfois se développer directement sur des sujets vivants."
+      it: "Poiché le spore e le colonie sono invisibili ai soggetti affetti, la muffa può talvolta crescere direttamente su soggetti viventi."
+      ko: "포자와 균집락은 영향을 받은 대상에게 보이지 않기 때문에, 곰팡이가 살아있는 대상의 몸에 직접 자라기도 한다."
+      pl: "Ponieważ zarodniki i kolonie są niewidoczne dla dotkniętych osobników, pleśń może czasem rosnąć bezpośrednio na żywych osobnikach."
+      pt: "Como os esporos e colônias são invisíveis para os sujeitos afetados, o mofo pode às vezes crescer diretamente sobre sujeitos vivos."
+      th: "เนื่องจากสปอร์และอาณานิคมมองไม่เห็นสำหรับผู้ที่ได้รับผลกระทบ เชื้อราบางครั้งอาจเติบโตโดยตรงบนร่างกายของผู้ที่ยังมีชีวิตอยู่"
+      uk: "Оскільки спори та колонії невидимі для уражених суб'єктів, пліснява іноді може рости прямо на живих суб'єктах."
+      vi: "Vì bào tử và quần thể vô hình đối với các đối tượng bị ảnh hưởng, nấm mốc đôi khi có thể mọc trực tiếp trên cơ thể sống."
+      zh: "由于孢子和菌落对受影响者是不可见的，霉菌有时会直接生长在活体对象身上。"
+      zh_Hant: "由於孢子和菌落對受影響者是不可見的，黴菌有時會直接生長在活體對象身上。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show an airlock
+      corridor, a very different framing from the close-up before.
+      attending-researcher-f and attending-researcher-m stand shoulder
+      to shoulder, both fully sealed in bulky positive-pressure
+      biohazard suits with rebreather masks, double-checking each
+      other's seals before the airlock door.
+    characters: [attending-researcher-f, attending-researcher-m]
+    caption:
+      ja: "収容室に入る職員は全員、リブリーザーを含むバイオセーフティレベル5装備を着用しなければならず、退室時には完全な抗真菌消毒を受けなければならない。"
+      en: "Any personnel entering the containment room must wear Biosafety Level 5 equipment including rebreathers, and undergo full anti-fungal disinfection upon exiting."
+      cs: "Veškerý personál vstupující do kontejnmentové místnosti musí nosit vybavení biologické bezpečnosti úrovně 5 včetně rebreatherů a při odchodu musí projít úplnou antifungální dezinfekcí."
+      de: "Sämtliches Personal, das den Containment-Raum betritt, muss Biosicherheitsstufe-5-Ausrüstung einschließlich Rebreathern tragen und sich beim Verlassen einer vollständigen antimykotischen Desinfektion unterziehen."
+      es: "Todo el personal que ingrese a la sala de contención debe usar equipo de Bioseguridad Nivel 5, incluidos rebreathers, y someterse a una desinfección antifúngica completa al salir."
+      fr: "Tout le personnel entrant dans la salle de confinement doit porter un équipement de biosécurité de niveau 5, y compris des recycleurs d'air, et subir une désinfection antifongique complète en sortant."
+      it: "Tutto il personale che entra nella stanza di contenimento deve indossare un equipaggiamento di Biosicurezza di Livello 5, inclusi respiratori a circuito chiuso, e sottoporsi a una completa disinfezione antifungina all'uscita."
+      ko: "수용실에 들어가는 모든 직원은 재호흡기를 포함한 생물안전 5등급 장비를 착용해야 하며, 퇴실 시 완전한 항진균 소독을 받아야 한다."
+      pl: "Cały personel wchodzący do pomieszczenia kontenerowego musi nosić sprzęt biobezpieczeństwa poziomu 5, w tym respiratory z obiegiem zamkniętym, oraz przejść pełną dezynfekcję przeciwgrzybiczą przy wyjściu."
+      pt: "Todo o pessoal que entra na sala de contenção deve usar equipamento de Biossegurança Nível 5, incluindo rebreathers, e passar por desinfecção antifúngica completa ao sair."
+      th: "เจ้าหน้าที่ทุกคนที่เข้าไปในห้องกักกันต้องสวมอุปกรณ์ความปลอดภัยทางชีวภาพระดับ 5 รวมถึงเครื่องช่วยหายใจแบบรีบรีเทอร์ และต้องผ่านการฆ่าเชื้อราอย่างสมบูรณ์เมื่อออกจากห้อง"
+      uk: "Весь персонал, що заходить до приміщення утримання, повинен носити спорядження біобезпеки рівня 5, включно з апаратами повторного дихання, і проходити повну протигрибкову дезінфекцію при виході."
+      vi: "Bất kỳ nhân viên nào vào phòng chứa phải mặc thiết bị An Toàn Sinh Học Cấp 5 bao gồm máy thở tuần hoàn, và phải trải qua quá trình khử trùng chống nấm toàn diện khi ra ngoài."
+      zh: "任何进入收容室的人员都必须穿戴包括循环呼吸器在内的第5级生物安全装备，并在离开时接受全面的抗真菌消毒。"
+      zh_Hant: "任何進入收容室的人員都必須穿戴包括循環呼吸器在內的第5級生物安全裝備，並在離開時接受全面的抗真菌消毒。"

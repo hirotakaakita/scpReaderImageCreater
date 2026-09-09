@@ -1,0 +1,143 @@
+# SCP-023 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 教会襲撃事件・死者の解剖記録・Addendumの死者数等はグロ／被害描写のため
+# 本編から外した。キャラにセリフは言わせない。JP公式訳が直接取得できなかった
+# ため、検証済みの英語本文からの翻訳（ja含む）。
+
+id: scp-023
+
+title:
+  en: "SCP-023"
+  ja: "SCP-023"
+  cs: "SCP-023"
+  de: "SCP-023"
+  es: "SCP-023"
+  fr: "SCP-023"
+  it: "SCP-023"
+  ko: "SCP-023"
+  pl: "SCP-023"
+  pt: "SCP-023"
+  th: "SCP-023"
+  uk: "SCP-023"
+  vi: "SCP-023"
+  zh: "SCP-023"
+  zh_Hant: "SCP-023"
+
+attribution:
+  article: "SCP-023"
+  source_url: "http://scp-wiki.wikidot.com/scp-023"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-023:
+    name: SCP-023
+    description: >
+      A large, sexless shaggy canine roughly 1.5 meters at the shoulder,
+      thick shaggy black fur (color RGB 20,20,20), prominent sharp
+      teeth. Its eye sockets are normally fitted with dull gray
+      hard-rubber spherical inserts (color RGB 90,90,90) rather than
+      visible eyes.
+
+characters: [scp-023, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a walled-off intersection
+      of two corridors converging like a crossroads, three plain false
+      doors and one real reinforced door set into the walls. scp-023
+      sits motionless at the center, its eye sockets fitted with dull
+      rubber inserts, utterly still.
+    characters: [scp-023]
+    caption:
+      ja: "SCP-023は肩高1.5メートルの、性別のない毛むくじゃらの黒い犬である。SCP-023は二本の廊下が交わる、壁で仕切られた交差点に収容し、本物の扉に加え、四箇所のうち三箇所に偽の扉を設置すること。"
+      en: "SCP-023 is a large, sexless shaggy canine, 1.5 meters at the shoulder, with black fur. SCP-023 is to be contained in a walled-off intersection of two corridors, with false doors at three of the four ends, in addition to the real door."
+      cs: "SCP-023 je velký huňatý pes bez pohlaví s černou srstí, vysoký 1,5 metru v kohoutku. SCP-023 musí být uchováváno na zazděné křižovatce dvou chodeb, s falešnými dveřmi na třech ze čtyř konců, kromě skutečných dveří."
+      de: "SCP-023 ist ein großer, geschlechtsloser, zottiger Hund mit schwarzem Fell, 1,5 Meter Schulterhöhe. SCP-023 ist an einer ummauerten Kreuzung zweier Korridore unterzubringen, mit falschen Türen an drei der vier Enden zusätzlich zur echten Tür."
+      es: "SCP-023 es un cánido grande, sin sexo, de pelaje negro desgreñado, de 1,5 metros a la altura del hombro. SCP-023 debe ser contenido en una intersección amurallada de dos pasillos, con puertas falsas en tres de los cuatro extremos, además de la puerta real."
+      fr: "Le SCP-023 est un grand canidé sans sexe au pelage noir hirsute, mesurant 1,5 mètre au garrot. Le SCP-023 doit être confiné à une intersection murée de deux couloirs, avec de fausses portes à trois des quatre extrémités, en plus de la vraie porte."
+      it: "SCP-023 è un grande canide senza sesso dal pelo nero arruffato, alto 1,5 metri al garrese. SCP-023 deve essere contenuto in un'intersezione murata di due corridoi, con porte false su tre dei quattro lati, oltre alla porta vera."
+      ko: "SCP-023는 어깨 높이 1.5미터의, 성별이 없는 텁수룩한 검은 털의 개과 동물이다. SCP-023은 두 복도가 교차하는, 벽으로 막힌 교차점에 수용되어야 하며, 실제 문 외에 네 개 끝 중 세 곳에 가짜 문을 설치한다."
+      pl: "SCP-023 to duży, bezpłciowy, kudłaty pies o czarnej sierści, mierzący 1,5 metra w kłębie. SCP-023 należy przechowywać na zamurowanym skrzyżowaniu dwóch korytarzy, z fałszywymi drzwiami na trzech z czterech końców, oprócz prawdziwych drzwi."
+      pt: "O SCP-023 é um canídeo grande, sem sexo, de pelagem preta desgrenhada, com 1,5 metro na altura da cernelha. O SCP-023 deve ser contido em uma interseção murada de dois corredores, com portas falsas em três das quatro extremidades, além da porta real."
+      th: "SCP-023 คือสุนัขขนยาวไม่ระบุเพศตัวใหญ่ ขนสีดำ สูงที่ไหล่ 1.5 เมตร SCP-023 ต้องถูกกักกันที่จุดตัดของทางเดินสองสายที่ถูกกั้นด้วยกำแพง โดยมีประตูปลอมสามในสี่ด้าน นอกเหนือจากประตูจริง"
+      uk: "SCP-023 — це великий безстатевий кошлатий собака з чорною шерстю, 1,5 метра в холці. SCP-023 слід утримувати на замурованому перехресті двох коридорів, з фальшивими дверима на трьох із чотирьох кінців, окрім справжніх дверей."
+      vi: "SCP-023 là một loài chó lớn, không xác định giới tính, lông xù màu đen, cao 1,5 mét tại vai. SCP-023 phải được giam giữ tại giao lộ được xây tường bao quanh của hai hành lang, với các cửa giả ở ba trong bốn đầu, ngoài cửa thật."
+      zh: "SCP-023是一只体型庞大、无性别的毛茸茸黑毛犬科动物，肩高1.5米。SCP-023须收容于两条走廊交汇处、被墙壁封闭的区域，四端中有三端设有假门，另加一扇真门。"
+      zh_Hant: "SCP-023是一隻體型龐大、無性別的毛茸茸黑毛犬科動物，肩高1.5公尺。SCP-023須收容於兩條走廊交匯處、被牆壁封閉的區域，四端中有三端設有假門，另加一扇真門。"
+
+  - scene: >
+      Medium shot, waist-up, low angle, a different framing from the
+      wide establishing shot, dim nighttime lighting through a high
+      window. attending-researcher-m approaches cautiously from the
+      side, holding a fresh rubber eye insert with long tongs at arm's
+      length, face turned pointedly away from scp-023's head, careful
+      not to look at it directly.
+    characters: [attending-researcher-m, scp-023]
+    caption:
+      ja: "SCP-023の眼窩は常に硬質ゴム製の球状インサートで満たしておくこと。インサートの交換は必ず一つずつ、日が完全に沈んだ後にのみ行うこと。職員はいかなる時もSCP-023の眼窩を直接見てはならない。"
+      en: "At all times, SCP-023's eye sockets are to be filled with spherical inserts made of hard rubber. Eye inserts are only to be replaced individually, and only after the sun has completely set. Personnel are not to look directly into eye sockets of SCP-023 at any time."
+      cs: "Oční důlky SCP-023 musí být neustále vyplněny kulovými vložkami z tvrdé pryže. Oční vložky smí být vyměňovány pouze jednotlivě, a to teprve po úplném západu slunce. Personál nesmí za žádných okolností přímo hledět do očních důlků SCP-023."
+      de: "Die Augenhöhlen von SCP-023 müssen jederzeit mit kugelförmigen Einsätzen aus Hartgummi gefüllt sein. Augeneinsätze dürfen nur einzeln und erst nach vollständigem Sonnenuntergang ersetzt werden. Personal darf zu keiner Zeit direkt in die Augenhöhlen von SCP-023 blicken."
+      es: "En todo momento, las cuencas oculares de SCP-023 deben estar rellenas con insertos esféricos de goma dura. Los insertos oculares solo deben reemplazarse de forma individual, y solo después de que el sol se haya puesto por completo. El personal no debe mirar directamente a las cuencas oculares de SCP-023 en ningún momento."
+      fr: "En permanence, les orbites du SCP-023 doivent être remplies d'inserts sphériques en caoutchouc dur. Les inserts oculaires ne doivent être remplacés qu'individuellement, et seulement après le coucher complet du soleil. Le personnel ne doit à aucun moment regarder directement dans les orbites du SCP-023."
+      it: "In ogni momento, le orbite oculari di SCP-023 devono essere riempite con inserti sferici di gomma dura. Gli inserti oculari devono essere sostituiti solo individualmente, e solo dopo il tramonto completo del sole. Il personale non deve mai guardare direttamente nelle orbite oculari di SCP-023."
+      ko: "SCP-023의 눈구멍은 항상 경질 고무로 만든 구형 삽입물로 채워져 있어야 한다. 눈 삽입물은 반드시 하나씩만 교체해야 하며, 해가 완전히 진 후에만 교체할 수 있다. 직원은 어떤 경우에도 SCP-023의 눈구멍을 직접 들여다보아서는 안 된다."
+      pl: "Oczodoły SCP-023 muszą być stale wypełnione kulistymi wkładkami z twardej gumy. Wkładki oczne można wymieniać wyłącznie pojedynczo, i tylko po całkowitym zachodzie słońca. Personel nie może w żadnym momencie patrzeć bezpośrednio w oczodoły SCP-023."
+      pt: "As órbitas oculares do SCP-023 devem estar sempre preenchidas com insertos esféricos de borracha dura. Os insertos oculares só devem ser substituídos individualmente, e somente após o pôr do sol completo. O pessoal não deve olhar diretamente para as órbitas oculares do SCP-023 em nenhum momento."
+      th: "เบ้าตาของ SCP-023 ต้องเติมด้วยลูกกลมยางแข็งตลอดเวลา การเปลี่ยนลูกตาต้องทำทีละข้างเท่านั้น และเฉพาะหลังพระอาทิตย์ตกดินสนิทแล้วเท่านั้น เจ้าหน้าที่ห้ามมองเข้าไปในเบ้าตาของ SCP-023 โดยตรงไม่ว่าเวลาใด"
+      uk: "Очні западини SCP-023 повинні бути постійно заповнені сферичними вставками з твердої гуми. Очні вставки можна замінювати лише по одній і лише після повного заходу сонця. Персоналу заборонено дивитися безпосередньо в очні западини SCP-023 у будь-який час."
+      vi: "Hốc mắt của SCP-023 phải luôn được lấp đầy bằng các viên chèn hình cầu làm từ cao su cứng. Các viên chèn mắt chỉ được thay từng cái một, và chỉ sau khi mặt trời đã lặn hoàn toàn. Nhân viên không được nhìn trực tiếp vào hốc mắt của SCP-023 vào bất kỳ lúc nào."
+      zh: "SCP-023的眼窝须始终填充硬橡胶制成的球形插件。眼部插件只能逐个更换，且仅限于太阳完全落下之后。人员在任何时候都不得直视SCP-023的眼窝。"
+      zh_Hant: "SCP-023的眼窩須始終填充硬橡膠製成的球形插件。眼部插件只能逐個更換，且僅限於太陽完全落下之後。人員在任何時候都不得直視SCP-023的眼窩。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show a checkpoint
+      corridor outside the cell, a different framing from the close
+      nighttime shot before. attending-researcher-f carries a
+      wall-mounted monitor and a hand mirror away in a padded case,
+      glancing nervously over her shoulder. attending-researcher-m
+      stands at a checkpoint barrier gesturing her onward, both keeping
+      well clear of a marked line on the floor.
+    characters: [attending-researcher-f, attending-researcher-m]
+    caption:
+      ja: "とある事案の後、ディスプレイ、モニター、あらゆる種類の眼鏡類を含む反射面は、SCP-023の収容室から30メートル以内への持ち込みを禁じられている。"
+      en: "Following an incident, all reflective surfaces, including displays, monitors, and eye-wear of any sort, are not permitted within 30 meters of SCP-023's cell."
+      cs: "Po jednom incidentu je zakázáno mít v okruhu 30 metrů od cely SCP-023 jakékoli reflexní povrchy, včetně displejů, monitorů a jakýchkoli brýlí."
+      de: "Nach einem Vorfall sind alle reflektierenden Oberflächen, einschließlich Displays, Monitoren und jeglicher Brillenart, innerhalb von 30 Metern um die Zelle von SCP-023 nicht gestattet."
+      es: "Tras un incidente, no se permite ninguna superficie reflectante, incluyendo pantallas, monitores y cualquier tipo de gafas, dentro de un radio de 30 metros de la celda de SCP-023."
+      fr: "À la suite d'un incident, aucune surface réfléchissante, y compris les écrans, moniteurs et tout type de lunettes, n'est autorisée à moins de 30 mètres de la cellule du SCP-023."
+      it: "In seguito a un incidente, nessuna superficie riflettente, inclusi display, monitor e qualsiasi tipo di occhiali, è ammessa entro 30 metri dalla cella di SCP-023."
+      ko: "한 사건 이후, 디스플레이, 모니터, 어떠한 종류의 안경류를 포함한 모든 반사면은 SCP-023 수용실 30미터 이내에서 허용되지 않는다."
+      pl: "Po pewnym incydencie żadne powierzchnie odblaskowe, w tym wyświetlacze, monitory i wszelkiego rodzaju okulary, nie są dozwolone w promieniu 30 metrów od celi SCP-023."
+      pt: "Após um incidente, nenhuma superfície reflexiva, incluindo telas, monitores e qualquer tipo de óculos, é permitida a até 30 metros da cela do SCP-023."
+      th: "หลังจากเหตุการณ์หนึ่ง ห้ามนำพื้นผิวสะท้อนแสงใดๆ รวมถึงจอแสดงผล มอนิเตอร์ และแว่นตาทุกชนิด เข้ามาภายในระยะ 30 เมตรจากห้องขังของ SCP-023"
+      uk: "Після одного інциденту жодні відбивні поверхні, включно з дисплеями, моніторами та будь-якими окулярами, не дозволені в межах 30 метрів від камери SCP-023."
+      vi: "Sau một sự cố, mọi bề mặt phản chiếu, bao gồm màn hình, thiết bị theo dõi, và bất kỳ loại kính mắt nào, đều không được phép xuất hiện trong phạm vi 30 mét quanh phòng giam của SCP-023."
+      zh: "在一次事故之后，任何反光表面——包括显示屏、监视器及任何种类的眼镜——均不得出现在SCP-023牢房30米范围内。"
+      zh_Hant: "在一次事故之後，任何反光表面——包括顯示屏、監視器及任何種類的眼鏡——均不得出現在SCP-023牢房30公尺範圍內。"
+
+  - scene: >
+      Close-up, filling most of the frame, a very different framing from
+      the wide shot before, on attending-researcher-m at the checkpoint
+      threshold. An opaque blindfold-style eye guard is pushed up on his
+      forehead, ready to pull down, tense posture, eyes already averted
+      toward the floor.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "個人がSCP-023と目を合わせるたびに、その本人あるいはその直系家族の誰か一人が、目が合わなくなってからちょうど一年後に死亡する。"
+      en: "Any time an individual makes eye contact with SCP-023, either that person or a member of their immediate family will die exactly one year after eye contact is broken."
+      cs: "Kdykoli jednotlivec naváže oční kontakt se SCP-023, buď tato osoba, nebo některý člen její nejbližší rodiny zemře přesně jeden rok poté, co byl oční kontakt přerušen."
+      de: "Immer wenn eine Person Blickkontakt mit SCP-023 aufnimmt, wird entweder diese Person oder ein Mitglied ihrer unmittelbaren Familie genau ein Jahr nach Abbruch des Blickkontakts sterben."
+      es: "Cada vez que una persona hace contacto visual con SCP-023, esa persona o un miembro de su familia directa morirá exactamente un año después de que se rompa el contacto visual."
+      fr: "Chaque fois qu'un individu établit un contact visuel avec le SCP-023, soit cette personne, soit un membre de sa famille proche mourra exactement un an après la rupture du contact visuel."
+      it: "Ogni volta che un individuo stabilisce un contatto visivo con SCP-023, quella persona o un membro della sua famiglia stretta morirà esattamente un anno dopo l'interruzione del contatto visivo."
+      ko: "개인이 SCP-023과 눈을 마주칠 때마다, 그 본인 또는 그 직계 가족 중 한 명이 눈맞춤이 끊긴 지 정확히 1년 후에 사망한다."
+      pl: "Za każdym razem, gdy dana osoba nawiąże kontakt wzrokowy z SCP-023, ta osoba lub członek jej najbliższej rodziny umrze dokładnie rok po przerwaniu kontaktu wzrokowego."
+      pt: "Sempre que um indivíduo faz contato visual com o SCP-023, essa pessoa ou um membro de sua família imediata morrerá exatamente um ano após o contato visual ser rompido."
+      th: "ทุกครั้งที่บุคคลใดสบตากับ SCP-023 บุคคลนั้นหรือสมาชิกในครอบครัวใกล้ชิดของเขาจะเสียชีวิตในอีกหนึ่งปีพอดีหลังจากการสบตาสิ้นสุดลง"
+      uk: "Щоразу, коли людина встановлює зоровий контакт із SCP-023, ця людина або член її найближчої родини помре точно через рік після переривання зорового контакту."
+      vi: "Bất cứ khi nào một cá nhân giao tiếp bằng mắt với SCP-023, người đó hoặc một thành viên trong gia đình trực hệ của họ sẽ chết đúng một năm sau khi giao tiếp bằng mắt bị ngắt quãng."
+      zh: "任何时候，只要有人与SCP-023对视，那个人或其直系亲属中的一人就会在对视中断后整整一年时死亡。"
+      zh_Hant: "任何時候，只要有人與SCP-023對視，那個人或其直系親屬中的一人就會在對視中斷後整整一年時死亡。"

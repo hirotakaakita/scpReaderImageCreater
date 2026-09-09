@@ -55,7 +55,12 @@ def build_prompt(script, panel, cfgs, provider_name=None):
         if char:
             descs.append(char["description"].strip())
     if descs:
-        parts.append("Characters appearing in this image (keep these designs exactly consistent):\n- "
+        parts.append("Characters appearing in this image (their default appearance — keep "
+                     "face, hair, and build exactly consistent with this at all times). If "
+                     "the Scene description below explicitly describes different clothing, "
+                     "protective gear, or accessories for this particular moment, the Scene "
+                     "always overrides this default clothing — draw what the Scene says they "
+                     "are wearing here, not the default outfit listed below:\n- "
                      + "\n- ".join(descs))
 
     caption_en = (panel.get("caption") or {}).get("en")

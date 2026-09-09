@@ -1,0 +1,145 @@
+# SCP-914「ぜんまい仕掛け」4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。実験記録（Addendum/Document 109-B:117）は本編に使わない。
+
+id: scp-914
+
+title:
+  en: "SCP-914: The Clockworks"
+  ja: "SCP-914：ぜんまい仕掛け"
+  cs: "SCP-914: Hodinový stroj"
+  de: "SCP-914: Das Uhrwerk"
+  es: "SCP-914: El Mecanismo de Relojería"
+  fr: "SCP-914 : Le mécanisme d'horlogerie"
+  it: "SCP-914: Il Meccanismo a Orologeria"
+  ko: "SCP-914: 태엽장치"
+  pl: "SCP-914: Mechanizm zegarowy"
+  pt: "SCP-914: O Mecanismo de Relojoaria"
+  th: "SCP-914: กลไกนาฬิกา"
+  uk: "SCP-914: Годинниковий механізм"
+  vi: "SCP-914: Cỗ máy đồng hồ"
+  zh: "SCP-914：钟表机关"
+  zh_Hant: "SCP-914：鐘錶機關"
+
+attribution:
+  article: "SCP-914"
+  author: "Dr Gears"
+  source_url: "http://scp-wiki.wikidot.com/scp-914"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-914:
+    name: SCP-914
+    description: >
+      SCP-914, an enormous, room-filling clockwork device made of brass
+      and copper gears, screw drives, belts, pulleys and springs (metal
+      color RGB 150,110,60), with some visible wooden (color RGB
+      120,90,60) parts, filling most of a large research cell. Its
+      surface bristles with countless interlocking gears of many sizes,
+      constantly turning even at rest. Two large matching booths, each
+      big enough to walk into, are connected to its main body by thick
+      copper tubes. Between the booths is a copper control panel with one
+      large round dial that has a small arrow pointer and five position
+      notches around its rim (render the dial with plain unlabeled
+      notches, no legible text), and a large hand-crank "key" below it.
+
+characters: [scp-914, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the whole research cell.
+      SCP-914's massive clockwork body fills most of the background, its
+      countless gears slowly turning even at rest. Attending Researcher
+      (F) stands in the doorway, holding an approved request form, about
+      to step inside.
+    characters: [scp-914, attending-researcher-f]
+    caption:
+      ja: "914を操作できるのは、正式な申請を提出しサイト司令部の承認を得た職員のみである。SCP-914は研究セル109-Bに保管され、常時2名の警備要員が配置される。"
+      en: "Only personnel who submit a formal request and receive approval from site command may operate 914. SCP-914 is to be kept in research cell 109-B with two guard personnel on duty at all times."
+      cs: "914 smí obsluhovat pouze personál, který podá formální žádost a obdrží schválení od velení základny. SCP-914 je uchováváno ve výzkumné cele 109-B, kde je vždy přítomna dvojice strážných."
+      de: "Nur Personal, das einen formellen Antrag stellt und die Genehmigung des Standortkommandos erhält, darf 914 bedienen. SCP-914 wird in der Forschungszelle 109-B aufbewahrt, wobei jederzeit zwei Wachposten im Dienst sind."
+      es: "Solo el personal que presente una solicitud formal y reciba la aprobación del mando del sitio puede operar 914. SCP-914 debe permanecer en la celda de investigación 109-B con dos guardias de servicio en todo momento."
+      fr: "Seul le personnel ayant soumis une demande formelle et reçu l'approbation du commandement du site peut faire fonctionner 914. SCP-914 doit être conservé dans la cellule de recherche 109-B avec deux gardes en faction en permanence."
+      it: "Solo il personale che presenta una richiesta formale e ottiene l'approvazione dal comando del sito può azionare 914. SCP-914 deve essere custodito nella cella di ricerca 109-B con due guardie di turno in ogni momento."
+      ko: "정식 요청서를 제출하고 사이트 사령부의 승인을 받은 인원만이 914를 조작할 수 있다. SCP-914는 연구 감방 109-B에 보관되며, 항상 두 명의 경비 요원이 배치된다."
+      pl: "Obsługiwać 914 może wyłącznie personel, który złoży formalny wniosek i uzyska zgodę dowództwa placówki. SCP-914 ma być przechowywany w celi badawczej 109-B, gdzie przez cały czas pełni służbę dwóch strażników."
+      pt: "Somente o pessoal que apresentar uma solicitação formal e receber aprovação do comando do local pode operar o 914. SCP-914 deve ser mantido na cela de pesquisa 109-B com dois guardas de plantão em todos os momentos."
+      th: "เจ้าหน้าที่ที่ยื่นคำร้องอย่างเป็นทางการและได้รับการอนุมัติจากผู้บัญชาการไซต์เท่านั้นที่สามารถควบคุม 914 ได้ SCP-914 จะถูกเก็บไว้ในห้องวิจัย 109-B โดยมีเจ้าหน้าที่รักษาความปลอดภัยสองนายประจำการตลอดเวลา"
+      uk: "Керувати 914 можуть лише співробітники, які подали офіційний запит і отримали схвалення від командування об'єкта. SCP-914 має зберігатися в дослідницькій камері 109-B, де цілодобово чергують двоє охоронців."
+      vi: "Chỉ những nhân viên nộp yêu cầu chính thức và được sự chấp thuận từ chỉ huy cơ sở mới được vận hành 914. SCP-914 phải được giữ trong phòng nghiên cứu 109-B với hai nhân viên bảo vệ trực gác mọi lúc."
+      zh: "只有提交正式申请并获得站点指挥部批准的人员才能操作914。SCP-914应保存在研究室109-B中，并始终有两名警卫值守。"
+      zh_Hant: "只有提交正式申請並獲得站點指揮部批准的人員才能操作914。SCP-914應保存在研究室109-B中，並始終有兩名警衛值守。"
+
+  - scene: >
+      Medium shot, waist-up. On the left side of the frame, Attending
+      Researcher (F) holds a small caged white mouse at arm's length,
+      setting it down out of reach on a side table. On the right side of
+      the frame, the Intake Booth of SCP-914 stands open, its interior
+      empty and waiting.
+    characters: [attending-researcher-f, scp-914]
+    caption:
+      ja: "現時点では、生体物質の試験は一切許可されていない。……爆発性物質に「粗い（Rough）」設定を適用することは推奨されない。"
+      en: "At this time, no testing of biological matter is allowed. Applying the 'Rough' setting to explosive materials is not advised."
+      cs: "V současné době není povoleno žádné testování biologického materiálu. Použití nastavení 'Hrubé' na výbušné materiály se nedoporučuje."
+      de: "Derzeit ist das Testen von biologischem Material nicht gestattet. Die Anwendung der Einstellung 'Grob' auf explosive Materialien wird nicht empfohlen."
+      es: "Por el momento, no se permite realizar pruebas con materia biológica. No se recomienda aplicar el ajuste 'Grueso' a materiales explosivos."
+      fr: "Pour l'instant, aucun test sur de la matière biologique n'est autorisé. Il est déconseillé d'appliquer le réglage « Grossier » à des matériaux explosifs."
+      it: "Al momento non è consentito alcun test su materia biologica. Non è consigliabile applicare l'impostazione 'Grezzo' a materiali esplosivi."
+      ko: "현재 생물학적 물질에 대한 시험은 일절 허용되지 않는다. 폭발성 물질에 '거침(Rough)' 설정을 적용하는 것은 권장되지 않는다."
+      pl: "Obecnie nie zezwala się na testowanie materii biologicznej. Nie zaleca się stosowania ustawienia 'Grube' wobec materiałów wybuchowych."
+      pt: "No momento, não é permitido testar matéria biológica. Não é recomendado aplicar a configuração 'Grosseiro' a materiais explosivos."
+      th: "ในขณะนี้ ไม่อนุญาตให้ทดสอบสสารชีวภาพใดๆ ไม่แนะนำให้ใช้การตั้งค่า 'หยาบ' กับวัตถุระเบิด"
+      uk: "Наразі тестування біологічної матерії заборонено. Застосування налаштування 'Грубе' до вибухових матеріалів не рекомендується."
+      vi: "Hiện tại, không được phép thử nghiệm vật chất sinh học. Không khuyến khích áp dụng cài đặt 'Thô' cho các vật liệu nổ."
+      zh: "目前不允许对生物物质进行测试。不建议对爆炸性材料使用「粗糙」档位。"
+      zh_Hant: "目前不允許對生物物質進行測試。不建議對爆炸性材料使用「粗糙」檔位。"
+
+  - scene: >
+      Close-up shot on SCP-914's copper control panel, filling most of
+      the frame. Attending Researcher (F)'s hand turns the large
+      arrow-tipped knob to one of its position notches while her other
+      hand winds the large key below it; a plain metal wrench sits
+      waiting in the open Intake Booth visible just behind her.
+    characters: [attending-researcher-f, scp-914]
+    caption:
+      ja: "SCP-914は重量数トン、面積18平方メートルに及ぶ巨大なぜんまい仕掛けの装置であり、スクリュードライブ、ベルト、滑車、歯車、バネ、その他の時計仕掛けの機構から成る。3m×2.1m×2.1mの大きなブース2基が銅管を通じてSCP-914本体に接続されている。両ブースの間には、小さな矢印の付いた大きなつまみのある銅製の操作盤がある。"
+      en: "SCP-914 is a large clockwork device weighing several tons and covering an area of eighteen square meters, consisting of screw drives, belts, pulleys, gears, springs and other clockwork. Two large booths, 3m x 2.1m x 2.1m, are connected via copper tubes to the main body of SCP-914. Between them is a copper panel with a large knob with a small arrow attached."
+      cs: "SCP-914 je velké hodinové zařízení o hmotnosti několika tun, zabírající plochu osmnácti metrů čtverečních, sestávající ze šroubových pohonů, řemenů, kladek, ozubených kol, pružin a dalších hodinových mechanismů. Dvě velké kabiny o rozměrech 3 x 2,1 x 2,1 m jsou měděnými trubkami napojeny na hlavní tělo SCP-914. Mezi nimi je měděný panel s velkým otočným knoflíkem s malou šipkou."
+      de: "SCP-914 ist ein großes Uhrwerk-Gerät mit einem Gewicht von mehreren Tonnen und einer Fläche von achtzehn Quadratmetern, bestehend aus Schraubantrieben, Riemen, Rollen, Zahnrädern, Federn und anderen Uhrwerkteilen. Zwei große Kabinen, 3 m x 2,1 m x 2,1 m, sind über Kupferrohre mit dem Hauptkörper von SCP-914 verbunden. Dazwischen befindet sich eine Kupfertafel mit einem großen Drehknopf mit einem kleinen Pfeil."
+      es: "SCP-914 es un gran dispositivo de relojería que pesa varias toneladas y cubre un área de dieciocho metros cuadrados, compuesto por mecanismos de tornillo, correas, poleas, engranajes, resortes y otros elementos de relojería. Dos grandes cabinas, de 3 x 2,1 x 2,1 m, están conectadas mediante tubos de cobre al cuerpo principal de SCP-914. Entre ellas hay un panel de cobre con una gran perilla con una pequeña flecha."
+      fr: "SCP-914 est un grand dispositif d'horlogerie pesant plusieurs tonnes et couvrant une surface de dix-huit mètres carrés, composé de vis d'entraînement, de courroies, de poulies, d'engrenages, de ressorts et d'autres mécanismes d'horlogerie. Deux grandes cabines, de 3 x 2,1 x 2,1 m, sont reliées par des tubes de cuivre au corps principal de SCP-914. Entre elles se trouve un panneau de cuivre doté d'un grand bouton muni d'une petite flèche."
+      it: "SCP-914 è un grande dispositivo a orologeria che pesa diverse tonnellate e copre un'area di diciotto metri quadrati, costituito da viti di trasmissione, cinghie, pulegge, ingranaggi, molle e altri meccanismi a orologeria. Due grandi cabine, di 3 x 2,1 x 2,1 m, sono collegate tramite tubi di rame al corpo principale di SCP-914. Tra di esse si trova un pannello di rame con una grande manopola dotata di una piccola freccia."
+      ko: "SCP-914는 무게 수 톤에 면적 18제곱미터에 달하는 거대한 태엽 장치로, 나사 구동부, 벨트, 도르래, 톱니바퀴, 스프링 및 기타 시계 장치로 구성되어 있다. 3m×2.1m×2.1m 크기의 커다란 부스 두 개가 구리관을 통해 SCP-914 본체에 연결되어 있다. 그 사이에는 작은 화살표가 달린 커다란 손잡이가 있는 구리 패널이 있다."
+      pl: "SCP-914 to duże urządzenie zegarowe ważące kilka ton i zajmujące powierzchnię osiemnastu metrów kwadratowych, złożone z napędów śrubowych, pasów, kół pasowych, przekładni, sprężyn i innych elementów mechanizmu zegarowego. Dwie duże kabiny o wymiarach 3 x 2,1 x 2,1 m są połączone miedzianymi rurami z głównym korpusem SCP-914. Między nimi znajduje się miedziana tablica z dużym pokrętłem ze strzałką."
+      pt: "SCP-914 é um grande dispositivo de relojoaria que pesa várias toneladas e cobre uma área de dezoito metros quadrados, composto por acionamentos de parafuso, correias, polias, engrenagens, molas e outros mecanismos de relojoaria. Duas grandes cabines, de 3 x 2,1 x 2,1 m, são conectadas por tubos de cobre ao corpo principal de SCP-914. Entre elas há um painel de cobre com um grande botão giratório com uma pequena seta."
+      th: "SCP-914 คืออุปกรณ์กลไกนาฬิกาขนาดใหญ่ น้ำหนักหลายตัน ครอบคลุมพื้นที่สิบแปดตารางเมตร ประกอบด้วยกลไกสกรู สายพาน รอก เฟือง สปริง และกลไกนาฬิกาอื่นๆ ตู้ขนาดใหญ่สองตู้ ขนาด 3x2.1x2.1 เมตร เชื่อมต่อกับตัวเครื่องหลักของ SCP-914 ด้วยท่อทองแดง ระหว่างตู้ทั้งสองมีแผงทองแดงที่มีปุ่มหมุนขนาดใหญ่พร้อมลูกศรเล็กๆ ติดอยู่"
+      uk: "SCP-914 — це великий годинниковий механізм вагою в кілька тонн, що займає площу вісімнадцять квадратних метрів і складається з гвинтових приводів, ременів, шківів, шестерень, пружин та інших годинникових деталей. Дві великі кабіни розміром 3 x 2,1 x 2,1 м з'єднані мідними трубами з основним корпусом SCP-914. Між ними розташована мідна панель з великою ручкою з маленькою стрілкою."
+      vi: "SCP-914 là một cỗ máy đồng hồ lớn nặng vài tấn, bao phủ diện tích mười tám mét vuông, gồm các trục vít, dây đai, ròng rọc, bánh răng, lò xo và các cơ cấu đồng hồ khác. Hai buồng lớn, kích thước 3 x 2,1 x 2,1 m, được nối với thân chính của SCP-914 bằng các ống đồng. Giữa chúng là một bảng đồng với núm vặn lớn gắn một mũi tên nhỏ."
+      zh: "SCP-914是一台巨大的钟表机械装置，重达数吨，占地十八平方米，由螺杆传动装置、皮带、滑轮、齿轮、弹簧等钟表构件组成。两个大型隔间（尺寸为3米×2.1米×2.1米）通过铜管与SCP-914主体相连。两者之间是一块铜制面板，上面有一个带有小箭头的大旋钮。"
+      zh_Hant: "SCP-914是一台巨大的鐘錶機械裝置，重達數噸，佔地十八平方公尺，由螺桿傳動裝置、皮帶、滑輪、齒輪、彈簧等鐘錶構件組成。兩個大型隔間（尺寸為3公尺×2.1公尺×2.1公尺）透過銅管與SCP-914主體相連。兩者之間是一塊銅製面板，上面有一個帶有小箭頭的大旋鈕。"
+
+  - scene: >
+      Medium shot, slightly low angle, pulled back to show both booths.
+      Attending Researcher (F) stands close to the Output Booth's sealed
+      door, leaning in and peering intently at it, waiting. SCP-914's
+      gears whir and turn around her, the Intake Booth door now shut
+      tight beside her.
+    characters: [attending-researcher-f, scp-914]
+    caption:
+      ja: "対象物を投入ブースに入れると、扉が閉まり、小さなベルが鳴る。つまみをいずれかの位置に回してキーを巻き上げると、SCP-914はブース内の対象物を「精製」する。「精製」過程の最中にSCP-914内部で試験対象物が目撃された例は、これまで一度もない。"
+      en: "When an object is placed in the Intake Booth, a door slides shut, and a small bell sounds. If the knob is turned to any position and the key wound up, SCP-914 will 'refine' the object in the booth. No test object has ever been observed inside SCP-914 during the 'refining' process."
+      cs: "Když je předmět umístěn do Vstupní kabiny, dveře se zasunou a ozve se malý zvonek. Pokud se knoflík otočí do jakékoli polohy a klíč se natáhne, SCP-914 předmět v kabině 'zpracuje'. Žádný testovaný předmět nebyl nikdy pozorován uvnitř SCP-914 během procesu 'zpracování'."
+      de: "Wenn ein Objekt in die Eingangskabine gelegt wird, schließt sich eine Tür und eine kleine Glocke ertönt. Wird der Knopf in eine beliebige Stellung gedreht und der Schlüssel aufgezogen, 'verfeinert' SCP-914 das Objekt in der Kabine. Während des 'Verfeinerungs'-Vorgangs wurde noch nie ein Testobjekt im Inneren von SCP-914 beobachtet."
+      es: "Cuando se coloca un objeto en la Cabina de Entrada, una puerta se cierra y suena una pequeña campana. Si se gira la perilla a cualquier posición y se le da cuerda a la llave, SCP-914 'refinará' el objeto dentro de la cabina. Nunca se ha observado ningún objeto de prueba dentro de SCP-914 durante el proceso de 'refinamiento'."
+      fr: "Lorsqu'un objet est placé dans la cabine d'entrée, une porte se ferme et une petite cloche retentit. Si le bouton est tourné vers une position quelconque et que la clé est remontée, SCP-914 « raffine » l'objet dans la cabine. Aucun objet de test n'a jamais été observé à l'intérieur de SCP-914 pendant le processus de « raffinage »."
+      it: "Quando un oggetto viene posto nella Cabina di Ingresso, una porta si chiude e suona una piccola campana. Se la manopola viene ruotata in qualsiasi posizione e la chiave viene caricata, SCP-914 'raffinerà' l'oggetto nella cabina. Nessun oggetto di prova è mai stato osservato all'interno di SCP-914 durante il processo di 'raffinazione'."
+      ko: "투입 부스에 물체를 넣으면 문이 닫히고 작은 종이 울린다. 손잡이를 어느 위치로든 돌리고 태엽을 감으면, SCP-914는 부스 안의 물체를 '정제'한다. '정제' 과정이 진행되는 동안 SCP-914 내부에서 시험 대상물이 목격된 사례는 지금까지 단 한 번도 없다."
+      pl: "Gdy przedmiot zostanie umieszczony w Kabinie Wejściowej, drzwi się zasuwają i rozlega się cichy dzwonek. Jeśli pokrętło zostanie ustawione w dowolnej pozycji, a klucz nakręcony, SCP-914 'przetworzy' przedmiot w kabinie. Żaden testowany przedmiot nigdy nie został zaobserwowany wewnątrz SCP-914 podczas procesu 'przetwarzania'."
+      pt: "Quando um objeto é colocado na Cabine de Entrada, uma porta se fecha e um pequeno sino soa. Se o botão for girado para qualquer posição e a chave for dada corda, SCP-914 vai 'refinar' o objeto na cabine. Nenhum objeto de teste jamais foi observado dentro de SCP-914 durante o processo de 'refinamento'."
+      th: "เมื่อวางวัตถุลงในตู้ทางเข้า ประตูจะเลื่อนปิด และมีเสียงกระดิ่งเล็กๆ ดังขึ้น หากหมุนปุ่มไปยังตำแหน่งใดก็ตามและไขลานกุญแจ SCP-914 จะ 'กลั่นกรอง' วัตถุภายในตู้ ไม่เคยมีการพบเห็นวัตถุทดสอบภายใน SCP-914 ระหว่างกระบวนการ 'กลั่นกรอง' เลยแม้แต่ครั้งเดียว"
+      uk: "Коли предмет розміщують у Вхідній кабіні, двері зачиняються і лунає тихий дзвіночок. Якщо ручку повернути в будь-яке положення й завести ключ, SCP-914 'вдосконалить' предмет у кабіні. Жодного тестового предмета ніколи не спостерігали всередині SCP-914 під час процесу 'вдосконалення'."
+      vi: "Khi một vật thể được đặt vào Buồng Đầu vào, cửa trượt đóng lại và một tiếng chuông nhỏ vang lên. Nếu núm vặn được xoay đến bất kỳ vị trí nào và chìa khóa được lên dây cót, SCP-914 sẽ 'tinh chế' vật thể trong buồng. Chưa từng có vật thể thử nghiệm nào được quan sát thấy bên trong SCP-914 trong quá trình 'tinh chế'."
+      zh: "当物体被放入输入隔间后，门会滑动关闭，并响起一声轻微的铃声。若将旋钮转到任意位置并上紧发条钥匙，SCP-914便会对隔间内的物体进行「精炼」。在「精炼」过程中，从未有人观察到测试物体出现在SCP-914内部。"
+      zh_Hant: "當物體被放入輸入隔間後，門會滑動關閉，並響起一聲輕微的鈴聲。若將旋鈕轉到任意位置並上緊發條鑰匙，SCP-914便會對隔間內的物體進行「精煉」。在「精煉」過程中，從未有人觀察到測試物體出現在SCP-914內部。"

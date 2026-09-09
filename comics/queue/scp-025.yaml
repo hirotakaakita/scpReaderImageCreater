@@ -1,0 +1,133 @@
+# SCP-025 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Test Logの詳細（銃撃・刺殺・食人病等の陰惨な事故描写）は本編に含めず、
+# パネル3では事故の瞬間そのものを描かず「衝撃の直前で止め、結果は見せない」
+# 演出にしてグロを回避した。キャラにセリフは言わせない。JP公式訳が直接
+# 取得できなかったため、検証済みの英語本文からの翻訳（ja含む）。
+
+id: scp-025
+
+title:
+  en: "SCP-025"
+  ja: "SCP-025"
+  cs: "SCP-025"
+  de: "SCP-025"
+  es: "SCP-025"
+  fr: "SCP-025"
+  it: "SCP-025"
+  ko: "SCP-025"
+  pl: "SCP-025"
+  pt: "SCP-025"
+  th: "SCP-025"
+  uk: "SCP-025"
+  vi: "SCP-025"
+  zh: "SCP-025"
+  zh_Hant: "SCP-025"
+
+attribution:
+  article: "SCP-025"
+  source_url: "http://scp-wiki.wikidot.com/scp-025"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+characters: [attending-researcher-f, d-class, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a tall wooden wardrobe
+      standing open in a storage room, packed with garments from many
+      visibly different eras — a flapper dress, a leisure suit, a punk
+      jacket — all visibly worn, moth-eaten, and torn.
+      attending-researcher-f stands beside it, clipboard in hand,
+      cataloguing the contents.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-025は、様々な時代の衣類が詰め込まれた木製のワードローブである。中に収められた全ての衣類に共通する唯一の特徴は、いずれも状態が悪いということである——蛾に食われた箇所が多く、破れや伝線も珍しくない。"
+      en: "SCP-025 is a wooden wardrobe full of clothing dating from a number of time periods. The only unifying aspect of every article contained within is that each one is in poor condition; moths have eaten at much of the collection, and tears and runs are not uncommon."
+      cs: "SCP-025 je dřevěná skříň plná oblečení pocházejícího z různých časových období. Jediným společným rysem všech kusů v ní je jejich špatný stav; velkou část sbírky rozežraly moli a trhliny a zatažené oka nejsou vzácností."
+      de: "SCP-025 ist ein hölzerner Kleiderschrank voller Kleidungsstücke aus verschiedenen Zeitepochen. Das einzige gemeinsame Merkmal aller darin enthaltenen Stücke ist ihr schlechter Zustand; Motten haben einen Großteil der Sammlung zerfressen, und Risse und Laufmaschen sind keine Seltenheit."
+      es: "SCP-025 es un armario de madera lleno de ropa de diversas épocas. El único aspecto que unifica cada prenda contenida en él es que se encuentra en mal estado; las polillas han devorado gran parte de la colección, y los desgarros y carreras son comunes."
+      fr: "Le SCP-025 est une armoire en bois remplie de vêtements datant de plusieurs époques. Le seul point commun à chaque article qu'elle contient est son mauvais état ; les mites ont rongé une grande partie de la collection, et les déchirures et accrocs ne sont pas rares."
+      it: "SCP-025 è un armadio di legno pieno di abiti risalenti a diverse epoche. L'unico aspetto unificante di ogni capo contenuto al suo interno è che si trova in cattive condizioni; le tarme hanno divorato gran parte della collezione, e strappi e smagliature non sono rari."
+      ko: "SCP-025는 다양한 시대의 옷으로 가득 찬 나무 옷장이다. 그 안에 담긴 모든 의류의 유일한 공통점은 하나같이 상태가 나쁘다는 것이다 — 좀이 컬렉션의 상당 부분을 갉아먹었으며, 찢어짐과 올 풀림이 흔하다."
+      pl: "SCP-025 to drewniana szafa pełna ubrań pochodzących z różnych okresów. Jedyną wspólną cechą każdego przedmiotu w niej zawartego jest jego zły stan; mole zjadły dużą część kolekcji, a rozdarcia i przetarcia nie są rzadkością."
+      pt: "O SCP-025 é um guarda-roupa de madeira cheio de roupas de várias épocas. O único aspecto que unifica cada peça contida nele é que todas estão em más condições; as traças corroeram grande parte da coleção, e rasgos e fios puxados não são incomuns."
+      th: "SCP-025 คือตู้เสื้อผ้าไม้ที่เต็มไปด้วยเสื้อผ้าจากหลายยุคสมัย ลักษณะร่วมเพียงอย่างเดียวของทุกชิ้นที่บรรจุอยู่ภายในคือสภาพที่ย่ำแย่ แมลงเม่ากัดกินคอลเลกชันไปมาก และรอยขาดหรือรอยลุ่ยก็พบเห็นได้ทั่วไป"
+      uk: "SCP-025 — це дерев'яна шафа, повна одягу різних епох. Єдина спільна риса кожного предмета всередині — його поганий стан; міль з'їла значну частину колекції, а розриви й затяжки — не рідкість."
+      vi: "SCP-025 là một tủ quần áo bằng gỗ chứa đầy quần áo thuộc nhiều thời kỳ khác nhau. Điểm chung duy nhất của mọi món đồ bên trong là chúng đều ở tình trạng tồi tệ; nhiều phần của bộ sưu tập đã bị nhậy cắn, và các vết rách hay sổ chỉ không phải là hiếm."
+      zh: "SCP-025是一个木制衣柜，里面装满了来自不同年代的服装。柜内所有衣物唯一的共同点是状况都很差——大部分被蛀虫啃食过，撕裂和抽丝也屡见不鲜。"
+      zh_Hant: "SCP-025是一個木製衣櫃，裡面裝滿了來自不同年代的服裝。櫃內所有衣物唯一的共同點是狀況都很差——大部分被蛀蟲啃食過，撕裂和抽絲也屢見不鮮。"
+
+  - scene: >
+      Close-up, filling most of the frame, on d-class's hand pulling on
+      a vintage leather glove with a torn, missing fingertip, examining
+      it curiously in the light, unaware of anything unusual.
+    characters: [d-class]
+    caption:
+      ja: "SCP-025の衣類のいずれかを身につけると、着用者は24時間以内に死亡するか負傷することが確認されている。指先が切れた手袋を着用した場合、玉ねぎを切るといった単純な調理中の事故によってその指先を失う結果になることがある。"
+      en: "When any item from SCP-025 is put on, the wearer is observed to die or suffer an injury within 24 hours. Wearing a glove with a fingertip cut off may result in the loss of the fingertip through a simple kitchen accident, like chopping onions."
+      cs: "Když si někdo obleče jakýkoli kus oblečení z SCP-025, dojde u nositele během 24 hodin k úmrtí nebo zranění. Nošení rukavice s uříznutým prstem může vést ke ztrátě prstu v důsledku obyčejné kuchyňské nehody, například při krájení cibule."
+      de: "Sobald ein Kleidungsstück aus SCP-025 angezogen wird, stirbt der Träger nachweislich oder erleidet innerhalb von 24 Stunden eine Verletzung. Das Tragen eines Handschuhs mit abgeschnittener Fingerspitze kann durch einen einfachen Küchenunfall, wie das Zwiebelschneiden, zum Verlust der Fingerspitze führen."
+      es: "Cuando se pone cualquier prenda de SCP-025, se ha observado que quien la lleva muere o sufre una lesión dentro de las 24 horas. Usar un guante con la punta de un dedo cortada puede resultar en la pérdida de la punta del dedo por un simple accidente doméstico, como picar cebollas."
+      fr: "Lorsqu'un vêtement du SCP-025 est porté, on observe que la personne meurt ou subit une blessure dans les 24 heures. Porter un gant dont le bout d'un doigt est coupé peut entraîner la perte de ce bout de doigt lors d'un simple accident de cuisine, comme couper des oignons."
+      it: "Quando si indossa un qualsiasi capo di SCP-025, si osserva che chi lo indossa muore o subisce una lesione entro 24 ore. Indossare un guanto con la punta di un dito tagliata può causare la perdita della punta del dito a causa di un semplice incidente domestico, come tagliare cipolle."
+      ko: "SCP-025의 물품을 착용하면, 착용자는 24시간 이내에 사망하거나 부상을 입는 것으로 관측되었다. 손끝이 잘려나간 장갑을 착용하면 양파를 써는 것 같은 단순한 주방 사고로 손끝을 잃는 결과가 발생할 수 있다."
+      pl: "Gdy założony zostaje jakikolwiek przedmiot z SCP-025, u noszącego obserwuje się śmierć lub obrażenia w ciągu 24 godzin. Noszenie rękawiczki z odciętym czubkiem palca może skutkować utratą czubka palca w wyniku zwykłego wypadku kuchennego, na przykład podczas krojenia cebuli."
+      pt: "Quando qualquer item do SCP-025 é vestido, observa-se que o usuário morre ou sofre um ferimento dentro de 24 horas. Usar uma luva com a ponta de um dedo cortada pode resultar na perda da ponta do dedo em um simples acidente de cozinha, como cortar cebolas."
+      th: "เมื่อสวมใส่สิ่งของใดๆ จาก SCP-025 พบว่าผู้สวมใส่จะเสียชีวิตหรือได้รับบาดเจ็บภายใน 24 ชั่วโมง การสวมถุงมือที่ปลายนิ้วขาดอาจส่งผลให้สูญเสียปลายนิ้วจากอุบัติเหตุในครัวธรรมดา เช่น การหั่นหอมใหญ่"
+      uk: "Коли надягають будь-який предмет із SCP-025, у власника спостерігається смерть або травма протягом 24 годин. Носіння рукавички з відрізаним кінчиком пальця може призвести до втрати кінчика пальця через звичайний кухонний нещасний випадок, наприклад, під час нарізання цибулі."
+      vi: "Khi mặc bất kỳ món đồ nào từ SCP-025, người mặc được quan sát thấy tử vong hoặc bị thương trong vòng 24 giờ. Việc đeo một chiếc găng tay bị cắt mất đầu ngón có thể dẫn đến việc mất đầu ngón tay đó qua một tai nạn bếp núc đơn giản, như khi thái hành."
+      zh: "只要穿上SCP-025中的任何一件衣物，穿戴者就会在24小时内死亡或受伤。若穿戴一只指尖被剪掉的手套，可能会因为切洋葱之类的简单厨房意外而失去那根指尖。"
+      zh_Hant: "只要穿上SCP-025中的任何一件衣物，穿戴者就會在24小時內死亡或受傷。若穿戴一隻指尖被剪掉的手套，可能會因為切洋蔥之類的簡單廚房意外而失去那根指尖。"
+
+  - scene: >
+      Medium shot, waist-up, low angle, a different framing, a plain
+      kitchen test room. d-class stands at a counter with a kitchen
+      knife raised over a cutting board of onions, the gloved hand with
+      the exposed fingertip resting right beside the blade, frozen at
+      the instant just before the knife falls, no impact shown.
+      attending-researcher-m watches tensely through an observation
+      window in the background.
+    characters: [d-class, attending-researcher-m]
+    caption:
+      ja: "これらの事例における死亡あるいは負傷の原因は、常にその衣類の欠陥と結びついているが、それはあくまで無関係な出来事に見えるだけである。"
+      en: "The cause of death or injury in these instances is invariably linked to the flaws in the clothing, but only ever appears to be an unrelated incident."
+      cs: "Příčina úmrtí nebo zranění je v těchto případech vždy spojena s vadami na oblečení, ale vždy se jeví jako nesouvisející incident."
+      de: "Die Todes- oder Verletzungsursache steht in diesen Fällen stets in Verbindung mit den Mängeln an der Kleidung, erscheint jedoch immer als ein damit unzusammenhängender Vorfall."
+      es: "La causa de muerte o lesión en estos casos siempre está vinculada a los defectos de la prenda, pero siempre parece ser un incidente no relacionado."
+      fr: "La cause du décès ou de la blessure dans ces cas est invariablement liée aux défauts du vêtement, mais elle n'apparaît jamais que comme un incident sans rapport."
+      it: "La causa di morte o lesione in questi casi è invariabilmente legata ai difetti dell'indumento, ma appare sempre come un incidente non correlato."
+      ko: "이러한 사례에서 사망 또는 부상의 원인은 언제나 해당 의류의 결함과 연관되어 있지만, 겉으로는 항상 무관한 사고처럼 보인다."
+      pl: "Przyczyna śmierci lub obrażeń w tych przypadkach zawsze jest powiązana z wadami w ubraniu, ale zawsze wygląda na niepowiązany incydent."
+      pt: "A causa da morte ou lesão nesses casos está invariavelmente ligada às falhas na roupa, mas sempre parece ser um incidente não relacionado."
+      th: "สาเหตุของการเสียชีวิตหรือบาดเจ็บในกรณีเหล่านี้เชื่อมโยงกับข้อบกพร่องของเสื้อผ้าเสมอ แต่จะดูเหมือนเป็นเหตุการณ์ที่ไม่เกี่ยวข้องกันทุกครั้ง"
+      uk: "Причина смерті чи травми в цих випадках незмінно пов'язана з вадами одягу, але завжди виглядає як непов'язаний випадок."
+      vi: "Nguyên nhân tử vong hoặc chấn thương trong những trường hợp này luôn liên quan đến các khuyết điểm trên trang phục, nhưng luôn có vẻ như là một sự cố không liên quan."
+      zh: "在这些案例中，死亡或受伤的原因总是与衣物上的瑕疵有关，但每次看起来都像是一起毫不相干的意外。"
+      zh_Hant: "在這些案例中，死亡或受傷的原因總是與衣物上的瑕疵有關，但每次看起來都像是一起毫不相干的意外。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the storage
+      room again, a very different framing from the tense kitchen shot
+      before. attending-researcher-f swings the wardrobe's doors shut
+      and turns a heavy key in the lock, stepping back with visible
+      relief. attending-researcher-m stands nearby holding a logbook,
+      both clearly eager to leave the room.
+    characters: [attending-researcher-f, attending-researcher-m]
+    caption:
+      ja: "SCP-025は試験時にのみ開放し、それが保管されている部屋についても同様とする。入室コードは許可された研究職員および警備職員にのみ与えること。"
+      en: "SCP-025 is only to be opened during testing, as is the room in which it is stored. Entry codes are to be given only to authorized research and security personnel."
+      cs: "SCP-025 smí být otevřeno pouze během testování, stejně jako místnost, ve které je uloženo. Vstupní kódy smí být poskytnuty pouze oprávněnému výzkumnému a bezpečnostnímu personálu."
+      de: "SCP-025 darf nur während Tests geöffnet werden, ebenso wie der Raum, in dem es aufbewahrt wird. Zugangscodes dürfen nur autorisiertem Forschungs- und Sicherheitspersonal ausgehändigt werden."
+      es: "SCP-025 solo debe abrirse durante las pruebas, al igual que la habitación en la que se guarda. Los códigos de entrada solo deben proporcionarse al personal de investigación y seguridad autorizado."
+      fr: "Le SCP-025 ne doit être ouvert que pendant les tests, tout comme la pièce dans laquelle il est entreposé. Les codes d'accès ne doivent être communiqués qu'au personnel de recherche et de sécurité autorisé."
+      it: "SCP-025 deve essere aperto solo durante i test, così come la stanza in cui è conservato. I codici di accesso devono essere forniti solo al personale di ricerca e sicurezza autorizzato."
+      ko: "SCP-025은 시험 중에만 개방하며, 이는 그것이 보관된 방도 마찬가지이다. 출입 코드는 승인된 연구 및 보안 직원에게만 제공되어야 한다."
+      pl: "SCP-025 może być otwierana wyłącznie podczas testów, podobnie jak pomieszczenie, w którym jest przechowywana. Kody dostępu mogą być przekazywane wyłącznie upoważnionemu personelowi badawczemu i ochrony."
+      pt: "O SCP-025 só deve ser aberto durante os testes, assim como a sala em que é guardado. Os códigos de entrada devem ser fornecidos apenas ao pessoal de pesquisa e segurança autorizado."
+      th: "SCP-025 จะเปิดได้เฉพาะระหว่างการทดสอบเท่านั้น เช่นเดียวกับห้องที่ใช้เก็บมัน รหัสเข้าออกจะมอบให้เฉพาะเจ้าหน้าที่วิจัยและรักษาความปลอดภัยที่ได้รับอนุญาตเท่านั้น"
+      uk: "SCP-025 можна відкривати лише під час тестування, так само як і кімнату, де його зберігають. Коди доступу надаються лише уповноваженому дослідницькому та охоронному персоналу."
+      vi: "SCP-025 chỉ được mở trong quá trình thử nghiệm, cũng như căn phòng nơi nó được cất giữ. Mã số ra vào chỉ được cấp cho nhân viên nghiên cứu và an ninh được ủy quyền."
+      zh: "SCP-025只能在测试期间开启，存放它的房间同样如此。出入密码只能授予经过授权的研究与安保人员。"
+      zh_Hant: "SCP-025只能在測試期間開啟，存放它的房間同樣如此。出入密碼只能授予經過授權的研究與安保人員。"

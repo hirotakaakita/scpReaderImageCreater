@@ -1,0 +1,146 @@
+# SCP-109 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Additional Information（実験ログ）は本編に使用しない。
+# addendumにはAddendum 109-3（「一気飲み」を戒める無害な注記）のみ1行使用する。
+# キャラにセリフは言わせない。
+
+id: scp-109
+
+title:
+  en: "SCP-109"
+  ja: "SCP-109"
+  cs: "SCP-109"
+  de: "SCP-109"
+  es: "SCP-109"
+  fr: "SCP-109"
+  it: "SCP-109"
+  ko: "SCP-109"
+  pl: "SCP-109"
+  pt: "SCP-109"
+  th: "SCP-109"
+  uk: "SCP-109"
+  vi: "SCP-109"
+  zh: "SCP-109"
+  zh_Hant: "SCP-109"
+
+attribution:
+  article: "SCP-109"
+  source_url: "http://scp-wiki.wikidot.com/scp-109"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+characters: [attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, showing a quiet storage room shelf. An
+      old-fashioned canteen stands upright on a small molded pedestal
+      among other unremarkable stored items, no active equipment
+      monitoring it. attending-researcher-m walks past, checking a
+      shelf inventory list without stopping.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-109は現在、非重要保管ユニット7に保管されており、常時の監視は不要である。SCP-109を元の場所に戻す際、職員はそれがしっかりと閉じられていること、そして成形された台座の上に直立した状態で置かれていることを確認しなければならない。"
+      en: "SCP-109 is currently located in Non-Critical Storage Unit 7 and requires no active monitoring. When replacing SCP-109, personnel should ensure that it is firmly closed and that it is placed on the molded pedestal in the upright position."
+      cs: "SCP-109 se v současnosti nachází v jednotce nekritického skladování č. 7 a nevyžaduje aktivní monitorování. Při vracení SCP-109 na místo by měl personál zajistit, že je pevně uzavřeno a umístěno na tvarovaném podstavci ve vzpřímené poloze."
+      de: "SCP-109 befindet sich derzeit in Nicht-kritischer Lagereinheit 7 und erfordert keine aktive Überwachung. Beim Zurückstellen von SCP-109 sollte das Personal sicherstellen, dass es fest verschlossen ist und aufrecht auf dem geformten Sockel platziert wird."
+      es: "El SCP-109 se encuentra actualmente en la Unidad de Almacenamiento No Crítico 7 y no requiere monitoreo activo. Al reemplazar el SCP-109, el personal debe asegurarse de que esté firmemente cerrado y colocado sobre el pedestal moldeado en posición vertical."
+      fr: "Le SCP-109 se trouve actuellement dans l'Unité de Stockage Non Critique 7 et ne nécessite aucune surveillance active. Lors du remplacement du SCP-109, le personnel doit s'assurer qu'il est solidement fermé et qu'il est placé sur le piédestal moulé en position verticale."
+      it: "SCP-109 si trova attualmente nell'Unità di Stoccaggio Non Critica 7 e non richiede monitoraggio attivo. Quando si ripone SCP-109, il personale deve assicurarsi che sia ben chiuso e posizionato sul piedistallo modellato in posizione verticale."
+      ko: "SCP-109는 현재 비중요 보관 유닛 7에 위치해 있으며 상시 감시가 필요하지 않다. SCP-109를 제자리에 돌려놓을 때 직원은 그것이 단단히 닫혀 있으며 성형된 받침대 위에 똑바로 세워져 있는지 확인해야 한다."
+      pl: "SCP-109 znajduje się obecnie w Jednostce Magazynowania Niekrytycznego 7 i nie wymaga aktywnego monitorowania. Podczas odkładania SCP-109 personel powinien upewnić się, że jest szczelnie zamknięte i umieszczone na formowanym cokole w pozycji pionowej."
+      pt: "O SCP-109 está atualmente localizado na Unidade de Armazenamento Não Crítico 7 e não requer monitoramento ativo. Ao recolocar o SCP-109, o pessoal deve garantir que esteja bem fechado e colocado sobre o pedestal moldado na posição vertical."
+      th: "SCP-109 ปัจจุบันตั้งอยู่ในหน่วยจัดเก็บที่ไม่สำคัญหมายเลข 7 และไม่ต้องการการเฝ้าติดตามอย่างต่อเนื่อง เมื่อนำ SCP-109 กลับไปวางคืน เจ้าหน้าที่ควรตรวจสอบให้แน่ใจว่าปิดสนิทแล้วและวางไว้บนแท่นที่ขึ้นรูปในท่าตั้งตรง"
+      uk: "SCP-109 наразі розташований у Некритичному Сховищі 7 і не потребує активного моніторингу. Повертаючи SCP-109 на місце, персонал повинен переконатися, що він щільно закритий і встановлений на формованому постаменті у вертикальному положенні."
+      vi: "SCP-109 hiện được đặt tại Đơn vị Lưu trữ Không Quan trọng 7 và không cần giám sát chủ động. Khi đặt SCP-109 trở lại, nhân viên nên đảm bảo rằng nó được đóng chặt và được đặt trên bệ đúc ở tư thế thẳng đứng."
+      zh: "SCP-109目前存放于非关键存储单元7号，无需持续监控。归还SCP-109时，人员应确保将其牢固关闭，并以直立姿态放置在成型底座上。"
+      zh_Hant: "SCP-109目前存放於非關鍵儲存單元7號，無需持續監控。歸還SCP-109時，人員應確保將其牢固關閉，並以直立姿態放置在成型底座上。"
+
+  - scene: >
+      Close-up, on the canteen itself sitting on a table, tin alloy
+      body with a heavy cotton cover and a black leather strap, its cap
+      open revealing water inside nearly to the brim.
+      attending-researcher-f examines it closely.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-109は、ブリキ合金製のアメリカ陸軍標準支給型水筒（1899年頃）であり、頑丈な綿製カバーと黒い革ストラップが取り付けられている。開けると、この物体は水でほぼ満たされていることが確認できる。"
+      en: "SCP-109 is a standard-issue United States Army canteen (circa 1899) made of a tin alloy and fitted with a heavy cotton cover and a black leather strap. When opened, the item is seen to be nearly full of water."
+      cs: "SCP-109 je standardní polní láhev americké armády (kolem roku 1899) vyrobená z cínové slitiny a opatřená pevným bavlněným potahem a černým koženým řemínkem. Po otevření je patrné, že je předmět téměř plný vody."
+      de: "SCP-109 ist eine standardmäßige US-Armee-Feldflasche (um 1899) aus einer Zinnlegierung mit einem robusten Baumwollbezug und einem schwarzen Lederriemen. Beim Öffnen zeigt sich, dass der Gegenstand fast vollständig mit Wasser gefüllt ist."
+      es: "El SCP-109 es una cantimplora estándar del Ejército de los Estados Unidos (circa 1899), hecha de una aleación de estaño y equipada con una funda de algodón resistente y una correa de cuero negro. Al abrirla, se observa que el objeto está casi lleno de agua."
+      fr: "Le SCP-109 est une gourde d'ordonnance standard de l'armée américaine (vers 1899) faite d'un alliage d'étain et équipée d'une housse en coton épais et d'une sangle en cuir noir. Une fois ouvert, l'objet apparaît presque plein d'eau."
+      it: "SCP-109 è una borraccia standard dell'esercito degli Stati Uniti (circa 1899) fatta di una lega di stagno e dotata di una robusta copertura in cotone e una cinghia in pelle nera. Una volta aperto, l'oggetto risulta essere quasi pieno d'acqua."
+      ko: "SCP-109는 주석 합금으로 만들어진, 두꺼운 면 덮개와 검은 가죽 끈이 부착된 미군 표준 지급형 수통(1899년경)이다. 열어보면 이 물체는 물로 거의 가득 차 있는 것으로 확인된다."
+      pl: "SCP-109 to standardowy manierka armii Stanów Zjednoczonych (ok. 1899 r.) wykonana ze stopu cyny, wyposażona w gruby bawełniany pokrowiec i czarny skórzany pasek. Po otwarciu widać, że przedmiot jest niemal pełen wody."
+      pt: "O SCP-109 é um cantil padrão do Exército dos Estados Unidos (por volta de 1899) feito de uma liga de estanho e equipado com uma capa de algodão resistente e uma alça de couro preto. Ao ser aberto, o item aparece quase cheio de água."
+      th: "SCP-109 คือกระติกน้ำมาตรฐานของกองทัพสหรัฐฯ (ประมาณปี 1899) ทำจากโลหะผสมดีบุก พร้อมปลอกผ้าฝ้ายหนาและสายหนังสีดำ เมื่อเปิดออก วัตถุนี้จะพบว่ามีน้ำอยู่เกือบเต็ม"
+      uk: "SCP-109 — це стандартна фляга армії США (приблизно 1899 року) з олов'яного сплаву, обладнана щільним бавовняним чохлом і чорним шкіряним ременем. При відкритті предмет виявляється майже повним води."
+      vi: "SCP-109 là một bình đựng nước tiêu chuẩn của Quân đội Hoa Kỳ (khoảng năm 1899), làm bằng hợp kim thiếc và được trang bị vỏ bọc vải bông dày cùng dây đeo da đen. Khi mở ra, vật thể được thấy gần như đầy nước."
+      zh: "SCP-109是一个标准配发的美国陆军水壶（约1899年），由锡合金制成，配有厚实的棉质外套和黑色皮革背带。打开后可见该物体几乎装满了水。"
+      zh_Hant: "SCP-109是一個標準配發的美國陸軍水壺（約1899年），由錫合金製成，配有厚實的棉質外套和黑色皮革背帶。打開後可見該物體幾乎裝滿了水。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the close-up
+      before. attending-researcher-m pours cup after cup of water from
+      the canteen into a long row of buckets lined up on the floor, the
+      canteen still full and unchanged, a scale beside it reading
+      "3.16 KG" unmoving.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "この容器からは、水位や物体の質量（一定して3.16kg）を変えることなく、見かけ上無限の水を取り出すことができる。内部を探査したところ、推定容積は2.8リットルで、外形と一致する形状が確認された。"
+      en: "A seemingly unlimited amount of water can be removed from the container without changing the water level or the item's mass, which remains a constant 3.16 kg. Probes of the interior reported an estimated volume of 2.8 L and a shape consistent with the outside."
+      cs: "Ze schránky lze odebrat zdánlivě neomezené množství vody, aniž by se změnila hladina vody nebo hmotnost předmětu, která zůstává konstantních 3,16 kg. Sondy vnitřku ohlásily odhadovaný objem 2,8 l a tvar odpovídající vnějšku."
+      de: "Aus dem Behälter kann eine scheinbar unbegrenzte Menge Wasser entnommen werden, ohne den Wasserstand oder die Masse des Objekts zu verändern, die konstant bei 3,16 kg bleibt. Sonden des Inneren meldeten ein geschätztes Volumen von 2,8 l und eine mit dem Äußeren übereinstimmende Form."
+      es: "Se puede extraer una cantidad aparentemente ilimitada de agua del recipiente sin cambiar el nivel del agua ni la masa del objeto, que permanece constante en 3,16 kg. Las sondas del interior informaron un volumen estimado de 2,8 L y una forma consistente con el exterior."
+      fr: "Une quantité apparemment illimitée d'eau peut être retirée du récipient sans modifier le niveau d'eau ni la masse de l'objet, qui reste constante à 3,16 kg. Les sondes de l'intérieur ont rapporté un volume estimé de 2,8 L et une forme cohérente avec l'extérieur."
+      it: "Una quantità apparentemente illimitata di acqua può essere prelevata dal contenitore senza modificare il livello dell'acqua o la massa dell'oggetto, che rimane costante a 3,16 kg. Le sonde dell'interno hanno riportato un volume stimato di 2,8 L e una forma coerente con l'esterno."
+      ko: "이 용기에서는 물의 양이나 물체의 질량(일정하게 3.16kg)을 변화시키지 않으면서도 겉보기에 무한한 양의 물을 꺼낼 수 있다. 내부를 탐침한 결과 추정 부피는 2.8리터였으며, 외형과 일치하는 형태로 나타났다."
+      pl: "Z pojemnika można pobierać pozornie nieograniczoną ilość wody bez zmiany poziomu wody ani masy przedmiotu, która pozostaje stała na poziomie 3,16 kg. Sondy wnętrza wykazały szacowaną objętość 2,8 l i kształt zgodny z kształtem zewnętrznym."
+      pt: "Uma quantidade aparentemente ilimitada de água pode ser retirada do recipiente sem alterar o nível da água ou a massa do item, que permanece constante em 3,16 kg. Sondas do interior relataram um volume estimado de 2,8 L e uma forma consistente com o exterior."
+      th: "สามารถนำน้ำออกจากภาชนะได้ในปริมาณที่ดูเหมือนไม่จำกัด โดยไม่เปลี่ยนแปลงระดับน้ำหรือมวลของวัตถุ ซึ่งคงที่อยู่ที่ 3.16 กิโลกรัม การตรวจสอบภายในด้วยหัววัดรายงานปริมาตรโดยประมาณ 2.8 ลิตร และรูปทรงที่สอดคล้องกับภายนอก"
+      uk: "З контейнера можна вилучити, здавалося б, необмежену кількість води, не змінюючи рівень води чи масу предмета, яка залишається постійною — 3,16 кг. Зонди всередині повідомили про орієнтовний об'єм 2,8 л і форму, що відповідає зовнішній."
+      vi: "Có thể lấy ra một lượng nước dường như vô hạn từ vật chứa mà không làm thay đổi mực nước hay khối lượng của vật thể, vốn vẫn giữ nguyên ở mức 3,16 kg. Các đầu dò bên trong báo cáo thể tích ước tính là 2,8 L và hình dạng phù hợp với bên ngoài."
+      zh: "从该容器中可以取出看似无限量的水，而不会改变水位或物体质量，该质量始终保持在3.16公斤。对内部的探测显示，估计容积为2.8升，形状与外部一致。"
+      zh_Hant: "從該容器中可以取出看似無限量的水，而不會改變水位或物體質量，該質量始終保持在3.16公斤。對內部的探測顯示，估計容積為2.8公升，形狀與外部一致。"
+
+  - scene: >
+      Close-up on two glasses of water side by side on a lab tray, a
+      different framing from the medium shot before. One glass, filled
+      from the canteen, has a faint blue-gray tint and gentle steam
+      rising from it; the other is at room temperature. attending-
+      researcher-f holds a thermometer, comparing both.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-109内の水は、わずかに青灰色を帯びており、スズやその他の電解質が含まれている。水の温度は常に19℃で一定しているが、別の容器に移すと加熱・冷却が可能である。"
+      en: "The water in SCP-109 is of a slight blue-gray tint, with concentrations of tin and other electrolytes. The water remains at a constant temperature of 19°C but can be heated or cooled when moved to another container."
+      cs: "Voda v SCP-109 má lehce modrošedý nádech, s obsahem cínu a dalších elektrolytů. Voda zůstává na konstantní teplotě 19 °C, ale lze ji ohřát nebo ochladit, pokud je přemístěna do jiné nádoby."
+      de: "Das Wasser in SCP-109 hat einen leicht blaugrauen Farbton mit Konzentrationen von Zinn und anderen Elektrolyten. Das Wasser bleibt bei einer konstanten Temperatur von 19 °C, kann aber erhitzt oder gekühlt werden, wenn es in einen anderen Behälter umgefüllt wird."
+      es: "El agua del SCP-109 tiene un ligero tinte azul grisáceo, con concentraciones de estaño y otros electrolitos. El agua se mantiene a una temperatura constante de 19 °C, pero puede calentarse o enfriarse al trasladarla a otro recipiente."
+      fr: "L'eau du SCP-109 présente une légère teinte bleu-gris, avec des concentrations d'étain et d'autres électrolytes. L'eau reste à une température constante de 19 °C, mais peut être chauffée ou refroidie une fois transvasée dans un autre récipient."
+      it: "L'acqua di SCP-109 ha una leggera tonalità grigio-blu, con concentrazioni di stagno e altri elettroliti. L'acqua rimane a una temperatura costante di 19°C, ma può essere riscaldata o raffreddata quando viene spostata in un altro contenitore."
+      ko: "SCP-109 안의 물은 옅은 청회색 빛을 띠며, 주석 및 기타 전해질이 함유되어 있다. 물은 항상 19도의 일정한 온도를 유지하지만, 다른 용기로 옮기면 가열하거나 식힐 수 있다."
+      pl: "Woda w SCP-109 ma lekko niebieskoszary odcień, z obecnością cyny i innych elektrolitów. Woda utrzymuje stałą temperaturę 19°C, ale można ją ogrzać lub schłodzić po przeniesieniu do innego pojemnika."
+      pt: "A água no SCP-109 tem um leve tom azul-acinzentado, com concentrações de estanho e outros eletrólitos. A água permanece a uma temperatura constante de 19°C, mas pode ser aquecida ou resfriada quando transferida para outro recipiente."
+      th: "น้ำใน SCP-109 มีสีฟ้าอมเทาจางๆ มีความเข้มข้นของดีบุกและอิเล็กโทรไลต์อื่นๆ น้ำนี้จะคงอุณหภูมิที่ 19°C อยู่เสมอ แต่สามารถทำให้ร้อนหรือเย็นลงได้เมื่อย้ายไปยังภาชนะอื่น"
+      uk: "Вода в SCP-109 має легкий синьо-сірий відтінок, з концентраціями олова та інших електролітів. Вода залишається при постійній температурі 19°C, але може бути нагріта чи охолоджена після переливання в іншу ємність."
+      vi: "Nước trong SCP-109 có sắc xanh xám nhạt, với nồng độ thiếc và các chất điện giải khác. Nước duy trì ở nhiệt độ không đổi 19°C nhưng có thể được làm nóng hoặc làm lạnh khi chuyển sang vật chứa khác."
+      zh: "SCP-109中的水呈淡蓝灰色，含有锡及其他电解质成分。水温始终恒定在19°C，但转移到其他容器后可被加热或冷却。"
+      zh_Hant: "SCP-109中的水呈淡藍灰色，含有錫及其他電解質成分。水溫始終恆定在19°C，但轉移到其他容器後可被加熱或冷卻。"
+
+addendum:
+  ja: "補遺：新任のD級職員は、しばしばこの水筒を空にしてみろとけしかけられる。警備員各位に念のため申し添えるが、SCP-109は底なしである——「一気！一気！」と連呼するのはプロらしくない行為とみなされる。——クライン博士"
+  en: "Addendum: New D-Class personnel are often dared to empty the bottle. Guards are reminded that SCP-109 is bottomless — chanting 'Chug!' repeatedly is considered unprofessional. — Dr. Klein"
+  cs: "Dodatek: Nový personál třídy D bývá často pokoušen vyprázdnit láhev. Strážní jsou upozorňováni, že SCP-109 je bezedné – opakované skandování „Chlastej!“ je považováno za neprofesionální. — Dr. Klein"
+  de: "Anhang: Neuen D-Klasse-Mitarbeitern wird oft die Wette angeboten, die Flasche zu leeren. Die Wachen werden daran erinnert, dass SCP-109 bodenlos ist – wiederholtes Rufen von „Kippen!“ gilt als unprofessionell. — Dr. Klein"
+  es: "Adenda: Al nuevo personal de Clase D a menudo se le reta a vaciar la botella. Se recuerda a los guardias que el SCP-109 no tiene fondo; corear 'Bebe' repetidamente se considera poco profesional. — Dr. Klein"
+  fr: "Addendum : Le nouveau personnel de Classe D est souvent mis au défi de vider la bouteille. Il est rappelé aux gardes que le SCP-109 est sans fond — scander « Cul sec ! » à répétition est considéré comme non professionnel. — Dr Klein"
+  it: "Addendum: Al nuovo personale di Classe D viene spesso proposta la sfida di svuotare la borraccia. Le guardie sono avvisate che SCP-109 non ha fondo — scandire ripetutamente 'Bevi!' è considerato poco professionale. — Dott. Klein"
+  ko: "부록: 신입 D계급 요원들은 종종 병을 비워보라는 도전을 받는다. 경비원들에게 다시 한번 알린다. SCP-109는 바닥이 없다 — '원샷!'을 반복해서 외치는 것은 비전문적인 행동으로 간주된다. — 클라인 박사"
+  pl: "Aneks: Nowy personel klasy D jest często namawiany do opróżnienia butelki. Strażnicy są przypominani, że SCP-109 jest bez dna — wielokrotne skandowanie „Pij!” jest uważane za nieprofesjonalne. — dr Klein"
+  pt: "Adendo: Novos funcionários de Classe D são frequentemente desafiados a esvaziar a garrafa. Os guardas são lembrados de que o SCP-109 não tem fundo — cantar 'Vira!' repetidamente é considerado antiprofissional. — Dr. Klein"
+  th: "ภาคผนวก: เจ้าหน้าที่ระดับ D คนใหม่มักถูกท้าทายให้ดื่มน้ำในขวดจนหมด ขอเตือนเจ้าหน้าที่รักษาความปลอดภัยว่า SCP-109 ไม่มีก้นขวด — การตะโกน 'ดื่มรวด!' ซ้ำๆ ถือเป็นการกระทำที่ไม่เป็นมืออาชีพ — ดร. ไคลน์"
+  uk: "Додаток: Новий персонал класу D часто закликають випити пляшку до дна. Охоронцям нагадують, що SCP-109 не має дна — повторне скандування «Пий!» вважається непрофесійним. — д-р Кляйн"
+  vi: "Phụ lục: Nhân viên Cấp D mới thường bị thách đố uống cạn chai. Xin nhắc nhở lính gác rằng SCP-109 không có đáy — việc liên tục hô 'Uống cạn!' bị coi là thiếu chuyên nghiệp. — Tiến sĩ Klein"
+  zh: "补遗：新入职的D级人员常被怂恿去把这个瓶子喝空。提醒各位警卫，SCP-109是无底的——反复高呼「干杯！」被视为不够专业的行为。——克莱因博士"
+  zh_Hant: "補遺：新入職的D級人員常被慫恿去把這個瓶子喝空。提醒各位警衛，SCP-109是無底的——反覆高呼「乾杯！」被視為不夠專業的行為。——克萊因博士"

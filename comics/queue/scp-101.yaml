@@ -1,0 +1,139 @@
+# SCP-101 4コマ台本
+# captionはDescription本文からの引用。1979年発見時の白骨遺体・咬み跡の逸話
+# （D.B.クーパー説を含む）は一切使用しない。キャラにセリフは言わせない。
+
+id: scp-101
+
+title:
+  en: "SCP-101"
+  ja: "SCP-101"
+  cs: "SCP-101"
+  de: "SCP-101"
+  es: "SCP-101"
+  fr: "SCP-101"
+  it: "SCP-101"
+  ko: "SCP-101"
+  pl: "SCP-101"
+  pt: "SCP-101"
+  th: "SCP-101"
+  uk: "SCP-101"
+  vi: "SCP-101"
+  zh: "SCP-101"
+  zh_Hant: "SCP-101"
+
+attribution:
+  article: "SCP-101"
+  source_url: "http://scp-wiki.wikidot.com/scp-101"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-101:
+    name: "SCP-101"
+    description: >
+      A satchel-like bag with a wide opening, its interior lined with a
+      wet, spongy, semi-humanoid mouth ringed with thirty-two identical
+      off-white incisor-like teeth (pale ivory, color RGB 235,230,210);
+      the bag's exterior fabric is a nondescript weathered canvas brown
+      (color RGB 110,90,60).
+
+characters: [scp-101, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Close-up, on the open bag resting on a table in the reinforced
+      holding room, its interior lined with rows of identical off-white
+      teeth visible just inside the opening. attending-researcher-m
+      examines it from a cautious distance with a long measuring rod,
+      not touching it directly.
+    characters: [scp-101, attending-researcher-m]
+    caption:
+      ja: "SCP-101は、大きさが一定しない鞄あるいはバッグのような姿をしている。SCP-101の主な特徴は、バッグの開口部内に存在する半人型の口である。その口には、すべて同じ形と大きさをした、長さ約10センチメートルの門歯のみからなる32本のオフホワイト色の歯がある。"
+      en: "SCP-101 appears as a satchel or bag of intermittent size. The primary feature of SCP-101 is what appears to be a semi-humanoid mouth contained within the opening of the bag. The mouth consists of thirty-two teeth of an off-white hue, all of equal shape and size, consisting solely of incisors of approximately ten centimeters in length."
+      cs: "SCP-101 vypadá jako brašna nebo taška proměnlivé velikosti. Hlavním rysem SCP-101 je něco, co vypadá jako polohumanoidní ústa obsažená v otvoru tašky. Ústa se skládají z třiceti dvou zubů bělavého odstínu, všechny stejného tvaru a velikosti, tvořené výhradně řezáky o délce přibližně deset centimetrů."
+      de: "SCP-101 erscheint als Umhängetasche oder Beutel unterschiedlicher Größe. Das Hauptmerkmal von SCP-101 ist ein anscheinend halb-humanoider Mund innerhalb der Öffnung der Tasche. Der Mund besteht aus zweiunddreißig Zähnen von cremeweißer Farbe, alle von gleicher Form und Größe, ausschließlich Schneidezähne von etwa zehn Zentimetern Länge."
+      es: "SCP-101 se presenta como una bolsa o zurrón de tamaño intermitente. La característica principal del SCP-101 es lo que parece ser una boca semihumanoide contenida dentro de la abertura de la bolsa. La boca consta de treinta y dos dientes de tono blanquecino, todos de igual forma y tamaño, compuestos únicamente por incisivos de unos diez centímetros de longitud."
+      fr: "Le SCP-101 se présente comme une sacoche ou un sac de taille variable. La caractéristique principale du SCP-101 est ce qui semble être une bouche semi-humanoïde contenue dans l'ouverture du sac. La bouche est composée de trente-deux dents de teinte blanc cassé, toutes de forme et de taille égales, constituées uniquement d'incisives d'environ dix centimètres de long."
+      it: "SCP-101 si presenta come una bisaccia o borsa di dimensioni intermittenti. La caratteristica principale di SCP-101 è ciò che sembra essere una bocca semi-umanoide contenuta nell'apertura della borsa. La bocca è composta da trentadue denti di tonalità bianco sporco, tutti di forma e dimensione uguali, costituiti esclusivamente da incisivi di circa dieci centimetri di lunghezza."
+      ko: "SCP-101은 크기가 일정하지 않은 손가방 또는 자루의 모습으로 나타난다. SCP-101의 주요 특징은 가방의 입구 안쪽에 있는 반인간형 입처럼 보이는 부분이다. 이 입은 모두 동일한 형태와 크기의, 길이 약 10센티미터의 앞니로만 이루어진 32개의 아이보리색 이빨로 구성되어 있다."
+      pl: "SCP-101 wygląda jak torba lub sakwa o zmiennym rozmiarze. Główną cechą SCP-101 jest to, co wygląda jak na wpół humanoidalne usta znajdujące się w otworze torby. Usta składają się z trzydziestu dwóch zębów w odcieniu złamanej bieli, wszystkich o tym samym kształcie i rozmiarze, złożonych wyłącznie z siekaczy o długości około dziesięciu centymetrów."
+      pt: "O SCP-101 aparece como uma bolsa ou sacola de tamanho intermitente. A principal característica do SCP-101 é o que parece ser uma boca semi-humanoide contida na abertura da bolsa. A boca consiste em trinta e dois dentes de tom esbranquiçado, todos de forma e tamanho iguais, compostos apenas por incisivos de aproximadamente dez centímetros de comprimento."
+      th: "SCP-101 มีลักษณะเป็นกระเป๋าสะพายหรือถุงที่มีขนาดไม่แน่นอน คุณลักษณะหลักของ SCP-101 คือสิ่งที่ดูเหมือนปากกึ่งมนุษย์ที่อยู่ภายในช่องเปิดของกระเป๋า ปากนี้ประกอบด้วยฟันสีขาวนวลจำนวนสามสิบสองซี่ ทุกซี่มีรูปร่างและขนาดเท่ากัน เป็นฟันตัดล้วนๆ ยาวประมาณสิบเซนติเมตร"
+      uk: "SCP-101 виглядає як сумка або мішок непостійного розміру. Основною особливістю SCP-101 є те, що виглядає як напівгуманоїдний рот, розташований в отворі сумки. Рот складається з тридцяти двох зубів білуватого відтінку, всі однакової форми та розміру, що складаються виключно з різців довжиною близько десяти сантиметрів."
+      vi: "SCP-101 xuất hiện dưới dạng một chiếc túi xách hoặc bao có kích thước không cố định. Đặc điểm chính của SCP-101 là thứ trông giống như một cái miệng bán nhân dạng nằm trong phần miệng túi. Miệng này gồm ba mươi hai chiếc răng màu trắng ngà, tất cả đều có hình dạng và kích thước giống nhau, chỉ gồm các răng cửa dài khoảng mười centimet."
+      zh: "SCP-101外观是一个大小不定的手提袋或背包。SCP-101的主要特征是袋子开口内一个类似半人形嘴巴的构造。这张嘴由三十二颗形状大小完全相同、呈米白色的牙齿组成，全部为长约十厘米的门齿。"
+      zh_Hant: "SCP-101外觀是一個大小不定的手提袋或背包。SCP-101的主要特徵是袋子開口內一個類似半人形嘴巴的構造。這張嘴由三十二顆形狀大小完全相同、呈米白色的牙齒組成，全部為長約十公分的門齒。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the close-up
+      before. attending-researcher-f holds a measuring tape at the
+      bag's opening, her expression puzzled as the tape disappears deep
+      inside without reaching bottom, a long pale tongue barely visible
+      curling within the depths.
+    characters: [scp-101, attending-researcher-f]
+    caption:
+      ja: "この容器の深さは、開口部の直径との間に標準的な相関関係を持たずに変動する。口の中には長さの定まらない舌が存在することが観察されている。現在の見解では、SCP-101は次元外起源を持つより大きな実体の一部である可能性があるとされている。"
+      en: "The depth of the container has varied with no standard mean of equality to the relative diameter. It has been observed that within the mouth there is a tongue of indeterminate length. The current understanding is that SCP-101 may be part of a larger entity of extra-dimensional origin."
+      cs: "Hloubka nádoby se lišila, aniž by měla standardní úměru k relativnímu průměru. Bylo pozorováno, že v ústech se nachází jazyk neurčité délky. Současné chápání je, že SCP-101 může být součástí větší entity mimodimenzionálního původu."
+      de: "Die Tiefe des Behälters variierte ohne standardmäßige Übereinstimmung mit dem relativen Durchmesser. Es wurde beobachtet, dass sich im Mund eine Zunge von unbestimmter Länge befindet. Nach derzeitigem Verständnis könnte SCP-101 Teil einer größeren Entität außerdimensionalen Ursprungs sein."
+      es: "La profundidad del contenedor ha variado sin una relación estándar con el diámetro relativo. Se ha observado que dentro de la boca hay una lengua de longitud indeterminada. La comprensión actual es que el SCP-101 podría ser parte de una entidad más grande de origen extradimensional."
+      fr: "La profondeur du contenant a varié sans corrélation standard avec le diamètre relatif. Il a été observé qu'à l'intérieur de la bouche se trouve une langue de longueur indéterminée. La compréhension actuelle est que le SCP-101 pourrait faire partie d'une entité plus vaste d'origine extradimensionnelle."
+      it: "La profondità del contenitore è variata senza alcuna correlazione standard con il diametro relativo. È stato osservato che all'interno della bocca c'è una lingua di lunghezza indeterminata. La comprensione attuale è che SCP-101 possa far parte di un'entità più grande di origine extra-dimensionale."
+      ko: "이 용기의 깊이는 상대적 지름과 표준적인 상관관계 없이 변화해 왔다. 입 안에는 길이가 일정하지 않은 혀가 존재하는 것으로 관찰되었다. 현재의 견해로는 SCP-101이 차원 외 기원을 가진 더 큰 개체의 일부일 수 있다고 본다."
+      pl: "Głębokość pojemnika zmieniała się bez standardowej zgodności ze względnym rozmiarem otworu. Zaobserwowano, że wewnątrz ust znajduje się język o nieokreślonej długości. Obecne rozumienie zakłada, że SCP-101 może być częścią większej istoty pochodzenia pozawymiarowego."
+      pt: "A profundidade do recipiente variou sem uma relação padrão com o diâmetro relativo. Observou-se que dentro da boca há uma língua de comprimento indeterminado. O entendimento atual é que o SCP-101 pode ser parte de uma entidade maior de origem extradimensional."
+      th: "ความลึกของภาชนะมีความแปรผันโดยไม่มีความสัมพันธ์มาตรฐานกับเส้นผ่านศูนย์กลางสัมพัทธ์ มีการสังเกตว่าภายในปากมีลิ้นที่มีความยาวไม่แน่นอน ความเข้าใจในปัจจุบันคือ SCP-101 อาจเป็นส่วนหนึ่งของสิ่งมีชีวิตขนาดใหญ่กว่าที่มีต้นกำเนิดจากมิติอื่น"
+      uk: "Глибина контейнера змінювалася без стандартної відповідності відносному діаметру. Спостерігалося, що всередині рота є язик невизначеної довжини. Наразі вважається, що SCP-101 може бути частиною більшої сутності позавимірного походження."
+      vi: "Độ sâu của vật chứa đã thay đổi mà không có mối tương quan chuẩn nào với đường kính tương đối. Người ta quan sát thấy bên trong miệng có một chiếc lưỡi với độ dài không xác định. Hiểu biết hiện tại là SCP-101 có thể là một phần của một thực thể lớn hơn có nguồn gốc ngoại chiều."
+      zh: "该容器的深度变化多端，与其相对直径之间并无固定的比例关系。据观察，嘴内还存在一条长度不定的舌头。目前的看法是，SCP-101可能是某个源自异次元的更庞大实体的一部分。"
+      zh_Hant: "該容器的深度變化多端，與其相對直徑之間並無固定的比例關係。據觀察，嘴內還存在一條長度不定的舌頭。目前的看法是，SCP-101可能是某個源自異次元的更龐大實體的一部分。"
+
+  - scene: >
+      Wide shot, full body, a different framing from the medium shot
+      before, showing a table with several ordinary-looking containers
+      lined up side by side — a money satchel, a deli takeout box, a
+      pastry box, a candy bag. attending-researcher-m and
+      attending-researcher-f both study them intently with clipboards,
+      unable to tell which one is actually SCP-101.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "SCP-101は多形性の能力を示しており、外見や形状を変化させる。その姿は現金入れの鞄から、デリ用の箱、クリスピー・クリームの容器、キャンディーの袋まで多岐にわたり、いずれも本物の容器と外見上区別がつかない。"
+      en: "SCP-101 has exhibited polymorphic abilities, changing appearance and shape. These appearances have ranged from money satchels, to deli boxes, to Krispy Kreme containers, to candy bags, all of which have an external appearance indistinguishable from real containers."
+      cs: "SCP-101 vykazuje polymorfní schopnosti, mění vzhled a tvar. Tyto podoby sahaly od tašek na peníze přes krabice z delikatesy až po nádoby Krispy Kreme a sáčky s cukrovinkami, přičemž všechny mají vnějším vzhledem k nerozeznání od skutečných nádob."
+      de: "SCP-101 hat polymorphe Fähigkeiten gezeigt und dabei Aussehen und Form verändert. Diese Erscheinungsformen reichten von Geldtaschen über Delikatessenboxen und Krispy-Kreme-Behälter bis hin zu Süßigkeitstüten, wobei alle ein äußeres Erscheinungsbild aufwiesen, das von echten Behältern nicht zu unterscheiden war."
+      es: "El SCP-101 ha exhibido habilidades polimórficas, cambiando de apariencia y forma. Estas apariencias han variado desde bolsas de dinero hasta cajas de delicatessen, envases de Krispy Kreme y bolsas de dulces, todas con una apariencia externa indistinguible de la de los contenedores reales."
+      fr: "Le SCP-101 a manifesté des capacités polymorphes, changeant d'apparence et de forme. Ces apparences ont varié entre des sacoches d'argent, des boîtes de traiteur, des boîtes Krispy Kreme et des sacs de bonbons, toutes présentant un aspect extérieur indiscernable de véritables contenants."
+      it: "SCP-101 ha mostrato capacità polimorfiche, cambiando aspetto e forma. Queste apparenze sono spaziate da borse per il denaro a scatole da gastronomia, a contenitori Krispy Kreme, a sacchetti di caramelle, tutti con un aspetto esterno indistinguibile da quello di contenitori reali."
+      ko: "SCP-101은 다형적 능력을 보여주며, 외형과 모양을 변화시켜 왔다. 그 모습은 현금 자루에서부터 델리 상자, 크리스피 크림 용기, 사탕 봉지에 이르기까지 다양했으며, 모두 실제 용기와 외견상 구별되지 않았다."
+      pl: "SCP-101 wykazuje zdolności polimorficzne, zmieniając wygląd i kształt. Te postacie obejmowały torby na pieniądze, pudełka delikatesowe, pojemniki Krispy Kreme oraz torebki na słodycze, przy czym wszystkie miały zewnętrzny wygląd nieodróżnialny od prawdziwych pojemników."
+      pt: "O SCP-101 exibiu habilidades polimórficas, mudando de aparência e forma. Essas aparências variaram entre bolsas de dinheiro, caixas de delicatessen, embalagens da Krispy Kreme e sacolas de doces, todas com uma aparência externa indistinguível de recipientes reais."
+      th: "SCP-101 แสดงความสามารถในการแปลงรูปร่าง โดยเปลี่ยนรูปลักษณ์และรูปทรง รูปลักษณ์เหล่านี้มีตั้งแต่กระเป๋าใส่เงิน กล่องเดลี ภาชนะ Krispy Kreme ไปจนถึงถุงลูกอม ซึ่งทั้งหมดมีรูปลักษณ์ภายนอกที่แยกไม่ออกจากภาชนะของจริง"
+      uk: "SCP-101 демонстрував поліморфні здібності, змінюючи зовнішній вигляд і форму. Ці форми варіювалися від грошових сумок до коробок делікатесів, контейнерів Krispy Kreme та пакетів з цукерками, і всі вони мали зовнішній вигляд, невідрізненний від справжніх контейнерів."
+      vi: "SCP-101 đã thể hiện khả năng biến hình, thay đổi hình dạng và kiểu dáng bên ngoài. Những hình dạng này bao gồm túi đựng tiền, hộp đồ ăn, hộp bánh Krispy Kreme, cho đến túi kẹo, tất cả đều có vẻ ngoài không thể phân biệt được với các vật chứa thật."
+      zh: "SCP-101曾展现出多形态变化能力，能改变外观和形状。这些外观包括现金袋、熟食盒、Krispy Kreme甜甜圈容器以及糖果袋等，外观上均与真实容器无法区分。"
+      zh_Hant: "SCP-101曾展現出多形態變化能力，能改變外觀和形狀。這些外觀包括現金袋、熟食盒、Krispy Kreme甜甜圈容器以及糖果袋等，外觀上均與真實容器無法區分。"
+
+  - scene: >
+      Wide shot, low angle, a different framing from the wide shot
+      before, showing SCP-101 positioned in the corner of a break room
+      like an ordinary trash bin. attending-researcher-f, off duty and
+      unconcerned, casually tosses a crumpled paper cup into its open
+      mouth as she walks past.
+    characters: [scp-101, attending-researcher-f]
+    caption:
+      ja: "SCP-101は現在、サイト19の廃棄物処理手段として使用されている。SCP-101は、紙製品・下水・食堂の残飯・金属・高分子・油といった異物を投入されても、これまで有害な反応を示していない。"
+      en: "SCP-101 is currently in use as a means of refuse disposal for Site-19. SCP-101 has not shown adverse reaction to having foreign matter introduced to it, including paper products, sewage, cafeteria refuse, metals, polymers, oils, and other products."
+      cs: "SCP-101 je v současnosti využíváno jako prostředek pro likvidaci odpadu na Site-19. SCP-101 nevykazovalo žádnou nepříznivou reakci na vkládání cizorodých látek, včetně papírových produktů, splašků, jídelního odpadu, kovů, polymerů, olejů a dalších produktů."
+      de: "SCP-101 wird derzeit als Mittel zur Abfallentsorgung für Site-19 verwendet. SCP-101 hat keine nachteilige Reaktion gezeigt, wenn ihm Fremdmaterial zugeführt wurde, einschließlich Papierprodukte, Abwasser, Kantinenabfälle, Metalle, Polymere, Öle und andere Produkte."
+      es: "El SCP-101 se utiliza actualmente como medio de eliminación de residuos para el Sitio-19. El SCP-101 no ha mostrado reacción adversa al introducirle materia extraña, incluyendo productos de papel, aguas residuales, desechos de cafetería, metales, polímeros, aceites y otros productos."
+      fr: "Le SCP-101 est actuellement utilisé comme moyen d'élimination des déchets pour le Site-19. Le SCP-101 n'a montré aucune réaction indésirable à l'introduction de matières étrangères, y compris des produits en papier, des eaux usées, des déchets de cafétéria, des métaux, des polymères, des huiles et d'autres produits."
+      it: "SCP-101 è attualmente utilizzato come mezzo di smaltimento dei rifiuti per il Sito-19. SCP-101 non ha mostrato reazioni avverse all'introduzione di materiale estraneo, inclusi prodotti di carta, liquami, rifiuti di mensa, metalli, polimeri, oli e altri prodotti."
+      ko: "SCP-101은 현재 사이트-19의 폐기물 처리 수단으로 사용되고 있다. SCP-101은 종이 제품, 오수, 구내식당 쓰레기, 금속, 폴리머, 기름, 기타 여러 물질 등 이물질을 투입해도 아무런 부작용을 보이지 않았다."
+      pl: "SCP-101 jest obecnie wykorzystywane jako środek utylizacji odpadów dla Site-19. SCP-101 nie wykazało negatywnej reakcji na wprowadzenie do niego obcej materii, w tym produktów papierowych, ścieków, odpadów stołówkowych, metali, polimerów, olejów i innych produktów."
+      pt: "O SCP-101 está atualmente em uso como meio de descarte de resíduos para o Site-19. O SCP-101 não mostrou reação adversa a ter matéria estranha introduzida nele, incluindo produtos de papel, esgoto, resíduos de refeitório, metais, polímeros, óleos e outros produtos."
+      th: "SCP-101 ปัจจุบันถูกใช้เป็นวิธีการกำจัดขยะสำหรับไซต์-19 SCP-101 ไม่แสดงปฏิกิริยาไม่พึงประสงค์เมื่อมีการนำสิ่งแปลกปลอมใส่เข้าไป รวมถึงผลิตภัณฑ์กระดาษ สิ่งปฏิกูล เศษอาหารจากโรงอาหาร โลหะ พอลิเมอร์ น้ำมัน และผลิตภัณฑ์อื่นๆ"
+      uk: "SCP-101 наразі використовується як засіб утилізації відходів для Об'єкта-19. SCP-101 не виявляв негативної реакції на введення сторонньої речовини, включно з паперовими виробами, стічними водами, харчовими відходами їдальні, металами, полімерами, оливами та іншими продуктами."
+      vi: "SCP-101 hiện đang được sử dụng như một phương tiện xử lý rác thải cho Site-19. SCP-101 chưa cho thấy phản ứng bất lợi nào khi có vật chất lạ được đưa vào, bao gồm sản phẩm giấy, nước thải, rác thải căng-tin, kim loại, polyme, dầu, và các sản phẩm khác."
+      zh: "SCP-101目前被用作19号站点的垃圾处理手段。SCP-101在被投入异物时未表现出不良反应，这些异物包括纸制品、污水、食堂垃圾、金属、聚合物、油类及其他产品。"
+      zh_Hant: "SCP-101目前被用作19號站點的垃圾處理手段。SCP-101在被投入異物時未表現出不良反應，這些異物包括紙製品、污水、食堂垃圾、金屬、聚合物、油類及其他產品。"

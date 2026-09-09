@@ -1,0 +1,141 @@
+# SCP-054 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 「男性職員2名が負傷した事件」の詳細とAudio Journal 054-A（電気ショック等の
+# 実験記録）はグロ・不適切描写回避のため本編に含めない。キャラにセリフは
+# 言わせない。JP公式訳が直接取得できなかったため、検証済みの英語本文からの
+# 翻訳（ja含む）。
+
+id: scp-054
+
+title:
+  en: "SCP-054"
+  ja: "SCP-054"
+  cs: "SCP-054"
+  de: "SCP-054"
+  es: "SCP-054"
+  fr: "SCP-054"
+  it: "SCP-054"
+  ko: "SCP-054"
+  pl: "SCP-054"
+  pt: "SCP-054"
+  th: "SCP-054"
+  uk: "SCP-054"
+  vi: "SCP-054"
+  zh: "SCP-054"
+  zh_Hant: "SCP-054"
+
+attribution:
+  article: "SCP-054"
+  source_url: "http://scp-wiki.wikidot.com/scp-054"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-054:
+    name: SCP-054
+    description: >
+      A humanoid figure formed entirely of clear, faintly blue-tinted
+      water (color RGB 150,200,220, translucent), roughly life-sized,
+      featureless smooth surface but shaped like a woman, constantly
+      rippling and glistening, holding its form with a fluid, graceful
+      posture.
+
+characters: [scp-054, attending-researcher-f, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing scp-054 standing beside
+      an ornate stone fountain in a watertight isolation room, her
+      watery form catching the light, one hand casually resting on the
+      fountain's rim.
+    characters: [scp-054]
+    caption:
+      ja: "水から出ている時、対象はほとんどの場合、完全に水でできた女性型の人型として現れる。水域に入ると、周囲と見分けがつかなくなる。"
+      en: "Out of the water, the subject most often appears as a female humanoid comprised entirely of water. When it enters a body of water, it becomes indistinguishable from its surroundings."
+      cs: "Mimo vodu se subjekt nejčastěji jeví jako ženský humanoid tvořený zcela vodou. Když vstoupí do vodní plochy, stane se nerozeznatelným od svého okolí."
+      de: "Außerhalb des Wassers erscheint das Subjekt meist als weibliche Humanoidgestalt, die vollständig aus Wasser besteht. Wenn es in ein Gewässer eintritt, wird es von seiner Umgebung ununterscheidbar."
+      es: "Fuera del agua, el sujeto suele aparecer como un humanoide femenino compuesto enteramente de agua. Cuando entra en un cuerpo de agua, se vuelve indistinguible de su entorno."
+      fr: "Hors de l'eau, le sujet apparaît le plus souvent comme un humanoïde féminin entièrement composé d'eau. Lorsqu'il pénètre dans un plan d'eau, il devient indiscernable de son environnement."
+      it: "Fuori dall'acqua, il soggetto appare il più delle volte come un umanoide femminile interamente composto di acqua. Quando entra in un corpo d'acqua, diventa indistinguibile dall'ambiente circostante."
+      ko: "물 밖에 있을 때 대상은 대부분 전적으로 물로 이루어진 여성형 인간형으로 나타난다. 물 속으로 들어가면 주변과 구별할 수 없게 된다."
+      pl: "Poza wodą osobnik najczęściej przybiera postać żeńskiego humanoida złożonego w całości z wody. Gdy wchodzi do zbiornika wodnego, staje się nieodróżnialny od otoczenia."
+      pt: "Fora da água, o sujeito geralmente aparece como um humanoide feminino composto inteiramente de água. Quando entra em um corpo d'água, torna-se indistinguível de seu ambiente."
+      th: "เมื่ออยู่นอกน้ำ ผู้ถูกทดสอบมักปรากฏเป็นรูปร่างคล้ายมนุษย์เพศหญิงที่ประกอบด้วยน้ำทั้งหมด เมื่อเข้าสู่แหล่งน้ำ มันจะกลมกลืนจนแยกไม่ออกจากสภาพแวดล้อม"
+      uk: "Поза водою суб'єкт найчастіше має вигляд жіночого гуманоїда, повністю складеного з води. Коли він потрапляє у водойму, стає невідрізнимим від оточення."
+      vi: "Khi ở ngoài nước, đối tượng thường xuất hiện dưới dạng một hình người nữ được tạo hoàn toàn từ nước. Khi đi vào một khối nước, nó trở nên không thể phân biệt được với môi trường xung quanh."
+      zh: "在水外时，该对象通常呈现为完全由水构成的女性人形。当它进入水体后，会与周围环境融为一体，难以分辨。"
+      zh_Hant: "在水外時，該對象通常呈現為完全由水構成的女性人形。當牠進入水體後，會與周圍環境融為一體，難以分辨。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the
+      wide shot before. attending-researcher-f stands with arms crossed
+      in a playful pose, and beside her scp-054 mimics the exact same
+      pose, her rippling form comically copying the researcher's stance,
+      both facing each other like a mirror.
+    characters: [attending-researcher-f, scp-054]
+    caption:
+      ja: "対象は当初、財団職員に対して好奇心を示し、整備員や研究員と交流したり、彼らの姿を模倣したりすることを楽しんでいるようだった。"
+      en: "Subject was initially curious about Foundation personnel and seemed to enjoy interacting with maintenance staff and researchers, and mimicking their forms."
+      cs: "Subjekt byl zpočátku zvědavý na personál Nadace a zdálo se, že si užívá interakci s údržbovým personálem a výzkumníky a napodobování jejich podob."
+      de: "Das Subjekt war zunächst neugierig auf das Stiftungspersonal und schien es zu genießen, mit Wartungspersonal und Forschern zu interagieren und deren Formen nachzuahmen."
+      es: "El sujeto se mostró inicialmente curioso con el personal de la Fundación y parecía disfrutar interactuando con el personal de mantenimiento y los investigadores, imitando sus formas."
+      fr: "Le sujet s'est initialement montré curieux à l'égard du personnel de la Fondation et semblait apprécier d'interagir avec le personnel d'entretien et les chercheurs, en imitant leurs formes."
+      it: "Il soggetto si è inizialmente mostrato curioso nei confronti del personale della Fondazione e sembrava apprezzare l'interazione con il personale di manutenzione e i ricercatori, imitandone le forme."
+      ko: "대상은 초기에 재단 직원들에게 호기심을 보였으며, 정비 직원 및 연구원들과 교류하고 그들의 모습을 흉내 내는 것을 즐기는 듯했다."
+      pl: "Osobnik początkowo był ciekawy pracowników Fundacji i zdawał się cieszyć interakcją z personelem konserwacyjnym i badaczami, naśladując ich kształty."
+      pt: "O sujeito inicialmente mostrou curiosidade pelo pessoal da Fundação e parecia gostar de interagir com a equipe de manutenção e pesquisadores, imitando suas formas."
+      th: "ในตอนแรกผู้ถูกทดสอบแสดงความอยากรู้อยากเห็นเกี่ยวกับเจ้าหน้าที่ของมูลนิธิ และดูเหมือนจะสนุกกับการมีปฏิสัมพันธ์กับเจ้าหน้าที่ซ่อมบำรุงและนักวิจัย รวมถึงเลียนแบบรูปร่างของพวกเขา"
+      uk: "Спочатку суб'єкт виявляв цікавість до персоналу Фонду і, здавалося, отримував задоволення від взаємодії з обслуговуючим персоналом і дослідниками, наслідуючи їхні форми."
+      vi: "Đối tượng ban đầu tỏ ra tò mò về nhân viên của Quỹ và có vẻ thích thú tương tác với nhân viên bảo trì và các nhà nghiên cứu, bắt chước hình dạng của họ."
+      zh: "该对象最初对基金会人员表现出好奇，似乎很享受与维护人员和研究人员的互动，并模仿他们的形态。"
+      zh_Hant: "該對象最初對基金會人員表現出好奇，似乎很享受與維護人員和研究人員的互動，並模仿他們的形態。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole
+      containment chamber, a very different framing from the tight
+      mimicry shot before. The ornate fountain dominates the center of
+      the room, water gently cascading, scp-054 partially submerged and
+      blending seamlessly into the fountain's water, barely visible.
+    characters: [scp-054]
+    caption:
+      ja: "水を満たした装飾的な噴水が収容室の中央に設置されている。SCP-054は水質条件に非常に敏感なため、湧き水を使用すること。"
+      en: "An ornate fountain filled with water stands at the center of the enclosure. Spring water should be used, as SCP-054 is highly sensitive to hydrological conditions."
+      cs: "Uprostřed uzavřeného prostoru stojí zdobená fontána naplněná vodou. Měla by být použita pramenitá voda, jelikož SCP-054 je vysoce citlivé na hydrologické podmínky."
+      de: "In der Mitte des Geheges steht ein kunstvoll verzierter, mit Wasser gefüllter Brunnen. Es sollte Quellwasser verwendet werden, da SCP-054 sehr empfindlich auf hydrologische Bedingungen reagiert."
+      es: "En el centro del recinto hay una fuente ornamentada llena de agua. Se debe usar agua de manantial, ya que SCP-054 es muy sensible a las condiciones hidrológicas."
+      fr: "Une fontaine ornée remplie d'eau se trouve au centre de l'enclos. De l'eau de source doit être utilisée, car le SCP-054 est très sensible aux conditions hydrologiques."
+      it: "Al centro del recinto si trova una fontana ornata piena d'acqua. Dovrebbe essere utilizzata acqua di sorgente, poiché SCP-054 è altamente sensibile alle condizioni idrologiche."
+      ko: "울타리 중앙에는 물이 채워진 화려한 분수가 있다. SCP-054는 수문학적 조건에 매우 민감하므로 샘물을 사용해야 한다."
+      pl: "Pośrodku wybiegu znajduje się ozdobna fontanna wypełniona wodą. Należy używać wody źródlanej, ponieważ SCP-054 jest bardzo wrażliwe na warunki hydrologiczne."
+      pt: "Uma fonte ornamentada cheia de água fica no centro do recinto. Deve-se usar água de nascente, pois o SCP-054 é altamente sensível a condições hidrológicas."
+      th: "น้ำพุที่ตกแต่งอย่างวิจิตรและเต็มไปด้วยน้ำตั้งอยู่กลางพื้นที่กักกัน ควรใช้น้ำพุธรรมชาติ เนื่องจาก SCP-054 มีความไวต่อสภาพอุทกวิทยาอย่างมาก"
+      uk: "У центрі вольєра стоїть оздоблений фонтан, наповнений водою. Слід використовувати джерельну воду, оскільки SCP-054 надзвичайно чутливий до гідрологічних умов."
+      vi: "Một đài phun nước trang trí công phu đầy nước đứng ở trung tâm khu vực nuôi giữ. Nên sử dụng nước suối, vì SCP-054 rất nhạy cảm với điều kiện thủy văn."
+      zh: "一座装饰华丽、注满水的喷泉矗立在收容区域中央。应使用泉水，因为SCP-054对水文条件高度敏感。"
+      zh_Hant: "一座裝飾華麗、注滿水的噴泉矗立在收容區域中央。應使用泉水，因為SCP-054對水文條件高度敏感。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the
+      wide fountain shot before. On the left side of the frame,
+      attending-researcher-m stands at the doorway in a bulky
+      containment suit, keeping his distance. On the right side of the
+      frame, scp-054 shrinks back slightly toward attending-researcher-f,
+      who stands closer and relaxed, one hand raised protectively.
+    characters: [attending-researcher-m, scp-054, attending-researcher-f]
+    caption:
+      ja: "SCP-054は収容期間中に人間の男性に対する不信感を抱くようになったため、女性職員の配置が推奨される。"
+      en: "SCP-054 has developed a mistrust for human males during its confinement; thus, assignment of female personnel is recommended."
+      cs: "SCP-054 si během svého uvěznění vytvořilo nedůvěru vůči lidským mužům; z tohoto důvodu se doporučuje přidělovat ženský personál."
+      de: "SCP-054 hat während seiner Gefangenschaft ein Misstrauen gegenüber menschlichen Männern entwickelt; daher wird der Einsatz weiblichen Personals empfohlen."
+      es: "SCP-054 ha desarrollado desconfianza hacia los hombres humanos durante su confinamiento; por lo tanto, se recomienda la asignación de personal femenino."
+      fr: "Le SCP-054 a développé une méfiance envers les hommes humains pendant son confinement ; il est donc recommandé d'affecter du personnel féminin."
+      it: "SCP-054 ha sviluppato diffidenza nei confronti degli uomini durante la sua prigionia; pertanto, si raccomanda l'assegnazione di personale femminile."
+      ko: "SCP-054는 수용 기간 동안 인간 남성에 대한 불신을 갖게 되었다; 따라서 여성 직원 배치가 권장된다."
+      pl: "SCP-054 podczas uwięzienia nabrało nieufności wobec mężczyzn; dlatego zaleca się przydzielanie personelu żeńskiego."
+      pt: "O SCP-054 desenvolveu desconfiança em relação aos homens durante seu confinamento; portanto, recomenda-se a designação de pessoal feminino."
+      th: "SCP-054 พัฒนาความไม่ไว้วางใจต่อมนุษย์เพศชายในระหว่างถูกกักกัน ดังนั้นจึงแนะนำให้มอบหมายเจ้าหน้าที่หญิง"
+      uk: "SCP-054 розвинув недовіру до чоловіків під час утримання; тому рекомендується призначати жіночий персонал."
+      vi: "SCP-054 đã phát triển sự nghi ngờ đối với đàn ông trong thời gian bị giam giữ; do đó, nên phân công nhân viên nữ."
+      zh: "SCP-054在收容期间对人类男性产生了不信任；因此建议指派女性人员。"
+      zh_Hant: "SCP-054在收容期間對人類男性產生了不信任；因此建議指派女性人員。"

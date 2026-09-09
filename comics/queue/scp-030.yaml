@@ -1,0 +1,141 @@
+# SCP-030 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 出自不明の「アルケミスト」との関連示唆やAddendum（実験ログ）は本編に
+# 混ぜない。キャラにセリフは言わせない。JP公式訳が直接取得できなかったため、
+# 検証済みの英語本文からの翻訳（ja含む）。
+
+id: scp-030
+
+title:
+  en: "SCP-030"
+  ja: "SCP-030"
+  cs: "SCP-030"
+  de: "SCP-030"
+  es: "SCP-030"
+  fr: "SCP-030"
+  it: "SCP-030"
+  ko: "SCP-030"
+  pl: "SCP-030"
+  pt: "SCP-030"
+  th: "SCP-030"
+  uk: "SCP-030"
+  vi: "SCP-030"
+  zh: "SCP-030"
+  zh_Hant: "SCP-030"
+
+attribution:
+  article: "SCP-030"
+  source_url: "http://scp-wiki.wikidot.com/scp-030"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-030:
+    name: SCP-030 ("Ariel")
+    description: >
+      A small hairless, genderless, uniformly gray-toned humanoid
+      figure, 71cm tall (about knee-height on an adult), smooth
+      featureless gray skin (color RGB 130,130,130), solid deep-blue
+      sapphire-like eyes with no visible iris or pupil, calm and
+      dignified bearing, dressed in a simple plain robe.
+
+characters: [scp-030, attending-researcher-f, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a modest humanoid
+      containment cell with a small scaled-down desk and chair sized for
+      a child. scp-030 sits upright at the desk, gray-skinned, sapphire
+      eyes catching the light, an old quill pen in hand.
+    characters: [scp-030]
+    caption:
+      ja: "SCP-030は身長71センチメートルの、無毛で性別のない、灰色がかった人間のような姿をしている。その青一色の瞳には識別可能な虹彩も瞳孔もなく、小さく研磨されたサファイアのようである。SCP-030は中性的な声を持ち、強い英国訛りで話す。"
+      en: "SCP-030 appears as a hairless, genderless, grey-toned human 71 centimeters in height. Its solid blue eyes lack discernible irises or pupils, and resemble small cut sapphires. SCP-030 possesses an androgynous voice with a pronounced English accent."
+      cs: "SCP-030 vypadá jako bezvlasý, beznpohlavní, šedě zbarvený člověk vysoký 71 centimetrů. Jeho jednolitě modré oči postrádají rozeznatelnou duhovku či zornici a připomínají malé broušené safíry. SCP-030 má androgynní hlas s výrazným anglickým přízvukem."
+      de: "SCP-030 erscheint als haarloser, geschlechtsloser, grau getönter Mensch von 71 Zentimetern Größe. Seine einheitlich blauen Augen weisen keine erkennbare Iris oder Pupille auf und ähneln kleinen geschliffenen Saphiren. SCP-030 besitzt eine androgyne Stimme mit ausgeprägtem englischen Akzent."
+      es: "SCP-030 se presenta como un ser humano sin cabello, sin género, de tono grisáceo, de 71 centímetros de altura. Sus ojos de un azul sólido carecen de iris o pupilas discernibles, y se asemejan a pequeños zafiros tallados. SCP-030 posee una voz andrógina con un marcado acento inglés."
+      fr: "Le SCP-030 se présente comme un humain sans cheveux, sans genre, de teinte grisâtre, mesurant 71 centimètres. Ses yeux d'un bleu uni sont dépourvus d'iris ou de pupille discernables et ressemblent à de petits saphirs taillés. Le SCP-030 possède une voix androgyne avec un accent anglais prononcé."
+      it: "SCP-030 si presenta come un essere umano senza capelli, senza genere, dal tono grigio, alto 71 centimetri. I suoi occhi di un blu uniforme sono privi di iride o pupilla distinguibili, e ricordano piccoli zaffiri tagliati. SCP-030 possiede una voce androgina con un marcato accento inglese."
+      ko: "SCP-030은 키 71센티미터의, 털이 없고 성별이 없으며 회색을 띤 인간 형태로 보인다. 그 짙푸른 눈에는 식별 가능한 홍채나 동공이 없으며, 작게 커팅된 사파이어처럼 보인다. SCP-030은 뚜렷한 영국식 억양을 지닌 중성적인 목소리를 가지고 있다."
+      pl: "SCP-030 wygląda jak bezwłosy, bezpłciowy, szaro zabarwiony człowiek o wysokości 71 centymetrów. Jego jednolicie niebieskie oczy pozbawione są rozpoznawalnej tęczówki czy źrenicy i przypominają małe oszlifowane szafiry. SCP-030 posiada androgyniczny głos z wyraźnym angielskim akcentem."
+      pt: "O SCP-030 aparece como um humano sem pelos, sem gênero, de tom acinzentado, com 71 centímetros de altura. Seus olhos de um azul sólido carecem de íris ou pupilas distinguíveis, e se assemelham a pequenas safiras lapidadas. O SCP-030 possui uma voz andrógina com um forte sotaque inglês."
+      th: "SCP-030 มีรูปลักษณ์เป็นมนุษย์ไร้ผมและไม่มีเพศ ผิวสีเทา สูง 71 เซนติเมตร ดวงตาสีฟ้าทึบไม่มีม่านตาหรือรูม่านตาที่ชัดเจน คล้ายกับไพลินเจียระไนเม็ดเล็ก SCP-030 มีเสียงพูดที่ไม่ระบุเพศชัดเจนพร้อมสำเนียงอังกฤษที่เด่นชัด"
+      uk: "SCP-030 виглядає як безволосий, безстатевий, сірувато-тонований людиноподібний, зростом 71 сантиметр. Його суцільно сині очі позбавлені помітної райдужки чи зіниці й нагадують маленькі огранені сапфіри. SCP-030 має андрогінний голос з вираженим англійським акцентом."
+      vi: "SCP-030 trông giống một con người không tóc, không giới tính, có sắc xám, cao 71 cm. Đôi mắt xanh đặc của nó không có tròng đen hay đồng tử rõ ràng, giống như những viên ngọc bích cắt nhỏ. SCP-030 có giọng nói trung tính với âm giọng Anh rõ rệt."
+      zh: "SCP-030外观呈现为一个无毛、无性别、灰色调的人形，身高71厘米。其纯蓝色的眼睛没有可辨的虹膜或瞳孔，形似小巧的切割蓝宝石。SCP-030拥有中性的嗓音，带有浓重的英国口音。"
+      zh_Hant: "SCP-030外觀呈現為一個無毛、無性別、灰色調的人形，身高71公分。其純藍色的眼睛沒有可辨的虹膜或瞳孔，形似小巧的切割藍寶石。SCP-030擁有中性的嗓音，帶有濃重的英國口音。"
+
+  - scene: >
+      Medium shot, waist-up, low angle, a different framing from the
+      wide establishing shot. On the left side of the frame,
+      attending-researcher-f reaches for a switch mounted beside the
+      cell's observation window. On the right side of the frame, seen
+      through the glass, scp-030 slumps forward mid-motion at its desk
+      as the room's light cuts out, sapphire eyes going dim.
+    characters: [attending-researcher-f, scp-030]
+    caption:
+      ja: "SCP-030は1.5メートル以内に光源がある限り活動状態を維持する。光がない状態では不活性化し、意識を失っているように見える。再び光にさらされてから5〜10秒以内に、再び活動を開始する。"
+      en: "SCP-030 remains active while a light source is within 1.5 meters. In the absence of light, SCP-030 becomes inert, apparently losing consciousness. Within five to ten seconds of being re-exposed to light, it becomes active once more."
+      cs: "SCP-030 zůstává aktivní, dokud je do 1,5 metru od něj zdroj světla. Bez světla se stává inertním a zjevně ztrácí vědomí. Do pěti až deseti sekund po opětovném vystavení světlu se opět stává aktivním."
+      de: "SCP-030 bleibt aktiv, solange sich eine Lichtquelle innerhalb von 1,5 Metern befindet. Ohne Licht wird SCP-030 inert und scheint das Bewusstsein zu verlieren. Innerhalb von fünf bis zehn Sekunden nach erneuter Lichteinwirkung wird es wieder aktiv."
+      es: "SCP-030 permanece activo mientras haya una fuente de luz a menos de 1,5 metros. En ausencia de luz, SCP-030 se vuelve inerte, aparentemente perdiendo la conciencia. En un plazo de cinco a diez segundos tras volver a exponerse a la luz, se activa de nuevo."
+      fr: "Le SCP-030 reste actif tant qu'une source de lumière se trouve à moins de 1,5 mètre. En l'absence de lumière, le SCP-030 devient inerte, perdant apparemment conscience. Dans les cinq à dix secondes suivant une nouvelle exposition à la lumière, il redevient actif."
+      it: "SCP-030 rimane attivo finché una fonte di luce è entro 1,5 metri. In assenza di luce, SCP-030 diventa inerte, apparentemente perdendo conoscenza. Entro cinque-dieci secondi dalla nuova esposizione alla luce, torna attivo."
+      ko: "SCP-030은 1.5미터 이내에 광원이 있는 한 활성 상태를 유지한다. 빛이 없을 경우 SCP-030은 비활성화되며, 겉으로 보기에 의식을 잃는 것으로 보인다. 다시 빛에 노출된 지 5초에서 10초 이내에 다시 활성화된다."
+      pl: "SCP-030 pozostaje aktywne, dopóki źródło światła znajduje się w promieniu 1,5 metra. W braku światła SCP-030 staje się bezwładne, najwyraźniej tracąc przytomność. W ciągu pięciu do dziesięciu sekund od ponownej ekspozycji na światło ponownie staje się aktywne."
+      pt: "O SCP-030 permanece ativo enquanto houver uma fonte de luz a menos de 1,5 metro. Na ausência de luz, o SCP-030 torna-se inerte, aparentemente perdendo a consciência. Dentro de cinco a dez segundos após ser reexposto à luz, ele se torna ativo novamente."
+      th: "SCP-030 จะยังคงทำงานอยู่ตราบใดที่มีแหล่งกำเนิดแสงอยู่ภายในระยะ 1.5 เมตร เมื่อไม่มีแสง SCP-030 จะหยุดทำงานและดูเหมือนจะหมดสติ ภายในห้าถึงสิบวินาทีหลังจากได้รับแสงอีกครั้ง มันจะกลับมาทำงานอีกครั้ง"
+      uk: "SCP-030 залишається активним, поки джерело світла перебуває в межах 1,5 метра. За відсутності світла SCP-030 стає інертним, очевидно втрачаючи свідомість. Протягом п'яти-десяти секунд після повторного впливу світла воно знову стає активним."
+      vi: "SCP-030 vẫn hoạt động khi có nguồn sáng trong phạm vi 1,5 mét. Khi không có ánh sáng, SCP-030 trở nên bất động, dường như mất ý thức. Trong vòng năm đến mười giây sau khi được tiếp xúc lại với ánh sáng, nó hoạt động trở lại."
+      zh: "只要1.5米内有光源，SCP-030就会保持活跃状态。在没有光的情况下，SCP-030会变得不活跃，看似失去意识。重新暴露于光线下五到十秒内，它便会再次恢复活跃。"
+      zh_Hant: "只要1.5公尺內有光源，SCP-030就會保持活躍狀態。在沒有光的情況下，SCP-030會變得不活躍，看似失去意識。重新暴露於光線下五到十秒內，牠便會再次恢復活躍。"
+
+  - scene: >
+      Close-up, filling most of the frame, a very different framing from
+      the medium shot before, on scp-030's hands carefully turning the
+      yellowed pages of a very old leather-bound book, a delighted
+      expression, a small stack of similarly old books beside it on the
+      desk.
+    characters: [scp-030]
+    caption:
+      ja: "SCP-030は90日ごとに個人研究用の資料を要求することができる。フィクション作品は、その生来の知識の完全性を保つため、西暦1623年以前に作られたものに制限される。"
+      en: "SCP-030 may request materials for personal research every 90 days. Fiction is to be restricted to works produced no later than 1623 CE, to preserve the integrity of its innate knowledge."
+      cs: "SCP-030 může každých 90 dní žádat o materiály pro osobní výzkum. Beletrie musí být omezena na díla vzniklá nejpozději v roce 1623 n. l., aby byla zachována integrita jeho vrozených znalostí."
+      de: "SCP-030 darf alle 90 Tage Materialien für persönliche Forschung anfordern. Belletristik ist auf Werke zu beschränken, die spätestens 1623 n. Chr. entstanden sind, um die Integrität seines angeborenen Wissens zu bewahren."
+      es: "SCP-030 puede solicitar materiales para investigación personal cada 90 días. La ficción debe restringirse a obras producidas a más tardar en el año 1623 d.C., para preservar la integridad de su conocimiento innato."
+      fr: "Le SCP-030 peut demander des documents pour ses recherches personnelles tous les 90 jours. Les œuvres de fiction doivent être limitées à celles produites au plus tard en 1623 apr. J.-C., afin de préserver l'intégrité de son savoir inné."
+      it: "SCP-030 può richiedere materiali per la ricerca personale ogni 90 giorni. La narrativa deve essere limitata a opere prodotte non oltre il 1623 d.C., per preservare l'integrità della sua conoscenza innata."
+      ko: "SCP-030은 90일마다 개인 연구용 자료를 요청할 수 있다. 소설류는 그 선천적 지식의 온전함을 보존하기 위해 서기 1623년 이전에 제작된 작품으로 제한된다."
+      pl: "SCP-030 może co 90 dni prosić o materiały do badań osobistych. Literatura piękna musi być ograniczona do dzieł powstałych nie później niż w 1623 roku n.e., aby zachować integralność jego wrodzonej wiedzy."
+      pt: "O SCP-030 pode solicitar materiais para pesquisa pessoal a cada 90 dias. A ficção deve ser restrita a obras produzidas até 1623 d.C., para preservar a integridade de seu conhecimento inato."
+      th: "SCP-030 สามารถร้องขอวัสดุสำหรับการวิจัยส่วนตัวได้ทุก 90 วัน วรรณกรรมนวนิยายต้องจำกัดเฉพาะผลงานที่ผลิตขึ้นไม่เกินปี ค.ศ. 1623 เพื่อรักษาความสมบูรณ์ของความรู้โดยกำเนิดของมัน"
+      uk: "SCP-030 може запитувати матеріали для особистих досліджень кожні 90 днів. Художня література має бути обмежена творами, створеними не пізніше 1623 року н.е., щоб зберегти цілісність його вродженого знання."
+      vi: "SCP-030 có thể yêu cầu tài liệu cho nghiên cứu cá nhân mỗi 90 ngày. Tác phẩm hư cấu phải được giới hạn ở những tác phẩm được sản xuất không muộn hơn năm 1623 sau Công Nguyên, để bảo tồn tính toàn vẹn của kiến thức bẩm sinh của nó."
+      zh: "SCP-030每90天可申请一次用于个人研究的资料。虚构类作品须限定于公元1623年以前创作的作品，以保持其先天知识的完整性。"
+      zh_Hant: "SCP-030每90天可申請一次用於個人研究的資料。虛構類作品須限定於西元1623年以前創作的作品，以保持其先天知識的完整性。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole
+      cell at night, a very different framing from the tight close-up
+      before. attending-researcher-m draws heavy blackout curtains
+      closed over the cell's small window from outside, while scp-030
+      sits motionless and inert in the darkened room beyond, utterly
+      still.
+    characters: [attending-researcher-m, scp-030]
+    caption:
+      ja: "SCP-030を不活性化させる必要が生じた場合、職員は外部のスイッチで照明を消し、必要に応じて遮光カーテンを引くことができる。"
+      en: "Should the need to render SCP-030 inert arise, staff may extinguish the lighting from the exterior switch and draw blackout curtains as necessary."
+      cs: "Pokud vznikne potřeba uvést SCP-030 do inertního stavu, personál může zhasnout osvětlení pomocí vnějšího spínače a v případě potřeby zatáhnout zatemňovací závěsy."
+      de: "Sollte die Notwendigkeit bestehen, SCP-030 inert zu machen, kann das Personal die Beleuchtung über den externen Schalter ausschalten und bei Bedarf Verdunkelungsvorhänge zuziehen."
+      es: "En caso de que surja la necesidad de volver inerte a SCP-030, el personal puede apagar la iluminación mediante el interruptor exterior y correr las cortinas opacas según sea necesario."
+      fr: "Si le besoin de rendre le SCP-030 inerte se présente, le personnel peut éteindre l'éclairage depuis l'interrupteur extérieur et tirer les rideaux occultants si nécessaire."
+      it: "Qualora sorga la necessità di rendere inerte SCP-030, il personale può spegnere l'illuminazione dall'interruttore esterno e chiudere le tende oscuranti se necessario."
+      ko: "SCP-030을 비활성화해야 할 필요가 생길 경우, 직원은 외부 스위치로 조명을 끄고 필요시 암막 커튼을 칠 수 있다."
+      pl: "Jeśli zajdzie potrzeba unieruchomienia SCP-030, personel może wyłączyć oświetlenie za pomocą zewnętrznego wyłącznika i w razie potrzeby zaciągnąć zaciemniające zasłony."
+      pt: "Caso surja a necessidade de tornar o SCP-030 inerte, a equipe pode apagar a iluminação pelo interruptor externo e fechar as cortinas blackout, conforme necessário."
+      th: "หากมีความจำเป็นต้องทำให้ SCP-030 หยุดทำงาน เจ้าหน้าที่สามารถปิดไฟจากสวิตช์ภายนอกและดึงม่านทึบแสงได้ตามความจำเป็น"
+      uk: "Якщо виникне потреба знерухомити SCP-030, персонал може вимкнути освітлення за допомогою зовнішнього вимикача та за потреби засунути світлонепроникні штори."
+      vi: "Nếu cần làm cho SCP-030 trở nên bất động, nhân viên có thể tắt đèn từ công tắc bên ngoài và kéo rèm cản sáng khi cần thiết."
+      zh: "若有必要使SCP-030进入不活跃状态，工作人员可通过外部开关关闭照明，并在需要时拉上遮光窗帘。"
+      zh_Hant: "若有必要使SCP-030進入不活躍狀態，工作人員可透過外部開關關閉照明，並在需要時拉上遮光窗簾。"

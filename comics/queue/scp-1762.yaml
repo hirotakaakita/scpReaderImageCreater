@@ -1,0 +1,164 @@
+# SCP-1762「ドラゴンの逝く場所」4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# 「ジャバウォックの出来事」等の補遺エピソードは本編に混ぜない。
+# キャラにセリフは言わせない。
+
+id: scp-1762
+
+title:
+  en: "SCP-1762: Here Be Dragons"
+  ja: "SCP-1762：ドラゴンの逝く場所"
+  cs: "SCP-1762: Zde Jsou Draci"
+  de: "SCP-1762: Hier Sind Drachen"
+  es: "SCP-1762: Aquí Hay Dragones"
+  fr: "SCP-1762 : Ici Sont Les Dragons"
+  it: "SCP-1762: Qui Ci Sono Draghi"
+  ko: "SCP-1762: 여기 용이 있다"
+  pl: "SCP-1762: Tu Są Smoki"
+  pt: "SCP-1762: Aqui Há Dragões"
+  th: "SCP-1762: ที่นี่มีมังกร"
+  uk: "SCP-1762: Тут Є Дракони"
+  vi: "SCP-1762: Nơi Đây Có Rồng"
+  zh: "SCP-1762：此地有龙"
+  zh_Hant: "SCP-1762：此地有龍"
+
+attribution:
+  article: "SCP-1762"
+  source_url: "http://scp-wiki.wikidot.com/scp-1762"
+  license: "CC BY-SA 3.0"
+
+object_class: Neutralized
+
+local_characters:
+  scp-1762-1:
+    name: SCP-1762-1
+    description: >
+      SCP-1762-1, a plain cardboard box, 32 cm x 20 cm x 26 cm, spray-painted
+      silver (color RGB 190,190,195) on both interior and exterior, with the
+      words "HERE BE DRAGONS" handwritten in black permanent marker on the
+      lid.
+  scp-1762-2:
+    name: SCP-1762-2
+    description: >
+      Instances of SCP-1762-2, small origami-style dragons folded from
+      colorful kami paper in solid bright colors (reds RGB 200,40,40, golds
+      RGB 210,170,40, blues RGB 40,90,190), in varied Eastern serpentine and
+      Western winged forms, nine to thirty centimeters long, with crisp
+      angular paper folds, flying playfully in small groups.
+
+characters: [scp-1762-1, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a whole plain containment
+      room. On a metal shelf at the center of the frame sits SCP-1762-1, a
+      small silver-painted cardboard box. On the right side of the frame,
+      the attending researcher stands behind a viewing window, clipboard in
+      hand, a video camera mounted nearby recording the box.
+    characters: [scp-1762-1, attending-researcher-m]
+    caption:
+      ja: "SCP-1762-1はサイト-██の標準的な収容ユニットに保管されている。SCP-1762-1がSCP-1762-2を放出する期間中は、今後の研究のためビデオログを記録すること。"
+      en: "SCP-1762-1 is held in a standard containment unit at Site-██. During the periods when SCP-1762-1 releases SCP-1762-2, video logs are to be recorded for future research."
+      cs: "SCP-1762-1 je uchováváno ve standardní kontejnmentové jednotce v Lokaci-██. Během období, kdy SCP-1762-1 uvolňuje SCP-1762-2, mají být pořizovány videozáznamy pro budoucí výzkum."
+      de: "SCP-1762-1 wird in einer Standard-Containment-Einheit auf Site-██ aufbewahrt. Während der Zeiträume, in denen SCP-1762-1 SCP-1762-2 freisetzt, sind Videoaufzeichnungen für künftige Forschung anzufertigen."
+      es: "SCP-1762-1 se mantiene en una unidad de contención estándar en el Sitio-██. Durante los períodos en que SCP-1762-1 libera a SCP-1762-2, deben registrarse vídeos para futuras investigaciones."
+      fr: "SCP-1762-1 est conservé dans une unité de confinement standard sur le Site-██. Pendant les périodes où SCP-1762-1 libère SCP-1762-2, des enregistrements vidéo doivent être réalisés pour de futures recherches."
+      it: "SCP-1762-1 è custodito in un'unità di contenimento standard presso il Sito-██. Durante i periodi in cui SCP-1762-1 rilascia SCP-1762-2, devono essere registrati filmati per future ricerche."
+      ko: "SCP-1762-1은 사이트-██의 표준 수용 장치에 보관된다. SCP-1762-1이 SCP-1762-2를 방출하는 기간 동안에는 향후 연구를 위해 영상 기록을 남겨야 한다."
+      pl: "SCP-1762-1 jest przechowywany w standardowej jednostce kontenerowej w Placówce-██. W okresach, gdy SCP-1762-1 uwalnia SCP-1762-2, należy rejestrować materiał wideo na potrzeby dalszych badań."
+      pt: "O SCP-1762-1 é mantido em uma unidade de contenção padrão no Local-██. Durante os períodos em que o SCP-1762-1 libera o SCP-1762-2, registros em vídeo devem ser feitos para pesquisas futuras."
+      th: "SCP-1762-1 ถูกเก็บไว้ในหน่วยกักกันมาตรฐานที่ไซต์-██ ในช่วงเวลาที่ SCP-1762-1 ปล่อย SCP-1762-2 ออกมา จะต้องบันทึกวิดีโอไว้เพื่อการวิจัยในอนาคต"
+      uk: "SCP-1762-1 зберігається в стандартному блоці утримання на Об'єкті-██. Протягом періодів, коли SCP-1762-1 вивільняє SCP-1762-2, слід вести відеозапис для подальших досліджень."
+      vi: "SCP-1762-1 được giữ trong một đơn vị chứa tiêu chuẩn tại Site-██. Trong những khoảng thời gian SCP-1762-1 giải phóng SCP-1762-2, cần ghi lại video phục vụ nghiên cứu sau này."
+      zh: "SCP-1762-1被保存在██站点的标准收容单元中。在SCP-1762-1释放SCP-1762-2期间，应录制视频记录以供日后研究。"
+      zh_Hant: "SCP-1762-1被保存在██站點的標準收容單元中。在SCP-1762-1釋放SCP-1762-2期間，應錄製影片記錄以供日後研究。"
+
+  - scene: >
+      Medium shot, waist-up, eye level. SCP-1762-1 sits open on its shelf at
+      the center of the frame, a thick plume of black smoke billowing
+      upward and quickly dissipating from its open lid. On the right side of
+      the frame, the attending researcher leans back slightly in surprise,
+      still holding up his clipboard.
+    characters: [scp-1762-1, attending-researcher-m]
+    caption:
+      ja: "SCP-1762-1はまれに開き、SCP-1762-2の放出を開始する。この間、箱は短時間大量の黒煙を放出し、それはすぐに消散する。煙が晴れてからSCP-1762-2が出現するまで平均20秒を要する。"
+      en: "SCP-1762-1 will infrequently open and initiate a release of SCP-1762-2. During this time, the box will briefly emit a large amount of black smoke that quickly dissipates; it takes an average of twenty seconds for SCP-1762-2 to emerge after the smoke clears."
+      cs: "SCP-1762-1 se občas otevře a zahájí uvolnění SCP-1762-2. Během této doby krabice krátce vypustí velké množství černého kouře, který se rychle rozptýlí; po jeho rozptýlení trvá v průměru dvacet sekund, než se objeví SCP-1762-2."
+      de: "SCP-1762-1 öffnet sich gelegentlich und leitet eine Freisetzung von SCP-1762-2 ein. Dabei stößt die Box kurzzeitig eine große Menge schwarzen Rauchs aus, der sich rasch auflöst; im Schnitt dauert es zwanzig Sekunden, bis SCP-1762-2 nach dem Verschwinden des Rauchs auftaucht."
+      es: "SCP-1762-1 se abre de forma poco frecuente e inicia una liberación de SCP-1762-2. Durante este proceso, la caja emite brevemente una gran cantidad de humo negro que se disipa rápidamente; tarda un promedio de veinte segundos en que SCP-1762-2 emerja tras disiparse el humo."
+      fr: "SCP-1762-1 s'ouvre rarement et déclenche une libération de SCP-1762-2. Pendant ce temps, la boîte émet brièvement une grande quantité de fumée noire qui se dissipe rapidement ; il faut en moyenne vingt secondes pour que SCP-1762-2 émerge une fois la fumée dissipée."
+      it: "SCP-1762-1 si apre di rado e avvia un rilascio di SCP-1762-2. Durante questo processo, la scatola emette brevemente una grande quantità di fumo nero che si dissolve rapidamente; occorrono in media venti secondi perché SCP-1762-2 emerga dopo che il fumo si è dissolto."
+      ko: "SCP-1762-1은 드물게 열리며 SCP-1762-2의 방출을 시작한다. 이 동안 상자는 잠깐 대량의 검은 연기를 내뿜고 이는 곧 사라지는데, 연기가 걷힌 후 SCP-1762-2가 출현하기까지 평균 20초가 걸린다."
+      pl: "SCP-1762-1 rzadko się otwiera i inicjuje uwolnienie SCP-1762-2. W tym czasie pudełko na krótko wydziela dużą ilość czarnego dymu, który szybko się rozprasza; po jego rozproszeniu SCP-1762-2 pojawia się średnio po dwudziestu sekundach."
+      pt: "O SCP-1762-1 abre-se com pouca frequência e inicia uma liberação do SCP-1762-2. Durante esse período, a caixa emite brevemente uma grande quantidade de fumaça preta que se dissipa rapidamente; leva em média vinte segundos para o SCP-1762-2 surgir após a fumaça se dissipar."
+      th: "SCP-1762-1 จะเปิดออกเป็นครั้งคราวและเริ่มปล่อย SCP-1762-2 ในช่วงนี้ กล่องจะปล่อยควันดำจำนวนมากออกมาชั่วครู่ก่อนจะจางหายไปอย่างรวดเร็ว โดยเฉลี่ยแล้ว SCP-1762-2 จะปรากฏขึ้นหลังควันจางไปประมาณยี่สิบวินาที"
+      uk: "SCP-1762-1 зрідка відкривається й починає вивільнення SCP-1762-2. У цей час коробка ненадовго випускає велику кількість чорного диму, який швидко розсіюється; в середньому SCP-1762-2 з'являється через двадцять секунд після того, як дим розсіявся."
+      vi: "SCP-1762-1 thỉnh thoảng mở ra và bắt đầu giải phóng SCP-1762-2. Trong lúc này, chiếc hộp sẽ phát ra một lượng lớn khói đen trong chốc lát rồi nhanh chóng tan biến; trung bình mất khoảng hai mươi giây để SCP-1762-2 xuất hiện sau khi khói tan."
+      zh: "SCP-1762-1会不定期地打开并开始释放SCP-1762-2。此时，箱子会短暂喷出大量黑烟，随即迅速消散；烟雾散去后平均约二十秒，SCP-1762-2便会出现。"
+      zh_Hant: "SCP-1762-1會不定期地打開並開始釋放SCP-1762-2。此時，箱子會短暫噴出大量黑煙，隨即迅速消散；煙霧散去後平均約二十秒，SCP-1762-2便會出現。"
+
+  - scene: >
+      Close-up shot, filling most of the frame, tilted slightly upward. A
+      small group of colorful origami dragons (SCP-1762-2) swirls playfully
+      through the air around the attending researcher's head and shoulders,
+      one nudging his ear, others looping and darting. His clipboard hangs
+      forgotten at his side as he smiles despite himself.
+    characters: [scp-1762-2, attending-researcher-m]
+    caption:
+      ja: "SCP-1762-2は東洋・西洋双方の様式に似た龍の外見を持つ、折り紙状の形態をとる存在の総称である。分析の結果、これらは千代紙で構成されていることが判明した。SCP-1762-1から出た後、SCP-1762-2は大きな群れで飛び回り、近くの職員や互いに戯れるように交流する。"
+      en: "SCP-1762-2 is the collective term applied to the beings that emerge from SCP-1762-1. All instances bear resemblance to various types of dragons, in both Eastern and Western depictions, in forms similar to that of origami models, composed of kami paper. After exiting, instances will fly together in groups and interact playfully with any nearby personnel."
+      cs: "SCP-1762-2 je souhrnné označení pro bytosti vycházející z SCP-1762-1. Všechny instance se podobají různým typům draků, jak ve východním, tak v západním pojetí, ve formě připomínající origami modely, složené z papíru kami. Po vylétnutí se instance shlukují do skupin a hravě si vyměňují interakce s okolním personálem."
+      de: "SCP-1762-2 ist die Sammelbezeichnung für die Wesen, die aus SCP-1762-1 hervorgehen. Alle Instanzen ähneln verschiedenen Drachentypen, sowohl in östlicher als auch westlicher Darstellung, in Formen wie Origami-Modelle, aus Kami-Papier gefaltet. Nach dem Austritt fliegen die Instanzen in Gruppen zusammen und interagieren spielerisch mit jedem Personal in der Nähe."
+      es: "SCP-1762-2 es el término colectivo aplicado a los seres que emergen de SCP-1762-1. Todas las instancias se asemejan a diversos tipos de dragones, tanto en representaciones orientales como occidentales, con formas similares a modelos de origami, compuestas de papel kami. Tras salir, las instancias vuelan juntas en grupos e interactúan de forma juguetona con cualquier personal cercano."
+      fr: "SCP-1762-2 est le terme collectif désignant les êtres qui émergent de SCP-1762-1. Toutes les instances ressemblent à divers types de dragons, dans des représentations orientales et occidentales, sous des formes similaires à des modèles d'origami, composées de papier kami. Après leur sortie, les instances volent ensemble en groupes et interagissent de façon ludique avec le personnel présent."
+      it: "SCP-1762-2 è il termine collettivo applicato agli esseri che emergono da SCP-1762-1. Tutte le istanze somigliano a vari tipi di draghi, sia in rappresentazioni orientali che occidentali, in forme simili a modelli di origami, composte di carta kami. Dopo essere uscite, le istanze volano insieme in gruppi e interagiscono in modo giocoso con qualsiasi personale nelle vicinanze."
+      ko: "SCP-1762-2는 SCP-1762-1에서 출현하는 존재들을 총칭하는 용어이다. 모든 개체는 동양과 서양 양쪽의 용 형상을 닮았으며, 종이접기 모형과 유사한 형태로 화지로 이루어져 있다. 출현한 후 개체들은 무리 지어 날아다니며 근처 직원과 장난스럽게 교류한다."
+      pl: "SCP-1762-2 to zbiorcze określenie istot wyłaniających się z SCP-1762-1. Wszystkie egzemplarze przypominają różne typy smoków, zarówno w ujęciu wschodnim, jak i zachodnim, w formach podobnych do modeli origami, wykonane z papieru kami. Po wydostaniu się egzemplarze latają razem w grupach i wchodzą w zabawowe interakcje z pobliskim personelem."
+      pt: "SCP-1762-2 é o termo coletivo aplicado aos seres que emergem do SCP-1762-1. Todas as instâncias se assemelham a vários tipos de dragões, tanto em representações orientais quanto ocidentais, em formas semelhantes a modelos de origami, compostas de papel kami. Após sair, as instâncias voam juntas em grupos e interagem de forma lúdica com qualquer pessoal próximo."
+      th: "SCP-1762-2 คือคำเรียกรวมสำหรับสิ่งมีชีวิตที่ปรากฏออกมาจาก SCP-1762-1 ทุกตัวอย่างมีลักษณะคล้ายมังกรหลากหลายแบบ ทั้งในรูปแบบตะวันออกและตะวันตก มีรูปทรงคล้ายโมเดลกระดาษพับ ทำจากกระดาษคามิ หลังจากออกมาแล้ว ตัวอย่างเหล่านี้จะบินรวมกันเป็นกลุ่มและมีปฏิสัมพันธ์เล่นสนุกกับเจ้าหน้าที่ที่อยู่ใกล้เคียง"
+      uk: "SCP-1762-2 — це збірна назва істот, що з'являються з SCP-1762-1. Усі екземпляри нагадують різні типи драконів, як у східному, так і в західному зображенні, у формах, подібних до моделей орігамі, складених із паперу камі. Вийшовши, екземпляри літають групами й грайливо взаємодіють з персоналом поблизу."
+      vi: "SCP-1762-2 là thuật ngữ chung chỉ những sinh vật xuất hiện từ SCP-1762-1. Mọi thực thể đều giống các loại rồng khác nhau, theo cả kiểu Đông và Tây, có hình dạng như mô hình gấp giấy origami, được cấu tạo từ giấy kami. Sau khi thoát ra, các thực thể sẽ bay thành nhóm và tương tác vui đùa với bất kỳ nhân viên nào ở gần."
+      zh: "SCP-1762-2是对从SCP-1762-1中出现的生物的统称。所有个体都酷似各种类型的龙，兼具东方与西方形象，形态类似折纸模型，由千代纸构成。出现后，个体会成群飞行，并与附近人员嬉戏互动。"
+      zh_Hant: "SCP-1762-2是對從SCP-1762-1中出現的生物的統稱。所有個體都酷似各種類型的龍，兼具東方與西方形象，形態類似摺紙模型，由千代紙構成。出現後，個體會成群飛行，並與附近人員嬉戲互動。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole
+      containment room again, echoing the framing of the first panel. The
+      origami dragons stream back through the air toward SCP-1762-1 and
+      vanish over its rim one by one. On the right side of the frame, the
+      attending researcher crouches by the box, carefully lifting a small
+      carved object from its lid with gloved fingers.
+    characters: [scp-1762-1, scp-1762-2, attending-researcher-m]
+    caption:
+      ja: "SCP-1762-1の外に出てから約2〜3時間後、SCP-1762-2の全個体は帰還し、SCP-1762-1へ飛び込んで戻る。全てのSCP-1762-2が戻ると、蓋の上に様々な材質で書かれた、あるいは彫られたメッセージが出現することがある。"
+      en: "After approximately two to three hours of time spent outside of SCP-1762-1, all instances of SCP-1762-2 return and fly back into SCP-1762-1. A message written or carved into a varying material will sometimes materialize on top of SCP-1762-1's lid once the box retrieves all instances."
+      cs: "Po přibližně dvou až třech hodinách strávených mimo SCP-1762-1 se všechny instance SCP-1762-2 vracejí a odlétají zpět do SCP-1762-1. Jakmile krabice získá zpět všechny instance, na víku SCP-1762-1 se někdy zhmotní zpráva napsaná nebo vyrytá do různorodého materiálu."
+      de: "Nach etwa zwei bis drei Stunden außerhalb von SCP-1762-1 kehren alle Instanzen von SCP-1762-2 zurück und fliegen wieder in SCP-1762-1 hinein. Sobald die Box alle Instanzen zurückerlangt hat, materialisiert sich manchmal eine in wechselndem Material geschriebene oder geritzte Nachricht auf dem Deckel von SCP-1762-1."
+      es: "Tras pasar aproximadamente de dos a tres horas fuera de SCP-1762-1, todas las instancias de SCP-1762-2 regresan y vuelan de vuelta hacia SCP-1762-1. A veces, una vez que la caja recupera a todas las instancias, se materializa un mensaje escrito o tallado en un material variable sobre la tapa de SCP-1762-1."
+      fr: "Après avoir passé environ deux à trois heures hors de SCP-1762-1, toutes les instances de SCP-1762-2 reviennent et s'envolent à nouveau dans SCP-1762-1. Une fois que la boîte a récupéré toutes les instances, un message écrit ou gravé dans un matériau variable se matérialise parfois sur le couvercle de SCP-1762-1."
+      it: "Dopo circa due o tre ore trascorse all'esterno di SCP-1762-1, tutte le istanze di SCP-1762-2 tornano e rientrano volando in SCP-1762-1. Una volta che la scatola ha recuperato tutte le istanze, un messaggio scritto o inciso in un materiale variabile a volte si materializza sul coperchio di SCP-1762-1."
+      ko: "SCP-1762-1 밖에서 약 2~3시간을 보낸 후, SCP-1762-2의 모든 개체는 돌아와 다시 SCP-1762-1 안으로 날아 들어간다. 상자가 모든 개체를 회수하고 나면, 다양한 재질에 쓰이거나 새겨진 메시지가 SCP-1762-1의 뚜껑 위에 나타나는 경우가 있다."
+      pl: "Po spędzeniu poza SCP-1762-1 około dwóch do trzech godzin, wszystkie egzemplarze SCP-1762-2 wracają i wlatują z powrotem do SCP-1762-1. Gdy pudełko odzyska wszystkie egzemplarze, na wieku SCP-1762-1 czasami materializuje się wiadomość napisana lub wyryta w różnym materiale."
+      pt: "Após passar aproximadamente duas a três horas fora do SCP-1762-1, todas as instâncias do SCP-1762-2 retornam e voam de volta para dentro do SCP-1762-1. Assim que a caixa recupera todas as instâncias, uma mensagem escrita ou entalhada em algum material variável às vezes se materializa sobre a tampa do SCP-1762-1."
+      th: "หลังจากใช้เวลาอยู่นอก SCP-1762-1 ประมาณสองถึงสามชั่วโมง ตัวอย่าง SCP-1762-2 ทั้งหมดจะกลับมาและบินกลับเข้าไปใน SCP-1762-1 เมื่อกล่องได้รับตัวอย่างทั้งหมดกลับคืนมาแล้ว บางครั้งข้อความที่เขียนหรือแกะสลักในวัสดุที่แตกต่างกันจะปรากฏขึ้นบนฝาของ SCP-1762-1"
+      uk: "Провівши приблизно від двох до трьох годин поза SCP-1762-1, усі екземпляри SCP-1762-2 повертаються й залітають назад у SCP-1762-1. Щойно коробка отримує назад усі екземпляри, на кришці SCP-1762-1 інколи матеріалізується повідомлення, написане чи вирізьблене на різному матеріалі."
+      vi: "Sau khoảng hai đến ba giờ ở bên ngoài SCP-1762-1, tất cả các thực thể SCP-1762-2 sẽ quay về và bay trở lại vào trong SCP-1762-1. Khi chiếc hộp thu hồi hết mọi thực thể, đôi khi một thông điệp được viết hoặc khắc trên vật liệu khác nhau sẽ xuất hiện trên nắp của SCP-1762-1."
+      zh: "在SCP-1762-1外度过约两到三小时后，SCP-1762-2的所有个体都会返回并飞入SCP-1762-1中。箱子收回全部个体后，有时会在SCP-1762-1的盖子上浮现出以各种材质书写或雕刻的讯息。"
+      zh_Hant: "在SCP-1762-1外度過約兩到三小時後，SCP-1762-2的所有個體都會返回並飛入SCP-1762-1中。箱子收回全部個體後，有時會在SCP-1762-1的蓋子上浮現出以各種材質書寫或雕刻的訊息。"
+
+addendum:
+  ja: "補遺1762-01：██/██/20██、SCP-1762-1は11ヶ月と28日間続く一連の出来事に見舞われた。この事件は後に「ジャバウォックの出来事」として分類された。"
+  en: "Addendum 1762-01: On ██/██/20██, SCP-1762-1 began to undergo a series of events that lasted 11 months and 28 days; these have since been classified under the title \"The Jabberwocky Event.\""
+  cs: "Dodatek 1762-01: Dne ██/██/20██ začalo u SCP-1762-1 probíhat série událostí, které trvaly 11 měsíců a 28 dní; tyto byly od té doby klasifikovány pod názvem „Událost Žvahlava“."
+  de: "Anhang 1762-01: Am ██/██/20██ begann bei SCP-1762-1 eine Serie von Ereignissen, die 11 Monate und 28 Tage andauerte; diese wurden seither unter dem Titel „Das Jabberwocky-Ereignis“ klassifiziert."
+  es: "Adenda 1762-01: El ██/██/20██, SCP-1762-1 comenzó a experimentar una serie de eventos que duraron 11 meses y 28 días; desde entonces se han clasificado bajo el título «El Evento Jabberwocky»."
+  fr: "Addendum 1762-01 : Le ██/██/20██, SCP-1762-1 a commencé à subir une série d'événements qui a duré 11 mois et 28 jours ; ceux-ci ont depuis été classés sous le titre « L'Événement Jabberwocky »."
+  it: "Addendum 1762-01: Il ██/██/20██, SCP-1762-1 ha iniziato a subire una serie di eventi durati 11 mesi e 28 giorni; questi sono stati da allora classificati sotto il titolo \"L'Evento Jabberwocky\"."
+  ko: "부록 1762-01: ██/██/20██, SCP-1762-1은 11개월 28일간 지속된 일련의 사건을 겪기 시작했다. 이는 이후 「재버워키 사건」이라는 이름으로 분류되었다."
+  pl: "Aneks 1762-01: ██/██/20██ roku SCP-1762-1 zaczął przechodzić serię wydarzeń trwających 11 miesięcy i 28 dni; odtąd sklasyfikowano je pod nazwą „Wydarzenie Dziaberliada”."
+  pt: "Adendo 1762-01: Em ██/██/20██, o SCP-1762-1 começou a passar por uma série de eventos que duraram 11 meses e 28 dias; desde então, foram classificados sob o título \"O Evento Jabberwocky\"."
+  th: "ภาคผนวก 1762-01: ในวันที่ ██/██/20██ SCP-1762-1 เริ่มประสบเหตุการณ์ต่อเนื่องที่กินเวลานาน 11 เดือนกับ 28 วัน ซึ่งภายหลังถูกจัดประเภทภายใต้ชื่อ \"เหตุการณ์แจ๊บเบอร์วอกกี\""
+  uk: "Додаток 1762-01: ██/██/20██ SCP-1762-1 почав переживати серію подій, що тривала 11 місяців і 28 днів; відтоді їх класифікували під назвою «Подія Джаббервокі»."
+  vi: "Phụ lục 1762-01: Vào ngày ██/██/20██, SCP-1762-1 bắt đầu trải qua một chuỗi sự kiện kéo dài 11 tháng 28 ngày; những sự kiện này sau đó được phân loại dưới tên \"Sự Kiện Jabberwocky\"."
+  zh: "补遗1762-01：██/██/20██，SCP-1762-1开始经历一系列持续了11个月零28天的事件；此后这些事件被归类为「炸脖龙事件」。"
+  zh_Hant: "補遺1762-01：██/██/20██，SCP-1762-1開始經歷一系列持續了11個月零28天的事件；此後這些事件被歸類為「炸脖龍事件」。"

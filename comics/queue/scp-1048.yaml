@@ -1,0 +1,157 @@
+# SCP-1048「ビルダー・ベア」4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# 補遺1048-1（SCP-2295との関連）は本編に混ぜず、addendumフィールドのみで触れる。
+# キャラにセリフは言わせない。
+
+id: scp-1048
+
+title:
+  en: "SCP-1048: Builder Bear"
+  ja: "SCP-1048：ビルダー・ベア"
+  cs: "SCP-1048: Medvídek Stavitel"
+  de: "SCP-1048: Baumeister-Bär"
+  es: "SCP-1048: El Oso Constructor"
+  fr: "SCP-1048 : L'Ours Bâtisseur"
+  it: "SCP-1048: L'Orso Costruttore"
+  ko: "SCP-1048: 빌더 베어"
+  pl: "SCP-1048: Miś Budowniczy"
+  pt: "SCP-1048: Urso Construtor"
+  th: "SCP-1048: หมีนักก่อสร้าง"
+  uk: "SCP-1048: Ведмедик-Будівельник"
+  vi: "SCP-1048: Gấu Thợ Xây"
+  zh: "SCP-1048：建造者熊"
+  zh_Hant: "SCP-1048：建造者熊"
+
+attribution:
+  article: "SCP-1048"
+  source_url: "http://scp-wiki.wikidot.com/scp-1048"
+  license: "CC BY-SA 3.0"
+
+object_class: Keter
+
+local_characters:
+  scp-1048:
+    name: SCP-1048
+    description: >
+      SCP-1048, a small teddy bear approximately 33 cm tall, with worn
+      tan-brown plush fur (color RGB 150,110,70), simple stitched button
+      eyes, a rounded soft plush body typical of a classic, well-loved
+      teddy bear, faded and slightly matted fur in a few places.
+
+characters: [scp-1048, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a whole plain institutional
+      corridor. On the left side of the frame, SCP-1048 waddles happily
+      down the middle of the corridor. On the right side of the frame, the
+      attending researcher walks past carrying a folder, glancing down at
+      the bear with a small, warm smile.
+    characters: [scp-1048, attending-researcher-f]
+    caption:
+      ja: "SCP-1048は現在サイト24内を自由に徘徊しているが、これは脅威とならず、接触した職員の士気を大きく向上させることが観察されているためである。"
+      en: "SCP-1048 is currently free to roam Site 24, as it poses no threat and has been observed to greatly improve the morale of personnel that interact with it."
+      cs: "SCP-1048 se v současnosti smí volně pohybovat po Lokaci 24, jelikož nepředstavuje žádnou hrozbu a bylo pozorováno, že výrazně zlepšuje morálku personálu, který s ním přijde do styku."
+      de: "SCP-1048 darf sich derzeit frei auf Site 24 bewegen, da es keine Bedrohung darstellt und beobachtet wurde, dass es die Moral des Personals, das mit ihm interagiert, erheblich verbessert."
+      es: "SCP-1048 tiene actualmente permitido deambular libremente por el Sitio 24, ya que no supone ninguna amenaza y se ha observado que mejora notablemente la moral del personal que interactúa con él."
+      fr: "SCP-1048 est actuellement libre de circuler dans le Site 24, car il ne représente aucune menace et il a été observé qu'il améliore considérablement le moral du personnel qui interagit avec lui."
+      it: "A SCP-1048 è attualmente permesso di aggirarsi liberamente per il Sito 24, poiché non rappresenta una minaccia ed è stato osservato che migliora notevolmente il morale del personale che interagisce con esso."
+      ko: "SCP-1048는 위협이 되지 않으며 접촉한 직원의 사기를 크게 향상시키는 것이 관찰되었기에 현재 사이트-24 내를 자유롭게 돌아다니도록 허용되어 있다."
+      pl: "SCP-1048 może obecnie swobodnie poruszać się po Placówce 24, ponieważ nie stanowi zagrożenia, a zaobserwowano, że znacząco poprawia morale personelu mającego z nim kontakt."
+      pt: "O SCP-1048 tem atualmente permissão para vagar livremente pelo Local 24, pois não representa ameaça e foi observado que melhora consideravelmente o moral do pessoal que interage com ele."
+      th: "ขณะนี้ SCP-1048 ได้รับอนุญาตให้เดินเพ่นพ่านอย่างอิสระภายในไซต์ 24 เนื่องจากไม่ก่อให้เกิดอันตราย และพบว่าช่วยเสริมขวัญกำลังใจของเจ้าหน้าที่ที่มีปฏิสัมพันธ์กับมันได้อย่างมาก"
+      uk: "SCP-1048 наразі дозволено вільно пересуватися Об'єктом 24, оскільки він не становить загрози, а спостереження показали, що він значно покращує моральний стан персоналу, який з ним контактує."
+      vi: "SCP-1048 hiện được tự do đi lại trong Site 24, vì nó không gây nguy hiểm và được ghi nhận là giúp cải thiện đáng kể tinh thần của nhân viên tiếp xúc với nó."
+      zh: "SCP-1048目前被允许在24站点内自由活动，因为它不构成威胁，并且据观察能显著提升与其接触人员的士气。"
+      zh_Hant: "SCP-1048目前被允許在24站點內自由活動，因為牠不構成威脅，並且據觀察能顯著提升與其接觸人員的士氣。"
+
+  - scene: >
+      Medium shot, waist-down, eye level, framed low enough to show legs and
+      feet clearly. On the right side of the frame, SCP-1048 hugs both its
+      short arms tightly around the attending researcher's lower leg, head
+      tilted up affectionately. On the left side of the frame, the
+      researcher looks down at it, mid-step, a clipboard tucked under one
+      arm.
+    characters: [scp-1048, attending-researcher-f]
+    caption:
+      ja: "対象は多くの人が愛らしいと感じる方法で頻繁に愛情を示す。通常は下肢へのハグとして表れるが、踊ったり、その場で跳ねたり、清掃スタッフのために絵を描いたりする様子も観察されている。"
+      en: "The subject regularly shows affection in ways found endearing by most people — usually a hug to the lower leg, but it has also been observed dancing, jumping in place, and drawing pictures for the janitorial staff."
+      cs: "Subjekt pravidelně projevuje náklonnost způsoby, které většina lidí považuje za roztomilé – obvykle objetím nohy, ale byl také pozorován, jak tančí, poskakuje na místě a kreslí obrázky pro uklízecí personál."
+      de: "Das Subjekt zeigt regelmäßig Zuneigung auf eine Weise, die von den meisten Menschen als liebenswert empfunden wird – meist durch eine Umarmung des Unterschenkels, aber es wurde auch beobachtet, wie es tanzt, auf der Stelle hüpft und Bilder für das Reinigungspersonal malt."
+      es: "El sujeto muestra afecto con regularidad de formas que la mayoría de las personas encuentran entrañables, normalmente abrazando la pierna, aunque también se le ha observado bailando, saltando en el sitio y dibujando imágenes para el personal de limpieza."
+      fr: "Le sujet manifeste régulièrement de l'affection de manières que la plupart des gens trouvent attachantes — généralement une étreinte autour du mollet, mais on l'a aussi vu danser, sauter sur place et dessiner des images pour le personnel d'entretien."
+      it: "Il soggetto mostra regolarmente affetto in modi che la maggior parte delle persone trova adorabili, di solito abbracciando la gamba, ma è stato anche osservato ballare, saltellare sul posto e disegnare immagini per il personale delle pulizie."
+      ko: "대상은 대부분의 사람들이 사랑스럽다고 느끼는 방식으로 자주 애정을 표현한다. 보통은 다리를 끌어안는 형태이지만, 춤을 추거나 제자리에서 뛰거나 청소 직원을 위해 그림을 그리는 모습도 관찰되었다."
+      pl: "Osobnik regularnie okazuje przywiązanie w sposób uznawany przez większość ludzi za uroczy — zwykle obejmując nogę, choć zaobserwowano również, jak tańczy, podskakuje w miejscu i rysuje obrazki dla personelu sprzątającego."
+      pt: "O sujeito demonstra afeto regularmente de formas que a maioria das pessoas considera adoráveis — geralmente um abraço na perna, mas também já foi observado dançando, pulando no lugar e desenhando figuras para a equipe de limpeza."
+      th: "ตัวอย่างแสดงความรักใคร่อยู่เสมอในลักษณะที่คนส่วนใหญ่รู้สึกน่ารัก มักเป็นการกอดขาส่วนล่าง แต่ยังพบว่ามันเต้นรำ กระโดดอยู่กับที่ และวาดรูปให้เจ้าหน้าที่ทำความสะอาดอีกด้วย"
+      uk: "Об'єкт регулярно виявляє прихильність у спосіб, який більшість людей вважає милим — зазвичай обіймаючи гомілку, але його також бачили танцюючим, стрибаючим на місці й малюючим картинки для прибирального персоналу."
+      vi: "Đối tượng thường xuyên thể hiện tình cảm theo cách mà hầu hết mọi người thấy đáng yêu — thường là ôm lấy ống chân, nhưng cũng được ghi nhận là nhảy múa, nhảy tại chỗ và vẽ tranh tặng nhân viên vệ sinh."
+      zh: "该对象经常以大多数人觉得可爱的方式表达喜爱，通常是抱住对方的小腿，但也曾被观察到跳舞、原地跳跃，以及为清洁人员画画。"
+      zh_Hant: "該對象經常以大多數人覺得可愛的方式表達喜愛，通常是抱住對方的小腿，但也曾被觀察到跳舞、原地跳躍，以及為清潔人員畫畫。"
+
+  - scene: >
+      Close-up shot on SCP-1048 alone, filling most of the frame, in a dim
+      storage room at night. It sits on the floor surrounded by scattered
+      scraps of loose material, its small paws carefully arranging the
+      scraps into a half-formed second bear-shaped bundle, its stitched
+      eyes catching a sliver of light. The mood is quiet and eerie rather
+      than graphic.
+    characters: [scp-1048]
+    caption:
+      ja: "SCP-1048のより異常な挙動は、最初に確保されてからおよそ7ヶ月が経過するまで観察されなかった。対象は何らかの材料を用いて自身の粗雑な複製を構築できるものと推測されている。"
+      en: "The more anomalous behavior of SCP-1048 was not observed until approximately seven months after it was originally secured. It is hypothesized that the subject is able to construct crude replicas of itself using various materials."
+      cs: "Výraznější anomální chování SCP-1048 nebylo pozorováno až do uplynutí přibližně sedmi měsíců od jeho původního zajištění. Předpokládá se, že subjekt dokáže z různých materiálů sestavit hrubé kopie sebe sama."
+      de: "Das ausgeprägtere anomale Verhalten von SCP-1048 wurde erst etwa sieben Monate nach seiner ursprünglichen Sicherstellung beobachtet. Es wird vermutet, dass das Subjekt in der Lage ist, aus verschiedenen Materialien grobe Nachbildungen seiner selbst herzustellen."
+      es: "El comportamiento más anómalo de SCP-1048 no se observó hasta aproximadamente siete meses después de su aseguramiento inicial. Se plantea la hipótesis de que el sujeto es capaz de construir réplicas toscas de sí mismo utilizando diversos materiales."
+      fr: "Le comportement le plus anormal de SCP-1048 n'a été observé qu'environ sept mois après sa sécurisation initiale. On suppose que le sujet est capable de construire des répliques grossières de lui-même à partir de divers matériaux."
+      it: "Il comportamento più anomalo di SCP-1048 non è stato osservato fino a circa sette mesi dopo la sua messa in sicurezza iniziale. Si ipotizza che il soggetto sia in grado di costruire rozze repliche di se stesso utilizzando vari materiali."
+      ko: "SCP-1048의 더 이상적인 행동은 최초 확보 후 약 7개월이 지나서야 관찰되었다. 대상은 다양한 재료를 이용해 자신의 조악한 복제품을 만들어낼 수 있는 것으로 추정된다."
+      pl: "Bardziej anomalne zachowanie SCP-1048 zaobserwowano dopiero około siedmiu miesięcy po jego pierwotnym zabezpieczeniu. Przypuszcza się, że osobnik jest w stanie skonstruować prymitywne kopie samego siebie przy użyciu różnych materiałów."
+      pt: "O comportamento mais anômalo do SCP-1048 só foi observado cerca de sete meses após sua contenção inicial. Levanta-se a hipótese de que o sujeito seja capaz de construir réplicas rudimentares de si mesmo usando diversos materiais."
+      th: "พฤติกรรมผิดปกติที่ชัดเจนยิ่งขึ้นของ SCP-1048 ไม่ถูกพบเห็นจนกระทั่งประมาณเจ็ดเดือนหลังจากถูกควบคุมตัวครั้งแรก มีสมมติฐานว่าตัวอย่างสามารถสร้างแบบจำลองหยาบๆ ของตัวเองขึ้นมาได้โดยใช้วัสดุต่างๆ"
+      uk: "Більш аномальну поведінку SCP-1048 не спостерігали аж до приблизно семи місяців після його початкового захоплення. Припускають, що об'єкт здатен створювати грубі копії самого себе, використовуючи різні матеріали."
+      vi: "Hành vi dị thường rõ rệt hơn của SCP-1048 chỉ được ghi nhận khoảng bảy tháng sau khi nó được thu giữ lần đầu. Có giả thuyết cho rằng đối tượng có thể tạo ra các bản sao thô sơ của chính mình bằng nhiều loại vật liệu khác nhau."
+      zh: "SCP-1048更为异常的行为直到其最初被确保约七个月后才被观察到。据推测，该对象能够利用各种材料构建出自身的粗糙复制品。"
+      zh_Hant: "SCP-1048更為異常的行為直到其最初被確保約七個月後才被觀察到。據推測，該對象能夠利用各種材料構建出自身的粗糙複製品。"
+
+  - scene: >
+      Wide shot, full body, low angle looking down a plain institutional
+      corridor. On the left side of the frame, the attending researcher
+      pins a printed notice to a corkboard on the wall. On the right side
+      of the frame, partly hidden behind a doorway at the far end of the
+      corridor, SCP-1048 peeks around the corner, watching.
+    characters: [attending-researcher-f, scp-1048]
+    caption:
+      ja: "混同や誤認を防ぐため、テディベアをサイト24内に一切持ち込んではならない。テディベアに似た物体を発見した場合は、直ちに警備チームへ報告すること。"
+      en: "No teddy bears are to be allowed in Site 24, to prevent any confusion or mistaken identity. Any object that resembles a teddy bear is to be reported to the security team immediately."
+      cs: "V Lokaci 24 nesmí být povoleny žádné plyšové medvídky, aby se předešlo záměně či mylné identifikaci. Jakýkoli předmět připomínající plyšového medvídka musí být okamžitě nahlášen bezpečnostnímu týmu."
+      de: "In Site 24 sind keine Teddybären erlaubt, um Verwechslungen oder eine Fehlidentifikation zu verhindern. Jeder Gegenstand, der einem Teddybären ähnelt, ist umgehend dem Sicherheitsteam zu melden."
+      es: "No se permitirán osos de peluche en el Sitio 24, para evitar cualquier confusión o identificación errónea. Cualquier objeto que se asemeje a un oso de peluche debe reportarse de inmediato al equipo de seguridad."
+      fr: "Aucun ours en peluche ne doit être autorisé dans le Site 24, afin d'éviter toute confusion ou erreur d'identification. Tout objet ressemblant à un ours en peluche doit être signalé immédiatement à l'équipe de sécurité."
+      it: "Nessun orsacchiotto è ammesso all'interno del Sito 24, per evitare confusione o un'identificazione errata. Qualsiasi oggetto che assomigli a un orsacchiotto deve essere segnalato immediatamente al team di sicurezza."
+      ko: "혼동이나 오인을 방지하기 위해 사이트-24 내에는 테디베어의 반입이 일절 금지된다. 테디베어와 유사한 물체를 발견하면 즉시 보안팀에 신고해야 한다."
+      pl: "Na terenie Placówki 24 nie wolno wnosić żadnych pluszowych misiów, aby uniknąć pomyłki lub błędnej identyfikacji. Każdy przedmiot przypominający pluszowego misia należy natychmiast zgłosić zespołowi ochrony."
+      pt: "Nenhum urso de pelúcia deve ser permitido no Local 24, para evitar qualquer confusão ou identificação equivocada. Qualquer objeto que se assemelhe a um urso de pelúcia deve ser reportado imediatamente à equipe de segurança."
+      th: "ห้ามนำตุ๊กตาหมีเข้ามาในไซต์ 24 โดยเด็ดขาด เพื่อป้องกันความสับสนหรือการระบุตัวตนผิดพลาด วัตถุใดก็ตามที่มีลักษณะคล้ายตุ๊กตาหมีต้องรายงานต่อทีมรักษาความปลอดภัยทันที"
+      uk: "На території Об'єкта 24 заборонено тримати будь-яких плюшевих ведмедиків, щоб уникнути плутанини чи помилкового впізнання. Про будь-який предмет, що нагадує плюшевого ведмедика, слід негайно повідомити команду охорони."
+      vi: "Không được phép mang gấu bông vào Site 24, nhằm tránh mọi nhầm lẫn hoặc nhận dạng sai. Bất kỳ vật thể nào giống gấu bông phải được báo cáo ngay cho đội an ninh."
+      zh: "严禁将泰迪熊带入24站点，以防止混淆或错误识别。任何形似泰迪熊的物体都必须立即向安保小组报告。"
+      zh_Hant: "嚴禁將泰迪熊帶入24站點，以防止混淆或錯誤識別。任何形似泰迪熊的物體都必須立即向保安小組報告。"
+
+addendum:
+  ja: "補遺1048-1：SCP-2295はSCP-1048と類似しているが、機能はほぼ正反対である。"
+  en: "Addendum 1048-1: SCP-2295 is similar, but nearly antithetical in function, to SCP-1048."
+  cs: "Dodatek 1048-1: SCP-2295 je podobný SCP-1048, ale svou funkcí je téměř jeho protikladem."
+  de: "Anhang 1048-1: SCP-2295 ähnelt SCP-1048, ist ihm in seiner Funktion jedoch nahezu entgegengesetzt."
+  es: "Adenda 1048-1: SCP-2295 es similar a SCP-1048, pero de función casi antitética."
+  fr: "Addendum 1048-1 : SCP-2295 est similaire à SCP-1048, mais sa fonction en est presque l'antithèse."
+  it: "Addendum 1048-1: SCP-2295 è simile a SCP-1048, ma di funzione quasi antitetica."
+  ko: "부록 1048-1: SCP-2295는 SCP-1048과 유사하지만 기능적으로는 거의 정반대이다."
+  pl: "Aneks 1048-1: SCP-2295 jest podobny do SCP-1048, ale pod względem funkcji niemal jego przeciwieństwem."
+  pt: "Adendo 1048-1: O SCP-2295 é semelhante ao SCP-1048, mas de função quase antitética."
+  th: "ภาคผนวก 1048-1: SCP-2295 มีลักษณะคล้ายกับ SCP-1048 แต่มีหน้าที่เกือบจะตรงกันข้ามกัน"
+  uk: "Додаток 1048-1: SCP-2295 схожий на SCP-1048, але за функцією майже протилежний йому."
+  vi: "Phụ lục 1048-1: SCP-2295 tương tự nhưng gần như đối lập về chức năng so với SCP-1048."
+  zh: "补遗1048-1：SCP-2295与SCP-1048相似，但功能几乎完全相反。"
+  zh_Hant: "補遺1048-1：SCP-2295與SCP-1048相似，但功能幾乎完全相反。"

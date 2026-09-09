@@ -1,0 +1,143 @@
+# SCP-032 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Interview 032-A/B（亡き妻・復讐劇という重い背景設定）は本編に混ぜない。
+# キャラにセリフは言わせない。JP公式訳が直接取得できなかったため、検証済みの
+# 英語本文からの翻訳（ja含む）。
+
+id: scp-032
+
+title:
+  en: "SCP-032"
+  ja: "SCP-032"
+  cs: "SCP-032"
+  de: "SCP-032"
+  es: "SCP-032"
+  fr: "SCP-032"
+  it: "SCP-032"
+  ko: "SCP-032"
+  pl: "SCP-032"
+  pt: "SCP-032"
+  th: "SCP-032"
+  uk: "SCP-032"
+  vi: "SCP-032"
+  zh: "SCP-032"
+  zh_Hant: "SCP-032"
+
+attribution:
+  article: "SCP-032"
+  source_url: "http://scp-wiki.wikidot.com/scp-032"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-032:
+    name: SCP-032
+    description: >
+      A human simulacrum with the outward appearance of a Caucasian
+      woman in her late 20s, smooth silicone skin with a faint unnatural
+      sheen (color RGB 225,205,185), synthetic fiber hair, features that
+      look convincing from afar but subtly too smooth and static up
+      close, an ever-present neutral half-smile that never quite reaches
+      her eyes.
+
+characters: [scp-032, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing scp-032 standing
+      motionless inside an automated containment unit, an observation
+      window on one side. attending-researcher-m stands at a control
+      console outside, reviewing a readout, careful not to get too
+      close.
+    characters: [scp-032, attending-researcher-m]
+    caption:
+      ja: "SCP-032は人間の模造品であり、色素を加えたシリコン製の外殻とプラスチック繊維ポリマーで構成され、外見は白人女性の姿をしている。内部は完全に精製された油で満たされており、骨格や筋肉構造は一切存在しない。"
+      en: "SCP-032 is a human simulacrum, composed of an outer shell of pigmented silicone and plastic fiber polymers, with the outward appearance of a Caucasian woman. Its interior is composed entirely of liquid refined oil, lacking any skeletal or muscle structure."
+      cs: "SCP-032 je lidský simulakrum, tvořený vnějším pláštěm z pigmentovaného silikonu a plastových vláknitých polymerů, s vnějším vzhledem bělošské ženy. Jeho vnitřek je zcela tvořen tekutým rafinovaným olejem, bez jakékoli kosterní či svalové struktury."
+      de: "SCP-032 ist ein menschliches Simulakrum, bestehend aus einer äußeren Hülle aus pigmentiertem Silikon und Kunststofffaserpolymeren, mit dem äußeren Erscheinungsbild einer weißen Frau. Sein Inneres besteht vollständig aus flüssigem raffiniertem Öl, ohne jegliche Skelett- oder Muskelstruktur."
+      es: "SCP-032 es un simulacro humano, compuesto por una capa externa de silicona pigmentada y polímeros de fibra plástica, con la apariencia externa de una mujer caucásica. Su interior está compuesto enteramente de aceite refinado líquido, sin ninguna estructura esquelética o muscular."
+      fr: "Le SCP-032 est un simulacre humain, composé d'une coque externe en silicone pigmenté et en polymères de fibres plastiques, avec l'apparence extérieure d'une femme caucasienne. Son intérieur est entièrement composé d'huile raffinée liquide, sans aucune structure squelettique ou musculaire."
+      it: "SCP-032 è un simulacro umano, composto da un guscio esterno in silicone pigmentato e polimeri in fibra plastica, con l'aspetto esteriore di una donna caucasica. Il suo interno è composto interamente da olio raffinato liquido, privo di qualsiasi struttura scheletrica o muscolare."
+      ko: "SCP-032은 인간 모조물로, 안료가 첨가된 실리콘 외피와 플라스틱 섬유 폴리머로 구성되어 있으며, 겉모습은 백인 여성으로 보인다. 내부는 완전히 정제된 액체 기름으로 이루어져 있으며, 골격이나 근육 구조는 전혀 없다."
+      pl: "SCP-032 to ludzkie symulakrum, zbudowane z zewnętrznej powłoki pigmentowanego silikonu i polimerów włókien plastikowych, o zewnętrznym wyglądzie białej kobiety. Jego wnętrze składa się wyłącznie z ciekłego rafinowanego oleju, bez żadnej struktury szkieletowej czy mięśniowej."
+      pt: "O SCP-032 é um simulacro humano, composto por uma casca externa de silicone pigmentado e polímeros de fibra plástica, com a aparência externa de uma mulher caucasiana. Seu interior é composto inteiramente de óleo refinado líquido, sem qualquer estrutura esquelética ou muscular."
+      th: "SCP-032 คือสิ่งจำลองมนุษย์ ประกอบด้วยเปลือกนอกซิลิโคนที่มีสีสันและพอลิเมอร์เส้นใยพลาสติก โดยมีลักษณะภายนอกเป็นผู้หญิงผิวขาว ภายในประกอบด้วยน้ำมันกลั่นเหลวทั้งหมด ไม่มีโครงกระดูกหรือโครงสร้างกล้ามเนื้อใดๆ"
+      uk: "SCP-032 — це людський симулякр, що складається із зовнішньої оболонки з пігментованого силікону та пластикових волоконних полімерів, із зовнішнім виглядом білої жінки. Його нутро повністю складається з рідкої рафінованої олії, без жодної скелетної чи м'язової структури."
+      vi: "SCP-032 là một mô hình giả người, được cấu tạo từ lớp vỏ ngoài bằng silicone có sắc tố và các polymer sợi nhựa, với hình dáng bên ngoài của một phụ nữ da trắng. Bên trong nó hoàn toàn được cấu tạo từ dầu tinh luyện dạng lỏng, không có bất kỳ cấu trúc xương hay cơ nào."
+      zh: "SCP-032是一个人形拟态体，由带色素的硅胶外壳和塑料纤维聚合物构成，外观呈现为一名白人女性。其内部完全由精炼液态油组成，没有任何骨骼或肌肉结构。"
+      zh_Hant: "SCP-032是一個人形擬態體，由帶色素的矽膠外殼和塑膠纖維聚合物構成，外觀呈現為一名白人女性。其內部完全由精煉液態油組成，沒有任何骨骼或肌肉結構。"
+
+  - scene: >
+      Close-up, filling most of the frame, a very different framing from
+      the wide establishing shot, on scp-032's face, features technically
+      correct but subtly waxy and static, a faint uncanny stillness.
+      attending-researcher-f leans in slightly at the edge of the frame,
+      visibly recoiling with mild discomfort.
+    characters: [scp-032, attending-researcher-f]
+    caption:
+      ja: "SCP-032は中程度の距離であれば人間らしさの錯覚を保つことができるが、より近い距離になると説得力を失い、大半の観察者に軽い不快感を引き起こす。"
+      en: "SCP-032 is capable of maintaining the illusion of humanity at a moderate distance, but becomes unconvincing at a closer range, causing mild discomfort in most observers."
+      cs: "SCP-032 dokáže na střední vzdálenost udržet iluzi lidskosti, ale při bližším pohledu působí nepřesvědčivě, což u většiny pozorovatelů vyvolává mírnou nepříjemnost."
+      de: "SCP-032 ist in der Lage, die Illusion der Menschlichkeit auf mittlere Entfernung aufrechtzuerhalten, wirkt jedoch auf näherer Distanz unglaubwürdig, was bei den meisten Beobachtern leichtes Unbehagen hervorruft."
+      es: "SCP-032 es capaz de mantener la ilusión de humanidad a una distancia moderada, pero se vuelve poco convincente de cerca, causando una leve incomodidad en la mayoría de los observadores."
+      fr: "Le SCP-032 est capable de maintenir l'illusion d'humanité à une distance modérée, mais devient peu convaincant de plus près, provoquant un léger malaise chez la plupart des observateurs."
+      it: "SCP-032 è in grado di mantenere l'illusione di umanità a distanza moderata, ma diventa poco convincente a distanza ravvicinata, causando lieve disagio nella maggior parte degli osservatori."
+      ko: "SCP-032은 적당한 거리에서는 인간이라는 착각을 유지할 수 있지만, 더 가까운 거리에서는 설득력을 잃어 대부분의 관찰자에게 가벼운 불쾌감을 유발한다."
+      pl: "SCP-032 jest w stanie utrzymać iluzję człowieczeństwa z umiarkowanej odległości, ale z bliska staje się mało przekonujące, wywołując lekki dyskomfort u większości obserwatorów."
+      pt: "O SCP-032 é capaz de manter a ilusão de humanidade a uma distância moderada, mas se torna pouco convincente a uma distância mais próxima, causando leve desconforto na maioria dos observadores."
+      th: "SCP-032 สามารถรักษาภาพลวงตาของความเป็นมนุษย์ได้ในระยะปานกลาง แต่จะดูไม่น่าเชื่อถือเมื่อเข้าใกล้ ทำให้ผู้สังเกตการณ์ส่วนใหญ่รู้สึกไม่สบายใจเล็กน้อย"
+      uk: "SCP-032 здатний підтримувати ілюзію людяності на помірній відстані, але стає непереконливим зблизька, викликаючи легкий дискомфорт у більшості спостерігачів."
+      vi: "SCP-032 có khả năng duy trì ảo giác giống con người ở khoảng cách vừa phải, nhưng trở nên kém thuyết phục khi ở gần hơn, gây khó chịu nhẹ cho hầu hết người quan sát."
+      zh: "SCP-032能够在中等距离下维持人类的假象，但在近距离下就变得不再逼真，令大多数观察者感到轻微不适。"
+      zh_Hant: "SCP-032能夠在中等距離下維持人類的假象，但在近距離下就變得不再逼真，令大多數觀察者感到輕微不適。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show a corridor
+      lined with potted plants, a very different framing from the
+      close-up before. scp-032 walks calmly down the middle of the
+      corridor, and every plant along her path droops and wilts
+      instantly as she passes. attending-researcher-m follows a few
+      steps behind, unaffected, coffee mug still in hand.
+    characters: [scp-032, attending-researcher-m]
+    caption:
+      ja: "SCP-032の存在は、近くにいる生物——人間によって作られたり影響を受けたりしていないもの——のエネルギー交換・利用能力に、重大かつ不可逆的な損傷を与える。野生の植物は光合成を行う能力を失う。"
+      en: "SCP-032's presence causes severe and irreparable damage to the ability of nearby living organisms — not created or influenced by humanity — to exchange or use energy: wild flora loses its ability to photosynthesize."
+      cs: "Přítomnost SCP-032 způsobuje závažné a nenapravitelné poškození schopnosti blízkých živých organismů – nikoli vytvořených nebo ovlivněných lidstvem – vyměňovat nebo využívat energii: divoká flóra ztrácí schopnost fotosyntézy."
+      de: "Die Anwesenheit von SCP-032 verursacht schwere und irreparable Schäden an der Fähigkeit nahegelegener lebender Organismen – nicht von der Menschheit geschaffen oder beeinflusst – Energie auszutauschen oder zu nutzen: wilde Flora verliert ihre Fähigkeit zur Photosynthese."
+      es: "La presencia de SCP-032 causa daños severos e irreparables en la capacidad de los organismos vivos cercanos —no creados ni influenciados por la humanidad— para intercambiar o utilizar energía: la flora silvestre pierde su capacidad de fotosíntesis."
+      fr: "La présence du SCP-032 cause des dommages graves et irréparables à la capacité des organismes vivants à proximité — non créés ni influencés par l'humanité — d'échanger ou d'utiliser de l'énergie : la flore sauvage perd sa capacité de photosynthèse."
+      it: "La presenza di SCP-032 provoca danni gravi e irreparabili alla capacità degli organismi viventi nelle vicinanze — non creati o influenzati dall'umanità — di scambiare o utilizzare energia: la flora selvatica perde la capacità di fotosintesi."
+      ko: "SCP-032의 존재는 인근의 생물체——인류가 만들거나 영향을 미치지 않은——의 에너지 교환 또는 사용 능력에 심각하고 회복 불가능한 손상을 일으킨다: 야생 식물은 광합성 능력을 상실한다."
+      pl: "Obecność SCP-032 powoduje poważne i nieodwracalne uszkodzenie zdolności pobliskich żywych organizmów — nie stworzonych ani nienaśladowanych przez ludzkość — do wymiany lub wykorzystywania energii: dzika flora traci zdolność fotosyntezy."
+      pt: "A presença do SCP-032 causa danos graves e irreparáveis à capacidade de organismos vivos próximos — não criados ou influenciados pela humanidade — de trocar ou usar energia: a flora selvagem perde a capacidade de fotossíntese."
+      th: "การมีอยู่ของ SCP-032 ก่อให้เกิดความเสียหายรุนแรงและไม่สามารถแก้ไขได้ต่อความสามารถของสิ่งมีชีวิตใกล้เคียง — ที่ไม่ได้ถูกสร้างหรือได้รับอิทธิพลจากมนุษยชาติ — ในการแลกเปลี่ยนหรือใช้พลังงาน: พืชป่าจะสูญเสียความสามารถในการสังเคราะห์แสง"
+      uk: "Присутність SCP-032 завдає серйозної та непоправної шкоди здатності живих організмів поблизу — не створених чи не пов'язаних із людством — обмінюватися чи використовувати енергію: дика флора втрачає здатність до фотосинтезу."
+      vi: "Sự hiện diện của SCP-032 gây ra thiệt hại nghiêm trọng và không thể khắc phục đối với khả năng trao đổi hoặc sử dụng năng lượng của các sinh vật sống gần đó — không do con người tạo ra hoặc chịu ảnh hưởng của con người: thực vật hoang dã mất khả năng quang hợp."
+      zh: "SCP-032的存在会对附近的生物——那些并非由人类创造或受人类影响的生物——交换或利用能量的能力造成严重且不可逆的损害：野生植物会失去光合作用的能力。"
+      zh_Hant: "SCP-032的存在會對附近的生物——那些並非由人類創造或受人類影響的生物——交換或利用能量的能力造成嚴重且不可逆的損害：野生植物會失去光合作用的能力。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a plain interview room, a
+      different framing from the corridor shot before.
+      attending-researcher-f holds out a folded blanket toward scp-032,
+      polite but slightly awkward. scp-032 sits perfectly still with
+      hands folded, a faint permanent unbothered half-smile, making no
+      move to accept it.
+    characters: [attending-researcher-f, scp-032]
+    caption:
+      ja: "SCP-032は物資やその他の慰安を必要とせず、要求したこともない。"
+      en: "SCP-032 neither requires nor requested substances or other forms of comfort."
+      cs: "SCP-032 nevyžaduje ani nepožadovalo látky nebo jiné formy pohodlí."
+      de: "SCP-032 benötigt weder Substanzen oder andere Formen von Komfort, noch hat es solche jemals angefordert."
+      es: "SCP-032 no necesita ni ha solicitado sustancias ni otras formas de comodidad."
+      fr: "Le SCP-032 n'a besoin d'aucune substance ni d'autre forme de confort, et n'en a jamais demandé."
+      it: "SCP-032 non necessita né ha richiesto sostanze o altre forme di conforto."
+      ko: "SCP-032은 물질이나 다른 형태의 편의를 필요로 하지도, 요청하지도 않았다."
+      pl: "SCP-032 nie potrzebuje ani nie prosiło o substancje czy inne formy wygody."
+      pt: "O SCP-032 não precisa nem solicitou substâncias ou outras formas de conforto."
+      th: "SCP-032 ไม่ต้องการหรือร้องขอสารหรือความสะดวกสบายรูปแบบอื่นใด"
+      uk: "SCP-032 не потребує і не запитувало жодних речовин чи інших форм комфорту."
+      vi: "SCP-032 không cần cũng như không yêu cầu bất kỳ chất nào hoặc các hình thức tiện nghi khác."
+      zh: "SCP-032既不需要也从未要求过任何物资或其他形式的安慰。"
+      zh_Hant: "SCP-032既不需要也從未要求過任何物資或其他形式的安慰。"

@@ -1,0 +1,156 @@
+# SCP-070 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 負傷時の苦痛描写・攻撃的行動の描写は使用しない。addendumはIncident 070-1
+# （夢遊病で食堂を襲撃した無害な逸話）のみ1行で使用。キャラにセリフは言わせない。
+
+id: scp-070
+
+title:
+  en: "SCP-070"
+  ja: "SCP-070"
+  cs: "SCP-070"
+  de: "SCP-070"
+  es: "SCP-070"
+  fr: "SCP-070"
+  it: "SCP-070"
+  ko: "SCP-070"
+  pl: "SCP-070"
+  pt: "SCP-070"
+  th: "SCP-070"
+  uk: "SCP-070"
+  vi: "SCP-070"
+  zh: "SCP-070"
+  zh_Hant: "SCP-070"
+
+attribution:
+  article: "SCP-070"
+  source_url: "http://scp-wiki.wikidot.com/scp-070"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-070:
+    name: "SCP-070"
+    description: >
+      A human man with an otherwise ordinary appearance, but with a
+      pair of large rusty iron "wings" emerging from his back — each
+      wing made of flat articulated iron bars (rusty brown-orange,
+      color RGB 120,70,40) over two meters long, hung with many chains
+      ending in barbed arrowhead tips.
+
+characters: [scp-070, attending-researcher-f, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, showing the whole plain containment room.
+      SCP-070 stands facing forward, his rusty iron wings spread
+      slightly behind him, rows of chains with barbed arrowhead tips
+      hanging down.
+    characters: [scp-070]
+    caption:
+      ja: "SCP-070は人間の男性であり、背中から生えた一対の錆びた金属製の「翼」を除けば、外見はごく普通である。この骨組みからはさまざまな長さの鎖が下がっており、各翼に22本ずつ、それぞれの先端には返しのついた矢尻が付いている。"
+      en: "SCP-070 appears to be a human male, with a normal appearance save for a pair of rusty metal 'wings' emerging from his back. Hanging from these bars are chains of various lengths, twenty-two on each wing, each tipped with a barbed arrowhead."
+      cs: "SCP-070 vypadá jako lidský muž, jehož vzhled je zcela normální, až na pár rezavých kovových „křídel“ vystupujících z jeho zad. Z těchto tyčí visí řetězy různé délky, dvacet dva na každém křídle, přičemž každý je zakončen ostnatým hrotem šípu."
+      de: "SCP-070 erscheint als menschlicher Mann mit ansonsten normalem Erscheinungsbild, abgesehen von einem Paar rostiger Metall-„Flügel“, die aus seinem Rücken herausragen. An diesen Stäben hängen Ketten unterschiedlicher Länge, zweiundzwanzig an jedem Flügel, jede mit einer Widerhaken-Pfeilspitze versehen."
+      es: "SCP-070 parece ser un hombre humano, de apariencia normal salvo por un par de 'alas' de metal oxidado que emergen de su espalda. De estas barras cuelgan cadenas de diversas longitudes, veintidós en cada ala, cada una rematada con una punta de flecha con púas."
+      fr: "Le SCP-070 semble être un homme, d'apparence normale à l'exception d'une paire d'« ailes » de métal rouillé émergeant de son dos. À ces barres sont suspendues des chaînes de longueurs variées, vingt-deux sur chaque aile, chacune terminée par une pointe de flèche barbelée."
+      it: "SCP-070 sembra essere un uomo, dall'aspetto normale a eccezione di un paio di 'ali' di metallo arrugginito che emergono dalla sua schiena. Da queste barre pendono catene di varie lunghezze, ventidue per ogni ala, ciascuna terminante con una punta di freccia uncinata."
+      ko: "SCP-070은 인간 남성으로 보이며, 등에서 돋아난 한 쌍의 녹슨 금속 '날개'를 제외하면 외견은 정상이다. 이 뼈대에는 다양한 길이의 사슬이 매달려 있으며, 각 날개마다 22개씩, 끝에는 미늘이 달린 화살촉이 달려 있다."
+      pl: "SCP-070 wygląda jak mężczyzna, o normalnym wyglądzie, z wyjątkiem pary zardzewiałych metalowych „skrzydeł” wyrastających z jego pleców. Z tych prętów zwisają łańcuchy o różnej długości, dwadzieścia dwa na każdym skrzydle, z których każdy zakończony jest zadziorowym grotem strzały."
+      pt: "O SCP-070 parece ser um homem, de aparência normal, exceto por um par de 'asas' de metal enferrujado que emergem de suas costas. Dessas hastes pendem correntes de vários comprimentos, vinte e duas em cada asa, cada uma com uma ponta de flecha farpada."
+      th: "SCP-070 มีลักษณะเหมือนชายมนุษย์ ที่มีรูปลักษณ์ปกติ ยกเว้น 'ปีก' โลหะสนิมเขรอะคู่หนึ่งที่งอกออกมาจากหลังของเขา จากแท่งเหล่านี้มีโซ่ความยาวต่างๆ ห้อยอยู่ ข้างละยี่สิบสองเส้น แต่ละเส้นมีปลายเป็นหัวลูกศรมีเงี่ยง"
+      uk: "SCP-070 виглядає як людина чоловічої статі, зі звичайною зовнішністю, за винятком пари іржавих металевих «крил», що виступають зі спини. З цих прутів звисають ланцюги різної довжини — по двадцять два на кожному крилі, кожен закінчується зазубреним наконечником стріли."
+      vi: "SCP-070 trông giống một người đàn ông, với ngoại hình bình thường ngoại trừ một cặp 'cánh' kim loại gỉ sét mọc ra từ lưng. Treo trên các thanh này là các dây xích với độ dài khác nhau, hai mươi hai dây trên mỗi cánh, mỗi dây có đầu là một mũi tên có ngạnh."
+      zh: "SCP-070外表看起来是一名男性人类，外貌正常，唯有背后长出一对锈迹斑斑的金属「翅膀」。这些骨架上悬挂着长短不一的锁链，每侧翅膀各22条，链端皆装有带倒钩的箭头。"
+      zh_Hant: "SCP-070外表看起來是一名男性人類，外貌正常，唯有背後長出一對鏽跡斑斑的金屬「翅膀」。這些骨架上懸掛著長短不一的鎖鏈，每側翅膀各22條，鏈端皆裝有帶倒鉤的箭頭。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the wide shot
+      before. SCP-070 stands with arms crossed and an exasperated,
+      resigned expression, while behind him his wing-chains twitch and
+      coil restlessly on their own, clearly acting independently of him.
+    characters: [scp-070]
+    caption:
+      ja: "SCP-070の翼は、それが付いている本人とは無関係に動いているようであり、SCP-070自身も自分にはそれを制御できないと繰り返し証言している。"
+      en: "The wings of SCP-070 appear to act independently of the person they are attached to, and SCP-070 has stated repeatedly that it has no control over them."
+      cs: "Zdá se, že křídla SCP-070 jednají nezávisle na osobě, ke které jsou připojena, a SCP-070 opakovaně prohlásilo, že nad nimi nemá žádnou kontrolu."
+      de: "Die Flügel von SCP-070 scheinen unabhängig von der Person zu agieren, an der sie befestigt sind, und SCP-070 hat wiederholt erklärt, keine Kontrolle über sie zu haben."
+      es: "Las alas del SCP-070 parecen actuar de forma independiente de la persona a la que están unidas, y el SCP-070 ha declarado repetidamente que no tiene control sobre ellas."
+      fr: "Les ailes du SCP-070 semblent agir indépendamment de la personne à laquelle elles sont rattachées, et le SCP-070 a déclaré à plusieurs reprises qu'il n'avait aucun contrôle sur elles."
+      it: "Le ali di SCP-070 sembrano agire in modo indipendente dalla persona a cui sono attaccate, e SCP-070 ha dichiarato ripetutamente di non avere alcun controllo su di esse."
+      ko: "SCP-070의 날개는 그것이 붙어 있는 본인과 무관하게 움직이는 것으로 보이며, SCP-070 본인도 그것을 전혀 통제할 수 없다고 거듭 진술했다."
+      pl: "Skrzydła SCP-070 wydają się działać niezależnie od osoby, do której są przyczepione, a SCP-070 wielokrotnie oświadczało, że nie ma nad nimi żadnej kontroli."
+      pt: "As asas do SCP-070 parecem agir independentemente da pessoa a quem estão presas, e o SCP-070 declarou repetidamente que não tem controle sobre elas."
+      th: "ปีกของ SCP-070 ดูเหมือนจะทำงานเป็นอิสระจากตัวบุคคลที่มันติดอยู่ด้วย และ SCP-070 เองก็ยืนยันซ้ำแล้วซ้ำเล่าว่าตนไม่สามารถควบคุมมันได้"
+      uk: "Крила SCP-070, здається, діють незалежно від людини, до якої вони прикріплені, і SCP-070 неодноразово заявляв, що не має над ними жодного контролю."
+      vi: "Đôi cánh của SCP-070 dường như hoạt động độc lập với người mà chúng gắn liền, và SCP-070 đã nhiều lần khẳng định rằng anh ta không có quyền kiểm soát chúng."
+      zh: "SCP-070的翅膀似乎与所依附的本人各自独立行动，而SCP-070本人也反复表示自己完全无法控制它们。"
+      zh_Hant: "SCP-070的翅膀似乎與所依附的本人各自獨立行動，而SCP-070本人也反覆表示自己完全無法控制它們。"
+
+  - scene: >
+      Wide shot, low angle looking up, a different framing from the
+      medium shot before. SCP-070 hangs anchored near the ceiling of
+      his cell by several arrowhead-tipped chains driven into the
+      concrete, suspended peacefully like a hammock, apparently sedated
+      and asleep. Below, attending-researcher-f looks up at him with a
+      clipboard.
+    characters: [scp-070, attending-researcher-f]
+    caption:
+      ja: "錆びた外見にもかかわらず、SCP-070の翼と鎖は高品質な合金鋼に匹敵する強度を持つ。しかし同時に鋼と同じ密度でもあるため、SCP-070はその重量のせいで通常の人間のように動くことができない。SCP-070はその時間の多くを、収容房の壁や天井に固定されたまま、たいてい鎮静された状態で過ごしている。"
+      en: "Despite their rusted appearance, the wings and chains of SCP-070 are as strong as high-quality alloy steel. However, they are also as dense as steel, and SCP-070 cannot move about as a normal human due to the weight of its wings. SCP-070 spends much of its time anchored to the walls and ceiling of its containment cell, usually sedated."
+      cs: "Navzdory svému rezavému vzhledu jsou křídla a řetězy SCP-070 stejně pevné jako vysoce kvalitní legovaná ocel. Jsou však také stejně husté jako ocel, a SCP-070 se kvůli hmotnosti svých křídel nemůže pohybovat jako běžný člověk. SCP-070 tráví většinu času ukotveno ke stěnám a stropu své cely, obvykle pod sedativy."
+      de: "Trotz ihres verrosteten Erscheinungsbilds sind die Flügel und Ketten von SCP-070 so stark wie hochwertiger Legierungsstahl. Sie sind jedoch auch ebenso dicht wie Stahl, sodass sich SCP-070 aufgrund des Gewichts seiner Flügel nicht wie ein normaler Mensch fortbewegen kann. SCP-070 verbringt einen Großteil seiner Zeit an den Wänden und der Decke seiner Zelle verankert, meist sediert."
+      es: "A pesar de su apariencia oxidada, las alas y cadenas del SCP-070 son tan resistentes como el acero de aleación de alta calidad. Sin embargo, también son tan densas como el acero, y el SCP-070 no puede moverse como un humano normal debido al peso de sus alas. El SCP-070 pasa gran parte de su tiempo anclado a las paredes y el techo de su celda de contención, generalmente sedado."
+      fr: "Malgré leur aspect rouillé, les ailes et les chaînes du SCP-070 sont aussi résistantes qu'un acier allié de haute qualité. Cependant, elles sont également aussi denses que l'acier, et le SCP-070 ne peut pas se déplacer comme un humain normal en raison du poids de ses ailes. Le SCP-070 passe une grande partie de son temps ancré aux murs et au plafond de sa cellule de confinement, généralement sous sédatifs."
+      it: "Nonostante il loro aspetto arrugginito, le ali e le catene di SCP-070 sono resistenti quanto un acciaio legato di alta qualità. Tuttavia, sono anche dense quanto l'acciaio, e SCP-070 non può muoversi come un normale essere umano a causa del peso delle sue ali. SCP-070 trascorre gran parte del suo tempo ancorato alle pareti e al soffitto della sua cella di contenimento, solitamente sedato."
+      ko: "녹슨 외관에도 불구하고 SCP-070의 날개와 사슬은 고품질 합금강만큼이나 강도가 높다. 그러나 동시에 강철만큼이나 밀도도 높아서, SCP-070은 그 날개의 무게 때문에 일반인처럼 움직일 수 없다. SCP-070은 대부분의 시간을 수용실의 벽과 천장에 고정된 채, 대개 진정 상태로 보낸다."
+      pl: "Pomimo zardzewiałego wyglądu, skrzydła i łańcuchy SCP-070 są tak wytrzymałe jak wysokiej jakości stal stopowa. Są jednak również tak gęste jak stal, przez co SCP-070 nie może poruszać się jak zwykły człowiek z powodu ciężaru swoich skrzydeł. SCP-070 spędza większość czasu zakotwiczone do ścian i sufitu swojej celi, zwykle pod wpływem środków uspokajających."
+      pt: "Apesar de sua aparência enferrujada, as asas e correntes do SCP-070 são tão resistentes quanto aço de liga de alta qualidade. No entanto, também são tão densas quanto o aço, e o SCP-070 não consegue se mover como um humano normal devido ao peso de suas asas. O SCP-070 passa grande parte do tempo ancorado às paredes e ao teto de sua cela de contenção, geralmente sedado."
+      th: "แม้จะมีลักษณะเป็นสนิม แต่ปีกและโซ่ของ SCP-070 แข็งแรงเทียบเท่าเหล็กกล้าผสมคุณภาพสูง อย่างไรก็ตาม มันก็มีความหนาแน่นเทียบเท่าเหล็กเช่นกัน ทำให้ SCP-070 ไม่สามารถเคลื่อนไหวได้เหมือนมนุษย์ทั่วไปเนื่องจากน้ำหนักของปีก SCP-070 ใช้เวลาส่วนใหญ่ยึดติดอยู่กับผนังและเพดานของห้องกักกัน โดยมักอยู่ในสภาพถูกให้ยาระงับประสาท"
+      uk: "Попри іржавий вигляд, крила та ланцюги SCP-070 такі ж міцні, як високоякісна легована сталь. Проте вони також такі ж щільні, як сталь, тож SCP-070 не може пересуватися як звичайна людина через вагу своїх крил. SCP-070 проводить більшість часу закріпленим до стін і стелі своєї камери, зазвичай під седацією."
+      vi: "Mặc dù trông gỉ sét, cánh và xích của SCP-070 chắc chắn không kém thép hợp kim chất lượng cao. Tuy nhiên, chúng cũng đặc như thép, và SCP-070 không thể di chuyển như một người bình thường do trọng lượng của đôi cánh. SCP-070 dành phần lớn thời gian neo mình vào tường và trần phòng giam, thường trong trạng thái bị an thần."
+      zh: "尽管外表锈迹斑斑，SCP-070的翅膀与锁链的强度堪比优质合金钢。然而它们的密度也与钢铁相当，导致SCP-070因翅膀的重量而无法像正常人一样行动。SCP-070大部分时间都被锚定在收容室的墙壁与天花板上，通常处于镇静状态。"
+      zh_Hant: "儘管外表鏽跡斑斑，SCP-070的翅膀與鎖鏈的強度堪比優質合金鋼。然而它們的密度也與鋼鐵相當，導致SCP-070因翅膀的重量而無法像正常人一樣行動。SCP-070大部分時間都被錨定在收容室的牆壁與天花板上，通常處於鎮靜狀態。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the low-angle
+      shot before, at the containment room's entrance. attending-
+      researcher-m stands in bulky puncture-resistant body armor,
+      visibly unarmed, about to step through the doorway. Behind him
+      in the corridor, an armed guard holding a sticky-foam gun waits
+      just out of sight of the cell inside.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "いかなる理由であれSCP-070の収容房に入る職員は非武装でなければならず、耐貫通性の防護服を着用すべきである。武装警備員はSCP-070の視界に入らない収容房の外に留まり、通常の武器に加えて粘着フォーム銃を携行すること。"
+      en: "Personnel who enter SCP-070's containment room for any reason must be unarmed and should wear puncture-resistant body armor. Armed guards must remain outside and out of sight of SCP-070, and are to carry sticky-foam guns in addition to standard armaments."
+      cs: "Personál, který vstupuje do kobky SCP-070 z jakéhokoli důvodu, musí být neozbrojen a měl by nosit brnění odolné proti propíchnutí. Ozbrojení strážní musí zůstat venku, mimo dohled SCP-070, a kromě standardní výzbroje musí nosit zbraně na lepivou pěnu."
+      de: "Personal, das aus irgendeinem Grund den Zellenraum von SCP-070 betritt, muss unbewaffnet sein und stichfeste Körperpanzerung tragen. Bewaffnete Wachen müssen außerhalb und außer Sichtweite von SCP-070 bleiben und zusätzlich zur Standardausrüstung Klebeschaumwaffen mit sich führen."
+      es: "El personal que ingrese a la sala de contención del SCP-070 por cualquier motivo debe estar desarmado y usar armadura corporal resistente a perforaciones. Los guardias armados deben permanecer fuera y fuera de la vista del SCP-070, y deben llevar pistolas de espuma adhesiva además del armamento estándar."
+      fr: "Le personnel qui entre dans la salle de confinement du SCP-070 pour quelque raison que ce soit doit être désarmé et porter une armure corporelle résistante à la perforation. Les gardes armés doivent rester à l'extérieur et hors de vue du SCP-070, et doivent porter des pistolets à mousse adhésive en plus de l'armement standard."
+      it: "Il personale che entra nella stanza di contenimento di SCP-070 per qualsiasi motivo deve essere disarmato e indossare un'armatura resistente alla perforazione. Le guardie armate devono rimanere all'esterno e fuori dalla vista di SCP-070, e devono portare pistole a schiuma adesiva oltre all'armamento standard."
+      ko: "어떤 이유로든 SCP-070의 수용실에 들어가는 직원은 비무장 상태여야 하며 관통 방지 방탄복을 착용해야 한다. 무장 경비원은 SCP-070의 시야 밖 수용실 외부에 대기해야 하며, 표준 무장 외에 접착 폼 총을 휴대해야 한다."
+      pl: "Personel wchodzący do celi SCP-070 z jakiegokolwiek powodu musi być nieuzbrojony i powinien nosić pancerz odporny na przebicie. Uzbrojeni strażnicy muszą pozostać na zewnątrz, poza zasięgiem wzroku SCP-070, i mają nosić przy sobie broń wystrzeliwującą lepką piankę oprócz standardowego uzbrojenia."
+      pt: "O pessoal que entrar na sala de contenção do SCP-070 por qualquer motivo deve estar desarmado e usar armadura corporal resistente a perfuração. Guardas armados devem permanecer do lado de fora e fora da vista do SCP-070, e devem portar armas de espuma adesiva além do armamento padrão."
+      th: "เจ้าหน้าที่ที่เข้าไปในห้องกักกันของ SCP-070 ไม่ว่าด้วยเหตุผลใดก็ตาม ต้องไม่พกอาวุธและควรสวมชุดเกราะป้องกันการเจาะทะลุ ยามติดอาวุธต้องอยู่ภายนอกและอยู่นอกสายตาของ SCP-070 และต้องพกปืนยิงโฟมเหนียวเพิ่มเติมนอกเหนือจากอาวุธมาตรฐาน"
+      uk: "Персонал, який заходить до кімнати утримання SCP-070 з будь-якої причини, повинен бути неозброєним і носити бронежилет, стійкий до проколів. Озброєна охорона повинна залишатися зовні, поза полем зору SCP-070, і мати при собі зброю з липкою піною на додаток до стандартного озброєння."
+      vi: "Nhân viên vào phòng giam giữ SCP-070 vì bất kỳ lý do gì đều phải không mang vũ khí và nên mặc áo giáp chống đâm thủng. Lính gác có vũ trang phải ở bên ngoài và ngoài tầm nhìn của SCP-070, đồng thời phải mang theo súng bọt dính ngoài vũ khí tiêu chuẩn."
+      zh: "无论出于何种原因进入SCP-070收容室的人员，都必须不携带武器，并应穿着防刺穿护甲。武装警卫必须留在室外、位于SCP-070视线之外，并须在标准武装之外携带黏胶泡沫枪。"
+      zh_Hant: "無論出於何種原因進入SCP-070收容室的人員，都必須不攜帶武器，並應穿著防刺穿護甲。武裝警衛必須留在室外、位於SCP-070視線之外，並須在標準武裝之外攜帶黏膠泡沫槍。"
+
+addendum:
+  ja: "補遺：夢遊病による収容違反の際、SCP-070は自らの鎖を使って移動し、施設の食堂までたどり着くと、19分間にわたって食べられるものをすべて平らげ、眠ったままの状態で自室に戻った。事後、本人はこの出来事を一切覚えていなかった。"
+  en: "Addendum: During a sleepwalking containment breach, SCP-070 used its chains to carry itself to the site canteen, ate everything available for nineteen minutes, then returned to its cell still asleep — and had no memory of the incident afterward."
+  cs: "Dodatek: Během narušení kontejnmentu způsobeného náměsíčností se SCP-070 pomocí svých řetězů přesunulo do jídelny areálu, devatenáct minut se cpalo vším dostupným jídlem a poté se stále spící vrátilo do své cely — a po probuzení si na tuto událost vůbec nevzpomínalo."
+  de: "Anhang: Während eines durch Schlafwandeln verursachten Containment-Verstoßes benutzte SCP-070 seine Ketten, um sich zur Standortkantine zu tragen, aß dort neunzehn Minuten lang alles Verfügbare und kehrte anschließend noch immer schlafend in seine Zelle zurück — und erinnerte sich danach an nichts von dem Vorfall."
+  es: "Adenda: Durante una brecha de contención provocada por sonambulismo, el SCP-070 usó sus cadenas para trasladarse hasta el comedor del sitio, devoró todo lo disponible durante diecinueve minutos y luego regresó a su celda, aún dormido, sin recordar nada del incidente al despertar."
+  fr: "Addendum : Lors d'une brèche de confinement due au somnambulisme, le SCP-070 a utilisé ses chaînes pour se transporter jusqu'à la cantine du site, a englouti tout ce qui était disponible pendant dix-neuf minutes, puis est retourné dans sa cellule toujours endormi — et n'a gardé aucun souvenir de l'incident par la suite."
+  it: "Addendum: Durante una violazione del contenimento dovuta al sonnambulismo, SCP-070 ha usato le sue catene per trasportarsi fino alla mensa del sito, ha divorato tutto ciò che era disponibile per diciannove minuti, per poi tornare nella sua cella ancora addormentato — e non ha conservato alcun ricordo dell'accaduto."
+  ko: "부록: 몽유병으로 인한 수용 위반 중, SCP-070은 자신의 사슬을 이용해 시설 식당까지 이동한 뒤, 19분 동안 있는 음식을 모조리 먹어치우고, 여전히 잠든 채로 방으로 돌아갔다 — 이후 그는 그 사건을 전혀 기억하지 못했다."
+  pl: "Aneks: Podczas naruszenia kontenmentu spowodowanego lunatykowaniem, SCP-070 użyło swoich łańcuchów, by przenieść się do stołówki ośrodka, przez dziewiętnaście minut pożerało wszystko, co dostępne, po czym wróciło do celi wciąż pogrążone we śnie — i po przebudzeniu nie pamiętało zdarzenia."
+  pt: "Adendo: Durante uma violação de contenção causada por sonambulismo, o SCP-070 usou suas correntes para se transportar até o refeitório do local, devorou tudo o que estava disponível por dezenove minutos e depois retornou à sua cela ainda dormindo — e não se lembrava do incidente depois."
+  th: "ภาคผนวก: ระหว่างการฝ่าฝืนการกักกันจากอาการเดินละเมอ SCP-070 ใช้โซ่ของมันพาตัวเองไปยังโรงอาหารของสถานที่ กินทุกอย่างที่มีอยู่เป็นเวลาสิบเก้านาที จากนั้นก็กลับไปยังห้องขังของมันโดยยังคงหลับอยู่ — และไม่มีความทรงจำใดๆ เกี่ยวกับเหตุการณ์นี้เลยหลังจากนั้น"
+  uk: "Додаток: Під час порушення утримання через сомнамбулізм SCP-070 використав свої ланцюги, щоб дістатися до їдальні об'єкта, дев'ятнадцять хвилин поїдав усе доступне, а потім повернувся до своєї камери, все ще сплячи — і згодом не мав жодних спогадів про цей інцидент."
+  vi: "Phụ lục: Trong một vụ vi phạm kiểm soát do mộng du, SCP-070 đã dùng xích của mình để tự di chuyển đến căng-tin của cơ sở, ăn sạch mọi thứ có sẵn trong mười chín phút, rồi quay trở lại phòng giam trong khi vẫn đang ngủ — và không còn nhớ gì về sự việc sau đó."
+  zh: "补遗：在一次因梦游引发的收容突破事件中，SCP-070利用自己的锁链将自己带到了基地食堂，花了十九分钟把能吃的东西全部吃光，随后仍在熟睡中返回了自己的囚室——事后他对这起事件毫无记忆。"
+  zh_Hant: "補遺：在一次因夢遊引發的收容突破事件中，SCP-070利用自己的鎖鏈將自己帶到了基地食堂，花了十九分鐘把能吃的東西全部吃光，隨後仍在熟睡中返回了自己的囚室——事後他對這起事件毫無記憶。"

@@ -1,0 +1,140 @@
+# SCP-075 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 「捕食者として獲物に襲いかかる」描写は、人物への直接攻撃としては描かず、
+# 警報・回避のシーンとして視覚化する。キャラにセリフは言わせない。
+
+id: scp-075
+
+title:
+  en: "SCP-075"
+  ja: "SCP-075"
+  cs: "SCP-075"
+  de: "SCP-075"
+  es: "SCP-075"
+  fr: "SCP-075"
+  it: "SCP-075"
+  ko: "SCP-075"
+  pl: "SCP-075"
+  pt: "SCP-075"
+  th: "SCP-075"
+  uk: "SCP-075"
+  vi: "SCP-075"
+  zh: "SCP-075"
+  zh_Hant: "SCP-075"
+
+attribution:
+  article: "SCP-075"
+  source_url: "http://scp-wiki.wikidot.com/scp-075"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-075:
+    name: "SCP-075"
+    description: >
+      A large snail-like creature, about 20cm long, with a glossy
+      brown-grey shell (color RGB 90,75,60) and a thick muscular foot
+      ending in six clawed, finger-like digits (pale grey, color RGB
+      180,178,170).
+
+characters: [scp-075, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Close-up, on an industrial scale in a lab, a fist-sized
+      snail-like creature with a distinctly clawed six-fingered "hand"
+      foot resting on the platform. The digital readout beside it shows
+      "860 KG". attending-researcher-m stares at the readout in
+      disbelief.
+    characters: [scp-075, attending-researcher-m]
+    caption:
+      ja: "SCP-075は、体長20cm、幅13cm、高さ15cmほどの大型のカタツムリに似た姿をしており、その筋肉質な足は6本指の鉤爪付きの手のような形をしている。SCP-075は途方もなく重く、質量は約860kgに達するが、その理由は解明されていない。"
+      en: "SCP-075 resembles a large snail 20 cm in length, 13 cm in width, and 15 cm in height, with a muscular foot resembling a six-fingered, clawed hand. SCP-075 is exceptionally heavy, with a mass of approximately 860 kg, a property that is not understood."
+      cs: "SCP-075 připomíná velkého plže o délce 20 cm, šířce 13 cm a výšce 15 cm, se svalnatou nohou připomínající šestiprstou pařátovitou ruku. SCP-075 je neobyčejně těžké, s hmotností přibližně 860 kg, což je vlastnost, která zůstává nepochopena."
+      de: "SCP-075 ähnelt einer großen Schnecke, 20 cm lang, 13 cm breit und 15 cm hoch, mit einem muskulösen Fuß, der einer sechsfingrigen, krallenbewehrten Hand ähnelt. SCP-075 ist außergewöhnlich schwer, mit einer Masse von etwa 860 kg, eine Eigenschaft, die nicht verstanden wird."
+      es: "SCP-075 se asemeja a un gran caracol de 20 cm de largo, 13 cm de ancho y 15 cm de alto, con un pie musculoso que se asemeja a una mano garrada de seis dedos. El SCP-075 es excepcionalmente pesado, con una masa aproximada de 860 kg, una propiedad que no se comprende."
+      fr: "Le SCP-075 ressemble à un grand escargot de 20 cm de long, 13 cm de large et 15 cm de haut, doté d'un pied musculeux ressemblant à une main griffue à six doigts. Le SCP-075 est exceptionnellement lourd, avec une masse d'environ 860 kg, une propriété qui n'est pas comprise."
+      it: "SCP-075 assomiglia a una grande lumaca lunga 20 cm, larga 13 cm e alta 15 cm, con un piede muscoloso simile a una mano artigliata a sei dita. SCP-075 è eccezionalmente pesante, con una massa di circa 860 kg, una proprietà che non è compresa."
+      ko: "SCP-075는 길이 20cm, 폭 13cm, 높이 15cm 정도의 큰 달팽이와 비슷한 모습으로, 근육질의 발은 여섯 손가락에 발톱이 달린 손처럼 생겼다. SCP-075는 극도로 무거워 질량이 약 860kg에 달하는데, 이 특성은 아직 규명되지 않았다."
+      pl: "SCP-075 przypomina dużego ślimaka o długości 20 cm, szerokości 13 cm i wysokości 15 cm, z umięśnioną stopą przypominającą sześciopalczastą, szponiastą dłoń. SCP-075 jest wyjątkowo ciężkie, o masie około 860 kg, co jest właściwością niezrozumianą."
+      pt: "O SCP-075 se assemelha a um grande caracol de 20 cm de comprimento, 13 cm de largura e 15 cm de altura, com um pé musculoso que lembra uma mão garrada de seis dedos. O SCP-075 é excepcionalmente pesado, com uma massa de aproximadamente 860 kg, uma propriedade que não é compreendida."
+      th: "SCP-075 มีลักษณะคล้ายหอยทากขนาดใหญ่ ยาว 20 ซม. กว้าง 13 ซม. และสูง 15 ซม. มีเท้าที่มีกล้ามเนื้อคล้ายมือมีกรงเล็บหกนิ้ว SCP-075 มีน้ำหนักมากเป็นพิเศษ โดยมีมวลประมาณ 860 กิโลกรัม ซึ่งเป็นคุณสมบัติที่ยังไม่เป็นที่เข้าใจ"
+      uk: "SCP-075 нагадує великого равлика завдовжки 20 см, завширшки 13 см і заввишки 15 см, з мускулистою ногою, що нагадує шестипалу пазуристу руку. SCP-075 надзвичайно важкий, з масою приблизно 860 кг — властивість, яка залишається незрозумілою."
+      vi: "SCP-075 trông giống một con ốc sên lớn dài 20cm, rộng 13cm và cao 15cm, với một chiếc chân cơ bắp giống như một bàn tay sáu ngón có móng vuốt. SCP-075 nặng bất thường, với khối lượng khoảng 860kg, một đặc tính chưa được hiểu rõ."
+      zh: "SCP-075外形似一只大型蜗牛，长20厘米、宽13厘米、高15厘米，其肌肉发达的「足」形似一只六指带爪的手。SCP-075异常沉重，质量约达860公斤，其成因尚不明了。"
+      zh_Hant: "SCP-075外形似一隻大型蝸牛，長20公分、寬13公分、高15公分，其肌肉發達的「足」形似一隻六指帶爪的手。SCP-075異常沉重，質量約達860公斤，其成因尚不明瞭。"
+
+  - scene: >
+      Wide shot, full body, showing the whole secure containment
+      chamber, a different framing from the close-up before. A small
+      industrial hoist strains as it lowers the shriveled, dried, dull
+      husk of SCP-075 onto a display pedestal, desiccant packets
+      scattered around it. attending-researcher-f oversees the process
+      with a clipboard.
+    characters: [scp-075, attending-researcher-f]
+    caption:
+      ja: "SCP-075を収容する唯一知られた方法は乾燥させることであり、ほぼ完全に乾いた状態になると休眠状態に入る。"
+      en: "Desiccation is the only known means of containing SCP-075, as it will enter a dormant state when nearly completely dry."
+      cs: "Vysušení je jediným známým způsobem, jak SCP-075 zadržet, protože téměř úplně vysušené upadá do klidového stavu."
+      de: "Austrocknung ist das einzige bekannte Mittel, um SCP-075 einzudämmen, da es in einen ruhenden Zustand übergeht, wenn es nahezu vollständig ausgetrocknet ist."
+      es: "La desecación es el único medio conocido para contener al SCP-075, ya que entra en un estado latente cuando está casi completamente seco."
+      fr: "La dessiccation est le seul moyen connu de contenir le SCP-075, car il entre dans un état dormant lorsqu'il est presque complètement sec."
+      it: "L'essiccazione è l'unico mezzo conosciuto per contenere SCP-075, poiché entra in uno stato dormiente quando è quasi completamente secco."
+      ko: "탈수 상태로 만드는 것이 SCP-075를 수용하는 유일한 알려진 방법이며, 거의 완전히 건조되면 휴면 상태에 들어간다."
+      pl: "Wysuszenie jest jedynym znanym sposobem powstrzymania SCP-075, ponieważ wchodzi ono w stan uśpienia, gdy jest niemal całkowicie suche."
+      pt: "A dessecação é o único meio conhecido de conter o SCP-075, já que ele entra em estado dormente quando quase completamente seco."
+      th: "การทำให้แห้งเป็นวิธีเดียวที่ทราบกันในการกักกัน SCP-075 เนื่องจากมันจะเข้าสู่สภาวะสงบนิ่งเมื่อแห้งเกือบสมบูรณ์"
+      uk: "Висушування є єдиним відомим способом утримання SCP-075, оскільки воно переходить у стан спокою, коли майже повністю висихає."
+      vi: "Làm khô là phương pháp duy nhất được biết để kiểm soát SCP-075, vì nó sẽ chuyển sang trạng thái ngủ đông khi gần như hoàn toàn khô."
+      zh: "干燥是目前唯一已知能够收容SCP-075的方法，因为它在几乎完全干燥时会进入休眠状态。"
+      zh_Hant: "乾燥是目前唯一已知能夠收容SCP-075的方法，因為它在幾乎完全乾燥時會進入休眠狀態。"
+
+  - scene: >
+      Wide shot, low angle, dynamic framing, a different framing from
+      the wide shot before. Red alarm lights flash across the chamber
+      as SCP-075 leaps high off the ground toward the reinforced glass
+      wall, droplets of a smoking caustic secretion trailing from its
+      foot. In the background, attending-researcher-m dives out of the
+      way behind a console, unharmed but startled.
+    characters: [scp-075, attending-researcher-m]
+    caption:
+      ja: "乾燥していない状態のSCP-075は、その大きさや質量からは考えられないほどの速さで動く。捕食者のようにふるまい、跳躍しながら足の孔から強アルカリ性の溶液を分泌する——これは地球上の科学で知られるいかなる物質よりも強い腐食性を持つ。"
+      en: "When not desiccated, SCP-075 moves at incredible speeds for its size and mass. It adopts the behavior of a predator, leaping and secreting a highly caustic base solution from pores on its foot — more corrosive than any substance known to terrestrial science."
+      cs: "Není-li vysušeno, pohybuje se SCP-075 na svou velikost a hmotnost neuvěřitelnou rychlostí. Chová se jako predátor, skáče a z pórů na noze vylučuje vysoce žíravý zásaditý roztok — žíravější než jakákoli látka známá pozemské vědě."
+      de: "Wenn es nicht ausgetrocknet ist, bewegt sich SCP-075 für seine Größe und Masse mit unglaublicher Geschwindigkeit. Es verhält sich wie ein Raubtier, springt und sondert aus Poren an seinem Fuß eine hochätzende, basische Lösung ab — ätzender als jede der irdischen Wissenschaft bekannte Substanz."
+      es: "Cuando no está desecado, el SCP-075 se mueve a velocidades increíbles para su tamaño y masa. Adopta el comportamiento de un depredador, saltando y secretando una solución base altamente cáustica por los poros de su pie, más corrosiva que cualquier sustancia conocida por la ciencia terrestre."
+      fr: "Lorsqu'il n'est pas desséché, le SCP-075 se déplace à des vitesses incroyables pour sa taille et sa masse. Il adopte un comportement de prédateur, bondissant et sécrétant une solution basique hautement caustique par les pores de son pied — plus corrosive que toute substance connue de la science terrestre."
+      it: "Quando non è essiccato, SCP-075 si muove a velocità incredibili per le sue dimensioni e la sua massa. Adotta il comportamento di un predatore, saltando e secernendo dai pori del piede una soluzione basica altamente caustica, più corrosiva di qualsiasi sostanza conosciuta dalla scienza terrestre."
+      ko: "건조되지 않은 상태의 SCP-075는 그 크기와 질량에 비해 믿을 수 없을 만큼 빠르게 움직인다. 포식자와 같은 행동을 보이며, 도약하면서 발의 기공에서 강염기성 용액을 분비하는데, 이는 지구상의 과학이 알고 있는 그 어떤 물질보다도 강한 부식성을 지닌다."
+      pl: "Gdy nie jest wysuszone, SCP-075 porusza się z niewiarygodną prędkością jak na swój rozmiar i masę. Zachowuje się jak drapieżnik, skacząc i wydzielając z porów na stopie silnie żrący roztwór zasadowy — bardziej żrący niż jakakolwiek substancja znana ziemskiej nauce."
+      pt: "Quando não está dessecado, o SCP-075 se move em velocidades incríveis para seu tamanho e massa. Ele adota o comportamento de um predador, saltando e secretando pelos poros do pé uma solução básica altamente cáustica — mais corrosiva do que qualquer substância conhecida pela ciência terrestre."
+      th: "เมื่อไม่ได้ถูกทำให้แห้ง SCP-075 เคลื่อนที่ด้วยความเร็วที่น่าเหลือเชื่อเมื่อเทียบกับขนาดและมวลของมัน มันแสดงพฤติกรรมของนักล่า กระโดดและหลั่งสารละลายเบสที่มีฤทธิ์กัดกร่อนสูงออกจากรูขุมขนที่เท้าของมัน ซึ่งกัดกร่อนยิ่งกว่าสารใดๆ ที่วิทยาศาสตร์บนโลกรู้จัก"
+      uk: "Коли не висушений, SCP-075 рухається з неймовірною швидкістю, зважаючи на свій розмір і масу. Він поводиться як хижак, стрибаючи та виділяючи через пори на нозі надзвичайно їдкий лужний розчин — їдкіший за будь-яку речовину, відому земній науці."
+      vi: "Khi không bị làm khô, SCP-075 di chuyển với tốc độ đáng kinh ngạc so với kích thước và khối lượng của nó. Nó thể hiện hành vi của một kẻ săn mồi, nhảy vọt và tiết ra từ các lỗ chân lông trên chân một dung dịch bazơ có tính ăn mòn cao — ăn mòn hơn bất kỳ chất nào mà khoa học Trái Đất biết đến."
+      zh: "在未被干燥时，SCP-075会以与其体型和质量极不相称的惊人速度移动。它表现出捕食者的行为，一边跳跃一边从足部的毛孔中分泌出强碱性溶液——其腐蚀性超过地球科学已知的任何物质。"
+      zh_Hant: "在未被乾燥時，SCP-075會以與其體型和質量極不相稱的驚人速度移動。它表現出捕食者的行為，一邊跳躍一邊從足部的毛孔中分泌出強鹼性溶液——其腐蝕性超過地球科學已知的任何物質。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the wide shot
+      before, at the chamber airlock. attending-researcher-m, suited
+      head-to-toe in bulky MOPP Level 4 hazmat gear with a full
+      respirator mask, steps through the airlock door. A humidity gauge
+      mounted on the wall beside the door reads "0.6%".
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-075の収容室に入るすべての職員は、MOPPレベル4の防護装備を着用しなければならない。収容室の絶対湿度は、いかなる時も1％を超えてはならない。"
+      en: "All personnel who enter SCP-075's containment chamber must wear MOPP Level 4 protection. The absolute humidity of the chamber may not exceed 1% at any time."
+      cs: "Veškerý personál vstupující do kontejnmentu SCP-075 musí nosit ochranu úrovně MOPP 4. Absolutní vlhkost komory nesmí nikdy překročit 1 %."
+      de: "Das gesamte Personal, das die Containment-Kammer von SCP-075 betritt, muss MOPP-Schutzstufe 4 tragen. Die absolute Luftfeuchtigkeit der Kammer darf zu keinem Zeitpunkt 1 % überschreiten."
+      es: "Todo el personal que ingrese a la cámara de contención del SCP-075 debe usar protección MOPP nivel 4. La humedad absoluta de la cámara no puede superar el 1% en ningún momento."
+      fr: "Tout le personnel entrant dans la chambre de confinement du SCP-075 doit porter une protection MOPP niveau 4. L'humidité absolue de la chambre ne doit jamais dépasser 1 %."
+      it: "Tutto il personale che entra nella camera di contenimento di SCP-075 deve indossare una protezione MOPP di livello 4. L'umidità assoluta della camera non deve mai superare l'1%."
+      ko: "SCP-075의 수용실에 들어가는 모든 인원은 MOPP 레벨 4 보호장비를 착용해야 한다. 수용실의 절대습도는 어떤 경우에도 1%를 초과해서는 안 된다."
+      pl: "Cały personel wchodzący do komory kontenmentu SCP-075 musi nosić ochronę MOPP poziomu 4. Wilgotność bezwzględna komory nie może w żadnym momencie przekroczyć 1%."
+      pt: "Todo o pessoal que entrar na câmara de contenção do SCP-075 deve usar proteção MOPP nível 4. A umidade absoluta da câmara não pode exceder 1% em nenhum momento."
+      th: "เจ้าหน้าที่ทุกคนที่เข้าไปในห้องกักกันของ SCP-075 ต้องสวมชุดป้องกัน MOPP ระดับ 4 ความชื้นสัมบูรณ์ของห้องต้องไม่เกิน 1% ตลอดเวลา"
+      uk: "Весь персонал, який заходить до камери утримання SCP-075, повинен носити захист рівня MOPP 4. Абсолютна вологість камери не може перевищувати 1% у будь-який час."
+      vi: "Tất cả nhân viên vào phòng kiểm soát SCP-075 phải mặc trang bị bảo hộ MOPP cấp độ 4. Độ ẩm tuyệt đối của phòng không được vượt quá 1% vào bất kỳ lúc nào."
+      zh: "所有进入SCP-075收容室的人员必须穿戴MOPP四级防护装备。收容室的绝对湿度任何时候都不得超过1%。"
+      zh_Hant: "所有進入SCP-075收容室的人員必須穿戴MOPP四級防護裝備。收容室的絕對濕度任何時候都不得超過1%。"

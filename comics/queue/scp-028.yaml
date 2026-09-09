@@ -1,0 +1,134 @@
+# SCP-028 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Document EL-028-1125（被験者の死亡・エージェントによる銃撃事件等の
+# グロ・暴力描写）は本編に含めず、Document EL-028-1114のリストからは
+# 無害で滑稽な項目のみを引用した。キャラにセリフは言わせない。JP公式訳が
+# 直接取得できなかったため、検証済みの英語本文からの翻訳（ja含む）。
+
+id: scp-028
+
+title:
+  en: "SCP-028"
+  ja: "SCP-028"
+  cs: "SCP-028"
+  de: "SCP-028"
+  es: "SCP-028"
+  fr: "SCP-028"
+  it: "SCP-028"
+  ko: "SCP-028"
+  pl: "SCP-028"
+  pt: "SCP-028"
+  th: "SCP-028"
+  uk: "SCP-028"
+  vi: "SCP-028"
+  zh: "SCP-028"
+  zh_Hant: "SCP-028"
+
+attribution:
+  article: "SCP-028"
+  source_url: "http://scp-wiki.wikidot.com/scp-028"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+characters: [attending-researcher-m, d-class, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing an abandoned storage
+      yard, rusted equipment scattered around, a sealed concrete
+      blockhouse with a single door standing incongruously in the open
+      yard. attending-researcher-m stands outside the blockhouse
+      examining handheld scanning equipment, its display perfectly flat
+      and blank despite standing right next to the effect zone.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-028は放棄された資材置き場に位置している。その効果は、一般に「中心」とされる地点を中心とした2.1メートル四方の立方体内で発生する。周辺でのあらゆる走査・検査は異常な数値を示していない。"
+      en: "SCP-028 is located in an abandoned storage yard. Its effect occurs in a 2.1-meter cube around what is commonly held as its 'center.' All forms of scanning and testing in the area have shown no abnormal readings."
+      cs: "SCP-028 se nachází v opuštěném skladovacím dvoře. Jeho účinek se projevuje v krychli o straně 2,1 metru kolem toho, co je obecně považováno za jeho 'střed'. Veškeré formy skenování a testování v této oblasti nevykázaly žádné abnormální hodnoty."
+      de: "SCP-028 befindet sich auf einem verlassenen Lagerplatz. Seine Wirkung tritt in einem Würfel von 2,1 Metern Kantenlänge um das auf, was allgemein als sein 'Zentrum' gilt. Alle Formen von Scans und Tests in diesem Bereich haben keine abnormalen Messwerte ergeben."
+      es: "SCP-028 se encuentra en un patio de almacenamiento abandonado. Su efecto se produce en un cubo de 2,1 metros alrededor de lo que comúnmente se considera su 'centro'. Todas las formas de escaneo y prueba en la zona no han mostrado lecturas anómalas."
+      fr: "Le SCP-028 se trouve dans une cour de stockage abandonnée. Son effet se produit dans un cube de 2,1 mètres autour de ce qui est communément considéré comme son « centre ». Toutes les formes de scan et de test dans la zone n'ont révélé aucune lecture anormale."
+      it: "SCP-028 si trova in un deposito abbandonato. Il suo effetto si verifica in un cubo di 2,1 metri attorno a ciò che è comunemente considerato il suo 'centro'. Tutte le forme di scansione e test nell'area non hanno mostrato letture anomale."
+      ko: "SCP-028은 버려진 야적장에 위치해 있다. 그 효과는 일반적으로 그것의 '중심'으로 간주되는 지점을 중심으로 한 2.1미터 정육면체 내에서 발생한다. 해당 구역에서의 모든 스캔 및 검사는 이상 수치를 보이지 않았다."
+      pl: "SCP-028 znajduje się na opuszczonym placu magazynowym. Jego efekt występuje w sześcianie o boku 2,1 metra wokół tego, co powszechnie uznaje się za jego 'środek'. Wszelkie formy skanowania i testowania w tym obszarze nie wykazały żadnych nieprawidłowych odczytów."
+      pt: "O SCP-028 está localizado em um pátio de armazenamento abandonado. Seu efeito ocorre em um cubo de 2,1 metros ao redor do que geralmente é considerado seu 'centro'. Todas as formas de escaneamento e teste na área não mostraram leituras anômalas."
+      th: "SCP-028 ตั้งอยู่ในลานเก็บของที่ถูกทิ้งร้าง ผลกระทบของมันเกิดขึ้นในลูกบาศก์ขนาด 2.1 เมตรรอบสิ่งที่ถือกันโดยทั่วไปว่าเป็น 'จุดศูนย์กลาง' การสแกนและทดสอบทุกรูปแบบในพื้นที่ไม่พบค่าผิดปกติใดๆ"
+      uk: "SCP-028 розташований на покинутому складському дворі. Його ефект проявляється в кубі зі стороною 2,1 метра навколо того, що прийнято вважати його 'центром'. Усі форми сканування та тестування в цій зоні не виявили жодних аномальних показників."
+      vi: "SCP-028 nằm trong một bãi chứa hàng bị bỏ hoang. Hiệu ứng của nó xảy ra trong một khối lập phương 2,1 mét quanh nơi thường được coi là 'tâm điểm' của nó. Mọi hình thức quét và thử nghiệm trong khu vực đều không cho thấy chỉ số bất thường."
+      zh: "SCP-028位于一处废弃的储物场内。其效应发生在被普遍视为其「中心」的一点周围，边长2.1米的立方体范围内。该区域内的所有扫描与测试均未显示异常读数。"
+      zh_Hant: "SCP-028位於一處廢棄的儲物場內。其效應發生在被普遍視為其「中心」的一點周圍，邊長2.1公尺的立方體範圍內。該區域內的所有掃描與測試均未顯示異常讀數。"
+
+  - scene: >
+      Close-up on d-class's face, filling most of the frame, a very
+      different framing from the wide establishing shot. His eyes are
+      wide with sudden overwhelming realization, mouth slightly open, a
+      dazed and stunned expression, a faint shimmer of light around his
+      head.
+    characters: [d-class]
+    caption:
+      ja: "SCP-028に「入った」対象者は、3秒から6秒以内に、ある事柄に関する完全かつ総体的な知識を突然得る。この知識の規模と有用性は完全にランダムである。"
+      en: "Subjects 'entering' SCP-028 are, within three to six seconds, struck by total and complete knowledge of a subject. This knowledge is completely random in both size and usefulness."
+      cs: "Subjekti, kteří „vstoupí\" do SCP-028, jsou během tří až šesti sekund zasaženi úplnou a kompletní znalostí nějakého tématu. Tato znalost je zcela náhodná jak co do rozsahu, tak co do užitečnosti."
+      de: "Subjekte, die SCP-028 'betreten', werden innerhalb von drei bis sechs Sekunden von vollständigem und umfassendem Wissen über ein Thema getroffen. Dieses Wissen ist sowohl im Umfang als auch im Nutzen völlig zufällig."
+      es: "Los sujetos que 'entran' en SCP-028 son, en un plazo de tres a seis segundos, alcanzados por un conocimiento total y completo de un tema. Este conocimiento es completamente aleatorio tanto en tamaño como en utilidad."
+      fr: "Les sujets qui « entrent » dans le SCP-028 sont, en trois à six secondes, frappés par une connaissance totale et complète d'un sujet. Cette connaissance est entièrement aléatoire tant dans son ampleur que dans son utilité."
+      it: "I soggetti che 'entrano' in SCP-028 vengono, entro tre-sei secondi, colpiti da una conoscenza totale e completa di un argomento. Questa conoscenza è del tutto casuale sia nella dimensione che nell'utilità."
+      ko: "SCP-028에 '들어간' 대상은 3초에서 6초 이내에 어떤 주제에 대한 완전하고 총체적인 지식에 강타당한다. 이 지식은 그 규모와 유용성 모두 완전히 무작위적이다."
+      pl: "Osobnicy 'wchodzący' w SCP-028 zostają w ciągu trzech do sześciu sekund uderzeni pełną i kompletną wiedzą na jakiś temat. Ta wiedza jest całkowicie losowa zarówno pod względem zakresu, jak i przydatności."
+      pt: "Os sujeitos que 'entram' no SCP-028 são, em três a seis segundos, atingidos por um conhecimento total e completo sobre um assunto. Esse conhecimento é completamente aleatório tanto em tamanho quanto em utilidade."
+      th: "ผู้ถูกทดสอบที่ 'เข้าไป' ใน SCP-028 จะถูกความรู้ที่สมบูรณ์และครบถ้วนเกี่ยวกับเรื่องหนึ่งกระแทกใส่ภายในสามถึงหกวินาที ความรู้นี้เป็นแบบสุ่มอย่างสิ้นเชิงทั้งในด้านขนาดและประโยชน์"
+      uk: "Суб'єкти, які 'заходять' у SCP-028, протягом трьох-шести секунд отримують повне та вичерпне знання про якийсь предмет. Це знання абсолютно випадкове як за обсягом, так і за корисністю."
+      vi: "Các đối tượng 'bước vào' SCP-028 sẽ, trong vòng ba đến sáu giây, bị choáng ngợp bởi kiến thức toàn diện và trọn vẹn về một chủ đề. Kiến thức này hoàn toàn ngẫu nhiên cả về quy mô lẫn tính hữu ích."
+      zh: "「进入」SCP-028的对象会在三到六秒内，突然获得关于某个主题的完整而全面的知识。这种知识在规模和实用性上都是完全随机的。"
+      zh_Hant: "「進入」SCP-028的對象會在三到六秒內，突然獲得關於某個主題的完整而全面的知識。這種知識在規模和實用性上都是完全隨機的。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the
+      close-up before. On the left side of the frame, d-class sits at a
+      table gesturing animatedly mid-sentence with a bewildered,
+      rambling expression, hands shaping the air as if diagramming
+      something intricate. On the right side of the frame,
+      attending-researcher-f sits across from him, pen frozen mid-note,
+      staring at him blankly.
+    characters: [d-class, attending-researcher-f]
+    caption:
+      ja: "これまでに取得された知識には、1998年のニューヨーク市の電話帳の全内容、ハダカデバネズミのコロニーの正しい飼育方法、そしてビュイック・ルセーバーの鍵の所在などが含まれる。"
+      en: "Retrieved knowledge has included the entirety of a 1998 New York City phonebook, the proper method of care for a mole rat colony, and the location of keys for a Buick LeSabre."
+      cs: "Mezi získané znalosti patřily kompletní telefonní seznam New Yorku z roku 1998, správný postup péče o kolonii rypošů a umístění klíčů od Buicku LeSabre."
+      de: "Zu den abgerufenen Kenntnissen gehörten das vollständige New Yorker Telefonbuch von 1998, die korrekte Pflege einer Nacktmullkolonie und der Aufbewahrungsort der Schlüssel eines Buick LeSabre."
+      es: "Entre los conocimientos recuperados se incluyen la totalidad de la guía telefónica de la ciudad de Nueva York de 1998, el método adecuado de cuidado de una colonia de ratas topo y la ubicación de las llaves de un Buick LeSabre."
+      fr: "Les connaissances récupérées ont inclus l'intégralité d'un annuaire téléphonique de New York de 1998, la méthode appropriée de soin d'une colonie de rats-taupes, et l'emplacement des clés d'une Buick LeSabre."
+      it: "Le conoscenze recuperate hanno incluso l'intero elenco telefonico di New York del 1998, il corretto metodo di cura di una colonia di eterocefali glabri, e la posizione delle chiavi di una Buick LeSabre."
+      ko: "지금까지 획득된 지식에는 1998년 뉴욕시 전화번호부 전체, 벌거숭이두더지쥐 군집의 올바른 사육법, 그리고 뷰익 르세이버의 열쇠 위치 등이 포함되어 있다."
+      pl: "Wśród pozyskanej wiedzy znalazła się cała książka telefoniczna Nowego Jorku z 1998 roku, właściwa metoda opieki nad kolonią golców, oraz lokalizacja kluczyków do Buicka LeSabre."
+      pt: "O conhecimento recuperado incluiu a lista telefônica completa de Nova York de 1998, o método adequado de cuidado com uma colônia de ratos-toupeira e a localização das chaves de um Buick LeSabre."
+      th: "ความรู้ที่ได้รับมาแล้วรวมถึงสมุดโทรศัพท์นิวยอร์กปี 1998 ทั้งเล่ม วิธีการดูแลอาณานิคมหนูตุ่นเปลือยที่ถูกต้อง และตำแหน่งของกุญแจรถ Buick LeSabre"
+      uk: "Отримані знання включали повний телефонний довідник Нью-Йорка за 1998 рік, правильний метод догляду за колонією голих землекопів та розташування ключів від Buick LeSabre."
+      vi: "Kiến thức thu được bao gồm toàn bộ danh bạ điện thoại thành phố New York năm 1998, phương pháp chăm sóc đúng cách cho một đàn chuột chũi trụi lông, và vị trí chìa khóa của một chiếc Buick LeSabre."
+      zh: "已获取的知识包括1998年纽约市完整电话簿内容、裸鼹鼠群的正确饲养方法，以及一辆别克LeSabre的钥匙所在位置。"
+      zh_Hant: "已獲取的知識包括1998年紐約市完整電話簿內容、裸鼴鼠群的正確飼養方法，以及一輛別克LeSabre的鑰匙所在位置。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the exterior
+      of the concrete blockhouse, a very different framing from the
+      tight shots before. attending-researcher-m and attending-researcher-f,
+      both in tactical gear with sidearms holstered, stand flanking the
+      single door in alert stances, facing outward.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "SCP-028は単一の扉を備えたコンクリート製の部屋に封じられ、外部には武装した職員2名が配置される。SCP-028への曝露が許可されるのは、認可を受けた職員のみとする。"
+      en: "SCP-028 is sealed in a concrete room with a single door, with two armed personnel stationed outside. Only authorized personnel are to be allowed exposure to SCP-028."
+      cs: "SCP-028 je uzavřeno v betonové místnosti s jedněmi dveřmi, venku jsou umístěni dva ozbrojení pracovníci. Vystavení SCP-028 je povoleno pouze oprávněnému personálu."
+      de: "SCP-028 ist in einem Betonraum mit einer einzigen Tür versiegelt, wobei zwei bewaffnete Mitarbeiter davor postiert sind. Nur autorisiertes Personal darf SCP-028 ausgesetzt werden."
+      es: "SCP-028 está sellado en una habitación de hormigón con una sola puerta, con dos miembros del personal armados apostados fuera. Solo el personal autorizado puede exponerse a SCP-028."
+      fr: "Le SCP-028 est scellé dans une pièce en béton avec une seule porte, avec deux membres du personnel armés postés à l'extérieur. Seul le personnel autorisé est habilité à être exposé au SCP-028."
+      it: "SCP-028 è sigillato in una stanza di cemento con un'unica porta, con due membri del personale armati appostati all'esterno. Solo il personale autorizzato può essere esposto a SCP-028."
+      ko: "SCP-028은 단일 출입문이 있는 콘크리트 방에 봉인되어 있으며, 외부에는 무장한 직원 2명이 배치된다. SCP-028에 대한 노출은 승인된 직원에게만 허용된다."
+      pl: "SCP-028 jest zamknięte w betonowym pomieszczeniu z jednymi drzwiami, przy czym na zewnątrz stacjonuje dwóch uzbrojonych pracowników. Tylko upoważniony personel może być wystawiony na działanie SCP-028."
+      pt: "O SCP-028 está selado em uma sala de concreto com uma única porta, com dois funcionários armados posicionados do lado de fora. Somente pessoal autorizado pode ser exposto ao SCP-028."
+      th: "SCP-028 ถูกปิดผนึกอยู่ในห้องคอนกรีตที่มีประตูเดียว โดยมีเจ้าหน้าที่ติดอาวุธสองคนประจำอยู่ด้านนอก อนุญาตให้เฉพาะเจ้าหน้าที่ที่ได้รับอนุญาตเท่านั้นที่จะสัมผัสกับ SCP-028"
+      uk: "SCP-028 запечатаний у бетонній кімнаті з одними дверима, зовні чергують двоє озброєних співробітників. Впливу SCP-028 дозволено піддаватися лише уповноваженому персоналу."
+      vi: "SCP-028 được niêm phong trong một căn phòng bê tông với một cửa duy nhất, có hai nhân viên có vũ trang đứng gác bên ngoài. Chỉ nhân viên được ủy quyền mới được phép tiếp xúc với SCP-028."
+      zh: "SCP-028被封闭在一间只有一扇门的混凝土房间内，外部驻有两名武装人员。只有获得授权的人员才可接触SCP-028。"
+      zh_Hant: "SCP-028被封閉在一間只有一扇門的混凝土房間內，外部駐有兩名武裝人員。只有獲得授權的人員才可接觸SCP-028。"

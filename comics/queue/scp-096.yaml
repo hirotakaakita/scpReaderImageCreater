@@ -1,0 +1,150 @@
+# SCP-096「シャイガイ」4コマ台本
+# captionはSpecial Containment Procedures / Descriptionの実際の文章からの引用。
+# キャラにセリフは言わせない。SCP-096の顔は作中設定・グロ回避の両面から
+# 一度も正面から描かない（常に背中・伏せ顔・両手で覆う構図）。
+
+id: scp-096
+
+title:
+  en: "SCP-096: Shy Guy"
+  ja: "SCP-096：シャイガイ"
+  cs: "SCP-096: Stydlivý kluk"
+  de: "SCP-096: Der Schüchterne"
+  es: "SCP-096: El Tímido"
+  fr: "SCP-096 : Le Timide"
+  it: "SCP-096: Il Timido"
+  ko: "SCP-096: 부끄럼쟁이"
+  pl: "SCP-096: Nieśmiały"
+  pt: "SCP-096: O Tímido"
+  th: "SCP-096: หนุ่มขี้อาย"
+  uk: "SCP-096: Сором'язливий"
+  vi: "SCP-096: Anh Chàng Nhút Nhát"
+  zh: "SCP-096：害羞的家伙"
+  zh_Hant: "SCP-096：害羞的傢伙"
+
+attribution:
+  article: "SCP-096"
+  source_url: "http://scp-wiki.wikidot.com/scp-096"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-096:
+    name: SCP-096
+    description: >
+      SCP-096, an extremely tall, gaunt humanoid, approximately 2.38 meters
+      in height, with very little muscle mass and disproportionately long,
+      thin arms reaching down past its knees. Skin is entirely devoid of
+      pigmentation, a pale off-white (color RGB 235,230,225), with no hair
+      anywhere on its body. Its face is never shown to the viewer — always
+      turned away from camera, lowered, or covered by its own long-fingered
+      hands. Wears a simple draped loincloth of plain gray cloth (color RGB
+      120,120,120), no other clothing.
+
+characters: [attending-researcher-m, scp-096]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the whole containment
+      control area from outside SCP-096's cell. On the right side of the
+      frame stands a featureless, windowless airtight steel cube with a
+      heavy sealed door, its surface studded with pressure-sensor plates
+      and laser-detector units, no camera or optical equipment anywhere in
+      sight. On the left side of the frame, attending-researcher-m stands
+      at a control panel covered in analog gauges and blinking status
+      lights (no video screens), studying the sensor readouts on a
+      clipboard.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-096は常時、5m×5m×5mの気密性のあるスチール製の独房に収容される。独房内には、いかなる種類のビデオ監視・光学機器も一切設置してはならない。"
+      en: "SCP-096 is to be contained in its cell, a 5 m x 5 m x 5 m airtight steel cube, at all times. There are to be absolutely no video surveillance or optical tools of any kind inside SCP-096's cell."
+      cs: "SCP-096 musí být neustále umístěn ve své cele, vzduchotěsné ocelové krychli o rozměrech 5 m x 5 m x 5 m. Uvnitř cely nesmí být za žádných okolností žádné video sledovací ani jiné optické vybavení."
+      de: "SCP-096 ist jederzeit in seiner Zelle unterzubringen, einem luftdichten Stahlwürfel von 5 m x 5 m x 5 m. In SCP-096s Zelle darf sich absolut keinerlei Videoüberwachung oder optisches Gerät jeglicher Art befinden."
+      es: "SCP-096 debe permanecer en todo momento en su celda, un cubo de acero hermético de 5 m x 5 m x 5 m. No debe haber absolutamente ninguna videovigilancia ni herramienta óptica de ningún tipo dentro de la celda de SCP-096."
+      fr: "SCP-096 doit être contenu en permanence dans sa cellule, un cube d'acier hermétique de 5 m x 5 m x 5 m. Il ne doit y avoir absolument aucune vidéosurveillance ni aucun outil optique d'aucune sorte à l'intérieur de la cellule de SCP-096."
+      it: "SCP-096 deve essere contenuto in ogni momento nella sua cella, un cubo d'acciaio ermetico di 5 m x 5 m x 5 m. All'interno della cella di SCP-096 non deve esservi assolutamente alcuna videosorveglianza né alcuno strumento ottico di alcun tipo."
+      ko: "SCP-096는 항상 5m x 5m x 5m 크기의 밀폐된 강철 독방에 수용되어야 한다. SCP-096의 독방 내부에는 어떠한 종류의 영상 감시 장비나 광학 도구도 절대 설치해서는 안 된다."
+      pl: "SCP-096 musi być stale przetrzymywany w swojej celi, hermetycznej stalowej kostce o wymiarach 5 m x 5 m x 5 m. Wewnątrz celi SCP-096 nie może znajdować się absolutnie żaden monitoring wideo ani jakiekolwiek narzędzia optyczne."
+      pt: "SCP-096 deve permanecer o tempo todo em sua cela, um cubo de aço hermético de 5 m x 5 m x 5 m. Não deve haver absolutamente nenhuma vigilância por vídeo ou ferramenta óptica de qualquer tipo dentro da cela de SCP-096."
+      th: "SCP-096 ต้องถูกกักกันอยู่ในห้องขังตลอดเวลา ซึ่งเป็นลูกบาศก์เหล็กปิดสนิทขนาด 5 ม. x 5 ม. x 5 ม. ห้ามมีกล้องวงจรปิดหรืออุปกรณ์เชิงแสงใดๆ อยู่ภายในห้องขังของ SCP-096 โดยเด็ดขาด"
+      uk: "SCP-096 має постійно утримуватися у своїй камері — герметичному сталевому кубі розміром 5 м x 5 м x 5 м. Усередині камери SCP-096 категорично забороняється розміщувати будь-яке відеоспостереження чи оптичні прилади будь-якого роду."
+      vi: "SCP-096 phải luôn được giam giữ trong buồng giam của nó, một khối lập phương thép kín khí kích thước 5 m x 5 m x 5 m. Tuyệt đối không được có bất kỳ thiết bị giám sát video hay công cụ quang học nào bên trong buồng giam của SCP-096."
+      zh: "SCP-096须始终被收容于其牢房中，一个5m×5m×5m的气密钢制立方体。SCP-096牢房内绝对不得安装任何形式的视频监控或光学设备。"
+      zh_Hant: "SCP-096須始終被收容於其牢房中，一個5m×5m×5m的氣密鋼製立方體。SCP-096牢房內絕對不得安裝任何形式的視訊監控或光學設備。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, viewed from behind. Inside the bare
+      steel cell, SCP-096 paces slowly along the eastern wall, its back
+      turned fully to the viewer, its face never visible, long thin arms
+      hanging loosely past its knees as it walks back and forth.
+    characters: [scp-096]
+    caption:
+      ja: "SCP-096は通常、極めて大人しい。独房内の圧力センサーによれば、一日の大半を東側の壁沿いを行き来して過ごしている。"
+      en: "SCP-096 is normally extremely docile, with pressure sensors inside its cell indicating it spends most of the day pacing by the eastern wall."
+      cs: "SCP-096 je běžně velmi klidný a poddajný, přičemž tlakové senzory uvnitř cely ukazují, že tráví většinu dne přecházením podél východní stěny."
+      de: "SCP-096 ist normalerweise äußerst sanftmütig; Drucksensoren in seiner Zelle zeigen, dass es die meiste Zeit des Tages an der Ostwand auf und ab geht."
+      es: "SCP-096 suele ser extremadamente dócil; los sensores de presión dentro de su celda indican que pasa la mayor parte del día caminando de un lado a otro junto al muro oriental."
+      fr: "SCP-096 est normalement extrêmement docile, les capteurs de pression à l'intérieur de sa cellule indiquant qu'il passe la majeure partie de la journée à faire les cent pas le long du mur est."
+      it: "SCP-096 è normalmente estremamente docile: i sensori di pressione all'interno della cella indicano che trascorre la maggior parte della giornata camminando avanti e indietro lungo la parete orientale."
+      ko: "SCP-096는 평소 극도로 온순하며, 독방 내부의 압력 센서에 따르면 하루 대부분을 동쪽 벽을 따라 서성이며 보낸다."
+      pl: "SCP-096 jest zwykle niezwykle potulny, a czujniki ciśnienia wewnątrz jego celi wskazują, że większość dnia spędza, przechadzając się wzdłuż wschodniej ściany."
+      pt: "SCP-096 é normalmente extremamente dócil, com sensores de pressão dentro da cela indicando que passa a maior parte do dia caminhando de um lado para o outro junto à parede leste."
+      th: "SCP-096 มักเชื่องมากตามปกติ โดยเซนเซอร์ความดันภายในห้องขังบ่งชี้ว่ามันใช้เวลาส่วนใหญ่ของวันเดินไปมาอยู่ริมกำแพงด้านตะวันออก"
+      uk: "SCP-096 зазвичай надзвичайно покірний: датчики тиску всередині камери показують, що він проводить більшу частину дня, походжаючи вздовж східної стіни."
+      vi: "SCP-096 thường rất hiền lành, các cảm biến áp suất bên trong buồng giam cho thấy nó dành phần lớn thời gian trong ngày đi đi lại lại dọc theo bức tường phía đông."
+      zh: "SCP-096平时极为温顺，牢房内的压力传感器显示，它一天中大部分时间都在东侧墙边来回踱步。"
+      zh_Hant: "SCP-096平時極為溫馴，牢房內的壓力感測器顯示，牠一天中大部分時間都在東側牆邊來回踱步。"
+
+  - scene: >
+      Medium shot, dynamic diagonal composition, slightly low angle,
+      different framing from the previous panels. On the left side of the
+      frame, attending-researcher-m fumbles a stack of loose photographs
+      while filing them, one sheet slipping free and flipping over in
+      midair. On the right side of the frame, SCP-096 recoils sharply, its
+      long hands snapping up to cover its face, body hunched forward in
+      sudden distress, its face hidden completely behind its own fingers.
+    characters: [attending-researcher-m, scp-096]
+    caption:
+      ja: "誰かがSCP-096の顔を見ると——直接であれ、映像であれ、写真であってさえも——SCP-096は著しい情緒不安の状態に陥り、両手で顔を覆って悲鳴を上げ、泣き、支離滅裂に口走り始める。"
+      en: "When someone views SCP-096's face, whether directly, via video recording, or even a photograph, it will enter a stage of considerable emotional distress, covering its face with its hands and beginning to scream, cry, and babble incoherently."
+      cs: "Když někdo spatří tvář SCP-096 — ať už přímo, na videozáznamu, nebo dokonce na fotografii — upadne do stavu značného emočního rozrušení, zakryje si tvář rukama a začne křičet, plakat a nesouvisle blábolit."
+      de: "Sieht jemand SCP-096s Gesicht – sei es direkt, per Videoaufzeichnung oder sogar auf einem Foto – gerät es in einen Zustand erheblicher emotionaler Verzweiflung, bedeckt sein Gesicht mit den Händen und beginnt zu schreien, zu weinen und unzusammenhängend zu stammeln."
+      es: "Cuando alguien ve el rostro de SCP-096, ya sea directamente, mediante una grabación de vídeo o incluso una fotografía, entra en un estado de considerable angustia emocional, cubriéndose la cara con las manos y comenzando a gritar, llorar y balbucear de forma incoherente."
+      fr: "Lorsque quelqu'un voit le visage de SCP-096, que ce soit directement, via un enregistrement vidéo ou même une photographie, il entre dans un état de détresse émotionnelle considérable, se couvrant le visage de ses mains et se mettant à crier, pleurer et balbutier de façon incohérente."
+      it: "Quando qualcuno vede il volto di SCP-096, direttamente, tramite una registrazione video o persino una fotografia, esso entra in uno stato di notevole angoscia emotiva, coprendosi il viso con le mani e iniziando a urlare, piangere e farfugliare in modo incoerente."
+      ko: "누군가 SCP-096의 얼굴을 보면 — 직접이든, 영상이든, 심지어 사진이든 — SCP-096는 상당한 정서적 고통 상태에 빠져 두 손으로 얼굴을 가리고 비명을 지르며 울고 앞뒤가 맞지 않는 말을 중얼거리기 시작한다."
+      pl: "Gdy ktoś zobaczy twarz SCP-096 — czy to bezpośrednio, na nagraniu wideo, czy nawet na zdjęciu — popada w stan znacznego cierpienia emocjonalnego, zasłaniając twarz dłońmi i zaczynając krzyczeć, płakać oraz bełkotać bez związku."
+      pt: "Quando alguém vê o rosto de SCP-096, seja diretamente, por meio de uma gravação em vídeo ou até mesmo uma fotografia, ele entra em um estado de considerável angústia emocional, cobrindo o rosto com as mãos e começando a gritar, chorar e balbuciar de forma incoerente."
+      th: "เมื่อมีใครเห็นใบหน้าของ SCP-096 ไม่ว่าจะเห็นโดยตรง ผ่านวิดีโอ หรือแม้แต่ภาพถ่าย มันจะเข้าสู่ภาวะทุกข์ทางอารมณ์อย่างรุนแรง เอามือปิดหน้าและเริ่มกรีดร้อง ร้องไห้ และพูดพร่ำไม่เป็นภาษา"
+      uk: "Коли хтось бачить обличчя SCP-096 — прямо, на відеозаписі чи навіть на фотографії — він впадає у стан значного емоційного потрясіння, закриває обличчя руками і починає кричати, плакати та невиразно бурмотіти."
+      vi: "Khi ai đó nhìn thấy khuôn mặt của SCP-096, dù trực tiếp, qua video ghi hình, hay thậm chí một bức ảnh, nó sẽ rơi vào trạng thái đau khổ tột độ, dùng tay che mặt và bắt đầu la hét, khóc lóc và lảm nhảm không mạch lạc."
+      zh: "当有人看到SCP-096的脸——无论是亲眼所见、通过录像，甚至只是一张照片——它都会陷入极度的情绪痛苦，用双手捂住脸，开始尖叫、哭泣，并语无伦次地喃喃自语。"
+      zh_Hant: "當有人看到SCP-096的臉——無論是親眼所見、透過錄影，甚至只是一張照片——牠都會陷入極度的情緒痛苦，用雙手摀住臉，開始尖叫、哭泣，並語無倫次地喃喃自語。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a calmer front-facing composition
+      distinct from the previous panels. On the left side of the frame,
+      attending-researcher-m pins a simple, crude marker sketch of a
+      round smiling face onto a corkboard beside the cell's narrow
+      viewing slot, setting aside the dropped photographs entirely. On
+      the right side of the frame, glimpsed through the slot, SCP-096's
+      silhouette stands calm and upright again, arms loose at its sides,
+      no longer hunched or distressed.
+    characters: [attending-researcher-m, scp-096]
+    caption:
+      ja: "この反応は、SCP-096を描いた絵画的表現を見た場合には発生しない。"
+      en: "This reaction does not occur when viewing artistic depictions of SCP-096."
+      cs: "Tato reakce nenastává při pohledu na umělecká ztvárnění SCP-096."
+      de: "Diese Reaktion tritt nicht ein, wenn künstlerische Darstellungen von SCP-096 betrachtet werden."
+      es: "Esta reacción no se produce al ver representaciones artísticas de SCP-096."
+      fr: "Cette réaction ne se produit pas lors de la vue de représentations artistiques de SCP-096."
+      it: "Questa reazione non si verifica quando si osservano raffigurazioni artistiche di SCP-096."
+      ko: "이 반응은 SCP-096을 그린 예술적 묘사를 볼 때는 발생하지 않는다."
+      pl: "Ta reakcja nie występuje w przypadku oglądania artystycznych przedstawień SCP-096."
+      pt: "Essa reação não ocorre ao se observar representações artísticas de SCP-096."
+      th: "ปฏิกิริยานี้จะไม่เกิดขึ้นเมื่อมองเห็นภาพวาดเชิงศิลปะของ SCP-096"
+      uk: "Ця реакція не виникає при перегляді художніх зображень SCP-096."
+      vi: "Phản ứng này không xảy ra khi nhìn thấy các hình ảnh mang tính nghệ thuật mô tả SCP-096."
+      zh: "当看到以艺术手法描绘SCP-096的图像时，不会出现这种反应。"
+      zh_Hant: "當看到以藝術手法描繪SCP-096的圖像時，不會出現這種反應。"

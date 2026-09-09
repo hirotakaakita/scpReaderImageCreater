@@ -1,0 +1,136 @@
+# SCP-006 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# キャラにセリフは言わせない。JP公式訳が直接取得できなかったため、検証済みの
+# 英語本文からの翻訳（ja含む）。
+
+id: scp-006
+
+title:
+  en: "SCP-006"
+  ja: "SCP-006"
+  cs: "SCP-006"
+  de: "SCP-006"
+  es: "SCP-006"
+  fr: "SCP-006"
+  it: "SCP-006"
+  ko: "SCP-006"
+  pl: "SCP-006"
+  pt: "SCP-006"
+  th: "SCP-006"
+  uk: "SCP-006"
+  vi: "SCP-006"
+  zh: "SCP-006"
+  zh_Hant: "SCP-006"
+
+attribution:
+  article: "SCP-006"
+  source_url: "http://scp-wiki.wikidot.com/scp-006"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+characters: [attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, exterior of a nondescript
+      Soviet-era chemical factory complex with smokestacks, tucked
+      inside a tall fenced perimeter. A small natural spring bubbles up
+      between exposed pipes at the base of one building, easily
+      overlooked. attending-researcher-m stands near a rusted gate,
+      checking a clipboard against the disguised facility.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-006はアストラハンの西60kmに位置する非常に小さな湧き水である。この湧き水がある場所には偽装として化学工場が建設されており、労働者の大半は財団および／またはロシア政府の管理下にある。"
+      en: "SCP-006 is a very small spring located 60 km west of Astrakhan. On the spot of the spring, a chemical factory has been constructed as a disguise, with the majority of laborers under Foundation and/or Russian control."
+      cs: "SCP-006 je velmi malý pramen nacházející se 60 km západně od Astrachaně. Na místě pramene byla jako zástěrka postavena chemická továrna, přičemž většina dělníků je pod kontrolou Nadace a/nebo Ruska."
+      de: "SCP-006 ist eine sehr kleine Quelle, die 60 km westlich von Astrachan liegt. An der Stelle der Quelle wurde zur Tarnung eine Chemiefabrik errichtet, wobei die Mehrheit der Arbeiter unter Kontrolle der Stiftung und/oder Russlands steht."
+      es: "SCP-006 es un manantial muy pequeño situado a 60 km al oeste de Astracán. En el lugar del manantial se ha construido una fábrica química como tapadera, con la mayoría de los trabajadores bajo control de la Fundación y/o de Rusia."
+      fr: "Le SCP-006 est une très petite source située à 60 km à l'ouest d'Astrakhan. Sur le site de la source, une usine chimique a été construite en guise de couverture, la majorité des ouvriers étant sous le contrôle de la Fondation et/ou de la Russie."
+      it: "SCP-006 è una sorgente molto piccola situata 60 km a ovest di Astrachan'. Sul luogo della sorgente è stata costruita una fabbrica chimica come copertura, con la maggior parte dei lavoratori sotto il controllo della Fondazione e/o della Russia."
+      ko: "SCP-006는 아스트라한 서쪽 60km 지점에 위치한 아주 작은 샘이다. 이 샘이 있는 자리에는 위장을 위해 화학 공장이 세워졌으며, 노동자 대부분은 재단 및/또는 러시아의 통제 하에 있다."
+      pl: "SCP-006 to bardzo małe źródło znajdujące się 60 km na zachód od Astrachania. W miejscu źródła zbudowano fabrykę chemiczną jako przykrywkę, przy czym większość robotników pozostaje pod kontrolą Fundacji i/lub Rosji."
+      pt: "O SCP-006 é uma nascente muito pequena localizada a 60 km a oeste de Astracã. No local da nascente, foi construída uma fábrica química como disfarce, com a maioria dos trabalhadores sob controle da Fundação e/ou da Rússia."
+      th: "SCP-006 คือธารน้ำพุขนาดเล็กมากที่ตั้งอยู่ห่างจากอัสตราคานไปทางตะวันตก 60 กิโลเมตร บริเวณที่ตั้งของธารน้ำพุนี้ได้มีการสร้างโรงงานเคมีขึ้นเพื่อพรางตัว โดยแรงงานส่วนใหญ่อยู่ภายใต้การควบคุมของมูลนิธิและ/หรือรัสเซีย"
+      uk: "SCP-006 — це дуже маленьке джерело, розташоване за 60 км на захід від Астрахані. На місці джерела як прикриття збудовано хімічний завод, більшість робітників якого перебувають під контролем Фонду та/або Росії."
+      vi: "SCP-006 là một mạch suối rất nhỏ nằm cách Astrakhan 60km về phía tây. Tại vị trí mạch suối, một nhà máy hóa chất đã được xây dựng để ngụy trang, với phần lớn công nhân nằm dưới sự kiểm soát của Quỹ và/hoặc Nga."
+      zh: "SCP-006是一处位于阿斯特拉罕以西60公里处的极小泉水。在泉水所在地，一座化工厂已被建成作为掩护，其中大多数工人处于基金会和/或俄罗斯的控制之下。"
+      zh_Hant: "SCP-006是一處位於阿斯特拉罕以西60公里處的極小泉水。在泉水所在地，一座化工廠已被建成作為掩護，其中大多數工人處於基金會和/或俄羅斯的控制之下。"
+
+  - scene: >
+      Medium shot, waist-up, low angle, indoor testing pool room, a
+      different framing from the wide establishing shot. On the left
+      side of the frame, attending-researcher-f in a bulky full-body
+      hazmat suit is lowered into a small glass-walled pool by an
+      overhead winch cable. On the right side of the frame,
+      attending-researcher-m watches intently through the glass wall,
+      checklist in hand, eyes scanning the water for bubbles.
+    characters: [attending-researcher-f, attending-researcher-m]
+    caption:
+      ja: "SCP-006と物理的に接触する全ての職員は、改良型クラスVI BNCスーツの着用が義務付けられる。職員が適切にスーツを着用していることを確認するため、彼らはプールに全身を沈められる。気泡が確認された場合、それはスーツに漏れがあることを意味する。"
+      en: "All personnel interacting with SCP-006 in any physical way are required to wear modified Class VI BNC suits. To ensure personnel are wearing suits properly, they are to be submerged into a pool of water. Any air bubbles spotted signify a leak in the suit."
+      cs: "Veškerý personál, který jakýmkoli fyzickým způsobem přichází do kontaktu se SCP-006, je povinen nosit upravené obleky třídy VI BNC. Aby se ověřilo správné nasazení obleků, jsou pracovníci ponořeni do bazénu s vodou. Jakékoli spatřené vzduchové bubliny značí únik v obleku."
+      de: "Sämtliches Personal, das in irgendeiner physischen Weise mit SCP-006 interagiert, muss modifizierte Anzüge der Klasse VI BNC tragen. Um sicherzustellen, dass das Personal die Anzüge korrekt trägt, werden sie in ein Wasserbecken getaucht. Etwaige beobachtete Luftblasen weisen auf ein Leck im Anzug hin."
+      es: "Todo el personal que interactúe físicamente con SCP-006 debe usar trajes modificados de Clase VI BNC. Para asegurarse de que el personal use los trajes correctamente, deben sumergirse en una piscina de agua. Cualquier burbuja de aire observada indica una fuga en el traje."
+      fr: "Tout le personnel interagissant physiquement avec le SCP-006 doit porter des combinaisons modifiées de classe VI BNC. Pour s'assurer que le personnel porte correctement les combinaisons, celui-ci doit être immergé dans un bassin d'eau. Toute bulle d'air observée signale une fuite dans la combinaison."
+      it: "Tutto il personale che interagisce fisicamente con SCP-006 deve indossare tute modificate di Classe VI BNC. Per assicurarsi che il personale indossi correttamente le tute, viene immerso in una piscina d'acqua. Eventuali bolle d'aria osservate indicano una perdita nella tuta."
+      ko: "SCP-006와 물리적으로 접촉하는 모든 직원은 개조된 클래스 VI BNC 방호복을 착용해야 한다. 직원이 방호복을 올바르게 착용했는지 확인하기 위해, 그들은 물이 담긴 수조에 잠긴다. 기포가 관찰되면 방호복에 누출이 있음을 의미한다."
+      pl: "Cały personel mający fizyczny kontakt z SCP-006 musi nosić zmodyfikowane kombinezony klasy VI BNC. Aby upewnić się, że personel prawidłowo nosi kombinezony, są oni zanurzani w basenie z wodą. Wszelkie zauważone pęcherzyki powietrza oznaczają nieszczelność kombinezonu."
+      pt: "Todo o pessoal que interage fisicamente com o SCP-006 deve usar trajes modificados de Classe VI BNC. Para garantir que o pessoal esteja usando os trajes corretamente, eles devem ser submersos em uma piscina de água. Quaisquer bolhas de ar observadas indicam um vazamento no traje."
+      th: "เจ้าหน้าที่ทุกคนที่มีปฏิสัมพันธ์ทางกายภาพกับ SCP-006 ต้องสวมชุด Class VI BNC ที่ดัดแปลง เพื่อให้แน่ใจว่าเจ้าหน้าที่สวมชุดอย่างถูกต้อง พวกเขาจะถูกจุ่มลงในสระน้ำ หากพบฟองอากาศใดๆ แสดงว่ามีรอยรั่วในชุด"
+      uk: "Весь персонал, який будь-яким чином фізично контактує з SCP-006, повинен носити модифіковані костюми класу VI BNC. Щоб переконатися, що персонал носить костюми належним чином, їх занурюють у басейн з водою. Будь-які помічені бульбашки повітря свідчать про витік у костюмі."
+      vi: "Tất cả nhân viên tiếp xúc vật lý với SCP-006 dưới bất kỳ hình thức nào đều phải mặc bộ đồ bảo hộ Loại VI BNC đã được cải tiến. Để đảm bảo nhân viên mặc đồ đúng cách, họ phải được nhúng chìm vào một hồ nước. Bất kỳ bọt khí nào được phát hiện đều cho thấy bộ đồ bị rò rỉ."
+      zh: "所有以任何物理方式与SCP-006接触的人员都必须穿着改良型VI级BNC防护服。为确保人员正确穿戴防护服，须将其全身浸入水池中。若发现任何气泡，即表示防护服存在漏洞。"
+      zh_Hant: "所有以任何物理方式與SCP-006接觸的人員都必須穿著改良型VI級BNC防護服。為確保人員正確穿戴防護服，須將其全身浸入水池中。若發現任何氣泡，即表示防護服存在漏洞。"
+
+  - scene: >
+      Close-up, filling most of the frame with a small caged lab rabbit
+      inside a clear observation box, a minor shaved patch on its side
+      visibly healing and its fur regrowing in real time. On the right
+      edge of the frame, attending-researcher-f leans in wide-eyed,
+      stopwatch in hand, her sleeve slightly damp near the wrist.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "この液体を摂取すると、十分な複製によって損傷したDNAを再生する能力、細胞複製の活性化、損傷組織の大幅に改善された修復能力、そして人間の免疫系の効果の恐るべき向上がもたらされる。"
+      en: "Ingesting the liquid produces the ability to regenerate DNA damaged by sufficient duplication, heightened excitement of cellular duplication, vastly improved repair of damaged tissue, and a frightening increase in the effectiveness of the human immune system."
+      cs: "Požití kapaliny vyvolává schopnost regenerovat DNA poškozenou dostatečnou duplikací, zvýšenou stimulaci buněčné duplikace, výrazně zlepšenou opravu poškozené tkáně a děsivé zvýšení účinnosti lidského imunitního systému."
+      de: "Der Verzehr der Flüssigkeit erzeugt die Fähigkeit, durch ausreichende Duplikation geschädigte DNA zu regenerieren, eine erhöhte Anregung der Zellteilung, eine stark verbesserte Reparatur geschädigten Gewebes und eine erschreckende Steigerung der Wirksamkeit des menschlichen Immunsystems."
+      es: "Ingerir el líquido produce la capacidad de regenerar el ADN dañado mediante una duplicación suficiente, una mayor estimulación de la duplicación celular, una reparación muy mejorada del tejido dañado y un aumento aterrador de la eficacia del sistema inmunológico humano."
+      fr: "L'ingestion du liquide confère la capacité de régénérer l'ADN endommagé par une duplication suffisante, une excitation accrue de la duplication cellulaire, une réparation grandement améliorée des tissus endommagés, et une augmentation effrayante de l'efficacité du système immunitaire humain."
+      it: "L'ingestione del liquido produce la capacità di rigenerare il DNA danneggiato tramite duplicazione sufficiente, un'eccitazione accresciuta della duplicazione cellulare, una riparazione notevolmente migliorata dei tessuti danneggiati e un aumento spaventoso dell'efficacia del sistema immunitario umano."
+      ko: "이 액체를 섭취하면 충분한 복제를 통해 손상된 DNA를 재생하는 능력, 세포 복제의 활성화 증가, 손상된 조직의 대폭 향상된 복구 능력, 그리고 인간 면역 체계 효율성의 무시무시한 증가가 나타난다."
+      pl: "Spożycie płynu powoduje zdolność do regeneracji DNA uszkodzonego poprzez wystarczającą duplikację, zwiększoną stymulację podziału komórkowego, znacznie usprawnioną naprawę uszkodzonych tkanek oraz przerażający wzrost skuteczności ludzkiego układu odpornościowego."
+      pt: "A ingestão do líquido produz a capacidade de regenerar o DNA danificado por duplicação suficiente, maior estimulação da duplicação celular, reparo muito melhorado de tecidos danificados e um aumento assustador na eficácia do sistema imunológico humano."
+      th: "การดื่มของเหลวนี้ก่อให้เกิดความสามารถในการซ่อมแซมดีเอ็นเอที่เสียหายผ่านการจำลองที่เพียงพอ การกระตุ้นการแบ่งตัวของเซลล์ที่เพิ่มขึ้น การซ่อมแซมเนื้อเยื่อที่เสียหายที่ดีขึ้นอย่างมาก และการเพิ่มประสิทธิภาพของระบบภูมิคุ้มกันมนุษย์อย่างน่าตกใจ"
+      uk: "Вживання цієї рідини дає здатність регенерувати ДНК, пошкоджену внаслідок достатнього дублювання, посилену стимуляцію клітинного поділу, значно покращене відновлення пошкоджених тканин та лякаюче зростання ефективності імунної системи людини."
+      vi: "Uống chất lỏng này tạo ra khả năng tái tạo DNA bị hư hại thông qua sự nhân đôi đầy đủ, tăng cường kích thích sự phân chia tế bào, cải thiện đáng kể khả năng phục hồi mô bị tổn thương, và gia tăng đáng sợ hiệu quả của hệ miễn dịch con người."
+      zh: "摄入该液体会产生以下能力：通过充分复制修复受损DNA、细胞复制的兴奋性提高、受损组织修复能力大幅提升，以及人体免疫系统效力的惊人增强。"
+      zh_Hant: "攝入該液體會產生以下能力：透過充分複製修復受損DNA、細胞複製的興奮性提高、受損組織修復能力大幅提升，以及人體免疫系統效力的驚人增強。"
+
+  - scene: >
+      Wide shot, full body, eye level, a stark concrete corridor, a very
+      different framing from the tight close-up before. On the left side
+      of the frame, attending-researcher-m walks beside
+      attending-researcher-f with one hand firmly on her shoulder,
+      guiding her forward, expression grim. On the right side of the
+      frame, attending-researcher-f's skin and hair look noticeably
+      healthier and more radiant than in the earlier panels, and she
+      smiles obliviously, unaware of the heavy featureless door looming
+      at the end of the hall ahead.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "職員がいかなる時であれSCP-006またはSCP-006由来の液体に接触した場合、十分な研究が行われた後、拘束の上、処分される。SCP-006の性質上、最も効果的な処分方法は焼却である。"
+      en: "If at any time personnel come into contact with SCP-006 or liquid from SCP-006, they are to be confined and terminated after sufficient studies are done. Due to the nature of SCP-006, the most effective termination method is incineration."
+      cs: "Pokud personál kdykoli přijde do kontaktu se SCP-006 nebo kapalinou z SCP-006, musí být zadržen a po provedení dostatečných studií vyřazen ze služby. Vzhledem k povaze SCP-006 je nejúčinnější metodou likvidace spálení."
+      de: "Kommt Personal zu irgendeinem Zeitpunkt mit SCP-006 oder Flüssigkeit aus SCP-006 in Kontakt, ist es zu isolieren und nach ausreichenden Studien zu terminieren. Aufgrund der Natur von SCP-006 ist Verbrennung die wirksamste Terminierungsmethode."
+      es: "Si en cualquier momento el personal entra en contacto con SCP-006 o con líquido proveniente de SCP-006, deberá ser confinado y eliminado tras realizar los estudios suficientes. Debido a la naturaleza de SCP-006, el método de eliminación más eficaz es la incineración."
+      fr: "Si, à un moment quelconque, le personnel entre en contact avec le SCP-006 ou avec du liquide provenant du SCP-006, il doit être confiné puis neutralisé une fois les études suffisantes réalisées. En raison de la nature du SCP-006, la méthode de neutralisation la plus efficace est l'incinération."
+      it: "Se in qualsiasi momento il personale entra in contatto con SCP-006 o con il liquido proveniente da SCP-006, deve essere confinato ed eliminato dopo che sono stati condotti studi sufficienti. Data la natura di SCP-006, il metodo di eliminazione più efficace è l'incenerimento."
+      ko: "직원이 어느 때든 SCP-006 또는 SCP-006에서 나온 액체와 접촉할 경우, 충분한 연구가 끝난 뒤 격리되어 처분된다. SCP-006의 특성상 가장 효과적인 처분 방법은 소각이다."
+      pl: "Jeśli w dowolnym momencie personel zetknie się z SCP-006 lub płynem z SCP-006, musi zostać odizolowany, a po przeprowadzeniu wystarczających badań usunięty ze służby. Ze względu na naturę SCP-006 najskuteczniejszą metodą likwidacji jest spalenie."
+      pt: "Se em qualquer momento o pessoal entrar em contato com o SCP-006 ou com líquido do SCP-006, deverá ser confinado e terminado após a realização de estudos suficientes. Devido à natureza do SCP-006, o método de terminação mais eficaz é a incineração."
+      th: "หากเจ้าหน้าที่สัมผัสกับ SCP-006 หรือของเหลวจาก SCP-006 ไม่ว่าเวลาใด พวกเขาจะถูกกักกันและกำจัดหลังจากทำการศึกษาที่เพียงพอแล้ว เนื่องจากคุณสมบัติของ SCP-006 วิธีการกำจัดที่มีประสิทธิภาพที่สุดคือการเผา"
+      uk: "Якщо персонал у будь-який момент вступить у контакт із SCP-006 або рідиною з SCP-006, його слід ізолювати та ліквідувати після проведення достатніх досліджень. З огляду на природу SCP-006, найефективнішим методом ліквідації є спалення."
+      vi: "Nếu vào bất kỳ thời điểm nào nhân viên tiếp xúc với SCP-006 hoặc chất lỏng từ SCP-006, họ sẽ bị giam giữ và xử lý sau khi các nghiên cứu cần thiết đã hoàn tất. Do bản chất của SCP-006, phương pháp xử lý hiệu quả nhất là thiêu hủy."
+      zh: "若人员在任何时候接触到SCP-006或SCP-006产生的液体，须先将其隔离，待完成充分研究后予以处决。鉴于SCP-006的性质，最有效的处决方式为焚烧。"
+      zh_Hant: "若人員在任何時候接觸到SCP-006或SCP-006產生的液體，須先將其隔離，待完成充分研究後予以處決。鑑於SCP-006的性質，最有效的處決方式為焚燒。"

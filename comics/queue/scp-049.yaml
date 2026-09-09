@@ -1,0 +1,148 @@
+# SCP-049「ペスト医師」4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用のみ。
+# Description後半にある「接触による絶命」「SCP-049-2」等の描写は本編では避け、
+# 収容手順にある「ラベンダーで鎮静する」という滑稽な一節を軸にした軽いコメディに
+# している。補遺の内容（発見経緯・SCP-049-2実験記録等）は使わない。
+# キャラにセリフは言わせない。
+
+id: scp-049
+
+title:
+  en: "SCP-049: The Plague Doctor"
+  ja: "SCP-049：ペスト医師"
+  cs: "SCP-049: Morový lékař"
+  de: "SCP-049: Der Pestarzt"
+  es: "SCP-049: El Médico de la Peste"
+  fr: "SCP-049 : Le Médecin de la Peste"
+  it: "SCP-049: Il Medico della Peste"
+  ko: "SCP-049: 페스트 의사"
+  pl: "SCP-049: Lekarz Morowy"
+  pt: "SCP-049: O Médico da Peste"
+  th: "SCP-049: แพทย์กาฬโรค"
+  uk: "SCP-049: Чумний Лікар"
+  vi: "SCP-049: Bác Sĩ Dịch Hạch"
+  zh: "SCP-049：瘟疫医生"
+  zh_Hant: "SCP-049：瘟疫醫生"
+
+attribution:
+  article: "SCP-049"
+  author: "Gabriel Jade, rewritten by djkaktus & Gabriel Jade"
+  source_url: "http://scp-wiki.wikidot.com/scp-049"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-049:
+    name: SCP-049
+    description: >
+      SCP-049, a humanoid entity roughly 1.9 meters tall, bearing the
+      unmistakable appearance of a medieval plague doctor. Thick, heavy
+      robes in a dark aged brown (color RGB 60,45,35) appear to have grown
+      directly out of its body over time, seamlessly fused at the wrists
+      and hem rather than worn as separate clothing. Its head is a smooth,
+      beak-shaped ceramic mask in a pale bone white (color RGB
+      225,220,205), with small round dark lenses where the eyes should
+      be. A weathered black leather doctor's bag hangs at its side,
+      carried at all times.
+
+characters: [scp-049, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing SCP-049 standing alone in
+      the center of a clean, sparsely furnished containment cell. It
+      stands still with its gloved hands folded in front of it, its thick
+      robes hanging heavy and still, its beak-shaped mask tilted slightly
+      as if in quiet observation.
+    characters: [scp-049]
+    caption:
+      ja: "SCP-049は人型の実体で身長は約1.9mあり、中世のペスト医師(plague doctor)の外観を呈しています。SCP-049はその職業を示す厚手のローブとセラミックマスクを着用しているように見えますが、実際にはこれらの衣類は時間をかけてSCP-049の肉体から生成されているようです。"
+      en: "SCP-049 is a humanoid entity, roughly 1.9 meters in height, which bears the appearance of a medieval plague doctor. While SCP-049 appears to be wearing the thick robes and the ceramic mask indicative of that profession, the garments instead seem to have grown out of SCP-049's body over time."
+      cs: "SCP-049 je humanoidní entita, vysoká přibližně 1,9 metru, která má vzhled středověkého morového lékaře. Ačkoli se zdá, že SCP-049 nosí silné roucho a keramickou masku typickou pro toto povolání, tyto oděvy ve skutečnosti postupem času vyrostly z těla SCP-049."
+      de: "SCP-049 ist eine humanoide Entität von etwa 1,9 Metern Größe, die das Erscheinungsbild eines mittelalterlichen Pestarztes trägt. SCP-049 scheint die dicken Roben und die keramische Maske dieses Berufs zu tragen, doch diese Kleidungsstücke sind im Laufe der Zeit offenbar aus dem Körper von SCP-049 herausgewachsen."
+      es: "SCP-049 es una entidad humanoide de aproximadamente 1,9 metros de altura, con la apariencia de un médico de la peste medieval. Aunque SCP-049 parece llevar las gruesas túnicas y la máscara de cerámica propias de esa profesión, estas prendas en realidad parecen haber crecido de su cuerpo con el tiempo."
+      fr: "SCP-049 est une entité humanoïde d'environ 1,9 mètre de haut, arborant l'apparence d'un médecin de la peste médiéval. Bien que SCP-049 semble porter les épaisses robes et le masque de céramique caractéristiques de cette profession, ces vêtements semblent en réalité avoir poussé à partir de son propre corps au fil du temps."
+      it: "SCP-049 è un'entità umanoide, alta circa 1,9 metri, che ha l'aspetto di un medico della peste medievale. Sebbene SCP-049 sembri indossare le spesse vesti e la maschera in ceramica tipiche di quella professione, questi indumenti sembrano invece essere cresciuti dal suo corpo nel tempo."
+      ko: "SCP-049는 키가 약 1.9미터인 인간형 개체로, 중세 페스트 의사의 모습을 하고 있다. SCP-049는 그 직업을 나타내는 두꺼운 로브와 도자기 가면을 착용한 것처럼 보이지만, 실제로는 이 의복들이 시간이 지나면서 SCP-049의 몸에서 자라난 것으로 보인다."
+      pl: "SCP-049 to humanoidalna istota o wzroście około 1,9 metra, przypominająca wyglądem średniowiecznego lekarza morowego. Choć SCP-049 wygląda, jakby nosiło grube szaty i ceramiczną maskę charakterystyczne dla tego zawodu, w rzeczywistości te elementy odzieży zdają się z czasem wyrastać z ciała SCP-049."
+      pt: "SCP-049 é uma entidade humanoide, com cerca de 1,9 metros de altura, que tem a aparência de um médico da peste medieval. Embora pareça vestir as túnicas grossas e a máscara de cerâmica típicas dessa profissão, essas vestes parecem, na verdade, ter crescido do corpo de SCP-049 ao longo do tempo."
+      th: "SCP-049 เป็นสิ่งมีชีวิตรูปร่างคล้ายมนุษย์ สูงประมาณ 1.9 เมตร มีรูปลักษณ์ของแพทย์กาฬโรคยุคกลาง แม้ SCP-049 จะดูเหมือนสวมเสื้อคลุมหนาและหน้ากากเซรามิกอันเป็นเอกลักษณ์ของอาชีพนั้น แต่แท้จริงแล้วเครื่องแต่งกายเหล่านี้ดูเหมือนจะงอกขึ้นมาจากร่างกายของ SCP-049 เองเมื่อเวลาผ่านไป"
+      uk: "SCP-049 — гуманоїдна істота заввишки приблизно 1,9 метра, що має вигляд середньовічного чумного лікаря. Хоча здається, що SCP-049 носить товсті мантії та керамічну маску, характерні для цієї професії, насправді це вбрання, схоже, з часом виросло з тіла самого SCP-049."
+      vi: "SCP-049 là một thực thể hình người, cao khoảng 1,9 mét, mang dáng vẻ của một bác sĩ dịch hạch thời trung cổ. Mặc dù SCP-049 trông như đang mặc áo choàng dày và đeo mặt nạ gốm đặc trưng của nghề này, những lớp trang phục đó dường như đã mọc ra từ chính cơ thể nó theo thời gian."
+      zh: "SCP-049是一个人形实体，身高约1.9米，外貌呈中世纪瘟疫医生的样子。SCP-049看似穿着厚重的长袍和陶瓷面具，但这些衣物实际上似乎是随着时间从其身体上生长出来的。"
+      zh_Hant: "SCP-049是一個人形實體，身高約1.9公尺，外貌呈中世紀瘟疫醫生的樣子。SCP-049看似穿著厚重的長袍和陶瓷面具，但這些衣物實際上似乎是隨著時間從其身體上生長出來的。"
+
+  - scene: >
+      Medium shot, waist-up, escort corridor. SCP-049 walks in the center
+      of the frame, secured within a heavy restraint harness with a
+      locking collar and extension restraints. On the left side of the
+      frame, attending-researcher-m grips one extension restraint,
+      alert. On the right side of the frame, attending-researcher-f grips
+      the other, equally alert.
+    characters: [scp-049, attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "SCP-049の移動を試みる際にはいかなる場合でも事前に鎮静状態にしておかなければなりません。移動の最中は、SCP-049はクラスⅢ人型生物制限ハーネス(施錠した首枷と拡張拘束具を含む)の中に固定し、2人以上の武装警備員によって監視しなければなりません。"
+      en: "SCP-049 must be sedated before any attempts to transport it. During transport, SCP-049 must be secured within a Class III Humanoid Restriction Harness (including a locking collar and extension restraints) and monitored by no fewer than two armed guards."
+      cs: "SCP-049 musí být před jakýmkoli pokusem o přesun sedováno. Během přepravy musí být SCP-049 zajištěno v omezovacím postroji humanoidů třídy III (včetně uzamykatelného obojku a prodloužených poutacích pásů) a sledováno nejméně dvěma ozbrojenými strážemi."
+      de: "SCP-049 muss vor jedem Transportversuch sediert werden. Während des Transports muss SCP-049 in einem humanoiden Bewegungsgeschirr der Klasse III (einschließlich verriegelbarem Halsband und Verlängerungsfesseln) gesichert und von mindestens zwei bewaffneten Wachen überwacht werden."
+      es: "SCP-049 debe ser sedado antes de cualquier intento de traslado. Durante el transporte, SCP-049 debe estar asegurado dentro de un arnés de restricción humanoide de Clase III (incluyendo un collar con cerradura y restricciones de extensión) y ser vigilado por no menos de dos guardias armados."
+      fr: "SCP-049 doit être sédaté avant toute tentative de transport. Pendant le transport, SCP-049 doit être immobilisé dans un harnais de contention humanoïde de Classe III (comprenant un collier verrouillable et des entraves d'extension) et surveillé par au moins deux gardes armés."
+      it: "SCP-049 deve essere sedato prima di qualsiasi tentativo di trasporto. Durante il trasporto, SCP-049 deve essere assicurato all'interno di un'imbracatura di contenimento umanoide di Classe III (comprensiva di collare bloccabile e cinghie di estensione) e sorvegliato da non meno di due guardie armate."
+      ko: "SCP-049는 이송을 시도하기 전에 반드시 진정시켜야 한다. 이송 중에는 SCP-049를 3등급 인간형 구속 하네스(잠금 장치가 달린 목걸이와 확장 구속구 포함) 안에 고정하고, 최소 2명 이상의 무장 경비원이 감시해야 한다."
+      pl: "SCP-049 musi zostać uśpione przed jakąkolwiek próbą transportu. Podczas transportu SCP-049 musi być zabezpieczone w uprzęży ograniczającej dla humanoidów klasy III (obejmującej blokowaną obrożę i dodatkowe pasy ograniczające) oraz nadzorowane przez co najmniej dwóch uzbrojonych strażników."
+      pt: "O SCP-049 deve ser sedado antes de qualquer tentativa de transporte. Durante o transporte, o SCP-049 deve ser preso em um arnês de contenção humanoide de Classe III (incluindo uma coleira travável e restrições de extensão) e monitorado por no mínimo dois guardas armados."
+      th: "SCP-049 ต้องถูกทำให้สงบก่อนความพยายามเคลื่อนย้ายใดๆ ระหว่างการเคลื่อนย้าย SCP-049 ต้องถูกยึดไว้ในสายรัดจำกัดรูปมนุษย์ระดับ III (รวมถึงปลอกคอล็อกและสายรัดขยาย) และมีการเฝ้าระวังโดยเจ้าหน้าที่รักษาความปลอดภัยที่ติดอาวุธไม่น้อยกว่าสองนาย"
+      uk: "SCP-049 має бути заспокоєний за допомогою седації перед будь-якою спробою транспортування. Під час перевезення SCP-049 має бути закріплений у стримувальному спорядженні для гуманоїдів класу III (включно із замкненим нашийником та подовженими фіксаторами) і перебувати під наглядом щонайменше двох озброєних охоронців."
+      vi: "SCP-049 phải được gây mê trước bất kỳ nỗ lực di chuyển nào. Trong quá trình vận chuyển, SCP-049 phải được cố định trong đai kiềm chế hình người Cấp III (bao gồm vòng cổ khóa và dây kiềm chế mở rộng) và được giám sát bởi không dưới hai lính canh có vũ trang."
+      zh: "在任何转移SCP-049的尝试之前，必须先对其进行镇静处理。转移过程中，SCP-049须固定于III级人形约束背带内（包括锁定式项圈和延伸约束具），并至少由两名武装警卫监视。"
+      zh_Hant: "在任何轉移SCP-049的嘗試之前，必須先對其進行鎮靜處理。轉移過程中，SCP-049須固定於III級人形約束背帶內（包括鎖定式項圈和延伸約束具），並至少由兩名武裝警衛監視。"
+
+  - scene: >
+      Close-up shot centered on SCP-049's mask, tilted sharply toward
+      something off-frame, its posture stiff and agitated. On the right
+      side of the frame, attending-researcher-f leans in cautiously,
+      holding out a small sprig of lavender toward it.
+    characters: [scp-049, attending-researcher-f]
+    caption:
+      ja: "SCP-049が攻撃的になった場合、ラベンダー(L. multifida)の精油を散布すると実体に鎮静効果がもたらされることがこれまでに確認されています。"
+      en: "In the event SCP-049 becomes aggressive, the application of lavender (L. multifida) has been shown to produce a calming effect on the entity."
+      cs: "V případě, že se SCP-049 stane agresivním, aplikace levandule (L. multifida) prokazatelně vyvolává u entity uklidňující účinek."
+      de: "Sollte SCP-049 aggressiv werden, hat sich gezeigt, dass die Anwendung von Lavendel (L. multifida) eine beruhigende Wirkung auf die Entität hat."
+      es: "En caso de que SCP-049 se vuelva agresivo, se ha demostrado que la aplicación de lavanda (L. multifida) produce un efecto calmante en la entidad."
+      fr: "Si SCP-049 devient agressif, il a été démontré que l'application de lavande (L. multifida) produit un effet apaisant sur l'entité."
+      it: "Nel caso in cui SCP-049 diventi aggressivo, è stato dimostrato che l'applicazione di lavanda (L. multifida) produce un effetto calmante sull'entità."
+      ko: "SCP-049가 공격적으로 변할 경우, 라벤더(L. multifida)를 사용하면 개체에 진정 효과가 나타나는 것으로 확인되었다."
+      pl: "W przypadku, gdy SCP-049 stanie się agresywne, zastosowanie lawendy (L. multifida) wykazało działanie uspokajające na istotę."
+      pt: "Caso o SCP-049 se torne agressivo, foi demonstrado que a aplicação de lavanda (L. multifida) produz um efeito calmante na entidade."
+      th: "ในกรณีที่ SCP-049 กลายเป็นก้าวร้าว การใช้ลาเวนเดอร์ (L. multifida) ได้แสดงให้เห็นว่าสามารถสร้างผลสงบต่อสิ่งมีชีวิตได้"
+      uk: "У разі якщо SCP-049 стає агресивним, застосування лаванди (L. multifida) продемонструвало заспокійливий ефект на істоту."
+      vi: "Trong trường hợp SCP-049 trở nên hung hăng, việc sử dụng oải hương (L. multifida) đã được chứng minh là tạo ra hiệu ứng làm dịu đối với thực thể."
+      zh: "若SCP-049表现出攻击性，实验证明施用薰衣草（L. multifida）能对该实体产生镇静效果。"
+      zh_Hant: "若SCP-049表現出攻擊性，實驗證明施用薰衣草（L. multifida）能對該實體產生鎮靜效果。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole
+      corridor. SCP-049 walks calmly back toward its open containment
+      cell in the center of the frame, holding the sprig of lavender
+      gently in one gloved hand, its posture relaxed. On the left side of
+      the frame, attending-researcher-m stands back near the cell door,
+      visibly relieved. On the right side of the frame,
+      attending-researcher-f lowers her guard, equally relieved.
+    characters: [scp-049, attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "一度鎮静すると、SCP-049は通常従順になり、その後ほとんど抵抗することなく収容セルへと戻ります。"
+      en: "Once calmed, SCP-049 generally becomes compliant, and will return to containment with little resistance."
+      cs: "Jakmile je uklidněno, SCP-049 se obvykle stává poddajným a vrací se do zadržovacího prostoru s malým odporem."
+      de: "Sobald es beruhigt ist, wird SCP-049 in der Regel kooperativ und kehrt mit geringem Widerstand in die Eindämmung zurück."
+      es: "Una vez calmado, SCP-049 generalmente se vuelve dócil y regresará a su contención con poca resistencia."
+      fr: "Une fois calmé, SCP-049 devient généralement docile et retourne au confinement avec peu de résistance."
+      it: "Una volta calmato, SCP-049 generalmente diventa remissivo e tornerà nel contenimento con scarsa resistenza."
+      ko: "진정되면 SCP-049는 대체로 순응하게 되며, 거의 저항 없이 수용 공간으로 돌아간다."
+      pl: "Po uspokojeniu SCP-049 zazwyczaj staje się uległe i wraca do miejsca przetrzymywania z niewielkim oporem."
+      pt: "Uma vez acalmado, o SCP-049 geralmente se torna dócil e retornará à contenção com pouca resistência."
+      th: "เมื่อสงบลงแล้ว SCP-049 มักจะยอมทำตามและจะกลับเข้าสู่การกักกันโดยแทบไม่มีการต่อต้าน"
+      uk: "Заспокоївшись, SCP-049 зазвичай стає слухняним і повертається до утримання, майже не чинячи опору."
+      vi: "Sau khi được xoa dịu, SCP-049 thường trở nên ngoan ngoãn và sẽ quay lại khu vực giam giữ mà hầu như không kháng cự."
+      zh: "一旦平静下来，SCP-049通常会变得顺从，并几乎不做抵抗地返回收容设施。"
+      zh_Hant: "一旦平靜下來，SCP-049通常會變得順從，並幾乎不做抵抗地返回收容設施。"

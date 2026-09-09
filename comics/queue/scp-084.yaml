@@ -1,0 +1,140 @@
+# SCP-084 4コマ台本
+# captionはDescription本文からの引用。自殺/殺人が回避される描写、
+# 「重複」が生体組織に及ぼす有害な影響の記述は使用しない。キャラにセリフは言わせない。
+
+id: scp-084
+
+title:
+  en: "SCP-084"
+  ja: "SCP-084"
+  cs: "SCP-084"
+  de: "SCP-084"
+  es: "SCP-084"
+  fr: "SCP-084"
+  it: "SCP-084"
+  ko: "SCP-084"
+  pl: "SCP-084"
+  pt: "SCP-084"
+  th: "SCP-084"
+  uk: "SCP-084"
+  vi: "SCP-084"
+  zh: "SCP-084"
+  zh_Hant: "SCP-084"
+
+attribution:
+  article: "SCP-084"
+  source_url: "http://scp-wiki.wikidot.com/scp-084"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  trapped-traveler:
+    name: "Trapped Traveler"
+    description: >
+      A weary middle-aged man in worn, dusty clothing (faded blue
+      shirt, color RGB 90,110,130), disheveled brown hair (color RGB
+      80,60,40), and several days of stubble, sitting exhausted with a
+      walking stick beside him.
+
+characters: [attending-researcher-m, attending-researcher-f, trapped-traveler]
+
+panels:
+  - scene: >
+      Wide shot, full body, showing the whole open field. A tall radio
+      tower stands alone in the distance beside two small outbuildings,
+      a faint shimmering heat-haze distortion visible in the air around
+      it. attending-researcher-m observes from a safe distance with
+      binoculars.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-084は、広く開けた野原の中央に立つ大型のラジオ塔のように見える。SCP-084は、周辺の時空・現実に有害な影響を及ぼす何らかの波動または放射を発しているようであり、その活動範囲は直径200メートルほどの、おおまかな『ドーム』状を形成している。"
+      en: "SCP-084 appears to be a large radio tower positioned in the center of a large, open field. SCP-084 appears to emit a form of wave or radiation that has a detrimental effect on local space-time/reality; the active area forms a rough 'dome' shape of two hundred (200) meters in diameter."
+      cs: "SCP-084 vypadá jako velká rozhlasová věž umístěná uprostřed rozlehlého otevřeného pole. Zdá se, že SCP-084 vyzařuje jakousi vlnu nebo záření se škodlivým účinkem na místní časoprostor/realitu; aktivní oblast tvoří přibližný tvar „kupole“ o průměru dvě stě (200) metrů."
+      de: "SCP-084 erscheint als großer Funkturm, der in der Mitte eines großen, offenen Feldes steht. SCP-084 scheint eine Art Welle oder Strahlung auszusenden, die eine nachteilige Wirkung auf die lokale Raumzeit/Realität hat; der Wirkungsbereich bildet eine grobe „Kuppel“-Form mit zweihundert (200) Metern Durchmesser."
+      es: "SCP-084 parece ser una gran torre de radio situada en el centro de un amplio campo abierto. El SCP-084 parece emitir una forma de onda o radiación que tiene un efecto perjudicial sobre el espacio-tiempo/realidad local; el área activa forma una especie de 'cúpula' de doscientos (200) metros de diámetro."
+      fr: "Le SCP-084 semble être une grande tour radio située au centre d'un vaste champ ouvert. Le SCP-084 semble émettre une forme d'onde ou de rayonnement ayant un effet néfaste sur l'espace-temps/la réalité locale ; la zone active forme une sorte de « dôme » d'environ deux cents (200) mètres de diamètre."
+      it: "SCP-084 sembra essere una grande torre radio posizionata al centro di un vasto campo aperto. SCP-084 sembra emettere una forma di onda o radiazione con un effetto dannoso sullo spazio-tempo/realtà locale; l'area attiva forma una vaga forma a 'cupola' di duecento (200) metri di diametro."
+      ko: "SCP-084는 넓게 트인 들판 한가운데에 서 있는 대형 라디오 송신탑처럼 보인다. SCP-084는 주변 시공간/현실에 유해한 영향을 미치는 일종의 파동 또는 방사를 방출하는 것으로 보이며, 활성 구역은 직경 200미터가량의 대략적인 '돔' 형태를 이루고 있다."
+      pl: "SCP-084 wygląda jak duża wieża radiowa umieszczona pośrodku rozległego, otwartego pola. SCP-084 wydaje się emitować rodzaj fali lub promieniowania, które ma szkodliwy wpływ na lokalną czasoprzestrzeń/rzeczywistość; obszar aktywny tworzy w przybliżeniu kształt „kopuły” o średnicy dwustu (200) metrów."
+      pt: "O SCP-084 parece ser uma grande torre de rádio posicionada no centro de um amplo campo aberto. O SCP-084 parece emitir uma forma de onda ou radiação que tem um efeito prejudicial sobre o espaço-tempo/realidade local; a área ativa forma uma espécie de 'cúpula' de duzentos (200) metros de diâmetro."
+      th: "SCP-084 มีลักษณะเป็นเสาวิทยุขนาดใหญ่ตั้งอยู่กลางทุ่งโล่งกว้าง SCP-084 ดูเหมือนจะปล่อยคลื่นหรือรังสีบางชนิดที่ส่งผลเสียต่อกาลอวกาศ/ความเป็นจริงในพื้นที่ พื้นที่ที่ได้รับผลกระทบมีรูปทรงคล้าย 'โดม' คร่าวๆ ขนาดเส้นผ่านศูนย์กลางสองร้อย (200) เมตร"
+      uk: "SCP-084 виглядає як велика радіощогла, розташована в центрі великого відкритого поля. SCP-084, здається, випромінює своєрідну хвилю чи радіацію, що негативно впливає на локальний простір-час/реальність; активна зона утворює приблизну форму «купола» діаметром двісті (200) метрів."
+      vi: "SCP-084 trông giống một tháp radio lớn đặt ở giữa một cánh đồng rộng lớn, thoáng đãng. SCP-084 dường như phát ra một dạng sóng hoặc bức xạ có tác động bất lợi đến không-thời gian/thực tại cục bộ; khu vực hoạt động tạo thành một hình 'vòm' thô với đường kính hai trăm (200) mét."
+      zh: "SCP-084外观是一座矗立在广阔空旷田野中央的大型无线电塔。SCP-084似乎会发出某种波动或辐射，对周边时空/现实产生有害影响；其活动区域呈大致的「穹顶」形，直径约二百（200）米。"
+      zh_Hant: "SCP-084外觀是一座矗立在廣闊空曠田野中央的大型無線電塔。SCP-084似乎會發出某種波動或輻射，對周邊時空/現實產生有害影響；其活動區域呈大致的「穹頂」形，直徑約二百（200）公尺。"
+
+  - scene: >
+      Wide shot, low angle, a different framing from the wide shot
+      before, on a dusty overgrown road stretching toward the tower.
+      A worn-out jeep sits parked with supplies. attending-researcher-f
+      stands beside it looking exhausted, gesturing toward the tower,
+      which appears exactly as distant as ever. A hand-marked calendar
+      on the jeep's dashboard shows many months crossed off.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "活動範囲内でSCP-084に接近しようとした試みでは、車両と徒歩による3か月と12日間の直接的な移動を続けても、SCP-084は常に地平線上の相対的な位置を保ち続けるという結果が得られている。"
+      en: "Attempts to approach SCP-084 within the active area have returned the observation that SCP-084 retains its relative position on the horizon, even after three months and twelve days of dedicated, direct travel both by vehicle and on foot."
+      cs: "Pokusy o přiblížení se k SCP-084 v aktivní oblasti přinesly pozorování, že SCP-084 si udržuje svou relativní polohu na horizontu, a to i po třech měsících a dvanácti dnech cíleného přímého cestování vozidlem i pěšky."
+      de: "Versuche, sich SCP-084 innerhalb des Wirkungsbereichs zu nähern, führten zu der Beobachtung, dass SCP-084 seine relative Position am Horizont beibehält, selbst nach drei Monaten und zwölf Tagen gezielter, direkter Fortbewegung sowohl mit Fahrzeugen als auch zu Fuß."
+      es: "Los intentos de acercarse al SCP-084 dentro del área activa han dado como resultado la observación de que el SCP-084 mantiene su posición relativa en el horizonte, incluso después de tres meses y doce días de viaje directo y dedicado, tanto en vehículo como a pie."
+      fr: "Les tentatives d'approche du SCP-084 dans la zone active ont montré que le SCP-084 conserve sa position relative sur l'horizon, même après trois mois et douze jours de déplacement direct et soutenu, en véhicule comme à pied."
+      it: "I tentativi di avvicinarsi a SCP-084 all'interno dell'area attiva hanno prodotto l'osservazione che SCP-084 mantiene la propria posizione relativa sull'orizzonte, anche dopo tre mesi e dodici giorni di viaggio diretto e continuo, sia in veicolo che a piedi."
+      ko: "활성 구역 내에서 SCP-084에 접근하려는 시도는, 차량과 도보로 3개월 12일 동안 지속적으로 직접 이동했음에도 SCP-084가 지평선상의 상대적 위치를 계속 유지한다는 관찰 결과를 낳았다."
+      pl: "Próby zbliżenia się do SCP-084 w obrębie strefy aktywnej zaowocowały obserwacją, że SCP-084 zachowuje swoją względną pozycję na horyzoncie, nawet po trzech miesiącach i dwunastu dniach nieprzerwanej, bezpośredniej podróży zarówno pojazdem, jak i pieszo."
+      pt: "As tentativas de se aproximar do SCP-084 dentro da área ativa resultaram na observação de que o SCP-084 mantém sua posição relativa no horizonte, mesmo após três meses e doze dias de deslocamento direto e dedicado, tanto de veículo quanto a pé."
+      th: "ความพยายามที่จะเข้าใกล้ SCP-084 ภายในพื้นที่ที่ได้รับผลกระทบพบข้อสังเกตว่า SCP-084 ยังคงตำแหน่งสัมพัทธ์บนขอบฟ้าไว้เช่นเดิม แม้จะเดินทางตรงอย่างต่อเนื่องด้วยยานพาหนะและด้วยเท้าเป็นเวลาสามเดือนสิบสองวันก็ตาม"
+      uk: "Спроби наблизитися до SCP-084 в межах активної зони показали, що SCP-084 зберігає своє відносне положення на горизонті навіть після трьох місяців і дванадцяти днів безперервного прямого пересування як транспортом, так і пішки."
+      vi: "Những nỗ lực tiếp cận SCP-084 trong khu vực hoạt động đã cho thấy SCP-084 vẫn giữ nguyên vị trí tương đối trên đường chân trời, ngay cả sau ba tháng mười hai ngày di chuyển trực tiếp, liên tục bằng cả xe cộ và đi bộ."
+      zh: "在活动区域内试图接近SCP-084的行动均得出同样的观测结果：即便持续以车辆和徒步方式直线行进长达三个月零十二天，SCP-084始终保持在地平线上相同的相对位置。"
+      zh_Hant: "在活動區域內試圖接近SCP-084的行動均得出同樣的觀測結果：即便持續以車輛和徒步方式直線行進長達三個月零十二天，SCP-084始終保持在地平線上相同的相對位置。"
+
+  - scene: >
+      Wide shot, elevated aerial-style angle, pulled back far, a
+      different framing from the wide shot before. A small quaint town
+      sits nestled inside the dome-shaped distortion zone, quiet
+      streets with townsfolk going about ordinary life, a faint
+      shimmering dome boundary visible high in the sky above.
+      attending-researcher-m stands at the very edge of the frame,
+      outside the boundary, watching through binoculars.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "██████████ █████という町は、活動範囲が最初に出現した場所、あるいはその近辺に位置していたと推定されている。この町は封入されて以来、同じ人口（343人）を維持し続けており、出生や通常の老化も不可能であるようだ。"
+      en: "The town of ██████████ █████ is assumed to have been situated in or around the original manifestation of the active area. It has maintained the same population (343 humans) for the duration of its encapsulation, and births appear to be impossible, along with normal aging patterns."
+      cs: "Předpokládá se, že město ██████████ █████ se nacházelo v místě nebo v blízkosti původního projevu aktivní oblasti. Po celou dobu svého uzavření si udrželo stejný počet obyvatel (343 lidí) a zdá se, že porody ani normální stárnutí nejsou možné."
+      de: "Es wird angenommen, dass die Stadt ██████████ █████ sich am oder in der Nähe des ursprünglichen Auftretens des Wirkungsbereichs befand. Sie hat während ihrer Einschließung dieselbe Bevölkerung (343 Menschen) beibehalten, und Geburten sowie normale Alterungsprozesse scheinen unmöglich zu sein."
+      es: "Se presume que el pueblo de ██████████ █████ estaba situado en o cerca de la manifestación original del área activa. Ha mantenido la misma población (343 humanos) durante todo el tiempo de su encapsulamiento, y los nacimientos parecen ser imposibles, al igual que los patrones normales de envejecimiento."
+      fr: "On suppose que la ville de ██████████ █████ était située dans ou autour de la manifestation originelle de la zone active. Elle a conservé la même population (343 humains) pendant toute la durée de son encapsulation, et les naissances semblent impossibles, tout comme les schémas normaux de vieillissement."
+      it: "Si presume che la città di ██████████ █████ fosse situata all'interno o nei pressi della manifestazione originale dell'area attiva. Ha mantenuto la stessa popolazione (343 esseri umani) per tutta la durata del suo incapsulamento, e le nascite sembrano essere impossibili, così come i normali processi di invecchiamento."
+      ko: "██████████ █████ 마을은 활성 구역이 최초로 나타난 지점이나 그 주변에 위치해 있었던 것으로 추정된다. 이 마을은 봉쇄된 이후 동일한 인구(343명)를 유지해 왔으며, 출산과 정상적인 노화 또한 불가능한 것으로 보인다."
+      pl: "Zakłada się, że miasteczko ██████████ █████ było położone w miejscu lub w pobliżu pierwotnej manifestacji strefy aktywnej. Przez cały okres uwięzienia utrzymywało tę samą liczbę mieszkańców (343 osoby), a narodziny wydają się niemożliwe, podobnie jak normalne procesy starzenia."
+      pt: "Presume-se que a cidade de ██████████ █████ estava situada dentro ou ao redor da manifestação original da área ativa. Ela manteve a mesma população (343 humanos) durante todo o período de seu encapsulamento, e os nascimentos parecem ser impossíveis, assim como os padrões normais de envelhecimento."
+      th: "สันนิษฐานว่าเมือง ██████████ █████ ตั้งอยู่ในหรือรอบๆ จุดที่พื้นที่ที่ได้รับผลกระทบปรากฏขึ้นครั้งแรก เมืองนี้คงจำนวนประชากรเดิม (343 คน) ไว้ตลอดระยะเวลาที่ถูกปิดล้อม และดูเหมือนว่าการเกิดใหม่จะเป็นไปไม่ได้ เช่นเดียวกับรูปแบบการชราภาพตามปกติ"
+      uk: "Припускають, що місто ██████████ █████ було розташоване в межах або поблизу початкового прояву активної зони. Воно зберігало однакову кількість населення (343 людини) протягом усього періоду свого замкнення, і народження, здається, неможливі, так само як і звичайне старіння."
+      vi: "Người ta cho rằng thị trấn ██████████ █████ đã từng nằm trong hoặc gần khu vực biểu hiện ban đầu của vùng hoạt động. Thị trấn này đã duy trì cùng một số dân (343 người) trong suốt thời gian bị bao bọc, và việc sinh nở dường như là bất khả thi, cũng như quá trình lão hóa bình thường."
+      zh: "据推测，██████████ █████小镇原本坐落在活动区域最初显现的位置或其附近。自被封闭以来，该镇的人口始终维持不变（343人），出生与正常的衰老似乎都不再可能发生。"
+      zh_Hant: "據推測，██████████ █████小鎮原本坐落在活動區域最初顯現的位置或其附近。自被封閉以來，該鎮的人口始終維持不變（343人），出生與正常的衰老似乎都不再可能發生。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the wide shot
+      before, at the grassy edge of the town. trapped-traveler sits on
+      the grass, exhausted, a walking stick beside him, worn boots and
+      dusty clothing. attending-researcher-f crouches nearby to speak
+      with him, notepad in hand.
+    characters: [trapped-traveler, attending-researcher-f]
+    caption:
+      ja: "また、ある一定の期間が経過すると、活動範囲から出ることも不可能になるようである。ある被験者は6年間旅を続けていたと証言しており、町の境界からわずか約400メートルの地点で発見された。"
+      en: "It also appears impossible to leave the active area after a random period of time. One subject reported he had been traveling for six years, and was found approximately four hundred meters from the town's city limits."
+      cs: "Zdá se také, že po náhodně dlouhé době je nemožné aktivní oblast opustit. Jeden subjekt uvedl, že cestoval šest let, a byl nalezen přibližně čtyři sta metrů od hranic města."
+      de: "Es scheint zudem unmöglich zu sein, den Wirkungsbereich nach einer zufälligen Zeitspanne zu verlassen. Eine Testperson berichtete, sechs Jahre lang unterwegs gewesen zu sein, und wurde etwa vierhundert Meter von der Stadtgrenze entfernt gefunden."
+      es: "También parece imposible abandonar el área activa después de un periodo de tiempo aleatorio. Un sujeto informó que había estado viajando durante seis años, y fue encontrado a unos cuatrocientos metros de los límites de la ciudad."
+      fr: "Il semble également impossible de quitter la zone active après une période de temps aléatoire. Un sujet a rapporté avoir voyagé pendant six ans, et a été retrouvé à environ quatre cents mètres des limites de la ville."
+      it: "Sembra inoltre impossibile lasciare l'area attiva dopo un periodo di tempo casuale. Un soggetto ha riferito di aver viaggiato per sei anni, ed è stato trovato a circa quattrocento metri dai confini della città."
+      ko: "또한 무작위의 시간이 지나면 활성 구역을 벗어나는 것도 불가능해지는 것으로 보인다. 한 피험자는 6년 동안 여행을 계속했다고 진술했으며, 마을 경계에서 약 400미터 떨어진 지점에서 발견되었다."
+      pl: "Wydaje się również, że po upływie losowego okresu czasu opuszczenie strefy aktywnej staje się niemożliwe. Jeden z badanych zgłosił, że podróżował przez sześć lat, i został znaleziony około czterystu metrów od granic miasta."
+      pt: "Também parece impossível sair da área ativa após um período de tempo aleatório. Um sujeito relatou ter viajado por seis anos, e foi encontrado a aproximadamente quatrocentos metros dos limites da cidade."
+      th: "นอกจากนี้ยังดูเหมือนว่าจะเป็นไปไม่ได้ที่จะออกจากพื้นที่ที่ได้รับผลกระทบหลังจากระยะเวลาหนึ่งที่ไม่แน่นอน ผู้ทดลองรายหนึ่งรายงานว่าเขาเดินทางมาเป็นเวลาหกปี และถูกพบห่างจากเขตเมืองประมาณสี่ร้อยเมตร"
+      uk: "Також, здається, неможливо покинути активну зону після випадкового проміжку часу. Один суб'єкт повідомив, що подорожував шість років, і його знайшли приблизно за чотириста метрів від межі міста."
+      vi: "Cũng dường như không thể rời khỏi khu vực hoạt động sau một khoảng thời gian ngẫu nhiên. Một đối tượng báo cáo rằng anh ta đã đi được sáu năm, và được tìm thấy cách ranh giới thị trấn khoảng bốn trăm mét."
+      zh: "此外，在经过一段随机的时间之后，似乎也无法离开该活动区域。一名对象报告称自己已经赶路六年之久，最终在距离小镇边界约四百米处被发现。"
+      zh_Hant: "此外，在經過一段隨機的時間之後，似乎也無法離開該活動區域。一名對象報告稱自己已經趕路六年之久，最終在距離小鎮邊界約四百公尺處被發現。"

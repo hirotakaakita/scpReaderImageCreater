@@ -1,0 +1,150 @@
+# SCP-3008「完全に普通の、ありきたりな古いイケア」4コマ台本
+# captionはSpecial Containment Procedures / Descriptionの実際の文章からの引用。
+# キャラにセリフは言わせない。サバイバー日誌等の補遺は本編に混ぜない。
+# 記事を確認したところオブジェクトクラスはKeterではなくEuclid（正）。
+
+id: scp-3008
+
+title:
+  en: "SCP-3008: A Perfectly Normal, Regular Old IKEA"
+  ja: "SCP-3008：完全に普通の、ありきたりな古いイケア"
+  cs: "SCP-3008: Naprosto normální, obyčejná stará IKEA"
+  de: "SCP-3008: Ein völlig normales, gewöhnliches altes IKEA"
+  es: "SCP-3008: Un IKEA perfectamente normal y corriente"
+  fr: "SCP-3008 : Un IKEA parfaitement normal et banal"
+  it: "SCP-3008: Un IKEA perfettamente normale e banale"
+  ko: "SCP-3008: 완전히 평범하고 흔한 오래된 이케아"
+  pl: "SCP-3008: Zupełnie zwyczajna, stara IKEA"
+  pt: "SCP-3008: Um IKEA Perfeitamente Normal e Comum"
+  th: "SCP-3008: อิเกียเก่าธรรมดาทั่วไป"
+  uk: "SCP-3008: Цілком звичайна, стара ІКЕА"
+  vi: "SCP-3008: Một Cửa Hàng IKEA Cũ Hoàn Toàn Bình Thường"
+  zh: "SCP-3008：一间完全普通、平平无奇的旧宜家"
+  zh_Hant: "SCP-3008：一間完全普通、平平無奇的舊IKEA"
+
+attribution:
+  article: "SCP-3008"
+  source_url: "http://scp-wiki.wikidot.com/scp-3008"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-3008-2:
+    name: SCP-3008-2
+    description: >
+      SCP-3008-2, a humanoid entity superficially resembling a retail
+      store employee, but with exaggerated and inconsistent bodily
+      proportions — noticeably too tall or too short, limbs slightly too
+      long. It has no facial features at all: its head is smooth and
+      blank (skin tone color RGB 225,205,180), with no eyes, nose, or
+      mouth. Wears a yellow shirt (color RGB 235,200,40) and blue
+      trousers (color RGB 40,60,120), matching an ordinary furniture-store
+      employee uniform.
+
+characters: [attending-researcher-m, scp-3008-2]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the whole exterior of a
+      large big-box retail store now ringed with Foundation fencing and
+      a guarded checkpoint booth beside its entrance. Attending-researcher-m
+      stands inside the booth, watching a bank of monitors trained on the
+      storefront doors, clipboard in hand.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-3008を含むこのリテールパークは財団により買収され、サイト-██として転用された。SCP-3008の入口は常時監視され、上級研究員の許可による実験以外での立ち入りは禁止される。"
+      en: "The retail park containing SCP-3008 has been purchased by the Foundation and converted into Site-██. The entrance to SCP-3008 is to be monitored at all times, and no one is to enter SCP-3008 outside of testing, as permitted by the Senior Researcher."
+      cs: "Obchodní park obsahující SCP-3008 byl zakoupen Nadací a přeměněn na Site-██. Vstup do SCP-3008 musí být neustále monitorován a nikdo nesmí vstoupit do SCP-3008 mimo testování povolené vedoucím výzkumníkem."
+      de: "Der Gewerbepark, in dem sich SCP-3008 befindet, wurde von der Stiftung erworben und in Standort-██ umgewandelt. Der Eingang zu SCP-3008 ist jederzeit zu überwachen, und niemand darf SCP-3008 außerhalb von Tests betreten, sofern nicht vom leitenden Forscher genehmigt."
+      es: "El parque comercial que contiene SCP-3008 ha sido adquirido por la Fundación y convertido en el Sitio-██. La entrada a SCP-3008 debe estar vigilada en todo momento, y nadie debe entrar en SCP-3008 fuera de las pruebas autorizadas por el Investigador Superior."
+      fr: "Le parc commercial contenant le SCP-3008 a été racheté par la Fondation et transformé en Site-██. L'entrée du SCP-3008 doit être surveillée en permanence, et personne ne doit y entrer en dehors des tests autorisés par le Chercheur Senior."
+      it: "Il parco commerciale contenente SCP-3008 è stato acquistato dalla Fondazione e convertito nel Sito-██. L'ingresso a SCP-3008 deve essere monitorato in ogni momento, e nessuno deve entrarvi al di fuori dei test autorizzati dal Ricercatore Senior."
+      ko: "SCP-3008가 위치한 리테일 파크는 재단이 매입하여 사이트-██로 전환하였다. SCP-3008의 입구는 항상 감시되어야 하며, 선임 연구원이 허가한 실험 목적 외에는 누구도 SCP-3008에 출입할 수 없다."
+      pl: "Park handlowy zawierający SCP-3008 został wykupiony przez Fundację i przekształcony w Placówkę-██. Wejście do SCP-3008 musi być stale monitorowane, a nikt nie może wchodzić do SCP-3008 poza testami dozwolonymi przez Starszego Badacza."
+      pt: "O parque comercial que contém o SCP-3008 foi adquirido pela Fundação e convertido no Local-██. A entrada do SCP-3008 deve ser monitorada o tempo todo, e ninguém deve entrar no SCP-3008 fora dos testes permitidos pelo Pesquisador Sênior."
+      th: "สวนค้าปลีกที่มี SCP-3008 ตั้งอยู่ได้ถูกมูลนิธิซื้อและดัดแปลงเป็นไซต์-██ ทางเข้า SCP-3008 ต้องถูกเฝ้าติดตามตลอดเวลา และห้ามผู้ใดเข้าไปใน SCP-3008 นอกเหนือจากการทดสอบที่ได้รับอนุญาตจากนักวิจัยอาวุโส"
+      uk: "Торговий парк, що містить SCP-3008, було придбано Фондом і перетворено на Об'єкт-██. Вхід до SCP-3008 має постійно перебувати під наглядом, і нікому не дозволяється заходити туди поза випробуваннями, дозволеними старшим дослідником."
+      vi: "Khu thương mại chứa SCP-3008 đã được Quỹ mua lại và chuyển đổi thành Địa Điểm-██. Lối vào SCP-3008 phải được giám sát mọi lúc, và không ai được phép vào SCP-3008 ngoài mục đích thử nghiệm do Nghiên Cứu Viên Cấp Cao cho phép."
+      zh: "SCP-3008所在的购物园区已被基金会收购并改建为██站点。SCP-3008的入口须始终受到监控，除经高级研究员批准的实验外，任何人不得进入SCP-3008。"
+      zh_Hant: "SCP-3008所在的購物園區已被基金會收購並改建為██站點。SCP-3008的入口須始終受到監控，除經高級研究員批准的實驗外，任何人不得進入SCP-3008。"
+
+  - scene: >
+      Wide shot, from behind, deep one-point-perspective composition,
+      very different framing from the previous panel. Attending-researcher-m
+      stands just past the entrance doors, dwarfed at the bottom of the
+      frame, staring down an impossibly long corridor of furniture
+      showroom displays that recedes into a hazy vanishing point far
+      beyond where any real building could extend.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-3008-1は、イケアの家具店内部に酷似した空間だが、その敷地の物理的な寸法を大きく超えて広がっている。現在の測定では少なくとも10平方kmの面積があり、いずれの方向にも外部の終端は確認されていない。"
+      en: "SCP-3008-1 is a space resembling the inside of an IKEA furniture store, extending far beyond the limits of what could physically be contained within the dimensions of the retail unit. Current measurements indicate an area of at least 10km² with no visible external terminators detected in any direction."
+      cs: "SCP-3008-1 je prostor připomínající vnitřek nábytkového obchodu IKEA, který se rozprostírá daleko za hranice toho, co by fyzicky mohlo být obsaženo v rozměrech maloobchodní jednotky. Současná měření naznačují plochu nejméně 10 km² bez viditelných vnějších hranic v jakémkoli směru."
+      de: "SCP-3008-1 ist ein Raum, der dem Inneren eines IKEA-Möbelhauses ähnelt und sich weit über die Grenzen dessen hinaus erstreckt, was physisch innerhalb der Abmessungen der Verkaufsfläche enthalten sein könnte. Aktuelle Messungen deuten auf eine Fläche von mindestens 10 km² hin, ohne in irgendeiner Richtung sichtbare äußere Begrenzungen."
+      es: "SCP-3008-1 es un espacio que se asemeja al interior de una tienda de muebles IKEA, extendiéndose mucho más allá de los límites de lo que físicamente podría caber dentro de las dimensiones del local comercial. Las mediciones actuales indican un área de al menos 10 km², sin límites externos visibles detectados en ninguna dirección."
+      fr: "Le SCP-3008-1 est un espace ressemblant à l'intérieur d'un magasin de meubles IKEA, s'étendant bien au-delà des limites de ce qui pourrait physiquement tenir dans les dimensions du local commercial. Les mesures actuelles indiquent une superficie d'au moins 10 km², sans limite externe visible détectée dans aucune direction."
+      it: "SCP-3008-1 è uno spazio che assomiglia all'interno di un negozio di mobili IKEA, che si estende ben oltre i limiti di ciò che potrebbe fisicamente essere contenuto nelle dimensioni dell'unità commerciale. Le misurazioni attuali indicano un'area di almeno 10 km², senza confini esterni visibili rilevati in nessuna direzione."
+      ko: "SCP-3008-1은 이케아 가구 매장 내부와 흡사한 공간이지만, 해당 매장 부지의 물리적 규모를 훨씬 넘어서까지 뻗어 있다. 현재 측정치는 최소 10km² 면적을 나타내며, 어느 방향으로도 외부 경계는 확인되지 않았다."
+      pl: "SCP-3008-1 to przestrzeń przypominająca wnętrze sklepu meblowego IKEA, rozciągająca się daleko poza granice tego, co fizycznie mogłoby zmieścić się w wymiarach jednostki handlowej. Obecne pomiary wskazują na powierzchnię co najmniej 10 km², bez widocznych zewnętrznych granic wykrytych w żadnym kierunku."
+      pt: "O SCP-3008-1 é um espaço que se assemelha ao interior de uma loja de móveis IKEA, estendendo-se muito além dos limites do que fisicamente poderia caber nas dimensões da unidade comercial. Medições atuais indicam uma área de pelo menos 10 km², sem limites externos visíveis detectados em qualquer direção."
+      th: "SCP-3008-1 คือพื้นที่ที่มีลักษณะคล้ายภายในร้านเฟอร์นิเจอร์อิเกีย ซึ่งขยายออกไปไกลเกินขอบเขตทางกายภาพของขนาดหน่วยค้าปลีกจริง การวัดในปัจจุบันบ่งชี้พื้นที่อย่างน้อย 10 ตร.กม. โดยไม่พบขอบเขตภายนอกที่มองเห็นได้ในทิศทางใดเลย"
+      uk: "SCP-3008-1 — це простір, що нагадує інтер'єр меблевого магазину IKEA, який простягається далеко за межі того, що фізично могло б вміститися в габаритах торгового приміщення. Поточні виміри вказують на площу щонайменше 10 км², без видимих зовнішніх меж у будь-якому напрямку."
+      vi: "SCP-3008-1 là một không gian giống với bên trong cửa hàng nội thất IKEA, trải dài vượt xa giới hạn vật lý có thể chứa trong kích thước của gian hàng bán lẻ. Các phép đo hiện tại cho thấy diện tích ít nhất 10km² mà không phát hiện ranh giới ngoài nào theo bất kỳ hướng nào."
+      zh: "SCP-3008-1是一处酷似宜家家具店内部的空间，其范围远远超出该零售单元实际尺寸所能容纳的物理极限。目前的测量结果显示其面积至少达10平方公里，且在任何方向上均未发现可见的外部边界。"
+      zh_Hant: "SCP-3008-1是一處酷似IKEA家具店內部的空間，其範圍遠遠超出該零售單元實際尺寸所能容納的物理極限。目前的測量結果顯示其面積至少達10平方公里，且在任何方向上均未發現可見的外部邊界。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a calmer daytime framing
+      different from the deep-perspective previous panel. On the right
+      side of the frame, two instances of SCP-3008-2, faceless and
+      wearing yellow shirts and blue trousers, move placidly among the
+      furniture displays, straightening cushions and rearranging chairs
+      with slow, aimless motions. On the left side of the frame,
+      attending-researcher-m stands at a safe distance near the doorway,
+      glancing warily at a wall clock mounted nearby.
+    characters: [scp-3008-2, attending-researcher-m]
+    caption:
+      ja: "SCP-3008-2の個体には顔の特徴が一切なく、確認された全ての事例でイケアの店員制服に一致する黄色いシャツと青いズボンを着用している。「昼」が始まると、SCP-3008-2の個体は直ちに大人しくなり、SCP-3008-1内を一見無作為に動き回り始める。"
+      en: "They possess no facial features and in all observed cases wear a yellow shirt and blue trousers consistent with the IKEA employee uniform. Once 'day' begins, SCP-3008-2 instances immediately become passive and begin moving throughout SCP-3008-1 seemingly at random."
+      cs: "Nemají žádné obličejové rysy a ve všech pozorovaných případech nosí žlutou košili a modré kalhoty odpovídající uniformě zaměstnance IKEA. Jakmile začne 'den', instance SCP-3008-2 se okamžitě stanou pasivními a začnou se zdánlivě náhodně pohybovat po SCP-3008-1."
+      de: "Sie besitzen keinerlei Gesichtszüge und tragen in allen beobachteten Fällen ein gelbes Hemd und eine blaue Hose entsprechend der IKEA-Mitarbeiteruniform. Sobald der 'Tag' beginnt, werden SCP-3008-2-Instanzen sofort passiv und beginnen, sich scheinbar zufällig durch SCP-3008-1 zu bewegen."
+      es: "No poseen rasgos faciales y en todos los casos observados visten una camisa amarilla y pantalones azules acordes con el uniforme de empleado de IKEA. En cuanto comienza el 'día', las instancias de SCP-3008-2 se vuelven pasivas de inmediato y comienzan a moverse por SCP-3008-1 aparentemente al azar."
+      fr: "Ils ne possèdent aucun trait du visage et, dans tous les cas observés, portent une chemise jaune et un pantalon bleu correspondant à l'uniforme des employés IKEA. Dès que le « jour » commence, les instances de SCP-3008-2 deviennent immédiatement passives et se déplacent dans le SCP-3008-1 de manière apparemment aléatoire."
+      it: "Non possiedono alcun tratto del viso e, in tutti i casi osservati, indossano una camicia gialla e pantaloni blu coerenti con l'uniforme dei dipendenti IKEA. Non appena inizia il 'giorno', le istanze di SCP-3008-2 diventano immediatamente passive e iniziano a muoversi per SCP-3008-1 in modo apparentemente casuale."
+      ko: "이들은 얼굴 특징이 전혀 없으며, 관찰된 모든 사례에서 이케아 직원 유니폼과 일치하는 노란 셔츠와 파란 바지를 착용하고 있다. '낮'이 시작되면 SCP-3008-2 개체들은 즉시 온순해지며 SCP-3008-1 내부를 겉보기에 무작위로 돌아다니기 시작한다."
+      pl: "Nie posiadają żadnych rysów twarzy i we wszystkich zaobserwowanych przypadkach noszą żółtą koszulę i niebieskie spodnie zgodne z mundurem pracownika IKEA. Gdy tylko zaczyna się 'dzień', egzemplarze SCP-3008-2 natychmiast stają się bierne i zaczynają poruszać się po SCP-3008-1 pozornie losowo."
+      pt: "Eles não possuem traços faciais e, em todos os casos observados, usam camisa amarela e calça azul condizentes com o uniforme de funcionário da IKEA. Assim que o 'dia' começa, as instâncias de SCP-3008-2 tornam-se imediatamente passivas e passam a se mover por todo o SCP-3008-1 aparentemente ao acaso."
+      th: "พวกมันไม่มีลักษณะใบหน้าใดๆ และในทุกกรณีที่พบสวมเสื้อสีเหลืองและกางเกงสีน้ำเงินตรงกับเครื่องแบบพนักงานอิเกีย เมื่อ 'กลางวัน' เริ่มต้น ตัวอย่าง SCP-3008-2 จะสงบลงทันทีและเริ่มเคลื่อนที่ไปทั่ว SCP-3008-1 อย่างดูเหมือนไร้จุดหมาย"
+      uk: "У них немає жодних рис обличчя, і в усіх зафіксованих випадках вони носять жовту сорочку та сині штани, що відповідають формі співробітника IKEA. Щойно настає 'день', екземпляри SCP-3008-2 негайно стають пасивними та починають пересуватися по SCP-3008-1 нібито безцільно."
+      vi: "Chúng không có bất kỳ đặc điểm khuôn mặt nào và trong mọi trường hợp quan sát được đều mặc áo sơ mi vàng và quần dài xanh dương giống đồng phục nhân viên IKEA. Khi 'ban ngày' bắt đầu, các thực thể SCP-3008-2 ngay lập tức trở nên hiền lành và bắt đầu di chuyển khắp SCP-3008-1 một cách có vẻ ngẫu nhiên."
+      zh: "它们没有任何面部特征，在所有观测案例中均穿着与宜家员工制服一致的黄色衬衫与蓝色长裤。「白天」开始后，SCP-3008-2个体会立即变得温顺，并开始看似随机地在SCP-3008-1内四处走动。"
+      zh_Hant: "牠們沒有任何面部特徵，在所有觀測案例中均穿著與IKEA員工制服一致的黃色襯衫與藍色長褲。「白天」開始後，SCP-3008-2個體會立即變得溫馴，並開始看似隨機地在SCP-3008-1內四處走動。"
+
+  - scene: >
+      Close-up, dynamic diagonal composition, low angle, an urgent
+      framing very different from the calm previous panel. On the right
+      side of the frame, the overhead lights along the corridor are
+      shutting off one row at a time in the distance, and the nearest
+      instance of SCP-3008-2 has gone rigid, its blank faceless head
+      slowly turning toward the viewer. On the left side of the frame,
+      attending-researcher-m bolts toward the glowing exit sign, one arm
+      raised to shield his eyes from the dimming lights, expression
+      panicked.
+    characters: [scp-3008-2, attending-researcher-m]
+    caption:
+      ja: "「夜」の間、SCP-3008-2の個体はSCP-3008-1内の他の全ての生命体に対して凶暴になる——このサイクルは、元の小売店の開店・閉店時刻と一致する形で天井照明が点灯・消灯することによって決まる。"
+      en: "During the 'night,' instances of SCP-3008-2 will become violent towards all other lifeforms within SCP-3008-1 — the cycle determined by the overhead lighting activating and deactivating at times consistent with the opening and closing times of the original retail store."
+      cs: "Během 'noci' se instance SCP-3008-2 stávají násilnými vůči všem ostatním formám života uvnitř SCP-3008-1 — cyklus je určen zapínáním a vypínáním stropního osvětlení v časech odpovídajících otevírací a zavírací době původního obchodu."
+      de: "Während der 'Nacht' werden Instanzen von SCP-3008-2 gegenüber allen anderen Lebensformen innerhalb von SCP-3008-1 gewalttätig – der Zyklus wird durch das Ein- und Ausschalten der Deckenbeleuchtung zu Zeiten bestimmt, die den Öffnungs- und Schließzeiten des ursprünglichen Einzelhandelsgeschäfts entsprechen."
+      es: "Durante la 'noche', las instancias de SCP-3008-2 se vuelven violentas hacia cualquier otra forma de vida dentro de SCP-3008-1 — el ciclo está determinado por la iluminación cenital, que se activa y desactiva en horarios coincidentes con los de apertura y cierre de la tienda original."
+      fr: "Pendant la « nuit », les instances de SCP-3008-2 deviennent violentes envers toute autre forme de vie à l'intérieur du SCP-3008-1 — le cycle étant déterminé par l'éclairage plafonnier qui s'active et se désactive à des horaires correspondant aux heures d'ouverture et de fermeture du magasin d'origine."
+      it: "Durante la 'notte', le istanze di SCP-3008-2 diventano violente verso ogni altra forma di vita all'interno di SCP-3008-1 — il ciclo è determinato dall'illuminazione a soffitto che si attiva e disattiva in orari coincidenti con quelli di apertura e chiusura del negozio originale."
+      ko: "'밤' 동안 SCP-3008-2 개체들은 SCP-3008-1 내의 다른 모든 생명체에게 폭력적으로 변한다 — 이 주기는 천장 조명이 원래 매장의 개점·폐점 시각과 일치하는 시간에 켜지고 꺼지는 것에 의해 결정된다."
+      pl: "Podczas 'nocy' egzemplarze SCP-3008-2 stają się agresywne wobec wszystkich innych form życia wewnątrz SCP-3008-1 — cykl ten wyznacza sufitowe oświetlenie, które włącza się i wyłącza w godzinach zgodnych z godzinami otwarcia i zamknięcia oryginalnego sklepu."
+      pt: "Durante a 'noite', as instâncias de SCP-3008-2 tornam-se violentas contra todas as outras formas de vida dentro do SCP-3008-1 — o ciclo é determinado pela iluminação do teto, que se ativa e desativa em horários condizentes com os de abertura e fechamento da loja original."
+      th: "ในช่วง 'กลางคืน' ตัวอย่าง SCP-3008-2 จะกลายเป็นความรุนแรงต่อสิ่งมีชีวิตอื่นทั้งหมดภายใน SCP-3008-1 — วงจรนี้ถูกกำหนดโดยไฟส่องสว่างบนเพดานที่เปิดและปิดตรงกับเวลาเปิด-ปิดของร้านค้าเดิม"
+      uk: "Уночі екземпляри SCP-3008-2 стають агресивними до всіх інших форм життя всередині SCP-3008-1 — цей цикл визначається стельовим освітленням, яке вмикається й вимикається у час, що відповідає годинам відкриття та закриття початкового магазину."
+      vi: "Trong 'ban đêm', các thực thể SCP-3008-2 trở nên hung dữ với mọi dạng sống khác bên trong SCP-3008-1 — chu kỳ này được xác định bởi hệ thống đèn trần bật và tắt vào những thời điểm trùng với giờ mở và đóng cửa của cửa hàng bán lẻ ban đầu."
+      zh: "在「夜晚」期间，SCP-3008-2个体会对SCP-3008-1内所有其他生命体变得具有攻击性——这一周期由天花板照明的开关决定，其时间与原零售店的开门、打烊时间一致。"
+      zh_Hant: "在「夜晚」期間，SCP-3008-2個體會對SCP-3008-1內所有其他生命體變得具有攻擊性——這一週期由天花板照明的開關決定，其時間與原零售店的開店、打烊時間一致。"

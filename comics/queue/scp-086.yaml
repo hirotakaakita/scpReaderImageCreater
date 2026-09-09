@@ -1,0 +1,143 @@
+# SCP-086 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Acquisition Log（発見の経緯）は本編・addendumともに使用しない。
+# キャラにセリフは言わせない。
+
+id: scp-086
+
+title:
+  en: "SCP-086"
+  ja: "SCP-086"
+  cs: "SCP-086"
+  de: "SCP-086"
+  es: "SCP-086"
+  fr: "SCP-086"
+  it: "SCP-086"
+  ko: "SCP-086"
+  pl: "SCP-086"
+  pt: "SCP-086"
+  th: "SCP-086"
+  uk: "SCP-086"
+  vi: "SCP-086"
+  zh: "SCP-086"
+  zh_Hant: "SCP-086"
+
+attribution:
+  article: "SCP-086"
+  source_url: "http://scp-wiki.wikidot.com/scp-086"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-086:
+    name: "SCP-086"
+    description: >
+      A cluster of ordinary-looking 1978-era office equipment arranged
+      together in one office — a beige rotary telephone, a wall-mounted
+      pencil sharpener, a desk stapler, a microfiche reader, a water
+      cooler, a filing cabinet, a scientific calculator, and a slide
+      rule — each item with a matte off-white/beige plastic finish
+      (color RGB 225,215,195) typical of period office equipment.
+
+characters: [scp-086, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, showing the whole office. All eight pieces
+      of 1970s office equipment are arranged around the room: a beige
+      rotary phone on the desk, a wall-mounted pencil sharpener, a
+      stapler, a microfiche reader, a water cooler, a filing cabinet, a
+      calculator, and a slide rule. attending-researcher-m stands near
+      the door with a notebook.
+    characters: [scp-086, attending-researcher-m]
+    caption:
+      ja: "SCP-086は、その構成部分が1978年当時のオフィス備品に似た姿をしている、集合性の固着生物であり、財団の元管理官[編集済]博士本人であると主張する意識を内包している。その8つの構成要素は、ダイヤル式電話機、壁掛け式鉛筆削り、卓上ホチキス、マイクロフィッシュリーダー、ウォータークーラー、ファイリングキャビネット、関数電卓、そして計算尺である。"
+      en: "SCP-086 is a collective sessile organism whose component parts resemble items of office equipment from 1978, and which contains a consciousness claiming to be that of former Foundation administrator Dr. [REDACTED]. Its 8 components are: a rotary telephone, a wall-mounted pencil sharpener, a desk stapler, a microfiche reader, a water cooler, a filing cabinet, a scientific calculator, and a slide rule."
+      cs: "SCP-086 je kolektivní přisedlý organismus, jehož jednotlivé součásti připomínají kancelářské vybavení z roku 1978, a který obsahuje vědomí tvrdící, že je vědomím bývalého administrátora Nadace, Dr. [REDIGOVÁNO]. Jeho 8 součástí je: telefon s otočnou číselnicí, nástěnná ořezávátka na tužky, kancelářská sešívačka, čtečka mikrofiší, chladič na vodu, kartotéková skříň, vědecká kalkulačka a logaritmické pravítko."
+      de: "SCP-086 ist ein kollektiver sessiler Organismus, dessen Bestandteile Büroausstattung aus dem Jahr 1978 ähneln und der ein Bewusstsein enthält, das behauptet, das des ehemaligen Stiftungsverwalters Dr. [GESCHWÄRZT] zu sein. Seine 8 Komponenten sind: ein Wählscheibentelefon, ein wandmontierter Bleistiftspitzer, ein Tischhefter, ein Mikrofiche-Lesegerät, ein Wasserspender, ein Aktenschrank, ein wissenschaftlicher Taschenrechner und ein Rechenschieber."
+      es: "SCP-086 es un organismo sésil colectivo cuyas partes componentes se asemejan a artículos de equipo de oficina de 1978, y que contiene una consciencia que afirma ser la del ex administrador de la Fundación, el Dr. [REDACTADO]. Sus 8 componentes son: un teléfono de disco, un sacapuntas de pared, una engrapadora de escritorio, un lector de microfichas, un enfriador de agua, un archivador, una calculadora científica y una regla de cálculo."
+      fr: "Le SCP-086 est un organisme sessile collectif dont les parties composantes ressemblent à des équipements de bureau de 1978, et qui contient une conscience prétendant être celle de l'ancien administrateur de la Fondation, le Dr [CENSURÉ]. Ses 8 composants sont : un téléphone à cadran, un taille-crayon mural, une agrafeuse de bureau, un lecteur de microfiches, une fontaine à eau, un classeur, une calculatrice scientifique et une règle à calcul."
+      it: "SCP-086 è un organismo sessile collettivo le cui parti componenti assomigliano a oggetti di attrezzatura da ufficio del 1978, e che contiene una coscienza che afferma di essere quella dell'ex amministratore della Fondazione, il Dott. [REDATTO]. I suoi 8 componenti sono: un telefono a disco combinatore, un temperamatite a muro, una cucitrice da scrivania, un lettore di microfiche, un erogatore d'acqua, uno schedario, una calcolatrice scientifica e un regolo calcolatore."
+      ko: "SCP-086은 구성 부품들이 1978년식 사무용품처럼 생긴 집합형 고착 생물로, 재단의 전 관리자였던 [편집됨] 박사 본인이라고 주장하는 의식을 담고 있다. 그 8개의 구성 요소는 다이얼식 전화기, 벽걸이형 연필깎이, 탁상용 스테이플러, 마이크로필름 판독기, 정수기, 파일 캐비닛, 공학용 계산기, 계산자이다."
+      pl: "SCP-086 to zbiorowy organizm osiadły, którego elementy składowe przypominają sprzęt biurowy z 1978 roku, i który zawiera świadomość twierdzącą, że jest świadomością byłego administratora Fundacji, dr. [UTAJNIONO]. Jego 8 elementów to: telefon z tarczą numerową, naścienna temperówka do ołówków, zszywacz biurowy, czytnik mikrofisz, dystrybutor wody, szafka na dokumenty, kalkulator naukowy i suwak logarytmiczny."
+      pt: "O SCP-086 é um organismo séssil coletivo cujas partes componentes se assemelham a itens de equipamento de escritório de 1978, e que contém uma consciência que afirma ser a do ex-administrador da Fundação, Dr. [REDIGIDO]. Seus 8 componentes são: um telefone de disco, um apontador de lápis de parede, um grampeador de mesa, um leitor de microficha, um bebedouro, um arquivo, uma calculadora científica e uma régua de cálculo."
+      th: "SCP-086 คือสิ่งมีชีวิตแบบกลุ่มที่เกาะอยู่กับที่ ซึ่งชิ้นส่วนประกอบมีลักษณะคล้ายอุปกรณ์สำนักงานจากปี 1978 และบรรจุจิตสำนึกที่อ้างว่าเป็นของอดีตผู้บริหารมูลนิธิ ดร. [ปกปิดชื่อ] ส่วนประกอบทั้ง 8 ชิ้นได้แก่ โทรศัพท์แบบหมุน เครื่องเหลาดินสอติดผนัง เครื่องเย็บกระดาษบนโต๊ะ เครื่องอ่านไมโครฟิช เครื่องกดน้ำ ตู้เก็บเอกสาร เครื่องคิดเลขวิทยาศาสตร์ และไม้บรรทัดคำนวณ"
+      uk: "SCP-086 — це колективний сидячий організм, чиї складові частини нагадують предмети офісного обладнання 1978 року, і який містить свідомість, що стверджує, ніби це свідомість колишнього адміністратора Фонду, д-ра [ВИДАЛЕНО]. Його 8 компонентів: дисковий телефон, настінна точилка для олівців, настільний степлер, зчитувач мікрофіш, кулер для води, картотечна шафа, науковий калькулятор і логарифмічна лінійка."
+      vi: "SCP-086 là một sinh vật tập thể bám cố định với các bộ phận cấu thành giống các món đồ văn phòng từ năm 1978, và chứa một ý thức tự nhận là của cựu quản trị viên Quỹ, Tiến sĩ [ĐÃ ẨN DANH]. 8 thành phần của nó là: một chiếc điện thoại quay số, một máy gọt bút chì gắn tường, một máy bấm ghim để bàn, một máy đọc vi phim, một máy làm mát nước, một tủ hồ sơ, một máy tính khoa học, và một thước tính lôgarit."
+      zh: "SCP-086是一种群体固着型生物，其组成部件外观酷似1978年的办公用品，其中包含一段意识，自称是基金会前任行政官[已编辑]博士本人。它的8个组成部分分别是：一部拨盘电话机、一台壁挂式削铅笔机、一个桌上订书机、一台缩微胶片阅读器、一台饮水机、一个文件柜、一台科学计算器，以及一把计算尺。"
+      zh_Hant: "SCP-086是一種群體固著型生物，其組成部件外觀酷似1978年的辦公用品，其中包含一段意識，自稱是基金會前任行政官[已編輯]博士本人。它的8個組成部分分別是：一部撥盤電話機、一台壁掛式削鉛筆機、一個桌上訂書機、一台縮微膠片閱讀器、一台飲水機、一個文件櫃、一台科學計算機，以及一把計算尺。"
+
+  - scene: >
+      Close-up on the rotary telephone on the desk, its receiver
+      slightly raised as if speaking, a different framing from the
+      wide shot before. attending-researcher-f sits at the secretary's
+      post outside, headphones on, recording the conversation on a
+      notepad.
+    characters: [scp-086, attending-researcher-f]
+    caption:
+      ja: "SCP-086-1の内部には脳として機能する大量の神経組織が収められている。SCP-086は受話器を通じて話すことができ、その声と口調は[編集済]博士本人のものと完全に一致する。SCP-086は着信音が「頭痛の種になる」と述べており、実際に鳴るのは、眠りから目覚める時と、苦境にある時（モールス信号でSOSを鳴らす）に限られる。"
+      en: "SCP-086-1 contains a large mass of neural tissue which functions as a brain. SCP-086 is able to speak via the earpiece in an exact match of Dr. [REDACTED]'s voice and accent. SCP-086 has stated that ringing 'gives it a headache'; the only circumstances under which it rings are when awakening from sleep, or when in distress, when it rings 'SOS' in Morse code."
+      cs: "SCP-086-1 obsahuje velkou masu nervové tkáně, která funguje jako mozek. SCP-086 dokáže mluvit prostřednictvím sluchátka, přičemž jeho hlas a přízvuk přesně odpovídají hlasu a přízvuku Dr. [REDIGOVÁNO]. SCP-086 uvedlo, že vyzvánění mu „působí bolest hlavy“; jedinými okolnostmi, za kterých vyzvání, jsou probouzení ze spánku, nebo stav tísně, kdy vyzvání „SOS“ v Morseově abecedě."
+      de: "SCP-086-1 enthält eine große Masse an Nervengewebe, die als Gehirn fungiert. SCP-086 kann über den Hörer sprechen, wobei die Stimme und der Akzent exakt mit denen von Dr. [GESCHWÄRZT] übereinstimmen. SCP-086 hat erklärt, dass Klingeln ihm „Kopfschmerzen bereitet“; die einzigen Umstände, unter denen es klingelt, sind beim Erwachen aus dem Schlaf oder in Notlagen, wobei es dann „SOS“ im Morsecode klingelt."
+      es: "El SCP-086-1 contiene una gran masa de tejido neural que funciona como un cerebro. El SCP-086 es capaz de hablar a través del auricular con una coincidencia exacta de la voz y el acento del Dr. [REDACTADO]. El SCP-086 ha declarado que sonar 'le da dolor de cabeza'; las únicas circunstancias en que suena son al despertar del sueño, o cuando está en apuros, momento en el que suena 'SOS' en código Morse."
+      fr: "Le SCP-086-1 contient une importante masse de tissu neural qui fonctionne comme un cerveau. Le SCP-086 est capable de parler via le combiné avec une correspondance exacte de la voix et de l'accent du Dr [CENSURÉ]. Le SCP-086 a déclaré que sonner lui « donne mal à la tête » ; les seules circonstances dans lesquelles il sonne sont au réveil, ou en cas de détresse, où il sonne alors « SOS » en morse."
+      it: "SCP-086-1 contiene una grande massa di tessuto neurale che funge da cervello. SCP-086 è in grado di parlare attraverso la cornetta con una corrispondenza esatta della voce e dell'accento del Dott. [REDATTO]. SCP-086 ha dichiarato che squillare gli 'provoca mal di testa'; le uniche circostanze in cui squilla sono al risveglio dal sonno, oppure in caso di difficoltà, momento in cui squilla 'SOS' in codice Morse."
+      ko: "SCP-086-1 내부에는 뇌 역할을 하는 대량의 신경 조직이 들어 있다. SCP-086은 수화기를 통해 말할 수 있으며, 그 목소리와 억양은 [편집됨] 박사와 완전히 일치한다. SCP-086은 벨소리가 '두통을 유발한다'고 밝혔으며, 실제로 벨이 울리는 경우는 잠에서 깰 때나 곤경에 처했을 때(모스 부호로 SOS를 울림)뿐이다."
+      pl: "SCP-086-1 zawiera dużą masę tkanki nerwowej, która pełni funkcję mózgu. SCP-086 potrafi mówić przez słuchawkę dokładnie tym samym głosem i akcentem, co dr [UTAJNIONO]. SCP-086 stwierdziło, że dzwonienie „sprawia mu ból głowy”; jedynymi okolicznościami, w których dzwoni, są przebudzenie ze snu lub stan zagrożenia, kiedy dzwoni „SOS” alfabetem Morse'a."
+      pt: "O SCP-086-1 contém uma grande massa de tecido neural que funciona como um cérebro. O SCP-086 é capaz de falar pelo fone com uma correspondência exata da voz e sotaque do Dr. [REDIGIDO]. O SCP-086 declarou que tocar 'lhe dá dor de cabeça'; as únicas circunstâncias em que toca são ao despertar do sono, ou quando em apuros, momento em que toca 'SOS' em código Morse."
+      th: "SCP-086-1 มีเนื้อเยื่อประสาทจำนวนมากซึ่งทำหน้าที่เป็นสมอง SCP-086 สามารถพูดผ่านหูฟังด้วยเสียงและสำเนียงที่ตรงกับดร. [ปกปิดชื่อ] ทุกประการ SCP-086 ระบุว่าเสียงกริ่ง 'ทำให้มันปวดหัว' สถานการณ์เดียวที่มันจะส่งเสียงกริ่งคือเมื่อตื่นจากการหลับ หรือเมื่อตกอยู่ในภาวะทุกข์ยาก ซึ่งในกรณีนั้นมันจะส่งสัญญาณ 'SOS' เป็นรหัสมอร์ส"
+      uk: "SCP-086-1 містить велику масу нервової тканини, яка функціонує як мозок. SCP-086 здатний говорити через слухавку голосом і акцентом, що точно збігаються з голосом д-ра [ВИДАЛЕНО]. SCP-086 заявив, що дзвінок «викликає в нього головний біль»; єдині обставини, за яких він дзвонить, — це пробудження від сну або стан біди, коли він вибиває «SOS» азбукою Морзе."
+      vi: "SCP-086-1 chứa một khối lớn mô thần kinh hoạt động như bộ não. SCP-086 có thể nói qua ống nghe với giọng nói và giọng điệu khớp chính xác với Tiến sĩ [ĐÃ ẨN DANH]. SCP-086 cho biết tiếng chuông 'khiến nó đau đầu'; hoàn cảnh duy nhất mà nó đổ chuông là khi thức dậy sau giấc ngủ, hoặc khi gặp nguy khốn, lúc đó nó sẽ rung chuông 'SOS' bằng mã Morse."
+      zh: "SCP-086-1内含有大量作为大脑功能存在的神经组织。SCP-086能够透过听筒说话，其声音与口音与[已编辑]博士完全一致。SCP-086曾表示铃声「会让它头疼」；它响铃的唯一情形是从睡眠中醒来时，或者在陷入困境时以摩斯密码敲出「SOS」。"
+      zh_Hant: "SCP-086-1內含有大量作為大腦功能存在的神經組織。SCP-086能夠透過聽筒說話，其聲音與口音與[已編輯]博士完全一致。SCP-086曾表示鈴聲「會讓它頭疼」；它響鈴的唯一情形是從睡眠中醒來時，或者在陷入困境時以摩斯密碼敲出「SOS」。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the close-up
+      before, showing the wall-mounted pencil sharpener grinding a
+      pencil down to a stub, shavings piling below. Nearby, the desk
+      stapler sits with an empty staple strip, and the microfiche
+      reader's tray slides a sheet of film inward. attending-researcher-m
+      watches with a clipboard.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-086-2、-3、-4は摂食器官として機能する——SCP-086-2は鉛筆の削りかすを、SCP-086-3はホチキス針を、SCP-086-4はマイクロフィルムを摂取する。"
+      en: "SCP-086-2, -3, and -4 function as food-intake organs: SCP-086-2 consumes pencil shavings, SCP-086-3 consumes staples, and SCP-086-4 consumes microfilm."
+      cs: "SCP-086-2, -3 a -4 fungují jako orgány pro příjem potravy: SCP-086-2 konzumuje piliny z tužek, SCP-086-3 konzumuje svorky a SCP-086-4 konzumuje mikrofilm."
+      de: "SCP-086-2, -3 und -4 fungieren als Nahrungsaufnahmeorgane: SCP-086-2 nimmt Bleistiftspäne auf, SCP-086-3 nimmt Heftklammern auf, und SCP-086-4 nimmt Mikrofilm auf."
+      es: "SCP-086-2, -3 y -4 funcionan como órganos de ingesta de alimentos: SCP-086-2 consume virutas de lápiz, SCP-086-3 consume grapas y SCP-086-4 consume microfilm."
+      fr: "Le SCP-086-2, -3 et -4 fonctionnent comme des organes d'ingestion : le SCP-086-2 consomme des copeaux de crayon, le SCP-086-3 consomme des agrafes et le SCP-086-4 consomme du microfilm."
+      it: "SCP-086-2, -3 e -4 fungono da organi di assunzione del cibo: SCP-086-2 consuma trucioli di matita, SCP-086-3 consuma graffette e SCP-086-4 consuma microfilm."
+      ko: "SCP-086-2, -3, -4는 섭식 기관으로 기능한다. SCP-086-2는 연필 부스러기를, SCP-086-3은 스테이플 심을, SCP-086-4는 마이크로필름을 섭취한다."
+      pl: "SCP-086-2, -3 i -4 pełnią funkcję organów przyjmowania pokarmu: SCP-086-2 spożywa wióry z ołówków, SCP-086-3 spożywa zszywki, a SCP-086-4 spożywa mikrofilm."
+      pt: "O SCP-086-2, -3 e -4 funcionam como órgãos de ingestão de alimentos: o SCP-086-2 consome aparas de lápis, o SCP-086-3 consome grampos e o SCP-086-4 consome microfilme."
+      th: "SCP-086-2, -3 และ -4 ทำหน้าที่เป็นอวัยวะรับอาหาร โดย SCP-086-2 กินเศษดินสอที่เหลาแล้ว SCP-086-3 กินลวดเย็บกระดาษ และ SCP-086-4 กินไมโครฟิล์ม"
+      uk: "SCP-086-2, -3 і -4 функціонують як органи прийому їжі: SCP-086-2 споживає стружку від олівців, SCP-086-3 споживає скріпки, а SCP-086-4 споживає мікрофільм."
+      vi: "SCP-086-2, -3 và -4 hoạt động như các cơ quan tiêu thụ thức ăn: SCP-086-2 tiêu thụ mạt gọt bút chì, SCP-086-3 tiêu thụ ghim bấm, và SCP-086-4 tiêu thụ vi phim."
+      zh: "SCP-086-2、-3、-4的功能是摄食器官：SCP-086-2食用铅笔削屑，SCP-086-3食用订书钉，SCP-086-4食用缩微胶片。"
+      zh_Hant: "SCP-086-2、-3、-4的功能是攝食器官：SCP-086-2食用鉛筆削屑，SCP-086-3食用釘書針，SCP-086-4食用縮微膠片。"
+
+  - scene: >
+      Wide shot, low angle, a different framing from the medium shot
+      before, showing the filing cabinet's drawer open, small
+      tendril-like manipulators gently turning the page of a book
+      resting inside and neatly alphabetizing a stack of folders
+      beside it. attending-researcher-f stands nearby holding a fresh
+      stack of approved reading material to hand over.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-086-6には、感覚機能と操作機能を兼ね備えているとみられる複数の器官が存在する。SCP-086は印刷物を読み、小さな物品を物理的に操作する能力を有することが確認されている。SCP-086の要望により、機密指定のない読み物や事務作業が定期的に提供されている。"
+      en: "SCP-086-6 contains several organs which appear to combine sensory and manipulatory functions; SCP-086 has proven capable of reading printed material and physically manipulating small items. At SCP-086's request, it is regularly provided with non-classified reading material and non-classified clerical work."
+      cs: "SCP-086-6 obsahuje několik orgánů, které se zdají kombinovat smyslové a manipulační funkce; ukázalo se, že SCP-086 je schopno číst tištěné materiály a fyzicky manipulovat s malými předměty. Na žádost SCP-086 je mu pravidelně poskytován neutajovaný čtenářský materiál a neutajovaná administrativní práce."
+      de: "SCP-086-6 enthält mehrere Organe, die anscheinend sensorische und manipulative Funktionen kombinieren; SCP-086 hat sich als fähig erwiesen, gedrucktes Material zu lesen und kleine Gegenstände physisch zu manipulieren. Auf Wunsch von SCP-086 wird es regelmäßig mit unklassifiziertem Lesematerial und unklassifizierter Büroarbeit versorgt."
+      es: "El SCP-086-6 contiene varios órganos que parecen combinar funciones sensoriales y manipulativas; se ha demostrado que el SCP-086 es capaz de leer material impreso y manipular físicamente objetos pequeños. A petición del SCP-086, se le proporciona regularmente material de lectura no clasificado y trabajo administrativo no clasificado."
+      fr: "Le SCP-086-6 contient plusieurs organes qui semblent combiner des fonctions sensorielles et manipulatoires ; le SCP-086 s'est avéré capable de lire du matériel imprimé et de manipuler physiquement de petits objets. À la demande du SCP-086, il reçoit régulièrement du matériel de lecture non classifié et du travail de bureau non classifié."
+      it: "SCP-086-6 contiene diversi organi che sembrano combinare funzioni sensoriali e manipolatorie; SCP-086 si è dimostrato capace di leggere materiale stampato e manipolare fisicamente piccoli oggetti. Su richiesta di SCP-086, gli viene regolarmente fornito materiale di lettura non classificato e lavoro d'ufficio non classificato."
+      ko: "SCP-086-6에는 감각 기능과 조작 기능을 겸비한 것으로 보이는 여러 기관이 존재한다. SCP-086은 인쇄물을 읽고 작은 물건을 물리적으로 조작할 수 있음이 입증되었다. SCP-086의 요청에 따라, 기밀로 분류되지 않은 읽을거리와 사무 업무가 정기적으로 제공된다."
+      pl: "SCP-086-6 zawiera kilka narządów, które wydają się łączyć funkcje sensoryczne i manipulacyjne; wykazano, że SCP-086 jest zdolne do czytania materiałów drukowanych i fizycznego manipulowania małymi przedmiotami. Na życzenie SCP-086 regularnie dostarcza mu się niejawne materiały do czytania i niejawną pracę biurową."
+      pt: "O SCP-086-6 contém vários órgãos que parecem combinar funções sensoriais e manipulativas; o SCP-086 provou ser capaz de ler material impresso e manipular fisicamente pequenos itens. A pedido do SCP-086, ele recebe regularmente material de leitura não classificado e trabalho administrativo não classificado."
+      th: "SCP-086-6 มีอวัยวะหลายชิ้นที่ดูเหมือนจะผสมผสานหน้าที่ทั้งการรับความรู้สึกและการจัดการ SCP-086 ได้พิสูจน์แล้วว่าสามารถอ่านสื่อสิ่งพิมพ์และจัดการวัตถุขนาดเล็กด้วยตนเองได้ ตามคำขอของ SCP-086 มันได้รับสื่อการอ่านที่ไม่เป็นความลับและงานธุรการที่ไม่เป็นความลับอย่างสม่ำเสมอ"
+      uk: "SCP-086-6 містить кілька органів, які, здається, поєднують сенсорні та маніпулятивні функції; доведено, що SCP-086 здатний читати друковані матеріали та фізично маніпулювати дрібними предметами. На прохання SCP-086 йому регулярно надають несекретні матеріали для читання та несекретну канцелярську роботу."
+      vi: "SCP-086-6 chứa một số cơ quan dường như kết hợp chức năng cảm giác và thao tác; SCP-086 đã chứng minh có khả năng đọc tài liệu in và thao tác vật lý với các vật nhỏ. Theo yêu cầu của SCP-086, nó được cung cấp thường xuyên tài liệu đọc không mật và công việc văn phòng không mật."
+      zh: "SCP-086-6内含有若干似乎兼具感知与操作功能的器官；已证实SCP-086能够阅读印刷材料并对小型物品进行实际操作。应SCP-086的要求，会定期为其提供非机密的阅读材料和非机密的文书工作。"
+      zh_Hant: "SCP-086-6內含有若干似乎兼具感知與操作功能的器官；已證實SCP-086能夠閱讀印刷材料並對小型物品進行實際操作。應SCP-086的要求，會定期為其提供非機密的閱讀材料和非機密的文書工作。"

@@ -1,0 +1,127 @@
+# SCP-099 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 「死に至るまで症状が続く場合がある」という一文と、回収経緯・Weaponized
+# Replicationの記述は使用しない。キャラにセリフは言わせない。
+
+id: scp-099
+
+title:
+  en: "SCP-099"
+  ja: "SCP-099"
+  cs: "SCP-099"
+  de: "SCP-099"
+  es: "SCP-099"
+  fr: "SCP-099"
+  it: "SCP-099"
+  ko: "SCP-099"
+  pl: "SCP-099"
+  pt: "SCP-099"
+  th: "SCP-099"
+  uk: "SCP-099"
+  vi: "SCP-099"
+  zh: "SCP-099"
+  zh_Hant: "SCP-099"
+
+attribution:
+  article: "SCP-099"
+  source_url: "http://scp-wiki.wikidot.com/scp-099"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+characters: [attending-researcher-f, attending-researcher-m]
+
+panels:
+  - scene: >
+      Close-up, on a framed painting depicting a simple stylized still
+      life of fruit and a vase, with one uncanny human eye subtly
+      placed among the objects, staring outward. attending-researcher-f
+      views it from a safe distance, an uneasy expression.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-099は、『肖像』と題された73×50cmの絵画である。1935年にシュルレアリスム画家ルネ・マグリットによって制作されたこのオリジナル作品は、長く見つめすぎたり、約3メートル以内の距離から見たりすると急性の偏執症を引き起こすミーム的特性を持つ。絵画には単純な静物画が描かれているが、そこには鑑賞者を見つめ返す一つの目が加えられている。"
+      en: "SCP-099 is a 73 x 50 cm painting titled 'The Portrait.' Created in 1935 by surrealist painter René Magritte, the original painting possesses memetic properties that trigger acute paranoia when viewed for too long or from a distance of approximately three meters or less. The painting depicts a simple still life, with the addition of a single eye staring back at the viewer."
+      cs: "SCP-099 je obraz o rozměrech 73 x 50 cm s názvem „Portrét“. Vytvořil jej v roce 1935 surrealistický malíř René Magritte a originální obraz má memetické vlastnosti, které při příliš dlouhém pohledu nebo z vzdálenosti přibližně tří metrů či méně vyvolávají akutní paranoiu. Obraz zobrazuje jednoduché zátiší s přidaným jediným okem, které hledí zpět na diváka."
+      de: "SCP-099 ist ein 73 x 50 cm großes Gemälde mit dem Titel „Das Porträt“. 1935 vom surrealistischen Maler René Magritte geschaffen, besitzt das Originalgemälde mimetische Eigenschaften, die bei zu langem Betrachten oder aus einer Entfernung von etwa drei Metern oder weniger akute Paranoia auslösen. Das Gemälde zeigt ein einfaches Stillleben, ergänzt um ein einzelnes Auge, das den Betrachter anstarrt."
+      es: "SCP-099 es una pintura de 73 x 50 cm titulada 'El Retrato'. Creada en 1935 por el pintor surrealista René Magritte, la pintura original posee propiedades memenéticas que desencadenan paranoia aguda cuando se observa durante demasiado tiempo o a una distancia de aproximadamente tres metros o menos. La pintura representa una simple naturaleza muerta, con la adición de un único ojo que mira fijamente al espectador."
+      fr: "Le SCP-099 est une peinture de 73 x 50 cm intitulée « Le Portrait ». Créée en 1935 par le peintre surréaliste René Magritte, l'œuvre originale possède des propriétés mémétiques qui déclenchent une paranoïa aiguë lorsqu'elle est regardée trop longtemps ou à une distance d'environ trois mètres ou moins. La peinture représente une simple nature morte, avec l'ajout d'un œil unique qui regarde fixement le spectateur."
+      it: "SCP-099 è un dipinto di 73 x 50 cm intitolato 'Il Ritratto'. Creato nel 1935 dal pittore surrealista René Magritte, il dipinto originale possiede proprietà memetiche che scatenano una paranoia acuta se osservato troppo a lungo o da una distanza di circa tre metri o meno. Il dipinto raffigura una semplice natura morta, con l'aggiunta di un singolo occhio che fissa lo spettatore."
+      ko: "SCP-099는 '초상화'라는 제목의 73×50cm 크기 그림이다. 1935년 초현실주의 화가 르네 마그리트가 창작한 이 원본 그림은, 너무 오래 바라보거나 약 3미터 이내의 거리에서 볼 경우 급성 편집증을 유발하는 밈적 속성을 지니고 있다. 그림에는 단순한 정물화가 그려져 있으나, 그 안에는 관람자를 마주 응시하는 하나의 눈이 추가되어 있다."
+      pl: "SCP-099 to obraz o wymiarach 73 x 50 cm zatytułowany „Portret”. Namalowany w 1935 roku przez surrealistycznego malarza René Magritte'a, oryginalny obraz posiada memetyczne właściwości wywołujące ostrą paranoję po zbyt długim patrzeniu lub z odległości około trzech metrów lub mniejszej. Obraz przedstawia prostą martwą naturę z dodanym pojedynczym okiem patrzącym na widza."
+      pt: "O SCP-099 é uma pintura de 73 x 50 cm intitulada 'O Retrato'. Criada em 1935 pelo pintor surrealista René Magritte, a pintura original possui propriedades memenéticas que desencadeiam paranoia aguda quando observada por muito tempo ou a uma distância de aproximadamente três metros ou menos. A pintura retrata uma simples natureza morta, com a adição de um único olho encarando o observador."
+      th: "SCP-099 คือภาพวาดขนาด 73 x 50 ซม. ชื่อว่า 'The Portrait' สร้างขึ้นในปี 1935 โดยจิตรกรแนวเซอร์เรียลลิสม์ เรอเน มากริตต์ ภาพต้นฉบับมีคุณสมบัติทางมีมที่กระตุ้นให้เกิดอาการหวาดระแวงเฉียบพลันเมื่อจ้องมองนานเกินไปหรือจากระยะห่างประมาณสามเมตรหรือน้อยกว่า ภาพวาดนี้แสดงภาพนิ่งธรรมดา พร้อมกับดวงตาดวงเดียวที่จ้องมองกลับมายังผู้ชม"
+      uk: "SCP-099 — це картина розміром 73 x 50 см під назвою «Портрет». Створена в 1935 році художником-сюрреалістом Рене Магріттом, оригінальна картина має меметичні властивості, що викликають гостру параною при надто тривалому розгляданні або з відстані приблизно трьох метрів чи менше. На картині зображено просту натюрморт з доданим єдиним оком, що дивиться на глядача у відповідь."
+      vi: "SCP-099 là một bức tranh kích thước 73 x 50 cm mang tên 'Bức Chân Dung'. Được sáng tác năm 1935 bởi họa sĩ siêu thực René Magritte, bức tranh gốc mang thuộc tính meme kích hoạt chứng hoang tưởng cấp tính khi nhìn quá lâu hoặc từ khoảng cách khoảng ba mét trở xuống. Bức tranh mô tả một cảnh tĩnh vật đơn giản, với một con mắt duy nhất nhìn chằm chằm lại người xem."
+      zh: "SCP-099是一幅尺寸为73×50厘米、名为《肖像》的画作。由超现实主义画家勒内·马格利特于1935年创作，原作具有模因特性，若观看时间过长或在约三米以内的距离观看，会引发急性偏执妄想。画中描绘的是一幅简单的静物画，但其中添加了一只回望观者的眼睛。"
+      zh_Hant: "SCP-099是一幅尺寸為73×50公分、名為《肖像》的畫作。由超現實主義畫家勒內·馬格利特於1935年創作，原作具有模因特性，若觀看時間過長或在約三公尺以內的距離觀看，會引發急性偏執妄想。畫中描繪的是一幅簡單的靜物畫，但其中添加了一隻回望觀者的眼睛。"
+
+  - scene: >
+      Wide shot, full body, showing a public museum gallery, a different
+      framing from the close-up before. A nearly identical painting
+      hangs on the wall (its telltale eye removed), calm museum visitors
+      admiring it. attending-researcher-m observes from a distance,
+      blending in with the visitors.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "作品の複製は現在、ニューヨーク近代美術館に展示されており、偏執症を引き起こす要素は取り除かれている。しかしオリジナル作品の精細な複製や写真は、そのミーム的特性を保持したままである。"
+      en: "A reproduction of the work currently hangs in the Museum of Modern Art in New York, with critical elements removed to prevent the paranoia trigger. Detailed reproductions and photographs of the original work retain its memetic properties."
+      cs: "Reprodukce díla nyní visí v newyorském Muzeu moderního umění, přičemž kritické prvky byly odstraněny, aby se zabránilo vyvolání paranoie. Podrobné reprodukce a fotografie původního díla si tuto memetickou vlastnost zachovávají."
+      de: "Eine Reproduktion des Werks hängt derzeit im Museum of Modern Art in New York, wobei entscheidende Elemente entfernt wurden, um das Auslösen der Paranoia zu verhindern. Detaillierte Reproduktionen und Fotografien des Originalwerks behalten seine mimetischen Eigenschaften bei."
+      es: "Actualmente hay una reproducción de la obra colgada en el Museo de Arte Moderno de Nueva York, con elementos críticos eliminados para evitar el desencadenante de la paranoia. Las reproducciones detalladas y las fotografías de la obra original conservan sus propiedades memenéticas."
+      fr: "Une reproduction de l'œuvre est actuellement exposée au Museum of Modern Art de New York, avec des éléments essentiels retirés afin d'éviter le déclencheur de paranoïa. Les reproductions détaillées et les photographies de l'œuvre originale conservent ses propriétés mémétiques."
+      it: "Una riproduzione dell'opera è attualmente esposta al Museum of Modern Art di New York, con elementi critici rimossi per prevenire l'innesco della paranoia. Riproduzioni dettagliate e fotografie dell'opera originale conservano le sue proprietà memetiche."
+      ko: "현재 이 작품의 복제본이 뉴욕 현대미술관에 걸려 있으며, 편집증을 유발하는 핵심 요소는 제거된 상태이다. 그러나 원작의 정밀 복제품과 사진은 여전히 그 밈적 속성을 그대로 유지하고 있다."
+      pl: "Reprodukcja dzieła wisi obecnie w Muzeum Sztuki Nowoczesnej w Nowym Jorku, z usuniętymi kluczowymi elementami, aby zapobiec wywoływaniu paranoi. Szczegółowe reprodukcje i fotografie oryginalnego dzieła zachowują jego memetyczne właściwości."
+      pt: "Uma reprodução da obra está atualmente exposta no Museu de Arte Moderna de Nova York, com elementos críticos removidos para evitar o gatilho de paranoia. Reproduções detalhadas e fotografias da obra original mantêm suas propriedades memenéticas."
+      th: "ปัจจุบันมีภาพจำลองของงานชิ้นนี้แขวนอยู่ที่พิพิธภัณฑ์ศิลปะสมัยใหม่ในนิวยอร์ก โดยองค์ประกอบสำคัญถูกนำออกเพื่อป้องกันการกระตุ้นอาการหวาดระแวง ภาพจำลองแบบละเอียดและภาพถ่ายของงานต้นฉบับยังคงคุณสมบัติทางมีมไว้"
+      uk: "Репродукція твору наразі висить у Музеї сучасного мистецтва в Нью-Йорку, з видаленими критичними елементами, щоб запобігти виникненню параної. Детальні репродукції та фотографії оригінального твору зберігають його меметичні властивості."
+      vi: "Một bản sao chép của tác phẩm hiện đang được treo tại Bảo tàng Nghệ thuật Hiện đại ở New York, với các yếu tố then chốt đã được loại bỏ để ngăn kích hoạt chứng hoang tưởng. Các bản sao chép chi tiết và ảnh chụp của tác phẩm gốc vẫn giữ nguyên thuộc tính meme của nó."
+      zh: "该作品的一幅复制品目前挂在纽约现代艺术博物馆，其中关键元素已被移除以防止引发偏执妄想。而原作的精细复制品和照片仍保留其模因特性。"
+      zh_Hant: "該作品的一幅複製品目前掛在紐約現代藝術博物館，其中關鍵元素已被移除以防止引發偏執妄想。而原作的精細複製品和照片仍保留其模因特性。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the wide shot
+      before, in a dim corridor. attending-researcher-f glances
+      nervously over her shoulder at a wall-mounted decorative mask
+      with painted eyes, flinching as if it is watching her.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "この絵画を長く見つめすぎた者は、目を持つあらゆる存在——あるいはその描写——が自分を見つめているという妄想にとらわれるようになる。極端な例では、被験者は無生物とすら目が合っていると報告している。"
+      en: "Those who have viewed the painting for too long become subject to the delusion that any being or depiction of a being with eyes is staring at them. In extreme cases, subjects report that inanimate objects are making eye contact."
+      cs: "Ti, kdo se na obraz dívali příliš dlouho, se stávají obětí bludu, že na ně zírá jakákoli bytost nebo zobrazení bytosti s očima. V extrémních případech subjekty uvádějí, že s nimi navazují oční kontakt i neživé předměty."
+      de: "Wer das Gemälde zu lange betrachtet hat, unterliegt dem Wahn, dass jedes Wesen oder jede Darstellung eines Wesens mit Augen ihn anstarrt. In extremen Fällen berichten Testpersonen, dass sogar unbelebte Gegenstände Blickkontakt mit ihnen aufnehmen."
+      es: "Quienes han observado la pintura durante demasiado tiempo quedan sujetos a la ilusión de que cualquier ser o representación de un ser con ojos los está mirando fijamente. En casos extremos, los sujetos informan que objetos inanimados están estableciendo contacto visual."
+      fr: "Ceux qui ont regardé le tableau trop longtemps sont sujets à l'illusion que tout être ou toute représentation d'un être doté d'yeux les fixe du regard. Dans les cas extrêmes, les sujets rapportent que des objets inanimés établissent un contact visuel."
+      it: "Coloro che hanno osservato il dipinto troppo a lungo sono soggetti al delirio che qualsiasi essere o raffigurazione di un essere dotato di occhi li stia fissando. Nei casi estremi, i soggetti riferiscono che oggetti inanimati stabiliscono un contatto visivo."
+      ko: "그림을 너무 오래 응시한 사람은 눈을 가진 존재나 그 묘사물이라면 무엇이든 자신을 응시하고 있다는 망상에 사로잡히게 된다. 극단적인 경우, 피험자들은 무생물조차 자신과 눈을 맞추고 있다고 보고했다."
+      pl: "Ci, którzy patrzyli na obraz zbyt długo, ulegają urojeniu, że każda istota lub przedstawienie istoty z oczami wpatruje się w nich. W skrajnych przypadkach badani zgłaszają, że nawet nieożywione przedmioty nawiązują z nimi kontakt wzrokowy."
+      pt: "Aqueles que olharam a pintura por muito tempo passam a sofrer da ilusão de que qualquer ser ou representação de um ser com olhos os está encarando. Em casos extremos, os sujeitos relatam que objetos inanimados estão fazendo contato visual."
+      th: "ผู้ที่จ้องมองภาพวาดนานเกินไปจะตกอยู่ในภาพลวงตาว่ามีสิ่งมีชีวิตหรือภาพวาดของสิ่งมีชีวิตที่มีดวงตาใดๆ กำลังจ้องมองพวกเขาอยู่ ในกรณีที่รุนแรง ผู้ทดลองรายงานว่าแม้แต่วัตถุไร้ชีวิตก็ยังสบตากับพวกเขา"
+      uk: "Ті, хто дивився на картину надто довго, стають жертвами маячні, що будь-яка істота чи зображення істоти з очима дивиться на них. У крайніх випадках суб'єкти повідомляють, що навіть неживі предмети встановлюють з ними зоровий контакт."
+      vi: "Những người đã nhìn bức tranh quá lâu sẽ mắc phải ảo tưởng rằng bất kỳ sinh vật nào hoặc hình ảnh mô tả một sinh vật có mắt đều đang nhìn chằm chằm vào họ. Trong những trường hợp cực đoan, các đối tượng báo cáo rằng ngay cả các vật vô tri cũng đang giao tiếp bằng mắt với họ."
+      zh: "凝视这幅画过久的人会产生一种妄想：任何有眼睛的生物或对生物的描绘都在盯着自己看。在极端情况下，受试者甚至报告称与无生命物体也产生了「眼神接触」。"
+      zh_Hant: "凝視這幅畫過久的人會產生一種妄想：任何有眼睛的生物或對生物的描繪都在盯著自己看。在極端情況下，受試者甚至報告稱與無生命物體也產生了「眼神接觸」。"
+
+  - scene: >
+      Wide shot, low angle, a different framing from the medium shot
+      before, showing the reinforced wall-mounted display case in the
+      gallery, closed and locked. attending-researcher-m stands at a
+      safe distance beyond five meters, holding a stopwatch, timing the
+      brief permitted viewing period.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-099はギャラリー内でレベル2以上の職員のみが閲覧でき、5メートルを超える距離から、1日につき5分を超えない範囲でのみ許可される。閲覧されていない間、ケースは常に閉じられ、電子ロックがかけられている。"
+      en: "SCP-099 can only be viewed within the gallery by Level 2 staff or higher, and only from a distance greater than five meters and for a period not to exceed five minutes per day. When not being viewed, the case remains shut and electronically locked."
+      cs: "SCP-099 mohou v galerii sledovat pouze zaměstnanci úrovně 2 nebo vyšší, a to pouze ze vzdálenosti větší než pět metrů a po dobu nepřesahující pět minut denně. Když se na něj nedívá, vitrína zůstává uzavřena a elektronicky zamčena."
+      de: "SCP-099 darf innerhalb der Galerie nur von Personal der Stufe 2 oder höher betrachtet werden, und zwar nur aus einer Entfernung von mehr als fünf Metern und für eine Dauer von höchstens fünf Minuten pro Tag. Wenn es nicht betrachtet wird, bleibt die Vitrine verschlossen und elektronisch verriegelt."
+      es: "El SCP-099 solo puede ser observado dentro de la galería por personal de Nivel 2 o superior, y únicamente desde una distancia mayor a cinco metros y por un período que no exceda los cinco minutos al día. Cuando no está siendo observado, la vitrina permanece cerrada y bloqueada electrónicamente."
+      fr: "Le SCP-099 ne peut être observé dans la galerie que par du personnel de niveau 2 ou supérieur, et uniquement à une distance supérieure à cinq mètres et pour une durée n'excédant pas cinq minutes par jour. Lorsqu'il n'est pas observé, la vitrine reste fermée et verrouillée électroniquement."
+      it: "SCP-099 può essere osservato all'interno della galleria solo da personale di Livello 2 o superiore, e solo da una distanza superiore a cinque metri e per un periodo non superiore a cinque minuti al giorno. Quando non viene osservato, la teca rimane chiusa e bloccata elettronicamente."
+      ko: "SCP-099는 갤러리 내에서 레벨 2 이상의 직원만 열람할 수 있으며, 5미터를 초과하는 거리에서 하루 5분을 넘지 않는 시간 동안만 가능하다. 열람되지 않을 때는 진열장이 항상 닫힌 채 전자적으로 잠겨 있다."
+      pl: "SCP-099 może być oglądane w galerii wyłącznie przez personel poziomu 2 lub wyższego, i tylko z odległości większej niż pięć metrów oraz przez okres nieprzekraczający pięciu minut dziennie. Gdy nie jest oglądane, gablota pozostaje zamknięta i elektronicznie zablokowana."
+      pt: "O SCP-099 só pode ser observado dentro da galeria por pessoal de Nível 2 ou superior, e apenas a uma distância superior a cinco metros e por um período que não exceda cinco minutos por dia. Quando não está sendo observado, a vitrine permanece fechada e trancada eletronicamente."
+      th: "SCP-099 สามารถถูกชมได้ภายในแกลเลอรีโดยเจ้าหน้าที่ระดับ 2 ขึ้นไปเท่านั้น และต้องอยู่ห่างมากกว่าห้าเมตร เป็นระยะเวลาไม่เกินห้านาทีต่อวัน เมื่อไม่ได้ถูกชม ตู้แสดงจะถูกปิดและล็อกด้วยระบบอิเล็กทรอนิกส์เสมอ"
+      uk: "SCP-099 можна переглядати в галереї лише персоналом рівня 2 або вищого, і лише з відстані понад п'ять метрів і протягом періоду, що не перевищує п'яти хвилин на день. Коли на нього не дивляться, вітрина залишається зачиненою й електронно замкненою."
+      vi: "SCP-099 chỉ có thể được xem trong phòng trưng bày bởi nhân viên Cấp 2 trở lên, và chỉ từ khoảng cách lớn hơn năm mét trong thời gian không quá năm phút mỗi ngày. Khi không được xem, hộp trưng bày vẫn đóng kín và khóa điện tử."
+      zh: "SCP-099只能由二级或以上人员在画廊内观看，且必须保持五米以上的距离，每天观看时间不得超过五分钟。在不被观看时，展示柜始终保持关闭并以电子方式锁定。"
+      zh_Hant: "SCP-099只能由二級或以上人員在畫廊內觀看，且必須保持五公尺以上的距離，每天觀看時間不得超過五分鐘。在不被觀看時，展示櫃始終保持關閉並以電子方式鎖定。"

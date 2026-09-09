@@ -1,0 +1,140 @@
+# SCP-003 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 補遺（Addendum 003-01〜05、Gloria面接記録）は本編に混ぜない。
+# キャラにセリフは言わせない。JP公式訳が直接取得できなかったため、検証済みの
+# 英語本文からの翻訳（ja含む）。
+
+id: scp-003
+
+title:
+  en: "SCP-003"
+  ja: "SCP-003"
+  cs: "SCP-003"
+  de: "SCP-003"
+  es: "SCP-003"
+  fr: "SCP-003"
+  it: "SCP-003"
+  ko: "SCP-003"
+  pl: "SCP-003"
+  pt: "SCP-003"
+  th: "SCP-003"
+  uk: "SCP-003"
+  vi: "SCP-003"
+  zh: "SCP-003"
+  zh_Hant: "SCP-003"
+
+attribution:
+  article: "SCP-003"
+  author: "thedeadlymoose"
+  source_url: "http://scp-wiki.wikidot.com/scp-003"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+characters: [attending-researcher-f, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the whole containment
+      chamber. The room resembles an industrial furnace room, thick
+      insulated pipes and heaters lining the walls, air visibly
+      shimmering with heat. At the center, a small ancient stone tablet
+      inlaid with faintly glowing runes rests on a heat-resistant
+      pedestal. On the left side of the frame, attending-researcher-f in
+      heavy heat-resistant gear stands beside a wall-mounted thermostat
+      reading well above 100°C, monitoring it closely.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-003は常に摂氏35度以上の温度に保たれなければならず、理想的には100度以上を維持する。カテゴリーIV以上の複雑性を持つ多細胞生物をSCP-003に接触させてはならない。"
+      en: "SCP-003 is to be maintained at a constant temperature of no less than 35°C and ideally kept above 100°C. No living multicellular organisms of Category IV or higher complexity may be allowed to come into contact with SCP-003."
+      cs: "SCP-003 musí být udržováno při konstantní teplotě nejméně 35 °C, ideálně nad 100 °C. Žádné živé mnohobuněčné organismy kategorie IV nebo vyšší složitosti nesmí přijít do kontaktu se SCP-003."
+      de: "SCP-003 ist bei einer konstanten Temperatur von mindestens 35 °C zu halten, idealerweise über 100 °C. Keine lebenden mehrzelligen Organismen der Kategorie IV oder höherer Komplexität dürfen mit SCP-003 in Kontakt kommen."
+      es: "SCP-003 debe mantenerse a una temperatura constante de no menos de 35 °C, idealmente por encima de 100 °C. Ningún organismo multicelular vivo de Categoría IV o de mayor complejidad puede entrar en contacto con SCP-003."
+      fr: "Le SCP-003 doit être maintenu à une température constante d'au moins 35 °C, idéalement supérieure à 100 °C. Aucun organisme multicellulaire vivant de catégorie IV ou de complexité supérieure ne doit entrer en contact avec le SCP-003."
+      it: "SCP-003 deve essere mantenuto a una temperatura costante non inferiore a 35 °C, idealmente superiore a 100 °C. Nessun organismo multicellulare vivente di Categoria IV o complessità superiore deve entrare in contatto con SCP-003."
+      ko: "SCP-003는 항상 섭씨 35도 이상, 이상적으로는 100도 이상의 온도로 유지되어야 한다. 카테고리 IV 이상의 복잡성을 가진 살아있는 다세포 생물은 SCP-003과 접촉해서는 안 된다."
+      pl: "SCP-003 musi być utrzymywane w stałej temperaturze nie niższej niż 35°C, najlepiej powyżej 100°C. Żadne żywe organizmy wielokomórkowe kategorii IV lub wyższej złożoności nie mogą mieć kontaktu z SCP-003."
+      pt: "O SCP-003 deve ser mantido a uma temperatura constante de no mínimo 35°C, idealmente acima de 100°C. Nenhum organismo multicelular vivo de Categoria IV ou complexidade superior pode entrar em contato com o SCP-003."
+      th: "SCP-003 ต้องคงอุณหภูมิไว้ไม่ต่ำกว่า 35°C อย่างต่อเนื่อง และควรรักษาไว้ให้สูงกว่า 100°C สิ่งมีชีวิตหลายเซลล์ประเภท IV ขึ้นไปห้ามสัมผัสกับ SCP-003"
+      uk: "SCP-003 повинен постійно підтримуватися при температурі не нижче 35°C, в ідеалі — вище 100°C. Жодні живі багатоклітинні організми категорії IV або вищої складності не повинні контактувати з SCP-003."
+      vi: "SCP-003 phải được duy trì ở nhiệt độ ổn định không thấp hơn 35°C, lý tưởng nhất là trên 100°C. Không được để bất kỳ sinh vật đa bào sống nào thuộc Loại IV trở lên tiếp xúc với SCP-003."
+      zh: "SCP-003必须始终保持在不低于35°C的恒定温度，理想情况下应保持在100°C以上。任何IV类及以上复杂度的活体多细胞生物均不得与SCP-003接触。"
+      zh_Hant: "SCP-003必須始終保持在不低於35°C的恆定溫度，理想情況下應保持在100°C以上。任何IV類及以上複雜度的活體多細胞生物均不得與SCP-003接觸。"
+
+  - scene: >
+      Close-up, low angle, filling most of the frame with the artifact
+      itself: a small circuit-like mass of fused chitin, hair, and
+      nail-like material arranged in a pattern resembling a computer
+      motherboard, resting on a flat stone tablet carved with faintly
+      glowing, flickering runes. On the right edge of the frame,
+      attending-researcher-f's gloved hand hovers near it holding a
+      scanning instrument, not touching it.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-003-1は、未知の生物由来と思われるキチン質・毛髪・爪状の物質から構成されており、コンピューターのマザーボードに似た配置になっている。SCP-003-1は石板SCP-003-2の上で発見され、その石板のルーン文字は淡く明滅する光のパターンを発している。"
+      en: "SCP-003-1 appears to be composed of chitin, hair, and nails of unknown biology, arranged in a configuration similar to that of a computer motherboard. It was found on a stone tablet, SCP-003-2, whose runes emit pale, flickering light patterns."
+      cs: "SCP-003-1 se zdá být složeno z chitinu, vlasů a nehtů neznámého biologického původu, uspořádaných do konfigurace podobné počítačové základní desce. Bylo nalezeno na kamenné desce, SCP-003-2, jejíž runy vyzařují bledé, blikající světelné vzory."
+      de: "SCP-003-1 scheint aus Chitin, Haaren und Nägeln unbekannter Biologie zu bestehen, angeordnet in einer Konfiguration ähnlich einer Computer-Hauptplatine. Es wurde auf einer Steintafel, SCP-003-2, gefunden, deren Runen blasse, flackernde Lichtmuster ausstrahlen."
+      es: "SCP-003-1 parece estar compuesto de quitina, cabello y uñas de biología desconocida, dispuestos en una configuración similar a la de una placa base de computadora. Fue hallado sobre una tablilla de piedra, SCP-003-2, cuyas runas emiten patrones de luz pálidos y parpadeantes."
+      fr: "Le SCP-003-1 semble composé de chitine, de cheveux et d'ongles d'une biologie inconnue, disposés selon une configuration similaire à celle d'une carte mère d'ordinateur. Il a été découvert sur une tablette de pierre, le SCP-003-2, dont les runes émettent des motifs de lumière pâles et vacillants."
+      it: "SCP-003-1 sembra essere composto da chitina, capelli e unghie di biologia sconosciuta, disposti in una configurazione simile a quella di una scheda madre di computer. È stato trovato su una tavoletta di pietra, SCP-003-2, le cui rune emettono pallidi motivi di luce tremolante."
+      ko: "SCP-003-1은 정체불명의 생물학적 기원을 가진 키틴질, 머리카락, 손톱으로 구성된 것으로 보이며, 컴퓨터 마더보드와 유사한 배열을 이루고 있다. 이는 석판인 SCP-003-2 위에서 발견되었으며, 이 석판의 룬 문자는 희미하게 깜빡이는 빛의 패턴을 방출한다."
+      pl: "SCP-003-1 wydaje się być zbudowane z chityny, włosów i paznokci o nieznanym pochodzeniu biologicznym, ułożonych w konfigurację przypominającą płytę główną komputera. Zostało znalezione na kamiennej tablicy, SCP-003-2, której runy emitują blade, migoczące wzory świetlne."
+      pt: "O SCP-003-1 parece ser composto por quitina, cabelo e unhas de biologia desconhecida, dispostos em uma configuração semelhante à de uma placa-mãe de computador. Foi encontrado sobre uma tábua de pedra, SCP-003-2, cujas runas emitem padrões de luz pálidos e cintilantes."
+      th: "SCP-003-1 ดูเหมือนประกอบด้วยไคติน เส้นผม และเล็บที่มีชีวภาพไม่ทราบแหล่งที่มา จัดเรียงในรูปแบบคล้ายเมนบอร์ดคอมพิวเตอร์ มันถูกพบบนแผ่นหินชื่อ SCP-003-2 ซึ่งอักษรรูนบนแผ่นหินเปล่งแสงจางๆ กะพริบเป็นรูปแบบ"
+      uk: "SCP-003-1, схоже, складається з хітину, волосся та нігтів невідомого біологічного походження, розташованих у конфігурації, подібній до материнської плати комп'ютера. Його знайшли на кам'яній табличці SCP-003-2, руни якої випромінюють бліді, мерехтливі світлові візерунки."
+      vi: "SCP-003-1 dường như được cấu tạo từ kitin, tóc và móng có nguồn gốc sinh học không xác định, được sắp xếp theo cấu hình tương tự bo mạch chủ máy tính. Nó được tìm thấy trên một phiến đá, SCP-003-2, với các ký tự rune phát ra những hoa văn ánh sáng nhạt, nhấp nháy."
+      zh: "SCP-003-1似乎由未知生物构成的几丁质、毛发和指甲组成，排列方式类似于电脑主板。它是在一块石板——SCP-003-2上被发现的，该石板上的符文会发出苍白、闪烁的光纹。"
+      zh_Hant: "SCP-003-1似乎由未知生物構成的幾丁質、毛髮和指甲組成，排列方式類似於電腦主機板。它是在一塊石板——SCP-003-2上被發現的，該石板上的符文會發出蒼白、閃爍的光紋。"
+
+  - scene: >
+      Medium shot, waist-up, low angle, a different framing from the
+      close-up before. On the left side of the frame, attending-researcher-m
+      presses both bare palms directly onto the small artifact on the
+      tablet, jaw clenched with effort, sweat on his brow, visible
+      heat-shimmer rising around his hands.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "完全な停電が発生し、SCP-003-1が質量の増加を始めた場合、担当職員はSCP-003-1と皮膚接触を行い、体温を用いて臨界温度以上に戻さなければならない。この接触はSCP-003-1が第二成長段階に完全に進行するまで維持する。"
+      en: "In event of total power failure, if SCP-003-1 begins to increase its mass, assigned personnel must engage in skin contact with SCP-003-1, using body heat to return it above the critical temperature until it advances fully to its second growth stage."
+      cs: "V případě úplného výpadku napájení, pokud SCP-003-1 začne zvyšovat svou hmotnost, musí pověřený personál navázat kožní kontakt se SCP-003-1 a pomocí tělesného tepla jej vrátit nad kritickou teplotu, dokud plně nepřejde do druhého stádia růstu."
+      de: "Bei einem vollständigen Stromausfall, falls SCP-003-1 beginnt, seine Masse zu vergrößern, muss zugewiesenes Personal Hautkontakt mit SCP-003-1 herstellen und mithilfe der Körperwärme die kritische Temperatur wiederherstellen, bis es vollständig in sein zweites Wachstumsstadium übergeht."
+      es: "En caso de un corte total de energía, si SCP-003-1 comienza a aumentar su masa, el personal asignado debe establecer contacto piel con piel con SCP-003-1, usando el calor corporal para devolverlo por encima de la temperatura crítica hasta que avance completamente a su segunda etapa de crecimiento."
+      fr: "En cas de panne totale d'alimentation, si le SCP-003-1 commence à augmenter sa masse, le personnel assigné doit établir un contact cutané avec le SCP-003-1, en utilisant la chaleur corporelle pour le ramener au-dessus de la température critique jusqu'à ce qu'il progresse pleinement vers son second stade de croissance."
+      it: "In caso di interruzione totale dell'alimentazione, se SCP-003-1 inizia ad aumentare la propria massa, il personale assegnato deve stabilire un contatto cutaneo con SCP-003-1, usando il calore corporeo per riportarlo sopra la temperatura critica fino al pieno avanzamento al secondo stadio di crescita."
+      ko: "완전한 정전이 발생하여 SCP-003-1이 질량을 늘리기 시작할 경우, 담당 직원은 SCP-003-1과 피부 접촉을 해야 하며, 체온을 이용해 임계 온도 이상으로 되돌려야 한다. 이 접촉은 SCP-003-1이 제2성장 단계로 완전히 진행할 때까지 유지되어야 한다."
+      pl: "W przypadku całkowitej awarii zasilania, jeśli SCP-003-1 zacznie zwiększać swoją masę, wyznaczony personel musi nawiązać kontakt skórny z SCP-003-1, wykorzystując ciepło ciała, aby przywrócić temperaturę powyżej progu krytycznego, aż w pełni przejdzie do drugiego etapu wzrostu."
+      pt: "Em caso de falha total de energia, se o SCP-003-1 começar a aumentar sua massa, o pessoal designado deve manter contato de pele com o SCP-003-1, usando o calor corporal para trazê-lo de volta acima da temperatura crítica até que avance totalmente para seu segundo estágio de crescimento."
+      th: "ในกรณีที่ไฟฟ้าดับโดยสมบูรณ์ หาก SCP-003-1 เริ่มเพิ่มมวล เจ้าหน้าที่ที่ได้รับมอบหมายต้องสัมผัสผิวหนังกับ SCP-003-1 โดยใช้ความร้อนจากร่างกายเพื่อนำอุณหภูมิกลับขึ้นไปเหนือระดับวิกฤต จนกว่ามันจะเข้าสู่ระยะการเติบโตที่สองอย่างสมบูรณ์"
+      uk: "У разі повного відключення живлення, якщо SCP-003-1 почне збільшувати свою масу, призначений персонал повинен встановити шкірний контакт із SCP-003-1, використовуючи тепло тіла, щоб повернути температуру вище критичної, доки об'єкт повністю не перейде до другої стадії росту."
+      vi: "Trong trường hợp mất điện hoàn toàn, nếu SCP-003-1 bắt đầu tăng khối lượng, nhân viên được phân công phải tiếp xúc da trực tiếp với SCP-003-1, sử dụng thân nhiệt để đưa nó trở lại trên nhiệt độ tới hạn cho đến khi nó tiến triển hoàn toàn sang giai đoạn tăng trưởng thứ hai."
+      zh: "若发生完全断电，一旦SCP-003-1开始增加质量，指定人员必须与SCP-003-1进行皮肤接触，利用体温使其恢复到临界温度以上，直至其完全进入第二生长阶段。"
+      zh_Hant: "若發生完全斷電，一旦SCP-003-1開始增加質量，指定人員必須與SCP-003-1進行皮膚接觸，利用體溫使其恢復到臨界溫度以上，直至其完全進入第二生長階段。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled far back to show the whole
+      containment chamber, a very different framing from the tight
+      medium shot before. The artifact has grown enormously, now spread
+      into a fifteen-meter-wide form resembling a brittle star with many
+      thin radiating limbs and a bulging central node, thin sensory
+      protrusions extending outward as if scanning the room. On the
+      right side of the frame, attending-researcher-m stands frozen near
+      the wall, dwarfed by its size, palms still raised from where he had
+      been touching it moments before.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-003-1はまず質量を増加させ、その後直径15メートルのクモヒトデ（蛇尾綱）に似た形状をとる。周囲の環境を走査しているように見える感覚器官を形成する。"
+      en: "SCP-003-1 will first increase its mass, then take a form similar in shape to an ophiuroid (brittle star) of fifteen meters in diameter. It will form sensory organs that appear to scan its surrounding environment."
+      cs: "SCP-003-1 nejprve zvýší svou hmotnost a poté nabude tvaru podobného hadici (křehkohvězdici) o průměru patnácti metrů. Vytvoří smyslové orgány, které se zdají skenovat okolní prostředí."
+      de: "SCP-003-1 wird zunächst seine Masse vergrößern und dann eine Form annehmen, die einem Schlangenstern (Ophiuroidea) mit einem Durchmesser von fünfzehn Metern ähnelt. Es bildet Sinnesorgane aus, die die umgebende Umwelt zu scannen scheinen."
+      es: "SCP-003-1 primero aumentará su masa, luego adoptará una forma similar a la de un ofiuroideo (estrella quebradiza) de quince metros de diámetro. Formará órganos sensoriales que parecen escanear su entorno."
+      fr: "Le SCP-003-1 augmentera d'abord sa masse, puis prendra une forme semblable à celle d'un ophiuride (étoile cassante) de quinze mètres de diamètre. Il formera des organes sensoriels qui semblent scanner son environnement."
+      it: "SCP-003-1 aumenterà prima la propria massa, per poi assumere una forma simile a quella di un ofiuroideo (stella serpentina) del diametro di quindici metri. Formerà organi sensoriali che sembrano scansionare l'ambiente circostante."
+      ko: "SCP-003-1은 먼저 질량을 늘린 뒤, 지름 15미터의 거미불가사리(사미아강)와 유사한 형태를 취한다. 주변 환경을 스캔하는 것처럼 보이는 감각 기관을 형성한다."
+      pl: "SCP-003-1 najpierw zwiększy swoją masę, a następnie przyjmie kształt przypominający wężowidła (rozgwiazdę kruchą) o średnicy piętnastu metrów. Utworzy narządy zmysłowe, które wydają się skanować otaczające środowisko."
+      pt: "O SCP-003-1 primeiro aumentará sua massa, depois assumirá uma forma semelhante a uma ofiuroide (estrela-quebradiça) de quinze metros de diâmetro. Formará órgãos sensoriais que parecem escanear o ambiente ao redor."
+      th: "SCP-003-1 จะเพิ่มมวลก่อน จากนั้นจะเปลี่ยนรูปร่างคล้ายดาวเปราะ (ophiuroid) ที่มีเส้นผ่านศูนย์กลางสิบห้าเมตร มันจะสร้างอวัยวะรับความรู้สึกที่ดูเหมือนกำลังสแกนสภาพแวดล้อมโดยรอบ"
+      uk: "SCP-003-1 спочатку збільшить свою масу, а потім набуде форми, подібної до офіури (крихкої зірки) діаметром п'ятнадцять метрів. Він сформує сенсорні органи, які, вочевидь, скановатимуть навколишнє середовище."
+      vi: "SCP-003-1 trước tiên sẽ tăng khối lượng, sau đó chuyển sang hình dạng giống loài sao rắn (ophiuroid) với đường kính mười lăm mét. Nó sẽ hình thành các cơ quan cảm giác có vẻ như đang quét môi trường xung quanh."
+      zh: "SCP-003-1会先增加质量，然后呈现出类似蛇尾纲生物（脆星）的形态，直径达十五米。它会形成感觉器官，似乎在扫描周围环境。"
+      zh_Hant: "SCP-003-1會先增加質量，然後呈現出類似蛇尾綱生物（脆星）的形態，直徑達十五公尺。牠會形成感覺器官，似乎在掃描周圍環境。"

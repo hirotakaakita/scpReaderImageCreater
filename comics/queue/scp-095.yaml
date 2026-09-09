@@ -1,0 +1,145 @@
+# SCP-095 4コマ台本
+# captionはDescription本文からの引用（各巻の粗筋は使用しない）。
+# addendumにはPersonal Logの1行のみ使用する。キャラにセリフは言わせない。
+
+id: scp-095
+
+title:
+  en: "SCP-095"
+  ja: "SCP-095"
+  cs: "SCP-095"
+  de: "SCP-095"
+  es: "SCP-095"
+  fr: "SCP-095"
+  it: "SCP-095"
+  ko: "SCP-095"
+  pl: "SCP-095"
+  pt: "SCP-095"
+  th: "SCP-095"
+  uk: "SCP-095"
+  vi: "SCP-095"
+  zh: "SCP-095"
+  zh_Hant: "SCP-095"
+
+attribution:
+  article: "SCP-095"
+  source_url: "http://scp-wiki.wikidot.com/scp-095"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+characters: [attending-researcher-f, attending-researcher-m]
+
+panels:
+  - scene: >
+      Close-up, on a stack of three aged, water-damaged black-and-white
+      comic books with missing covers, resting on a research desk under
+      a lamp. attending-researcher-f examines the yellowed pages with
+      gloved hands.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-095は、1932年に印刷された、ほどよく古びた白黒の漫画本3冊のセットであるように見える。それはコロラド州デンバーの小さな骨董品店で███████捜査官によって発見され、何事もなく僅かな料金で購入された。"
+      en: "SCP-095 appears to be a set of three moderately aged black and white comic books printed in 1932. It was found by Agent ███████ in a small antique shop in Denver, Colorado, and purchased for a small fee without incident."
+      cs: "SCP-095 se jeví jako sada tří mírně zestárlých černobílých komiksů vytištěných v roce 1932. Byl nalezen agentem ███████ v malém starožitnictví v Denveru v Coloradu a bez incidentu zakoupen za nepatrný poplatek."
+      de: "SCP-095 erscheint als ein Satz von drei mäßig gealterten Schwarz-Weiß-Comicheften, gedruckt im Jahr 1932. Es wurde von Agent ███████ in einem kleinen Antiquitätengeschäft in Denver, Colorado, gefunden und ohne Zwischenfälle für einen geringen Betrag erworben."
+      es: "SCP-095 parece ser un conjunto de tres cómics en blanco y negro, moderadamente envejecidos, impresos en 1932. Fue encontrado por el Agente ███████ en una pequeña tienda de antigüedades en Denver, Colorado, y comprado por una pequeña suma sin incidentes."
+      fr: "Le SCP-095 semble être un ensemble de trois bandes dessinées en noir et blanc, modérément vieillies, imprimées en 1932. Il a été trouvé par l'Agent ███████ dans une petite boutique d'antiquités de Denver, dans le Colorado, et acheté pour une somme modique sans incident."
+      it: "SCP-095 sembra essere un insieme di tre fumetti in bianco e nero moderatamente invecchiati, stampati nel 1932. Fu trovato dall'Agente ███████ in un piccolo negozio di antiquariato a Denver, Colorado, e acquistato per una piccola somma senza incidenti."
+      ko: "SCP-095는 1932년에 인쇄된, 적당히 낡은 흑백 만화책 세 권으로 이루어진 것으로 보인다. 이는 ███████ 요원이 콜로라도주 덴버의 작은 골동품 가게에서 발견하여 별다른 사건 없이 소액에 구매한 것이다."
+      pl: "SCP-095 wygląda na zestaw trzech umiarkowanie postarzałych czarno-białych komiksów wydrukowanych w 1932 roku. Zostały znalezione przez Agenta ███████ w małym sklepie z antykami w Denver w stanie Kolorado i zakupione za niewielką opłatą bez incydentów."
+      pt: "O SCP-095 parece ser um conjunto de três revistas em quadrinhos em preto e branco, moderadamente envelhecidas, impressas em 1932. Foi encontrado pelo Agente ███████ em uma pequena loja de antiguidades em Denver, Colorado, e comprado por uma pequena quantia sem incidentes."
+      th: "SCP-095 มีลักษณะเป็นชุดหนังสือการ์ตูนขาวดำเก่าปานกลางจำนวนสามเล่ม พิมพ์ในปี 1932 มันถูกพบโดยเจ้าหน้าที่ ███████ ในร้านขายของเก่าเล็กๆ ในเมืองเดนเวอร์ รัฐโคโลราโด และถูกซื้อในราคาย่อมเยาโดยไม่มีเหตุการณ์ผิดปกติใดๆ"
+      uk: "SCP-095 виглядає як набір із трьох помірно застарілих чорно-білих коміксів, надрукованих у 1932 році. Його знайшов агент ███████ у невеликому антикварному магазині в Денвері, штат Колорадо, і придбав за невелику плату без інцидентів."
+      vi: "SCP-095 dường như là một bộ ba cuốn truyện tranh đen trắng, hơi cũ, được in vào năm 1932. Nó được Đặc vụ ███████ tìm thấy trong một cửa hàng đồ cổ nhỏ ở Denver, Colorado, và được mua với một khoản phí nhỏ mà không có sự cố nào."
+      zh: "SCP-095外观是一套三本略微陈旧的黑白漫画书，印刷于1932年。它由████████特工在科罗拉多州丹佛市的一家小型古董店中发现，并以低廉的价格顺利购得。"
+      zh_Hant: "SCP-095外觀是一套三本略微陳舊的黑白漫畫書，印刷於1932年。它由████████特工在科羅拉多州丹佛市的一家小型古董店中發現，並以低廉的價格順利購得。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the close-up
+      before. attending-researcher-m sits at a desk surrounded by open
+      reference books and a large wall map with a red circle marking
+      an area labeled "PURPLE LAKE, OH — NOT FOUND," a puzzled and
+      slightly unsettled expression.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "出版元の刻印には「Future Funnies」——オハイオ州パープル・レイクという町を拠点とする会社——によって制作されたと記されている。しかしこれまでの調査によって、その会社もその町も、まったく実在しないことが判明している。"
+      en: "The publisher's stamp indicates it was produced by 'Future Funnies', a company operating out of the town of Purple Lake, Ohio. All research and inquiries thus far have shown both the company and the town to be completely nonexistent."
+      cs: "Razítko vydavatele naznačuje, že byl vyroben společností „Future Funnies“, působící z města Purple Lake v Ohiu. Veškerý dosavadní výzkum a šetření ukázaly, že jak společnost, tak město naprosto neexistují."
+      de: "Der Verlagsstempel zeigt an, dass es von „Future Funnies“ hergestellt wurde, einem Unternehmen mit Sitz in der Stadt Purple Lake, Ohio. Sämtliche bisherigen Nachforschungen haben ergeben, dass sowohl das Unternehmen als auch die Stadt völlig nicht existieren."
+      es: "El sello de la editorial indica que fue producido por 'Future Funnies', una empresa que operaba desde la ciudad de Purple Lake, Ohio. Todas las investigaciones e indagaciones realizadas hasta ahora han demostrado que tanto la empresa como la ciudad son completamente inexistentes."
+      fr: "Le tampon de l'éditeur indique qu'il a été produit par « Future Funnies », une entreprise opérant depuis la ville de Purple Lake, dans l'Ohio. Toutes les recherches et enquêtes menées jusqu'à présent ont montré que l'entreprise et la ville sont totalement inexistantes."
+      it: "Il timbro dell'editore indica che è stato prodotto da 'Future Funnies', una società operante dalla città di Purple Lake, Ohio. Tutte le ricerche e le indagini condotte finora hanno dimostrato che sia l'azienda che la città sono completamente inesistenti."
+      ko: "출판사 도장에는 오하이오주 퍼플 레이크라는 마을에 기반을 둔 회사 'Future Funnies'가 제작했다고 적혀 있다. 그러나 지금까지의 모든 조사와 문의 결과, 그 회사와 마을 모두 전혀 존재하지 않는 것으로 밝혀졌다."
+      pl: "Pieczątka wydawcy wskazuje, że zostało wyprodukowane przez „Future Funnies”, firmę działającą z miasteczka Purple Lake w stanie Ohio. Wszystkie dotychczasowe badania i zapytania wykazały, że zarówno firma, jak i miasteczko całkowicie nie istnieją."
+      pt: "O carimbo da editora indica que foi produzido pela 'Future Funnies', uma empresa sediada na cidade de Purple Lake, Ohio. Todas as pesquisas e investigações realizadas até agora mostraram que tanto a empresa quanto a cidade são completamente inexistentes."
+      th: "ตราประทับของผู้จัดพิมพ์ระบุว่าจัดทำโดย 'Future Funnies' บริษัทที่ดำเนินงานจากเมือง Purple Lake รัฐโอไฮโอ การค้นคว้าและสอบถามทั้งหมดที่ผ่านมาแสดงให้เห็นว่าทั้งบริษัทและเมืองดังกล่าวไม่มีอยู่จริงเลย"
+      uk: "Штамп видавця вказує, що його виготовила компанія «Future Funnies», що діяла з міста Пурпл-Лейк, штат Огайо. Усі дотеперішні дослідження й запити показали, що ні компанії, ні міста насправді не існує."
+      vi: "Con dấu nhà xuất bản cho thấy nó được sản xuất bởi 'Future Funnies', một công ty hoạt động từ thị trấn Purple Lake, Ohio. Mọi nghiên cứu và điều tra cho đến nay đều cho thấy cả công ty lẫn thị trấn đều hoàn toàn không tồn tại."
+      zh: "出版商印记显示，该漫画由「Future Funnies」出品，这是一家总部位于俄亥俄州「紫湖镇」（Purple Lake）的公司。然而迄今为止的所有调查与查询都表明，这家公司和这座城镇根本不存在。"
+      zh_Hant: "出版商印記顯示，該漫畫由「Future Funnies」出品，這是一家總部位於俄亥俄州「紫湖鎮」（Purple Lake）的公司。然而迄今為止的所有調查與查詢都表明，這家公司和這座城鎮根本不存在。"
+
+  - scene: >
+      Close-up on an open comic book page, a different framing from the
+      medium shot before, showing a bold splash-panel illustration of a
+      grinning rocket-suited space hero with a face bearing an
+      unmistakable resemblance to a classic mid-century politician, in
+      a retro sci-fi rocket-city backdrop. attending-researcher-f's
+      gloved hand holds the page open at the edge of frame.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "漫画そのものは、『ロニー・レイガンの原子力大冒険』と題されたパルプSF物語であり、主人公は元アメリカ合衆国大統領ロナルド・レーガンと紛れもなく似た容貌をしている。各話の冒頭には「1980年代という荒唐無稽な未来世界において、事態を救えるのはロニー・レイガンだけだ」というコマが置かれている。"
+      en: "The comic itself is a pulp science fiction story entitled 'The Atomic Adventures of Ronnie Ray-Gun,' featuring a lead character bearing an unmistakable resemblance to Former United States President Ronald Reagan. Each story opens with a panel reading 'In the Far-Fetched Future World of the 1980s, only Ronnie Ray-Gun can save the day.'"
+      cs: "Samotný komiks je pulpový sci-fi příběh nazvaný „Atomová dobrodružství Ronnieho Ray-Guna“, jehož hlavní postava nese neomylnou podobnost s bývalým prezidentem Spojených států Ronaldem Reaganem. Každý příběh začíná panelem s nápisem „V přitažené za vlasy budoucnosti 80. let může den zachránit jen Ronnie Ray-Gun“."
+      de: "Der Comic selbst ist eine Pulp-Science-Fiction-Geschichte mit dem Titel „Die atomaren Abenteuer von Ronnie Ray-Gun“, deren Hauptfigur eine unverkennbare Ähnlichkeit mit dem ehemaligen US-Präsidenten Ronald Reagan aufweist. Jede Geschichte beginnt mit einem Panel mit der Aufschrift „In der weit hergeholten Zukunftswelt der 1980er kann nur Ronnie Ray-Gun den Tag retten“."
+      es: "El cómic en sí es una historia de ciencia ficción pulp titulada 'Las aventuras atómicas de Ronnie Ray-Gun', con un personaje principal que guarda un inconfundible parecido con el expresidente de Estados Unidos Ronald Reagan. Cada historia comienza con una viñeta que dice 'En el descabellado mundo futuro de los años 80, solo Ronnie Ray-Gun puede salvar el día'."
+      fr: "La bande dessinée elle-même est une histoire de science-fiction pulp intitulée « Les Aventures Atomiques de Ronnie Ray-Gun », mettant en scène un personnage principal ressemblant indéniablement à l'ancien président des États-Unis Ronald Reagan. Chaque histoire s'ouvre sur une case indiquant « Dans le monde futuriste tiré par les cheveux des années 1980, seul Ronnie Ray-Gun peut sauver la situation »."
+      it: "Il fumetto stesso è una storia di fantascienza pulp intitolata 'Le avventure atomiche di Ronnie Ray-Gun', con un protagonista che presenta un'inconfondibile somiglianza con l'ex Presidente degli Stati Uniti Ronald Reagan. Ogni storia si apre con una vignetta che recita 'Nel bizzarro mondo futuro degli anni '80, solo Ronnie Ray-Gun può salvare la situazione'."
+      ko: "만화 자체는 '로니 레이건의 원자력 대모험'이라는 제목의 펄프 공상과학 이야기로, 주인공은 전 미국 대통령 로널드 레이건과 틀림없이 닮은 모습을 하고 있다. 각 이야기는 '1980년대라는 황당무계한 미래 세계에서, 사태를 구할 수 있는 건 오직 로니 레이건뿐이다'라는 문구가 담긴 컷으로 시작된다."
+      pl: "Sam komiks jest pulpową historią science fiction zatytułowaną „Atomowe przygody Ronniego Ray-Guna”, w której główna postać nosi niewątpliwe podobieństwo do byłego prezydenta Stanów Zjednoczonych Ronalda Reagana. Każda historia zaczyna się od kadru z napisem „W naciąganym przyszłym świecie lat 80. tylko Ronnie Ray-Gun może uratować sytuację”."
+      pt: "O quadrinho em si é uma história de ficção científica pulp intitulada 'As Aventuras Atômicas de Ronnie Ray-Gun', com um protagonista que guarda uma inconfundível semelhança com o ex-Presidente dos Estados Unidos Ronald Reagan. Cada história começa com um quadro dizendo 'No mirabolante mundo futuro dos anos 80, só Ronnie Ray-Gun pode salvar o dia'."
+      th: "การ์ตูนเรื่องนี้เป็นเรื่องราวไซไฟแบบพัลพ์ชื่อว่า 'The Atomic Adventures of Ronnie Ray-Gun' โดยมีตัวเอกที่มีหน้าตาคล้ายอดีตประธานาธิบดีสหรัฐฯ โรนัลด์ เรแกน อย่างชัดเจน แต่ละเรื่องเปิดฉากด้วยช่องภาพที่เขียนว่า 'ในโลกอนาคตอันเหลือเชื่อของทศวรรษ 1980 มีเพียงรอนนี่ เรย์-กันเท่านั้นที่จะช่วยกอบกู้สถานการณ์ได้'"
+      uk: "Сам комікс — це палп-науково-фантастична історія під назвою «Атомні пригоди Ронні Рей-Гана», головний герой якої має безсумнівну схожість з колишнім президентом США Рональдом Рейганом. Кожна історія починається з кадру з написом «У неймовірному майбутньому світі 1980-х лише Ронні Рей-Ган може врятувати становище»."
+      vi: "Bản thân bộ truyện tranh là một câu chuyện khoa học viễn tưởng dạng pulp có tựa đề 'Cuộc Phiêu Lưu Nguyên Tử Của Ronnie Ray-Gun', với nhân vật chính mang nét giống rõ ràng với cựu Tổng thống Hoa Kỳ Ronald Reagan. Mỗi câu chuyện mở đầu bằng một khung tranh ghi 'Trong thế giới tương lai kỳ quặc của thập niên 1980, chỉ có Ronnie Ray-Gun mới có thể cứu vãn tình thế'."
+      zh: "这部漫画本身是一部通俗科幻故事，名为《罗尼·雷根的原子大冒险》，主角与美国前总统罗纳德·里根有着不容否认的相似之处。每篇故事都以一幅大格画面开头，上面写着「在这个天马行空的1980年代未来世界，只有罗尼·雷根才能拯救大局」。"
+      zh_Hant: "這部漫畫本身是一部通俗科幻故事，名為《羅尼·雷根的原子大冒險》，主角與美國前總統羅納德·雷根有著不容否認的相似之處。每篇故事都以一幅大格畫面開頭，上面寫著「在這個天馬行空的1980年代未來世界，只有羅尼·雷根才能拯救大局」。"
+
+  - scene: >
+      Wide shot, full body, a different framing from the close-up
+      before, showing the comic's back-cover advertisement page pinned
+      to a corkboard, with a list of story titles, several circled in
+      red marker. attending-researcher-m and attending-researcher-f
+      both stand looking at the board with tense, focused expressions.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "各号の最終ページには、Future Funnies社が刊行した他の作品の広告が掲載されている。現在、現存する部数を突き止めるべく調査が進められている。"
+      en: "The final page of each book advertises other stories published by Future Funnies. Investigation is under way to locate any surviving copies at once."
+      cs: "Poslední stránka každého sešitu inzeruje další příběhy vydané společností Future Funnies. Probíhá vyšetřování s cílem okamžitě vypátrat jakékoli dochované exempláře."
+      de: "Die letzte Seite jedes Heftes bewirbt andere von Future Funnies veröffentlichte Geschichten. Es laufen Ermittlungen, um umgehend eventuell erhaltene Exemplare aufzufinden."
+      es: "La última página de cada libro anuncia otras historias publicadas por Future Funnies. Se está llevando a cabo una investigación para localizar de inmediato cualquier ejemplar superviviente."
+      fr: "La dernière page de chaque numéro fait la publicité d'autres histoires publiées par Future Funnies. Une enquête est en cours pour localiser sans délai tout exemplaire ayant survécu."
+      it: "L'ultima pagina di ciascun numero pubblicizza altre storie pubblicate da Future Funnies. È in corso un'indagine per localizzare immediatamente eventuali copie superstiti."
+      ko: "각 권의 마지막 페이지에는 Future Funnies사가 출판한 다른 이야기들에 대한 광고가 실려 있다. 현재 남아 있는 부수를 즉시 찾아내기 위한 조사가 진행 중이다."
+      pl: "Ostatnia strona każdej książki reklamuje inne historie wydane przez Future Funnies. Trwa dochodzenie mające na celu natychmiastowe zlokalizowanie ewentualnych zachowanych egzemplarzy."
+      pt: "A última página de cada livro anuncia outras histórias publicadas pela Future Funnies. Uma investigação está em andamento para localizar imediatamente quaisquer cópias sobreviventes."
+      th: "หน้าสุดท้ายของหนังสือแต่ละเล่มโฆษณาเรื่องอื่นๆ ที่ตีพิมพ์โดย Future Funnies ขณะนี้กำลังมีการสืบสวนเพื่อค้นหาสำเนาที่อาจหลงเหลืออยู่โดยทันที"
+      uk: "Остання сторінка кожної книги рекламує інші історії, видані Future Funnies. Наразі триває розслідування з метою негайно знайти будь-які збережені примірники."
+      vi: "Trang cuối của mỗi cuốn sách quảng cáo những câu chuyện khác do Future Funnies xuất bản. Cuộc điều tra đang được tiến hành để lập tức xác định vị trí bất kỳ bản sao nào còn sót lại."
+      zh: "每本书的最后一页都刊登着Future Funnies出版的其他故事的广告。目前正在展开调查，力求立即找到任何幸存的副本。"
+      zh_Hant: "每本書的最後一頁都刊登著Future Funnies出版的其他故事的廣告。目前正在展開調查，力求立即找到任何倖存的副本。"
+
+addendum:
+  ja: "██████████博士の私的記録：「広告されていた作品を一つ残らず、直ちに回収することの重要性は、あえて強調するまでもないと思う。特に最後の2作については」"
+  en: "Personal Log, Dr. █████████: 'I don't think I need to emphasize how important it is to recover any and all of the advertised stories immediately, the final two in particular.'"
+  cs: "Osobní záznam Dr. █████████: „Nemyslím si, že musím zdůrazňovat, jak důležité je okamžitě získat kterýkoli a všechny inzerované příběhy, zejména poslední dva.“"
+  de: "Persönliches Protokoll, Dr. █████████: „Ich denke, ich muss nicht betonen, wie wichtig es ist, alle beworbenen Geschichten unverzüglich zu bergen, insbesondere die letzten beiden.“"
+  es: "Registro personal, Dra. █████████: «No creo que sea necesario recalcar lo importante que es recuperar de inmediato todas y cada una de las historias anunciadas, en particular las dos últimas»."
+  fr: "Journal personnel, Dr █████████ : « Je ne pense pas avoir besoin de souligner à quel point il est important de récupérer immédiatement toutes les histoires annoncées, en particulier les deux dernières. »"
+  it: "Diario personale, Dott. █████████: 'Non credo di dover sottolineare quanto sia importante recuperare immediatamente tutte le storie pubblicizzate, in particolare le ultime due.'"
+  ko: "██████████ 박사의 개인 기록: \"광고된 이야기들을 하나도 빠짐없이 즉시 회수하는 것이 얼마나 중요한지 굳이 강조할 필요는 없을 것 같다. 특히 마지막 두 편이 그렇다.\""
+  pl: "Osobisty dziennik dr. █████████: „Chyba nie muszę podkreślać, jak ważne jest natychmiastowe odzyskanie wszystkich reklamowanych historii, zwłaszcza dwóch ostatnich”."
+  pt: "Registro pessoal, Dr. █████████: 'Acho que não preciso enfatizar o quanto é importante recuperar imediatamente todas as histórias anunciadas, particularmente as duas últimas.'"
+  th: "บันทึกส่วนตัวของ ดร. █████████: \"ผมคิดว่าไม่จำเป็นต้องเน้นย้ำว่าการกู้คืนเรื่องราวที่โฆษณาไว้ทั้งหมดโดยทันทีนั้นสำคัญเพียงใด โดยเฉพาะสองเรื่องสุดท้าย\""
+  uk: "Особистий журнал д-ра █████████: «Гадаю, не потрібно наголошувати, наскільки важливо негайно віднайти всі до одної рекламовані історії, особливо останні дві»."
+  vi: "Nhật ký cá nhân, Tiến sĩ █████████: 'Tôi nghĩ mình không cần phải nhấn mạnh việc thu hồi ngay lập tức tất cả những câu chuyện được quảng cáo quan trọng đến mức nào, đặc biệt là hai câu chuyện cuối cùng.'"
+  zh: "████████████博士个人日志：「我想我不必再三强调，立刻找回所有那些被打广告的故事有多么重要，尤其是最后那两篇。」"
+  zh_Hant: "████████████博士個人日誌：「我想我不必再三強調，立刻找回所有那些被打廣告的故事有多麼重要，尤其是最後那兩篇。」"

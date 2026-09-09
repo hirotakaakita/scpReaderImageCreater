@@ -1,0 +1,141 @@
+# SCP-052 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Addendum・Test Log・乗客記録（両手切断、車外への投げ出し等のグロ描写）は
+# 本編に混ぜない。キャラにセリフは言わせない。JP公式訳が直接取得できなかった
+# ため、検証済みの英語本文からの翻訳（ja含む）。
+
+id: scp-052
+
+title:
+  en: "SCP-052"
+  ja: "SCP-052"
+  cs: "SCP-052"
+  de: "SCP-052"
+  es: "SCP-052"
+  fr: "SCP-052"
+  it: "SCP-052"
+  ko: "SCP-052"
+  pl: "SCP-052"
+  pt: "SCP-052"
+  th: "SCP-052"
+  uk: "SCP-052"
+  vi: "SCP-052"
+  zh: "SCP-052"
+  zh_Hant: "SCP-052"
+
+attribution:
+  article: "SCP-052"
+  source_url: "http://scp-wiki.wikidot.com/scp-052"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  time-lost-passenger:
+    name: Time-Lost Passenger
+    description: >
+      A civilian man in his 30s, disheveled 1970s-style clothing (a
+      wide-collared brown shirt, color RGB 120,80,40, and flared
+      trousers), a bewildered, disoriented expression, looking around as
+      if the world doesn't match what he remembers.
+
+characters: [attending-researcher-m, attending-researcher-f, time-lost-passenger]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing an empty subway platform
+      at night. A vintage silver subway train glows under the platform
+      lights, pulling in on the uptown track, pristine and gleaming
+      despite its old-fashioned design. attending-researcher-m stands
+      partly hidden behind a pillar, watching with a stopwatch.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-052は1975年にスクラップとして廃車されたニューヨーク市地下鉄の車両である。それにもかかわらず、毎週土曜日の午後11時57分に、アップタウン方面のA/D線トラックに出現し続けている。車両は完璧な状態を保っている。"
+      en: "SCP-052 is a New York City subway train, decommissioned for scrap in 1975. Nevertheless, it continues to appear on the Uptown A/D track at 11:57 p.m. every Saturday. The train is in perfect condition."
+      cs: "SCP-052 je vlak newyorského metra, vyřazený do šrotu v roce 1975. Přesto se nadále objevuje na trati Uptown A/D v 23:57 každou sobotu. Vlak je v dokonalém stavu."
+      de: "SCP-052 ist ein U-Bahn-Zug aus New York City, der 1975 verschrottet wurde. Dennoch erscheint er weiterhin jeden Samstag um 23:57 Uhr auf dem Uptown-A/D-Gleis. Der Zug ist in einwandfreiem Zustand."
+      es: "SCP-052 es un tren del metro de la ciudad de Nueva York, dado de baja para chatarra en 1975. Sin embargo, sigue apareciendo en la vía Uptown A/D a las 23:57 todos los sábados. El tren se encuentra en perfectas condiciones."
+      fr: "Le SCP-052 est une rame du métro de New York, mise à la ferraille en 1975. Néanmoins, elle continue d'apparaître sur la voie Uptown A/D à 23h57 chaque samedi. La rame est en parfait état."
+      it: "SCP-052 è un treno della metropolitana di New York, demolito nel 1975. Tuttavia, continua ad apparire sul binario Uptown A/D alle 23:57 di ogni sabato. Il treno è in condizioni perfette."
+      ko: "SCP-052는 1975년에 폐차되어 고철 처리된 뉴욕시 지하철 열차이다. 그럼에도 불구하고, 매주 토요일 오후 11시 57분에 업타운 A/D 선로에 계속 나타난다. 열차는 완벽한 상태이다."
+      pl: "SCP-052 to pociąg metra nowojorskiego, wycofany na złom w 1975 roku. Mimo to nadal pojawia się na torze Uptown A/D o 23:57 każdej soboty. Pociąg jest w idealnym stanie."
+      pt: "O SCP-052 é um trem do metrô de Nova York, desativado para sucata em 1975. No entanto, continua a aparecer na via Uptown A/D às 23h57 todos os sábados. O trem está em perfeitas condições."
+      th: "SCP-052 คือขบวนรถไฟใต้ดินนิวยอร์กซิตี้ที่ถูกปลดระวางเป็นเศษเหล็กในปี 1975 กระนั้นมันยังคงปรากฏบนรางสาย Uptown A/D เวลา 23:57 น. ของทุกวันเสาร์ ขบวนรถอยู่ในสภาพสมบูรณ์แบบ"
+      uk: "SCP-052 — це потяг нью-йоркського метро, списаний на брухт у 1975 році. Проте він і досі з'являється на колії Uptown A/D о 23:57 щосуботи. Потяг перебуває в бездоганному стані."
+      vi: "SCP-052 là một đoàn tàu điện ngầm thành phố New York, đã bị loại bỏ để làm phế liệu vào năm 1975. Tuy nhiên, nó vẫn tiếp tục xuất hiện trên đường ray Uptown A/D lúc 23:57 mỗi thứ Bảy. Đoàn tàu ở trong tình trạng hoàn hảo."
+      zh: "SCP-052是一列纽约市地铁列车，于1975年报废拆解。然而，它仍然每逢周六晚上11点57分出现在上城A/D线轨道上。这列车状态完好无损。"
+      zh_Hant: "SCP-052是一列紐約市地鐵列車，於1975年報廢拆解。然而，它仍然每逢週六晚上11點57分出現在上城A/D線軌道上。這列車狀態完好無損。"
+
+  - scene: >
+      Medium shot, waist-up, low angle, a different framing from the
+      wide shot before. The train's doors open, releasing a hazy shimmer
+      of light, but the interior beyond is completely dark and empty, no
+      passengers visible inside. attending-researcher-f watches from a
+      safe distance, clipboard raised, timing the open doors.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-052は乗客の乗降のため約5分間ドアを開け、その後ドアを閉じて消える。SCP-052に乗り込んだ被験者の大多数は回収されていない。"
+      en: "SCP-052 opens its doors to accept and discharge passengers for approximately five minutes, then closes its doors and disappears. The majority of subjects that have boarded SCP-052 have not been recovered."
+      cs: "SCP-052 otevírá dveře, aby přijalo a vysadilo cestující, přibližně na pět minut, poté je zavírá a mizí. Většina subjektů, které do SCP-052 nastoupily, nebyla nalezena."
+      de: "SCP-052 öffnet seine Türen etwa fünf Minuten lang, um Fahrgäste aufzunehmen und aussteigen zu lassen, schließt dann die Türen und verschwindet. Die Mehrheit der Subjekte, die SCP-052 bestiegen haben, wurde nicht wiedergefunden."
+      es: "SCP-052 abre sus puertas para recibir y dejar pasajeros durante aproximadamente cinco minutos, luego cierra sus puertas y desaparece. La mayoría de los sujetos que han abordado SCP-052 no han sido recuperados."
+      fr: "Le SCP-052 ouvre ses portes pour accueillir et laisser descendre des passagers pendant environ cinq minutes, puis referme ses portes et disparaît. La majorité des sujets ayant embarqué à bord du SCP-052 n'ont pas été retrouvés."
+      it: "SCP-052 apre le sue porte per accogliere e far scendere i passeggeri per circa cinque minuti, poi chiude le porte e scompare. La maggior parte dei soggetti che sono saliti su SCP-052 non è stata recuperata."
+      ko: "SCP-052는 약 5분간 문을 열어 승객을 태우고 내려준 뒤, 문을 닫고 사라진다. SCP-052에 탑승한 대상 대다수는 회수되지 않았다."
+      pl: "SCP-052 otwiera drzwi, by przyjąć i wysadzić pasażerów przez około pięć minut, po czym zamyka drzwi i znika. Większość osobników, którzy wsiedli do SCP-052, nie została odnaleziona."
+      pt: "O SCP-052 abre suas portas para receber e desembarcar passageiros por cerca de cinco minutos, depois fecha as portas e desaparece. A maioria dos sujeitos que embarcaram no SCP-052 não foi recuperada."
+      th: "SCP-052 เปิดประตูเพื่อรับและปล่อยผู้โดยสารเป็นเวลาประมาณห้านาที จากนั้นปิดประตูและหายไป ผู้ถูกทดสอบส่วนใหญ่ที่ขึ้นไปบน SCP-052 ยังไม่ได้รับการกู้คืนกลับมา"
+      uk: "SCP-052 відчиняє двері приблизно на п'ять хвилин, щоб приймати та висаджувати пасажирів, а потім зачиняє двері й зникає. Більшість суб'єктів, які сідали в SCP-052, не було знайдено."
+      vi: "SCP-052 mở cửa để đón và trả khách trong khoảng năm phút, sau đó đóng cửa và biến mất. Phần lớn các đối tượng đã lên SCP-052 vẫn chưa được tìm thấy."
+      zh: "SCP-052会打开车门接送乘客约五分钟，然后关门消失。绝大多数登上SCP-052的对象都未能被寻回。"
+      zh_Hant: "SCP-052會打開車門接送乘客約五分鐘，然後關門消失。絕大多數登上SCP-052的對象都未能被尋回。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the platform,
+      a very different framing from the dark train-interior shot before.
+      time-lost-passenger stands just outside the train doors, blinking
+      in confusion at the modern platform signage and lighting, clearly
+      out of place. attending-researcher-m and attending-researcher-f
+      approach him carefully from either side.
+    characters: [time-lost-passenger, attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "SCP-052から降りてきた乗客たちは、1976年から2204年まで様々な日付に乗車したと主張している。被験者たちは車内で過ごした時間について何も記憶していない。"
+      en: "Passengers leaving SCP-052 claim to have boarded on various dates, from 1976 up to 2204. Subjects retain no knowledge of time spent on board."
+      cs: "Cestující vystupující z SCP-052 tvrdí, že nastoupili v různých datech, od roku 1976 až po rok 2204. Subjekti si nezachovávají žádnou vzpomínku na čas strávený na palubě."
+      de: "Fahrgäste, die SCP-052 verlassen, behaupten, an verschiedenen Daten eingestiegen zu sein, von 1976 bis 2204. Die Subjekte behalten keine Erinnerung an die an Bord verbrachte Zeit."
+      es: "Los pasajeros que salen de SCP-052 afirman haber abordado en fechas diversas, desde 1976 hasta 2204. Los sujetos no conservan ningún recuerdo del tiempo pasado a bordo."
+      fr: "Les passagers quittant le SCP-052 affirment être montés à des dates variées, allant de 1976 à 2204. Les sujets ne conservent aucun souvenir du temps passé à bord."
+      it: "I passeggeri che scendono da SCP-052 affermano di essere saliti in date diverse, dal 1976 fino al 2204. I soggetti non conservano alcun ricordo del tempo trascorso a bordo."
+      ko: "SCP-052에서 내리는 승객들은 1976년부터 2204년까지 다양한 날짜에 탑승했다고 주장한다. 대상들은 탑승 중 보낸 시간에 대한 기억이 전혀 없다."
+      pl: "Pasażerowie wysiadający z SCP-052 twierdzą, że wsiedli w różnych datach, od 1976 do 2204 roku. Osobnicy nie zachowują żadnej pamięci o czasie spędzonym na pokładzie."
+      pt: "Os passageiros que saem do SCP-052 afirmam ter embarcado em datas variadas, de 1976 até 2204. Os sujeitos não retêm nenhuma lembrança do tempo passado a bordo."
+      th: "ผู้โดยสารที่ออกจาก SCP-052 อ้างว่าขึ้นรถในวันที่ต่างกัน ตั้งแต่ปี 1976 จนถึงปี 2204 ผู้ถูกทดสอบไม่มีความทรงจำใดๆ เกี่ยวกับช่วงเวลาที่อยู่บนรถ"
+      uk: "Пасажири, які виходять з SCP-052, стверджують, що сідали в різні дати, від 1976 до 2204 року. Суб'єкти не зберігають жодних спогадів про час, проведений на борту."
+      vi: "Hành khách rời khỏi SCP-052 tuyên bố đã lên tàu vào nhiều ngày khác nhau, từ năm 1976 đến năm 2204. Các đối tượng không lưu giữ bất kỳ ký ức nào về thời gian trên tàu."
+      zh: "从SCP-052下车的乘客声称自己是在不同的日期上车的，从1976年到2204年不等。这些对象对车上度过的时间毫无记忆。"
+      zh_Hant: "從SCP-052下車的乘客聲稱自己是在不同的日期上車的，從1976年到2204年不等。這些對象對車上度過的時間毫無記憶。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the station
+      entrance above ground, a very different framing from the platform
+      shot before. A simple barricade and a sawhorse sign block the
+      stairway down, with attending-researcher-m, now in a work vest,
+      waving away a couple of curious passersby, agents barely visible
+      in the shadows below.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "駅は「線路メンテナンス」を口実に一般利用者に対して閉鎖される。SCP-052を目撃した一般人は、クラスB記憶処理薬の投与後に解放してよい。"
+      en: "The station is to be closed to the public under the pretext of 'track maintenance.' Members of the public who see SCP-052 may be released after the administration of a Class B amnestic."
+      cs: "Stanice musí být uzavřena veřejnosti pod záminkou 'údržby trati'. Členové veřejnosti, kteří spatřili SCP-052, mohou být po podání amnestika třídy B propuštěni."
+      de: "Der Bahnhof ist unter dem Vorwand von 'Gleiswartungsarbeiten' für die Öffentlichkeit zu sperren. Mitglieder der Öffentlichkeit, die SCP-052 gesehen haben, können nach Verabreichung eines Amnestikums der Klasse B entlassen werden."
+      es: "La estación debe cerrarse al público bajo el pretexto de 'mantenimiento de vías'. Los miembros del público que vean a SCP-052 pueden ser liberados tras la administración de un amnésico de Clase B."
+      fr: "La station doit être fermée au public sous prétexte de « travaux de maintenance des voies ». Les membres du public ayant vu le SCP-052 peuvent être relâchés après administration d'un amnésique de classe B."
+      it: "La stazione deve essere chiusa al pubblico con il pretesto di 'manutenzione dei binari'. I membri del pubblico che vedono SCP-052 possono essere rilasciati dopo la somministrazione di un amnestico di Classe B."
+      ko: "역은 '선로 보수'를 구실로 일반인에게 폐쇄된다. SCP-052를 목격한 일반인은 B급 기억소거제 투여 후 석방될 수 있다."
+      pl: "Stacja ma być zamknięta dla publiczności pod pretekstem 'konserwacji torów'. Osoby postronne, które zobaczyły SCP-052, mogą zostać zwolnione po podaniu amnestyku klasy B."
+      pt: "A estação deve ser fechada ao público sob o pretexto de 'manutenção de trilhos'. Membros do público que virem o SCP-052 podem ser liberados após a administração de um amnésico de Classe B."
+      th: "สถานีจะถูกปิดไม่ให้ประชาชนเข้าโดยอ้างเหตุผลว่า 'ซ่อมบำรุงราง' ประชาชนที่พบเห็น SCP-052 อาจได้รับการปล่อยตัวหลังจากได้รับยาลบความจำระดับ B"
+      uk: "Станцію слід закривати для публіки під приводом 'ремонту колії'. Представників громадськості, які побачили SCP-052, можна відпускати після введення амнестика класу B."
+      vi: "Ga tàu phải bị đóng cửa đối với công chúng dưới lý do 'bảo trì đường ray'. Những người dân thường thấy SCP-052 có thể được thả sau khi được sử dụng thuốc xóa trí nhớ Loại B."
+      zh: "该车站应以「轨道维护」为借口对公众关闭。目击SCP-052的公众人员在施用B级记忆消除剂后可予以释放。"
+      zh_Hant: "該車站應以「軌道維護」為藉口對公眾關閉。目擊SCP-052的公眾人員在施用B級記憶消除劑後可予以釋放。"

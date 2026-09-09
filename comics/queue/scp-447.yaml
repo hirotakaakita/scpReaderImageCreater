@@ -1,0 +1,147 @@
+# SCP-447「緑のスライム」4コマ台本
+# captionは記事本文（Special Containment Procedures）からの引用のみ。
+# Descriptionの「死体接触時の危険」部分は記事自体がO5命令でデータ削除済み
+# （具体的な描写が無い）ため本編では触れず、収容手順にある滑稽な官僚的文言
+# （サラダドレッシングになる・燃費が150%向上する・ポリグラフで死姦愛好傾向を
+# 検査する等）を軸にした軽いコメディにしている。補遺は使わない。
+# キャラにセリフは言わせない。
+
+id: scp-447
+
+title:
+  en: "SCP-447: The Green Slime"
+  ja: "SCP-447：緑のスライム"
+  cs: "SCP-447: Zelený sliz"
+  de: "SCP-447: Der grüne Schleim"
+  es: "SCP-447: El Limo Verde"
+  fr: "SCP-447 : La Bave Verte"
+  it: "SCP-447: La Melma Verde"
+  ko: "SCP-447: 초록 점액"
+  pl: "SCP-447: Zielona Maź"
+  pt: "SCP-447: A Baba Verde"
+  th: "SCP-447: เมือกสีเขียว"
+  uk: "SCP-447: Зелений Слиз"
+  vi: "SCP-447: Chất Nhầy Xanh Lục"
+  zh: "SCP-447：绿色黏液"
+  zh_Hant: "SCP-447：綠色黏液"
+
+attribution:
+  article: "SCP-447"
+  author: "DrClef"
+  source_url: "http://scp-wiki.wikidot.com/scp-447"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-447:
+    name: SCP-447
+    description: >
+      SCP-447 (the object designated SCP-447-1), a small green sphere
+      approximately 5cm in diameter, with a spongy, slightly wrinkled
+      surface (color RGB 60,140,70). It continuously oozes a thin trickle
+      of glossy greenish slime (color RGB 90,160,60) from its surface,
+      collecting in a viscous pool beneath it.
+
+characters: [scp-447, attending-researcher-m, attending-researcher-f, d-class]
+
+panels:
+  - scene: >
+      Wide shot, full room, eye level, showing a stark, sealed clean room.
+      In the center of the frame, SCP-447 sits inside a large clear
+      fifty-gallon plastic container on a metal table, a thin trickle of
+      green slime pooling at its base. On the left side of the frame,
+      attending-researcher-m stands before a wall-mounted monitor showing
+      the live camera feed of the container.
+    characters: [scp-447, attending-researcher-m]
+    caption:
+      ja: "SCP-447-1は透明な50ガロンのプラスチック容器に常に保存され、溢れる事の無いようカメラにて監視されていなければなりません。保存区画はレベル1のクリーンルームステータスに保たれ、埋葬所・死体公示所・霊安室から10km以上離れていなければなりません。"
+      en: "SCP-447-1 is to be kept within a fifty-gallon clear plastic container at all times, monitored by camera to prevent overflow. The area must be maintained at Level 1 Clean Room status, at a site at least 10 km from any cemetery, morgue, or mortuary."
+      cs: "SCP-447-1 musí být neustále uchováváno v padesátigalonové průhledné plastové nádobě, sledované kamerou, aby se zabránilo přetečení. Oblast musí být udržována ve stavu čisté místnosti úrovně 1, na místě vzdáleném nejméně 10 km od jakéhokoli hřbitova, márnice nebo pohřebního ústavu."
+      de: "SCP-447-1 muss jederzeit in einem fünfzig Gallonen fassenden durchsichtigen Kunststoffbehälter aufbewahrt und per Kamera überwacht werden, um ein Überlaufen zu verhindern. Der Bereich muss den Reinraumstatus Stufe 1 aufrechterhalten, an einem Standort mindestens 10 km von jedem Friedhof, jeder Leichenhalle oder jedem Bestattungsinstitut entfernt."
+      es: "SCP-447-1 debe mantenerse en todo momento dentro de un recipiente de plástico transparente de cincuenta galones, monitoreado por cámara para evitar desbordamientos. El área debe mantenerse con estatus de Sala Limpia de Nivel 1, en un emplazamiento a al menos 10 km de cualquier cementerio, morgue o funeraria."
+      fr: "SCP-447-1 doit être conservé en permanence dans un récipient en plastique transparent de cinquante gallons, surveillé par caméra pour éviter tout débordement. La zone doit être maintenue en statut de salle blanche de niveau 1, sur un site situé à au moins 10 km de tout cimetière, morgue ou entreprise de pompes funèbres."
+      it: "SCP-447-1 deve essere conservato in ogni momento all'interno di un contenitore di plastica trasparente da cinquanta galloni, monitorato tramite telecamera per prevenire fuoriuscite. L'area deve essere mantenuta con lo stato di camera bianca di Livello 1, in un sito ad almeno 10 km da qualsiasi cimitero, obitorio o impresa di pompe funebri."
+      ko: "SCP-447-1은 넘치는 것을 방지하기 위해 카메라로 감시되는 50갤런 크기의 투명 플라스틱 용기에 항상 보관해야 한다. 해당 구역은 모든 묘지, 영안실, 장례식장으로부터 최소 10km 떨어진 부지에서 레벨 1 클린룸 상태로 유지되어야 한다."
+      pl: "SCP-447-1 należy przechowywać przez cały czas w pięćdziesięciogalonowym przezroczystym plastikowym pojemniku, monitorowanym przez kamerę w celu zapobieżenia przelaniu. Obszar musi być utrzymywany w statusie pomieszczenia czystego poziomu 1, w miejscu oddalonym o co najmniej 10 km od jakiegokolwiek cmentarza, kostnicy lub zakładu pogrzebowego."
+      pt: "O SCP-447-1 deve ser mantido a todo momento dentro de um recipiente de plástico transparente de cinquenta galões, monitorado por câmera para evitar transbordamento. A área deve ser mantida em status de sala limpa Nível 1, em um local a pelo menos 10 km de qualquer cemitério, necrotério ou funerária."
+      th: "SCP-447-1 ต้องถูกเก็บไว้ในภาชนะพลาสติกใสขนาดห้าสิบแกลลอนตลอดเวลา โดยมีการเฝ้าติดตามผ่านกล้องเพื่อป้องกันการล้น พื้นที่ต้องรักษาสถานะห้องสะอาดระดับ 1 ในสถานที่ที่ห่างจากสุสาน ห้องเก็บศพ หรือสถานประกอบพิธีศพอย่างน้อย 10 กิโลเมตร"
+      uk: "SCP-447-1 має постійно зберігатися у прозорому пластиковому контейнері об'ємом п'ятдесят галонів, під наглядом камери для запобігання переливанню. Територія має підтримуватися у стані чистого приміщення 1 рівня, на об'єкті, розташованому щонайменше за 10 км від будь-якого кладовища, моргу чи похоронного бюро."
+      vi: "SCP-447-1 phải luôn được giữ trong một thùng nhựa trong suốt dung tích năm mươi gallon, được giám sát bằng camera để ngăn tràn. Khu vực phải được duy trì ở trạng thái phòng sạch Cấp 1, tại một địa điểm cách bất kỳ nghĩa trang, nhà xác hoặc nhà tang lễ nào ít nhất 10 km."
+      zh: "SCP-447-1须始终保存在一个五十加仑的透明塑料容器内，并以摄像头监控以防止溢出。该区域必须保持一级洁净室状态，所在地点须距任何墓地、停尸房或殡仪馆至少10公里。"
+      zh_Hant: "SCP-447-1須始終保存在一個五十加侖的透明塑膠容器內，並以攝影機監控以防止溢出。該區域必須保持一級潔淨室狀態，所在地點須距任何墓地、停屍房或殯儀館至少10公里。"
+
+  - scene: >
+      Medium shot, waist-up, showing the container up close. On the left
+      side of the frame, a D-Class subject in protective gear scoops the
+      collected green slime into a sealed glass jar with a long-handled
+      ladle, standing beside the container. On the right side of the
+      frame, attending-researcher-f checks a clipboard, timing the daily
+      harvest.
+    characters: [d-class, attending-researcher-f]
+    caption:
+      ja: "SCP-447-1は約10cc毎時の速度で常に粘性の緑色のスライムを排泄するため、健康状態の良好なクラスD職員が少なくとも1日に1度、スライムの回収に派遣されます。"
+      en: "Because SCP-447-1 constantly excretes a viscous greenish slime at a rate of approximately 10 cc/hour, a Class D personnel in good physical condition is to be detailed to harvest the excreted slime at least once per day."
+      cs: "Protože SCP-447-1 neustále vylučuje vazkou nazelenalou slizovitou hmotu rychlostí přibližně 10 cc/hod, personál třídy D v dobré fyzické kondici má být pověřen sběrem vyloučeného slizu alespoň jednou denně."
+      de: "Da SCP-447-1 ständig einen zähflüssigen, grünlichen Schleim mit einer Rate von etwa 10 cc/Stunde ausscheidet, ist D-Klasse-Personal in guter körperlicher Verfassung damit zu beauftragen, den ausgeschiedenen Schleim mindestens einmal täglich zu ernten."
+      es: "Dado que SCP-447-1 excreta constantemente una viscosa mucosidad verdosa a una tasa de aproximadamente 10 cc/hora, se debe destinar personal de Clase D en buenas condiciones físicas para recolectar la mucosidad excretada al menos una vez al día."
+      fr: "Étant donné que SCP-447-1 excrète constamment une substance visqueuse verdâtre à un rythme d'environ 10 cc/heure, du personnel de Classe D en bonne condition physique doit être chargé de récolter cette substance au moins une fois par jour."
+      it: "Poiché SCP-447-1 secerne costantemente una melma viscosa verdastra a un ritmo di circa 10 cc/ora, del personale di Classe D in buone condizioni fisiche deve essere incaricato di raccogliere la melma secreta almeno una volta al giorno."
+      ko: "SCP-447-1은 시간당 약 10cc의 속도로 끈적한 녹색 점액을 지속적으로 배출하므로, 신체 건강이 양호한 D계급 요원을 배정하여 하루에 최소 한 번 배출된 점액을 채취하게 해야 한다."
+      pl: "Ponieważ SCP-447-1 stale wydziela lepką, zielonkawą maź w tempie około 10 cc/godzinę, personel Klasy D w dobrej kondycji fizycznej ma być wyznaczony do zbierania wydzielanej mazi co najmniej raz dziennie."
+      pt: "Como o SCP-447-1 excreta constantemente uma baba esverdeada viscosa a uma taxa de aproximadamente 10 cc/hora, pessoal de Classe D em boas condições físicas deve ser designado para coletar a baba excretada pelo menos uma vez por dia."
+      th: "เนื่องจาก SCP-447-1 ขับสารเมือกสีเขียวหนืดออกมาอย่างต่อเนื่องในอัตราประมาณ 10 ซีซีต่อชั่วโมง จึงต้องมอบหมายเจ้าหน้าที่ระดับดีที่มีสภาพร่างกายแข็งแรงให้เก็บเมือกที่ขับออกมาอย่างน้อยวันละครั้ง"
+      uk: "Оскільки SCP-447-1 постійно виділяє в'язкий зеленуватий слиз зі швидкістю приблизно 10 см³/год, персонал класу D у гарній фізичній формі повинен бути призначений для збору виділеного слизу щонайменше раз на день."
+      vi: "Vì SCP-447-1 liên tục tiết ra chất nhầy màu xanh lục nhớt với tốc độ khoảng 10 cc/giờ, nhân sự Cấp D có thể trạng tốt phải được cắt cử để thu hoạch chất nhầy tiết ra ít nhất một lần mỗi ngày."
+      zh: "由于SCP-447-1以约每小时10毫升的速度持续分泌黏稠的绿色黏液，须指派体格良好的D级人员每日至少一次收集所排出的黏液。"
+      zh_Hant: "由於SCP-447-1以約每小時10毫升的速度持續分泌黏稠的綠色黏液，須指派體格良好的D級人員每日至少一次收集所排出的黏液。"
+
+  - scene: >
+      Close-up shot on a table set with two demonstrations side by side.
+      On the left side of the frame, attending-researcher-m happily
+      drizzles a spoonful of the green slime over a salad, ready to eat.
+      On the right side of the frame, a D-Class subject pours a small
+      vial of the same slime into a gas can, grinning at a fuel gauge
+      needle swinging upward.
+    characters: [attending-researcher-m, d-class]
+    caption:
+      ja: "スライムは食用可能で、野菜ドレッシングとして良好であると報告されています。1ガロンのガソリンに10ccのSCP-447-2を添加する事で燃料効率を150%に向上させることができます。"
+      en: "The slime is edible, and reportedly makes a good salad dressing. Adding 10 cc of SCP-447-2 to one gallon of gasoline improves fuel efficiency by 150%."
+      cs: "Sliz je jedlý a údajně tvoří dobrou zálivku na salát. Přidání 10 cc SCP-447-2 do jednoho galonu benzínu zlepšuje palivovou účinnost o 150 %."
+      de: "Der Schleim ist essbar und soll angeblich ein gutes Salatdressing ergeben. Die Zugabe von 10 cc SCP-447-2 zu einer Gallone Benzin verbessert die Kraftstoffeffizienz um 150 %."
+      es: "La mucosidad es comestible y, según se informa, hace un buen aderezo para ensaladas. Añadir 10 cc de SCP-447-2 a un galón de gasolina mejora la eficiencia del combustible en un 150%."
+      fr: "La substance est comestible et ferait, paraît-il, une bonne vinaigrette. L'ajout de 10 cc de SCP-447-2 à un gallon d'essence améliore le rendement énergétique de 150 %."
+      it: "La melma è commestibile e, a quanto pare, costituisce un ottimo condimento per insalate. L'aggiunta di 10 cc di SCP-447-2 a un gallone di benzina migliora l'efficienza del carburante del 150%."
+      ko: "이 점액은 식용 가능하며, 샐러드 드레싱으로도 훌륭하다고 보고되었다. SCP-447-2를 휘발유 1갤런에 10cc 첨가하면 연비가 150% 향상된다."
+      pl: "Maź jest jadalna i podobno stanowi dobry dressing do sałatek. Dodanie 10 cc SCP-447-2 do galona benzyny poprawia efektywność paliwową o 150%."
+      pt: "A baba é comestível e, segundo relatos, faz um bom molho para saladas. A adição de 10 cc de SCP-447-2 a um galão de gasolina melhora a eficiência de combustível em 150%."
+      th: "เมือกสามารถรับประทานได้ และมีรายงานว่าใช้เป็นน้ำสลัดได้ดี การเติม SCP-447-2 10 ซีซีลงในน้ำมันเบนซินหนึ่งแกลลอนช่วยเพิ่มประสิทธิภาพเชื้อเพลิงได้ 150%"
+      uk: "Слиз є їстівним і, за повідомленнями, є хорошою заправкою для салату. Додавання 10 см³ SCP-447-2 до одного галона бензину підвищує паливну ефективність на 150%."
+      vi: "Chất nhầy có thể ăn được và được cho là làm nước sốt salad ngon. Việc thêm 10 cc SCP-447-2 vào một gallon xăng giúp cải thiện hiệu suất nhiên liệu lên 150%."
+      zh: "该黏液可食用，据报道可作为不错的沙拉酱。在一加仑汽油中加入10毫升SCP-447-2可使燃油效率提高150%。"
+      zh_Hant: "該黏液可食用，據報導可作為不錯的沙拉醬。在一加侖汽油中加入10毫升SCP-447-2可使燃油效率提高150%。"
+
+  - scene: >
+      Medium shot, slightly elevated angle, office setting. On the left
+      side of the frame, a D-Class subject sits wired to a polygraph
+      machine, sensors clipped to his fingers, sweating nervously. On the
+      right side of the frame, attending-researcher-f sits across a desk,
+      pen poised over a clipboard, one eyebrow raised as she reads a
+      question aloud from a checklist.
+    characters: [d-class, attending-researcher-f]
+    caption:
+      ja: "SCP-447に割り当てられている全ての職員は、ポリグラフによる自殺・死姦愛好および殺人の傾向テストを通過していなければなりません。"
+      en: "All staff assigned to SCP-447 are to be screened by polygraph for any suicidal, necrophiliac, or homicidal tendencies."
+      cs: "Veškerý personál přidělený k SCP-447 musí být prověřen polygrafem s ohledem na jakékoli sebevražedné, nekrofilní nebo vražedné sklony."
+      de: "Das gesamte SCP-447 zugeteilte Personal ist mittels Polygraph auf etwaige suizidale, nekrophile oder mörderische Neigungen zu überprüfen."
+      es: "Todo el personal asignado a SCP-447 debe ser examinado mediante polígrafo para detectar cualquier tendencia suicida, necrófila u homicida."
+      fr: "Tout le personnel affecté à SCP-447 doit être soumis à un test polygraphique afin de détecter toute tendance suicidaire, nécrophile ou homicide."
+      it: "Tutto il personale assegnato a SCP-447 deve essere sottoposto a un test poligrafico per individuare eventuali tendenze suicide, necrofile o omicide."
+      ko: "SCP-447에 배정된 모든 직원은 자살, 시체성애, 살인 성향이 있는지 폴리그래프 검사를 받아야 한다."
+      pl: "Cały personel przydzielony do SCP-447 musi zostać przebadany wykrywaczem kłamstw pod kątem jakichkolwiek skłonności samobójczych, nekrofilnych lub zabójczych."
+      pt: "Todo o pessoal designado ao SCP-447 deve ser examinado por polígrafo quanto a quaisquer tendências suicidas, necrófilas ou homicidas."
+      th: "เจ้าหน้าที่ทุกคนที่ได้รับมอบหมายให้ดูแล SCP-447 ต้องผ่านการตรวจด้วยเครื่องจับเท็จเพื่อคัดกรองแนวโน้มการฆ่าตัวตาย ความหลงใหลในศพ หรือแนวโน้มการฆาตกรรม"
+      uk: "Весь персонал, призначений на роботу з SCP-447, повинен пройти перевірку на поліграфі щодо будь-яких суїцидальних, некрофільних чи вбивчих схильностей."
+      vi: "Toàn bộ nhân viên được phân công phụ trách SCP-447 phải được kiểm tra bằng máy phát hiện nói dối để sàng lọc bất kỳ khuynh hướng tự sát, ái tử thi, hoặc giết người nào."
+      zh: "所有被指派负责SCP-447的人员均须接受测谎检测，以筛查任何自杀、恋尸或杀人倾向。"
+      zh_Hant: "所有被指派負責SCP-447的人員均須接受測謊檢測，以篩查任何自殺、戀屍或殺人傾向。"

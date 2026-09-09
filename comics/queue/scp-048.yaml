@@ -1,0 +1,149 @@
+# SCP-048 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用のみ
+# （記事自体が短いため、長い一文を2コマに分割している）。Addendum 2
+# （コルテス博士の血みどろの事故）はグロ回避のため本編にもaddendumにも
+# 含めず、Addendum 3（「ヴァンパイア・ボート」誤登録の逸話）のみを
+# addendumの一言として使用。キャラにセリフは言わせない。JP公式訳が直接
+# 取得できなかったため、検証済みの英語本文からの翻訳（ja含む）。
+
+id: scp-048
+
+title:
+  en: "SCP-048"
+  ja: "SCP-048"
+  cs: "SCP-048"
+  de: "SCP-048"
+  es: "SCP-048"
+  fr: "SCP-048"
+  it: "SCP-048"
+  ko: "SCP-048"
+  pl: "SCP-048"
+  pt: "SCP-048"
+  th: "SCP-048"
+  uk: "SCP-048"
+  vi: "SCP-048"
+  zh: "SCP-048"
+  zh_Hant: "SCP-048"
+
+attribution:
+  article: "SCP-048"
+  source_url: "http://scp-wiki.wikidot.com/scp-048"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+characters: [attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a long records archive
+      with rows of identical file boxes on shelves, except one gap in
+      the middle where a shelf slot is charred and empty, faint wisps of
+      smoke still rising. attending-researcher-m stands in front of it,
+      staring, clipboard slack in his hand.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-048はかねてより職員の間で「呪われたSCP番号」とみなされてきた。この番号を割り当てられた物品は、特定の個人の落ち度なく、破壊・除籍・盗難、あるいは財団から失われる傾向にある。"
+      en: "SCP-048 has long been considered the 'cursed SCP number' by staff: any items given this designation tend to be destroyed, decommissioned, stolen, or otherwise lost to the Foundation, usually through no fault of any individual person."
+      cs: "SCP-048 je zaměstnanci dlouho považováno za 'prokleté číslo SCP': objekty, kterým je přiděleno toto označení, mají tendenci být zničeny, vyřazeny, ukradeny nebo jinak ztraceny Nadaci, obvykle bez viny konkrétní osoby."
+      de: "SCP-048 gilt unter den Mitarbeitern seit langem als die 'verfluchte SCP-Nummer': Objekte, denen diese Bezeichnung zugewiesen wird, neigen dazu, zerstört, ausgemustert, gestohlen oder anderweitig für die Stiftung verloren zu gehen, meist ohne Verschulden einer einzelnen Person."
+      es: "SCP-048 ha sido considerado durante mucho tiempo el 'número SCP maldito' por el personal: los objetos a los que se les asigna esta designación tienden a ser destruidos, dados de baja, robados o de otro modo perdidos por la Fundación, generalmente sin culpa de ninguna persona en particular."
+      fr: "Le SCP-048 est depuis longtemps considéré par le personnel comme le « numéro SCP maudit » : les objets auxquels cette désignation est attribuée ont tendance à être détruits, désaffectés, volés ou autrement perdus par la Fondation, généralement sans qu'aucune personne en particulier n'en soit responsable."
+      it: "SCP-048 è da tempo considerato dal personale il 'numero SCP maledetto': gli oggetti a cui viene assegnata questa designazione tendono a essere distrutti, dismessi, rubati o altrimenti persi dalla Fondazione, di solito senza colpa di alcuna persona in particolare."
+      ko: "SCP-048은 오랫동안 직원들 사이에서 '저주받은 SCP 번호'로 여겨져 왔다: 이 지정을 부여받은 물품은 특정 개인의 잘못 없이도 파괴되거나, 등록 말소되거나, 도난당하거나, 재단에서 분실되는 경향이 있다."
+      pl: "SCP-048 od dawna uznawane jest przez personel za 'przeklęty numer SCP': obiekty, którym nadano to oznaczenie, mają tendencję do zniszczenia, wycofania z użytku, kradzieży lub w inny sposób utraty przez Fundację, zazwyczaj bez winy konkretnej osoby."
+      pt: "O SCP-048 há muito é considerado pela equipe o 'número SCP amaldiçoado': objetos designados com esse número tendem a ser destruídos, desativados, roubados ou perdidos pela Fundação de outra forma, geralmente sem culpa de nenhum indivíduo específico."
+      th: "SCP-048 ถูกเจ้าหน้าที่มองว่าเป็น 'หมายเลข SCP ที่ถูกสาป' มาอย่างยาวนาน: วัตถุใดๆ ที่ได้รับหมายเลขนี้มักจะถูกทำลาย ปลดประจำการ ถูกขโมย หรือสูญหายไปจากมูลนิธิ โดยส่วนใหญ่แล้วไม่ใช่ความผิดของบุคคลใดบุคคลหนึ่ง"
+      uk: "Персонал давно вважає SCP-048 'проклятим номером SCP': об'єкти, яким присвоюється це позначення, як правило, знищуються, списуються, викрадаються або іншим чином губляться Фондом, зазвичай без вини жодної конкретної особи."
+      vi: "SCP-048 từ lâu đã được nhân viên coi là 'con số SCP bị nguyền rủa': bất kỳ vật thể nào được gán số hiệu này thường bị phá hủy, ngừng sử dụng, bị đánh cắp, hoặc thất lạc khỏi Quỹ, thường không phải lỗi của bất kỳ cá nhân cụ thể nào."
+      zh: "长期以来，SCP-048一直被职员视为「被诅咒的SCP编号」：凡被赋予此编号的物品，往往会被摧毁、除籍、盗窃，或以其他方式从基金会遗失，通常并非任何个人的过错。"
+      zh_Hant: "長期以來，SCP-048一直被職員視為「被詛咒的SCP編號」：凡被賦予此編號的物品，往往會被摧毀、除籍、盜竊，或以其他方式從基金會遺失，通常並非任何個人的過錯。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the
+      wide establishing shot, a plain meeting room around an oval table
+      with several empty chairs pulled out, papers and coffee cups left
+      abandoned. attending-researcher-f sits alone at one end, visibly
+      uneasy, glancing at the empty seats around her.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "これまでのSCP-048の各事例に配属された職員は、死亡・身体損傷・懲戒処分により、50パーセント高い離職率を記録している。"
+      en: "Personnel assigned to SCP-048 in its various incarnations have had a 50% higher rate of turnover due to death, dismemberment, and disciplinary action."
+      cs: "Personál přidělený k SCP-048 v jeho různých podobách vykazoval o 50 % vyšší míru fluktuace v důsledku úmrtí, zmrzačení a disciplinárních opatření."
+      de: "Personal, das den verschiedenen Inkarnationen von SCP-048 zugeteilt wurde, wies eine um 50 % höhere Fluktuationsrate aufgrund von Tod, Verstümmelung und disziplinarischen Maßnahmen auf."
+      es: "El personal asignado a SCP-048 en sus diversas encarnaciones ha tenido una tasa de rotación un 50% más alta debido a muertes, mutilaciones y medidas disciplinarias."
+      fr: "Le personnel affecté au SCP-048 dans ses différentes incarnations a connu un taux de rotation supérieur de 50 %, en raison de décès, de mutilations et de mesures disciplinaires."
+      it: "Il personale assegnato a SCP-048 nelle sue varie incarnazioni ha registrato un tasso di turnover superiore del 50% a causa di morte, mutilazione e provvedimenti disciplinari."
+      ko: "다양한 형태의 SCP-048에 배정된 직원들은 사망, 신체 절단, 징계 조치로 인해 50퍼센트 더 높은 이직률을 보였다."
+      pl: "Personel przydzielony do SCP-048 w jego różnych wcieleniach odnotował o 50% wyższy wskaźnik rotacji z powodu śmierci, okaleczenia i działań dyscyplinarnych."
+      pt: "O pessoal designado para o SCP-048 em suas várias encarnações teve uma taxa de rotatividade 50% maior devido a morte, mutilação e ações disciplinares."
+      th: "เจ้าหน้าที่ที่ได้รับมอบหมายให้ดูแล SCP-048 ในรูปแบบต่างๆ มีอัตราการลาออกสูงกว่าปกติถึง 50 เปอร์เซ็นต์ อันเนื่องมาจากการเสียชีวิต การพิการ และมาตรการทางวินัย"
+      uk: "Персонал, призначений на SCP-048 у його різних втіленнях, мав на 50% вищий рівень плинності через смерть, каліцтво та дисциплінарні стягнення."
+      vi: "Nhân viên được phân công cho SCP-048 trong các hóa thân khác nhau của nó có tỷ lệ thay đổi nhân sự cao hơn 50% do tử vong, cụt chi, và các hành động kỷ luật."
+      zh: "在SCP-048各个化身版本中被指派的人员，其人员流动率因死亡、肢体伤残和纪律处分而高出50%。"
+      zh_Hant: "在SCP-048各個化身版本中被指派的人員，其人員流動率因死亡、肢體傷殘和紀律處分而高出50%。"
+
+  - scene: >
+      Close-up, low angle, filling most of the frame, a very different
+      framing from the medium shot before, on a pair of hands (belonging
+      to attending-researcher-m) pressing a heavy wax seal onto a closed
+      ledger book, an ornate but menacing lock and chain wrapped around
+      it.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-048という指定は、SCPカタログから永久欠番とする。今後いかなるSCPにも、この番号を割り当ててはならない。"
+      en: "The designation SCP-048 is to be retired from the SCP catalog. No future SCPs are to be assigned this number."
+      cs: "Označení SCP-048 má být trvale vyřazeno z katalogu SCP. Žádnému budoucímu SCP nesmí být toto číslo přiděleno."
+      de: "Die Bezeichnung SCP-048 ist aus dem SCP-Katalog zurückzuziehen. Kein zukünftiges SCP darf diese Nummer erhalten."
+      es: "La designación SCP-048 debe retirarse del catálogo de SCP. Ningún futuro SCP debe recibir este número."
+      fr: "La désignation SCP-048 doit être retirée du catalogue SCP. Aucun futur SCP ne doit se voir attribuer ce numéro."
+      it: "La designazione SCP-048 deve essere ritirata dal catalogo SCP. Nessun futuro SCP dovrà essere assegnato a questo numero."
+      ko: "SCP-048이라는 명칭은 SCP 목록에서 영구 결번 처리한다. 향후 어떠한 SCP에도 이 번호를 부여해서는 안 된다."
+      pl: "Oznaczenie SCP-048 ma zostać wycofane z katalogu SCP. Żaden przyszły SCP nie może otrzymać tego numeru."
+      pt: "A designação SCP-048 deve ser retirada do catálogo de SCP. Nenhum SCP futuro deve receber esse número."
+      th: "ชื่อเรียก SCP-048 จะถูกถอดออกจากรายการ SCP อย่างถาวร ห้ามกำหนดหมายเลขนี้ให้กับ SCP ใดๆ ในอนาคต"
+      uk: "Позначення SCP-048 має бути виведено з каталогу SCP. Жодному майбутньому SCP не можна присвоювати цей номер."
+      vi: "Ký hiệu SCP-048 sẽ bị loại bỏ khỏi danh mục SCP. Không được gán số hiệu này cho bất kỳ SCP nào trong tương lai."
+      zh: "SCP-048这一编号须从SCP目录中永久除籍。今后不得将此编号分配给任何SCP。"
+      zh_Hant: "SCP-048這一編號須從SCP目錄中永久除籍。今後不得將此編號分配給任何SCP。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show a bright,
+      cheerful break room, a very different framing from the somber
+      shots before. attending-researcher-f and attending-researcher-m
+      raise their coffee mugs together in a relieved toast, wide genuine
+      smiles, a stark contrast to their earlier unease.
+    characters: [attending-researcher-f, attending-researcher-m]
+    caption:
+      ja: "048という番号に実際に超自然的な性質があるかどうかは不明だが、この番号にまつわる迷信を踏まえ、職員の士気を維持するため、この指定はカタログから削除された。"
+      en: "Whether or not the number 048 actually has any supernatural qualities is unknown, but given the superstition around this number, the designation has been removed from the catalog in order to help maintain employee morale."
+      cs: "Zda číslo 048 skutečně nese jakékoli nadpřirozené vlastnosti, není známo, ale vzhledem k pověrám kolem tohoto čísla bylo označení odstraněno z katalogu, aby se udržela morálka zaměstnanců."
+      de: "Ob die Zahl 048 tatsächlich übernatürliche Eigenschaften besitzt, ist unbekannt, doch angesichts des Aberglaubens rund um diese Zahl wurde die Bezeichnung aus dem Katalog entfernt, um die Arbeitsmoral der Mitarbeiter zu erhalten."
+      es: "Se desconoce si el número 048 realmente posee cualidades sobrenaturales, pero dada la superstición en torno a este número, la designación ha sido retirada del catálogo para ayudar a mantener la moral del personal."
+      fr: "On ignore si le nombre 048 possède réellement des qualités surnaturelles, mais étant donné la superstition entourant ce nombre, la désignation a été retirée du catalogue afin de préserver le moral du personnel."
+      it: "Non si sa se il numero 048 possieda effettivamente qualità soprannaturali, ma data la superstizione che circonda questo numero, la designazione è stata rimossa dal catalogo per contribuire a mantenere il morale dei dipendenti."
+      ko: "048이라는 숫자가 실제로 초자연적인 성질을 지니는지는 알려져 있지 않지만, 이 번호를 둘러싼 미신을 고려하여 직원 사기 유지를 위해 이 명칭은 목록에서 삭제되었다."
+      pl: "Nie wiadomo, czy liczba 048 rzeczywiście posiada jakiekolwiek nadprzyrodzone właściwości, ale biorąc pod uwagę przesądy związane z tym numerem, oznaczenie zostało usunięte z katalogu, aby pomóc utrzymać morale pracowników."
+      pt: "Não se sabe se o número 048 realmente possui qualidades sobrenaturais, mas, dada a superstição em torno desse número, a designação foi removida do catálogo para ajudar a manter o moral dos funcionários."
+      th: "ไม่ทราบแน่ชัดว่าหมายเลข 048 มีคุณสมบัติเหนือธรรมชาติจริงหรือไม่ แต่เมื่อพิจารณาจากความเชื่อโชคลางเกี่ยวกับหมายเลขนี้ ชื่อเรียกนี้จึงถูกถอดออกจากรายการเพื่อรักษาขวัญกำลังใจของพนักงาน"
+      uk: "Чи справді число 048 має якісь надприродні властивості, невідомо, але з огляду на забобони навколо цього числа, позначення було вилучено з каталогу, щоб підтримати моральний дух співробітників."
+      vi: "Không rõ liệu con số 048 có thực sự mang tính chất siêu nhiên hay không, nhưng do sự mê tín xung quanh con số này, ký hiệu đã được loại khỏi danh mục nhằm giúp duy trì tinh thần làm việc của nhân viên."
+      zh: "编号048是否确实具有超自然性质尚不清楚，但鉴于围绕这个数字的迷信，该编号已从目录中移除，以维持员工士气。"
+      zh_Hant: "編號048是否確實具有超自然性質尚不清楚，但鑑於圍繞這個數字的迷信，該編號已從目錄中移除，以維持員工士氣。"
+
+addendum:
+  ja: "補遺：そのような「ヴァンパイア・ボート」は存在しなかったことが判明し、SCP-048は再びアーカイブから削除された——下級研究員が自分の「最高の話のネタ」を、SCP-048用の空欄スロットに誤って上書き保存してしまったのが原因だった。"
+  en: "Addendum: SCP-048 was once again removed from the archives after it became clear no such 'Vampyre Boat' had ever existed — a low-level researcher had accidentally saved his 'awesome story idea' over the blank slot reserved for SCP-048."
+  cs: "Dodatek: SCP-048 bylo znovu odstraněno z archivů poté, co se ukázalo, že žádná taková 'Upíří loď' nikdy neexistovala – nízko postavený výzkumník omylem uložil svůj 'skvělý nápad na příběh' přes prázdný slot vyhrazený pro SCP-048."
+  de: "Anhang: SCP-048 wurde erneut aus den Archiven entfernt, nachdem klar wurde, dass es kein solches 'Vampirboot' je gegeben hatte – ein rangniedriger Forscher hatte versehentlich seine 'geniale Geschichtsidee' über den für SCP-048 reservierten leeren Slot gespeichert."
+  es: "Adenda: SCP-048 fue retirado de nuevo de los archivos tras quedar claro que jamás existió tal 'Barco Vampiro' — un investigador de bajo rango había guardado accidentalmente su 'gran idea para una historia' sobre el espacio en blanco reservado para SCP-048."
+  fr: "Addendum : Le SCP-048 a de nouveau été retiré des archives après qu'il soit devenu évident qu'aucun « Bateau Vampire » de ce type n'avait jamais existé — un chercheur subalterne avait accidentellement enregistré sa « géniale idée d'histoire » par-dessus l'emplacement vide réservé au SCP-048."
+  it: "Addendum: SCP-048 è stato nuovamente rimosso dagli archivi dopo che è emerso chiaramente che una tale 'Nave Vampiro' non era mai esistita — un ricercatore di basso livello aveva accidentalmente salvato la sua 'fantastica idea per una storia' sopra lo slot vuoto riservato a SCP-048."
+  ko: "부록: 그런 '뱀파이어 보트'는 존재한 적이 없다는 사실이 밝혀지면서 SCP-048은 다시 한번 기록보관소에서 삭제되었다 — 한 하급 연구원이 자신의 '멋진 이야기 아이디어'를 SCP-048용으로 예약된 빈 슬롯에 실수로 덮어 저장한 것이 원인이었다."
+  pl: "Aneks: SCP-048 zostało ponownie usunięte z archiwów, gdy stało się jasne, że taka 'Wampirza Łódź' nigdy nie istniała — pracownik niższego szczebla przypadkowo zapisał swój 'genialny pomysł na opowieść' w pustym slocie zarezerwowanym dla SCP-048."
+  pt: "Adendo: O SCP-048 foi mais uma vez removido dos arquivos após ficar claro que tal 'Barco Vampiro' nunca existiu — um pesquisador de baixo escalão havia acidentalmente salvo sua 'ideia incrível de história' sobre o espaço vazio reservado para o SCP-048."
+  th: "ภาคผนวก: SCP-048 ถูกถอดออกจากคลังเอกสารอีกครั้งหลังจากชัดเจนว่าไม่เคยมี 'เรือแวมไพร์' เช่นนั้นอยู่จริง — นักวิจัยระดับล่างคนหนึ่งบันทึก 'ไอเดียเรื่องราวสุดเจ๋ง' ของตนทับลงบนช่องว่างที่สงวนไว้สำหรับ SCP-048 โดยไม่ได้ตั้งใจ"
+  uk: "Додаток: SCP-048 було знову вилучено з архівів після того, як стало зрозуміло, що жодного такого 'Вампірського човна' ніколи не існувало — молодший дослідник випадково зберіг свою 'круту ідею для історії' поверх порожнього слота, зарезервованого для SCP-048."
+  vi: "Phụ lục: SCP-048 một lần nữa bị loại khỏi kho lưu trữ sau khi rõ ràng rằng không hề tồn tại 'Con Tàu Ma Cà Rồng' nào như vậy — một nhà nghiên cứu cấp thấp đã vô tình lưu 'ý tưởng câu chuyện tuyệt vời' của mình đè lên ô trống dành riêng cho SCP-048."
+  zh: "补遗：SCP-048再次从档案中被移除，因为事实证明根本不存在什么「吸血鬼之船」——一名基层研究员不小心把自己「绝妙的故事点子」保存覆盖到了为SCP-048预留的空白档位上。"
+  zh_Hant: "補遺：SCP-048再次從檔案中被移除，因為事實證明根本不存在什麼「吸血鬼之船」——一名基層研究員不小心把自己「絕妙的故事點子」儲存覆蓋到了為SCP-048預留的空白檔位上。"

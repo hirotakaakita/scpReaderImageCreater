@@ -1,0 +1,132 @@
+# SCP-033 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Document 033-A（Hutchinson教授の解説）とDocument 033-Q（実験ログ）は
+# 本編に混ぜない。キャラにセリフは言わせない。JP公式訳が直接取得できなかった
+# ため、検証済みの英語本文からの翻訳（ja含む）。
+
+id: scp-033
+
+title:
+  en: "SCP-033"
+  ja: "SCP-033"
+  cs: "SCP-033"
+  de: "SCP-033"
+  es: "SCP-033"
+  fr: "SCP-033"
+  it: "SCP-033"
+  ko: "SCP-033"
+  pl: "SCP-033"
+  pt: "SCP-033"
+  th: "SCP-033"
+  uk: "SCP-033"
+  vi: "SCP-033"
+  zh: "SCP-033"
+  zh_Hant: "SCP-033"
+
+attribution:
+  article: "SCP-033"
+  source_url: "http://scp-wiki.wikidot.com/scp-033"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+characters: [attending-researcher-m, attending-researcher-f, d-class]
+
+panels:
+  - scene: >
+      Close-up, filling most of the frame, on a torn irregular scrap of
+      aged vellum covered edge to edge in dense mathematical symbols and
+      equations, scribbled in a spidery esoteric hand.
+      attending-researcher-m holds it at arm's length with thick gloves,
+      squinting at it.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-033は複雑な数学記号の集合として現れる。その記号の「総和」は、これまで未知であった整数——シータ・プライムと名付けられた——に等しい。"
+      en: "SCP-033 appears as a field of complex mathematical symbols. The 'sum' of the symbols is equal to a previously unknown integer, designated Theta Prime."
+      cs: "SCP-033 se jeví jako pole komplexních matematických symbolů. 'Součet' těchto symbolů se rovná dříve neznámému celému číslu, označenému jako Theta Prime."
+      de: "SCP-033 erscheint als ein Feld komplexer mathematischer Symbole. Die 'Summe' der Symbole entspricht einer bisher unbekannten ganzen Zahl, die als Theta Prime bezeichnet wird."
+      es: "SCP-033 aparece como un campo de símbolos matemáticos complejos. La 'suma' de los símbolos es igual a un número entero previamente desconocido, designado como Theta Prime."
+      fr: "Le SCP-033 se présente comme un champ de symboles mathématiques complexes. La « somme » des symboles est égale à un nombre entier jusqu'alors inconnu, désigné sous le nom de Theta Prime."
+      it: "SCP-033 appare come un campo di simboli matematici complessi. La 'somma' dei simboli è uguale a un numero intero precedentemente sconosciuto, designato Theta Prime."
+      ko: "SCP-033은 복잡한 수학 기호들의 집합으로 나타난다. 그 기호들의 '합'은 이전까지 알려지지 않은 정수, '세타 프라임'으로 명명된 값과 같다."
+      pl: "SCP-033 wygląda jak zbiór złożonych symboli matematycznych. 'Suma' tych symboli jest równa wcześniej nieznanej liczbie całkowitej, oznaczonej jako Theta Prime."
+      pt: "O SCP-033 aparece como um campo de símbolos matemáticos complexos. A 'soma' dos símbolos é igual a um número inteiro previamente desconhecido, designado Theta Prime."
+      th: "SCP-033 ปรากฏเป็นกลุ่มสัญลักษณ์ทางคณิตศาสตร์ที่ซับซ้อน 'ผลรวม' ของสัญลักษณ์เหล่านี้เท่ากับจำนวนเต็มที่ไม่เคยรู้จักมาก่อน ซึ่งถูกกำหนดชื่อว่า ทีตาไพรม์"
+      uk: "SCP-033 виглядає як поле складних математичних символів. 'Сума' символів дорівнює раніше невідомому цілому числу, позначеному як Тета Прайм."
+      vi: "SCP-033 xuất hiện dưới dạng một trường các ký hiệu toán học phức tạp. 'Tổng' của các ký hiệu bằng một số nguyên trước đây chưa từng được biết đến, được đặt tên là Theta Prime."
+      zh: "SCP-033呈现为一片复杂的数学符号。这些符号的「总和」等于一个此前未知的整数，被命名为西塔素数（Theta Prime）。"
+      zh_Hant: "SCP-033呈現為一片複雜的數學符號。這些符號的「總和」等於一個此前未知的整數，被命名為西塔質數（Theta Prime）。"
+
+  - scene: >
+      Wide shot, full body, eye level, showing a heavy vault door
+      standing open, a very different framing from the tight close-up
+      before. Inside, a small irregularly-shaped scrap of paper rests
+      alone on a pedestal, its edges deliberately uneven and asymmetric,
+      no two sides parallel. attending-researcher-f stands well back,
+      clipboard in hand, comparing it against a ruler.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-033は、不規則な形状の手作り紙一枚に記すこと。平行な辺・直角・等しい長さの辺を持たないこと。"
+      en: "SCP-033 should be inscribed on a single sheet of irregularly-shaped, hand-crafted paper, with no parallel borders, no right angles, and no side's length equal to any other."
+      cs: "SCP-033 by mělo být zapsáno na jediném listu nepravidelně tvarovaného ručně vyrobeného papíru, bez rovnoběžných okrajů, bez pravých úhlů a bez stran stejné délky."
+      de: "SCP-033 sollte auf ein einzelnes unregelmäßig geformtes, handgefertigtes Blatt Papier geschrieben werden, ohne parallele Ränder, ohne rechte Winkel und ohne dass die Länge einer Seite der einer anderen entspricht."
+      es: "SCP-033 debe inscribirse en una sola hoja de papel hecho a mano de forma irregular, sin bordes paralelos, sin ángulos rectos, y sin que la longitud de ningún lado sea igual a la de otro."
+      fr: "Le SCP-033 doit être inscrit sur une seule feuille de papier fait main de forme irrégulière, sans bordures parallèles, sans angles droits, et sans qu'aucun côté n'ait la même longueur qu'un autre."
+      it: "SCP-033 deve essere inscritto su un singolo foglio di carta artigianale di forma irregolare, senza bordi paralleli, senza angoli retti, e senza che la lunghezza di alcun lato sia uguale a un altro."
+      ko: "SCP-033은 불규칙한 모양의 수제 종이 한 장에 기록해야 하며, 평행한 변, 직각, 서로 길이가 같은 변이 없어야 한다."
+      pl: "SCP-033 należy zapisać na pojedynczym arkuszu nieregularnie ukształtowanego, ręcznie wykonanego papieru, bez równoległych krawędzi, bez kątów prostych i bez boków o równej długości."
+      pt: "O SCP-033 deve ser inscrito em uma única folha de papel artesanal de formato irregular, sem bordas paralelas, sem ângulos retos, e sem que o comprimento de nenhum lado seja igual ao de outro."
+      th: "SCP-033 ควรถูกจารึกลงบนกระดาษทำมือรูปทรงไม่สม่ำเสมอเพียงแผ่นเดียว โดยไม่มีขอบขนาน ไม่มีมุมฉาก และไม่มีด้านใดยาวเท่ากับด้านอื่น"
+      uk: "SCP-033 слід записувати на одному аркуші паперу неправильної форми ручної роботи, без паралельних країв, без прямих кутів і без сторін однакової довжини."
+      vi: "SCP-033 nên được viết lên một tờ giấy thủ công hình dạng bất quy tắc, không có cạnh song song, không có góc vuông, và không cạnh nào dài bằng cạnh khác."
+      zh: "SCP-033应书写于一张形状不规则的手工纸上，不得有平行边、直角，且任何两边长度均不得相等。"
+      zh_Hant: "SCP-033應書寫於一張形狀不規則的手工紙上，不得有平行邊、直角，且任何兩邊長度均不得相等。"
+
+  - scene: >
+      Medium shot, waist-up, low angle, a different framing from the
+      wide vault shot before. d-class copies the symbols from the scrap
+      onto a large whiteboard with a marker, sweating with intense
+      concentration, while attending-researcher-m watches through a
+      thick window from a safe distance, stopwatch in hand.
+    characters: [d-class, attending-researcher-m]
+    caption:
+      ja: "研究のために取り出す際、SCP-033はD級職員によってホワイトボードに書き写すことができる。研究は、あらゆる演算装置や記録装置から少なくとも30メートル離れた、保安対策の施された会議室で行うこと。"
+      en: "When removed for study, SCP-033 can be copied to a whiteboard by Class D staff. Study should take place in a secured conference room at least 30 meters from any computing or recording device."
+      cs: "Při vyjmutí ke studiu může být SCP-033 přepsáno na tabuli personálem třídy D. Studium by mělo probíhat v zabezpečené konferenční místnosti alespoň 30 metrů od jakéhokoli výpočetního nebo záznamového zařízení."
+      de: "Wird SCP-033 zu Studienzwecken entnommen, kann es von Personal der Klasse D auf ein Whiteboard übertragen werden. Die Untersuchung sollte in einem gesicherten Konferenzraum mindestens 30 Meter von jedem Rechen- oder Aufzeichnungsgerät entfernt stattfinden."
+      es: "Cuando se retire para su estudio, SCP-033 puede copiarse en una pizarra blanca por personal de Clase D. El estudio debe realizarse en una sala de conferencias asegurada a al menos 30 metros de cualquier dispositivo informático o de grabación."
+      fr: "Lorsqu'il est retiré pour étude, le SCP-033 peut être recopié sur un tableau blanc par le personnel de Classe D. L'étude doit avoir lieu dans une salle de conférence sécurisée à au moins 30 mètres de tout appareil informatique ou d'enregistrement."
+      it: "Quando viene prelevato per lo studio, SCP-033 può essere copiato su una lavagna bianca dal personale di Classe D. Lo studio deve svolgersi in una sala conferenze protetta ad almeno 30 metri da qualsiasi dispositivo informatico o di registrazione."
+      ko: "연구를 위해 반출할 경우, SCP-033은 D등급 직원에 의해 화이트보드로 옮겨 적을 수 있다. 연구는 컴퓨팅 또는 기록 장치로부터 최소 30미터 떨어진 보안 회의실에서 이루어져야 한다."
+      pl: "Gdy zostanie usunięte do badań, SCP-033 może zostać skopiowane na tablicę suchościeralną przez personel klasy D. Badania powinny odbywać się w zabezpieczonej sali konferencyjnej co najmniej 30 metrów od jakiegokolwiek urządzenia obliczeniowego lub rejestrującego."
+      pt: "Quando removido para estudo, o SCP-033 pode ser copiado para um quadro branco por funcionários de Classe D. O estudo deve ocorrer em uma sala de conferência segura a pelo menos 30 metros de qualquer dispositivo de computação ou gravação."
+      th: "เมื่อนำออกมาศึกษา SCP-033 สามารถคัดลอกลงบนไวท์บอร์ดโดยเจ้าหน้าที่ระดับ D การศึกษาควรดำเนินการในห้องประชุมที่มีการรักษาความปลอดภัย ห่างจากอุปกรณ์คอมพิวเตอร์หรืออุปกรณ์บันทึกใดๆ อย่างน้อย 30 เมตร"
+      uk: "Коли SCP-033 виймають для дослідження, персонал класу D може скопіювати його на дошку. Дослідження слід проводити в захищеній конференц-залі на відстані щонайменше 30 метрів від будь-якого обчислювального чи записувального пристрою."
+      vi: "Khi được lấy ra để nghiên cứu, SCP-033 có thể được sao chép lên bảng trắng bởi nhân viên Cấp D. Việc nghiên cứu nên diễn ra trong một phòng họp an toàn cách xa ít nhất 30 mét khỏi bất kỳ thiết bị tính toán hoặc ghi âm nào."
+      zh: "取出研究时，SCP-033可由D级人员抄写到白板上。研究须在一间安全会议室内进行，该会议室须与任何计算或记录设备保持至少30米的距离。"
+      zh_Hant: "取出研究時，SCP-033可由D級人員抄寫到白板上。研究須在一間安全會議室內進行，該會議室須與任何計算或記錄設備保持至少30公尺的距離。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show a plain
+      office desk, a very different framing from the tight shots before.
+      On the surface, a sheet of ordinary printer paper covered in the
+      same symbols is visibly dissolving into a soggy gray puddle of
+      pulp, spreading across the desk. attending-researcher-f backs away
+      from the desk in alarm.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "他の素材に記された場合、SCP-033はちょうど2560秒後に判読不能になるまで薄れていく。"
+      en: "If inscribed on any other material, SCP-033 fades into unintelligibility in precisely 2560 seconds."
+      cs: "Pokud je zapsáno na jiném materiálu, SCP-033 přesně po 2560 sekundách vybledne do nesrozumitelnosti."
+      de: "Wird es auf einem anderen Material eingeschrieben, verblasst SCP-033 in genau 2560 Sekunden bis zur Unleserlichkeit."
+      es: "Si se inscribe en cualquier otro material, SCP-033 se desvanece hasta volverse ininteligible en exactamente 2560 segundos."
+      fr: "S'il est inscrit sur tout autre matériau, le SCP-033 s'estompe jusqu'à devenir inintelligible en exactement 2560 secondes."
+      it: "Se inscritto su qualsiasi altro materiale, SCP-033 svanisce fino a diventare incomprensibile in esattamente 2560 secondi."
+      ko: "다른 재료에 기록될 경우, SCP-033은 정확히 2560초 만에 판독할 수 없을 정도로 흐려진다."
+      pl: "Jeśli zostanie zapisane na jakimkolwiek innym materiale, SCP-033 blednie do stanu nieczytelności dokładnie po 2560 sekundach."
+      pt: "Se inscrito em qualquer outro material, o SCP-033 desaparece até ficar ininteligível em exatamente 2560 segundos."
+      th: "หากถูกจารึกลงบนวัสดุอื่นใด SCP-033 จะจางหายจนอ่านไม่ออกภายในเวลาแม่นยำ 2560 วินาที"
+      uk: "Якщо його записано на будь-якому іншому матеріалі, SCP-033 зникає до нерозбірливості рівно за 2560 секунд."
+      vi: "Nếu được viết lên bất kỳ vật liệu nào khác, SCP-033 sẽ mờ dần đến mức không thể đọc được trong chính xác 2560 giây."
+      zh: "若写在其他材质上，SCP-033会在恰好2560秒内逐渐淡化至无法辨认。"
+      zh_Hant: "若寫在其他材質上，SCP-033會在恰好2560秒內逐漸淡化至無法辨認。"

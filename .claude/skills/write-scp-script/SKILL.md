@@ -45,6 +45,14 @@ description: Write a new SCP comic script (comics/queue/scp-XXX.yaml) for this p
   - 複数人物が別々の役割・動作をするコマでは、**画面内の左右位置を明示する**
     （"On the left side of the frame, ..." / "On the right side..."）と、モデルが
     どちらのキャラがどちらの役かを安定して描き分けやすい。
+  - **そのコマだけ服装・防護具等を変えたい場合は、sceneに具体的に書けば
+    `characters`欄（`config/characters.yaml`/`local_characters`）のデフォルト
+    服装より優先される**（`build_prompt()`側でscene優先の指示を自動的に
+    プロンプトへ挿入している）。例えばハズマットスーツを着せたいコマでは、
+    sceneに"a complete full-body positive-pressure hazmat suit, including a
+    full sealed helmet... no bare skin visible"のように**曖昧さなく具体的に**
+    書くこと。中途半端な記述（「防護服を着ている」程度）だと、キャラ欄の
+    デフォルト服装（白衣等）と混ざって安定しないことを検証で確認している。
 - **`characters`**（そのコマの絵に登場する人物全員のキー名リスト）
   - **記事に書かれていない人物を勝手に創作しない**。
   - 複数の漫画で使い回すキャノン職員は`config/characters.yaml`から参照。未登録の

@@ -1,0 +1,149 @@
+# SCP-966「眠りを殺す者たち」4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。SCP-966は「700～900nmの波長でのみ視認できる」という
+# 記事の記述を、赤外線モニター越しにしか見えない、という演出で視覚化している。
+
+id: scp-966
+
+title:
+  en: "SCP-966: The Sleep Killers"
+  ja: "SCP-966：眠りを殺す者たち"
+  cs: "SCP-966: Zabijáci spánku"
+  de: "SCP-966: Die Schlafkiller"
+  es: "SCP-966: Los Asesinos del Sueño"
+  fr: "SCP-966 : Les Tueurs de Sommeil"
+  it: "SCP-966: Gli Assassini del Sonno"
+  ko: "SCP-966: 잠을 죽이는 자들"
+  pl: "SCP-966: Zabójcy Snu"
+  pt: "SCP-966: Os Assassinos do Sono"
+  th: "SCP-966: นักฆ่าการนอนหลับ"
+  uk: "SCP-966: Вбивці Сну"
+  vi: "SCP-966: Những Kẻ Giết Giấc Ngủ"
+  zh: "SCP-966：睡眠杀手"
+  zh_Hant: "SCP-966：睡眠殺手"
+
+attribution:
+  article: "SCP-966"
+  author: "Enma Ai"
+  source_url: "http://scp-wiki.wikidot.com/scp-966"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-966:
+    name: SCP-966
+    description: >
+      SCP-966, a hairless humanoid creature only 1.4 to 1.6 meters tall,
+      standing digitigrade on the balls of its feet like an animal. Its
+      skin is a pale sickly gray (color RGB 195,190,180), stretched taut
+      over a gaunt, thin frame with visibly hollow, fragile-looking bones.
+      It has an elongated face dominated by a wide mouth lined with thin,
+      needle-like teeth, and small dark sunken eyes. Each hand has five
+      long, thin claws up to 20cm long, clearly delicate and brittle rather
+      than sturdy weapons.
+
+characters: [scp-966, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full room, eye level, showing a security monitoring
+      station. On the left side of the frame, two wall-mounted monitors:
+      the left screen displays a plain empty steel room in normal light,
+      the right screen glows with a green infrared tint and clearly shows
+      SCP-966 crouched in the corner of that same room, its long claws
+      braced on the floor. On the right side of the frame, the attending
+      researcher stands at a control panel, glancing between the two
+      screens.
+    characters: [scp-966, attending-researcher-m]
+    caption:
+      ja: "財団が確保したSCP-966の4体は、鉛で裏打ちされた鉄製の10×10mの部屋に収容されなければならない。赤外線フィルターと赤外線感応フィルムを備えた防犯カメラ2台を室内に設置する。"
+      en: "The four specimens of SCP-966 acquired by the Foundation must be contained in a 10×10 m room made of steel, lined with lead. Two security cameras with infrared filters and infrared-sensitive film are to be installed inside the room."
+      cs: "Čtyři exempláře SCP-966 získané Nadací musí být uchovávány v místnosti o rozměrech 10×10 m z oceli, vyložené olovem. Uvnitř místnosti musí být nainstalovány dvě bezpečnostní kamery s infračervenými filtry a infračerveným filmem."
+      de: "Die vier von der Stiftung erfassten Exemplare von SCP-966 müssen in einem 10×10 m großen, mit Blei ausgekleideten Stahlraum untergebracht werden. Im Raum sind zwei Sicherheitskameras mit Infrarotfiltern und infrarotempfindlichem Film zu installieren."
+      es: "Los cuatro especímenes de SCP-966 adquiridos por la Fundación deben ser contenidos en una sala de 10×10 m de acero, revestida de plomo. Dos cámaras de seguridad con filtros infrarrojos y película sensible al infrarrojo deben instalarse dentro de la sala."
+      fr: "Les quatre spécimens de SCP-966 acquis par la Fondation doivent être confinés dans une salle de 10×10 m en acier, doublée de plomb. Deux caméras de sécurité équipées de filtres infrarouges et de pellicule sensible à l'infrarouge doivent être installées à l'intérieur de la salle."
+      it: "I quattro esemplari di SCP-966 acquisiti dalla Fondazione devono essere contenuti in una stanza di 10×10 m in acciaio, rivestita di piombo. All'interno della stanza devono essere installate due telecamere di sicurezza con filtri a infrarossi e pellicola sensibile agli infrarossi."
+      ko: "재단이 확보한 SCP-966 네 개체는 납으로 안감을 댄 10×10m 크기의 철제 방에 수용되어야 한다. 적외선 필터와 적외선 감광 필름을 장착한 보안 카메라 두 대를 방 안에 설치한다."
+      pl: "Cztery egzemplarze SCP-966 pozyskane przez Fundację muszą być przetrzymywane w pomieszczeniu o wymiarach 10×10 m, wykonanym ze stali i wyłożonym ołowiem. Wewnątrz pomieszczenia należy zainstalować dwie kamery bezpieczeństwa z filtrami podczerwieni i błoną światłoczułą na podczerwień."
+      pt: "Os quatro espécimes de SCP-966 adquiridos pela Fundação devem ser contidos em uma sala de 10×10 m de aço, revestida de chumbo. Duas câmeras de segurança com filtros infravermelhos e filme sensível ao infravermelho devem ser instaladas dentro da sala."
+      th: "ตัวอย่างทั้งสี่ของ SCP-966 ที่มูลนิธิยึดมาได้ต้องถูกกักกันไว้ในห้องเหล็กขนาด 10×10 เมตร บุด้วยตะกั่ว ต้องติดตั้งกล้องวงจรปิดสองตัวที่มีฟิลเตอร์อินฟราเรดและฟิล์มไวต่อรังสีอินฟราเรดไว้ภายในห้อง"
+      uk: "Чотири екземпляри SCP-966, здобуті Фондом, повинні утримуватися в кімнаті 10×10 м зі сталі, обшитій свинцем. Усередині кімнати мають бути встановлені дві камери спостереження з інфрачервоними фільтрами та плівкою, чутливою до інфрачервоного випромінювання."
+      vi: "Bốn cá thể SCP-966 mà Quỹ thu được phải được giam giữ trong một căn phòng thép 10×10 m, lót chì. Hai camera an ninh có bộ lọc hồng ngoại và phim nhạy hồng ngoại phải được lắp đặt bên trong phòng."
+      zh: "基金会捕获的四个SCP-966个体必须收容于一间10×10米、以铅衬里的钢制房间内。房间内需安装两台配备红外滤镜和红外感光胶片的监控摄像机。"
+      zh_Hant: "基金會捕獲的四個SCP-966個體必須收容於一間10×10公尺、以鉛襯裡的鋼製房間內。房間內需安裝兩台配備紅外線濾鏡和紅外線感光膠片的監視攝影機。"
+
+  - scene: >
+      Medium shot, waist-up, showing a feeding hatch set into a steel wall.
+      On the left side of the frame, the attending researcher pushes a cart
+      loaded with a large slab of raw meat toward the hatch, eyeing the
+      seemingly empty room beyond it with visible unease. On the right
+      side of the frame, a small infrared monitor bolted beside the hatch
+      clearly shows SCP-966 already crouched right at the opening,
+      waiting.
+    characters: [attending-researcher-m, scp-966]
+    caption:
+      ja: "SCP-966は700nmからおよそ900nmの波長でのみ視認できる。SCP-966の各個体には毎月20kgの肉を与える。"
+      en: "SCP-966 are visible only at wavelengths ranging from 700 nm to about 900 nm. Each specimen of SCP-966 is to be fed with 20 kg of meat every month."
+      cs: "SCP-966 je viditelné pouze při vlnových délkách od 700 nm do přibližně 900 nm. Každý exemplář SCP-966 musí být krmen 20 kg masa měsíčně."
+      de: "SCP-966 ist nur bei Wellenlängen von 700 nm bis etwa 900 nm sichtbar. Jedes Exemplar von SCP-966 wird monatlich mit 20 kg Fleisch gefüttert."
+      es: "SCP-966 solo es visible en longitudes de onda que van de 700 nm a unos 900 nm. Cada espécimen de SCP-966 debe ser alimentado con 20 kg de carne cada mes."
+      fr: "SCP-966 n'est visible qu'à des longueurs d'onde allant de 700 nm à environ 900 nm. Chaque spécimen de SCP-966 doit être nourri de 20 kg de viande chaque mois."
+      it: "SCP-966 è visibile solo a lunghezze d'onda comprese tra 700 nm e circa 900 nm. Ogni esemplare di SCP-966 deve essere nutrito con 20 kg di carne al mese."
+      ko: "SCP-966는 700nm에서 약 900nm 사이의 파장에서만 육안으로 확인할 수 있다. SCP-966의 각 개체에는 매달 20kg의 고기를 급여한다."
+      pl: "SCP-966 jest widoczne wyłącznie w zakresie długości fal od 700 nm do około 900 nm. Każdy egzemplarz SCP-966 należy karmić 20 kg mięsa miesięcznie."
+      pt: "SCP-966 só é visível em comprimentos de onda entre 700 nm e cerca de 900 nm. Cada espécime de SCP-966 deve ser alimentado com 20 kg de carne por mês."
+      th: "SCP-966 มองเห็นได้เฉพาะที่ความยาวคลื่นตั้งแต่ 700 นาโนเมตรถึงประมาณ 900 นาโนเมตรเท่านั้น ตัวอย่างแต่ละตัวของ SCP-966 ต้องได้รับเนื้อสัตว์ 20 กิโลกรัมทุกเดือน"
+      uk: "SCP-966 видимий лише у діапазоні хвиль від 700 нм до приблизно 900 нм. Кожен екземпляр SCP-966 має отримувати 20 кг м'яса щомісяця."
+      vi: "SCP-966 chỉ có thể nhìn thấy ở bước sóng từ 700 nm đến khoảng 900 nm. Mỗi cá thể SCP-966 phải được cho ăn 20 kg thịt mỗi tháng."
+      zh: "SCP-966仅在700纳米至约900纳米的波长范围内可见。每个SCP-966个体每月须喂食20公斤肉类。"
+      zh_Hant: "SCP-966僅在700奈米至約900奈米的波長範圍內可見。每個SCP-966個體每月須餵食20公斤肉類。"
+
+  - scene: >
+      Close-up shot centered on an infrared monitor screen, filling most of
+      the frame, glowing green-tinted, showing SCP-966 frozen mid-stride
+      with its clawed hand raised, completely motionless. Faintly
+      reflected in the monitor glass, the attending researcher leans in
+      close, holding a stopwatch, staring intently at the frozen image.
+    characters: [scp-966, attending-researcher-m]
+    caption:
+      ja: "SCP-966は睡眠によって休息をとらないようである。その代わり、一見ランダムな間隔で突然すべての動きを止める。"
+      en: "SCP-966 do not seem to rest through sleep; instead, they will suddenly cease all movement at seemingly random intervals of time."
+      cs: "Zdá se, že SCP-966 neodpočívá spánkem; místo toho náhle přestává vykonávat veškerý pohyb ve zdánlivě náhodných intervalech."
+      de: "SCP-966 scheint sich nicht durch Schlaf auszuruhen; stattdessen stellt es in scheinbar zufälligen Abständen plötzlich jede Bewegung ein."
+      es: "SCP-966 no parece descansar mediante el sueño; en cambio, cesa repentinamente todo movimiento a intervalos aparentemente aleatorios."
+      fr: "SCP-966 ne semble pas se reposer en dormant ; il cesse au contraire soudainement tout mouvement à des intervalles apparemment aléatoires."
+      it: "SCP-966 non sembra riposare dormendo; al contrario, cessa improvvisamente ogni movimento a intervalli apparentemente casuali."
+      ko: "SCP-966는 수면을 통해 휴식을 취하지 않는 것으로 보인다. 대신, 겉보기에 무작위한 간격으로 갑자기 모든 움직임을 멈춘다."
+      pl: "SCP-966 najwyraźniej nie odpoczywa poprzez sen; zamiast tego nagle przestaje się poruszać w pozornie losowych odstępach czasu."
+      pt: "SCP-966 não parece descansar por meio do sono; em vez disso, cessa repentinamente todo movimento em intervalos aparentemente aleatórios."
+      th: "SCP-966 ดูเหมือนจะไม่พักผ่อนด้วยการนอนหลับ แต่จะหยุดเคลื่อนไหวทั้งหมดอย่างกะทันหันในช่วงเวลาที่ดูเหมือนสุ่ม"
+      uk: "Здається, SCP-966 не відпочиває через сон; натомість він раптово припиняє будь-який рух через нібито випадкові проміжки часу."
+      vi: "SCP-966 dường như không nghỉ ngơi bằng cách ngủ; thay vào đó, nó đột ngột ngừng mọi cử động theo những khoảng thời gian có vẻ ngẫu nhiên."
+      zh: "SCP-966似乎并不通过睡眠来休息，而是会在看似随机的时间间隔内突然停止一切活动。"
+      zh_Hant: "SCP-966似乎並不透過睡眠來休息，而是會在看似隨機的時間間隔內突然停止一切活動。"
+
+  - scene: >
+      Medium shot, waist-up, low angle, dynamic. On the right side of the
+      frame, the infrared monitor flares bright green as SCP-966 abruptly
+      resumes movement, lunging toward the screen with its claws bared. On
+      the left side of the frame, the attending researcher recoils
+      backward, the stopwatch flying out of his hand, eyes wide in
+      surprise.
+    characters: [scp-966, attending-researcher-m]
+    caption:
+      ja: "3分から5分後に通常の活動を再開する。"
+      en: "Normal activity resumes three to five minutes later."
+      cs: "Za tři až pět minut se aktivita opět vrací do normálu."
+      de: "Drei bis fünf Minuten später wird die normale Aktivität wieder aufgenommen."
+      es: "La actividad normal se reanuda de tres a cinco minutos después."
+      fr: "L'activité normale reprend trois à cinq minutes plus tard."
+      it: "L'attività normale riprende dopo tre o cinque minuti."
+      ko: "3분에서 5분 후 정상적인 활동을 재개한다."
+      pl: "Normalna aktywność zostaje wznowiona po trzech do pięciu minutach."
+      pt: "A atividade normal é retomada de três a cinco minutos depois."
+      th: "กิจกรรมปกติจะกลับมาดำเนินต่ออีกครั้งในอีกสามถึงห้านาทีต่อมา"
+      uk: "Через три-п'ять хвилин звична активність відновлюється."
+      vi: "Hoạt động bình thường tiếp tục trở lại sau ba đến năm phút."
+      zh: "三到五分钟后恢复正常活动。"
+      zh_Hant: "三到五分鐘後恢復正常活動。"

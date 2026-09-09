@@ -1,0 +1,148 @@
+# SCP-107 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Addendum 107-2（血液・尿等を使った実験記録）は一切使用しない。
+# addendumにはAddendum 107-1（発見経緯、無害）のみ1行使用する。
+# キャラにセリフは言わせない。
+
+id: scp-107
+
+title:
+  en: "SCP-107"
+  ja: "SCP-107"
+  cs: "SCP-107"
+  de: "SCP-107"
+  es: "SCP-107"
+  fr: "SCP-107"
+  it: "SCP-107"
+  ko: "SCP-107"
+  pl: "SCP-107"
+  pt: "SCP-107"
+  th: "SCP-107"
+  uk: "SCP-107"
+  vi: "SCP-107"
+  zh: "SCP-107"
+  zh_Hant: "SCP-107"
+
+attribution:
+  article: "SCP-107"
+  source_url: "http://scp-wiki.wikidot.com/scp-107"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+characters: [attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Close-up, on a hollow turtle-shell object resting on a pedestal
+      inside a clear perspex container, its hardened shell surface with
+      a reddish rim catching the light. attending-researcher-m examines
+      it through the clear container without touching it.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-107は、空洞になった亀の甲羅の上半分に似た姿をしている。その甲羅は、正体不明の硬化した生体物質で構成されている。"
+      en: "SCP-107 resembles the top section of a hollow turtle shell. The shell is composed of a hardened biological material of unknown origin."
+      cs: "SCP-107 se podobá horní části dutého želvího krunýře. Krunýř je tvořen ztvrdlým biologickým materiálem neznámého původu."
+      de: "SCP-107 ähnelt dem oberen Teil eines hohlen Schildkrötenpanzers. Der Panzer besteht aus einem gehärteten biologischen Material unbekannten Ursprungs."
+      es: "SCP-107 se asemeja a la sección superior de un caparazón de tortuga hueco. El caparazón está compuesto por un material biológico endurecido de origen desconocido."
+      fr: "Le SCP-107 ressemble à la partie supérieure d'une carapace de tortue creuse. La carapace est composée d'un matériau biologique durci d'origine inconnue."
+      it: "SCP-107 assomiglia alla sezione superiore di un guscio di tartaruga cavo. Il guscio è composto da un materiale biologico indurito di origine sconosciuta."
+      ko: "SCP-107는 속이 빈 거북 등껍질의 윗부분처럼 생겼다. 이 등껍질은 정체불명의 경화된 생체 물질로 이루어져 있다."
+      pl: "SCP-107 przypomina górną część pustej skorupy żółwia. Skorupa jest zbudowana z utwardzonego materiału biologicznego nieznanego pochodzenia."
+      pt: "O SCP-107 se assemelha à parte superior de uma carapaça de tartaruga oca. A carapaça é composta por um material biológico endurecido de origem desconhecida."
+      th: "SCP-107 มีลักษณะคล้ายส่วนบนของกระดองเต่าที่กลวง กระดองนี้ประกอบด้วยวัสดุชีวภาพที่แข็งตัวซึ่งมีต้นกำเนิดไม่ทราบแน่ชัด"
+      uk: "SCP-107 нагадує верхню частину порожнього черепашачого панцира. Панцир складається з затверділого біологічного матеріалу невідомого походження."
+      vi: "SCP-107 trông giống phần trên của một chiếc mai rùa rỗng. Mai này được cấu tạo từ một loại vật liệu sinh học đã cứng hóa có nguồn gốc không xác định."
+      zh: "SCP-107外观类似中空龟壳的上半部分。该壳体由一种未知来源的硬化生物材料构成。"
+      zh_Hant: "SCP-107外觀類似中空龜殼的上半部分。該殼體由一種未知來源的硬化生物材料構成。"
+
+  - scene: >
+      Wide shot, full body, a different framing from the close-up
+      before, on an open desolate test field. SCP-107 sits on the
+      ground, its red rim glowing faintly, with a light rainstorm
+      falling in a defined circular patch around it while the rest of
+      the landscape stays dry. attending-researcher-f watches from just
+      outside the rain boundary with a clipboard.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "この物体は、亀の甲羅の内側が液体と接触するまでは完全に不活性である。ひとたび活性化すると、甲羅の縁の赤い部分がかすかに発光し、甲羅の中に入れられた物質は大気中で凝結し、物体周辺の一帯に『雨』として降り注ぐ。この現象は移動可能である。"
+      en: "The item is completely inert until the inside of the turtle shell comes into contact with a liquid. Once active, the red edge of the shell glows dimly, and the substance placed into the shell begins to precipitate in the atmosphere and fall as 'rain' in the area around the object. This phenomenon is mobile."
+      cs: "Předmět je zcela netečný, dokud se vnitřek želvího krunýře nedostane do kontaktu s kapalinou. Jakmile je aktivní, červený okraj krunýře slabě září a látka vložená do krunýře se začne srážet v atmosféře a padat jako „déšť“ v oblasti kolem předmětu. Tento jev je mobilní."
+      de: "Das Objekt ist völlig inaktiv, bis das Innere des Schildkrötenpanzers mit einer Flüssigkeit in Kontakt kommt. Sobald es aktiv ist, leuchtet der rote Rand der Schale schwach, und die in die Schale gegebene Substanz beginnt, in der Atmosphäre zu kondensieren und als „Regen“ im Bereich um das Objekt herabzufallen. Dieses Phänomen ist beweglich."
+      es: "El objeto permanece completamente inerte hasta que el interior del caparazón de tortuga entra en contacto con un líquido. Una vez activo, el borde rojo del caparazón brilla tenuemente, y la sustancia colocada en el caparazón comienza a precipitarse en la atmósfera y cae como 'lluvia' en la zona alrededor del objeto. Este fenómeno es móvil."
+      fr: "L'objet est totalement inerte jusqu'à ce que l'intérieur de la carapace de tortue entre en contact avec un liquide. Une fois activé, le bord rouge de la carapace luit faiblement, et la substance placée dans la carapace commence à précipiter dans l'atmosphère et à tomber en « pluie » dans la zone autour de l'objet. Ce phénomène est mobile."
+      it: "L'oggetto è completamente inerte finché l'interno del guscio di tartaruga non entra in contatto con un liquido. Una volta attivo, il bordo rosso del guscio si illumina debolmente, e la sostanza posta nel guscio inizia a precipitare nell'atmosfera e a cadere come 'pioggia' nella zona circostante l'oggetto. Questo fenomeno è mobile."
+      ko: "이 물체는 거북 등껍질 내부가 액체와 접촉하기 전까지는 완전히 비활성 상태이다. 활성화되면 등껍질의 붉은 테두리가 은은하게 빛나며, 등껍질 안에 넣어진 물질은 대기 중에서 응결되어 물체 주변 지역에 '비'로 내리게 된다. 이 현상은 이동 가능하다."
+      pl: "Przedmiot jest całkowicie bierny, dopóki wnętrze skorupy żółwia nie zetknie się z cieczą. Po aktywacji czerwona krawędź skorupy słabo się jarzy, a substancja umieszczona w skorupie zaczyna kondensować się w atmosferze i opadać jako „deszcz” na obszarze wokół przedmiotu. Zjawisko to jest mobilne."
+      pt: "O objeto permanece completamente inerte até que o interior da carapaça de tartaruga entre em contato com um líquido. Uma vez ativo, a borda vermelha da carapaça brilha fracamente, e a substância colocada na carapaça começa a se precipitar na atmosfera e cair como 'chuva' na área ao redor do objeto. Esse fenômeno é móvel."
+      th: "วัตถุนี้จะเฉื่อยชาโดยสิ้นเชิงจนกว่าด้านในของกระดองเต่าจะสัมผัสกับของเหลว เมื่อทำงานแล้ว ขอบสีแดงของกระดองจะเรืองแสงสลัวๆ และสารที่ใส่เข้าไปในกระดองจะเริ่มควบแน่นในชั้นบรรยากาศและตกลงมาเป็น 'ฝน' ในพื้นที่รอบวัตถุ ปรากฏการณ์นี้สามารถเคลื่อนที่ได้"
+      uk: "Об'єкт повністю інертний, доки внутрішня частина черепашачого панцира не контактує з рідиною. Активувавшись, червоний край панцира тьмяно світиться, і речовина, поміщена в панцир, починає конденсуватися в атмосфері та випадати «дощем» на території навколо об'єкта. Це явище є мобільним."
+      vi: "Vật thể này hoàn toàn trơ cho đến khi phần bên trong của mai rùa tiếp xúc với chất lỏng. Khi kích hoạt, viền đỏ của mai phát sáng mờ nhạt, và chất được đặt vào bên trong mai bắt đầu ngưng tụ trong khí quyển và rơi xuống dưới dạng 'mưa' trong khu vực xung quanh vật thể. Hiện tượng này có thể di chuyển."
+      zh: "该物体在龟壳内部接触到液体之前完全处于惰性状态。一旦被激活，龟壳的红色边缘便会微微发光，放入壳内的物质开始在大气中凝结，并在该物体周围区域以「降雨」的形式落下。这一现象具有移动性。"
+      zh_Hant: "該物體在龜殼內部接觸到液體之前完全處於惰性狀態。一旦被啟動，龜殼的紅色邊緣便會微微發光，放入殼內的物質開始在大氣中凝結，並在該物體周圍區域以「降雨」的形式落下。這一現象具有移動性。"
+
+  - scene: >
+      Wide shot, low angle, dramatic, a different framing from the wide
+      shot before. Dark storm clouds swirl above the glowing shell,
+      heavy torrential rain pouring down within its circular boundary.
+      attending-researcher-m and attending-researcher-f shelter under a
+      tarp at a safe distance, watching the intense downpour.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "持続時間と強度は、甲羅に入れられた液体の量に比例するようである。水10mlでは30分弱の小雨が降ったのに対し、甲羅の4分の3ほどまで満たすと、2日間にわたる豪雨が引き起こされた。"
+      en: "The duration and intensity appears proportional to the amount of liquid placed in the shell. 10 ml of water resulted in just under half an hour of light drizzle, whereas filling to around the three-quarter mark set off two days of torrential rain."
+      cs: "Trvání a intenzita se zdají být úměrné množství kapaliny vložené do krunýře. 10 ml vody vyvolalo jen o něco méně než půl hodiny mírného mrholení, zatímco naplnění zhruba do tří čtvrtin spustilo dvoudenní přívalový déšť."
+      de: "Dauer und Intensität scheinen proportional zur in die Schale gegebenen Flüssigkeitsmenge zu sein. 10 ml Wasser führten zu knapp einer halben Stunde leichtem Nieselregen, während eine Füllung von etwa drei Vierteln zwei Tage sintflutartigen Regen auslöste."
+      es: "La duración y la intensidad parecen ser proporcionales a la cantidad de líquido colocado en el caparazón. 10 ml de agua resultaron en poco menos de media hora de llovizna ligera, mientras que llenarlo hasta unas tres cuartas partes desató dos días de lluvia torrencial."
+      fr: "La durée et l'intensité semblent proportionnelles à la quantité de liquide placée dans la carapace. 10 ml d'eau ont entraîné un peu moins d'une demi-heure de bruine légère, tandis qu'un remplissage aux trois quarts environ a déclenché deux jours de pluie torrentielle."
+      it: "La durata e l'intensità sembrano essere proporzionali alla quantità di liquido posta nel guscio. 10 ml di acqua hanno prodotto poco meno di mezz'ora di pioggerella leggera, mentre riempirlo fino a circa tre quarti ha scatenato due giorni di pioggia torrenziale."
+      ko: "지속 시간과 강도는 등껍질에 넣은 액체의 양에 비례하는 것으로 보인다. 물 10ml는 30분이 채 안 되는 가랑비를 일으켰지만, 4분의 3가량 채웠을 때는 이틀간의 폭우를 일으켰다."
+      pl: "Czas trwania i intensywność wydają się proporcjonalne do ilości cieczy umieszczonej w skorupie. 10 ml wody spowodowało niecałe pół godziny lekkiej mżawki, podczas gdy napełnienie do około trzech czwartych wywołało dwa dni ulewnego deszczu."
+      pt: "A duração e a intensidade parecem ser proporcionais à quantidade de líquido colocada na carapaça. 10 ml de água resultaram em pouco menos de meia hora de chuvisco leve, enquanto encher até cerca de três quartos desencadeou dois dias de chuva torrencial."
+      th: "ระยะเวลาและความรุนแรงดูเหมือนจะแปรผันตามปริมาณของเหลวที่ใส่ลงในกระดอง น้ำ 10 มล. ทำให้เกิดฝนตกปรอยๆ เบาๆ นานเกือบครึ่งชั่วโมง ในขณะที่การเติมให้ได้ประมาณสามในสี่ส่วนทำให้เกิดฝนตกหนักนานสองวัน"
+      uk: "Тривалість і інтенсивність, здається, пропорційні кількості рідини, поміщеної в панцир. 10 мл води спричинили трохи менше півгодини легкого мряки, тоді як заповнення приблизно на три чверті викликало два дні зливи."
+      vi: "Thời lượng và cường độ dường như tỷ lệ thuận với lượng chất lỏng đặt vào mai. 10 ml nước gây ra chưa đến nửa giờ mưa phùn nhẹ, trong khi đổ đầy đến khoảng ba phần tư đã gây ra hai ngày mưa như trút nước."
+      zh: "持续时间与强度似乎与放入壳内的液体量成正比。10毫升水造成了将近半小时的小雨，而注水至约四分之三时则引发了长达两天的暴雨。"
+      zh_Hant: "持續時間與強度似乎與放入殼內的液體量成正比。10毫升水造成了將近半小時的小雨，而注水至約四分之三時則引發了長達兩天的暴雨。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the wide shot
+      before, showing lush vibrant plants growing thickly within the
+      rain-affected circle, in stark contrast to the dry brown grass
+      just outside its boundary. attending-researcher-f kneels to
+      examine a healthy plant inside the circle, gesturing toward the
+      withered ordinary grass just past the border.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-107が生み出す降水は植物に様々な影響を及ぼすが、これらの影響は効果範囲内で育った植物にのみ見られる——採取した液体を使って別の場所の植物に水をやっても、異常な反応は生じない。"
+      en: "Precipitation generated by SCP-107 has varying effects on plant matter, although these effects are only seen in plants grown within the effect zone – watering other plants elsewhere with the collected liquid causes no abnormal reaction."
+      cs: "Srážky vyvolané SCP-107 mají různé účinky na rostlinnou hmotu, avšak tyto účinky jsou pozorovány pouze u rostlin pěstovaných uvnitř zóny účinku – zalévání jiných rostlin jinde nasbíranou kapalinou nevyvolává žádnou abnormální reakci."
+      de: "Die von SCP-107 erzeugten Niederschläge haben unterschiedliche Auswirkungen auf Pflanzenmaterial, wobei diese Effekte jedoch nur bei Pflanzen zu beobachten sind, die innerhalb der Wirkungszone wachsen – das Gießen anderer Pflanzen anderswo mit der gesammelten Flüssigkeit verursacht keine abnormale Reaktion."
+      es: "La precipitación generada por el SCP-107 tiene efectos variables sobre la materia vegetal, aunque estos efectos solo se observan en plantas cultivadas dentro de la zona de efecto; regar otras plantas en otro lugar con el líquido recolectado no causa ninguna reacción anormal."
+      fr: "Les précipitations générées par le SCP-107 ont des effets variables sur la matière végétale, bien que ces effets ne soient observés que chez les plantes cultivées dans la zone d'effet – arroser d'autres plantes ailleurs avec le liquide recueilli ne provoque aucune réaction anormale."
+      it: "Le precipitazioni generate da SCP-107 hanno effetti variabili sulla materia vegetale, sebbene questi effetti si osservino solo nelle piante coltivate all'interno della zona d'effetto – annaffiare altre piante altrove con il liquido raccolto non provoca alcuna reazione anomala."
+      ko: "SCP-107가 발생시키는 강수는 식물에 다양한 영향을 미치지만, 이러한 영향은 효과 구역 내에서 자란 식물에서만 관찰된다. 채취한 액체로 다른 곳의 식물에 물을 주어도 비정상적인 반응은 나타나지 않는다."
+      pl: "Opady wywołane przez SCP-107 mają zróżnicowany wpływ na materię roślinną, jednak te efekty są widoczne wyłącznie u roślin rosnących w obrębie strefy działania – podlewanie innych roślin gdzie indziej zebraną cieczą nie powoduje żadnej nieprawidłowej reakcji."
+      pt: "A precipitação gerada pelo SCP-107 tem efeitos variados sobre a matéria vegetal, embora esses efeitos só sejam observados em plantas cultivadas dentro da zona de efeito – regar outras plantas em outro lugar com o líquido coletado não causa nenhuma reação anormal."
+      th: "หยาดน้ำฟ้าที่เกิดจาก SCP-107 มีผลกระทบที่หลากหลายต่อพืช แม้ว่าผลกระทบเหล่านี้จะพบเห็นได้เฉพาะในพืชที่เติบโตภายในเขตพื้นที่ที่ได้รับผลกระทบ — การรดน้ำพืชอื่นในที่อื่นด้วยของเหลวที่เก็บรวบรวมมาไม่ก่อให้เกิดปฏิกิริยาผิดปกติแต่อย่างใด"
+      uk: "Опади, що генеруються SCP-107, мають різний вплив на рослинну матерію, хоча ці ефекти спостерігаються лише у рослин, вирощених у зоні впливу — полив інших рослин в іншому місці зібраною рідиною не викликає жодної аномальної реакції."
+      vi: "Lượng mưa do SCP-107 tạo ra có tác động khác nhau đến thực vật, mặc dù những tác động này chỉ xuất hiện ở các cây trồng trong vùng ảnh hưởng — tưới các cây khác ở nơi khác bằng chất lỏng thu được không gây ra phản ứng bất thường nào."
+      zh: "SCP-107引发的降水对植物会产生各种不同的影响，但这些效应仅在效果区域内生长的植物身上出现——若用收集到的液体浇灌其他地方的植物，则不会引起任何异常反应。"
+      zh_Hant: "SCP-107引發的降水對植物會產生各種不同的影響，但這些效應僅在效果區域內生長的植物身上出現——若用收集到的液體澆灌其他地方的植物，則不會引起任何異常反應。"
+
+addendum:
+  ja: "補遺：SCP-107は、現在のエチオピアにあたる地で、部族のシャーマンと思われる人物とともに埋葬された状態で、考古学者によって発見された。シャーマンの骨の放射性炭素年代測定では、およそ紀元前18000年という年代が示された。"
+  en: "Addendum: SCP-107 was discovered by an archaeologist in what is now Ethiopia, buried alongside what appeared to be a tribal shaman. Carbon dating of the shaman's bones gave an age of around 18,000 BCE."
+  cs: "Dodatek: SCP-107 objevil archeolog na území dnešní Etiopie, pohřbené vedle toho, co se zdálo být kmenovým šamanem. Radiokarbonové datování šamanových kostí ukázalo stáří kolem 18 000 let př. n. l."
+  de: "Anhang: SCP-107 wurde von einem Archäologen im heutigen Äthiopien entdeckt, begraben neben dem, was ein Stammesschamane zu sein schien. Die Radiokarbondatierung der Knochen des Schamanen ergab ein Alter von etwa 18.000 v. Chr."
+  es: "Adenda: El SCP-107 fue descubierto por un arqueólogo en lo que hoy es Etiopía, enterrado junto a lo que parecía ser un chamán tribal. La datación por carbono de los huesos del chamán arrojó una antigüedad de alrededor de 18.000 a.C."
+  fr: "Addendum : Le SCP-107 a été découvert par un archéologue dans ce qui est aujourd'hui l'Éthiopie, enterré aux côtés de ce qui semblait être un chaman tribal. La datation au carbone des ossements du chaman a donné un âge d'environ 18 000 av. J.-C."
+  it: "Addendum: SCP-107 fu scoperto da un archeologo in quella che oggi è l'Etiopia, sepolto accanto a quello che sembrava essere uno sciamano tribale. La datazione al carbonio delle ossa dello sciamano ha dato un'età di circa 18.000 a.C."
+  ko: "부록: SCP-107은 현재의 에티오피아 지역에서 한 고고학자에 의해 발견되었으며, 부족 샤먼으로 보이는 인물과 함께 매장되어 있었다. 샤먼의 뼈에 대한 탄소 연대 측정 결과 약 기원전 18,000년의 연대가 나왔다."
+  pl: "Aneks: SCP-107 zostało odkryte przez archeologa na terenie dzisiejszej Etiopii, pochowane obok tego, co wyglądało na plemiennego szamana. Datowanie radiowęglowe kości szamana wykazało wiek około 18 000 lat p.n.e."
+  pt: "Adendo: O SCP-107 foi descoberto por um arqueólogo no que hoje é a Etiópia, enterrado ao lado do que parecia ser um xamã tribal. A datação por carbono dos ossos do xamã indicou uma idade de cerca de 18.000 a.C."
+  th: "ภาคผนวก: SCP-107 ถูกค้นพบโดยนักโบราณคดีในพื้นที่ที่ปัจจุบันคือประเทศเอธิโอเปีย ฝังอยู่เคียงข้างสิ่งที่ดูเหมือนจะเป็นหมอผีประจำเผ่า การหาอายุด้วยคาร์บอนของกระดูกหมอผีระบุอายุประมาณ 18,000 ปีก่อนคริสตกาล"
+  uk: "Додаток: SCP-107 виявив археолог на території сучасної Ефіопії, похований поруч із тим, що виглядало як племінний шаман. Радіовуглецеве датування кісток шамана дало вік близько 18 000 років до н.е."
+  vi: "Phụ lục: SCP-107 được một nhà khảo cổ học phát hiện tại nơi ngày nay là Ethiopia, được chôn cùng với thứ trông giống như một pháp sư bộ lạc. Xác định niên đại bằng carbon đối với xương của pháp sư cho thấy niên đại khoảng 18.000 năm trước Công nguyên."
+  zh: "补遗：SCP-107由一名考古学家在如今的埃塞俄比亚境内发现，与一具疑似部落萨满的遗骸一同埋葬。对萨满遗骨进行的碳定年测定显示其年代约为公元前18000年。"
+  zh_Hant: "補遺：SCP-107由一名考古學家在如今的衣索比亞境內發現，與一具疑似部落薩滿的遺骸一同埋葬。對薩滿遺骨進行的碳定年測定顯示其年代約為公元前18000年。"

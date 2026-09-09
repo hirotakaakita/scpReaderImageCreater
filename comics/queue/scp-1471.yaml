@@ -1,0 +1,164 @@
+# SCP-1471「MalO ver1.0.0」4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-1471
+
+title:
+  en: "SCP-1471: MalO ver1.0.0"
+  ja: "SCP-1471：MalO ver1.0.0"
+  cs: "SCP-1471: MalO ver1.0.0"
+  de: "SCP-1471: MalO ver1.0.0"
+  es: "SCP-1471: MalO ver1.0.0"
+  fr: "SCP-1471 : MalO ver1.0.0"
+  it: "SCP-1471: MalO ver1.0.0"
+  ko: "SCP-1471: MalO ver1.0.0"
+  pl: "SCP-1471: MalO ver1.0.0"
+  pt: "SCP-1471: MalO ver1.0.0"
+  th: "SCP-1471: MalO ver1.0.0"
+  uk: "SCP-1471: MalO ver1.0.0"
+  vi: "SCP-1471: MalO ver1.0.0"
+  zh: "SCP-1471：MalO ver1.0.0"
+  zh_Hant: "SCP-1471：MalO ver1.0.0"
+
+attribution:
+  article: "SCP-1471"
+  author: "LurkD"
+  source_url: "http://scp-wiki.wikidot.com/scp-1471"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  affected-individual:
+    name: Affected Individual
+    description: >
+      A young man in his twenties, an ordinary civilian (not Foundation
+      personnel), with short brown hair (color RGB 90,60,40), wearing a
+      plain gray hoodie (color RGB 60,60,65) and jeans, average build, no
+      distinguishing features.
+  scp-1471-a:
+    name: SCP-1471-A
+    description: >
+      SCP-1471-A, a tall, gaunt humanoid figure that appears only in
+      photographs, reflections, and peripheral vision. It has an
+      elongated, canid-like skull for a head, bone-white (color RGB
+      230,225,210), with no visible flesh, eyes, or expression, framed by
+      long black hair (color RGB 15,15,15) cascading past its shoulders.
+      Its thin body is draped in dark, tattered clothing (charcoal gray,
+      color RGB 35,35,38), with unnaturally long limbs.
+
+characters: [affected-individual, scp-1471-a]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, in a plain living room. Affected
+      Individual sits on a couch, phone in both hands, casually scrolling
+      and about to tap "install" on an app store listing.
+    characters: [affected-individual]
+    caption:
+      ja: "SCP-1471は、オンラインアプリストアにおいて「MalO ver1.0.0」という名称で配布されている、モバイル機器向けの無料9.8MBアプリケーションである。SCP-1471には開発者の表記が一切なく、何らかの方法でアプリ審査プロセスを回避し、直接配信に至っている。"
+      en: "SCP-1471 is a free 9.8MB application for mobile devices named 'MalO ver1.0.0' in online application stores. SCP-1471 has no listed developer and is somehow able to bypass the application approval process to go directly to distribution."
+      cs: "SCP-1471 je bezplatná aplikace o velikosti 9,8 MB pro mobilní zařízení s názvem 'MalO ver1.0.0' v online obchodech s aplikacemi. SCP-1471 nemá uvedeného žádného vývojáře a nějakým způsobem dokáže obejít schvalovací proces aplikací a jít přímo do distribuce."
+      de: "SCP-1471 ist eine kostenlose 9,8-MB-Anwendung für Mobilgeräte namens 'MalO ver1.0.0' in Online-App-Stores. Für SCP-1471 ist kein Entwickler angegeben, und es gelingt ihr auf irgendeine Weise, den Freigabeprozess für Anwendungen zu umgehen und direkt zur Verbreitung zu gelangen."
+      es: "SCP-1471 es una aplicación gratuita de 9,8 MB para dispositivos móviles llamada 'MalO ver1.0.0' en las tiendas de aplicaciones en línea. SCP-1471 no tiene desarrollador registrado y de algún modo logra eludir el proceso de aprobación de aplicaciones para pasar directamente a la distribución."
+      fr: "SCP-1471 est une application gratuite de 9,8 Mo pour appareils mobiles nommée « MalO ver1.0.0 » dans les magasins d'applications en ligne. SCP-1471 n'a aucun développeur répertorié et parvient d'une manière ou d'une autre à contourner le processus d'approbation des applications pour passer directement à la distribution."
+      it: "SCP-1471 è un'applicazione gratuita di 9,8 MB per dispositivi mobili chiamata 'MalO ver1.0.0' presente negli store di applicazioni online. SCP-1471 non ha uno sviluppatore indicato e riesce in qualche modo ad aggirare il processo di approvazione delle applicazioni per passare direttamente alla distribuzione."
+      ko: "SCP-1471은 온라인 앱 스토어에서 'MalO ver1.0.0'이라는 이름으로 배포되는 모바일 기기용 무료 9.8MB 애플리케이션이다. SCP-1471은 개발자 정보가 없으며, 어떤 방법으로인지 앱 승인 절차를 우회하여 곧바로 배포에 이른다."
+      pl: "SCP-1471 to bezpłatna aplikacja o rozmiarze 9,8 MB dla urządzeń mobilnych, występująca w internetowych sklepach z aplikacjami pod nazwą 'MalO ver1.0.0'. SCP-1471 nie ma podanego dewelopera i w jakiś sposób jest w stanie ominąć proces zatwierdzania aplikacji, trafiając bezpośrednio do dystrybucji."
+      pt: "SCP-1471 é um aplicativo gratuito de 9,8 MB para dispositivos móveis chamado 'MalO ver1.0.0' nas lojas de aplicativos online. SCP-1471 não possui desenvolvedor listado e, de alguma forma, consegue driblar o processo de aprovação de aplicativos para ir direto à distribuição."
+      th: "SCP-1471 คือแอปพลิเคชันฟรีขนาด 9.8MB สำหรับอุปกรณ์เคลื่อนที่ ชื่อว่า 'MalO ver1.0.0' ในร้านค้าแอปพลิเคชันออนไลน์ SCP-1471 ไม่มีนักพัฒนาที่ระบุไว้ และสามารถหลบเลี่ยงกระบวนการอนุมัติแอปพลิเคชันเพื่อเข้าสู่การเผยแพร่โดยตรงได้ด้วยวิธีการบางอย่าง"
+      uk: "SCP-1471 — це безкоштовний застосунок обсягом 9,8 МБ для мобільних пристроїв під назвою 'MalO ver1.0.0' в інтернет-магазинах застосунків. У SCP-1471 не вказано жодного розробника, і йому якимось чином вдається обійти процес затвердження застосунків і потрапити прямо в розповсюдження."
+      vi: "SCP-1471 là một ứng dụng miễn phí dung lượng 9,8MB dành cho thiết bị di động có tên 'MalO ver1.0.0' trên các cửa hàng ứng dụng trực tuyến. SCP-1471 không có nhà phát triển được liệt kê và bằng cách nào đó có thể vượt qua quy trình phê duyệt ứng dụng để đi thẳng đến khâu phân phối."
+      zh: "SCP-1471是一款在各大在线应用商店中以「MalO ver1.0.0」为名发布的移动设备免费应用，大小为9.8MB。SCP-1471没有列出开发者信息，却不知以何种方式绕过了应用审核流程，直接进入发布阶段。"
+      zh_Hant: "SCP-1471是一款在各大線上應用程式商店中以「MalO ver1.0.0」為名發布的行動裝置免費應用程式，大小為9.8MB。SCP-1471沒有列出開發者資訊，卻不知以何種方式繞過了應用程式審核流程，直接進入發布階段。"
+
+  - scene: >
+      Medium shot, over-the-shoulder view from behind Affected Individual,
+      showing his phone screen in his hands. The screen displays a newly
+      received text message with a photo attached of an ordinary street
+      corner — but SCP-1471-A's tall, canid-skulled figure stands in the
+      background of that photo.
+    characters: [affected-individual, scp-1471-a]
+    caption:
+      ja: "SCP-1471のインストール後、アプリケーションのアイコンやショートカットは一切作成されない。その後SCP-1471は、3～6時間おきにテキストメッセージを通じて対象個人に画像を送り始める。全ての画像には、背景または前景のいずれかにSCP-1471-Aが写り込んでいる。"
+      en: "After SCP-1471 is installed, no icons or shortcuts are created for the application. SCP-1471 will then begin to send the individual images through text messaging every 3-6 hours. All images will contain SCP-1471-A either within the background or foreground."
+      cs: "Po instalaci SCP-1471 se pro aplikaci nevytvoří žádné ikony ani zástupci. SCP-1471 poté začne jednotlivci posílat obrázky prostřednictvím textových zpráv každých 3-6 hodin. Všechny obrázky budou obsahovat SCP-1471-A buď v pozadí, nebo v popředí."
+      de: "Nach der Installation von SCP-1471 werden keine Symbole oder Verknüpfungen für die Anwendung erstellt. SCP-1471 beginnt dann, dem Einzelnen alle 3-6 Stunden Bilder per Textnachricht zu senden. Alle Bilder enthalten SCP-1471-A entweder im Hintergrund oder im Vordergrund."
+      es: "Tras instalar SCP-1471, no se crean iconos ni accesos directos para la aplicación. SCP-1471 comenzará entonces a enviar imágenes al individuo mediante mensajes de texto cada 3 a 6 horas. Todas las imágenes contendrán a SCP-1471-A, ya sea en el fondo o en primer plano."
+      fr: "Une fois SCP-1471 installé, aucune icône ni raccourci n'est créé pour l'application. SCP-1471 commence alors à envoyer des images à l'individu par SMS toutes les 3 à 6 heures. Toutes les images contiendront SCP-1471-A, soit à l'arrière-plan, soit au premier plan."
+      it: "Dopo l'installazione di SCP-1471, non vengono create icone o collegamenti per l'applicazione. SCP-1471 inizierà quindi a inviare immagini all'individuo tramite messaggi di testo ogni 3-6 ore. Tutte le immagini conterranno SCP-1471-A, sullo sfondo o in primo piano."
+      ko: "SCP-1471이 설치된 후에는 해당 애플리케이션의 아이콘이나 바로가기가 생성되지 않는다. 이후 SCP-1471은 3~6시간마다 문자 메시지를 통해 개인에게 이미지를 보내기 시작한다. 모든 이미지에는 배경이나 전경 중 한 곳에 SCP-1471-A가 포함되어 있다."
+      pl: "Po zainstalowaniu SCP-1471 nie tworzy się żadnych ikon ani skrótów dla aplikacji. Następnie SCP-1471 zaczyna wysyłać danej osobie zdjęcia za pomocą wiadomości tekstowych co 3-6 godzin. Wszystkie zdjęcia będą zawierać SCP-1471-A, w tle lub na pierwszym planie."
+      pt: "Após a instalação de SCP-1471, nenhum ícone ou atalho é criado para o aplicativo. SCP-1471 então começa a enviar imagens ao indivíduo por mensagem de texto a cada 3-6 horas. Todas as imagens conterão SCP-1471-A, seja no plano de fundo ou em primeiro plano."
+      th: "หลังจากติดตั้ง SCP-1471 แล้ว จะไม่มีการสร้างไอคอนหรือทางลัดใดๆ สำหรับแอปพลิเคชันนี้ จากนั้น SCP-1471 จะเริ่มส่งภาพให้แก่บุคคลนั้นผ่านข้อความทุก 3-6 ชั่วโมง ภาพทั้งหมดจะมี SCP-1471-A ปรากฏอยู่ไม่ว่าจะเป็นพื้นหลังหรือส่วนหน้า"
+      uk: "Після встановлення SCP-1471 для застосунку не створюється жодних значків чи ярликів. Після цього SCP-1471 починає надсилати людині зображення текстовими повідомленнями кожні 3-6 годин. На всіх зображеннях присутній SCP-1471-A — або на задньому, або на передньому плані."
+      vi: "Sau khi SCP-1471 được cài đặt, không có biểu tượng hay lối tắt nào được tạo ra cho ứng dụng. Sau đó SCP-1471 sẽ bắt đầu gửi hình ảnh cho cá nhân đó qua tin nhắn văn bản mỗi 3-6 giờ. Tất cả hình ảnh sẽ chứa SCP-1471-A ở phía nền hoặc phía trước."
+      zh: "SCP-1471安装后，不会为该应用创建任何图标或快捷方式。随后，SCP-1471开始每隔3至6小时通过短信向该个人发送图像。所有图像的背景或前景中都会出现SCP-1471-A。"
+      zh_Hant: "SCP-1471安裝後，不會為該應用程式建立任何圖示或捷徑。隨後，SCP-1471開始每隔3至6小時透過簡訊向該個人發送圖像。所有圖像的背景或前景中都會出現SCP-1471-A。"
+
+  - scene: >
+      Close-up shot on the phone screen, filling most of the frame, held
+      in Affected Individual's hands visible at the edges of the frame.
+      The displayed photo shows Affected Individual himself sitting in
+      this very room, with SCP-1471-A standing directly behind him within
+      the image.
+    characters: [affected-individual, scp-1471-a]
+    caption:
+      ja: "72時間が経過すると、モバイル機器はその個人をリアルタイムで撮影した画像を受信するようになり、そこにはSCP-1471-Aが対象のごく近くに写り込んでいる。"
+      en: "After 72 hours, the mobile device will receive images of the individual in real time with SCP-1471-A appearing within close proximity to the subject."
+      cs: "Po 72 hodinách začne mobilní zařízení přijímat obrázky jednotlivce v reálném čase, na nichž se SCP-1471-A objevuje v těsné blízkosti subjektu."
+      de: "Nach 72 Stunden empfängt das Mobilgerät Echtzeitbilder der Person, auf denen SCP-1471-A in unmittelbarer Nähe des Subjekts zu sehen ist."
+      es: "Después de 72 horas, el dispositivo móvil recibirá imágenes del individuo en tiempo real, con SCP-1471-A apareciendo muy cerca del sujeto."
+      fr: "Après 72 heures, l'appareil mobile recevra des images de l'individu en temps réel, avec SCP-1471-A apparaissant à proximité immédiate du sujet."
+      it: "Dopo 72 ore, il dispositivo mobile riceverà immagini dell'individuo in tempo reale, con SCP-1471-A che appare in stretta prossimità del soggetto."
+      ko: "72시간이 지나면 모바일 기기는 해당 개인을 실시간으로 촬영한 이미지를 수신하게 되며, 그 안에는 대상 바로 가까이에 SCP-1471-A가 나타난다."
+      pl: "Po 72 godzinach urządzenie mobilne zacznie otrzymywać zdjęcia danej osoby w czasie rzeczywistym, na których SCP-1471-A pojawia się w bliskiej odległości od osobnika."
+      pt: "Após 72 horas, o dispositivo móvel receberá imagens do indivíduo em tempo real, com SCP-1471-A aparecendo bem próximo ao sujeito."
+      th: "หลังจากผ่านไป 72 ชั่วโมง อุปกรณ์เคลื่อนที่จะได้รับภาพของบุคคลนั้นแบบเรียลไทม์ โดยมี SCP-1471-A ปรากฏอยู่ในระยะใกล้ชิดกับเป้าหมาย"
+      uk: "Через 72 години мобільний пристрій почне отримувати зображення людини в реальному часі, на яких SCP-1471-A з'являється в безпосередній близькості від суб'єкта."
+      vi: "Sau 72 giờ, thiết bị di động sẽ nhận được hình ảnh của cá nhân đó theo thời gian thực, với SCP-1471-A xuất hiện ở khoảng cách gần với đối tượng."
+      zh: "72小时后，移动设备将开始接收该个人的实时图像，图中SCP-1471-A就出现在对象的近旁。"
+      zh_Hant: "72小時後，行動裝置將開始接收該個人的即時圖像，圖中SCP-1471-A就出現在對象的近旁。"
+
+  - scene: >
+      Close-up shot on a bathroom mirror reflection, showing Affected
+      Individual's face in the foreground, phone lowered and forgotten at
+      his side. Just behind his reflected shoulder, SCP-1471-A stands in
+      the mirror, one long clawed hand raised in an odd, deliberate
+      gesture as if trying to signal something. His expression is puzzled
+      and unsettled rather than terrified.
+    characters: [affected-individual, scp-1471-a]
+    caption:
+      ja: "これらの継続的な画像への曝露が90時間を超えた対象者は、周辺視野・鏡面等の反射面、あるいはその両方において、SCP-1471-Aの姿を一瞬視認し始める。この段階に達した対象者からは、SCP-1471-Aが視覚的に意思疎通を試みているような報告が繰り返し寄せられているが、その行動の意味を理解・把握するには至っていない。"
+      en: "Individuals with >90 hours of exposure to these continuous images will begin to briefly visualize SCP-1471-A within their peripheral vision, reflective surfaces, or a combination of the two. Individuals at this stage have reported periodic attempts made by SCP-1471-A to visually communicate with them, but fail to understand or comprehend these actions."
+      cs: "Jedinci s expozicí těmto trvalým obrazům delší než 90 hodin začnou krátce vizualizovat SCP-1471-A ve svém periferním vidění, na odrazivých plochách, nebo v kombinaci obojího. Jedinci v této fázi hlásili opakované pokusy SCP-1471-A o vizuální komunikaci s nimi, avšak nedokázali tato jednání pochopit."
+      de: "Personen, die diesen fortlaufenden Bildern länger als 90 Stunden ausgesetzt sind, beginnen, SCP-1471-A kurzzeitig in ihrem peripheren Sichtfeld, auf spiegelnden Oberflächen oder einer Kombination aus beidem wahrzunehmen. Personen in diesem Stadium berichteten von wiederholten Versuchen von SCP-1471-A, visuell mit ihnen zu kommunizieren, konnten diese Handlungen jedoch nicht verstehen oder deuten."
+      es: "Los individuos con más de 90 horas de exposición a estas imágenes continuas comenzarán a visualizar brevemente a SCP-1471-A en su visión periférica, en superficies reflectantes, o en una combinación de ambas. Los individuos en esta etapa han reportado intentos periódicos de SCP-1471-A de comunicarse visualmente con ellos, pero no logran entender ni comprender estas acciones."
+      fr: "Les individus exposés à ces images continues pendant plus de 90 heures commenceront à brièvement visualiser SCP-1471-A dans leur vision périphérique, sur des surfaces réfléchissantes, ou une combinaison des deux. Les individus à ce stade ont signalé des tentatives périodiques de SCP-1471-A pour communiquer visuellement avec eux, sans parvenir à comprendre ces actions."
+      it: "Gli individui con oltre 90 ore di esposizione a queste immagini continue inizieranno a visualizzare brevemente SCP-1471-A nella loro visione periferica, su superfici riflettenti, o in una combinazione delle due cose. Gli individui a questo stadio hanno riferito tentativi periodici di SCP-1471-A di comunicare visivamente con loro, senza però riuscire a comprendere queste azioni."
+      ko: "이러한 연속적인 이미지에 90시간 이상 노출된 개인은 주변 시야, 반사되는 표면, 혹은 이 둘의 조합 속에서 SCP-1471-A의 모습을 순간적으로 보기 시작한다. 이 단계에 이른 개인들은 SCP-1471-A가 주기적으로 시각적 의사소통을 시도한다고 보고했지만, 그 행동의 의미를 이해하거나 파악하지는 못했다."
+      pl: "Osoby narażone na te ciągłe obrazy przez ponad 90 godzin zaczynają krótko dostrzegać SCP-1471-A w swoim peryferyjnym polu widzenia, na powierzchniach odbijających światło lub w połączeniu obu tych elementów. Osoby na tym etapie zgłaszały okresowe próby nawiązania przez SCP-1471-A komunikacji wzrokowej, jednak nie potrafiły zrozumieć ani pojąć tych działań."
+      pt: "Indivíduos com mais de 90 horas de exposição a essas imagens contínuas começarão a visualizar brevemente SCP-1471-A em sua visão periférica, em superfícies reflexivas, ou numa combinação de ambas. Indivíduos nessa fase relataram tentativas periódicas de SCP-1471-A de se comunicar visualmente com eles, mas sem conseguir entender ou compreender essas ações."
+      th: "บุคคลที่สัมผัสกับภาพต่อเนื่องเหล่านี้เกิน 90 ชั่วโมงจะเริ่มมองเห็น SCP-1471-A ในช่วงเวลาสั้นๆ ผ่านทางสายตาส่วนขอบ พื้นผิวสะท้อนแสง หรือทั้งสองอย่างรวมกัน บุคคลในระยะนี้รายงานว่า SCP-1471-A พยายามสื่อสารทางสายตากับพวกเขาเป็นระยะ แต่ไม่สามารถเข้าใจหรือทำความเข้าใจการกระทำเหล่านี้ได้"
+      uk: "Особи, які піддавалися впливу цих безперервних зображень понад 90 годин, починають ненадовго бачити SCP-1471-A у своєму периферійному зорі, на відбивних поверхнях, або в поєднанні обох. Особи на цьому етапі повідомляли про періодичні спроби SCP-1471-A візуально спілкуватися з ними, проте не могли зрозуміти чи осягнути ці дії."
+      vi: "Những cá nhân tiếp xúc với những hình ảnh liên tục này hơn 90 giờ sẽ bắt đầu thoáng nhìn thấy SCP-1471-A trong tầm nhìn ngoại vi, trên các bề mặt phản chiếu, hoặc cả hai. Những cá nhân ở giai đoạn này đã báo cáo về những nỗ lực định kỳ của SCP-1471-A nhằm giao tiếp bằng hình ảnh với họ, nhưng không thể hiểu hay lý giải được những hành động này."
+      zh: "暴露于这些持续图像超过90小时的个体，将开始在余光或反光表面（或两者兼有）中短暂看到SCP-1471-A的身影。处于这一阶段的个体报告称，SCP-1471-A会周期性地试图与他们进行视觉交流，但他们始终无法理解或领会这些举动的含义。"
+      zh_Hant: "暴露於這些持續圖像超過90小時的個體，將開始在餘光或反光表面（或兩者兼有）中短暫看到SCP-1471-A的身影。處於這一階段的個體報告稱，SCP-1471-A會週期性地試圖與他們進行視覺交流，但他們始終無法理解或領會這些舉動的含義。"
+
+addendum:
+  ja: "アーカイブ文書1471-01：当該アプリのストア掲載文にはこう書かれていた――「二度とあの気まずい孤独感に悩まされることはありません」"
+  en: "Archival Document 1471-01: The app's store listing reads, in part, 'Never settle for those awkward feelings of being alone ever again.'"
+  cs: "Archivní dokument 1471-01: Popisek aplikace v obchodě mimo jiné uváděl: 'Už nikdy se nesmiřuj s trapnými pocity samoty.'"
+  de: "Archivdokument 1471-01: Der Store-Eintrag der App lautete unter anderem: 'Gib dich nie wieder mit diesen unangenehmen Gefühlen des Alleinseins zufrieden.'"
+  es: "Documento de archivo 1471-01: La descripción de la aplicación en la tienda decía, en parte: 'Nunca más te conformes con esos incómodos sentimientos de soledad.'"
+  fr: "Document d'archive 1471-01 : La fiche de l'application sur le store indiquait notamment : « Ne vous contentez plus jamais de ces sentiments gênants de solitude. »"
+  it: "Documento d'archivio 1471-01: La scheda dell'app sullo store recitava, in parte: 'Non accontentarti mai più di quelle fastidiose sensazioni di solitudine.'"
+  ko: "기록 문서 1471-01: 해당 앱의 스토어 소개문에는 이렇게 적혀 있었다. '더 이상 그 어색한 외로움의 감정에 안주하지 마세요.'"
+  pl: "Dokument archiwalny 1471-01: Opis aplikacji w sklepie głosił między innymi: 'Nigdy więcej nie godź się na te niezręczne uczucia samotności.'"
+  pt: "Documento de Arquivo 1471-01: A descrição do aplicativo na loja dizia, em parte: 'Nunca mais se contente com aqueles sentimentos incômodos de solidão.'"
+  th: "เอกสารจดหมายเหตุ 1471-01: คำอธิบายแอปในสโตร์ระบุไว้บางส่วนว่า 'อย่ายอมทนกับความรู้สึกโดดเดี่ยวอันน่าอึดอัดนั้นอีกต่อไป'"
+  uk: "Архівний документ 1471-01: В описі застосунку в магазині, серед іншого, було написано: 'Більше ніколи не миріться з цими незручними почуттями самотності.'"
+  vi: "Tài liệu lưu trữ 1471-01: Mô tả ứng dụng trên cửa hàng có đoạn viết: 'Đừng bao giờ chấp nhận những cảm giác cô đơn khó xử đó nữa.'"
+  zh: "档案文件1471-01：该应用在商店中的介绍写道：「再也不必忍受那种尴尬的孤独感了。」"
+  zh_Hant: "檔案文件1471-01：該應用程式在商店中的介紹寫道：「再也不必忍受那種尷尬的孤獨感了。」"

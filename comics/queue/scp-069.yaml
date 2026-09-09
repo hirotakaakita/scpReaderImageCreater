@@ -1,0 +1,139 @@
+# SCP-069 4コマ台本
+# captionはDescription本文のうち、能力の説明部分（第1〜3段落）のみから引用。
+# 起源となったビル火災（13名死亡）の逸話と、Addendum 069-01/02（自殺未遂）は
+# 一切使用しない。キャラにセリフは言わせない。
+
+id: scp-069
+
+title:
+  en: "SCP-069"
+  ja: "SCP-069"
+  cs: "SCP-069"
+  de: "SCP-069"
+  es: "SCP-069"
+  fr: "SCP-069"
+  it: "SCP-069"
+  ko: "SCP-069"
+  pl: "SCP-069"
+  pt: "SCP-069"
+  th: "SCP-069"
+  uk: "SCP-069"
+  vi: "SCP-069"
+  zh: "SCP-069"
+  zh_Hant: "SCP-069"
+
+attribution:
+  article: "SCP-069"
+  source_url: "http://scp-wiki.wikidot.com/scp-069"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-069:
+    name: "SCP-069"
+    description: >
+      A humanoid figure of medium build and deliberately unremarkable,
+      forgettable appearance: plain short brown hair (color RGB 90,60,40),
+      neutral gray coveralls (color RGB 130,130,130), and a calm, faintly
+      blank expression, meant to look like an average, generic person
+      rather than any specific individual.
+
+characters: [scp-069, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, showing the whole plain observation room.
+      SCP-069 stands alone and calm in gray coveralls, unremarkable
+      features, hands folded in front of it.
+    characters: [scp-069]
+    caption:
+      ja: "SCP-069は、外見と性別が一定しない人型実体と推定されている。"
+      en: "SCP-069 is a presumed humanoid entity of variable appearance and gender."
+      cs: "SCP-069 je pravděpodobně humanoidní entita proměnlivého vzhledu a pohlaví."
+      de: "SCP-069 ist eine vermutlich humanoide Entität mit variablem Erscheinungsbild und Geschlecht."
+      es: "SCP-069 es una entidad presuntamente humanoide de apariencia y género variables."
+      fr: "Le SCP-069 est une entité présumée humanoïde d'apparence et de genre variables."
+      it: "SCP-069 è un'entità presumibilmente umanoide dall'aspetto e dal genere variabili."
+      ko: "SCP-069는 외형과 성별이 일정하지 않은 인간형 개체로 추정된다."
+      pl: "SCP-069 to prawdopodobnie humanoidalna istota o zmiennym wyglądzie i płci."
+      pt: "O SCP-069 é uma entidade presumivelmente humanoide de aparência e gênero variáveis."
+      th: "SCP-069 คือสิ่งมีชีวิตที่สันนิษฐานว่าเป็นรูปแบบมนุษย์ ซึ่งมีรูปลักษณ์และเพศที่แปรผันได้"
+      uk: "SCP-069 — це, ймовірно, гуманоїдна сутність зі змінною зовнішністю та статтю."
+      vi: "SCP-069 là một thực thể được cho là dạng người, với ngoại hình và giới tính có thể thay đổi."
+      zh: "SCP-069被推定为一个类人实体，其外貌与性别皆可变化。"
+      zh_Hant: "SCP-069被推定為一個類人實體，其外貌與性別皆可變化。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the wide shot
+      before, viewed partly through one-way glass. A dim isolated room
+      holds a gurney draped with a plain white sheet in the corner. On
+      the left, SCP-069 stands nearby, its outline subtly shimmering as
+      if changing shape. On the right, behind the glass,
+      attending-researcher-f watches intently with a clipboard.
+    characters: [scp-069, attending-researcher-f]
+    caption:
+      ja: "未知の能力により、SCP-069が最近死亡した人間の遺体と二人きりにされると、遺体は消失し、SCP-069はその死者の外見・仕草・知識を身につける。"
+      en: "Through an unknown ability, whenever SCP-069 is left alone with a recently deceased human body, the body will disappear and SCP-069 will take on the appearance, mannerisms, and knowledge of the recently dead individual."
+      cs: "Neznámou schopností platí, že kdykoli je SCP-069 ponecháno o samotě s nedávno zesnulým lidským tělem, tělo zmizí a SCP-069 na sebe vezme vzhled, chování a znalosti nedávno zemřelého jedince."
+      de: "Durch eine unbekannte Fähigkeit verschwindet der Körper, sobald SCP-069 mit einer kürzlich verstorbenen menschlichen Leiche allein gelassen wird, und SCP-069 nimmt das Aussehen, die Verhaltensweisen und das Wissen der kürzlich verstorbenen Person an."
+      es: "Mediante una habilidad desconocida, cada vez que el SCP-069 se queda a solas con un cuerpo humano recientemente fallecido, el cuerpo desaparece y el SCP-069 adopta la apariencia, los modales y los conocimientos del individuo recién fallecido."
+      fr: "Par une capacité inconnue, chaque fois que le SCP-069 est laissé seul avec un corps humain récemment décédé, le corps disparaît et le SCP-069 prend l'apparence, les manières et les connaissances de l'individu récemment décédé."
+      it: "Attraverso una capacità sconosciuta, ogni volta che SCP-069 viene lasciato solo con un corpo umano recentemente deceduto, il corpo scompare e SCP-069 assume l'aspetto, i modi e le conoscenze dell'individuo recentemente deceduto."
+      ko: "미지의 능력을 통해, SCP-069가 최근 사망한 인간의 시신과 단둘이 남겨지면 그 시신은 사라지고 SCP-069는 그 사망자의 외모, 습관, 지식을 그대로 갖추게 된다."
+      pl: "Dzięki nieznanej zdolności, gdy SCP-069 zostaje sam na sam z niedawno zmarłym ludzkim ciałem, ciało znika, a SCP-069 przyjmuje wygląd, maniery i wiedzę niedawno zmarłej osoby."
+      pt: "Através de uma habilidade desconhecida, sempre que o SCP-069 é deixado sozinho com um corpo humano recentemente falecido, o corpo desaparece e o SCP-069 assume a aparência, os maneirismos e o conhecimento do indivíduo recém-falecido."
+      th: "ผ่านความสามารถที่ไม่ทราบแหล่งที่มา เมื่อใดก็ตามที่ SCP-069 ถูกปล่อยไว้ตามลำพังกับร่างมนุษย์ที่เพิ่งเสียชีวิต ร่างนั้นจะหายไป และ SCP-069 จะรับเอารูปลักษณ์ กิริยาท่าทาง และความรู้ของผู้เสียชีวิตคนนั้นมา"
+      uk: "За допомогою невідомої здатності, щоразу коли SCP-069 залишають наодинці з тілом нещодавно померлої людини, тіло зникає, а SCP-069 набуває зовнішності, манер і знань цієї нещодавно померлої особи."
+      vi: "Thông qua một khả năng không xác định, bất cứ khi nào SCP-069 bị bỏ lại một mình với một thi thể người vừa qua đời, thi thể đó sẽ biến mất và SCP-069 sẽ mang lấy ngoại hình, cử chỉ và kiến thức của người vừa qua đời đó."
+      zh: "透过一种未知能力，每当SCP-069与一具刚死亡的人类遗体独处时，遗体便会消失，而SCP-069会获得该死者的外貌、举止与知识。"
+      zh_Hant: "透過一種未知能力，每當SCP-069與一具剛死亡的人類遺體獨處時，遺體便會消失，而SCP-069會獲得該死者的外貌、舉止與知識。"
+
+  - scene: >
+      Close-up on a fingerprint scanner display, a different framing
+      from the medium shot before, showing a "MATCH" indicator lit up
+      as SCP-069 presses its thumb to the pad. attending-researcher-m
+      stands beside it holding a folder of identification documents,
+      comparing them with a puzzled expression.
+    characters: [scp-069, attending-researcher-m]
+    caption:
+      ja: "SCP-069はなりすました人物と完全に見分けがつかず、指紋やDNAもほぼ完璧に一致する。殺害された場合は急速に塵となって崩壊し、最も直近に人間が死亡した場所に再出現する——これまでに最大675kmの「跳躍」が観測されている。"
+      en: "SCP-069 is completely indistinguishable from the individual it impersonates, matching fingerprints and DNA with nearly perfect precision. If killed, it will rapidly decay into dust and re-emerge at the site of the most recent human death — jumps of up to 675 kilometers have been observed."
+      cs: "SCP-069 je zcela k nerozeznání od osoby, kterou napodobuje, přičemž otisky prstů i DNA odpovídají téměř dokonale. Je-li zabito, rychle se rozpadne v prach a znovu se objeví na místě posledního lidského úmrtí — byly pozorovány přesuny až na vzdálenost 675 kilometrů."
+      de: "SCP-069 ist von der Person, die es imitiert, völlig ununterscheidbar; Fingerabdrücke und DNA stimmen nahezu perfekt überein. Wird es getötet, zerfällt es rasch zu Staub und taucht erneut am Ort des jüngsten menschlichen Todesfalls auf — es wurden Sprünge von bis zu 675 Kilometern beobachtet."
+      es: "El SCP-069 es completamente indistinguible de la persona a la que suplanta, coincidiendo en huellas dactilares y ADN con una precisión casi perfecta. Si se le mata, se descompone rápidamente en polvo y reaparece en el lugar de la muerte humana más reciente; se han observado saltos de hasta 675 kilómetros."
+      fr: "Le SCP-069 est totalement indiscernable de la personne qu'il usurpe, avec des empreintes digitales et un ADN correspondant avec une précision quasi parfaite. S'il est tué, il se décompose rapidement en poussière et réapparaît sur les lieux du décès humain le plus récent — des bonds allant jusqu'à 675 kilomètres ont été observés."
+      it: "SCP-069 è completamente indistinguibile dalla persona che impersona, con impronte digitali e DNA corrispondenti con precisione quasi perfetta. Se ucciso, si decompone rapidamente in polvere e riappare nel luogo della morte umana più recente: sono stati osservati salti fino a 675 chilometri."
+      ko: "SCP-069는 자신이 흉내 내는 인물과 완전히 구별할 수 없으며, 지문과 DNA도 거의 완벽하게 일치한다. 살해당하면 빠르게 먼지로 붕괴하며, 가장 최근에 인간이 사망한 장소에서 다시 나타난다 — 지금까지 최대 675km에 달하는 '도약'이 관측되었다."
+      pl: "SCP-069 jest całkowicie nieodróżnialne od osoby, którą podszywa, a jego odciski palców i DNA pasują z niemal doskonałą precyzją. Jeśli zostanie zabite, szybko rozpada się w pył i pojawia się ponownie w miejscu najbardziej niedawnej ludzkiej śmierci — zaobserwowano skoki na odległość aż 675 kilometrów."
+      pt: "O SCP-069 é completamente indistinguível da pessoa que ele imita, com impressões digitais e DNA correspondendo com precisão quase perfeita. Se morto, decompõe-se rapidamente em pó e reaparece no local da morte humana mais recente — já foram observados saltos de até 675 quilômetros."
+      th: "SCP-069 ไม่สามารถแยกแยะได้เลยจากบุคคลที่มันปลอมตัวเป็น โดยลายนิ้วมือและดีเอ็นเอตรงกันแทบสมบูรณ์แบบ หากถูกสังหาร มันจะสลายกลายเป็นผงอย่างรวดเร็วและปรากฏตัวขึ้นใหม่ ณ สถานที่ที่มีผู้เสียชีวิตล่าสุด มีการสังเกตพบการ 'กระโดด' ไกลถึง 675 กิโลเมตร"
+      uk: "SCP-069 абсолютно невідрізняється від особи, яку воно імітує, з майже ідеальним збігом відбитків пальців і ДНК. У разі вбивства воно швидко розпадається на пил і знову з'являється на місці найновішої людської смерті — зафіксовано стрибки на відстань до 675 кілометрів."
+      vi: "SCP-069 hoàn toàn không thể phân biệt được với người mà nó mạo danh, với dấu vân tay và ADN khớp gần như hoàn hảo. Nếu bị giết, nó sẽ nhanh chóng phân hủy thành bụi và xuất hiện trở lại tại nơi có cái chết của con người gần đây nhất — đã ghi nhận những bước 'nhảy' xa tới 675 km."
+      zh: "SCP-069与其冒充的对象完全无法区分，指纹和DNA的吻合度近乎完美。若被杀死，它会迅速崩解为尘土，并在最近一次有人类死亡的地点重新出现——目前观测到的最远跳跃距离达675公里。"
+      zh_Hant: "SCP-069與其冒充的對象完全無法區分，指紋和DNA的吻合度近乎完美。若被殺死，它會迅速崩解為塵土，並在最近一次有人類死亡的地點重新出現——目前觀測到的最遠跳躍距離達675公里。"
+
+  - scene: >
+      Wide shot, low angle, pulled back to show the whole room, a
+      different framing from the close-up before. SCP-069 sits at a
+      desk calmly signing a neat stack of documents, a checklist beside
+      it with several items already crossed off. In the doorway,
+      attending-researcher-f watches with a thoughtful, puzzled
+      expression.
+    characters: [scp-069, attending-researcher-f]
+    caption:
+      ja: "SCP-069は一人の人物を無期限になりすまし続けることができる。しかしやがて「身辺を整理したい」という抑えがたい衝動に駆られるようになり、未払いの義務の清算、疎遠な親族への訪問、遺言の更新など、身辺整理の行動を取るようになる。"
+      en: "SCP-069 can impersonate a single individual indefinitely. However, it will gain an overriding urge to 'get their life in order' — resolving outstanding obligations, visiting extended family, updating their will, and other acts of closure."
+      cs: "SCP-069 dokáže napodobovat jednu osobu na neurčito. Postupně v něm ale vzniká neodolatelné nutkání „dát si věci do pořádku“ — vyřídit nevyřízené závazky, navštívit vzdálenější příbuzné, aktualizovat závěť a provést další úkony spojené s uzavřením záležitostí."
+      de: "SCP-069 kann eine Person unbegrenzt imitieren. Es entwickelt jedoch einen überwältigenden Drang, 'seine Angelegenheiten zu ordnen' — offene Verpflichtungen zu klären, entfernte Verwandte zu besuchen, das Testament zu aktualisieren und andere abschließende Handlungen vorzunehmen."
+      es: "El SCP-069 puede suplantar a una sola persona indefinidamente. Sin embargo, desarrollará un impulso irrefrenable de 'poner en orden su vida': saldar obligaciones pendientes, visitar a familiares lejanos, actualizar su testamento y otros actos de cierre."
+      fr: "Le SCP-069 peut usurper l'identité d'une seule personne indéfiniment. Il finira cependant par ressentir un besoin irrépressible de « mettre de l'ordre dans sa vie » — régler ses obligations en suspens, rendre visite à sa famille éloignée, mettre à jour son testament et accomplir d'autres actes de clôture."
+      it: "SCP-069 può impersonare un singolo individuo a tempo indeterminato. Tuttavia, svilupperà un bisogno incontenibile di 'mettere ordine nella propria vita' — saldare obblighi in sospeso, visitare parenti lontani, aggiornare il proprio testamento e altri atti di chiusura."
+      ko: "SCP-069는 한 인물을 무기한으로 흉내 낼 수 있다. 그러나 결국 '신변을 정리하고 싶다'는 억누를 수 없는 충동에 사로잡히게 되며, 밀린 채무나 개인적 의무를 정리하고, 소원했던 친척을 방문하고, 유언장을 갱신하는 등 마무리 행위를 하게 된다."
+      pl: "SCP-069 może naśladować jedną osobę bezterminowo. Jednak pojawia się w nim nieodparta potrzeba „uporządkowania swojego życia” — spłacenia zaległych zobowiązań, odwiedzenia dalszej rodziny, aktualizacji testamentu i innych czynności zamykających sprawy."
+      pt: "O SCP-069 pode se passar por um único indivíduo indefinidamente. No entanto, desenvolverá um impulso incontrolável de 'colocar a vida em ordem' — resolvendo obrigações pendentes, visitando parentes distantes, atualizando seu testamento e outros atos de encerramento."
+      th: "SCP-069 สามารถปลอมตัวเป็นบุคคลใดบุคคลหนึ่งได้อย่างไม่มีกำหนด อย่างไรก็ตาม มันจะเกิดแรงกระตุ้นที่ไม่อาจต้านทานได้ในการ 'จัดระเบียบชีวิตของตน' เช่น การชำระภาระผูกพันที่ค้างอยู่ การไปเยี่ยมญาติห่างๆ การปรับปรุงพินัยกรรม และการทำกิจกรรมอื่นๆ เพื่อปิดฉากเรื่องราวต่างๆ"
+      uk: "SCP-069 може безстроково видавати себе за одну особу. Однак у нього виникає непереборне бажання «привести своє життя в порядок» — залагодити незавершені зобов'язання, відвідати далеких родичів, оновити заповіт та здійснити інші дії для завершення справ."
+      vi: "SCP-069 có thể mạo danh một cá nhân vô thời hạn. Tuy nhiên, nó sẽ nảy sinh một sự thôi thúc không thể cưỡng lại là 'sắp xếp lại cuộc sống của mình' — giải quyết các nghĩa vụ còn tồn đọng, thăm họ hàng xa, cập nhật di chúc và các hành động khép lại khác."
+      zh: "SCP-069可以无限期地冒充某一个人。然而它会产生一种难以抗拒的冲动，想要「把自己的人生安排妥当」——清偿未了的债务、拜访疏远的亲属、更新遗嘱，以及其他各种收尾性质的举动。"
+      zh_Hant: "SCP-069可以無限期地冒充某一個人。然而它會產生一種難以抗拒的衝動，想要「把自己的人生安排妥當」——清償未了的債務、拜訪疏遠的親屬、更新遺囑，以及其他各種收尾性質的舉動。"

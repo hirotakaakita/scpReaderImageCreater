@@ -1,0 +1,147 @@
+# SCP-007 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 対象の腹部の開口部は無傷・無出血として描写し、グロ描写は避けた。
+# キャラにセリフは言わせない。JP公式訳が直接取得できなかったため、検証済みの
+# 英語本文からの翻訳（ja含む）。
+
+id: scp-007
+
+title:
+  en: "SCP-007"
+  ja: "SCP-007"
+  cs: "SCP-007"
+  de: "SCP-007"
+  es: "SCP-007"
+  fr: "SCP-007"
+  it: "SCP-007"
+  ko: "SCP-007"
+  pl: "SCP-007"
+  pt: "SCP-007"
+  th: "SCP-007"
+  uk: "SCP-007"
+  vi: "SCP-007"
+  zh: "SCP-007"
+  zh_Hant: "SCP-007"
+
+attribution:
+  article: "SCP-007"
+  source_url: "http://scp-wiki.wikidot.com/scp-007"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  subject-007:
+    name: Subject
+    description: >
+      A Caucasian man in his mid-20s, short neat brown hair (color RGB
+      90,65,45), calm and friendly expression, average build. He wears a
+      loose bathrobe (pale blue, color RGB 150,180,200) left casually
+      open at the front. Where his abdomen should be, there is a
+      perfectly smooth, bloodless opening — no wound, no exposed muscle
+      or organs — inside which a small sphere of soil, water, and
+      drifting clouds floats freely without touching his skin,
+      resembling a tiny model Earth with unfamiliar continents and faint
+      city lights visible on its surface.
+
+characters: [subject-007, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the whole sealed
+      containment room furnished comfortably like a cozy studio
+      apartment — a made bed, a small bookshelf, an armchair, a compact
+      kitchenette in the corner. Subject-007 sits relaxed in the
+      armchair with a book open on his lap, robe loosely closed, entirely
+      at ease in the room.
+    characters: [subject-007]
+    caption:
+      ja: "SCP-007は一辺10メートルの密閉された部屋に収容する。部屋は生活空間として快適に家具を備え付け、対象の要求する品物についても、それがセキュリティを損なわない限り提供すること。"
+      en: "SCP-007 is to be contained in a sealed room measuring 10 m on each side. Room is to be furnished comfortably as a living area, along with whatever items are requested by Subject, given that providing Subject with requested items would not compromise security."
+      cs: "SCP-007 musí být umístěno v uzavřené místnosti o rozměrech 10 m na každou stranu. Místnost musí být pohodlně zařízena jako obytný prostor, spolu s jakýmikoli předměty, o které Subjekt požádá, pokud jejich poskytnutí neohrozí bezpečnost."
+      de: "SCP-007 ist in einem versiegelten Raum mit einer Seitenlänge von 10 m unterzubringen. Der Raum ist komfortabel als Wohnbereich einzurichten, zusammen mit allen vom Subjekt angeforderten Gegenständen, sofern deren Bereitstellung die Sicherheit nicht gefährdet."
+      es: "SCP-007 debe ser contenido en una habitación sellada que mida 10 m por lado. La habitación debe estar amueblada cómodamente como zona de estar, junto con cualquier artículo que solicite el Sujeto, siempre que proporcionárselo no comprometa la seguridad."
+      fr: "Le SCP-007 doit être contenu dans une pièce scellée mesurant 10 m de côté. La pièce doit être meublée confortablement comme un espace de vie, avec tous les objets demandés par le Sujet, à condition que leur fourniture ne compromette pas la sécurité."
+      it: "SCP-007 deve essere contenuto in una stanza sigillata di 10 m per lato. La stanza deve essere arredata comodamente come zona living, insieme a qualsiasi oggetto richiesto dal Soggetto, purché la sua fornitura non comprometta la sicurezza."
+      ko: "SCP-007는 한 변이 10미터인 밀폐된 방에 수용되어야 한다. 방은 생활공간으로 편안하게 가구를 갖추어야 하며, 대상이 요청하는 물품 또한 보안을 저해하지 않는 한 제공한다."
+      pl: "SCP-007 należy przechowywać w szczelnie zamkniętym pomieszczeniu o wymiarach 10 m x 10 m. Pomieszczenie ma być wygodnie umeblowane jako przestrzeń mieszkalna, wraz z wszelkimi przedmiotami, o które poprosi Osobnik, o ile ich dostarczenie nie zagrozi bezpieczeństwu."
+      pt: "O SCP-007 deve ser contido em uma sala selada medindo 10 m de cada lado. A sala deve ser mobiliada confortavelmente como um espaço de convivência, junto com quaisquer itens solicitados pelo Sujeito, desde que fornecê-los não comprometa a segurança."
+      th: "SCP-007 ต้องถูกกักกันในห้องปิดผนึกขนาด 10 เมตรต่อด้าน ห้องต้องได้รับการตกแต่งอย่างสะดวกสบายให้เป็นพื้นที่อยู่อาศัย พร้อมกับสิ่งของใดๆ ที่ผู้ถูกทดสอบร้องขอ ตราบใดที่การจัดหาสิ่งของนั้นไม่กระทบต่อความปลอดภัย"
+      uk: "SCP-007 слід утримувати в герметичній кімнаті розміром 10 м з кожного боку. Кімнату потрібно зручно облаштувати як житлову зону, разом з будь-якими предметами, які запросить Суб'єкт, за умови що це не поставить безпеку під загрозу."
+      vi: "SCP-007 phải được giam giữ trong một căn phòng kín có kích thước 10 m mỗi cạnh. Căn phòng phải được trang bị nội thất thoải mái như một không gian sinh hoạt, cùng với bất kỳ vật phẩm nào Đối Tượng yêu cầu, miễn là việc cung cấp chúng không gây tổn hại đến an ninh."
+      zh: "SCP-007须收容于一间边长10米的密封房间内。房间须布置得如同舒适的生活空间，并按对象的要求提供物品，前提是提供这些物品不会危及安全。"
+      zh_Hant: "SCP-007須收容於一間邊長10公尺的密封房間內。房間須佈置得如同舒適的生活空間，並按對象的要求提供物品，前提是提供這些物品不會危及安全。"
+
+  - scene: >
+      Close-up, low angle, filling most of the frame with Subject-007's
+      open robe and abdomen, a very different framing from the wide
+      establishing shot. Where his stomach should be, a perfectly
+      smooth, bloodless opening reveals a small sphere of soil, water,
+      and drifting clouds floating freely inside, unfamiliar continents
+      visible on its surface with faint city lights scattered across
+      them.
+    characters: [subject-007]
+    caption:
+      ja: "SCP-007は対象の腹部にある空洞の中に存在する。その球体は、直径約60cmの、地球にほぼ酷似した縮小複製のようなものであり、独自の気象パターンを持つ。二つの知的種族が観測されているが、接触はまだ行われていない。"
+      en: "SCP-007 is located within a cavity in the abdomen of Subject. The sphere appears to be a miniature near-duplicate of the Earth, approximately 60 cm in diameter, with its own weather patterns. Two intelligent species have been observed, though contact has yet to be made."
+      cs: "SCP-007 se nachází v dutině v břiše Subjektu. Koule se zdá být miniaturní téměř-duplikátem Země o průměru přibližně 60 cm, s vlastními povětrnostními vzorci. Byly pozorovány dva inteligentní druhy, ačkoli kontakt s žádným z nich dosud nebyl navázán."
+      de: "SCP-007 befindet sich in einem Hohlraum im Bauch des Subjekts. Die Kugel scheint ein miniaturhaftes, fast identisches Duplikat der Erde mit einem Durchmesser von etwa 60 cm zu sein, mit eigenen Wettermustern. Zwei intelligente Spezies wurden beobachtet, wenngleich noch kein Kontakt hergestellt wurde."
+      es: "SCP-007 se encuentra dentro de una cavidad en el abdomen del Sujeto. La esfera parece ser un duplicado en miniatura casi idéntico de la Tierra, de aproximadamente 60 cm de diámetro, con sus propios patrones climáticos. Se han observado dos especies inteligentes, aunque aún no se ha establecido contacto."
+      fr: "Le SCP-007 se trouve dans une cavité de l'abdomen du Sujet. La sphère semble être un duplicata miniature quasi identique de la Terre, d'environ 60 cm de diamètre, avec ses propres régimes météorologiques. Deux espèces intelligentes ont été observées, bien qu'aucun contact n'ait encore été établi."
+      it: "SCP-007 si trova all'interno di una cavità nell'addome del Soggetto. La sfera sembra essere un duplicato in miniatura quasi identico della Terra, del diametro di circa 60 cm, con propri modelli meteorologici. Sono state osservate due specie intelligenti, sebbene non sia ancora stato stabilito alcun contatto."
+      ko: "SCP-007는 대상의 복부에 있는 공동 내부에 위치한다. 이 구체는 지름 약 60cm의, 지구와 거의 흡사한 축소 복제본으로 보이며 고유의 기상 패턴을 지니고 있다. 두 개의 지적 종이 관측되었으나, 아직 접촉은 이루어지지 않았다."
+      pl: "SCP-007 znajduje się w jamie w brzuchu Osobnika. Kula wydaje się być miniaturową, niemal identyczną kopią Ziemi o średnicy około 60 cm, z własnymi wzorcami pogodowymi. Zaobserwowano dwa inteligentne gatunki, choć kontakt z żadnym z nich nie został jeszcze nawiązany."
+      pt: "O SCP-007 está localizado em uma cavidade no abdômen do Sujeito. A esfera parece ser uma duplicata em miniatura quase idêntica da Terra, com aproximadamente 60 cm de diâmetro, com seus próprios padrões climáticos. Duas espécies inteligentes foram observadas, embora o contato ainda não tenha sido estabelecido."
+      th: "SCP-007 ตั้งอยู่ภายในโพรงในช่องท้องของผู้ถูกทดสอบ ทรงกลมนี้ดูเหมือนจะเป็นแบบจำลองย่อส่วนของโลกที่เกือบเหมือนกันทุกประการ มีเส้นผ่านศูนย์กลางประมาณ 60 เซนติเมตร พร้อมรูปแบบสภาพอากาศของตัวเอง มีการสังเกตพบสิ่งมีชีวิตทรงภูมิปัญญาสองสายพันธุ์ แม้ว่าจะยังไม่มีการติดต่อเกิดขึ้น"
+      uk: "SCP-007 розташований у порожнині в животі Суб'єкта. Куля, схоже, є мініатюрним майже точним дублікатом Землі діаметром близько 60 см, із власними погодними закономірностями. Спостережено два розумні види, хоча контакту з жодним з них ще не встановлено."
+      vi: "SCP-007 nằm trong một khoang rỗng ở bụng của Đối Tượng. Quả cầu này dường như là một bản sao thu nhỏ gần giống Trái Đất, đường kính khoảng 60 cm, với các kiểu thời tiết riêng. Hai loài có trí thông minh đã được quan sát thấy, dù chưa có sự tiếp xúc nào được thiết lập."
+      zh: "SCP-007位于对象腹部的一处空腔内。该球体看似地球的微缩近似复制品，直径约60厘米，拥有自己的天气系统。已观测到两个智慧物种，但尚未与其建立接触。"
+      zh_Hant: "SCP-007位於對象腹部的一處空腔內。該球體看似地球的微縮近似複製品，直徑約60公分，擁有自己的天氣系統。已觀測到兩個智慧物種，但尚未與其建立接觸。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the
+      close-up before. On the left side of the frame, attending-researcher-m
+      sits across a small round table, studying a chessboard between
+      them, chin in hand. On the right side of the frame, Subject-007
+      leans back casually in his chair, one hand resting on his open
+      robe, completely unbothered, considering his next move.
+    characters: [attending-researcher-m, subject-007]
+    caption:
+      ja: "███████博士は対象と毎週チェスを対局し、その間に対象の精神状態を評価している。対象は制限された生活環境を気にしていない様子だが、インターネット接続可能なコンピューターを繰り返し要求している。"
+      en: "Dr. ███████ has a weekly chess game with Subject, during which Subject's mental health is evaluated. Subject does not seem to mind the restricted living environment, though he has repeatedly requested a computer with an internet connection."
+      cs: "Dr. ███████ hraje se Subjektem každý týden šachovou partii, během níž je hodnocen jeho duševní stav. Subjektu zjevně nevadí omezené životní prostředí, ačkoli opakovaně žádal o počítač s připojením k internetu."
+      de: "Dr. ███████ spielt wöchentlich Schach mit dem Subjekt, wobei dessen geistiger Zustand beurteilt wird. Das Subjekt scheint sich an der eingeschränkten Wohnumgebung nicht zu stören, hat jedoch wiederholt einen Computer mit Internetzugang verlangt."
+      es: "El Dr. ███████ juega semanalmente al ajedrez con el Sujeto, durante lo cual se evalúa su salud mental. El Sujeto no parece molestarse por el entorno de vida restringido, aunque ha solicitado repetidamente una computadora con conexión a internet."
+      fr: "Le Dr ███████ joue chaque semaine aux échecs avec le Sujet, au cours desquelles sa santé mentale est évaluée. Le Sujet ne semble pas se soucier de son environnement de vie restreint, bien qu'il ait demandé à plusieurs reprises un ordinateur avec accès à internet."
+      it: "Il Dott. ███████ gioca settimanalmente a scacchi con il Soggetto, durante il quale ne viene valutata la salute mentale. Il Soggetto non sembra dispiacersi dell'ambiente di vita limitato, sebbene abbia ripetutamente richiesto un computer con connessione internet."
+      ko: "███████ 박사는 매주 대상과 체스를 두며, 이 시간 동안 대상의 정신 건강을 평가한다. 대상은 제한된 생활 환경을 신경 쓰지 않는 듯 보이지만, 인터넷이 연결된 컴퓨터를 반복적으로 요청해왔다."
+      pl: "Dr ███████ co tydzień gra w szachy z Osobnikiem, podczas czego oceniany jest jego stan psychiczny. Osobnikowi najwyraźniej nie przeszkadza ograniczone środowisko życia, choć wielokrotnie prosił o komputer z dostępem do internetu."
+      pt: "O Dr. ███████ joga xadrez semanalmente com o Sujeito, durante o qual sua saúde mental é avaliada. O Sujeito não parece se incomodar com o ambiente de vida restrito, embora tenha solicitado repetidamente um computador com conexão à internet."
+      th: "ดร. ███████ เล่นหมากรุกกับผู้ถูกทดสอบทุกสัปดาห์ ซึ่งระหว่างนั้นจะมีการประเมินสุขภาพจิตของผู้ถูกทดสอบ ผู้ถูกทดสอบดูเหมือนจะไม่รังเกียจสภาพแวดล้อมความเป็นอยู่ที่จำกัด แม้ว่าเขาจะร้องขอคอมพิวเตอร์ที่เชื่อมต่ออินเทอร์เน็ตซ้ำแล้วซ้ำเล่า"
+      uk: "Доктор ███████ щотижня грає із Суб'єктом у шахи, під час чого оцінюється його психічне здоров'я. Суб'єкт, здається, не заперечує проти обмеженого життєвого середовища, хоча неодноразово просив комп'ютер з підключенням до інтернету."
+      vi: "Bác sĩ ███████ chơi cờ vua hàng tuần với Đối Tượng, trong đó sức khỏe tâm thần của Đối Tượng được đánh giá. Đối Tượng dường như không phiền lòng với môi trường sống bị hạn chế, dù đã nhiều lần yêu cầu một chiếc máy tính có kết nối internet."
+      zh: "███████博士每周与对象下一盘棋，借此评估对象的精神状态。对象似乎并不介意受限的生活环境，尽管他多次要求提供一台能连接互联网的电脑。"
+      zh_Hant: "███████博士每週與對象下一盤棋，藉此評估對象的精神狀態。對象似乎並不介意受限的生活環境，儘管他多次要求提供一台能連接網際網路的電腦。"
+
+  - scene: >
+      Close-up on Subject-007's face, filling most of the frame, a very
+      different framing from the wider shot before. He gives a relaxed
+      half-smile and a small shrug, one eyebrow raised, utterly
+      untroubled by the question just asked of him.
+    characters: [subject-007]
+    caption:
+      ja: "その惑星の由来について尋ねられると、対象はこう答えた。「ある日目が覚めたら、もうそこにあったんだ。どうやってそこに来たのか、僕には全く分からないよ」"
+      en: "When questioned about the planet's origins, Subject replied, 'I just woke up one day, and there it was. I don't have any idea how it got there.'"
+      cs: "Když byl Subjekt dotázán na původ planety, odpověděl: „Jednoho dne jsem se prostě probudil a byla tam. Nemám tušení, jak se tam vzala.“"
+      de: "Auf die Frage nach dem Ursprung des Planeten antwortete das Subjekt: „Ich bin eines Tages einfach aufgewacht, und da war er schon. Ich habe keine Ahnung, wie er dahin gekommen ist.“"
+      es: "Cuando se le preguntó sobre el origen del planeta, el Sujeto respondió: «Simplemente me desperté un día y ahí estaba. No tengo ni idea de cómo llegó ahí»."
+      fr: "Interrogé sur l'origine de la planète, le Sujet a répondu : « Je me suis simplement réveillé un jour, et elle était là. Je n'ai aucune idée de comment elle est arrivée là. »"
+      it: "Quando gli è stato chiesto dell'origine del pianeta, il Soggetto ha risposto: 'Mi sono semplicemente svegliato un giorno, ed era già lì. Non ho la minima idea di come ci sia arrivato.'"
+      ko: "행성의 기원에 대해 질문받자 대상은 이렇게 답했다. \"어느 날 그냥 일어났더니 거기 있더라고요. 어떻게 거기 생겼는지는 저도 전혀 모르겠어요.\""
+      pl: "Zapytany o pochodzenie planety, Osobnik odpowiedział: „Po prostu pewnego dnia się obudziłem, a ona już tam była. Nie mam pojęcia, jak się tam znalazła”."
+      pt: "Ao ser questionado sobre as origens do planeta, o Sujeito respondeu: 'Eu simplesmente acordei um dia e lá estava ele. Não faço ideia de como ele foi parar aí.'"
+      th: "เมื่อถูกถามเกี่ยวกับที่มาของดาวเคราะห์ ผู้ถูกทดสอบตอบว่า \"ผมแค่ตื่นขึ้นมาวันหนึ่งแล้วมันก็อยู่ตรงนั้นแล้ว ผมไม่รู้เลยว่ามันไปอยู่ตรงนั้นได้ยังไง\""
+      uk: "Коли Суб'єкта запитали про походження планети, він відповів: «Я просто одного дня прокинувся, а вона вже там була. Я гадки не маю, як вона там опинилася»."
+      vi: "Khi được hỏi về nguồn gốc của hành tinh, Đối Tượng trả lời: \"Tôi chỉ thức dậy một ngày và thấy nó đã ở đó rồi. Tôi không có ý tưởng gì về việc nó xuất hiện ở đó bằng cách nào.\""
+      zh: "当被问及该行星的来历时，对象回答道：「我只是有一天醒来，它就已经在那儿了。我完全不知道它是怎么跑到那儿去的。」"
+      zh_Hant: "當被問及該行星的來歷時，對象回答道：「我只是有一天醒來，它就已經在那兒了。我完全不知道它是怎麼跑到那兒去的。」"

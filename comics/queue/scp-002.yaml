@@ -1,0 +1,135 @@
+# SCP-002 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。JP公式訳が直接取得できなかったため、検証済みの
+# 英語本文からの翻訳（ja含む）。
+
+id: scp-002
+
+title:
+  en: "SCP-002"
+  ja: "SCP-002"
+  cs: "SCP-002"
+  de: "SCP-002"
+  es: "SCP-002"
+  fr: "SCP-002"
+  it: "SCP-002"
+  ko: "SCP-002"
+  pl: "SCP-002"
+  pt: "SCP-002"
+  th: "SCP-002"
+  uk: "SCP-002"
+  vi: "SCP-002"
+  zh: "SCP-002"
+  zh_Hant: "SCP-002"
+
+attribution:
+  article: "SCP-002"
+  source_url: "http://scp-wiki.wikidot.com/scp-002"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+characters: [attending-researcher-f, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the whole containment
+      chamber. In the center of a bare industrial room kept at negative
+      air pressure, a large tumorous, fleshy pink-gray mass roughly the
+      size of a small room bulges from the floor, with a single rusted
+      iron valve hatch set into one side. On the left side of the frame,
+      attending-researcher-f stands behind a reinforced observation
+      window, clipboard in hand, watching it warily.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-002は体積約60立方メートルの、腫瘍のような肉塊に酷似している。片側にある鉄製のバルブハッチから内部に入ることができ、内部は質素な低家賃アパートの一室のような様相を呈している。"
+      en: "SCP-002 resembles a tumorous, fleshy growth with a volume of roughly 60 m³. An iron valve hatch on one side leads to its interior, which appears to be a standard low-rent apartment of modest size."
+      cs: "SCP-002 připomíná nádorovitý, masitý výrůstek o objemu přibližně 60 m³. Na jedné straně se nachází železný ventilový poklop vedoucí do jeho nitra, které vypadá jako standardní levný byt skromné velikosti."
+      de: "SCP-002 ähnelt einem tumorartigen, fleischigen Wuchs mit einem Volumen von etwa 60 m³. Eine eiserne Ventilluke an einer Seite führt zu seinem Inneren, das wie eine gewöhnliche, bescheiden große Billigwohnung wirkt."
+      es: "SCP-002 se asemeja a un crecimiento tumoral y carnoso con un volumen de aproximadamente 60 m³. Una escotilla de válvula de hierro en un lado conduce a su interior, que parece ser un apartamento modesto de alquiler bajo."
+      fr: "Le SCP-002 ressemble à une excroissance tumorale et charnue d'un volume d'environ 60 m³. Une écoutille à vanne en fer sur un côté mène à son intérieur, qui ressemble à un appartement modeste et bon marché standard."
+      it: "SCP-002 assomiglia a una escrescenza tumorale e carnosa con un volume di circa 60 m³. Un portello a valvola in ferro su un lato conduce al suo interno, che appare come un normale appartamento economico di modeste dimensioni."
+      ko: "SCP-002는 부피 약 60m³의 종양처럼 생긴 살덩어리를 닮았다. 한쪽에 있는 철제 밸브 해치를 통해 내부로 들어갈 수 있으며, 내부는 평범하고 값싼 소형 아파트 한 채처럼 보인다."
+      pl: "SCP-002 przypomina nowotworowy, mięsisty narośl o objętości około 60 m³. Żelazna klapa zaworowa po jednej stronie prowadzi do jego wnętrza, które wygląda jak zwyczajne, tanie mieszkanie o skromnych rozmiarach."
+      pt: "O SCP-002 se assemelha a um crescimento tumoral e carnudo com um volume de aproximadamente 60 m³. Uma escotilha de válvula de ferro em um dos lados leva ao seu interior, que parece ser um apartamento modesto e de baixo custo."
+      th: "SCP-002 มีลักษณะคล้ายก้อนเนื้อคล้ายเนื้องอกที่มีปริมาตรประมาณ 60 ลูกบาศก์เมตร ฝาวาล์วเหล็กด้านหนึ่งนำไปสู่ภายใน ซึ่งมีลักษณะเหมือนอพาร์ตเมนต์ราคาถูกขนาดย่อมทั่วไป"
+      uk: "SCP-002 нагадує пухлиноподібний, м'ясистий наріст об'ємом близько 60 м³. Залізний клапанний люк з одного боку веде до його нутра, яке виглядає як звичайна скромна дешева квартира."
+      vi: "SCP-002 trông giống như một khối u thịt với thể tích khoảng 60 m³. Một cửa sập van bằng sắt ở một bên dẫn vào bên trong, trông giống như một căn hộ giá rẻ bình thường có kích thước khiêm tốn."
+      zh: "SCP-002外观酷似一个肿瘤状的肉团，体积约60立方米。其一侧有一个铁制阀门舱口通向内部，内部看起来像是一间普通的低租金小公寓。"
+      zh_Hant: "SCP-002外觀酷似一個腫瘤狀的肉團，體積約60立方公尺。其一側有一個鐵製閥門艙口通向內部，內部看起來像是一間普通的低租金小公寓。"
+
+  - scene: >
+      Medium shot, waist-up, low angle, right before the open iron hatch.
+      On the right side of the frame, attending-researcher-f and
+      attending-researcher-m stand shoulder to shoulder just outside the
+      hatch, each gripping the other's forearm tightly with one hand,
+      tense and alert expressions, flashlights raised in the other hand.
+    characters: [attending-researcher-f, attending-researcher-m]
+    caption:
+      ja: "SCP-002から20メートル以内では、最低2名から成るチームでの行動が義務付けられる。対象への近接により知覚が鈍化、歪曲、あるいは影響を受ける可能性があるため、職員は常に互いに身体的接触を保つこと。"
+      en: "Teams including a minimum of two (2) members are required within 20 meters of SCP-002. Personnel should maintain physical contact with one another at all times, as perception may be dulled, skewed, or influenced by proximity to the object."
+      cs: "V okruhu 20 metrů od SCP-002 jsou vyžadovány týmy o minimálně dvou (2) členech. Personál by měl neustále udržovat vzájemný fyzický kontakt, neboť vnímání může být blízkostí objektu otupeno, zkresleno nebo ovlivněno."
+      de: "Innerhalb von 20 Metern um SCP-002 sind Teams mit mindestens zwei (2) Mitgliedern erforderlich. Das Personal sollte jederzeit körperlichen Kontakt zueinander halten, da die Wahrnehmung durch die Nähe zum Objekt getrübt, verzerrt oder beeinflusst werden kann."
+      es: "Se requieren equipos de un mínimo de dos (2) miembros dentro de un radio de 20 metros de SCP-002. El personal debe mantener contacto físico entre sí en todo momento, ya que la percepción puede verse embotada, distorsionada o influida por la proximidad al objeto."
+      fr: "Des équipes d'au moins deux (2) membres sont requises dans un rayon de 20 mètres autour du SCP-002. Le personnel doit maintenir un contact physique constant entre ses membres, la perception pouvant être émoussée, faussée ou influencée par la proximité de l'objet."
+      it: "Sono richieste squadre di almeno due (2) membri entro 20 metri da SCP-002. Il personale deve mantenere sempre il contatto fisico reciproco, poiché la percezione può risultare ottusa, distorta o influenzata dalla vicinanza all'oggetto."
+      ko: "SCP-002로부터 20미터 이내에서는 최소 2명으로 구성된 팀이 요구된다. 대상에 근접할 경우 지각이 둔화되거나 왜곡되거나 영향을 받을 수 있으므로, 직원들은 항상 서로 신체적 접촉을 유지해야 한다."
+      pl: "W promieniu 20 metrów od SCP-002 wymagane są zespoły liczące co najmniej dwóch (2) członków. Personel powinien przez cały czas utrzymywać ze sobą kontakt fizyczny, ponieważ bliskość obiektu może osłabiać, zniekształcać lub wpływać na percepcję."
+      pt: "São necessárias equipes com no mínimo dois (2) membros dentro de 20 metros do SCP-002. O pessoal deve manter contato físico uns com os outros o tempo todo, pois a percepção pode ser embotada, distorcida ou influenciada pela proximidade do objeto."
+      th: "ต้องใช้ทีมที่มีสมาชิกอย่างน้อยสอง (2) คนภายในระยะ 20 เมตรจาก SCP-002 เจ้าหน้าที่ควรสัมผัสร่างกายกันตลอดเวลา เนื่องจากการรับรู้อาจถูกทำให้มัวลง บิดเบือน หรือได้รับอิทธิพลจากความใกล้ชิดกับวัตถุ"
+      uk: "У межах 20 метрів від SCP-002 потрібні команди щонайменше з двох (2) осіб. Персонал повинен постійно підтримувати фізичний контакт один з одним, оскільки сприйняття може притуплюватися, спотворюватися або перебувати під впливом близькості до об'єкта."
+      vi: "Cần có các đội gồm tối thiểu hai (2) thành viên trong phạm vi 20 mét quanh SCP-002. Nhân viên phải luôn duy trì tiếp xúc cơ thể với nhau, vì nhận thức có thể bị làm chậm, sai lệch hoặc chịu ảnh hưởng khi ở gần đối tượng."
+      zh: "在SCP-002周围20米范围内，须以至少两(2)人为一组行动。由于靠近该物体可能导致知觉迟钝、扭曲或受到影响，人员应始终保持彼此的身体接触。"
+      zh_Hant: "在SCP-002周圍20公尺範圍內，須以至少兩(2)人為一組行動。由於靠近該物體可能導致知覺遲鈍、扭曲或受到影響，人員應始終保持彼此的身體接觸。"
+
+  - scene: >
+      Close-up, low angle, filling most of the frame with a single
+      armchair-shaped piece of furniture, its surface uncannily textured
+      like woven hair and polished bone rather than fabric or wood.
+      attending-researcher-m crouches beside it, flashlight raised, one
+      gloved hand hovering just above the material without touching it,
+      face tightening with recognition and unease.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "室内の家具は、詳しく調べると、彫刻加工された骨や編み込まれた毛髪、その他人体が生成した様々な生体物質でできているように見える。これまでに検査された物質は全て、室内の各物品ごとに独立した、あるいは断片化したDNA配列を示している。"
+      en: "The room contains furniture which, upon close examination, appears to be sculpted bone, woven hair, and various other biological substances produced by the human body. All matter tested thus far show independent or fragmented DNA sequences for each object in the room."
+      cs: "Nábytek v místnosti se při bližším zkoumání jeví jako vyřezaná kost, spletené vlasy a různé další biologické látky produkované lidským tělem. Veškerá dosud testovaná hmota vykazuje u každého předmětu v místnosti nezávislé nebo fragmentované sekvence DNA."
+      de: "Die Möbel im Raum erweisen sich bei näherer Untersuchung als geschnitzter Knochen, gewebtes Haar und verschiedene andere vom menschlichen Körper produzierte biologische Substanzen. Alle bisher getesteten Materialien zeigen für jeden Gegenstand im Raum unabhängige oder fragmentierte DNA-Sequenzen."
+      es: "El mobiliario de la habitación, examinado de cerca, parece estar hecho de hueso esculpido, cabello tejido y otras diversas sustancias biológicas producidas por el cuerpo humano. Toda la materia analizada hasta ahora muestra secuencias de ADN independientes o fragmentadas para cada objeto de la habitación."
+      fr: "Le mobilier de la pièce, examiné de près, semble constitué d'os sculpté, de cheveux tissés et de diverses autres substances biologiques produites par le corps humain. Toute la matière testée jusqu'à présent présente des séquences d'ADN indépendantes ou fragmentées pour chaque objet de la pièce."
+      it: "L'arredamento della stanza, esaminato da vicino, sembra essere composto da osso scolpito, capelli intrecciati e varie altre sostanze biologiche prodotte dal corpo umano. Tutto il materiale testato finora mostra sequenze di DNA indipendenti o frammentate per ogni oggetto della stanza."
+      ko: "방 안의 가구는 자세히 살펴보면 조각된 뼈, 짜여진 머리카락, 그리고 인체가 생성하는 다양한 기타 생물학적 물질로 이루어진 것으로 보인다. 지금까지 검사된 모든 물질은 방 안의 각 물체마다 독립적이거나 조각난 DNA 서열을 나타냈다."
+      pl: "Meble w pomieszczeniu, przy bliższych oględzinach, okazują się być wyrzeźbioną kością, tkanymi włosami i innymi różnorodnymi substancjami biologicznymi wytwarzanymi przez ludzkie ciało. Cała dotychczas przebadana materia wykazuje niezależne lub fragmentaryczne sekwencje DNA dla każdego przedmiotu w pomieszczeniu."
+      pt: "A mobília do quarto, examinada de perto, parece ser feita de osso esculpido, cabelo tecido e várias outras substâncias biológicas produzidas pelo corpo humano. Todo o material testado até agora apresenta sequências de DNA independentes ou fragmentadas para cada objeto no quarto."
+      th: "เฟอร์นิเจอร์ในห้องเมื่อพิจารณาอย่างใกล้ชิดดูเหมือนจะเป็นกระดูกที่แกะสลัก เส้นผมที่ถักทอ และสารชีวภาพอื่นๆ ที่ร่างกายมนุษย์ผลิตขึ้น สสารทั้งหมดที่ผ่านการทดสอบจนถึงขณะนี้แสดงลำดับดีเอ็นเอที่เป็นอิสระหรือแตกกระจายสำหรับแต่ละชิ้นในห้อง"
+      uk: "Меблі в кімнаті при уважному розгляді виявляються різьбленою кісткою, сплетеним волоссям та іншими біологічними речовинами, що виробляються людським тілом. Уся досліджена дотепер матерія демонструє незалежні або фрагментовані послідовності ДНК для кожного предмета в кімнаті."
+      vi: "Đồ nội thất trong phòng, khi xem xét kỹ, có vẻ được tạo từ xương chạm khắc, tóc bện và nhiều chất sinh học khác do cơ thể con người sản sinh. Mọi vật chất được kiểm tra cho đến nay đều cho thấy chuỗi DNA độc lập hoặc rời rạc đối với từng vật thể trong phòng."
+      zh: "室内的家具经仔细检查后，似乎是由雕刻的骨骼、编织的毛发以及人体产生的各种其他生物物质构成。迄今为止检测过的所有物质，其房间内每件物品都呈现出独立或片段化的DNA序列。"
+      zh_Hant: "室內的傢俱經仔細檢查後，似乎是由雕刻的骨骼、編織的毛髮以及人體產生的各種其他生物物質構成。迄今為止檢測過的所有物質，其房間內每件物品都呈現出獨立或片段化的DNA序列。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole
+      interior room, a very different framing from the tight close-up
+      before. The small apartment-like space is now cluttered with new
+      additions — two mismatched lamps, a beanbag chair, an old
+      television, a radio, a rolled throw rug, a few children's toys, and
+      a small potted plant arranged almost cheerfully. In the doorway,
+      attending-researcher-f stands frozen, clipboard hanging at her
+      side, staring at the room with flat disbelief.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "施設に収容されている間、対象はさらにランプ2つ、敷物1枚、テレビ1台、ラジオ1台、ビーズクッションチェア1脚、未知の言語で書かれた本3冊、子供用玩具4つ、そして小さな鉢植えの植物を自ら室内に加えた。"
+      en: "In its time at the facility, subject has further furnished itself with two lamps, a throw rug, a television, a radio, a beanbag chair, three books in an unknown language, four children's toys, and a small potted plant."
+      cs: "Během svého pobytu v zařízení si subjekt dále vybavil místnost dvěma lampami, kobercem, televizí, rádiem, křeslem s výplní, třemi knihami v neznámém jazyce, čtyřmi dětskými hračkami a malou květinou v květináči."
+      de: "Während seiner Zeit in der Einrichtung hat sich das Subjekt zusätzlich mit zwei Lampen, einem Teppich, einem Fernseher, einem Radio, einem Sitzsack, drei Büchern in einer unbekannten Sprache, vier Kinderspielzeugen und einer kleinen Topfpflanze ausgestattet."
+      es: "Durante su tiempo en las instalaciones, el sujeto se ha equipado además con dos lámparas, una alfombra, un televisor, una radio, un puf, tres libros en un idioma desconocido, cuatro juguetes infantiles y una pequeña planta en maceta."
+      fr: "Durant son séjour dans l'installation, le sujet s'est en outre équipé de deux lampes, d'un tapis, d'un téléviseur, d'une radio, d'un pouf, de trois livres dans une langue inconnue, de quatre jouets d'enfants et d'une petite plante en pot."
+      it: "Durante la sua permanenza nella struttura, il soggetto si è ulteriormente arredato con due lampade, un tappeto, un televisore, una radio, una poltrona a sacco, tre libri in una lingua sconosciuta, quattro giocattoli per bambini e una piccola pianta in vaso."
+      ko: "시설에 수용된 동안 대상은 램프 2개, 러그 1장, 텔레비전 1대, 라디오 1대, 빈백 의자 1개, 미지의 언어로 쓰인 책 3권, 아동용 장난감 4개, 그리고 작은 화분 하나를 추가로 스스로 마련했다."
+      pl: "Podczas pobytu w placówce obiekt dodatkowo wyposażył się w dwie lampy, dywanik, telewizor, radio, fotel typu sako, trzy książki w nieznanym języku, cztery dziecięce zabawki oraz małą doniczkową roślinę."
+      pt: "Durante seu tempo nas instalações, o sujeito se equipou ainda mais com duas luminárias, um tapete, uma televisão, um rádio, uma poltrona puff, três livros em um idioma desconhecido, quatro brinquedos infantis e uma pequena planta em vaso."
+      th: "ระหว่างที่อยู่ในสถานที่ วัตถุได้ตกแต่งตัวเองเพิ่มเติมด้วยโคมไฟสองดวง พรมปูพื้นหนึ่งผืน โทรทัศน์หนึ่งเครื่อง วิทยุหนึ่งเครื่อง เก้าอี้บีนแบ็กหนึ่งตัว หนังสือสามเล่มที่เขียนด้วยภาษาที่ไม่รู้จัก ของเล่นเด็กสี่ชิ้น และต้นไม้กระถางเล็กหนึ่งต้น"
+      uk: "За час перебування в закладі об'єкт додатково обставив себе двома лампами, килимком, телевізором, радіо, кріслом-мішком, трьома книгами невідомою мовою, чотирма дитячими іграшками та маленькою рослиною в горщику."
+      vi: "Trong thời gian ở cơ sở, đối tượng đã tự trang bị thêm hai chiếc đèn, một tấm thảm, một chiếc tivi, một chiếc radio, một ghế lười, ba cuốn sách bằng thứ ngôn ngữ không xác định, bốn món đồ chơi trẻ em và một chậu cây nhỏ."
+      zh: "在设施收容期间，该对象进一步为自己添置了两盏台灯、一张小地毯、一台电视机、一台收音机、一张豆袋椅、三本用未知语言写成的书、四件儿童玩具，以及一盆小盆栽。"
+      zh_Hant: "在設施收容期間，該對象進一步為自己添置了兩盞檯燈、一張小地毯、一台電視機、一台收音機、一張豆袋椅、三本用未知語言寫成的書、四件兒童玩具，以及一盆小盆栽。"

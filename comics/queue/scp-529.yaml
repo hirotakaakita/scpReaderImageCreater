@@ -1,0 +1,140 @@
+# SCP-529「半身猫のジョーシー」4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-529
+
+title:
+  en: "SCP-529: Josie the Half-Cat"
+  ja: "SCP-529：半身猫のジョーシー"
+  cs: "SCP-529: Josie, polovina kočky"
+  de: "SCP-529: Josie, die halbe Katze"
+  es: "SCP-529: Josie, la media gata"
+  fr: "SCP-529 : Josie, la demi-chatte"
+  it: "SCP-529: Josie, la mezza gatta"
+  ko: "SCP-529: 반쪽 고양이 조시"
+  pl: "SCP-529: Josie, pół kota"
+  pt: "SCP-529: Josie, a Meia-Gata"
+  th: "SCP-529: โจซี่ แมวครึ่งตัว"
+  uk: "SCP-529: Джозі, напівкішка"
+  vi: "SCP-529: Josie, chú mèo nửa thân"
+  zh: "SCP-529：半身猫乔西"
+  zh_Hant: "SCP-529：半身貓喬西"
+
+attribution:
+  article: "SCP-529"
+  source_url: "http://scp-wiki.wikidot.com/scp-529"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-529:
+    name: SCP-529
+    description: >
+      SCP-529, nicknamed "Josie", a small house cat with grey tabby
+      markings (fur color RGB 130,125,115 with darker stripes RGB
+      60,55,50). Her body ends sharply just behind the rear of her
+      ribcage, as if sliced in two — there are no hindquarters, hind legs,
+      or tail. The flat cross-section where her body ends is a perfectly
+      smooth, pure matte black (RGB 5,5,5, no reflections, no visible
+      interior or anatomy). Despite missing her hind half, she moves,
+      walks, and balances as if it were still there.
+
+characters: [scp-529, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, in a plain facility corridor. On
+      the left side of the frame, SCP-529 trots along the hallway toward
+      the camera. On the right side of the frame, Attending Researcher (F)
+      crouches down to greet her, reaching out one hand.
+    characters: [scp-529, attending-researcher-f]
+    caption:
+      ja: "特別な予防措置は今のところ必要とされていない。「ジョーシー」は非常に人懐こく、現段階では施設の下層階を自由に動き回ることを許可されている。"
+      en: "No special precautions have yet proven necessary. 'Josie' is quite affectionate, and at this stage is free to move about the lower levels of the facility."
+      cs: "Zatím se neprokázalo, že by byla nutná žádná zvláštní opatření. 'Josie' je velmi láskyplná a v této fázi se smí volně pohybovat po nižších patrech zařízení."
+      de: "Bisher haben sich keine besonderen Vorsichtsmaßnahmen als notwendig erwiesen. 'Josie' ist sehr anhänglich und darf sich in diesem Stadium frei in den unteren Ebenen der Einrichtung bewegen."
+      es: "Hasta el momento no se ha demostrado que sean necesarias precauciones especiales. 'Josie' es bastante cariñosa, y en esta etapa tiene libertad para moverse por los niveles inferiores de las instalaciones."
+      fr: "Aucune précaution particulière ne s'est encore avérée nécessaire. « Josie » est très affectueuse et, à ce stade, est libre de se déplacer dans les niveaux inférieurs de l'installation."
+      it: "Finora non si sono rese necessarie precauzioni speciali. 'Josie' è piuttosto affettuosa e, in questa fase, è libera di muoversi nei livelli inferiori della struttura."
+      ko: "지금까지 특별한 예방 조치가 필요하다고 밝혀진 바는 없다. '조시'는 매우 다정하며, 현 단계에서는 시설의 하층부를 자유롭게 돌아다닐 수 있도록 허용되어 있다."
+      pl: "Jak dotąd nie okazały się konieczne żadne szczególne środki ostrożności. 'Josie' jest dość czuła i na tym etapie może swobodnie poruszać się po niższych piętrach placówki."
+      pt: "Até o momento, não se mostrou necessária nenhuma precaução especial. 'Josie' é bastante afetuosa e, nesta fase, tem liberdade para circular pelos níveis inferiores da instalação."
+      th: "จนถึงขณะนี้ยังไม่พบว่าจำเป็นต้องมีมาตรการป้องกันพิเศษใดๆ 'โจซี่' ค่อนข้างเป็นมิตร และในขั้นนี้ได้รับอนุญาตให้เดินไปมาอย่างอิสระในชั้นล่างของสถานที่"
+      uk: "Досі не виявлено потреби в жодних особливих запобіжних заходах. 'Джозі' досить лагідна, і на цьому етапі їй дозволено вільно пересуватися нижніми поверхами об'єкта."
+      vi: "Cho đến nay chưa có biện pháp phòng ngừa đặc biệt nào được chứng minh là cần thiết. 'Josie' khá tình cảm, và ở giai đoạn này được tự do di chuyển quanh các tầng dưới của cơ sở."
+      zh: "迄今为止尚未证实需要采取任何特殊预防措施。「乔西」相当亲人，目前阶段可自由在设施的下层活动。"
+      zh_Hant: "迄今為止尚未證實需要採取任何特殊預防措施。「喬西」相當親人，目前階段可自由在設施的下層活動。"
+
+  - scene: >
+      Medium shot, side profile view at cat height, showing SCP-529's full
+      body mid-stride as she walks across the frame. Her front half is a
+      normal grey tabby cat; behind her ribcage, her body abruptly ends in
+      a flat, pure black cross-section where her hindquarters should be,
+      with no hind legs or tail visible.
+    characters: [scp-529]
+    caption:
+      ja: "SCP-529は灰色のキジトラ模様を持つ小型の飼い猫（Felis catus）である。胸郭の終端より後方の部位が欠損しているように見える。体はまるで真っ二つに切断されたかのように、鋭く途切れている。"
+      en: "SCP-529 is a small house cat (Felis catus) with grey tabby markings. Parts of the animal to the rear of the end of the ribcage appear to be missing. The body terminates sharply as if sliced in two."
+      cs: "SCP-529 je malá domácí kočka (Felis catus) se šedým mourovatým zbarvením. Části zvířete za koncem hrudního koše zřejmě chybí. Tělo náhle končí, jako by bylo rozříznuto na dvě části."
+      de: "SCP-529 ist eine kleine Hauskatze (Felis catus) mit grauer Tigerzeichnung. Teile des Tieres hinter dem Ende des Brustkorbs scheinen zu fehlen. Der Körper endet abrupt, als wäre er in zwei Teile geschnitten."
+      es: "SCP-529 es un pequeño gato doméstico (Felis catus) con manchas atigradas grises. Las partes del animal posteriores al final de la caja torácica parecen faltar. El cuerpo termina abruptamente, como si hubiera sido cortado en dos."
+      fr: "SCP-529 est un petit chat domestique (Felis catus) aux marques tigrées grises. Les parties de l'animal situées à l'arrière de l'extrémité de la cage thoracique semblent manquantes. Le corps se termine brusquement, comme s'il avait été tranché en deux."
+      it: "SCP-529 è un piccolo gatto domestico (Felis catus) con manto tigrato grigio. Le parti dell'animale posteriori alla fine della gabbia toracica sembrano mancanti. Il corpo termina bruscamente, come se fosse stato tagliato in due."
+      ko: "SCP-529는 회색 태비 무늬를 가진 작은 집고양이(Felis catus)이다. 흉곽 끝부분 뒤쪽 부위가 없는 것으로 보인다. 몸통은 마치 두 동강 난 것처럼 날카롭게 끝나 있다."
+      pl: "SCP-529 to mały kot domowy (Felis catus) w szarym pręgowanym umaszczeniu. Wygląda na to, że brakuje części zwierzęcia znajdujących się za końcem klatki piersiowej. Ciało kończy się gwałtownie, jakby zostało przecięte na pół."
+      pt: "SCP-529 é um pequeno gato doméstico (Felis catus) com pelagem tigrada cinza. As partes do animal atrás do fim da caixa torácica parecem estar ausentes. O corpo termina abruptamente, como se tivesse sido cortado ao meio."
+      th: "SCP-529 คือแมวบ้านตัวเล็ก (Felis catus) ลายเสือสีเทา ส่วนของร่างกายที่อยู่ด้านหลังปลายซี่โครงดูเหมือนจะหายไป ลำตัวสิ้นสุดลงอย่างฉับพลันราวกับถูกตัดออกเป็นสองท่อน"
+      uk: "SCP-529 — маленька домашня кішка (Felis catus) із сірим смугастим забарвленням. Частини тварини позаду кінця грудної клітки, схоже, відсутні. Тіло різко обривається, ніби розрізане навпіл."
+      vi: "SCP-529 là một con mèo nhà nhỏ (Felis catus) với hoa văn vằn xám. Các phần của con vật phía sau đầu cuối lồng ngực dường như bị thiếu. Cơ thể kết thúc đột ngột như thể bị cắt làm đôi."
+      zh: "SCP-529是一只体型小的家猫（Felis catus），毛色为灰色虎斑。胸腔末端后方的身体部位似乎缺失了。躯体截然而止，仿佛被一分为二。"
+      zh_Hant: "SCP-529是一隻體型小的家貓（Felis catus），毛色為灰色虎斑。胸腔末端後方的身體部位似乎缺失了。軀體截然而止，彷彿被一分為二。"
+
+  - scene: >
+      Close-up shot on the flat black cross-section area, filling most of
+      the frame. On the left side of the frame, Attending Researcher (F)'s
+      fingers reach in toward it. On the right side of the frame, SCP-529's
+      head has whipped around toward the hand, ears back, one front paw
+      raised with claws extended in warning.
+    characters: [attending-researcher-f, scp-529]
+    caption:
+      ja: "この断面は動物の内部を見せることはなく、肉眼には純粋な黒色に見え、あらゆる不可視波長の光を吸収する。この部分を優しく撫でると、ゴロゴロ喉を鳴らす等の好意的な反応を示すこともあるが、より多くの場合、爪を構えて相手に反撃してくる。"
+      en: "The cross-section does not display the interior of the animal, but appears pure black to the eye, and absorbs all non-visible wavelengths of light. Gentle stroking of this area sometimes yields a positive reaction (purring and so on) but more usually leads to the creature turning on the agent, claws at the ready."
+      cs: "Průřez neukazuje vnitřek zvířete, ale jeví se oku jako čistě černý a pohlcuje všechny neviditelné vlnové délky světla. Jemné hlazení této oblasti někdy vyvolá pozitivní reakci (předení apod.), ale častěji vede k tomu, že se tvor obrátí proti agentovi s napřaženými drápy."
+      de: "Der Querschnitt zeigt nicht das Innere des Tieres, sondern erscheint dem Auge als reines Schwarz und absorbiert alle nicht sichtbaren Wellenlängen des Lichts. Sanftes Streicheln dieses Bereichs führt manchmal zu einer positiven Reaktion (Schnurren und Ähnliches), meist jedoch dazu, dass sich das Wesen mit gezückten Krallen gegen den Agenten wendet."
+      es: "La sección transversal no muestra el interior del animal, sino que aparece completamente negra a la vista y absorbe todas las longitudes de onda de luz no visibles. Acariciar suavemente esta zona a veces provoca una reacción positiva (ronroneo, etc.), pero más a menudo hace que la criatura se vuelva contra el agente con las garras listas."
+      fr: "La section transversale ne montre pas l'intérieur de l'animal, mais apparaît d'un noir pur à l'œil et absorbe toutes les longueurs d'onde de lumière non visibles. Caresser doucement cette zone provoque parfois une réaction positive (ronronnement, etc.), mais mène le plus souvent la créature à se retourner contre l'agent, griffes prêtes."
+      it: "La sezione trasversale non mostra l'interno dell'animale, ma appare all'occhio di un nero puro e assorbe tutte le lunghezze d'onda della luce non visibili. Accarezzare delicatamente quest'area produce a volte una reazione positiva (fusa e simili), ma più spesso porta la creatura a rivoltarsi contro l'agente, artigli pronti."
+      ko: "이 단면은 동물의 내부를 보여주지 않으며, 눈에는 완전한 검은색으로 보이고 가시광선 이외의 모든 파장을 흡수한다. 이 부위를 부드럽게 쓰다듬으면 이따금 그르렁거리는 등 긍정적인 반응을 보이기도 하지만, 대개는 대상이 요원에게 발톱을 세우고 돌아서게 된다."
+      pl: "Przekrój nie ukazuje wnętrza zwierzęcia, lecz wydaje się oku czystą czernią i pochłania wszystkie niewidzialne długości fal światła. Delikatne głaskanie tego obszaru czasem wywołuje pozytywną reakcję (mruczenie itp.), ale częściej prowadzi do tego, że stworzenie obraca się przeciwko agentowi z gotowymi pazurami."
+      pt: "A seção transversal não mostra o interior do animal, mas aparenta ser de um preto puro aos olhos, absorvendo todos os comprimentos de onda de luz não visíveis. Acariciar suavemente essa área às vezes gera uma reação positiva (ronronar, etc.), mas geralmente leva a criatura a se voltar contra o agente com as garras prontas."
+      th: "หน้าตัดนี้ไม่ได้แสดงส่วนภายในของสัตว์ แต่ปรากฏเป็นสีดำสนิทต่อสายตา และดูดซับความยาวคลื่นแสงที่มองไม่เห็นทั้งหมด การลูบส่วนนี้เบาๆ บางครั้งก่อให้เกิดปฏิกิริยาเชิงบวก (เช่น เสียงคราง) แต่ส่วนใหญ่มักทำให้สัตว์หันมาทำร้ายเจ้าหน้าที่ด้วยกรงเล็บที่พร้อมจะข่วน"
+      uk: "Поперечний переріз не показує нутрощі тварини, а виглядає для ока чисто чорним і поглинає всі невидимі довжини хвиль світла. Обережне погладжування цієї ділянки іноді викликає позитивну реакцію (муркотіння тощо), але частіше призводить до того, що істота обертається проти агента з готовими до удару кігтями."
+      vi: "Mặt cắt không cho thấy nội tạng của con vật, mà có màu đen tuyền đối với mắt thường và hấp thụ mọi bước sóng ánh sáng không nhìn thấy được. Vuốt ve nhẹ nhàng khu vực này đôi khi tạo ra phản ứng tích cực (kêu gừ gừ, v.v.) nhưng thường dẫn đến việc con vật quay sang tấn công đặc vụ với móng vuốt sẵn sàng."
+      zh: "该切面并未显露动物的内部结构，在肉眼看来纯黑一片，并会吸收所有不可见波长的光。轻柔抚摸此区域有时会引发正面反应（如呼噜声等），但更常见的情况是该生物转身对特工亮出爪子。"
+      zh_Hant: "該切面並未顯露動物的內部結構，在肉眼看來純黑一片，並會吸收所有不可見波長的光。輕柔撫摸此區域有時會引發正面反應（如呼嚕聲等），但更常見的情況是該生物轉身對特工亮出爪子。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole
+      corridor again. On the left side of the frame, Attending Researcher
+      (F) kneels, holding out a small piece of cheese on her open palm. On
+      the right side of the frame, SCP-529 sits primly in front of her,
+      completely calm and content, eyes closed.
+    characters: [attending-researcher-f, scp-529]
+    caption:
+      ja: "職員は彼女にチーズを与えることを許可されていない――十分な量のチーズを与えられないと、彼女は情緒不安定になるためである。"
+      en: "Staff are not permitted to feed cheese to her - she will become distressed if not given sufficient cheese."
+      cs: "Personálu není dovoleno krmit ji sýrem - pokud nedostane dostatek sýra, upadne do rozrušení."
+      de: "Dem Personal ist es nicht gestattet, ihr Käse zu füttern - sie wird unruhig, wenn sie nicht ausreichend Käse erhält."
+      es: "El personal no tiene permitido darle queso - se angustiará si no recibe suficiente queso."
+      fr: "Le personnel n'est pas autorisé à lui donner du fromage - elle devient anxieuse si elle n'en reçoit pas suffisamment."
+      it: "Al personale non è consentito darle formaggio: si agiterà se non ne riceve a sufficienza."
+      ko: "직원은 그녀에게 치즈를 먹여서는 안 된다 - 충분한 치즈를 받지 못하면 불안해하기 때문이다."
+      pl: "Personelowi nie wolno karmić jej serem - jeśli nie dostanie wystarczającej ilości sera, staje się rozdrażniona."
+      pt: "A equipe não tem permissão para alimentá-la com queijo - ela ficará angustiada se não receber queijo suficiente."
+      th: "เจ้าหน้าที่ไม่ได้รับอนุญาตให้ป้อนชีสแก่มัน - มันจะเกิดความเครียดหากไม่ได้รับชีสอย่างเพียงพอ"
+      uk: "Персоналу заборонено годувати її сиром - вона стає стривоженою, якщо не отримує достатньо сиру."
+      vi: "Nhân viên không được phép cho nó ăn phô mai - nó sẽ trở nên căng thẳng nếu không được cho đủ phô mai."
+      zh: "工作人员不得给她喂食奶酪——若得不到足够的奶酪，她会变得烦躁不安。"
+      zh_Hant: "工作人員不得給她餵食起司——若得不到足夠的起司，她會變得煩躁不安。"

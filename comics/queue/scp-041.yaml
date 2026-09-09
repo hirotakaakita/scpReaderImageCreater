@@ -1,0 +1,146 @@
+# SCP-041 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 「付き添い」の好みのうちグロ・スナッフ映画への言及は避け、児童向け番組の
+# 側面のみ描写した。Addendum・Document-01（少女の歌声等の不穏な逸話）は
+# 本編に混ぜない。キャラにセリフは言わせない。JP公式訳が直接取得できなかった
+# ため、検証済みの英語本文からの翻訳（ja含む）。
+
+id: scp-041
+
+title:
+  en: "SCP-041"
+  ja: "SCP-041"
+  cs: "SCP-041"
+  de: "SCP-041"
+  es: "SCP-041"
+  fr: "SCP-041"
+  it: "SCP-041"
+  ko: "SCP-041"
+  pl: "SCP-041"
+  pt: "SCP-041"
+  th: "SCP-041"
+  uk: "SCP-041"
+  vi: "SCP-041"
+  zh: "SCP-041"
+  zh_Hant: "SCP-041"
+
+attribution:
+  article: "SCP-041"
+  source_url: "http://scp-wiki.wikidot.com/scp-041"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-041:
+    name: SCP-041
+    description: >
+      A pale, thin adult man lying motionless in a hospital bed, eyes
+      closed, connected to a respirator mask, a pacemaker monitor, and
+      a naso-gastric feeding tube, blankets tucked neatly around him,
+      utterly still.
+
+characters: [scp-041, attending-researcher-f, d-class, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a quiet hospital-style
+      room. scp-041 lies motionless in a hospital bed, connected to a
+      respirator mask and monitoring equipment, blankets tucked neatly
+      around him. Near the doorway, a faint red circle marking is
+      visible painted on the floor. attending-researcher-f stands just
+      inside the circle, one hand raised to her temple, startled
+      expression, as if she just caught a stray thought that wasn't her
+      own.
+    characters: [scp-041, attending-researcher-f]
+    caption:
+      ja: "SCP-041は男性の人間である。外見上、SCP-041は遷延性植物状態にあるように見える。しかし、その存在下にいる者は、自分の思考が周囲の全員に半可聴的な形で伝わっていることに気づき始める。"
+      en: "SCP-041 is a male human. Visually, SCP-041 appears to be in a persistent vegetative state. However, observers in his presence begin to realize that their thoughts are broadcast in a semi-audible fashion to everyone nearby."
+      cs: "SCP-041 je muž. Vizuálně se zdá, že se SCP-041 nachází v přetrvávajícím vegetativním stavu. Pozorovatelé v jeho přítomnosti si však postupně uvědomí, že jejich myšlenky jsou poloslyšitelným způsobem vysílány všem v okolí."
+      de: "SCP-041 ist ein männlicher Mensch. Optisch scheint sich SCP-041 in einem anhaltenden vegetativen Zustand zu befinden. Beobachter in seiner Gegenwart bemerken jedoch nach und nach, dass ihre Gedanken auf halbhörbare Weise an alle in der Nähe übertragen werden."
+      es: "SCP-041 es un ser humano de sexo masculino. Visualmente, SCP-041 parece estar en un estado vegetativo persistente. Sin embargo, los observadores en su presencia comienzan a darse cuenta de que sus pensamientos se transmiten de forma semiaudible a todos los que están cerca."
+      fr: "Le SCP-041 est un être humain de sexe masculin. Visuellement, le SCP-041 semble être dans un état végétatif persistant. Cependant, les observateurs en sa présence commencent à réaliser que leurs pensées sont diffusées de manière semi-audible à tous ceux qui se trouvent à proximité."
+      it: "SCP-041 è un essere umano di sesso maschile. Visivamente, SCP-041 sembra trovarsi in uno stato vegetativo persistente. Tuttavia, gli osservatori in sua presenza iniziano a rendersi conto che i loro pensieri vengono trasmessi in modo semi-udibile a tutti i presenti nelle vicinanze."
+      ko: "SCP-041은 남성 인간이다. 외견상 SCP-041은 지속적 식물인간 상태에 있는 것처럼 보인다. 그러나 그의 곁에 있는 관찰자들은 자신의 생각이 주변의 모든 사람에게 반가청적인 방식으로 방송되고 있음을 깨닫기 시작한다."
+      pl: "SCP-041 to mężczyzna. Wizualnie SCP-041 wydaje się być w stanie przetrwałej wegetacji. Jednak obserwatorzy w jego obecności zaczynają zdawać sobie sprawę, że ich myśli są nadawane w sposób półsłyszalny wszystkim w pobliżu."
+      pt: "O SCP-041 é um ser humano do sexo masculino. Visualmente, o SCP-041 parece estar em estado vegetativo persistente. No entanto, observadores em sua presença começam a perceber que seus pensamentos são transmitidos de forma semiaudível para todos que estão por perto."
+      th: "SCP-041 คือมนุษย์เพศชาย มองด้วยตาแล้ว SCP-041 ดูเหมือนอยู่ในภาวะพืชถาวร แต่ผู้สังเกตการณ์ที่อยู่ใกล้เขาจะเริ่มตระหนักว่าความคิดของตนถูกถ่ายทอดออกไปในลักษณะกึ่งได้ยินแก่ทุกคนที่อยู่บริเวณนั้น"
+      uk: "SCP-041 — це чоловік. Візуально SCP-041 виглядає так, ніби перебуває у стійкому вегетативному стані. Однак спостерігачі в його присутності поступово усвідомлюють, що їхні думки транслюються у напівчутному вигляді всім поруч."
+      vi: "SCP-041 là một người đàn ông. Về mặt hình ảnh, SCP-041 dường như đang ở trạng thái thực vật kéo dài. Tuy nhiên, những người quan sát trong sự hiện diện của anh ta bắt đầu nhận ra rằng suy nghĩ của họ đang được phát đi theo cách bán-nghe-được đến tất cả mọi người xung quanh."
+      zh: "SCP-041是一名男性人类。从外观上看，SCP-041似乎处于持续性植物状态。然而，在其身边的观察者会开始意识到，自己的想法正以一种半可听的方式传播给周围所有人。"
+      zh_Hant: "SCP-041是一名男性人類。從外觀上看，SCP-041似乎處於持續性植物狀態。然而，在其身邊的觀察者會開始意識到，自己的想法正以一種半可聽的方式傳播給周圍所有人。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the
+      wide shot before. On the left side of the frame, d-class sits in
+      a chair beside the bed, watching a small wall-mounted television,
+      expression blank and unbothered, colorful cartoon shapes playing
+      on the screen. On the right side of the frame, scp-041 lies
+      motionless in the background, unchanged.
+    characters: [d-class, scp-041]
+    caption:
+      ja: "テレビを見る「付き添い」を部屋に置くことは、SCP-041の精神衛生にとって有益である。これにより、SCP-041は他者の心を通して実質的にテレビを「見る」ことができる。"
+      en: "It is beneficial to SCP-041's mental health to have a 'sitter' in the room who watches television. This allows SCP-041 to effectively 'watch' television through the mind of someone else."
+      cs: "Pro duševní zdraví SCP-041 je prospěšné mít v místnosti 'hlídače', který sleduje televizi. To umožňuje SCP-041 efektivně 'sledovat' televizi skrze mysl někoho jiného."
+      de: "Es ist förderlich für die geistige Gesundheit von SCP-041, im Raum eine 'Aufsichtsperson' zu haben, die fernsieht. Dies ermöglicht es SCP-041, effektiv durch den Verstand einer anderen Person fernzusehen."
+      es: "Resulta beneficioso para la salud mental de SCP-041 tener a un 'acompañante' en la habitación que vea televisión. Esto permite que SCP-041 pueda, efectivamente, 'ver' televisión a través de la mente de otra persona."
+      fr: "Il est bénéfique pour la santé mentale du SCP-041 d'avoir dans la pièce un « surveillant » qui regarde la télévision. Cela permet au SCP-041 de « regarder » effectivement la télévision à travers l'esprit d'une autre personne."
+      it: "È benefico per la salute mentale di SCP-041 avere in stanza un 'accompagnatore' che guarda la televisione. Questo consente a SCP-041 di 'guardare' effettivamente la televisione attraverso la mente di qualcun altro."
+      ko: "방 안에 텔레비전을 시청하는 '동반자'를 두는 것은 SCP-041의 정신 건강에 유익하다. 이를 통해 SCP-041은 다른 사람의 마음을 통해 사실상 텔레비전을 '시청'할 수 있다."
+      pl: "Dla zdrowia psychicznego SCP-041 korzystne jest posiadanie w pokoju 'opiekuna', który ogląda telewizję. Dzięki temu SCP-041 może skutecznie 'oglądać' telewizję poprzez umysł innej osoby."
+      pt: "É benéfico para a saúde mental do SCP-041 ter um 'acompanhante' no quarto que assista televisão. Isso permite que o SCP-041 efetivamente 'assista' televisão através da mente de outra pessoa."
+      th: "การมี 'ผู้ดูแล' อยู่ในห้องที่ดูโทรทัศน์เป็นประโยชน์ต่อสุขภาพจิตของ SCP-041 ซึ่งช่วยให้ SCP-041 สามารถ 'ดู' โทรทัศน์ผ่านจิตใจของผู้อื่นได้อย่างมีประสิทธิภาพ"
+      uk: "Для психічного здоров'я SCP-041 корисно мати в кімнаті 'наглядача', який дивиться телевізор. Це дозволяє SCP-041 фактично 'дивитися' телевізор через розум іншої людини."
+      vi: "Việc có một 'người trông coi' trong phòng xem tivi có lợi cho sức khỏe tâm thần của SCP-041. Điều này cho phép SCP-041 thực sự 'xem' tivi thông qua tâm trí của người khác."
+      zh: "在房间里安排一名观看电视的「陪护者」有益于SCP-041的心理健康。这使SCP-041能够透过他人的思维实际「观看」电视。"
+      zh_Hant: "在房間裡安排一名觀看電視的「陪護者」有益於SCP-041的心理健康。這使SCP-041能夠透過他人的思維實際「觀看」電視。"
+
+  - scene: >
+      Close-up, filling most of the frame, a very different framing from
+      the medium shot before, on attending-researcher-m's face, eyes
+      closed tight in concentration, brow furrowed. Faintly visible in
+      the air just beside his head, like a hazy afterimage, a crude,
+      lopsided attempt at a human face with mismatched features,
+      comically wrong rather than frightening.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "視覚的な思考やイメージも同様に伝達されるが、それほど容易には受信されない。最も伝達に成功しづらいイメージは、人の顔であるようだ。"
+      en: "Visual thoughts and images are broadcast as well, but are not received as readily. The most difficult imagery to be successfully broadcast appears to be a person's face."
+      cs: "Vizuální myšlenky a obrazy jsou rovněž vysílány, ale nejsou přijímány tak snadno. Nejobtížněji úspěšně přenositelným obrazem se zdá být lidská tvář."
+      de: "Visuelle Gedanken und Bilder werden ebenfalls übertragen, jedoch nicht so leicht empfangen. Die am schwierigsten erfolgreich zu übertragende Bildvorstellung scheint das Gesicht einer Person zu sein."
+      es: "Los pensamientos e imágenes visuales también se transmiten, pero no se reciben con tanta facilidad. La imagen más difícil de transmitir con éxito parece ser el rostro de una persona."
+      fr: "Les pensées et images visuelles sont également diffusées, mais ne sont pas reçues aussi facilement. L'image la plus difficile à transmettre avec succès semble être le visage d'une personne."
+      it: "Anche i pensieri e le immagini visive vengono trasmessi, ma non vengono ricevuti con altrettanta facilità. L'immagine più difficile da trasmettere con successo sembra essere il volto di una persona."
+      ko: "시각적 생각과 이미지도 함께 전달되지만, 그만큼 쉽게 수신되지는 않는다. 성공적으로 전달하기 가장 어려운 이미지는 사람의 얼굴인 것으로 보인다."
+      pl: "Wizualne myśli i obrazy są również nadawane, ale nie są odbierane równie łatwo. Najtrudniejszym do skutecznego przekazania obrazem wydaje się być twarz człowieka."
+      pt: "Pensamentos e imagens visuais também são transmitidos, mas não são recebidos tão facilmente. A imagem mais difícil de ser transmitida com sucesso parece ser o rosto de uma pessoa."
+      th: "ความคิดและภาพเชิงมโนภาพก็ถูกถ่ายทอดด้วยเช่นกัน แต่ไม่ได้รับอย่างง่ายดายนัก ภาพที่ยากที่สุดที่จะถ่ายทอดได้สำเร็จดูเหมือนจะเป็นใบหน้าของบุคคล"
+      uk: "Візуальні думки й образи також транслюються, але сприймаються не так легко. Найважчим для успішної передачі образом видається обличчя людини."
+      vi: "Suy nghĩ và hình ảnh trực quan cũng được truyền đi, nhưng không dễ dàng được tiếp nhận. Hình ảnh khó truyền tải thành công nhất dường như là khuôn mặt của một người."
+      zh: "视觉思维和图像也会被传播，但不像语言那样容易被接收。最难成功传播的图像似乎是人的面孔。"
+      zh_Hant: "視覺思維和圖像也會被傳播，但不像語言那樣容易被接收。最難成功傳播的圖像似乎是人的面孔。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the room
+      again, a very different framing from the tight close-up before.
+      attending-researcher-f and attending-researcher-m stand
+      mid-conversation near the doorway, both pausing awkwardly
+      mid-sentence, glancing toward scp-041's bed with wry, exasperated
+      expressions.
+    characters: [attending-researcher-f, attending-researcher-m, scp-041]
+    caption:
+      ja: "SCP-041は通常無言であり、直接的な意思疎通の試みには応じない。しかし、SCP-041にはユーモアのセンスがあるようで、他者の会話に時折コメントを差し挟むことがある。"
+      en: "SCP-041 is typically silent and will not respond to direct attempts at communication. However, SCP-041 appears to have a sense of humor, as he interjects occasional comments into conversations of others."
+      cs: "SCP-041 je obvykle tichý a nereaguje na přímé pokusy o komunikaci. Zdá se však, že má smysl pro humor, neboť příležitostně vstupuje s komentáři do rozhovorů ostatních."
+      de: "SCP-041 ist normalerweise still und reagiert nicht auf direkte Kommunikationsversuche. Dennoch scheint SCP-041 über Humor zu verfügen, da er gelegentlich Bemerkungen in die Gespräche anderer einwirft."
+      es: "SCP-041 suele estar en silencio y no responde a los intentos directos de comunicación. Sin embargo, SCP-041 parece tener sentido del humor, ya que interviene ocasionalmente con comentarios en las conversaciones de otros."
+      fr: "Le SCP-041 est généralement silencieux et ne répond pas aux tentatives directes de communication. Cependant, le SCP-041 semble avoir le sens de l'humour, car il glisse occasionnellement des remarques dans les conversations d'autrui."
+      it: "SCP-041 è tipicamente silenzioso e non risponde ai tentativi diretti di comunicazione. Tuttavia, SCP-041 sembra avere il senso dell'umorismo, poiché inserisce occasionalmente commenti nelle conversazioni altrui."
+      ko: "SCP-041은 보통 침묵을 지키며 직접적인 소통 시도에 반응하지 않는다. 그러나 SCP-041은 유머 감각이 있는 것으로 보이며, 이따금 다른 사람들의 대화에 논평을 끼워 넣곤 한다."
+      pl: "SCP-041 zwykle milczy i nie reaguje na bezpośrednie próby komunikacji. Wydaje się jednak mieć poczucie humoru, ponieważ od czasu do czasu wtrąca komentarze do rozmów innych osób."
+      pt: "O SCP-041 costuma ficar em silêncio e não responde a tentativas diretas de comunicação. No entanto, o SCP-041 parece ter senso de humor, pois interpõe comentários ocasionais nas conversas de outras pessoas."
+      th: "SCP-041 มักเงียบและจะไม่ตอบสนองต่อความพยายามสื่อสารโดยตรง อย่างไรก็ตาม SCP-041 ดูเหมือนจะมีอารมณ์ขัน เนื่องจากบางครั้งเขาจะแทรกความคิดเห็นเข้าไปในบทสนทนาของผู้อื่น"
+      uk: "SCP-041 зазвичай мовчазний і не реагує на прямі спроби спілкування. Однак SCP-041, схоже, має почуття гумору, оскільки час від часу вставляє коментарі в розмови інших."
+      vi: "SCP-041 thường im lặng và sẽ không phản hồi trước các nỗ lực giao tiếp trực tiếp. Tuy nhiên, SCP-041 dường như có khiếu hài hước, vì anh ta thỉnh thoảng chen vào các bình luận trong cuộc trò chuyện của người khác."
+      zh: "SCP-041通常保持沉默，不会对直接的沟通尝试作出回应。然而，SCP-041似乎颇有幽默感，偶尔会在他人的对话中插上一句评论。"
+      zh_Hant: "SCP-041通常保持沉默，不會對直接的溝通嘗試作出回應。然而，SCP-041似乎頗有幽默感，偶爾會在他人的對話中插上一句評論。"

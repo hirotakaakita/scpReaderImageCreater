@@ -1,0 +1,134 @@
+# SCP-024 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 「敗者」「スタジオガーディアン」による排除の詳細（グロ・暴力描写）や
+# Addenda（GPS追跡、賞品リスト等）は本編に混ぜない。参加者は手続き上D級職員
+# のみが許可されるため、キャラはd-classを起用した。キャラにセリフは
+# 言わせない。JP公式訳が直接取得できなかったため、検証済みの英語本文からの
+# 翻訳（ja含む）。
+
+id: scp-024
+
+title:
+  en: "SCP-024"
+  ja: "SCP-024"
+  cs: "SCP-024"
+  de: "SCP-024"
+  es: "SCP-024"
+  fr: "SCP-024"
+  it: "SCP-024"
+  ko: "SCP-024"
+  pl: "SCP-024"
+  pt: "SCP-024"
+  th: "SCP-024"
+  uk: "SCP-024"
+  vi: "SCP-024"
+  zh: "SCP-024"
+  zh_Hant: "SCP-024"
+
+attribution:
+  article: "SCP-024"
+  source_url: "http://scp-wiki.wikidot.com/scp-024"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+characters: [attending-researcher-m, d-class, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, an aerial-ish view of a fenced
+      desert compound containing six identical abandoned sound-stage
+      warehouse buildings, security fencing and guard towers surrounding
+      the whole area. attending-researcher-m stands atop a watchtower in
+      the foreground, binoculars raised, clipboard tucked under one arm.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-024は放棄されたサウンドステージである。その所在地を隠すため、周囲には5棟の外見が同一な複製が建てられており、それぞれ別々の警備チームによって守られている。"
+      en: "SCP-024 is an abandoned sound stage. To conceal its location, five (5) identical-looking replicas have been erected around it, each guarded by a separate security team."
+      cs: "SCP-024 je opuštěné filmové studio. K utajení jeho polohy bylo kolem něj postaveno pět (5) na pohled identických replik, přičemž každou z nich hlídá samostatný bezpečnostní tým."
+      de: "SCP-024 ist eine verlassene Filmhalle. Um seinen Standort zu verschleiern, wurden fünf (5) identisch aussehende Nachbildungen darum errichtet, jede von einem eigenen Sicherheitsteam bewacht."
+      es: "SCP-024 es un plató de sonido abandonado. Para ocultar su ubicación, se han erigido cinco (5) réplicas de apariencia idéntica a su alrededor, cada una custodiada por un equipo de seguridad independiente."
+      fr: "Le SCP-024 est un plateau de tournage abandonné. Pour dissimuler son emplacement, cinq (5) répliques d'apparence identique ont été érigées autour de lui, chacune gardée par une équipe de sécurité distincte."
+      it: "SCP-024 è un teatro di posa abbandonato. Per nascondere la sua posizione, sono state erette cinque (5) repliche dall'aspetto identico attorno ad esso, ciascuna sorvegliata da una squadra di sicurezza separata."
+      ko: "SCP-024는 버려진 사운드 스테이지이다. 위치를 은폐하기 위해 그 주변에 외관이 동일한 다섯(5) 개의 복제 건물이 세워져 있으며, 각각 별도의 보안팀이 경비를 담당한다."
+      pl: "SCP-024 to opuszczony plan filmowy. Aby ukryć jego lokalizację, wzniesiono wokół niego pięć (5) identycznie wyglądających replik, z których każda jest strzeżona przez osobny zespół ochrony."
+      pt: "O SCP-024 é um estúdio de som abandonado. Para ocultar sua localização, cinco (5) réplicas de aparência idêntica foram erguidas ao seu redor, cada uma guardada por uma equipe de segurança separada."
+      th: "SCP-024 คือสตูดิโอบันทึกเสียงที่ถูกทิ้งร้าง เพื่อปกปิดตำแหน่งที่ตั้ง ได้มีการสร้างอาคารจำลองที่มีรูปลักษณ์เหมือนกันห้า (5) หลังล้อมรอบ โดยแต่ละหลังมีทีมรักษาความปลอดภัยแยกกันเฝ้าดูแล"
+      uk: "SCP-024 — це покинута знімальна студія. Щоб приховати її розташування, навколо неї звели п'ять (5) однакових на вигляд копій, кожну з яких охороняє окрема команда безпеки."
+      vi: "SCP-024 là một trường quay bị bỏ hoang. Để che giấu vị trí của nó, năm (5) bản sao giống hệt nhau đã được dựng lên xung quanh, mỗi bản do một đội an ninh riêng canh gác."
+      zh: "SCP-024是一座废弃的摄影棚。为了隐藏其位置，周围建造了五(5)座外观相同的复制建筑，每座都由独立的安保团队看守。"
+      zh_Hant: "SCP-024是一座廢棄的攝影棚。為了隱藏其位置，周圍建造了五(5)座外觀相同的複製建築，每座都由獨立的安保團隊看守。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the
+      wide establishing shot. d-class stands alone just past a heavy
+      blast door, illuminated by a single spotlight, an old-fashioned
+      microphone-shaped speaker mounted on the wall above him crackling
+      to life.
+    characters: [d-class]
+    caption:
+      ja: "SCP-024に入ると、訪問者はすぐさま匿名のアナウンサーに迎えられる。アナウンサーは「参加者」に対し、これからゲームショーに参加することを告げる——それが極めて危険であり、敗者は決してSCP-024を出られないと警告した上で。"
+      en: "Upon entering SCP-024, visitors are immediately greeted by an anonymous announcer, who informs the 'contestants' that they are about to take part in a game show — warning that it will be extremely hazardous, and that the losers will never leave."
+      cs: "Po vstupu do SCP-024 jsou návštěvníci okamžitě přivítáni anonymním hlasatelem, který 'soutěžícím' oznámí, že se chystají zúčastnit se televizní soutěže – přičemž je varuje, že bude extrémně nebezpečná a že poražení nikdy neopustí SCP-024."
+      de: "Beim Betreten von SCP-024 werden Besucher sofort von einem anonymen Ansager begrüßt, der die 'Teilnehmer' darüber informiert, dass sie gleich an einer Gameshow teilnehmen werden – mit der Warnung, dass diese extrem gefährlich sei und Verlierer SCP-024 niemals verlassen würden."
+      es: "Al entrar en SCP-024, los visitantes son recibidos de inmediato por un locutor anónimo, que informa a los 'concursantes' que están a punto de participar en un concurso televisivo, advirtiendo que será extremadamente peligroso y que los perdedores nunca saldrán."
+      fr: "En entrant dans le SCP-024, les visiteurs sont immédiatement accueillis par un présentateur anonyme, qui informe les « concurrents » qu'ils sont sur le point de participer à un jeu télévisé — les avertissant qu'il sera extrêmement dangereux et que les perdants ne quitteront jamais les lieux."
+      it: "Entrando in SCP-024, i visitatori vengono immediatamente accolti da uno speaker anonimo, che informa i 'concorrenti' che stanno per partecipare a un gioco a premi — avvertendo che sarà estremamente pericoloso e che i perdenti non usciranno mai."
+      ko: "SCP-024에 들어서면, 방문객은 즉시 익명의 진행자에게 환영받는다. 진행자는 '참가자'들에게 그들이 곧 게임쇼에 참가하게 될 것이라고 알리며 — 그것이 극도로 위험할 것이고, 패자는 결코 빠져나가지 못할 것이라고 경고한다."
+      pl: "Po wejściu do SCP-024 odwiedzający są natychmiast witani przez anonimowego prezentera, który informuje 'uczestników', że biorą udział w teleturnieju — ostrzegając, że będzie on wyjątkowo niebezpieczny i że przegrani nigdy stąd nie wyjdą."
+      pt: "Ao entrar no SCP-024, os visitantes são imediatamente recebidos por um apresentador anônimo, que informa aos 'competidores' que estão prestes a participar de um game show — avisando que será extremamente perigoso e que os perdedores nunca sairão."
+      th: "เมื่อเข้าสู่ SCP-024 ผู้มาเยือนจะได้รับการต้อนรับทันทีจากผู้ประกาศนิรนาม ซึ่งแจ้ง 'ผู้เข้าแข่งขัน' ว่ากำลังจะเข้าร่วมเกมโชว์ — พร้อมเตือนว่ามันจะอันตรายอย่างยิ่ง และผู้แพ้จะไม่มีวันได้ออกไป"
+      uk: "Заходячи в SCP-024, відвідувачі одразу зустрічають анонімного диктора, який повідомляє 'учасникам', що вони от-от візьмуть участь у грі-шоу — попереджаючи, що вона буде надзвичайно небезпечною, а програвші ніколи не вийдуть."
+      vi: "Khi bước vào SCP-024, du khách ngay lập tức được chào đón bởi một người dẫn chương trình ẩn danh, người này thông báo cho các 'thí sinh' rằng họ sắp tham gia một chương trình trò chơi — cảnh báo rằng nó sẽ cực kỳ nguy hiểm, và những người thua cuộc sẽ không bao giờ rời đi được."
+      zh: "一进入SCP-024，访客立即会受到一位匿名主持人的迎接，主持人告知这些「参赛者」他们即将参加一场游戏节目——并警告说这将极其危险，输家将永远无法离开。"
+      zh_Hant: "一進入SCP-024，訪客立即會受到一位匿名主持人的迎接，主持人告知這些「參賽者」他們即將參加一場遊戲節目——並警告說這將極其危險，輸家將永遠無法離開。"
+
+  - scene: >
+      Wide shot, full body, dynamic low angle, a very different framing
+      from the quiet entrance shot before. d-class leaps mid-air across
+      a gap between two crumbling platforms on an elaborate obstacle
+      course, dramatic stage spotlights crossing overhead, more
+      obstacles stretching into the distance behind him.
+    characters: [d-class]
+    caption:
+      ja: "ゲームは常に、長く精巧な障害物コースを中心に展開し、そのスタイルと外観はプレイのたびに変化する。障害物は非常に無害なものから極めて危険なものまで様々であり、アナウンサーは参加者の状況を絶えず伝え続ける。"
+      en: "The game is always centered around a long, elaborate obstacle course, its style and appearance changing with every playthrough. The obstacles range from incredibly benign to extremely hazardous, and the announcer continuously updates the contestants' status."
+      cs: "Hra se vždy točí kolem dlouhé, propracované překážkové dráhy, jejíž styl a vzhled se při každém průchodu mění. Překážky sahají od naprosto neškodných až po extrémně nebezpečné a hlasatel neustále informuje o stavu soutěžících."
+      de: "Das Spiel dreht sich stets um einen langen, ausgeklügelten Hindernisparcours, dessen Stil und Aussehen sich bei jedem Durchlauf ändert. Die Hindernisse reichen von harmlos bis extrem gefährlich, und der Ansager gibt fortlaufend Statusberichte über die Teilnehmer."
+      es: "El juego siempre gira en torno a un largo y elaborado circuito de obstáculos, cuyo estilo y apariencia cambian en cada partida. Los obstáculos van desde increíblemente inofensivos hasta extremadamente peligrosos, y el locutor actualiza continuamente el estado de los concursantes."
+      fr: "Le jeu s'articule toujours autour d'un long parcours d'obstacles élaboré, dont le style et l'apparence changent à chaque partie. Les obstacles vont d'incroyablement bénins à extrêmement dangereux, et le présentateur met continuellement à jour le statut des concurrents."
+      it: "Il gioco è sempre incentrato su un lungo ed elaborato percorso a ostacoli, il cui stile e aspetto cambiano ad ogni partita. Gli ostacoli variano da incredibilmente innocui a estremamente pericolosi, e lo speaker aggiorna continuamente lo stato dei concorrenti."
+      ko: "게임은 항상 길고 정교한 장애물 코스를 중심으로 진행되며, 그 스타일과 외관은 플레이할 때마다 달라진다. 장애물은 지극히 무해한 것부터 극도로 위험한 것까지 다양하며, 진행자는 참가자들의 상태를 끊임없이 알려준다."
+      pl: "Gra zawsze skupia się na długim, wyszukanym torze przeszkód, którego styl i wygląd zmieniają się przy każdej rozgrywce. Przeszkody wahają się od zupełnie niegroźnych po niezwykle niebezpieczne, a prezenter na bieżąco relacjonuje stan uczestników."
+      pt: "O jogo sempre gira em torno de um longo e elaborado percurso de obstáculos, cujo estilo e aparência mudam a cada partida. Os obstáculos variam de incrivelmente inofensivos a extremamente perigosos, e o apresentador atualiza continuamente o status dos competidores."
+      th: "เกมนี้มักเน้นไปที่สนามอุปสรรควิบากที่ยาวและซับซ้อน ซึ่งรูปแบบและลักษณะจะเปลี่ยนไปในทุกการเล่น อุปสรรคมีตั้งแต่ไม่เป็นอันตรายเลยไปจนถึงอันตรายอย่างยิ่ง และผู้ประกาศจะอัปเดตสถานะของผู้เข้าแข่งขันอย่างต่อเนื่อง"
+      uk: "Гра завжди зосереджена навколо довгої, вигадливої смуги перешкод, стиль і вигляд якої змінюється з кожним проходженням. Перешкоди варіюються від цілком безпечних до вкрай небезпечних, а диктор постійно повідомляє про стан учасників."
+      vi: "Trò chơi luôn xoay quanh một đường đua vượt chướng ngại vật dài và công phu, phong cách và hình dáng thay đổi theo mỗi lần chơi. Các chướng ngại vật dao động từ vô hại đến cực kỳ nguy hiểm, và người dẫn chương trình liên tục cập nhật tình trạng của các thí sinh."
+      zh: "游戏始终围绕一条漫长而精心设计的障碍赛道展开，其风格与外观每次游玩都会改变。障碍物从极其无害到极端危险不等，主持人会不断更新参赛者的状态。"
+      zh_Hant: "遊戲始終圍繞一條漫長而精心設計的障礙賽道展開，其風格與外觀每次遊玩都會改變。障礙物從極其無害到極端危險不等，主持人會不斷更新參賽者的狀態。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the exterior
+      of the compound at night, a very different framing from the
+      dynamic obstacle-course shot before. On the left side of the
+      frame, d-class stands just outside the main gate, blinking in the
+      floodlights, holding an ordinary toaster in both hands. On the
+      right side of the frame, attending-researcher-f approaches with a
+      clipboard, staring at the toaster in disbelief.
+    characters: [d-class, attending-researcher-f]
+    caption:
+      ja: "勝者が決定すると、無作為に選ばれた豪華賞品が贈られる。照明が落ち、勝者はその賞品とともに、即座にSCP-024の外に現れる。"
+      en: "When a winner is declared, they receive a random grand prize. The lights switch off, and the winner immediately appears outside of SCP-024 with their prize."
+      cs: "Když je vyhlášen vítěz, obdrží náhodnou hlavní cenu. Světla zhasnou a vítěz se okamžitě objeví venku před SCP-024 se svou cenou."
+      de: "Wird ein Sieger erklärt, erhält er einen zufälligen Hauptpreis. Die Lichter erlöschen, und der Sieger erscheint sofort außerhalb von SCP-024 mit seinem Preis."
+      es: "Cuando se declara un ganador, este recibe un gran premio al azar. Las luces se apagan y el ganador aparece de inmediato fuera de SCP-024 con su premio."
+      fr: "Lorsqu'un gagnant est déclaré, il reçoit un grand prix aléatoire. Les lumières s'éteignent, et le gagnant apparaît immédiatement à l'extérieur du SCP-024 avec son prix."
+      it: "Quando viene dichiarato un vincitore, questi riceve un premio casuale. Le luci si spengono, e il vincitore appare immediatamente fuori da SCP-024 con il suo premio."
+      ko: "우승자가 결정되면, 무작위 대상을 받는다. 조명이 꺼지고, 우승자는 즉시 상품과 함께 SCP-024 밖에 나타난다."
+      pl: "Gdy ogłoszony zostaje zwycięzca, otrzymuje on losową nagrodę główną. Światła gasną, a zwycięzca natychmiast pojawia się na zewnątrz SCP-024 wraz ze swoją nagrodą."
+      pt: "Quando um vencedor é declarado, ele recebe um grande prêmio aleatório. As luzes se apagam, e o vencedor aparece imediatamente fora do SCP-024 com seu prêmio."
+      th: "เมื่อมีการประกาศผู้ชนะ พวกเขาจะได้รับรางวัลใหญ่แบบสุ่ม ไฟจะดับลง และผู้ชนะจะปรากฏตัวขึ้นทันทีที่ด้านนอกของ SCP-024 พร้อมกับรางวัลของพวกเขา"
+      uk: "Коли оголошується переможець, він отримує випадковий головний приз. Світло вимикається, і переможець миттєво з'являється зовні SCP-024 зі своїм призом."
+      vi: "Khi một người chiến thắng được công bố, họ sẽ nhận được một giải thưởng lớn ngẫu nhiên. Đèn tắt, và người chiến thắng ngay lập tức xuất hiện bên ngoài SCP-024 cùng với phần thưởng của mình."
+      zh: "宣布获胜者后，其将获得一份随机的大奖。灯光熄灭，获胜者会立即携带奖品出现在SCP-024外面。"
+      zh_Hant: "宣布獲勝者後，其將獲得一份隨機的大獎。燈光熄滅，獲勝者會立即攜帶獎品出現在SCP-024外面。"

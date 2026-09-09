@@ -1,0 +1,143 @@
+# SCP-060 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 「職員への組みつき・絞殺による襲撃」の記述と、発見時の失踪者に関する
+# 不穏な背景（Additional Information）はグロ・被害描写のため本編から外し、
+# 消火・鎮圧という対処面のみを題材にした。キャラにセリフは言わせない。
+# JP公式訳が直接取得できなかったため、検証済みの英語本文からの翻訳（ja含む）。
+
+id: scp-060
+
+title:
+  en: "SCP-060"
+  ja: "SCP-060"
+  cs: "SCP-060"
+  de: "SCP-060"
+  es: "SCP-060"
+  fr: "SCP-060"
+  it: "SCP-060"
+  ko: "SCP-060"
+  pl: "SCP-060"
+  pt: "SCP-060"
+  th: "SCP-060"
+  uk: "SCP-060"
+  vi: "SCP-060"
+  zh: "SCP-060"
+  zh_Hant: "SCP-060"
+
+attribution:
+  article: "SCP-060"
+  source_url: "http://scp-wiki.wikidot.com/scp-060"
+  license: "CC BY-SA 3.0"
+
+object_class: Keter
+
+local_characters:
+  scp-060-alpha:
+    name: SCP-060-Alpha
+    description: >
+      An animate adult human skeleton, roughly 2.3 meters tall, bones
+      wreathed in bright white flame, fire licking along its limbs and
+      skull, an eerie sense of motion and intent despite having no
+      flesh.
+
+characters: [attending-researcher-f, attending-researcher-m, scp-060-alpha]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a row of white oak trees
+      inside a large greenhouse structure, neatly pruned and orderly.
+      attending-researcher-f trims a low branch with pruning shears,
+      clipboard tucked under one arm.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-060は17本のホワイトオークの木立で、特別に建設された一連の温室内に収容されている。管理可能な大きさを保つため、定期的に剪定を行うこと。"
+      en: "SCP-060 is a grove of seventeen white oak trees, contained in a series of specially-constructed greenhouses. Specimens are to be pruned regularly to keep at a manageable size."
+      cs: "SCP-060 je háj sedmnácti bílých dubů, uchovávaný v sérii speciálně postavených skleníků. Exempláře musí být pravidelně prořezávány, aby si udržely zvladatelnou velikost."
+      de: "SCP-060 ist ein Hain aus siebzehn Weißeichen, der in einer Reihe von speziell errichteten Gewächshäusern untergebracht ist. Die Exemplare sind regelmäßig zu beschneiden, um eine handhabbare Größe beizubehalten."
+      es: "SCP-060 es una arboleda de diecisiete robles blancos, contenida en una serie de invernaderos especialmente construidos. Los especímenes deben podarse regularmente para mantener un tamaño manejable."
+      fr: "Le SCP-060 est un bosquet de dix-sept chênes blancs, confiné dans une série de serres spécialement construites. Les spécimens doivent être régulièrement taillés pour conserver une taille gérable."
+      it: "SCP-060 è un boschetto di diciassette querce bianche, contenuto in una serie di serre appositamente costruite. Gli esemplari devono essere potati regolarmente per mantenere una dimensione gestibile."
+      ko: "SCP-060은 특별히 건설된 일련의 온실에 수용된 17그루의 백참나무 숲이다. 개체는 관리 가능한 크기를 유지하기 위해 정기적으로 가지치기를 해야 한다."
+      pl: "SCP-060 to gaj siedemnastu dębów białych, przechowywany w serii specjalnie zbudowanych szklarni. Okazy należy regularnie przycinać, aby utrzymać rozmiar możliwy do opanowania."
+      pt: "O SCP-060 é um bosque de dezessete carvalhos brancos, contido em uma série de estufas especialmente construídas. Os espécimes devem ser podados regularmente para manter um tamanho administrável."
+      th: "SCP-060 คือแนวต้นโอ๊กขาวสิบเจ็ดต้น ถูกกักกันอยู่ในเรือนกระจกที่สร้างขึ้นเป็นพิเศษ ตัวอย่างต้องถูกตัดแต่งกิ่งอย่างสม่ำเสมอเพื่อรักษาขนาดให้จัดการได้"
+      uk: "SCP-060 — це гай із сімнадцяти білих дубів, що утримується в серії спеціально споруджених теплиць. Екземпляри слід регулярно підрізати, щоб підтримувати керований розмір."
+      vi: "SCP-060 là một rừng cây gồm mười bảy cây sồi trắng, được chứa trong một loạt nhà kính được xây dựng đặc biệt. Các mẫu vật phải được cắt tỉa thường xuyên để giữ kích thước dễ quản lý."
+      zh: "SCP-060是一片由十七棵白栎树组成的树林，被收容在一系列专门建造的温室中。须定期修剪这些标本，以保持可控的大小。"
+      zh_Hant: "SCP-060是一片由十七棵白櫟樹組成的樹林，被收容在一系列專門建造的溫室中。須定期修剪這些標本，以保持可控的大小。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the
+      wide greenhouse shot before. At a checkpoint booth,
+      attending-researcher-m empties his pockets, placing a lighter and
+      a book of matches onto a metal tray, an apologetic grimace on his
+      face.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "職員は施設から5km以内での喫煙を禁じられており、ライター、マッチ、スタンガン、その他容易に火を起こせる道具を持ち込まないこと。"
+      en: "Personnel are banned from smoking within 5km of the site, and are to refrain from bringing lighters, matches, tasers, or any other tool readily capable of starting a fire."
+      cs: "Personálu je zakázáno kouřit v okruhu 5 km od zařízení a je povinen zdržet se nošení zapalovačů, zápalek, taserů nebo jakéhokoli jiného nástroje snadno schopného založit oheň."
+      de: "Personal ist es untersagt, innerhalb von 5 km um die Anlage zu rauchen, und es soll darauf verzichten, Feuerzeuge, Streichhölzer, Taser oder andere leicht feuerentfachende Werkzeuge mitzubringen."
+      es: "Al personal se le prohíbe fumar en un radio de 5 km del sitio, y debe abstenerse de traer encendedores, cerillas, pistolas eléctricas o cualquier otra herramienta fácilmente capaz de iniciar un fuego."
+      fr: "Il est interdit au personnel de fumer dans un rayon de 5 km autour du site, et il doit s'abstenir d'apporter des briquets, des allumettes, des tasers ou tout autre outil facilement capable de déclencher un incendie."
+      it: "Al personale è vietato fumare entro 5 km dal sito, e deve astenersi dal portare accendini, fiammiferi, taser o qualsiasi altro strumento facilmente in grado di innescare un incendio."
+      ko: "직원은 부지에서 5km 이내에서 흡연이 금지되며, 라이터, 성냥, 테이저건 또는 쉽게 불을 일으킬 수 있는 기타 도구를 반입해서는 안 된다."
+      pl: "Personelowi zabrania się palenia w promieniu 5 km od obiektu i należy powstrzymać się od wnoszenia zapalniczek, zapałek, paralizatorów lub jakichkolwiek innych narzędzi łatwo mogących wywołać pożar."
+      pt: "O pessoal está proibido de fumar em um raio de 5 km do local, e deve se abster de trazer isqueiros, fósforos, tasers ou qualquer outra ferramenta facilmente capaz de iniciar um incêndio."
+      th: "ห้ามเจ้าหน้าที่สูบบุหรี่ภายในระยะ 5 กิโลเมตรจากสถานที่ และควรงดนำไฟแช็ก ไม้ขีดไฟ ปืนช็อตไฟฟ้า หรือเครื่องมือใดๆ ที่สามารถจุดไฟได้ง่ายเข้ามา"
+      uk: "Персоналу заборонено палити в межах 5 км від об'єкта, а також слід утримуватися від внесення запальничок, сірників, електрошокерів чи будь-яких інших засобів, здатних легко викликати пожежу."
+      vi: "Nhân viên bị cấm hút thuốc trong phạm vi 5km quanh địa điểm, và không được mang theo bật lửa, diêm, súng điện, hoặc bất kỳ công cụ nào dễ dàng gây ra hỏa hoạn."
+      zh: "人员禁止在该地点5公里范围内吸烟，并须避免携带打火机、火柴、电击枪或任何容易引发火灾的工具。"
+      zh_Hant: "人員禁止在該地點5公里範圍內吸菸，並須避免攜帶打火機、火柴、電擊槍或任何容易引發火災的工具。"
+
+  - scene: >
+      Wide shot, full body, dynamic low angle, pulled back to show the
+      circular containment chamber, a very different framing from the
+      checkpoint shot before. scp-060-alpha stands at the center
+      wreathed in blinding white flame, bone structure visible through
+      the fire, filling much of the room with heat-shimmer.
+      attending-researcher-f watches through a thick reinforced window,
+      shielding her eyes.
+    characters: [scp-060-alpha, attending-researcher-f]
+    caption:
+      ja: "焼却されると、SCP-060はSCP-060-アルファと名付けられた存在を生み出す：約2.3メートルの、動く成人人間の骨格で、摂氏約1500度で燃える明るい白い炎に包まれている。SCP-060をわずか20グラム燃やしただけでも、この存在は出現する。"
+      en: "When burned, SCP-060 produces an entity designated SCP-060-Alpha: an animate adult human skeleton, roughly 2.3 meters tall, surrounded by bright white flames burning at approximately 1500°C. Burning as little as 20 grams of SCP-060 will cause it to appear."
+      cs: "Při spálení SCP-060 vytváří entitu označenou jako SCP-060-Alfa: animovanou kostru dospělého člověka, přibližně 2,3 metru vysokou, obklopenou jasně bílými plameny hořícími při teplotě přibližně 1500 °C. K jejímu vzniku stačí spálit pouhých 20 gramů SCP-060."
+      de: "Beim Verbrennen erzeugt SCP-060 eine Entität mit der Bezeichnung SCP-060-Alpha: ein belebtes erwachsenes menschliches Skelett, etwa 2,3 Meter groß, umgeben von hellen weißen Flammen, die bei etwa 1500 °C brennen. Das Verbrennen von nur 20 Gramm SCP-060 genügt, um es erscheinen zu lassen."
+      es: "Cuando se quema, SCP-060 produce una entidad designada SCP-060-Alfa: un esqueleto humano adulto animado, de aproximadamente 2,3 metros de altura, rodeado de llamas blancas brillantes que arden a unos 1500 °C. Quemar tan solo 20 gramos de SCP-060 hará que aparezca."
+      fr: "Lorsqu'il est brûlé, le SCP-060 produit une entité désignée SCP-060-Alpha : un squelette humain adulte animé, mesurant environ 2,3 mètres, entouré de flammes blanches brillantes brûlant à environ 1500 °C. Brûler ne serait-ce que 20 grammes de SCP-060 suffit à le faire apparaître."
+      it: "Quando viene bruciato, SCP-060 produce un'entità designata SCP-060-Alfa: uno scheletro umano adulto animato, alto circa 2,3 metri, circondato da fiamme bianche brillanti che bruciano a circa 1500°C. Bruciare anche solo 20 grammi di SCP-060 ne causerà la comparsa."
+      ko: "불에 타면 SCP-060은 SCP-060-알파라는 명칭의 존재를 만들어낸다: 약 2.3미터 크기의 살아 움직이는 성인 인간 골격으로, 약 섭씨 1500도로 타오르는 밝은 흰 불꽃에 둘러싸여 있다. SCP-060을 단 20그램만 태워도 이 존재가 나타난다."
+      pl: "Po spaleniu SCP-060 tworzy istotę oznaczoną jako SCP-060-Alfa: ożywiony szkielet dorosłego człowieka, wysoki na około 2,3 metra, otoczony jasnobiałymi płomieniami płonącymi w temperaturze około 1500°C. Spalenie zaledwie 20 gramów SCP-060 spowoduje jej pojawienie się."
+      pt: "Quando queimado, o SCP-060 produz uma entidade designada SCP-060-Alfa: um esqueleto humano adulto animado, com aproximadamente 2,3 metros de altura, envolto em chamas brancas brilhantes queimando a cerca de 1500°C. Queimar apenas 20 gramas de SCP-060 fará com que ele apareça."
+      th: "เมื่อถูกเผา SCP-060 จะสร้างสิ่งมีชีวิตที่กำหนดชื่อว่า SCP-060-อัลฟา: โครงกระดูกมนุษย์ผู้ใหญ่ที่มีชีวิต สูงประมาณ 2.3 เมตร ล้อมรอบด้วยเปลวไฟสีขาวสว่างที่ลุกไหม้ที่อุณหภูมิประมาณ 1500°C การเผา SCP-060 เพียง 20 กรัมก็เพียงพอที่จะทำให้มันปรากฏตัว"
+      uk: "Спалюючи, SCP-060 породжує сутність, позначену як SCP-060-Альфа: оживлений скелет дорослої людини, заввишки приблизно 2,3 метра, оточений яскравим білим полум'ям, що горить при температурі близько 1500°C. Спалення лише 20 грамів SCP-060 змусить його з'явитися."
+      vi: "Khi bị đốt cháy, SCP-060 tạo ra một thực thể được gọi là SCP-060-Alpha: một bộ xương người trưởng thành sống động, cao khoảng 2,3 mét, được bao quanh bởi ngọn lửa trắng rực rỡ cháy ở nhiệt độ khoảng 1500°C. Chỉ cần đốt 20 gram SCP-060 là đủ để nó xuất hiện."
+      zh: "燃烧后，SCP-060会产生一个被称为SCP-060-阿尔法的实体：一具能活动的成年人类骨骼，高约2.3米，被约1500摄氏度燃烧的明亮白色火焰所包围。仅需燃烧20克SCP-060即可使其出现。"
+      zh_Hant: "燃燒後，SCP-060會產生一個被稱為SCP-060-阿爾法的實體：一具能活動的成年人類骨骼，高約2.3公尺，被約1500攝氏度燃燒的明亮白色火焰所包圍。僅需燃燒20公克SCP-060即可使其出現。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back further to show the
+      same chamber, a very different framing from the fiery shot
+      before, water cascading down from overhead sprinklers and CO2
+      projectors firing from the walls. scp-060-alpha, now dimmed and
+      smoking, crumbles mid-collapse into a scattering pile of ash and
+      dust. attending-researcher-m stands ready at the doorway with a
+      fire extinguisher, tense but relieved.
+    characters: [scp-060-alpha, attending-researcher-m]
+    caption:
+      ja: "短時間のうちに十分な量の水やその他の難燃性物質にさらされると、SCP-060-アルファは弱体化し、突然崩れて塵となる。"
+      en: "If introduced to a high enough volume of water or other flame-retardant material over a short time, SCP-060-Alpha will weaken and suddenly collapse into dust."
+      cs: "Pokud je v krátkém čase vystaveno dostatečnému množství vody nebo jiného zpomalovače hoření, SCP-060-Alfa oslábne a náhle se zhroutí v prach."
+      de: "Wird es in kurzer Zeit einer ausreichenden Menge Wasser oder eines anderen flammhemmenden Materials ausgesetzt, schwächt sich SCP-060-Alpha ab und zerfällt plötzlich zu Staub."
+      es: "Si se le expone a un volumen suficiente de agua u otro material retardante de llama en poco tiempo, SCP-060-Alfa se debilitará y colapsará repentinamente en polvo."
+      fr: "S'il est exposé à un volume suffisant d'eau ou d'un autre matériau ignifuge en peu de temps, le SCP-060-Alpha s'affaiblira et s'effondrera soudainement en poussière."
+      it: "Se esposto a un volume sufficiente di acqua o altro materiale ignifugo in breve tempo, SCP-060-Alfa si indebolirà e collasserà improvvisamente in polvere."
+      ko: "짧은 시간 내에 충분한 양의 물이나 다른 난연 물질에 노출되면, SCP-060-알파는 약해지다가 갑자기 먼지로 붕괴한다."
+      pl: "Jeśli w krótkim czasie zostanie wystawiony na wystarczającą ilość wody lub innego materiału opóźniającego palenie, SCP-060-Alfa osłabnie i nagle rozpadnie się w pył."
+      pt: "Se exposto a um volume suficiente de água ou outro material retardante de chama em pouco tempo, o SCP-060-Alfa enfraquecerá e subitamente entrará em colapso, transformando-se em pó."
+      th: "หากได้รับน้ำหรือวัสดุหน่วงไฟในปริมาณมากพอในช่วงเวลาสั้นๆ SCP-060-อัลฟาจะอ่อนแรงลงและยุบตัวกลายเป็นฝุ่นอย่างกะทันหัน"
+      uk: "Якщо протягом короткого часу піддати його достатньому обсягу води чи іншого вогнестійкого матеріалу, SCP-060-Альфа ослабне і раптово розпадеться на пил."
+      vi: "Nếu được tiếp xúc với một lượng nước hoặc vật liệu chống cháy đủ lớn trong thời gian ngắn, SCP-060-Alpha sẽ suy yếu và đột ngột sụp đổ thành tro bụi."
+      zh: "若在短时间内接触足够量的水或其他阻燃材料，SCP-060-阿尔法会逐渐虚弱，并突然崩解成灰烬。"
+      zh_Hant: "若在短時間內接觸足夠量的水或其他阻燃材料，SCP-060-阿爾法會逐漸虛弱，並突然崩解成灰燼。"

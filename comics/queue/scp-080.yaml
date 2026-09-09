@@ -1,0 +1,157 @@
+# SCP-080 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 「不可逆的な心理的損傷」の記述、および博士の自殺・D級職員を毎月「与える」提案を
+# 含むAddendum群は本編・addendumともに一切使用しない。addendumには文末の
+# 「ブギーマンと呼ぶのをやめてほしい」という無害な注記のみ使用する。
+# キャラにセリフは言わせない。
+
+id: scp-080
+
+title:
+  en: "SCP-080"
+  ja: "SCP-080"
+  cs: "SCP-080"
+  de: "SCP-080"
+  es: "SCP-080"
+  fr: "SCP-080"
+  it: "SCP-080"
+  ko: "SCP-080"
+  pl: "SCP-080"
+  pt: "SCP-080"
+  th: "SCP-080"
+  uk: "SCP-080"
+  vi: "SCP-080"
+  zh: "SCP-080"
+  zh_Hant: "SCP-080"
+
+attribution:
+  article: "SCP-080"
+  source_url: "http://scp-wiki.wikidot.com/scp-080"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-080:
+    name: "SCP-080"
+    description: >
+      An indistinct, shifting humanoid shadow with no fixed shape,
+      appearing as vague shadows or humanoid effigies; its only
+      consistent feature is a pair of faintly smoking, dim orange-red
+      "eyes" (color RGB 180,70,20) glowing within the darkness.
+
+characters: [scp-080, attending-researcher-f, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, showing the whole dim containment room lit
+      only by a single faint bulb. A shifting shadowy humanoid
+      silhouette lurks in the far corner, only its two faintly smoking
+      eyes visible in the dark. attending-researcher-f watches
+      cautiously from the antechamber doorway.
+    characters: [scp-080, attending-researcher-f]
+    caption:
+      ja: "SCP-080に物理的な質量あるいは『身体』が存在するのかは不明である……研究員や職員は、SCP-080をさまざまな影や人型の像として目撃したと証言しており、共通する特徴は煙を上げる二つの『目』だけである。"
+      en: "It is unknown if SCP-080 has a physical mass or 'body'... Researchers and personnel have described seeing SCP-080 as various shadows and humanoid effigies, with the only common attribute being two smoking 'eyes'."
+      cs: "Není známo, zda SCP-080 má fyzickou hmotu nebo „tělo“... Výzkumníci a personál popisují, že vidí SCP-080 jako různé stíny a humanoidní podoby, přičemž jediným společným rysem jsou dvě kouřící „oči“."
+      de: "Es ist nicht bekannt, ob SCP-080 eine physische Masse oder einen „Körper“ besitzt... Forscher und Personal haben beschrieben, SCP-080 als verschiedene Schatten und menschenähnliche Gestalten wahrzunehmen, wobei das einzige gemeinsame Merkmal zwei rauchende „Augen“ sind."
+      es: "Se desconoce si el SCP-080 tiene masa física o un 'cuerpo'... Los investigadores y el personal han descrito ver al SCP-080 como diversas sombras y efigies humanoides, siendo el único atributo común dos 'ojos' humeantes."
+      fr: "On ignore si le SCP-080 possède une masse physique ou un « corps »... Les chercheurs et le personnel ont décrit voir le SCP-080 sous forme d'ombres diverses et d'effigies humanoïdes, le seul attribut commun étant deux « yeux » fumants."
+      it: "Non si sa se SCP-080 abbia una massa fisica o un 'corpo'... I ricercatori e il personale hanno descritto di aver visto SCP-080 come varie ombre ed effigi umanoidi, con l'unico attributo comune costituito da due 'occhi' fumanti."
+      ko: "SCP-080에 물리적 질량이나 '몸체'가 존재하는지는 알려져 있지 않다... 연구원과 직원들은 SCP-080을 다양한 그림자와 인간형 형상으로 목격했다고 진술했으며, 공통되는 특징은 오직 연기가 피어오르는 두 개의 '눈'뿐이었다."
+      pl: "Nie wiadomo, czy SCP-080 posiada fizyczną masę lub „ciało”... Badacze i personel opisywali widzenie SCP-080 jako różne cienie i humanoidalne podobizny, przy czym jedyną wspólną cechą były dwa dymiące „oczy”."
+      pt: "Não se sabe se o SCP-080 tem massa física ou um 'corpo'... Pesquisadores e funcionários descreveram ver o SCP-080 como várias sombras e efígies humanoides, sendo o único atributo comum dois 'olhos' fumegantes."
+      th: "ไม่ทราบว่า SCP-080 มีมวลทางกายภาพหรือ 'ร่างกาย' หรือไม่... นักวิจัยและเจ้าหน้าที่ได้บรรยายว่าเห็น SCP-080 เป็นเงาต่างๆ และรูปจำลองคล้ายมนุษย์ โดยลักษณะร่วมเพียงอย่างเดียวคือ 'ดวงตา' ที่มีควันคุกรุ่นสองดวง"
+      uk: "Невідомо, чи має SCP-080 фізичну масу або «тіло»... Дослідники та персонал описували SCP-080 як різні тіні та гуманоїдні образи, єдиною спільною рисою яких були дві димні «очі»."
+      vi: "Không rõ SCP-080 có khối lượng vật lý hay 'cơ thể' hay không... Các nhà nghiên cứu và nhân viên đã mô tả nhìn thấy SCP-080 như những cái bóng và hình nhân dạng người khác nhau, với đặc điểm chung duy nhất là hai 'con mắt' bốc khói."
+      zh: "目前尚不清楚SCP-080是否拥有实际质量或「身体」……研究人员和职员曾描述看到SCP-080呈现出各种阴影与人形轮廓，唯一的共同特征是两只冒烟的「眼睛」。"
+      zh_Hant: "目前尚不清楚SCP-080是否擁有實際質量或「身體」……研究人員和職員曾描述看到SCP-080呈現出各種陰影與人形輪廓，唯一的共同特徵是兩隻冒煙的「眼睛」。"
+
+  - scene: >
+      Medium shot, waist-up, a different framing from the wide shot
+      before, inside the adjoining observation room behind the window.
+      attending-researcher-m and attending-researcher-f both blink
+      heavily with drooping eyelids, one already slumping in his chair.
+      A wall clock behind them shows nearly 30 minutes elapsed.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "SCP-080は、その収容室に入った者すべてに抑えがたい眠気を引き起こす。約30分が経過すると、それを観察している者は強制的にレム睡眠に陥る。"
+      en: "SCP-080 induces uncontrollable drowsiness upon anyone entering its chamber. After approximately 30 minutes, any person observing it will be forced into REM sleep."
+      cs: "SCP-080 vyvolává neovladatelnou ospalost u kohokoli, kdo vstoupí do jeho komory. Přibližně po 30 minutách bude jakákoli osoba, která ho pozoruje, násilně uvedena do REM spánku."
+      de: "SCP-080 verursacht bei jedem, der seine Kammer betritt, unkontrollierbare Schläfrigkeit. Nach etwa 30 Minuten wird jede beobachtende Person in den REM-Schlaf gezwungen."
+      es: "El SCP-080 induce somnolencia incontrolable en cualquiera que entre en su cámara. Después de aproximadamente 30 minutos, cualquier persona que lo observe será forzada a entrar en sueño REM."
+      fr: "Le SCP-080 induit une somnolence incontrôlable chez quiconque entre dans sa chambre. Après environ 30 minutes, toute personne l'observant sera forcée à entrer en sommeil paradoxal."
+      it: "SCP-080 induce una sonnolenza incontrollabile in chiunque entri nella sua camera. Dopo circa 30 minuti, chiunque lo osservi sarà costretto in un sonno REM."
+      ko: "SCP-080은 자신의 방에 들어오는 모든 이에게 억누를 수 없는 졸음을 유발한다. 약 30분이 지나면, 그것을 관찰하는 사람은 강제로 렘수면에 빠지게 된다."
+      pl: "SCP-080 wywołuje niekontrolowaną senność u każdego, kto wejdzie do jego komory. Po około 30 minutach każda obserwująca je osoba zostanie zmuszona do wejścia w sen REM."
+      pt: "O SCP-080 induz sonolência incontrolável em qualquer pessoa que entre em sua câmara. Após aproximadamente 30 minutos, qualquer pessoa que o observe será forçada a entrar em sono REM."
+      th: "SCP-080 ทำให้เกิดอาการง่วงนอนที่ควบคุมไม่ได้แก่ผู้ที่เข้าไปในห้องของมัน หลังจากผ่านไปประมาณ 30 นาที ผู้ที่เฝ้าสังเกตมันจะถูกบังคับให้เข้าสู่ช่วงหลับฝัน (REM)"
+      uk: "SCP-080 викликає непереборну сонливість у будь-кого, хто заходить до його камери. Приблизно через 30 хвилин будь-яка людина, що спостерігає за ним, буде змушена впасти у фазу швидкого сну."
+      vi: "SCP-080 gây ra cơn buồn ngủ không thể kiểm soát ở bất kỳ ai bước vào buồng của nó. Sau khoảng 30 phút, bất kỳ ai quan sát nó sẽ bị buộc rơi vào giấc ngủ REM."
+      zh: "SCP-080会使任何进入其收容室的人产生无法抑制的困意。大约30分钟后，任何观察它的人都会被迫进入快速眼动睡眠状态。"
+      zh_Hant: "SCP-080會使任何進入其收容室的人產生無法抑制的睏意。大約30分鐘後，任何觀察它的人都會被迫進入快速動眼睡眠狀態。"
+
+  - scene: >
+      Close-up on a single dim bulb glowing in a ceiling socket, a
+      different framing from the medium shot before. A hand-lettered
+      "NO OTHER LIGHT SOURCES" sign is posted on the wall beside it.
+      attending-researcher-f double-checks a clipboard checklist near
+      the doorway below.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "本室内では、いかなる時も7ワットの白熱電球1個を超える照明を点灯させてはならない。SCP-080の収容室に、市販の子供用ナイトライト程度を超える明るさの光が入った場合、SCP-080は即座に消失する。"
+      en: "No more than one (1) 7 W incandescent light bulb is to be illuminated in the main room at any time. If any light enters SCP-080's containment room with a greater luminance than that produced by a standard children's night light, SCP-080 will instantly vanish."
+      cs: "V hlavní místnosti nesmí být kdykoli rozsvícena více než jedna (1) žárovka o výkonu 7 W. Pokud do kontejnmentu SCP-080 pronikne světlo o vyšší intenzitě, než jakou vydává běžná dětská noční lampička, SCP-080 okamžitě zmizí."
+      de: "Im Hauptraum darf zu keinem Zeitpunkt mehr als eine (1) 7-W-Glühbirne leuchten. Sollte Licht mit einer höheren Leuchtdichte als die eines gewöhnlichen Kindernachtlichts in die Containment-Kammer von SCP-080 gelangen, wird SCP-080 sofort verschwinden."
+      es: "No se debe iluminar más de una (1) bombilla incandescente de 7 W en la sala principal en ningún momento. Si entra en la cámara de contención del SCP-080 cualquier luz con mayor luminancia que la producida por una luz nocturna infantil estándar, el SCP-080 desaparecerá instantáneamente."
+      fr: "Pas plus d'une (1) ampoule à incandescence de 7 W ne doit être allumée dans la salle principale à un moment donné. Si de la lumière dont la luminance dépasse celle d'une veilleuse d'enfant standard pénètre dans la chambre de confinement du SCP-080, celui-ci disparaîtra instantanément."
+      it: "Non più di una (1) lampadina a incandescenza da 7 W deve essere accesa nella stanza principale in qualsiasi momento. Se una luce con luminanza superiore a quella prodotta da una normale lucina notturna per bambini entra nella camera di contenimento di SCP-080, esso svanirà istantaneamente."
+      ko: "본실에서는 어떤 경우에도 7W 백열전구 1개를 초과하여 점등해서는 안 된다. SCP-080의 수용실에 일반적인 아동용 취침등보다 밝은 빛이 들어올 경우, SCP-080은 즉시 사라진다."
+      pl: "W głównym pomieszczeniu w żadnym momencie nie może być zapalona więcej niż jedna (1) żarówka o mocy 7 W. Jeśli do komory kontenmentu SCP-080 wnika światło o jasności większej niż zwykła dziecięca lampka nocna, SCP-080 natychmiast znika."
+      pt: "Não mais do que uma (1) lâmpada incandescente de 7 W deve ser acesa na sala principal a qualquer momento. Se qualquer luz com luminância maior do que a produzida por uma luz noturna infantil padrão entrar na câmara de contenção do SCP-080, ele desaparecerá instantaneamente."
+      th: "ห้ามเปิดหลอดไฟแบบไส้ขนาด 7 วัตต์เกินหนึ่ง (1) ดวงในห้องหลักไม่ว่าเวลาใด หากมีแสงที่มีความสว่างมากกว่าโคมไฟกลางคืนสำหรับเด็กมาตรฐานเข้ามาในห้องกักกันของ SCP-080 มันจะหายไปทันที"
+      uk: "У головному приміщенні в жодний момент не повинно горіти більше однієї (1) лампи розжарювання потужністю 7 Вт. Якщо будь-яке світло яскравіше за стандартний дитячий нічник потрапить до камери утримання SCP-080, SCP-080 миттєво зникне."
+      vi: "Không được thắp sáng quá một (1) bóng đèn sợi đốt 7W trong phòng chính vào bất kỳ thời điểm nào. Nếu bất kỳ ánh sáng nào có độ chói lớn hơn đèn ngủ tiêu chuẩn cho trẻ em lọt vào phòng kiểm soát của SCP-080, SCP-080 sẽ biến mất ngay lập tức."
+      zh: "主室内任何时候都不得点亮超过一（1）个7瓦白炽灯泡。若有亮度超过一般儿童小夜灯的光线进入SCP-080的收容室，SCP-080会立即消失。"
+      zh_Hant: "主室內任何時候都不得點亮超過一（1）個7瓦白熾燈泡。若有亮度超過一般兒童小夜燈的光線進入SCP-080的收容室，SCP-080會立即消失。"
+
+  - scene: >
+      Wide shot, low angle, a different framing from the close-up
+      before. attending-researcher-m accidentally drapes a spare sheet
+      over a shelf near the shadowy shape of SCP-080, catching it
+      mid-vanish as it fades into nothing, a startled expression on his
+      face.
+    characters: [scp-080, attending-researcher-m]
+    caption:
+      ja: "SCP-080がいかなる時であれ、自らを『隠す』手段を見つけた場合（戸棚の中、ベッドの下、布をかぶせられた状態など）、それは完全に消失する。"
+      en: "If at any time SCP-080 finds a way to 'hide' itself (such as in a cupboard, under a bed, covered in a sheet, etc.), it will disappear entirely."
+      cs: "Pokud SCP-080 kdykoli najde způsob, jak se „schovat“ (například do skříně, pod postel, zakryté prostěradlem apod.), zcela zmizí."
+      de: "Findet SCP-080 zu irgendeinem Zeitpunkt eine Möglichkeit, sich zu „verstecken“ (etwa in einem Schrank, unter einem Bett, unter einem Laken usw.), verschwindet es vollständig."
+      es: "Si en algún momento el SCP-080 encuentra una forma de 'esconderse' (como en un armario, debajo de una cama, cubierto con una sábana, etc.), desaparecerá por completo."
+      fr: "Si, à un moment donné, le SCP-080 trouve un moyen de se « cacher » (comme dans un placard, sous un lit, recouvert d'un drap, etc.), il disparaîtra entièrement."
+      it: "Se in qualsiasi momento SCP-080 trova un modo di 'nascondersi' (come in un armadio, sotto un letto, coperto da un lenzuolo, ecc.), scomparirà del tutto."
+      ko: "SCP-080이 어떤 방식으로든 자신을 '숨길' 수단을 찾아낼 경우(찬장 안, 침대 밑, 시트로 덮인 상태 등), 그것은 완전히 사라진다."
+      pl: "Jeśli w dowolnym momencie SCP-080 znajdzie sposób, by się „ukryć” (na przykład w szafie, pod łóżkiem, przykryte prześcieradłem itp.), zniknie całkowicie."
+      pt: "Se a qualquer momento o SCP-080 encontrar uma forma de se 'esconder' (como em um armário, debaixo de uma cama, coberto por um lençol, etc.), ele desaparecerá completamente."
+      th: "หากในเวลาใดก็ตาม SCP-080 หาวิธี 'ซ่อนตัว' ได้ (เช่น ในตู้ ใต้เตียง ถูกคลุมด้วยผ้าปูที่นอน ฯลฯ) มันจะหายไปโดยสิ้นเชิง"
+      uk: "Якщо в будь-який момент SCP-080 знайде спосіб «сховатися» (наприклад, у шафі, під ліжком, накритися простирадлом тощо), він повністю зникне."
+      vi: "Nếu vào bất kỳ lúc nào SCP-080 tìm được cách để 'trốn' (chẳng hạn như trong tủ, dưới gầm giường, che phủ bằng một tấm khăn trải giường, v.v.), nó sẽ biến mất hoàn toàn."
+      zh: "只要SCP-080在任何时候找到方法把自己「藏」起来（例如躲进橱柜、床底，或被床单盖住等），它就会彻底消失。"
+      zh_Hant: "只要SCP-080在任何時候找到方法把自己「藏」起來（例如躲進櫥櫃、床底，或被床單蓋住等），它就會徹底消失。"
+
+addendum:
+  ja: "補記：職員各位は、SCP-080を『ブギーマン』と呼ぶのをやめるよう求められている。——██████博士"
+  en: "Note: All personnel are requested to stop referring to SCP-080 as 'The Boogeyman.' — Dr. ██████"
+  cs: "Poznámka: Veškerý personál je žádán, aby přestal SCP-080 nazývat „Bubák“. — Dr. ██████"
+  de: "Hinweis: Das gesamte Personal wird gebeten, aufzuhören, SCP-080 als „Buhmann“ zu bezeichnen. — Dr. ██████"
+  es: "Nota: Se solicita a todo el personal que deje de referirse al SCP-080 como 'El Hombre del Saco'. — Dr. ██████"
+  fr: "Note : Tout le personnel est prié de cesser de désigner le SCP-080 sous le nom de « Croque-mitaine ». — Dr █████"
+  it: "Nota: A tutto il personale si chiede di smettere di riferirsi a SCP-080 come 'l'Uomo Nero'. — Dr. ██████"
+  ko: "비고: 전 직원에게 SCP-080을 '부기맨'이라고 부르는 것을 중단할 것을 요청한다. — ██████ 박사"
+  pl: "Uwaga: Cały personel jest proszony o zaprzestanie nazywania SCP-080 „Boogiemanem”. — dr ██████"
+  pt: "Nota: Todo o pessoal é solicitado a parar de se referir ao SCP-080 como 'O Bicho-Papão'. — Dr. ██████"
+  th: "หมายเหตุ: ขอให้เจ้าหน้าที่ทุกท่านหยุดเรียก SCP-080 ว่า 'ผีบูกี้แมน' — ดร. ██████"
+  uk: "Примітка: Усьому персоналу пропонується припинити називати SCP-080 «Бабаєм». — д-р ██████"
+  vi: "Ghi chú: Tất cả nhân viên được yêu cầu ngừng gọi SCP-080 là 'Ông Ba Bị'. — Tiến sĩ ██████"
+  zh: "备注：请全体职员停止将SCP-080称为「大灰狼」（Boogeyman）。——██████博士"
+  zh_Hant: "備註：請全體職員停止將SCP-080稱為「大灰狼」（Boogeyman）。——██████博士"

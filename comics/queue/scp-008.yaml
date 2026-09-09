@@ -1,0 +1,190 @@
+# SCP-008「ゾンビ病」4コマ台本
+# captionはSpecial Containment Procedures / Descriptionの実際の文章からの引用。
+# キャラにセリフは言わせない。記事を確認したところオブジェクトクラスはKeterでは
+# なくEuclid（正。2012年にKeterから再分類された）。
+#
+# 4コマの構成意図: SCP-008は「淡々とした収容記録を読み進めるうちに、実は
+# ゾンビ化の症状描写だったと気付く」のが記事の本質。1コマ目=検体の収容＋
+# 感染率・致死率の統計（導入。一度5コマ構成を試したが「4コマでないと意味が
+# ない」ため、収容手順と統計値の2コマ分を1コマに統合した）、2コマ目=インフル
+# 様の初期症状（まだ普通の病気に見える、ミスリードの役割）、3コマ目=重度の
+# 認知症・基本動作のみに退行（ここで様子がおかしいと気付く、寄りのショットに
+# 変えて強調）、4コマ目=生きた人間を捕食しようとする（ゾンビと判明するオチ）、
+# という段階的な「気付き」の流れを意図的に作っている。壊死・血みどろ描写等の
+# 直接的なグロは避け、記事の実際の文言（症状の進行）だけでゾンビ化を伝える。
+
+id: scp-008
+
+title:
+  en: "SCP-008: The Zombie Plague"
+  ja: "SCP-008：ゾンビ病"
+  cs: "SCP-008: Zombie mor"
+  de: "SCP-008: Die Zombie-Seuche"
+  es: "SCP-008: La Plaga Zombi"
+  fr: "SCP-008 : La Peste Zombie"
+  it: "SCP-008: La Peste Zombie"
+  ko: "SCP-008: 좀비 역병"
+  pl: "SCP-008: Zombiowa Zaraza"
+  pt: "SCP-008: A Praga Zumbi"
+  th: "SCP-008: กาฬโรคซอมบี้"
+  uk: "SCP-008: Зомбі-чума"
+  vi: "SCP-008: Bệnh Dịch Zombie"
+  zh: "SCP-008：僵尸瘟疫"
+  zh_Hant: "SCP-008：殭屍瘟疫"
+
+attribution:
+  article: "SCP-008"
+  source_url: "http://scp-wiki.wikidot.com/scp-008"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the whole secure storage
+      vault. Rows of small sealed sample vials sit in a reinforced
+      containment rack behind thick glass, heavy vault-door mechanisms
+      visible around the frame. Attending-researcher-m wears a single
+      one-piece coverall, solid white from the shoulders all the way
+      down to the ankles including the legs and pants (no separate lab
+      coat, no visible trousers of a different color, one continuous
+      white garment), plus a full sealed helmet with a clear visor
+      fully covering his face and head, no bare skin visible anywhere,
+      not even the face. He reaches into the rack through a sealed
+      glove-box interface to inspect one vial.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-008の検体はクラスV「極度」生物災害に指定されており、関連する全プロトコルが適用される。感染率100％。致死率100％。"
+      en: "SCP-008 samples have been deemed Class V extreme biological hazards, and all related protocols apply. 100% infectiousness. 100% lethality."
+      cs: "Vzorky SCP-008 byly klasifikovány jako extrémní biologické nebezpečí třídy V a platí veškeré související protokoly. 100% infekčnost. 100% smrtnost."
+      de: "SCP-008-Proben wurden als extreme biologische Gefahrenstoffe der Klasse V eingestuft, und alle zugehörigen Protokolle gelten. 100% Ansteckungsrate. 100% Letalität."
+      es: "Las muestras de SCP-008 han sido clasificadas como riesgos biológicos extremos de Clase V, y se aplican todos los protocolos correspondientes. 100% de infecciosidad. 100% de letalidad."
+      fr: "Les échantillons de SCP-008 ont été classés comme risques biologiques extrêmes de classe V, et tous les protocoles associés s'appliquent. 100 % d'infectiosité. 100 % de létalité."
+      it: "I campioni di SCP-008 sono stati classificati come rischi biologici estremi di Classe V, e si applicano tutti i protocolli correlati. 100% di contagiosità. 100% di letalità."
+      ko: "SCP-008 검체는 등급 V 극도 생물학적 위험물로 지정되었으며, 관련된 모든 규정이 적용된다. 감염률 100%. 치사율 100%."
+      pl: "Próbki SCP-008 uznano za ekstremalne zagrożenie biologiczne klasy V, w związku z czym obowiązują wszystkie powiązane protokoły. 100% zakaźności. 100% śmiertelności."
+      pt: "As amostras de SCP-008 foram consideradas riscos biológicos extremos de Classe V, e todos os protocolos relacionados se aplicam. 100% de infecciosidade. 100% de letalidade."
+      th: "ตัวอย่าง SCP-008 ถูกจัดให้เป็นอันตรายทางชีวภาพขั้นรุนแรงระดับ V และมาตรการที่เกี่ยวข้องทั้งหมดมีผลบังคับใช้ อัตราการติดเชื้อ 100% อัตราการเสียชีวิต 100%"
+      uk: "Зразки SCP-008 визнано екстремальною біологічною небезпекою класу V, і застосовуються всі пов'язані протоколи. 100% заразність. 100% летальність."
+      vi: "Các mẫu SCP-008 được xác định là mối nguy sinh học cực độ Cấp V, và tất cả các quy trình liên quan đều được áp dụng. Tỷ lệ lây nhiễm 100%. Tỷ lệ tử vong 100%."
+      zh: "SCP-008的样本被判定为V级极端生物危害，所有相关协议均适用。感染率100%。致死率100%。"
+      zh_Hant: "SCP-008的樣本被判定為V級極端生物危害，所有相關協議均適用。感染率100%。致死率100%。"
+
+  - scene: >
+      Medium shot, dynamic diagonal composition, low angle, a more urgent
+      framing than the previous panels. On the left side of the frame, a
+      D-Class subject sniffles, forehead beaded with sweat and cheeks
+      flushed, sitting on an exam table. On the right side of the frame,
+      attending-researcher-m recoils half a step back, one hand raised
+      defensively, holding a thermometer at arm's length, eyes wide with
+      alarm.
+    characters: [d-class, attending-researcher-m]
+    caption:
+      ja: "SCP-008への感染による症状は曝露から3時間以内に現れ、高熱を伴うインフルエンザ様の症状として現れる。"
+      en: "Symptoms of infection with SCP-008 manifest no more than three hours after exposure, presenting as flu-like symptoms with high fever."
+      cs: "Příznaky infekce SCP-008 se projeví nejpozději tři hodiny po expozici a mají podobu chřipkovitých symptomů s vysokou horečkou."
+      de: "Symptome einer Infektion mit SCP-008 treten spätestens drei Stunden nach der Exposition auf und äußern sich als grippeähnliche Symptome mit hohem Fieber."
+      es: "Los síntomas de la infección por SCP-008 se manifiestan a más tardar tres horas después de la exposición, presentándose como síntomas similares a la gripe con fiebre alta."
+      fr: "Les symptômes de l'infection au SCP-008 apparaissent au plus tard trois heures après l'exposition, se présentant sous forme de symptômes grippaux accompagnés de forte fièvre."
+      it: "I sintomi dell'infezione da SCP-008 si manifestano entro tre ore dall'esposizione, presentandosi come sintomi simil-influenzali con febbre alta."
+      ko: "SCP-008 감염 증상은 노출 후 최대 3시간 이내에 나타나며, 고열을 동반한 독감과 유사한 증상으로 나타난다."
+      pl: "Objawy zakażenia SCP-008 pojawiają się nie później niż trzy godziny po ekspozycji, przybierając postać objawów grypopodobnych z wysoką gorączką."
+      pt: "Os sintomas da infecção por SCP-008 se manifestam em até três horas após a exposição, apresentando-se como sintomas semelhantes aos da gripe, com febre alta."
+      th: "อาการติดเชื้อ SCP-008 จะปรากฏภายในไม่เกินสามชั่วโมงหลังการสัมผัส โดยแสดงอาการคล้ายไข้หวัดใหญ่ร่วมกับไข้สูง"
+      uk: "Симптоми зараження SCP-008 виявляються не пізніше ніж через три години після контакту, проявляючись як грипоподібні симптоми з високою температурою."
+      vi: "Các triệu chứng nhiễm SCP-008 xuất hiện không quá ba giờ sau khi phơi nhiễm, biểu hiện dưới dạng triệu chứng giống cúm kèm sốt cao."
+      zh: "感染SCP-008的症状最迟在暴露后三小时内出现，表现为伴有高烧的流感样症状。"
+      zh_Hant: "感染SCP-008的症狀最遲在暴露後三小時內出現，表現為伴有高燒的流感樣症狀。"
+
+  - scene: >
+      Extreme close-up shot, cropped so tightly that only the D-Class
+      subject's head, neck, and upper shoulders are visible, filling
+      nearly the entire frame like a passport photo — the subject's arms,
+      hands, legs, feet, and the exam table underneath them are cropped
+      out of frame entirely and not visible at all, much tighter than the
+      previous medium shot, to emphasize the change. The subject now
+      clearly looks like a zombie: skin gone pale and grayish, eyes
+      glassy, vacant, and sunken with dark circles underneath, jaw
+      hanging slightly open and slack, hair damp and disheveled hanging
+      over the face, head tilted at an unnatural angle. Attending-
+      researcher-m is visible only as a small, blurred silhouette in the
+      background, backing away toward the door.
+    characters: [d-class, attending-researcher-m]
+    caption:
+      ja: "感染が進行すると、対象は重度の認知症を発症する。認知能力は著しく低下し支離滅裂となり、直立、歩行、噛みつき、掴み、四つん這いといった基本的な身体動作のみが可能な状態になる。"
+      en: "As the infection progresses, subjects develop severe dementia. Cognitive abilities become severely retarded and erratic, leaving only basic physical activities possible: standing, walking, biting, grabbing, and crawling."
+      cs: "S postupem infekce se u subjektů rozvíjí těžká demence. Kognitivní schopnosti se výrazně zpomalují a stávají se nevyzpytatelnými, takže zůstávají možné jen základní fyzické činnosti: stání, chůze, kousání, chytání a lezení."
+      de: "Mit fortschreitender Infektion entwickeln die Probanden eine schwere Demenz. Die kognitiven Fähigkeiten werden stark verlangsamt und unberechenbar, sodass nur noch grundlegende körperliche Aktivitäten möglich sind: Stehen, Gehen, Beißen, Greifen und Kriechen."
+      es: "A medida que la infección avanza, los sujetos desarrollan demencia severa. Las capacidades cognitivas se retrasan gravemente y se vuelven erráticas, quedando solo posibles actividades físicas básicas: ponerse de pie, caminar, morder, agarrar y gatear."
+      fr: "À mesure que l'infection progresse, les sujets développent une démence sévère. Les capacités cognitives deviennent gravement retardées et erratiques, ne laissant possibles que des activités physiques basiques : se tenir debout, marcher, mordre, agripper et ramper."
+      it: "Con il progredire dell'infezione, i soggetti sviluppano una grave demenza. Le capacità cognitive diventano gravemente rallentate ed erratiche, lasciando possibili solo attività fisiche di base: stare in piedi, camminare, mordere, afferrare e strisciare."
+      ko: "감염이 진행됨에 따라 대상은 중증 치매를 나타낸다. 인지 능력은 심각하게 저하되고 불규칙해지며, 서기, 걷기, 물기, 움켜쥐기, 기어다니기 등 기본적인 신체 활동만 가능해진다."
+      pl: "W miarę postępu infekcji u osobników rozwija się ciężka demencja. Zdolności poznawcze ulegają poważnemu spowolnieniu i stają się nieprzewidywalne, pozostają możliwe jedynie podstawowe czynności fizyczne: stanie, chodzenie, gryzienie, chwytanie i czołganie się."
+      pt: "À medida que a infecção avança, os sujeitos desenvolvem demência grave. As capacidades cognitivas tornam-se severamente retardadas e erráticas, restando possíveis apenas atividades físicas básicas: ficar de pé, andar, morder, agarrar e rastejar."
+      th: "เมื่อการติดเชื้อดำเนินไป ผู้ติดเชื้อจะเกิดภาวะสมองเสื่อมขั้นรุนแรง ความสามารถทางปัญญาจะถดถอยลงอย่างมากและแปรปรวน เหลือเพียงกิจกรรมทางกายพื้นฐานเท่านั้น ได้แก่ การยืน การเดิน การกัด การจับ และการคลาน"
+      uk: "У міру прогресування інфекції в суб'єктів розвивається важка деменція. Когнітивні здібності стають серйозно уповільненими та непередбачуваними, залишаючи можливими лише базові фізичні дії: стояння, ходьбу, кусання, хапання та повзання."
+      vi: "Khi bệnh tiến triển, đối tượng phát triển chứng mất trí nhớ nghiêm trọng. Khả năng nhận thức trở nên chậm chạp và thất thường nghiêm trọng, chỉ còn lại các hoạt động thể chất cơ bản: đứng, đi, cắn, nắm và bò."
+      zh: "随着感染的发展，对象会出现严重的痴呆症状。认知能力严重迟钝且变得不稳定，只剩下站立、行走、撕咬、抓握和爬行等基本身体活动。"
+      zh_Hant: "隨著感染的發展，對象會出現嚴重的癡呆症狀。認知能力嚴重遲鈍且變得不穩定，只剩下站立、行走、撕咬、抓握和爬行等基本身體活動。"
+
+  - scene: >
+      Medium shot, dynamic diagonal composition, a wider and more
+      frantic framing than the close-up before it. Realistic adult body
+      proportions throughout. Exactly two people total in this image —
+      one researcher and one D-Class subject, no more, do not duplicate
+      any character. On the left side of the frame, attending-
+      researcher-m is sprinting away at a full panicked run, torso
+      leaning sharply forward into the sprint, one leg bent and driving
+      forward off the ground, his other leg fully extended straight
+      behind him in mid-stride, both arms pumping with the motion, his
+      lab coat flaring out behind him from the speed — but his head is
+      twisted back over his shoulder to look at the D-Class subject,
+      utterly panicked: eyes opened as wide as physically possible with
+      tiny pupils and visible white on all sides, eyebrows sharply
+      angled and pulled together into deep creases, mouth stretched
+      wide open screaming, several sweat drops flying off his flushed
+      face, disheveled hair whipping wildly. On the right side of the
+      frame, farther back, facing toward attending-researcher-m and
+      toward the viewer, the D-Class subject has an even more
+      pronounced zombie appearance than the previous panel — pale,
+      grayish skin, heavy, deep, dark purplish-black circles ringing
+      both eyes making them look almost bruised, eyes glassy and wide
+      open, jaw stretched open wide baring teeth as if to bite, hair
+      damp and disheveled — torso pitched sharply forward and off
+      balance, back leg kicked up off the ground mid-lunge, both arms
+      fully extended straight out toward attending-researcher-m with
+      fingers curled into claws.
+    characters: [attending-researcher-m, d-class]
+    caption:
+      ja: "対象は生存する人間を連想させる光景・音・匂いに向かって精力的に移動し、身体的接触が生じた場合は生きた人間を捕食しようとする。"
+      en: "Subjects will energetically move towards sights, sounds, and smells it associates with living humans, and will attempt to ingest living humans if physical contact is made."
+      cs: "Subjekty se energicky pohybují směrem k pohledům, zvukům a pachům, které si spojují s živými lidmi, a při fyzickém kontaktu se pokusí živého člověka pozřít."
+      de: "Die Probanden bewegen sich energisch auf Anblicke, Geräusche und Gerüche zu, die sie mit lebenden Menschen assoziieren, und versuchen bei körperlichem Kontakt, lebende Menschen zu verzehren."
+      es: "Los sujetos se moverán enérgicamente hacia imágenes, sonidos y olores que asocien con humanos vivos, e intentarán ingerir a humanos vivos si se produce contacto físico."
+      fr: "Les sujets se dirigent énergiquement vers les images, sons et odeurs qu'ils associent aux humains vivants, et tentent d'ingérer des humains vivants en cas de contact physique."
+      it: "I soggetti si muoveranno energicamente verso immagini, suoni e odori che associano a esseri umani vivi, e cercheranno di divorare esseri umani vivi in caso di contatto fisico."
+      ko: "대상은 살아있는 인간과 연관된 광경, 소리, 냄새를 향해 활발히 이동하며, 신체 접촉이 이루어지면 살아있는 인간을 포식하려 시도한다."
+      pl: "Osobniki energicznie poruszają się w kierunku widoków, dźwięków i zapachów kojarzonych z żywymi ludźmi i przy fizycznym kontakcie próbują pożreć żywego człowieka."
+      pt: "Os sujeitos se movem energicamente em direção a visões, sons e cheiros que associam a humanos vivos, e tentarão devorar humanos vivos caso ocorra contato físico."
+      th: "ผู้ติดเชื้อจะเคลื่อนที่อย่างแข็งขันเข้าหาภาพ เสียง และกลิ่นที่เชื่อมโยงกับมนุษย์ที่ยังมีชีวิต และจะพยายามกินมนุษย์ที่ยังมีชีวิตหากเกิดการสัมผัสทางกาย"
+      uk: "Суб'єкти енергійно рухаються у бік образів, звуків і запахів, які асоціюються з живими людьми, і намагаються пожерти живу людину при фізичному контакті."
+      vi: "Đối tượng sẽ di chuyển mạnh mẽ về phía hình ảnh, âm thanh và mùi hương mà nó liên tưởng đến con người còn sống, và sẽ cố gắng ăn thịt người sống nếu có tiếp xúc cơ thể."
+      zh: "对象会精力充沛地朝着令其联想到活人的景象、声音和气味移动，一旦发生身体接触便会试图吞食活人。"
+      zh_Hant: "對象會精力充沛地朝著令其聯想到活人的景象、聲音和氣味移動，一旦發生身體接觸便會試圖吞食活人。"
+
+addendum:
+  ja: "補遺：全てのG2サイトの方針として、避難手順を用意しないこととする。"
+  en: "Addendum: It should be the policy of all G2 sites to not prepare an evacuation procedure."
+  cs: "Dodatek: Politikou všech lokalit G2 by mělo být nepřipravovat evakuační postup."
+  de: "Zusatz: Es sollte die Richtlinie aller G2-Standorte sein, kein Evakuierungsverfahren vorzubereiten."
+  es: "Anexo: Debe ser política de todos los sitios G2 no preparar un procedimiento de evacuación."
+  fr: "Addenda : La politique de tous les sites G2 doit être de ne préparer aucune procédure d'évacuation."
+  it: "Addendum: Deve essere politica di tutti i siti G2 non predisporre alcuna procedura di evacuazione."
+  ko: "추가: 모든 G2 사이트의 방침은 대피 절차를 마련하지 않는 것이어야 한다."
+  pl: "Suplement: Polityką wszystkich placówek G2 powinno być nieprzygotowywanie procedury ewakuacyjnej."
+  pt: "Adendo: Deve ser política de todos os locais G2 não preparar um procedimento de evacuação."
+  th: "ภาคผนวก: นโยบายของไซต์ G2 ทั้งหมดคือจะไม่จัดเตรียมขั้นตอนการอพยพ"
+  uk: "Додаток: Політика всіх об'єктів G2 повинна полягати в тому, щоб не готувати процедуру евакуації."
+  vi: "Phụ lục: Chính sách của tất cả các địa điểm G2 là không chuẩn bị quy trình sơ tán."
+  zh: "补遗：所有G2站点的方针应为不制定疏散程序。"
+  zh_Hant: "補遺：所有G2站點的方針應為不制定疏散程序。"

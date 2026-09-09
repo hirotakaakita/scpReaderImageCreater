@@ -1,0 +1,148 @@
+# SCP-062 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Addendum 062-001（起動結果一覧）は本編に混ぜず、ヴォイニッチ手稿の
+# 一件のみをaddendumの一言として使用。キャラにセリフは言わせない。JP公式訳が
+# 直接取得できなかったため、検証済みの英語本文からの翻訳（ja含む）。
+
+id: scp-062
+
+title:
+  en: "SCP-062"
+  ja: "SCP-062"
+  cs: "SCP-062"
+  de: "SCP-062"
+  es: "SCP-062"
+  fr: "SCP-062"
+  it: "SCP-062"
+  ko: "SCP-062"
+  pl: "SCP-062"
+  pt: "SCP-062"
+  th: "SCP-062"
+  uk: "SCP-062"
+  vi: "SCP-062"
+  zh: "SCP-062"
+  zh_Hant: "SCP-062"
+
+attribution:
+  article: "SCP-062"
+  source_url: "http://scp-wiki.wikidot.com/scp-062"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+characters: [attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Close-up, filling most of the frame, on a heavy, unbranded
+      aluminum desktop computer case sitting on a lab table, faint
+      scratched marks visible near the back edge. attending-researcher-m
+      lifts one side slightly, straining at its surprising weight.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-062は、無銘のデスクトップパソコンのように見え、重さは約24kgと異常に重い。筐体の裏側近くには「情報は自由だ〔原文ママ〕」という文言が、鍵のようなもので引っ掻いて刻まれているのが発見されている。"
+      en: "SCP-062 appears to be an unbranded personal desktop computer, unusually heavy at approximately 24kg. The words 'infomation is freedom [sic]' were found scratched into the casing, apparently with a key."
+      cs: "SCP-062 vypadá jako neoznačený osobní stolní počítač, neobvykle těžký, s hmotností přibližně 24 kg. Na plášti byla nalezena vyškrábaná slova 'infomace je svoboda [sic]', zjevně provedená klíčem nebo podobným předmětem."
+      de: "SCP-062 erscheint als ein unmarkierter Desktop-Computer, ungewöhnlich schwer mit etwa 24 kg. Die Worte 'infomation is freedom [sic]' wurden in das Gehäuse eingeritzt gefunden, offenbar mit einem Schlüssel oder ähnlichem Gegenstand."
+      es: "SCP-062 parece ser un ordenador de escritorio personal sin marca, inusualmente pesado, de aproximadamente 24 kg. Se encontraron las palabras 'la infomación es libertad [sic]' rayadas en la carcasa, aparentemente con una llave."
+      fr: "Le SCP-062 se présente comme un ordinateur de bureau personnel sans marque, étonnamment lourd, pesant environ 24 kg. Les mots « l'infomation est liberté [sic] » ont été trouvés gravés sur le boîtier, apparemment avec une clé."
+      it: "SCP-062 appare come un computer desktop personale senza marchio, insolitamente pesante, di circa 24 kg. Le parole 'l'infomazione è libertà [sic]' sono state trovate incise sulla scocca, apparentemente con una chiave."
+      ko: "SCP-062는 상표가 없는 개인용 데스크톱 컴퓨터처럼 보이며, 약 24kg으로 비정상적으로 무겁다. 케이스에는 열쇠 같은 것으로 긁어 새긴 듯한 '정보는 자유다[원문 그대로]'라는 문구가 발견되었다."
+      pl: "SCP-062 wygląda jak nieoznakowany komputer stacjonarny, niezwykle ciężki, ważący około 24 kg. Na obudowie znaleziono wydrapane słowa 'infomacja to wolność [sic]', najwyraźniej wykonane kluczem."
+      pt: "O SCP-062 parece ser um computador de mesa pessoal sem marca, incomumente pesado, com cerca de 24 kg. As palavras 'a infomação é liberdade [sic]' foram encontradas arranhadas na carcaça, aparentemente com uma chave."
+      th: "SCP-062 มีลักษณะเหมือนคอมพิวเตอร์เดสก์ท็อปส่วนบุคคลที่ไม่มียี่ห้อ หนักผิดปกติประมาณ 24 กิโลกรัม พบข้อความ 'infomation is freedom [sic]' ถูกขูดขีดไว้บนตัวเครื่อง ดูเหมือนใช้กุญแจหรือวัตถุคล้ายกัน"
+      uk: "SCP-062 виглядає як немаркований персональний настільний комп'ютер, незвично важкий — приблизно 24 кг. На корпусі виявлено видряпані слова 'infomation is freedom [sic]', очевидно, ключем чи подібним предметом."
+      vi: "SCP-062 trông giống một chiếc máy tính để bàn cá nhân không có nhãn hiệu, nặng bất thường khoảng 24kg. Dòng chữ 'infomation is freedom [sic]' được tìm thấy khắc trên vỏ máy, dường như bằng một chiếc chìa khóa."
+      zh: "SCP-062外观是一台无品牌标识的个人台式电脑，重量异常，约24公斤。在机箱背面附近发现了刻划的文字「infomation is freedom〔原文如此〕」，似乎是用钥匙之类的物品刻划而成。"
+      zh_Hant: "SCP-062外觀是一台無品牌標識的個人桌上型電腦，重量異常，約24公斤。在機殼背面附近發現了刻劃的文字「infomation is freedom〔原文如此〕」，似乎是用鑰匙之類的物品刻劃而成。"
+
+  - scene: >
+      Wide shot, full body, eye level, a different framing from the
+      close-up before, a clean-room lab. The computer sits powered on,
+      its monitor glowing with unfamiliar abstract interface elements
+      and symbols. attending-researcher-f watches, notepad in hand,
+      comparing today's screen to a photo of a totally different-looking
+      interface clipped to her board.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-062は筐体が完全に密閉されていなければ動作しない。通常のデスクトップパソコンとして期待通りに動作するが、性能、オペレーティングシステム、内部データ、言語は起動のたびに異なる。"
+      en: "SCP-062 will not function unless the case is completely sealed. It operates as expected for a normal desktop computer, except that its performance, operating system, contained data, and language appear different upon every activation."
+      cs: "SCP-062 nebude fungovat, pokud plášť není zcela uzavřen. Funguje jako běžný stolní počítač, s tím rozdílem, že jeho výkon, operační systém, obsažená data a jazyk se při každé aktivaci zdají odlišné."
+      de: "SCP-062 funktioniert nur, wenn das Gehäuse vollständig verschlossen ist. Es funktioniert wie ein normaler Desktop-Computer, mit der Ausnahme, dass seine Leistung, sein Betriebssystem, die enthaltenen Daten und die Sprache bei jeder Aktivierung unterschiedlich erscheinen."
+      es: "SCP-062 no funcionará a menos que la carcasa esté completamente sellada. Funciona como se espera de un ordenador de escritorio normal, excepto que su rendimiento, sistema operativo, datos contenidos e idioma parecen diferentes en cada activación."
+      fr: "Le SCP-062 ne fonctionnera pas tant que le boîtier n'est pas complètement scellé. Il fonctionne comme un ordinateur de bureau normal, à ceci près que ses performances, son système d'exploitation, ses données et sa langue semblent différents à chaque activation."
+      it: "SCP-062 non funzionerà a meno che la scocca non sia completamente sigillata. Funziona come ci si aspetterebbe da un normale computer desktop, tranne per il fatto che le sue prestazioni, il sistema operativo, i dati contenuti e la lingua appaiono diversi ad ogni attivazione."
+      ko: "SCP-062는 케이스가 완전히 밀봉되지 않으면 작동하지 않는다. 일반 데스크톱 컴퓨터처럼 작동하지만, 성능, 운영체제, 내부 데이터, 언어가 켤 때마다 달라진다는 점이 다르다."
+      pl: "SCP-062 nie będzie działać, dopóki obudowa nie zostanie całkowicie zamknięta. Działa tak, jak można się spodziewać po zwykłym komputerze stacjonarnym, z tą różnicą, że jego wydajność, system operacyjny, zawarte dane i język różnią się przy każdym uruchomieniu."
+      pt: "O SCP-062 não funcionará a menos que a carcaça esteja completamente selada. Ele opera como esperado para um computador de mesa normal, exceto que seu desempenho, sistema operacional, dados contidos e idioma parecem diferentes a cada ativação."
+      th: "SCP-062 จะไม่ทำงานเว้นแต่ตัวเครื่องจะถูกปิดผนึกอย่างสมบูรณ์ มันทำงานเหมือนคอมพิวเตอร์เดสก์ท็อปทั่วไป ยกเว้นว่าประสิทธิภาพ ระบบปฏิบัติการ ข้อมูลที่บรรจุอยู่ และภาษาจะแตกต่างกันไปทุกครั้งที่เปิดใช้งาน"
+      uk: "SCP-062 не працюватиме, якщо корпус не буде повністю запечатаний. Він працює як звичайний настільний комп'ютер, за винятком того, що його продуктивність, операційна система, дані та мова відрізняються при кожному ввімкненні."
+      vi: "SCP-062 sẽ không hoạt động trừ khi vỏ máy được niêm phong hoàn toàn. Nó hoạt động như một máy tính để bàn bình thường, ngoại trừ việc hiệu suất, hệ điều hành, dữ liệu chứa bên trong, và ngôn ngữ dường như khác nhau mỗi lần kích hoạt."
+      zh: "SCP-062除非机箱被完全密封，否则无法运作。它的运作方式与普通台式电脑无异，只是其性能、操作系统、所含数据及语言在每次启动时都各不相同。"
+      zh_Hant: "SCP-062除非機殼被完全密封，否則無法運作。它的運作方式與普通桌上型電腦無異，只是其效能、作業系統、所含資料及語言在每次啟動時都各不相同。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the
+      wide clean-room shot before. attending-researcher-m carefully
+      connects the computer to a standalone external hard drive with a
+      single unplugged network cable dangling loose nearby, a small
+      portable battery pack visible beside the setup instead of a wall
+      outlet.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-062は決して外部ネットワークに接続してはならず、そこから抽出したデータは分析されるまで外部の不揮発性メディアに保存すること。"
+      en: "SCP-062 must never be attached to an external network, and all data extracted from it is to be stored on external nonvolatile media until analyzed."
+      cs: "SCP-062 nesmí být nikdy připojeno k externí síti a veškerá data z něj získaná musí být uchovávána na externím nevolatilním médiu, dokud nejsou analyzována."
+      de: "SCP-062 darf niemals mit einem externen Netzwerk verbunden werden, und alle daraus extrahierten Daten sind bis zur Analyse auf externen nichtflüchtigen Speichermedien zu speichern."
+      es: "SCP-062 nunca debe conectarse a una red externa, y todos los datos extraídos de él deben almacenarse en medios no volátiles externos hasta ser analizados."
+      fr: "Le SCP-062 ne doit jamais être connecté à un réseau externe, et toutes les données qui en sont extraites doivent être stockées sur un support non volatile externe jusqu'à leur analyse."
+      it: "SCP-062 non deve mai essere collegato a una rete esterna, e tutti i dati estratti da esso devono essere conservati su supporti non volatili esterni fino all'analisi."
+      ko: "SCP-062는 결코 외부 네트워크에 연결해서는 안 되며, 그로부터 추출된 모든 데이터는 분석될 때까지 외부의 비휘발성 매체에 저장해야 한다."
+      pl: "SCP-062 nigdy nie może być podłączane do sieci zewnętrznej, a wszystkie wydobyte z niego dane należy przechowywać na zewnętrznych nośnikach nieulotnych aż do momentu ich analizy."
+      pt: "O SCP-062 nunca deve ser conectado a uma rede externa, e todos os dados extraídos dele devem ser armazenados em mídia não volátil externa até serem analisados."
+      th: "SCP-062 ต้องไม่เชื่อมต่อกับเครือข่ายภายนอกเด็ดขาด และข้อมูลทั้งหมดที่ดึงออกมาจากมันต้องถูกเก็บไว้ในสื่อบันทึกข้อมูลถาวรภายนอกจนกว่าจะได้รับการวิเคราะห์"
+      uk: "SCP-062 ніколи не можна підключати до зовнішньої мережі, а всі дані, отримані з нього, слід зберігати на зовнішніх енергонезалежних носіях до моменту аналізу."
+      vi: "SCP-062 không bao giờ được kết nối với mạng bên ngoài, và toàn bộ dữ liệu trích xuất từ nó phải được lưu trữ trên phương tiện lưu trữ không khả biến bên ngoài cho đến khi được phân tích."
+      zh: "SCP-062绝不可连接外部网络，从中提取的所有数据在分析完成前须存储于外部非易失性存储介质中。"
+      zh_Hant: "SCP-062絕不可連接外部網路，從中提取的所有資料在分析完成前須儲存於外部非揮發性儲存媒體中。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show a dim
+      university basement corridor at night, a very different framing
+      from the clean-room shots before. attending-researcher-f, in plain
+      civilian clothes, carries the heavy computer case awkwardly in
+      both arms toward an exit, glancing back over her shoulder.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-062は、とある大学の計算機科学研究室の地下室で発見された。財団が潜入させていた工作員がこの物体を押収し、施設へと持ち込んだ。以後、この物体はそこに収容され続けている。"
+      en: "SCP-062 was discovered in the basement of a university Computer Science Laboratory. An embedded Foundation agent seized the object and brought it to the Site, where it has since been contained."
+      cs: "SCP-062 bylo objeveno v suterénu univerzitní laboratoře informatiky. Skrytý agent Nadace předmět zabavil a přivezl na Site, kde je od té doby uchováváno."
+      de: "SCP-062 wurde im Keller eines Informatiklabors einer Universität entdeckt. Ein eingeschleuster Agent der Stiftung beschlagnahmte das Objekt und brachte es zum Standort, wo es seither aufbewahrt wird."
+      es: "SCP-062 fue descubierto en el sótano de un laboratorio de ciencias de la computación de una universidad. Un agente infiltrado de la Fundación incautó el objeto y lo llevó al Sitio, donde ha permanecido contenido desde entonces."
+      fr: "Le SCP-062 a été découvert dans le sous-sol d'un laboratoire d'informatique universitaire. Un agent infiltré de la Fondation a saisi l'objet et l'a apporté au Site, où il est confiné depuis."
+      it: "SCP-062 è stato scoperto nel seminterrato di un laboratorio di informatica universitario. Un agente infiltrato della Fondazione ha sequestrato l'oggetto e lo ha portato al Sito, dove è stato contenuto da allora."
+      ko: "SCP-062는 어느 대학교 컴퓨터 공학 연구실 지하실에서 발견되었다. 잠입해 있던 재단 요원이 이 물체를 압수하여 사이트로 가져왔으며, 이후 그곳에 수용되어 있다."
+      pl: "SCP-062 zostało odkryte w piwnicy uniwersyteckiego laboratorium informatycznego. Ukryty agent Fundacji przejął obiekt i przewiózł go do Placówki, gdzie od tego czasu jest przechowywany."
+      pt: "O SCP-062 foi descoberto no porão de um Laboratório de Ciência da Computação universitário. Um agente infiltrado da Fundação apreendeu o objeto e o levou para o Local, onde permanece contido desde então."
+      th: "SCP-062 ถูกค้นพบในชั้นใต้ดินของห้องปฏิบัติการวิทยาการคอมพิวเตอร์ของมหาวิทยาลัยแห่งหนึ่ง เจ้าหน้าที่แฝงตัวของมูลนิธิยึดวัตถุนี้และนำไปยังไซต์ ซึ่งถูกกักกันอยู่ที่นั่นนับตั้งแต่นั้นมา"
+      uk: "SCP-062 виявили в підвалі університетської лабораторії комп'ютерних наук. Впроваджений агент Фонду захопив об'єкт і доставив його на Об'єкт, де його відтоді утримують."
+      vi: "SCP-062 được phát hiện trong tầng hầm của một Phòng thí nghiệm Khoa học Máy tính của trường đại học. Một đặc vụ cài cắm của Quỹ đã tịch thu vật thể và đưa nó đến Địa Điểm, nơi nó được chứa giữ kể từ đó."
+      zh: "SCP-062是在一所大学计算机科学实验室的地下室中被发现的。一名潜伏的基金会特工缴获了该物体，并将其带到站点，此后一直被收容于此。"
+      zh_Hant: "SCP-062是在一所大學計算機科學實驗室的地下室中被發現的。一名潛伏的基金會特工繳獲了該物體，並將其帶到站點，此後一直被收容於此。"
+
+addendum:
+  ja: "補遺：ある起動時には、OS/2に似た未知のオペレーティングシステムが表示され、未知の言語——後にヴォイニッチ手稿の文字と強い類似性が確認された——が使われていた。内部データの解読作業は現在も続いている。"
+  en: "Addendum: One activation showed an unknown operating system resembling OS/2, displaying an unknown language later identified as strongly similar to that of the Voynich Manuscript. Attempts at deciphering the contained data are ongoing."
+  cs: "Dodatek: Při jedné aktivaci se zobrazil neznámý operační systém podobný OS/2, zobrazující neznámý jazyk, později identifikovaný jako silně podobný jazyku Voynichova rukopisu. Pokusy o rozluštění obsažených dat stále probíhají."
+  de: "Anhang: Bei einer Aktivierung zeigte sich ein unbekanntes, OS/2 ähnliches Betriebssystem mit einer unbekannten Sprache, die später als stark der des Voynich-Manuskripts ähnlich identifiziert wurde. Versuche, die enthaltenen Daten zu entschlüsseln, laufen noch."
+  es: "Adenda: En una activación se mostró un sistema operativo desconocido similar a OS/2, con un idioma desconocido posteriormente identificado como muy similar al del Manuscrito Voynich. Los intentos de descifrar los datos contenidos continúan."
+  fr: "Addendum : Une activation a montré un système d'exploitation inconnu ressemblant à OS/2, affichant une langue inconnue plus tard identifiée comme fortement similaire à celle du manuscrit de Voynich. Les tentatives de déchiffrement des données contenues se poursuivent."
+  it: "Addendum: Un'attivazione ha mostrato un sistema operativo sconosciuto simile a OS/2, con una lingua sconosciuta successivamente identificata come fortemente simile a quella del Manoscritto Voynich. I tentativi di decifrare i dati contenuti sono in corso."
+  ko: "부록: 한 번의 활성화에서 OS/2와 유사한 미지의 운영체제가 나타났으며, 미지의 언어가 표시되었는데 훗날 보이니치 필사본의 문자와 강한 유사성이 있는 것으로 확인되었다. 내부 데이터를 해독하려는 시도는 현재도 진행 중이다."
+  pl: "Aneks: Podczas jednej z aktywacji ukazał się nieznany system operacyjny przypominający OS/2, wyświetlający nieznany język, później zidentyfikowany jako silnie przypominający język Rękopisu Voynicha. Próby odszyfrowania zawartych danych wciąż trwają."
+  pt: "Adendo: Uma ativação exibiu um sistema operacional desconhecido semelhante ao OS/2, mostrando um idioma desconhecido posteriormente identificado como fortemente semelhante ao do Manuscrito Voynich. As tentativas de decifrar os dados contidos continuam."
+  th: "ภาคผนวก: การเปิดใช้งานครั้งหนึ่งแสดงระบบปฏิบัติการที่ไม่รู้จักคล้ายกับ OS/2 แสดงภาษาที่ไม่รู้จักซึ่งภายหลังระบุว่ามีความคล้ายคลึงอย่างมากกับภาษาในต้นฉบับวอยนิช ความพยายามถอดรหัสข้อมูลที่บรรจุอยู่ยังคงดำเนินต่อไป"
+  uk: "Додаток: Під час однієї активації з'явилася невідома операційна система, схожа на OS/2, з невідомою мовою, яку згодом ідентифікували як дуже схожу на мову рукопису Войнича. Спроби розшифрувати вміщені дані тривають."
+  vi: "Phụ lục: Một lần kích hoạt hiển thị một hệ điều hành không xác định giống OS/2, hiển thị một ngôn ngữ không xác định sau đó được xác định là rất giống với ngôn ngữ trong Bản thảo Voynich. Những nỗ lực giải mã dữ liệu chứa bên trong vẫn đang tiếp diễn."
+  zh: "补遗：一次启动显示出一种类似OS/2的未知操作系统，使用一种未知语言，后来被确认与《伏尼契手稿》的文字高度相似。破译其中数据的尝试仍在进行中。"
+  zh_Hant: "補遺：一次啟動顯示出一種類似OS/2的未知作業系統，使用一種未知語言，後來被確認與《伏尼契手稿》的文字高度相似。破譯其中數據的嘗試仍在進行中。"

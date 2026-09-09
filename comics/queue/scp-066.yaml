@@ -1,0 +1,126 @@
+# SCP-066 4コマ台本
+# captionはSpecial Containment Procedures / Description本文（Incident 066-2以前の
+# 記述）のみからの引用。Incident 066-2以降の内容（恒久的な聴覚障害等）は一切使用しない。
+# キャラにセリフは言わせない。
+
+id: scp-066
+
+title:
+  en: "SCP-066"
+  ja: "SCP-066"
+  cs: "SCP-066"
+  de: "SCP-066"
+  es: "SCP-066"
+  fr: "SCP-066"
+  it: "SCP-066"
+  ko: "SCP-066"
+  pl: "SCP-066"
+  pt: "SCP-066"
+  th: "SCP-066"
+  uk: "SCP-066"
+  vi: "SCP-066"
+  zh: "SCP-066"
+  zh_Hant: "SCP-066"
+
+attribution:
+  article: "SCP-066"
+  source_url: "http://scp-wiki.wikidot.com/scp-066"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+characters: [attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, showing the whole storage room.
+      attending-researcher-m opens a tungsten carbide box on a table,
+      revealing an amorphous mass of braided yarn and colorful ribbon
+      inside.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-066は、編み込まれた毛糸とリボンからなる不定形の塊で、重さは約1キログラムである。"
+      en: "SCP-066 is an amorphous mass of braided yarn and ribbon weighing approximately one kilogram."
+      cs: "SCP-066 je beztvará hmota spletené příze a stuh o hmotnosti přibližně jednoho kilogramu."
+      de: "SCP-066 ist eine amorphe Masse aus geflochtenem Garn und Bändern mit einem Gewicht von etwa einem Kilogramm."
+      es: "SCP-066 es una masa amorfa de hilo y cinta trenzados que pesa aproximadamente un kilogramo."
+      fr: "Le SCP-066 est une masse amorphe de fil et de ruban tressés pesant environ un kilogramme."
+      it: "SCP-066 è una massa amorfa di filo e nastro intrecciati del peso di circa un chilogrammo."
+      ko: "SCP-066는 엮은 실과 리본으로 이루어진 무정형 덩어리로, 무게는 약 1킬로그램이다."
+      pl: "SCP-066 to bezkształtna masa spletionej przędzy i wstążek o wadze około jednego kilograma."
+      pt: "O SCP-066 é uma massa amorfa de fio e fita trançados, pesando aproximadamente um quilograma."
+      th: "SCP-066 คือก้อนวัตถุไร้รูปทรงที่ทำจากเส้นด้ายและริบบิ้นถักเปีย มีน้ำหนักประมาณหนึ่งกิโลกรัม"
+      uk: "SCP-066 — це безформна маса сплетеної пряжі та стрічок вагою приблизно один кілограм."
+      vi: "SCP-066 là một khối vô định hình gồm sợi len và ruy băng bện lại, nặng khoảng một kilôgam."
+      zh: "SCP-066是一团由编织毛线和缎带构成的无定形物质，重约一公斤。"
+      zh_Hant: "SCP-066是一團由編織毛線和緞帶構成的無定形物質，重約一公斤。"
+
+  - scene: >
+      Medium shot, close on attending-researcher-f's hands and torso, a
+      different framing from the wide shot before, carefully plucking a
+      single taut strand of yarn between two fingers with a look of
+      focused concentration.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-066の糸は一本ずつ取り出して操作することができ、これを行うと物体から全音階（ド・レ・ミ・ファ・ソ・ラ・シ）の音が発せられる。6音以上が奏でられると、SCP-066は持続時間・性質の異なる何らかの効果を発現する。"
+      en: "Strands of SCP-066 may be taken individually and manipulated; when this is done, a note on the diatonic scale is produced by the object. When a set of six or more notes are produced, SCP-066 will produce an effect of varying nature and duration."
+      cs: "Prameny SCP-066 lze jednotlivě uchopit a manipulovat s nimi; při této činnosti předmět vydává tón odpovídající diatonické stupnici. Jakmile je vytvořena sada šesti nebo více tónů, SCP-066 vyvolá efekt různé povahy a trvání."
+      de: "Stränge von SCP-066 können einzeln entnommen und manipuliert werden; dabei erzeugt das Objekt einen Ton der diatonischen Tonleiter. Werden sechs oder mehr Töne erzeugt, produziert SCP-066 einen Effekt unterschiedlicher Art und Dauer."
+      es: "Los hilos de SCP-066 pueden tomarse individualmente y manipularse; al hacerlo, el objeto produce una nota de la escala diatónica. Cuando se producen seis o más notas, SCP-066 produce un efecto de naturaleza y duración variables."
+      fr: "Les brins du SCP-066 peuvent être pris individuellement et manipulés ; ce faisant, l'objet produit une note de la gamme diatonique. Lorsqu'un ensemble de six notes ou plus est produit, le SCP-066 produit un effet de nature et de durée variables."
+      it: "I fili di SCP-066 possono essere presi singolarmente e manipolati; così facendo, l'oggetto produce una nota della scala diatonica. Quando vengono prodotte sei o più note, SCP-066 produce un effetto di natura e durata variabili."
+      ko: "SCP-066의 가닥은 하나씩 잡아 조작할 수 있으며, 이렇게 하면 물체에서 온음계상의 음이 하나 발생한다. 여섯 개 이상의 음이 만들어지면 SCP-066은 성격과 지속 시간이 다양한 효과를 만들어낸다."
+      pl: "Nici SCP-066 można pojedynczo chwytać i nimi manipulować; podczas tej czynności obiekt wydaje dźwięk z gamy diatonicznej. Gdy powstanie sekwencja sześciu lub więcej dźwięków, SCP-066 wywołuje efekt o zróżnicowanym charakterze i czasie trwania."
+      pt: "Os fios do SCP-066 podem ser retirados individualmente e manipulados; ao fazer isso, o objeto produz uma nota da escala diatônica. Quando um conjunto de seis ou mais notas é produzido, o SCP-066 produz um efeito de natureza e duração variáveis."
+      th: "เส้นด้ายของ SCP-066 สามารถหยิบออกมาทีละเส้นและจัดการได้ เมื่อทำเช่นนั้น วัตถุจะเปล่งเสียงโน้ตในสเกลไดอะโทนิก เมื่อมีการเปล่งเสียงหกโน้ตขึ้นไป SCP-066 จะสร้างผลกระทบที่มีลักษณะและระยะเวลาแตกต่างกันไป"
+      uk: "Пасма SCP-066 можна брати окремо і маніпулювати ними; при цьому об'єкт видає ноту діатонічної гами. Коли створюється набір із шести або більше нот, SCP-066 викликає ефект різного характеру й тривалості."
+      vi: "Từng sợi của SCP-066 có thể được lấy riêng lẻ và thao tác; khi làm như vậy, vật thể sẽ phát ra một nốt nhạc trong âm giai diatonic. Khi tạo ra từ sáu nốt nhạc trở lên, SCP-066 sẽ tạo ra một hiệu ứng có bản chất và thời lượng khác nhau."
+      zh: "SCP-066的丝线可以逐根取出并操作；这样做时，该物体会发出音阶（Do-Re-Mi-Fa-Sol-La-Si）中的一个音。当奏出六个或以上的音符时，SCP-066会产生性质和持续时间各异的效果。"
+      zh_Hant: "SCP-066的絲線可以逐根取出並操作；這樣做時，該物體會發出音階（Do-Re-Mi-Fa-Sol-La-Si）中的一個音。當奏出六個或以上的音符時，SCP-066會產生性質和持續時間各異的效果。"
+
+  - scene: >
+      Close-up on a small fluffy calico kitten now sitting on the table
+      where the yarn mass had been, a different framing from the medium
+      shot before. attending-researcher-m leans in with a delighted,
+      surprised expression, reaching one hand toward it.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "これまでの結果には以下のようなものがある——SCP-066は17分間、小さな三毛猫に変化した。子猫は非常に人懐こく遊び好きで、爪は抜かれているように見えた。"
+      en: "Results have included: SCP-066 transformed into a small calico kitten for seventeen minutes. The kitten exhibited significant friendliness and playfulness, and appeared to be declawed."
+      cs: "Mezi dosavadní výsledky patří: SCP-066 se na sedmnáct minut proměnilo v malé mourovaté koťátko. Koťátko projevovalo výraznou přátelskost a hravost a zdálo se, že nemá drápky."
+      de: "Zu den bisherigen Ergebnissen gehörte: SCP-066 verwandelte sich für siebzehn Minuten in ein kleines Katzenbaby mit Schildpattmuster. Das Kätzchen zeigte deutliche Freundlichkeit und Verspieltheit und schien enkrallt zu sein."
+      es: "Entre los resultados se incluyen: SCP-066 se transformó en un pequeño gatito calicó durante diecisiete minutos. El gatito mostró una notable amabilidad y ganas de jugar, y parecía estar sin garras."
+      fr: "Parmi les résultats obtenus figurent : le SCP-066 s'est transformé en un petit chaton écaille de tortue pendant dix-sept minutes. Le chaton faisait preuve d'une grande gentillesse et d'un caractère joueur, et semblait avoir été dégriffé."
+      it: "Tra i risultati ottenuti: SCP-066 si è trasformato in un piccolo gattino calico per diciassette minuti. Il gattino mostrava una notevole amichevolezza e giocosità, e sembrava essere stato privato degli artigli."
+      ko: "지금까지의 결과에는 다음이 포함된다. SCP-066은 17분 동안 작은 삼색 고양이 새끼로 변신했다. 그 새끼 고양이는 매우 상냥하고 장난기가 많았으며, 발톱이 제거된 것으로 보였다."
+      pl: "Do dotychczasowych wyników należą: SCP-066 przemieniło się na siedemnaście minut w małego kotka o umaszczeniu szylkretowym. Kotek wykazywał znaczną przyjazność i skłonność do zabawy i wydawał się być pozbawiony pazurów."
+      pt: "Os resultados obtidos incluem: o SCP-066 se transformou em um pequeno gatinho calico por dezessete minutos. O gatinho demonstrou notável amizade e disposição para brincar, e parecia estar sem garras."
+      th: "ผลลัพธ์ที่ผ่านมารวมถึง SCP-066 แปลงร่างเป็นลูกแมวสามสีตัวเล็กเป็นเวลาสิบเจ็ดนาที ลูกแมวแสดงความเป็นมิตรและความขี้เล่นอย่างมาก และดูเหมือนจะถูกตัดเล็บแล้ว"
+      uk: "Серед попередніх результатів: SCP-066 перетворилося на маленьке трибарвне кошеня на сімнадцять хвилин. Кошеня виявляло значну дружелюбність і грайливість і, здавалося, було без кігтів."
+      vi: "Các kết quả bao gồm: SCP-066 biến thành một chú mèo con tam thể nhỏ trong mười bảy phút. Chú mèo con thể hiện sự thân thiện và tinh nghịch đáng kể, và có vẻ như đã bị cắt móng vuốt."
+      zh: "以往的结果包括：SCP-066变成了一只小三花猫，持续十七分钟。这只小猫表现出极强的亲人和顽皮特质，且爪子似乎已被拔除。"
+      zh_Hant: "以往的結果包括：SCP-066變成了一隻小三花貓，持續十七分鐘。這隻小貓表現出極強的親人和頑皮特質，且爪子似乎已被拔除。"
+
+  - scene: >
+      Wide shot, low angle, pulled back to show the whole room, a very
+      different framing from the close-up before. A small chocolate
+      cupcake with a lit candle now sits on the table in place of the
+      yarn ball. attending-researcher-f and attending-researcher-m stand
+      on either side of the table, exchanging a bewildered look.
+    characters: [attending-researcher-f, attending-researcher-m]
+    caption:
+      ja: "小さなカップケーキが生じたことがある——チョコレート味でチョコレートのフロスティングがけ、上には火の灯ったろうそくが1本立っていた。特筆すべきは、この効果の直前に奏でられた音が「ハッピーバースデー」の出だしの音と一致していたことである。このカップケーキが食べられた後、SCP-066は再び反応するようになった。"
+      en: "A small cupcake, chocolate with chocolate frosting and a lit candle stuck in the top, was produced; notably, the tones produced prior to this effect corresponded to the opening notes of 'Happy Birthday'. SCP-066 became responsive again after said cupcake was consumed."
+      cs: "Vznikl také malý košíček — čokoládový s čokoládovou polevou a zapálenou svíčkou nahoře. Je pozoruhodné, že tóny vydané před tímto efektem odpovídaly úvodním tónům písně „Happy Birthday“. SCP-066 se stalo opět reagujícím poté, co byl uvedený košíček snězen."
+      de: "Es entstand außerdem ein kleiner Cupcake — Schokolade mit Schokoladenglasur und einer brennenden Kerze obenauf. Bemerkenswert ist, dass die vor diesem Effekt erzeugten Töne den Anfangstönen von „Happy Birthday“ entsprachen. SCP-066 reagierte erst wieder, nachdem der Cupcake verzehrt worden war."
+      es: "Se produjo también un pequeño cupcake, de chocolate con glaseado de chocolate y una vela encendida clavada en la parte superior. Cabe destacar que los tonos producidos antes de este efecto correspondían a las notas iniciales de 'Happy Birthday'. El SCP-066 volvió a responder después de que dicho cupcake fuera consumido."
+      fr: "Un petit cupcake a également été produit — au chocolat avec glaçage au chocolat et une bougie allumée plantée dessus. Il est à noter que les tonalités produites avant cet effet correspondaient aux premières notes de « Happy Birthday ». Le SCP-066 est redevenu réactif après que ledit cupcake ait été consommé."
+      it: "È stato inoltre prodotto un piccolo cupcake, al cioccolato con glassa al cioccolato e una candelina accesa infilata sopra. È da notare che i toni prodotti prima di questo effetto corrispondevano alle note iniziali di 'Happy Birthday'. SCP-066 è tornato reattivo dopo che il suddetto cupcake è stato consumato."
+      ko: "작은 컵케이크가 만들어진 적도 있다. 초콜릿 케이크에 초콜릿 프로스팅을 바르고 위에 불붙은 초 하나가 꽂혀 있었다. 특기할 점은 이 효과가 나타나기 직전에 만들어진 음들이 '생일 축하합니다'의 첫 소절과 일치했다는 것이다. SCP-066은 이 컵케이크가 섭취된 뒤에야 다시 반응하기 시작했다."
+      pl: "Powstała także niewielka babeczka — czekoladowa z czekoladowym lukrem i zapaloną świeczką wetkniętą na wierzchu. Warto zauważyć, że dźwięki wydane przed tym efektem odpowiadały początkowym nutom piosenki „Happy Birthday”. SCP-066 ponownie zaczęło reagować dopiero po zjedzeniu wspomnianej babeczki."
+      pt: "Também foi produzido um pequeno cupcake — de chocolate com cobertura de chocolate e uma vela acesa espetada no topo. Notavelmente, os tons produzidos antes desse efeito correspondiam às notas iniciais de 'Happy Birthday'. O SCP-066 voltou a responder somente depois que o referido cupcake foi consumido."
+      th: "มีการสร้างคัพเค้กชิ้นเล็กขึ้นด้วย เป็นช็อกโกแลตพร้อมครีมช็อกโกแลตและเทียนที่จุดไฟปักอยู่ด้านบน ที่น่าสังเกตคือเสียงโน้ตที่เปล่งออกมาก่อนเกิดผลกระทบนี้ตรงกับโน้ตเปิดของเพลง 'Happy Birthday' SCP-066 กลับมาตอบสนองอีกครั้งหลังจากคัพเค้กดังกล่าวถูกกินไป"
+      uk: "Також з'явився невеликий кекс — шоколадний із шоколадною глазур'ю та запаленою свічкою зверху. Примітно, що ноти, видані перед цим ефектом, відповідали початковим нотам пісні «Happy Birthday». SCP-066 знову почало реагувати лише після того, як згаданий кекс було з'їдено."
+      vi: "Một chiếc bánh cupcake nhỏ cũng đã được tạo ra — vị sô-cô-la với lớp kem sô-cô-la và một cây nến đang cháy cắm trên đỉnh. Đáng chú ý, các âm được phát ra trước hiệu ứng này trùng khớp với những nốt nhạc mở đầu của bài 'Happy Birthday'. SCP-066 chỉ phản hồi trở lại sau khi chiếc cupcake nói trên đã được ăn hết."
+      zh: "还曾出现过一个小纸杯蛋糕——巧克力口味，配巧克力糖霜，顶部插着一支点燃的蜡烛。值得注意的是，在产生这一效果之前奏出的音符与《生日快乐歌》的开头几个音符相符。在这个纸杯蛋糕被吃掉后，SCP-066才重新开始有反应。"
+      zh_Hant: "還曾出現過一個小紙杯蛋糕——巧克力口味，配巧克力糖霜，頂部插著一支點燃的蠟燭。值得注意的是，在產生這一效果之前奏出的音符與《生日快樂歌》的開頭幾個音符相符。在這個紙杯蛋糕被吃掉後，SCP-066才重新開始有反應。"
