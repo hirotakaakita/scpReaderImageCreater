@@ -53,6 +53,15 @@ description: Write a new SCP comic script (comics/queue/scp-XXX.yaml) for this p
     full sealed helmet... no bare skin visible"のように**曖昧さなく具体的に**
     書くこと。中途半端な記述（「防護服を着ている」程度）だと、キャラ欄の
     デフォルト服装（白衣等）と混ざって安定しないことを検証で確認している。
+- **`notes`**（任意・panel単位・人間/Claude向けメモで生成プロンプトには入らない）
+  - `refine-panel`スキルでsceneを修正する際の判断基準を、**このコマの根拠となる
+    記事の一節**（要約前のcaption原文でよい）・**変えてはいけない事実**
+    （captionが指定する事実で、これを崩すと引用と絵が矛盾する）・**変更可能な
+    演出**（動作の種類・ショット・構図など、captionの事実に反しない範囲で
+    自由に変えてよい部分）の3点に分けて短く書いておく。書いておくと、後で
+    `refine-panel`が「動作の種類そのものを大胆に変えてよい」（後述）を検討する
+    際に、どこまでなら変えてよいかを毎回sceneの文面から読み解き直さずに済む。
+    無くても動作に支障は無いので、迷ったら省略してよい
 - **`characters`**（そのコマの絵に登場する人物全員のキー名リスト）
   - **記事に書かれていない人物を勝手に創作しない**。
   - 複数の漫画で使い回すキャノン職員は`config/characters.yaml`から参照。未登録の
@@ -62,8 +71,13 @@ description: Write a new SCP comic script (comics/queue/scp-XXX.yaml) for this p
     せず`attending-researcher-m`/`attending-researcher-f`（無個性の汎用職員、
     `d-class`と同格）を使う。
   - **その記事にしか出ない固有の人物（SCP本人や記事内の関係者）**は台本トップ
-    レベルの`local_characters`に`{name, description}`で登録し、`characters`欄
-    からキー名で参照する（`config/characters.yaml`には載せない）。
+    レベルの`local_characters`に登録し、`characters`欄からキー名で参照する
+    （`config/characters.yaml`には載せない）。書式は`{name, description}`
+    （旧形式・後方互換）でも`{name, appearance, default_look}`（新形式。恒常的な
+    容姿`appearance`と、sceneが上書きしない限り使われる既定の服装・表情
+    `default_look`を分ける。`config/characters.yaml`の現行キャラと同じ書式）
+    でもよい。服装が食い違いやすいキャラ（そのコマだけ防護具を着せる等）を書く
+    場合は新形式の方が安定しやすい。
   - **`characters`欄のキー順序は、sceneの文中でその人物の行動が説明される順序と
     一致させる**。順序がズレると、モデルが逆の人物にその役柄（容姿・動作）を
     割り当ててしまうことを検証で確認している（例: scp-105パネル3で発生した実例）。

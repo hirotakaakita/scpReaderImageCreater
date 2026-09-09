@@ -21,6 +21,14 @@ def build():
                 continue
             with open(meta_path, encoding="utf-8") as f:
                 meta = json.load(f)
+            # embed_text.pyが記録した完成判定（文字あふれ・フォント欠落が無く
+            # 全言語揃っているか）。古いmeta.json（このフィールドが無い既存の
+            # done/comic）はcomplete省略=True相当として扱い、明示的にFalseの
+            # ものだけ掲載しない（処理は例外なく終わったが掲載はできない状態）
+            if meta.get("complete") is False:
+                print(f"[index] skip {meta.get('id', name)}: not publish-complete "
+                      f"(overflow={meta.get('overflow')}, missing_font={meta.get('missing_font')})")
+                continue
             entries.append({
                 "id": meta["id"],
                 "title": meta.get("title") or {},

@@ -79,17 +79,26 @@ def process(script_path, cfgs, mock=False, languages=None, skip_generate=False,
     if not skip_generate:
         generate_panels.generate(script, cfgs, mock=mock, panel=panel)
     compose.compose(script, cfgs)
-    embed_text.embed(script, cfgs, languages=languages)
+    embed_result = embed_text.embed(script, cfgs, languages=languages)
     # 成功したらキューからdoneへ移し、生成済みとして記録する（mock実行では何もしない）。
     # ここに到達した時点で合成・埋め込みは完了しているので、--skip-generate
     # （--variantsで候補を選別してから続きを実行する、現状の推奨運用）でも
     # 完成扱いにする。generate()を今回呼んだかどうかは完成状態と無関係
-    # （--variantsによる候補生成のみの回はこの手前でreturnしており、ここには来ない）
+    # （--variantsによる候補生成のみの回はこの手前でreturnしており、ここには来ない）。
+    # ただし「例外なく終わった」だけでなく「掲載可能」（文字あふれ・フォント欠落が
+    # 無く全言語揃っている）かも見る。complete=Falseの時だけ止める
+    # （--languagesで一部言語のみ処理した回はcomplete判定自体を行わないのでNone
+    # のまま素通りする＝既存の完成状態を壊さない）
     if not mock:
-        if os.path.dirname(os.path.abspath(script_path)) == os.path.abspath(cfglib.QUEUE_DIR):
-            move_to_done(script_path)
-        cfglib.mark_used(script["id"])
-        print(f"[state] recorded in used.json: {script['id']}")
+        if embed_result.get("complete") is False:
+            print(f"[state] WARN: {script['id']} is NOT publish-complete "
+                  f"(overflow={embed_result['overflow']}, missing_font={embed_result['missing_font']}); "
+                  "NOT moved to done/ and NOT recorded in used.json. Fix captions/fonts and rerun.")
+        else:
+            if os.path.dirname(os.path.abspath(script_path)) == os.path.abspath(cfglib.QUEUE_DIR):
+                move_to_done(script_path)
+            cfglib.mark_used(script["id"])
+            print(f"[state] recorded in used.json: {script['id']}")
 
 
 def main():
@@ -153,7 +162,11 @@ def main():
             processed += 1
         if processed == 0:
             print("No unprocessed scripts in queue. Nothing generated.")
-    if not args.export_prompts and not args.variants:
+    # --mock はプレースホルダー画像・仮のcaption配置での検証run。index.jsonが
+    # このrunのmeta.jsonを拾って本番のoutput/<id>/base.png等（mockでも同じ実パスに
+    # 書く）をプレースホルダーのまま公開扱いしてしまわないよう、mock時はindex再構築
+    # 自体をスキップする（後で本番生成した後に改めてbuild_index.pyを走らせること）
+    if not args.export_prompts and not args.variants and not args.mock:
         build_index.build()
 
 

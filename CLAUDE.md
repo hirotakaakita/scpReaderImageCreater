@@ -123,29 +123,38 @@ Claude Codeが行う**（自動化なし）。全体像はREADME.md参照。
   足す場合は`generate_image(prompt, ref_images, gen_cfg)`を実装して
   `scripts/providers/__init__.py`に登録する
 - 生成プロンプトの組み立ては `scripts/generate_panels.py` の `build_prompt()`。
-  順序: style_prompt → キャラ定義 → caption(en、絵が何を描くべきかの根拠) → scene →
-  キャプション/吹き出しスペース確保の指示 → 構図規則 → 文字禁止規則。**caption(en)を
-  必ず絵に一致させるため、captionの英語文をそのままプロンプトに含めている**（scene
-  単独では絵がcaptionの内容とズレることがあるため、ズレ防止の二重根拠）。scene執筆時
-  からcaptionの内容と食い違わないよう意識すること
+  順序: style_prompt → キャラ定義 → caption(en、絵が矛盾してはいけない事実の
+  裏付け) → scene → キャプション/吹き出しスペース確保の指示 → 構図規則 →
+  文字禁止規則。**caption(en)の英語文をそのままプロンプトに含めている**（scene
+  単独では絵がcaptionの内容とズレることがあるため、ズレ防止の二重根拠）が、
+  captionは収容規則や一般的性質など単一の瞬間に限定されない文であることも多い
+  ため、「captionは背景となる事実の制約、実際に描く単一の瞬間はsceneが決める」
+  と役割を分けて指示している（以前は「captionの文をそのまま描け」という強い
+  命令で、単一の瞬間を要求するcomposition_rulesと衝突することがあった）。
+  scene執筆時からcaptionの内容と食い違わないよう意識すること
   - スペース確保の指示は、台本にcaptionがあれば`embed_text.caption_position_for()`と
     同じ計算で実際に重なるキャプション枠の位置（top-left/top-right等）を、bubblesが
     あればその位置も、合わせて空けるよう求める（現行の台本はbubblesを使わずcaptionのみ
     運用しているため、caption分の余白確保が無いとこの指示自体が実質死んでいた）
 - キャラ定義の挿入は `lookup_character()` が担う。`panels[].characters`のキー名を
   台本の`local_characters`（記事固有キャラ）→`config/characters.yaml`（使い回しキャラ）
-  の順で探し、見つかった`description`を「Characters appearing in this image」欄に
-  `<キー名>: <description>` の形で列挙する（キー名を明示的にdescriptionへ結び付け、
-  sceneでの呼び方との対応をモデルに直接渡す。順序一致だけに頼らない二重の根拠）。
-  両方の情報源を同じ仕組みで扱うため、`local_characters`に登録した記事固有キャラ
-  （SCP本人含む）も、キャノン職員と同様にコマごとの容姿説明の自動挿入・一貫性維持の
-  対象になる。**存在しないキー名を`characters`欄に書くと生成前にエラーで止まる**
-  （黙って容姿説明が抜け落ちる事故を防ぐため）
-- **キャラ欄の服装とsceneの服装が食い違う場合はsceneを優先**するよう、
-  `build_prompt()`がキャラ欄の直前に明示の優先指示を挿入している（例:
-  ハズマットスーツを着せたいコマでキャラ欄のデフォルト服装＝白衣と衝突し、
-  服装が安定しない問題があったための対策）。台本側でそのコマだけ服装を
-  変えたい場合は、scene側に具体的に（曖昧さなく）書けばよい
+  の順で探し、見つかった容姿説明を`character_prompt_line()`で「Characters
+  appearing in this image」欄に`<キー名>: <容姿>`の形で列挙する（キー名を明示的に
+  容姿説明へ結び付け、sceneでの呼び方との対応をモデルに直接渡す。順序一致だけに
+  頼らない二重の根拠）。両方の情報源を同じ仕組みで扱うため、`local_characters`に
+  登録した記事固有キャラ（SCP本人含む）も、キャノン職員と同様にコマごとの容姿
+  説明の自動挿入・一貫性維持の対象になる。**存在しないキー名を`characters`欄に
+  書くと生成前にエラーで止まる**（黙って容姿説明が抜け落ちる事故を防ぐため）
+- **キャラ定義は恒常的な容姿(`appearance`)と既定の服装・表情(`default_look`)を
+  分けて書く**（`config/characters.yaml`参照）。`character_prompt_line()`が
+  両者を1行にまとめ、「sceneがそのコマだけ違う服装・表情を明示すればdefault_look
+  は置き換えられる」と明示する。以前はこの2つを1本の`description`に混在させ、
+  「食い違ったらsceneを優先せよ」という長い優先指示文だけで矛盾を解決させて
+  いたが、appearance（絶対に変えたくない）とdefault_look（コマにより変わって
+  よい既定値）は性質が違うため分離した。**台本のlocal_charactersは従来通り
+  `description`一本の旧形式でもよい**（後方互換。新規で書く場合は
+  `appearance`/`default_look`形式を推奨）。台本側でそのコマだけ服装を変えたい
+  場合は、scene側に具体的に（曖昧さなく）書けばよい
 - 画像には**一切文字を描かせない**。タイトル・セリフ・ライセンスはPython（Pillow）が後から描く
 - 言語別フォントに無いグリフ（タイ語フォントのラテン文字等）は `lib/textutil.py` の
   FontSetがNotoSansへ自動フォールバックする

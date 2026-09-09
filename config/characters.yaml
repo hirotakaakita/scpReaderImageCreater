@@ -23,6 +23,17 @@
 # 色を指定する際は色名だけでなく "(color RGB R,G,B)" の形で具体的な数値も
 # 併記する（例: "red hair (color RGB 180,45,40)"）。色名だけだとコマごとに
 # 明るさ・色味がブレやすいことを検証で確認したため。
+#
+# 【容姿の書式】各キャラは appearance（恒常的な容姿。髪・体格など、どのコマでも
+# 変わらない特徴）と default_look（標準の服装・アクセサリ・平常時の表情。
+# scene側でそのコマだけ違う服装・表情を明示すれば置き換えられる「既定値」）を
+# 分けて書く。以前はこの2つを1本の description に混在させており、「服装が
+# 食い違ったらsceneを優先せよ」という長い優先指示文でモデルに矛盾を解決させて
+# いたが、根本的にはappearance（絶対に変えたくない）とdefault_look（コマにより
+# 変わってよい既定値）は性質が違うため分離した（generate_panels.pyのbuild_prompt()
+# 参照）。台本のlocal_charactersは従来通りdescription一本の旧形式でもよい
+# （このプロジェクトの大半の台本が既にこの形式のため、後方互換として残している。
+# 新規で書く場合はここと同じ appearance/default_look 形式を推奨する）。
 # ============================================================
 
 characters:
@@ -31,13 +42,15 @@ characters:
     name: Dr. Sage West
     # 出典: personnel-and-character-dossier「セージ・ウェスト博士」
     # サイト-404化学部門所属。小柄で赤毛、爆竹のように強烈な人物。
-    description: >
+    appearance: >
       Dr. Sage West, a female SCP Foundation researcher in the chemistry
       department. Petite and short, with vivid red hair (color RGB
       180,45,40) worn short and messy, a tousled bob falling just past her
-      chin, a fiery and quick-tempered presence. Wears a plain white lab
-      coat, sleeves often rolled up, over a dark turtleneck and trousers,
-      with a blank white ID card clipped to the chest pocket.
+      chin, a fiery and quick-tempered presence.
+    default_look: >
+      A plain white lab coat, sleeves often rolled up, over a dark
+      turtleneck and trousers, with a blank white ID card clipped to the
+      chest pocket.
     reference_images: []
 
   dr-johannes-sorts:
@@ -45,13 +58,15 @@ characters:
     # 出典: personnel-and-character-dossier「ヨハネス・ソーツ博士」
     # ミーム専門家・フィールド研究者。白人男性30代後半、無精髭、白髪交じりの
     # 茶髪、小太り、常に灰色の帽子をかぶっている。
-    description: >
+    appearance: >
       Dr. Johannes Sorts, a male SCP Foundation researcher in his late 30s,
       a memetics specialist and field researcher. White, unshaven, with
       short graying brown hair (color RGB 110,90,70) mostly hidden under a
-      gray hat, slightly overweight build. Wears a plain white lab coat,
-      somewhat rumpled, over a plain shirt and khaki trousers, with a blank
-      white ID card clipped to the chest pocket.
+      gray hat, slightly overweight build.
+    default_look: >
+      A plain white lab coat, somewhat rumpled, over a plain shirt and
+      khaki trousers, with a blank white ID card clipped to the chest
+      pocket.
     reference_images: []
 
   d-class:
@@ -63,13 +78,14 @@ characters:
     # リソグラフ調）だとオレンジだけ浮いて見えるため、周囲と馴染む
     # 濃いグレーのつなぎに変更している（画風優先の意図的な変更）。
     name: D-Class Personnel
-    description: >
+    appearance: >
       An anonymous D-class test subject, with short, plain, unremarkable
       dark hair (color RGB 30,30,30, do not render it noticeably lighter
-      or grayer than this) with no particular style. Wears a plain
-      jumpsuit in a solid dark gray color (RGB 90,90,90, no other colors
-      on it) with no markings, and gray sneakers, no lab coat. Nervous
-      expression.
+      or grayer than this) with no particular style.
+    default_look: >
+      A plain jumpsuit in a solid dark gray color (RGB 90,90,90, no other
+      colors on it) with no markings, and gray sneakers, no lab coat.
+      Nervous expression.
     reference_images: []
 
   attending-researcher-m:
@@ -78,12 +94,14 @@ characters:
     # 本来不要な単なる立会人役に流用すると見た目・性格の印象がズレるため、
     # d-classと同様に無個性・汎用的な記述の職員として別途用意している。
     name: Attending Researcher (Male)
-    description: >
+    appearance: >
       A male SCP Foundation researcher with short, neatly combed black hair
-      (color RGB 20,20,20), unremarkable average build, neutral calm
-      expression, no distinguishing features. Wears a plain white lab coat
-      over a collared shirt and dark trousers, with a blank white ID card
-      clipped to the chest pocket.
+      (color RGB 20,20,20), unremarkable average build, no distinguishing
+      features.
+    default_look: >
+      A plain white lab coat over a collared shirt and dark trousers, with
+      a blank white ID card clipped to the chest pocket. Neutral calm
+      expression.
     reference_images: []
 
   attending-researcher-f:
@@ -94,10 +112,12 @@ characters:
     # 元の記述に戻した。この画像生成方式（キャラ参照画像なし）での
     # 見た目の完全な描き分けは既知の限界として許容する。
     name: Attending Researcher (Female)
-    description: >
+    appearance: >
       A female SCP Foundation researcher with straight black hair (color
       RGB 20,20,20), shoulder-length, tied back in a low ponytail,
-      unremarkable average build, neutral calm expression, no distinguishing
-      features. Wears a plain white lab coat over a dark turtleneck and
-      trousers, with a blank white ID card clipped to the chest pocket.
+      unremarkable average build, no distinguishing features.
+    default_look: >
+      A plain white lab coat over a dark turtleneck and trousers, with a
+      blank white ID card clipped to the chest pocket. Neutral calm
+      expression.
     reference_images: []

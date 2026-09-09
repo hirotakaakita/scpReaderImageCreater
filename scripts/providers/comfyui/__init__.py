@@ -160,7 +160,12 @@ def generate_image(prompt, ref_images, gen_cfg):
     """ref_imagesは、ワークフローに"Reference Image"というLoadImageノードが
     ある場合のみ使われる（IPAdapter系ワークフロー等）。無ければ無視される
     （Z-Image Turbo/素のSDXLワークフローは画像入力に非対応のため）。
-    複数枚渡されても現状は先頭の1枚しか使われない。"""
+    複数枚渡されても現状は先頭の1枚しか使われない。
+
+    戻り値は (PIL.Image, 実際に使われたseed:int) のタプル。config側のseedが
+    -1（ランダム）の場合、呼び出し元は乱数の実値を知る手段が無かった
+    （候補生成時にどのseedで生成したか記録できず、再現・比較ができなかった）
+    ため、_build_workflow()が実際に書き込んだseedを一緒に返すようにしている。"""
     cfg = gen_cfg.get("comfyui", {})
 
     server = cfg.get("server", "http://127.0.0.1:8188")
@@ -173,6 +178,7 @@ def generate_image(prompt, ref_images, gen_cfg):
     for attempt in range(1, max_retries + 1):
         try:
             workflow = _build_workflow(prompt, cfg, ref_images)
+            seed = _find_by_class(workflow, "KSampler")["inputs"]["seed"]
             client_id = str(uuid.uuid4())
             prompt_id = _queue_prompt(server, workflow, client_id)
             result = _wait_for_result(server, prompt_id, poll_interval, timeout)
@@ -183,7 +189,7 @@ def generate_image(prompt, ref_images, gen_cfg):
             images = outputs.get("images") or []
             if not images:
                 raise RuntimeError(f"no image in ComfyUI output (status={result.get('status')})")
-            return _fetch_image(server, images[0])
+            return _fetch_image(server, images[0]), seed
         except Exception as e:  # 接続エラー・タイムアウト・ノード不備を含む
             last_err = e
         wait = retry_wait * attempt

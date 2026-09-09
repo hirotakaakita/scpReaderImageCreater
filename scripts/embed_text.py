@@ -65,10 +65,16 @@ def embed(script, cfgs, languages=None):
     langs = languages or lang_cfg["languages"]
     fallback_path = cfglib.rootpath(lang_cfg["fonts"]["default"])
     generated = []
+    # 「例外なく処理が終わった」と「実際に掲載できる状態」は別物なので、
+    # フォント欠落・文字あふれをここで集計してmeta.jsonとrun_pipeline.pyの
+    # 完成判定（done/移動・used記録・index掲載の可否）に使えるようにする
+    missing_font = []
+    overflow = []
     for lang in langs:
         font_path = cfglib.font_path_for(lang, lang_cfg)
         if not os.path.exists(font_path):
             print(f"[embed] WARN: font missing for {lang} ({font_path}); skipped")
+            missing_font.append(lang)
             continue
         char_wrap = cfglib.is_char_wrap(lang, lang_cfg)
 
@@ -94,6 +100,7 @@ def embed(script, cfgs, languages=None):
                 if not fits:
                     print(f"[embed] WARN: text overflow {script['id']} "
                           f"panel {idx + 1} caption lang={lang}")
+                    overflow.append({"lang": lang, "where": f"panel {idx + 1} caption"})
             for bubble in panel.get("bubbles") or []:
                 text = (bubble.get("text") or {}).get(lang) \
                     or (bubble.get("text") or {}).get("en")
@@ -108,6 +115,7 @@ def embed(script, cfgs, languages=None):
                 if not fits:
                     print(f"[embed] WARN: text overflow {script['id']} "
                           f"panel {idx + 1} lang={lang}")
+                    overflow.append({"lang": lang, "where": f"panel {idx + 1} bubble"})
 
         addendum = script.get("addendum") or {}
         addendum_text = addendum.get(lang) or addendum.get("en")
@@ -119,6 +127,7 @@ def embed(script, cfgs, languages=None):
             if not fits:
                 print(f"[embed] WARN: text overflow {script['id']} "
                       f"addendum lang={lang}")
+                overflow.append({"lang": lang, "where": "addendum"})
 
         if meta.get("footer_rect"):
             ai_notice = (lang_cfg.get("ai_notice") or {}).get(lang) \
@@ -144,10 +153,23 @@ def embed(script, cfgs, languages=None):
         generated.append(lang)
 
     meta["languages"] = generated
+    meta["overflow"] = overflow
+    meta["missing_font"] = missing_font
+    # 「例外なく終わった」ではなく「掲載可能」を判定してmeta.jsonに残す。
+    # --languages で対象言語を絞った実行（部分的な確認・再実行）では、その回に
+    # 処理した分だけでは全体の完成度を判断できないため、既存のcomplete値には
+    # 触れない（全言語を対象にした通常実行の時だけ判定・上書きする）
+    if languages is None:
+        meta["complete"] = (not overflow and not missing_font
+                            and set(generated) == set(lang_cfg["languages"]))
     with open(os.path.join(comic_dir, "meta.json"), "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=True, indent=2)
     print(f"[embed] {len(generated)} languages: {', '.join(generated)}")
-    return generated
+    if overflow or missing_font:
+        print(f"[embed] WARN: {len(overflow)} overflow, {len(missing_font)} missing-font "
+              "— not considered publish-complete for this run")
+    return {"languages": generated, "overflow": overflow, "missing_font": missing_font,
+            "complete": meta.get("complete")}
 
 
 def main():

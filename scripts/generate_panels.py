@@ -10,6 +10,7 @@
 --mock を付けるとAPIを呼ばずプレースホルダー画像を生成する（レイアウト確認用）。
 """
 import argparse
+import datetime
 import json
 import os
 import shutil
@@ -43,6 +44,29 @@ def lookup_character(key, script, cfgs):
     return cfgs["characters"].get(key)
 
 
+def character_prompt_line(key, char):
+    """1キャラぶんの容姿説明行を組み立てる。
+
+    新形式（appearance + default_look、config/characters.yamlの現行キャラが
+    この形式）なら、恒常的な容姿と「sceneが上書きしなければこれを着る」という
+    既定の服装・表情を分けて明示する——両者の優先関係を1本のdescriptionに混在
+    させて長い優先指示文で解決しようとしていた従来のやり方より、モデルへ渡す
+    情報自体の構造で曖昧さを減らす狙い。
+    旧形式（description一本）はそのまま使う（後方互換。台本のlocal_characters
+    の大半が現状この形式のため、character_prompt_line側で両方を吸収する）。
+    """
+    appearance = char.get("appearance")
+    if appearance:
+        line = f"{key}: {appearance.strip()}"
+        default_look = char.get("default_look")
+        if default_look:
+            line += (" Default look (use this only if the Scene below does not "
+                     f"specify different clothing/expression for this moment): "
+                     f"{default_look.strip()}")
+        return line
+    return f"{key}: {char['description'].strip()}"
+
+
 def build_prompt(script, panel, cfgs, provider_name=None, panel_idx=None):
     style = cfgs["style"]
     provider_name = provider_name or style["generation"].get("provider", "comfyui")
@@ -58,10 +82,10 @@ def build_prompt(script, panel, cfgs, provider_name=None, panel_idx=None):
                 f"{script['id']}: panel character key '{key}' not found in "
                 "local_characters or config/characters.yaml (typo? forgot to "
                 "register it?)")
-        # キー名を明示的に description の先頭へ結び付ける。scene側も同じ
-        # キー名で人物を呼ぶ運用（CLAUDE.md）なので、モデルに「このキー名 =
-        # この容姿」という対応を直接渡し、登場順一致だけに頼らないようにする
-        descs.append(f"{key}: {char['description'].strip()}")
+        # キー名を明示的に容姿説明の先頭へ結び付ける。scene側も同じキー名で
+        # 人物を呼ぶ運用（CLAUDE.md）なので、モデルに「このキー名 = この容姿」
+        # という対応を直接渡し、登場順一致だけに頼らないようにする
+        descs.append(character_prompt_line(key, char))
     if descs:
         parts.append("Characters appearing in this image (their default appearance — keep "
                      "face, hair, and build exactly consistent with this at all times). If "
@@ -73,13 +97,18 @@ def build_prompt(script, panel, cfgs, provider_name=None, panel_idx=None):
 
     caption_en = (panel.get("caption") or {}).get("en")
     if caption_en:
+        # captionは記事文からの引用で、収容規則や一般的性質のように単一の瞬間に
+        # 限定されない文も多い。以前は「この文が描写する内容をそのまま描け」と
+        # 一律に命じており、単一の瞬間を要求するcomposition_rulesと衝突する
+        # ことがあった。captionは「絵が矛盾してはいけない事実の裏付け」、実際に
+        # 描く瞬間はsceneが決める、と役割を分けて渡す
         parts.append(
-            "This image illustrates the following in-universe document sentence. "
-            "The scene description below must depict exactly what this sentence "
-            "describes (same subject, same action/state) — do not draw a different "
-            "moment or unrelated action. Do NOT render this sentence, or any text, "
-            "as writing anywhere in the image; it is context only:\n"
-            f"\"{caption_en.strip()}\"")
+            "Source context (not visible writing) — background facts this image "
+            "must stay consistent with, but do not necessarily depict all of at "
+            "once: \"" + caption_en.strip() + "\". Depict the single moment "
+            "described in the Scene below; that moment should be one instance of "
+            "these facts, not a different or unrelated event. Do NOT render this "
+            "sentence, or any text, as writing anywhere in the image.")
 
     parts.append("Scene: " + panel["scene"].strip())
 
@@ -180,7 +209,7 @@ def generate(script, cfgs, mock=False, panel=None):
             img = make_mock_panel(i)
         else:
             refs = collect_reference_images(script, p, cfgs, prev_paths)
-            img = provider.generate_image(prompt, refs, gen_cfg)
+            img, _seed = provider.generate_image(prompt, refs, gen_cfg)
         img.convert("RGB").save(out_path)
         prev_paths.append(out_path)
 
@@ -232,6 +261,7 @@ def generate_variants(script, cfgs, count, mock=False, panel=None):
     targets = [panel] if panel else list(range(1, n + 1))
 
     prompts_log = []
+    candidates_path = os.path.join(temp_dir, "candidates.jsonl")
     for i in targets:
         p = script["panels"][i - 1]
         prompt = build_prompt(script, p, cfgs, provider_name, panel_idx=i - 1)
@@ -239,18 +269,38 @@ def generate_variants(script, cfgs, count, mock=False, panel=None):
         start = _next_variant_start(temp_dir, i)
         for offset in range(count):
             v = start + offset
-            out_path = os.path.join(temp_dir, f"panel_{i}_v{v}.png")
+            image_name = f"panel_{i}_v{v}.png"
+            out_path = os.path.join(temp_dir, image_name)
             print(f"[generate] panel {i}/{n} variant v{v} ({offset + 1}/{count})")
+            seed = None
             if mock:
                 img = make_mock_panel(i)
             else:
                 # 選別前の下書きなので前コマ参照は使わない（コマ間でまだキャラが
                 # 確定していないため）
-                img = provider.generate_image(prompt, [], gen_cfg)
+                img, seed = provider.generate_image(prompt, [], gen_cfg)
             img.convert("RGB").save(out_path)
+            # 候補1枚ごとに、それを生成した条件（scene・完成prompt・実seed）を
+            # 追記専用のjsonlへ記録する。prompts.json（下記）はパネル番号ごとに
+            # 最新のprompt/sceneで上書きしてしまうため、sceneを直してから
+            # 再生成すると「この過去の候補v3は、当時どのsceneで生成したものか」が
+            # 分からなくなっていた。1行1候補で追記するここでは上書きが起きない
+            with open(candidates_path, "a", encoding="utf-8") as f:
+                f.write(json.dumps({
+                    "image": image_name,
+                    "panel": i,
+                    "scene": p["scene"],
+                    "prompt": prompt,
+                    "seed": seed,
+                    "mock": mock,
+                    "generated_at": datetime.datetime.now(datetime.timezone.utc)
+                        .strftime("%Y-%m-%dT%H:%M:%SZ"),
+                }, ensure_ascii=False) + "\n")
 
     # 画像候補(panel_N_vM.png)は上書きせず積み上げるが、prompts.jsonは
-    # パネル番号ごとに最新のプロンプトだけ残す（ログの肥大・重複を防ぐ）
+    # パネル番号ごとに最新のプロンプトだけ残す（ログの肥大・重複を防ぐ。過去の
+    # 候補ごとの生成条件はcandidates.jsonl側で追記保持しているのでここでは
+    # 「今どのプロンプトで生成しているか」がひと目で分かれば十分）
     prompts_path = os.path.join(temp_dir, "prompts.json")
     existing_log = []
     if os.path.exists(prompts_path):
