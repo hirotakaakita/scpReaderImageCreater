@@ -52,12 +52,18 @@ Claude自身が Bash（生成コマンド実行）と Read（画像を見る）�
    よい。**しかし直近2ラウンド続けて「1つの属性だけを直し、それ以外は据え置き」という
    局所パッチをしていた場合は、3ラウンド目に入る前に必ず「根本原因の再検討」（後述）を
    行ってから修正すること**（局所パッチをただ繰り返さない）
-6. `python scripts/run_pipeline.py --id <id> --mock` で検証し（`WARN: text overflow`が
-   無いか確認）、mock生成物と`index.json`を後片付けする（CLAUDE.md記載の手順と同じ:
+6. **必ず`--panel <N>`を付けて** `python scripts/run_pipeline.py --id <id> --panel <N> --mock`
+   で検証し（`WARN: text overflow`が無いか確認）、mock生成物と`index.json`を後片付けする。
+   **`--panel`を付け忘れて`--mock`だけを全コマ分実行しないこと**——`--panel`無しの`--mock`は
+   `panels/panel_*.png`を**このコマ以外も含めて全コマぶんプレースホルダーで上書き**する。
+   対象comicがまだ`comics/queue/`にある（未コミットの）作品では、他のコマで既に人手選別済み
+   だった本物の画像がgit履歴に無いため**復元不能で消失する**（このセッションで実際に指摘・
+   修正された失敗）。後片付けも同様にNコマだけに絞る:
    `rm -f output/<id>/base.png output/<id>/meta.json output/<id>/*.png
-   output/<id>/panels/panel_*.png output/<id>/panels/prompts.json` →
-   `python scripts/build_index.py`。ただし対象comicが`comics/done/`にあり出力が
-   コミット済みの場合は`rm`でなく`git checkout -- output/<id>/`を使うこと）
+   output/<id>/panels/panel_<N>.png` → `python scripts/build_index.py`。
+   ただし対象comicが`comics/done/`にあり出力がコミット済みの場合は、`rm`の代わりに
+   `git checkout -- output/<id>/`で全体を戻してよい（この場合は`--panel`を付け忘れても
+   git履歴から復元できるが、無駄な差分を避けるため引き続き`--panel`は付けること）
 7. 次のラウンドへ（手順1に戻る）
 
 ### 根本原因の再検討（局所パッチを2ラウンド続けたら必須）

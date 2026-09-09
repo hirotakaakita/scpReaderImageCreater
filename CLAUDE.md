@@ -124,16 +124,23 @@ Claude Codeが行う**（自動化なし）。全体像はREADME.md参照。
   `scripts/providers/__init__.py`に登録する
 - 生成プロンプトの組み立ては `scripts/generate_panels.py` の `build_prompt()`。
   順序: style_prompt → キャラ定義 → caption(en、絵が何を描くべきかの根拠) → scene →
-  吹き出しスペース確保の指示 → 構図規則 → 文字禁止規則。**caption(en)を必ず絵に一致させる
-  ため、captionの英語文をそのままプロンプトに含めている**（scene単独では絵が
-  captionの内容とズレることがあるため、ズレ防止の二重根拠）。scene執筆時から
-  captionの内容と食い違わないよう意識すること
+  キャプション/吹き出しスペース確保の指示 → 構図規則 → 文字禁止規則。**caption(en)を
+  必ず絵に一致させるため、captionの英語文をそのままプロンプトに含めている**（scene
+  単独では絵がcaptionの内容とズレることがあるため、ズレ防止の二重根拠）。scene執筆時
+  からcaptionの内容と食い違わないよう意識すること
+  - スペース確保の指示は、台本にcaptionがあれば`embed_text.caption_position_for()`と
+    同じ計算で実際に重なるキャプション枠の位置（top-left/top-right等）を、bubblesが
+    あればその位置も、合わせて空けるよう求める（現行の台本はbubblesを使わずcaptionのみ
+    運用しているため、caption分の余白確保が無いとこの指示自体が実質死んでいた）
 - キャラ定義の挿入は `lookup_character()` が担う。`panels[].characters`のキー名を
   台本の`local_characters`（記事固有キャラ）→`config/characters.yaml`（使い回しキャラ）
   の順で探し、見つかった`description`を「Characters appearing in this image」欄に
-  列挙する。両方の情報源を同じ仕組みで扱うため、`local_characters`に登録した
-  記事固有キャラ（SCP本人含む）も、キャノン職員と同様にコマごとの容姿説明の自動
-  挿入・一貫性維持の対象になる
+  `<キー名>: <description>` の形で列挙する（キー名を明示的にdescriptionへ結び付け、
+  sceneでの呼び方との対応をモデルに直接渡す。順序一致だけに頼らない二重の根拠）。
+  両方の情報源を同じ仕組みで扱うため、`local_characters`に登録した記事固有キャラ
+  （SCP本人含む）も、キャノン職員と同様にコマごとの容姿説明の自動挿入・一貫性維持の
+  対象になる。**存在しないキー名を`characters`欄に書くと生成前にエラーで止まる**
+  （黙って容姿説明が抜け落ちる事故を防ぐため）
 - **キャラ欄の服装とsceneの服装が食い違う場合はsceneを優先**するよう、
   `build_prompt()`がキャラ欄の直前に明示の優先指示を挿入している（例:
   ハズマットスーツを着せたいコマでキャラ欄のデフォルト服装＝白衣と衝突し、

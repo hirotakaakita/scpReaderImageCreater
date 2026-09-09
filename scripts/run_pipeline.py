@@ -80,8 +80,12 @@ def process(script_path, cfgs, mock=False, languages=None, skip_generate=False,
         generate_panels.generate(script, cfgs, mock=mock, panel=panel)
     compose.compose(script, cfgs)
     embed_text.embed(script, cfgs, languages=languages)
-    # 成功したらキューからdoneへ移し、生成済みとして記録（mock実行では何もしない）
-    if not mock and not skip_generate:
+    # 成功したらキューからdoneへ移し、生成済みとして記録する（mock実行では何もしない）。
+    # ここに到達した時点で合成・埋め込みは完了しているので、--skip-generate
+    # （--variantsで候補を選別してから続きを実行する、現状の推奨運用）でも
+    # 完成扱いにする。generate()を今回呼んだかどうかは完成状態と無関係
+    # （--variantsによる候補生成のみの回はこの手前でreturnしており、ここには来ない）
+    if not mock:
         if os.path.dirname(os.path.abspath(script_path)) == os.path.abspath(cfglib.QUEUE_DIR):
             move_to_done(script_path)
         cfglib.mark_used(script["id"])
@@ -109,6 +113,14 @@ def main():
                     help="指定したコマ番号（1始まり）だけ生成する。省略時は全コマ。"
                          "--variantsと併用可（そのコマだけ候補を追加生成）")
     args = ap.parse_args()
+
+    # --variants 0 はfalsyなので、そのまま通すと process() の `if variants:`
+    # 分岐に入らず通常生成に化けて採用済みpanels/を上書きしてしまう。
+    # 負数も含めて、指定した場合は正の整数のみ許可する
+    if args.variants is not None and args.variants <= 0:
+        ap.error(f"--variants must be a positive integer (got {args.variants})")
+    if args.count <= 0:
+        ap.error(f"--count must be a positive integer (got {args.count})")
 
     cfgs = cfglib.load_configs()
     langs = args.languages.split(",") if args.languages else None

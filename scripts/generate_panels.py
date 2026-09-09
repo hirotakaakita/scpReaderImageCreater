@@ -19,9 +19,10 @@ from PIL import Image, ImageDraw
 
 sys.path.insert(0, os.path.dirname(__file__))
 from lib import config as cfglib  # noqa: E402
+import embed_text  # noqa: E402  (caption_position_for を流用。実際に画像へ重なる領域を計算するため)
 import providers  # noqa: E402
 
-# 吹き出しプリセット位置 → 空けておいてほしい場所の指示
+# 吹き出し/キャプション枠のプリセット位置 → 空けておいてほしい場所の指示
 _SPACE_HINTS = {
     "top": "the top area of the image",
     "top-left": "the upper-left area of the image",
@@ -42,7 +43,7 @@ def lookup_character(key, script, cfgs):
     return cfgs["characters"].get(key)
 
 
-def build_prompt(script, panel, cfgs, provider_name=None):
+def build_prompt(script, panel, cfgs, provider_name=None, panel_idx=None):
     style = cfgs["style"]
     provider_name = provider_name or style["generation"].get("provider", "comfyui")
     prompt_style = style["prompt"][provider_name]
@@ -52,8 +53,15 @@ def build_prompt(script, panel, cfgs, provider_name=None):
     descs = []
     for key in names:
         char = lookup_character(key, script, cfgs)
-        if char:
-            descs.append(char["description"].strip())
+        if not char:
+            raise ValueError(
+                f"{script['id']}: panel character key '{key}' not found in "
+                "local_characters or config/characters.yaml (typo? forgot to "
+                "register it?)")
+        # キー名を明示的に description の先頭へ結び付ける。scene側も同じ
+        # キー名で人物を呼ぶ運用（CLAUDE.md）なので、モデルに「このキー名 =
+        # この容姿」という対応を直接渡し、登場順一致だけに頼らないようにする
+        descs.append(f"{key}: {char['description'].strip()}")
     if descs:
         parts.append("Characters appearing in this image (their default appearance — keep "
                      "face, hair, and build exactly consistent with this at all times). If "
@@ -76,6 +84,15 @@ def build_prompt(script, panel, cfgs, provider_name=None):
     parts.append("Scene: " + panel["scene"].strip())
 
     hints = []
+    # 現行の台本はbubblesを使わずcaptionのみで運用しているが、そのcaption枠
+    # （config/layout.yamlのcaption_presets）が実際に絵へ重なる。以前はbubbles
+    # 分の余白指示しか生成プロンプトに渡しておらず、captionが使われる現行運用
+    # では実質死んでいたため、caption位置についても同様に余白を確保するよう伝える
+    if panel_idx is not None and panel.get("caption"):
+        caption_pos = embed_text.caption_position_for(
+            panel, panel_idx, cfgs["layout"].get("caption", {}))
+        if isinstance(caption_pos, str) and caption_pos in _SPACE_HINTS:
+            hints.append(_SPACE_HINTS[caption_pos])
     for bubble in panel.get("bubbles") or []:
         pos = bubble.get("position", "top")
         if isinstance(pos, str) and pos in _SPACE_HINTS:
@@ -83,7 +100,8 @@ def build_prompt(script, panel, cfgs, provider_name=None):
     if hints:
         parts.append("Leave calm, uncluttered empty space (plain background) in "
                      + " and ".join(dict.fromkeys(hints))
-                     + " so a speech bubble can be overlaid there later.")
+                     + " so a caption or speech-bubble box can be overlaid there "
+                       "later — keep faces, hands, and essential props outside that area.")
 
     parts.append(prompt_style["composition_rules"].strip())
     parts.append(prompt_style["no_text_rules"].strip())
@@ -155,7 +173,7 @@ def generate(script, cfgs, mock=False, panel=None):
     for i in targets:
         p = script["panels"][i - 1]
         out_path = os.path.join(panels_dir, f"panel_{i}.png")
-        prompt = build_prompt(script, p, cfgs, provider_name)
+        prompt = build_prompt(script, p, cfgs, provider_name, panel_idx=i - 1)
         prompts_log.append({"panel": i, "prompt": prompt})
         print(f"[generate] panel {i}/{n}")
         if mock:
@@ -216,7 +234,7 @@ def generate_variants(script, cfgs, count, mock=False, panel=None):
     prompts_log = []
     for i in targets:
         p = script["panels"][i - 1]
-        prompt = build_prompt(script, p, cfgs, provider_name)
+        prompt = build_prompt(script, p, cfgs, provider_name, panel_idx=i - 1)
         prompts_log.append({"panel": i, "prompt": prompt})
         start = _next_variant_start(temp_dir, i)
         for offset in range(count):
@@ -265,7 +283,7 @@ def export_prompts(script, cfgs):
     panels_rel = os.path.relpath(panels_dir, cfglib.ROOT)
 
     for i, panel in enumerate(script["panels"], 1):
-        prompt = build_prompt(script, panel, cfgs, provider_name)
+        prompt = build_prompt(script, panel, cfgs, provider_name, panel_idx=i - 1)
 
         char_refs = []
         for key in panel.get("characters") or []:
