@@ -1,0 +1,170 @@
+# SCP-068 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-068
+
+title:
+  en: "SCP-068"
+  ja: "SCP-068"
+  cs: "SCP-068"
+  de: "SCP-068"
+  es: "SCP-068"
+  fr: "SCP-068"
+  it: "SCP-068"
+  ko: "SCP-068"
+  pl: "SCP-068"
+  pt: "SCP-068"
+  th: "SCP-068"
+  uk: "SCP-068"
+  vi: "SCP-068"
+  zh: "SCP-068"
+  zh_Hant: "SCP-068"
+
+attribution:
+  article: "SCP-068"
+  author: "Dr Wacey"
+  source_url: "http://scp-wiki.wikidot.com/scp-068"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-068:
+    name: SCP-068
+    appearance: >
+      A small humanoid stick figure made entirely from a single continuous
+      length of dull, matte gray wire (color RGB 130,130,130) looping back
+      on itself, with no surface detail, face, or features beyond the bends
+      of the wire itself. In its default size it is only about 9.8
+      centimeters tall, dwarfed by any nearby human hand or object.
+    default_look: >
+      Standing motionless in a simple upright stick-figure pose, arms and
+      legs formed from bent sections of the same continuous wire. When a
+      scene describes it assembled into its towering combined form, render
+      it instead as a much larger version of the same dull gray wire-lattice
+      design, visibly built from many identical smaller copies of itself
+      interlocked together.
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level. Inside a plain storage locker room
+      at a Foundation site, a small open box lined with white
+      non-metallic material sits on a shelf. Within it, SCP-068 rests
+      motionless: a tiny wire stick figure standing in a simple pose. The
+      attending researcher leans in close beside the shelf, holding a
+      magnifying loupe up to examine the tiny figure.
+    characters: [scp-068, attending-researcher-m]
+    caption:
+      ja: "SCP-068は身長9.8cmの針金人形で、未知の金属で出来ている。この人形は一本の針金が中心へと折り返される形で構成されている。"
+      en: "SCP-068 is a wire stick figure, 9.8 cm tall, made of an unknown metal. The figure is composed of a single wire looping back to the center."
+      cs: "SCP-068 je drátěná figurka vysoká 9,8 cm, vyrobená z neznámého kovu. Figurka je tvořena jediným drátem, který se stáčí zpět ke středu."
+      de: "SCP-068 ist eine 9,8 cm große Drahtfigur aus einem unbekannten Metall. Die Figur besteht aus einem einzigen Draht, der zur Mitte zurückschleift."
+      es: "SCP-068 es una figura de alambre de 9,8 cm de altura, hecha de un metal desconocido. La figura está compuesta por un único alambre que se enrosca de vuelta hacia el centro."
+      fr: "SCP-068 est une figurine en fil métallique de 9,8 cm de haut, faite d'un métal inconnu. La figurine est composée d'un seul fil qui revient en boucle vers le centre."
+      it: "SCP-068 è una figura stilizzata di filo metallico alta 9,8 cm, fatta di un metallo sconosciuto. La figura è composta da un unico filo che si ripiega ad anello verso il centro."
+      ko: "SCP-068은 높이 9.8cm의 철사 인형으로, 미확인 금속으로 만들어져 있다. 이 인형은 하나의 철사가 중심부로 되감기는 형태로 구성되어 있다."
+      pl: "SCP-068 to druciana figurka o wysokości 9,8 cm, wykonana z nieznanego metalu. Figurka składa się z pojedynczego drutu zapętlonego z powrotem do środka."
+      pt: "SCP-068 é uma figura de arame de 9,8 cm de altura, feita de um metal desconhecido. A figura é composta por um único fio que se enrola de volta ao centro."
+      th: "SCP-068 คือหุ่นลวดรูปคนสูง 9.8 ซม. ทำจากโลหะที่ไม่ทราบชนิด รูปทรงนี้ประกอบขึ้นจากลวดเส้นเดียวที่วนกลับมายังจุดศูนย์กลาง"
+      uk: "SCP-068 — це дротяна фігурка заввишки 9,8 см, виготовлена з невідомого металу. Фігурка складається з єдиного дроту, який петлею повертається до центру."
+      vi: "SCP-068 là một hình nhân bằng dây kim loại cao 9,8 cm, được làm từ một loại kim loại chưa xác định. Hình nhân được cấu tạo từ một sợi dây duy nhất uốn vòng trở lại tâm."
+      zh: "SCP-068是一个高9.8厘米的铁丝人偶，由一种未知金属制成。该人偶由一根铁丝弯折并绕回中心构成。"
+      zh_Hant: "SCP-068是一個高9.8公分的鐵絲人偶，由一種未知金屬製成。該人偶由一根鐵絲彎折並繞回中心構成。"
+
+  - scene: >
+      Medium shot, waist-up, eye level. Inside a reinforced test chamber,
+      loose scraps of metal are scattered across the floor. In the center
+      of the frame, SCP-068 crouches over a metal rod, its wire hands
+      kneading the metal and pulling a thin strip away from it; beside the
+      strip, a second, smaller wire figure identical to SCP-068 is already
+      taking shape. On the right side of the frame, behind a reinforced
+      glass panel, the attending researcher watches closely, clipboard in
+      hand.
+    characters: [scp-068, attending-researcher-m]
+    caption:
+      ja: "SCP-068に電流を流すと、それは意思を持ったかのように自ら動き出す。活性化すると、SCP-068はあらゆる金属素材を探し始める。金属を発見すると、それをこねて薄い帯状に引き延ばし、自身に似たもう一体の人形を作り上げる。"
+      en: "When an electric current is introduced to SCP-068, it becomes animate, moving about on its own. Once activated, SCP-068 begins to search for any metallic material. Once metal has been found, it will knead the metal and pull a thin strip off, then construct another figure similar to itself."
+      cs: "Když je do SCP-068 přiveden elektrický proud, oživne a začne se samo pohybovat. Po aktivaci začne SCP-068 hledat jakýkoli kovový materiál. Jakmile kov najde, začne ho hníst a odtrhne z něj tenký pásek, z něhož poté sestrojí další figurku podobnou sobě."
+      de: "Wird SCP-068 elektrischem Strom ausgesetzt, erwacht es zum Leben und bewegt sich eigenständig. Einmal aktiviert, beginnt SCP-068, nach beliebigem metallischem Material zu suchen. Sobald Metall gefunden wurde, knetet es dieses und zieht einen dünnen Streifen ab, aus dem es eine weitere, ihm ähnliche Figur formt."
+      es: "Cuando se introduce una corriente eléctrica en SCP-068, este cobra vida y se mueve por sí solo. Una vez activado, SCP-068 comienza a buscar cualquier material metálico. Al encontrar metal, lo amasa y le arranca una fina tira, con la que construye otra figura similar a sí mismo."
+      fr: "Lorsqu'un courant électrique est introduit dans SCP-068, celui-ci s'anime et se déplace de lui-même. Une fois activé, SCP-068 commence à rechercher tout matériau métallique. Une fois le métal trouvé, il le pétrit et en arrache une fine bande, avec laquelle il construit une autre figurine semblable à lui-même."
+      it: "Quando una corrente elettrica viene introdotta in SCP-068, esso si anima e inizia a muoversi autonomamente. Una volta attivato, SCP-068 comincia a cercare qualsiasi materiale metallico. Una volta trovato il metallo, lo impasta e ne stacca una sottile striscia, con cui costruisce un'altra figura simile a sé stesso."
+      ko: "SCP-068에 전류가 흐르면 그것은 살아 움직이는 것처럼 스스로 움직이기 시작한다. 활성화되면 SCP-068은 금속 재질을 찾아 나선다. 금속을 발견하면 그것을 주물러 얇은 띠 형태로 뜯어낸 뒤, 자신과 닮은 또 다른 인형을 만들어낸다."
+      pl: "Gdy do SCP-068 zostanie doprowadzony prąd elektryczny, ożywa ono i zaczyna poruszać się samodzielnie. Po aktywacji SCP-068 zaczyna poszukiwać dowolnego materiału metalowego. Po znalezieniu metalu ugniata go i odrywa cienki pasek, z którego buduje kolejną figurkę podobną do siebie."
+      pt: "Quando uma corrente elétrica é introduzida em SCP-068, ele ganha vida e se move por conta própria. Uma vez ativado, SCP-068 começa a procurar qualquer material metálico. Ao encontrar metal, ele o amassa e arranca uma fina tira, com a qual constrói outra figura semelhante a si mesmo."
+      th: "เมื่อมีกระแสไฟฟ้าไหลผ่าน SCP-068 มันจะมีชีวิตขึ้นมาและเคลื่อนไหวได้ด้วยตัวเอง เมื่อถูกกระตุ้นแล้ว SCP-068 จะเริ่มค้นหาวัสดุโลหะใดๆ ก็ตาม เมื่อพบโลหะแล้ว มันจะนวดโลหะนั้นและดึงเป็นแถบบางๆ ออกมา จากนั้นสร้างหุ่นอีกตัวที่คล้ายกับตัวมันเองขึ้นมา"
+      uk: "Коли через SCP-068 пропускають електричний струм, воно оживає і починає рухатися самостійно. Після активації SCP-068 починає шукати будь-який металевий матеріал. Знайшовши метал, воно розминає його та відриває тонку смужку, з якої створює ще одну фігурку, подібну до себе."
+      vi: "Khi có dòng điện chạy qua, SCP-068 trở nên sống động và tự di chuyển. Sau khi được kích hoạt, SCP-068 bắt đầu tìm kiếm bất kỳ vật liệu kim loại nào. Khi tìm thấy kim loại, nó sẽ nhào nặn và kéo ra một dải mỏng, sau đó tạo thành một hình nhân khác giống với chính nó."
+      zh: "当电流通入SCP-068时，它会变得如同活物一般，自行移动。激活后，SCP-068开始寻找任何金属材料。一旦发现金属，它便会揉捏该金属并从中拉出一条细带，随后用其构造出另一个与自身相似的人偶。"
+      zh_Hant: "當電流通入SCP-068時，牠會變得如同活物一般，自行移動。啟動後，SCP-068開始尋找任何金屬材料。一旦發現金屬，牠便會揉捏該金屬並從中拉出一條細帶，隨後用其構造出另一個與自身相似的人偶。"
+
+  - scene: >
+      Wide shot, full body, low angle looking up, pulled back to show the
+      entire chamber. Dozens of small identical wire figures have
+      converged and interlocked at the center of the room, assembling
+      themselves into one towering combined figure made of a gleaming
+      metal wire lattice, looming over the space. On the right side of the
+      frame, the attending researcher backs away toward the chamber's
+      exit, staring up at the huge assembled figure in open-mouthed alarm.
+    characters: [scp-068, attending-researcher-m]
+    caption:
+      ja: "いずれかの条件が満たされると、すべての人形は一箇所に集結し、可能な限り大きな一体の人形を形成し始める。最大102体の『ミニチュア人形』を用いた場合、完成した人形の高さは2メートルに達する。"
+      en: "When either of these events occurs, all figures will converge at one location and begin forming themselves into as big a figure as possible. With a maximum of 102 'mini-figures,' the resulting figure reaches two meters in height."
+      cs: "Jakmile nastane jedna z těchto podmínek, všechny figurky se sejdou na jednom místě a začnou vytvářet co největší možnou figuru. S maximálním počtem 102 „miniaturních figurek“ dosahuje výsledná postava výšky dvou metrů."
+      de: "Sobald eines dieser Ereignisse eintritt, versammeln sich alle Figuren an einem Ort und beginnen, sich zu einer möglichst großen Gestalt zusammenzufügen. Mit maximal 102 „Miniaturfiguren“ erreicht die entstehende Figur eine Höhe von zwei Metern."
+      es: "Cuando ocurre cualquiera de estos dos eventos, todas las figuras convergen en un mismo lugar y comienzan a formar una figura tan grande como sea posible. Con un máximo de 102 'minifiguras', la figura resultante alcanza los dos metros de altura."
+      fr: "Lorsque l'un de ces deux événements se produit, toutes les figurines convergent en un même lieu et commencent à former une figure aussi grande que possible. Avec un maximum de 102 « mini-figurines », la figure résultante atteint deux mètres de hauteur."
+      it: "Quando si verifica una di queste due condizioni, tutte le figure convergono in un unico punto e cominciano a formare una figura quanto più grande possibile. Con un massimo di 102 'mini-figure', la figura risultante raggiunge i due metri di altezza."
+      ko: "이 두 조건 중 하나가 충족되면, 모든 인형은 한 곳으로 모여 가능한 한 큰 하나의 형상을 이루기 시작한다. 최대 102개의 '미니 인형'을 사용하면 완성된 형상은 높이 2미터에 달한다."
+      pl: "Gdy zajdzie jedno z tych dwóch zdarzeń, wszystkie figurki zbiegają się w jednym miejscu i zaczynają formować możliwie jak największą postać. Przy maksymalnie 102 „mini-figurkach” powstała postać osiąga wysokość dwóch metrów."
+      pt: "Quando ocorre qualquer um desses eventos, todas as figuras convergem para um único local e começam a se formar em uma figura tão grande quanto possível. Com um máximo de 102 'minifiguras', a figura resultante atinge dois metros de altura."
+      th: "เมื่อเงื่อนไขใดเงื่อนไขหนึ่งในสองข้อนี้เกิดขึ้น หุ่นทั้งหมดจะรวมตัวกันที่จุดเดียวและเริ่มก่อร่างเป็นหุ่นที่ใหญ่ที่สุดเท่าที่จะเป็นไปได้ ด้วย 'หุ่นจิ๋ว' สูงสุด 102 ตัว หุ่นที่ได้จะมีความสูงถึงสองเมตร"
+      uk: "Коли настає одна з цих двох подій, усі фігурки сходяться в одному місці й починають формувати якомога більшу фігуру. За максимальної кількості 102 «міні-фігурок» отримана постать сягає двох метрів заввишки."
+      vi: "Khi một trong hai điều kiện này xảy ra, tất cả các hình nhân sẽ hội tụ về một địa điểm và bắt đầu kết hợp thành một hình thể lớn nhất có thể. Với tối đa 102 'hình nhân nhỏ', hình thể tạo thành đạt chiều cao hai mét."
+      zh: "当这两种情况之一发生时，所有人偶都会汇聚到一处，并开始组合成尽可能大的一个人偶。最多使用102个『迷你人偶』时，组成的人偶高度可达两米。"
+      zh_Hant: "當這兩種情況之一發生時，所有人偶都會匯聚到一處，並開始組合成盡可能大的一個人偶。最多使用102個「迷你人偶」時，組成的人偶高度可達兩公尺。"
+
+  - scene: >
+      Medium shot, waist-up, eye level. The towering wire figure now
+      stands frozen and motionless again, its outer layers glowing orange
+      and dripping where they are being cut away. On the left side of the
+      frame, the attending researcher, wearing thick heat-resistant
+      gloves, aims a handheld torch at the figure's torso, melting the
+      surrounding wire away. On the right side of the frame, a second
+      attending researcher holds out a small metal tray, waiting to catch
+      the tiny original SCP-068 as it comes free.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "この段階に達し、これ以上人形を作るための金属が残っていない場合、SCP-068は4分32秒の活動の後に休眠状態に戻る。元の人形を回収するには、それを取り囲む素材を溶かして取り除かなければならない。"
+      en: "Once SCP-068 has reached this stage and no metal remains from which to construct more figures, it returns to a dormant state after 4 minutes and 32 seconds of activity. The material surrounding the original figure must be melted away in order to retrieve it."
+      cs: "Jakmile SCP-068 dosáhne této fáze a nezbývá žádný kov, z něhož by šlo vytvořit další figurky, po 4 minutách a 32 sekundách aktivity se vrátí do klidového stavu. Materiál obklopující původní figurku je nutné roztavit, aby ji bylo možné získat zpět."
+      de: "Sobald SCP-068 dieses Stadium erreicht hat und kein Metall mehr vorhanden ist, um weitere Figuren zu formen, kehrt es nach 4 Minuten und 32 Sekunden Aktivität in seinen Ruhezustand zurück. Das Material, das die ursprüngliche Figur umgibt, muss abgeschmolzen werden, um sie zu bergen."
+      es: "Una vez que SCP-068 alcanza esta etapa y no queda metal disponible para construir más figuras, vuelve a su estado latente tras 4 minutos y 32 segundos de actividad. El material que rodea a la figura original debe fundirse para poder recuperarla."
+      fr: "Une fois que SCP-068 a atteint ce stade et qu'il ne reste plus de métal pour construire d'autres figurines, il retourne à son état dormant après 4 minutes et 32 secondes d'activité. Le matériau entourant la figurine d'origine doit être fondu afin de la récupérer."
+      it: "Una volta che SCP-068 ha raggiunto questa fase e non rimane più metallo per costruire altre figure, esso torna al suo stato dormiente dopo 4 minuti e 32 secondi di attività. Il materiale che circonda la figura originale deve essere fuso per poterla recuperare."
+      ko: "SCP-068이 이 단계에 도달하고 더 이상 인형을 만들 금속이 남아 있지 않으면, 4분 32초의 활동 후 휴면 상태로 돌아간다. 원래의 인형을 회수하려면 그것을 둘러싼 물질을 녹여내야 한다."
+      pl: "Gdy SCP-068 osiągnie ten etap i nie pozostanie już metal do budowy kolejnych figurek, po 4 minutach i 32 sekundach aktywności powraca do stanu uśpienia. Aby odzyskać oryginalną figurkę, należy stopić otaczający ją materiał."
+      pt: "Quando SCP-068 atinge esse estágio e não há mais metal disponível para construir novas figuras, ele retorna ao estado dormente após 4 minutos e 32 segundos de atividade. O material ao redor da figura original deve ser derretido para que ela seja recuperada."
+      th: "เมื่อ SCP-068 มาถึงขั้นนี้และไม่มีโลหะเหลือให้สร้างหุ่นเพิ่มอีก มันจะกลับสู่สถานะสงบนิ่งหลังจากทำงานเป็นเวลา 4 นาที 32 วินาที วัสดุที่ห่อหุ้มหุ่นดั้งเดิมจะต้องถูกหลอมละลายออกเพื่อนำมันกลับคืนมา"
+      uk: "Коли SCP-068 досягає цієї стадії і металу для створення нових фігурок більше не залишається, воно повертається у стан спокою після 4 хвилин 32 секунд активності. Щоб повернути початкову фігурку, матеріал навколо неї необхідно розплавити."
+      vi: "Khi SCP-068 đạt đến giai đoạn này và không còn kim loại nào để tạo thêm hình nhân, nó sẽ trở về trạng thái ngủ yên sau 4 phút 32 giây hoạt động. Vật liệu bao quanh hình nhân ban đầu phải được nung chảy để thu hồi nó."
+      zh: "当SCP-068达到这一阶段，且已没有金属可用于构造更多人偶时，它会在活动4分32秒后返回休眠状态。必须将包裹原始人偶的材料熔化，才能将其取回。"
+      zh_Hant: "當SCP-068達到這一階段，且已沒有金屬可用於構造更多人偶時，牠會在活動4分32秒後返回休眠狀態。必須將包裹原始人偶的材料熔化，才能將其取回。"
+
+addendum:
+  ja: "補遺：SCP-068を危険な金属系オブジェクトの処分に使う提案は却下された——該当するオブジェクトの多くもまた破壊不能であるため、サイト内を徘徊する破壊不能な針金人形が増えるだけだからである。"
+  en: "Addendum: A proposal to use SCP-068 to dispose of dangerous metal-based SCPs was denied — since most such SCPs are also indestructible, this would only produce more invulnerable wire figures wandering the site."
+  cs: "Dodatek: Návrh použít SCP-068 k likvidaci nebezpečných kovových SCP objektů byl zamítnut – většina takových objektů je rovněž nezničitelná, takže by to vedlo jen k dalším nezničitelným drátěným figurkám pobíhajícím po základně."
+  de: "Anhang: Ein Vorschlag, SCP-068 zur Entsorgung gefährlicher metallbasierter SCPs einzusetzen, wurde abgelehnt – da die meisten dieser SCPs ebenfalls unzerstörbar sind, würde dies nur zu weiteren unverwundbaren Drahtfiguren führen, die auf dem Gelände umherlaufen."
+  es: "Adenda: Se rechazó una propuesta para usar SCP-068 en la eliminación de SCP metálicos peligrosos, ya que la mayoría de esos objetos también son indestructibles, lo que solo produciría más figuras de alambre invulnerables deambulando por las instalaciones."
+  fr: "Addendum : Une proposition visant à utiliser SCP-068 pour éliminer des SCP métalliques dangereux a été rejetée — la plupart de ces SCP étant eux aussi indestructibles, cela n'aurait produit que davantage de figurines en fil de fer invulnérables errant dans le site."
+  it: "Addendum: Una proposta di utilizzare SCP-068 per smaltire pericolosi SCP a base metallica è stata respinta, poiché la maggior parte di essi è a sua volta indistruttibile, il che produrrebbe solo altre figure di filo metallico invulnerabili vaganti per il sito."
+  ko: "부록: 위험한 금속 기반 SCP를 처분하는 데 SCP-068을 활용하자는 제안은 기각되었다. 해당 SCP들 대부분 역시 파괴 불가능하기 때문에, 결국 사이트 안을 돌아다니는 파괴 불가능한 철사 인형만 늘어날 뿐이었다."
+  pl: "Aneks: Propozycja wykorzystania SCP-068 do utylizacji niebezpiecznych metalowych SCP została odrzucona — ponieważ większość takich obiektów jest równie niezniszczalna, skutkowałoby to jedynie pojawieniem się kolejnych niezniszczalnych drucianych figurek błąkających się po placówce."
+  pt: "Adendo: Uma proposta para usar o SCP-068 no descarte de SCPs metálicos perigosos foi negada — como a maioria desses SCPs também é indestrutível, isso apenas geraria mais figuras de arame invulneráveis vagando pelo local."
+  th: "ภาคผนวก: ข้อเสนอให้ใช้ SCP-068 กำจัดวัตถุ SCP ที่เป็นโลหะอันตรายถูกปฏิเสธ เนื่องจากวัตถุเหล่านั้นส่วนใหญ่ก็ไม่อาจถูกทำลายได้เช่นกัน ผลลัพธ์จะมีเพียงหุ่นลวดที่ไม่มีวันถูกทำลายเดินเพ่นพ่านอยู่ทั่วไซต์เพิ่มขึ้นเท่านั้น"
+  uk: "Додаток: Пропозицію використати SCP-068 для утилізації небезпечних металевих SCP відхилили — оскільки більшість таких об'єктів так само незнищенні, це лише призвело б до появи ще більшої кількості невразливих дротяних фігурок, що блукають об'єктом."
+  vi: "Phụ lục: Đề xuất sử dụng SCP-068 để tiêu hủy các SCP gốc kim loại nguy hiểm đã bị từ chối — vì phần lớn các SCP đó cũng bất khả hủy diệt, điều này chỉ tạo ra thêm nhiều hình nhân bằng dây kim loại bất khả xâm phạm lang thang khắp cơ sở."
+  zh: "补遗：利用SCP-068处理危险金属类SCP的提案被驳回——因为这类对象大多同样无法被摧毁，这么做只会让更多刀枪不入的铁丝人偶在站点内四处游荡。"
+  zh_Hant: "補遺：利用SCP-068處理危險金屬類物件的提案被駁回——因為這類物件大多同樣無法被摧毀，這麼做只會讓更多刀槍不入的鐵絲人偶在站點內四處遊蕩。"

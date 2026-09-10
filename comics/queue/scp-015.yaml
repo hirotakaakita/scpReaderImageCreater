@@ -1,0 +1,136 @@
+# SCP-015「配管に埋め尽くされた倉庫」4コマ台本
+# captionは記事本文（Description）からの引用。キャラにセリフは言わせない。
+
+id: scp-015
+
+title:
+  ja: "SCP-015：配管に埋め尽くされた倉庫"
+  en: "SCP-015: The Warehouse of Pipes"
+  cs: "SCP-015: Sklad plný trubek"
+  de: "SCP-015: Das Rohr-Lagerhaus"
+  es: "SCP-015: El almacén de tuberías"
+  fr: "SCP-015 : L'entrepôt de tuyaux"
+  it: "SCP-015: Il magazzino di tubi"
+  ko: "SCP-015: 배관으로 가득 찬 창고"
+  pl: "SCP-015: Magazyn pełen rur"
+  pt: "SCP-015: O Armazém de Tubos"
+  th: "SCP-015: โกดังท่อประหลาด"
+  uk: "SCP-015: Склад труб"
+  vi: "SCP-015: Nhà Kho Đường Ống"
+  zh: "SCP-015：管道仓库"
+  zh_Hant: "SCP-015：管道倉庫"
+
+attribution:
+  article: "SCP-015"
+  author: "Dr Gears"
+  source_url: "http://scp-wiki.wikidot.com/scp-015"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+characters: [attending-researcher-m, attending-researcher-f, d-class]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a cavernous warehouse
+      interior completely filled floor-to-ceiling with a chaotic tangle of
+      pipes, vents, and boilers of every diameter, some rusted, some new.
+      A three-person exploration team stands just inside the entrance,
+      clipped to safety lines. On the left, the attending male researcher
+      leads with a flashlight; beside him the attending female researcher
+      checks a handheld GPS unit; on the right, a D-Class subject trails
+      behind, holding the coiled safety line.
+    characters: [attending-researcher-m, attending-researcher-f, d-class]
+    caption:
+      ja: "SCP-015は、████████にある倉庫を完全に埋め尽くした、配管・通気口・ボイラーその他さまざまな配管設備の集合体である。パイプ群は観測されていない間に成長するらしく、下水道や地下配管を通じて近隣の建造物に接続しようとする。"
+      en: "SCP-015 is a mass of pipes, vents, boilers and other various plumbing apparatus completely filling a warehouse in ███████. The pipes appear to grow when not under observation, attempting to connect to nearby structures via sewer systems and underground plumbing."
+      cs: "SCP-015 je shluk trubek, ventilačních otvorů, kotlů a dalšího různého instalatérského vybavení, které zcela vyplňuje sklad v ███████. Zdá se, že trubky rostou, když nejsou pozorovány, a pokoušejí se napojit na okolní stavby prostřednictvím kanalizace a podzemního potrubí."
+      de: "SCP-015 ist eine Ansammlung von Rohren, Lüftungsschächten, Kesseln und anderen sanitärtechnischen Apparaturen, die ein Lagerhaus in ███████ vollständig ausfüllt. Die Rohre scheinen zu wachsen, wenn sie nicht beobachtet werden, und versuchen, sich über Abwasserkanäle und unterirdische Leitungen mit nahegelegenen Gebäuden zu verbinden."
+      es: "SCP-015 es una masa de tuberías, conductos de ventilación, calderas y otros diversos aparatos de fontanería que llena por completo un almacén en ███████. Las tuberías parecen crecer cuando no están siendo observadas, intentando conectarse a estructuras cercanas a través de alcantarillados y tuberías subterráneas."
+      fr: "SCP-015 est un amas de tuyaux, de conduits d'aération, de chaudières et d'autres appareils de plomberie divers, remplissant entièrement un entrepôt à ███████. Les tuyaux semblent croître lorsqu'ils ne sont pas observés, tentant de se connecter aux structures voisines via les réseaux d'égouts et la plomberie souterraine."
+      it: "SCP-015 è una massa di tubi, condotti di aerazione, caldaie e altri vari apparati idraulici che riempie completamente un magazzino a ███████. I tubi sembrano crescere quando non sono osservati, tentando di collegarsi a strutture vicine tramite fognature e tubature sotterranee."
+      ko: "SCP-015은 ███████에 있는 한 창고를 완전히 가득 채운 배관, 통풍구, 보일러 및 기타 다양한 배관 설비의 집합체이다. 파이프들은 관찰되지 않을 때 성장하는 것으로 보이며, 하수도 및 지하 배관을 통해 인근 건물들과 연결을 시도한다."
+      pl: "SCP-015 to zbiorowisko rur, przewodów wentylacyjnych, kotłów i innej różnorodnej aparatury hydraulicznej, całkowicie wypełniające magazyn w ███████. Rury wydają się rosnąć, gdy nie są obserwowane, próbując połączyć się z pobliskimi budowlami poprzez systemy kanalizacyjne i podziemne instalacje."
+      pt: "SCP-015 é uma massa de tubos, dutos de ventilação, caldeiras e outros diversos aparatos de encanamento que preenche completamente um armazém em ███████. Os tubos parecem crescer quando não estão sendo observados, tentando se conectar a estruturas próximas por meio de sistemas de esgoto e encanamento subterrâneo."
+      th: "SCP-015 คือกลุ่มก้อนของท่อ ช่องระบายอากาศ หม้อไอน้ำ และอุปกรณ์ประปาต่าง ๆ ที่เติมเต็มโกดังแห่งหนึ่งใน ███████ จนเต็มพื้นที่ ท่อเหล่านี้ดูเหมือนจะเติบโตขึ้นเมื่อไม่มีใครสังเกตเห็น โดยพยายามเชื่อมต่อกับโครงสร้างใกล้เคียงผ่านทางระบบท่อระบายน้ำและท่อใต้ดิน"
+      uk: "SCP-015 — це скупчення труб, вентиляційних отворів, котлів та іншого різноманітного сантехнічного обладнання, яке повністю заповнює склад у ███████. Труби, здається, ростуть, коли за ними не спостерігають, намагаючись з'єднатися з сусідніми спорудами через каналізацію та підземні комунікації."
+      vi: "SCP-015 là một khối ống, lỗ thông hơi, nồi hơi và các thiết bị ống nước khác lấp đầy hoàn toàn một nhà kho ở ███████. Các đường ống dường như phát triển khi không bị quan sát, cố gắng kết nối với các công trình lân cận thông qua hệ thống cống rãnh và đường ống ngầm."
+      zh: "SCP-015是一大团管道、通风口、锅炉及各种其他管道设备，完全填满了位于███████的一座仓库。这些管道在无人观察时似乎会生长，试图通过下水道系统和地下管道与附近的建筑物相连。"
+      zh_Hant: "SCP-015是一大團管道、通風口、鍋爐及各種其他管道設備，完全填滿了位於███████的一座倉庫。這些管道在無人觀察時似乎會生長，試圖透過下水道系統和地下管道與附近的建築物相連。"
+
+  - scene: >
+      Medium shot, waist-up, eye level. On the left side of the frame, the
+      D-Class subject crouches close to a thick pipe joint, peering
+      curiously at its strange mottled surface, one gloved hand hovering
+      near it without touching. On the right side of the frame, the
+      attending female researcher photographs the same pipe, her flashlight
+      beam revealing that some nearby pipes look bone-white and grainy
+      while others look like polished dark granite.
+    characters: [d-class, attending-researcher-f]
+    caption:
+      ja: "パイプは骨、木材、鋼鉄、圧縮された灰、人間の肉、ガラス、花崗岩でできていると報告されている。一方、鉛、PVC樹脂、銅、その他配管に用いられる通常の素材でできたパイプは一本も発見されていない。"
+      en: "Pipes have been reported as being made of bone, wood, steel, pressed ash, human flesh, glass, and granite. No pipes composed of lead, PVC plastic, copper, or any other traditional material for the production of pipes have been found."
+      cs: "Bylo hlášeno, že trubky jsou vyrobeny z kostí, dřeva, oceli, lisovaného popela, lidského masa, skla a žuly. Nebyly nalezeny žádné trubky vyrobené z olova, PVC plastu, mědi ani jiného tradičního materiálu používaného k výrobě trubek."
+      de: "Es wurde berichtet, dass die Rohre aus Knochen, Holz, Stahl, gepresster Asche, menschlichem Fleisch, Glas und Granit bestehen. Es wurden keine Rohre gefunden, die aus Blei, PVC-Kunststoff, Kupfer oder einem anderen traditionellen Material zur Rohrherstellung bestehen."
+      es: "Se ha informado que las tuberías están hechas de hueso, madera, acero, ceniza prensada, carne humana, vidrio y granito. No se han encontrado tuberías compuestas de plomo, plástico PVC, cobre ni ningún otro material tradicional para la fabricación de tuberías."
+      fr: "Il a été signalé que les tuyaux sont faits d'os, de bois, d'acier, de cendre compressée, de chair humaine, de verre et de granit. Aucun tuyau composé de plomb, de plastique PVC, de cuivre ou de tout autre matériau traditionnel de fabrication de tuyaux n'a été trouvé."
+      it: "È stato riferito che i tubi sono fatti di osso, legno, acciaio, cenere pressata, carne umana, vetro e granito. Non sono stati trovati tubi composti da piombo, plastica PVC, rame o qualsiasi altro materiale tradizionale per la produzione di tubi."
+      ko: "파이프는 뼈, 나무, 강철, 압축된 재, 인간의 살, 유리, 화강암으로 만들어진 것으로 보고되었다. 납, PVC 플라스틱, 구리 또는 기타 전통적인 배관 제조 재료로 만들어진 파이프는 발견되지 않았다."
+      pl: "Zgłaszano, że rury są wykonane z kości, drewna, stali, sprasowanego popiołu, ludzkiego ciała, szkła i granitu. Nie znaleziono żadnych rur wykonanych z ołowiu, plastiku PVC, miedzi ani jakiegokolwiek innego tradycyjnego materiału stosowanego do produkcji rur."
+      pt: "Relatou-se que os tubos são feitos de osso, madeira, aço, cinza prensada, carne humana, vidro e granito. Não foram encontrados tubos compostos de chumbo, plástico PVC, cobre ou qualquer outro material tradicional para a produção de tubos."
+      th: "มีรายงานว่าท่อเหล่านี้ทำจากกระดูก ไม้ เหล็กกล้า ขี้เถ้าอัดแน่น เนื้อมนุษย์ แก้ว และหินแกรนิต ไม่พบท่อที่ทำจากตะกั่ว พลาสติก PVC ทองแดง หรือวัสดุดั้งเดิมอื่นใดที่ใช้ผลิตท่อ"
+      uk: "Повідомлялося, що труби виготовлені з кістки, дерева, сталі, пресованого попелу, людської плоті, скла та граніту. Труб, виготовлених зі свинцю, ПВХ-пластику, міді чи будь-якого іншого традиційного матеріалу для виробництва труб, виявлено не було."
+      vi: "Có báo cáo cho rằng các đường ống được làm từ xương, gỗ, thép, tro nén, thịt người, thủy tinh và đá granit. Không tìm thấy đường ống nào được làm từ chì, nhựa PVC, đồng hay bất kỳ vật liệu truyền thống nào khác dùng để sản xuất ống."
+      zh: "据报告，这些管道由骨头、木材、钢铁、压制灰烬、人体组织、玻璃和花岗岩制成。目前未发现由铅、PVC塑料、铜或其他任何传统制管材料制成的管道。"
+      zh_Hant: "據報告，這些管道由骨頭、木材、鋼鐵、壓製灰燼、人體組織、玻璃和花崗岩製成。目前未發現由鉛、PVC塑膠、銅或其他任何傳統製管材料製成的管道。"
+
+  - scene: >
+      Close-up shot centered on a gloved hand gripping a wrench, reaching
+      toward a leaking pipe joint. This is the D-Class subject's hand,
+      visible at the bottom of the frame; behind it, out of focus, the
+      attending male researcher's face is turning toward him with a sharp,
+      alarmed expression, one arm already reaching out to stop him. In the
+      background, the surrounding pipes seem to tense and creak.
+    characters: [d-class, attending-researcher-m]
+    caption:
+      ja: "SCP-015は工具や攻撃的行為に反応する。暴力的な行動を取る者、工具を携帯する者、あるいはSCP-015に何らかの方法で損傷を与えようとしたり修理しようとしたりする者は、いずれも反応を引き起こす。"
+      en: "SCP-015 reacts to tools and aggression. Any personnel acting violently, carrying tools, or attempting to damage or repair SCP-015 in any way, will trigger a reaction."
+      cs: "SCP-015 reaguje na nástroje a agresi. Jakýkoli personál, který se chová násilně, nese nástroje nebo se jakýmkoli způsobem pokouší SCP-015 poškodit nebo opravit, vyvolá reakci."
+      de: "SCP-015 reagiert auf Werkzeuge und Aggression. Jedes Personal, das gewalttätig handelt, Werkzeuge bei sich trägt oder auf irgendeine Weise versucht, SCP-015 zu beschädigen oder zu reparieren, löst eine Reaktion aus."
+      es: "SCP-015 reacciona ante herramientas y agresiones. Cualquier personal que actúe violentamente, porte herramientas o intente dañar o reparar SCP-015 de cualquier manera, provocará una reacción."
+      fr: "SCP-015 réagit aux outils et à l'agressivité. Tout membre du personnel agissant violemment, portant des outils, ou tentant d'endommager ou de réparer SCP-015 de quelque manière que ce soit, déclenchera une réaction."
+      it: "SCP-015 reagisce agli attrezzi e all'aggressività. Qualsiasi membro del personale che agisca con violenza, porti attrezzi, o tenti di danneggiare o riparare SCP-015 in qualsiasi modo, innescherà una reazione."
+      ko: "SCP-015은 도구와 공격성에 반응한다. 폭력적으로 행동하거나, 도구를 소지하거나, SCP-015를 어떤 방식으로든 손상시키거나 수리하려 시도하는 인원은 누구든 반응을 유발하게 된다."
+      pl: "SCP-015 reaguje na narzędzia i agresję. Każdy personel zachowujący się agresywnie, noszący narzędzia lub próbujący w jakikolwiek sposób uszkodzić lub naprawić SCP-015, wywoła reakcję."
+      pt: "SCP-015 reage a ferramentas e agressão. Qualquer pessoal que aja de forma violenta, carregue ferramentas ou tente danificar ou reparar o SCP-015 de qualquer forma, desencadeará uma reação."
+      th: "SCP-015 มีปฏิกิริยาตอบสนองต่อเครื่องมือและความก้าวร้าว เจ้าหน้าที่คนใดก็ตามที่แสดงพฤติกรรมรุนแรง พกพาเครื่องมือ หรือพยายามทำลายหรือซ่อมแซม SCP-015 ไม่ว่าด้วยวิธีใดก็ตาม จะกระตุ้นให้เกิดปฏิกิริยาตอบสนอง"
+      uk: "SCP-015 реагує на інструменти та агресію. Будь-який персонал, що діє агресивно, несе інструменти або намагається будь-яким чином пошкодити чи полагодити SCP-015, спричинить реакцію."
+      vi: "SCP-015 phản ứng với dụng cụ và hành vi gây hấn. Bất kỳ nhân viên nào hành động bạo lực, mang theo dụng cụ, hoặc cố gắng làm hư hại hay sửa chữa SCP-015 bằng bất kỳ cách nào, đều sẽ kích hoạt phản ứng."
+      zh: "SCP-015会对工具和攻击性行为作出反应。任何采取暴力行动、携带工具、或试图以任何方式损坏或修理SCP-015的人员，都会引发其反应。"
+      zh_Hant: "SCP-015會對工具和攻擊性行為做出反應。任何採取暴力行動、攜帶工具、或試圖以任何方式損壞或修理SCP-015的人員，都會引發其反應。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole
+      corridor of pipes. On the left side of the frame, the D-Class subject
+      recoils as several pipes around him burst open at once, spraying him
+      from every direction, arms raised over his face. On the right side of
+      the frame, the attending male and female researchers pull hard on his
+      safety line, dragging him back away from the spraying pipes toward
+      the exit.
+    characters: [d-class, attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "対象の近くにあるパイプはすべて破裂し、数秒間にわたって対象に噴射した後、流れは突然止まる。"
+      en: "Any pipes near the subject will burst, spraying on the subject for several seconds before the flow suddenly stops."
+      cs: "Veškeré trubky v blízkosti subjektu prasknou a po dobu několika sekund na něj stříkají, než proud náhle ustane."
+      de: "Alle Rohre in der Nähe der Testperson platzen und besprühen sie mehrere Sekunden lang, bevor der Fluss plötzlich stoppt."
+      es: "Todas las tuberías cercanas al sujeto estallarán, rociándolo durante varios segundos antes de que el flujo se detenga repentinamente."
+      fr: "Tous les tuyaux proches du sujet éclateront, l'aspergeant pendant plusieurs secondes avant que le flux ne s'arrête soudainement."
+      it: "Tutti i tubi vicini al soggetto esploderanno, spruzzandolo per diversi secondi prima che il flusso si interrompa improvvisamente."
+      ko: "대상 근처의 모든 파이프는 터지면서 몇 초 동안 대상에게 분사되다가, 갑자기 흐름이 멈춘다."
+      pl: "Wszystkie rury w pobliżu osobnika pękną, oblewając go przez kilka sekund, po czym przepływ nagle ustanie."
+      pt: "Todos os tubos próximos ao sujeito estourarão, espirrando sobre ele por vários segundos antes que o fluxo pare repentinamente."
+      th: "ท่อทุกท่อที่อยู่ใกล้เป้าหมายจะระเบิดออก พ่นใส่เป้าหมายเป็นเวลาหลายวินาทีก่อนที่การไหลจะหยุดลงทันที"
+      uk: "Усі труби поблизу суб'єкта луснуть, обприскуючи його протягом кількох секунд, перш ніж потік раптово припиниться."
+      vi: "Bất kỳ đường ống nào gần đối tượng sẽ vỡ ra, phun trào lên đối tượng trong vài giây trước khi dòng chảy đột ngột dừng lại."
+      zh: "对象附近的所有管道都会爆裂，向对象喷射数秒钟后，水流突然停止。"
+      zh_Hant: "對象附近的所有管道都會爆裂，向對象噴射數秒鐘後，水流突然停止。"

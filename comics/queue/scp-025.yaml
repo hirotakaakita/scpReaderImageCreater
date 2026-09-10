@@ -1,0 +1,134 @@
+# SCP-025 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+#
+# 4コマの構成意図: 1コマ目=ワードローブと収納物の紹介（導入）、2コマ目=衣類を
+# 着用すると24時間以内に死傷するという法則の提示（展開）、3コマ目=指先の
+# 欠けた手袋を着けたD級職員が台所で危険な瞬間を迎える具体例（転）、4コマ目=
+# 別の欠陥（袖の無いポンチョ）でも同じ法則が繰り返される、というオチ（結・
+# 「事故」として片付けられ続けるループの不気味さ）。実際の負傷・グロ描写は
+# 避け、事故の直前で止める。補遺は使用しない。
+
+id: scp-025
+
+title:
+  en: "SCP-025"
+  ja: "SCP-025"
+  cs: "SCP-025"
+  de: "SCP-025"
+  es: "SCP-025"
+  fr: "SCP-025"
+  it: "SCP-025"
+  ko: "SCP-025"
+  pl: "SCP-025"
+  pt: "SCP-025"
+  th: "SCP-025"
+  uk: "SCP-025"
+  vi: "SCP-025"
+  zh: "SCP-025"
+  zh_Hant: "SCP-025"
+
+attribution:
+  article: "SCP-025"
+  source_url: "http://scp-wiki.wikidot.com/scp-025"
+  author: "thattallfellow"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, a plain storage/testing room. On
+      the left side of the frame, attending-researcher-f stands beside a
+      tall open wooden wardrobe, gesturing toward the rows of worn,
+      moth-eaten clothing inside spanning many decades. On the right
+      side of the frame, d-class stands watching curiously.
+    characters: [attending-researcher-f, d-class]
+    caption:
+      ja: "SCP-025は縦0.97m×横0.62m×高さ1.95mの木製ワードローブで、様々な時代の衣類で満たされている。この収納物（総称してSCP-025-1）は、1920年代から現代に至る各年代の様式に一致する。"
+      en: "SCP-025 is a wooden wardrobe measuring 0.97 m x 0.62 m x 1.95 m, full of clothing dating from a number of time periods. Articles contained within the chest, collectively named SCP-025-1, match with styles of decades from the 1920s to the present."
+      cs: "SCP-025 je dřevěná šatní skříň o rozměrech 0,97 m x 0,62 m x 1,95 m, plná oblečení pocházejícího z různých časových období. Předměty uložené uvnitř skříně, souhrnně nazývané SCP-025-1, odpovídají stylům jednotlivých dekád od 20. let 20. století po současnost."
+      de: "SCP-025 ist ein hölzerner Kleiderschrank mit den Maßen 0,97 m x 0,62 m x 1,95 m, voller Kleidung aus verschiedenen Zeitperioden. Die im Schrank enthaltenen Gegenstände, zusammen SCP-025-1 genannt, entsprechen den Stilen der Jahrzehnte von den 1920er Jahren bis zur Gegenwart."
+      es: "SCP-025 es un armario de madera que mide 0,97 m x 0,62 m x 1,95 m, lleno de ropa de diversas épocas. Los artículos contenidos en el armario, denominados colectivamente SCP-025-1, corresponden a estilos de décadas que van desde los años 1920 hasta la actualidad."
+      fr: "Le SCP-025 est une armoire en bois mesurant 0,97 m x 0,62 m x 1,95 m, remplie de vêtements datant de plusieurs époques. Les articles contenus dans l'armoire, collectivement nommés SCP-025-1, correspondent aux styles des décennies allant des années 1920 à nos jours."
+      it: "SCP-025 è un armadio di legno che misura 0,97 m x 0,62 m x 1,95 m, pieno di abiti risalenti a diversi periodi storici. Gli articoli contenuti nell'armadio, denominati collettivamente SCP-025-1, corrispondono a stili di decenni che vanno dagli anni '20 a oggi."
+      ko: "SCP-025는 0.97m x 0.62m x 1.95m 크기의 목제 옷장으로, 여러 시대의 의류로 가득 차 있다. 옷장 안에 들어 있는 물품들(총칭 SCP-025-1)은 1920년대부터 현재에 이르는 각 시대의 양식과 일치한다."
+      pl: "SCP-025 to drewniana szafa o wymiarach 0,97 m x 0,62 m x 1,95 m, pełna ubrań pochodzących z różnych okresów. Przedmioty znajdujące się w szafie, zbiorczo nazywane SCP-025-1, odpowiadają stylom z dekad od lat 20. XX wieku do współczesności."
+      pt: "SCP-025 é um guarda-roupa de madeira medindo 0,97 m x 0,62 m x 1,95 m, cheio de roupas de várias épocas. Os itens contidos no armário, coletivamente chamados de SCP-025-1, correspondem a estilos de décadas que vão dos anos 1920 até o presente."
+      th: "SCP-025 เป็นตู้เสื้อผ้าไม้ขนาด 0.97 x 0.62 x 1.95 เมตร เต็มไปด้วยเสื้อผ้าจากหลายยุคสมัย สิ่งของภายในตู้ ซึ่งเรียกรวมกันว่า SCP-025-1 มีรูปแบบตรงกับยุคสมัยตั้งแต่ทศวรรษ 1920 จนถึงปัจจุบัน"
+      uk: "SCP-025 — це дерев'яна шафа розміром 0,97 м x 0,62 м x 1,95 м, повна одягу різних епох. Речі, що містяться в шафі, спільно названі SCP-025-1, відповідають стилям десятиліть від 1920-х років до сьогодення."
+      vi: "SCP-025 là một tủ quần áo bằng gỗ có kích thước 0,97 m x 0,62 m x 1,95 m, chứa đầy quần áo từ nhiều thời kỳ khác nhau. Các món đồ bên trong tủ, gọi chung là SCP-025-1, phù hợp với phong cách của các thập niên từ những năm 1920 cho đến nay."
+      zh: "SCP-025是一个尺寸为0.97米×0.62米×1.95米的木制衣柜，里面装满了来自不同时期的衣物。柜内的物品统称为SCP-025-1，与从20世纪20年代至今各个年代的风格相符。"
+      zh_Hant: "SCP-025是一個尺寸為0.97公尺×0.62公尺×1.95公尺的木製衣櫃，裡面裝滿了來自不同時期的衣物。櫃內的物品統稱為SCP-025-1，與從20世紀20年代至今各個年代的風格相符。"
+
+  - scene: >
+      Medium shot, waist-up, eye level. On the left side of the frame,
+      d-class pulls on a worn glove, its fingertip visibly cut off,
+      studying his own hand. On the right side of the frame,
+      attending-researcher-f stands watching, clipboard raised, wary
+      expression.
+    characters: [d-class, attending-researcher-f]
+    caption:
+      ja: "SCP-025の物品を身に着けると、着用者は24時間以内に死亡するか負傷することが観測されている。これらの死亡または負傷の原因は、必ずその衣類が持つ前述の欠損部位と結びついているが、それは常に無関係な事故に見えるにすぎない。"
+      en: "When any item from SCP-025 is put on, the wearer is observed either to die or suffer an injury within 24 hours. The cause of death or injury in these instances is invariably linked to the aforementioned flaws in the clothing, but only ever appears to be an unrelated incident."
+      cs: "Po obléknutí jakéhokoli předmětu z SCP-025 bylo pozorováno, že nositel do 24 hodin buď zemře, nebo utrpí zranění. Příčina úmrtí nebo zranění v těchto případech vždy souvisí s výše uvedenými vadami oblečení, avšak vždy to vypadá jako nesouvisející nehoda."
+      de: "Wenn ein beliebiges Kleidungsstück aus SCP-025 angezogen wird, stirbt der Träger beobachtungsgemäß innerhalb von 24 Stunden oder erleidet eine Verletzung. Die Todes- oder Verletzungsursache steht in diesen Fällen stets im Zusammenhang mit den zuvor erwähnten Mängeln des Kleidungsstücks, erscheint aber stets als ein damit unzusammenhängender Vorfall."
+      es: "Cuando se pone cualquier prenda de SCP-025, se observa que quien la lleva muere o sufre una lesión en un plazo de 24 horas. La causa de la muerte o lesión en estos casos está invariablemente relacionada con los defectos de la prenda antes mencionados, pero siempre parece ser un incidente no relacionado."
+      fr: "Lorsqu'un vêtement du SCP-025 est porté, on observe que le porteur meurt ou subit une blessure dans les 24 heures. La cause du décès ou de la blessure est invariablement liée aux défauts susmentionnés du vêtement, mais ne semble toujours être qu'un incident sans rapport."
+      it: "Quando viene indossato un qualsiasi capo di SCP-025, si osserva che chi lo indossa muore o subisce una lesione entro 24 ore. La causa del decesso o della lesione in questi casi è invariabilmente collegata ai suddetti difetti dell'indumento, ma appare sempre come un incidente non correlato."
+      ko: "SCP-025의 물품을 착용하면, 착용자는 24시간 이내에 사망하거나 부상을 입는 것으로 관찰된다. 이러한 사망 또는 부상의 원인은 항상 앞서 언급한 의류의 결함과 연관되어 있지만, 언제나 무관한 사고처럼 보일 뿐이다."
+      pl: "Gdy zostanie założony jakikolwiek przedmiot z SCP-025, u noszącej go osoby obserwuje się śmierć lub obrażenia w ciągu 24 godzin. Przyczyna śmierci lub obrażeń w tych przypadkach jest zawsze powiązana z wyżej wspomnianymi wadami odzieży, lecz zawsze wygląda na niezwiązany z tym incydent."
+      pt: "Quando qualquer item do SCP-025 é vestido, observa-se que quem o veste morre ou sofre um ferimento dentro de 24 horas. A causa da morte ou do ferimento nesses casos está invariavelmente ligada às falhas mencionadas na roupa, mas sempre parece ser um incidente não relacionado."
+      th: "เมื่อสวมใส่สิ่งของใดๆ จาก SCP-025 พบว่าผู้สวมใส่จะเสียชีวิตหรือได้รับบาดเจ็บภายใน 24 ชั่วโมง สาเหตุของการเสียชีวิตหรือบาดเจ็บในกรณีเหล่านี้เชื่อมโยงกับข้อบกพร่องของเสื้อผ้าที่กล่าวมาข้างต้นเสมอ แต่ดูเหมือนจะเป็นเพียงอุบัติเหตุที่ไม่เกี่ยวข้องกันเท่านั้น"
+      uk: "Коли одягають будь-який предмет із SCP-025, спостерігається, що носій помирає або отримує травму протягом 24 годин. Причина смерті чи травми в цих випадках незмінно пов'язана із зазначеними вище дефектами одягу, але завжди виглядає як непов'язаний випадок."
+      vi: "Khi bất kỳ món đồ nào từ SCP-025 được mặc vào, người mặc được quan sát thấy sẽ tử vong hoặc bị thương trong vòng 24 giờ. Nguyên nhân tử vong hoặc thương tích trong những trường hợp này luôn liên quan đến các khiếm khuyết nói trên của trang phục, nhưng luôn có vẻ như là một sự việc không liên quan."
+      zh: "一旦穿上SCP-025中的任何物品，穿戴者会在24小时内死亡或受伤。这些死亡或受伤的原因，无一例外都与前述衣物上的缺陷有关，但表面上看起来总像是一起毫不相关的意外事件。"
+      zh_Hant: "一旦穿上SCP-025中的任何物品，穿戴者會在24小時內死亡或受傷。這些死亡或受傷的原因，無一例外都與前述衣物上的缺陷有關，但表面上看起來總像是一起毫不相關的意外事件。"
+
+  - scene: >
+      Close-up, on d-class's hand alone at a cutting board, wearing the
+      worn glove with the missing fingertip, gripping a kitchen knife
+      raised just above an onion, frozen a moment before the cut, his
+      face partially visible above, nervously glancing down at his own
+      hand.
+    characters: [d-class]
+    caption:
+      ja: "指先の切れた手袋を着用すると、玉ねぎを刻むような単純な台所仕事の事故によって、その指先を失うことがある。"
+      en: "Wearing a glove with a fingertip cut off may result in the loss of the fingertip through a simple kitchen accident like chopping onions."
+      cs: "Nošení rukavice s uříznutou špičkou prstu může vést ke ztrátě špičky prstu při obyčejné kuchyňské nehodě, například při krájení cibule."
+      de: "Das Tragen eines Handschuhs mit abgeschnittener Fingerspitze kann durch einen einfachen Küchenunfall wie das Schneiden von Zwiebeln zum Verlust der Fingerspitze führen."
+      es: "Llevar un guante con la punta de un dedo cortada puede provocar la pérdida de esa punta del dedo debido a un simple accidente doméstico, como cortar cebollas."
+      fr: "Le port d'un gant dont le bout d'un doigt est coupé peut entraîner la perte de ce bout de doigt lors d'un simple accident de cuisine, comme couper des oignons."
+      it: "Indossare un guanto con la punta di un dito tagliata può causare la perdita della punta del dito a causa di un semplice incidente domestico, come tagliare le cipolle."
+      ko: "손가락 끝이 잘려나간 장갑을 착용하면, 양파를 써는 것과 같은 단순한 주방 사고로 인해 그 손가락 끝을 잃을 수 있다."
+      pl: "Noszenie rękawiczki z odciętą końcówką palca może skutkować utratą tej końcówki palca w wyniku zwykłego kuchennego wypadku, na przykład podczas krojenia cebuli."
+      pt: "Usar uma luva com a ponta de um dedo cortada pode resultar na perda dessa ponta do dedo por meio de um simples acidente doméstico, como cortar cebolas."
+      th: "การสวมถุงมือที่ปลายนิ้วถูกตัดออกอาจส่งผลให้สูญเสียปลายนิ้วนั้นจากอุบัติเหตุในครัวธรรมดา เช่น การหั่นหัวหอม"
+      uk: "Носіння рукавички з відрізаним кінчиком пальця може призвести до втрати цього кінчика пальця через звичайний кухонний нещасний випадок, наприклад під час нарізання цибулі."
+      vi: "Việc đeo một chiếc găng tay bị cắt mất đầu ngón tay có thể dẫn đến việc mất đầu ngón tay đó qua một tai nạn bếp núc đơn giản như khi thái hành."
+      zh: "戴上一只指尖被剪掉的手套，可能会因为切洋葱之类的简单厨房意外而失去那截指尖。"
+      zh_Hant: "戴上一隻指尖被剪掉的手套，可能會因為切洋蔥之類的簡單廚房意外而失去那截指尖。"
+
+  - scene: >
+      Wide shot, full body, low angle. d-class stands wearing a poncho
+      that is missing one sleeve, his bare arm exposed and visible.
+      Beside him, attending-researcher-f writes on a clipboard without
+      looking up, a resigned and unsurprised expression, as if this has
+      happened many times before.
+    characters: [d-class, attending-researcher-f]
+    caption:
+      ja: "同様に、片方の袖が欠けたポンチョを着た被験者は、野生動物による襲撃であれ、四肢の切断を要する交通事故であれ、何らかの形でその露出した腕を失うことになる。"
+      en: "Similarly, a subject wearing a poncho with a sleeve missing will somehow cause the loss of the uncovered arm, be it an attack by a wild animal or a vehicular accident that necessitates the amputation of the limb."
+      cs: "Podobně subjekt nosící pončo s chybějícím rukávem nějakým způsobem přijde o nekrytou paži, ať už útokem divokého zvířete, nebo dopravní nehodou vyžadující amputaci končetiny."
+      de: "Ebenso wird ein Proband, der ein Poncho mit fehlendem Ärmel trägt, auf irgendeine Weise den unbedeckten Arm verlieren, sei es durch den Angriff eines wilden Tieres oder einen Verkehrsunfall, der die Amputation der Gliedmaße erforderlich macht."
+      es: "Del mismo modo, un sujeto que lleve un poncho al que le falte una manga sufrirá de alguna manera la pérdida del brazo descubierto, ya sea por el ataque de un animal salvaje o por un accidente de tráfico que requiera la amputación del miembro."
+      fr: "De même, un sujet portant un poncho auquel il manque une manche finira, d'une manière ou d'une autre, par perdre le bras découvert, que ce soit à cause de l'attaque d'un animal sauvage ou d'un accident de la route nécessitant l'amputation du membre."
+      it: "Allo stesso modo, un soggetto che indossa un poncho a cui manca una manica subirà in qualche modo la perdita del braccio scoperto, sia a causa dell'attacco di un animale selvatico sia di un incidente stradale che richiede l'amputazione dell'arto."
+      ko: "마찬가지로, 한쪽 소매가 없는 판초를 입은 피험자는 야생 동물의 습격이든 사지 절단을 필요로 하는 교통사고이든, 어떤 식으로든 그 드러난 팔을 잃게 된다."
+      pl: "Podobnie osoba nosząca poncho z brakującym rękawem w jakiś sposób straci odsłonięte ramię, czy to w wyniku ataku dzikiego zwierzęcia, czy wypadku komunikacyjnego wymagającego amputacji kończyny."
+      pt: "Da mesma forma, um sujeito usando um poncho com uma manga faltando de alguma forma causará a perda do braço descoberto, seja por um ataque de animal selvagem ou um acidente de veículo que exija a amputação do membro."
+      th: "ในทำนองเดียวกัน ผู้สวมใส่เสื้อปอนโชที่ขาดแขนเสื้อไปข้างหนึ่งจะสูญเสียแขนข้างที่เปิดเผยนั้นไปด้วยเหตุใดเหตุหนึ่ง ไม่ว่าจะเป็นการถูกสัตว์ป่าทำร้ายหรืออุบัติเหตุทางรถยนต์ที่จำเป็นต้องตัดแขนขา"
+      uk: "Так само суб'єкт, що носить пончо з відсутнім рукавом, якимось чином втрачає непокриту руку — чи то через напад дикої тварини, чи через автомобільну аварію, що вимагає ампутації кінцівки."
+      vi: "Tương tự, một đối tượng mặc áo poncho bị mất một tay áo sẽ bằng cách nào đó mất đi cánh tay không được che phủ, dù là do bị động vật hoang dã tấn công hay tai nạn xe cộ khiến phải cắt cụt chi."
+      zh: "同样，如果受试者穿着一件缺了一只袖子的斗篷，那只裸露在外的手臂也会以某种方式失去——无论是遭到野生动物袭击，还是发生需要截肢的车祸。"
+      zh_Hant: "同樣，如果受試者穿著一件缺了一隻袖子的斗篷，那隻裸露在外的手臂也會以某種方式失去——無論是遭到野生動物襲擊，還是發生需要截肢的車禍。"

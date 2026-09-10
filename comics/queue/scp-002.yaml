@@ -1,0 +1,163 @@
+# SCP-002 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-002
+
+title:
+  ja: "SCP-002"
+  en: "SCP-002"
+  cs: "SCP-002"
+  de: "SCP-002"
+  es: "SCP-002"
+  fr: "SCP-002"
+  it: "SCP-002"
+  ko: "SCP-002"
+  pl: "SCP-002"
+  pt: "SCP-002"
+  th: "SCP-002"
+  uk: "SCP-002"
+  vi: "SCP-002"
+  zh: "SCP-002"
+  zh_Hant: "SCP-002"
+
+attribution:
+  article: "SCP-002"
+  source_url: "http://scp-wiki.wikidot.com/scp-002"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-002:
+    name: SCP-002
+    appearance: >
+      SCP-002, a large tumorous, fleshy growth roughly the size of a small
+      room (about 60 cubic meters), with mottled pink-gray organic skin
+      (color RGB 180,140,130), pulsing faintly, and one heavy riveted iron
+      valve hatch set into one side like a submarine door.
+    default_look: >
+      Hatch sealed shut, thick cables and tubes running from its surface to
+      wall-mounted power equipment, sitting alone in a bare concrete
+      containment cell.
+
+characters: [scp-002, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the entire cramped
+      containment cell. SCP-002 sits in the center of the room, its
+      mottled fleshy surface connected to wall equipment by thick cables.
+      On the left side of the frame, Attending Researcher (Male) and on
+      the right side, Attending Researcher (Female) stand well back from
+      it, each holding a clipboard, observing it from a safe distance.
+    characters: [scp-002, attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "SCP-002は体積約60立方メートルの、腫瘍のような肉塊に似ている。片側には内部へと通じる鉄製のバルブハッチがある。"
+      en: "SCP-002 resembles a tumorous, fleshy growth with a volume of roughly 60 m³. An iron valve hatch on one side leads to its interior."
+      cs: "SCP-002 připomíná nádorovitý, masitý útvar o objemu přibližně 60 m³. Na jedné straně se nachází železný ventilový poklop vedoucí do jeho nitra."
+      de: "SCP-002 ähnelt einem tumorartigen, fleischigen Gewächs mit einem Volumen von etwa 60 m³. Eine eiserne Ventilklappe an einer Seite führt in sein Inneres."
+      es: "SCP-002 se asemeja a un crecimiento tumoral y carnoso con un volumen aproximado de 60 m³. Una escotilla de válvula de hierro en un lado conduce a su interior."
+      fr: "SCP-002 ressemble à une excroissance charnue de type tumoral, d'un volume d'environ 60 m³. Une écoutille à soupape en fer sur un côté mène à son intérieur."
+      it: "SCP-002 assomiglia a una escrescenza tumorale e carnosa con un volume di circa 60 m³. Un portello a valvola in ferro su un lato conduce al suo interno."
+      ko: "SCP-002는 부피가 약 60m³에 달하는 종양처럼 생긴 육질 덩어리와 유사하다. 한쪽 면에는 내부로 이어지는 철제 밸브 해치가 있다."
+      pl: "SCP-002 przypomina guzowaty, mięsisty narośl o objętości około 60 m³. Po jednej stronie znajduje się żelazna klapa zaworowa prowadząca do jego wnętrza."
+      pt: "SCP-002 se assemelha a um crescimento tumoral e carnudo com um volume de aproximadamente 60 m³. Uma escotilha de válvula de ferro em um dos lados leva ao seu interior."
+      th: "SCP-002 มีลักษณะคล้ายก้อนเนื้องอกขนาดใหญ่ ปริมาตรประมาณ 60 ลูกบาศก์เมตร ด้านหนึ่งมีฝาวาล์วเหล็กนำไปสู่ภายใน"
+      uk: "SCP-002 нагадує пухлиноподібний, м'ясистий наріст об'ємом приблизно 60 м³. З одного боку розташований залізний клапанний люк, що веде всередину."
+      vi: "SCP-002 trông giống một khối u thịt lớn, có thể tích khoảng 60 mét khối. Một cửa van bằng sắt ở một bên dẫn vào bên trong nó."
+      zh: "SCP-002看起来像一个肿瘤状的肉质增生物，体积约60立方米。一侧有一扇铁质阀门舱口通向其内部。"
+      zh_Hant: "SCP-002看起來像一個腫瘤狀的肉質增生物，體積約60立方公尺。一側有一扇鐵質閥門艙口通向其內部。"
+
+  - scene: >
+      Medium shot, waist-up, slightly low angle, framed tightly on the
+      open iron hatch of SCP-002. On the left, Attending Researcher (Male)
+      firmly grips the wrist of Attending Researcher (Female) on the
+      right with one hand, flashlight in the other, both stepping toward
+      the dark hatch opening together, maintaining constant physical
+      contact between them as they move.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "職員は常に互いに身体的接触を保ち、もう一人がそこにいることを確認しなければならない。対象への接近により知覚が鈍化・歪曲・影響を受ける可能性があるためである。"
+      en: "Personnel should maintain physical contact with one another at all times to confirm there is another person present, as perception may be dulled, skewed, or influenced by proximity to the object."
+      cs: "Personál by měl neustále udržovat vzájemný fyzický kontakt, aby potvrdil přítomnost druhé osoby, neboť blízkost objektu může otupit, zkreslit nebo ovlivnit vnímání."
+      de: "Das Personal sollte jederzeit körperlichen Kontakt zueinander halten, um die Anwesenheit einer weiteren Person zu bestätigen, da die Wahrnehmung durch die Nähe zum Objekt abgestumpft, verzerrt oder beeinflusst werden kann."
+      es: "El personal debe mantener contacto físico entre sí en todo momento para confirmar que hay otra persona presente, ya que la percepción puede verse embotada, distorsionada o influenciada por la proximidad al objeto."
+      fr: "Le personnel doit maintenir un contact physique constant entre ses membres afin de confirmer la présence d'une autre personne, la perception pouvant être émoussée, faussée ou influencée par la proximité de l'objet."
+      it: "Il personale deve mantenere un contatto fisico reciproco in ogni momento per confermare la presenza di un'altra persona, poiché la percezione può risultare ottusa, alterata o influenzata dalla vicinanza all'oggetto."
+      ko: "직원들은 지각이 대상과의 근접성으로 인해 둔화, 왜곡 또는 영향을 받을 수 있으므로, 다른 사람이 존재함을 확인하기 위해 항상 서로 신체 접촉을 유지해야 한다."
+      pl: "Personel powinien przez cały czas utrzymywać kontakt fizyczny między sobą, aby potwierdzić obecność drugiej osoby, ponieważ bliskość obiektu może przytępiać, zniekształcać lub wpływać na percepcję."
+      pt: "O pessoal deve manter contato físico entre si em todos os momentos para confirmar a presença de outra pessoa, já que a percepção pode ficar embotada, distorcida ou influenciada pela proximidade do objeto."
+      th: "เจ้าหน้าที่ควรสัมผัสร่างกายซึ่งกันและกันตลอดเวลาเพื่อยืนยันว่ามีอีกคนอยู่ด้วย เนื่องจากการรับรู้อาจถูกทำให้ทื่อลง บิดเบือน หรือได้รับอิทธิพลจากความใกล้ชิดกับวัตถุ"
+      uk: "Персонал повинен постійно підтримувати фізичний контакт один з одним, щоб підтвердити присутність іншої особи, оскільки сприйняття може притуплюватися, спотворюватися або зазнавати впливу через близькість до об'єкта."
+      vi: "Nhân viên nên duy trì tiếp xúc cơ thể với nhau mọi lúc để xác nhận có người khác hiện diện, vì nhận thức có thể bị làm chậm, sai lệch hoặc bị ảnh hưởng bởi sự gần gũi với đối tượng."
+      zh: "人员应始终保持彼此的身体接触，以确认另一人在场，因为靠近该物体可能使感知变得迟钝、扭曲或受到影响。"
+      zh_Hant: "人員應始終保持彼此的身體接觸，以確認另一人在場，因為靠近該物體可能使感知變得遲鈍、扭曲或受到影響。"
+
+  - scene: >
+      Wide shot, full body, eye level, revealing the interior beyond the
+      hatch: a plain, dimly lit low-rent apartment room of modest size,
+      with worn wallpaper and a single window in the far wall. On the
+      left, Attending Researcher (Male) and on the right, Attending
+      Researcher (Female) stand just inside the doorway, both staring at
+      the window with visible unease.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "内部は一見、ごく標準的な安アパートの一室のようになっている。部屋の一面には窓が一つあるが、外部からはそのような開口部は一切確認できない。"
+      en: "The interior appears to be a standard low-rent apartment of modest size. One wall of the room possesses a single window, though no such opening is visible from the exterior."
+      cs: "Interiér vypadá jako standardní laciný byt skromné velikosti. Jedna stěna místnosti má jediné okno, ačkoli takový otvor není zvenčí vůbec vidět."
+      de: "Das Innere wirkt wie eine gewöhnliche, bescheiden große Billigwohnung. Eine Wand des Zimmers besitzt ein einzelnes Fenster, obwohl von außen keine solche Öffnung sichtbar ist."
+      es: "El interior parece ser un apartamento de alquiler bajo de tamaño modesto. Una pared de la habitación tiene una sola ventana, aunque desde el exterior no se aprecia ninguna abertura de ese tipo."
+      fr: "L'intérieur ressemble à un appartement modeste et bon marché. Un mur de la pièce possède une unique fenêtre, bien qu'aucune ouverture de ce type ne soit visible depuis l'extérieur."
+      it: "L'interno appare come un comune appartamento economico di dimensioni modeste. Una parete della stanza presenta un'unica finestra, sebbene dall'esterno non sia visibile alcuna apertura di questo tipo."
+      ko: "내부는 평범한 저렴한 아파트의 방처럼 보인다. 방의 한쪽 벽에는 창문이 하나 있지만, 외부에서는 그런 개구부가 전혀 보이지 않는다."
+      pl: "Wnętrze wygląda jak zwykłe, skromnych rozmiarów mieszkanie z niskiego czynszu. Jedna ze ścian pokoju ma pojedyncze okno, choć od zewnątrz taki otwór w ogóle nie jest widoczny."
+      pt: "O interior parece ser um apartamento modesto de aluguel barato. Uma parede do quarto possui uma única janela, embora nenhuma abertura desse tipo seja visível do lado de fora."
+      th: "ภายในดูเหมือนอพาร์ตเมนต์ราคาถูกทั่วไปขนาดพอประมาณ ผนังด้านหนึ่งของห้องมีหน้าต่างบานเดียว แต่ไม่มีช่องเปิดเช่นนั้นให้เห็นจากภายนอกเลย"
+      uk: "Інтер'єр виглядає як звичайна дешева квартира скромного розміру. Одна зі стін кімнати має єдине вікно, хоча зовні такого отвору взагалі не видно."
+      vi: "Bên trong trông giống như một căn hộ giá rẻ có kích thước khiêm tốn. Một bức tường của căn phòng có một cửa sổ duy nhất, mặc dù không có lỗ mở nào như vậy được nhìn thấy từ bên ngoài."
+      zh: "内部看起来像一间普通的廉价公寓，面积不大。房间的一面墙上有一扇窗户，但从外部完全看不到这样的开口。"
+      zh_Hant: "內部看起來像一間普通的廉價公寓，面積不大。房間的一面牆上有一扇窗戶，但從外部完全看不到這樣的開口。"
+
+  - scene: >
+      Close-up shot, framed tightly on a shelf and an armchair inside the
+      apartment, flashlight beams catching the surface of the furniture.
+      On the left, Attending Researcher (Male) leans in first, his
+      flashlight beam revealing fine hair-like fibers woven through the
+      upholstery. On the right, Attending Researcher (Female) recoils
+      slightly, her free hand instinctively tightening its grip on his
+      wrist, both faces caught in dawning realization rather than panic.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "部屋の家具は、詳しく調べると、彫り込まれた骨や編み込まれた髪、その他人体由来と見られる様々な生体物質でできているようである。"
+      en: "The room's furniture, upon close examination, appears to be sculpted bone, woven hair, and various other biological substances produced by the human body."
+      cs: "Nábytek v místnosti se při bližším zkoumání jeví jako tvarovaná kost, spletené vlasy a různé další biologické látky produkované lidským tělem."
+      de: "Die Möbel des Zimmers erweisen sich bei näherer Untersuchung als geformter Knochen, geflochtenes Haar und diverse andere vom menschlichen Körper erzeugte biologische Substanzen."
+      es: "Al examinarlos de cerca, los muebles de la habitación parecen estar hechos de hueso esculpido, cabello tejido y otras diversas sustancias biológicas producidas por el cuerpo humano."
+      fr: "Les meubles de la pièce, après un examen minutieux, semblent être constitués d'os sculpté, de cheveux tissés et de diverses autres substances biologiques produites par le corps humain."
+      it: "I mobili della stanza, a un esame più attento, sembrano essere costituiti da osso scolpito, capelli intrecciati e varie altre sostanze biologiche prodotte dal corpo umano."
+      ko: "방의 가구는 자세히 살펴보면 조각된 뼈, 짜여진 머리카락, 그리고 인체에서 생성된 다양한 기타 생체 물질로 이루어진 것으로 보인다."
+      pl: "Meble w pokoju, po bliższym zbadaniu, wydają się być wykonane z rzeźbionej kości, tkanych włosów i różnych innych substancji biologicznych wytwarzanych przez ludzkie ciało."
+      pt: "Os móveis do quarto, ao serem examinados de perto, parecem ser feitos de osso esculpido, cabelo entrelaçado e várias outras substâncias biológicas produzidas pelo corpo humano."
+      th: "เมื่อตรวจสอบอย่างใกล้ชิด เฟอร์นิเจอร์ในห้องดูเหมือนจะทำจากกระดูกที่แกะสลัก เส้นผมที่ถักทอ และสารชีวภาพอื่น ๆ อีกหลายชนิดที่ร่างกายมนุษย์ผลิตขึ้น"
+      uk: "Меблі в кімнаті, при уважному розгляді, виявляються виготовленими з різьбленої кістки, сплетеного волосся та різних інших біологічних речовин, що виробляються людським тілом."
+      vi: "Khi xem xét kỹ, nội thất trong phòng dường như được làm từ xương chạm khắc, tóc đan bện và nhiều chất sinh học khác do cơ thể con người tạo ra."
+      zh: "仔细检查后，房间里的家具似乎是由雕刻的骨头、编织的毛发以及人体产生的其他各种生物物质制成的。"
+      zh_Hant: "仔細檢查後，房間裡的家具似乎是由雕刻的骨頭、編織的毛髮以及人體產生的其他各種生物物質製成的。"
+
+addendum:
+  ja: "補遺：これまでに検査された全ての物質は、部屋の物品ごとに独立した、または断片化したDNA配列を示している。"
+  en: "Addendum: All matter tested thus far show independent or fragmented DNA sequences for each object in the room."
+  cs: "Dodatek: Veškerá dosud testovaná hmota vykazuje nezávislé nebo fragmentované sekvence DNA pro každý předmět v místnosti."
+  de: "Anhang: Alle bisher getesteten Materialien zeigen für jedes Objekt im Raum unabhängige oder fragmentierte DNA-Sequenzen."
+  es: "Adenda: Toda la materia analizada hasta el momento muestra secuencias de ADN independientes o fragmentadas para cada objeto de la habitación."
+  fr: "Addendum : Toute la matière testée jusqu'à présent présente des séquences d'ADN indépendantes ou fragmentées pour chaque objet de la pièce."
+  it: "Addendum: Tutta la materia testata finora mostra sequenze di DNA indipendenti o frammentate per ciascun oggetto della stanza."
+  ko: "부록: 지금까지 검사된 모든 물질은 방 안의 각 물체마다 독립적이거나 조각난 DNA 서열을 나타낸다."
+  pl: "Aneks: Cała dotychczas przebadana materia wykazuje niezależne lub pofragmentowane sekwencje DNA dla każdego przedmiotu w pokoju."
+  pt: "Adendo: Toda a matéria testada até agora mostra sequências de DNA independentes ou fragmentadas para cada objeto no quarto."
+  th: "ภาคผนวก: สสารทั้งหมดที่ผ่านการทดสอบจนถึงขณะนี้แสดงลำดับดีเอ็นเอที่เป็นอิสระหรือกระจัดกระจายสำหรับวัตถุแต่ละชิ้นในห้อง"
+  uk: "Додаток: Уся дотепер перевірена матерія демонструє незалежні або фрагментовані послідовності ДНК для кожного предмета в кімнаті."
+  vi: "Phụ lục: Tất cả vật chất được kiểm tra cho đến nay đều cho thấy chuỗi DNA độc lập hoặc phân mảnh đối với từng vật thể trong phòng."
+  zh: "补遗：迄今为止检测过的所有物质，房间中每件物品都显示出独立或碎片化的DNA序列。"
+  zh_Hant: "補遺：迄今為止檢測過的所有物質，房間中每件物品都顯示出獨立或碎片化的DNA序列。"

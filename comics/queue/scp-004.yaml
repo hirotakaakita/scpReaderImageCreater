@@ -1,0 +1,142 @@
+# SCP-004 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-004
+
+title:
+  ja: "SCP-004"
+  en: "SCP-004"
+  cs: "SCP-004"
+  de: "SCP-004"
+  es: "SCP-004"
+  fr: "SCP-004"
+  it: "SCP-004"
+  ko: "SCP-004"
+  pl: "SCP-004"
+  pt: "SCP-004"
+  th: "SCP-004"
+  uk: "SCP-004"
+  vi: "SCP-004"
+  zh: "SCP-004"
+  zh_Hant: "SCP-004"
+
+attribution:
+  article: "SCP-004"
+  author: "deusprogrammer"
+  source_url: "http://scp-wiki.wikidot.com/scp-004"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-004:
+    name: SCP-004
+    appearance: >
+      SCP-004, consisting of an old weathered wooden barn door (SCP-004-1,
+      warped gray-brown planks, color RGB 90,70,50) set upright in a
+      plain steel frame, and twelve identical rusted steel keys
+      (SCP-004-2 through SCP-004-13, dull rust-orange color RGB
+      120,70,40) laid out in a neat row on a metal tray.
+    default_look: >
+      The door closed, the keys resting untouched on their tray under
+      bright fluorescent light.
+
+characters: [scp-004, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, eye level, showing a plain testing room. In the center,
+      SCP-004 is set up: the old wooden barn door standing upright in its
+      frame, and the twelve rusted keys laid out in a row on a metal tray
+      beside it. On the right, Attending Researcher (Male) stands
+      observing with a clipboard, keeping a clear distance from the tray.
+    characters: [scp-004, attending-researcher-m]
+    caption:
+      ja: "SCP-004は古い木製の納屋の扉一枚（SCP-004-1）と、錆びた鋼鉄製の鍵十二本の一式（SCP-004-2から004-13）から構成される。"
+      en: "SCP-004 consists of an old wooden barn door (SCP-004-1) and a set of twelve rusted steel keys (SCP-004-2 through SCP-004-13)."
+      cs: "SCP-004 se skládá ze staré dřevěné vrat od stodoly (SCP-004-1) a sady dvanácti zrezivělých ocelových klíčů (SCP-004-2 až 004-13)."
+      de: "SCP-004 besteht aus einer alten hölzernen Scheunentür (SCP-004-1) und einem Satz von zwölf verrosteten Stahlschlüsseln (SCP-004-2 bis 004-13)."
+      es: "SCP-004 consta de una vieja puerta de granero de madera (SCP-004-1) y un juego de doce llaves de acero oxidadas (SCP-004-2 a 004-13)."
+      fr: "SCP-004 se compose d'une vieille porte de grange en bois (SCP-004-1) et d'un jeu de douze clés en acier rouillées (SCP-004-2 à 004-13)."
+      it: "SCP-004 è costituito da una vecchia porta di granaio in legno (SCP-004-1) e da una serie di dodici chiavi d'acciaio arrugginite (SCP-004-2 - 004-13)."
+      ko: "SCP-004는 오래된 나무 헛간 문(SCP-004-1) 한 짝과, 녹슨 강철 열쇠 열두 개 한 세트(SCP-004-2부터 004-13까지)로 구성된다."
+      pl: "SCP-004 składa się ze starych drewnianych drzwi stodoły (SCP-004-1) oraz zestawu dwunastu zardzewiałych stalowych kluczy (SCP-004-2 do 004-13)."
+      pt: "SCP-004 consiste em uma velha porta de celeiro de madeira (SCP-004-1) e um conjunto de doze chaves de aço enferrujadas (SCP-004-2 a 004-13)."
+      th: "SCP-004 ประกอบด้วยประตูโรงนาไม้เก่า (SCP-004-1) และกุญแจเหล็กกล้าขึ้นสนิมชุดหนึ่งจำนวนสิบสองดอก (SCP-004-2 ถึง 004-13)"
+      uk: "SCP-004 складається зі старих дерев'яних воріт клуні (SCP-004-1) та набору з дванадцяти іржавих сталевих ключів (SCP-004-2 — 004-13)."
+      vi: "SCP-004 gồm một cánh cửa kho thóc bằng gỗ cũ (SCP-004-1) và một bộ mười hai chiếc chìa khóa thép gỉ sét (SCP-004-2 đến 004-13)."
+      zh: "SCP-004由一扇老旧的木制谷仓门（SCP-004-1）和一套十二把生锈的钢制钥匙（SCP-004-2至004-13）组成。"
+      zh_Hant: "SCP-004由一扇老舊的木製穀倉門（SCP-004-1）和一套十二把生鏽的鋼製鑰匙（SCP-004-2至004-13）組成。"
+
+  - scene: >
+      Medium shot, waist-up, front-on. On the left, D-Class Personnel
+      holds up one rusted key close to the door's lock, tilting his head
+      with curiosity. On the right, Attending Researcher (Female) throws
+      up one hand in a sharp "stop" gesture, mouth open mid-warning, eyes
+      wide.
+    characters: [d-class, attending-researcher-f]
+    caption:
+      ja: "いかなる場合であっても、SCP-004の他の構成物をSCP-004-1（扉）に通してはならない。"
+      en: "Under no circumstances should any other component of SCP-004 be taken through SCP-004-1."
+      cs: "Za žádných okolností nesmí být žádná jiná součást SCP-004 provedena skrz SCP-004-1."
+      de: "Unter keinen Umständen darf eine andere Komponente von SCP-004 durch SCP-004-1 hindurchgeführt werden."
+      es: "Bajo ninguna circunstancia se debe pasar ningún otro componente de SCP-004 a través de SCP-004-1."
+      fr: "En aucun cas un autre composant de SCP-004 ne doit être fait passer à travers SCP-004-1."
+      it: "In nessun caso un altro componente di SCP-004 deve essere fatto passare attraverso SCP-004-1."
+      ko: "어떠한 경우에도 SCP-004의 다른 구성 요소를 SCP-004-1을 통해 통과시켜서는 안 된다."
+      pl: "Pod żadnym pozorem żaden inny element SCP-004 nie może zostać przeprowadzony przez SCP-004-1."
+      pt: "Sob nenhuma circunstância outro componente de SCP-004 deve ser levado através de SCP-004-1."
+      th: "ไม่ว่ากรณีใดก็ตาม ห้ามนำองค์ประกอบอื่นของ SCP-004 ผ่าน SCP-004-1 โดยเด็ดขาด"
+      uk: "За жодних обставин інший компонент SCP-004 не можна проносити крізь SCP-004-1."
+      vi: "Trong bất kỳ trường hợp nào cũng không được mang bất kỳ thành phần nào khác của SCP-004 xuyên qua SCP-004-1."
+      zh: "在任何情况下，都不得将SCP-004的其他组成部分带过SCP-004-1（门）。"
+      zh_Hant: "在任何情況下，都不得將SCP-004的其他組成部分帶過SCP-004-1（門）。"
+
+  - scene: >
+      Close-up shot, tightly framed on D-Class Personnel's hand slowly
+      guiding the rusted key toward the door's keyhole, the key nearly
+      touching it. In the blurred background, Attending Researcher
+      (Female)'s face is frozen in wide-eyed horror, still mid-reach
+      toward him.
+    characters: [d-class, attending-researcher-f]
+    caption:
+      ja: "そうした場合の影響は未だ不明であり、現状ではさらなる実験にかかる費用が現実的でない。"
+      en: "The effects of doing so are as yet unknown, and the current cost of experimentation makes further research impractical."
+      cs: "Účinky takového jednání jsou zatím neznámé a současné náklady na experimentování činí další výzkum nepraktickým."
+      de: "Die Auswirkungen sind bislang unbekannt, und die derzeitigen Kosten für Experimente machen weitere Forschung unpraktikabel."
+      es: "Los efectos de hacerlo aún se desconocen, y el costo actual de la experimentación hace que continuar la investigación sea poco práctico."
+      fr: "Les effets d'un tel acte demeurent inconnus à ce jour, et le coût actuel de l'expérimentation rend toute recherche supplémentaire peu pratique."
+      it: "Gli effetti di tale azione sono ancora sconosciuti, e l'attuale costo della sperimentazione rende ulteriori ricerche poco pratiche."
+      ko: "그렇게 했을 때의 영향은 아직 알려지지 않았으며, 현재로서는 추가 실험에 드는 비용이 비현실적이다."
+      pl: "Skutki takiego działania są wciąż nieznane, a obecny koszt eksperymentów sprawia, że dalsze badania są niepraktyczne."
+      pt: "Os efeitos de fazer isso ainda são desconhecidos, e o custo atual da experimentação torna mais pesquisas impraticáveis."
+      th: "ผลกระทบจากการกระทำดังกล่าวยังไม่เป็นที่ทราบแน่ชัด และค่าใช้จ่ายในการทดลองในปัจจุบันทำให้การวิจัยเพิ่มเติมไม่สามารถทำได้จริง"
+      uk: "Наслідки такої дії досі невідомі, а нинішня вартість експериментів робить подальші дослідження недоцільними."
+      vi: "Hậu quả của việc này vẫn chưa được biết đến, và chi phí thử nghiệm hiện tại khiến việc nghiên cứu thêm trở nên không khả thi."
+      zh: "这样做的后果目前尚不清楚，而目前实验所需的成本使得进一步研究不切实际。"
+      zh_Hant: "這樣做的後果目前尚不清楚，而目前實驗所需的成本使得進一步研究不切實際。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole
+      testing room. On the left, Attending Researcher (Male) has lunged
+      in and grips D-Class Personnel's wrist, prying the key from his
+      fingers, in the center. On the right, Attending Researcher (Female)
+      exhales sharply, lowering her raised hand, visibly relieved.
+    characters: [attending-researcher-m, d-class, attending-researcher-f]
+    caption:
+      ja: "試験区画からの鍵の無許可な持ち出しは、即時解雇の対象となる。"
+      en: "Unauthorized removal of keys from the testing area is grounds for immediate termination."
+      cs: "Neoprávněné odnesení klíčů z testovacího prostoru je důvodem k okamžitému propuštění."
+      de: "Die unbefugte Entfernung von Schlüsseln aus dem Testbereich führt zur sofortigen Kündigung."
+      es: "La extracción no autorizada de las llaves del área de pruebas es motivo de despido inmediato."
+      fr: "Le retrait non autorisé des clés de la zone de test constitue un motif de renvoi immédiat."
+      it: "La rimozione non autorizzata delle chiavi dall'area di test costituisce motivo di licenziamento immediato."
+      ko: "시험 구역에서 열쇠를 무단으로 반출하는 행위는 즉각적인 해고 사유가 된다."
+      pl: "Nieautoryzowane wyniesienie kluczy z obszaru testowego stanowi podstawę do natychmiastowego zwolnienia."
+      pt: "A remoção não autorizada de chaves da área de testes é motivo para demissão imediata."
+      th: "การนำกุญแจออกจากพื้นที่ทดสอบโดยไม่ได้รับอนุญาตถือเป็นเหตุให้ถูกไล่ออกทันที"
+      uk: "Несанкціоноване винесення ключів із зони випробувань є підставою для негайного звільнення."
+      vi: "Việc lấy chìa khóa ra khỏi khu vực thử nghiệm mà không được phép sẽ dẫn đến sa thải ngay lập tức."
+      zh: "未经授权将钥匙带出测试区域，将被立即开除。"
+      zh_Hant: "未經授權將鑰匙帶出測試區域，將被立即開除。"

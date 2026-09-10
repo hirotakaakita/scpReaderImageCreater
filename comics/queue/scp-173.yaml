@@ -1,0 +1,145 @@
+# SCP-173「彫刻」4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用のみ。
+# 173には補遺(Addendum)が存在しないため、記事全文がそのまま題材。
+# 恐怖対象だが、演出は「瞬きを我慢する職員のコメディ的緊張→ジャンプスケア風オチ」で
+# 軽いコメディ寄りに調整し、実際の攻撃・流血描写は避ける。
+# キャラにセリフは言わせない。
+
+id: scp-173
+
+title:
+  en: "SCP-173: The Sculpture"
+  ja: "SCP-173：彫刻"
+  cs: "SCP-173: Socha"
+  de: "SCP-173: Die Skulptur"
+  es: "SCP-173: La Escultura"
+  fr: "SCP-173 : La Sculpture"
+  it: "SCP-173: La Scultura"
+  ko: "SCP-173: 조각상"
+  pl: "SCP-173: Rzeźba"
+  pt: "SCP-173: A Escultura"
+  th: "SCP-173: ประติมากรรม"
+  uk: "SCP-173: Скульптура"
+  vi: "SCP-173: Bức Tượng"
+  zh: "SCP-173：雕像"
+  zh_Hant: "SCP-173：雕像"
+
+attribution:
+  article: "SCP-173"
+  author: "Moto42"
+  source_url: "http://scp-wiki.wikidot.com/scp-173"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-173:
+    name: SCP-173
+    appearance: >
+      SCP-173, a roughly 2-meter-tall humanoid statue crudely sculpted from
+      rough gray concrete (color RGB 130,130,125), with exposed rusted
+      rebar visible at the joints of its long, thin limbs. Faded, flaking
+      traces of dark green spray paint mark its surface. Its face is
+      featureless except for a wide, twisted mouth frozen in a silent
+      scream, and it has no visible eyes.
+    default_look: >
+      Standing rigidly upright, contorted and unnatural, in a bare
+      concrete containment cell with a single drain in the floor.
+
+characters: [scp-173]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, from just outside a thick reinforced
+      window set into a heavy metal door. Through the window, SCP-173
+      stands alone and motionless in the center of a bare, dimly lit
+      concrete cell.
+    characters: [scp-173]
+    caption:
+      ja: "SCP-173は1993年にサイト-19へ移送された。出自は未だ不明である。SCP-173は自立し、極めて敵対的である。"
+      en: "SCP-173 was moved to Site-19 in 1993. Origin is as of yet unknown. SCP-173 is animate and extremely hostile."
+      cs: "SCP-173 bylo v roce 1993 přemístěno na Stanoviště-19. Jeho původ je zatím neznámý. SCP-173 je oživlé a extrémně nepřátelské."
+      de: "SCP-173 wurde 1993 zu Standort-19 verlegt. Der Ursprung ist bislang unbekannt. SCP-173 ist beseelt und extrem feindselig."
+      es: "SCP-173 fue trasladado al Sitio-19 en 1993. Su origen es aún desconocido. SCP-173 está animado y es extremadamente hostil."
+      fr: "SCP-173 a été transféré au Site-19 en 1993. Son origine demeure inconnue à ce jour. SCP-173 est animé et extrêmement hostile."
+      it: "SCP-173 è stato trasferito al Sito-19 nel 1993. L'origine è a tutt'oggi sconosciuta. SCP-173 è animato ed estremamente ostile."
+      ko: "SCP-173는 1993년 사이트-19로 이송되었다. 기원은 아직 밝혀지지 않았다. SCP-173는 자발적으로 움직이며 극도로 적대적이다."
+      pl: "SCP-173 zostało przeniesione do Placówki-19 w 1993 roku. Jego pochodzenie wciąż jest nieznane. SCP-173 jest ożywione i wyjątkowo wrogo nastawione."
+      pt: "O SCP-173 foi transferido para o Local-19 em 1993. Sua origem ainda é desconhecida. O SCP-173 está animado e é extremamente hostil."
+      th: "SCP-173 ถูกย้ายมายังไซต์-19 ในปี 1993 ที่มาของมันยังไม่เป็นที่ทราบแน่ชัด SCP-173 เคลื่อนไหวได้และมีความก้าวร้าวอย่างยิ่ง"
+      uk: "SCP-173 було переміщено до Об'єкту-19 у 1993 році. Походження досі невідоме. SCP-173 є одушевленим і вкрай ворожим."
+      vi: "SCP-173 được chuyển đến Site-19 vào năm 1993. Nguồn gốc của nó đến nay vẫn chưa được xác định. SCP-173 có khả năng tự cử động và cực kỳ hung hãn."
+      zh: "SCP-173于1993年被转移至19号站点。其来源至今未知。SCP-173具有自主活动能力，且极具攻击性。"
+      zh_Hant: "SCP-173於1993年被轉移至19號站點。其來源至今未知。SCP-173具有自主活動能力，且極具攻擊性。"
+
+  - scene: >
+      Medium shot, waist-up, low angle from inside the doorway looking into
+      the cell. Two researchers, attending-researcher-m on the left and
+      attending-researcher-f on the right, have just stepped through the
+      now-open door, both staring fixedly across the room at SCP-173,
+      neither one blinking, their postures tense and alert.
+    characters: [attending-researcher-m, attending-researcher-f, scp-173]
+    caption:
+      ja: "職員がSCP-173の収容室に入室する際は、いかなる時も3名以上で入室しなければならない。全員が退室し施錠を終えるまで、常に2名がSCP-173と直接目を合わせ続けなければならない。"
+      en: "When personnel must enter SCP-173's container, no fewer than three may enter at any time, and at all times, two persons must maintain direct eye contact with SCP-173 until all personnel have vacated and relocked the container."
+      cs: "Když musí personál vstoupit do kontejneru SCP-173, mohou vstoupit vždy nejméně tři osoby, a po celou dobu musí dvě osoby udržovat přímý oční kontakt se SCP-173, dokud veškerý personál neopustí kontejner a znovu jej nezamkne."
+      de: "Muss Personal den Behälter von SCP-173 betreten, dürfen jederzeit nicht weniger als drei Personen eintreten, und zu jedem Zeitpunkt müssen zwei Personen direkten Blickkontakt mit SCP-173 halten, bis das gesamte Personal den Behälter verlassen und wieder verriegelt hat."
+      es: "Cuando el personal deba entrar en el contenedor de SCP-173, deben hacerlo no menos de tres personas en todo momento, y en todo momento dos personas deben mantener contacto visual directo con SCP-173 hasta que todo el personal haya salido y vuelto a cerrar el contenedor."
+      fr: "Lorsque le personnel doit pénétrer dans le conteneur de SCP-173, au moins trois personnes doivent y entrer à chaque fois, et à tout instant, deux d'entre elles doivent maintenir un contact visuel direct avec SCP-173 jusqu'à ce que tout le personnel ait évacué et reverrouillé le conteneur."
+      it: "Quando il personale deve entrare nel contenitore di SCP-173, devono entrare non meno di tre persone in ogni occasione, e in ogni momento due persone devono mantenere il contatto visivo diretto con SCP-173 finché tutto il personale non sia uscito e abbia richiuso a chiave il contenitore."
+      ko: "직원이 SCP-173의 수용실에 들어가야 할 경우, 언제든 최소 3명 이상이 함께 들어가야 하며, 모든 인원이 퇴실하여 문을 다시 잠글 때까지 항상 2명이 SCP-173과 직접 눈을 맞추고 있어야 한다."
+      pl: "Gdy personel musi wejść do pojemnika SCP-173, każdorazowo musi wejść nie mniej niż trzy osoby, a przez cały czas dwie osoby muszą utrzymywać bezpośredni kontakt wzrokowy z SCP-173, dopóki cały personel nie opuści pomieszczenia i nie zamknie go ponownie."
+      pt: "Quando for necessário que a equipe entre no contêiner do SCP-173, no mínimo três pessoas devem entrar de cada vez, e a todo momento duas pessoas devem manter contato visual direto com o SCP-173 até que toda a equipe tenha saído e trancado novamente o contêiner."
+      th: "เมื่อเจ้าหน้าที่ต้องเข้าไปในห้องกักกันของ SCP-173 จะต้องเข้าไปไม่น้อยกว่าสามคนในทุกครั้ง และตลอดเวลาต้องมีสองคนสบตากับ SCP-173 โดยตรงจนกว่าเจ้าหน้าที่ทั้งหมดจะออกมาและล็อกห้องกลับคืน"
+      uk: "Коли персоналу необхідно увійти до контейнера SCP-173, щоразу мають заходити не менше трьох осіб, і весь час двоє з них повинні підтримувати прямий зоровий контакт із SCP-173, доки весь персонал не залишить приміщення і не замкне його знову."
+      vi: "Khi nhân viên phải vào bên trong nơi chứa SCP-173, mỗi lần phải có không dưới ba người cùng vào, và luôn phải có hai người duy trì giao tiếp bằng mắt trực tiếp với SCP-173 cho đến khi toàn bộ nhân viên đã rời đi và khóa lại cửa."
+      zh: "当人员必须进入SCP-173的收容间时，每次不得少于三人一同进入，且必须始终有两人与SCP-173保持直接目光接触，直至所有人员撤出并重新锁门为止。"
+      zh_Hant: "當人員必須進入SCP-173的收容間時，每次不得少於三人一同進入，且必須始終有兩人與SCP-173保持直接目光接觸，直至所有人員撤出並重新鎖門為止。"
+
+  - scene: >
+      Close-up shot centered tightly on attending-researcher-f's face, eyes
+      wide and straining, a single bead of sweat on her temple, clearly
+      fighting the urge to blink. SCP-173 is visible only as a blurred,
+      out-of-focus shape reflected in her wide eyes.
+    characters: [attending-researcher-f, scp-173]
+    caption:
+      ja: "本物体は直接視認されている間は動くことができない。収容室に入る職員は、瞬きをする前に互いに知らせ合うよう指示されている。"
+      en: "The object cannot move while within a direct line of sight. Personnel assigned to enter container are instructed to alert one another before blinking."
+      cs: "Objekt se nemůže pohybovat, dokud je v přímém zorném poli. Personál určený ke vstupu do kontejneru je instruován, aby se navzájem upozorňoval před mrknutím."
+      de: "Das Objekt kann sich nicht bewegen, solange es sich in direkter Sichtlinie befindet. Personal, das den Behälter betritt, wird angewiesen, sich gegenseitig vor dem Blinzeln zu warnen."
+      es: "El objeto no puede moverse mientras esté dentro de la línea de visión directa. Se instruye al personal asignado a entrar en el contenedor para que se avise mutuamente antes de parpadear."
+      fr: "L'objet ne peut pas se déplacer tant qu'il se trouve dans une ligne de mire directe. Le personnel affecté à l'entrée dans le conteneur reçoit pour consigne de s'avertir mutuellement avant de cligner des yeux."
+      it: "L'oggetto non può muoversi finché si trova nella linea di vista diretta. Al personale incaricato di entrare nel contenitore viene ordinato di avvisarsi a vicenda prima di sbattere le palpebre."
+      ko: "본 개체는 직접적인 시야 안에 있는 동안에는 움직일 수 없다. 수용실에 들어가는 직원들은 눈을 깜빡이기 전에 서로에게 알리도록 지시받는다."
+      pl: "Obiekt nie może się poruszać, dopóki znajduje się w bezpośrednim polu widzenia. Personel wyznaczony do wejścia do pojemnika jest instruowany, by ostrzegać się nawzajem przed mrugnięciem."
+      pt: "O objeto não pode se mover enquanto estiver em linha de visão direta. A equipe designada para entrar no contêiner é instruída a avisar uns aos outros antes de piscar."
+      th: "วัตถุนี้ไม่สามารถเคลื่อนไหวได้ตราบใดที่ยังอยู่ในแนวสายตาโดยตรง เจ้าหน้าที่ที่ได้รับมอบหมายให้เข้าไปในห้องกักกันได้รับคำสั่งให้แจ้งเตือนกันก่อนกระพริบตา"
+      uk: "Об'єкт не може рухатися, поки перебуває у прямому полі зору. Персоналу, який заходить до контейнера, наказано попереджати одне одного перед тим, як кліпнути очима."
+      vi: "Vật thể không thể di chuyển khi vẫn đang bị nhìn thấy trực tiếp. Nhân viên được cử vào bên trong nơi chứa được chỉ thị phải báo hiệu cho nhau trước khi chớp mắt."
+      zh: "该物体在被直接目视期间无法移动。被指派进入收容间的人员须在眨眼前互相提醒。"
+      zh_Hant: "該物體在被直接目視期間無法移動。被指派進入收容間的人員須在眨眼前互相提醒。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole cell.
+      Both attending-researcher-m and attending-researcher-f are frozen
+      rigid, backs pressed almost against the door, eyes bulging in shock.
+      SCP-173 now looms directly in front of them, far closer than before,
+      its twisted mouth inches from their faces, having silently closed the
+      distance in the instant their eyes were shut.
+    characters: [attending-researcher-m, attending-researcher-f, scp-173]
+    caption:
+      ja: "本物体は、頭蓋骨基部で頸部を折るか、絞殺することで攻撃すると報告されている。"
+      en: "Object is reported to attack by snapping the neck at the base of the skull, or by strangulation."
+      cs: "Bylo hlášeno, že objekt útočí zlomením krku u báze lebky nebo uškrcením."
+      de: "Es wird berichtet, dass das Objekt angreift, indem es das Genick an der Schädelbasis bricht oder erwürgt."
+      es: "Se ha informado de que el objeto ataca rompiendo el cuello en la base del cráneo, o mediante estrangulamiento."
+      fr: "Il est signalé que l'objet attaque en brisant la nuque à la base du crâne, ou par strangulation."
+      it: "Si segnala che l'oggetto attacca spezzando il collo alla base del cranio, oppure mediante strangolamento."
+      ko: "본 개체는 두개골 기저부에서 목을 꺾거나 목을 졸라 공격하는 것으로 보고되었다."
+      pl: "Odnotowano, że obiekt atakuje poprzez złamanie karku u podstawy czaszki lub przez uduszenie."
+      pt: "Há relatos de que o objeto ataca quebrando o pescoço na base do crânio, ou por estrangulamento."
+      th: "มีรายงานว่าวัตถุนี้โจมตีด้วยการหักคอที่ฐานกะโหลกศีรษะ หรือด้วยการรัดคอ"
+      uk: "Повідомляється, що об'єкт атакує, ламаючи шию біля основи черепа, або шляхом удушення."
+      vi: "Có báo cáo rằng vật thể tấn công bằng cách bẻ gãy cổ ở gốc hộp sọ, hoặc bằng cách siết cổ."
+      zh: "据报告，该物体的攻击方式为在颅底处扭断颈部，或以勒颈方式致死。"
+      zh_Hant: "據報告，該物體的攻擊方式為在顱底處扭斷頸部，或以勒頸方式致死。"

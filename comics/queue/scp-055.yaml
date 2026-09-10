@@ -1,0 +1,133 @@
+# SCP-055 4コマ台本
+# captionは記事本文（Description）からの引用。キャラにセリフは言わせない。
+# SCP-055は「自己秘匿・アンチミーム」のため、その外見自体は絵に描かない
+# （記事の性質上、外見の描写自体が存在しない）。
+
+id: scp-055
+
+title:
+  en: "SCP-055"
+  ja: "SCP-055"
+  cs: "SCP-055"
+  de: "SCP-055"
+  es: "SCP-055"
+  fr: "SCP-055"
+  it: "SCP-055"
+  ko: "SCP-055"
+  pl: "SCP-055"
+  pt: "SCP-055"
+  th: "SCP-055"
+  uk: "SCP-055"
+  vi: "SCP-055"
+  zh: "SCP-055"
+  zh_Hant: "SCP-055"
+
+attribution:
+  article: "SCP-055"
+  author: "qntm and CptBellman"
+  source_url: "http://scp-wiki.wikidot.com/scp-055"
+  license: "CC BY-SA 3.0"
+
+object_class: Keter
+
+characters: [attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, from just outside the open
+      containment door. A bare cement room, five meters square, without
+      windows, its walls lined with a faint metallic mesh embedded in the
+      concrete. No guard stands near the heavy square containment door,
+      which sits propped open. The room's interior beyond the doorway is
+      wrapped in a soft, unnatural haze of shadow that makes its contents
+      impossible to make out clearly.
+    characters: []
+    caption:
+      ja: "オブジェクトは、コンクリート製の壁の周囲をファラデーケージで囲んだ、5×5×2.5メートルの正方形の部屋に収容されている。SCP-055の部屋の外に警備員を配置してはならない。"
+      en: "Object is kept within a five (5) by five (5) by two point five (2.5) meter square room constructed of cement, with a Faraday cage surrounding the walls. Security guards are NOT to be posted outside SCP-055's room."
+      cs: "Objekt je uchováván v pětimetrové (5) krát pětimetrové (5) krát dva a půl metru (2,5) velké čtvercové místnosti postavené z cementu, s Faradayovou klecí obklopující stěny. Před místností SCP-055 NESMÍ být rozmístěna bezpečnostní stráž."
+      de: "Das Objekt wird in einem fünf (5) mal fünf (5) mal zwei Komma fünf (2,5) Meter großen quadratischen Raum aus Zement aufbewahrt, dessen Wände von einem Faradayschen Käfig umgeben sind. Vor dem Raum von SCP-055 dürfen KEINE Wachen postiert werden."
+      es: "El objeto se mantiene dentro de una sala cuadrada de cinco (5) por cinco (5) por dos coma cinco (2,5) metros construida de cemento, con una jaula de Faraday rodeando las paredes. NO se deben apostar guardias de seguridad fuera de la sala de SCP-055."
+      fr: "L'objet est conservé dans une salle carrée de cinq (5) par cinq (5) par deux virgule cinq (2,5) mètres construite en ciment, avec une cage de Faraday entourant les murs. Aucun garde de sécurité ne doit être posté devant la salle du SCP-055."
+      it: "L'oggetto è custodito in una stanza quadrata di cinque (5) per cinque (5) per due virgola cinque (2,5) metri costruita in cemento, con una gabbia di Faraday che circonda le pareti. Le guardie di sicurezza NON devono essere appostate fuori dalla stanza di SCP-055."
+      ko: "오브젝트는 시멘트로 건축된 5(5)×5(5)×2.5(2.5)미터 크기의 정사각형 방에 보관되며, 벽을 둘러싼 패러데이 케이지가 설치되어 있다. SCP-055의 방 밖에는 경비 인력을 배치해서는 안 된다."
+      pl: "Obiekt jest przechowywany w kwadratowym pomieszczeniu o wymiarach pięć (5) na pięć (5) na dwa i pół (2,5) metra, zbudowanym z cementu, z klatką Faradaya otaczającą ściany. Strażnicy NIE MOGĄ być rozmieszczani przed pomieszczeniem SCP-055."
+      pt: "O objeto é mantido em uma sala quadrada de cinco (5) por cinco (5) por dois vírgula cinco (2,5) metros construída em cimento, com uma gaiola de Faraday envolvendo as paredes. Guardas de segurança NÃO devem ser postados do lado de fora da sala do SCP-055."
+      th: "วัตถุถูกเก็บไว้ในห้องสี่เหลี่ยมจัตุรัสขนาดห้า (5) คูณห้า (5) คูณสองจุดห้า (2.5) เมตร สร้างด้วยซีเมนต์ โดยมีกรงฟาราเดย์ล้อมรอบผนัง ห้ามวางกำลังเจ้าหน้าที่รักษาความปลอดภัยไว้นอกห้องของ SCP-055"
+      uk: "Об'єкт зберігається у квадратній кімнаті розміром п'ять (5) на п'ять (5) на два з половиною (2,5) метра, збудованій з цементу, зі стінами, оточеними клітиною Фарадея. Охоронців НЕ можна розміщувати за межами кімнати SCP-055."
+      vi: "Đối tượng được giữ trong một căn phòng vuông kích thước năm (5) x năm (5) x hai phẩy năm (2,5) mét được xây bằng xi măng, với một lồng Faraday bao quanh các bức tường. KHÔNG được bố trí lính canh bên ngoài phòng của SCP-055."
+      zh: "该物体被收容在一个由水泥建造、边长五（5）乘五（5）乘二点五（2.5）米的正方形房间内，房间四壁被法拉第笼包围。禁止在SCP-055的房间外部署警卫人员。"
+      zh_Hant: "該物體被收容在一個由水泥建造、邊長五（5）乘五（5）乘二點五（2.5）公尺的正方形房間內，房間四壁被法拉第籠包圍。禁止在SCP-055的房間外部署警衛人員。"
+
+  - scene: >
+      Medium shot, waist-up, low angle from behind Attending Researcher
+      (Male) as he stands in the propped-open doorway, a camera raised to
+      his eye with the flash mid-flare, a notepad tucked under one arm.
+      Only the back of his head and shoulders are visible to the viewer;
+      the room beyond him is kept an indistinct haze, deliberately
+      impossible to make out.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "個人はSCP-055を直接観察し、メモ・写真・記録を取ることができる。"
+      en: "Individuals may directly observe SCP-055, take notes, photographs, and recordings of it during approved study sessions."
+      cs: "Jednotlivci mohou SCP-055 přímo pozorovat, pořizovat si poznámky, fotografie a záznamy během schválených studijních sezení."
+      de: "Personen dürfen SCP-055 während genehmigter Studiensitzungen direkt beobachten, Notizen machen sowie Fotos und Aufnahmen davon anfertigen."
+      es: "Las personas pueden observar directamente a SCP-055, tomar notas, fotografías y grabaciones de él durante sesiones de estudio aprobadas."
+      fr: "Les individus peuvent observer directement le SCP-055, prendre des notes, des photographies et des enregistrements pendant des séances d'étude approuvées."
+      it: "Gli individui possono osservare direttamente SCP-055, prendere appunti, fotografie e registrazioni durante le sessioni di studio approvate."
+      ko: "개인은 승인된 연구 세션 중 SCP-055를 직접 관찰하고, 메모, 사진, 녹화를 할 수 있다."
+      pl: "Osoby mogą bezpośrednio obserwować SCP-055, robić notatki, zdjęcia i nagrania podczas zatwierdzonych sesji badawczych."
+      pt: "Os indivíduos podem observar diretamente o SCP-055, fazer anotações, tirar fotografias e realizar gravações durante sessões de estudo aprovadas."
+      th: "บุคคลสามารถสังเกต SCP-055 ได้โดยตรง จดบันทึก ถ่ายภาพ และบันทึกข้อมูลระหว่างช่วงการศึกษาที่ได้รับอนุมัติ"
+      uk: "Особи можуть безпосередньо спостерігати за SCP-055, робити нотатки, фотографії та записи під час затверджених сеансів вивчення."
+      vi: "Các cá nhân có thể trực tiếp quan sát SCP-055, ghi chép, chụp ảnh và ghi hình trong các buổi nghiên cứu được phê duyệt."
+      zh: "个人可以在获批的研究过程中直接观察SCP-055，做笔记、拍照和录像。"
+      zh_Hant: "個人可以在獲批的研究過程中直接觀察SCP-055，做筆記、拍照和錄影。"
+
+  - scene: >
+      Close-up shot on Attending Researcher (Male)'s face, just outside
+      the doorway moments later, eyes unfocused and confused, one hand
+      pressed to his temple. His notepad hangs loosely from his other
+      hand, its pages visible and completely blank.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "そうした観察の直後、SCP-055の外見に関する情報は関連する記憶とともに人間の記憶から「漏れ出て」いく。影響を受けた者は、自分が何を目撃したのかについて見当識障害と物忘れを報告する。"
+      en: "Information about SCP-055's physical appearance 'leaks' out of a human mind soon after such an observation, along with related memories; affected individuals report disorientation and forgetfulness regarding what they witnessed."
+      cs: "Informace o fyzickém vzhledu SCP-055 z lidské mysli krátce po takovém pozorování 'unikají' spolu se souvisejícími vzpomínkami; postižení jedinci hlásí dezorientaci a zapomnětlivost ohledně toho, co viděli."
+      de: "Informationen über das physische Erscheinungsbild von SCP-055 'entweichen' kurz nach einer solchen Beobachtung zusammen mit den zugehörigen Erinnerungen aus dem menschlichen Verstand; betroffene Personen berichten von Orientierungslosigkeit und Vergesslichkeit bezüglich dessen, was sie gesehen haben."
+      es: "La información sobre la apariencia física de SCP-055 'se escapa' de la mente humana poco después de dicha observación, junto con los recuerdos relacionados; las personas afectadas reportan desorientación y olvido respecto a lo que presenciaron."
+      fr: "Les informations sur l'apparence physique du SCP-055 « s'échappent » de l'esprit humain peu après une telle observation, ainsi que les souvenirs associés ; les personnes concernées rapportent une désorientation et un oubli concernant ce qu'elles ont vu."
+      it: "Le informazioni sull'aspetto fisico di SCP-055 'fuoriescono' dalla mente umana poco dopo tale osservazione, insieme ai ricordi correlati; gli individui colpiti riferiscono disorientamento e smemoratezza riguardo a ciò che hanno visto."
+      ko: "SCP-055의 외형에 관한 정보는 그러한 관찰 직후 관련 기억과 함께 인간의 정신에서 '새어 나간다'. 영향을 받은 사람들은 자신이 목격한 것에 대해 방향 감각 상실과 건망증을 보고한다."
+      pl: "Informacje o fizycznym wyglądzie SCP-055 'wyciekają' z ludzkiego umysłu wkrótce po takiej obserwacji, wraz z powiązanymi wspomnieniami; dotknięte osoby zgłaszają dezorientację i zapominanie tego, czego były świadkami."
+      pt: "Informações sobre a aparência física do SCP-055 'vazam' da mente humana logo após tal observação, junto com memórias relacionadas; os indivíduos afetados relatam desorientação e esquecimento sobre o que testemunharam."
+      th: "ข้อมูลเกี่ยวกับรูปลักษณ์ทางกายภาพของ SCP-055 จะ 'รั่วไหล' ออกจากจิตใจมนุษย์ไม่นานหลังการสังเกตดังกล่าว พร้อมกับความทรงจำที่เกี่ยวข้อง ผู้ที่ได้รับผลกระทบรายงานว่ามีอาการสับสนทางการรับรู้และหลงลืมสิ่งที่ตนพบเห็น"
+      uk: "Інформація про фізичний вигляд SCP-055 'витікає' з людської свідомості невдовзі після такого спостереження, разом із пов'язаними спогадами; постраждалі повідомляють про дезорієнтацію та забудькуватість щодо побаченого."
+      vi: "Thông tin về hình dạng vật lý của SCP-055 'rò rỉ' khỏi tâm trí con người ngay sau lần quan sát đó, cùng với những ký ức liên quan; những người bị ảnh hưởng báo cáo tình trạng mất phương hướng và quên những gì họ đã chứng kiến."
+      zh: "关于SCP-055外观的信息会在这样的观察后不久从人类大脑中连同相关记忆一起'泄漏'出去；受影响者报告称，对自己所目击的内容出现定向障碍和遗忘。"
+      zh_Hant: "關於SCP-055外觀的資訊會在這樣的觀察後不久從人類大腦中連同相關記憶一起「洩漏」出去；受影響者報告稱，對自己所目擊的內容出現定向障礙和遺忘。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the corridor
+      outside the containment room. On the left side of the frame,
+      Attending Researcher (Female) waits with an expectant expression,
+      pen ready over a clipboard. On the right side of the frame,
+      Attending Researcher (Male) shrugs with an empty, bewildered
+      expression, holding his blank notepad open toward her.
+    characters: [attending-researcher-f, attending-researcher-m]
+    caption:
+      ja: "こうした事実を直接思い出すことはできないが、対象はSCP-055に関する否定的な事実、すなわちそれが「何でないか」についての事実であれば思い出す能力を保持している。"
+      en: "Though they cannot recall these facts directly, subjects retain the ability to recall negative facts about SCP-055 — that is, facts about what it is not."
+      cs: "Ačkoli si tato fakta nemohou přímo vybavit, subjekty si zachovávají schopnost vzpomenout si na negativní fakta o SCP-055 - tedy fakta o tom, čím není."
+      de: "Obwohl sie sich nicht direkt an diese Fakten erinnern können, behalten die Subjekte die Fähigkeit, sich an negative Fakten über SCP-055 zu erinnern - also Fakten darüber, was es nicht ist."
+      es: "Aunque no pueden recordar estos hechos directamente, los sujetos conservan la capacidad de recordar hechos negativos sobre SCP-055, es decir, hechos sobre lo que no es."
+      fr: "Bien qu'ils ne puissent pas se souvenir directement de ces faits, les sujets conservent la capacité de se rappeler des faits négatifs sur le SCP-055, c'est-à-dire des faits sur ce qu'il n'est pas."
+      it: "Sebbene non possano ricordare direttamente questi fatti, i soggetti mantengono la capacità di ricordare fatti negativi su SCP-055, cioè fatti su ciò che esso non è."
+      ko: "이러한 사실을 직접 기억할 수는 없지만, 대상은 SCP-055에 관한 부정적 사실, 즉 그것이 '무엇이 아닌지'에 관한 사실은 기억하는 능력을 유지한다."
+      pl: "Choć nie potrafią bezpośrednio przypomnieć sobie tych faktów, osobnicy zachowują zdolność przywoływania negatywnych faktów o SCP-055 - czyli faktów o tym, czym on nie jest."
+      pt: "Embora não consigam se lembrar diretamente desses fatos, os sujeitos mantêm a capacidade de recordar fatos negativos sobre o SCP-055 - ou seja, fatos sobre o que ele não é."
+      th: "แม้ว่าพวกเขาจะไม่สามารถระลึกถึงข้อเท็จจริงเหล่านี้ได้โดยตรง แต่ผู้ถูกทดสอบยังคงความสามารถในการระลึกถึงข้อเท็จจริงเชิงลบเกี่ยวกับ SCP-055 นั่นคือข้อเท็จจริงเกี่ยวกับสิ่งที่มันไม่ใช่"
+      uk: "Хоча вони не можуть пригадати ці факти безпосередньо, суб'єкти зберігають здатність згадувати негативні факти про SCP-055 - тобто факти про те, чим він не є."
+      vi: "Mặc dù không thể nhớ lại những sự thật này một cách trực tiếp, các đối tượng vẫn giữ được khả năng nhớ lại những sự thật tiêu cực về SCP-055 - tức là những sự thật về việc nó không phải là gì."
+      zh: "尽管无法直接回想起这些事实，但受试者仍保留着回忆关于SCP-055的否定性事实的能力——也就是关于它'不是什么'的事实。"
+      zh_Hant: "儘管無法直接回想起這些事實，但受試者仍保留著回憶關於SCP-055的否定性事實的能力──也就是關於它「不是什麼」的事實。"

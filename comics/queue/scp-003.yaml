@@ -1,0 +1,150 @@
+# SCP-003 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-003
+
+title:
+  ja: "SCP-003"
+  en: "SCP-003"
+  cs: "SCP-003"
+  de: "SCP-003"
+  es: "SCP-003"
+  fr: "SCP-003"
+  it: "SCP-003"
+  ko: "SCP-003"
+  pl: "SCP-003"
+  pt: "SCP-003"
+  th: "SCP-003"
+  uk: "SCP-003"
+  vi: "SCP-003"
+  zh: "SCP-003"
+  zh_Hant: "SCP-003"
+
+attribution:
+  article: "SCP-003"
+  author: "Xian (rewrite: thedeadlymoose)"
+  source_url: "http://scp-wiki.wikidot.com/scp-003"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-003:
+    name: SCP-003
+    appearance: >
+      SCP-003, consisting of two joined parts. SCP-003-1 is a fist-sized
+      organic mass made of chitin, hair, and nail-like material, woven
+      into a shape resembling a small computer motherboard, mottled beige
+      and dark brown (color RGB 120,100,80). It rests on top of SCP-003-2,
+      a flat gray stone tablet (color RGB 100,100,100) about the size of
+      a dinner tray, covered in faintly glowing pale unknown runes.
+    default_look: >
+      Sitting inside a reinforced glass incubator case built into a wall,
+      heating coils and wiring visible around it, the runes glowing a
+      calm, soft pale white.
+
+characters: [scp-003, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, eye level, showing the entire heated containment chamber
+      through a thick reinforced glass wall. On a raised stand behind the
+      glass, SCP-003 sits under warm amber lighting: the small
+      motherboard-like organism resting atop the faintly glowing stone
+      tablet. A wall-mounted thermostat gauge nearby has its needle deep
+      in a red zone (no readable numbers or labels). On the near side of
+      the glass, Attending Researcher (Male) stands monitoring
+      instruments, his brow faintly sweaty from the ambient heat.
+    characters: [scp-003, attending-researcher-m]
+    caption:
+      ja: "SCP-003は起源の異なる二つの部位から構成されており、それぞれSCP-003-1、SCP-003-2と呼ばれる。"
+      en: "SCP-003 consists of two related components of separate origin, referred to as SCP-003-1 and SCP-003-2."
+      cs: "SCP-003 se skládá ze dvou souvisejících součástí odlišného původu, označovaných jako SCP-003-1 a SCP-003-2."
+      de: "SCP-003 besteht aus zwei zusammenhängenden Komponenten unterschiedlichen Ursprungs, die als SCP-003-1 und SCP-003-2 bezeichnet werden."
+      es: "SCP-003 consta de dos componentes relacionados de origen distinto, denominados SCP-003-1 y SCP-003-2."
+      fr: "SCP-003 se compose de deux éléments liés mais d'origine distincte, désignés SCP-003-1 et SCP-003-2."
+      it: "SCP-003 è costituito da due componenti collegate ma di origine distinta, denominate SCP-003-1 e SCP-003-2."
+      ko: "SCP-003는 기원이 서로 다른 두 개의 관련 구성 요소로 이루어져 있으며, 각각 SCP-003-1과 SCP-003-2로 지칭된다."
+      pl: "SCP-003 składa się z dwóch powiązanych elementów o odrębnym pochodzeniu, określanych jako SCP-003-1 i SCP-003-2."
+      pt: "SCP-003 é composto por dois componentes relacionados de origens distintas, chamados SCP-003-1 e SCP-003-2."
+      th: "SCP-003 ประกอบด้วยสององค์ประกอบที่เกี่ยวข้องกันแต่มีที่มาต่างกัน เรียกว่า SCP-003-1 และ SCP-003-2"
+      uk: "SCP-003 складається з двох пов'язаних компонентів різного походження, які називаються SCP-003-1 та SCP-003-2."
+      vi: "SCP-003 gồm hai thành phần liên quan nhưng có nguồn gốc riêng biệt, được gọi là SCP-003-1 và SCP-003-2."
+      zh: "SCP-003由两个来源不同但相互关联的部分组成，分别称为SCP-003-1和SCP-003-2。"
+      zh_Hant: "SCP-003由兩個來源不同但相互關聯的部分組成，分別稱為SCP-003-1和SCP-003-2。"
+
+  - scene: >
+      Medium shot, waist-up, front-on, inside the sweltering chamber
+      itself. Attending Researcher (Female), wearing a heat-resistant
+      suit with the hood down, stares in alarm at a wall thermostat gauge
+      whose needle is sharply swinging out of the red zone (no readable
+      numbers). Red emergency lights flash across the room as she begins
+      peeling off one heavy glove in preparation.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-003は常に35℃を下回らない温度で、理想的には100℃以上に保たなければならない。"
+      en: "SCP-003 is to be maintained at a constant temperature of no less than 35°C and ideally kept above 100°C."
+      cs: "SCP-003 musí být udržováno při konstantní teplotě nejméně 35 °C, ideálně nad 100 °C."
+      de: "SCP-003 ist konstant bei einer Temperatur von mindestens 35 °C zu halten, idealerweise über 100 °C."
+      es: "SCP-003 debe mantenerse a una temperatura constante no inferior a 35 °C, e idealmente por encima de 100 °C."
+      fr: "SCP-003 doit être maintenu à une température constante d'au moins 35 °C, idéalement supérieure à 100 °C."
+      it: "SCP-003 deve essere mantenuto a una temperatura costante non inferiore a 35°C, idealmente superiore a 100°C."
+      ko: "SCP-003는 항상 섭씨 35도 이하로 내려가지 않도록 유지해야 하며, 이상적으로는 섭씨 100도 이상을 유지해야 한다."
+      pl: "SCP-003 musi być utrzymywane w stałej temperaturze nie niższej niż 35°C, najlepiej powyżej 100°C."
+      pt: "SCP-003 deve ser mantido a uma temperatura constante não inferior a 35°C, idealmente acima de 100°C."
+      th: "SCP-003 ต้องรักษาอุณหภูมิให้คงที่ไม่ต่ำกว่า 35°C และควรสูงกว่า 100°C"
+      uk: "SCP-003 необхідно постійно утримувати за температури не нижче 35°C, в ідеалі — вище 100°C."
+      vi: "SCP-003 phải được duy trì ở nhiệt độ ổn định không thấp hơn 35°C, lý tưởng nhất là trên 100°C."
+      zh: "SCP-003必须始终保持在不低于35°C的恒定温度下，理想情况下应保持在100°C以上。"
+      zh_Hant: "SCP-003必須始終保持在不低於35°C的恆定溫度下，理想情況下應保持在100°C以上。"
+
+  - scene: >
+      Close-up shot, centered on Attending Researcher (Female)'s bare
+      hand pressing flat against the mottled surface of SCP-003-1, her
+      jaw clenched tight. Beneath it, SCP-003's stone tablet flares with
+      a sudden pulse of pale radiant light, the organism's edges
+      twitching mid-expansion before slowly going still.
+    characters: [attending-researcher-f, scp-003]
+    caption:
+      ja: "全電源が喪失した場合、SCP-003-1が質量を増加させ始めたときは、担当職員がSCP-003-1に皮膚接触を行わなければならない。"
+      en: "In the event of total power failure, if SCP-003-1 begins to increase its mass, assigned personnel must engage in skin contact with SCP-003-1."
+      cs: "V případě úplného výpadku napájení, pokud SCP-003-1 začne zvyšovat svou hmotu, musí pověřený personál navázat kožní kontakt s SCP-003-1."
+      de: "Im Falle eines vollständigen Stromausfalls muss das zuständige Personal, sollte SCP-003-1 beginnen, an Masse zuzunehmen, direkten Hautkontakt mit SCP-003-1 herstellen."
+      es: "En caso de fallo total de energía, si SCP-003-1 comienza a aumentar su masa, el personal asignado debe establecer contacto directo con la piel de SCP-003-1."
+      fr: "En cas de panne totale de courant, si SCP-003-1 commence à augmenter sa masse, le personnel désigné doit établir un contact cutané direct avec SCP-003-1."
+      it: "In caso di interruzione totale dell'alimentazione, se SCP-003-1 inizia ad aumentare di massa, il personale assegnato deve stabilire un contatto cutaneo diretto con SCP-003-1."
+      ko: "완전한 정전이 발생할 경우, SCP-003-1의 질량이 증가하기 시작하면 담당 직원은 SCP-003-1과 맨살 접촉을 해야 한다."
+      pl: "W przypadku całkowitej awarii zasilania, jeśli SCP-003-1 zacznie zwiększać swoją masę, wyznaczony personel musi nawiązać bezpośredni kontakt skórny z SCP-003-1."
+      pt: "Em caso de falha total de energia, se SCP-003-1 começar a aumentar sua massa, o pessoal designado deve estabelecer contato direto da pele com SCP-003-1."
+      th: "ในกรณีที่ไฟฟ้าดับโดยสมบูรณ์ หาก SCP-003-1 เริ่มเพิ่มมวล เจ้าหน้าที่ที่ได้รับมอบหมายต้องสัมผัสผิวหนังกับ SCP-003-1 โดยตรง"
+      uk: "У разі повного відключення живлення, якщо SCP-003-1 почне збільшувати свою масу, призначений персонал повинен встановити безпосередній шкірний контакт із SCP-003-1."
+      vi: "Trong trường hợp mất điện hoàn toàn, nếu SCP-003-1 bắt đầu tăng khối lượng, nhân viên được chỉ định phải tiếp xúc da trực tiếp với SCP-003-1."
+      zh: "如果发生完全断电，一旦SCP-003-1开始增加质量，指定人员必须与SCP-003-1进行皮肤接触。"
+      zh_Hant: "如果發生完全斷電，一旦SCP-003-1開始增加質量，指定人員必須與SCP-003-1進行皮膚接觸。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the corridor
+      just outside the chamber. On the left, Attending Researcher
+      (Female), hair damp and expression drained, walks toward an open
+      doorway marked with plain hazard chevrons (no readable text). On
+      the right, Attending Researcher (Male) holds out a folded towel and
+      a spare set of scrubs to her, his expression a mix of relief and
+      awkward sympathy.
+    characters: [attending-researcher-f, attending-researcher-m]
+    caption:
+      ja: "SCP-003-1と物理的接触を行った職員は全員、事後速やかに滅菌処置を受けるために出頭しなければならない。"
+      en: "All personnel who have come in physical contact with SCP-003-1 are to immediately report for sterilization afterwards."
+      cs: "Veškerý personál, který přišel do fyzického kontaktu s SCP-003-1, se musí neprodleně poté dostavit ke sterilizaci."
+      de: "Sämtliches Personal, das in physischen Kontakt mit SCP-003-1 gekommen ist, hat sich anschließend unverzüglich zur Sterilisation zu melden."
+      es: "Todo el personal que haya tenido contacto físico con SCP-003-1 debe presentarse de inmediato para su esterilización."
+      fr: "Tout le personnel ayant eu un contact physique avec SCP-003-1 doit se présenter immédiatement après pour une stérilisation."
+      it: "Tutto il personale entrato in contatto fisico con SCP-003-1 deve presentarsi immediatamente dopo per la sterilizzazione."
+      ko: "SCP-003-1과 신체 접촉을 한 모든 직원은 그 즉시 소독을 받기 위해 보고해야 한다."
+      pl: "Cały personel, który miał fizyczny kontakt z SCP-003-1, musi natychmiast zgłosić się po tym do sterylizacji."
+      pt: "Todo o pessoal que tenha tido contato físico com SCP-003-1 deve se apresentar imediatamente para esterilização em seguida."
+      th: "เจ้าหน้าที่ทุกคนที่มีการสัมผัสทางกายภาพกับ SCP-003-1 ต้องรายงานตัวเพื่อรับการฆ่าเชื้อทันทีหลังจากนั้น"
+      uk: "Увесь персонал, який мав фізичний контакт із SCP-003-1, повинен негайно після цього з'явитися для стерилізації."
+      vi: "Tất cả nhân viên đã tiếp xúc trực tiếp với SCP-003-1 phải báo cáo ngay lập tức để tiệt trùng sau đó."
+      zh: "所有与SCP-003-1有过身体接触的人员，事后必须立即前往接受灭菌处理。"
+      zh_Hant: "所有與SCP-003-1有過身體接觸的人員，事後必須立即前往接受滅菌處理。"

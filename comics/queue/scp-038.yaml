@@ -1,0 +1,180 @@
+# SCP-038 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 補遺(Addendum #1-3の各種クローン禁止令)は本編には使わず、Addendum #4
+# (クライン博士のビールの品質への不満)のみ最後のaddendum一言として使用。
+# キャラにセリフは言わせない。
+
+id: scp-038
+
+title:
+  en: "SCP-038: The Cloning Tree"
+  ja: "SCP-038：複製する木"
+  cs: "SCP-038: Klonovací strom"
+  de: "SCP-038: Der klonende Baum"
+  es: "SCP-038: El árbol clonador"
+  fr: "SCP-038 : L'arbre cloneur"
+  it: "SCP-038: L'albero clonatore"
+  ko: "SCP-038: 복제하는 나무"
+  pl: "SCP-038: Klonujące drzewo"
+  pt: "SCP-038: A árvore clonadora"
+  th: "SCP-038: ต้นไม้โคลนนิ่ง"
+  uk: "SCP-038: Дерево-клонувальник"
+  vi: "SCP-038: Cây nhân bản"
+  zh: "SCP-038：复制之树"
+  zh_Hant: "SCP-038：複製之樹"
+
+attribution:
+  article: "SCP-038"
+  source_url: "http://scp-wiki.wikidot.com/scp-038"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-038:
+    name: SCP-038
+    appearance: >
+      SCP-038, an old, gnarled apple tree with rough dark brown bark (RGB
+      95,65,40) and ordinary green leaves (RGB 70,100,50), outwardly
+      indistinguishable from a normal apple tree.
+    default_look: >
+      Standing undisturbed in a plain fenced farm plot, no visible
+      anomalies unless something is touching its bark.
+
+characters: [scp-038, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the whole fenced
+      containment plot. SCP-038 stands in the center, an unassuming old
+      apple tree, mist drifting down from an overhead sprinkler system.
+      Off to the side, attending-researcher-f checks a clipboard, glancing
+      up at the tree without much concern.
+    characters: [scp-038, attending-researcher-f]
+    notes: >
+      根拠: Description冒頭「発見時は普通のリンゴの木だと思われていた」。
+      変えてはいけない事実: 農場で発見された経緯、外見は普通の木。
+      変更可能: ミスト散水の見せ方、研究者の配置。
+    caption:
+      ja: "SCP-038は19██年、ニューヨーク州の██████████にある廃農場で発見された。当初は普通のリンゴの木だと思われていた。"
+      en: "SCP-038 was found on an abandoned farm in ██████████, New York, in 19██. It was at first thought to be a common apple tree."
+      cs: "SCP-038 bylo nalezeno na opuštěné farmě v ██████████, New York, v roce 19██. Zpočátku bylo považováno za obyčejnou jabloň."
+      de: "SCP-038 wurde 19██ auf einer verlassenen Farm in ██████████, New York, gefunden. Zunächst wurde es für einen gewöhnlichen Apfelbaum gehalten."
+      es: "SCP-038 fue hallado en una granja abandonada en ██████████, Nueva York, en 19██. Al principio se pensó que era un manzano común."
+      fr: "SCP-038 a été découvert dans une ferme abandonnée à ██████████, New York, en 19██. On a d'abord cru qu'il s'agissait d'un pommier ordinaire."
+      it: "SCP-038 fu trovato in una fattoria abbandonata a ██████████, New York, nel 19██. Inizialmente si pensava fosse un comune melo."
+      ko: "SCP-038은 19██년 뉴욕 주 ██████████의 버려진 농장에서 발견되었다. 처음에는 평범한 사과나무로 여겨졌다."
+      pl: "SCP-038 zostało znalezione na opuszczonej farmie w ██████████, Nowy Jork, w 19██ roku. Początkowo uznano je za zwykłą jabłoń."
+      pt: "SCP-038 foi encontrado em uma fazenda abandonada em ██████████, Nova York, em 19██. Inicialmente, pensou-se que fosse uma macieira comum."
+      th: "SCP-038 ถูกพบในฟาร์มร้างที่ ██████████ รัฐนิวยอร์ก ในปี 19██ ในตอนแรกเข้าใจว่าเป็นต้นแอปเปิลธรรมดา"
+      uk: "SCP-038 було знайдено на покинутій фермі в ██████████, Нью-Йорк, у 19██ році. Спочатку його прийняли за звичайну яблуню."
+      vi: "SCP-038 được tìm thấy tại một nông trại bỏ hoang ở ██████████, New York, vào năm 19██. Ban đầu nó được cho là một cây táo bình thường."
+      zh: "SCP-038于19██年在纽约州██████████的一处废弃农场被发现。起初被认为是一棵普通的苹果树。"
+      zh_Hant: "SCP-038於19██年在紐約州██████████的一處廢棄農場被發現。起初被認為是一棵普通的蘋果樹。"
+
+  - scene: >
+      Medium shot, waist-up, slightly low angle, a different framing from
+      the wide shot before. attending-researcher-m, wearing a full hazmat
+      suit with a sealed helmet, presses a chocolate bar against
+      SCP-038's bark with a gloved hand. Beside his hand, an identical
+      chocolate bar is already budding out of the bark like a strange
+      fruit, half-formed.
+    characters: [attending-researcher-m, scp-038]
+    notes: >
+      根拠: 「樹皮に触れた物体を複製し、数分で成熟する」。
+      変えてはいけない事実: 樹皮に触れた物体が複製され急成長すること。
+      変更可能: 触れさせる物の種類、ハズマットスーツの着用有無の見せ方。
+    caption:
+      ja: "SCP-038は樹皮に触れたあらゆる物体を複製する能力を持つ。複製された物体はほぼ即座に成長を始め、数分のうちに成熟する。"
+      en: "SCP-038 has the ability to clone any object that touches its bark. Objects begin growing almost instantaneously and reach maturity within a matter of minutes."
+      cs: "SCP-038 dokáže naklonovat jakýkoli předmět, který se dotkne jeho kůry. Předměty začnou růst téměř okamžitě a dosáhnou plné velikosti během několika minut."
+      de: "SCP-038 ist in der Lage, jedes Objekt zu klonen, das seine Rinde berührt. Die Objekte beginnen fast augenblicklich zu wachsen und erreichen innerhalb weniger Minuten ihre volle Größe."
+      es: "SCP-038 tiene la capacidad de clonar cualquier objeto que toque su corteza. Los objetos comienzan a crecer casi instantáneamente y alcanzan la madurez en cuestión de minutos."
+      fr: "SCP-038 a la capacité de cloner tout objet touchant son écorce. Les objets commencent à pousser presque instantanément et atteignent leur maturité en quelques minutes."
+      it: "SCP-038 ha la capacità di clonare qualsiasi oggetto che tocchi la sua corteccia. Gli oggetti iniziano a crescere quasi istantaneamente e raggiungono la maturità nel giro di pochi minuti."
+      ko: "SCP-038은 자신의 나무껍질에 닿는 모든 물체를 복제하는 능력을 지니고 있다. 복제된 물체는 거의 즉시 자라기 시작하여 몇 분 안에 완전히 성장한다."
+      pl: "SCP-038 posiada zdolność klonowania każdego obiektu, który dotknie jego kory. Obiekty zaczynają rosnąć niemal natychmiast i osiągają dojrzałość w ciągu kilku minut."
+      pt: "SCP-038 tem a capacidade de clonar qualquer objeto que toque sua casca. Os objetos começam a crescer quase instantaneamente e atingem a maturidade em poucos minutos."
+      th: "SCP-038 มีความสามารถในการโคลนวัตถุใดๆ ที่สัมผัสกับเปลือกของมัน วัตถุจะเริ่มเติบโตเกือบจะในทันทีและเจริญเต็มที่ภายในไม่กี่นาที"
+      uk: "SCP-038 здатний клонувати будь-який об'єкт, що торкається його кори. Об'єкти починають рости майже миттєво і досягають повної зрілості за лічені хвилини."
+      vi: "SCP-038 có khả năng nhân bản bất kỳ vật thể nào chạm vào lớp vỏ của nó. Các vật thể bắt đầu phát triển gần như ngay lập tức và đạt đến kích thước hoàn chỉnh chỉ trong vài phút."
+      zh: "SCP-038能够复制任何接触其树皮的物体。被复制的物体几乎立即开始生长，并在数分钟内发育成熟。"
+      zh_Hant: "SCP-038能夠複製任何接觸其樹皮的物體。被複製的物體幾乎立即開始生長，並在數分鐘內發育成熟。"
+
+  - scene: >
+      Close-up shot, filling most of the frame, a different framing from
+      the medium shot before, centered on a single tree branch sagging
+      under a bizarre assortment of duplicated objects growing like
+      fruit: a toaster, a stack of DVDs, a wine bottle, and a chocolate
+      bar, all sprouting directly from the wood. In the background,
+      attending-researcher-m stares up at the branch, clipboard forgotten
+      at his side.
+    characters: [scp-038, attending-researcher-m]
+    notes: >
+      根拠: 複製実績の一覧（食品・電化製品・生物まで多岐にわたる）。
+      変えてはいけない事実: リストにある品目のいずれかが複製されて実った様子。
+      変更可能: どの品目を絵に強調するか。
+    caption:
+      ja: "SCP-038がこれまでに複製した物には、リンゴ、オレンジ、スイカ、ナス、キャンディバー、スナック菓子、テレビ、トースター、ノートパソコン、鍵、椅子、ワイン、DVD、CD、猫、犬、そして人間が含まれる。"
+      en: "Objects that SCP-038 has thus far cloned include: apples, oranges, watermelons, eggplants, candy bars, snack foods, televisions, toasters, laptops, keys, chairs, wine, DVDs, CDs, cats, dogs, and people."
+      cs: "Mezi předměty, které SCP-038 dosud naklonovalo, patří: jablka, pomeranče, melouny, lilky, tyčinky, svačinky, televize, toustovače, notebooky, klíče, židle, víno, DVD, CD, kočky, psi a lidé."
+      de: "Zu den bisher von SCP-038 geklonten Objekten gehören: Äpfel, Orangen, Wassermelonen, Auberginen, Schokoriegel, Snacks, Fernseher, Toaster, Laptops, Schlüssel, Stühle, Wein, DVDs, CDs, Katzen, Hunde und Menschen."
+      es: "Entre los objetos que SCP-038 ha clonado hasta ahora se incluyen: manzanas, naranjas, sandías, berenjenas, barras de chocolate, aperitivos, televisores, tostadoras, portátiles, llaves, sillas, vino, DVD, CD, gatos, perros y personas."
+      fr: "Parmi les objets clonés à ce jour par le SCP-038 figurent : des pommes, des oranges, des pastèques, des aubergines, des barres chocolatées, des collations, des télévisions, des grille-pain, des ordinateurs portables, des clés, des chaises, du vin, des DVD, des CD, des chats, des chiens et des personnes."
+      it: "Tra gli oggetti finora clonati da SCP-038 figurano: mele, arance, angurie, melanzane, barrette di cioccolato, snack, televisori, tostapane, laptop, chiavi, sedie, vino, DVD, CD, gatti, cani e persone."
+      ko: "SCP-038이 지금까지 복제한 물체에는 사과, 오렌지, 수박, 가지, 초코바, 스낵 식품, 텔레비전, 토스터, 노트북, 열쇠, 의자, 와인, DVD, CD, 고양이, 개, 그리고 사람이 포함된다."
+      pl: "Wśród przedmiotów sklonowanych dotychczas przez SCP-038 znajdują się: jabłka, pomarańcze, arbuzy, bakłażany, batony, przekąski, telewizory, tostery, laptopy, klucze, krzesła, wino, płyty DVD, płyty CD, koty, psy oraz ludzie."
+      pt: "Entre os objetos já clonados pelo SCP-038 estão: maçãs, laranjas, melancias, berinjelas, barras de chocolate, salgadinhos, televisores, torradeiras, laptops, chaves, cadeiras, vinho, DVDs, CDs, gatos, cães e pessoas."
+      th: "วัตถุที่ SCP-038 เคยโคลนมาแล้ว ได้แก่ แอปเปิล ส้ม แตงโม มะเขือม่วง ช็อกโกแลตแท่ง ขนมขบเคี้ยว โทรทัศน์ เครื่องปิ้งขนมปัง แล็ปท็อป กุญแจ เก้าอี้ ไวน์ ดีวีดี ซีดี แมว สุนัข และมนุษย์"
+      uk: "Серед об'єктів, які SCP-038 клонувало дотепер: яблука, апельсини, кавуни, баклажани, шоколадні батончики, снеки, телевізори, тостери, ноутбуки, ключі, стільці, вино, DVD, CD, коти, собаки та люди."
+      vi: "Trong số các vật thể mà SCP-038 đã nhân bản cho đến nay có: táo, cam, dưa hấu, cà tím, thanh sô-cô-la, đồ ăn vặt, tivi, máy nướng bánh mì, máy tính xách tay, chìa khóa, ghế, rượu vang, đĩa DVD, đĩa CD, mèo, chó và con người."
+      zh: "SCP-038迄今复制过的物体包括：苹果、橙子、西瓜、茄子、巧克力棒、零食、电视机、烤面包机、笔记本电脑、钥匙、椅子、葡萄酒、DVD、CD、猫、狗以及人类。"
+      zh_Hant: "SCP-038迄今複製過的物體包括：蘋果、橙子、西瓜、茄子、巧克力棒、零食、電視機、烤麵包機、筆記型電腦、鑰匙、椅子、葡萄酒、DVD、CD、貓、狗以及人類。"
+
+  - scene: >
+      Close-up, low angle, a different framing from the shots before, on
+      two identical cats sitting side by side at the base of the tree. On
+      the left, a clone that emerged only minutes ago but already looks
+      scraggly and aged, its fur graying and thin. On the right, the
+      healthy original cat, sleek and alert. attending-researcher-f
+      crouches nearby, staring back and forth between them with a deeply
+      unimpressed expression.
+    characters: [scp-038, attending-researcher-f]
+    notes: >
+      根拠: 「人間・動物の複製は急速に老化するため推奨されない。平均2週間で
+      死ぬ」。グロ回避のため死亡・発酵の描写はせず、老化の対比のみ絵にする。
+      変えてはいけない事実: 複製個体が急速に老化して見えること。
+      変更可能: どの動物を使うか、研究者の反応の演出。
+    caption:
+      ja: "SCP-038による人間および動物の複製は推奨されない。複製された個体は急速に老化するように見えるためである。これらの複製体の大半は、平均して2週間ほどしか生存しない。"
+      en: "Human and animal cloning through SCP-038 is not recommended, as they appear to age quickly. The majority of these clones live, on average, two (2) weeks."
+      cs: "Klonování lidí a zvířat pomocí SCP-038 se nedoporučuje, jelikož se zdá, že rychle stárnou. Většina těchto klonů žije v průměru dva (2) týdny."
+      de: "Von der Klonung von Menschen und Tieren durch SCP-038 wird abgeraten, da diese schnell zu altern scheinen. Die meisten dieser Klone leben im Durchschnitt zwei (2) Wochen."
+      es: "No se recomienda la clonación de humanos y animales mediante SCP-038, ya que parecen envejecer rápidamente. La mayoría de estos clones viven, en promedio, dos (2) semanas."
+      fr: "Le clonage d'humains et d'animaux par le SCP-038 est déconseillé, car ils semblent vieillir rapidement. La majorité de ces clones vivent, en moyenne, deux (2) semaines."
+      it: "La clonazione di esseri umani e animali tramite SCP-038 è sconsigliata, poiché sembrano invecchiare rapidamente. La maggior parte di questi cloni vive, in media, due (2) settimane."
+      ko: "SCP-038을 이용한 인간 및 동물 복제는 권장되지 않는다. 이들은 빠르게 노화하는 것으로 보이기 때문이다. 이 복제체들의 대다수는 평균 2주 정도만 생존한다."
+      pl: "Klonowanie ludzi i zwierząt za pomocą SCP-038 nie jest zalecane, ponieważ wydają się one szybko się starzeć. Większość tych klonów żyje średnio dwa (2) tygodnie."
+      pt: "A clonagem de humanos e animais por meio do SCP-038 não é recomendada, pois eles parecem envelhecer rapidamente. A maioria desses clones vive, em média, duas (2) semanas."
+      th: "ไม่แนะนำให้โคลนมนุษย์หรือสัตว์ด้วย SCP-038 เนื่องจากดูเหมือนว่าจะแก่ตัวลงอย่างรวดเร็ว โคลนส่วนใหญ่มีชีวิตอยู่โดยเฉลี่ยประมาณสอง (2) สัปดาห์"
+      uk: "Клонування людей і тварин за допомогою SCP-038 не рекомендується, оскільки вони, вочевидь, швидко старіють. Більшість цих клонів живуть у середньому два (2) тижні."
+      vi: "Không nên nhân bản con người và động vật bằng SCP-038, vì chúng có vẻ già đi nhanh chóng. Phần lớn các bản sao này sống trung bình khoảng hai (2) tuần."
+      zh: "不建议通过SCP-038复制人类和动物，因为它们似乎会迅速衰老。这些复制体大多平均只能存活两(2)周。"
+      zh_Hant: "不建議透過SCP-038複製人類和動物，因為牠們似乎會迅速衰老。這些複製體大多平均只能存活兩(2)週。"
+
+addendum:
+  ja: "補遺：クライン博士は、ミラー、バドワイザー、フォスターズの複製を中止するよう職員に要請し、「さらに、これら複製品の品質に対し例のごとく不満を表明した」。"
+  en: "Addendum: Dr. Klein has requested that personnel discontinue cloning Miller, Budweiser, and Foster's, and \"furthermore expressed customary disapproval of the quality of such cloned items.\""
+  cs: "Dodatek: Dr. Klein požádal, aby personál přestal klonovat piva Miller, Budweiser a Foster's, a „dále vyjádřil obvyklou nespokojenost s kvalitou těchto naklonovaných položek“."
+  de: "Anhang: Dr. Klein hat gebeten, das Klonen von Miller, Budweiser und Foster's einzustellen, und „äußerte zudem seine gewohnte Missbilligung der Qualität solcher geklonten Erzeugnisse“."
+  es: "Adenda: El Dr. Klein ha solicitado que el personal deje de clonar Miller, Budweiser y Foster's, y «además expresó su habitual desaprobación por la calidad de dichos artículos clonados»."
+  fr: "Addendum : Le Dr Klein a demandé que le personnel cesse de cloner les bières Miller, Budweiser et Foster's, et « a de plus exprimé sa désapprobation habituelle quant à la qualité de ces objets clonés »."
+  it: "Addendum: Il Dr. Klein ha richiesto che il personale interrompa la clonazione di Miller, Budweiser e Foster's, e \"ha inoltre espresso la consueta disapprovazione per la qualità di tali oggetti clonati\"."
+  ko: "부록: 클라인 박사는 밀러, 버드와이저, 포스터스 맥주의 복제를 중단할 것을 요청했으며, \"더불어 그러한 복제품들의 품질에 대해 평소와 같은 불만을 표했다\"."
+  pl: "Aneks: Dr Klein zażądał zaprzestania klonowania piw Miller, Budweiser i Foster's, „ponadto wyraził zwyczajową dezaprobatę wobec jakości tych sklonowanych produktów”."
+  pt: "Adendo: O Dr. Klein solicitou que a equipe interrompesse a clonagem de Miller, Budweiser e Foster's, e \"além disso expressou sua costumeira desaprovação quanto à qualidade desses itens clonados\"."
+  th: "ภาคผนวก: ดร. ไคลน์ร้องขอให้เจ้าหน้าที่หยุดการโคลนเบียร์มิลเลอร์ บัดไวเซอร์ และฟอสเตอร์ส และ \"ยังแสดงความไม่พอใจตามปกติต่อคุณภาพของสิ่งที่โคลนมาเหล่านี้ด้วย\""
+  uk: "Додаток: Д-р Кляйн попросив персонал припинити клонувати пиво Miller, Budweiser та Foster's, і «також висловив звичне невдоволення якістю цих клонованих виробів»."
+  vi: "Phụ lục: Tiến sĩ Klein đã yêu cầu nhân viên ngừng nhân bản bia Miller, Budweiser và Foster's, và \"còn bày tỏ sự không hài lòng như thường lệ về chất lượng của những vật phẩm nhân bản này\"."
+  zh: "补遗：克莱因博士要求人员停止复制米勒、百威和福斯特啤酒，并「照例对这些复制品的质量表示不满」。"
+  zh_Hant: "補遺：克萊恩博士要求人員停止複製米勒、百威和福斯特啤酒，並「照例對這些複製品的品質表示不滿」。"

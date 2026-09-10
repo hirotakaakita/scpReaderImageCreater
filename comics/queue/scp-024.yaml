@@ -1,0 +1,135 @@
+# SCP-024 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+#
+# 4コマの構成意図: 1コマ目=収容施設の外観・レプリカによる偽装（導入）、
+# 2コマ目=D級職員が入場しアナウンサーに出迎えられる（展開）、3コマ目=障害物
+# コースの様子（転・危険の高まり）、4コマ目=誰もカメラを見ていないはずなのに
+# 録画テープが郵便受けに届く、というオチ（結・不気味な余韻）。補遺は使用しない
+# （本編4コマの範囲外の内容のため）。
+
+id: scp-024
+
+title:
+  en: "SCP-024"
+  ja: "SCP-024"
+  cs: "SCP-024"
+  de: "SCP-024"
+  es: "SCP-024"
+  fr: "SCP-024"
+  it: "SCP-024"
+  ko: "SCP-024"
+  pl: "SCP-024"
+  pt: "SCP-024"
+  th: "SCP-024"
+  uk: "SCP-024"
+  vi: "SCP-024"
+  zh: "SCP-024"
+  zh_Hant: "SCP-024"
+
+attribution:
+  article: "SCP-024"
+  source_url: "http://scp-wiki.wikidot.com/scp-024"
+  author: "SpoonOfEvil"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, exterior establishing shot of a
+      decrepit, boarded-up sound stage building at dusk, weathered and
+      faded, with two nearly identical replica buildings faintly visible
+      in the background to either side to conceal which one is real. On
+      the left side of the frame, attending-researcher-m gestures toward
+      the entrance with a clipboard in hand. On the right side of the
+      frame, d-class stands facing the building, backpack strap gripped
+      tightly, uneasy posture.
+    characters: [attending-researcher-m, d-class]
+    caption:
+      ja: "SCP-024は、かつて█████████が所有していた廃棄されたサウンドステージである。しかし、SCP-024自体は19██年から放棄されており、その特殊性質が放棄の前後どちらに発現したのかは不明である。"
+      en: "SCP-024 is an abandoned sound stage that was once owned by █████████. However, SCP-024 itself had been abandoned since 19██, and it is unknown whether its special properties manifested before or after its abandonment."
+      cs: "SCP-024 je opuštěné filmové studio, které kdysi vlastnila společnost █████████. Samotné SCP-024 je však opuštěné od roku 19██ a není známo, zda se jeho zvláštní vlastnosti projevily před jeho opuštěním, nebo až po něm."
+      de: "SCP-024 ist eine verlassene Tonbühne, die einst █████████ gehörte. SCP-024 selbst ist jedoch seit 19██ verlassen, und es ist unbekannt, ob seine besonderen Eigenschaften vor oder nach seiner Verlassung aufgetreten sind."
+      es: "SCP-024 es un plató de sonido abandonado que perteneció en su día a █████████. Sin embargo, el propio SCP-024 ha estado abandonado desde 19██, y se desconoce si sus propiedades especiales se manifestaron antes o después de su abandono."
+      fr: "Le SCP-024 est un plateau de tournage abandonné qui appartenait autrefois à █████████. Cependant, le SCP-024 lui-même est abandonné depuis 19██, et l'on ignore si ses propriétés spéciales se sont manifestées avant ou après son abandon."
+      it: "SCP-024 è un teatro di posa abbandonato un tempo di proprietà di █████████. Tuttavia, SCP-024 stesso è abbandonato dal 19██, e non è noto se le sue proprietà speciali si siano manifestate prima o dopo il suo abbandono."
+      ko: "SCP-024는 한때 █████████가 소유했던 버려진 사운드 스테이지이다. 그러나 SCP-024 자체는 19██년부터 방치되어 있었으며, 그 특수한 성질이 방치 이전에 발현되었는지 이후에 발현되었는지는 알려지지 않았다."
+      pl: "SCP-024 to opuszczone studio filmowe, które niegdyś należało do █████████. Samo SCP-024 jest jednak opuszczone od 19██ roku i nie wiadomo, czy jego szczególne właściwości ujawniły się przed czy po jego opuszczeniu."
+      pt: "SCP-024 é um estúdio de som abandonado que já pertenceu a █████████. No entanto, o próprio SCP-024 está abandonado desde 19██, e não se sabe se suas propriedades especiais se manifestaram antes ou depois de seu abandono."
+      th: "SCP-024 คือสตูดิโอถ่ายทำที่ถูกทิ้งร้าง ซึ่งครั้งหนึ่งเคยเป็นของ █████████ อย่างไรก็ตาม ตัว SCP-024 เองถูกทิ้งร้างมาตั้งแต่ปี 19██ และไม่ทราบว่าคุณสมบัติพิเศษของมันปรากฏขึ้นก่อนหรือหลังจากถูกทิ้งร้าง"
+      uk: "SCP-024 — покинута знімальна павільйон-студія, яка колись належала █████████. Однак сам SCP-024 покинутий з 19██ року, і невідомо, чи проявилися його особливі властивості до чи після того, як його покинули."
+      vi: "SCP-024 là một trường quay bị bỏ hoang từng thuộc sở hữu của █████████. Tuy nhiên, bản thân SCP-024 đã bị bỏ hoang từ năm 19██, và không rõ liệu các đặc tính đặc biệt của nó xuất hiện trước hay sau khi nó bị bỏ hoang."
+      zh: "SCP-024是一座曾经归█████████所有的废弃摄影棚。然而，SCP-024本身自19██年起便已被废弃，目前尚不清楚其特殊性质是在其被废弃之前还是之后显现的。"
+      zh_Hant: "SCP-024是一座曾經歸█████████所有的廢棄攝影棚。然而，SCP-024本身自19██年起便已被廢棄，目前尚不清楚其特殊性質是在其被廢棄之前還是之後顯現的。"
+
+  - scene: >
+      Medium shot, waist-up, low angle, inside a dim, dusty entrance
+      corridor of the sound stage. d-class stands alone looking up at a
+      large old wall-mounted speaker grille glowing faintly, one hand
+      raised as if trying to answer it, startled expression.
+    characters: [d-class]
+    caption:
+      ja: "SCP-024に入ると、訪問者は即座に匿名のアナウンサーに迎えられる。アナウンサーはインターコムを通じて話しかけ、SCP-024内にいる人々の声を聞き取り理解することができる。"
+      en: "Upon entering SCP-024, visitors are immediately greeted by an anonymous announcer, who communicates via intercom and is able to hear and comprehend the voices of people within SCP-024."
+      cs: "Po vstupu do SCP-024 jsou návštěvníci okamžitě přivítáni anonymním hlasatelem, který komunikuje prostřednictvím interkomu a je schopen slyšet a rozumět hlasům lidí uvnitř SCP-024."
+      de: "Beim Betreten von SCP-024 werden Besucher sofort von einem anonymen Ansager begrüßt, der über eine Gegensprechanlage kommuniziert und in der Lage ist, die Stimmen von Personen innerhalb von SCP-024 zu hören und zu verstehen."
+      es: "Al entrar en SCP-024, los visitantes son recibidos de inmediato por un locutor anónimo, que se comunica a través de un intercomunicador y es capaz de oír y comprender las voces de las personas dentro de SCP-024."
+      fr: "En entrant dans le SCP-024, les visiteurs sont immédiatement accueillis par un présentateur anonyme, qui communique par interphone et est capable d'entendre et de comprendre les voix des personnes présentes à l'intérieur du SCP-024."
+      it: "Entrando in SCP-024, i visitatori vengono immediatamente accolti da uno speaker anonimo, che comunica tramite un citofono ed è in grado di sentire e comprendere le voci delle persone all'interno di SCP-024."
+      ko: "SCP-024에 들어서면 방문객은 즉시 익명의 아나운서에게 환영받는다. 그는 인터콤을 통해 소통하며 SCP-024 내부에 있는 사람들의 목소리를 듣고 이해할 수 있다."
+      pl: "Po wejściu do SCP-024 odwiedzający są natychmiast witani przez anonimowego spikera, który komunikuje się za pomocą interkomu i jest w stanie słyszeć oraz rozumieć głosy osób znajdujących się wewnątrz SCP-024."
+      pt: "Ao entrar no SCP-024, os visitantes são imediatamente recebidos por um locutor anônimo, que se comunica por meio de um interfone e é capaz de ouvir e compreender as vozes das pessoas dentro do SCP-024."
+      th: "เมื่อเข้าสู่ SCP-024 ผู้มาเยือนจะได้รับการต้อนรับทันทีจากผู้ประกาศนิรนามที่สื่อสารผ่านระบบอินเตอร์คอม และสามารถได้ยินและเข้าใจเสียงของผู้คนภายใน SCP-024"
+      uk: "Увійшовши до SCP-024, відвідувачів одразу вітає анонімний диктор, який спілкується через переговорний пристрій і здатний чути та розуміти голоси людей всередині SCP-024."
+      vi: "Khi bước vào SCP-024, khách tham quan ngay lập tức được chào đón bởi một người dẫn chương trình ẩn danh, người này giao tiếp qua bộ đàm nội bộ và có thể nghe cũng như hiểu giọng nói của những người bên trong SCP-024."
+      zh: "进入SCP-024后，访客会立即受到一位匿名播报员的欢迎，该播报员通过对讲机进行交流，并能够听懂SCP-024内部人员的话语。"
+      zh_Hant: "進入SCP-024後，訪客會立即受到一位匿名播報員的歡迎，該播報員透過對講機進行交流，並能夠聽懂SCP-024內部人員的話語。"
+
+  - scene: >
+      Wide shot, dynamic low angle, full body, showing a long, elaborate
+      obstacle course built from mismatched studio set pieces, swinging
+      pendulums, tilted platforms, and a wide pit. d-class is caught
+      mid-leap across a gap between platforms, arms outstretched,
+      determined and frightened expression, more obstacles stretching
+      into the distance behind him.
+    characters: [d-class]
+    caption:
+      ja: "ゲームのスタイル、構成、外観はプレイのたびに毎回変化するが、ゲームは常に、参加者が突破しなければならない長く手の込んだ障害物コースを中心に展開する。"
+      en: "The style, composition, and appearance of the game always changes in every individual play-through, but the game is always centered around a long, elaborate obstacle course that the contestants must navigate through."
+      cs: "Styl, kompozice a vzhled hry se při každém jednotlivém průchodu mění, hra se však vždy točí kolem dlouhé, propracované překážkové dráhy, kterou musí soutěžící projít."
+      de: "Stil, Aufbau und Erscheinungsbild des Spiels ändern sich bei jedem einzelnen Durchlauf, doch das Spiel dreht sich stets um einen langen, aufwendigen Hindernisparcours, den die Teilnehmer durchqueren müssen."
+      es: "El estilo, la composición y la apariencia del juego cambian siempre en cada partida individual, pero el juego siempre gira en torno a un largo y elaborado circuito de obstáculos que los concursantes deben recorrer."
+      fr: "Le style, la composition et l'apparence du jeu changent à chaque partie, mais le jeu est toujours centré sur un parcours d'obstacles long et élaboré que les concurrents doivent franchir."
+      it: "Lo stile, la composizione e l'aspetto del gioco cambiano sempre a ogni singola partita, ma il gioco è sempre incentrato su un lungo ed elaborato percorso a ostacoli che i concorrenti devono attraversare."
+      ko: "게임의 스타일, 구성, 외관은 매번 플레이할 때마다 항상 달라지지만, 게임은 항상 참가자들이 통과해야 하는 길고 정교한 장애물 코스를 중심으로 진행된다."
+      pl: "Styl, kompozycja i wygląd gry zmieniają się za każdym razem, jednak gra zawsze koncentruje się wokół długiego, rozbudowanego toru przeszkód, który uczestnicy muszą pokonać."
+      pt: "O estilo, a composição e a aparência do jogo sempre mudam a cada rodada individual, mas o jogo é sempre centrado em um longo e elaborado percurso de obstáculos que os competidores devem atravessar."
+      th: "รูปแบบ องค์ประกอบ และลักษณะของเกมจะเปลี่ยนไปทุกครั้งที่เล่น แต่เกมจะเน้นไปที่สนามอุปสรรคที่ยาวและซับซ้อนซึ่งผู้เข้าแข่งขันต้องฝ่าฟันผ่านไปให้ได้เสมอ"
+      uk: "Стиль, композиція та вигляд гри щоразу змінюються під час кожного окремого проходження, але гра завжди зосереджена навколо довгої, ретельно продуманої смуги перешкод, яку учасники повинні подолати."
+      vi: "Phong cách, bố cục và hình thức của trò chơi luôn thay đổi trong mỗi lần chơi, nhưng trò chơi luôn xoay quanh một chặng đường vượt chướng ngại vật dài và công phu mà các thí sinh phải vượt qua."
+      zh: "游戏的风格、构成和外观在每一次游玩中都会有所变化，但游戏始终围绕着一条参赛者必须穿越的漫长而精心设计的障碍赛道展开。"
+      zh_Hant: "遊戲的風格、構成和外觀在每一次遊玩中都會有所變化，但遊戲始終圍繞著一條參賽者必須穿越的漫長而精心設計的障礙賽道展開。"
+
+  - scene: >
+      Close-up, waist-up, eye level, outside SCP-024's main entrance at a
+      weathered metal mailbox at dusk. attending-researcher-m stands with
+      the mailbox door open, pulling out a VHS tape, staring at it with
+      wide, unsettled eyes.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "この映像は、直前に行われたゲームの全過程を記録した完全な記録である。しかし勝者たちは、SCP-024内部でカメラや録画機器を一切見たことがないと証言している。"
+      en: "This recording is a complete record of the entire game that was previously played, even though winners have claimed that they had never seen any cameras or recording devices inside SCP-024."
+      cs: "Tato nahrávka je kompletním záznamem celé předchozí odehrané hry, přestože vítězové tvrdí, že uvnitř SCP-024 nikdy neviděli žádné kamery ani nahrávací zařízení."
+      de: "Diese Aufnahme ist eine vollständige Aufzeichnung des gesamten zuvor gespielten Spiels, obwohl die Gewinner behauptet haben, im Inneren von SCP-024 nie Kameras oder Aufnahmegeräte gesehen zu haben."
+      es: "Esta grabación es un registro completo de todo el juego que se disputó anteriormente, aunque los ganadores han afirmado que nunca vieron cámaras ni dispositivos de grabación dentro de SCP-024."
+      fr: "Cet enregistrement est un compte-rendu complet de l'intégralité de la partie précédemment jouée, bien que les gagnants aient affirmé n'avoir jamais vu de caméras ni d'appareils d'enregistrement à l'intérieur du SCP-024."
+      it: "Questa registrazione è un resoconto completo dell'intera partita precedentemente giocata, anche se i vincitori hanno affermato di non aver mai visto telecamere o dispositivi di registrazione all'interno di SCP-024."
+      ko: "이 영상은 이전에 진행되었던 게임 전체를 완전하게 기록한 것이다. 그러나 우승자들은 SCP-024 내부에서 카메라나 녹화 장치를 본 적이 전혀 없다고 주장한다."
+      pl: "To nagranie jest pełnym zapisem całej poprzednio rozegranej gry, mimo że zwycięzcy twierdzili, iż nigdy nie widzieli żadnych kamer ani urządzeń nagrywających wewnątrz SCP-024."
+      pt: "Esta gravação é um registro completo de todo o jogo disputado anteriormente, embora os vencedores tenham afirmado nunca ter visto câmeras ou dispositivos de gravação dentro do SCP-024."
+      th: "การบันทึกนี้เป็นบันทึกที่สมบูรณ์ของเกมทั้งหมดที่เล่นไปก่อนหน้านี้ แม้ว่าผู้ชนะจะอ้างว่าไม่เคยเห็นกล้องหรืออุปกรณ์บันทึกใดๆ ภายใน SCP-024 เลยก็ตาม"
+      uk: "Цей запис є повним відображенням усієї попередньо зіграної гри, хоча переможці стверджували, що ніколи не бачили жодних камер чи записувальних пристроїв усередині SCP-024."
+      vi: "Đoạn ghi hình này là bản ghi đầy đủ của toàn bộ trò chơi đã diễn ra trước đó, mặc dù những người chiến thắng khẳng định họ chưa từng thấy bất kỳ máy quay hay thiết bị ghi hình nào bên trong SCP-024."
+      zh: "这段录像是此前那场比赛的完整记录，尽管获胜者都声称他们从未在SCP-024内部看到过任何摄像机或录制设备。"
+      zh_Hant: "這段錄影是此前那場比賽的完整記錄，儘管獲勝者都聲稱他們從未在SCP-024內部看到過任何攝影機或錄製設備。"

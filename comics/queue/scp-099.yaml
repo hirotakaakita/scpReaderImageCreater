@@ -1,0 +1,143 @@
+# SCP-099「肖像画」4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。キャラにセリフは言わせない。
+
+id: scp-099
+
+title:
+  ja: "SCP-099：肖像画"
+  en: "SCP-099: The Portrait"
+  cs: "SCP-099: Portrét"
+  de: "SCP-099: Das Porträt"
+  es: "SCP-099: El retrato"
+  fr: "SCP-099 : Le Portrait"
+  it: "SCP-099: Il Ritratto"
+  ko: "SCP-099: 초상화"
+  pl: "SCP-099: Portret"
+  pt: "SCP-099: O Retrato"
+  th: "SCP-099: ภาพเหมือน"
+  uk: "SCP-099: Портрет"
+  vi: "SCP-099: Bức Chân Dung"
+  zh: "SCP-099：肖像画"
+  zh_Hant: "SCP-099：肖像畫"
+
+attribution:
+  article: "SCP-099"
+  author: "Zaeyde, rewritten by Sorts"
+  source_url: "http://scp-wiki.wikidot.com/scp-099"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+panels:
+  - scene: >
+      Wide shot, full body, showing the whole gallery room, eye level. A
+      small framed painting titled "The Portrait" — a plain still-life bowl
+      of fruit with a single realistic human eye staring outward from among
+      the fruit — hangs inside a wall-mounted, glass-fronted case at the
+      center of the back wall. Attending-Researcher-M stands well back near
+      a velvet rope line, hands clasped behind his back, observing it
+      calmly from a distance.
+    notes: >
+      根拠: SCP-099はギャラリー27の壁掛け耐火ケースに保管、5m以上離れて1日5分まで
+      閲覧可。変えてはいけない: ケースが壁掛け・ガラス張りであること、観察者が
+      離れた位置にいること。変更可能: 研究者のポーズ・ギャラリーの装飾。
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-099は、ギャラリー27内の1m×75cmの壁掛け式耐火ケースに保管されている。当該ギャラリー区画には標準的な温湿度管理が適用される。"
+      en: "SCP-099 is kept in a 1 m x 75 cm wall-mounted, fireproof case in Gallery 27. Standard climate and humidity controls apply to this section of the Gallery."
+      cs: "SCP-099 je uchováváno v nástěnné, žáruvzdorné vitríně o rozměrech 1 m x 75 cm v Galerii 27. Na tuto část galerie se vztahuje standardní regulace klimatu a vlhkosti."
+      de: "SCP-099 wird in einer 1 m x 75 cm großen, feuerfesten Wandvitrine in Galerie 27 aufbewahrt. In diesem Bereich der Galerie gelten die üblichen Klima- und Feuchtigkeitskontrollen."
+      es: "SCP-099 se guarda en una vitrina ignífuga de pared de 1 m x 75 cm en la Galería 27. En esta sección de la galería se aplican los controles estándar de clima y humedad."
+      fr: "Le SCP-099 est conservé dans une vitrine murale ignifuge de 1 m x 75 cm dans la Galerie 27. Les contrôles standards de climat et d'humidité s'appliquent à cette section de la galerie."
+      it: "SCP-099 è conservato in una teca murale ignifuga di 1 m x 75 cm nella Galleria 27. In questa sezione della galleria si applicano i normali controlli di clima e umidità."
+      ko: "SCP-099는 27번 전시실 내 1m x 75cm 크기의 벽걸이형 방화 케이스에 보관된다. 해당 전시실 구역에는 표준 온습도 관리가 적용된다."
+      pl: "SCP-099 jest przechowywane w ognioodpornej gablocie naściennej o wymiarach 1 m x 75 cm w Galerii 27. W tej części galerii obowiązuje standardowa kontrola klimatu i wilgotności."
+      pt: "SCP-099 é mantido em uma vitrine de parede à prova de fogo de 1 m x 75 cm na Galeria 27. Controles padrão de clima e umidade se aplicam a esta seção da Galeria."
+      th: "SCP-099 ถูกเก็บไว้ในตู้กันไฟติดผนังขนาด 1 ม. x 75 ซม. ในห้องแสดงงานหมายเลข 27 มีการควบคุมอุณหภูมิและความชื้นมาตรฐานในส่วนนี้ของห้องแสดงงาน"
+      uk: "SCP-099 зберігається в настінній вогнетривкій вітрині розміром 1 м x 75 см у Галереї 27. У цій частині галереї застосовується стандартний контроль клімату та вологості."
+      vi: "SCP-099 được cất giữ trong một tủ trưng bày chống cháy gắn tường kích thước 1 m x 75 cm tại Phòng trưng bày 27. Khu vực này của phòng trưng bày được áp dụng kiểm soát khí hậu và độ ẩm tiêu chuẩn."
+      zh: "SCP-099被保存在27号展厅内一个1米×75厘米的壁挂式防火展示柜中。该展厅区域适用标准温湿度管控。"
+      zh_Hant: "SCP-099被保存在27號展廳內一個1公尺×75公分的壁掛式防火展示櫃中。該展廳區域適用標準溫濕度管控。"
+
+  - scene: >
+      Medium shot, waist-up, eye level. Attending-Researcher-M leans in
+      close to the open case, well inside the marked viewing line, studying
+      the painting titled "The Portrait": the same plain still-life bowl of
+      fruit with a single realistic human eye staring outward from among
+      the fruit. His expression is one of simple curiosity.
+    notes: >
+      根拠: SCP-099は1935年マグリット作の絵画で、静物画に一つの目が描き加えられて
+      いる。変えてはいけない: 絵の内容（静物＋目一つ）。変更可能: 研究者の近づき方。
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-099は「肖像画」と題された73×50cmの絵画である。1935年にルネ・マグリットによって制作され、単純な静物画に、鑑賞者を見つめ返す一つの目が描き加えられている。"
+      en: "SCP-099 is a 73 x 50 cm painting titled \"The Portrait.\" Created in 1935 by René Magritte, it depicts a simple still life, with the addition of a single eye staring back at the viewer."
+      cs: "SCP-099 je obraz o rozměrech 73 x 50 cm s názvem „Portrét“. Namaloval jej roku 1935 René Magritte a zobrazuje prosté zátiší, k němuž je přidáno jediné oko, jež hledí zpět na diváka."
+      de: "SCP-099 ist ein 73 x 50 cm großes Gemälde mit dem Titel „Das Porträt“. Es wurde 1935 von René Magritte geschaffen und zeigt ein einfaches Stillleben, dem ein einzelnes Auge hinzugefügt wurde, das den Betrachter anstarrt."
+      es: "SCP-099 es una pintura de 73 x 50 cm titulada «El retrato». Creada en 1935 por René Magritte, representa una simple naturaleza muerta a la que se ha añadido un único ojo que observa fijamente al espectador."
+      fr: "Le SCP-099 est une peinture de 73 x 50 cm intitulée « Le Portrait ». Peinte en 1935 par René Magritte, elle représente une simple nature morte à laquelle s'ajoute un unique œil fixant le spectateur."
+      it: "SCP-099 è un dipinto di 73 x 50 cm intitolato \"Il Ritratto\". Realizzato nel 1935 da René Magritte, raffigura una semplice natura morta a cui si aggiunge un singolo occhio che fissa l'osservatore."
+      ko: "SCP-099는 '초상화'라는 제목의 73 x 50cm 크기의 그림이다. 1935년 르네 마그리트가 그렸으며, 단순한 정물화에 관람자를 응시하는 하나의 눈이 더해져 있다."
+      pl: "SCP-099 to obraz o wymiarach 73 x 50 cm zatytułowany „Portret”. Namalowany w 1935 roku przez René Magritte'a, przedstawia prostą martwą naturę, do której dodano pojedyncze oko wpatrujące się w widza."
+      pt: "SCP-099 é uma pintura de 73 x 50 cm intitulada \"O Retrato\". Criada em 1935 por René Magritte, retrata uma simples natureza-morta, com o acréscimo de um único olho que encara o observador."
+      th: "SCP-099 คือภาพวาดขนาด 73 x 50 ซม. ชื่อ \"ภาพเหมือน\" วาดขึ้นในปี 1935 โดยเรอเน มากรีต แสดงภาพนิ่งธรรมดาที่มีการเพิ่มดวงตาข้างเดียวจ้องมองกลับมายังผู้ชม"
+      uk: "SCP-099 — це картина розміром 73 x 50 см під назвою «Портрет». Створена в 1935 році Рене Магріттом, вона зображує просту натюрморт-композицію, до якої додано єдине око, що дивиться на глядача."
+      vi: "SCP-099 là một bức tranh kích thước 73 x 50 cm có tên \"Bức Chân Dung\". Được vẽ năm 1935 bởi René Magritte, tranh mô tả một tĩnh vật đơn giản với một con mắt duy nhất nhìn chằm chằm vào người xem."
+      zh: "SCP-099是一幅73×50厘米的画作，名为《肖像画》。由勒内·马格利特于1935年创作，画面描绘了一幅简单的静物画，并加入了一只回望观者的眼睛。"
+      zh_Hant: "SCP-099是一幅73×50公分的畫作，名為《肖像畫》。由勒內·馬格利特於1935年創作，畫面描繪了一幅簡單的靜物畫，並加入了一隻回望觀者的眼睛。"
+
+  - scene: >
+      Close-up shot on Attending-Researcher-M's face, filling most of the
+      frame. His eyes are wide, pupils darting to the sides, a sheen of
+      sweat on his brow, as if he feels watched from every direction at
+      once.
+    notes: >
+      根拠: 見つめすぎ・近づきすぎた者は、目を持つあらゆる存在に見られている妄想に
+      陥る。変えてはいけない: 妄想の対象が「目を持つ存在／描写」であること。
+      変更可能: 表情の強さ・周囲の小道具。
+    characters: [attending-researcher-m]
+    caption:
+      ja: "絵画を見つめすぎた、あるいは近づきすぎた者は、目を持つあらゆる存在や描写が自分を見つめているという妄想に囚われるようになる。"
+      en: "Those who have viewed the painting for too long or from too close of a distance become subject to the delusion that any being or depiction of a being with eyes is staring at them."
+      cs: "Ti, kdo obraz sledovali příliš dlouho nebo příliš zblízka, začnou trpět bludem, že na ně hledí jakákoli bytost či zobrazení bytosti mající oči."
+      de: "Wer das Gemälde zu lange oder aus zu geringer Entfernung betrachtet hat, entwickelt den Wahn, dass jedes Wesen oder jede Darstellung eines Wesens mit Augen ihn anstarrt."
+      es: "Quienes han observado la pintura durante demasiado tiempo o desde muy cerca desarrollan el delirio de que cualquier ser, o representación de un ser con ojos, los está mirando fijamente."
+      fr: "Ceux qui ont regardé la peinture trop longtemps ou de trop près développent le délire que tout être, ou toute représentation d'un être doté d'yeux, les fixe du regard."
+      it: "Coloro che hanno osservato il dipinto troppo a lungo o da troppo vicino sviluppano il delirio che qualsiasi essere, o raffigurazione di un essere dotato di occhi, li stia fissando."
+      ko: "그림을 너무 오래, 혹은 너무 가까이에서 본 사람은 눈을 가진 모든 존재나 그 묘사물이 자신을 응시하고 있다는 망상에 시달리게 된다."
+      pl: "Osoby, które patrzyły na obraz zbyt długo lub z zbyt bliskiej odległości, zaczynają cierpieć na urojenie, że każda istota lub przedstawienie istoty posiadającej oczy się w nie wpatruje."
+      pt: "Aqueles que observaram a pintura por tempo demais ou de perto demais passam a sofrer do delírio de que qualquer ser, ou representação de um ser com olhos, os está encarando."
+      th: "ผู้ที่จ้องมองภาพวาดนานเกินไปหรือในระยะใกล้เกินไปจะเกิดอาการหลงผิดว่าสิ่งมีชีวิตหรือภาพวาดใด ๆ ที่มีดวงตากำลังจ้องมองพวกเขาอยู่"
+      uk: "У тих, хто дивився на картину надто довго або надто зблизька, розвивається маячення, що будь-яка істота чи зображення істоти з очима дивиться на них."
+      vi: "Những người nhìn bức tranh quá lâu hoặc ở khoảng cách quá gần sẽ mắc chứng hoang tưởng rằng bất kỳ sinh vật nào, hay hình ảnh mô tả sinh vật có mắt, đều đang nhìn chằm chằm vào họ."
+      zh: "凝视这幅画过久或距离过近的人，会产生一种妄想：认为任何拥有眼睛的生物或其画像都在盯着自己看。"
+      zh_Hant: "凝視這幅畫過久或距離過近的人，會產生一種妄想：認為任何擁有眼睛的生物或其畫像都在盯著自己看。"
+
+  - scene: >
+      Wide shot, pulled back, showing his cluttered office at night.
+      Attending-Researcher-M sits rigid at his desk, staring wide-eyed and
+      paranoid at ordinary round objects around the room — a wall clock, a
+      doorknob, a coffee mug, a framed photo — each shape faintly
+      resembling a single staring eye, as though all of them were watching
+      him back.
+    notes: >
+      根拠: 極端な事例では無生物とも目が合う妄想、重度の被害妄想・群衆恐怖症に至る。
+      変えてはいけない: 妄想の対象が無生物にまで広がっていること。変更可能:
+      部屋の物・時間帯。
+    characters: [attending-researcher-m]
+    caption:
+      ja: "極端な事例では、対象者は無生物とすら目が合っていると報告する。これは重度の被害妄想および群衆恐怖症を引き起こす。"
+      en: "In extreme cases, subjects report that inanimate objects are making eye contact, resulting in severe paranoia and enochlophobia."
+      cs: "V extrémních případech subjekty hlásí, že s nimi navazují oční kontakt i neživé předměty, což vede k těžké paranoie a enochlofobii."
+      de: "In extremen Fällen berichten Probanden, dass sogar unbelebte Gegenstände Augenkontakt mit ihnen aufnehmen, was zu schwerer Paranoia und Enochlophobie führt."
+      es: "En casos extremos, los sujetos afirman que incluso objetos inanimados establecen contacto visual con ellos, lo que provoca paranoia grave y enoclofobia."
+      fr: "Dans les cas extrêmes, les sujets rapportent que des objets inanimés établissent un contact visuel avec eux, entraînant une paranoïa sévère et une énochlophobie."
+      it: "Nei casi estremi, i soggetti riferiscono che perfino oggetti inanimati stabiliscono un contatto visivo con loro, causando grave paranoia ed enoclofobia."
+      ko: "극단적인 경우, 대상자는 무생물조차 자신과 눈을 마주치고 있다고 보고하며, 이는 심각한 편집증과 군중공포증으로 이어진다."
+      pl: "W skrajnych przypadkach badani zgłaszają, że nawet nieożywione przedmioty nawiązują z nimi kontakt wzrokowy, co prowadzi do ciężkiej paranoi i enochlofobii."
+      pt: "Em casos extremos, os sujeitos relatam que até objetos inanimados fazem contato visual com eles, resultando em paranoia grave e enoclofobia."
+      th: "ในกรณีร้ายแรง ผู้ป่วยรายงานว่าแม้แต่วัตถุไม่มีชีวิตก็ยังสบตากับพวกเขา ส่งผลให้เกิดอาการหวาดระแวงอย่างรุนแรงและโรคกลัวฝูงชน"
+      uk: "У крайніх випадках суб'єкти повідомляють, що навіть неживі предмети встановлюють з ними зоровий контакт, що призводить до важкої параної та енохлофобії."
+      vi: "Trong những trường hợp cực đoan, đối tượng báo cáo rằng ngay cả vật vô tri cũng giao tiếp bằng mắt với họ, dẫn đến chứng hoang tưởng nặng và chứng sợ đám đông."
+      zh: "在极端情况下，对象会报告称连无生命的物体都在与自己对视，从而导致严重的偏执与人群恐惧症。"
+      zh_Hant: "在極端情況下，對象會報告稱連無生命的物體都在與自己對視，從而導致嚴重的偏執與人群恐懼症。"

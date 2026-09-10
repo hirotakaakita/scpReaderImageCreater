@@ -1,0 +1,142 @@
+# SCP-014「コンクリートになる男」4コマ台本
+# captionは記事本文（Description）からの引用。キャラにセリフは言わせない。
+
+id: scp-014
+
+title:
+  ja: "SCP-014：コンクリートになる男"
+  en: "SCP-014: The Man of Concrete"
+  cs: "SCP-014: Muž z betonu"
+  de: "SCP-014: Der Mann aus Beton"
+  es: "SCP-014: El hombre de concreto"
+  fr: "SCP-014 : L'homme de béton"
+  it: "SCP-014: L'uomo di cemento"
+  ko: "SCP-014: 콘크리트가 되는 남자"
+  pl: "SCP-014: Mężczyzna z betonu"
+  pt: "SCP-014: O Homem de Concreto"
+  th: "SCP-014: ชายผู้กลายเป็นคอนกรีต"
+  uk: "SCP-014: Людина з бетону"
+  vi: "SCP-014: Người Đàn Ông Hóa Bê Tông"
+  zh: "SCP-014：混凝土男人"
+  zh_Hant: "SCP-014：混凝土男人"
+
+attribution:
+  article: "SCP-014"
+  author: "Whitewings"
+  source_url: "http://scp-wiki.wikidot.com/scp-014"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-014:
+    name: SCP-014 (Robert Chetford)
+    appearance: >
+      A Caucasian male appearing approximately 30 years old, with black
+      hair (color RGB 20,20,20), brown eyes, and a somewhat round face,
+      otherwise ordinary in build and proportion.
+    default_look: >
+      Plain, dated early-20th-century asylum clothing (a worn button-up
+      shirt and trousers, muted gray tones, RGB 120,120,120), seated
+      upright in a wooden armchair with his hands resting flat on the
+      armrests. An utterly still, blank, statue-like posture and
+      expression; only his eyes are ever alert or moving.
+
+characters: [scp-014, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a plain sparse room with a
+      single window and a security camera mounted in the corner. SCP-014
+      sits motionless in a wooden armchair facing the window, an old
+      gramophone playing quietly on a side table nearby.
+    characters: [scp-014]
+    caption:
+      ja: "SCP-014は白人男性で、見た目の年齢はおよそ30歳、黒髪、茶色の瞳、やや丸みを帯びた顔をしている。記録によれば彼の名はロバート・チェットフォードで、1915年、永遠に生き続ける呪いをかけられ、その結果として徐々にコンクリートに変わりつつあると主張したため、妄想性精神障害としてコネチカット州のノリッジ精神病院に収容された。"
+      en: "SCP-014 is a Caucasian male, appearing to be approximately 30 years of age, with black hair, brown eyes, and a somewhat round face. Records indicate his name to be Robert Chetford, confined in 1915 to the Norwich Asylum in Connecticut for delusional insanity, claiming that he had been cursed to live forever, and was slowly turning into concrete in consequence."
+      cs: "SCP-014 je běloch, vypadající na přibližně 30 let, s černými vlasy, hnědýma očima a poněkud kulatým obličejem. Podle záznamů se jmenuje Robert Chetford a byl v roce 1915 umístěn do Norwichského blázince ve státě Connecticut pro bludnou nepříčetnost, neboť tvrdil, že byl proklet věčným životem a v jeho důsledku se pomalu proměňuje v beton."
+      de: "SCP-014 ist ein weißer Mann, der etwa 30 Jahre alt zu sein scheint, mit schwarzem Haar, braunen Augen und einem etwas rundlichen Gesicht. Aufzeichnungen zufolge lautet sein Name Robert Chetford, der 1915 wegen wahnhafter Geistesgestörtheit in die Norwich-Anstalt in Connecticut eingewiesen wurde, weil er behauptete, verflucht zu sein, ewig zu leben, und sich infolgedessen langsam in Beton zu verwandeln."
+      es: "SCP-014 es un hombre caucásico que aparenta unos 30 años de edad, con cabello negro, ojos marrones y un rostro algo redondeado. Los registros indican que su nombre es Robert Chetford, internado en 1915 en el Asilo de Norwich, en Connecticut, por locura delirante, alegando que había sido maldecido para vivir eternamente y que, en consecuencia, se estaba convirtiendo lentamente en concreto."
+      fr: "SCP-014 est un homme caucasien paraissant âgé d'environ 30 ans, avec des cheveux noirs, des yeux marron et un visage quelque peu rond. Les registres indiquent que son nom est Robert Chetford, interné en 1915 à l'asile de Norwich, dans le Connecticut, pour folie délirante, prétendant avoir été maudit pour vivre éternellement et se transformer lentement en béton en conséquence."
+      it: "SCP-014 è un uomo caucasico dall'aspetto di circa 30 anni, con capelli neri, occhi marroni e un viso piuttosto rotondo. I documenti indicano che si chiama Robert Chetford, internato nel 1915 nel manicomio di Norwich, nel Connecticut, per follia delirante, sostenendo di essere stato maledetto a vivere per sempre e di stare di conseguenza lentamente trasformandosi in cemento."
+      ko: "SCP-014는 백인 남성으로, 외견상 나이는 약 30세이며 검은 머리, 갈색 눈, 다소 둥근 얼굴을 가지고 있다. 기록에 따르면 그의 이름은 로버트 체트포드이며, 1915년 영원히 살도록 저주받았고 그 결과로 서서히 콘크리트로 변해가고 있다고 주장하여 망상성 정신이상으로 코네티컷주 노리치 정신병원에 수용되었다."
+      pl: "SCP-014 to mężczyzna rasy białej, wyglądający na około 30 lat, z czarnymi włosami, brązowymi oczami i nieco okrągłą twarzą. Według zapisów nazywa się Robert Chetford i w 1915 roku został umieszczony w zakładzie dla obłąkanych w Norwich, w stanie Connecticut, z powodu urojeniowego szaleństwa, twierdząc, że został przeklęty, by żyć wiecznie, i w rezultacie powoli zamienia się w beton."
+      pt: "SCP-014 é um homem caucasiano, aparentando cerca de 30 anos de idade, com cabelo preto, olhos castanhos e um rosto um tanto arredondado. Os registros indicam que seu nome é Robert Chetford, internado em 1915 no Asilo de Norwich, em Connecticut, por insanidade delirante, alegando ter sido amaldiçoado a viver para sempre e, em consequência, estar lentamente se transformando em concreto."
+      th: "SCP-014 เป็นชายผิวขาว ดูมีอายุประมาณ 30 ปี ผมสีดำ ตาสีน้ำตาล ใบหน้าค่อนข้างกลม บันทึกระบุว่าชื่อของเขาคือโรเบิร์ต เชตฟอร์ด ถูกกักตัวในปี 1915 ที่สถานบำบัดนอริชในรัฐคอนเนตทิคัตด้วยอาการวิกลจริตแบบหลงผิด โดยอ้างว่าตนถูกสาปให้มีชีวิตอยู่ตลอดกาลและกำลังค่อย ๆ กลายเป็นคอนกรีตอันเป็นผลจากคำสาปนั้น"
+      uk: "SCP-014 — білий чоловік, на вигляд приблизно 30 років, з чорним волоссям, карими очима та дещо округлим обличчям. За записами, його звуть Роберт Четфорд, у 1915 році поміщений до притулку в Норвічі, штат Коннектикут, через маячне божевілля — він стверджував, що проклятий жити вічно і внаслідок цього повільно перетворюється на бетон."
+      vi: "SCP-014 là một người đàn ông da trắng, trông khoảng 30 tuổi, tóc đen, mắt nâu và khuôn mặt hơi tròn. Hồ sơ cho thấy tên ông là Robert Chetford, bị giam giữ vào năm 1915 tại Trại tâm thần Norwich ở Connecticut vì chứng loạn thần hoang tưởng, tự nhận mình bị nguyền rủa phải sống mãi mãi và do đó đang dần biến thành bê tông."
+      zh: "SCP-014是一名白人男性，外表看起来约30岁，黑发，棕色眼睛，脸型略圆。记录显示他名叫罗伯特·切特福德，于1915年因妄想性精神失常被收容进康涅狄格州的诺里奇精神病院，他声称自己被诅咒要永远活下去，并因此正逐渐变成混凝土。"
+      zh_Hant: "SCP-014是一名白人男性，外表看起來約30歲，黑髮，棕色眼睛，臉型略圓。記錄顯示他名叫羅伯特·切特福德，於1915年因妄想性精神失常被收容進康乃狄克州的諾里奇精神病院，他聲稱自己被詛咒要永遠活下去，並因此正逐漸變成混凝土。"
+
+  - scene: >
+      Medium shot, waist-up, eye level. On the left side of the frame, the
+      attending researcher holds out a tray with a glass of water and a
+      plate of food toward SCP-014. On the right side of the frame, SCP-014
+      sits unmoving in his chair, not reaching for it, his round face
+      utterly calm and untroubled.
+    characters: [attending-researcher-m, scp-014]
+    caption:
+      ja: "SCP-014は外見上はまったく普通の人間だが、老化する様子がなく、代謝を持っている兆候も見られない。食事も水分摂取も発汗も行わず、その他いかなる生命活動の兆候も示さない。"
+      en: "SCP-014 is to all outward appearances a normal man, but he does not appear to age, and shows no signs of possessing a metabolism. He does not eat, drink, perspire, or in any other way demonstrate life functions."
+      cs: "SCP-014 vypadá navenek naprosto jako normální muž, ale zjevně nestárne a nevykazuje žádné známky metabolismu. Nejí, nepije, nepotí se, ani jinak neprojevuje žádné životní funkce."
+      de: "SCP-014 wirkt äußerlich völlig wie ein normaler Mann, scheint jedoch nicht zu altern und zeigt keine Anzeichen eines Stoffwechsels. Er isst nicht, trinkt nicht, schwitzt nicht und zeigt auch sonst keine Lebensfunktionen."
+      es: "SCP-014 parece exteriormente un hombre normal en todos los aspectos, pero no parece envejecer y no muestra señales de tener metabolismo. No come, no bebe, no transpira, ni demuestra de ninguna otra manera funciones vitales."
+      fr: "SCP-014 ressemble en tout point extérieurement à un homme normal, mais il ne semble pas vieillir et ne présente aucun signe de métabolisme. Il ne mange pas, ne boit pas, ne transpire pas, et ne manifeste d'aucune autre façon de fonctions vitales."
+      it: "SCP-014 appare esteriormente in tutto e per tutto un uomo normale, ma non sembra invecchiare e non mostra segni di possedere un metabolismo. Non mangia, non beve, non suda, né dimostra in alcun altro modo funzioni vitali."
+      ko: "SCP-014는 겉으로 보기에는 완전히 평범한 남성이지만, 노화하는 기미가 없으며 신진대사를 가지고 있다는 징후도 보이지 않는다. 그는 먹지도, 마시지도, 땀을 흘리지도 않으며, 그 외 어떤 방식으로도 생명 활동의 징후를 보이지 않는다."
+      pl: "SCP-014 pod każdym zewnętrznym względem wygląda jak zwykły mężczyzna, lecz nie wykazuje oznak starzenia się ani posiadania metabolizmu. Nie je, nie pije, nie poci się ani w żaden inny sposób nie przejawia funkcji życiowych."
+      pt: "SCP-014 aparenta, sob todos os aspectos externos, ser um homem normal, mas não parece envelhecer e não mostra sinais de possuir metabolismo. Ele não come, não bebe, não transpira, nem demonstra de qualquer outra forma funções vitais."
+      th: "SCP-014 มีลักษณะภายนอกเหมือนชายปกติทุกประการ แต่ไม่มีท่าทีว่าจะแก่ตัวลง และไม่แสดงสัญญาณของการมีระบบเผาผลาญ เขาไม่กิน ไม่ดื่ม ไม่มีเหงื่อออก หรือแสดงสัญญาณการทำงานของสิ่งมีชีวิตในลักษณะอื่นใดเลย"
+      uk: "SCP-014 зовні виглядає абсолютно нормальним чоловіком, але не виявляє ознак старіння і не має жодних ознак обміну речовин. Він не їсть, не п'є, не пітніє і жодним іншим чином не виявляє життєвих функцій."
+      vi: "Về mọi biểu hiện bên ngoài, SCP-014 là một người đàn ông bình thường, nhưng ông không có dấu hiệu lão hóa và không cho thấy dấu hiệu có quá trình trao đổi chất. Ông không ăn, không uống, không đổ mồ hôi, hay biểu hiện bất kỳ chức năng sống nào khác."
+      zh: "从外表上看，SCP-014完全就是一个正常人，但他似乎不会衰老，也没有表现出任何新陈代谢的迹象。他不吃、不喝、不出汗，也不表现出任何其他生命活动的迹象。"
+      zh_Hant: "從外表上看，SCP-014完全就是一個正常人，但他似乎不會衰老，也沒有表現出任何新陳代謝的跡象。他不吃、不喝、不出汗，也不表現出任何其他生命活動的跡象。"
+
+  - scene: >
+      Close-up shot centered tightly on SCP-014's face and hands resting on
+      the armrests, filling most of the frame. Only his eyes show any
+      life, tracking something off-frame; everything else about his
+      posture, skin, and hands is perfectly, unnaturally still, like a
+      statue seated in the chair.
+    characters: [scp-014]
+    caption:
+      ja: "彼は話すためだけに呼吸をし、目と発声器官を除けば、外見上まったく身動きしない。数十年にわたり姿勢が変わっていないにもかかわらず、褥瘡の兆候は一度も見られず、筋肉が萎縮している様子もない。"
+      en: "He breathes only to speak, and apart from his eyes and vocal apparatus, is to all appearances utterly immobile. He has never shown any evidence of pressure ulcers despite his position not having varied for several decades; neither do his muscles appear atrophied."
+      cs: "Dýchá pouze proto, aby mohl mluvit, a kromě očí a hlasového ústrojí je navenek zcela nehybný. Přestože jeho poloha se po několik desetiletí neměnila, nikdy nevykázal žádné známky proleženin, ani se jeho svaly nezdají atrofované."
+      de: "Er atmet nur, um zu sprechen, und ist abgesehen von seinen Augen und seinem Stimmapparat äußerlich völlig unbeweglich. Obwohl sich seine Position seit mehreren Jahrzehnten nicht verändert hat, zeigte er nie Anzeichen von Druckgeschwüren, noch scheinen seine Muskeln atrophiert zu sein."
+      es: "Solo respira para hablar y, aparte de sus ojos y su aparato vocal, parece completamente inmóvil. Nunca ha mostrado evidencia de úlceras por presión a pesar de que su posición no ha variado en varias décadas; tampoco sus músculos parecen atrofiados."
+      fr: "Il ne respire que pour parler et, hormis ses yeux et son appareil vocal, il est en apparence totalement immobile. Il n'a jamais présenté de signe d'escarres malgré une position inchangée depuis plusieurs décennies ; ses muscles ne semblent pas non plus atrophiés."
+      it: "Respira solo per parlare e, a parte gli occhi e l'apparato vocale, appare del tutto immobile. Non ha mai mostrato segni di piaghe da decubito nonostante la sua posizione non sia cambiata per diversi decenni; né i suoi muscoli appaiono atrofizzati."
+      ko: "그는 말하기 위해서만 숨을 쉬며, 눈과 발성 기관을 제외하면 겉보기에 완전히 움직이지 않는다. 수십 년간 자세가 전혀 바뀌지 않았음에도 욕창의 흔적이 전혀 나타난 적이 없으며, 근육이 위축된 흔적도 보이지 않는다."
+      pl: "Oddycha jedynie po to, by mówić, a poza oczami i aparatem głosowym wygląda na całkowicie nieruchomego. Mimo że jego pozycja nie zmieniła się od kilku dekad, nigdy nie wykazywał żadnych oznak odleżyn, a jego mięśnie nie wydają się zanikłe."
+      pt: "Ele respira apenas para falar e, à exceção dos olhos e do aparelho vocal, é aparentemente totalmente imóvel. Nunca apresentou qualquer evidência de úlceras de pressão apesar de sua posição não ter variado por várias décadas; tampouco seus músculos parecem atrofiados."
+      th: "เขาหายใจเพียงเพื่อพูดเท่านั้น และนอกจากดวงตากับอวัยวะออกเสียงแล้ว ดูเหมือนว่าเขาจะไม่ขยับเขยื้อนเลยแม้แต่น้อย เขาไม่เคยแสดงร่องรอยของแผลกดทับเลยแม้ท่าทางของเขาจะไม่เปลี่ยนแปลงมานานหลายทศวรรษ และกล้ามเนื้อของเขาก็ไม่ดูเหมือนจะฝ่อลงแต่อย่างใด"
+      uk: "Він дихає лише для того, щоб говорити, і, окрім очей та голосового апарату, здається абсолютно нерухомим. Він жодного разу не виявляв ознак пролежнів, попри те, що його поза не змінювалася протягом кількох десятиліть; його м'язи також не виглядають атрофованими."
+      vi: "Ông chỉ thở để nói chuyện, và ngoài đôi mắt cùng bộ máy phát âm, ông hoàn toàn bất động về mọi biểu hiện bên ngoài. Ông chưa từng có dấu hiệu loét do tì đè dù tư thế của ông không hề thay đổi suốt nhiều thập kỷ; cơ bắp của ông cũng không có dấu hiệu teo lại."
+      zh: "他只有在说话时才会呼吸，除了眼睛和发声器官之外，外表上完全静止不动。尽管他的姿势数十年来都没有变化，但他从未表现出任何褥疮的迹象，肌肉也没有出现萎缩的迹象。"
+      zh_Hant: "他只有在說話時才會呼吸，除了眼睛和發聲器官之外，外表上完全靜止不動。儘管他的姿勢數十年來都沒有變化，但他從未表現出任何褥瘡的跡象，肌肉也沒有出現萎縮的跡象。"
+
+  - scene: >
+      Medium shot, waist-up, low angle, pulled back slightly to show the
+      window beside him. On the left side of the frame, the attending
+      researcher sits on a stool leaning in, gesturing as if describing
+      something from the modern world. On the right side of the frame,
+      SCP-014 stares blankly past him out the window, visibly uninterested,
+      the old gramophone still turning on the side table.
+    characters: [attending-researcher-m, scp-014]
+    caption:
+      ja: "彼は普通に会話することができるが、収容されて以降の出来事についてはほとんど知識も関心も示さない。"
+      en: "He can converse normally, but shows little knowledge of or interest in events since his confinement."
+      cs: "Dokáže vést normální konverzaci, ale projevuje jen málo znalostí či zájmu o události od doby svého uvěznění."
+      de: "Er kann normal sprechen, zeigt jedoch kaum Kenntnisse oder Interesse an Ereignissen seit seiner Einweisung."
+      es: "Puede conversar con normalidad, pero muestra poco conocimiento o interés por los acontecimientos ocurridos desde su reclusión."
+      fr: "Il peut converser normalement, mais montre peu de connaissance ou d'intérêt pour les événements survenus depuis son internement."
+      it: "È in grado di conversare normalmente, ma mostra scarsa conoscenza o interesse per gli eventi accaduti dal momento del suo internamento."
+      ko: "그는 정상적으로 대화할 수 있지만, 수용된 이후의 사건들에 대해서는 지식도 관심도 거의 보이지 않는다."
+      pl: "Potrafi normalnie prowadzić rozmowę, ale wykazuje niewielką wiedzę o wydarzeniach od czasu jego uwięzienia i niewielkie nimi zainteresowanie."
+      pt: "Ele consegue conversar normalmente, mas demonstra pouco conhecimento ou interesse pelos acontecimentos desde o seu confinamento."
+      th: "เขาสามารถสนทนาได้ตามปกติ แต่แสดงความรู้หรือความสนใจน้อยมากต่อเหตุการณ์ต่าง ๆ นับตั้งแต่ถูกกักขัง"
+      uk: "Він може нормально спілкуватися, але виявляє мало знань чи інтересу до подій, що сталися після його ув'язнення."
+      vi: "Ông có thể trò chuyện bình thường, nhưng tỏ ra rất ít hiểu biết hoặc quan tâm đến các sự kiện xảy ra kể từ khi ông bị giam giữ."
+      zh: "他能够正常交谈，但对被收容以来发生的事件几乎没有了解，也毫无兴趣。"
+      zh_Hant: "他能夠正常交談，但對被收容以來發生的事件幾乎沒有了解，也毫無興趣。"

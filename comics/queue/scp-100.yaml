@@ -1,0 +1,156 @@
+# SCP-100「ジャンクヤード・ジュビリー」4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。キャラにセリフは言わせない。
+
+id: scp-100
+
+title:
+  ja: "SCP-100：ジャマイカン・ジョーズ・ジャンクヤード・ジュビリー"
+  en: "SCP-100: Jamaican Joe's Junkyard Jubilee"
+  cs: "SCP-100: Jamaican Joe's Junkyard Jubilee"
+  de: "SCP-100: Jamaican Joe's Junkyard Jubilee"
+  es: "SCP-100: Jamaican Joe's Junkyard Jubilee"
+  fr: "SCP-100 : Jamaican Joe's Junkyard Jubilee"
+  it: "SCP-100: Jamaican Joe's Junkyard Jubilee"
+  ko: "SCP-100: 자메이칸 조의 정크야드 주빌리"
+  pl: "SCP-100: Jamaican Joe's Junkyard Jubilee"
+  pt: "SCP-100: Jamaican Joe's Junkyard Jubilee"
+  th: "SCP-100: Jamaican Joe's Junkyard Jubilee"
+  uk: "SCP-100: Jamaican Joe's Junkyard Jubilee"
+  vi: "SCP-100: Jamaican Joe's Junkyard Jubilee"
+  zh: "SCP-100：牙买加乔的废品场狂欢节"
+  zh_Hant: "SCP-100：牙買加喬的廢品場狂歡節"
+
+attribution:
+  article: "SCP-100"
+  author: "Wilt"
+  source_url: "http://scp-wiki.wikidot.com/scp-100"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-100-1:
+    name: SCP-100-1
+    appearance: >
+      A humanoid construct, roughly human-sized and proportioned, its body
+      built from curved segments of dull copper piping (color RGB
+      140,100,60) joined at crude welded joints, its torso and limbs wound
+      with coils of uninsulated copper wire, its head and hands formed from
+      flattened, riveted aluminum cans (color RGB 190,190,190). It has no
+      facial features beyond a smooth blank aluminum plate for a face — no
+      eyes, mouth, or nose.
+    default_look: >
+      No clothing (its metal body is its only surface); a calm, still
+      posture between hand gestures.
+
+panels:
+  - scene: >
+      Wide shot, full body, showing the whole scrapyard, eye level, dusk
+      lighting. Rows of crushed car husks and scrap-metal piles fill a
+      fenced junkyard behind two large corrugated-metal warehouses and a
+      small storefront building. Attending-Researcher-M, dressed as a
+      security guard, walks along the wooden perimeter fence with a
+      flashlight.
+    notes: >
+      根拠: サウスカロライナ州の町から80km、通称「ジャマイカン・ジョーズ・
+      ジャンクヤード・ジュビリー」、倉庫2棟＋店舗＋住居。変えてはいけない:
+      廃品置き場という設定、倉庫2棟の構成。変更可能: 見回りの人物・時間帯。
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-100は、サウスカロライナ州の████████から80kmの場所にある廃棄された廃品置き場で、「ジャマイカン・ジョーズ・ジャンクヤード・ジュビリー」として知られている。"
+      en: "SCP-100 is an abandoned scrapyard eighty (80) kilometers from ████████, South Carolina, known as \"Jamaican Joe's Junkyard Jubilee.\""
+      cs: "SCP-100 je opuštěné vrakoviště osmdesát (80) kilometrů od ████████ v Jižní Karolíně, známé jako „Jamaican Joe's Junkyard Jubilee“."
+      de: "SCP-100 ist ein verlassener Schrottplatz achtzig (80) Kilometer von ████████, South Carolina, entfernt, bekannt als „Jamaican Joe's Junkyard Jubilee“."
+      es: "SCP-100 es un desguace abandonado a ochenta (80) kilómetros de ████████, Carolina del Sur, conocido como «Jamaican Joe's Junkyard Jubilee»."
+      fr: "Le SCP-100 est une casse automobile abandonnée à quatre-vingts (80) kilomètres de ████████, en Caroline du Sud, connue sous le nom de « Jamaican Joe's Junkyard Jubilee »."
+      it: "SCP-100 è uno sfasciacarrozze abbandonato a ottanta (80) chilometri da ████████, nella Carolina del Sud, noto come \"Jamaican Joe's Junkyard Jubilee\"."
+      ko: "SCP-100은 사우스캐롤라이나주 ████████에서 80km 떨어진 곳에 있는 폐차장으로, '자메이칸 조의 정크야드 주빌리'로 알려져 있다."
+      pl: "SCP-100 to opuszczony złom samochodowy osiemdziesiąt (80) kilometrów od ████████ w Karolinie Południowej, znany jako „Jamaican Joe's Junkyard Jubilee”."
+      pt: "SCP-100 é um ferro-velho abandonado a oitenta (80) quilômetros de ████████, Carolina do Sul, conhecido como \"Jamaican Joe's Junkyard Jubilee\"."
+      th: "SCP-100 คือลานเก็บเศษเหล็กที่ถูกทิ้งร้าง อยู่ห่างจาก ████████ รัฐเซาท์แคโรไลนา ไปแปดสิบ (80) กิโลเมตร รู้จักกันในชื่อ \"Jamaican Joe's Junkyard Jubilee\""
+      uk: "SCP-100 — це покинутий металобрухтовий двір за вісімдесят (80) кілометрів від ████████, Південна Кароліна, відомий як «Jamaican Joe's Junkyard Jubilee»."
+      vi: "SCP-100 là một bãi phế liệu bỏ hoang cách ████████, Nam Carolina tám mươi (80) km, được biết đến với tên \"Jamaican Joe's Junkyard Jubilee\"."
+      zh: "SCP-100是一处废弃的废品场，位于南卡罗来纳州████████以西80公里处，被称为「牙买加乔的废品场狂欢节」。"
+      zh_Hant: "SCP-100是一處廢棄的廢品場，位於南卡羅來納州████████以西80公里處，被稱為「牙買加喬的廢品場狂歡節」。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, inside the dim storefront. On the
+      left side of the frame, SCP-100-1 sits behind a cluttered counter,
+      gesturing with crude sign language. On the right side of the frame,
+      Attending-Researcher-M leans on the counter, watching its hands and
+      gesturing back uncertainly.
+    notes: >
+      根拠: SCP-100-1は銅管・銅線・アルミ缶製の自律知性体で、原始的な手話で
+      コミュニケーションする。変えてはいけない: 素材（銅・アルミ）と手話。
+      変更可能: 店内の様子・研究者の反応。
+    characters: [scp-100-1, attending-researcher-m]
+    caption:
+      ja: "SCP-100-1は、主に銅管・被覆のない銅線・アルミ缶で構成された、自律的で知性を持つ人型構造体である。原始的な手話でコミュニケーションを取る。"
+      en: "SCP-100-1 is an autonomous, sapient, humanoid construct consisting mostly of copper piping, uninsulated copper wiring, and aluminum cans. It communicates using rudimentary sign language."
+      cs: "SCP-100-1 je autonomní, rozumná humanoidní konstrukce, tvořená převážně měděným potrubím, neizolovaným měděným drátem a hliníkovými plechovkami. Komunikuje pomocí primitivní znakové řeči."
+      de: "SCP-100-1 ist ein autonomes, denkfähiges, humanoides Konstrukt, das größtenteils aus Kupferrohren, nicht isoliertem Kupferdraht und Aluminiumdosen besteht. Es kommuniziert mittels rudimentärer Zeichensprache."
+      es: "SCP-100-1 es un constructo humanoide autónomo y consciente, compuesto principalmente por tuberías de cobre, alambre de cobre sin aislar y latas de aluminio. Se comunica mediante un lenguaje de señas rudimentario."
+      fr: "Le SCP-100-1 est une construction humanoïde autonome et sapiente, composée principalement de tuyaux de cuivre, de fil de cuivre non isolé et de canettes d'aluminium. Il communique au moyen d'un langage des signes rudimentaire."
+      it: "SCP-100-1 è un costrutto umanoide autonomo e senziente, composto principalmente da tubature di rame, filo di rame non isolato e lattine di alluminio. Comunica tramite un rudimentale linguaggio dei segni."
+      ko: "SCP-100-1은 주로 구리 배관, 피복이 없는 구리 전선, 알루미늄 캔으로 이루어진 자율적이고 지각 있는 인간형 구조체이다. 초보적인 수화로 의사소통한다."
+      pl: "SCP-100-1 to autonomiczny, rozumny, humanoidalny konstrukt, złożony głównie z miedzianych rur, nieizolowanego drutu miedzianego oraz aluminiowych puszek. Komunikuje się za pomocą prymitywnego języka migowego."
+      pt: "SCP-100-1 é um constructo humanoide autônomo e senciente, composto principalmente por tubos de cobre, fio de cobre sem isolamento e latas de alumínio. Comunica-se por meio de uma linguagem de sinais rudimentar."
+      th: "SCP-100-1 คือสิ่งก่อสร้างรูปร่างคล้ายมนุษย์ที่เคลื่อนไหวได้เองและมีสติปัญญา ประกอบขึ้นส่วนใหญ่จากท่อทองแดง ลวดทองแดงเปลือย และกระป๋องอะลูมิเนียม สื่อสารด้วยภาษามือแบบพื้นฐาน"
+      uk: "SCP-100-1 — це автономна, розумна гуманоїдна конструкція, що складається переважно з мідних труб, неізольованого мідного дроту та алюмінієвих банок. Спілкується за допомогою примітивної мови жестів."
+      vi: "SCP-100-1 là một cấu trúc hình người tự hành, có tri giác, chủ yếu được tạo thành từ ống đồng, dây đồng trần và lon nhôm. Nó giao tiếp bằng ngôn ngữ ký hiệu thô sơ."
+      zh: "SCP-100-1是一个自主的、有智能的人形构造体，主要由铜管、无绝缘层的铜线和铝罐组成。它使用简单的手语进行交流。"
+      zh_Hant: "SCP-100-1是一個自主的、有智能的人形構造體，主要由銅管、無絕緣層的銅線和鋁罐組成。牠使用簡單的手語進行交流。"
+
+  - scene: >
+      Close-up shot on a rusty hanging scale and a pile of scrap metal on
+      the counter, filling most of the frame. SCP-100-1's aluminum-can hand
+      quietly nudges the scale's weight aside. In the background, slightly
+      out of focus, Attending-Researcher-M frowns, noticing the pile has a
+      different-colored, cheaper metal mixed into it.
+    notes: >
+      根拠: SCP-100-1の取引には不正が伴う（不正確な秤・安価な金属の混入）。
+      変えてはいけない: 不正の手口（秤・金属混入）。変更可能: 構図・気づき方。
+    characters: [scp-100-1, attending-researcher-m]
+    caption:
+      ja: "SCP-100-1が行う取引には、大抵何らかの不正が伴う。故意に不正確な秤を使ったり、安価な金属をスクラップの山に混ぜたりすることが確認されている。"
+      en: "Sales made by SCP-100-1 are typically met with some degree of unfairness. SCP-100-1 has been known to intentionally use faulty scales and contaminate scrap piles with cheaper metals."
+      cs: "Prodeje uskutečněné SCP-100-1 jsou obvykle spojeny s určitou mírou nepoctivosti. Bylo zjištěno, že SCP-100-1 záměrně používá nepřesné váhy a znečišťuje hromady šrotu levnějšími kovy."
+      de: "Verkäufe durch SCP-100-1 gehen in der Regel mit einem gewissen Maß an Unehrlichkeit einher. Es wurde beobachtet, dass SCP-100-1 absichtlich fehlerhafte Waagen benutzt und Schrotthaufen mit billigeren Metallen verunreinigt."
+      es: "Las ventas realizadas por SCP-100-1 suelen ir acompañadas de cierto grado de deshonestidad. Se sabe que SCP-100-1 utiliza deliberadamente básculas defectuosas y contamina las pilas de chatarra con metales más baratos."
+      fr: "Les ventes effectuées par le SCP-100-1 s'accompagnent généralement d'un certain degré de malhonnêteté. Il a été observé que le SCP-100-1 utilise intentionnellement des balances truquées et contamine les tas de ferraille avec des métaux moins chers."
+      it: "Le vendite effettuate da SCP-100-1 sono solitamente accompagnate da un certo grado di disonestà. È noto che SCP-100-1 utilizza intenzionalmente bilance truccate e contamina i cumuli di rottami con metalli più economici."
+      ko: "SCP-100-1이 하는 거래에는 대체로 어느 정도의 부정행위가 따른다. SCP-100-1은 고의로 부정확한 저울을 사용하고 값싼 금속을 고철 더미에 섞는 것으로 알려져 있다."
+      pl: "Transakcje zawierane przez SCP-100-1 zwykle wiążą się z pewnym stopniem nieuczciwości. Wiadomo, że SCP-100-1 celowo używa niedokładnych wag i zanieczyszcza sterty złomu tańszymi metalami."
+      pt: "As vendas feitas por SCP-100-1 geralmente envolvem algum grau de desonestidade. Sabe-se que SCP-100-1 usa intencionalmente balanças defeituosas e contamina pilhas de sucata com metais mais baratos."
+      th: "การซื้อขายที่ทำโดย SCP-100-1 มักมาพร้อมกับความไม่เป็นธรรมในระดับหนึ่งเสมอ เป็นที่ทราบกันว่า SCP-100-1 จงใจใช้ตาชั่งที่ผิดพลาดและปนเปื้อนกองเศษเหล็กด้วยโลหะราคาถูกกว่า"
+      uk: "Продажі, здійснені SCP-100-1, зазвичай супроводжуються певною мірою нечесності. Відомо, що SCP-100-1 навмисно використовує несправні ваги та домішує до купи брухту дешевші метали."
+      vi: "Các giao dịch bán hàng của SCP-100-1 thường đi kèm với một mức độ gian lận nhất định. SCP-100-1 được biết là cố ý sử dụng cân sai lệch và trộn kim loại rẻ tiền hơn vào đống phế liệu."
+      zh: "SCP-100-1进行的交易通常都带有一定程度的不诚实。已知SCP-100-1会故意使用有问题的秤，并在废料堆中掺入更廉价的金属。"
+      zh_Hant: "SCP-100-1進行的交易通常都帶有一定程度的不誠實。已知SCP-100-1會故意使用有問題的秤，並在廢料堆中摻入更廉價的金屬。"
+
+  - scene: >
+      Wide shot, pulled back, showing the whole storefront interior. On the
+      left side of the frame, Attending-Researcher-M stands with arms
+      crossed, pointing accusingly at a small sign posted on the wall near
+      the counter. On the right side of the frame, SCP-100-1 shrugs with
+      both arms raised, its blank aluminum face tilted, utterly unbothered.
+    notes: >
+      根拠: 問い詰めると動揺と無関心の両方の反応、壁の張り紙を指す仕草。
+      変えてはいけない: 壁の張り紙を指す仕草、無関心な反応。変更可能: 構図。
+    characters: [attending-researcher-m, scp-100-1]
+    caption:
+      ja: "この件についてSCP-100-1を問い詰めようとする試みには、動揺と無関心の両方の反応が返ってきた。その感情的反応にかかわらず、壁に貼られた張り紙を指し示す仕草が必ず返ってくる。"
+      en: "Efforts to confront SCP-100-1 about this have been met with both distress and indifference, with referral to a sign posted on the wall happening regardless of its emotional response."
+      cs: "Pokusy konfrontovat SCP-100-1 ohledně tohoto jednání se setkaly jak s rozrušením, tak s lhostejností, přičemž bez ohledu na jeho emocionální reakci vždy odkazuje na ceduli pověšenou na zdi."
+      de: "Versuche, SCP-100-1 diesbezüglich zur Rede zu stellen, wurden sowohl mit Bestürzung als auch mit Gleichgültigkeit beantwortet, wobei es unabhängig von seiner emotionalen Reaktion stets auf ein an der Wand angebrachtes Schild verweist."
+      es: "Los intentos de confrontar a SCP-100-1 sobre esto han sido recibidos tanto con angustia como con indiferencia, remitiendo siempre a un cartel colocado en la pared, sin importar su reacción emocional."
+      fr: "Les tentatives de confrontation du SCP-100-1 à ce sujet ont été accueillies à la fois avec détresse et indifférence, celui-ci renvoyant systématiquement à une pancarte affichée au mur, quelle que soit sa réaction émotionnelle."
+      it: "I tentativi di confrontarsi con SCP-100-1 a riguardo sono stati accolti sia con angoscia che con indifferenza, con un rimando costante a un cartello affisso al muro, indipendentemente dalla sua reazione emotiva."
+      ko: "이 문제로 SCP-100-1을 추궁하려는 시도에는 당혹감과 무관심이 뒤섞여 돌아왔으며, 그 감정적 반응과 무관하게 항상 벽에 붙은 안내문을 가리켰다."
+      pl: "Próby skonfrontowania SCP-100-1 w tej sprawie spotykały się zarówno z rozdrażnieniem, jak i obojętnością, przy czym niezależnie od reakcji emocjonalnej zawsze odsyłano do kartki przypiętej na ścianie."
+      pt: "As tentativas de confrontar SCP-100-1 sobre isso foram recebidas com angústia e indiferença, remetendo sempre a um aviso fixado na parede, independentemente de sua reação emocional."
+      th: "ความพยายามเผชิญหน้ากับ SCP-100-1 ในเรื่องนี้ได้รับการตอบสนองทั้งความทุกข์ใจและความเฉยเมย โดยไม่ว่าจะแสดงอารมณ์อย่างไร มันก็มักจะชี้ไปที่ป้ายที่ติดอยู่บนผนังเสมอ"
+      uk: "Спроби докорити SCP-100-1 із цього приводу зустрічали як пригнічену реакцію, так і байдужість, при цьому незалежно від емоційної реакції він завжди вказував на табличку, вивішену на стіні."
+      vi: "Những nỗ lực chất vấn SCP-100-1 về việc này đều nhận được cả sự khó chịu lẫn thái độ thờ ơ, và bất kể phản ứng cảm xúc ra sao, nó luôn chỉ về một tấm biển dán trên tường."
+      zh: "试图就此质问SCP-100-1的行为，得到的反应有时是不安，有时是无动于衷，但无论其情绪反应如何，它总会指向墙上张贴的一张告示。"
+      zh_Hant: "試圖就此質問SCP-100-1的行為，得到的反應有時是不安，有時是無動於衷，但無論其情緒反應如何，牠總會指向牆上張貼的一張告示。"

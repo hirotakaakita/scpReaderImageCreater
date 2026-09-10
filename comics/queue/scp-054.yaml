@@ -1,0 +1,145 @@
+# SCP-054 4コマ台本
+# captionは記事本文（Description）からの引用。キャラにセリフは言わせない。
+
+id: scp-054
+
+title:
+  en: "SCP-054"
+  ja: "SCP-054"
+  cs: "SCP-054"
+  de: "SCP-054"
+  es: "SCP-054"
+  fr: "SCP-054"
+  it: "SCP-054"
+  ko: "SCP-054"
+  pl: "SCP-054"
+  pt: "SCP-054"
+  th: "SCP-054"
+  uk: "SCP-054"
+  vi: "SCP-054"
+  zh: "SCP-054"
+  zh_Hant: "SCP-054"
+
+attribution:
+  article: "SCP-054"
+  author: "Unknown Author, rewritten by SimpleCadence"
+  source_url: "http://scp-wiki.wikidot.com/scp-054"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-054:
+    name: SCP-054
+    appearance: >
+      SCP-054, a humanoid figure entirely composed of clear, glistening
+      water (color RGB 190,215,225, faintly translucent), with roughly
+      the proportions of a human woman, no distinct facial features
+      beyond a smooth reflective surface where a face would be, its
+      edges constantly rippling and reforming as if breathing.
+    default_look: >
+      No clothing (its entire body is made of water). Often standing
+      near, or partially merged with, the water of the fountain. Calm,
+      watchful, curious demeanor.
+
+characters: [scp-054, attending-researcher-f, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level. Inside a watertight isolation
+      containment room, an ornate stone fountain fills the center of the
+      space beneath climate-control vents in the ceiling. SCP-054, in
+      the form of a female humanoid made entirely of glistening
+      translucent water, stands near the rim of the fountain, its
+      surface gently rippling as if breathing.
+    characters: [scp-054]
+    caption:
+      ja: "水から出ると、被験体は多くの場合、平均容量90Lの、全身が水でできた女性型の人型として現れる。水域に入ると、周囲と見分けがつかなくなる。"
+      en: "Out of the water, the subject most often appears as a female humanoid with a mean volume of 90 L comprised entirely of water. When it enters a body of water, it becomes indistinguishable from its surroundings."
+      cs: "Mimo vodu se subjekt nejčastěji jeví jako ženský humanoid s průměrným objemem 90 l, tvořený zcela vodou. Jakmile vstoupí do vodní plochy, stane se od okolí nerozeznatelným."
+      de: "Außerhalb des Wassers erscheint das Subjekt meist als weiblicher Humanoid mit einem mittleren Volumen von 90 l, vollständig aus Wasser bestehend. Betritt es ein Gewässer, wird es von seiner Umgebung ununterscheidbar."
+      es: "Fuera del agua, el sujeto suele aparecer como un humanoide femenino con un volumen medio de 90 l, compuesto enteramente de agua. Al entrar en un cuerpo de agua, se vuelve indistinguible de su entorno."
+      fr: "Hors de l'eau, le sujet apparaît le plus souvent comme un humanoïde féminin d'un volume moyen de 90 l, entièrement composé d'eau. Lorsqu'il entre dans une étendue d'eau, il devient indissociable de son environnement."
+      it: "Fuori dall'acqua, il soggetto appare il più delle volte come un umanoide femminile con un volume medio di 90 l, interamente composto d'acqua. Quando entra in un corpo d'acqua, diventa indistinguibile dall'ambiente circostante."
+      ko: "물 밖으로 나오면 대상은 대개 평균 부피 90L의, 전신이 물로 이루어진 여성형 인간형 개체로 나타난다. 수역에 들어가면 주변과 구별할 수 없게 된다."
+      pl: "Poza wodą osobnik najczęściej przybiera postać żeńskiego humanoida o średniej objętości 90 l, złożonego w całości z wody. Po wejściu do zbiornika wodnego staje się nieodróżnialny od otoczenia."
+      pt: "Fora da água, o sujeito geralmente aparece como um humanoide feminino com volume médio de 90 l, composto inteiramente por água. Ao entrar em um corpo d'água, torna-se indistinguível do ambiente ao redor."
+      th: "เมื่ออยู่นอกน้ำ วัตถุมักปรากฏเป็นรูปร่างมนุษย์เพศหญิงที่มีปริมาตรเฉลี่ย 90 ลิตร ประกอบด้วยน้ำล้วน เมื่อเข้าสู่แหล่งน้ำ มันจะกลมกลืนจนแยกไม่ออกจากสภาพแวดล้อม"
+      uk: "Поза водою суб'єкт найчастіше постає у вигляді жіночого гуманоїда середнім об'ємом 90 л, повністю складеного з води. Потрапляючи у водойму, він стає невідрізненним від оточення."
+      vi: "Khi ra khỏi nước, đối tượng thường xuất hiện dưới dạng một sinh vật hình người nữ với thể tích trung bình 90 lít, hoàn toàn cấu tạo từ nước. Khi đi vào một khối nước, nó trở nên không thể phân biệt được với môi trường xung quanh."
+      zh: "离开水后，对象通常表现为一个平均体积为90升、完全由水构成的女性人形。当它进入水体时，会与周围环境融为一体，无法区分。"
+      zh_Hant: "離開水後，對象通常表現為一個平均體積為90公升、完全由水構成的女性人形。當牠進入水體時，會與周圍環境融為一體，無法區分。"
+
+  - scene: >
+      Medium shot, waist-up. On the left side of the frame, Attending
+      Researcher (Male) leans over his clipboard, writing notes and
+      adjusting his glasses. On the right side of the frame, SCP-054
+      mimics his exact posture and hand gesture, its translucent watery
+      form momentarily taking the same silhouette, a faint pleased
+      ripple crossing its surface as if delighted by the game.
+    characters: [attending-researcher-m, scp-054]
+    caption:
+      ja: "被験体は当初、財団職員に興味を示し、保守要員や研究者と交流し、その姿を模倣することを楽しんでいる様子だった。"
+      en: "Subject was initially curious about Foundation personnel and seemed to enjoy interacting with maintenance staff and researchers, and mimicking their forms."
+      cs: "Subjekt byl zpočátku zvědavý na personál Nadace a zdálo se, že si užívá interakci s údržbou a výzkumníky a napodobování jejich podoby."
+      de: "Das Subjekt zeigte anfangs Neugier gegenüber dem Personal der Stiftung und schien Freude daran zu haben, mit Wartungspersonal und Forschern zu interagieren und deren Formen nachzuahmen."
+      es: "Al principio, el sujeto mostró curiosidad por el personal de la Fundación y pareció disfrutar interactuando con el personal de mantenimiento y los investigadores, imitando sus formas."
+      fr: "Le sujet s'est d'abord montré curieux envers le personnel de la Fondation et semblait apprécier d'interagir avec le personnel d'entretien et les chercheurs, en imitant leurs formes."
+      it: "Inizialmente il soggetto si è mostrato curioso nei confronti del personale della Fondazione e sembrava divertirsi a interagire con il personale di manutenzione e i ricercatori, imitandone le forme."
+      ko: "대상은 초기에 재단 직원에게 호기심을 보였으며, 유지보수 요원 및 연구원과 교류하고 그들의 모습을 흉내 내는 것을 즐기는 듯했다."
+      pl: "Osobnik początkowo wykazywał ciekawość wobec personelu Fundacji i wydawał się cieszyć interakcją z personelem konserwacyjnym i badaczami, naśladując ich formy."
+      pt: "Inicialmente, o sujeito demonstrou curiosidade pelo pessoal da Fundação e parecia gostar de interagir com a equipe de manutenção e pesquisadores, imitando suas formas."
+      th: "ในช่วงแรก วัตถุแสดงความอยากรู้อยากเห็นต่อเจ้าหน้าที่มูลนิธิ และดูเหมือนจะสนุกกับการมีปฏิสัมพันธ์กับเจ้าหน้าที่ซ่อมบำรุงและนักวิจัย รวมถึงการเลียนแบบรูปร่างของพวกเขา"
+      uk: "Спочатку суб'єкт виявляв цікавість до персоналу Фонду і, здавалося, отримував задоволення від взаємодії з обслуговуючим персоналом та дослідниками, наслідуючи їхні форми."
+      vi: "Ban đầu, đối tượng tỏ ra tò mò với nhân viên Quỹ và có vẻ thích thú khi tương tác với nhân viên bảo trì và các nhà nghiên cứu, bắt chước hình dạng của họ."
+      zh: "对象最初对基金会人员表现出好奇，似乎乐于与维修人员和研究员互动，并模仿他们的形态。"
+      zh_Hant: "對象最初對基金會人員表現出好奇，似乎樂於與維修人員和研究員互動，並模仿他們的形態。"
+
+  - scene: >
+      Close-up shot centered on an overturned metal chair and a spreading
+      puddle of water on the floor, papers scattered around it, an alarm
+      light casting a red glow across the room. No people are visible in
+      the frame, leaving the moment unsettling and ambiguous.
+    characters: []
+    caption:
+      ja: "SCP-054に対する実験は［データ削除］の後に中止された。研究者2名が負傷した。この事案の後、収容プロトコルが更新された。"
+      en: "Experiments with SCP-054 were halted following [DATA EXPUNGED]. Two researchers were injured. After this incident containment protocols were updated."
+      cs: "Experimenty se SCP-054 byly zastaveny po [DATA VYMAZÁNA]. Dva výzkumníci byli zraněni. Po tomto incidentu byly aktualizovány protokoly zadržení."
+      de: "Experimente mit SCP-054 wurden nach [DATEN GELÖSCHT] eingestellt. Zwei Forscher wurden verletzt. Nach diesem Vorfall wurden die Eindämmungsprotokolle aktualisiert."
+      es: "Los experimentos con SCP-054 se suspendieron tras [DATOS EXPURGADOS]. Dos investigadores resultaron heridos. Tras este incidente se actualizaron los protocolos de contención."
+      fr: "Les expériences sur le SCP-054 ont été suspendues après [DONNÉES EXPURGÉES]. Deux chercheurs ont été blessés. Après cet incident, les protocoles de confinement ont été mis à jour."
+      it: "Gli esperimenti su SCP-054 sono stati sospesi dopo [DATI ESPUNTI]. Due ricercatori sono rimasti feriti. Dopo questo incidente i protocolli di contenimento sono stati aggiornati."
+      ko: "SCP-054에 대한 실험은 [데이터 삭제] 이후 중단되었다. 연구원 2명이 부상을 입었다. 이 사건 이후 수용 프로토콜이 갱신되었다."
+      pl: "Eksperymenty z SCP-054 wstrzymano po [DANE WYCIĘTE]. Dwóch badaczy zostało rannych. Po tym incydencie zaktualizowano protokoły zabezpieczeń."
+      pt: "Os experimentos com SCP-054 foram interrompidos após [DADOS EXPURGADOS]. Dois pesquisadores ficaram feridos. Após esse incidente, os protocolos de contenção foram atualizados."
+      th: "การทดลองกับ SCP-054 ถูกระงับหลังจาก [ข้อมูลถูกลบ] นักวิจัยสองคนได้รับบาดเจ็บ หลังเหตุการณ์นี้ ระเบียบการกักกันได้รับการปรับปรุง"
+      uk: "Експерименти з SCP-054 було припинено після [ДАНІ ВИЛУЧЕНО]. Двоє дослідників отримали поранення. Після цього інциденту протоколи стримування було оновлено."
+      vi: "Các thí nghiệm với SCP-054 đã bị đình chỉ sau [DỮ LIỆU BỊ XÓA]. Hai nhà nghiên cứu bị thương. Sau sự cố này, các quy trình ngăn chặn đã được cập nhật."
+      zh: "针对SCP-054的实验在[数据删除]后被叫停。两名研究员受伤。此事件后，收容协议已更新。"
+      zh_Hant: "針對SCP-054的實驗在[資料刪除]後被叫停。兩名研究員受傷。此事件後，收容協議已更新。"
+
+  - scene: >
+      Medium shot, over-the-shoulder from behind Attending Researcher
+      (Male), who stands stiffly holding a clipboard. Facing him, SCP-054
+      presses back against the rim of the fountain, its watery form
+      tensed and rippling defensively, keeping its distance from him. On
+      the right side of the frame, Attending Researcher (Female) stands
+      a short distance away holding a clipboard, and the surface of
+      SCP-054 nearest to her stays calm and still by comparison.
+    characters: [scp-054, attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "以後、被験体は男性職員に対して不信と攻撃性の兆候を示すようになった。女性職員の配置が推奨される。"
+      en: "Subject thereafter exhibited signs of mistrust and aggression around male personnel; assignment of female personnel is recommended."
+      cs: "Subjekt poté vykazoval známky nedůvěry a agrese vůči mužskému personálu; doporučuje se nasazení ženského personálu."
+      de: "Das Subjekt zeigte danach Anzeichen von Misstrauen und Aggression gegenüber männlichem Personal; der Einsatz weiblichen Personals wird empfohlen."
+      es: "A partir de entonces, el sujeto mostró señales de desconfianza y agresividad hacia el personal masculino; se recomienda la asignación de personal femenino."
+      fr: "Le sujet a ensuite manifesté des signes de méfiance et d'agressivité envers le personnel masculin ; l'affectation de personnel féminin est recommandée."
+      it: "In seguito il soggetto ha mostrato segni di diffidenza e aggressività verso il personale maschile; si raccomanda l'assegnazione di personale femminile."
+      ko: "이후 대상은 남성 직원에 대해 불신과 공격성의 징후를 보였다. 여성 직원의 배치가 권장된다."
+      pl: "Od tego czasu osobnik wykazuje oznaki nieufności i agresji wobec personelu męskiego; zalecane jest przydzielanie personelu żeńskiego."
+      pt: "A partir de então, o sujeito exibiu sinais de desconfiança e agressividade em relação ao pessoal masculino; recomenda-se a designação de pessoal feminino."
+      th: "หลังจากนั้น วัตถุแสดงสัญญาณของความไม่ไว้วางใจและความก้าวร้าวต่อเจ้าหน้าที่ชาย จึงแนะนำให้มอบหมายเจ้าหน้าที่หญิงแทน"
+      uk: "Відтоді суб'єкт демонстрував ознаки недовіри та агресії щодо чоловічого персоналу; рекомендується призначення жіночого персоналу."
+      vi: "Sau đó, đối tượng biểu hiện dấu hiệu ngờ vực và hung hăng đối với nhân viên nam; nên phân công nhân viên nữ."
+      zh: "此后，对象对男性人员表现出不信任和攻击性迹象；建议指派女性人员。"
+      zh_Hant: "此後，對象對男性人員表現出不信任和攻擊性跡象；建議指派女性人員。"

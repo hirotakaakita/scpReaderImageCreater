@@ -1,0 +1,145 @@
+# SCP-013「ブルーレディの煙草」4コマ台本
+# captionは記事本文（Description）からの引用。キャラにセリフは言わせない。
+
+id: scp-013
+
+title:
+  ja: "SCP-013：ブルーレディの煙草"
+  en: "SCP-013: The Blue Lady Cigarettes"
+  cs: "SCP-013: Cigarety Modré dámy"
+  de: "SCP-013: Die Zigaretten der Blauen Dame"
+  es: "SCP-013: Los cigarrillos de la Dama Azul"
+  fr: "SCP-013 : Les cigarettes de la Dame bleue"
+  it: "SCP-013: Le sigarette della Dama Blu"
+  ko: "SCP-013: 푸른 여인의 담배"
+  pl: "SCP-013: Papierosy Błękitnej Damy"
+  pt: "SCP-013: Os cigarros da Dama Azul"
+  th: "SCP-013: บุหรี่หญิงสาวสีน้ำเงิน"
+  uk: "SCP-013: Сигарети Синьої Леді"
+  vi: "SCP-013: Thuốc lá Quý Bà Xanh"
+  zh: "SCP-013：蓝衣女郎的香烟"
+  zh_Hant: "SCP-013：藍衣女郎的香菸"
+
+attribution:
+  article: "SCP-013"
+  author: "Dexanote"
+  source_url: "http://scp-wiki.wikidot.com/scp-013"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-013-reflection:
+    name: The Woman in the Mirror
+    appearance: >
+      A woman appearing 25 to 35 years old, approximately 1.6 meters tall,
+      slender build, with cropped dark hair (color RGB 30,25,25), blue eyes,
+      and bright blue lipstick (color RGB 20,70,180). She exists only as a
+      mirror reflection / mental perception, calm and expressionless, never
+      appearing as a separate physical person standing in the room.
+    default_look: >
+      Only ever seen as a reflection in a mirror or glass surface, framed
+      exactly where the viewer's own reflection should be. Neutral, distant
+      expression.
+
+characters: [d-class, attending-researcher-m, scp-013-reflection]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a full secure storage vault
+      shelf at Site-66. Rows of identical hand-rolled cigarettes lie inside
+      an open sealed evidence tray. The attending researcher, wearing blue
+      nitrile gloves, leans in from the right holding one cigarette up to
+      the light, examining handwriting on its paper.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-013とは、類似した異常性を示す242本の煙草の総称である。個体間で最も共通する外見上の特徴は、各煙草に青インクで手書きされた「ブルーレディ」の文字である。"
+      en: "SCP-013 is the collective designation of 242 cigarettes which display similar anomalies. The most common external detail between instances is the presence of the words 'Blue Lady' hand-written on each cigarette in blue ink."
+      cs: "SCP-013 je souhrnné označení pro 242 cigaret vykazujících podobné anomálie. Nejčastějším společným vnějším znakem jednotlivých instancí je nápis „Blue Lady“ ručně napsaný modrým inkoustem na každé cigaretě."
+      de: "SCP-013 ist die Sammelbezeichnung für 242 Zigaretten, die ähnliche Anomalien aufweisen. Das häufigste äußere Merkmal zwischen den Instanzen ist der in blauer Tinte handgeschriebene Schriftzug „Blue Lady“ auf jeder Zigarette."
+      es: "SCP-013 es la designación colectiva de 242 cigarrillos que presentan anomalías similares. El detalle externo más común entre las instancias es la presencia de las palabras «Blue Lady» escritas a mano con tinta azul en cada cigarrillo."
+      fr: "SCP-013 est la désignation collective de 242 cigarettes présentant des anomalies similaires. Le détail extérieur le plus commun entre les instances est la présence des mots « Blue Lady » écrits à la main à l'encre bleue sur chaque cigarette."
+      it: "SCP-013 è la designazione collettiva di 242 sigarette che presentano anomalie simili. Il dettaglio esterno più comune tra le istanze è la presenza delle parole «Blue Lady» scritte a mano con inchiostro blu su ogni sigaretta."
+      ko: "SCP-013은 유사한 이상 현상을 보이는 242개비의 담배를 총칭하는 명칭이다. 개체들 사이에서 가장 흔한 외형적 특징은 각 담배에 파란 잉크로 손글씨로 적힌 'Blue Lady'라는 문구이다."
+      pl: "SCP-013 to zbiorcze oznaczenie 242 papierosów wykazujących podobne anomalie. Najczęstszą wspólną cechą zewnętrzną poszczególnych egzemplarzy jest odręczny napis „Blue Lady” wykonany niebieskim atramentem na każdym papierosie."
+      pt: "SCP-013 é a designação coletiva de 242 cigarros que apresentam anomalias semelhantes. O detalhe externo mais comum entre as instâncias é a presença das palavras \"Blue Lady\" escritas à mão com tinta azul em cada cigarro."
+      th: "SCP-013 คือชื่อเรียกรวมของบุหรี่ 242 มวนที่แสดงความผิดปกติในลักษณะเดียวกัน รายละเอียดภายนอกที่พบร่วมกันมากที่สุดในแต่ละตัวอย่างคือคำว่า 'Blue Lady' ที่เขียนด้วยลายมือด้วยหมึกสีน้ำเงินบนบุหรี่แต่ละมวน"
+      uk: "SCP-013 — це збірна назва 242 сигарет, які демонструють подібні аномалії. Найпоширенішою зовнішньою деталлю між екземплярами є напис «Blue Lady», зроблений від руки синім чорнилом на кожній сигареті."
+      vi: "SCP-013 là tên gọi chung cho 242 điếu thuốc lá thể hiện những dị thường tương tự nhau. Chi tiết bên ngoài phổ biến nhất giữa các thực thể là dòng chữ 'Blue Lady' được viết tay bằng mực xanh trên mỗi điếu thuốc."
+      zh: "SCP-013是对242支表现出相似异常性的香烟的统称。各实例之间最常见的外部特征是每支香烟上都用蓝色墨水手写着「Blue Lady（蓝衣女郎）」字样。"
+      zh_Hant: "SCP-013是對242支表現出相似異常性的香菸的統稱。各實例之間最常見的外部特徵是每支香菸上都用藍色墨水手寫著「Blue Lady（藍衣女郎）」字樣。"
+
+  - scene: >
+      Medium shot, waist-up, eye level. On the left side of the frame, a
+      D-Class subject sits in a chair inhaling deeply from a lit SCP-013
+      cigarette held between two fingers, eyes half-closed. On the right
+      side of the frame, the attending researcher stands with a clipboard,
+      watching closely and noting the exact time.
+    characters: [d-class, attending-researcher-m]
+    caption:
+      ja: "SCP-013を吸引によって摂取した被験者は、特定の身元不明の女性として自分自身を知覚し始める。"
+      en: "Subjects who consume the contents of SCP-013 through inhalation will begin to perceive themselves as a specific unidentified woman."
+      cs: "Subjekty, které zkonzumují obsah SCP-013 vdechnutím, si začnou uvědomovat sami sebe jako konkrétní neidentifikovanou ženu."
+      de: "Testpersonen, die den Inhalt von SCP-013 durch Inhalation konsumieren, beginnen, sich selbst als eine bestimmte, nicht identifizierte Frau wahrzunehmen."
+      es: "Los sujetos que consumen el contenido de SCP-013 por inhalación comenzarán a percibirse a sí mismos como una mujer específica no identificada."
+      fr: "Les sujets qui consomment le contenu de SCP-013 par inhalation commencent à se percevoir comme une femme spécifique non identifiée."
+      it: "I soggetti che consumano il contenuto di SCP-013 per inalazione iniziano a percepire se stessi come una specifica donna non identificata."
+      ko: "흡입을 통해 SCP-013의 내용물을 섭취한 대상은 자신을 특정한 신원 미상의 여성으로 인식하기 시작한다."
+      pl: "Osoby, które spożyją zawartość SCP-013 poprzez inhalację, zaczną postrzegać siebie jako konkretną, niezidentyfikowaną kobietę."
+      pt: "Sujeitos que consomem o conteúdo do SCP-013 por inalação começarão a se perceber como uma mulher específica não identificada."
+      th: "ผู้ที่สูดดมสารภายใน SCP-013 เข้าไปจะเริ่มรับรู้ว่าตนเองเป็นหญิงสาวนิรนามคนหนึ่งโดยเฉพาะ"
+      uk: "Суб'єкти, які вживають вміст SCP-013 шляхом вдихання, починають сприймати себе як конкретну неідентифіковану жінку."
+      vi: "Các đối tượng hít phải chất chứa trong SCP-013 sẽ bắt đầu cảm nhận bản thân như một người phụ nữ cụ thể không rõ danh tính."
+      zh: "通过吸入方式摄入SCP-013的对象，会开始将自己感知为一名特定的身份不明女性。"
+      zh_Hant: "透過吸入方式攝入SCP-013的對象，會開始將自己感知為一名特定的身份不明女性。"
+
+  - scene: >
+      Close-up shot centered on a hand mirror that the D-Class subject
+      holds up in front of his own face, filling most of the frame. His
+      real face, out of focus at the frame's edge, remains an ordinary
+      male D-Class face. In sharp focus inside the mirror glass, the
+      reflection instead shows SCP-013-reflection: a woman's face with
+      cropped dark hair, blue eyes, and bright blue lipstick, staring back
+      calmly.
+    characters: [d-class, scp-013-reflection]
+    caption:
+      ja: "被験者たちは、この女性を25歳から35歳くらいで、身長はおよそ1.6メートル、体重は50から55キログラムほどと述べている。その他に繰り返し語られる特徴として、短く刈られた黒髪、青い瞳、鮮やかな青い口紅が挙げられる。"
+      en: "Subjects have described the woman to be aged between 25 and 35 years old, standing approximately 1.6 metres tall with an estimated weight of between 50 and 55 kg. Additional recurring details include cropped dark hair, blue eyes, and bright blue lipstick."
+      cs: "Subjekty popsaly ženu jako osobu ve věku 25 až 35 let, vysokou přibližně 1,6 metru, s odhadovanou váhou 50 až 55 kg. Mezi další opakující se detaily patří nakrátko střižené tmavé vlasy, modré oči a jasně modrá rtěnka."
+      de: "Die Testpersonen beschrieben die Frau als 25 bis 35 Jahre alt, etwa 1,6 Meter groß, mit einem geschätzten Gewicht von 50 bis 55 kg. Weitere wiederkehrende Details sind kurz geschnittenes dunkles Haar, blaue Augen und leuchtend blauer Lippenstift."
+      es: "Los sujetos han descrito a la mujer como de entre 25 y 35 años de edad, de aproximadamente 1,6 metros de estatura, con un peso estimado de entre 50 y 55 kg. Otros detalles recurrentes incluyen cabello oscuro corto, ojos azules y lápiz labial azul brillante."
+      fr: "Les sujets ont décrit la femme comme étant âgée de 25 à 35 ans, mesurant environ 1,6 mètre, pour un poids estimé entre 50 et 55 kg. D'autres détails récurrents incluent des cheveux courts et foncés, des yeux bleus et un rouge à lèvres bleu vif."
+      it: "I soggetti hanno descritto la donna come di età compresa tra 25 e 35 anni, alta circa 1,6 metri, con un peso stimato tra 50 e 55 kg. Altri dettagli ricorrenti includono capelli corti e scuri, occhi azzurri e rossetto blu brillante."
+      ko: "피험자들은 이 여성을 25세에서 35세 사이로, 신장은 약 1.6미터, 추정 체중은 50~55kg 정도로 묘사했다. 그 외 반복적으로 나타나는 특징으로는 짧게 자른 검은 머리, 파란 눈, 그리고 선명한 파란 립스틱이 있다."
+      pl: "Osoby badane opisywały tę kobietę jako mającą od 25 do 35 lat, mierzącą około 1,6 metra wzrostu, o szacowanej wadze od 50 do 55 kg. Inne powtarzające się szczegóły to krótko obcięte ciemne włosy, niebieskie oczy i jaskrawoniebieska szminka."
+      pt: "Os sujeitos descreveram a mulher como tendo entre 25 e 35 anos de idade, cerca de 1,6 metro de altura, com peso estimado entre 50 e 55 kg. Outros detalhes recorrentes incluem cabelo escuro curto, olhos azuis e batom azul vibrante."
+      th: "ผู้ถูกทดสอบบรรยายว่าหญิงสาวผู้นี้มีอายุระหว่าง 25 ถึง 35 ปี สูงประมาณ 1.6 เมตร น้ำหนักโดยประมาณ 50 ถึง 55 กิโลกรัม รายละเอียดอื่นที่ปรากฏซ้ำ ๆ ได้แก่ ผมสีเข้มตัดสั้น ดวงตาสีฟ้า และลิปสติกสีฟ้าสด"
+      uk: "Суб'єкти описували жінку як особу віком від 25 до 35 років, зростом приблизно 1,6 метра, з орієнтовною вагою від 50 до 55 кг. Інші деталі, що повторюються, включають коротке темне волосся, блакитні очі та яскраво-синю помаду."
+      vi: "Các đối tượng đã mô tả người phụ nữ này trong độ tuổi từ 25 đến 35, cao khoảng 1,6 mét, cân nặng ước tính từ 50 đến 55 kg. Các chi tiết lặp lại khác bao gồm tóc ngắn màu sẫm, mắt xanh và son môi xanh dương rực rỡ."
+      zh: "受试者描述这名女性年龄在25至35岁之间，身高约1.6米，估计体重在50至55公斤之间。其他反复出现的特征包括剪短的深色头发、蓝色眼睛和鲜艳的蓝色口红。"
+      zh_Hant: "受試者描述這名女性年齡在25至35歲之間，身高約1.6公尺，估計體重在50至55公斤之間。其他反覆出現的特徵包括剪短的深色頭髮、藍色眼睛和鮮豔的藍色口紅。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole vault
+      cell. The D-Class subject sits calmly on a cot, holding a small
+      mirror at arm's length and touching his own lips with a tube of
+      bright blue lipstick, a serene smile on his face. In the doorway on
+      the right, the attending researcher stands frozen, clipboard lowered,
+      staring with a deeply uneasy expression.
+    characters: [d-class, attending-researcher-m]
+    caption:
+      ja: "変化はすべて完全に精神的なものであり、被験者の肉体そのものは外見上変化しない。変わるのは自分自身についての知覚だけである。この変化は永続的であり、元に戻すことはできない。"
+      en: "All changes are entirely mental; the subject's body does not change outwardly, only their perception of themselves. These alterations are permanent, and cannot be reversed."
+      cs: "Všechny změny jsou čistě psychického rázu; tělo subjektu se navenek nemění, mění se pouze jeho vnímání sebe sama. Tyto změny jsou trvalé a nelze je zvrátit."
+      de: "Alle Veränderungen sind rein mentaler Natur; der Körper der Testperson verändert sich äußerlich nicht, nur ihre Selbstwahrnehmung. Diese Veränderungen sind dauerhaft und können nicht rückgängig gemacht werden."
+      es: "Todos los cambios son enteramente mentales; el cuerpo del sujeto no cambia externamente, solo su percepción de sí mismo. Estas alteraciones son permanentes y no se pueden revertir."
+      fr: "Tous les changements sont entièrement mentaux ; le corps du sujet ne change pas extérieurement, seule sa perception de lui-même change. Ces altérations sont permanentes et ne peuvent être inversées."
+      it: "Tutti i cambiamenti sono interamente mentali; il corpo del soggetto non cambia esteriormente, cambia solo la sua percezione di sé. Queste alterazioni sono permanenti e non possono essere invertite."
+      ko: "모든 변화는 전적으로 정신적인 것으로, 피험자의 신체는 외견상 변하지 않으며 오직 자신에 대한 인식만이 변한다. 이러한 변화는 영구적이며 되돌릴 수 없다."
+      pl: "Wszystkie zmiany mają charakter czysto psychiczny; ciało osobnika nie zmienia się na zewnątrz, zmienia się jedynie jego postrzeganie samego siebie. Zmiany te są trwałe i nie można ich odwrócić."
+      pt: "Todas as mudanças são inteiramente mentais; o corpo do sujeito não muda externamente, apenas sua percepção de si mesmo. Essas alterações são permanentes e não podem ser revertidas."
+      th: "การเปลี่ยนแปลงทั้งหมดเป็นเพียงด้านจิตใจโดยสิ้นเชิง ร่างกายของผู้ถูกทดสอบไม่ได้เปลี่ยนแปลงภายนอกแต่อย่างใด เปลี่ยนไปเพียงการรับรู้ต่อตนเองเท่านั้น การเปลี่ยนแปลงนี้เป็นการถาวรและไม่สามารถย้อนกลับได้"
+      uk: "Усі зміни є суто психічними; тіло суб'єкта зовні не змінюється, змінюється лише його сприйняття самого себе. Ці зміни є незворотними та постійними."
+      vi: "Mọi thay đổi đều hoàn toàn thuộc về tinh thần; cơ thể của đối tượng không thay đổi về mặt hình thức, chỉ có nhận thức của họ về bản thân thay đổi. Những thay đổi này là vĩnh viễn và không thể đảo ngược."
+      zh: "所有变化完全是精神层面的；对象的身体在外观上并未改变，改变的只是他们对自身的感知。这些变化是永久性的，无法逆转。"
+      zh_Hant: "所有變化完全是精神層面的；對象的身體在外觀上並未改變，改變的只是他們對自身的感知。這些變化是永久性的，無法逆轉。"

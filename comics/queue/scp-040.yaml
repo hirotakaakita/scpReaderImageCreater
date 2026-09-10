@@ -1,0 +1,168 @@
+# SCP-040 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 補遺(死体再生に関するインシデント等、重い内容)は本編・addendum欄いずれにも
+# 使わず割愛。キャラにセリフは言わせない。
+
+id: scp-040
+
+title:
+  en: "SCP-040: The Child Who Reshapes Life"
+  ja: "SCP-040：命を作り変える子ども"
+  cs: "SCP-040: Dítě, které přetváří život"
+  de: "SCP-040: Das Kind, das Leben umformt"
+  es: "SCP-040: Quien da forma a la vida"
+  fr: "SCP-040 : L'enfant qui remodèle la vie"
+  it: "SCP-040: Il bambino che rimodella la vita"
+  ko: "SCP-040: 생명을 빚어내는 아이"
+  pl: "SCP-040: Dziecko, które przekształca życie"
+  pt: "SCP-040: A criança que remodela a vida"
+  th: "SCP-040: เด็กผู้ปั้นแต่งชีวิต"
+  uk: "SCP-040: Дитина, яка змінює життя"
+  vi: "SCP-040: Đứa trẻ nhào nặn sự sống"
+  zh: "SCP-040：重塑生命的孩子"
+  zh_Hant: "SCP-040：重塑生命的孩子"
+
+attribution:
+  article: "SCP-040"
+  source_url: "http://scp-wiki.wikidot.com/scp-040"
+  license: "CC BY-SA 3.0"
+
+object_class: Anomalous Human
+
+local_characters:
+  scp-040:
+    name: SCP-040
+    appearance: >
+      SCP-040, a small child roughly 111 cm tall, appearing about 8 years
+      old, with bright pink hair (RGB 230,105,170). Heterochromatic eyes:
+      the right iris green (RGB 90,160,70), the left iris yellow (RGB
+      210,190,60) surrounded by a black sclera (RGB 10,10,10) — the left
+      eye is blind.
+    default_look: >
+      Plain institutional clothing: a simple light gray t-shirt and
+      trousers, no lab coat. Calm, attentive expression, occasionally
+      wincing or pressing a hand to the temple when concentrating hard.
+
+characters: [scp-040, attending-researcher-f, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the whole two-person
+      residential module: a comfortable but institutional room with a
+      bed, shelves, and soft lighting. SCP-040 sits cross-legged on the
+      floor, bright pink hair catching the light, with a small dog whose
+      fur shimmers in faint, unnatural patterns curled up beside them, and
+      a bird with two small extra decorative tail feathers perched on a
+      shelf nearby. attending-researcher-f stands in the doorway,
+      observing with a clipboard.
+    characters: [scp-040, attending-researcher-f]
+    notes: >
+      根拠: Special Containment Procedures「SCP-040-1a/1c/1jは被験者の精神的
+      健康のため収容室内に留まることを承認されている」。
+      変えてはいけない事実: 特定の改変生物3体がSCP-040と同室にいること。
+      変更可能: どんな動物をどう改変された姿で見せるか。
+    caption:
+      ja: "SCP-040-1a、1c、1jについては、被験者の精神的健康を保つ目的で、SCP-040とともに収容室内に留まることが承認されている。"
+      en: "SCP-040-1a, 1c, and 1j have been approved to remain in the containment chamber with SCP-040 for purposes of the subject's mental well-being."
+      cs: "Bylo schváleno, aby SCP-040-1a, 1c a 1j zůstaly v zadržovací komoře spolu se SCP-040 pro účely psychické pohody subjektu."
+      de: "SCP-040-1a, 1c und 1j wurde genehmigt, zum Wohle der psychischen Gesundheit des Subjekts weiterhin in der Containment-Kammer bei SCP-040 zu verbleiben."
+      es: "Se ha aprobado que SCP-040-1a, 1c y 1j permanezcan en la cámara de contención junto con SCP-040 por motivos del bienestar mental del sujeto."
+      fr: "Il a été approuvé que SCP-040-1a, 1c et 1j restent dans la chambre de confinement avec SCP-040 pour le bien-être mental du sujet."
+      it: "È stato approvato che SCP-040-1a, 1c e 1j rimangano nella camera di contenimento insieme a SCP-040 per il benessere psicologico del soggetto."
+      ko: "SCP-040-1a, 1c, 1j는 피험자의 정신적 안정을 위해 SCP-040과 함께 격리실에 머무는 것이 승인되었다."
+      pl: "Zatwierdzono, aby SCP-040-1a, 1c i 1j pozostały w komorze kontenerowej razem ze SCP-040 dla dobra psychicznego samopoczucia osobnika."
+      pt: "Foi aprovado que SCP-040-1a, 1c e 1j permaneçam na câmara de contenção junto ao SCP-040 para o bem-estar mental do sujeito."
+      th: "SCP-040-1a, 1c และ 1j ได้รับการอนุมัติให้อยู่ในห้องกักกันร่วมกับ SCP-040 เพื่อสุขภาพจิตของตัวบุคคล"
+      uk: "SCP-040-1a, 1c та 1j отримали дозвіл залишатися в камері утримання разом із SCP-040 заради психічного благополуччя суб'єкта."
+      vi: "SCP-040-1a, 1c và 1j đã được phê duyệt để ở lại buồng giam giữ cùng SCP-040 vì lợi ích sức khỏe tâm lý của đối tượng."
+      zh: "SCP-040-1a、1c及1j已获准为被试者的心理健康考虑，继续与SCP-040一同留在收容室内。"
+      zh_Hant: "SCP-040-1a、1c及1j已獲准為被試者的心理健康考量，繼續與SCP-040一同留在收容室內。"
+
+  - scene: >
+      Medium shot, waist-up, front angle, a different framing from the
+      wide shot before. Close on SCP-040's hands hovering just above a
+      small rabbit's fur, eyes closed in concentration, pink hair falling
+      forward, the rabbit's fur visibly rippling and shifting from plain
+      brown to a swirl of soft pastel patterns.
+    characters: [scp-040]
+    notes: >
+      根拠: Description「集中した意志の力で生物の身体的特徴を操作できる幼い
+      人間。改変は主に色や模様の変化から、より大きな形状変化まで及ぶ外見的
+      なもの」。
+      変えてはいけない事実: 能力の対象は生物であり、変化は集中による。
+      変更可能: 対象の動物の種類、変化の具体的な見せ方。
+    caption:
+      ja: "SCP-040は、集中した意志の力によって生物の身体的特徴を操作できる幼い人間である。改変は主に外見的なもので、単純な色や模様の変化から、より大がかりな体の形状・構造の変化にまで及ぶ。"
+      en: "SCP-040 is a young human capable of manipulating the physical characteristics of living organisms through concentrated effort. Modifications are primarily cosmetic, ranging from simple color and pattern changes to more involved shifts in bodily form and structure."
+      cs: "SCP-040 je malé dítě schopné soustředěným úsilím měnit fyzické vlastnosti živých organismů. Úpravy jsou převážně kosmetické, od jednoduchých změn barvy a vzoru až po rozsáhlejší změny tělesné podoby a stavby."
+      de: "SCP-040 ist ein kleines Kind, das durch konzentrierte Anstrengung die physischen Eigenschaften lebender Organismen verändern kann. Die Veränderungen sind überwiegend kosmetischer Natur und reichen von einfachen Farb- und Musteränderungen bis hin zu tiefgreifenden Veränderungen von Körperform und -struktur."
+      es: "SCP-040 es un niño pequeño capaz de manipular las características físicas de organismos vivos mediante un esfuerzo de concentración. Las modificaciones son principalmente cosméticas, desde simples cambios de color y patrón hasta alteraciones más profundas de la forma y estructura corporal."
+      fr: "SCP-040 est un jeune enfant capable de manipuler les caractéristiques physiques d'organismes vivants par un effort de concentration. Les modifications sont principalement cosmétiques, allant de simples changements de couleur et de motif à des transformations plus importantes de la forme et de la structure corporelle."
+      it: "SCP-040 è un bambino piccolo capace di manipolare le caratteristiche fisiche di organismi viventi attraverso uno sforzo di concentrazione. Le modifiche sono principalmente estetiche, da semplici cambi di colore e motivo fino a trasformazioni più profonde della forma e struttura corporea."
+      ko: "SCP-040은 집중된 노력을 통해 살아있는 생물의 신체적 특징을 조작할 수 있는 어린아이이다. 변형은 주로 외형적인 것으로, 단순한 색상과 무늬 변화부터 신체 형태와 구조의 더 큰 변화에 이르기까지 다양하다."
+      pl: "SCP-040 to małe dziecko zdolne, poprzez skoncentrowany wysiłek, zmieniać fizyczne cechy żywych organizmów. Modyfikacje mają głównie charakter kosmetyczny, od prostych zmian koloru i wzoru po poważniejsze zmiany kształtu i budowy ciała."
+      pt: "SCP-040 é uma criança pequena capaz de manipular as características físicas de organismos vivos por meio de esforço concentrado. As modificações são principalmente cosméticas, variando de simples mudanças de cor e padrão a alterações mais profundas na forma e estrutura corporal."
+      th: "SCP-040 เป็นเด็กเล็กที่สามารถปรับเปลี่ยนลักษณะทางกายภาพของสิ่งมีชีวิตได้ด้วยความตั้งใจจดจ่อ การเปลี่ยนแปลงส่วนใหญ่เป็นเรื่องรูปลักษณ์ภายนอก ตั้งแต่การเปลี่ยนสีและลวดลายง่ายๆ ไปจนถึงการเปลี่ยนรูปร่างและโครงสร้างร่างกายที่ซับซ้อนมากขึ้น"
+      uk: "SCP-040 — маленька дитина, здатна зосередженим зусиллям змінювати фізичні характеристики живих організмів. Зміни здебільшого косметичні — від простих змін кольору й візерунка до значніших змін форми та будови тіла."
+      vi: "SCP-040 là một đứa trẻ nhỏ có khả năng thay đổi đặc điểm vật lý của sinh vật sống thông qua sự tập trung cao độ. Các thay đổi chủ yếu mang tính thẩm mỹ, từ những thay đổi đơn giản về màu sắc và hoa văn cho đến những thay đổi lớn hơn về hình dạng và cấu trúc cơ thể."
+      zh: "SCP-040是一名能够通过集中意念操纵生物体特征的幼童。改变主要是外观上的，从简单的颜色和花纹变化，到更复杂的体形与结构改变皆有。"
+      zh_Hant: "SCP-040是一名能夠透過集中意念操縱生物體特徵的幼童。改變主要是外觀上的，從簡單的顏色和花紋變化，到更複雜的體形與結構改變皆有。"
+
+  - scene: >
+      Close-up on SCP-040's face, a different framing from the medium shot
+      before, eyes squeezed shut, one hand pressed to the temple in
+      discomfort, a faint sheen of sweat on the brow, while behind them
+      the newly patterned rabbit sits calmly, undisturbed by the strain.
+    characters: [scp-040]
+    notes: >
+      根拠: 「能力の行使には強い集中を要し、長時間の使用は激しい頭痛を
+      引き起こす」。
+      変えてはいけない事実: 頭痛が能力使用の代償であること。
+      変更可能: 苦悶の表情の強さ、周囲の見せ方。
+    caption:
+      ja: "この能力の行使には強い集中力を要し、長時間使用すると激しい頭痛を引き起こす。"
+      en: "The ability requires significant focus and causes intense headaches when used for extended periods."
+      cs: "Tato schopnost vyžaduje značné soustředění a při delším používání způsobuje silné bolesti hlavy."
+      de: "Die Fähigkeit erfordert erhebliche Konzentration und verursacht bei längerem Gebrauch starke Kopfschmerzen."
+      es: "La habilidad requiere una concentración considerable y provoca fuertes dolores de cabeza cuando se usa durante periodos prolongados."
+      fr: "Cette capacité exige une concentration importante et provoque de violents maux de tête lorsqu'elle est utilisée sur une période prolongée."
+      it: "L'abilità richiede una notevole concentrazione e provoca forti mal di testa se usata per periodi prolungati."
+      ko: "이 능력은 상당한 집중력을 요구하며, 장시간 사용할 경우 극심한 두통을 유발한다."
+      pl: "Zdolność ta wymaga znacznego skupienia i powoduje silne bóle głowy przy dłuższym stosowaniu."
+      pt: "A habilidade exige concentração considerável e causa dores de cabeça intensas quando usada por períodos prolongados."
+      th: "ความสามารถนี้ต้องใช้สมาธิอย่างมากและก่อให้เกิดอาการปวดหัวรุนแรงเมื่อใช้เป็นเวลานาน"
+      uk: "Здібність вимагає значної концентрації і викликає сильний головний біль при тривалому використанні."
+      vi: "Khả năng này đòi hỏi sự tập trung đáng kể và gây ra những cơn đau đầu dữ dội khi sử dụng trong thời gian dài."
+      zh: "该能力需要高度集中注意力，长时间使用会引发剧烈头痛。"
+      zh_Hant: "該能力需要高度集中注意力，長時間使用會引發劇烈頭痛。"
+
+  - scene: >
+      Wide shot, full body, eye level, pulled back to show the whole room
+      again, a different framing from the close-up before. SCP-040 sits
+      in the middle of the floor, now completely surrounded by an
+      affectionate pile of modified creatures — the shimmering dog, the
+      tufted-tailed bird, and the pastel-patterned rabbit — all crowding
+      close and nuzzling them happily. attending-researcher-m watches from
+      the doorway, arms crossed, a faint bemused smile.
+    characters: [scp-040, attending-researcher-m]
+    notes: >
+      根拠: 「改変された生物（SCP-040-1）はSCP-040に対し極めて強い忠誠心を
+      示す」。淡々とした記録の最後に、少し心温まるオチとして使う。
+      変えてはいけない事実: 改変生物たちがSCP-040に強い忠誠・愛着を示すこと。
+      変更可能: 何体の生物をどう配置するか、研究者の反応の演出。
+    caption:
+      ja: "SCP-040によって改変された生物はSCP-040-1と呼ばれ、SCP-040に対して極めて強い忠誠心を示す。"
+      en: "Modified organisms, referred to as SCP-040-1, exhibit extreme loyalty to SCP-040."
+      cs: "Upravené organismy, označované jako SCP-040-1, projevují ke SCP-040 mimořádnou věrnost."
+      de: "Veränderte Organismen, als SCP-040-1 bezeichnet, zeigen SCP-040 gegenüber außergewöhnliche Loyalität."
+      es: "Los organismos modificados, denominados SCP-040-1, muestran una lealtad extrema hacia SCP-040."
+      fr: "Les organismes modifiés, désignés SCP-040-1, font preuve d'une loyauté extrême envers SCP-040."
+      it: "Gli organismi modificati, denominati SCP-040-1, mostrano una lealtà estrema verso SCP-040."
+      ko: "SCP-040-1로 명명된 개조된 생물들은 SCP-040에게 극도의 충성심을 보인다."
+      pl: "Zmodyfikowane organizmy, określane jako SCP-040-1, wykazują skrajną lojalność wobec SCP-040."
+      pt: "Organismos modificados, chamados de SCP-040-1, demonstram extrema lealdade ao SCP-040."
+      th: "สิ่งมีชีวิตที่ถูกดัดแปลง ซึ่งเรียกว่า SCP-040-1 แสดงความภักดีอย่างสุดขีดต่อ SCP-040"
+      uk: "Змінені організми, позначені як SCP-040-1, виявляють надзвичайну відданість SCP-040."
+      vi: "Các sinh vật bị biến đổi, được gọi là SCP-040-1, thể hiện lòng trung thành tuyệt đối với SCP-040."
+      zh: "被改造的生物体被称为SCP-040-1，对SCP-040表现出极度的忠诚。"
+      zh_Hant: "被改造的生物體被稱為SCP-040-1，對SCP-040表現出極度的忠誠。"
