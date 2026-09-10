@@ -79,18 +79,21 @@ panels:
       zh_Hant: "SCP-060是一片由十七棵美國白櫟（Quercus alba）組成的樹林。收容SCP-060的樹林目前被安置在衛星站點66-060一系列專門建造的溫室中，且須定期修剪標本以將其保持在可控的大小。"
 
   - scene: >
-      Medium shot, waist-up, eye level, just outside the greenhouse entrance.
-      On the left side of the frame, attending-researcher-m has an unlit
-      cigarette between his lips and is raising a small lighter toward it,
-      eyes half-closed. On the right side of the frame, attending-researcher-f
-      lunges in and clamps both hands around his lighter hand, wide-eyed,
-      yanking it away from the greenhouse and the oak trees visible through
-      the glass behind them. A large no-smoking symbol is mounted on the wall.
+      Medium shot, waist-up, eye level, at a security checkpoint desk well
+      away from the greenhouse (the glass greenhouse is only a small distant
+      shape through a window). On the left side of the frame,
+      attending-researcher-m empties his pockets into a labelled steel
+      lock-box on the desk: a lighter, a box of matches, a small taser. On
+      the right side of the frame, attending-researcher-f checks the items
+      off on a clipboard and closes the lid of the box. A large no-smoking
+      symbol is mounted on the wall behind them.
     notes: >
       Panel-2 basis: "Personnel are banned from smoking while within 5km of
       Satellite-Site 66-060" and must not bring lighters, matches, tasers or
       other fire-starting tools. Fixed facts: a fire source near the grove is
-      forbidden. Free to restage: who catches whom, the gesture, framing.
+      forbidden. Free to restage: the check, framing.
+      Codexレビュー反映: 2→3コマの「喫煙を止めた火が原因か別実験か曖昧」指摘に
+      対し、2コマ目を火気の回収・保管の場面に変更（劇的な制止をやめた）。
     characters: [attending-researcher-m, attending-researcher-f]
     caption:
       ja: "職員は衛星サイト66-060の半径5km以内での喫煙を禁止されており、ライター、マッチ、テーザー銃、その他容易に発火の原因となりうる道具の持ち込みも避けなければならない。"
@@ -110,19 +113,23 @@ panels:
       zh_Hant: "站點人員被禁止在衛星站點66-060方圓5公里內吸菸，也必須避免攜帶打火機、火柴、電擊槍或任何其他易於引火的工具。"
 
   - scene: >
-      Low angle looking up, dramatic. Inside a dedicated circular test
-      chamber with bare concrete walls, a small metal tray on the floor holds
-      a burning fragment of oak wood, and out of the flames SCP-060-Alpha
-      rears up at full height: a towering 2.3-metre human skeleton wreathed
-      head to toe in bright white fire, arms spread wide. On the right side of
-      the frame, attending-researcher-m throws himself backward toward the
-      heavy chamber door, arms up to shield his face.
+      Low angle looking up, dramatic. This is a deliberate burn test inside
+      a dedicated circular test chamber with bare concrete walls; an ignition
+      rig on a metal tray on the floor holds a burning fragment of oak wood,
+      and out of the flames SCP-060-Alpha rears up at full height: a
+      towering 2.3-metre human skeleton wreathed head to toe in bright white
+      fire, arms spread wide. On the right side of the frame,
+      attending-researcher-m stands safely behind a thick observation window
+      set in the chamber wall, one hand on a control console, recoiling in
+      alarm but clearly outside the chamber.
     notes: >
       Panel-3 basis: burning SCP-060 produces SCP-060-Alpha, "an animate
       adult human skeleton standing approximately 2.3 metres tall and
       surrounded by bright white flames"; 20 g is enough. Fixed facts:
       tall flaming skeleton emerges from a small fire. Free to restage:
       researcher pose, exact angle.
+      Codexレビュー反映: 2→3コマの場面転換を明確化。3コマ目は許可された燃焼
+      試験であることを、点火リグ・観察窓・操作卓・研究員が室外にいる配置で示す。
     characters: [scp-060-alpha, attending-researcher-m]
     caption:
       ja: "SCP-060は燃やされると、以後SCP-060-Alphaと指定される実体を生み出す。SCP-060-Alphaは身長およそ2.3メートルの動く成人の骸骨で、明るい白い炎に包まれているように見える。わずか20gのSCP-060を燃やすだけでSCP-060-Alphaが出現する。"

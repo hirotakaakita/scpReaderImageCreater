@@ -105,25 +105,32 @@ panels:
       converged and interlocked at the center of the room, assembling
       themselves into one towering combined figure made of a gleaming
       metal wire lattice, looming over the space. On the right side of the
-      frame, the attending researcher backs away toward the chamber's
-      exit, staring up at the huge assembled figure in open-mouthed alarm.
+      frame, still safely outside the chamber behind the same reinforced
+      glass panel as in the previous panel, the attending researcher
+      leans back from the glass, staring up at the huge assembled figure
+      in open-mouthed alarm.
+    notes: >
+      Codexレビュー反映: caption「いずれかの条件」が前コマで未説明との指摘に対し、
+      合体条件（範囲内に金属が尽きる／複製102体の上限）を本文からcaptionへ追加。
+      また2→3コマで研究員が説明なく室内に移動して見える指摘に対し、3コマ目も
+      ガラスの外に留めた。
     characters: [scp-068, attending-researcher-m]
     caption:
-      ja: "いずれかの条件が満たされると、すべての人形は一箇所に集結し、可能な限り大きな一体の人形を形成し始める。最大102体の『ミニチュア人形』を用いた場合、完成した人形の高さは2メートルに達する。"
-      en: "When either of these events occurs, all figures will converge at one location and begin forming themselves into as big a figure as possible. With a maximum of 102 'mini-figures,' the resulting figure reaches two meters in height."
-      cs: "Jakmile nastane jedna z těchto podmínek, všechny figurky se sejdou na jednom místě a začnou vytvářet co největší možnou figuru. S maximálním počtem 102 „miniaturních figurek“ dosahuje výsledná postava výšky dvou metrů."
-      de: "Sobald eines dieser Ereignisse eintritt, versammeln sich alle Figuren an einem Ort und beginnen, sich zu einer möglichst großen Gestalt zusammenzufügen. Mit maximal 102 „Miniaturfiguren“ erreicht die entstehende Figur eine Höhe von zwei Metern."
-      es: "Cuando ocurre cualquiera de estos dos eventos, todas las figuras convergen en un mismo lugar y comienzan a formar una figura tan grande como sea posible. Con un máximo de 102 'minifiguras', la figura resultante alcanza los dos metros de altura."
-      fr: "Lorsque l'un de ces deux événements se produit, toutes les figurines convergent en un même lieu et commencent à former une figure aussi grande que possible. Avec un maximum de 102 « mini-figurines », la figure résultante atteint deux mètres de hauteur."
-      it: "Quando si verifica una di queste due condizioni, tutte le figure convergono in un unico punto e cominciano a formare una figura quanto più grande possibile. Con un massimo di 102 'mini-figure', la figura risultante raggiunge i due metri di altezza."
-      ko: "이 두 조건 중 하나가 충족되면, 모든 인형은 한 곳으로 모여 가능한 한 큰 하나의 형상을 이루기 시작한다. 최대 102개의 '미니 인형'을 사용하면 완성된 형상은 높이 2미터에 달한다."
-      pl: "Gdy zajdzie jedno z tych dwóch zdarzeń, wszystkie figurki zbiegają się w jednym miejscu i zaczynają formować możliwie jak największą postać. Przy maksymalnie 102 „mini-figurkach” powstała postać osiąga wysokość dwóch metrów."
-      pt: "Quando ocorre qualquer um desses eventos, todas as figuras convergem para um único local e começam a se formar em uma figura tão grande quanto possível. Com um máximo de 102 'minifiguras', a figura resultante atinge dois metros de altura."
-      th: "เมื่อเงื่อนไขใดเงื่อนไขหนึ่งในสองข้อนี้เกิดขึ้น หุ่นทั้งหมดจะรวมตัวกันที่จุดเดียวและเริ่มก่อร่างเป็นหุ่นที่ใหญ่ที่สุดเท่าที่จะเป็นไปได้ ด้วย 'หุ่นจิ๋ว' สูงสุด 102 ตัว หุ่นที่ได้จะมีความสูงถึงสองเมตร"
-      uk: "Коли настає одна з цих двох подій, усі фігурки сходяться в одному місці й починають формувати якомога більшу фігуру. За максимальної кількості 102 «міні-фігурок» отримана постать сягає двох метрів заввишки."
-      vi: "Khi một trong hai điều kiện này xảy ra, tất cả các hình nhân sẽ hội tụ về một địa điểm và bắt đầu kết hợp thành một hình thể lớn nhất có thể. Với tối đa 102 'hình nhân nhỏ', hình thể tạo thành đạt chiều cao hai mét."
-      zh: "当这两种情况之一发生时，所有人偶都会汇聚到一处，并开始组合成尽可能大的一个人偶。最多使用102个『迷你人偶』时，组成的人偶高度可达两米。"
-      zh_Hant: "當這兩種情況之一發生時，所有人偶都會匯聚到一處，並開始組合成盡可能大的一個人偶。最多使用102個「迷你人偶」時，組成的人偶高度可達兩公尺。"
+      ja: "SCP-068は、次の2つの条件のいずれかが満たされると次の段階へ移る。すなわち、範囲内にもう一体を作るだけの質量を持つ金属が残っていないか、複製の上限である102体が作られたときである。その後、すべての人形は一箇所に集結し、可能な限り大きな一体の人形を形成し始める。上限の102体を用いた場合、完成した人形の高さは2メートルに達する。"
+      en: "SCP-068 moves to its next stage once one of two conditions is met: no metal remains within range with enough mass to make another figure, or an upper limit of 102 replicas has been created. All figures then converge at one location and begin forming themselves into as large a figure as possible. With the maximum of 102 'mini-figures,' the resulting figure reaches two meters in height."
+      cs: "SCP-068 přejde do další fáze, jakmile je splněna jedna ze dvou podmínek: v dosahu nezůstane žádný kov s dostatečnou hmotností na výrobu další figurky, nebo je vytvořen horní limit 102 replik. Všechny figurky se pak sejdou na jednom místě a začnou vytvářet co největší možnou figuru. S maximálním počtem 102 „miniaturních figurek“ dosahuje výsledná postava výšky dvou metrů."
+      de: "SCP-068 geht in seine nächste Phase über, sobald eine von zwei Bedingungen erfüllt ist: Es befindet sich kein Metall mehr in Reichweite, das genug Masse für eine weitere Figur hätte, oder es wurde eine Obergrenze von 102 Repliken erreicht. Alle Figuren versammeln sich dann an einem Ort und beginnen, sich zu einer möglichst großen Gestalt zusammenzufügen. Mit den maximal 102 „Miniaturfiguren“ erreicht die entstehende Figur eine Höhe von zwei Metern."
+      es: "SCP-068 pasa a su siguiente etapa cuando se cumple una de dos condiciones: que no quede metal al alcance con masa suficiente para formar otra figura, o que se haya alcanzado el límite máximo de 102 réplicas. Entonces todas las figuras convergen en un mismo lugar y comienzan a formar una figura tan grande como sea posible. Con el máximo de 102 'minifiguras', la figura resultante alcanza los dos metros de altura."
+      fr: "SCP-068 passe à l'étape suivante dès que l'une des deux conditions est remplie : il ne reste plus de métal à portée ayant assez de masse pour former une autre figurine, ou la limite supérieure de 102 répliques est atteinte. Toutes les figurines convergent alors en un même lieu et commencent à former une figure aussi grande que possible. Avec le maximum de 102 « mini-figurines », la figure résultante atteint deux mètres de hauteur."
+      it: "SCP-068 passa alla fase successiva quando è soddisfatta una di due condizioni: non resta più metallo a portata con massa sufficiente a formare un'altra figura, oppure è stato raggiunto il limite massimo di 102 repliche. Tutte le figure convergono allora in un unico punto e cominciano a formare una figura quanto più grande possibile. Con il massimo di 102 'mini-figure', la figura risultante raggiunge i due metri di altezza."
+      ko: "SCP-068은 두 조건 중 하나가 충족되면 다음 단계로 넘어간다. 즉, 범위 내에 다른 인형을 만들 만한 질량의 금속이 남아 있지 않거나, 복제의 상한인 102개가 만들어졌을 때이다. 그러면 모든 인형이 한 곳으로 모여 가능한 한 큰 하나의 형상을 이루기 시작한다. 상한인 102개를 사용하면 완성된 형상은 높이 2미터에 달한다."
+      pl: "SCP-068 przechodzi do kolejnego etapu, gdy zostanie spełniony jeden z dwóch warunków: w zasięgu nie pozostaje żaden metal o masie wystarczającej do utworzenia kolejnej figurki albo osiągnięto górny limit 102 replik. Wszystkie figurki zbiegają się wtedy w jednym miejscu i zaczynają formować możliwie jak największą postać. Przy maksymalnych 102 „mini-figurkach” powstała postać osiąga wysokość dwóch metrów."
+      pt: "O SCP-068 passa à etapa seguinte quando uma de duas condições é atendida: não resta metal ao alcance com massa suficiente para formar outra figura, ou foi atingido o limite máximo de 102 réplicas. Todas as figuras então convergem para um único local e começam a se formar na maior figura possível. Com o máximo de 102 'minifiguras', a figura resultante atinge dois metros de altura."
+      th: "SCP-068 จะเข้าสู่ขั้นต่อไปเมื่อเป็นไปตามเงื่อนไขข้อใดข้อหนึ่งในสองข้อ คือ ไม่มีโลหะที่มีมวลมากพอจะสร้างหุ่นอีกตัวหลงเหลืออยู่ในระยะ หรือสร้างหุ่นจำลองครบเพดานสูงสุด 102 ตัวแล้ว จากนั้นหุ่นทั้งหมดจะรวมตัวกันที่จุดเดียวและเริ่มก่อร่างเป็นหุ่นที่ใหญ่ที่สุดเท่าที่จะเป็นไปได้ ด้วยจำนวนสูงสุด 102 ตัว หุ่นที่ได้จะมีความสูงถึงสองเมตร"
+      uk: "SCP-068 переходить до наступної стадії, коли виконано одну з двох умов: у межах досяжності не залишається металу з достатньою масою, щоб зробити ще одну фігурку, або досягнуто верхньої межі у 102 копії. Тоді всі фігурки сходяться в одному місці й починають формувати якомога більшу фігуру. За максимальних 102 «міні-фігурок» отримана постать сягає двох метрів заввишки."
+      vi: "SCP-068 chuyển sang giai đoạn tiếp theo khi một trong hai điều kiện được đáp ứng: không còn kim loại nào trong tầm với có đủ khối lượng để tạo thêm một hình nhân, hoặc đã đạt giới hạn trên là 102 bản sao. Khi đó tất cả các hình nhân hội tụ về một địa điểm và bắt đầu kết hợp thành một hình thể lớn nhất có thể. Với tối đa 102 'hình nhân nhỏ', hình thể tạo thành đạt chiều cao hai mét."
+      zh: "当满足两个条件之一时，SCP-068便进入下一阶段：范围内已没有足够质量再造出一个人偶的金属，或已达到102个复制体的上限。随后所有人偶都会汇聚到一处，并开始组合成尽可能大的一个人偶。使用上限102个『迷你人偶』时，组成的人偶高度可达两米。"
+      zh_Hant: "當滿足兩個條件之一時，SCP-068便進入下一階段：範圍內已沒有足夠質量再造出一個人偶的金屬，或已達到102個複製體的上限。隨後所有人偶都會匯聚到一處，並開始組合成盡可能大的一個人偶。使用上限102個「迷你人偶」時，組成的人偶高度可達兩公尺。"
 
   - scene: >
       Medium shot, waist-up, eye level. The towering wire figure now

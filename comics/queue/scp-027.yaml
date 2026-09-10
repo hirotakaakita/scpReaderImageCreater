@@ -112,12 +112,14 @@ panels:
       zh_Hant: "作為SCP-027的宿主，受試者027-02始終被受其所在位置吸引而成群聚集的害蟲包圍。受試者似乎無法以任何方式控制這些生物。"
 
   - scene: >
-      Tracking side shot down a facility corridor, full body, a different
-      framing from the previous panels. On the left side of the frame,
-      scp-027-02 walks forward and a loose cloud of tiny flying insects is
-      just beginning to gather around his head. On the right side of the
-      frame, a few paces behind him, attending-researcher-m walks holding
-      a clipboard up in front of his own face like a shield.
+      Tracking side shot down a spotless, freshly-cleaned facility
+      corridor far from the cell, full body, a different framing from the
+      previous panels. On the left side of the frame, scp-027-02 walks
+      forward and a brand-new loose cloud of tiny flying insects is
+      already gathering around his head in this otherwise immaculate
+      hallway. On the right side of the frame, a few paces behind him,
+      attending-researcher-m walks holding a clipboard up in front of his
+      own face like a shield.
     characters: [scp-027-02, attending-researcher-m]
     notes: >
       根拠: Description「被験者がどこへ行こうと、まずブヨやハエなどの飛翔昆虫の
@@ -144,11 +146,13 @@ panels:
   - scene: >
       Wide shot, deep corridor perspective, eye level, a different framing
       from the previous panels. In the foreground on the right, scp-027-02
-      stands inside a full swarming cloud of insects. Far away at the
-      other end of the corridor, behind a painted line on the floor,
-      attending-researcher-m stands in a white lab coat with arms crossed,
-      not coming any closer, tiny in the distance.
-    characters: [scp-027-02, attending-researcher-m]
+      stands inside a full swarming cloud of insects, with
+      attending-researcher-m close beside him in a paper mask doing
+      hands-on work, tolerating the swarm. Far away at the other end of
+      the corridor, behind a painted line on the floor,
+      attending-researcher-f stands as a senior officer in a dark suit
+      with arms crossed, not coming any closer, tiny in the distance.
+    characters: [scp-027-02, attending-researcher-m, attending-researcher-f]
     notes: >
       根拠: SCP第4段落「SCP-027の解明が進むまで、レベル4以上のクリアランスを持つ
       職員は被験者から200m以内に近づいてはならない」。変えてはいけない事実:

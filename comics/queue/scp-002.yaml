@@ -48,9 +48,10 @@ panels:
       Wide shot, full body, eye level, showing the entire cramped
       containment cell. SCP-002 sits in the center of the room, its
       mottled fleshy surface connected to wall equipment by thick cables.
-      On the left side of the frame, Attending Researcher (Male) and on
-      the right side, Attending Researcher (Female) stand well back from
-      it, each holding a clipboard, observing it from a safe distance.
+      Attending Researcher (Male) and Attending Researcher (Female) stand
+      well back from it, close together with the Male Researcher's hand
+      resting on the Female Researcher's shoulder, one of them holding a
+      clipboard, observing it from a safe distance.
     characters: [scp-002, attending-researcher-m, attending-researcher-f]
     caption:
       ja: "SCP-002は体積約60立方メートルの、腫瘍のような肉塊に似ている。片側には内部へと通じる鉄製のバルブハッチがある。"
@@ -98,9 +99,10 @@ panels:
       Wide shot, full body, eye level, revealing the interior beyond the
       hatch: a plain, dimly lit low-rent apartment room of modest size,
       with worn wallpaper and a single window in the far wall. On the
-      left, Attending Researcher (Male) and on the right, Attending
-      Researcher (Female) stand just inside the doorway, both staring at
-      the window with visible unease.
+      left, Attending Researcher (Male) keeps one hand firmly gripping the
+      upper arm of Attending Researcher (Female) on the right as they both
+      stand just inside the doorway, staring at the window with visible
+      unease, maintaining constant contact between them.
     characters: [attending-researcher-m, attending-researcher-f]
     caption:
       ja: "内部は一見、ごく標準的な安アパートの一室のようになっている。部屋の一面には窓が一つあるが、外部からはそのような開口部は一切確認できない。"

@@ -110,43 +110,45 @@ panels:
 
   - scene: >
       Medium-wide shot, eye level. On the lab table where the braided mass
-      was, a small fluffy calico kitten now sits washing one paw; right
-      beside it stands a single chocolate cupcake with chocolate frosting
-      and one lit candle. On the left, attending-researcher-m leans in with
-      a delighted grin; on the right, attending-researcher-f clasps her
-      hands, charmed.
+      was, a small fluffy calico kitten now sits washing one paw, friendly
+      and playful. On the left, attending-researcher-m leans in with a
+      delighted grin; on the right, attending-researcher-f clasps her hands,
+      charmed.
     notes: >
-      Panel-3 basis: "Prior to Incident 066-2, results have included: SCP-066
-      transformed into a small calico kitten for seventeen minutes" and "a
-      small cupcake, chocolate with chocolate frosting and a lit candle stuck
-      in the top." Fixed facts: the harmless effects were a calico kitten and
-      a birthday cupcake. Free to restage: the researchers' reactions,
-      framing.
+      Panel-3 basis: "SCP-066 transformed into a small calico kitten for
+      seventeen minutes. The kitten exhibited significant friendliness and
+      playfulness." Fixed facts: one benign effect shown - the calico
+      kitten, which lasted seventeen minutes. Free to restage: the
+      researchers' reactions, framing.
+      Codexレビュー反映: 子猫とカップケーキが同時に現れ1回の操作で両方生じた
+      ように見える／ケーキの記述が述語を欠く、との指摘。描く結果を子猫1つに
+      絞り、captionも意味の完結する一文にした。
     characters: [scp-066, attending-researcher-m, attending-researcher-f]
     caption:
-      ja: "インシデント066-2以前の結果には、次のものが含まれる。SCP-066が17分間、小さな三毛の子猫に変化したこと。そして、チョコレートのフロスティングをかけた小さなチョコレートのカップケーキで、上部に火のついたろうそくが1本刺さっていたもの。"
-      en: "Prior to Incident 066-2, results have included: SCP-066 transformed into a small calico kitten for seventeen minutes, and a small cupcake, chocolate with chocolate frosting and a lit candle stuck in the top."
-      cs: "Mezi výsledky před Incidentem 066-2 patřily: SCP-066 se na sedmnáct minut proměnilo v malé strakaté kotě; a malý košíček, čokoládový s čokoládovou polevou a zapálenou svíčkou zapíchnutou navrchu."
-      de: "Zu den Ergebnissen vor Vorfall 066-2 zählten: SCP-066 verwandelte sich für siebzehn Minuten in ein kleines Kätzchen mit Kaliko-Fell; und ein kleiner Cupcake, Schokolade mit Schokoladenglasur und einer brennenden Kerze obenauf."
-      es: "Entre los resultados anteriores al Incidente 066-2 se cuentan: SCP-066 se transformó en un pequeño gatito de pelaje calicó durante diecisiete minutos; y una magdalena pequeña, de chocolate con glaseado de chocolate y una vela encendida clavada encima."
-      fr: "Parmi les résultats antérieurs à l'Incident 066-2 : SCP-066 s'est transformé en un petit chaton au pelage calico pendant dix-sept minutes ; et un petit gâteau, au chocolat avec un glaçage au chocolat et une bougie allumée plantée sur le dessus."
-      it: "Tra i risultati precedenti all'Incidente 066-2 vi sono stati: SCP-066 si è trasformato in un piccolo gattino dal manto calico per diciassette minuti; e un piccolo cupcake, al cioccolato con glassa al cioccolato e una candelina accesa infilata in cima."
-      ko: "사건 066-2 이전의 결과에는 다음이 포함된다. SCP-066이 17분 동안 작은 삼색 고양이 새끼로 변한 것, 그리고 초콜릿 프로스팅을 얹고 위에 불붙은 초 하나가 꽂힌 작은 초콜릿 컵케이크."
-      pl: "Do wyników sprzed Incydentu 066-2 należały: SCP-066 na siedemnaście minut przemieniło się w małego kociaka o umaszczeniu calico; oraz mała babeczka, czekoladowa z czekoladowym lukrem i zapaloną świeczką wetkniętą na wierzchu."
-      pt: "Entre os resultados anteriores ao Incidente 066-2 estão: o SCP-066 transformou-se num pequeno gatinho de pelagem calico por dezessete minutos; e um pequeno cupcake, de chocolate com cobertura de chocolate e uma vela acesa espetada no topo."
-      th: "ผลลัพธ์ก่อนเหตุการณ์ 066-2 รวมถึง: SCP-066 แปลงร่างเป็นลูกแมวลายสามสีตัวเล็กเป็นเวลาสิบเจ็ดนาที และคัพเค้กชิ้นเล็กรสช็อกโกแลตแต่งหน้าด้วยครีมช็อกโกแลต มีเทียนจุดไฟหนึ่งเล่มปักอยู่ด้านบน"
-      uk: "До результатів, отриманих до Інциденту 066-2, належали: SCP-066 на сімнадцять хвилин перетворився на маленьке триколірне кошеня; і маленький кекс, шоколадний із шоколадною глазур'ю та запаленою свічкою, встромленою зверху."
-      vi: "Trong số các kết quả trước Sự cố 066-2 có: SCP-066 biến thành một chú mèo con lông tam thể trong mười bảy phút; và một chiếc bánh cupcake nhỏ, sô cô la phủ kem sô cô la với một ngọn nến đang cháy cắm trên đỉnh."
-      zh: "066-2事故之前的结果包括：SCP-066变成一只小小的三花猫，持续十七分钟；以及一个小蛋糕，巧克力口味、覆有巧克力糖霜，顶上插着一支点燃的蜡烛。"
-      zh_Hant: "066-2事故之前的結果包括：SCP-066變成一隻小小的三花貓，持續十七分鐘；以及一個小蛋糕，巧克力口味、覆有巧克力糖霜，頂上插著一支點燃的蠟燭。"
+      ja: "インシデント066-2以前のある機会には、SCP-066は17分間にわたって小さな三毛の子猫に変化した。その子猫は著しく人懐こく、遊び好きであった。"
+      en: "On one occasion prior to Incident 066-2, SCP-066 transformed into a small calico kitten for seventeen minutes. The kitten exhibited significant friendliness and playfulness."
+      cs: "Při jedné příležitosti před Incidentem 066-2 se SCP-066 na sedmnáct minut proměnilo v malé strakaté kotě. Kotě bylo výrazně přátelské a hravé."
+      de: "Bei einer Gelegenheit vor Vorfall 066-2 verwandelte sich SCP-066 für siebzehn Minuten in ein kleines Kätzchen mit Kaliko-Fell. Das Kätzchen war ausgesprochen freundlich und verspielt."
+      es: "En una ocasión anterior al Incidente 066-2, SCP-066 se transformó en un pequeño gatito de pelaje calicó durante diecisiete minutos. El gatito se mostró marcadamente amistoso y juguetón."
+      fr: "À une occasion antérieure à l'Incident 066-2, SCP-066 s'est transformé en un petit chaton au pelage calico pendant dix-sept minutes. Le chaton s'est montré remarquablement amical et joueur."
+      it: "In un'occasione precedente all'Incidente 066-2, SCP-066 si è trasformato in un piccolo gattino dal manto calico per diciassette minuti. Il gattino si è mostrato particolarmente amichevole e giocherellone."
+      ko: "사건 066-2 이전의 어느 때에, SCP-066은 17분 동안 작은 삼색 고양이 새끼로 변했다. 그 새끼 고양이는 눈에 띄게 상냥하고 장난기가 많았다."
+      pl: "Przy pewnej okazji przed Incydentem 066-2 SCP-066 na siedemnaście minut przemieniło się w małego kociaka o umaszczeniu calico. Kociak był wyraźnie przyjazny i figlarny."
+      pt: "Numa ocasião anterior ao Incidente 066-2, o SCP-066 transformou-se num pequeno gatinho de pelagem calico por dezessete minutos. O gatinho mostrou-se notavelmente amistoso e brincalhão."
+      th: "ในโอกาสหนึ่งก่อนเหตุการณ์ 066-2 SCP-066 แปลงร่างเป็นลูกแมวลายสามสีตัวเล็กเป็นเวลาสิบเจ็ดนาที ลูกแมวตัวนั้นเป็นมิตรและขี้เล่นอย่างเห็นได้ชัด"
+      uk: "Одного разу до Інциденту 066-2 SCP-066 на сімнадцять хвилин перетворився на маленьке триколірне кошеня. Кошеня було помітно доброзичливим і грайливим."
+      vi: "Vào một lần trước Sự cố 066-2, SCP-066 biến thành một chú mèo con lông tam thể trong mười bảy phút. Chú mèo con tỏ ra thân thiện và tinh nghịch rõ rệt."
+      zh: "在066-2事故之前的一次，SCP-066变成一只小小的三花猫，持续了十七分钟。那只小猫表现得格外亲人、爱玩耍。"
+      zh_Hant: "在066-2事故之前的一次，SCP-066變成一隻小小的三花貓，持續了十七分鐘。那隻小貓表現得格外親人、愛玩耍。"
 
   - scene: >
-      Dynamic wide shot, slight low angle. The braided mass of SCP-066 is
-      back to normal on the table but has flung two thin ribbon strands out
-      across the room like whip-fast tentacles. On the right side of the
-      frame, attending-researcher-m jerks backward off his stool, arms
-      flailing. A heavy dull-gray metal box sits open on the bench beside the
-      mass.
+      Dynamic wide shot, slight low angle, inside a high-value item storage
+      vault lined with steel shelving - clearly a different, later setting
+      from the lab. The braided mass of SCP-066 sits on an open heavy
+      dull-gray tungsten-carbide box on a shelf, and has flung two thin
+      ribbon strands out across the aisle like whip-fast tentacles. On the
+      right side of the frame, attending-researcher-m jerks backward, arms
+      flailing, as he tries to swing the heavy lid shut.
     notes: >
       Panel-4 basis: "Following Incident 066-2, SCP-066 now displays
       significant mobility, primarily in the form of being able to move
@@ -155,6 +157,9 @@ panels:
       Fixed facts: it now lashes tentacle-strands fast; stored in a hard
       metal box. Keep it comedic, not gory. Free to restage: the researcher's
       dodge, framing.
+      Codexレビュー反映: 3→4コマが同じ実験台の連続で事故直後の暴走に見える
+      指摘。4コマ目を後日の高価値物品保管庫の場面に移し、事件後の収容として
+      分離した。
     characters: [scp-066, attending-researcher-m]
     caption:
       ja: "インシデント066-2の後、SCP-066は著しい可動性を示すようになった。主に、自身の触手状の部分を非常に高速で動かせるという形で現れる。SCP-066はサイト21の高価値物品保管施設内の炭化タングステン製の箱に保管される。"

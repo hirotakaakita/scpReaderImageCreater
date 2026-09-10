@@ -46,11 +46,12 @@ local_characters:
 
 panels:
   - scene: >
-      Wide shot, eye level, on a vast flat cracked salt pan under open sky.
-      SCP-064 sits alone on the bare earth in the near foreground. Far behind
-      it, small in the frame, attending-researcher-m stands at a surveying
-      tripod looking through the eyepiece while attending-researcher-f writes
-      on a clipboard beside him.
+      Wide shot, eye level, on a vast flat expanse of bare, soft, freshly
+      turned dark earth under open sky, remote and empty. SCP-064 lies alone
+      flat on the soft soil in the near foreground. Far behind it, small in
+      the frame, attending-researcher-m stands at a surveying tripod looking
+      through the eyepiece while attending-researcher-f writes on a clipboard
+      beside him.
     notes: >
       Panel-1 basis: "SCP-064 is to be kept in a suitably remote area for
       observation," with goals of a geometric behavioural model and study of
@@ -109,8 +110,10 @@ panels:
   - scene: >
       High aerial bird's-eye view looking straight down. Risen from the flat
       plain is a vast, intricate freestanding maze of light brown brick
-      walls, floors and roofless rooms fanning out in a symmetrical
-      many-pointed star pattern. At one outer corner, tiny in the frame,
+      walls fanning out in a symmetrical many-pointed star pattern; many of
+      the rooms have brick floors and full brick roofs, and only some
+      sections are left open to the sky, so both covered halls and roofless
+      courtyards are visible. At one outer corner, tiny in the frame,
       attending-researcher-m and attending-researcher-f stand on the bare
       ground looking up at the sprawl.
     notes: >
@@ -141,16 +144,21 @@ panels:
   - scene: >
       Medium shot, eye level. In the foreground on the left,
       attending-researcher-f stands holding SCP-064 up in one hand with a
-      wide-eyed "oops" grimace, having just pulled it free. Filling the
-      background behind her, the entire vast brick structure is sloughing
-      apart into cascading sheets of gray dust. On the right side of the
-      frame, attending-researcher-m throws both hands up in dismay.
+      wide-eyed "oops" grimace, having just pulled it free. In the
+      background behind her, only the nearest brick walls have begun
+      sloughing away into little runnels of gray dust; the bulk of the vast
+      structure still stands, the decay just starting to spread from the
+      near edge. On the right side of the frame, attending-researcher-m
+      throws both hands up in dismay.
     notes: >
       Panel-4 basis: "SCP-064 must be attached for growth to occur. Once
       SCP-064 is removed, the structure begins to decay, and all secondary
       bricks crumble to dust at a rate roughly equal to their rate of
-      appearance." Fixed facts: removing the one original brick collapses the
-      whole structure to dust. Free to restage: expressions, exact staging.
+      appearance." Fixed facts: removing the one original brick starts the
+      decay; secondary bricks crumble at roughly the rate they appeared, not
+      in one instant. Free to restage: expressions, exact staging.
+      Codexレビュー反映: 全体一斉崩壊はcaptionより急激との指摘。手前から徐々に
+      崩れ、大半はまだ残っている状態に修正。
     characters: [attending-researcher-f, scp-064, attending-researcher-m]
     caption:
       ja: "成長が起こるには、SCP-064が接続されていなければならない。SCP-064が取り外されると、構造物は崩壊を始め、すべての二次レンガは、出現時とほぼ同じ速度で崩れて塵となる。"

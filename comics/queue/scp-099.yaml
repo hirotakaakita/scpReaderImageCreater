@@ -60,14 +60,21 @@ panels:
       zh_Hant: "SCP-099被保存在27號展廳內一個1公尺×75公分的壁掛式防火展示櫃中。該展廳區域適用標準溫濕度管控。"
 
   - scene: >
-      Medium shot, waist-up, eye level. Attending-Researcher-M leans in
-      close to the open case, well inside the marked viewing line, studying
-      the painting titled "The Portrait": the same plain still-life bowl of
-      fruit with a single realistic human eye staring outward from among
-      the fruit. His expression is one of simple curiosity.
+      Medium shot, waist-up, eye level, during a scheduled close-examination
+      session: the velvet rope has been unclipped and set aside, a session
+      timer on a small tripod stands beside Attending-Researcher-M with an
+      open logbook, and he wears white cotton gloves. He leans in toward the
+      open case, studying the painting titled "The Portrait": the same plain
+      still-life bowl of fruit with a single realistic human eye staring
+      outward from among the fruit. His expression is one of simple
+      curiosity.
     notes: >
       根拠: SCP-099は1935年マグリット作の絵画で、静物画に一つの目が描き加えられて
-      いる。変えてはいけない: 絵の内容（静物＋目一つ）。変更可能: 研究者の近づき方。
+      いる。閲覧は時間制限つき。変えてはいけない: 絵の内容（静物＋目一つ）。
+      変更可能: 研究者の近づき方。
+      Codexレビュー反映: 1コマで離れて観察していた研究員が理由なく接近して見える
+      指摘。承認された接近観察セッションだと分かる機材（タイマー・ログ・手袋・
+      外されたロープ）を加えた。
     characters: [attending-researcher-m]
     caption:
       ja: "SCP-099は「肖像画」と題された73×50cmの絵画である。1935年にルネ・マグリットによって制作され、単純な静物画に、鑑賞者を見つめ返す一つの目が描き加えられている。"
@@ -87,14 +94,19 @@ panels:
       zh_Hant: "SCP-099是一幅73×50公分的畫作，名為《肖像畫》。由勒內·馬格利特於1935年創作，畫面描繪了一幅簡單的靜物畫，並加入了一隻回望觀者的眼睛。"
 
   - scene: >
-      Close-up shot on Attending-Researcher-M's face, filling most of the
-      frame. His eyes are wide, pupils darting to the sides, a sheen of
-      sweat on his brow, as if he feels watched from every direction at
-      once.
+      Medium-close shot, slight Dutch tilt, in a gallery corridor.
+      Attending-Researcher-M flinches and shields the side of his face,
+      eyes darting, sweat on his brow, because everything around him seems
+      to be staring: a large printed safety poster on the wall showing a
+      photographed human face, a marble portrait bust on a plinth, and
+      another staff member farther down the hall glancing his way. He acts
+      as if all their eyes are locked onto him at once.
     notes: >
       根拠: 見つめすぎ・近づきすぎた者は、目を持つあらゆる存在に見られている妄想に
       陥る。変えてはいけない: 妄想の対象が「目を持つ存在／描写」であること。
       変更可能: 表情の強さ・周囲の小道具。
+      Codexレビュー反映: 顔のアップだけでは転が伝わりにくい指摘。背景に目を持つ
+      対象（ポスターの顔・胸像・他の職員）を入れ、それらを気にする視線を描いた。
     characters: [attending-researcher-m]
     caption:
       ja: "絵画を見つめすぎた、あるいは近づきすぎた者は、目を持つあらゆる存在や描写が自分を見つめているという妄想に囚われるようになる。"
@@ -115,15 +127,18 @@ panels:
 
   - scene: >
       Wide shot, pulled back, showing his cluttered office at night.
-      Attending-Researcher-M sits rigid at his desk, staring wide-eyed and
-      paranoid at ordinary round objects around the room — a wall clock, a
-      doorknob, a coffee mug, a framed photo — each shape faintly
-      resembling a single staring eye, as though all of them were watching
-      him back.
+      Attending-Researcher-M has slid down out of his chair into the corner,
+      knees drawn up, arms half-shielding his head, eyes wide and darting
+      around the room at completely ordinary objects — a plain wall clock, a
+      doorknob, a coffee mug, a framed photo of a landscape. The objects
+      look totally normal and eye-free; the sense of being watched comes
+      only from his cowering posture and frightened, flicking gaze.
     notes: >
       根拠: 極端な事例では無生物とも目が合う妄想、重度の被害妄想・群衆恐怖症に至る。
       変えてはいけない: 妄想の対象が無生物にまで広がっていること。変更可能:
       部屋の物・時間帯。
+      Codexレビュー反映: 無生物を眼球に似せると「目に見える形への反応」に読める
+      指摘。物は普通の形のままにし、本人の身をすくめる姿と視線で被注視感を表した。
     characters: [attending-researcher-m]
     caption:
       ja: "極端な事例では、対象者は無生物とすら目が合っていると報告する。これは重度の被害妄想および群衆恐怖症を引き起こす。"

@@ -32,16 +32,19 @@ object_class: Safe
 panels:
   - scene: >
       Wide shot, high angle looking down at a steel shelf. Inside a small
-      windowless archive vault, an open felt-lined case holds four identical
-      unlabeled compact discs in paper sleeves. attending-researcher-f stands
-      at the shelf in the center-left of the frame, carefully sliding one
-      disc back into the case with gloved hands, a heavy vault door ajar
-      behind her.
+      windowless archive vault, an open felt-lined case holds a single
+      unlabeled compact disc in a paper sleeve (this vault stores only one
+      of the four copies). attending-researcher-f stands at the shelf in the
+      center-left of the frame, carefully sliding that one disc back into
+      the case with gloved hands, a heavy vault door ajar behind her.
     notes: >
       Panel-1 basis: source code kept on an archival read-only CD-ROM, four
       copies stored separately; not to be run except for approved tests.
-      Fixed facts: the anomaly is software on discs, kept locked away. Free
-      to restage: the researcher's handling, camera height.
+      Fixed facts: the anomaly is software on discs, kept locked away; the
+      four copies are stored SEPARATELY, so only one disc is in this vault.
+      Free to restage: the researcher's handling, camera height.
+      Codexレビュー反映: caption「4枚を別々に保管」に対し1ケースに4枚まとめて
+      いた指摘。この保管庫には1枚だけ描くよう修正。
     characters: [attending-researcher-f]
     caption:
       ja: "SCP-061のソースコードは、標準的なアーカイブ品質の読み取り専用データCD-ROMに保管し、4枚の複製をそれぞれ別々に保管する。承認された実験の目的を除き、SCP-061を読み込み、コンパイル、または実行してはならない。"

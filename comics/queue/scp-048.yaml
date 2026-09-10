@@ -100,29 +100,28 @@ panels:
       desk lamp light. No readable text on the papers.
     characters: [attending-researcher-f]
     notes: >
-      根拠: Description「The Foundation ultimately acknowledges uncertainty
-      about whether the number possesses actual supernatural properties,
-      attributing the retirement decision to staff morale concerns.」
+      根拠: Description「Whether or not the number 048 actually has any
+      supernatural qualities is unknown, but given the superstition around
+      this number ...（実際の退役措置は4コマ目で明かす）」。
       変えてはいけない事実: この番号に本当に超常的性質があるかは不明のままと
-      財団が認めていること、番号を退役させる決定の主因が職員の士気への懸念で
-      あること。
+      財団が認めていること、迷信が職員の士気の懸念になっていること。
       変更可能: 研究者の仕草、机まわりの演出。
     caption:
-      ja: "財団は最終的に、この番号そのものに実際の超常的性質が備わっているのかどうかは不明のままであると認めており、番号を退役させる決定は、主に職員の士気に対する懸念によるものだとしている。"
-      en: "The Foundation ultimately acknowledges that it remains uncertain whether the number itself possesses any actual supernatural properties, and attributes the decision to retire it primarily to concerns regarding staff morale."
-      cs: "Nadace nakonec připouští, že zůstává nejisté, zda samo číslo skutečně vykazuje nadpřirozené vlastnosti, a rozhodnutí o jeho vyřazení přičítá především obavám o morálku personálu."
-      de: "Die Stiftung räumt letztlich ein, dass unklar bleibt, ob die Zahl selbst tatsächlich übernatürliche Eigenschaften besitzt, und führt die Entscheidung, sie außer Dienst zu stellen, in erster Linie auf Bedenken hinsichtlich der Personalmoral zurück."
-      es: "La Fundación finalmente reconoce que sigue sin estar claro si el número en sí posee propiedades sobrenaturales reales, y atribuye la decisión de retirarlo principalmente a preocupaciones sobre la moral del personal."
-      fr: "La Fondation reconnaît finalement qu'il demeure incertain que le nombre lui-même possède de véritables propriétés surnaturelles, et attribue la décision de le retirer principalement à des préoccupations liées au moral du personnel."
-      it: "La Fondazione riconosce infine che resta incerto se il numero stesso possieda reali proprietà soprannaturali, e attribuisce la decisione di ritirarlo principalmente a preoccupazioni relative al morale del personale."
-      ko: "재단은 결국 그 번호 자체가 실제로 초자연적 성질을 지녔는지는 여전히 불확실하다고 인정하며, 번호를 퇴역시키기로 한 결정은 주로 직원 사기에 대한 우려 때문이라고 밝히고 있다."
-      pl: "Fundacja ostatecznie przyznaje, że pozostaje niejasne, czy sam numer rzeczywiście posiada właściwości nadprzyrodzone, a decyzję o jego wycofaniu przypisuje głównie obawom o morale personelu."
-      pt: "A Fundação, por fim, reconhece que permanece incerto se o número em si possui alguma propriedade sobrenatural real, e atribui a decisão de aposentá-lo principalmente a preocupações com o moral do pessoal."
-      th: "ในที่สุดมูลนิธิยอมรับว่ายังไม่แน่ชัดว่าตัวเลขนั้นมีคุณสมบัติเหนือธรรมชาติจริงหรือไม่ และระบุว่าการตัดสินใจปลดระวางหมายเลขนี้เป็นเพราะความกังวลเรื่องขวัญกำลังใจของเจ้าหน้าที่เป็นหลัก"
-      uk: "Зрештою Фонд визнає, що залишається невідомим, чи має саме число справжні надприродні властивості, і пояснює рішення вивести його з обігу насамперед занепокоєнням щодо бойового духу персоналу."
-      vi: "Cuối cùng, Tổ chức thừa nhận rằng vẫn chưa rõ liệu bản thân con số này có thực sự sở hữu đặc tính siêu nhiên hay không, và cho rằng quyết định loại bỏ nó chủ yếu xuất phát từ lo ngại về tinh thần của nhân viên."
-      zh: "基金会最终承认，尚不确定这一编号本身是否真的具有超自然性质，并表示退役该编号的决定主要出于对员工士气的顾虑。"
-      zh_Hant: "基金會最終承認，尚不確定這一編號本身是否真的具有超自然性質，並表示退役該編號的決定主要出於對員工士氣的顧慮。"
+      ja: "048という数字に実際に超常的な性質があるのかどうかは不明である。いずれにせよ、この数字にまつわる迷信は、職員の士気にとって無視できない懸念となっている。"
+      en: "Whether or not the number 048 actually has any supernatural qualities is unknown; regardless, the superstition surrounding it has become a significant concern for staff morale."
+      cs: "Zda číslo 048 skutečně vykazuje nějaké nadpřirozené vlastnosti, není známo; ať tak či onak, pověra kolem něj se stala vážným problémem pro morálku personálu."
+      de: "Ob die Zahl 048 tatsächlich übernatürliche Eigenschaften besitzt, ist unbekannt; unabhängig davon ist der Aberglaube um sie zu einem erheblichen Problem für die Personalmoral geworden."
+      es: "Se desconoce si el número 048 posee realmente propiedades sobrenaturales; en cualquier caso, la superstición que lo rodea se ha convertido en una preocupación importante para la moral del personal."
+      fr: "On ignore si le nombre 048 possède réellement des propriétés surnaturelles ; quoi qu'il en soit, la superstition qui l'entoure est devenue une préoccupation majeure pour le moral du personnel."
+      it: "Non è noto se il numero 048 possieda realmente proprietà soprannaturali; in ogni caso, la superstizione che lo circonda è diventata una seria preoccupazione per il morale del personale."
+      ko: "048이라는 숫자가 실제로 초자연적 성질을 지녔는지는 알 수 없다. 어느 쪽이든, 이 숫자를 둘러싼 미신은 직원 사기에 중대한 우려가 되고 있다."
+      pl: "Nie wiadomo, czy liczba 048 rzeczywiście ma jakiekolwiek właściwości nadprzyrodzone; tak czy inaczej, otaczający ją przesąd stał się poważnym problemem dla morale personelu."
+      pt: "Não se sabe se o número 048 realmente possui quaisquer propriedades sobrenaturais; de qualquer forma, a superstição em torno dele tornou-se uma preocupação significativa para o moral do pessoal."
+      th: "ยังไม่ทราบว่าตัวเลข 048 มีคุณสมบัติเหนือธรรมชาติจริงหรือไม่ ไม่ว่าอย่างไรก็ตาม ความเชื่องมงายที่ห้อมล้อมตัวเลขนี้ได้กลายเป็นความกังวลสำคัญต่อขวัญกำลังใจของเจ้าหน้าที่"
+      uk: "Чи має число 048 насправді якісь надприродні властивості, невідомо; так чи інакше, забобони навколо нього стали серйозною проблемою для бойового духу персоналу."
+      vi: "Không rõ liệu con số 048 có thực sự sở hữu bất kỳ đặc tính siêu nhiên nào hay không; dù thế nào đi nữa, sự mê tín xoay quanh nó đã trở thành mối lo ngại đáng kể đối với tinh thần của nhân viên."
+      zh: "048这个数字是否真的具有任何超自然性质尚不清楚；无论如何，围绕这个数字的迷信已成为员工士气方面的一大隐忧。"
+      zh_Hant: "048這個數字是否真的具有任何超自然性質尚不清楚；無論如何，圍繞這個數字的迷信已成為員工士氣方面的一大隱憂。"
 
   - scene: >
       Medium two-shot at a records desk. On the left side of the frame,

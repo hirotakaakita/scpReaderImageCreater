@@ -47,17 +47,23 @@ characters: []
 
 panels:
   - scene: >
-      Wide shot, full body, eye level, showing the whole containment room.
-      The room is built entirely of bare steel plating with a dull lead
-      lining, and a security camera fitted with a dark infrared-filter
-      lens is mounted high on the wall. In the far corner, SCP-966 crouches
-      low and motionless in heavy shadow, barely distinguishable from the
-      dark. On the right side of the frame, seen through a small reinforced
-      window in the wall, Attending Researcher (Male) watches from the
-      safety of the corridor outside, clipboard in hand.
+      The whole panel is rendered as a grainy monochrome infrared
+      security-camera image (soft greyscale, faint scan lines), because the
+      creatures are only visible in infrared. Wide shot, eye level, showing
+      the whole 10 x 10 metre containment room built of bare steel plating
+      with a dull lead lining. Four SCP-966 specimens are spread around the
+      room, all crouched low and motionless: one in the near foreground,
+      two along the side walls, and one in the far corner. On the right
+      edge of the frame, through a small reinforced window, the dim
+      reflection of Attending Researcher (Male) watching from the corridor
+      outside is just visible.
     characters: [attending-researcher-m, scp-966]
+    notes: >
+      Codexレビュー反映: (1) captionは4体収容だがsceneに1体しか指定がない指摘。
+      4体を配置した。(2) 特定波長でしか見えないのに通常照明下で見える描写、との
+      指摘。全コマを赤外線カメラ映像として描くことにした。
     caption:
-      ja: "財団が確保したSCP-966の4体の個体は、Site-██にある鉛張りのスチール製の部屋に収容される。部屋内には赤外線フィルター付きの防犯カメラおよび赤外線感知フィルムが設置される。"
+      ja: "財団が確保したSCP-966の4体の個体は、Site-██にある、鉛で裏打ちされたスチール製の10×10mの部屋に収容される。部屋内には赤外線フィルター付きの防犯カメラおよび赤外線感知フィルムが設置される。"
       en: "The four specimens of SCP-966 acquired by the Foundation are contained in a 10 x 10 m room made of steel, lined with lead, located on Site-██. Security cameras with infrared filters and infrared-sensitive film are installed inside the room."
       cs: "Čtyři exempláře SCP-966 získané Nadací jsou umístěny v místnosti o rozměrech 10 x 10 m z oceli obložené olovem na Site-██. Uvnitř místnosti jsou instalovány bezpečnostní kamery s infračervenými filtry a infračerveně citlivým filmem."
       de: "Die vier von der Stiftung erfassten Exemplare von SCP-966 werden in einem 10 x 10 m großen, mit Blei ausgekleideten Stahlraum auf Site-██ untergebracht. Im Raum sind Überwachungskameras mit Infrarotfiltern und infrarotempfindlichem Film installiert."
@@ -74,13 +80,14 @@ panels:
       zh_Hant: "基金會獲取的四隻SCP-966個體被收容在██站點一間10 x 10公尺的房間中，房間由鋼材建造並襯有鉛層。房間內安裝有配備紅外線濾鏡的監視攝影機及紅外線感光膠片。"
 
   - scene: >
-      Close-up shot centered on SCP-966's face and one clawed hand, filling
-      most of the frame, harsh overhead lighting. Its elongated face and
-      wide mouth lined with needle-like teeth are fully visible, along with
-      the five long claws extended from one hand.
+      Rendered as a grainy monochrome infrared camera image (greyscale,
+      faint scan lines). Close-up shot centered on SCP-966's face and one
+      clawed hand, filling most of the frame. Its elongated face and wide
+      mouth lined with needle-like teeth are fully visible, along with the
+      five long claws extended from one hand.
     characters: [scp-966]
     caption:
-      ja: "SCP-966は毛のない蹠行性の人型に似た捕食生物で、細長い顔と針状の歯が並んだ口を持つ。7-9µm波長帯でのみ視認可能である。"
+      ja: "SCP-966は、毛のない趾行性の人間に似た捕食生物で、細長い顔と、針状の歯が並んだ口を持つ。SCP-966は、700nmからおよそ900nmの波長でのみ視認可能である。"
       en: "SCP-966 are predatory creatures that resemble hairless, digitigrade humans, possessing an elongated face with a mouth lined with needle-like teeth. SCP-966 are visible only at wavelengths ranging from 700 nm to about 900 nm."
       cs: "SCP-966 jsou dravé bytosti připomínající bezvlasé, digitigrádní lidi, s protáhlým obličejem a ústy lemovanými jehlovitými zuby. SCP-966 jsou viditelné pouze při vlnových délkách od 700 nm do přibližně 900 nm."
       de: "SCP-966 sind räuberische Kreaturen, die haarlosen, digitigraden Menschen ähneln und ein längliches Gesicht mit einem Mund voller nadelartiger Zähne besitzen. SCP-966 ist nur bei Wellenlängen zwischen 700 nm und etwa 900 nm sichtbar."
@@ -97,16 +104,18 @@ panels:
       zh_Hant: "SCP-966是一種類似無毛趾行人形的掠食生物，擁有細長的臉部和一口排列著針狀牙齒的嘴。SCP-966僅在700奈米至約900奈米波長範圍內可見。"
 
   - scene: >
-      Medium shot, waist-up, low angle. Realistic adult body proportions.
-      On the left side of the frame, a D-Class subject sits strapped into
-      an observation chair behind a thick reinforced glass wall, eyes
-      suddenly snapping wide open as if jolted awake. On the right side of
-      the frame, SCP-966 stands close against the glass on the other side,
-      its wide mouth open as though it has just finished emitting a
-      silent pulse toward him.
+      Rendered as a grainy monochrome infrared camera image (greyscale,
+      faint scan lines). Medium shot, waist-up, low angle. Realistic adult
+      body proportions. On the left side of the frame, a D-Class subject
+      sits strapped into an observation chair inside a sealed test booth
+      behind a thick reinforced glass wall, eyes suddenly snapping wide
+      open as if jolted awake. On the right side of the frame, SCP-966
+      stands close against the far side of that same glass wall, its wide
+      mouth open as though it has just finished emitting a silent pulse
+      toward him through the glass.
     characters: [d-class, scp-966]
     caption:
-      ja: "SCP-966は未知の波（ドクター██████に因み██████波と命名）を一度放つことで狩りを行い、対象が睡眠段階に入る能力を恒久的に阻害する。"
+      ja: "SCP-966は、それまで知られていなかった種類の波を一度放つことで狩りを行い、影響を受けた生物が睡眠のいかなる段階にも入る能力を恒久的に阻害する。"
       en: "SCP-966 hunt by emitting a single burst of a previously unknown type of wave, which permanently inhibits the ability of the affected creature to enter any stage of sleep."
       cs: "SCP-966 loví tak, že vyšle jediný impuls dosud neznámého typu vlny, který trvale znemožní postižené bytosti vstoupit do jakékoli fáze spánku."
       de: "SCP-966 jagt, indem es einen einzelnen Impuls einer bisher unbekannten Wellenart aussendet, der die Fähigkeit des betroffenen Lebewesens, in irgendeine Schlafphase einzutreten, dauerhaft unterbindet."
@@ -123,13 +132,21 @@ panels:
       zh_Hant: "SCP-966透過釋放一種此前未知的波來進行狩獵，該波會永久性地抑制受影響生物進入任何睡眠階段的能力。"
 
   - scene: >
-      Wide shot, full body, eye level, pulled back to show the whole
-      observation chamber. On the right side of the frame, the D-Class
-      subject slumps against the wall, disheveled and disoriented from
-      sleeplessness, dragging his feet as he stumbles. On the left side of
-      the frame, SCP-966 creeps low along the floor in near-total silence,
-      steadily closing the distance, one clawed hand reaching toward him.
+      Rendered as a grainy monochrome infrared camera image (greyscale,
+      faint scan lines); the lighting has dimmed and the D-Class now has
+      heavy stubble and rumpled clothing, showing that many hours have
+      passed since the previous panel. Wide shot,
+      full body, eye level, pulled back to show the whole sealed test
+      booth. On the right side of the frame, the D-Class subject has slid
+      down against the same reinforced glass wall, dishevelled, hollow-eyed
+      and drooping from days without sleep. On the left side of the frame,
+      on the far side of that glass, SCP-966 creeps low along the floor in
+      near-total silence, mirroring him, one clawed hand pressed flat
+      against the glass.
     characters: [d-class, scp-966]
+    notes: >
+      Codexレビュー反映: 3→4コマでガラス・拘束の設定が消えSCP-966と同室に
+      なる指摘。隔壁を4コマとも維持し、時間経過（時計・暗転）を画で示した。
     caption:
       ja: "対象から睡眠を奪った後、SCP-966は疲労が対象を無力化するまで静かに獲物を追跡し続け、その後捕食する。"
       en: "After depriving their victims of sleep, SCP-966 will stalk their prey in near-total silence until the lack of rest incapacitates it, and will then proceed to consume it."

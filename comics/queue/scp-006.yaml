@@ -109,11 +109,13 @@ panels:
 
   - scene: >
       Wide shot, full body, eye level, pulled back to show the whole
-      testing area. The lab rat, now plump and glossy-furred, bounds
-      energetically around the dish. On the left, Attending Researcher
-      (Female) and on the right, Attending Researcher (Male), both still
-      fully suited, lean in close together and stare through their
-      visors in stunned disbelief.
+      testing area, a wall clock indicating several hours have passed.
+      The lab rat looks healthy and lively now, its thin patchy coat
+      filled back in, sniffing around the dish. On the left, Attending
+      Researcher (Female) holds up a lab analysis sheet showing flat,
+      clean results (no readable text); on the right, Attending
+      Researcher (Male) compares it against an earlier chart, both still
+      fully suited, staring through their visors in quiet disbelief.
     characters: [attending-researcher-f, attending-researcher-m]
     caption:
       ja: "動物対象に対する試験では、有害な細菌およびウイルス性病原体が即座に死滅した。"

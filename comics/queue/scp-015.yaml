@@ -85,12 +85,14 @@ panels:
       zh_Hant: "據報告，這些管道由骨頭、木材、鋼鐵、壓製灰燼、人體組織、玻璃和花崗岩製成。目前未發現由鉛、PVC塑膠、銅或其他任何傳統製管材料製成的管道。"
 
   - scene: >
-      Close-up shot centered on a gloved hand gripping a wrench, reaching
-      toward a leaking pipe joint. This is the D-Class subject's hand,
-      visible at the bottom of the frame; behind it, out of focus, the
-      attending male researcher's face is turning toward him with a sharp,
-      alarmed expression, one arm already reaching out to stop him. In the
-      background, the surrounding pipes seem to tense and creak.
+      Close-up shot centered on a gloved hand gripping a wrench, still a
+      good distance from a leaking pipe joint. This is the D-Class
+      subject's hand, visible at the bottom of the frame; the pipes all
+      around have already begun shuddering and creaking the moment he
+      merely drew the wrench, well before it nears anything. Behind him,
+      out of focus, the attending male researcher's face is turning
+      toward him with a sharp, alarmed expression, one arm already
+      reaching out to stop him.
     characters: [d-class, attending-researcher-m]
     caption:
       ja: "SCP-015は工具や攻撃的行為に反応する。暴力的な行動を取る者、工具を携帯する者、あるいはSCP-015に何らかの方法で損傷を与えようとしたり修理しようとしたりする者は、いずれも反応を引き起こす。"

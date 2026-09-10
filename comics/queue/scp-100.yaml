@@ -130,14 +130,19 @@ panels:
 
   - scene: >
       Wide shot, pulled back, showing the whole storefront interior. On the
-      left side of the frame, Attending-Researcher-M stands with arms
-      crossed, pointing accusingly at a small sign posted on the wall near
-      the counter. On the right side of the frame, SCP-100-1 shrugs with
-      both arms raised, its blank aluminum face tilted, utterly unbothered.
+      left side of the frame, SCP-100-1 stands behind the counter calmly
+      pointing one aluminum-can hand at a small sign posted on the wall
+      beside it, its blank aluminum face tilted, utterly unbothered. On the
+      right side of the frame, Attending-Researcher-M throws both hands up
+      in protest, gesturing at the contaminated scrap pile on the counter
+      between them.
     notes: >
       根拠: 問い詰めると動揺と無関心の両方の反応、壁の張り紙を指す仕草。
-      変えてはいけない: 壁の張り紙を指す仕草、無関心な反応。変更可能: 構図。
-    characters: [attending-researcher-m, scp-100-1]
+      変えてはいけない: 壁の張り紙を指す仕草（SCP-100-1がする）、無関心な反応。
+      変更可能: 構図。
+      Codexレビュー反映: captionではSCP-100-1が張り紙を指すのに、sceneでは研究員が
+      指していた指摘。SCP-100-1が片手で張り紙を示し、研究員が抗議する配置に修正。
+    characters: [scp-100-1, attending-researcher-m]
     caption:
       ja: "この件についてSCP-100-1を問い詰めようとする試みには、動揺と無関心の両方の反応が返ってきた。その感情的反応にかかわらず、壁に貼られた張り紙を指し示す仕草が必ず返ってくる。"
       en: "Efforts to confront SCP-100-1 about this have been met with both distress and indifference, with referral to a sign posted on the wall happening regardless of its emotional response."

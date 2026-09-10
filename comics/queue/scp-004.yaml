@@ -70,10 +70,12 @@ panels:
       zh_Hant: "SCP-004由一扇老舊的木製穀倉門（SCP-004-1）和一套十二把生鏽的鋼製鑰匙（SCP-004-2至004-13）組成。"
 
   - scene: >
-      Medium shot, waist-up, front-on. On the left, D-Class Personnel
-      holds up one rusted key close to the door's lock, tilting his head
-      with curiosity. On the right, Attending Researcher (Female) throws
-      up one hand in a sharp "stop" gesture, mouth open mid-warning, eyes
+      Medium shot, waist-up, front-on. The barn door SCP-004-1 stands
+      wide open, only darkness beyond its threshold. On the left, D-Class
+      Personnel steps toward the open doorway with one rusted key held
+      out in front of him, on the verge of carrying it across the
+      threshold. On the right, Attending Researcher (Female) throws up
+      one hand in a sharp "stop" gesture, mouth open mid-warning, eyes
       wide.
     characters: [d-class, attending-researcher-f]
     caption:
@@ -94,12 +96,13 @@ panels:
       zh_Hant: "在任何情況下，都不得將SCP-004的其他組成部分帶過SCP-004-1（門）。"
 
   - scene: >
-      Close-up shot, tightly framed on D-Class Personnel's hand slowly
-      guiding the rusted key toward the door's keyhole, the key nearly
-      touching it. In the blurred background, Attending Researcher
-      (Female)'s face is frozen in wide-eyed horror, still mid-reach
-      toward him.
-    characters: [d-class, attending-researcher-f]
+      Close-up shot, tightly framed on Attending Researcher (Female)'s
+      hands over an open experiment logbook and a budget ledger on a
+      desk (no readable text), her pen hovering above an empty row
+      without writing, knuckles tense with unease. Out of focus behind
+      her, D-Class Personnel stands frozen, the rusted key still in his
+      hand near the open door.
+    characters: [attending-researcher-f, d-class]
     caption:
       ja: "そうした場合の影響は未だ不明であり、現状ではさらなる実験にかかる費用が現実的でない。"
       en: "The effects of doing so are as yet unknown, and the current cost of experimentation makes further research impractical."
@@ -118,11 +121,13 @@ panels:
       zh_Hant: "這樣做的後果目前尚不清楚，而目前實驗所需的成本使得進一步研究不切實際。"
 
   - scene: >
-      Wide shot, full body, eye level, pulled back to show the whole
-      testing room. On the left, Attending Researcher (Male) has lunged
-      in and grips D-Class Personnel's wrist, prying the key from his
-      fingers, in the center. On the right, Attending Researcher (Female)
-      exhales sharply, lowering her raised hand, visibly relieved.
+      Wide shot, full body, eye level, at the doorway leading out of the
+      testing area, with a security checkpoint and sign-out desk beside
+      it (no readable text). In the center, Attending Researcher (Male)
+      blocks D-Class Personnel right at the exit threshold, one hand held
+      flat against his chest and the other taking the rusted key back off
+      him. On the right, Attending Researcher (Female) exhales sharply,
+      lowering her raised hand, visibly relieved.
     characters: [attending-researcher-m, d-class, attending-researcher-f]
     caption:
       ja: "試験区画からの鍵の無許可な持ち出しは、即時解雇の対象となる。"

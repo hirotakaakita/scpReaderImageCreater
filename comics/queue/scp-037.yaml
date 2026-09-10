@@ -37,9 +37,10 @@ panels:
       containment chamber. In the exact center of the room a single
       tiny, blindingly brilliant point of light hangs in mid-air, held
       in place by a ring of heavy electromagnetic coils. The walls are
-      lined with dark heat-conducting polymer tiles. On the left side of
-      the frame, Attending Researcher (Male) stands at a monitoring
-      console watching gauges. Everything is lit mainly by the fierce
+      lined with dark heat-conducting polymer tiles. Set apart on the
+      left, behind a thick sealed bulkhead window outside the vacuum
+      chamber, Attending Researcher (Male) stands at a monitoring console
+      watching gauges. The chamber interior is lit mainly by the fierce
       white glow of the little star.
     characters: [attending-researcher-m]
     notes: >
@@ -141,27 +142,27 @@ panels:
       frame. Reflected in her glasses is the small burning star.
     characters: [attending-researcher-f]
     notes: >
-      根拠: Description「Research indicates the star undergoes accelerated
-      stellar evolution, potentially resulting in a nova event with
-      catastrophic yield within an estimated timeframe (details
-      redacted).」+ SC procedures の Pituaq Protocol（同じ本編、補遺で
-      はない）。
+      根拠: 加速した恒星進化が最終的に恒星ノヴァに至ること＋SC procedures
+      「In the contingency that stellar evolution proceeds ahead of
+      projections and a nova event appears imminent ... project staff are
+      authorized to initiate the Pituaq Protocol.」（本編）。数値・期間は
+      伏字のため書かない。
       変えてはいけない事実: 加速する恒星進化とノヴァの脅威、非常用の
-      対応手段が用意されていること。
+      対応手段（プイタック・プロトコル）が用意されていること。
       変更可能: 研究者の表情の強さ、非常パネルの見せ方。
     caption:
-      ja: "研究の結果、この恒星は加速した恒星進化の過程にあり、推定される期間内に破滅的な規模のノヴァを起こす可能性があることが示されている。職員は、ノヴァが差し迫った場合にプイタック・プロトコルを発動する権限を与えられている。"
-      en: "Research indicates that the star is undergoing accelerated stellar evolution, potentially resulting in a nova event with catastrophic yield within an estimated timeframe. Staff are authorized to initiate the Pituaq Protocol if a stellar nova appears imminent."
-      cs: "Výzkum naznačuje, že hvězda prochází zrychleným hvězdným vývojem a v odhadovaném časovém rámci může dojít k nově s katastrofálním výnosem. Personál je oprávněn zahájit Protokol Pituaq, pokud se hvězdná nova jeví jako bezprostřední."
-      de: "Untersuchungen deuten darauf hin, dass der Stern eine beschleunigte Sternentwicklung durchläuft und innerhalb eines geschätzten Zeitraums eine Nova mit katastrophaler Energiefreisetzung auslösen könnte. Das Personal ist befugt, das Pituaq-Protokoll einzuleiten, wenn eine Sternennova unmittelbar bevorzustehen scheint."
-      es: "Las investigaciones indican que la estrella está experimentando una evolución estelar acelerada, que podría dar lugar a una nova de rendimiento catastrófico dentro de un plazo estimado. El personal está autorizado a iniciar el Protocolo Pituaq si una nova estelar parece inminente."
-      fr: "Les recherches indiquent que l'étoile subit une évolution stellaire accélérée, pouvant aboutir à une nova au rendement catastrophique dans un délai estimé. Le personnel est autorisé à déclencher le Protocole Pituaq si une nova stellaire semble imminente."
-      it: "Le ricerche indicano che la stella sta attraversando un'evoluzione stellare accelerata, con la possibilità di una nova dalla resa catastrofica entro un intervallo di tempo stimato. Il personale è autorizzato ad avviare il Protocollo Pituaq se una nova stellare appare imminente."
-      ko: "연구에 따르면 이 항성은 가속된 항성 진화 과정을 겪고 있으며, 추정된 기간 내에 파국적 규모의 신성 폭발을 일으킬 가능성이 있다. 직원은 항성 신성 폭발이 임박한 것으로 보일 경우 피투아크 프로토콜을 개시할 권한이 있다."
-      pl: "Badania wskazują, że gwiazda przechodzi przyspieszoną ewolucję gwiazdową i w szacowanym czasie może dojść do wybuchu nowej o katastrofalnej sile. Personel jest upoważniony do wdrożenia Protokołu Pituaq, jeśli wybuch nowej wydaje się nieuchronny."
-      pt: "As pesquisas indicam que a estrela está passando por uma evolução estelar acelerada, podendo resultar em uma nova de rendimento catastrófico dentro de um prazo estimado. A equipe está autorizada a iniciar o Protocolo Pituaq caso uma nova estelar pareça iminente."
-      th: "การวิจัยชี้ว่าดาวดวงนี้กำลังผ่านวิวัฒนาการของดาวฤกษ์ที่เร่งตัวขึ้น และอาจก่อให้เกิดการระเบิดโนวาที่มีพลังหายนะภายในกรอบเวลาที่ประเมินไว้ เจ้าหน้าที่ได้รับอนุญาตให้เริ่มพิธีการพิตวก หากดูเหมือนว่าการระเบิดโนวาใกล้จะเกิดขึ้น"
-      uk: "Дослідження вказують, що зоря переживає прискорену зоряну еволюцію і в межах орієнтовного строку може спричинити спалах нової з катастрофічною потужністю. Персонал уповноважений розпочати Протокол Пітуак, якщо спалах нової видається неминучим."
-      vi: "Nghiên cứu cho thấy ngôi sao đang trải qua quá trình tiến hóa sao tăng tốc, có khả năng dẫn đến một vụ nổ nova với sức công phá thảm khốc trong một khung thời gian ước tính. Nhân viên được phép khởi động Quy trình Pituaq nếu một vụ nổ nova có vẻ sắp xảy ra."
-      zh: "研究表明，该恒星正经历加速的恒星演化，可能在估计的时间范围内发生一次具有灾难性当量的新星爆发。若恒星新星爆发迫在眉睫，职员有权启动皮图阿克协议。"
-      zh_Hant: "研究表明，該恆星正經歷加速的恆星演化，可能在估計的時間範圍內發生一次具有災難性當量的新星爆發。若恆星新星爆發迫在眉睫，職員有權啟動皮圖阿克協議。"
+      ja: "SCP-037は、著しく加速した速度で恒星進化を遂げつつあり、この過程は最終的に恒星ノヴァに至る。恒星進化が予測を上回って進行し、ノヴァの発生が差し迫ったと見られる場合、残る計画職員はプイタック・プロトコルを発動する権限を与えられている。"
+      en: "SCP-037 is undergoing stellar evolution at a vastly accelerated rate, a process that will ultimately terminate in a stellar nova. Should stellar evolution proceed ahead of projections and a nova event appear imminent, remaining project staff are authorized to initiate the Pituaq Protocol."
+      cs: "SCP-037 prochází hvězdným vývojem nesmírně zrychleným tempem a tento proces nakonec vyústí v hvězdnou novu. Pokud hvězdný vývoj postoupí rychleji, než se předpokládá, a výbuch novy se bude jevit jako bezprostřední, je zbývající projektový personál oprávněn zahájit Protokol Pituaq."
+      de: "SCP-037 durchläuft eine Sternentwicklung mit enorm beschleunigtem Tempo, ein Prozess, der letztlich in einer Sternennova endet. Sollte die Sternentwicklung schneller als vorhergesagt verlaufen und eine Nova unmittelbar bevorstehen, ist das verbleibende Projektpersonal befugt, das Pituaq-Protokoll einzuleiten."
+      es: "SCP-037 está experimentando una evolución estelar a un ritmo enormemente acelerado, un proceso que culminará finalmente en una nova estelar. Si la evolución estelar avanza más rápido de lo previsto y una nova parece inminente, el personal restante del proyecto está autorizado a iniciar el Protocolo Pituaq."
+      fr: "SCP-037 subit une évolution stellaire à un rythme extrêmement accéléré, un processus qui aboutira finalement à une nova stellaire. Si l'évolution stellaire progresse plus vite que prévu et qu'une nova semble imminente, le personnel restant du projet est autorisé à déclencher le Protocole Pituaq."
+      it: "SCP-037 sta attraversando un'evoluzione stellare a un ritmo enormemente accelerato, un processo che culminerà infine in una nova stellare. Se l'evoluzione stellare procede più rapidamente del previsto e una nova appare imminente, il personale di progetto rimanente è autorizzato ad avviare il Protocollo Pituaq."
+      ko: "SCP-037은 매우 가속된 속도로 항성 진화를 겪고 있으며, 이 과정은 결국 항성 신성 폭발로 끝난다. 항성 진화가 예측보다 빠르게 진행되어 신성 폭발이 임박한 것으로 보일 경우, 남은 계획 직원은 피투아크 프로토콜을 개시할 권한이 있다."
+      pl: "SCP-037 przechodzi ewolucję gwiazdową w ogromnie przyspieszonym tempie, a proces ten ostatecznie zakończy się wybuchem nowej. Jeśli ewolucja gwiazdowa postępuje szybciej, niż przewidywano, a wybuch nowej wydaje się nieuchronny, pozostały personel projektu jest upoważniony do wdrożenia Protokołu Pituaq."
+      pt: "SCP-037 está passando por uma evolução estelar a um ritmo enormemente acelerado, um processo que terminará por fim em uma nova estelar. Caso a evolução estelar avance mais rápido do que o previsto e uma nova pareça iminente, o pessoal restante do projeto está autorizado a iniciar o Protocolo Pituaq."
+      th: "SCP-037 กำลังผ่านวิวัฒนาการของดาวฤกษ์ด้วยอัตราที่เร่งขึ้นอย่างมาก กระบวนการนี้จะสิ้นสุดลงด้วยการระเบิดโนวาของดาวฤกษ์ในที่สุด หากวิวัฒนาการของดาวดำเนินไปเร็วกว่าที่คาดการณ์ไว้และการระเบิดโนวาดูใกล้จะเกิดขึ้น เจ้าหน้าที่โครงการที่เหลืออยู่ได้รับอนุญาตให้เริ่มพิธีการพิตวก"
+      uk: "SCP-037 переживає зоряну еволюцію надзвичайно прискореними темпами, і цей процес зрештою завершиться спалахом нової. Якщо зоряна еволюція відбуватиметься швидше за прогнози, а спалах нової видаватиметься неминучим, решта персоналу проєкту вповноважена розпочати Протокол Пітуак."
+      vi: "SCP-037 đang trải qua quá trình tiến hóa sao với tốc độ tăng nhanh phi thường, một quá trình cuối cùng sẽ kết thúc bằng một vụ nổ nova. Nếu quá trình tiến hóa sao diễn ra nhanh hơn dự kiến và một vụ nổ nova có vẻ sắp xảy ra, nhân viên dự án còn lại được phép khởi động Quy trình Pituaq."
+      zh: "SCP-037正以极大加速的速度经历恒星演化，这一过程最终将以恒星新星爆发告终。若恒星演化的进程快于预测，且新星爆发看似迫在眉睫，剩余的项目职员有权启动皮图阿克协议。"
+      zh_Hant: "SCP-037正以極大加速的速度經歷恆星演化，這一過程最終將以恆星新星爆發告終。若恆星演化的進程快於預測，且新星爆發看似迫在眉睫，剩餘的項目職員有權啟動皮圖阿克協議。"

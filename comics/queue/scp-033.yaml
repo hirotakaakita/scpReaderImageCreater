@@ -88,10 +88,12 @@ panels:
   - scene: >
       Medium shot, waist-up, slight high angle, a different framing from
       the wide shot. On the left side of the frame, attending-researcher-f
-      recoils a step back from a desk. On the right side of the frame, on
-      that desk, a pocket calculator and a round wall clock are visibly
-      failing, their glowing figures sliding, sagging and dropping off
-      like melting shapes; SCP-033 lies flat on the desk beside them.
+      recoils a step back from a desk. On the right side of the frame,
+      SCP-033 lies flat on the desk and a faint trail of its dense marks
+      is creeping across the desk surface into a pocket calculator and up
+      toward a round wall clock; both devices are visibly failing, their
+      glowing figures sliding, sagging and dropping off like melting
+      shapes.
     characters: [attending-researcher-f, scp-033]
     notes: >
       根拠: Description「現代の数学的計算はすべてSCP-033の知識・使用を欠いて
@@ -151,11 +153,12 @@ panels:
   - scene: >
       Wide shot, full body, eye level, a study room, a different framing
       from the previous panels. On the left side of the frame, d-class
-      copies the dense illegible symbols from SCP-033 onto a deliberately
-      crooked, lopsided whiteboard with no straight edges. In the center,
-      SCP-033 rests upright on a small easel stand. On the right side of
-      the frame, attending-researcher-f stares at a large mechanical
-      stopwatch, one hand raised flat to signal a stop.
+      copies the dense illegible symbols from SCP-033 onto an
+      irregular-polygon whiteboard whose straight edges are all different
+      lengths, with no two edges parallel and no right-angled corners. In
+      the center, SCP-033 rests upright on a small easel stand. On the
+      right side of the frame, attending-researcher-f stares at a large
+      mechanical stopwatch, one hand raised flat to signal a stop.
     characters: [d-class, scp-033, attending-researcher-f]
     notes: >
       根拠: SCP第2段落「研究のため持ち出す際はD級職員が033-Safe寸法の
@@ -164,18 +167,18 @@ panels:
       事実: D級が不規則形状の board に写すこと、2000秒で中止すること。
       変更可能: 部屋の見せ方、合図の演出。
     caption:
-      ja: "研究のために持ち出す場合、SCP-033はD級職員によって033-安全寸法のホワイトボードまたは黒板に書き写してよい。閲覧開始からちょうど2000秒で研究を中止し、SCP-033を保管庫に戻さなければならない。"
-      en: "When removed for study, SCP-033 can be copied to a white/chalkboard with 033-Safe dimensions by Class D staff. At precisely 2000 seconds of viewing, research must stop and SCP-033 is returned to storage."
-      cs: "Při vyjmutí ke studiu smí SCP-033 personál třídy D přepsat na bílou či černou tabuli s rozměry 033-Safe. Přesně po 2000 sekundách prohlížení musí výzkum skončit a SCP-033 se vrací do úložiště."
-      de: "Bei der Entnahme zum Studium darf SCP-033 von Personal der Klasse D auf ein Whiteboard oder eine Tafel mit 033-Safe-Abmessungen übertragen werden. Nach genau 2000 Sekunden Betrachtung muss die Forschung eingestellt und SCP-033 wieder eingelagert werden."
-      es: "Cuando se retira para su estudio, el personal de Clase D puede copiar SCP-033 en una pizarra blanca o de tiza con dimensiones 033-Safe. A los 2000 segundos exactos de visualización, la investigación debe detenerse y SCP-033 se devuelve al almacén."
-      fr: "Lorsqu'il est sorti pour étude, le SCP-033 peut être recopié par du personnel de Classe D sur un tableau blanc ou noir aux dimensions 033-Safe. Au bout de 2000 secondes exactes de visionnage, la recherche doit cesser et le SCP-033 est remis en stockage."
-      it: "Quando viene prelevato per lo studio, SCP-033 può essere ricopiato dal personale di Classe D su una lavagna bianca o nera con dimensioni 033-Safe. Dopo esattamente 2000 secondi di osservazione, la ricerca deve interrompersi e SCP-033 viene riposto in deposito."
-      ko: "연구를 위해 반출할 경우, D등급 직원이 SCP-033을 033-안전 치수의 화이트보드 또는 칠판에 옮겨 적을 수 있다. 열람 개시 후 정확히 2000초가 되면 연구를 중단하고 SCP-033을 보관고로 되돌린다."
-      pl: "Po wyjęciu do badań personel Klasy D może przepisać SCP-033 na tablicę suchościeralną lub kredową o wymiarach 033-Safe. Po dokładnie 2000 sekundach oglądania badania muszą się zakończyć, a SCP-033 wraca do magazynu."
-      pt: "Ao ser retirado para estudo, o SCP-033 pode ser copiado pela equipe de Classe D para um quadro branco ou de giz com dimensões 033-Safe. Após exatos 2000 segundos de observação, a pesquisa deve parar e o SCP-033 é devolvido ao armazenamento."
-      th: "เมื่อนำออกมาเพื่อการศึกษา เจ้าหน้าที่ระดับ D สามารถคัดลอก SCP-033 ลงบนไวต์บอร์ดหรือกระดานดำที่มีมิติ 033-Safe ได้ เมื่อครบ 2000 วินาทีพอดีของการรับชม ต้องหยุดการวิจัยและนำ SCP-033 กลับเข้าที่จัดเก็บ"
-      uk: "Під час вилучення для вивчення персонал класу D може переписати SCP-033 на білу або крейдяну дошку з розмірами 033-Safe. Рівно через 2000 секунд перегляду дослідження має припинитися, а SCP-033 повертають до сховища."
-      vi: "Khi được lấy ra để nghiên cứu, nhân viên Cấp D có thể chép SCP-033 lên một bảng trắng hoặc bảng phấn có kích thước 033-Safe. Đúng 2000 giây quan sát, việc nghiên cứu phải dừng lại và SCP-033 được đưa trở lại kho lưu trữ."
-      zh: "为研究而取出时，D级人员可将SCP-033抄写到符合033-安全尺寸的白板或黑板上。观看到整2000秒时，研究必须停止，并将SCP-033送回保管库。"
-      zh_Hant: "為研究而取出時，D級人員可將SCP-033抄寫到符合033-安全尺寸的白板或黑板上。觀看到整2000秒時，研究必須停止，並將SCP-033送回保管庫。"
+      ja: "研究のために持ち出す場合、SCP-033はD級職員によって033-安全寸法のホワイトボードまたは黒板に書き写してよい。閲覧開始からちょうど2000秒で研究を中止し、SCP-033を新しい033-安全寸法の紙状製品に写し替えたうえで保管庫に戻さなければならない。"
+      en: "When removed for study, SCP-033 can be copied to a white/chalkboard with 033-Safe dimensions by Class D staff. At precisely 2000 seconds of viewing, research must stop, and SCP-033 is transferred to a new 033-Safe paper-like product and returned to storage."
+      cs: "Při vyjmutí ke studiu smí SCP-033 personál třídy D přepsat na bílou či černou tabuli s rozměry 033-Safe. Přesně po 2000 sekundách prohlížení musí výzkum skončit a SCP-033 se přepíše na nový papírovitý produkt s rozměry 033-Safe a vrátí se do úložiště."
+      de: "Bei der Entnahme zum Studium darf SCP-033 von Personal der Klasse D auf ein Whiteboard oder eine Tafel mit 033-Safe-Abmessungen übertragen werden. Nach genau 2000 Sekunden Betrachtung muss die Forschung eingestellt werden; SCP-033 wird auf ein neues papierartiges Erzeugnis mit 033-Safe-Abmessungen übertragen und wieder eingelagert."
+      es: "Cuando se retira para su estudio, el personal de Clase D puede copiar SCP-033 en una pizarra blanca o de tiza con dimensiones 033-Safe. A los 2000 segundos exactos de visualización, la investigación debe detenerse; SCP-033 se transfiere a un nuevo producto similar al papel con dimensiones 033-Safe y se devuelve al almacén."
+      fr: "Lorsqu'il est sorti pour étude, le SCP-033 peut être recopié par du personnel de Classe D sur un tableau blanc ou noir aux dimensions 033-Safe. Au bout de 2000 secondes exactes de visionnage, la recherche doit cesser ; le SCP-033 est transféré sur un nouveau produit de type papier aux dimensions 033-Safe puis remis en stockage."
+      it: "Quando viene prelevato per lo studio, SCP-033 può essere ricopiato dal personale di Classe D su una lavagna bianca o nera con dimensioni 033-Safe. Dopo esattamente 2000 secondi di osservazione, la ricerca deve interrompersi; SCP-033 viene trasferito su un nuovo prodotto cartaceo con dimensioni 033-Safe e riposto in deposito."
+      ko: "연구를 위해 반출할 경우, D등급 직원이 SCP-033을 033-안전 치수의 화이트보드 또는 칠판에 옮겨 적을 수 있다. 열람 개시 후 정확히 2000초가 되면 연구를 중단하고, SCP-033을 033-안전 치수의 새 종이 형태 제품에 옮겨 적은 뒤 보관고로 되돌린다."
+      pl: "Po wyjęciu do badań personel Klasy D może przepisać SCP-033 na tablicę suchościeralną lub kredową o wymiarach 033-Safe. Po dokładnie 2000 sekundach oglądania badania muszą się zakończyć, a SCP-033 zostaje przeniesione na nowy produkt papieropodobny o wymiarach 033-Safe i wraca do magazynu."
+      pt: "Ao ser retirado para estudo, o SCP-033 pode ser copiado pela equipe de Classe D para um quadro branco ou de giz com dimensões 033-Safe. Após exatos 2000 segundos de observação, a pesquisa deve parar; o SCP-033 é transferido para um novo produto semelhante a papel com dimensões 033-Safe e devolvido ao armazenamento."
+      th: "เมื่อนำออกมาเพื่อการศึกษา เจ้าหน้าที่ระดับ D สามารถคัดลอก SCP-033 ลงบนไวต์บอร์ดหรือกระดานดำที่มีมิติ 033-Safe ได้ เมื่อครบ 2000 วินาทีพอดีของการรับชม ต้องหยุดการวิจัย แล้วคัดลอก SCP-033 ลงบนผลิตภัณฑ์คล้ายกระดาษชิ้นใหม่ที่มีมิติ 033-Safe ก่อนนำกลับเข้าที่จัดเก็บ"
+      uk: "Під час вилучення для вивчення персонал класу D може переписати SCP-033 на білу або крейдяну дошку з розмірами 033-Safe. Рівно через 2000 секунд перегляду дослідження має припинитися, а SCP-033 переносять на новий паперуватий виріб із розмірами 033-Safe й повертають до сховища."
+      vi: "Khi được lấy ra để nghiên cứu, nhân viên Cấp D có thể chép SCP-033 lên một bảng trắng hoặc bảng phấn có kích thước 033-Safe. Đúng 2000 giây quan sát, việc nghiên cứu phải dừng lại; SCP-033 được chép sang một sản phẩm dạng giấy mới có kích thước 033-Safe rồi được đưa trở lại kho lưu trữ."
+      zh: "为研究而取出时，D级人员可将SCP-033抄写到符合033-安全尺寸的白板或黑板上。观看到整2000秒时，研究必须停止，并将SCP-033转写到一张符合033-安全尺寸的新纸状制品上，再送回保管库。"
+      zh_Hant: "為研究而取出時，D級人員可將SCP-033抄寫到符合033-安全尺寸的白板或黑板上。觀看到整2000秒時，研究必須停止，並將SCP-033轉寫到一張符合033-安全尺寸的新紙狀製品上，再送回保管庫。"

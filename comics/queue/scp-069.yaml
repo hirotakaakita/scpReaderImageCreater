@@ -58,7 +58,7 @@ panels:
       de: "SCP-069 erregte erstmals am █/██/199█ die Aufmerksamkeit der Stiftung, nachdem Berichte über einen gewissen John M███████ auftauchten, einen Feuerwehrmann aus █████████ City, der auf wundersame Weise lebend aus einem Gebäudebrand dritten Grades entkam, bei dem 2 weitere Feuerwehrleute und 11 Zivilisten ums Leben kamen."
       es: "SCP-069 llamó la atención de la Fundación por primera vez el █/██/199█, tras informes sobre un tal John M███████, bombero de la ciudad de █████████, que salió milagrosamente con vida de un incendio de tercer nivel en el que murieron otros 2 bomberos y 11 civiles."
       fr: "SCP-069 a attiré pour la première fois l'attention de la Fondation le █/██/199█, à la suite de rapports concernant un certain John M███████, pompier de la ville de █████████, qui a miraculeusement survécu à un incendie de bâtiment de niveau 3 ayant causé la mort de 2 autres pompiers et de 11 civils."
-      it: "SCP-073 SCP-069 attirò per la prima volta l'attenzione della Fondazione il █/██/199█, in seguito a segnalazioni riguardanti un certo John M███████, un vigile del fuoco della città di █████████, uscito miracolosamente vivo da un incendio di livello 3 in cui persero la vita altri 2 vigili del fuoco e 11 civili."
+      it: "SCP-069 attirò per la prima volta l'attenzione della Fondazione il █/██/199█, in seguito a segnalazioni riguardanti un certo John M███████, un vigile del fuoco della città di █████████, uscito miracolosamente vivo da un incendio di livello 3 in cui persero la vita altri 2 vigili del fuoco e 11 civili."
       ko: "SCP-069는 199█년 █월 █일, █████████ 시의 소방관 존 M███████에 관한 보고가 접수되면서 처음으로 재단의 주목을 받았다. 그는 다른 소방관 2명과 민간인 11명이 사망한 3단계 경보 화재 건물에서 기적적으로 살아나왔다."
       pl: "SCP-069 po raz pierwszy zwróciło uwagę Fundacji █/██/199█ roku, w związku z doniesieniami o niejakim Johnie M███████, strażaku z miasta █████████, który cudem wyszedł żywy z pożaru budynku trzeciego stopnia, w którym zginęło 2 innych strażaków i 11 cywilów."
       pt: "SCP-069 chamou a atenção da Fundação pela primeira vez em █/██/199█, após relatos sobre um certo John M███████, bombeiro da cidade de █████████, que saiu milagrosamente vivo de um incêndio de nível 3 no qual morreram outros 2 bombeiros e 11 civis."
@@ -71,10 +71,12 @@ panels:
   - scene: >
       Medium shot, waist-up, eye level, in a plain clinical examination
       room. On the left side of the frame, SCP-069 sits calmly on an exam
-      table in plain civilian clothing while a technician takes its
-      fingerprints. On the right side of the frame, the attending
-      researcher compares a fingerprint card against a file photo on a
-      clipboard, one eyebrow raised at the exact match.
+      table in plain civilian clothing, pressing an inked thumb onto a
+      fresh fingerprint card held by a technician. On the right side of
+      the frame, the attending researcher holds that fresh card up beside
+      an older archived fingerprint record of the impersonated man,
+      comparing the two ridge patterns, one eyebrow raised at the exact
+      match.
     characters: [scp-069, attending-researcher-m]
     caption:
       ja: "徹底的な実験の結果、SCP-069はそれが模倣する人物と完全に見分けがつかず、指紋、DNA、[データ削除]までほぼ完璧に元の人物と一致することが示された。SCP-069は自身の能力やこれまでの模倣について、いかなる記憶も保持していない。"
@@ -83,7 +85,7 @@ panels:
       de: "Umfangreiche Experimente haben gezeigt, dass SCP-069 von der Person, die es nachahmt, völlig ununterscheidbar ist und deren Fingerabdrücke, DNA und [DATEN GELÖSCHT] mit nahezu perfekter Präzision entspricht. SCP-069 behält kein Wissen über seine Fähigkeiten oder frühere Verkörperungen."
       es: "Mediante una amplia experimentación, se ha demostrado que SCP-069 es completamente indistinguible de la persona a la que suplanta, coincidiendo con sus huellas dactilares, ADN y [DATOS EXPURGADOS] con una precisión casi perfecta. SCP-069 no conserva ningún conocimiento de sus habilidades ni de suplantaciones anteriores."
       fr: "Grâce à de vastes expérimentations, il a été démontré que SCP-069 est totalement impossible à distinguer de l'individu qu'il imite, correspondant aux empreintes digitales, à l'ADN et aux [DONNÉES EXPURGÉES] de l'original avec une précision quasi parfaite. SCP-069 ne conserve aucun souvenir de ses capacités ni de ses usurpations d'identité antérieures."
-      it: "Attraverso approfonditi esperimenti, è stato dimostrato che SCP-073... SCP-069 è completamente indistinguibile dall'individuo che impersona, corrispondendo alle impronte digitali, al DNA e ai [DATI ESPUNTI] dell'originale con precisione quasi perfetta. SCP-069 non conserva alcuna conoscenza delle proprie abilità né delle precedenti impersonificazioni."
+      it: "Attraverso approfonditi esperimenti, è stato dimostrato che SCP-069 è completamente indistinguibile dall'individuo che impersona, corrispondendo alle impronte digitali, al DNA e ai [DATI ESPUNTI] dell'originale con precisione quasi perfetta. SCP-069 non conserva alcuna conoscenza delle proprie abilità né delle precedenti impersonificazioni."
       ko: "광범위한 실험을 통해, SCP-069는 자신이 흉내 내는 인물과 완전히 구별이 불가능하며, 지문, DNA, [데이터 말소]까지 거의 완벽하게 원본 인물과 일치한다는 사실이 밝혀졌다. SCP-069는 자신의 능력이나 이전의 위장에 대해 어떠한 기억도 가지고 있지 않다."
       pl: "Dzięki obszernym eksperymentom wykazano, że SCP-069 jest całkowicie nie do odróżnienia od osoby, którą podszywa, zgadzając się z odciskami palców, DNA i [DANE WYMAZANE] oryginału niemal z idealną precyzją. SCP-069 nie zachowuje żadnej wiedzy o swoich zdolnościach ani o wcześniejszych wcieleniach."
       pt: "Por meio de extensos experimentos, foi demonstrado que o SCP-069 é completamente indistinguível do indivíduo que ele personifica, correspondendo às impressões digitais, ao DNA e aos [DADOS EXPURGADOS] do original com precisão quase perfeita. O SCP-069 não retém nenhum conhecimento de suas habilidades ou personificações anteriores."
@@ -94,11 +96,11 @@ panels:
       zh_Hant: "經過大量實驗證明，SCP-069與牠所模仿的個體完全無法區分，其指紋、DNA及[數據刪除]與原本人幾乎完全吻合。SCP-069不會保留任何關於自身能力或以往模仿對象的記憶。"
 
   - scene: >
-      Close-up shot centered on SCP-069's face and upper body, filling
-      most of the frame, in a stark white containment cell. Its expression
-      is blank and unreadable, unnervingly calm, as thin wisps of gray
-      dust visibly drift off the edges of its skin and clothing into the
-      air, its form beginning to crumble apart.
+      Close-up shot, high angle looking down, in a stark white containment
+      cell. SCP-069 lies motionless on its back on the floor, plainly
+      already deceased, eyes closed, and its body is visibly collapsing
+      into gray dust from the extremities inward, thin wisps drifting up
+      into the air. No wounds or blood.
     characters: [scp-069]
     caption:
       ja: "SCP-069は死亡すると、いかなる保存の試みにもかかわらず急速に塵となって崩れ去る。その後、直近で人間が死亡した場所に再出現する。この効果には既知の最大範囲が存在せず、これまでに最大675キロメートルの跳躍が観測されている。"
@@ -119,13 +121,19 @@ panels:
 
   - scene: >
       Wide shot, full body, eye level, pulled back to show a plain office
-      room within the site. SCP-069, in plain clothing, sits at a small
-      desk calmly writing in a checkbook and sorting a stack of papers into
-      neat piles, an open ledger and a will-and-testament document laid
-      out in front of it. On the right side of the frame, the attending
-      researcher stands in the doorway with a clipboard, watching with a
-      puzzled expression.
+      room within the site. SCP-069 has re-emerged wearing the face and
+      build of a clearly different, older man than in the earlier panels,
+      in different plain clothing; it sits at a small desk calmly writing
+      in a checkbook and sorting a stack of papers into neat piles, an
+      open ledger and a will-and-testament document laid out in front of
+      it. On the right side of the frame, the attending researcher stands
+      in the doorway with a clipboard, watching with a puzzled expression.
     characters: [scp-069, attending-researcher-m]
+    notes: >
+      Codexレビュー反映: 消滅後の再出現や姿の変化が示されず出来事がつながらない
+      指摘。4コマ目はSCP-069が別人の姿で再出現していることを明示し、身辺整理が
+      その人物の人生の後始末であると伝わるようにした。3コマ目は死亡後の現象で
+      あることが分かるよう横たわった遺体が塵化する画に変更。
     caption:
       ja: "SCP-069は一人の人物を無期限に模倣し続けることができる。しかしその間、未払いの金銭的・個人的な義務の解消、疎遠な親族への訪問、遺言書の更新など、『身辺を整理したい』という抑えがたい衝動に駆られるようになる。質問を受けると、SCP-069は不慮の怪我や死に備えて身辺を整えたいという以外に、これといった動機は無いと述べる。"
       en: "SCP-069 will gain an overriding urge to 'get their life in order,' including but not limited to: resolving any outstanding financial or personal obligations, visiting extended family, updating their will and testament, and other acts of closure. When questioned, SCP-069 professes no driving motivation other than a desire to straighten out their lives in the event of unforeseen injury or death."

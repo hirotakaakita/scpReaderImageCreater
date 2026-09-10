@@ -126,18 +126,25 @@ panels:
 
   - scene: >
       Medium-wide shot, eye level. The reassembled aluminum tower stands
-      sealed on the bench, connected to a monitor whose screen glows with an
-      unfamiliar wash of colored light and abstract shapes. On the left side
-      of the frame, attending-researcher-f reaches out toward the tower's
-      power button. On the right side of the frame, attending-researcher-m
-      presses a palm flat against his own face in weary exasperation.
+      sealed on the bench, connected to two side-by-side monitors: the left
+      monitor shows a printed photo taped beside it of a completely
+      different colored screen layout from an earlier boot, while the right
+      monitor, live now, glows with an entirely unrelated wash of colored
+      light and abstract shapes. On the left side of the frame,
+      attending-researcher-f has just pressed the power button, mid-reboot.
+      On the right side of the frame, attending-researcher-m looks between
+      the old photo and the new screen, eyebrows up, realising it has
+      changed again.
     notes: >
       Panel-4 basis: SCP-062 "operates as expected for a normal desktop
       computer with the exception that its performance, operating system,
       contained data, and language appears to be different upon every
-      activation." Fixed facts: each boot is an unknown, unusable system.
-      Keep the screen text-free (abstract light only). Free to restage:
+      activation." Fixed facts: each boot looks different from the last.
+      Keep every screen text-free (abstract light only). Free to restage:
       poses, exact gag.
+      Codexレビュー反映: 1回の画面だけでは「起動のたびに変わる」が伝わらない
+      指摘。前回起動の画面と今回の画面を並べて対比し、苛立ちではなく変化に
+      気付く反応に変更。
     characters: [attending-researcher-f, attending-researcher-m]
     caption:
       ja: "それにもかかわらず、SCP-062は通常のデスクトップコンピュータとして期待どおりに動作する。ただし、その性能、オペレーティングシステム、格納されているデータ、および言語は、起動するたびに異なっているように見える。"

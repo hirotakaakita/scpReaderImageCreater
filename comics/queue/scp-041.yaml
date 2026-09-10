@@ -82,9 +82,11 @@ panels:
       Researcher (Female) stands just inside the doorway, pressing her
       fingertips to her temple and grimacing as if hearing something
       unwanted. On the right side of the frame, SCP-041 lies unmoving in
-      his bed. Between them, faint translucent floating images hang in
-      the air like soap bubbles: little pictures of random scenes, no
-      words or letters anywhere.
+      his bed. Rising faintly from the heads of both of them are ghostly,
+      clearly immaterial thought-images — little pictures of random
+      scenes drawn as a non-literal stand-in for a semi-audible mental
+      broadcast, not real objects in the room. No words or letters
+      anywhere.
     characters: [attending-researcher-f, scp-041]
     notes: >
       根拠: Description「Though appearing catatonic, SCP-041 possesses
@@ -145,12 +147,13 @@ panels:
       zh_Hant: "SCP-041受益於一名觀看電視的「陪護者」在場，這使SCP-041得以藉由他人的心智實際「觀看」電視。智力低於平均水準的D級人員被認為最為理想。"
 
   - scene: >
-      Close-up on the D-Class Personnel's face and hands, holding a
-      television remote loosely, wearing a mildly puzzled, blank
-      expression. Reflected colored light from the television plays
-      across their face in bright cheerful tones. Softly out of focus in
-      the background, SCP-041 lies calm and serene in his bed. No text
-      or letters anywhere in the frame.
+      Close-up on the D-Class Personnel's face and hands loosely holding
+      a television remote, brow furrowed in mild confusion, as the
+      reflected light on his face shifts from the harsh flicker of an
+      action film to the bright cheerful colors of a children's cartoon
+      he did not choose. Softly out of focus in the background, SCP-041
+      lies calm and serene in his bed. No text or letters anywhere in
+      the frame.
     characters: [d-class, scp-041]
     notes: >
       根拠: SC procedures「Though not controlling minds, SCP-041 has

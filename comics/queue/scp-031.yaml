@@ -114,12 +114,13 @@ panels:
   - scene: >
       Medium shot, waist-up, eye level, dim hotel hallway, a different
       framing from the previous panels. On the left side of the frame,
-      SCP-031's hanging pod has pushed its pale surface into a soft,
-      faceless, vaguely human silhouette that leans down and extends one
-      smooth arm-like shape in a welcoming gesture. On the right side of
+      SCP-031's hanging pod has reshaped its pale surface into the soft
+      but clearly recognizable form of a specific person from the
+      subject's past: a kind-faced older woman with a gentle smile and a
+      headscarf, arms opened in a welcoming embrace. On the right side of
       the frame, attending-researcher-f, in a full sealed hazmat suit
-      with helmet, stands frozen with one gloved hand half-raised,
-      hesitating.
+      with helmet, has gone still, one gloved hand half-raised toward the
+      figure in wavering recognition.
     characters: [scp-031, attending-researcher-f]
     notes: >
       根拠: Description第2段落「場合によっては被験者は胞子果を、過去に強い情緒的
@@ -149,10 +150,12 @@ panels:
       previous panels, a scorched and smoke-stained hotel hallway. On the
       left side of the frame, attending-researcher-m in a hazmat suit
       holds up a clipboard schedule, shoulders slumping in dismay. On the
-      right side of the frame, attending-researcher-f in a hazmat suit
-      lowers the nozzle of a backpack flame projector, a chemical sprayer
-      tank on her back.
-    characters: [attending-researcher-m, attending-researcher-f]
+      right side of the frame, two uniformed local government soldiers in
+      military-issue protective gear and gas-mask helmets, clearly
+      distinct from the Foundation researcher, work a backpack flame
+      projector and a chemical sprayer along the wall; one of them has
+      faltered and stopped, staring back down the hallway.
+    characters: [attending-researcher-m]
     notes: >
       根拠: SCP第3段落「ホテルの奪還作業は進行中。現地政府軍がハズマットスーツ
       着用の人員に火炎放射器と薬剤噴霧器を装備させて除染。だが進捗の遅さと

@@ -52,9 +52,10 @@ panels:
       Wide establishing shot, full body, eye level, showing the whole
       sealed 10-meter containment room furnished like a comfortable studio
       apartment: a made bed, an armchair, a bookshelf, a small dining
-      table. The Subject sits relaxed in the armchair reading a paperback,
-      his shirt held open at the front so the glowing miniature-Earth
-      sphere floating in his abdominal cavity is clearly visible.
+      table. The Subject sits relaxed in the armchair reading a large
+      open paperback held up in front of his midsection, his loose henley
+      shirt fully buttoned and hanging closed, so nothing unusual about
+      his abdomen can be seen yet.
     characters: [scp-007-subject]
     caption:
       ja: "SCP-007は、各辺10メートルの密閉された部屋に収容される。部屋は居住空間として快適に整えられ、被験者が要求した物品は、それを提供することが保安上の問題とならない限り、何であれ用意される。"
@@ -129,7 +130,10 @@ panels:
       frame, The Subject sits studying the board, one hand resting near a
       pawn, the glowing sphere visible at his open shirt front. On the
       right side of the frame, Attending Researcher (Male) sits opposite,
-      making notes on a clipboard instead of watching the board.
+      making notes on a clipboard instead of watching the board. On the
+      table beside the board lies a hand-written request slip (no
+      readable text) with a small sketch of a desktop computer on it,
+      which the researcher has firmly set to one side.
     characters: [scp-007-subject, attending-researcher-m]
     caption:
       ja: "██████博士は毎週被験者とチェスを行い、その際に被験者の精神状態が評価される。被験者はこれまで脱走を試みたり、暴力や精神疾患の兆候を示したりしたことはないが、インターネットに接続できるコンピュータを繰り返し要求している。これは提供しないことが推奨される。"

@@ -75,18 +75,22 @@ panels:
       zh_Hant: "在不使用或不作為研究對象時，SCP-067須存放在其毛氈內襯的木盒中。筆尖須以軟木塞封住，所有畫作與文字均須提交SCP研究指揮部進行分析與進一步實驗。"
 
   - scene: >
-      Extreme macro close-up. SCP-067 is held upright between
-      attending-researcher-f's gloved fingertips, filling the frame, its long
-      pointed nib angled toward the viewer with a single dark bead of ink
-      hanging at the very tip. Her fingers hold it gingerly, well back from
-      the point.
+      Extreme macro close-up. SCP-067 is gripped upright in the jaws of a
+      pair of steel laboratory forceps held by attending-researcher-f (only
+      the forceps and her gloved fingertips on their handle enter the
+      frame), filling the frame, its long pointed nib angled toward the
+      viewer with a single dark bead of ink hanging at the very tip. No bare
+      skin touches the pen anywhere.
     notes: >
       Panel-2 basis: "SCP-067 is a fountain pen made by... Pelikan... between
       World War I and II. It is pale green in color, with a single red line
       going straight down along the side. The shell is oak and the nib is
       extremely sharp, capable of piercing human skin if pressed even
       lightly." Fixed facts: pale green pen, one red line, oak body, needle
-      nib. Keep it non-gory (no wounds). Free to restage: grip, framing.
+      nib. Keep it non-gory (no wounds). Free to restage: framing.
+      Codexレビュー反映: 素手で持つと3コマ目の「握った者は制御を失う」と矛盾
+      する指摘。研究員は保持具（フォーセップス）で支え、素手で触れない構図に
+      変更。
     characters: [attending-researcher-f, scp-067]
     caption:
       ja: "SCP-067は、第一次世界大戦と第二次世界大戦の間のいずれかの時期に、ペリカンというドイツの用品会社によって製造された万年筆である。色は淡い緑色で、側面に沿ってまっすぐ1本の赤い線が入っている。軸はオーク材で、ペン先は極めて鋭く、軽く押し当てただけでも人間の皮膚を貫くことができる。"
@@ -106,11 +110,12 @@ panels:
       zh_Hant: "SCP-067是一支鋼筆，由一家名為百利金的德國用品公司在第一次與第二次世界大戰之間的某個時期製造。它呈淺綠色，側面有一條筆直的紅線。筆身為橡木，筆尖極其鋒利，即便輕輕按壓也能刺穿人的皮膚。"
 
   - scene: >
-      Medium shot, eye level, at a desk. d-class sits with wide, alarmed
-      eyes, staring at his own right hand, which is racing across a sheet of
-      paper with SCP-067, laying down dense sweeping abstract scribbles and
-      an intricate swirling drawing entirely on its own. His left hand clamps
-      hard around his right wrist, trying and failing to stop it.
+      Medium shot, eye level, at a desk. d-class sits with wide, surprised
+      eyes, watching his own right hand as it races across a sheet of paper
+      with SCP-067, laying down dense sweeping abstract scribbles and an
+      intricate swirling drawing entirely on its own. His other hand hovers
+      near it uselessly; his expression is startled curiosity at the hand
+      moving by itself, not a violent struggle.
     notes: >
       Panel-3 basis: "any subject holding SCP-067 loses all autonomy of the
       hand and arm that grasps it"; the controlled hand writes "a detailed
@@ -118,7 +123,10 @@ panels:
       intricate works of art, despite the subject lacking any formal art
       training." Fixed facts: the pen-holding hand acts on its own, producing
       writing and art. Keep all marks on the paper non-letter/abstract. Free
-      to restage: the struggle, framing.
+      to restage: framing.
+      Codexレビュー反映: 「激しく抵抗→好意へ転じる」時間変化はcaptionの証言
+      だけでは裏付けられない指摘。3コマ目は勝手に動く手への驚きに留め、協力的な
+      態度は4コマ目に集約した。
     characters: [d-class, scp-067]
     caption:
       ja: "研究により、SCP-067を握った被験者は、それを握る手と腕の随意的な制御をすべて失うと推測されている。『制御された』手はペンを使い、その持ち主の詳細な伝記を書き始める。また被験者は、正式な美術教育を受けていないにもかかわらず、精巧な芸術作品を作り上げることも知られている。"

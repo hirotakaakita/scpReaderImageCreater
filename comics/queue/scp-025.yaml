@@ -45,21 +45,21 @@ panels:
       side of the frame, d-class stands watching curiously.
     characters: [attending-researcher-f, d-class]
     caption:
-      ja: "SCP-025は縦0.97m×横0.62m×高さ1.95mの木製ワードローブで、様々な時代の衣類で満たされている。この収納物（総称してSCP-025-1）は、1920年代から現代に至る各年代の様式に一致する。"
-      en: "SCP-025 is a wooden wardrobe measuring 0.97 m x 0.62 m x 1.95 m, full of clothing dating from a number of time periods. Articles contained within the chest, collectively named SCP-025-1, match with styles of decades from the 1920s to the present."
-      cs: "SCP-025 je dřevěná šatní skříň o rozměrech 0,97 m x 0,62 m x 1,95 m, plná oblečení pocházejícího z různých časových období. Předměty uložené uvnitř skříně, souhrnně nazývané SCP-025-1, odpovídají stylům jednotlivých dekád od 20. let 20. století po současnost."
-      de: "SCP-025 ist ein hölzerner Kleiderschrank mit den Maßen 0,97 m x 0,62 m x 1,95 m, voller Kleidung aus verschiedenen Zeitperioden. Die im Schrank enthaltenen Gegenstände, zusammen SCP-025-1 genannt, entsprechen den Stilen der Jahrzehnte von den 1920er Jahren bis zur Gegenwart."
-      es: "SCP-025 es un armario de madera que mide 0,97 m x 0,62 m x 1,95 m, lleno de ropa de diversas épocas. Los artículos contenidos en el armario, denominados colectivamente SCP-025-1, corresponden a estilos de décadas que van desde los años 1920 hasta la actualidad."
-      fr: "Le SCP-025 est une armoire en bois mesurant 0,97 m x 0,62 m x 1,95 m, remplie de vêtements datant de plusieurs époques. Les articles contenus dans l'armoire, collectivement nommés SCP-025-1, correspondent aux styles des décennies allant des années 1920 à nos jours."
-      it: "SCP-025 è un armadio di legno che misura 0,97 m x 0,62 m x 1,95 m, pieno di abiti risalenti a diversi periodi storici. Gli articoli contenuti nell'armadio, denominati collettivamente SCP-025-1, corrispondono a stili di decenni che vanno dagli anni '20 a oggi."
-      ko: "SCP-025는 0.97m x 0.62m x 1.95m 크기의 목제 옷장으로, 여러 시대의 의류로 가득 차 있다. 옷장 안에 들어 있는 물품들(총칭 SCP-025-1)은 1920년대부터 현재에 이르는 각 시대의 양식과 일치한다."
-      pl: "SCP-025 to drewniana szafa o wymiarach 0,97 m x 0,62 m x 1,95 m, pełna ubrań pochodzących z różnych okresów. Przedmioty znajdujące się w szafie, zbiorczo nazywane SCP-025-1, odpowiadają stylom z dekad od lat 20. XX wieku do współczesności."
-      pt: "SCP-025 é um guarda-roupa de madeira medindo 0,97 m x 0,62 m x 1,95 m, cheio de roupas de várias épocas. Os itens contidos no armário, coletivamente chamados de SCP-025-1, correspondem a estilos de décadas que vão dos anos 1920 até o presente."
-      th: "SCP-025 เป็นตู้เสื้อผ้าไม้ขนาด 0.97 x 0.62 x 1.95 เมตร เต็มไปด้วยเสื้อผ้าจากหลายยุคสมัย สิ่งของภายในตู้ ซึ่งเรียกรวมกันว่า SCP-025-1 มีรูปแบบตรงกับยุคสมัยตั้งแต่ทศวรรษ 1920 จนถึงปัจจุบัน"
-      uk: "SCP-025 — це дерев'яна шафа розміром 0,97 м x 0,62 м x 1,95 м, повна одягу різних епох. Речі, що містяться в шафі, спільно названі SCP-025-1, відповідають стилям десятиліть від 1920-х років до сьогодення."
-      vi: "SCP-025 là một tủ quần áo bằng gỗ có kích thước 0,97 m x 0,62 m x 1,95 m, chứa đầy quần áo từ nhiều thời kỳ khác nhau. Các món đồ bên trong tủ, gọi chung là SCP-025-1, phù hợp với phong cách của các thập niên từ những năm 1920 cho đến nay."
-      zh: "SCP-025是一个尺寸为0.97米×0.62米×1.95米的木制衣柜，里面装满了来自不同时期的衣物。柜内的物品统称为SCP-025-1，与从20世纪20年代至今各个年代的风格相符。"
-      zh_Hant: "SCP-025是一個尺寸為0.97公尺×0.62公尺×1.95公尺的木製衣櫃，裡面裝滿了來自不同時期的衣物。櫃內的物品統稱為SCP-025-1，與從20世紀20年代至今各個年代的風格相符。"
+      ja: "SCP-025は縦0.97m×横0.62m×高さ1.95mの木製ワードローブで、様々な時代の衣類で満たされている。この収納物（総称してSCP-025-1）は、1920年代から現代に至る各年代の様式に一致する。すべての収納物は状態が悪く、大部分が虫に食われ、破れやほつれも珍しくない。"
+      en: "SCP-025 is a wooden wardrobe measuring 0.97 m x 0.62 m x 1.95 m, full of clothing dating from a number of time periods. Articles contained within the chest, collectively named SCP-025-1, match with styles of decades from the 1920s to the present. Every article is in poor condition; moths have eaten much of the collection, and tears and runs are not uncommon."
+      cs: "SCP-025 je dřevěná šatní skříň o rozměrech 0,97 m x 0,62 m x 1,95 m, plná oblečení pocházejícího z různých časových období. Předměty uložené uvnitř skříně, souhrnně nazývané SCP-025-1, odpovídají stylům jednotlivých dekád od 20. let 20. století po současnost. Každý kus je ve špatném stavu; velkou část sbírky sežrali moli a trhliny a oka nejsou vzácností."
+      de: "SCP-025 ist ein hölzerner Kleiderschrank mit den Maßen 0,97 m x 0,62 m x 1,95 m, voller Kleidung aus verschiedenen Zeitperioden. Die im Schrank enthaltenen Gegenstände, zusammen SCP-025-1 genannt, entsprechen den Stilen der Jahrzehnte von den 1920er Jahren bis zur Gegenwart. Jedes Stück ist in schlechtem Zustand; Motten haben einen Großteil der Sammlung zerfressen, und Risse und Laufmaschen sind nicht selten."
+      es: "SCP-025 es un armario de madera que mide 0,97 m x 0,62 m x 1,95 m, lleno de ropa de diversas épocas. Los artículos contenidos en el armario, denominados colectivamente SCP-025-1, corresponden a estilos de décadas que van desde los años 1920 hasta la actualidad. Todas las prendas están en mal estado; las polillas han devorado gran parte de la colección, y los desgarrones y las carreras no son raros."
+      fr: "Le SCP-025 est une armoire en bois mesurant 0,97 m x 0,62 m x 1,95 m, remplie de vêtements datant de plusieurs époques. Les articles contenus dans l'armoire, collectivement nommés SCP-025-1, correspondent aux styles des décennies allant des années 1920 à nos jours. Chaque article est en mauvais état ; les mites ont dévoré une grande partie de la collection, et les déchirures et les mailles filées ne sont pas rares."
+      it: "SCP-025 è un armadio di legno che misura 0,97 m x 0,62 m x 1,95 m, pieno di abiti risalenti a diversi periodi storici. Gli articoli contenuti nell'armadio, denominati collettivamente SCP-025-1, corrispondono a stili di decenni che vanno dagli anni '20 a oggi. Ogni capo è in cattive condizioni; le tarme hanno divorato gran parte della collezione e strappi e smagliature non sono rari."
+      ko: "SCP-025는 0.97m x 0.62m x 1.95m 크기의 목제 옷장으로, 여러 시대의 의류로 가득 차 있다. 옷장 안에 들어 있는 물품들(총칭 SCP-025-1)은 1920년대부터 현재에 이르는 각 시대의 양식과 일치한다. 모든 물품은 상태가 좋지 않으며, 상당수가 좀먹었고 찢어짐과 올 풀림도 드물지 않다."
+      pl: "SCP-025 to drewniana szafa o wymiarach 0,97 m x 0,62 m x 1,95 m, pełna ubrań pochodzących z różnych okresów. Przedmioty znajdujące się w szafie, zbiorczo nazywane SCP-025-1, odpowiadają stylom z dekad od lat 20. XX wieku do współczesności. Każda sztuka jest w złym stanie; mole zjadły znaczną część kolekcji, a rozdarcia i oczka nie należą do rzadkości."
+      pt: "SCP-025 é um guarda-roupa de madeira medindo 0,97 m x 0,62 m x 1,95 m, cheio de roupas de várias épocas. Os itens contidos no armário, coletivamente chamados de SCP-025-1, correspondem a estilos de décadas que vão dos anos 1920 até o presente. Todas as peças estão em más condições; as traças devoraram grande parte da coleção, e rasgos e fios puxados não são raros."
+      th: "SCP-025 เป็นตู้เสื้อผ้าไม้ขนาด 0.97 x 0.62 x 1.95 เมตร เต็มไปด้วยเสื้อผ้าจากหลายยุคสมัย สิ่งของภายในตู้ ซึ่งเรียกรวมกันว่า SCP-025-1 มีรูปแบบตรงกับยุคสมัยตั้งแต่ทศวรรษ 1920 จนถึงปัจจุบัน สิ่งของทุกชิ้นอยู่ในสภาพย่ำแย่ ส่วนใหญ่ถูกมอดกัดกิน และมีรอยขาดและรอยลานให้เห็นอยู่ทั่วไป"
+      uk: "SCP-025 — це дерев'яна шафа розміром 0,97 м x 0,62 м x 1,95 м, повна одягу різних епох. Речі, що містяться в шафі, спільно названі SCP-025-1, відповідають стилям десятиліть від 1920-х років до сьогодення. Кожна річ у поганому стані; міль з'їла значну частину колекції, а розриви та спущені петлі не рідкість."
+      vi: "SCP-025 là một tủ quần áo bằng gỗ có kích thước 0,97 m x 0,62 m x 1,95 m, chứa đầy quần áo từ nhiều thời kỳ khác nhau. Các món đồ bên trong tủ, gọi chung là SCP-025-1, phù hợp với phong cách của các thập niên từ những năm 1920 cho đến nay. Mọi món đồ đều trong tình trạng tồi tàn; nhậy đã gặm nhấm phần lớn bộ sưu tập, và những vết rách cùng đường sổ chỉ không phải là hiếm."
+      zh: "SCP-025是一个尺寸为0.97米×0.62米×1.95米的木制衣柜，里面装满了来自不同时期的衣物。柜内的物品统称为SCP-025-1，与从20世纪20年代至今各个年代的风格相符。每一件衣物都状况不佳；蛀虫啃食了藏品的大部分，破洞和抽丝也很常见。"
+      zh_Hant: "SCP-025是一個尺寸為0.97公尺×0.62公尺×1.95公尺的木製衣櫃，裡面裝滿了來自不同時期的衣物。櫃內的物品統稱為SCP-025-1，與從20世紀20年代至今各個年代的風格相符。每一件衣物都狀況不佳；蛀蟲啃食了藏品的大部分，破洞和抽絲也很常見。"
 
   - scene: >
       Medium shot, waist-up, eye level. On the left side of the frame,
@@ -86,11 +86,12 @@ panels:
       zh_Hant: "一旦穿上SCP-025中的任何物品，穿戴者會在24小時內死亡或受傷。這些死亡或受傷的原因，無一例外都與前述衣物上的缺陷有關，但表面上看起來總像是一起毫不相關的意外事件。"
 
   - scene: >
-      Close-up, on d-class's hand alone at a cutting board, wearing the
-      worn glove with the missing fingertip, gripping a kitchen knife
-      raised just above an onion, frozen a moment before the cut, his
-      face partially visible above, nervously glancing down at his own
-      hand.
+      Close-up on d-class's two hands at a cutting board: the gloved hand,
+      its fingertip visibly cut off, holds an onion steady on the board,
+      while his bare other hand raises a kitchen knife just above it,
+      frozen a moment before the cut. His face is partially visible
+      above, nervously glancing down at the exposed fingertip beside the
+      blade.
     characters: [d-class]
     caption:
       ja: "指先の切れた手袋を着用すると、玉ねぎを刻むような単純な台所仕事の事故によって、その指先を失うことがある。"
@@ -110,11 +111,12 @@ panels:
       zh_Hant: "戴上一隻指尖被剪掉的手套，可能會因為切洋蔥之類的簡單廚房意外而失去那截指尖。"
 
   - scene: >
-      Wide shot, full body, low angle. d-class stands wearing a poncho
-      that is missing one sleeve, his bare arm exposed and visible.
-      Beside him, attending-researcher-f writes on a clipboard without
-      looking up, a resigned and unsurprised expression, as if this has
-      happened many times before.
+      Wide shot, full body, low angle, a clearly separate later testing
+      session in a different room. Another D-Class subject stands wearing
+      a poncho that is missing one sleeve, his bare arm exposed and
+      visible. Beside him, attending-researcher-f writes on a clipboard
+      without looking up, a resigned and unsurprised expression, as if
+      this has happened many times before with other subjects.
     characters: [d-class, attending-researcher-f]
     caption:
       ja: "同様に、片方の袖が欠けたポンチョを着た被験者は、野生動物による襲撃であれ、四肢の切断を要する交通事故であれ、何らかの形でその露出した腕を失うことになる。"

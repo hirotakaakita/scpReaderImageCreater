@@ -68,12 +68,13 @@ panels:
       zh_Hant: "SCP-044是一門榴彈砲，由克虜伯工程師在第二次世界大戰後期，在阿爾伯特·施佩爾的親自監督下祕密製造。它重達251公噸，安裝於鐵路之上，運輸時需要兩臺機車。"
 
   - scene: >
-      Medium shot, waist-up framing but pulled back enough to show a
-      gantry crane lowering a battered diesel pickup truck nose-first
-      into the enormous open muzzle of the howitzer. On the left side of
-      the frame, Attending Researcher (Male) points and signals
-      directions. On the right side of the frame, a D-Class Personnel
-      operates the crane control pendant. No text.
+      High angle wide shot looking down as a gantry crane lowers a
+      battered diesel pickup truck nose-first into the enormous open
+      muzzle of the howitzer, the loading operation filling the frame. On
+      the left side of the frame, Attending Researcher (Male), small in
+      the shot, points and signals directions. On the right side of the
+      frame, a D-Class Personnel, also small, operates the crane control
+      pendant. No text.
     characters: [attending-researcher-m, d-class]
     notes: >
       根拠: Description「Rather than traditional shells, the weapon fires
@@ -102,12 +103,12 @@ panels:
       zh_Hant: "該武器並不使用傳統砲彈，而是以非典型的投射方式發射非常規砲擊物。裝入砲口的物體會受到削弱分子鍵與原子鍵的作用。有記錄以來最大規模的一次測試，發射的是一輛8,900公斤的柴油皮卡。"
 
   - scene: >
-      Wide action shot from the side, strong sense of motion. The
-      howitzer has just fired: a brilliant glowing red molten slug
-      streaks out of the muzzle trailing sparks and a shockwave ring,
-      heading toward a small distant hillside where a bright explosion
-      is beginning to bloom. Dust and debris kick up around the gun
-      carriage. No people close to the gun, no text.
+      Wide action shot from the side, strong sense of motion, capturing
+      the single instant of firing: a brilliant glowing red molten slug
+      bursts from the muzzle trailing sparks and a shockwave ring, with
+      muzzle blast and recoil throwing dust and debris up around the gun
+      carriage. The distant hillside target is still untouched. No people
+      close to the gun, no text.
     characters: []
     notes: >
       根拠: Description「When SCP-044 is fired, all matter within its

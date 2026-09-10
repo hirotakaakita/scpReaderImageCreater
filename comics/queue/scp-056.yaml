@@ -111,10 +111,13 @@ panels:
   - scene: >
       Close-up, eye level, on the armchair where SCP-056 had been
       sitting. In the chair a friendly Labrador Retriever now sits in
-      the same relaxed pose, tongue out. At the edge of the frame
+      the same relaxed pose, tongue out. At the left edge of the frame
       Attending Researcher (Female) is glancing down at her notepad, not
-      yet noticing. No text.
-    characters: [attending-researcher-f]
+      yet noticing. Behind her, blurred in the background, an MTF Agent
+      has also turned his head away to check the door — so every person
+      in the room has their attention off the chair at this instant. No
+      text.
+    characters: [attending-researcher-f, mtf-agent]
     notes: >
       根拠: Description「These changes will generally occur the moment all
       people in the area lose focus on the subject. Documented
@@ -143,9 +146,13 @@ panels:
 
   - scene: >
       Wide shot framed like a grainy overhead security-camera view of
-      the now-empty furnished room, no people anywhere. In the middle of
-      the sofa, exactly where the man had been sitting, rests a single
-      small boxy camera on a short stand, its lens facing out. No text.
+      the same furnished room at a later time, now sealed and completely
+      empty of people. The room's single door is shut, and through a
+      narrow window beside it the silhouettes of two guards can be seen
+      standing watch out in the corridor, well outside the room. In the
+      middle of the sofa, exactly where the man had been sitting, rests
+      a single small boxy camera on a short stand, its lens facing out.
+      No text.
     characters: []
     notes: >
       根拠: Description「When completely isolated under surveillance, it
@@ -153,6 +160,8 @@ panels:
       変えてはいけない事実: 監視下で完全に孤立させられると、SCP-056はカメラの
       姿になった。
       変更可能: 部屋の見せ方、カメラの形状。
+      Codexレビュー反映: 3→4コマで人物が全員消える指摘に対し、別時点の隔離観察
+      であることと、警備が室外に移っていることを画で示した。
     caption:
       ja: "監視下で完全に孤立させられ、その場に誰もいなくなると、SCP-056はカメラの姿をとった。"
       en: "When completely isolated under surveillance, with no personnel present, SCP-056 assumed the form of a camera."

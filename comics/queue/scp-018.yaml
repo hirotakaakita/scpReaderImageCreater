@@ -70,10 +70,12 @@ panels:
       zh_Hant: "SCP-018須以其專用金屬固定器收容於一個1公尺×1公尺×1公尺、內襯厚重合成緩衝材料的密封箱中。該密封箱隨後沉入10公尺×10公尺×10公尺聚乙烯保持罐的中央。"
 
   - scene: >
-      Extreme close-up. Attending Researcher (Male)'s gloved hand holds
-      SCP-018, the small glossy red ball, up beside a desk lamp. It looks
-      completely innocuous, a harmless toy, a single soft highlight on its
-      curved surface.
+      Extreme close-up, shown as an old archival photograph with worn
+      white borders and a date stamp in one corner (no readable text).
+      Attending Researcher (Male)'s gloved hand holds SCP-018, the small
+      glossy red ball, up beside a desk lamp. It looks completely
+      innocuous, a harmless toy, a single soft highlight on its curved
+      surface.
     characters: [attending-researcher-m, scp-018]
     caption:
       ja: "SCP-018は、Wham-O社が1969年に製造したスーパーボールの外見を持つ。直径は6センチメートルで、赤色をしている。"
@@ -93,7 +95,9 @@ panels:
       zh_Hant: "SCP-018外形為Wham-O公司於1969年製造的一款超級彈力球。直徑六（6）公分，呈紅色。"
 
   - scene: >
-      Wide dynamic shot, low angle, a bare concrete test chamber. SCP-018
+      Wide dynamic shot, low angle, framed as grainy archival footage
+      from an old test-record camera with a timestamp bar across the
+      bottom (no readable text), a bare concrete test chamber. SCP-018
       is a bright red blur tracing a jagged path of ever-higher bounce
       arcs, drawn with motion lines, already near the ceiling. On the left
       side of the frame, Attending Researcher (Female) dives behind an
@@ -118,11 +122,14 @@ panels:
 
   - scene: >
       Medium-wide shot, eye level, the muddy shore of a calm lake at dusk.
-      A dented trail crosses a broken fence and the mud down to the
-      water's edge. Attending Researcher (Male) and Attending Researcher
-      (Female) wade knee-deep in the shallows with a long-handled net,
-      scooping the small red ball out of the water. Distant town rooftops
-      and two visibly bent lampposts show on the far bank.
+      Attending Researcher (Male) and Attending Researcher (Female) wade
+      knee-deep in the shallows with a long-handled net, scooping the
+      tiny red ball out of the water; it looks absurdly small and
+      harmless sitting in the net. Behind them, the trail of its rampage
+      is plainly visible along the bank: a smashed fence, cratered mud,
+      two bent lampposts and a caved-in roof in the distant town. On the
+      near bank waits the same massive sealed containment crate seen in
+      panel 1, its huge bulk now looking entirely justified.
     characters: [attending-researcher-m, attending-researcher-f, scp-018]
     caption:
       ja: "ボールはやがて危険な飛翔体となり、推定時速100キロメートルを超える速度に達し、█████████████市で器物を損壊し、5名を負傷させた。数日後、近くの████████湖で静止し、SCP職員によって回収された。"

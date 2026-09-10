@@ -98,8 +98,10 @@ panels:
   - scene: >
       Extreme close-up. Inside the acrylic box, the featureless
       smoke-shrouded child figure of SCP-017 is pressed close to the
-      glass, soft dark wisps curling off its shoulders, the harsh light
-      making its edges glow faintly.
+      glass, soft dark wisps curling off its shoulders. One of the arc
+      lamps behind it has dimmed to a dull glow, and for the first time a
+      faint thin shadow is starting to form on the cage floor at its
+      feet.
     characters: [scp-017]
     caption:
       ja: "SCP-017は身長およそ80センチメートルの人型の存在であり、解剖学的には幼い子供に似ているが、識別できるような特徴は一切ない。SCP-017は、影のような煙状の覆いで構成されているように見える。"
@@ -124,10 +126,11 @@ panels:
       the wall, wearing a complete full-body suit with a smooth
       mirror-finish reflective surface over the whole body and a
       reflective full hood with a small visor, gloves and boots, no bare
-      skin visible. His long dark shadow stretches across the concrete
-      floor and stops just short of the suspended acrylic cage in the
-      center, where SCP-017 leans sharply toward the shadow's leading
-      edge.
+      skin visible. With that wall lamp out, his body throws a long
+      shadow that reaches the suspended acrylic cage at head height in
+      the center of the room and falls directly across SCP-017 itself.
+      Where the shadow lands on it, SCP-017's dark shroud has surged and
+      swelled outward, billowing toward the researcher.
     characters: [attending-researcher-m, scp-017]
     caption:
       ja: "自らに影が落とされたときのSCP-017の反応は、即座かつ迅速である。SCP-017はその影を落としている物体に飛びかかり、覆いで完全に包み込み、その後、通常の大きさに戻る。あとには物体の痕跡は一切残らない。"

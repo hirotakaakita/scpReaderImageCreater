@@ -77,10 +77,11 @@ panels:
   - scene: >
       Medium shot, waist-up, front-on, inside the sweltering chamber
       itself. Attending Researcher (Female), wearing a heat-resistant
-      suit with the hood down, stares in alarm at a wall thermostat gauge
-      whose needle is sharply swinging out of the red zone (no readable
-      numbers). Red emergency lights flash across the room as she begins
-      peeling off one heavy glove in preparation.
+      suit with the hood down, stares in alarm as the chamber lights and
+      the glowing heater coils all cut out at once and the wall
+      thermostat gauge's needle drops fast toward the cold end (no
+      readable numbers). Only her handheld flashlight now lights the
+      room as she begins peeling off one heavy glove in preparation.
     characters: [attending-researcher-f]
     caption:
       ja: "SCP-003は常に35℃を下回らない温度で、理想的には100℃以上に保たなければならない。"
@@ -102,9 +103,11 @@ panels:
   - scene: >
       Close-up shot, centered on Attending Researcher (Female)'s bare
       hand pressing flat against the mottled surface of SCP-003-1, her
-      jaw clenched tight. Beneath it, SCP-003's stone tablet flares with
-      a sudden pulse of pale radiant light, the organism's edges
-      twitching mid-expansion before slowly going still.
+      jaw clenched tight. A dark, unlit instrument gauge sits dead in the
+      background. Just before her hand made contact the organism had
+      visibly swollen, its edges bulging outward; now, under the warmth
+      of her bare palm, it settles and holds still. The rune-covered
+      stone tablet stays dim.
     characters: [attending-researcher-f, scp-003]
     caption:
       ja: "全電源が喪失した場合、SCP-003-1が質量を増加させ始めたときは、担当職員がSCP-003-1に皮膚接触を行わなければならない。"
@@ -124,13 +127,13 @@ panels:
       zh_Hant: "如果發生完全斷電，一旦SCP-003-1開始增加質量，指定人員必須與SCP-003-1進行皮膚接觸。"
 
   - scene: >
-      Wide shot, full body, eye level, pulled back to show the corridor
-      just outside the chamber. On the left, Attending Researcher
-      (Female), hair damp and expression drained, walks toward an open
-      doorway marked with plain hazard chevrons (no readable text). On
-      the right, Attending Researcher (Male) holds out a folded towel and
-      a spare set of scrubs to her, his expression a mix of relief and
-      awkward sympathy.
+      Wide shot, full body, eye level, showing the corridor just outside
+      the chamber. On the left, Attending Researcher (Female), hair damp
+      and expression drained, walks straight into an open sterilization
+      airlock, its interior lit by hard UV light and lined with
+      decontamination spray nozzles (no readable text). On the right,
+      Attending Researcher (Male) stands at the airlock controls holding
+      the door for her, his expression a mix of relief and unease.
     characters: [attending-researcher-f, attending-researcher-m]
     caption:
       ja: "SCP-003-1と物理的接触を行った職員は全員、事後速やかに滅菌処置を受けるために出頭しなければならない。"

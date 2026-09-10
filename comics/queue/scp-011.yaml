@@ -48,8 +48,9 @@ characters: [scp-011, attending-researcher-m, attending-researcher-f]
 panels:
   - scene: >
       Wide establishing shot, full body, eye level, a small New England
-      town green in Woodstock, Vermont just after sundown, the sky deep
-      blue. SCP-011 stands on its low stone pedestal at the center. Bare
+      town green in Woodstock, Vermont well after sundown: the sky is
+      fully dark with a few stars out and the green's street lamps are
+      lit. SCP-011 stands on its low stone pedestal at the center. Bare
       trees and a white church steeple are visible behind. Attending
       Researcher (Male) and Attending Researcher (Female) walk in from the
       right carrying mop buckets, long scrub brushes and a folding
@@ -97,10 +98,12 @@ panels:
 
   - scene: >
       Extreme close-up on the muzzle of the granite musket at the instant
-      it fires: a burst of granite dust and a bright muzzle flash, a
-      startled sparrow veering sharply away, tiny chips of grey grit
-      scattering through the air. Only the statue's stone hands and the
-      musket are in frame.
+      it fires: a bright muzzle flash and a forward puff of loose grey
+      granite powder blasting out of the barrel. The muzzle itself is
+      clearly whole and undamaged; what scatters through the air is the
+      granite powder the musket was loaded with, not fragments of the
+      gun. Only the statue's stone hands and the musket are in frame, no
+      bird.
     characters: [scp-011]
     caption:
       ja: "奇妙なことに、その銃声は通常の銃器のものと非常によく似ているが、アイテムがマスケット銃に装填するのは花崗岩の弾丸と花崗岩の火薬だけであると観察されている（マスケット銃自体も発砲によって損傷しない）。"

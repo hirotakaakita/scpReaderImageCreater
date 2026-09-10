@@ -98,11 +98,11 @@ panels:
       zh_Hant: "SCP-009約為███公升的一種物質，表面上類似蒸餾水（H2O），但帶有明顯的鮮紅色。該紅色在所有相態下均可辨識，是在異常性質顯現之前識別受污染物質的最便捷方法。"
 
   - scene: >
-      Extreme close-up on the same clear sealed vessel, now standing on a
-      plain wooden table in an ordinary warm room with no frost anywhere.
-      Its contents have turned into a solid block of bright red ice.
-      Beads of condensation run down the warm outer glass, and a small
-      heat lamp glows just out of frame, casting warm light across it.
+      Extreme close-up on the same clear sealed vessel, now clamped
+      inside a small enclosed heated test rig fitted with a heat lamp and
+      a temperature readout dial (no readable numbers), no frost
+      anywhere. Its contents have turned into a solid block of bright red
+      ice. Beads of condensation run down the warm outer glass.
     characters: [scp-009]
     caption:
       ja: "通常の水とは対照的に、SCP-009は-100℃から0℃の温度で液相をとり、それより高い温度では固体状態となる。-100℃を下回る温度では、SCP-009は蒸気に似た気相へと気化する。"
@@ -122,13 +122,15 @@ panels:
       zh_Hant: "與普通水相反，SCP-009在-100℃至0℃的溫度下呈液相，在高於該溫度時呈固態。在低於-100℃的溫度下，SCP-009會汽化為類似蒸汽的氣相。"
 
   - scene: >
-      Medium-wide two-shot inside a decontamination bay. On the left side
-      of the frame, Attending Researcher (Female) works a wall control
-      panel and watches a large 12-hour timer dial. On the right side of
-      the frame, Attending Researcher (Male) stands inside a glass
-      dehydration booth with warm-air vents blowing upward around him,
-      arms held out from his sides, waiting.
-    characters: [attending-researcher-f, attending-researcher-m]
+      Medium-wide shot inside a two-stage decontamination bay. In the
+      foreground, Attending Researcher (Male) stands in a glass
+      dehydration booth, warm-air vents blowing around him, his removed
+      gear on a rack beside him getting the same treatment. Behind him,
+      through an open hatch, a separate sealed quarantine cell holds a
+      bench and a large 12-hour timer dial only just started. On the
+      right, Attending Researcher (Female) works the wall control panel,
+      waiting her own turn for the booth.
+    characters: [attending-researcher-m, attending-researcher-f]
     caption:
       ja: "試験の後、すべての器材、要員、その他の物資は脱水処理を受け、12時間以上隔離されなければならない。"
       en: "Following testing, all equipment, personnel, and other materials must undergo dehydration procedures and be quarantined for no less than 12 hours."

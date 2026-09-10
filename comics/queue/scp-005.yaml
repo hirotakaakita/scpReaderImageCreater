@@ -102,11 +102,11 @@ panels:
 
   - scene: >
       Close-up shot, centered on Attending Researcher (Female)'s hand
-      turning SCP-005 first inside a heavy mechanical padlock, then
-      touching it to a wall-mounted digital keypad lock unit beside it.
-      The padlock springs open and the digital unit's small indicator
-      light flips from red to green at the same moment, with no keypad
-      buttons pressed.
+      touching SCP-005 to a wall-mounted digital keypad lock unit, its
+      small indicator light flipping from red to green with no keypad
+      buttons pressed. On the bench just behind her hand, a heavy
+      mechanical padlock already hangs open, clearly defeated a moment
+      earlier.
     characters: [attending-researcher-f, scp-005]
     caption:
       ja: "SCP-005は、機械式・電子式を問わずあらゆる種類の錠を、比較的容易に開けるという独自の能力を持つようである。"
@@ -127,11 +127,12 @@ panels:
 
   - scene: >
       Wide shot, full body, eye level, showing the containment room
-      again. On the left, Attending Researcher (Male) locks SCP-005 back
-      into its glass display case, holding a clipboard that requires a
-      signature, and reaches for a wall-mounted phone with a
-      long-suffering expression. On the right, the small key sits
-      gleaming behind the glass, utterly unremarkable in size.
+      again. On the left, Attending Researcher (Male) stands at the open
+      display case with SCP-005 already lifted out and resting in a
+      padded transit box in his hands, but he is stopped, a phone
+      handset held to his ear with a long-suffering expression, waiting
+      for authorization before he can carry it out. On the right, an
+      empty velvet cushion sits behind the open glass door.
     characters: [attending-researcher-m, scp-005]
     caption:
       ja: "この物品を収容区域から持ち出す際は、レベル4職員少なくとも1名の承認を要する。"

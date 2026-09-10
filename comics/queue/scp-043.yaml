@@ -35,7 +35,7 @@ panels:
       Wide establishing shot, eye level, of a small plain testing room:
       bare walls, a single table holding an old-fashioned record
       turntable, an amplifier and a speaker. Attending Researcher (Male)
-      stands beside the table, carefully sliding a plain white vinyl
+      stands beside the table, carefully sliding a plain black vinyl
       record out of a plain white sleeve. A clipboard rests on the
       table. No text or lettering anywhere.
     characters: [attending-researcher-m]
@@ -100,10 +100,9 @@ panels:
   - scene: >
       Close-up on Attending Researcher (Male) leaning in toward the
       speaker with wide, startled eyes and slightly raised eyebrows, one
-      hand cupped near his ear. Beside him the record on the turntable
-      has clearly stopped turning, the tonearm resting still on its
-      motionless surface. A faint fogging of breath-like mist drifts
-      near the speaker grille. No text.
+      hand cupped near his ear, listening hard. Beside him the record on
+      the turntable has clearly stopped turning, the tonearm resting
+      still on its motionless surface. No text.
     characters: [attending-researcher-m]
     notes: >
       根拠: Description「When playback reaches track twenty-nine (which
@@ -130,13 +129,13 @@ panels:
       zh_Hant: "當播放到第二十九軌，也就是本應收錄《Revolution 9》的位置時，轉動停止，可聽到微弱的呼吸聲。某個實體偶爾會以男性嗓音進行交流。"
 
   - scene: >
-      Medium two-shot, waist-up. On the left side of the frame,
-      Attending Researcher (Female) sits leaning eagerly toward the
-      turntable with a notepad and pen ready, an expectant look on her
-      face. On the right side of the frame sits the silent record and
-      speaker. Her expression has just tipped into mild disappointment,
-      pen hovering without writing. No text.
-    characters: [attending-researcher-f]
+      Medium two-shot, waist-up, the same Attending Researcher (Male)
+      continuing the session. On the left side of the frame he sits
+      leaning eagerly toward the turntable with a notepad and pen ready,
+      an expectant look on his face. On the right side of the frame sits
+      the silent record and speaker. His expression has just tipped into
+      mild disappointment, pen hovering without writing. No text.
+    characters: [attending-researcher-m]
     notes: >
       根拠: Description「demonstrates extensive knowledge about music
       history and theory, and answers inquiries — though it declines to

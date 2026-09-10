@@ -113,11 +113,13 @@ panels:
 
   - scene: >
       Close-up, waist-up, eye level, a different framing from the previous
-      panels. On the left side of the frame, attending-researcher-m firmly
-      holds d-class back by one shoulder. On the right side of the frame,
-      d-class leans toward the roped cube with both hands pressed to his
-      temples, face screwed up in pain, clearly wanting to go in again.
-    characters: [attending-researcher-m, d-class]
+      panels. On the left side of the frame, d-class steps back out of
+      the roped cube yet again, both hands pressed to his temples, face
+      screwed up in pain, unsteady on his feet. On the right side of the
+      frame, attending-researcher-m steadies him by one arm and glances
+      at a clipboard already marked with several tally strokes recording
+      the repeated entries.
+    characters: [d-class, attending-researcher-m]
     notes: >
       根拠: Description第2段落「出入りを繰り返せば効果は複数回体験できるが、
       2回の曝露以降は次第に強い偏頭痛とめまいを引き起こすことがある」。
@@ -142,11 +144,14 @@ panels:
 
   - scene: >
       Medium shot, waist-up, slightly low angle, a different framing from
-      the previous panels, set in a plain office room. On the left side of
-      the frame, local-miner proudly unrolls a large hand-drawn technical
-      blueprint covered in illegible diagrams. On the right side of the
-      frame, attending-researcher-f leans in studying it with wide,
-      startled eyes.
+      the previous panels, shown as a recollection of how SCP-028 first
+      came to the Foundation's attention, set in a plain office room. On
+      the left side of the frame, local-miner proudly unrolls a large
+      hand-drawn technical blueprint covered in illegible diagrams,
+      stamped like a patent application and paper-clipped to a folded
+      newspaper clipping. On the right side of the frame,
+      attending-researcher-f leans in comparing the blueprint against the
+      newspaper report with wide, startled eyes.
     characters: [local-miner, attending-researcher-f]
     notes: >
       根拠: Description第3段落「地元の鉱夫が米国特許庁に常温核融合炉の設計を

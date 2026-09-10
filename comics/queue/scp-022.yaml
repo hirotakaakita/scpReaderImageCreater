@@ -82,19 +82,23 @@ panels:
       zh_Hant: "在022-827事故之後，為封閉SCP-022安裝了一道金庫門。該門須始終保持鎖閉，唯一的例外是SCP-022-1個體出現之時。"
 
   - scene: >
-      Medium shot, waist-up, slightly high angle looking down a wall of
-      stainless steel morgue drawers, a different framing from the wide
-      establishing shot. One drawer has slid open on its own and its tray
-      is out. SCP-022-1 is sitting halfway up on the tray, the pale sheet
-      still draped completely over it, one cloth-covered arm reaching
-      toward the floor. attending-researcher-f stands back near the frame
-      edge with a stopwatch raised, calm and clinical.
+      Medium shot shown as a grainy black-and-white security-camera feed
+      on a monitor (timestamp bar across the bottom, no readable text), a
+      different framing from the wide establishing shot. On the feed, one
+      stainless steel morgue drawer has slid open on its own with its
+      tray out, and SCP-022-1 is sitting halfway up on the tray, the pale
+      sheet still draped completely over it, one cloth-covered arm
+      reaching toward the floor. In the near corner of the frame,
+      attending-researcher-f's hand holds a stopwatch beside the monitor,
+      out in the corridor well outside the vault.
     characters: [scp-022-1, attending-researcher-f]
     notes: >
       根拠: Description「不定期にいずれかの引き出しが無作為に開き布で覆われた
       遺体が現れる。開いてから約6分後、遺体は動き出し安置所から出ようとする」。
       変えてはいけない事実: 引き出しが自然に開くこと、遺体が布に覆われたまま
-      動き出し外へ出ようとすること。変更可能: 研究者の反応・小道具、画角。
+      動き出し外へ出ようとすること。研究者は安置所内に入らず、遠隔監視映像で
+      観察する（扉を通った物は消えるため入室理由が立たない）。
+      変更可能: 研究者の反応・小道具、画角。
     caption:
       ja: "不定期に、遺体安置所内のいずれかの引き出しが無作為に開き、布で覆われた遺体が現れる。開いてからおよそ6分後、その遺体は動き出し、安置所から出ようとする。"
       en: "Periodically, a random drawer within the morgue will open to reveal a cadaver under a covered sheet. After approximately six minutes open, the cadaver will animate and attempt to leave the morgue."
@@ -118,8 +122,12 @@ panels:
       security screens, a different framing from the previous panels. On
       the left, attending-researcher-m has one hand on the vault-release
       lever. On the right, attending-researcher-f points at the central
-      screen, which shows a bright white flash filling the morgue doorway.
-      Both wear neutral, businesslike expressions.
+      screen, which shows a bright white flash filling the morgue
+      doorway. Beside the screens a simple wall schematic lays out the
+      layout in plain lines (no readable text): the drawer bank, then the
+      morgue doorway with an incinerator arch right at its threshold,
+      then the outer vault door beyond it. Both researchers wear neutral,
+      businesslike expressions.
     characters: [attending-researcher-m, attending-researcher-f]
     notes: >
       根拠: SCP第2段落「SCP-022-1が出現した場合、自動システムがSCP-022から出た

@@ -70,21 +70,21 @@ panels:
       raised as if trying to answer it, startled expression.
     characters: [d-class]
     caption:
-      ja: "SCP-024に入ると、訪問者は即座に匿名のアナウンサーに迎えられる。アナウンサーはインターコムを通じて話しかけ、SCP-024内にいる人々の声を聞き取り理解することができる。"
-      en: "Upon entering SCP-024, visitors are immediately greeted by an anonymous announcer, who communicates via intercom and is able to hear and comprehend the voices of people within SCP-024."
-      cs: "Po vstupu do SCP-024 jsou návštěvníci okamžitě přivítáni anonymním hlasatelem, který komunikuje prostřednictvím interkomu a je schopen slyšet a rozumět hlasům lidí uvnitř SCP-024."
-      de: "Beim Betreten von SCP-024 werden Besucher sofort von einem anonymen Ansager begrüßt, der über eine Gegensprechanlage kommuniziert und in der Lage ist, die Stimmen von Personen innerhalb von SCP-024 zu hören und zu verstehen."
-      es: "Al entrar en SCP-024, los visitantes son recibidos de inmediato por un locutor anónimo, que se comunica a través de un intercomunicador y es capaz de oír y comprender las voces de las personas dentro de SCP-024."
-      fr: "En entrant dans le SCP-024, les visiteurs sont immédiatement accueillis par un présentateur anonyme, qui communique par interphone et est capable d'entendre et de comprendre les voix des personnes présentes à l'intérieur du SCP-024."
-      it: "Entrando in SCP-024, i visitatori vengono immediatamente accolti da uno speaker anonimo, che comunica tramite un citofono ed è in grado di sentire e comprendere le voci delle persone all'interno di SCP-024."
-      ko: "SCP-024에 들어서면 방문객은 즉시 익명의 아나운서에게 환영받는다. 그는 인터콤을 통해 소통하며 SCP-024 내부에 있는 사람들의 목소리를 듣고 이해할 수 있다."
-      pl: "Po wejściu do SCP-024 odwiedzający są natychmiast witani przez anonimowego spikera, który komunikuje się za pomocą interkomu i jest w stanie słyszeć oraz rozumieć głosy osób znajdujących się wewnątrz SCP-024."
-      pt: "Ao entrar no SCP-024, os visitantes são imediatamente recebidos por um locutor anônimo, que se comunica por meio de um interfone e é capaz de ouvir e compreender as vozes das pessoas dentro do SCP-024."
-      th: "เมื่อเข้าสู่ SCP-024 ผู้มาเยือนจะได้รับการต้อนรับทันทีจากผู้ประกาศนิรนามที่สื่อสารผ่านระบบอินเตอร์คอม และสามารถได้ยินและเข้าใจเสียงของผู้คนภายใน SCP-024"
-      uk: "Увійшовши до SCP-024, відвідувачів одразу вітає анонімний диктор, який спілкується через переговорний пристрій і здатний чути та розуміти голоси людей всередині SCP-024."
-      vi: "Khi bước vào SCP-024, khách tham quan ngay lập tức được chào đón bởi một người dẫn chương trình ẩn danh, người này giao tiếp qua bộ đàm nội bộ và có thể nghe cũng như hiểu giọng nói của những người bên trong SCP-024."
-      zh: "进入SCP-024后，访客会立即受到一位匿名播报员的欢迎，该播报员通过对讲机进行交流，并能够听懂SCP-024内部人员的话语。"
-      zh_Hant: "進入SCP-024後，訪客會立即受到一位匿名播報員的歡迎，該播報員透過對講機進行交流，並能夠聽懂SCP-024內部人員的話語。"
+      ja: "SCP-024に入ると、訪問者は即座に匿名のアナウンサーに迎えられる。アナウンサーは「参加者」たちに、これから豪華な賞品のかかったゲームショーに参加することを告げるが、同時にそのゲームが極めて危険なものになると警告する。"
+      en: "Upon entering SCP-024, visitors are immediately greeted by an anonymous announcer. The announcer informs the \"contestants\" that they are about to take part in a game show in which the winners will win fabulous prizes, but also warns that the game will be extremely hazardous."
+      cs: "Po vstupu do SCP-024 jsou návštěvníci okamžitě přivítáni anonymním hlasatelem. Hlasatel „soutěžícím“ oznámí, že se chystají zúčastnit soutěžní show, v níž vítězové získají báječné ceny, avšak zároveň je varuje, že hra bude nesmírně nebezpečná."
+      de: "Beim Betreten von SCP-024 werden Besucher sofort von einem anonymen Ansager begrüßt. Der Ansager teilt den „Teilnehmern“ mit, dass sie an einer Spielshow teilnehmen werden, bei der die Gewinner fabelhafte Preise gewinnen, warnt sie jedoch zugleich, dass das Spiel äußerst gefährlich sein wird."
+      es: "Al entrar en SCP-024, los visitantes son recibidos de inmediato por un locutor anónimo. El locutor informa a los «concursantes» de que están a punto de participar en un concurso en el que los ganadores obtendrán premios fabulosos, pero también les advierte de que el juego será extremadamente peligroso."
+      fr: "En entrant dans le SCP-024, les visiteurs sont immédiatement accueillis par un présentateur anonyme. Le présentateur informe les « concurrents » qu'ils sont sur le point de participer à un jeu télévisé où les gagnants remporteront des prix fabuleux, mais les avertit également que le jeu sera extrêmement dangereux."
+      it: "Entrando in SCP-024, i visitatori vengono immediatamente accolti da uno speaker anonimo. Lo speaker informa i «concorrenti» che stanno per partecipare a un gioco a premi in cui i vincitori otterranno premi favolosi, ma li avverte anche che il gioco sarà estremamente pericoloso."
+      ko: "SCP-024에 들어서면 방문객은 즉시 익명의 아나운서에게 환영받는다. 아나운서는 '참가자'들에게 이제 곧 우승자가 굉장한 상품을 받게 되는 게임 쇼에 참가하게 된다고 알리면서, 다만 그 게임이 극도로 위험할 것이라고 경고한다."
+      pl: "Po wejściu do SCP-024 odwiedzający są natychmiast witani przez anonimowego spikera. Spiker informuje „uczestników“, że za chwilę wezmą udział w teleturnieju, w którym zwycięzcy zdobędą wspaniałe nagrody, ale zarazem ostrzega, że gra będzie niezwykle niebezpieczna."
+      pt: "Ao entrar no SCP-024, os visitantes são imediatamente recebidos por um locutor anônimo. O locutor informa aos «concorrentes» que estão prestes a participar de um programa de jogos no qual os vencedores ganharão prêmios fabulosos, mas também os avisa de que o jogo será extremamente perigoso."
+      th: "เมื่อเข้าสู่ SCP-024 ผู้มาเยือนจะได้รับการต้อนรับทันทีจากผู้ประกาศนิรนาม ผู้ประกาศจะแจ้งแก่ \"ผู้เข้าแข่งขัน\" ว่ากำลังจะได้เข้าร่วมเกมโชว์ที่ผู้ชนะจะได้รับรางวัลอันล้ำค่า แต่ก็เตือนด้วยว่าเกมนี้จะอันตรายอย่างยิ่ง"
+      uk: "Увійшовши до SCP-024, відвідувачів одразу вітає анонімний диктор. Диктор повідомляє «учасникам», що вони незабаром візьмуть участь у грі-шоу, де переможці отримають чудові призи, але водночас попереджає, що гра буде надзвичайно небезпечною."
+      vi: "Khi bước vào SCP-024, khách tham quan ngay lập tức được chào đón bởi một người dẫn chương trình ẩn danh. Người dẫn chương trình thông báo với các \"thí sinh\" rằng họ sắp tham gia một trò chơi truyền hình trong đó người thắng cuộc sẽ giành được những phần thưởng tuyệt vời, nhưng cũng cảnh báo rằng trò chơi sẽ vô cùng nguy hiểm."
+      zh: "进入SCP-024后，访客会立即受到一位匿名播报员的欢迎。播报员会告知「参赛者」，他们即将参加一场竞赛节目，获胜者可赢得丰厚奖品，但同时警告这场游戏将极其危险。"
+      zh_Hant: "進入SCP-024後，訪客會立即受到一位匿名播報員的歡迎。播報員會告知「參賽者」，他們即將參加一場競賽節目，獲勝者可贏得豐厚獎品，但同時警告這場遊戲將極其危險。"
 
   - scene: >
       Wide shot, dynamic low angle, full body, showing a long, elaborate
@@ -113,9 +113,12 @@ panels:
 
   - scene: >
       Close-up, waist-up, eye level, outside SCP-024's main entrance at a
-      weathered metal mailbox at dusk. attending-researcher-m stands with
-      the mailbox door open, pulling out a VHS tape, staring at it with
-      wide, unsettled eyes.
+      weathered metal mailbox at dusk. On the left side of the frame,
+      attending-researcher-m stands with the mailbox door open, having
+      just pulled out a VHS tape, staring at it with wide, unsettled
+      eyes. On the right side of the frame, a portable CRT monitor on a
+      cart already plays grainy footage of the exact obstacle course from
+      the previous panel, the leaping contestant frozen mid-frame.
     characters: [attending-researcher-m]
     caption:
       ja: "この映像は、直前に行われたゲームの全過程を記録した完全な記録である。しかし勝者たちは、SCP-024内部でカメラや録画機器を一切見たことがないと証言している。"

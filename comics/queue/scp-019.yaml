@@ -105,9 +105,11 @@ panels:
       zh_Hant: "SCP-019看起來是一只非常大的陶製花瓶，瓶口直徑1.8公尺，高2.4公尺。其風格與紋飾表明它製作於古典希臘時期，但由於表面無法以任何已知手段破壞，確切的年代測定無法進行。"
 
   - scene: >
-      Close-up on the wide mouth of SCP-019. Three small SCP-019-2
-      creatures clamber over the painted rim, squinting and grimacing in
-      the light; one is caught mid-sneeze in the cold, its breath fogging.
+      Close-up on the wide mouth of SCP-019. A single SCP-019-2 creature
+      is hauling itself up over the painted rim, one oversized clawed
+      hand gouging at the ceramic, its animal snout snarling and its
+      whole posture aggressive as it lunges toward the observation
+      window.
     characters: [scp-019-2, scp-019]
     caption:
       ja: "これらの実体は多くの点で個体差があるが、概して小柄で、漠然と人型であり（動物的な特徴を持つこともある）、極めて敵対的である。かなり脆弱で（さらに、意外にも可燃性である）ものの、相応の力を持ち、多数になると相当な脅威となる。"
@@ -128,11 +130,12 @@ panels:
 
   - scene: >
       Medium shot, waist-up, inside the observation room. On the left side
-      of the frame, Attending Researcher (Male) calmly reaches for a large
-      guarded switch on the console, his expression bored. Through the
-      plate-glass window behind him on the right, orange incinerator
-      flames have flared up under the grate and a few small SCP-019-2
-      silhouettes scatter.
+      of the frame, Attending Researcher (Male), having just spotted the
+      lone creature on his monitor, calmly flips a large guarded switch
+      on the console, his expression bored. Through the plate-glass
+      window behind him on the right, orange incinerator flames have
+      flared up under the grate the instant the single SCP-019-2 cleared
+      the rim.
     characters: [attending-researcher-m, scp-019-2, scp-019]
     caption:
       ja: "0℃に保たれ、完全に静止した状態では、実体はSCP-019からおよそ1時間に1体の割合で出現する。SCP-019-2の個体が観察された場合には、焼却炉を作動させること。"

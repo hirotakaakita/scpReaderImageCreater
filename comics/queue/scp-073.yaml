@@ -144,19 +144,27 @@ panels:
       zh_Hant: "SCP-073的存在對一切在土壤中生長的生命都是有害的，會使其半徑二十（20）公尺內的此類生命死亡。任何源自土壤所育生命之物，如木材和紙張，一經SCP-073觸碰便立即腐爛崩解。"
 
   - scene: >
-      Dynamic medium shot, slight low angle. On the left side of the frame, a
-      d-class staggers backward clutching his own forearm and grimacing in
-      pain, a metal bar still swinging from his other hand. On the right side
-      of the frame, SCP-073 stands completely unharmed, wincing in sympathy
-      with one metal hand raised in a calm, apologetic "please stop" gesture.
+      Dynamic medium shot, slight low angle, inside a bare testing chamber
+      with a visible wall-mounted camera and a large observation window
+      (clearly a sanctioned harm-resistance test, not the furnished cell of
+      panel 1). On the left side of the frame, a d-class staggers backward
+      clutching his own forearm and grimacing in pain, a metal bar still
+      swinging from his other hand. On the right side of the frame, SCP-073
+      stands completely unharmed but grimaces and braces against his own
+      share of the pain, jaw tight, while still raising one metal hand in a
+      firm but calm "please stop" gesture.
     notes: >
       Panel-4 basis: "Violence directed towards SCP-073 reflects any damage
       inflicted on SCP-073 directly back onto the attacker, although SCP-073
       visibly remains unharmed"; it "still feels the pain of the action, and
       has politely asked researchers to abstain from overly harmful actions
-      to its person." Fixed facts: the attacker gets hurt, not Cain; Cain
-      still feels it and asks politely to stop. Keep it non-gory (no blood).
-      Free to restage: the failed attack, gestures.
+      to its person." Fixed facts: the attacker gets hurt, not SCP-073;
+      SCP-073 still feels the pain and asks politely to stop. Keep it
+      non-gory (no blood). Free to restage: the failed attack, gestures.
+      Codexレビュー反映: (1) 1コマ目「暴力禁止」との齟齬。4コマ目を試験室
+      （カメラ・観察窓あり）に置き、許可された耐性試験だと分かるようにして現在の
+      収容場面と区別。(2) captionは本人も痛みを感じるとあるのに「同情して顔を
+      しかめる」だけだった点を、自身の痛みに耐える表情・姿勢に修正。
     characters: [d-class, scp-073]
     caption:
       ja: "SCP-073に向けられた暴力は、SCP-073に与えられたあらゆる損傷を、そのまま攻撃者へと跳ね返す。ただしSCP-073の身体には目に見える損傷は残らない。SCP-073は、それでもその行為の痛みは感じると述べており、自分に対する過度に有害な行為は控えてほしいと丁重に頼んでいる。"

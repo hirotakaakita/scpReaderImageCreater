@@ -81,12 +81,11 @@ panels:
       zh_Hant: "SCP-030須收容於17號站點一間經過改造的人形收容室內。室內應作與其身形相稱的小幅調整，例如按適當比例縮小的工作臺和椅子。"
 
   - scene: >
-      Close-up, waist-up framing scaled to the small figure, a different
-      framing from the wide shot. On the left side of the frame, SCP-030
-      stands upright on a padded examination table, full body visible, calm
-      and patient. On the right side of the frame, attending-researcher-m
-      crouches to bring his face level with SCP-030, peering closely at its
-      blue sapphire-like eyes.
+      Extreme close-up on SCP-030's face and eyes, a different framing
+      from the wide shot. Its smooth hairless grey skin fills the frame
+      and its solid deep-blue pupil-less eyes catch the light like small
+      cut sapphires. Reflected small in one eye, attending-researcher-m
+      leans in with a magnifier, studying it.
     characters: [scp-030, attending-researcher-m]
     notes: >
       根拠: Description第1〜2文「毛髪がなく性別のない灰色がかった人間の姿。
@@ -111,12 +110,12 @@ panels:
       zh_Hant: "SCP-030呈現為一個無毛髮、無性別、灰色調的人類形象，身高71公分，體重12.70公斤。其純藍色的眼睛沒有可辨的虹膜或瞳孔，看上去像經過切割的小藍寶石。"
 
   - scene: >
-      Close-up, waist-up, dim and low-key lighting, a different framing
-      from the previous panels. On the left side of the frame, SCP-030 is
-      frozen completely still mid-gesture, one small hand half-raised, eyes
-      dull and lightless, like a switched-off statue. On the right side of
-      the frame, attending-researcher-m shakes a dead flashlight, the room
-      around them plunged into near darkness.
+      Medium-wide shot, full body, the small containment cell plunged
+      into near darkness, a different framing from the previous panels. In
+      the center, SCP-030 stands frozen completely still mid-gesture, one
+      small hand half-raised, eyes dull and lightless, like a switched-off
+      statue. On the right side of the frame, attending-researcher-m
+      shakes a dead flashlight, its beam gone.
     characters: [scp-030, attending-researcher-m]
     notes: >
       根拠: Description「15ルーメン以上の光源が1.5m以内にある限り活動を続ける。
@@ -142,11 +141,13 @@ panels:
 
   - scene: >
       Medium shot, waist-up, eye level at the small figure's height, a
-      different framing from the previous panels. On the left side of the
-      frame, attending-researcher-f leans forward pointing at a question
-      written on her notepad (illegible). On the right side of the frame,
-      SCP-030 responds with a small, apologetic bow, one hand pressed to
-      its chest, expression politely regretful.
+      different framing from the previous panels, the room now bright
+      again with a restored desk lamp glowing close beside them. On the
+      left side of the frame, attending-researcher-f leans forward
+      pointing at a question written on her notepad (illegible). On the
+      right side of the frame, SCP-030 has resumed moving and responds
+      with a small, apologetic bow, one hand pressed to its chest,
+      expression politely regretful.
     characters: [attending-researcher-f, scp-030]
     notes: >
       根拠: Description「自らを『アリエル』と呼び職員にもそう呼ぶよう求める。

@@ -95,12 +95,13 @@ panels:
 
   - scene: >
       Close-up shot centered on a hand mirror that the D-Class subject
-      holds up in front of his own face, filling most of the frame. His
-      real face, out of focus at the frame's edge, remains an ordinary
-      male D-Class face. In sharp focus inside the mirror glass, the
-      reflection instead shows SCP-013-reflection: a woman's face with
-      cropped dark hair, blue eyes, and bright blue lipstick, staring back
-      calmly.
+      holds up in front of his own face, filling most of the frame. This
+      is rendered as the subject's own subjective perception of what he
+      sees, not an objective anomaly of the glass. His real face, out of
+      focus at the frame's edge, remains an ordinary male D-Class face.
+      In sharp focus inside the mirror glass, he instead perceives
+      SCP-013-reflection: a woman's face with cropped dark hair, blue
+      eyes, and bright blue lipstick, staring back calmly.
     characters: [d-class, scp-013-reflection]
     caption:
       ja: "被験者たちは、この女性を25歳から35歳くらいで、身長はおよそ1.6メートル、体重は50から55キログラムほどと述べている。その他に繰り返し語られる特徴として、短く刈られた黒髪、青い瞳、鮮やかな青い口紅が挙げられる。"
@@ -121,11 +122,12 @@ panels:
 
   - scene: >
       Wide shot, full body, eye level, pulled back to show the whole vault
-      cell. The D-Class subject sits calmly on a cot, holding a small
-      mirror at arm's length and touching his own lips with a tube of
-      bright blue lipstick, a serene smile on his face. In the doorway on
-      the right, the attending researcher stands frozen, clipboard lowered,
-      staring with a deeply uneasy expression.
+      cell. The D-Class subject sits calmly on a cot holding a small
+      mirror, studying his own unchanged, ordinary male face in it with a
+      quiet, matter-of-fact expression, entirely at ease with what he
+      perceives there. In the doorway on the right, the attending
+      researcher stands frozen, clipboard lowered, staring with a deeply
+      uneasy expression.
     characters: [d-class, attending-researcher-m]
     caption:
       ja: "変化はすべて完全に精神的なものであり、被験者の肉体そのものは外見上変化しない。変わるのは自分自身についての知覚だけである。この変化は永続的であり、元に戻すことはできない。"

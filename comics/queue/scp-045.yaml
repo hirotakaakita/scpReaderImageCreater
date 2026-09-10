@@ -73,8 +73,8 @@ panels:
       dense, faintly blue translucent ice, its interior packed with a
       regular, complex lattice of flat internal fracture planes that
       catch the light. Its twenty triangular faces are sharp and
-      geometric. It floats slightly above its cradle. No people, no
-      text.
+      geometric. It stays clamped down to its cradle by the heavy
+      bindings. No people, no text.
     characters: []
     notes: >
       根拠: Description「The specimen is an icosahedron composed of ice
@@ -106,9 +106,10 @@ panels:
       (Female) sits at a remote telepresence console outside the
       chamber, hands on the controls, watching a monitor. On the right
       side of the frame, seen through the viewing port, a thin jet of
-      gas is being piped toward the crystalline object; where it nears
-      the surface it visibly turns into falling droplets of water and a
-      scatter of white salt crystals drifting down. No text.
+      gas is being piped toward the crystalline object; a few meters out
+      from it, as the gas crosses an invisible spherical boundary well
+      short of the surface, it visibly turns into falling droplets of
+      water and a scatter of white salt crystals drifting down. No text.
     characters: [attending-researcher-f]
     notes: >
       根拠: Description「When gaseous nitrogen or argon come within 3.7
@@ -137,8 +138,9 @@ panels:
 
   - scene: >
       Wide dynamic shot, low angle with a slight dutch tilt and strong
-      motion blur. Inside the chamber the icosahedron is spinning
-      rapidly on several axes at once, a blur of facets. The domed room
+      motion blur. Inside the chamber the icosahedron strains against the
+      heavy clamps and bindings pinning it to the platform, juddering
+      violently as its blocked rotation drives the tremor. The domed room
       shakes: fine dust sifts from the ceiling, ripples cross a puddle
       on the floor, equipment rattles. On the left side of the frame,
       outside the viewing port, Attending Researcher (Male) grips a

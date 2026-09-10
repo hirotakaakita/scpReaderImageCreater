@@ -146,16 +146,21 @@ panels:
   - scene: >
       Medium-wide shot from behind and to the side of Attending
       Researcher (Female). On the left side of the frame she calmly
-      holds up a small sprig of purple lavender toward the entity. On
-      the right side of the frame SCP-049 has settled back into a calm,
+      holds up a small sprig of purple lavender toward the entity. In
+      the center of the frame SCP-049 has settled back into a calm,
       still posture, hands clasped, mask lowered slightly as if soothed.
-      A faint scatter of lavender flowers on the table. No text.
-    characters: [attending-researcher-f, scp-049]
+      On the right side of the frame, at the edge, Attending Researcher
+      (Male) is still there, straightening up from panel 3 and lowering
+      his guard as he watches, so the two researchers are present
+      together. A faint scatter of lavender flowers on the table. No text.
+    characters: [attending-researcher-f, scp-049, attending-researcher-m]
     notes: >
       根拠: SC procedures「Lavender application produces a calming effect
       [on SCP-049].」オチ。
       変えてはいけない事実: ラベンダーがSCP-049に鎮静効果をもたらすこと。
       変更可能: ラベンダーの見せ方、双方のポーズ。
+      Codexレビュー反映: 3→4コマで男性研究者が消え女性研究者が唐突に登場する
+      指摘に対し、4コマ目に男性研究者を残して連続性を持たせた。
     caption:
       ja: "ラベンダーを用いると、SCP-049に対して鎮静効果が生じることが確認されている。"
       en: "The application of lavender has been observed to produce a calming effect on SCP-049."

@@ -47,17 +47,20 @@ local_characters:
 
 panels:
   - scene: >
-      Medium shot, eye level. A modest private bathroom with a small sink,
-      mirror, and tiled wall. SCP-063 stands upright in a plain cup on the
-      edge of the sink. attending-researcher-m, in his lab coat, leans one
-      hand on the sink and looks down at SCP-063 with a resigned expression,
-      as though it is a chore he cannot skip.
+      Medium still-life shot, eye level, of a modest empty private bathroom
+      with a small sink, mirror, and tiled wall. No people are present.
+      SCP-063 stands upright in a plain cup on the edge of the sink, quiet
+      and unremarkable, the room calm and unattended.
     notes: >
       Panel-1 basis: "SCP-063 is to be kept at all times within Dr. ████'s
       personal bathroom, located within the personnel quarters upon Site 19."
-      Fixed facts: the toothbrush lives in one researcher's private bathroom.
-      Free to restage: the researcher's pose and expression, framing.
-    characters: [attending-researcher-m, scp-063]
+      Fixed facts: the toothbrush lives in one researcher's private bathroom,
+      resting in a cup on the sink.
+      Free to restage: framing, time of day.
+      Codexレビュー反映: 1→2コマの飛躍（歯ブラシを前にした研究者→放置浴室へ
+      駆け込み）指摘。1コマ目を無人の保管風景にし、置き場所（洗面台のコップ）を
+      2コマ目と統一。放置→発見の流れを自然にした。
+    characters: [scp-063]
     caption:
       ja: "SCP-063は常時、サイト19の職員居住区内にある████博士の個人用浴室内に保管される。"
       en: "SCP-063 is to be kept at all times within Dr. ████'s personal bathroom, located within the personnel quarters upon Site 19."
@@ -76,13 +79,14 @@ panels:
       zh_Hant: "SCP-063須始終存放於Site 19人員宿舍區內████博士的私人浴室中。"
 
   - scene: >
-      Wide shot, eye level, showing the whole small bathroom. SCP-063 lies
-      forgotten on a shelf; the cup, soap dish, and a stretch of tiled wall
-      around it are visibly warping and crumbling into little heaps of fine
-      gray dust, the air around it faintly shimmering. On the left side of
-      the frame, attending-researcher-m rushes in through the doorway with an
-      alarmed face; just behind him, attending-researcher-f follows, one hand
-      over her mouth.
+      Wide shot, eye level, showing the whole small bathroom. SCP-063 still
+      stands in its cup on the edge of the sink, untouched for over a day;
+      the cup, the faucet, and a stretch of tiled wall right around it are
+      visibly warping and crumbling into little heaps of fine gray dust, the
+      air around it faintly shimmering. On the left side of the frame,
+      attending-researcher-m rushes in through the doorway with an alarmed
+      face; just behind him, attending-researcher-f follows, one hand over
+      her mouth.
     notes: >
       Panel-2 basis: object must be used at least once per 24 hours "or the
       object will begin to emit an unknown specialized radiation that results
@@ -110,10 +114,11 @@ panels:
 
   - scene: >
       Close-up shot on attending-researcher-m's hand and the sink, filling
-      most of the frame. He is brushing his teeth with SCP-063, and where the
-      white bristles have swept past the metal faucet and the ceramic rim of
-      the sink, a smooth clean bite is simply missing from each, with no cut
-      edge, no debris, and no dust. His eyes are wide as he notices.
+      most of the frame. He is brushing his teeth with SCP-063, and at this
+      exact moment the white bristles are dragging across the metal faucet;
+      right where they touch, a smooth clean bite is vanishing from the
+      faucet with no cut edge, no debris, and no dust. His eyes are wide as
+      he notices.
     notes: >
       Panel-3 basis: "SCP-063 appears to be an average, pale blue toothbrush"
       that can "effortlessly cleave through any and all dead or inorganic
@@ -142,15 +147,19 @@ panels:
       Medium shot from behind attending-researcher-m's shoulder, facing the
       mirror, his broadly grinning face and gleaming, perfectly clean teeth
       visible in the reflection as he holds SCP-063 up beside his cheek.
-      Reflected behind him, half the bathroom fixtures - most of the faucet,
-      a corner of the sink, part of a shelf - are cleanly gone, replaced by
-      blank empty space.
+      Reflected behind him, only the small area the brush actually passed
+      over is gone - the faucet and the near rim of the sink - cleanly
+      replaced by blank empty space, while the rest of the bathroom is
+      intact.
     notes: >
       Panel-4 basis: subjects "claimed that the experience left their teeth
       feeling remarkably clean"; "in spite of its extraordinary abilities...
       SCP-063 is completely made of common plastic." Fixed facts: great
-      brushing result, mundane plastic object, collateral erosion around it.
-      Free to restage: his expression, what is missing behind him.
+      brushing result, mundane plastic object, collateral erosion limited to
+      the exact spot the bristles touched.
+      Free to restage: his expression.
+      Codexレビュー反映: 3コマで接触の瞬間を明示し、4コマの消失範囲を接触箇所
+      （蛇口・洗面台の縁）だけに限定。棚まで大きく消える描写をやめた。
     characters: [attending-researcher-m, scp-063]
     caption:
       ja: "SCP-063を使用した被験者は、使用後、歯が驚くほど清潔に感じられたと述べている。その並外れた能力にもかかわらず、研究所の分析により、SCP-063は完全にありふれたプラスチックで出来ていることが判明している。"

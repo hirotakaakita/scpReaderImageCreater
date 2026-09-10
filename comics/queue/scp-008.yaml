@@ -84,11 +84,13 @@ panels:
       zh_Hant: "SCP-008是一種複雜的朊病毒。SCP-008朊病毒的特性包括：感染率100%；致死率100%；透過暴露的黏膜及一切體液傳播；不經空氣或水傳播。"
 
   - scene: >
-      Medium shot, waist-up. Behind a thick observation window at the back
-      of the frame, D-Class Personnel sits wrapped in a grey blanket,
-      flushed and tired, dabbing his forehead with a cloth. In the
-      foreground on the right, Attending Researcher (Female) stands
-      checking a large wall clock and writing the time on a clipboard.
+      Medium shot, waist-up, in a dedicated observation wing separate
+      from the lab, a row of identical sealed observation cells along one
+      wall. Behind a thick observation window, D-Class Personnel sits
+      wrapped in a grey blanket, flushed and tired, dabbing his forehead
+      with a cloth. In the foreground on the right, Attending Researcher
+      (Female) stands checking a large wall clock and entering the time
+      in an observation log (no readable text).
     characters: [d-class, attending-researcher-f]
     caption:
       ja: "SCP-008への感染症状は、曝露から3時間以内に現れ、高熱を伴うインフルエンザ様症状、および後期における重度の認知障害を含む。"
@@ -108,13 +110,14 @@ panels:
       zh_Hant: "感染SCP-008的症狀在暴露後至多三小時內顯現，包括伴有高熱的流感樣症狀，以及後期的重度痴呆。"
 
   - scene: >
-      Wide shot, low angle, a long facility corridor with an overhead
-      route sign showing only a blank arrow. On the left side of the
-      frame, Attending Researcher (Male) stands on a small stepladder
-      lifting a framed evacuation-route floor plan (lines and arrows only,
-      no letters) down off the wall. On the right side of the frame,
-      Attending Researcher (Female) stands holding a long wall calendar,
-      most of its days already crossed off, looking at it flatly.
+      Wide shot, low angle, a long bare facility corridor. The walls are
+      conspicuously blank: empty mounting brackets sit where
+      evacuation-route maps would normally hang, and there is no exit
+      signage anywhere. On the left side of the frame, Attending
+      Researcher (Male) walks the empty corridor. On the right side of
+      the frame, Attending Researcher (Female) stands holding a long wall
+      calendar, most of its days already crossed off to mark the
+      four-month quarantine, looking at it flatly.
     characters: [attending-researcher-m, attending-researcher-f]
     caption:
       ja: "施設を離れる工作員の検疫期間は4か月である。全てのG2サイトは、避難手順を用意しないことを方針とすべきである。"

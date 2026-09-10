@@ -41,6 +41,24 @@ local_characters:
       if they cannot see it.
     default_look: >
       Spreading in dark furry patches out from the corners of a room.
+  affected-resident-m:
+    name: Affected Resident (Male)
+    appearance: >
+      An ordinary middle-aged civilian man, unremarkable average build,
+      short greying dark hair (color RGB 80,75,70), plain home clothes in
+      muted colors (color RGB 110,110,110), a calm, blank, unbothered
+      expression.
+    default_look: >
+      Relaxed at home, moving calmly and deliberately.
+  affected-resident-f:
+    name: Affected Resident (Female)
+    appearance: >
+      An ordinary middle-aged civilian woman, unremarkable average build,
+      shoulder-length greying dark hair (color RGB 85,80,75), plain home
+      clothes in muted colors (color RGB 120,115,110), a calm, blank,
+      unbothered expression.
+    default_look: >
+      Relaxed at home, moving calmly and deliberately.
 
 characters: [attending-researcher-m, attending-researcher-f, scp-020]
 
@@ -97,11 +115,13 @@ panels:
       zh_Hant: "收容室內裝有密封的視訊監控攝影機，須每日檢查其完好性。進入收容室的任何人員必須穿戴包括循環呼吸器在內的五級生物安全裝備，並在離開時接受徹底的抗真菌消毒。"
 
   - scene: >
-      Medium shot, waist-up. On the left side of the frame, Attending
-      Researcher (Female), out of her suit now, stands close to a clean,
-      blank concrete wall, peering at it and seeing nothing. On the right
-      side of the frame, a wall-mounted CCTV monitor shows that exact
-      same stretch of wall crawling with dark blotchy mold (SCP-020).
+      Medium shot, waist-up, in a safe monitoring room outside
+      containment where no suit is needed. On the left side of the
+      frame, Attending Researcher (Female) looks through a thick
+      observation window at a stretch of containment wall that appears
+      perfectly clean to her eyes. On the right side of the frame, a CCTV
+      monitor beside the window shows that exact same stretch of wall
+      crawling with dark blotchy mold (SCP-020).
     characters: [attending-researcher-f, scp-020]
     caption:
       ja: "SCP-020は急速に広がる真菌生物であり、人間を含む生物の感覚や行動に影響を及ぼすことができる。SCP-020は、写真または映像による監視を通して見たときにのみ、人間の目に見える。"
@@ -121,16 +141,17 @@ panels:
       zh_Hant: "SCP-020是一種快速蔓延的真菌生物，能夠影響包括人類在內的生物的感官和行為。SCP-020只有在透過照相或視訊監控觀察時，才對人類可見。"
 
   - scene: >
-      Wide shot, eye level, a humid domestic living room with fogged-up
-      windows, a thermostat dial on the wall turned all the way up, and
-      tea things laid out for visitors. On the left side of the frame,
-      Attending Researcher (Female) in a Biosafety Level 5 suit points a
-      handheld video camera at the wall; its flip-out screen shows the
-      wall crawling with dark mold. On the right side of the frame,
-      Attending Researcher (Male) in a matching suit reaches up to turn
-      the thermostat back down. Dark furry SCP-020 patches are visible to
+      Wide shot, eye level, an ordinary suburban domestic living room with
+      fogged-up windows and tea things laid out for visitors. On the left
+      side of the frame, Affected Resident (Male) and Affected Resident
+      (Female) reach up together to crank a wall thermostat to its
+      maximum and switch on a steaming humidifier, both calm and
+      unbothered. On the right side of the frame, Attending Researcher
+      (Female) in a Biosafety Level 5 suit holds up a handheld video
+      camera whose flip-out screen shows the wall behind the residents
+      crawling with dark mold. Dark furry SCP-020 patches are visible to
       the reader thick across the ceiling corners.
-    characters: [attending-researcher-f, attending-researcher-m, scp-020]
+    characters: [affected-resident-m, affected-resident-f, attending-researcher-f, scp-020]
     caption:
       ja: "SCP-020は、通常は人間の住居内でコロニーを形成すると、周囲の人間の行動に影響を及ぼす胞子を産生する。影響を受けた被験者は、SCP-020の成長により適した環境を作るために、自宅の温度と湿度を上げる。"
       en: "Once SCP-020 forms a colony, usually within a human residence, it will produce spores that affect the behavior of humans around it. Affected subjects will increase the heat and humidity within their homes to create an environment more suitable to the growth of SCP-020."

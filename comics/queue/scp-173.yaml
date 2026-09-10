@@ -56,7 +56,7 @@ panels:
       concrete cell.
     characters: [scp-173]
     caption:
-      ja: "SCP-173は1993年にサイト-19へ移送された。出自は未だ不明である。SCP-173は自立し、極めて敵対的である。"
+      ja: "SCP-173は1993年にサイト-19へ移送された。出自は未だ不明である。SCP-173はひとりでに動き、極めて敵対的である。"
       en: "SCP-173 was moved to Site-19 in 1993. Origin is as of yet unknown. SCP-173 is animate and extremely hostile."
       cs: "SCP-173 bylo v roce 1993 přemístěno na Stanoviště-19. Jeho původ je zatím neznámý. SCP-173 je oživlé a extrémně nepřátelské."
       de: "SCP-173 wurde 1993 zu Standort-19 verlegt. Der Ursprung ist bislang unbekannt. SCP-173 ist beseelt und extrem feindselig."
@@ -74,11 +74,13 @@ panels:
 
   - scene: >
       Medium shot, waist-up, low angle from inside the doorway looking into
-      the cell. Two researchers, attending-researcher-m on the left and
-      attending-researcher-f on the right, have just stepped through the
-      now-open door, both staring fixedly across the room at SCP-173,
-      neither one blinking, their postures tense and alert.
-    characters: [attending-researcher-m, attending-researcher-f, scp-173]
+      the cell. Three people have just stepped through the now-open door:
+      on the left, attending-researcher-m and attending-researcher-f both
+      stare fixedly across the room at SCP-173, neither one blinking,
+      postures tense — they are the two keeping eye contact. On the right,
+      a d-class carrying a mop and bucket moves past them toward the cell
+      to do the maintenance work, not looking at the statue.
+    characters: [attending-researcher-m, attending-researcher-f, d-class, scp-173]
     caption:
       ja: "職員がSCP-173の収容室に入室する際は、いかなる時も3名以上で入室しなければならない。全員が退室し施錠を終えるまで、常に2名がSCP-173と直接目を合わせ続けなければならない。"
       en: "When personnel must enter SCP-173's container, no fewer than three may enter at any time, and at all times, two persons must maintain direct eye contact with SCP-173 until all personnel have vacated and relocked the container."
@@ -97,11 +99,15 @@ panels:
       zh_Hant: "當人員必須進入SCP-173的收容間時，每次不得少於三人一同進入，且必須始終有兩人與SCP-173保持直接目光接觸，直至所有人員撤出並重新鎖門為止。"
 
   - scene: >
-      Close-up shot centered tightly on attending-researcher-f's face, eyes
-      wide and straining, a single bead of sweat on her temple, clearly
-      fighting the urge to blink. SCP-173 is visible only as a blurred,
-      out-of-focus shape reflected in her wide eyes.
-    characters: [attending-researcher-f, scp-173]
+      Close-up two-shot on attending-researcher-m and attending-researcher-f
+      at the exact instant a hard sneeze forces attending-researcher-m's
+      eyes shut, his head snapping forward — and beside him
+      attending-researcher-f has reflexively flinched and squeezed her own
+      eyes shut at the sudden movement, so for this one instant neither
+      person has eyes on the statue. Both hands fly up too late. SCP-173 is
+      a blurred, out-of-focus shape lurching in the background, already
+      closer.
+    characters: [attending-researcher-m, attending-researcher-f, scp-173]
     caption:
       ja: "本物体は直接視認されている間は動くことができない。収容室に入る職員は、瞬きをする前に互いに知らせ合うよう指示されている。"
       en: "The object cannot move while within a direct line of sight. Personnel assigned to enter container are instructed to alert one another before blinking."
@@ -123,10 +129,18 @@ panels:
       Wide shot, full body, eye level, pulled back to show the whole cell.
       Both attending-researcher-m and attending-researcher-f are frozen
       rigid, backs pressed almost against the door, eyes bulging in shock.
-      SCP-173 now looms directly in front of them, far closer than before,
-      its twisted mouth inches from their faces, having silently closed the
-      distance in the instant their eyes were shut.
+      SCP-173 now looms directly over them, far closer than before, having
+      silently closed the distance in the instant their eyes were shut, and
+      its long thin concrete arms are outstretched with both stony hands
+      reaching for the researchers' necks — stopping just short as their
+      eyes reopen. No contact, no blood; the lunge for the throat is
+      unmistakable.
     characters: [attending-researcher-m, attending-researcher-f, scp-173]
+    notes: >
+      Codexレビュー反映: (1) 1人が瞬きを我慢→突然「全員が目を閉じた間に接近」
+      へ飛ぶ指摘。3コマ目でくしゃみによる視線途切れの原因を描いた。(2) captionは
+      頸部への攻撃を説明するのにsceneは顔を近づけて驚かすだけだった点を、首へ
+      伸びる手として攻撃方法につながる描写に修正（非流血）。
     caption:
       ja: "本物体は、頭蓋骨基部で頸部を折るか、絞殺することで攻撃すると報告されている。"
       en: "Object is reported to attack by snapping the neck at the base of the skull, or by strangulation."

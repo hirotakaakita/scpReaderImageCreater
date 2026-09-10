@@ -34,13 +34,15 @@ characters: [attending-researcher-m, attending-researcher-f]
 
 panels:
   - scene: >
-      Wide shot, full body, eye level, from just outside the open
-      containment door. A bare cement room, five meters square, without
-      windows, its walls lined with a faint metallic mesh embedded in the
-      concrete. No guard stands near the heavy square containment door,
-      which sits propped open. The room's interior beyond the doorway is
-      wrapped in a soft, unnatural haze of shadow that makes its contents
-      impossible to make out clearly.
+      Wide shot, eye level, from far down the corridor, looking toward the
+      heavy square containment door, which sits propped open. A bare cement
+      room, five meters square, without windows, its walls lined with a
+      faint metallic mesh embedded in the concrete. No guard stands
+      anywhere near the door. The shallow viewing angle through the
+      doorway reveals only bare floor and the corner of a low empty
+      pedestal; whatever the pedestal holds sits outside the frame,
+      hidden purely by the camera angle and the door edge, with no haze
+      or shadow effect.
     characters: []
     caption:
       ja: "オブジェクトは、コンクリート製の壁の周囲をファラデーケージで囲んだ、5×5×2.5メートルの正方形の部屋に収容されている。SCP-055の部屋の外に警備員を配置してはならない。"
@@ -60,35 +62,38 @@ panels:
       zh_Hant: "該物體被收容在一個由水泥建造、邊長五（5）乘五（5）乘二點五（2.5）公尺的正方形房間內，房間四壁被法拉第籠包圍。禁止在SCP-055的房間外部署警衛人員。"
 
   - scene: >
-      Medium shot, waist-up, low angle from behind Attending Researcher
-      (Male) as he stands in the propped-open doorway, a camera raised to
-      his eye with the flash mid-flare, a notepad tucked under one arm.
-      Only the back of his head and shoulders are visible to the viewer;
-      the room beyond him is kept an indistinct haze, deliberately
-      impossible to make out.
+      Medium shot, waist-up, low angle from directly behind Attending
+      Researcher (Male) as he stands in the propped-open doorway, a
+      camera raised to his eye with the flash mid-flare, a notepad
+      tucked under one arm. His head, raised arms and shoulders fill the
+      center of the frame and squarely block the low pedestal directly
+      ahead of him from the viewer's line of sight, so its contents are
+      hidden by his body alone, not by any haze.
     characters: [attending-researcher-m]
     caption:
-      ja: "個人はSCP-055を直接観察し、メモ・写真・記録を取ることができる。"
-      en: "Individuals may directly observe SCP-055, take notes, photographs, and recordings of it during approved study sessions."
-      cs: "Jednotlivci mohou SCP-055 přímo pozorovat, pořizovat si poznámky, fotografie a záznamy během schválených studijních sezení."
-      de: "Personen dürfen SCP-055 während genehmigter Studiensitzungen direkt beobachten, Notizen machen sowie Fotos und Aufnahmen davon anfertigen."
-      es: "Las personas pueden observar directamente a SCP-055, tomar notas, fotografías y grabaciones de él durante sesiones de estudio aprobadas."
-      fr: "Les individus peuvent observer directement le SCP-055, prendre des notes, des photographies et des enregistrements pendant des séances d'étude approuvées."
-      it: "Gli individui possono osservare direttamente SCP-055, prendere appunti, fotografie e registrazioni durante le sessioni di studio approvate."
-      ko: "개인은 승인된 연구 세션 중 SCP-055를 직접 관찰하고, 메모, 사진, 녹화를 할 수 있다."
-      pl: "Osoby mogą bezpośrednio obserwować SCP-055, robić notatki, zdjęcia i nagrania podczas zatwierdzonych sesji badawczych."
-      pt: "Os indivíduos podem observar diretamente o SCP-055, fazer anotações, tirar fotografias e realizar gravações durante sessões de estudo aprovadas."
-      th: "บุคคลสามารถสังเกต SCP-055 ได้โดยตรง จดบันทึก ถ่ายภาพ และบันทึกข้อมูลระหว่างช่วงการศึกษาที่ได้รับอนุมัติ"
-      uk: "Особи можуть безпосередньо спостерігати за SCP-055, робити нотатки, фотографії та записи під час затверджених сеансів вивчення."
-      vi: "Các cá nhân có thể trực tiếp quan sát SCP-055, ghi chép, chụp ảnh và ghi hình trong các buổi nghiên cứu được phê duyệt."
-      zh: "个人可以在获批的研究过程中直接观察SCP-055，做笔记、拍照和录像。"
-      zh_Hant: "個人可以在獲批的研究過程中直接觀察SCP-055，做筆記、拍照和錄影。"
+      ja: "個人はSCP-055の収容室に立ち入ってそれを観察し、頭の中でまたは書面でメモを取り、スケッチを描き、写真を撮ることが十分に可能である。"
+      en: "Individuals are perfectly capable of entering SCP-055's container and observing it, taking mental or written notes, making sketches, and taking photographs."
+      cs: "Jednotlivci jsou zcela schopni vstoupit do kontejnmentu SCP-055 a pozorovat jej, dělat si mentální či písemné poznámky, kreslit náčrty a pořizovat fotografie."
+      de: "Personen sind ohne Weiteres in der Lage, den Container von SCP-055 zu betreten und es zu beobachten, sich gedankliche oder schriftliche Notizen zu machen, Skizzen anzufertigen und Fotos aufzunehmen."
+      es: "Las personas son perfectamente capaces de entrar en el contenedor de SCP-055 y observarlo, tomar notas mentales o escritas, hacer bocetos y tomar fotografías."
+      fr: "Les individus sont parfaitement capables d'entrer dans le conteneur du SCP-055 et de l'observer, de prendre des notes mentales ou écrites, de faire des croquis et de prendre des photographies."
+      it: "Gli individui sono perfettamente in grado di entrare nel contenitore di SCP-055 e di osservarlo, di prendere appunti mentali o scritti, di fare schizzi e di scattare fotografie."
+      ko: "개인은 SCP-055의 수용실에 들어가 그것을 관찰하고, 머릿속으로든 글로든 메모하고, 스케치하고, 사진을 찍는 것이 얼마든지 가능하다."
+      pl: "Osoby są w pełni zdolne wejść do pojemnika SCP-055 i obserwować je, robić notatki myślowe lub pisemne, wykonywać szkice oraz robić zdjęcia."
+      pt: "Os indivíduos são perfeitamente capazes de entrar no contêiner do SCP-055 e observá-lo, fazer anotações mentais ou escritas, fazer esboços e tirar fotografias."
+      th: "บุคคลสามารถเข้าไปในที่กักกันของ SCP-055 และสังเกตมันได้อย่างสมบูรณ์ ทั้งจดจำไว้ในใจหรือจดบันทึก วาดภาพร่าง และถ่ายภาพ"
+      uk: "Особи цілком здатні увійти до контейнера SCP-055 і спостерігати за ним, робити подумки чи письмово нотатки, малювати ескізи та фотографувати."
+      vi: "Các cá nhân hoàn toàn có thể vào nơi chứa SCP-055 và quan sát nó, ghi chú trong đầu hoặc ra giấy, vẽ phác thảo và chụp ảnh."
+      zh: "个人完全能够进入SCP-055的收容间并观察它，做心理或书面记录、绘制草图并拍摄照片。"
+      zh_Hant: "個人完全能夠進入SCP-055的收容間並觀察它，做心理或書面記錄、繪製草圖並拍攝照片。"
 
   - scene: >
       Close-up shot on Attending Researcher (Male)'s face, just outside
       the doorway moments later, eyes unfocused and confused, one hand
-      pressed to his temple. His notepad hangs loosely from his other
-      hand, its pages visible and completely blank.
+      pressed to his temple. His notepad hangs open from his other hand,
+      its pages covered edge to edge with his own hurried handwriting
+      and a rough sketch that he now stares at blankly, unable to make
+      any sense of what he wrote.
     characters: [attending-researcher-m]
     caption:
       ja: "そうした観察の直後、SCP-055の外見に関する情報は関連する記憶とともに人間の記憶から「漏れ出て」いく。影響を受けた者は、自分が何を目撃したのかについて見当識障害と物忘れを報告する。"
@@ -110,10 +115,12 @@ panels:
   - scene: >
       Wide shot, full body, eye level, pulled back to show the corridor
       outside the containment room. On the left side of the frame,
-      Attending Researcher (Female) waits with an expectant expression,
-      pen ready over a clipboard. On the right side of the frame,
-      Attending Researcher (Male) shrugs with an empty, bewildered
-      expression, holding his blank notepad open toward her.
+      Attending Researcher (Female) leans in questioningly, tapping a
+      round wall clock and a circle she has drawn on her clipboard. On
+      the right side of the frame, Attending Researcher (Male), though
+      still confused, responds with firm certainty: he shakes his head
+      and makes a flat "no" chop with one hand, sure of at least this
+      one thing about what it is not.
     characters: [attending-researcher-f, attending-researcher-m]
     caption:
       ja: "こうした事実を直接思い出すことはできないが、対象はSCP-055に関する否定的な事実、すなわちそれが「何でないか」についての事実であれば思い出す能力を保持している。"
