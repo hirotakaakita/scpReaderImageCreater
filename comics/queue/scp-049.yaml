@@ -74,12 +74,15 @@ panels:
       zh_Hant: "SCP-049是一個人形實體，身高約1.9公尺，外貌呈中世紀瘟疫醫生的樣子。SCP-049看似穿著厚重的長袍和陶瓷面具，但這些衣物實際上似乎是隨著時間從其身體上生長出來的。"
 
   - scene: >
-      Medium shot, waist-up, escort corridor. SCP-049 walks in the center
-      of the frame, secured within a heavy restraint harness with a
-      locking collar and extension restraints. On the left side of the
-      frame, attending-researcher-m grips one extension restraint,
-      alert. On the right side of the frame, attending-researcher-f grips
-      the other, equally alert.
+      Medium shot, waist-up, escort corridor. SCP-049 is visibly sedated —
+      shoulders slumped, head drooping forward, feet dragging slightly —
+      secured within a heavy restraint harness with a locking collar and
+      extension restraints, being guided rather than walking under its
+      own power. On the left side of the frame, attending-researcher-m
+      grips one extension restraint, a holstered sidearm visible at his
+      hip, alert. On the right side of the frame, attending-researcher-f
+      grips the other extension restraint, an identical holstered
+      sidearm at her hip, equally alert.
     characters: [scp-049, attending-researcher-m, attending-researcher-f]
     caption:
       ja: "SCP-049の移動を試みる際にはいかなる場合でも事前に鎮静状態にしておかなければなりません。移動の最中は、SCP-049はクラスⅢ人型生物制限ハーネス(施錠した首枷と拡張拘束具を含む)の中に固定し、2人以上の武装警備員によって監視しなければなりません。"
@@ -105,7 +108,7 @@ panels:
       holding out a small sprig of lavender toward it.
     characters: [scp-049, attending-researcher-f]
     caption:
-      ja: "SCP-049が攻撃的になった場合、ラベンダー(L. multifida)の精油を散布すると実体に鎮静効果がもたらされることがこれまでに確認されています。"
+      ja: "SCP-049が攻撃的になった場合、ラベンダー(L. multifida)を近づけると実体に鎮静効果がもたらされることがこれまでに確認されています。"
       en: "In the event SCP-049 becomes aggressive, the application of lavender (L. multifida) has been shown to produce a calming effect on the entity."
       cs: "V případě, že se SCP-049 stane agresivním, aplikace levandule (L. multifida) prokazatelně vyvolává u entity uklidňující účinek."
       de: "Sollte SCP-049 aggressiv werden, hat sich gezeigt, dass die Anwendung von Lavendel (L. multifida) eine beruhigende Wirkung auf die Entität hat."
@@ -124,11 +127,14 @@ panels:
   - scene: >
       Wide shot, full body, eye level, pulled back to show the whole
       corridor. SCP-049 walks calmly back toward its open containment
-      cell in the center of the frame, holding the sprig of lavender
-      gently in one gloved hand, its posture relaxed. On the left side of
-      the frame, attending-researcher-m stands back near the cell door,
-      visibly relieved. On the right side of the frame,
-      attending-researcher-f lowers her guard, equally relieved.
+      cell in the center of the frame, still wearing the restraint
+      harness with locking collar and extension restraints from the
+      previous panel, now hanging loose and unresisted, holding the
+      sprig of lavender gently in one gloved hand, its posture relaxed.
+      On the left side of the frame, attending-researcher-m walks beside
+      it holding the now-slack extension restraint, visibly relieved. On
+      the right side of the frame, attending-researcher-f does the same
+      with the other restraint, equally relieved.
     characters: [scp-049, attending-researcher-m, attending-researcher-f]
     caption:
       ja: "一度鎮静すると、SCP-049は通常従順になり、その後ほとんど抵抗することなく収容セルへと戻ります。"

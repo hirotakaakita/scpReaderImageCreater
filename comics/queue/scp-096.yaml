@@ -124,14 +124,17 @@ panels:
 
   - scene: >
       Medium shot, waist-up, eye level, a calmer front-facing composition
-      distinct from the previous panels. On the left side of the frame,
-      attending-researcher-m pins a simple, crude marker sketch of a
-      round smiling face onto a corkboard beside the cell's narrow
-      viewing slot, setting aside the dropped photographs entirely. On
-      the right side of the frame, glimpsed through the slot, SCP-096's
-      silhouette stands calm and upright again, arms loose at its sides,
-      no longer hunched or distressed.
-    characters: [attending-researcher-m, scp-096]
+      distinct from the previous panels, some time later, echoing the
+      control-panel setting of the first panel. On the left side of the
+      frame, attending-researcher-m pins a simple, crude marker sketch of
+      a round smiling face onto a corkboard right next to the same
+      analog control panel from before — the photographs from before
+      nowhere in sight, replaced for good by this hand-drawn reference.
+      On the right side of the frame, a pressure-sensor readout on the
+      panel shows a calm, steady baseline, its needle resting quietly —
+      the cell's sealed steel wall visible behind it, no window or
+      viewing slot anywhere on it, exactly as in the first panel.
+    characters: [attending-researcher-m]
     caption:
       ja: "この反応は、SCP-096を描いた絵画的表現を見た場合には発生しない。"
       en: "This reaction does not occur when viewing artistic depictions of SCP-096."

@@ -91,12 +91,14 @@ panels:
       zh_Hant: "SCP-093是一個主要呈紅色的圓盤，由類似朱砂的石質複合材料雕刻而成，整個物體周圍刻有圓形紋路和未知符號。當被活人握持時，SCP-093會改變色調。目前認為這種變化取決於持有者心中所背負的悔恨。"
 
   - scene: >
-      Close-up shot, dynamic and low angle. SCP-093 spins across the floor
-      in a blurred red streak, tracing the largest possible circle at
-      tremendous speed. On the right side of the frame, it is caught mid-
-      impact punching straight through a wooden crate, splinters exploding
-      outward, as the attending researcher recoils on the left side of the
-      frame, arm raised to shield her face.
+      Close-up shot, dynamic and low angle. SCP-093, having just slipped
+      free of the researcher's open hand a split second ago, is already a
+      blurred red streak spinning across the floor, tracing the largest
+      possible circle at tremendous speed. On the right side of the
+      frame, it is caught mid-impact punching straight through a wooden
+      crate, splinters exploding outward, as the attending researcher
+      recoils on the left side of the frame, her hand still open where it
+      just was, arm raised to shield her face.
     characters: [scp-093, attending-researcher-f]
     caption:
       ja: "鏡から取り除かれ、誰にも持たれていない場合、SCP-093は最も近い鏡状の表面を探し求める。可能な限り最大の円を描いて転がりながら驚異的な速度を得る。障害物がある場合は、その勢いのまま突き破って進路を進む。"
@@ -116,12 +118,14 @@ panels:
       zh_Hant: "如果SCP-093被從鏡子上移開且無人握持，它會尋找最近的鏡面狀表面，滾動著畫出盡可能大的圓圈，並積累驚人的速度。若SCP-093與最近的鏡面狀表面之間存在障礙物，它會利用這股衝力將障礙物撞穿。"
 
   - scene: >
-      Wide shot, full body, eye level, pulled back to show the whole room.
-      Splintered wreckage of the crate lies scattered across the floor. At
-      the center of the frame, SCP-093 sits perfectly still and unmarked
-      against a standing mirror. On the right side of the frame, the
-      attending researcher crouches beside it, running a finger along its
-      undamaged edge, brow furrowed in disbelief.
+      Wide shot, full body, eye level, pulled back to show the whole room
+      — the same pedestal mirror from the first panel visible at the
+      center of the frame. Splintered wreckage of the crate lies scattered
+      across the floor leading up to it. SCP-093 sits perfectly still and
+      unmarked on the pedestal mirror's surface, exactly where it stopped.
+      On the right side of the frame, the attending researcher crouches
+      beside it, running a finger along its undamaged edge, brow furrowed
+      in disbelief.
     characters: [scp-093, attending-researcher-f]
     caption:
       ja: "凄まじい衝撃速度にもかかわらず、SCP-093にも鏡にも損傷は一切生じない。対象は鏡状の表面に接触すると停止する。"

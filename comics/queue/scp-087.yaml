@@ -68,11 +68,11 @@ panels:
       zh_Hant: "通往SCP-087的門由加固鋼材製成，配有電子釋放鎖定裝置。它被偽裝成與建築設計相符的清潔工儲物間。"
 
   - scene: >
-      Medium shot, side view, low angle looking down into darkness. The
-      D-class subject descends the first few steps of an unlit staircase,
-      one hand on the railing, holding up a lamp whose light seems to fade
-      and thin only a short distance ahead, swallowed by the dark. The
-      stairs curve out of sight below.
+      Medium shot, side view, high angle looking down the stairwell from
+      above. The D-class subject descends the first few steps of an unlit
+      staircase, one hand on the railing, holding up a lamp whose light
+      seems to fade and thin only a short distance ahead, swallowed by
+      the dark. The stairs curve out of sight below.
     characters: [d-class]
     caption:
       ja: "SCP-087は照明のない、踊り場を持つ階段である。階段は38度の角度で13段下ると、直径およそ3mの半円形の踊り場に達する。75ワットを超える光源は効果がないことが判明しており、SCP-087は過剰な光を吸収しているように見える。"
@@ -116,11 +116,14 @@ panels:
       zh_Hant: "受試者報告並經錄音證實，能聽到疑似兒童發出的痛苦聲音。每位執行探索的受試者都曾遭遇SCP-087-1，其表現為一張看不見瞳孔、鼻孔或嘴巴的面孔。"
 
   - scene: >
-      Wide shot, full body, eye level, echoing the framing of the first
-      panel outside the same janitorial-closet door. The attending
-      researcher stands facing the now-padlocked door, a fresh steel
-      padlock and a hazard placard fixed to it, closing a folder under one
-      arm with a grim, resigned expression.
+      Medium close-up, angled three-quarter view from slightly behind the
+      attending researcher's shoulder, close on the now-open closet door
+      so its interior is clearly visible: a thick layer of industrial
+      foam padding lining the inside of the door, with a fresh steel
+      padlock and a hazard placard fixed beside it. The attending
+      researcher's gloved hand rests on the door's edge as he studies the
+      padding, a folder tucked under one arm, expression grim and
+      resigned.
     characters: [attending-researcher-m]
     caption:
       ja: "最終探索の結果を受け、SCP-087への職員の立ち入りは一切禁止される。扉には工業用フォーム材6センチが内張りされている。"

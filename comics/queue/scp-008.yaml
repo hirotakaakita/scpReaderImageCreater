@@ -75,9 +75,11 @@ panels:
       framing than the previous panels. On the left side of the frame, a
       D-Class subject sniffles, forehead beaded with sweat and cheeks
       flushed, sitting on an exam table. On the right side of the frame,
-      attending-researcher-m recoils half a step back, one hand raised
-      defensively, holding a thermometer at arm's length, eyes wide with
-      alarm.
+      attending-researcher-m leans his upper body sharply backward and
+      away, weight shifted onto his back foot, one arm extended stiffly
+      forward at chest height holding a thermometer out toward the
+      subject, his other arm pulled back close against his own side,
+      eyes wide with alarm.
     characters: [d-class, attending-researcher-m]
     caption:
       ja: "SCP-008への感染による症状は曝露から3時間以内に現れ、高熱を伴うインフルエンザ様の症状として現れる。"
@@ -97,19 +99,16 @@ panels:
       zh_Hant: "感染SCP-008的症狀最遲在暴露後三小時內出現，表現為伴有高燒的流感樣症狀。"
 
   - scene: >
-      Extreme close-up shot, cropped so tightly that only the D-Class
-      subject's head, neck, and upper shoulders are visible, filling
-      nearly the entire frame like a passport photo — the subject's arms,
-      hands, legs, feet, and the exam table underneath them are cropped
-      out of frame entirely and not visible at all, much tighter than the
-      previous medium shot, to emphasize the change. The subject now
-      clearly looks like a zombie: skin gone pale and grayish, eyes
-      glassy, vacant, and sunken with dark circles underneath, jaw
-      hanging slightly open and slack, hair damp and disheveled hanging
-      over the face, head tilted at an unnatural angle. Attending-
-      researcher-m is visible only as a small, blurred silhouette in the
-      background, backing away toward the door.
-    characters: [d-class, attending-researcher-m]
+      Extreme close-up shot on the D-Class subject alone, filling nearly
+      the entire frame like a passport photo, cropped so tightly that
+      only the head, neck, and the very top of the shoulders are visible
+      — nothing else in the room is visible at all, much tighter than the
+      previous medium shot, to emphasize the change. Exactly one person
+      in this image, no one else. Pale, grayish skin. Deep, heavy, dark
+      circles ringing both eyes. Eyes glassy and vacant, staring blankly.
+      Jaw hanging slightly open and slack. Hair damp and disheveled,
+      hanging over the face. Head tilted at an unnatural angle.
+    characters: [d-class]
     caption:
       ja: "感染が進行すると、対象は重度の認知症を発症する。認知能力は著しく低下し支離滅裂となり、直立、歩行、噛みつき、掴み、四つん這いといった基本的な身体動作のみが可能な状態になる。"
       en: "As the infection progresses, subjects develop severe dementia. Cognitive abilities become severely retarded and erratic, leaving only basic physical activities possible: standing, walking, biting, grabbing, and crawling."
@@ -130,29 +129,15 @@ panels:
   - scene: >
       Medium shot, dynamic diagonal composition, a wider and more
       frantic framing than the close-up before it. Realistic adult body
-      proportions throughout. Exactly two people total in this image —
-      one researcher and one D-Class subject, no more, do not duplicate
-      any character. On the left side of the frame, attending-
-      researcher-m is sprinting away at a full panicked run, torso
-      leaning sharply forward into the sprint, one leg bent and driving
-      forward off the ground, his other leg fully extended straight
-      behind him in mid-stride, both arms pumping with the motion, his
-      lab coat flaring out behind him from the speed — but his head is
-      twisted back over his shoulder to look at the D-Class subject,
-      utterly panicked: eyes opened as wide as physically possible with
-      tiny pupils and visible white on all sides, eyebrows sharply
-      angled and pulled together into deep creases, mouth stretched
-      wide open screaming, several sweat drops flying off his flushed
-      face, disheveled hair whipping wildly. On the right side of the
-      frame, farther back, facing toward attending-researcher-m and
-      toward the viewer, the D-Class subject has an even more
-      pronounced zombie appearance than the previous panel — pale,
-      grayish skin, heavy, deep, dark purplish-black circles ringing
-      both eyes making them look almost bruised, eyes glassy and wide
-      open, jaw stretched open wide baring teeth as if to bite, hair
-      damp and disheveled — torso pitched sharply forward and off
-      balance, back leg kicked up off the ground mid-lunge, both arms
-      fully extended straight out toward attending-researcher-m with
+      proportions throughout, not child-like or stylized. Exactly two
+      people total in this image, do not duplicate any character. On the
+      left side of the frame, attending-researcher-m sprints away at a
+      full panicked run, leaning forward, legs mid-stride, head twisted
+      back over his shoulder to look behind him, mouth open screaming in
+      terror. On the right side of the frame, farther back, the D-Class
+      subject has a pronounced zombie appearance — pale grayish skin,
+      heavy dark circles around both eyes, jaw open baring teeth — lunging
+      forward with both arms reaching out toward attending-researcher-m,
       fingers curled into claws.
     characters: [attending-researcher-m, d-class]
     caption:

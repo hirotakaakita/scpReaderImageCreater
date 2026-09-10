@@ -43,10 +43,12 @@ characters: [scp-1048, attending-researcher-f]
 panels:
   - scene: >
       Wide shot, full body, eye level, showing a whole plain institutional
-      corridor. On the left side of the frame, SCP-1048 waddles happily
-      down the middle of the corridor. On the right side of the frame, the
-      attending researcher walks past carrying a folder, glancing down at
-      the bear with a small, warm smile.
+      corridor, in the early days of SCP-1048's containment when it was
+      still classified as entirely harmless. On the left side of the
+      frame, SCP-1048 waddles happily down the middle of the corridor. On
+      the right side of the frame, the attending researcher walks past
+      carrying a folder, glancing down at the bear with a small, warm
+      smile.
     characters: [scp-1048, attending-researcher-f]
     caption:
       ja: "SCP-1048は現在サイト24内を自由に徘徊しているが、これは脅威とならず、接触した職員の士気を大きく向上させることが観察されているためである。"
@@ -92,11 +94,13 @@ panels:
 
   - scene: >
       Close-up shot on SCP-1048 alone, filling most of the frame, in a dim
-      storage room at night. It sits on the floor surrounded by scattered
-      scraps of loose material, its small paws carefully arranging the
-      scraps into a half-formed second bear-shaped bundle, its stitched
-      eyes catching a sliver of light. The mood is quiet and eerie rather
-      than graphic.
+      storage room at night, roughly seven months after the previous
+      panels. It sits motionless on the floor beside a half-formed,
+      roughly bear-shaped bundle of scavenged scraps and loose materials
+      — crude but unmistakably taking shape — its own stitched eyes
+      catching a sliver of light, giving no indication of how the bundle
+      came to be this way. The mood is quiet and eerie rather than
+      graphic.
     characters: [scp-1048]
     caption:
       ja: "SCP-1048のより異常な挙動は、最初に確保されてからおよそ7ヶ月が経過するまで観察されなかった。対象は何らかの材料を用いて自身の粗雑な複製を構築できるものと推測されている。"
@@ -117,10 +121,14 @@ panels:
 
   - scene: >
       Wide shot, full body, low angle looking down a plain institutional
-      corridor. On the left side of the frame, the attending researcher
-      pins a printed notice to a corkboard on the wall. On the right side
-      of the frame, partly hidden behind a doorway at the far end of the
-      corridor, SCP-1048 peeks around the corner, watching.
+      corridor, now under the tightened procedures adopted since the
+      discovery in the previous panel. On the left side of the frame, the
+      attending researcher pins a printed notice to a corkboard on the
+      wall, glancing back over her shoulder with a startled, uneasy
+      expression. On the right side of the frame, partly hidden behind a
+      doorway at the far end of the corridor, the real SCP-1048 peeks
+      around the corner, watching her exactly as harmlessly as it always
+      has.
     characters: [attending-researcher-f, scp-1048]
     caption:
       ja: "混同や誤認を防ぐため、テディベアをサイト24内に一切持ち込んではならない。テディベアに似た物体を発見した場合は、直ちに警備チームへ報告すること。"

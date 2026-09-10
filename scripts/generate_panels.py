@@ -127,10 +127,16 @@ def build_prompt(script, panel, cfgs, provider_name=None, panel_idx=None):
         if isinstance(pos, str) and pos in _SPACE_HINTS:
             hints.append(_SPACE_HINTS[pos])
     if hints:
-        parts.append("Leave calm, uncluttered empty space (plain background) in "
+        # 「speech-bubble box」等、吹き出し的な図形を名指しすると、no_text_rulesの
+        # 禁止指示に反して実際に(文字の無い)空の吹き出し形が描かれてしまう事故を
+        # このセッションで確認した。ここでは「後で文字を重ねるための余白」とだけ
+        # 伝え、吹き出し・囲み線等の具体的な図形イメージを一切連想させない
+        parts.append("Leave calm, uncluttered empty background space in "
                      + " and ".join(dict.fromkeys(hints))
-                     + " so a caption or speech-bubble box can be overlaid there "
-                       "later — keep faces, hands, and essential props outside that area.")
+                     + " — this area will have text overlaid on top of it "
+                       "afterward by separate compositing, so keep faces, hands, "
+                       "and essential props outside it, and do not draw any "
+                       "bubble, box, frame, or outlined shape there yourself.")
 
     parts.append(prompt_style["composition_rules"].strip())
     parts.append(prompt_style["no_text_rules"].strip())

@@ -113,7 +113,15 @@ description: Write a new SCP comic script (comics/queue/scp-XXX.yaml) for this p
       いる（言い換えていない）
 - [ ] `attribution.source_url`が実在し、記事から確認したものである
 
-### 5. 検証
+### 5. 物語構成レビュー（`review-scp-script`スキル）
+
+品質チェックリストを自分で確認したら、**`review-scp-script`スキルを呼んで、
+別のエージェント（Codexまたはサブエージェント）に4コマとしての起承転結・
+物語の破綻の有無をもう一度チェックしてもらう**。自分一人の判断だけだと
+見落としが出やすいための二人目の目。指摘が妥当なら台本に反映する
+（詳細な手順・プロンプトは`review-scp-script/SKILL.md`参照）。
+
+### 6. 検証
 
 ```
 python scripts/run_pipeline.py --id scp-XXX --mock

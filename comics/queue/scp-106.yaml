@@ -74,12 +74,13 @@ panels:
 
   - scene: >
       Medium shot, waist-up, straight-on eye level, framed differently
-      from the wide establishing shot. Through a small reinforced
-      viewport, part of SCP-106's body is visibly melding into the
-      steel wall of the container, its shoulder and arm sinking into the
-      solid metal as though it were soft clay. In the foreground,
-      attending-researcher-m leans toward the viewport, one hand raised,
-      watching intently with a wary, uneasy expression.
+      from the wide establishing shot. On a bank of remote monitors,
+      attending-researcher-m watches a live camera feed showing part of
+      SCP-106's body visibly melding into the steel wall of the
+      container, its shoulder and arm sinking into the solid metal as
+      though it were soft clay. He stands well back from the monitors at
+      a safe observation desk, watching intently with a wary, uneasy
+      expression, nowhere near the containment chamber itself.
     characters: [attending-researcher-m, scp-106]
     caption:
       ja: "SCP-106は固体物質の中へ「消失」することができ、これは一種の「ポケット次元」であると推定される場所へ入り込むものと考えられている。"
@@ -131,9 +132,9 @@ panels:
       close-up. On the left side of the frame, attending-researcher-m
       walks briskly but without panic down the corridor, glancing back
       once over his shoulder. On the right side of the frame, far behind
-      him at the other end of the corridor, SCP-106's silhouette lumbers
-      forward at a slow, unhurried pace, still a considerable distance
-      away.
+      him at the other end of the corridor, SCP-106's silhouette stands
+      completely motionless and upright, having already stopped moving
+      entirely, simply watching him go without pursuing any further.
     characters: [attending-researcher-m, scp-106]
     caption:
       ja: "SCP-106は特に敏捷というわけではなく、獲物を待って数日間動かずにいることがある。"
