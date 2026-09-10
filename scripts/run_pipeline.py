@@ -3,6 +3,7 @@
   python scripts/run_pipeline.py --from-queue            # キュー先頭を1本処理
   python scripts/run_pipeline.py --from-queue --count 2
   python scripts/run_pipeline.py --id scp-999            # 指定台本を(再)処理
+  python scripts/run_pipeline.py --id scp-999,scp-888    # 複数指定（カンマ区切り、1本ずつ順に処理）
   python scripts/run_pipeline.py --id scp-999 --skip-generate --mock  # 合成以降のみ
   python scripts/run_pipeline.py --id scp-999 --export-prompts  # Google AI Studio向けに書き出し
   python scripts/run_pipeline.py --id scp-999 --variants 4      # 選別用に候補を複数生成
@@ -105,7 +106,10 @@ def main():
     ap = argparse.ArgumentParser()
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument("--from-queue", action="store_true")
-    g.add_argument("--id", dest="comic_id")
+    g.add_argument("--id", dest="comic_id",
+                   help="カンマ区切りで複数指定可（例: scp-999,scp-888）。"
+                        "並列ではなく1本ずつ順番に処理する"
+                        "（ComfyUIのキューが詰まり空きRAMも逼迫することを確認済みのため）")
     ap.add_argument("--count", type=int, default=1)
     ap.add_argument("--mock", action="store_true", help="APIを呼ばずプレースホルダー生成")
     ap.add_argument("--languages", help="カンマ区切りで対象言語を限定 (例: ja,en)")
@@ -135,10 +139,16 @@ def main():
     langs = args.languages.split(",") if args.languages else None
 
     if args.comic_id:
-        # --id は明示指定なので生成済みでも(再)処理する
-        process(find_script(args.comic_id), cfgs, mock=args.mock, languages=langs,
-                skip_generate=args.skip_generate, export_prompts=args.export_prompts,
-                variants=args.variants, panel=args.panel)
+        # --id はカンマ区切りで複数指定できる。並列実行はComfyUIのキュー詰まり・
+        # 空きRAM逼迫を引き起こすことを確認済みのため、必ず1本ずつ順に処理する。
+        # 明示指定なので、生成済み(used.json記載)でも(再)処理する
+        comic_ids = [c.strip() for c in args.comic_id.split(",") if c.strip()]
+        for i, comic_id in enumerate(comic_ids, 1):
+            if len(comic_ids) > 1:
+                print(f"--- [{i}/{len(comic_ids)}] {comic_id} ---")
+            process(find_script(comic_id), cfgs, mock=args.mock, languages=langs,
+                    skip_generate=args.skip_generate, export_prompts=args.export_prompts,
+                    variants=args.variants, panel=args.panel)
     else:
         queue = queued_scripts()
         if not queue:

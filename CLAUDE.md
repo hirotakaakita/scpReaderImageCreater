@@ -108,6 +108,10 @@ Claude Codeが行う**（自動化なし）。全体像はREADME.md参照。
    1枚を `output/scp-XXX/panels/panel_N.png` としてコピーし直したら、
    `python scripts/run_pipeline.py --id scp-XXX --skip-generate` で合成・15言語埋め込み
    まで実行する。`panels_temp/`はコミットしない（`.gitignore`済み）
+   - **複数のSCPをまとめて処理したい場合、`--id`はカンマ区切りで複数指定できる**
+     （例: `--id scp-999,scp-888 --variants 4`）。**並列実行ではなく1本ずつ順番に
+     処理する**（同時並列で複数本の生成を走らせるとComfyUIのキューが詰まり、
+     空きRAMも逼迫することを実機検証で確認したため、あえて直列処理にしてある）
    - **1コマの中の一部分だけがおかしい場合**（模様の乱れ・局所的な色ズレ等）は、
      そのコマ全体を再生成せず、ComfyUI画面上でのインペイントで直す方針
      （Pythonでの画像後処理は行わない）。手順は
