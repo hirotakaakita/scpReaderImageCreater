@@ -1,0 +1,174 @@
+# SCP-026 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Note 026-A..C・インシデント報告は本編には使わない。
+# キャラにセリフは言わせない。急速な脱水・腐敗などのグロ描写は避け、
+# 眠っている対象は穏やかに眠っているだけの様子として描く。
+#
+# 4コマ構成: 1=板で封鎖されアラームが設置された廃校の外観(起)、
+# 2=外観より広い内部・長さの変わる廊下と段数の変わる階段(承)、
+# 3=消えては現れる黒板の書き込みと「子供たちはかつて歌っていた」(転)、
+# 4=館内で発見される、旧い服装で眠ったままの生徒(結・不気味な余韻)。
+
+id: scp-026
+
+title:
+  en: "SCP-026"
+  ja: "SCP-026"
+  cs: "SCP-026"
+  de: "SCP-026"
+  es: "SCP-026"
+  fr: "SCP-026"
+  it: "SCP-026"
+  ko: "SCP-026"
+  pl: "SCP-026"
+  pt: "SCP-026"
+  th: "SCP-026"
+  uk: "SCP-026"
+  vi: "SCP-026"
+  zh: "SCP-026"
+  zh_Hant: "SCP-026"
+
+attribution:
+  article: "SCP-026"
+  source_url: "http://scp-wiki.wikidot.com/scp-026"
+  author: "DrEverettMann"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  sleeping-student:
+    name: Sleeping Student
+    appearance: >
+      A teenager around fifteen years old, of unremarkable slight build,
+      with plain, neatly cut mid-brown hair (color RGB 80,60,45), eyes
+      closed, face calm and slack as if in a deep, untroubled sleep.
+    default_look: >
+      Slightly old-fashioned school clothes from several decades ago: a
+      plain buttoned shirt, a knitted vest, and dark trousers, slumped
+      motionless forward over a wooden school desk.
+
+characters: [attending-researcher-m, attending-researcher-f, sleeping-student]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, exterior establishing view of a
+      three-story brick public school building at dusk, every window
+      nailed over with weathered plywood, weeds cracking the front steps.
+      On the right side of the frame, attending-researcher-m stands at a
+      side door fitting a padlock, a small alarm box mounted on the wall
+      beside him with a blinking indicator light.
+    characters: [attending-researcher-m]
+    notes: >
+      根拠: SCP「研究中でないときは常に厳重に施錠し板で封鎖。民間人・他機関の
+      侵入時に財団へ警報するアラームを設置」。変えてはいけない事実: 施錠・板封鎖、
+      アラームの存在。変更可能: 研究者の動作、時間帯・天候。
+    caption:
+      ja: "SCP-026は、研究が行われていない間は常に厳重に施錠され、板で塞がれた状態に保たれる。民間人や他機関の侵入があった場合に財団へ警報を発するよう、アラームが設定されている。"
+      en: "SCP-026 is to remain securely locked and boarded up at all times when there is no research ongoing. Alarms are set to alert the Foundation in case of entry by civilians or other agencies."
+      cs: "SCP-026 musí zůstat bezpečně zamčené a zabedněné po celou dobu, kdy neprobíhá žádný výzkum. Jsou nastaveny alarmy, které upozorní Nadaci v případě vniknutí civilistů nebo jiných organizací."
+      de: "SCP-026 ist stets sicher verschlossen und mit Brettern vernagelt zu halten, wenn keine Forschung stattfindet. Alarme sind so eingestellt, dass sie die Foundation bei einem Eindringen von Zivilisten oder anderen Organisationen benachrichtigen."
+      es: "SCP-026 debe permanecer bien cerrado con llave y tapiado en todo momento cuando no haya investigación en curso. Se han configurado alarmas para alertar a la Fundación en caso de entrada de civiles u otras agencias."
+      fr: "Le SCP-026 doit rester solidement verrouillé et barricadé en permanence lorsqu'aucune recherche n'est en cours. Des alarmes sont réglées pour alerter la Fondation en cas d'intrusion de civils ou d'autres organisations."
+      it: "SCP-026 deve rimanere saldamente chiuso a chiave e sbarrato con assi in ogni momento in cui non è in corso alcuna ricerca. Sono impostati allarmi per avvisare la Fondazione in caso di ingresso di civili o altre agenzie."
+      ko: "SCP-026은 연구가 진행되지 않는 동안에는 항상 단단히 잠기고 판자로 막힌 상태를 유지해야 한다. 민간인이나 다른 기관이 침입할 경우 재단에 경보를 보내도록 알람이 설정되어 있다."
+      pl: "SCP-026 ma pozostawać solidnie zamknięte i zabite deskami przez cały czas, gdy nie są prowadzone badania. Ustawiono alarmy, które powiadamiają Fundację w przypadku wejścia cywilów lub innych organizacji."
+      pt: "O SCP-026 deve permanecer bem trancado e vedado com tábuas o tempo todo em que não houver pesquisa em andamento. Alarmes estão configurados para alertar a Fundação em caso de entrada de civis ou outras agências."
+      th: "ต้องคง SCP-026 ให้ล็อกอย่างแน่นหนาและปิดตายด้วยไม้กระดานไว้ตลอดเวลาที่ไม่มีการวิจัยดำเนินอยู่ มีการตั้งสัญญาณเตือนเพื่อแจ้งมูลนิธิในกรณีที่มีพลเรือนหรือหน่วยงานอื่นเข้ามา"
+      uk: "SCP-026 має лишатися надійно замкненим і забитим дошками весь час, коли не проводяться дослідження. Налаштовано сигналізацію, що сповіщає Фонд у разі проникнення цивільних осіб чи інших організацій."
+      vi: "SCP-026 phải luôn được khóa chắc chắn và bịt kín bằng ván gỗ mọi lúc khi không có nghiên cứu nào đang diễn ra. Chuông báo động được cài đặt để cảnh báo Tổ Chức trong trường hợp có dân thường hoặc cơ quan khác xâm nhập."
+      zh: "在没有研究进行时，SCP-026须始终保持严密锁闭并以木板封死。已设置警报，一旦有平民或其他机构进入即向基金会发出警示。"
+      zh_Hant: "在沒有研究進行時，SCP-026須始終保持嚴密鎖閉並以木板封死。已設置警報，一旦有平民或其他機構進入即向基金會發出警示。"
+
+  - scene: >
+      Deep one-point-perspective shot down an impossibly long school
+      hallway lined with lockers that recedes far past any reasonable
+      building depth, a different framing from the exterior shot.
+      attending-researcher-f stands at the foot of a staircase partway
+      down the hall, thumb on a handheld tally counter, looking up the
+      steps with a puzzled frown.
+    characters: [attending-researcher-f]
+    notes: >
+      根拠: Description「内部空間は外観が許すよりはるかに広い。廊下は長さが
+      変化し、階段は上り下りで段数が異なる」。変えてはいけない事実: 内部が
+      外観より広い、廊下の可変長、階段の段数の不一致。変更可能: 数え方の小道具、
+      画角。
+    caption:
+      ja: "その内部空間は、建物の外観が許容するよりもはるかに広い。廊下は長さが変化し、階段は上りと下りで段数が異なる。"
+      en: "Its internal space is much greater than the external surface of the building would allow. Hallways display variable length, while stairways have differing numbers of steps going up or down."
+      cs: "Jeho vnitřní prostor je mnohem větší, než by vnější rozměry budovy dovolovaly. Chodby mají proměnlivou délku, zatímco schodiště mají různý počet stupňů nahoru či dolů."
+      de: "Sein Innenraum ist weitaus größer, als es die Außenmaße des Gebäudes zulassen würden. Flure weisen unterschiedliche Längen auf, während Treppen unterschiedlich viele Stufen nach oben oder unten haben."
+      es: "Su espacio interior es mucho mayor de lo que la superficie exterior del edificio permitiría. Los pasillos presentan una longitud variable, mientras que las escaleras tienen un número diferente de escalones al subir o bajar."
+      fr: "Son espace intérieur est bien plus vaste que ne le permettrait la surface extérieure du bâtiment. Les couloirs présentent une longueur variable, tandis que les escaliers comportent un nombre différent de marches selon que l'on monte ou descend."
+      it: "Il suo spazio interno è molto più grande di quanto la superficie esterna dell'edificio consentirebbe. I corridoi presentano lunghezza variabile, mentre le scale hanno un numero diverso di gradini in salita o in discesa."
+      ko: "그 내부 공간은 건물의 외관이 허용하는 것보다 훨씬 넓다. 복도는 길이가 변하고, 계단은 올라갈 때와 내려갈 때 단 수가 다르다."
+      pl: "Jego wewnętrzna przestrzeń jest znacznie większa, niż pozwalałaby na to zewnętrzna powierzchnia budynku. Korytarze mają zmienną długość, a schody różną liczbę stopni w górę lub w dół."
+      pt: "Seu espaço interno é muito maior do que a superfície externa do edifício permitiria. Os corredores apresentam comprimento variável, enquanto as escadas têm números diferentes de degraus para cima ou para baixo."
+      th: "พื้นที่ภายในของมันกว้างขวางกว่าที่พื้นผิวภายนอกของอาคารจะเอื้ออำนวยได้มาก ทางเดินมีความยาวไม่แน่นอน ในขณะที่บันไดมีจำนวนขั้นขึ้นหรือลงต่างกัน"
+      uk: "Його внутрішній простір значно більший, ніж дозволяли б зовнішні розміри будівлі. Коридори мають змінну довжину, а сходи — різну кількість сходинок угору чи вниз."
+      vi: "Không gian bên trong của nó lớn hơn nhiều so với những gì bề mặt bên ngoài của tòa nhà cho phép. Các hành lang có chiều dài thay đổi, còn cầu thang có số bậc lên xuống khác nhau."
+      zh: "其内部空间远大于建筑外部表面所能容纳的范围。走廊长度会变化，楼梯上下的台阶数也各不相同。"
+      zh_Hant: "其內部空間遠大於建築外部表面所能容納的範圍。走廊長度會變化，樓梯上下的臺階數也各不相同。"
+
+  - scene: >
+      Close-up, waist-up, slight low angle on a classroom chalkboard
+      covered in faint, smudged, half-formed chalk marks with no legible
+      words, a different framing from the previous panels. On the left
+      side of the frame, attending-researcher-m holds up a camera to
+      photograph the board; on the right side of the frame, a fresh patch
+      of pale chalk dust is visibly forming on the slate by itself. His
+      expression is uneasy.
+    characters: [attending-researcher-m]
+    notes: >
+      根拠: Description「落書きは消えて別の場所に再出現し位置を変える。黒板や
+      掲示板の書き込みも同様。『子供たちはかつて歌っていた』が館内各所で何度も
+      出現」。画像に文字は描かせないため、黒板は判読不能な白いチョーク跡のみ。
+      変えてはいけない事実: 書き込みが自然に消えて現れること、当該フレーズの反復。
+      変更可能: 撮影の演出、教室の見せ方。
+    caption:
+      ja: "黒板や掲示板の書き込みは、消えては別の場所に現れ、位置を変える。『子供たちはかつて歌っていた』という一文が、館内の様々な場所で何度も現れている。"
+      en: "Writing on chalkboards and bulletin boards fades and reappears, changing location. The phrase 'The children used to sing' has appeared multiple times in various places throughout the building."
+      cs: "Nápisy na tabulích a nástěnkách mizí a znovu se objevují na jiném místě. Věta „Děti kdysi zpívaly“ se v budově opakovaně objevila na různých místech."
+      de: "Schriften auf Tafeln und Anschlagbrettern verblassen und erscheinen an anderer Stelle wieder. Der Satz „Die Kinder haben früher gesungen“ ist an verschiedenen Stellen im gesamten Gebäude mehrfach aufgetaucht."
+      es: "Lo escrito en pizarras y tablones de anuncios se desvanece y reaparece cambiando de lugar. La frase «Los niños solían cantar» ha aparecido varias veces en distintos lugares por todo el edificio."
+      fr: "Ce qui est écrit sur les tableaux et les panneaux d'affichage s'efface et réapparaît ailleurs. La phrase « Les enfants chantaient autrefois » est apparue à plusieurs reprises à divers endroits dans tout le bâtiment."
+      it: "Ciò che è scritto sulle lavagne e sulle bacheche svanisce e riappare in un altro punto. La frase «I bambini una volta cantavano» è comparsa più volte in vari punti dell'edificio."
+      ko: "칠판과 게시판의 글씨는 사라졌다가 다른 위치에 다시 나타나며 자리를 옮긴다. '아이들은 예전에 노래를 불렀다'라는 문구가 건물 곳곳 여러 장소에서 여러 차례 나타났다."
+      pl: "Napisy na tablicach i gablotach znikają i pojawiają się ponownie w innym miejscu. Zdanie „Dzieci kiedyś śpiewały“ pojawiło się wielokrotnie w różnych miejscach w całym budynku."
+      pt: "O que está escrito em quadros-negros e murais desaparece e reaparece em outro lugar. A frase «As crianças costumavam cantar» apareceu várias vezes em diversos lugares por todo o edifício."
+      th: "ข้อความบนกระดานดำและบอร์ดประกาศจะเลือนหายไปแล้วปรากฏขึ้นใหม่ในตำแหน่งอื่น ประโยคที่ว่า 'เด็ก ๆ เคยร้องเพลง' ปรากฏขึ้นหลายครั้งในหลายที่ทั่วอาคาร"
+      uk: "Написи на дошках і стендах зникають і знову з'являються в іншому місці. Фраза «Діти колись співали» неодноразово з'являлася в різних місцях по всій будівлі."
+      vi: "Chữ viết trên bảng đen và bảng thông báo mờ đi rồi xuất hiện lại ở vị trí khác. Câu 'Bọn trẻ đã từng hát' đã xuất hiện nhiều lần ở nhiều nơi khắp tòa nhà."
+      zh: "黑板和公告栏上的字迹会消退，又在别处重新出现，不断变换位置。「孩子们曾经歌唱」这句话在楼内多处反复出现。"
+      zh_Hant: "黑板和公告欄上的字跡會消退，又在別處重新出現，不斷變換位置。「孩子們曾經歌唱」這句話在樓內多處反覆出現。"
+
+  - scene: >
+      Medium shot, waist-up, eye level inside a dim classroom, a different
+      framing from the previous panels. On the left side of the frame,
+      attending-researcher-f crouches and gently lifts the wrist of
+      sleeping-student to check a pulse. On the right side of the frame,
+      sleeping-student sits slumped forward asleep over a wooden desk in
+      old-fashioned school clothes, utterly peaceful. The researcher wears
+      a worried, baffled expression.
+    characters: [attending-researcher-f, sleeping-student]
+    notes: >
+      根拠: Description「館内で意識不明の対象が複数発見。大半は高校生年齢、
+      12〜18歳。████年頃の同校の服装規定に沿った服を着用」。グロ回避のため、
+      対象は穏やかに眠っているだけの様子。変えてはいけない事実: 意識不明で発見、
+      年齢層、旧式の学校服。変更可能: 研究者の確認動作、教室の見せ方。
+    caption:
+      ja: "館内では、意識を失った対象が複数発見されている。その大半は高校生ほどの年齢で、12歳から18歳までの範囲である。彼らは████年頃の同校の服装規定に従った服を着ている。"
+      en: "A number of unconscious subjects have been found in the building, mostly of high school age, ranging from twelve to eighteen. They are dressed in accordance to the school's dress code, circa ████."
+      cs: "V budově byla nalezena řada subjektů v bezvědomí, většinou ve věku středoškoláků, v rozmezí od dvanácti do osmnácti let. Jsou oblečeni v souladu se školním oděvním řádem přibližně z roku ████."
+      de: "Im Gebäude wurden mehrere bewusstlose Subjekte gefunden, meist im Highschool-Alter, im Bereich von zwölf bis achtzehn Jahren. Sie sind entsprechend der Kleiderordnung der Schule um ████ gekleidet."
+      es: "En el edificio se han encontrado varios sujetos inconscientes, en su mayoría en edad de secundaria, con edades comprendidas entre los doce y los dieciocho años. Van vestidos conforme al código de vestimenta de la escuela, hacia ████."
+      fr: "Plusieurs sujets inconscients ont été trouvés dans le bâtiment, pour la plupart en âge de fréquenter le lycée, de douze à dix-huit ans. Ils sont vêtus conformément au code vestimentaire de l'école, vers ████."
+      it: "Nell'edificio sono stati trovati diversi soggetti privi di sensi, per lo più in età da scuola superiore, tra i dodici e i diciotto anni. Sono vestiti in conformità al codice di abbigliamento della scuola, intorno al ████."
+      ko: "건물 안에서 의식을 잃은 대상이 여러 명 발견되었으며, 대부분 고등학생 연령대로 12세에서 18세 사이였다. 이들은 대략 ████년경 해당 학교의 복장 규정에 맞는 옷을 입고 있다."
+      pl: "W budynku znaleziono kilka nieprzytomnych osobników, przeważnie w wieku licealnym, od dwunastu do osiemnastu lat. Są ubrani zgodnie z regulaminem stroju szkoły z około ████ roku."
+      pt: "Vários sujeitos inconscientes foram encontrados no edifício, a maioria em idade de ensino médio, entre doze e dezoito anos. Estão vestidos de acordo com o código de vestimenta da escola, por volta de ████."
+      th: "มีการพบผู้ถูกทดสอบที่หมดสติหลายรายภายในอาคาร ส่วนใหญ่อยู่ในวัยมัธยมปลาย อายุระหว่างสิบสองถึงสิบแปดปี พวกเขาแต่งกายตามระเบียบการแต่งกายของโรงเรียนราวปี ████"
+      uk: "У будівлі знайшли кількох суб'єктів у непритомному стані, здебільшого шкільного віку, від дванадцяти до вісімнадцяти років. Вони вдягнені відповідно до шкільного дрес-коду приблизно ████ року."
+      vi: "Một số đối tượng bất tỉnh đã được tìm thấy trong tòa nhà, hầu hết ở độ tuổi trung học, từ mười hai đến mười tám tuổi. Họ mặc trang phục theo quy định trang phục của trường, vào khoảng năm ████."
+      zh: "楼内已发现多名失去意识的对象，大多为高中年龄，介于十二岁至十八岁之间。他们的着装符合该校████年前后的着装规定。"
+      zh_Hant: "樓內已發現多名失去意識的對象，大多為高中年齡，介於十二歲至十八歲之間。他們的著裝符合該校████年前後的著裝規定。"

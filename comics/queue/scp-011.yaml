@@ -1,0 +1,146 @@
+# SCP-011 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-011
+
+title:
+  ja: "SCP-011：南北戦争記念像"
+  en: "SCP-011: The Civil War Memorial"
+  cs: "SCP-011: Pomník občanské války"
+  de: "SCP-011: Das Bürgerkriegsdenkmal"
+  es: "SCP-011: El monumento a la Guerra Civil"
+  fr: "SCP-011 : Le monument de la guerre de Sécession"
+  it: "SCP-011: Il monumento alla Guerra Civile"
+  ko: "SCP-011: 남북전쟁 기념상"
+  pl: "SCP-011: Pomnik wojny secesyjnej"
+  pt: "SCP-011: O monumento à Guerra Civil"
+  th: "SCP-011: อนุสรณ์สงครามกลางเมือง"
+  uk: "SCP-011: Пам'ятник Громадянській війні"
+  vi: "SCP-011: Tượng đài Nội chiến"
+  zh: "SCP-011：内战纪念像"
+  zh_Hant: "SCP-011：內戰紀念像"
+
+attribution:
+  article: "SCP-011"
+  author: "Proxtown"
+  source_url: "http://scp-wiki.wikidot.com/scp-011"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-011:
+    name: SCP-011
+    appearance: >
+      SCP-011, a life-size Civil War memorial statue of a young male
+      soldier carved from weathered grey granite (color RGB 150,150,150),
+      standing on a low stone pedestal and holding a long musket at his
+      side. Though made of solid stone, it can move stiffly. Its uniform
+      is that of a 19th-century infantryman: forage cap, buttoned coat,
+      rolled blanket over one shoulder.
+    default_look: >
+      Standing at rest on its pedestal, musket lowered at its side, stone
+      face solemn.
+
+characters: [scp-011, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide establishing shot, full body, eye level, a small New England
+      town green in Woodstock, Vermont just after sundown, the sky deep
+      blue. SCP-011 stands on its low stone pedestal at the center. Bare
+      trees and a white church steeple are visible behind. Attending
+      Researcher (Male) and Attending Researcher (Female) walk in from the
+      right carrying mop buckets, long scrub brushes and a folding
+      stepladder.
+    characters: [scp-011, attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "アイテムSCP-011およびその周辺区域は、毎日1回清掃される。安全のため、清掃は日没から少なくとも30分後に開始すること。清掃は常に少なくとも2名の職員によって行われ、彼らはアイテムや除去した堆積物について異常な点があれば記録するよう助言される。"
+      en: "Item SCP-011 and the area surrounding it are to be cleaned once every day. For safety purposes, cleaning should start at least 30 minutes after sundown. Cleaning should always be performed by at least two (2) personnel, who are also advised to note anything unusual about the item or the debris cleaned up."
+      cs: "Předmět SCP-011 a okolní prostor mají být čištěny jednou denně. Z bezpečnostních důvodů by čištění mělo začínat nejméně 30 minut po západu slunce. Čištění musí vždy provádět nejméně dva (2) pracovníci, kterým se rovněž doporučuje zaznamenat cokoli neobvyklého na předmětu nebo na odklizených nečistotách."
+      de: "Das Objekt SCP-011 und der umliegende Bereich sind einmal täglich zu reinigen. Aus Sicherheitsgründen sollte die Reinigung mindestens 30 Minuten nach Sonnenuntergang beginnen. Die Reinigung ist stets von mindestens zwei (2) Mitarbeitern durchzuführen, denen zudem empfohlen wird, alles Ungewöhnliche am Objekt oder am beseitigten Unrat zu notieren."
+      es: "El objeto SCP-011 y la zona que lo rodea deben limpiarse una vez al día. Por motivos de seguridad, la limpieza debe comenzar al menos 30 minutos después de la puesta del sol. La limpieza siempre debe realizarla un mínimo de dos (2) miembros del personal, a quienes también se aconseja anotar cualquier cosa inusual sobre el objeto o los restos retirados."
+      fr: "L'objet SCP-011 et la zone qui l'entoure doivent être nettoyés une fois par jour. Pour des raisons de sécurité, le nettoyage doit commencer au moins 30 minutes après le coucher du soleil. Le nettoyage doit toujours être effectué par au moins deux (2) membres du personnel, à qui il est également conseillé de noter tout élément inhabituel concernant l'objet ou les débris ramassés."
+      it: "L'oggetto SCP-011 e l'area circostante devono essere puliti una volta al giorno. Per motivi di sicurezza, la pulizia dovrebbe iniziare almeno 30 minuti dopo il tramonto. La pulizia deve sempre essere svolta da almeno due (2) membri del personale, ai quali si consiglia inoltre di annotare qualsiasi cosa insolita riguardo all'oggetto o ai detriti rimossi."
+      ko: "물품 SCP-011과 그 주변 구역은 매일 한 번 청소한다. 안전상의 이유로 청소는 일몰 후 최소 30분이 지난 뒤에 시작해야 한다. 청소는 항상 최소 2명의 인원이 수행하며, 이들은 물품이나 치운 잔해에서 특이한 점이 있으면 기록하도록 권고된다."
+      pl: "Przedmiot SCP-011 oraz otaczający go teren należy czyścić raz dziennie. Ze względów bezpieczeństwa czyszczenie powinno rozpoczynać się co najmniej 30 minut po zachodzie słońca. Czyszczenie powinno być zawsze wykonywane przez co najmniej dwóch (2) pracowników, którym zaleca się także odnotowanie wszystkiego, co niezwykłe w przedmiocie lub w usuwanych zanieczyszczeniach."
+      pt: "O item SCP-011 e a área ao seu redor devem ser limpos uma vez por dia. Por motivos de segurança, a limpeza deve começar pelo menos 30 minutos após o pôr do sol. A limpeza deve sempre ser realizada por no mínimo dois (2) funcionários, aos quais também se recomenda anotar qualquer coisa incomum sobre o item ou os detritos removidos."
+      th: "วัตถุ SCP-011 และพื้นที่โดยรอบต้องได้รับการทำความสะอาดวันละครั้ง เพื่อความปลอดภัย การทำความสะอาดควรเริ่มอย่างน้อย 30 นาทีหลังพระอาทิตย์ตก การทำความสะอาดต้องดำเนินการโดยเจ้าหน้าที่อย่างน้อยสอง (2) คนเสมอ ซึ่งควรบันทึกสิ่งผิดปกติใด ๆ เกี่ยวกับวัตถุหรือเศษสิ่งสกปรกที่เก็บกวาดด้วย"
+      uk: "Об'єкт SCP-011 та ділянку навколо нього слід прибирати раз на день. З міркувань безпеки прибирання має починатися щонайменше через 30 хвилин після заходу сонця. Прибирання завжди мають виконувати щонайменше двоє (2) працівників, яким також рекомендовано занотовувати все незвичне щодо об'єкта чи прибраного сміття."
+      vi: "Vật thể SCP-011 và khu vực xung quanh phải được dọn dẹp mỗi ngày một lần. Vì lý do an toàn, việc dọn dẹp nên bắt đầu ít nhất 30 phút sau khi mặt trời lặn. Việc dọn dẹp phải luôn do ít nhất hai (2) nhân viên thực hiện, những người này cũng được khuyến cáo ghi lại bất kỳ điều gì bất thường về vật thể hoặc về rác thải được dọn đi."
+      zh: "物品SCP-011及其周边区域须每日清洁一次。出于安全考虑，清洁应在日落至少30分钟后开始。清洁工作应始终由至少两（2）名人员执行，并建议他们记录物品或所清理杂物中的任何异常之处。"
+      zh_Hant: "物品SCP-011及其周邊區域須每日清潔一次。出於安全考量，清潔應在日落至少30分鐘後開始。清潔工作應始終由至少兩（2）名人員執行，並建議他們記錄物品或所清理雜物中的任何異常之處。"
+
+  - scene: >
+      Low-angle shot looking steeply up at SCP-011, which has raised its
+      granite musket toward the night sky and is sighting along the barrel
+      at a fat pigeon flapping directly overhead. In the lower corner of
+      the frame, Attending Researcher (Male) instinctively ducks his head.
+    characters: [scp-011, attending-researcher-m]
+    caption:
+      ja: "SCP-011は、バーモント州ウッドストックにある南北戦争の記念像である。この像は、マスケット銃を脇に構えた若い男性兵士の姿をしており、その地域で採掘された花崗岩から彫り出されている。SCP-011は時折、着地したり糞を落としたりしようとする鳥に向けて、マスケット銃を空へ持ち上げて発砲する様子が観察されている。"
+      en: "SCP-011 is a Civil War memorial statue located in Woodstock, Vermont. The statue is the image of a young male soldier holding a musket at his side, and is carved out of granite quarried within the area. Occasionally, SCP-011 has been observed lifting its musket to the sky to fire at birds which attempt to land or defecate on it."
+      cs: "SCP-011 je pomník z občanské války nacházející se ve Woodstocku ve Vermontu. Socha zobrazuje mladého vojáka držícího po boku mušketu a je vytesána z žuly vytěžené v této oblasti. Občas bylo pozorováno, jak SCP-011 zvedá mušketu k obloze a střílí po ptácích, kteří se na něj pokoušejí usednout nebo se na něj vyprázdnit."
+      de: "SCP-011 ist ein Bürgerkriegsdenkmal in Woodstock, Vermont. Die Statue stellt einen jungen männlichen Soldaten dar, der eine Muskete an seiner Seite hält, und ist aus Granit gehauen, der in der Gegend abgebaut wurde. Gelegentlich wurde beobachtet, wie SCP-011 seine Muskete zum Himmel hebt, um auf Vögel zu schießen, die versuchen, sich auf ihm niederzulassen oder ihn zu bekoten."
+      es: "SCP-011 es un monumento conmemorativo de la Guerra Civil situado en Woodstock, Vermont. La estatua representa a un joven soldado que sostiene un mosquete a su costado y está tallada en granito extraído de una cantera de la zona. En ocasiones se ha observado a SCP-011 levantar su mosquete hacia el cielo para disparar a las aves que intentan posarse sobre él o defecar encima."
+      fr: "SCP-011 est un monument commémoratif de la guerre de Sécession situé à Woodstock, dans le Vermont. La statue représente un jeune soldat tenant un mousquet à son côté et est taillée dans du granit extrait d'une carrière de la région. À l'occasion, on a observé SCP-011 lever son mousquet vers le ciel pour tirer sur les oiseaux qui tentent de se poser sur lui ou de le souiller."
+      it: "SCP-011 è un monumento commemorativo della Guerra Civile situato a Woodstock, nel Vermont. La statua raffigura un giovane soldato che tiene un moschetto al fianco ed è scolpita in granito estratto da una cava della zona. Occasionalmente SCP-011 è stato osservato mentre solleva il moschetto verso il cielo per sparare agli uccelli che tentano di posarsi su di esso o di defecarvi sopra."
+      ko: "SCP-011은 버몬트주 우드스톡에 있는 남북전쟁 기념상이다. 이 조각상은 머스킷 총을 옆에 든 젊은 남성 병사의 형상으로, 그 지역에서 채굴한 화강암을 깎아 만든 것이다. SCP-011은 이따금 자신 위에 앉거나 배설물을 떨어뜨리려는 새를 향해 머스킷 총을 하늘로 들어 올려 발포하는 모습이 관찰되었다."
+      pl: "SCP-011 to pomnik wojny secesyjnej znajdujący się w Woodstock w stanie Vermont. Posąg przedstawia młodego żołnierza trzymającego muszkiet u boku i jest wykuty z granitu wydobytego w tej okolicy. Sporadycznie obserwowano, jak SCP-011 unosi muszkiet ku niebu, by strzelać do ptaków próbujących na nim usiąść lub go zabrudzić."
+      pt: "SCP-011 é um monumento comemorativo da Guerra Civil localizado em Woodstock, Vermont. A estátua representa um jovem soldado segurando um mosquete ao lado do corpo e é esculpida em granito extraído de uma pedreira da região. Ocasionalmente, observou-se SCP-011 erguer o mosquete para o céu a fim de atirar em aves que tentam pousar sobre ele ou defecar em cima."
+      th: "SCP-011 คืออนุสาวรีย์รำลึกสงครามกลางเมืองที่ตั้งอยู่ในเมืองวูดสต็อก รัฐเวอร์มอนต์ รูปปั้นเป็นภาพทหารหนุ่มถือปืนคาบศิลาไว้ข้างลำตัว และแกะสลักจากหินแกรนิตที่ขุดได้ในพื้นที่ บางครั้งมีการสังเกตเห็น SCP-011 ยกปืนคาบศิลาขึ้นฟ้าเพื่อยิงนกที่พยายามลงเกาะหรือถ่ายมูลใส่มัน"
+      uk: "SCP-011 — це пам'ятник Громадянській війні, розташований у Вудстоку, штат Вермонт. Статуя зображує молодого солдата, що тримає мушкет збоку, і вирізьблена з граніту, видобутого в цій місцевості. Іноді спостерігали, як SCP-011 підіймає мушкет до неба, щоб стріляти по птахах, які намагаються сісти на нього або забруднити його послідом."
+      vi: "SCP-011 là một tượng đài tưởng niệm Nội chiến nằm ở Woodstock, bang Vermont. Bức tượng khắc họa một người lính trẻ cầm khẩu súng hỏa mai bên hông, được tạc từ đá granite khai thác trong vùng. Thỉnh thoảng người ta quan sát thấy SCP-011 nâng súng hỏa mai lên trời để bắn những con chim tìm cách đậu xuống hoặc phóng uế lên nó."
+      zh: "SCP-011是一座位于佛蒙特州伍德斯托克的内战纪念雕像。该雕像为一名手持火枪、枪置于身侧的年轻男性士兵形象，由当地开采的花岗岩雕成。SCP-011偶尔被观察到将火枪举向天空，射击试图停落在其身上或向其排便的鸟类。"
+      zh_Hant: "SCP-011是一座位於佛蒙特州伍德斯托克的內戰紀念雕像。該雕像為一名手持火槍、槍置於身側的年輕男性士兵形象，由當地開採的花崗岩雕成。SCP-011偶爾被觀察到將火槍舉向天空，射擊試圖停落在其身上或向其排便的鳥類。"
+
+  - scene: >
+      Extreme close-up on the muzzle of the granite musket at the instant
+      it fires: a burst of granite dust and a bright muzzle flash, a
+      startled sparrow veering sharply away, tiny chips of grey grit
+      scattering through the air. Only the statue's stone hands and the
+      musket are in frame.
+    characters: [scp-011]
+    caption:
+      ja: "奇妙なことに、その銃声は通常の銃器のものと非常によく似ているが、アイテムがマスケット銃に装填するのは花崗岩の弾丸と花崗岩の火薬だけであると観察されている（マスケット銃自体も発砲によって損傷しない）。"
+      en: "Oddly, the gunfire is very similar to that of a standard firearm, despite observations that the item only loads granite bullets and granite powder into the musket (which is also unharmed by the firing)."
+      cs: "Kupodivu je zvuk výstřelu velmi podobný běžné střelné zbrani, přestože bylo pozorováno, že předmět nabíjí do muškety pouze žulové kulky a žulový prach (a samotná mušketa výstřelem netrpí)."
+      de: "Merkwürdigerweise klingt der Schuss dem einer gewöhnlichen Schusswaffe sehr ähnlich, obwohl beobachtet wurde, dass das Objekt nur Granitkugeln und Granitpulver in die Muskete lädt (die durch das Feuern ebenfalls unbeschädigt bleibt)."
+      es: "Curiosamente, el sonido del disparo es muy similar al de un arma de fuego convencional, a pesar de que se ha observado que el objeto solo carga balas de granito y pólvora de granito en el mosquete (que además no sufre daños por el disparo)."
+      fr: "Curieusement, la détonation ressemble beaucoup à celle d'une arme à feu ordinaire, bien que l'on ait observé que l'objet ne charge que des balles de granit et de la poudre de granit dans le mousquet (lequel n'est pas non plus endommagé par le tir)."
+      it: "Stranamente, il rumore dello sparo è molto simile a quello di un'arma da fuoco comune, nonostante sia stato osservato che l'oggetto carica nel moschetto soltanto proiettili di granito e polvere di granito (e il moschetto stesso non subisce danni dallo sparo)."
+      ko: "이상하게도 총성은 일반적인 총기의 총성과 매우 유사한데, 이 물품이 머스킷 총에 장전하는 것은 화강암 탄환과 화강암 화약뿐인 것으로 관찰되었다(머스킷 총 자체도 발포로 인해 손상되지 않는다)."
+      pl: "Co dziwne, odgłos wystrzału jest bardzo podobny do odgłosu zwykłej broni palnej, mimo że zaobserwowano, iż przedmiot ładuje do muszkietu wyłącznie granitowe kule i granitowy proch (a sam muszkiet również nie ulega uszkodzeniu przy strzale)."
+      pt: "Curiosamente, o som do disparo é muito semelhante ao de uma arma de fogo comum, apesar de se ter observado que o objeto só carrega balas de granito e pólvora de granito no mosquete (que também não sofre danos com o disparo)."
+      th: "น่าแปลกที่เสียงปืนคล้ายเสียงอาวุธปืนทั่วไปมาก แม้จะมีการสังเกตว่าวัตถุบรรจุเพียงกระสุนหินแกรนิตและดินปืนหินแกรนิตเข้าไปในปืนคาบศิลา (ซึ่งตัวปืนเองก็ไม่เสียหายจากการยิงเช่นกัน)"
+      uk: "Дивно, але звук пострілу дуже схожий на звук звичайної вогнепальної зброї, попри спостереження, що об'єкт заряджає в мушкет лише гранітні кулі та гранітний порох (сам мушкет від пострілу теж не пошкоджується)."
+      vi: "Kỳ lạ thay, tiếng súng rất giống tiếng của một khẩu súng thông thường, dù người ta quan sát thấy vật thể chỉ nạp đạn đá granite và thuốc súng đá granite vào khẩu hỏa mai (bản thân khẩu súng cũng không hư hại vì phát bắn)."
+      zh: "奇怪的是，枪声与标准枪械的枪声极为相似，尽管观察到该物品只往火枪中装填花岗岩子弹和花岗岩火药（火枪本身也不会因射击而受损）。"
+      zh_Hant: "奇怪的是，槍聲與標準槍械的槍聲極為相似，儘管觀察到該物品只往火槍中裝填花崗岩子彈和花崗岩火藥（火槍本身也不會因射擊而受損）。"
+
+  - scene: >
+      Medium shot, waist-up. SCP-011 slumps slightly forward on its
+      pedestal, its cap, shoulders and musket heavily streaked with white
+      bird droppings, its stone face downcast and miserable. On the left
+      side of the frame, Attending Researcher (Female) reaches up with a
+      long-handled brush to scrub its shoulder. On the right side of the
+      frame, Attending Researcher (Male) stands well back, warily eyeing
+      the musket, which has drifted round to point loosely toward them.
+    characters: [scp-011, attending-researcher-f, attending-researcher-m]
+    caption:
+      ja: "その努力にもかかわらず、いくらかの糞はSCP-011に命中してしまい、大量の糞が付着したときには苦悩した様子を見せ、まれに人間に向けて発砲することさえあったと報告されている。"
+      en: "In spite of its efforts, some fecal matter does manage to strike SCP-011, and it has reportedly become distressed when it has had a large amount of feces on it, on some rare occasions even firing at humans."
+      cs: "Navzdory své snaze se přece jen část trusu na SCP-011 dostane, a když se na něm nahromadí velké množství výkalů, prý začne projevovat rozrušení a ve vzácných případech dokonce vystřelí i po lidech."
+      de: "Trotz seiner Bemühungen trifft SCP-011 doch etwas Kot, und es soll verzweifelt reagieren, wenn eine große Menge Kot auf ihm liegt, wobei es in seltenen Fällen sogar auf Menschen schießt."
+      es: "A pesar de sus esfuerzos, algo de materia fecal consigue alcanzar a SCP-011, y según los informes se angustia cuando tiene una gran cantidad de excrementos encima, llegando en raras ocasiones incluso a disparar a personas."
+      fr: "Malgré ses efforts, une partie des excréments parvient tout de même à atteindre SCP-011, et il aurait manifesté de la détresse lorsqu'une grande quantité de fientes s'était accumulée sur lui, allant même, en de rares occasions, jusqu'à tirer sur des humains."
+      it: "Nonostante i suoi sforzi, una parte degli escrementi riesce comunque a colpire SCP-011, e si dice che manifesti disagio quando ne ha una grande quantità addosso, arrivando in rare occasioni persino a sparare agli esseri umani."
+      ko: "이러한 노력에도 불구하고 일부 배설물은 SCP-011에 명중하며, 다량의 배설물이 몸에 묻었을 때에는 괴로워하는 모습을 보였고, 드물게는 사람을 향해 발포한 적도 있다고 보고되었다."
+      pl: "Mimo tych starań część odchodów i tak trafia w SCP-011, a według doniesień posąg okazuje wzburzenie, gdy pokrywa go duża ilość ptasich odchodów, w rzadkich przypadkach strzelając nawet do ludzi."
+      pt: "Apesar de seus esforços, parte da matéria fecal consegue atingir o SCP-011, e, segundo relatos, ele fica angustiado quando tem uma grande quantidade de fezes sobre si, chegando, em raras ocasiões, a atirar em pessoas."
+      th: "แม้จะพยายามแล้ว มูลนกบางส่วนก็ยังโดน SCP-011 อยู่ดี และมีรายงานว่ามันแสดงอาการทุกข์ใจเมื่อมีมูลจำนวนมากเปื้อนอยู่ บางครั้งที่พบไม่บ่อยถึงกับยิงใส่มนุษย์"
+      uk: "Попри всі зусилля, частина посліду таки влучає в SCP-011, і, за повідомленнями, він виявляє розпач, коли на ньому багато посліду, а в рідкісних випадках навіть стріляє по людях."
+      vi: "Bất chấp mọi nỗ lực, một phần phân chim vẫn trúng vào SCP-011, và theo báo cáo, nó trở nên đau khổ khi bị dính nhiều phân, thậm chí trong vài trường hợp hiếm hoi còn bắn vào con người."
+      zh: "尽管如此努力，仍有一些粪便击中SCP-011。据报告，当身上沾有大量粪便时，它会表现出苦恼，在极少数情况下甚至朝人开枪。"
+      zh_Hant: "儘管如此努力，仍有一些糞便擊中SCP-011。據報告，當身上沾有大量糞便時，它會表現出苦惱，在極少數情況下甚至朝人開槍。"

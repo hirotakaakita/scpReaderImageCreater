@@ -1,0 +1,191 @@
+# SCP-066 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-066
+
+title:
+  en: "SCP-066"
+  ja: "SCP-066"
+  cs: "SCP-066"
+  de: "SCP-066"
+  es: "SCP-066"
+  fr: "SCP-066"
+  it: "SCP-066"
+  ko: "SCP-066"
+  pl: "SCP-066"
+  pt: "SCP-066"
+  th: "SCP-066"
+  uk: "SCP-066"
+  vi: "SCP-066"
+  zh: "SCP-066"
+  zh_Hant: "SCP-066"
+
+attribution:
+  article: "SCP-066"
+  author: "Unknown author, rewritten by Akumeoy"
+  source_url: "http://scp-wiki.wikidot.com/scp-066"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-066:
+    name: SCP-066
+    appearance: >
+      An amorphous fist-to-melon-sized mass of tightly braided and knotted
+      yarn and ribbon in many faded colours (dusty reds, blues, yellows and
+      greens, with no single dominant colour), weighing about one kilogram,
+      with loose strand-ends trailing from it. It has no face and no limbs.
+    default_look: >
+      Sitting inert like a tangled ball of craft yarn. When a scene describes
+      it moving, one or more thin ribbon and yarn strands whip out from the
+      mass like fast tentacles. When a scene describes a transformation
+      result (a kitten, a cupcake, etc.), render that result in place of the
+      mass exactly as that scene specifies.
+
+panels:
+  - scene: >
+      Close-up shot on a pair of hands and the object, filling most of the
+      frame, on a plain lab table. attending-researcher-f pinches a single
+      thin ribbon strand between finger and thumb and draws it slowly out
+      from the colourful braided mass of SCP-066; faint concentric ripples
+      spread through the air from the mass.
+    notes: >
+      Panel-1 basis: "SCP-066 is an amorphous mass of braided yarn and ribbon
+      weighing approximately one kilogram. Strands of SCP-066 may be taken
+      individually and manipulated; when this is done, a note on the diatonic
+      scale (C-D-E-F-G-A-B) is produced." Fixed facts: pulling one strand
+      makes one musical tone. Keep the image text-free: show sound as ripples
+      in the air, never as written notes or symbols. Free to restage: hand
+      position, framing.
+    characters: [attending-researcher-f, scp-066]
+    caption:
+      ja: "SCP-066は、重さおよそ1キログラムの、編み込まれた毛糸とリボンからなる不定形の塊である。SCP-066の糸は1本ずつ取り出して操作することができ、そうすると全音階（C-D-E-F-G-A-B）の音が1つオブジェクトから発せられる。"
+      en: "SCP-066 is an amorphous mass of braided yarn and ribbon weighing approximately one kilogram. Strands of SCP-066 may be taken individually and manipulated; when this is done, a note on the diatonic scale (C-D-E-F-G-A-B) is produced by the object."
+      cs: "SCP-066 je beztvará hmota spletené příze a stužek o hmotnosti přibližně jeden kilogram. Jednotlivé prameny SCP-066 lze vytáhnout a manipulovat s nimi; při tom objekt vydá jeden tón diatonické stupnice (C-D-E-F-G-A-B)."
+      de: "SCP-066 ist eine amorphe Masse aus geflochtenem Garn und Band mit einem Gewicht von etwa einem Kilogramm. Einzelne Stränge von SCP-066 lassen sich herausziehen und bewegen; geschieht dies, erzeugt das Objekt einen Ton der diatonischen Tonleiter (C-D-E-F-G-A-B)."
+      es: "SCP-066 es una masa amorfa de hilo y cinta trenzados que pesa aproximadamente un kilogramo. Las hebras de SCP-066 pueden tomarse individualmente y manipularse; al hacerlo, el objeto produce una nota de la escala diatónica (C-D-E-F-G-A-B)."
+      fr: "SCP-066 est une masse informe de fil et de ruban tressés pesant environ un kilogramme. Les brins de SCP-066 peuvent être saisis un à un et manipulés ; lorsque cela est fait, l'objet produit une note de la gamme diatonique (C-D-E-F-G-A-B)."
+      it: "SCP-066 è una massa amorfa di filato e nastro intrecciati del peso di circa un chilogrammo. I fili di SCP-066 possono essere presi singolarmente e manipolati; quando ciò avviene, l'oggetto produce una nota della scala diatonica (C-D-E-F-G-A-B)."
+      ko: "SCP-066은 무게가 약 1킬로그램인, 땋인 실과 리본으로 이루어진 부정형의 덩어리이다. SCP-066의 가닥은 하나씩 뽑아 조작할 수 있으며, 그렇게 하면 온음계(C-D-E-F-G-A-B)의 음 하나가 물체에서 난다."
+      pl: "SCP-066 to bezkształtna masa splecionej włóczki i wstążki o masie około jednego kilograma. Pojedyncze pasma SCP-066 można wyciągać i nimi manipulować; gdy się to robi, obiekt wydaje jeden dźwięk skali diatonicznej (C-D-E-F-G-A-B)."
+      pt: "O SCP-066 é uma massa amorfa de fio e fita trançados, pesando aproximadamente um quilograma. Os fios do SCP-066 podem ser retirados individualmente e manipulados; quando isso é feito, o objeto produz uma nota da escala diatônica (C-D-E-F-G-A-B)."
+      th: "SCP-066 คือมวลไร้รูปทรงของไหมพรมและริบบิ้นที่ถักเข้าด้วยกัน หนักประมาณหนึ่งกิโลกรัม เส้นของ SCP-066 สามารถดึงออกมาทีละเส้นและจัดการได้ เมื่อทำเช่นนั้น วัตถุจะเปล่งเสียงโน้ตหนึ่งตัวในบันไดเสียงไดอะโทนิก (C-D-E-F-G-A-B)"
+      uk: "SCP-066 — це безформна маса сплетеної пряжі та стрічки вагою приблизно один кілограм. Окремі пасма SCP-066 можна витягувати й маніпулювати ними; коли це роблять, об'єкт видає одну ноту діатонічного звукоряду (C-D-E-F-G-A-B)."
+      vi: "SCP-066 là một khối vô định hình gồm sợi len và ruy băng bện vào nhau, nặng khoảng một kilôgam. Có thể rút từng sợi của SCP-066 ra và thao tác; khi làm vậy, vật thể phát ra một nốt thuộc thang âm diatonic (C-D-E-F-G-A-B)."
+      zh: "SCP-066是一团无固定形状的编织毛线与丝带的团块，重约一千克。SCP-066的线股可被逐根抽出并加以摆弄；这样做时，该物体会发出一个自然音阶（C-D-E-F-G-A-B）中的音。"
+      zh_Hant: "SCP-066是一團無固定形狀的編織毛線與絲帶的團塊，重約一公斤。SCP-066的線股可被逐根抽出並加以擺弄；這樣做時，該物體會發出一個自然音階（C-D-E-F-G-A-B）中的音。"
+
+  - scene: >
+      Medium shot, eye level. On the left side of the frame,
+      attending-researcher-f works several ribbon strands of SCP-066 with
+      both hands as a soft glowing shimmer gathers in the air above the
+      braided mass. On the right side of the frame, attending-researcher-m
+      watches, holding up a stopwatch.
+    notes: >
+      Panel-2 basis: "When a set of six or more notes are produced, SCP-066
+      will produce a benign effect of varying nature and duration. SCP-066
+      will not respond to manipulation while any effect produced by it is in
+      progress." Fixed facts: six-plus notes trigger a harmless effect; it
+      goes unresponsive during one. Free to restage: poses, how the building
+      effect looks.
+    characters: [attending-researcher-f, scp-066, attending-researcher-m]
+    caption:
+      ja: "6つ以上の音が奏でられると、SCP-066は性質も持続時間もさまざまな無害な効果を発生させる。SCP-066は、自身が生み出した効果が進行している間は、操作に反応しない。"
+      en: "When a set of six or more notes are produced, SCP-066 will produce a benign effect of varying nature and duration. SCP-066 will not respond to manipulation while any effect produced by it is in progress."
+      cs: "Zazní-li šest či více tónů, vyvolá SCP-066 neškodný účinek proměnlivé povahy i délky trvání. Dokud jakýkoli jím vyvolaný účinek probíhá, SCP-066 na manipulaci nereaguje."
+      de: "Werden sechs oder mehr Töne erzeugt, ruft SCP-066 einen harmlosen Effekt von wechselnder Art und Dauer hervor. Solange ein von ihm erzeugter Effekt andauert, reagiert SCP-066 nicht auf Manipulation."
+      es: "Cuando se producen seis o más notas, SCP-066 genera un efecto benigno de naturaleza y duración variables. SCP-066 no responde a la manipulación mientras cualquier efecto producido por él esté en curso."
+      fr: "Lorsque six notes ou plus sont produites, SCP-066 génère un effet bénin de nature et de durée variables. SCP-066 ne répond à aucune manipulation tant qu'un effet qu'il a produit est en cours."
+      it: "Quando vengono prodotte sei o più note, SCP-066 genera un effetto benigno di natura e durata variabili. SCP-066 non risponde alla manipolazione finché un qualsiasi effetto da esso prodotto è in corso."
+      ko: "여섯 개 이상의 음이 연주되면, SCP-066은 성질과 지속 시간이 다양한 무해한 효과를 일으킨다. SCP-066은 자신이 만들어낸 효과가 진행되는 동안에는 조작에 반응하지 않는다."
+      pl: "Gdy powstanie sześć lub więcej dźwięków, SCP-066 wywołuje nieszkodliwy efekt o zmiennym charakterze i czasie trwania. Dopóki jakikolwiek wywołany przez nie efekt trwa, SCP-066 nie reaguje na manipulację."
+      pt: "Quando seis ou mais notas são produzidas, o SCP-066 gera um efeito benigno de natureza e duração variáveis. O SCP-066 não responde à manipulação enquanto qualquer efeito produzido por ele estiver em andamento."
+      th: "เมื่อมีการเปล่งเสียงโน้ตหกตัวขึ้นไป SCP-066 จะก่อให้เกิดผลที่ไม่เป็นอันตราย ซึ่งมีลักษณะและระยะเวลาแตกต่างกันไป SCP-066 จะไม่ตอบสนองต่อการจัดการใดๆ ตราบใดที่ผลที่มันก่อขึ้นยังดำเนินอยู่"
+      uk: "Коли утворюється шість або більше нот, SCP-066 спричиняє нешкідливий ефект змінного характеру та тривалості. Поки будь-який спричинений ним ефект триває, SCP-066 не реагує на маніпуляції."
+      vi: "Khi tạo ra sáu nốt trở lên, SCP-066 sẽ sinh ra một hiệu ứng vô hại với tính chất và thời lượng thay đổi. SCP-066 không phản hồi thao tác nào chừng nào một hiệu ứng do nó tạo ra vẫn đang diễn ra."
+      zh: "当奏出六个或更多音时，SCP-066会产生一种性质和持续时间各异的良性效应。在其产生的任何效应尚在进行期间，SCP-066不会对摆弄作出反应。"
+      zh_Hant: "當奏出六個或更多音時，SCP-066會產生一種性質和持續時間各異的良性效應。在其產生的任何效應尚在進行期間，SCP-066不會對擺弄作出反應。"
+
+  - scene: >
+      Medium-wide shot, eye level. On the lab table where the braided mass
+      was, a small fluffy calico kitten now sits washing one paw; right
+      beside it stands a single chocolate cupcake with chocolate frosting
+      and one lit candle. On the left, attending-researcher-m leans in with
+      a delighted grin; on the right, attending-researcher-f clasps her
+      hands, charmed.
+    notes: >
+      Panel-3 basis: "Prior to Incident 066-2, results have included: SCP-066
+      transformed into a small calico kitten for seventeen minutes" and "a
+      small cupcake, chocolate with chocolate frosting and a lit candle stuck
+      in the top." Fixed facts: the harmless effects were a calico kitten and
+      a birthday cupcake. Free to restage: the researchers' reactions,
+      framing.
+    characters: [scp-066, attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "インシデント066-2以前の結果には、次のものが含まれる。SCP-066が17分間、小さな三毛の子猫に変化したこと。そして、チョコレートのフロスティングをかけた小さなチョコレートのカップケーキで、上部に火のついたろうそくが1本刺さっていたもの。"
+      en: "Prior to Incident 066-2, results have included: SCP-066 transformed into a small calico kitten for seventeen minutes, and a small cupcake, chocolate with chocolate frosting and a lit candle stuck in the top."
+      cs: "Mezi výsledky před Incidentem 066-2 patřily: SCP-066 se na sedmnáct minut proměnilo v malé strakaté kotě; a malý košíček, čokoládový s čokoládovou polevou a zapálenou svíčkou zapíchnutou navrchu."
+      de: "Zu den Ergebnissen vor Vorfall 066-2 zählten: SCP-066 verwandelte sich für siebzehn Minuten in ein kleines Kätzchen mit Kaliko-Fell; und ein kleiner Cupcake, Schokolade mit Schokoladenglasur und einer brennenden Kerze obenauf."
+      es: "Entre los resultados anteriores al Incidente 066-2 se cuentan: SCP-066 se transformó en un pequeño gatito de pelaje calicó durante diecisiete minutos; y una magdalena pequeña, de chocolate con glaseado de chocolate y una vela encendida clavada encima."
+      fr: "Parmi les résultats antérieurs à l'Incident 066-2 : SCP-066 s'est transformé en un petit chaton au pelage calico pendant dix-sept minutes ; et un petit gâteau, au chocolat avec un glaçage au chocolat et une bougie allumée plantée sur le dessus."
+      it: "Tra i risultati precedenti all'Incidente 066-2 vi sono stati: SCP-066 si è trasformato in un piccolo gattino dal manto calico per diciassette minuti; e un piccolo cupcake, al cioccolato con glassa al cioccolato e una candelina accesa infilata in cima."
+      ko: "사건 066-2 이전의 결과에는 다음이 포함된다. SCP-066이 17분 동안 작은 삼색 고양이 새끼로 변한 것, 그리고 초콜릿 프로스팅을 얹고 위에 불붙은 초 하나가 꽂힌 작은 초콜릿 컵케이크."
+      pl: "Do wyników sprzed Incydentu 066-2 należały: SCP-066 na siedemnaście minut przemieniło się w małego kociaka o umaszczeniu calico; oraz mała babeczka, czekoladowa z czekoladowym lukrem i zapaloną świeczką wetkniętą na wierzchu."
+      pt: "Entre os resultados anteriores ao Incidente 066-2 estão: o SCP-066 transformou-se num pequeno gatinho de pelagem calico por dezessete minutos; e um pequeno cupcake, de chocolate com cobertura de chocolate e uma vela acesa espetada no topo."
+      th: "ผลลัพธ์ก่อนเหตุการณ์ 066-2 รวมถึง: SCP-066 แปลงร่างเป็นลูกแมวลายสามสีตัวเล็กเป็นเวลาสิบเจ็ดนาที และคัพเค้กชิ้นเล็กรสช็อกโกแลตแต่งหน้าด้วยครีมช็อกโกแลต มีเทียนจุดไฟหนึ่งเล่มปักอยู่ด้านบน"
+      uk: "До результатів, отриманих до Інциденту 066-2, належали: SCP-066 на сімнадцять хвилин перетворився на маленьке триколірне кошеня; і маленький кекс, шоколадний із шоколадною глазур'ю та запаленою свічкою, встромленою зверху."
+      vi: "Trong số các kết quả trước Sự cố 066-2 có: SCP-066 biến thành một chú mèo con lông tam thể trong mười bảy phút; và một chiếc bánh cupcake nhỏ, sô cô la phủ kem sô cô la với một ngọn nến đang cháy cắm trên đỉnh."
+      zh: "066-2事故之前的结果包括：SCP-066变成一只小小的三花猫，持续十七分钟；以及一个小蛋糕，巧克力口味、覆有巧克力糖霜，顶上插着一支点燃的蜡烛。"
+      zh_Hant: "066-2事故之前的結果包括：SCP-066變成一隻小小的三花貓，持續十七分鐘；以及一個小蛋糕，巧克力口味、覆有巧克力糖霜，頂上插著一支點燃的蠟燭。"
+
+  - scene: >
+      Dynamic wide shot, slight low angle. The braided mass of SCP-066 is
+      back to normal on the table but has flung two thin ribbon strands out
+      across the room like whip-fast tentacles. On the right side of the
+      frame, attending-researcher-m jerks backward off his stool, arms
+      flailing. A heavy dull-gray metal box sits open on the bench beside the
+      mass.
+    notes: >
+      Panel-4 basis: "Following Incident 066-2, SCP-066 now displays
+      significant mobility, primarily in the form of being able to move
+      tentacular portions of itself at very high speed," and it is kept "in
+      a tungsten carbide box in Site 21's high-value item storage facility."
+      Fixed facts: it now lashes tentacle-strands fast; stored in a hard
+      metal box. Keep it comedic, not gory. Free to restage: the researcher's
+      dodge, framing.
+    characters: [scp-066, attending-researcher-m]
+    caption:
+      ja: "インシデント066-2の後、SCP-066は著しい可動性を示すようになった。主に、自身の触手状の部分を非常に高速で動かせるという形で現れる。SCP-066はサイト21の高価値物品保管施設内の炭化タングステン製の箱に保管される。"
+      en: "Following Incident 066-2, SCP-066 now displays significant mobility, primarily in the form of being able to move tentacular portions of itself at very high speed. SCP-066 is to be kept in a tungsten carbide box in Site 21's high-value item storage facility."
+      cs: "Po Incidentu 066-2 vykazuje SCP-066 značnou pohyblivost, především v podobě schopnosti pohybovat svými chapadlovitými částmi velmi vysokou rychlostí. SCP-066 se uchovává v krabici z karbidu wolframu ve skladu cenných předmětů na Stanovišti 21."
+      de: "Nach Vorfall 066-2 zeigt SCP-066 erhebliche Beweglichkeit, vor allem in Form der Fähigkeit, tentakelartige Teile seiner selbst mit sehr hoher Geschwindigkeit zu bewegen. SCP-066 ist in einer Wolframcarbid-Box im Hochwert-Lager von Standort 21 aufzubewahren."
+      es: "Tras el Incidente 066-2, SCP-066 exhibe una movilidad considerable, principalmente en forma de la capacidad de mover partes tentaculares de sí mismo a muy alta velocidad. SCP-066 debe guardarse en una caja de carburo de tungsteno en el almacén de objetos de alto valor del Sitio 21."
+      fr: "Après l'Incident 066-2, SCP-066 fait preuve d'une mobilité considérable, principalement sous la forme de la capacité à déplacer des parties tentaculaires de lui-même à très grande vitesse. SCP-066 doit être conservé dans une boîte en carbure de tungstène dans l'entrepôt d'objets de grande valeur du Site 21."
+      it: "Dopo l'Incidente 066-2, SCP-066 mostra una notevole mobilità, principalmente sotto forma della capacità di muovere parti tentacolari di sé stesso a velocità molto elevata. SCP-066 deve essere conservato in una scatola di carburo di tungsteno nel deposito di oggetti di alto valore del Sito 21."
+      ko: "사건 066-2 이후, SCP-066은 상당한 이동성을 보인다. 주로 자신의 촉수 같은 부분을 매우 빠른 속도로 움직일 수 있는 형태로 나타난다. SCP-066은 사이트 21의 고가치 물품 보관 시설 내 텅스텐 카바이드 상자에 보관한다."
+      pl: "Po Incydencie 066-2 SCP-066 wykazuje znaczną ruchliwość, głównie w postaci zdolności do poruszania swoimi mackowatymi częściami z bardzo dużą prędkością. SCP-066 należy przechowywać w pudełku z węglika wolframu w magazynie przedmiotów o wysokiej wartości w Placówce 21."
+      pt: "Após o Incidente 066-2, o SCP-066 exibe mobilidade considerável, principalmente na forma da capacidade de mover partes tentaculares de si mesmo em velocidade muito alta. O SCP-066 deve ser guardado em uma caixa de carboneto de tungstênio no depósito de itens de alto valor do Sítio 21."
+      th: "หลังเหตุการณ์ 066-2 SCP-066 แสดงความสามารถในการเคลื่อนที่อย่างมาก โดยส่วนใหญ่อยู่ในรูปของความสามารถในการขยับส่วนที่คล้ายหนวดของตัวเองด้วยความเร็วสูงมาก ต้องเก็บ SCP-066 ไว้ในกล่องทังสเตนคาร์ไบด์ในคลังเก็บของมีค่าของไซต์ 21"
+      uk: "Після Інциденту 066-2 SCP-066 виявляє значну рухливість, головно у формі здатності рухати щупальцеподібними частинами себе з дуже високою швидкістю. SCP-066 слід зберігати в коробці з карбіду вольфраму у сховищі цінних предметів Об'єкта 21."
+      vi: "Sau Sự cố 066-2, SCP-066 thể hiện khả năng di chuyển đáng kể, chủ yếu dưới dạng khả năng cử động các phần dạng xúc tu của chính nó ở tốc độ rất cao. SCP-066 phải được cất trong một hộp cacbua vonfram tại kho lưu trữ vật phẩm giá trị cao của Cơ sở 21."
+      zh: "在066-2事故之后，SCP-066表现出显著的活动能力，主要形式是能够以极高速度移动自身的触手状部分。SCP-066须存放于Site 21高价值物品仓储设施内的一个碳化钨盒中。"
+      zh_Hant: "在066-2事故之後，SCP-066表現出顯著的活動能力，主要形式是能夠以極高速度移動自身的觸手狀部分。SCP-066須存放於Site 21高價值物品倉儲設施內的一個碳化鎢盒中。"
+
+addendum:
+  ja: "補遺066-J：あの子猫をもう一度出してほしいという申請が、17名の職員から別々に提出され、審査待ちである。"
+  en: "Addendum 066-J: Requests to produce the kitten again have been filed separately by seventeen members of personnel and are pending review."
+  cs: "Dodatek 066-J: Žádosti o opětovné vytvoření onoho kotěte podalo samostatně sedmnáct zaměstnanců a čekají na posouzení."
+  de: "Anhang 066-J: Anträge, das Kätzchen erneut zu erzeugen, wurden von siebzehn Mitarbeitern separat eingereicht und werden derzeit geprüft."
+  es: "Adenda 066-J: Diecisiete miembros del personal han presentado por separado solicitudes para volver a producir el gatito, y están pendientes de revisión."
+  fr: "Addendum 066-J : Des demandes de reproduction du chaton ont été déposées séparément par dix-sept membres du personnel et sont en attente d'examen."
+  it: "Addendum 066-J: Richieste di produrre di nuovo il gattino sono state presentate separatamente da diciassette membri del personale e sono in attesa di valutazione."
+  ko: "부록 066-J: 그 새끼 고양이를 다시 만들어 달라는 신청이 직원 17명으로부터 각각 제출되어 검토 대기 중이다."
+  pl: "Aneks 066-J: Wnioski o ponowne wytworzenie kociaka złożyło osobno siedemnastu pracowników i oczekują one na rozpatrzenie."
+  pt: "Adendo 066-J: Pedidos para produzir o gatinho novamente foram apresentados separadamente por dezessete membros do pessoal e aguardam análise."
+  th: "ภาคผนวก 066-J: มีเจ้าหน้าที่สิบเจ็ดคนยื่นคำร้องแยกกันขอให้สร้างลูกแมวตัวนั้นขึ้นมาอีกครั้ง และกำลังรอการพิจารณา"
+  uk: "Додаток 066-J: Запити знову створити те кошеня подали окремо сімнадцять співробітників, і вони очікують на розгляд."
+  vi: "Phụ lục 066-J: Mười bảy nhân viên đã nộp đơn riêng lẻ xin tạo lại chú mèo con, và đang chờ xét duyệt."
+  zh: "补遗066-J：已有十七名人员分别提交申请，要求再变出那只小猫，目前正在审核中。"
+  zh_Hant: "補遺066-J：已有十七名人員分別提交申請，要求再變出那隻小貓，目前正在審核中。"

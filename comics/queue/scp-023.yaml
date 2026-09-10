@@ -1,0 +1,173 @@
+# SCP-023 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 補遺(Addendum 023-001..004)・インシデント報告は本編には使わない。
+# キャラにセリフは言わせない。グロ回避のため流血・遺体は描かない。
+#
+# 4コマ構成: 1=偽の交差路に収容(起)、2=日没後に硬質ゴムの眼球挿入物を1つずつ
+# 交換(承)、3=目を合わせると1年後に本人か近親者が死ぬ(転)、
+# 4=交差路がないと壁をすり抜けて最寄りの交差点へ向かう(結・脱力オチ)。
+
+id: scp-023
+
+title:
+  en: "SCP-023"
+  ja: "SCP-023"
+  cs: "SCP-023"
+  de: "SCP-023"
+  es: "SCP-023"
+  fr: "SCP-023"
+  it: "SCP-023"
+  ko: "SCP-023"
+  pl: "SCP-023"
+  pt: "SCP-023"
+  th: "SCP-023"
+  uk: "SCP-023"
+  vi: "SCP-023"
+  zh: "SCP-023"
+  zh_Hant: "SCP-023"
+
+attribution:
+  article: "SCP-023"
+  source_url: "http://scp-wiki.wikidot.com/scp-023"
+  author: "Pig_catapult"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-023:
+    name: SCP-023
+    appearance: >
+      SCP-023, a large shaggy canine covered in coarse black fur (color
+      RGB 22,22,25), about the size of a small horse, roughly 1.5 meters
+      at the shoulder, with prominent visible teeth. Its deep-set eyes are
+      normally capped with matte dark rubber spheres seated in the
+      sockets; when a cap is removed, that eye burns with a bright
+      orange-red glow (color RGB 220,70,30).
+    default_look: >
+      Standing or sitting calmly on all fours, both eye sockets filled
+      with the dull rubber spheres, an oddly patient and docile posture.
+
+characters: [scp-023, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a walled-off four-way
+      corridor intersection with plenty of empty floor in every direction.
+      SCP-023 sits calmly at the exact center of the crossing, rubber
+      spheres in both eye sockets. On the right side of the frame,
+      attending-researcher-m stands by one wall gesturing along the
+      corridors at the four identical doors set at the ends, three of them
+      obviously fake.
+    characters: [scp-023, attending-researcher-m]
+    notes: >
+      根拠: SCP第1段落「2本の廊下の交差点を壁で仕切り、各方向3メートル以上、
+      本物の扉に加え4つの端のうち3つに偽扉」。変えてはいけない事実: 交差点構造、
+      偽扉3+本物1。変更可能: 研究者の位置・動作、画角。
+    caption:
+      ja: "SCP-023は、2本の廊下が交わる地点を壁で仕切った空間に収容される。各方向に少なくとも3メートルの空間を設け、本物の扉に加えて、4つの端のうち3つに偽の扉を設置する。"
+      en: "SCP-023 is to be contained in a walled-off intersection of two corridors, with at least three meters of space in each direction, and false doors at three of the four ends, in addition to the real door."
+      cs: "SCP-023 musí být uchováváno v zazděné křižovatce dvou chodeb, s nejméně třemi metry volného prostoru v každém směru a s falešnými dveřmi na třech ze čtyř konců, kromě skutečných dveří."
+      de: "SCP-023 ist in einer abgemauerten Kreuzung zweier Korridore unterzubringen, mit mindestens drei Metern Freiraum in jede Richtung und mit falschen Türen an drei der vier Enden zusätzlich zur echten Tür."
+      es: "SCP-023 debe contenerse en un cruce de dos corredores cerrado con muros, con al menos tres metros de espacio en cada dirección y puertas falsas en tres de los cuatro extremos, además de la puerta real."
+      fr: "Le SCP-023 doit être confiné dans un carrefour de deux couloirs fermé par des murs, avec au moins trois mètres d'espace dans chaque direction et de fausses portes à trois des quatre extrémités, en plus de la porte réelle."
+      it: "SCP-023 deve essere contenuto in un incrocio di due corridoi chiuso da pareti, con almeno tre metri di spazio in ogni direzione e porte false a tre delle quattro estremità, oltre alla porta reale."
+      ko: "SCP-023은 두 복도가 교차하는 지점을 벽으로 막은 공간에 수용한다. 각 방향으로 최소 3미터의 공간을 확보하고, 실제 문 외에 네 개의 끝 중 세 곳에 가짜 문을 설치한다."
+      pl: "SCP-023 należy przetrzymywać w odgrodzonym murami skrzyżowaniu dwóch korytarzy, z co najmniej trzema metrami przestrzeni w każdym kierunku oraz fałszywymi drzwiami na trzech z czterech końców, oprócz drzwi prawdziwych."
+      pt: "SCP-023 deve ser contido em um cruzamento de dois corredores fechado por paredes, com pelo menos três metros de espaço em cada direção e portas falsas em três das quatro extremidades, além da porta real."
+      th: "ต้องกักกัน SCP-023 ไว้ในบริเวณทางแยกของทางเดินสองทางที่ก่อผนังปิดล้อม โดยมีพื้นที่ว่างอย่างน้อยสามเมตรในแต่ละทิศทาง และมีประตูหลอกที่สามในสี่ด้าน นอกเหนือจากประตูจริง"
+      uk: "SCP-023 слід утримувати в перекритому стінами перехресті двох коридорів, із щонайменше трьома метрами простору в кожному напрямку та фальшивими дверима на трьох із чотирьох кінців, окрім справжніх дверей."
+      vi: "SCP-023 phải được giam giữ tại một giao lộ của hai hành lang được xây tường bao kín, với ít nhất ba mét khoảng trống theo mỗi hướng, và có các cánh cửa giả ở ba trong bốn đầu, ngoài cánh cửa thật."
+      zh: "SCP-023须收容于由墙壁封隔的两条走廊交叉口处，各方向至少留出三米空间，除真门外，在四端中的三端设置假门。"
+      zh_Hant: "SCP-023須收容於由牆壁封隔的兩條走廊交叉口處，各方向至少留出三公尺空間，除真門外，在四端中的三端設置假門。"
+
+  - scene: >
+      Medium shot, waist-up, three-quarter angle at night, a different
+      framing from the wide shot. On the left side of the frame,
+      attending-researcher-f stands on a low stepladder and carefully
+      presses a single dark rubber sphere into one of SCP-023's eye
+      sockets. On the right side of the frame, attending-researcher-m
+      holds out a small tray bearing the second sphere, glancing at a dark
+      window showing full night outside. SCP-023 sits still and patient.
+    characters: [attending-researcher-f, attending-researcher-m, scp-023]
+    notes: >
+      根拠: SCP第2段落「眼窩は常に硬質ゴムの球状挿入物で満たす。交換は1つずつ、
+      日没後にのみ」。変えてはいけない事実: 硬質ゴムの球、1つずつ、日没後。
+      変更可能: 器具・脚立の見せ方、研究者の配置。
+    caption:
+      ja: "SCP-023の眼窩は、常に硬質ゴム製の球状挿入物で満たされていなければならない。眼球挿入物の交換は必ず1つずつ行い、かつ日が完全に沈んだ後にのみ行う。"
+      en: "At all times, SCP-023's eye sockets are to be filled with spherical inserts made of hard rubber. Eye inserts are only to be replaced individually, and only after the sun has completely set."
+      cs: "Oční důlky SCP-023 musí být neustále vyplněny kulovými vložkami z tvrdé pryže. Oční vložky se smějí vyměňovat pouze jednotlivě a až po úplném západu slunce."
+      de: "Die Augenhöhlen von SCP-023 sind jederzeit mit kugelförmigen Einsätzen aus Hartgummi zu füllen. Die Augeneinsätze dürfen nur einzeln und erst nach vollständigem Sonnenuntergang ausgetauscht werden."
+      es: "Las cuencas oculares de SCP-023 deben estar llenas en todo momento con inserciones esféricas de caucho duro. Las inserciones oculares solo deben reemplazarse de una en una, y únicamente después de que el sol se haya puesto por completo."
+      fr: "Les orbites du SCP-023 doivent être remplies en permanence d'implants sphériques en caoutchouc dur. Les implants oculaires ne doivent être remplacés qu'un par un, et seulement après le coucher complet du soleil."
+      it: "Le orbite oculari di SCP-023 devono essere riempite in ogni momento con inserti sferici di gomma dura. Gli inserti oculari devono essere sostituiti solo uno alla volta e soltanto dopo che il sole è completamente tramontato."
+      ko: "SCP-023의 안와는 항상 경질 고무로 만든 구형 삽입물로 채워져 있어야 한다. 안구 삽입물의 교체는 반드시 하나씩, 그리고 해가 완전히 진 뒤에만 시행한다."
+      pl: "Oczodoły SCP-023 muszą być przez cały czas wypełnione kulistymi wkładkami z twardej gumy. Wkładki oczne wolno wymieniać wyłącznie pojedynczo i dopiero po całkowitym zachodzie słońca."
+      pt: "As órbitas oculares de SCP-023 devem estar preenchidas o tempo todo com insertos esféricos de borracha dura. Os insertos oculares só devem ser substituídos um de cada vez, e somente após o sol se pôr completamente."
+      th: "ต้องเติมเบ้าตาของ SCP-023 ด้วยวัตถุทรงกลมที่ทำจากยางแข็งไว้ตลอดเวลา การเปลี่ยนวัตถุในเบ้าตาต้องทำทีละข้างเท่านั้น และทำได้เฉพาะหลังจากดวงอาทิตย์ตกลับขอบฟ้าอย่างสมบูรณ์แล้ว"
+      uk: "Очниці SCP-023 повсякчас мають бути заповнені сферичними вставками з твердої гуми. Очні вставки дозволено замінювати лише по одній і тільки після повного заходу сонця."
+      vi: "Hốc mắt của SCP-023 phải luôn được lấp đầy bằng các vật chèn hình cầu làm từ cao su cứng. Vật chèn mắt chỉ được thay từng cái một, và chỉ sau khi mặt trời đã lặn hoàn toàn."
+      zh: "SCP-023的眼窝须始终以硬质橡胶制成的球状嵌入物填充。眼部嵌入物只能逐个更换，且只能在太阳完全落下之后进行。"
+      zh_Hant: "SCP-023的眼窩須始終以硬質橡膠製成的球狀嵌入物填充。眼部嵌入物只能逐個更換，且只能在太陽完全落下之後進行。"
+
+  - scene: >
+      Extreme close-up on SCP-023's face turned toward the viewer, a
+      different framing from the previous panels, one rubber sphere just
+      popped free and hanging on a lanyard so that a single eye socket
+      blazes a bright orange-red. In the blurred foreground,
+      attending-researcher-m has frozen mid-flinch, one hand flying up to
+      shield his eyes a half-second too late, mouth open.
+    characters: [scp-023, attending-researcher-m]
+    notes: >
+      根拠: Description「個人がSCP-023と目を合わせるたびに、本人か近親者が視線が
+      切れてからちょうど1年後に死亡する」。グロ回避のため死亡描写はせず、目が
+      合ってしまった瞬間の緊張のみ描く。変えてはいけない事実: 目が合う=1年後の
+      死。変更可能: 挿入物が外れる理由の演出、研究者の反応。
+    caption:
+      ja: "個人がSCP-023と目を合わせるたびに、その本人か、あるいはその近親者の1人が、視線が切れてからちょうど1年後に死亡する。"
+      en: "Any time an individual makes eye contact with SCP-023, either that person or a member of their immediate family will die exactly one (1) year after eye contact is broken."
+      cs: "Kdykoli někdo naváže se SCP-023 oční kontakt, buď tato osoba, nebo člen její nejbližší rodiny zemře přesně jeden (1) rok poté, co je oční kontakt přerušen."
+      de: "Jedes Mal, wenn eine Person Blickkontakt mit SCP-023 aufnimmt, wird entweder diese Person oder ein Mitglied ihrer engsten Familie genau ein (1) Jahr nach dem Abbruch des Blickkontakts sterben."
+      es: "Cada vez que una persona establece contacto visual con SCP-023, esa persona o un miembro de su familia inmediata morirá exactamente un (1) año después de que se rompa el contacto visual."
+      fr: "Chaque fois qu'un individu établit un contact visuel avec le SCP-023, soit cette personne, soit un membre de sa famille proche mourra exactement un (1) an après la rupture du contact visuel."
+      it: "Ogni volta che un individuo stabilisce un contatto visivo con SCP-023, quella persona o un membro della sua famiglia stretta morirà esattamente un (1) anno dopo l'interruzione del contatto visivo."
+      ko: "누군가가 SCP-023과 눈을 마주칠 때마다, 그 본인 또는 직계 가족 중 한 명이 시선이 끊긴 지 정확히 1년 후에 사망한다."
+      pl: "Za każdym razem, gdy ktoś nawiąże kontakt wzrokowy ze SCP-023, ta osoba albo członek jej najbliższej rodziny umrze dokładnie jeden (1) rok po przerwaniu kontaktu wzrokowego."
+      pt: "Sempre que uma pessoa estabelece contato visual com o SCP-023, essa pessoa ou um membro de sua família imediata morrerá exatamente um (1) ano após o contato visual ser interrompido."
+      th: "ทุกครั้งที่บุคคลสบตากับ SCP-023 บุคคลนั้นหรือสมาชิกในครอบครัวใกล้ชิดคนหนึ่งจะเสียชีวิตในอีกหนึ่ง (1) ปีพอดีหลังจากที่การสบตาสิ้นสุดลง"
+      uk: "Щоразу, коли людина встановлює зоровий контакт зі SCP-023, або ця людина, або член її найближчої родини помре рівно через один (1) рік після того, як зоровий контакт буде перервано."
+      vi: "Mỗi khi một người giao tiếp bằng mắt với SCP-023, người đó hoặc một thành viên trong gia đình ruột thịt của họ sẽ chết đúng một (1) năm sau khi giao tiếp bằng mắt bị ngắt."
+      zh: "任何人只要与SCP-023发生目光接触，此人或其直系亲属中的一员便会在目光中断整整一(1)年之后死亡。"
+      zh_Hant: "任何人只要與SCP-023發生目光接觸，此人或其直系親屬中的一員便會在目光中斷整整一(1)年之後死亡。"
+
+  - scene: >
+      Wide shot, full body, eye level, a plain corridor with no
+      intersection in sight, a different framing from the previous panels.
+      SCP-023 walks calmly forward with its front half already sunk
+      halfway through a solid concrete wall, faint scorch marks glowing at
+      the edges where its body passes through. On the left side of the
+      frame, attending-researcher-f stands with a clipboard lowered,
+      shoulders slumped in tired resignation.
+    characters: [scp-023, attending-researcher-f]
+    notes: >
+      根拠: Description「少なくとも表面的に『交差路』に似た環境で収容されていない
+      場合、SCP-023は最寄りの適切な場所へ壁をすり抜けて向かい、通過した物質を
+      すべて焼き尽くす」。変えてはいけない事実: 壁のすり抜け、交差点を求める行動。
+      変更可能: 焦げ跡の見せ方、研究者の表情。
+    caption:
+      ja: "少なくとも表面的に『交差路』に似た環境で収容されていない場合、SCP-023は最も近い適切な場所へたどり着くために壁をすり抜け、通過した物質をすべて焼き尽くす。"
+      en: "If not contained in a setting that at least superficially resembles a 'crossroads', SCP-023 will phase through walls to get to the nearest suitable location, incinerating all materials it passes through."
+      cs: "Není-li SCP-023 uchováváno v prostředí, které alespoň povrchně připomíná „křižovatku“, projde zdmi, aby se dostalo na nejbližší vhodné místo, přičemž spálí veškerý materiál, kterým prochází."
+      de: "Wird SCP-023 nicht in einer Umgebung gehalten, die zumindest oberflächlich einer „Kreuzung“ ähnelt, durchdringt es Wände, um den nächstgelegenen geeigneten Ort zu erreichen, und verbrennt dabei alle Materialien, die es durchquert."
+      es: "Si no se contiene en un entorno que al menos superficialmente se asemeje a un «cruce de caminos», SCP-023 atravesará las paredes para llegar al lugar adecuado más cercano, incinerando todos los materiales que atraviesa."
+      fr: "S'il n'est pas confiné dans un environnement ressemblant au moins superficiellement à un « carrefour », le SCP-023 traversera les murs pour atteindre l'endroit approprié le plus proche, incinérant tous les matériaux qu'il traverse."
+      it: "Se non viene contenuto in un ambiente che assomigli almeno superficialmente a un «incrocio», SCP-023 attraverserà le pareti per raggiungere il luogo adatto più vicino, incenerendo tutti i materiali che attraversa."
+      ko: "적어도 표면적으로 '교차로'와 유사한 환경에 수용되지 않으면, SCP-023은 가장 가까운 적합한 장소에 도달하기 위해 벽을 통과하며, 지나간 모든 물질을 소각한다."
+      pl: "Jeśli SCP-023 nie jest przetrzymywane w otoczeniu przynajmniej powierzchownie przypominającym „rozstaje dróg“, przeniknie przez ściany, aby dotrzeć do najbliższego odpowiedniego miejsca, spopielając wszystkie materiały, przez które przechodzi."
+      pt: "Se não for contido em um ambiente que ao menos superficialmente se assemelhe a uma «encruzilhada», o SCP-023 atravessará as paredes para chegar ao local adequado mais próximo, incinerando todos os materiais pelos quais passa."
+      th: "หากไม่ได้ถูกกักกันไว้ในสภาพแวดล้อมที่อย่างน้อยก็ดูคล้าย 'ทางแยก' SCP-023 จะทะลุผ่านผนังเพื่อไปยังสถานที่ที่เหมาะสมที่ใกล้ที่สุด โดยเผาไหม้วัสดุทุกอย่างที่มันผ่าน"
+      uk: "Якщо SCP-023 не утримується в середовищі, яке принаймні зовні нагадує «перехрестя», воно проходить крізь стіни, щоб дістатися до найближчого придатного місця, спалюючи всі матеріали, крізь які проходить."
+      vi: "Nếu không được giam giữ trong một môi trường ít nhất là trông giống 'ngã tư', SCP-023 sẽ xuyên qua các bức tường để đến địa điểm phù hợp gần nhất, thiêu rụi mọi vật liệu mà nó đi qua."
+      zh: "若未收容于至少在表面上类似「十字路口」的环境中，SCP-023会穿墙而过，前往最近的合适地点，并烧尽一切经过的物质。"
+      zh_Hant: "若未收容於至少在表面上類似「十字路口」的環境中，SCP-023會穿牆而過，前往最近的合適地點，並燒盡一切經過的物質。"

@@ -1,0 +1,149 @@
+# SCP-020 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。感染住民の死などのグロは扱わず、収容運用と生態に寄せる。
+
+id: scp-020
+
+title:
+  ja: "SCP-020：見えざるカビ"
+  en: "SCP-020: Unseen Mold"
+  cs: "SCP-020: Neviditelná plíseň"
+  de: "SCP-020: Der unsichtbare Schimmel"
+  es: "SCP-020: Moho invisible"
+  fr: "SCP-020 : La moisissure invisible"
+  it: "SCP-020: La muffa invisibile"
+  ko: "SCP-020: 보이지 않는 곰팡이"
+  pl: "SCP-020: Niewidzialna pleśń"
+  pt: "SCP-020: Bolor invisível"
+  th: "SCP-020: เชื้อราที่มองไม่เห็น"
+  uk: "SCP-020: Невидима цвіль"
+  vi: "SCP-020: Nấm mốc vô hình"
+  zh: "SCP-020：不可见的霉菌"
+  zh_Hant: "SCP-020：不可見的黴菌"
+
+attribution:
+  article: "SCP-020"
+  author: "Aelanna"
+  source_url: "http://scp-wiki.wikidot.com/scp-020"
+  license: "CC BY-SA 3.0"
+
+object_class: Keter
+
+local_characters:
+  scp-020:
+    name: SCP-020
+    appearance: >
+      SCP-020, a fast-spreading mold that is invisible to people standing
+      in the room but shows up plainly on camera footage as dark, blotchy,
+      fuzzy growth (color RGB 45,55,45) creeping across walls, ceilings
+      and furniture. In every panel it should be drawn visible to the
+      reader as dark furry patches, while the human characters behave as
+      if they cannot see it.
+    default_look: >
+      Spreading in dark furry patches out from the corners of a room.
+
+characters: [attending-researcher-m, attending-researcher-f, scp-020]
+
+panels:
+  - scene: >
+      Wide establishing shot from a high angle, looking down at Biological
+      Research Area-12: a heavy airlock door, and beyond a window a sealed
+      containment room holding a row of sealed cultivation chambers on a
+      bench, tended by automated robotic feeder arms. At the airlock
+      controls stand Attending Researcher (Male) and Attending Researcher
+      (Female) in full Biosafety Level 5 suits: fully sealed one-piece
+      suits with hoods, clear face visors and rebreather units, gloves
+      and boots, no bare skin visible.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "SCP-020の検体は、エアロックを介してのみ立ち入り可能な生物学研究エリア-12の密閉収容室内に置かれた、一連の密閉培養チェンバーに保管される。培養チェンバーは常に密閉されていなければならないため、栄養素は自動ロボットシステムによって供給される。"
+      en: "Samples of SCP-020 are stored in a series of sealed cultivation chambers inside a sealed containment room at Biological Research Area-12 which is accessible only via airlock. Nutrients are administered via automated robotic systems, as the cultivation chamber must remain sealed at all times."
+      cs: "Vzorky SCP-020 jsou uchovávány v sérii uzavřených kultivačních komor uvnitř uzavřené kontejnmentové místnosti v Oblasti biologického výzkumu 12, do níž je přístup pouze přes vzduchovou komoru. Živiny jsou dodávány automatickými robotickými systémy, neboť kultivační komora musí zůstat neustále uzavřená."
+      de: "Proben von SCP-020 werden in einer Reihe abgedichteter Zuchtkammern innerhalb eines abgedichteten Containmentraums im Biologischen Forschungsbereich-12 aufbewahrt, der nur über eine Luftschleuse zugänglich ist. Nährstoffe werden über automatische Robotersysteme zugeführt, da die Zuchtkammer jederzeit versiegelt bleiben muss."
+      es: "Las muestras de SCP-020 se almacenan en una serie de cámaras de cultivo selladas dentro de una sala de contención sellada en el Área de Investigación Biológica-12, accesible únicamente mediante esclusa de aire. Los nutrientes se administran mediante sistemas robóticos automatizados, ya que la cámara de cultivo debe permanecer sellada en todo momento."
+      fr: "Les échantillons de SCP-020 sont conservés dans une série de chambres de culture scellées à l'intérieur d'une salle de confinement scellée de la Zone de Recherche Biologique-12, accessible uniquement par sas. Les nutriments sont administrés par des systèmes robotisés automatisés, la chambre de culture devant rester scellée en permanence."
+      it: "I campioni di SCP-020 sono conservati in una serie di camere di coltura sigillate all'interno di una stanza di contenimento sigillata presso l'Area di Ricerca Biologica-12, accessibile solo tramite camera di equilibrio. I nutrienti vengono somministrati mediante sistemi robotici automatizzati, poiché la camera di coltura deve rimanere sigillata in ogni momento."
+      ko: "SCP-020 표본은 에어록을 통해서만 출입할 수 있는 생물학 연구 구역-12의 밀폐 격리실 내부에 있는 일련의 밀폐 배양 챔버에 보관한다. 배양 챔버는 항상 밀폐되어 있어야 하므로 영양분은 자동 로봇 시스템으로 공급된다."
+      pl: "Próbki SCP-020 są przechowywane w serii szczelnych komór hodowlanych wewnątrz szczelnego pomieszczenia kontencyjnego w Obszarze Badań Biologicznych 12, dostępnego wyłącznie przez śluzę powietrzną. Substancje odżywcze są podawane za pomocą zautomatyzowanych systemów robotycznych, ponieważ komora hodowlana musi przez cały czas pozostawać szczelnie zamknięta."
+      pt: "As amostras de SCP-020 são armazenadas em uma série de câmaras de cultivo vedadas dentro de uma sala de contenção vedada na Área de Pesquisa Biológica-12, acessível somente por eclusa de ar. Os nutrientes são administrados por sistemas robóticos automatizados, pois a câmara de cultivo deve permanecer vedada o tempo todo."
+      th: "ตัวอย่างของ SCP-020 ถูกเก็บไว้ในชุดห้องเพาะเลี้ยงแบบปิดผนึกภายในห้องกักกันแบบปิดผนึกที่พื้นที่วิจัยชีววิทยา-12 ซึ่งเข้าถึงได้ผ่านแอร์ล็อกเท่านั้น สารอาหารถูกจ่ายผ่านระบบหุ่นยนต์อัตโนมัติ เนื่องจากห้องเพาะเลี้ยงต้องปิดผนึกตลอดเวลา"
+      uk: "Зразки SCP-020 зберігаються в серії герметичних культиваційних камер усередині герметичної кімнати утримання в Зоні біологічних досліджень-12, доступ до якої можливий лише через шлюз. Поживні речовини подаються автоматичними роботизованими системами, оскільки культиваційна камера має залишатися герметичною постійно."
+      vi: "Các mẫu SCP-020 được lưu trữ trong một loạt buồng nuôi cấy kín bên trong một phòng lưu giữ kín tại Khu Nghiên cứu Sinh học 12, chỉ có thể vào bằng cửa điều áp. Chất dinh dưỡng được cấp qua các hệ thống robot tự động, vì buồng nuôi cấy phải luôn được niêm kín."
+      zh: "SCP-020样本存放于生物研究区-12一间密封收容室内的一系列密封培养舱中，该收容室仅可通过气闸进入。由于培养舱必须始终保持密封，营养物质通过自动机械系统供给。"
+      zh_Hant: "SCP-020樣本存放於生物研究區-12一間密封收容室內的一系列密封培養艙中，該收容室僅可透過氣閘進入。由於培養艙必須始終保持密封，營養物質透過自動機械系統供給。"
+
+  - scene: >
+      Low-angle shot looking up. Attending Researcher (Male), in a full
+      Biosafety Level 5 suit with sealed hood, visor and rebreather,
+      stands on a stepladder in the corner of the containment room,
+      wiping and inspecting a small hermetically sealed dome surveillance
+      camera mounted high on the wall.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "収容室内には気密封止された監視カメラが設置されており、毎日、破損がないか点検されなければならない。収容室に立ち入る職員は、リブリーザーを含むバイオセーフティレベル5の装備を着用し、退出時には完全な抗真菌消毒を受けなければならない。"
+      en: "Hermetically sealed video surveillance cameras are installed within the containment room, and must be checked daily for integrity. Any personnel entering the containment room must wear Biosafety Level 5 equipment including rebreathers and undergo full anti-fungal disinfection upon exiting."
+      cs: "V kontejnmentové místnosti jsou instalovány hermeticky uzavřené kamery videodohledu, jejichž neporušenost se musí denně kontrolovat. Veškerý personál vstupující do kontejnmentové místnosti musí nosit vybavení biologické bezpečnosti úrovně 5 včetně dýchacích přístrojů a při odchodu podstoupit úplnou antimykotickou dezinfekci."
+      de: "Im Containmentraum sind hermetisch abgedichtete Videoüberwachungskameras installiert, deren Unversehrtheit täglich zu prüfen ist. Jegliches Personal, das den Containmentraum betritt, muss Ausrüstung der Biosicherheitsstufe 5 einschließlich Kreislaufatemgeräten tragen und sich beim Verlassen einer vollständigen antifungalen Desinfektion unterziehen."
+      es: "Dentro de la sala de contención hay instaladas cámaras de videovigilancia herméticamente selladas, cuya integridad debe comprobarse a diario. Todo el personal que entre en la sala de contención debe llevar equipo de Nivel de Bioseguridad 5, incluidos rebreathers, y someterse a una desinfección antifúngica completa al salir."
+      fr: "Des caméras de vidéosurveillance hermétiquement scellées sont installées dans la salle de confinement et leur intégrité doit être vérifiée quotidiennement. Tout membre du personnel entrant dans la salle de confinement doit porter un équipement de Niveau de Biosécurité 5, y compris des recycleurs respiratoires, et subir une désinfection antifongique complète à la sortie."
+      it: "All'interno della stanza di contenimento sono installate telecamere di videosorveglianza ermeticamente sigillate, la cui integrità deve essere verificata quotidianamente. Qualsiasi membro del personale che entri nella stanza di contenimento deve indossare equipaggiamento di Livello di Biosicurezza 5, compresi respiratori a circuito chiuso, e sottoporsi a una completa disinfezione antifungina all'uscita."
+      ko: "격리실 내부에는 기밀 밀봉된 영상 감시 카메라가 설치되어 있으며, 매일 손상 여부를 점검해야 한다. 격리실에 들어가는 모든 인원은 리브리더를 포함한 생물안전 5등급 장비를 착용해야 하며, 나올 때 완전한 항진균 소독을 받아야 한다."
+      pl: "W pomieszczeniu kontencyjnym zainstalowano hermetycznie zamknięte kamery monitoringu wideo, których szczelność należy sprawdzać codziennie. Każdy pracownik wchodzący do pomieszczenia kontencyjnego musi nosić sprzęt Poziomu Bezpieczeństwa Biologicznego 5, w tym aparaty regeneracyjne, oraz przy wyjściu przejść pełną dezynfekcję przeciwgrzybiczą."
+      pt: "Dentro da sala de contenção estão instaladas câmeras de videovigilância hermeticamente vedadas, cuja integridade deve ser verificada diariamente. Qualquer pessoa que entre na sala de contenção deve usar equipamento de Nível de Biossegurança 5, incluindo rebreathers, e passar por uma desinfecção antifúngica completa ao sair."
+      th: "ภายในห้องกักกันมีการติดตั้งกล้องวิดีโอวงจรปิดแบบผนึกสนิท ซึ่งต้องตรวจสอบความสมบูรณ์ทุกวัน เจ้าหน้าที่ที่เข้าห้องกักกันต้องสวมอุปกรณ์ความปลอดภัยทางชีวภาพระดับ 5 รวมถึงเครื่องช่วยหายใจแบบรีบรีเทอร์ และต้องผ่านการฆ่าเชื้อราอย่างสมบูรณ์เมื่อออก"
+      uk: "У кімнаті утримання встановлено герметично закриті камери відеоспостереження, цілісність яких потрібно перевіряти щодня. Будь-який персонал, що входить до кімнати утримання, має носити спорядження біологічної безпеки рівня 5, зокрема регенеративні дихальні апарати, і при виході проходити повну протигрибкову дезінфекцію."
+      vi: "Bên trong phòng lưu giữ có lắp các camera giám sát được niêm kín khí, phải kiểm tra tính toàn vẹn hằng ngày. Mọi nhân viên vào phòng lưu giữ phải mặc trang bị An toàn Sinh học Cấp 5 bao gồm mặt nạ tuần hoàn khí, và phải khử trùng chống nấm toàn diện khi ra ngoài."
+      zh: "收容室内装有密封的视频监控摄像头，须每日检查其完好性。进入收容室的任何人员必须穿戴包括循环呼吸器在内的五级生物安全装备，并在离开时接受彻底的抗真菌消毒。"
+      zh_Hant: "收容室內裝有密封的視訊監控攝影機，須每日檢查其完好性。進入收容室的任何人員必須穿戴包括循環呼吸器在內的五級生物安全裝備，並在離開時接受徹底的抗真菌消毒。"
+
+  - scene: >
+      Medium shot, waist-up. On the left side of the frame, Attending
+      Researcher (Female), out of her suit now, stands close to a clean,
+      blank concrete wall, peering at it and seeing nothing. On the right
+      side of the frame, a wall-mounted CCTV monitor shows that exact
+      same stretch of wall crawling with dark blotchy mold (SCP-020).
+    characters: [attending-researcher-f, scp-020]
+    caption:
+      ja: "SCP-020は急速に広がる真菌生物であり、人間を含む生物の感覚や行動に影響を及ぼすことができる。SCP-020は、写真または映像による監視を通して見たときにのみ、人間の目に見える。"
+      en: "SCP-020 is a fast-spreading fungal organism that is capable of affecting the senses and behavior of living creatures, including humans. SCP-020 is only visible to humans when viewed through photographic or video surveillance."
+      cs: "SCP-020 je rychle se šířící houbový organismus, který dokáže ovlivňovat smysly a chování živých tvorů včetně lidí. SCP-020 je pro člověka viditelný pouze při pozorování prostřednictvím fotografického nebo videodohledu."
+      de: "SCP-020 ist ein sich schnell ausbreitender Pilzorganismus, der die Sinne und das Verhalten von Lebewesen, einschließlich Menschen, beeinflussen kann. SCP-020 ist für Menschen nur sichtbar, wenn es über fotografische oder Videoüberwachung betrachtet wird."
+      es: "SCP-020 es un organismo fúngico de propagación rápida capaz de afectar los sentidos y el comportamiento de las criaturas vivas, incluidos los humanos. SCP-020 solo es visible para los humanos cuando se observa a través de vigilancia fotográfica o de vídeo."
+      fr: "SCP-020 est un organisme fongique à propagation rapide capable d'affecter les sens et le comportement des êtres vivants, y compris les humains. SCP-020 n'est visible pour les humains que lorsqu'il est observé au moyen d'une surveillance photographique ou vidéo."
+      it: "SCP-020 è un organismo fungino a rapida diffusione in grado di influenzare i sensi e il comportamento delle creature viventi, esseri umani compresi. SCP-020 è visibile agli esseri umani solo quando viene osservato tramite sorveglianza fotografica o video."
+      ko: "SCP-020은 빠르게 확산되는 진균 생물로, 인간을 포함한 생물의 감각과 행동에 영향을 줄 수 있다. SCP-020은 사진 또는 영상 감시를 통해 볼 때에만 인간의 눈에 보인다."
+      pl: "SCP-020 to szybko rozprzestrzeniający się organizm grzybowy zdolny wpływać na zmysły i zachowanie żywych istot, w tym ludzi. SCP-020 jest widoczny dla ludzi wyłącznie wtedy, gdy jest obserwowany za pośrednictwem monitoringu fotograficznego lub wideo."
+      pt: "SCP-020 é um organismo fúngico de rápida propagação capaz de afetar os sentidos e o comportamento de criaturas vivas, incluindo humanos. SCP-020 só é visível para os humanos quando observado por meio de vigilância fotográfica ou de vídeo."
+      th: "SCP-020 เป็นสิ่งมีชีวิตประเภทเชื้อราที่แพร่กระจายอย่างรวดเร็ว สามารถส่งผลต่อประสาทสัมผัสและพฤติกรรมของสิ่งมีชีวิต รวมถึงมนุษย์ SCP-020 จะมองเห็นได้โดยมนุษย์ก็ต่อเมื่อดูผ่านการเฝ้าระวังด้วยภาพถ่ายหรือวิดีโอเท่านั้น"
+      uk: "SCP-020 — це швидко поширюваний грибковий організм, здатний впливати на чуття та поведінку живих істот, зокрема людей. SCP-020 видимий для людей лише тоді, коли його розглядають через фото- або відеоспостереження."
+      vi: "SCP-020 là một sinh vật nấm lây lan nhanh, có khả năng tác động đến giác quan và hành vi của các sinh vật sống, kể cả con người. SCP-020 chỉ hiện ra với con người khi được nhìn qua thiết bị giám sát ảnh hoặc video."
+      zh: "SCP-020是一种快速蔓延的真菌生物，能够影响包括人类在内的生物的感官和行为。SCP-020只有在通过照相或视频监控观察时，才对人类可见。"
+      zh_Hant: "SCP-020是一種快速蔓延的真菌生物，能夠影響包括人類在內的生物的感官和行為。SCP-020只有在透過照相或視訊監控觀察時，才對人類可見。"
+
+  - scene: >
+      Wide shot, eye level, a humid domestic living room with fogged-up
+      windows, a thermostat dial on the wall turned all the way up, and
+      tea things laid out for visitors. On the left side of the frame,
+      Attending Researcher (Female) in a Biosafety Level 5 suit points a
+      handheld video camera at the wall; its flip-out screen shows the
+      wall crawling with dark mold. On the right side of the frame,
+      Attending Researcher (Male) in a matching suit reaches up to turn
+      the thermostat back down. Dark furry SCP-020 patches are visible to
+      the reader thick across the ceiling corners.
+    characters: [attending-researcher-f, attending-researcher-m, scp-020]
+    caption:
+      ja: "SCP-020は、通常は人間の住居内でコロニーを形成すると、周囲の人間の行動に影響を及ぼす胞子を産生する。影響を受けた被験者は、SCP-020の成長により適した環境を作るために、自宅の温度と湿度を上げる。"
+      en: "Once SCP-020 forms a colony, usually within a human residence, it will produce spores that affect the behavior of humans around it. Affected subjects will increase the heat and humidity within their homes to create an environment more suitable to the growth of SCP-020."
+      cs: "Jakmile SCP-020 vytvoří kolonii, obvykle v lidském obydlí, začne produkovat spory, které ovlivňují chování lidí v okolí. Zasažené osoby zvyšují ve svých domovech teplotu a vlhkost, aby vytvořily prostředí vhodnější pro růst SCP-020."
+      de: "Sobald SCP-020 eine Kolonie bildet, meist innerhalb einer menschlichen Wohnung, produziert es Sporen, die das Verhalten der umgebenden Menschen beeinflussen. Betroffene Personen erhöhen Wärme und Luftfeuchtigkeit in ihren Wohnungen, um eine für das Wachstum von SCP-020 günstigere Umgebung zu schaffen."
+      es: "Una vez que SCP-020 forma una colonia, normalmente dentro de una vivienda humana, produce esporas que afectan el comportamiento de las personas a su alrededor. Los sujetos afectados aumentan el calor y la humedad de sus hogares para crear un entorno más propicio para el crecimiento de SCP-020."
+      fr: "Une fois que SCP-020 forme une colonie, généralement à l'intérieur d'une habitation humaine, il produit des spores qui affectent le comportement des humains alentour. Les sujets affectés augmentent la chaleur et l'humidité de leur logement afin de créer un environnement plus propice à la croissance de SCP-020."
+      it: "Una volta che SCP-020 forma una colonia, di solito all'interno di un'abitazione umana, produce spore che influenzano il comportamento delle persone circostanti. I soggetti colpiti aumentano il calore e l'umidità nelle proprie case per creare un ambiente più adatto alla crescita di SCP-020."
+      ko: "SCP-020은 보통 인간의 거주지 안에서 군집을 형성하면, 주변 사람들의 행동에 영향을 주는 포자를 만들어 낸다. 영향을 받은 대상자는 SCP-020의 성장에 더 적합한 환경을 만들기 위해 집 안의 온도와 습도를 높인다."
+      pl: "Gdy SCP-020 utworzy kolonię, zazwyczaj wewnątrz ludzkiego mieszkania, zaczyna wytwarzać zarodniki wpływające na zachowanie okolicznych ludzi. Osoby dotknięte podnoszą temperaturę i wilgotność w swoich domach, aby stworzyć środowisko bardziej sprzyjające wzrostowi SCP-020."
+      pt: "Uma vez que o SCP-020 forma uma colônia, geralmente dentro de uma residência humana, ele produz esporos que afetam o comportamento das pessoas ao seu redor. Os sujeitos afetados aumentam o calor e a umidade em suas casas para criar um ambiente mais adequado ao crescimento do SCP-020."
+      th: "เมื่อ SCP-020 ก่อตัวเป็นอาณานิคม ซึ่งมักอยู่ภายในที่อยู่อาศัยของมนุษย์ มันจะสร้างสปอร์ที่ส่งผลต่อพฤติกรรมของมนุษย์รอบข้าง ผู้ที่ได้รับผลกระทบจะเพิ่มความร้อนและความชื้นภายในบ้านเพื่อสร้างสภาพแวดล้อมที่เหมาะกับการเติบโตของ SCP-020 มากขึ้น"
+      uk: "Щойно SCP-020 утворює колонію, зазвичай усередині людського житла, він починає виробляти спори, які впливають на поведінку людей довкола. Уражені особи підвищують температуру та вологість у своїх домівках, аби створити середовище, сприятливіше для росту SCP-020."
+      vi: "Khi SCP-020 hình thành một quần thể, thường là bên trong nơi ở của con người, nó sẽ sản sinh bào tử ảnh hưởng đến hành vi của những người xung quanh. Các đối tượng bị ảnh hưởng sẽ tăng nhiệt độ và độ ẩm trong nhà để tạo môi trường thích hợp hơn cho sự phát triển của SCP-020."
+      zh: "一旦SCP-020形成菌落（通常在人类住宅内），它就会产生影响周围人类行为的孢子。受影响的对象会提高住宅内的温度和湿度，以营造更适合SCP-020生长的环境。"
+      zh_Hant: "一旦SCP-020形成菌落（通常在人類住宅內），它就會產生影響周圍人類行為的孢子。受影響的對象會提高住宅內的溫度和濕度，以營造更適合SCP-020生長的環境。"

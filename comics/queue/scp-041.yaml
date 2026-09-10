@@ -1,0 +1,177 @@
+# SCP-041 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 補遺は使わない。キャラにセリフは言わせない。
+
+id: scp-041
+
+title:
+  en: "SCP-041"
+  ja: "SCP-041"
+  cs: "SCP-041"
+  de: "SCP-041"
+  es: "SCP-041"
+  fr: "SCP-041"
+  it: "SCP-041"
+  ko: "SCP-041"
+  pl: "SCP-041"
+  pt: "SCP-041"
+  th: "SCP-041"
+  uk: "SCP-041"
+  vi: "SCP-041"
+  zh: "SCP-041"
+  zh_Hant: "SCP-041"
+
+attribution:
+  article: "SCP-041"
+  author: "FritzWillie"
+  source_url: "http://scp-wiki.wikidot.com/scp-041"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-041:
+    name: SCP-041
+    appearance: >
+      SCP-041, a gaunt middle-aged man with a thin, wasted build and
+      sunken cheeks, sallow pale skin (color RGB 205,195,180), short
+      unkempt graying dark hair, eyes half-open but completely unfocused
+      and vacant.
+    default_look: >
+      A pale hospital gown, lying flat and motionless on a raised
+      hospital bed. A clear respirator mask over his nose and mouth, a
+      thin naso-gastric tube taped to one cheek, ECG leads on his chest,
+      an IV line in one arm. Expression blank and slack.
+
+characters: [scp-041, attending-researcher-f, d-class]
+
+panels:
+  - scene: >
+      Wide establishing shot, eye level, of a quiet single hospital room
+      in a research facility. SCP-041 lies in the center on a raised
+      hospital bed, surrounded by life-support equipment: a ventilator
+      unit, a cardiac monitor, an IV stand and a feeding pump. Soft
+      even lighting, pale walls, no one else in the room.
+    characters: [scp-041]
+    notes: >
+      根拠: Description「SCP-041 is a male human with severe neurological
+      damage from bacterial meningitis ... requires a respirator to
+      sustain his breathing, a biventricular pacemaker to keep his heart
+      beating, and a naso-gastric tube.」
+      変えてはいけない事実: 生命維持装置に完全依存した男性であること。
+      変更可能: 部屋の構図、機材の配置。
+    caption:
+      ja: "SCP-041は、細菌性髄膜炎の結果として重度の神経学的損傷を負った成人男性である。呼吸を維持するための人工呼吸器、心臓を拍動させ続けるための両心室ペースメーカー、および経鼻胃管を必要とする。"
+      en: "SCP-041 is a male human who suffered severe neurological damage as a result of bacterial meningitis. He requires a respirator to sustain his breathing, a biventricular pacemaker to keep his heart beating, and a naso-gastric tube."
+      cs: "SCP-041 je dospělý muž, který utrpěl vážné neurologické poškození v důsledku bakteriální meningitidy. Vyžaduje dýchací přístroj k udržení dýchání, biventrikulární kardiostimulátor, aby mu bilo srdce, a nasogastrickou sondu."
+      de: "SCP-041 ist ein erwachsener Mann, der infolge einer bakteriellen Meningitis schwere neurologische Schäden erlitt. Er benötigt ein Beatmungsgerät, um seine Atmung aufrechtzuerhalten, einen biventrikulären Herzschrittmacher, damit sein Herz weiterschlägt, und eine Nasen-Magen-Sonde."
+      es: "SCP-041 es un varón humano que sufrió graves daños neurológicos a causa de una meningitis bacteriana. Necesita un respirador para mantener la respiración, un marcapasos biventricular para que su corazón siga latiendo y una sonda nasogástrica."
+      fr: "SCP-041 est un homme adulte qui a subi de graves lésions neurologiques à la suite d'une méningite bactérienne. Il a besoin d'un respirateur pour maintenir sa respiration, d'un stimulateur cardiaque biventriculaire pour que son cœur continue de battre, et d'une sonde naso-gastrique."
+      it: "SCP-041 è un uomo adulto che ha subito gravi danni neurologici a seguito di una meningite batterica. Necessita di un respiratore per sostenere la respirazione, di un pacemaker biventricolare per mantenere il battito cardiaco e di un sondino naso-gastrico."
+      ko: "SCP-041은 세균성 수막염으로 인해 심각한 신경학적 손상을 입은 성인 남성이다. 호흡을 유지하기 위한 인공호흡기, 심장을 계속 뛰게 하기 위한 양심실 심박조율기, 그리고 비위관을 필요로 한다."
+      pl: "SCP-041 to dorosły mężczyzna, który doznał poważnych uszkodzeń neurologicznych w wyniku bakteryjnego zapalenia opon mózgowych. Wymaga respiratora do podtrzymania oddychania, dwukomorowego rozrusznika serca, aby jego serce biło, oraz zgłębnika nosowo-żołądkowego."
+      pt: "SCP-041 é um homem adulto que sofreu graves danos neurológicos em consequência de uma meningite bacteriana. Ele necessita de um respirador para manter a respiração, de um marca-passo biventricular para manter o coração batendo e de uma sonda nasogástrica."
+      th: "SCP-041 เป็นชายที่ได้รับความเสียหายทางระบบประสาทอย่างรุนแรงอันเป็นผลจากเยื่อหุ้มสมองอักเสบจากแบคทีเรีย เขาต้องใช้เครื่องช่วยหายใจเพื่อประคองการหายใจ เครื่องกระตุ้นหัวใจแบบสองห้องล่างเพื่อให้หัวใจเต้นต่อไป และสายให้อาหารทางจมูกถึงกระเพาะ"
+      uk: "SCP-041 — доросла людина чоловічої статі, яка зазнала тяжкого неврологічного ушкодження внаслідок бактеріального менінгіту. Він потребує апарата штучної вентиляції легень для підтримання дихання, двошлуночкового кардіостимулятора, щоб серце продовжувало битися, і назогастрального зонда."
+      vi: "SCP-041 là một người đàn ông trưởng thành đã bị tổn thương thần kinh nghiêm trọng do viêm màng não do vi khuẩn. Anh ta cần một máy thở để duy trì hô hấp, một máy tạo nhịp tim hai buồng thất để tim tiếp tục đập, và một ống thông mũi - dạ dày."
+      zh: "SCP-041是一名因细菌性脑膜炎而遭受严重神经损伤的成年男性。他需要呼吸机来维持呼吸，需要双心室起搏器来维持心跳，还需要一根鼻胃管。"
+      zh_Hant: "SCP-041是一名因細菌性腦膜炎而遭受嚴重神經損傷的成年男性。他需要呼吸機來維持呼吸，需要雙心室起搏器來維持心跳，還需要一根鼻胃管。"
+
+  - scene: >
+      Medium shot, waist-up. On the left side of the frame, Attending
+      Researcher (Female) stands just inside the doorway, pressing her
+      fingertips to her temple and grimacing as if hearing something
+      unwanted. On the right side of the frame, SCP-041 lies unmoving in
+      his bed. Between them, faint translucent floating images hang in
+      the air like soap bubbles: little pictures of random scenes, no
+      words or letters anywhere.
+    characters: [attending-researcher-f, scp-041]
+    notes: >
+      根拠: Description「Though appearing catatonic, SCP-041 possesses
+      telepathic abilities. Within approximately 10 meters, thoughts,
+      along with everyone else's, are broadcast in a semi-audible
+      fashion.」
+      変えてはいけない事実: 昏睡状態に見えること、半可聴のテレパシー放送、
+      約10m圏内。
+      変更可能: 思念の視覚化方法（文字は不可）、研究者の反応。
+    caption:
+      ja: "昏睡状態に見えるものの、SCP-041はテレパシー能力を有している。約10メートル以内では、彼の思考が、他の全員の思考とともに、半ば聞こえる形で放送される。"
+      en: "Though he appears catatonic, SCP-041 possesses telepathic abilities. Within approximately 10 meters, his thoughts, along with everyone else's, are broadcast in a semi-audible fashion."
+      cs: "Ačkoli se zdá být v katatonickém stavu, SCP-041 disponuje telepatickými schopnostmi. Do vzdálenosti přibližně 10 metrů jsou jeho myšlenky, spolu s myšlenkami všech ostatních, vysílány polohlasně slyšitelným způsobem."
+      de: "Obwohl er katatonisch wirkt, verfügt SCP-041 über telepathische Fähigkeiten. Innerhalb von etwa 10 Metern werden seine Gedanken, zusammen mit denen aller anderen, auf halb hörbare Weise ausgestrahlt."
+      es: "Aunque parece catatónico, SCP-041 posee capacidades telepáticas. Dentro de un radio de aproximadamente 10 metros, sus pensamientos, junto con los de todos los demás, se emiten de forma semiaudible."
+      fr: "Bien qu'il paraisse catatonique, SCP-041 possède des capacités télépathiques. Dans un rayon d'environ 10 mètres, ses pensées, ainsi que celles de tous les autres, sont diffusées de manière semi-audible."
+      it: "Sebbene appaia catatonico, SCP-041 possiede capacità telepatiche. Entro circa 10 metri, i suoi pensieri, insieme a quelli di tutti gli altri, vengono trasmessi in modo semi-udibile."
+      ko: "혼수상태로 보이지만, SCP-041은 텔레파시 능력을 지니고 있다. 약 10미터 이내에서는 그의 생각이 다른 모든 사람의 생각과 함께 어렴풋이 들리는 형태로 방송된다."
+      pl: "Choć sprawia wrażenie katatonicznego, SCP-041 posiada zdolności telepatyczne. W promieniu około 10 metrów jego myśli, wraz z myślami wszystkich pozostałych, są nadawane w sposób półsłyszalny."
+      pt: "Embora pareça catatônico, SCP-041 possui capacidades telepáticas. Dentro de um raio de aproximadamente 10 metros, seus pensamentos, junto com os de todos os demais, são transmitidos de forma semiaudível."
+      th: "แม้จะดูเหมือนอยู่ในภาวะไร้การตอบสนอง แต่ SCP-041 มีความสามารถทางกระแสจิต ภายในระยะประมาณ 10 เมตร ความคิดของเขาพร้อมกับความคิดของทุกคนจะถูกเผยแพร่ออกมาในลักษณะที่พอได้ยินอยู่ราง ๆ"
+      uk: "Хоча він виглядає кататонічним, SCP-041 має телепатичні здібності. У межах приблизно 10 метрів його думки разом із думками всіх інших транслюються у напівчутний спосіб."
+      vi: "Dù trông có vẻ ở trạng thái bất động, SCP-041 sở hữu khả năng thần giao cách cảm. Trong phạm vi khoảng 10 mét, suy nghĩ của anh ta, cùng với suy nghĩ của mọi người khác, được phát ra theo cách nghe được lờ mờ."
+      zh: "尽管看似处于紧张性木僵状态，SCP-041仍具有心灵感应能力。在约10米范围内，他的思想会连同其他所有人的思想一起，以半可闻的方式播送出来。"
+      zh_Hant: "儘管看似處於緊張性木僵狀態，SCP-041仍具有心靈感應能力。在約10公尺範圍內，他的思想會連同其他所有人的思想一起，以半可聞的方式播送出來。"
+
+  - scene: >
+      Over-the-shoulder shot from behind SCP-041's bed, looking past his
+      still form toward the foot of the room. A D-Class Personnel sits
+      slouched in a chair a few meters away, facing a small wall-mounted
+      television that glows with soft indistinct light. The D-Class
+      looks bored and half-asleep. SCP-041 remains motionless in the
+      foreground.
+    characters: [scp-041, d-class]
+    notes: >
+      根拠: SC procedures「SCP-041 benefits from having a 'sitter' present
+      who watches television. This allows SCP-041 to effectively 'watch'
+      television through the mind of someone else. Class-D personnel with
+      below-average intelligence are considered optimal.」
+      変えてはいけない事実: TVを見る「お守り役」がいること、それを通じて
+      SCP-041がTVを「見る」こと、D-classが最適とされること。
+      変更可能: 部屋の構図、お守り役の姿勢。
+    caption:
+      ja: "SCP-041は、テレビを見る「お守り役」が同席していると恩恵を受ける。これによりSCP-041は、他人の心を通じて事実上テレビを「見る」ことができる。平均以下の知能を持つDクラス職員が最適とされている。"
+      en: "SCP-041 benefits from the presence of a 'sitter' who watches television, which allows SCP-041 to effectively 'watch' television through the mind of someone else. Class-D personnel of below-average intelligence are considered optimal."
+      cs: "SCP-041 má prospěch z přítomnosti hlídače, který sleduje televizi, což SCP-041 umožňuje fakticky sledovat televizi myslí někoho jiného. Za optimální je považován personál třídy D s podprůměrnou inteligencí."
+      de: "SCP-041 profitiert von der Anwesenheit eines Aufpassers, der fernsieht, wodurch SCP-041 durch den Verstand einer anderen Person praktisch fernsehen kann. Als optimal gilt Personal der Klasse D mit unterdurchschnittlicher Intelligenz."
+      es: "SCP-041 se beneficia de la presencia de un «cuidador» que ve la televisión, lo que le permite «ver» la televisión de forma efectiva a través de la mente de otra persona. Se considera óptimo el personal Clase-D con inteligencia por debajo del promedio."
+      fr: "SCP-041 bénéficie de la présence d'un « accompagnateur » qui regarde la télévision, ce qui lui permet de « regarder » effectivement la télévision à travers l'esprit d'une autre personne. Le personnel de Classe-D à l'intelligence inférieure à la moyenne est jugé optimal."
+      it: "SCP-041 trae beneficio dalla presenza di un «accompagnatore» che guarda la televisione, il che gli consente di «guardare» di fatto la televisione attraverso la mente di un'altra persona. È considerato ottimale il personale di Classe-D con intelligenza inferiore alla media."
+      ko: "SCP-041은 텔레비전을 시청하는 '돌봄 인원'이 함께 있을 때 이익을 얻으며, 이를 통해 SCP-041은 다른 사람의 정신을 매개로 사실상 텔레비전을 '시청'할 수 있다. 평균 이하의 지능을 지닌 D등급 인원이 최적으로 간주된다."
+      pl: "SCP-041 odnosi korzyść z obecności opiekuna, który ogląda telewizję, co pozwala SCP-041 faktycznie oglądać telewizję poprzez umysł innej osoby. Za optymalny uznaje się personel Klasy D o inteligencji poniżej przeciętnej."
+      pt: "SCP-041 se beneficia da presença de um \"acompanhante\" que assiste à televisão, o que permite a SCP-041 efetivamente \"assistir\" à televisão através da mente de outra pessoa. Pessoal Classe-D com inteligência abaixo da média é considerado ideal."
+      th: "SCP-041 ได้ประโยชน์จากการมี \"ผู้เฝ้าดูแล\" ที่ดูโทรทัศน์อยู่ด้วย ซึ่งทำให้ SCP-041 สามารถ \"ดู\" โทรทัศน์ได้จริงผ่านจิตใจของคนอื่น บุคลากรระดับ D ที่มีสติปัญญาต่ำกว่าค่าเฉลี่ยถือว่าเหมาะสมที่สุด"
+      uk: "SCP-041 має користь від присутності «наглядача», який дивиться телевізор, що дозволяє SCP-041 фактично «дивитися» телевізор крізь свідомість іншої людини. Оптимальним вважається персонал Класу D із рівнем інтелекту нижче середнього."
+      vi: "SCP-041 hưởng lợi từ sự hiện diện của một \"người trông coi\" xem truyền hình, điều này cho phép SCP-041 thực sự \"xem\" truyền hình thông qua tâm trí của người khác. Nhân viên Cấp-D có trí thông minh dưới mức trung bình được coi là tối ưu."
+      zh: "SCP-041受益于一名观看电视的“陪护者”在场，这使SCP-041得以借由他人的心智实际“观看”电视。智力低于平均水平的D级人员被认为最为理想。"
+      zh_Hant: "SCP-041受益於一名觀看電視的「陪護者」在場，這使SCP-041得以藉由他人的心智實際「觀看」電視。智力低於平均水準的D級人員被認為最為理想。"
+
+  - scene: >
+      Close-up on the D-Class Personnel's face and hands, holding a
+      television remote loosely, wearing a mildly puzzled, blank
+      expression. Reflected colored light from the television plays
+      across their face in bright cheerful tones. Softly out of focus in
+      the background, SCP-041 lies calm and serene in his bed. No text
+      or letters anywhere in the frame.
+    characters: [d-class, scp-041]
+    notes: >
+      根拠: SC procedures「Though not controlling minds, SCP-041 has
+      influenced sitters' viewing preferences, ranging from violent
+      films to children's programming.」オチとして使う。
+      変えてはいけない事実: 精神支配ではないこと、視聴内容の好みが左右され、
+      その幅が暴力的な映画から子供番組にまで及ぶこと。
+      変更可能: D-classの表情、画面の内容の見せ方（文字は不可）。
+    caption:
+      ja: "精神を支配しているわけではないが、SCP-041はお守り役たちの視聴の好みに影響を与えてきた。その選択は、暴力的な映画から子供向け番組にまで及ぶ。"
+      en: "Although it does not control minds, SCP-041 has influenced the viewing preferences of its sitters, with selections ranging from violent films to children's programming."
+      cs: "Ačkoli neovládá mysl, SCP-041 ovlivňoval televizní preference svých hlídačů, přičemž výběr sahal od násilných filmů po dětské pořady."
+      de: "Obwohl es keine Gedanken kontrolliert, hat SCP-041 die Sehgewohnheiten seiner Aufpasser beeinflusst, wobei die Auswahl von Gewaltfilmen bis zu Kindersendungen reichte."
+      es: "Aunque no controla las mentes, SCP-041 ha influido en las preferencias televisivas de sus cuidadores, con selecciones que van desde películas violentas hasta programación infantil."
+      fr: "Bien qu'il ne contrôle pas les esprits, SCP-041 a influencé les préférences télévisuelles de ses accompagnateurs, les choix allant des films violents aux programmes pour enfants."
+      it: "Pur non controllando le menti, SCP-041 ha influenzato le preferenze televisive dei suoi accompagnatori, con scelte che spaziano dai film violenti ai programmi per bambini."
+      ko: "정신을 지배하는 것은 아니지만, SCP-041은 돌봄 인원들의 시청 취향에 영향을 끼쳐 왔으며, 그 선택은 폭력적인 영화부터 아동용 프로그램까지 다양했다."
+      pl: "Choć nie kontroluje umysłów, SCP-041 wpływał na preferencje telewizyjne swoich opiekunów, a wybór sięgał od brutalnych filmów po programy dla dzieci."
+      pt: "Embora não controle mentes, SCP-041 tem influenciado as preferências de audiência de seus acompanhantes, com escolhas que vão de filmes violentos a programação infantil."
+      th: "แม้จะไม่ได้ควบคุมจิตใจ แต่ SCP-041 ได้มีอิทธิพลต่อรสนิยมการรับชมของผู้เฝ้าดูแล โดยรายการที่เลือกมีตั้งแต่ภาพยนตร์รุนแรงไปจนถึงรายการสำหรับเด็ก"
+      uk: "Хоча він не керує свідомістю, SCP-041 впливав на телевізійні вподобання своїх наглядачів, і вибір коливався від жорстоких фільмів до дитячих передач."
+      vi: "Mặc dù không điều khiển tâm trí, SCP-041 đã ảnh hưởng đến sở thích xem truyền hình của những người trông coi, với các lựa chọn trải dài từ phim bạo lực đến chương trình dành cho trẻ em."
+      zh: "尽管并不控制心智，SCP-041却影响了陪护者们的收视偏好，所选内容从暴力影片到儿童节目不等。"
+      zh_Hant: "儘管並不控制心智，SCP-041卻影響了陪護者們的收視偏好，所選內容從暴力影片到兒童節目不等。"

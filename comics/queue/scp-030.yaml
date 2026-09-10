@@ -1,0 +1,172 @@
+# SCP-030 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# キャラにセリフは言わせない（4コマ目のアリエルの決まり文句はcaptionの引用として
+# 扱い、吹き出しにはしない）。
+#
+# 4コマ構成: 1=体格に合わせて縮小したサイト17の人型収容室(起)、
+# 2=無毛・無性別・灰色、身長71cm、サファイア様の青い目(承)、
+# 3=15ルーメン以上の光がないと不活性化し意識を失ったように見える(転)、
+# 4=自らを「アリエル」と呼び、出自の質問には決まり文句で答える(結)。
+
+id: scp-030
+
+title:
+  en: "SCP-030"
+  ja: "SCP-030"
+  cs: "SCP-030"
+  de: "SCP-030"
+  es: "SCP-030"
+  fr: "SCP-030"
+  it: "SCP-030"
+  ko: "SCP-030"
+  pl: "SCP-030"
+  pt: "SCP-030"
+  th: "SCP-030"
+  uk: "SCP-030"
+  vi: "SCP-030"
+  zh: "SCP-030"
+  zh_Hant: "SCP-030"
+
+attribution:
+  article: "SCP-030"
+  source_url: "http://scp-wiki.wikidot.com/scp-030"
+  author: "Mulciber"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-030:
+    name: SCP-030
+    appearance: >
+      SCP-030, a small hairless humanoid figure only about 71 centimeters
+      tall, with smooth uniform grey clay-like skin (color RGB 140,140,140)
+      and a genderless, androgynous build. Its eyes are solid, pupil-less,
+      deep glossy blue like small cut sapphires (color RGB 40,70,150).
+    default_look: >
+      A simple plain tunic of undyed pale cloth, barefoot, holding a calm,
+      courteous, slightly formal posture.
+
+characters: [scp-030, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the whole small containment
+      cell furnished with a child-sized desk and chair scaled down to
+      roughly half normal height. SCP-030 sits at the tiny desk with an
+      open book. On the right side of the frame, attending-researcher-f
+      stands by the door adjusting a wall dimmer knob, warm light filling
+      the room.
+    characters: [scp-030, attending-researcher-f]
+    notes: >
+      根拠: SCP第1〜3文「サイト17の改造人型収容室に収容。体格に合わせた作業
+      スペースや椅子など、寸法を縮小した小規模な調整を含める。照明は要望により
+      最大2000ルーメンまで調整可能」。変えてはいけない事実: 小柄な体格向けに
+      家具を縮小、照明を調整できること。変更可能: 部屋の見せ方、研究者の動作。
+    caption:
+      ja: "SCP-030はサイト17の、改造された人型収容室に収容される。その体格に合わせた作業スペースや椅子など、寸法を適切に縮小した小規模な調整を施すものとする。"
+      en: "SCP-030 is to be held at Site-17 within a modified humanoid containment cell. Minor adaptations to accommodate its stature, such as an appropriately-scaled workspace and chair, are to be included."
+      cs: "SCP-030 je uchováváno v Lokalitě 17 v upravené humanoidní cele. Mají v ní být provedeny drobné úpravy zohledňující jeho vzrůst, například přiměřeně zmenšený pracovní prostor a židle."
+      de: "SCP-030 ist in Standort 17 in einer modifizierten humanoiden Containment-Zelle unterzubringen. Kleinere Anpassungen an seine Körpergröße, etwa ein entsprechend verkleinerter Arbeitsplatz und Stuhl, sind vorzusehen."
+      es: "SCP-030 debe mantenerse en el Sitio 17 dentro de una celda de contención humanoide modificada. Se incluirán pequeñas adaptaciones a su estatura, como un espacio de trabajo y una silla a escala adecuada."
+      fr: "Le SCP-030 doit être détenu au Site 17 dans une cellule de confinement humanoïde modifiée. De légères adaptations à sa taille, comme un espace de travail et une chaise à l'échelle appropriée, doivent y être prévues."
+      it: "SCP-030 deve essere custodito nel Sito 17 all'interno di una cella di contenimento umanoide modificata. Devono essere previsti piccoli adattamenti alla sua statura, come uno spazio di lavoro e una sedia in scala adeguata."
+      ko: "SCP-030은 17기지 내의 개조된 인간형 수용실에 수용한다. 그 체구에 맞춘 적절한 크기의 작업 공간과 의자 등 소소한 조정을 포함한다."
+      pl: "SCP-030 należy przetrzymywać w Ośrodku 17 w zmodyfikowanej celi humanoidalnej. Należy w niej uwzględnić drobne dostosowania do jego wzrostu, takie jak odpowiednio pomniejszone miejsce pracy i krzesło."
+      pt: "O SCP-030 deve ser mantido no Site 17 dentro de uma cela de contenção humanoide modificada. Devem ser incluídas pequenas adaptações à sua estatura, como um espaço de trabalho e uma cadeira em escala adequada."
+      th: "ต้องกักกัน SCP-030 ไว้ที่ไซต์ 17 ภายในห้องกักกันสำหรับสิ่งมีชีวิตรูปร่างมนุษย์ที่ดัดแปลงแล้ว โดยต้องมีการปรับเปลี่ยนเล็กน้อยให้เข้ากับรูปร่างของมัน เช่น พื้นที่ทำงานและเก้าอี้ที่ย่อขนาดอย่างเหมาะสม"
+      uk: "SCP-030 слід утримувати на Об'єкті 17 у модифікованій гуманоїдній камері утримання. Мають бути передбачені незначні пристосування до його зросту, як-от відповідно зменшені робоче місце та стілець."
+      vi: "SCP-030 phải được giữ tại Cơ Sở 17 trong một buồng giam dạng người đã được cải tạo. Cần có những điều chỉnh nhỏ phù hợp với vóc dáng của nó, chẳng hạn như không gian làm việc và ghế được thu nhỏ tương ứng."
+      zh: "SCP-030须收容于17号站点一间经过改造的人形收容室内。室内应作与其身形相称的小幅调整，例如按适当比例缩小的工作台和椅子。"
+      zh_Hant: "SCP-030須收容於17號站點一間經過改造的人形收容室內。室內應作與其身形相稱的小幅調整，例如按適當比例縮小的工作臺和椅子。"
+
+  - scene: >
+      Close-up, waist-up framing scaled to the small figure, a different
+      framing from the wide shot. On the left side of the frame, SCP-030
+      stands upright on a padded examination table, full body visible, calm
+      and patient. On the right side of the frame, attending-researcher-m
+      crouches to bring his face level with SCP-030, peering closely at its
+      blue sapphire-like eyes.
+    characters: [scp-030, attending-researcher-m]
+    notes: >
+      根拠: Description第1〜2文「毛髪がなく性別のない灰色がかった人間の姿。
+      身長71cm、体重12.70kg。青一色の目には虹彩・瞳孔がなく、小さくカットした
+      サファイアのよう」。変えてはいけない事実: 無毛・無性別・灰色・小柄、
+      サファイア様の青い目。変更可能: 観察の演出、画角。
+    caption:
+      ja: "SCP-030は、毛髪がなく性別のない灰色がかった人間の姿をしており、身長は71センチメートル、体重は12.70キログラムである。その青一色の目には識別できる虹彩や瞳孔がなく、小さくカットされたサファイアのように見える。"
+      en: "SCP-030 appears as a hairless, genderless, grey-toned human 71 centimeters (28 inches) in height and weighing 12.70 kilograms. Its solid blue eyes lack discernible irises or pupils, and resemble small cut sapphires."
+      cs: "SCP-030 vypadá jako bezvlasý, bezpohlavní člověk našedlého odstínu, vysoký 71 centimetrů a vážící 12,70 kilogramu. Jeho jednolitě modré oči nemají rozeznatelnou duhovku ani zornici a připomínají malé broušené safíry."
+      de: "SCP-030 erscheint als ein haarloser, geschlechtsloser, grau getönter Mensch von 71 Zentimetern Größe und 12,70 Kilogramm Gewicht. Seine durchgehend blauen Augen haben keine erkennbare Iris oder Pupille und ähneln kleinen geschliffenen Saphiren."
+      es: "SCP-030 tiene el aspecto de un ser humano sin pelo, sin sexo y de tono grisáceo, de 71 centímetros de altura y 12,70 kilogramos de peso. Sus ojos, de un azul uniforme, carecen de iris o pupilas discernibles y se asemejan a pequeños zafiros tallados."
+      fr: "Le SCP-030 apparaît comme un humain sans poils, asexué et de teinte grisâtre, mesurant 71 centimètres et pesant 12,70 kilogrammes. Ses yeux d'un bleu uni sont dépourvus d'iris ou de pupilles discernables et ressemblent à de petits saphirs taillés."
+      it: "SCP-030 ha l'aspetto di un essere umano glabro, privo di sesso e di tonalità grigiastra, alto 71 centimetri e del peso di 12,70 chilogrammi. I suoi occhi di un blu uniforme sono privi di iride o pupille distinguibili e ricordano piccoli zaffiri tagliati."
+      ko: "SCP-030은 털이 없고 성별이 없는 회색빛 인간의 모습으로, 키는 71센티미터, 무게는 12.70킬로그램이다. 균일한 파란색 눈에는 식별 가능한 홍채나 동공이 없으며, 작게 세공된 사파이어처럼 보인다."
+      pl: "SCP-030 wygląda jak pozbawiony włosów, bezpłciowy człowiek o szarawym odcieniu, mający 71 centymetrów wzrostu i ważący 12,70 kilograma. Jego jednolicie niebieskie oczy nie mają rozróżnialnej tęczówki ani źrenicy i przypominają małe szlifowane szafiry."
+      pt: "O SCP-030 tem a aparência de um ser humano sem pelos, sem sexo e de tom acinzentado, com 71 centímetros de altura e 12,70 quilogramas de peso. Seus olhos de um azul uniforme não têm íris ou pupilas discerníveis e lembram pequenas safiras lapidadas."
+      th: "SCP-030 มีลักษณะเป็นมนุษย์ไร้เส้นผม ไร้เพศ สีออกเทา สูง 71 เซนติเมตร และหนัก 12.70 กิโลกรัม ดวงตาสีน้ำเงินล้วนของมันไม่มีม่านตาหรือรูม่านตาที่แยกแยะได้ และดูคล้ายไพลินเจียระไนเม็ดเล็ก"
+      uk: "SCP-030 має вигляд безволосої, безстатевої людини сірого відтінку, 71 сантиметр заввишки і вагою 12,70 кілограма. Його суцільно сині очі не мають розрізнюваної райдужки чи зіниці й нагадують маленькі огранені сапфіри."
+      vi: "SCP-030 trông giống một con người không có lông tóc, không có giới tính, da xám, cao 71 xăng-ti-mét và nặng 12,70 ki-lô-gam. Đôi mắt xanh đặc của nó không có mống mắt hay đồng tử rõ ràng và trông giống những viên sapphire nhỏ đã được cắt gọt."
+      zh: "SCP-030呈现为一个无毛发、无性别、灰色调的人类形象，身高71厘米，体重12.70千克。其纯蓝色的眼睛没有可辨的虹膜或瞳孔，看上去像经过切割的小蓝宝石。"
+      zh_Hant: "SCP-030呈現為一個無毛髮、無性別、灰色調的人類形象，身高71公分，體重12.70公斤。其純藍色的眼睛沒有可辨的虹膜或瞳孔，看上去像經過切割的小藍寶石。"
+
+  - scene: >
+      Close-up, waist-up, dim and low-key lighting, a different framing
+      from the previous panels. On the left side of the frame, SCP-030 is
+      frozen completely still mid-gesture, one small hand half-raised, eyes
+      dull and lightless, like a switched-off statue. On the right side of
+      the frame, attending-researcher-m shakes a dead flashlight, the room
+      around them plunged into near darkness.
+    characters: [scp-030, attending-researcher-m]
+    notes: >
+      根拠: Description「15ルーメン以上の光源が1.5m以内にある限り活動を続ける。
+      光がない状態では不活性となり、意識を失ったように見え、生命の兆候を示さ
+      なくなる」。変えてはいけない事実: 光がないと動きが止まり無反応になること。
+      変更可能: 光源が消える理由、研究者の動作。
+    caption:
+      ja: "SCP-030は、15ルーメン以上の光源が1.5メートル以内にある限り活動を続ける。光がない状態では、SCP-030は不活性となり、意識を失ったように見え、生命の兆候を一切示さなくなる。"
+      en: "SCP-030 remains active while a 15-lumen source of light or greater is within 1.5 meters. In the absence of light, SCP-030 becomes inert, apparently losing consciousness and showing no outward signs of life."
+      cs: "SCP-030 zůstává aktivní, dokud je do 1,5 metru zdroj světla o síle nejméně 15 lumenů. Bez světla se SCP-030 stává nečinným, zdánlivě ztrácí vědomí a nevykazuje žádné vnější známky života."
+      de: "SCP-030 bleibt aktiv, solange sich eine Lichtquelle von mindestens 15 Lumen innerhalb von 1,5 Metern befindet. Ohne Licht wird SCP-030 inaktiv, verliert anscheinend das Bewusstsein und zeigt keinerlei äußere Lebenszeichen."
+      es: "SCP-030 permanece activo mientras haya una fuente de luz de 15 lúmenes o más a menos de 1,5 metros. En ausencia de luz, SCP-030 queda inerte, aparentemente pierde el conocimiento y no muestra ningún signo externo de vida."
+      fr: "Le SCP-030 reste actif tant qu'une source lumineuse d'au moins 15 lumens se trouve à moins de 1,5 mètre. En l'absence de lumière, le SCP-030 devient inerte, semble perdre conscience et ne présente plus aucun signe extérieur de vie."
+      it: "SCP-030 rimane attivo finché una fonte di luce di almeno 15 lumen si trova entro 1,5 metri. In assenza di luce, SCP-030 diventa inerte, apparentemente perde conoscenza e non mostra alcun segno esteriore di vita."
+      ko: "SCP-030은 15루멘 이상의 광원이 1.5미터 이내에 있는 한 계속 활동한다. 빛이 없는 상태에서 SCP-030은 비활성 상태가 되어 의식을 잃은 듯 보이며, 생명의 외적 징후를 전혀 나타내지 않는다."
+      pl: "SCP-030 pozostaje aktywne, dopóki w odległości 1,5 metra znajduje się źródło światła o mocy co najmniej 15 lumenów. W braku światła SCP-030 staje się bezwładne, pozornie traci przytomność i nie wykazuje żadnych zewnętrznych oznak życia."
+      pt: "O SCP-030 permanece ativo enquanto houver uma fonte de luz de 15 lúmens ou mais a até 1,5 metro. Na ausência de luz, o SCP-030 torna-se inerte, aparentemente perde a consciência e não apresenta nenhum sinal externo de vida."
+      th: "SCP-030 จะยังคงเคลื่อนไหวได้ตราบเท่าที่มีแหล่งกำเนิดแสงตั้งแต่ 15 ลูเมนขึ้นไปอยู่ภายในระยะ 1.5 เมตร ในภาวะที่ไม่มีแสง SCP-030 จะกลายเป็นไม่เคลื่อนไหว ดูเหมือนหมดสติ และไม่แสดงสัญญาณของชีวิตภายนอกใด ๆ"
+      uk: "SCP-030 лишається активним, доки в межах 1,5 метра є джерело світла потужністю щонайменше 15 люменів. За відсутності світла SCP-030 стає нерухомим, вочевидь втрачає свідомість і не виявляє жодних зовнішніх ознак життя."
+      vi: "SCP-030 vẫn hoạt động chừng nào còn có một nguồn sáng từ 15 lumen trở lên trong phạm vi 1,5 mét. Khi không có ánh sáng, SCP-030 trở nên bất động, dường như mất ý thức và không biểu hiện dấu hiệu sống bên ngoài nào."
+      zh: "只要1.5米以内存在15流明或以上的光源，SCP-030便会持续活动。在没有光的情况下，SCP-030会陷入不活动状态，看似失去意识，且不显现任何外在的生命迹象。"
+      zh_Hant: "只要1.5公尺以內存在15流明或以上的光源，SCP-030便會持續活動。在沒有光的情況下，SCP-030會陷入不活動狀態，看似失去意識，且不顯現任何外在的生命跡象。"
+
+  - scene: >
+      Medium shot, waist-up, eye level at the small figure's height, a
+      different framing from the previous panels. On the left side of the
+      frame, attending-researcher-f leans forward pointing at a question
+      written on her notepad (illegible). On the right side of the frame,
+      SCP-030 responds with a small, apologetic bow, one hand pressed to
+      its chest, expression politely regretful.
+    characters: [attending-researcher-f, scp-030]
+    notes: >
+      根拠: Description「自らを『アリエル』と呼び職員にもそう呼ぶよう求める。
+      どう・誰に作られたのかの質問には決まって『その情報は忘れるよう言われて
+      います。誠に申し訳ありません』という判で押した一文で答える」。
+      変えてはいけない事実: 出自の質問に丁寧な決まり文句ではぐらかすこと。
+      変更可能: 質問の演出、アリエルの仕草。
+    caption:
+      ja: "SCP-030は自らを『アリエル』と呼び、職員にもそう呼ぶよう頻繁に求める。どのように、また誰によって作られたのかという質問には、決まって『その情報は忘れるよう言われております。誠に申し訳ありません』という判で押したような一文で答える。"
+      en: "SCP-030 refers to itself as 'Ariel' and regularly requests that staff do the same. Questions regarding how it was created and by whom are routinely answered with the seemingly rote statement: 'I have been asked to forget that bit of information. Terribly sorry.'"
+      cs: "SCP-030 si říká „Ariel“ a pravidelně žádá personál, aby ho tak oslovoval také. Na otázky, jak a kým bylo vytvořeno, pravidelně odpovídá zdánlivě naučenou větou: „Bylo mi řečeno, abych na tuto informaci zapomněl. Je mi to nesmírně líto.“"
+      de: "SCP-030 nennt sich selbst „Ariel“ und bittet das Personal regelmäßig, es ebenso zu nennen. Fragen dazu, wie und von wem es erschaffen wurde, beantwortet es routinemäßig mit dem scheinbar auswendig gelernten Satz: „Man hat mich gebeten, diese Information zu vergessen. Es tut mir außerordentlich leid.“"
+      es: "SCP-030 se refiere a sí mismo como «Ariel» y pide con frecuencia que el personal haga lo mismo. A las preguntas sobre cómo y por quién fue creado responde habitualmente con la frase aparentemente aprendida de memoria: «Me han pedido que olvide esa información. Lo lamento muchísimo.»"
+      fr: "Le SCP-030 se désigne lui-même sous le nom d'« Ariel » et demande régulièrement au personnel de faire de même. Aux questions sur la manière dont il a été créé et par qui, il répond systématiquement par cette phrase apparemment apprise par cœur : « On m'a demandé d'oublier cette information. Je suis terriblement désolé. »"
+      it: "SCP-030 si riferisce a sé stesso come «Ariel» e chiede regolarmente al personale di fare altrettanto. Alle domande su come e da chi sia stato creato risponde abitualmente con la frase apparentemente imparata a memoria: «Mi è stato chiesto di dimenticare quell'informazione. Mi dispiace terribilmente.»"
+      ko: "SCP-030은 자신을 '아리엘'이라 부르며 직원들에게도 그렇게 불러 달라고 자주 요청한다. 어떻게, 그리고 누구에 의해 만들어졌는지에 대한 질문에는 늘 외운 듯한 문장으로 답한다. '그 정보는 잊으라는 부탁을 받았습니다. 대단히 죄송합니다.'"
+      pl: "SCP-030 nazywa siebie „Ariel“ i regularnie prosi personel, by zwracał się do niego tak samo. Na pytania o to, jak i przez kogo zostało stworzone, odpowiada rutynowo pozornie wyuczonym zdaniem: „Poproszono mnie, bym zapomniał tę informację. Ogromnie mi przykro.“"
+      pt: "O SCP-030 refere-se a si mesmo como «Ariel» e pede regularmente que a equipe faça o mesmo. Perguntas sobre como e por quem foi criado são respondidas rotineiramente com a frase aparentemente decorada: «Pediram-me que esquecesse essa informação. Lamento imensamente.»"
+      th: "SCP-030 เรียกตัวเองว่า 'แอเรียล' และมักขอให้เจ้าหน้าที่เรียกเช่นนั้นด้วย เมื่อถูกถามว่าถูกสร้างขึ้นอย่างไรและโดยใคร มันจะตอบด้วยประโยคที่ดูเหมือนท่องจำมาเสมอว่า 'ข้าพเจ้าถูกขอให้ลืมข้อมูลส่วนนั้นไป ต้องขออภัยอย่างยิ่ง'"
+      uk: "SCP-030 називає себе «Аріель» і регулярно просить персонал звертатися до нього так само. На запитання про те, як і ким його було створено, воно незмінно відповідає, здавалося б, завченою фразою: «Мене попросили забути цю інформацію. Мені страшенно прикро.»"
+      vi: "SCP-030 tự gọi mình là 'Ariel' và thường xuyên yêu cầu nhân viên cũng gọi như vậy. Những câu hỏi về việc nó được tạo ra như thế nào và bởi ai thường được trả lời bằng câu nói có vẻ thuộc lòng: 'Tôi đã được yêu cầu quên đi thông tin đó. Vô cùng xin lỗi.'"
+      zh: "SCP-030自称「阿里尔」，并经常要求工作人员也这样称呼它。对于它是如何、由谁制造的问题，它总是以一句像是背诵好的话来回答：「有人要求我忘掉那部分信息。万分抱歉。」"
+      zh_Hant: "SCP-030自稱「阿里爾」，並經常要求工作人員也這樣稱呼它。對於它是如何、由誰製造的問題，它總是以一句像是背誦好的話來回答：「有人要求我忘掉那部分資訊。萬分抱歉。」"

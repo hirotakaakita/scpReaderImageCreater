@@ -1,0 +1,172 @@
+# SCP-045 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 補遺は使わない。キャラにセリフは言わせない。画像に文字は描かせない。
+
+id: scp-045
+
+title:
+  en: "SCP-045"
+  ja: "SCP-045"
+  cs: "SCP-045"
+  de: "SCP-045"
+  es: "SCP-045"
+  fr: "SCP-045"
+  it: "SCP-045"
+  ko: "SCP-045"
+  pl: "SCP-045"
+  pt: "SCP-045"
+  th: "SCP-045"
+  uk: "SCP-045"
+  vi: "SCP-045"
+  zh: "SCP-045"
+  zh_Hant: "SCP-045"
+
+attribution:
+  article: "SCP-045"
+  author: "Unknown Author, rewritten by Drewbear"
+  source_url: "http://scp-wiki.wikidot.com/scp-045"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+characters: [attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide establishing shot, eye level, of a deep-sea research chamber:
+      a domed hemispherical room with thick reinforced walls and viewing
+      ports showing dark ocean water outside. In the center, fixed to a
+      low circular examination platform by heavy bindings, sits a large
+      faceted crystalline solid the size of a small car. A jointed
+      robotic manipulator arm is mounted nearby. The air has a faint
+      warm glow. No people inside, no text.
+    characters: []
+    notes: >
+      根拠: SC procedures「SCP-045 is to be kept affixed to an examination
+      platform in a hemispherical chamber measuring 5 meters in radius at
+      Oceanographic Research Station 12. The chamber maintains gaseous
+      neon at equilibrium with surrounding seawater pressure. Personnel
+      interaction occurs remotely through telepresence or robotic
+      systems.」
+      変えてはいけない事実: 半球形チャンバー内の検査台に固定、深海研究施設、
+      ネオンガス充填、遠隔・ロボットのみで作業。
+      変更可能: チャンバーの構図、機材の配置。
+    caption:
+      ja: "SCP-045は、海洋研究ステーション12の、半径5メートルの半球形チャンバー内で、検査台に固定した状態で保管すること。チャンバー内は、周囲の海水圧と平衡させたネオンガスで満たす。職員による作業は、テレプレゼンスまたはロボットシステムを介して遠隔で行う。"
+      en: "SCP-045 is to be kept affixed to an examination platform in a hemispherical chamber measuring 5 meters in radius at Oceanographic Research Station 12. The chamber maintains gaseous neon at equilibrium with the surrounding seawater pressure, and personnel interaction occurs remotely through telepresence or robotic systems."
+      cs: "SCP-045 musí být uchováván připevněný ke zkušební plošině v polokulové komoře o poloměru 5 metrů v Oceánografické výzkumné stanici 12. Komora udržuje plynný neon v rovnováze s okolním tlakem mořské vody a interakce personálu probíhá dálkově prostřednictvím telepřítomnosti nebo robotických systémů."
+      de: "SCP-045 ist an einer Untersuchungsplattform in einer halbkugelförmigen Kammer mit einem Radius von 5 Metern in der Ozeanografischen Forschungsstation 12 befestigt zu halten. Die Kammer hält gasförmiges Neon im Gleichgewicht mit dem umgebenden Meerwasserdruck, und die Interaktion des Personals erfolgt fern über Telepräsenz oder robotische Systeme."
+      es: "SCP-045 debe mantenerse fijado a una plataforma de examen dentro de una cámara hemisférica de 5 metros de radio en la Estación de Investigación Oceanográfica 12. La cámara mantiene neón gaseoso en equilibrio con la presión del agua de mar circundante, y la interacción del personal se realiza de forma remota mediante telepresencia o sistemas robóticos."
+      fr: "SCP-045 doit être maintenu fixé à une plateforme d'examen dans une chambre hémisphérique de 5 mètres de rayon à la Station de recherche océanographique 12. La chambre maintient du néon gazeux en équilibre avec la pression de l'eau de mer environnante, et l'interaction du personnel se fait à distance par téléprésence ou par des systèmes robotiques."
+      it: "SCP-045 deve essere mantenuto fissato a una piattaforma d'esame all'interno di una camera emisferica di 5 metri di raggio presso la Stazione di Ricerca Oceanografica 12. La camera mantiene neon gassoso in equilibrio con la pressione dell'acqua di mare circostante, e l'interazione del personale avviene da remoto tramite telepresenza o sistemi robotici."
+      ko: "SCP-045는 해양 연구 스테이션 12의 반경 5미터 반구형 챔버 내 검사대에 고정한 상태로 보관한다. 챔버 내부는 주변 해수압과 평형을 이루는 네온 가스로 유지하며, 직원의 작업은 텔레프레즌스 또는 로봇 시스템을 통해 원격으로 이루어진다."
+      pl: "SCP-045 należy przechowywać przymocowany do platformy badawczej w komorze półkulistej o promieniu 5 metrów w Oceanograficznej Stacji Badawczej 12. Komora utrzymuje gazowy neon w równowadze z ciśnieniem otaczającej wody morskiej, a interakcja personelu odbywa się zdalnie za pomocą telepresencji lub systemów robotycznych."
+      pt: "SCP-045 deve ser mantido fixado a uma plataforma de exame em uma câmara hemisférica de 5 metros de raio na Estação de Pesquisa Oceanográfica 12. A câmara mantém neônio gasoso em equilíbrio com a pressão da água do mar ao redor, e a interação do pessoal ocorre remotamente por telepresença ou sistemas robóticos."
+      th: "ต้องเก็บ SCP-045 โดยยึดไว้กับแท่นตรวจสอบภายในห้องทรงครึ่งทรงกลมรัศมี 5 เมตร ที่สถานีวิจัยสมุทรศาสตร์ 12 ห้องนี้รักษาก๊าซนีออนให้อยู่ในสมดุลกับความดันน้ำทะเลโดยรอบ และการปฏิสัมพันธ์ของเจ้าหน้าที่ทำจากระยะไกลผ่านระบบเทเลเพรเซนซ์หรือระบบหุ่นยนต์"
+      uk: "SCP-045 слід тримати закріпленим на дослідницькій платформі в напівсферичній камері радіусом 5 метрів на Океанографічній дослідній станції 12. Камера підтримує газоподібний неон у рівновазі з тиском навколишньої морської води, а взаємодія персоналу відбувається дистанційно через телеприсутність або роботизовані системи."
+      vi: "SCP-045 phải được giữ cố định trên một bệ kiểm tra trong một buồng bán cầu có bán kính 5 mét tại Trạm Nghiên cứu Hải dương học 12. Buồng này duy trì khí neon ở trạng thái cân bằng với áp suất nước biển xung quanh, và mọi tương tác của nhân viên được thực hiện từ xa qua hệ thống hiện diện từ xa hoặc hệ thống robot."
+      zh: "SCP-045须固定于海洋研究站12内一间半径5米的半球形舱室的检查台上保管。舱室内维持与周围海水压力平衡的氖气，人员的操作均通过临场感系统或机器人系统远程进行。"
+      zh_Hant: "SCP-045須固定於海洋研究站12內一間半徑5公尺的半球形艙室的檢查台上保管。艙室內維持與周圍海水壓力平衡的氖氣，人員的操作均透過臨場感系統或機器人系統遠端進行。"
+
+  - scene: >
+      Extreme close-up of the object itself: a large icosahedron of
+      dense, faintly blue translucent ice, its interior packed with a
+      regular, complex lattice of flat internal fracture planes that
+      catch the light. Its twenty triangular faces are sharp and
+      geometric. It floats slightly above its cradle. No people, no
+      text.
+    characters: []
+    notes: >
+      根拠: Description「The specimen is an icosahedron composed of ice
+      XII heavily occluded with planar fractures in a regular, complex
+      pattern, with an average radius of 1.7 meters and roughly double
+      the density of typical ice XII.」
+      変えてはいけない事実: 正二十面体、氷XII、規則的で複雑な平面亀裂、
+      平均半径1.7m、通常の氷XIIの約2倍の密度。
+      変更可能: アングル、光の反射。
+    caption:
+      ja: "この検体は、規則的で複雑なパターンの平面亀裂が全体に密に走った、氷XIIからなる正二十面体である。平均半径は1.7メートルで、密度は通常の氷XIIのおよそ2倍である。"
+      en: "The specimen is an icosahedron composed of ice XII, heavily occluded with planar fractures in a regular, complex pattern, with an average radius of 1.7 meters and roughly double the density of typical ice XII."
+      cs: "Vzorek je dvacetistěn složený z ledu XII, silně protkaný planárními zlomy v pravidelném, složitém vzoru, s průměrným poloměrem 1,7 metru a přibližně dvojnásobnou hustotou oproti běžnému ledu XII."
+      de: "Das Exemplar ist ein Ikosaeder aus Eis XII, stark durchsetzt mit planaren Brüchen in einem regelmäßigen, komplexen Muster, mit einem mittleren Radius von 1,7 Metern und etwa der doppelten Dichte von typischem Eis XII."
+      es: "El espécimen es un icosaedro compuesto de hielo XII, densamente atravesado por fracturas planas en un patrón regular y complejo, con un radio medio de 1,7 metros y aproximadamente el doble de la densidad del hielo XII típico."
+      fr: "Le spécimen est un icosaèdre composé de glace XII, fortement parcouru de fractures planes selon un motif régulier et complexe, d'un rayon moyen de 1,7 mètre et d'une densité environ double de celle de la glace XII ordinaire."
+      it: "Il campione è un icosaedro composto di ghiaccio XII, fittamente attraversato da fratture planari secondo uno schema regolare e complesso, con un raggio medio di 1,7 metri e una densità circa doppia rispetto al ghiaccio XII tipico."
+      ko: "이 검체는 규칙적이고 복잡한 패턴의 평면 균열이 전체에 조밀하게 퍼진, 얼음 XII로 이루어진 정이십면체이다. 평균 반지름은 1.7미터이며, 밀도는 일반적인 얼음 XII의 약 2배이다."
+      pl: "Okaz to dwudziestościan zbudowany z lodu XII, gęsto poprzetykany płaskimi pęknięciami w regularnym, złożonym wzorze, o średnim promieniu 1,7 metra i gęstości około dwukrotnie większej niż typowy lód XII."
+      pt: "O espécime é um icosaedro composto de gelo XII, densamente atravessado por fraturas planas em um padrão regular e complexo, com raio médio de 1,7 metro e cerca do dobro da densidade do gelo XII típico."
+      th: "ตัวอย่างนี้เป็นทรงยี่สิบหน้าที่ประกอบด้วยน้ำแข็ง XII ซึ่งเต็มไปด้วยรอยแตกแบบระนาบในรูปแบบที่เป็นระเบียบและซับซ้อน มีรัศมีเฉลี่ย 1.7 เมตร และมีความหนาแน่นราวสองเท่าของน้ำแข็ง XII ทั่วไป"
+      uk: "Зразок є ікосаедром зі льоду XII, густо пронизаним площинними тріщинами в регулярному складному візерунку, із середнім радіусом 1,7 метра та щільністю приблизно вдвічі більшою, ніж у звичайного льоду XII."
+      vi: "Mẫu vật là một khối hai mươi mặt cấu tạo từ băng XII, chằng chịt các vết nứt phẳng theo một khuôn mẫu đều đặn và phức tạp, với bán kính trung bình 1,7 mét và mật độ gấp khoảng hai lần băng XII thông thường."
+      zh: "该样本是一个由冰XII构成的正二十面体，内部密布着呈规则复杂图案的平面裂纹，平均半径为1.7米，密度约为普通冰XII的两倍。"
+      zh_Hant: "該樣本是一個由冰XII構成的正二十面體，內部密布著呈規則複雜圖案的平面裂紋，平均半徑為1.7公尺，密度約為普通冰XII的兩倍。"
+
+  - scene: >
+      Medium shot. On the left side of the frame, Attending Researcher
+      (Female) sits at a remote telepresence console outside the
+      chamber, hands on the controls, watching a monitor. On the right
+      side of the frame, seen through the viewing port, a thin jet of
+      gas is being piped toward the crystalline object; where it nears
+      the surface it visibly turns into falling droplets of water and a
+      scatter of white salt crystals drifting down. No text.
+    characters: [attending-researcher-f]
+    notes: >
+      根拠: Description「When gaseous nitrogen or argon come within 3.7
+      meters of any portion of SCP-045, they are replaced by different
+      compounds. Nitrogen converts to liquid water; argon transforms
+      into crystalline salt.」
+      変えてはいけない事実: 窒素・アルゴンガスがSCP-045の3.7m以内に入ると
+      別の化合物に置き換わる、窒素→液体の水、アルゴン→結晶塩。
+      変更可能: 実験装置の見せ方、研究者の位置。
+    caption:
+      ja: "気体の窒素またはアルゴンが、SCP-045のいずれかの部分から3.7メートル以内に入ると、それらは別の化合物に置き換わる。窒素は液体の水に変わり、アルゴンは結晶質の塩に変化する。"
+      en: "When gaseous nitrogen or argon come within 3.7 meters of any portion of SCP-045, they are replaced by different compounds. Nitrogen converts to liquid water; argon transforms into crystalline salt."
+      cs: "Když se plynný dusík nebo argon dostane do vzdálenosti 3,7 metru od kterékoli části SCP-045, jsou nahrazeny jinými sloučeninami. Dusík se mění na kapalnou vodu; argon se přeměňuje na krystalickou sůl."
+      de: "Wenn gasförmiger Stickstoff oder Argon in einen Umkreis von 3,7 Metern um irgendeinen Teil von SCP-045 gelangen, werden sie durch andere Verbindungen ersetzt. Stickstoff wandelt sich in flüssiges Wasser um; Argon verwandelt sich in kristallines Salz."
+      es: "Cuando el nitrógeno o el argón gaseosos se acercan a menos de 3,7 metros de cualquier parte de SCP-045, son reemplazados por compuestos distintos. El nitrógeno se convierte en agua líquida; el argón se transforma en sal cristalina."
+      fr: "Lorsque de l'azote ou de l'argon gazeux s'approchent à moins de 3,7 mètres de n'importe quelle partie de SCP-045, ils sont remplacés par d'autres composés. L'azote se transforme en eau liquide ; l'argon se transforme en sel cristallin."
+      it: "Quando azoto o argon gassosi giungono entro 3,7 metri da una qualsiasi parte di SCP-045, vengono sostituiti da composti diversi. L'azoto si converte in acqua liquida; l'argon si trasforma in sale cristallino."
+      ko: "기체 상태의 질소나 아르곤이 SCP-045의 어느 부분으로부터 3.7미터 이내로 접근하면, 그것들은 다른 화합물로 치환된다. 질소는 액체 상태의 물로 바뀌고, 아르곤은 결정질 소금으로 변한다."
+      pl: "Gdy gazowy azot lub argon znajdą się w odległości 3,7 metra od dowolnej części SCP-045, zostają zastąpione innymi związkami. Azot przekształca się w ciekłą wodę; argon przemienia się w krystaliczną sól."
+      pt: "Quando nitrogênio ou argônio gasosos chegam a menos de 3,7 metros de qualquer parte de SCP-045, são substituídos por compostos diferentes. O nitrogênio se converte em água líquida; o argônio se transforma em sal cristalino."
+      th: "เมื่อก๊าซไนโตรเจนหรืออาร์กอนเข้ามาในระยะ 3.7 เมตรจากส่วนใดส่วนหนึ่งของ SCP-045 พวกมันจะถูกแทนที่ด้วยสารประกอบอื่น ไนโตรเจนเปลี่ยนเป็นน้ำในสถานะของเหลว ส่วนอาร์กอนแปรเปลี่ยนเป็นเกลือผลึก"
+      uk: "Коли газоподібний азот або аргон опиняються в межах 3,7 метра від будь-якої частини SCP-045, вони заміщуються іншими сполуками. Азот перетворюється на рідку воду; аргон — на кристалічну сіль."
+      vi: "Khi khí nitơ hoặc argon tiến vào phạm vi 3,7 mét từ bất kỳ phần nào của SCP-045, chúng bị thay thế bằng những hợp chất khác. Nitơ chuyển thành nước ở thể lỏng; argon biến thành muối kết tinh."
+      zh: "当气态氮或氩进入SCP-045任何部位3.7米范围内时，它们会被替换为不同的化合物。氮转化为液态水，氩则转变为结晶盐。"
+      zh_Hant: "當氣態氮或氬進入SCP-045任何部位3.7公尺範圍內時，它們會被替換為不同的化合物。氮轉化為液態水，氬則轉變為結晶鹽。"
+
+  - scene: >
+      Wide dynamic shot, low angle with a slight dutch tilt and strong
+      motion blur. Inside the chamber the icosahedron is spinning
+      rapidly on several axes at once, a blur of facets. The domed room
+      shakes: fine dust sifts from the ceiling, ripples cross a puddle
+      on the floor, equipment rattles. On the left side of the frame,
+      outside the viewing port, Attending Researcher (Male) grips a
+      console edge to steady himself while Attending Researcher (Female)
+      braces beside him, both watching a jittering seismograph trace. No
+      text.
+    characters: [attending-researcher-m, attending-researcher-f]
+    notes: >
+      根拠: Description「The object exhibits spontaneous multi-axis
+      rotation at unpredictable intervals, accompanied by minor seismic
+      activity. Preventing rotation increases earthquake strength
+      logarithmically up to 5.3 on the Richter scale.」オチ。
+      変えてはいけない事実: 予測不能な間隔での自発的な多軸回転、軽微な地震活動、
+      回転を妨げると地震の強さが対数的に増大しリヒター5.3まで達する。
+      変更可能: 揺れの演出、研究者の反応。
+    caption:
+      ja: "この物体は、予測不能な間隔で、自発的に複数の軸を中心とした回転を示し、それに伴って軽微な地震活動が発生する。回転を妨げると、地震の強さは対数的に増大し、リヒタースケールで最大5.3に達する。"
+      en: "The object exhibits spontaneous multi-axis rotation at unpredictable intervals, accompanied by minor seismic activity. Preventing this rotation increases earthquake strength logarithmically, up to 5.3 on the Richter scale."
+      cs: "Objekt vykazuje spontánní rotaci kolem více os v nepředvídatelných intervalech, doprovázenou drobnou seismickou aktivitou. Bránění této rotaci zvyšuje sílu zemětřesení logaritmicky, až na 5,3 stupně Richterovy škály."
+      de: "Das Objekt zeigt in unvorhersehbaren Abständen eine spontane Rotation um mehrere Achsen, begleitet von geringfügiger seismischer Aktivität. Das Verhindern dieser Rotation steigert die Erdbebenstärke logarithmisch, bis zu 5,3 auf der Richterskala."
+      es: "El objeto presenta rotación espontánea en varios ejes a intervalos impredecibles, acompañada de actividad sísmica menor. Impedir esta rotación aumenta la fuerza del terremoto de forma logarítmica, hasta 5,3 en la escala de Richter."
+      fr: "L'objet présente une rotation spontanée sur plusieurs axes à des intervalles imprévisibles, accompagnée d'une activité sismique mineure. Empêcher cette rotation augmente la force du séisme de manière logarithmique, jusqu'à 5,3 sur l'échelle de Richter."
+      it: "L'oggetto manifesta una rotazione spontanea su più assi a intervalli imprevedibili, accompagnata da una lieve attività sismica. Impedire questa rotazione aumenta la forza del terremoto in modo logaritmico, fino a 5,3 della scala Richter."
+      ko: "이 물체는 예측할 수 없는 간격으로 여러 축을 중심으로 한 자발적 회전을 보이며, 이에 경미한 지진 활동이 동반된다. 이 회전을 저지하면 지진의 강도가 로그함수적으로 증가하여 리히터 규모 5.3까지 이른다."
+      pl: "Obiekt wykazuje spontaniczną rotację wokół wielu osi w nieprzewidywalnych odstępach czasu, czemu towarzyszy niewielka aktywność sejsmiczna. Powstrzymywanie tej rotacji zwiększa siłę trzęsienia ziemi logarytmicznie, aż do 5,3 w skali Richtera."
+      pt: "O objeto apresenta rotação espontânea em vários eixos a intervalos imprevisíveis, acompanhada de atividade sísmica leve. Impedir essa rotação aumenta a força do terremoto de forma logarítmica, até 5,3 na escala Richter."
+      th: "วัตถุนี้แสดงการหมุนรอบหลายแกนอย่างเป็นเอง ในช่วงเวลาที่คาดเดาไม่ได้ พร้อมกับกิจกรรมแผ่นดินไหวเล็กน้อย การขัดขวางการหมุนนี้จะทำให้ความรุนแรงของแผ่นดินไหวเพิ่มขึ้นแบบลอการิทึม สูงสุดถึง 5.3 ตามมาตราริกเตอร์"
+      uk: "Об'єкт демонструє спонтанне обертання навколо кількох осей через непередбачувані проміжки часу, що супроводжується незначною сейсмічною активністю. Перешкоджання цьому обертанню збільшує силу землетрусу логарифмічно, аж до 5,3 бала за шкалою Ріхтера."
+      vi: "Vật thể thể hiện sự tự xoay quanh nhiều trục vào những khoảng thời gian không thể đoán trước, kèm theo hoạt động địa chấn nhẹ. Việc ngăn cản chuyển động xoay này làm tăng cường độ động đất theo hàm logarit, lên tới 5,3 độ Richter."
+      zh: "该物体会在无法预测的间隔内自发地绕多个轴旋转，并伴随轻微的地震活动。阻止其旋转会使地震强度按对数增长，最高可达里氏5.3级。"
+      zh_Hant: "該物體會在無法預測的間隔內自發地繞多個軸旋轉，並伴隨輕微的地震活動。阻止其旋轉會使地震強度按對數增長，最高可達芮氏5.3級。"

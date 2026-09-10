@@ -1,0 +1,157 @@
+# SCP-048 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# メタ的な短い記事。キャラにセリフは言わせない。画像に文字は描かせない。
+
+id: scp-048
+
+title:
+  en: "SCP-048"
+  ja: "SCP-048"
+  cs: "SCP-048"
+  de: "SCP-048"
+  es: "SCP-048"
+  fr: "SCP-048"
+  it: "SCP-048"
+  ko: "SCP-048"
+  pl: "SCP-048"
+  pt: "SCP-048"
+  th: "SCP-048"
+  uk: "SCP-048"
+  vi: "SCP-048"
+  zh: "SCP-048"
+  zh_Hant: "SCP-048"
+
+attribution:
+  article: "SCP-048"
+  author: "DrClef"
+  source_url: "http://scp-wiki.wikidot.com/scp-048"
+  license: "CC BY-SA 3.0"
+
+characters: [attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Medium-wide shot, eye level, in a dim Foundation archive: long
+      rows of identical steel containment lockers and shelving. Attending
+      Researcher (Male) stands at an open locker, sliding a plain sealed
+      case onto the shelf, glancing warily over his shoulder. Several
+      nearby lockers hang open and empty. Plain blank labels, no
+      readable text anywhere.
+    characters: [attending-researcher-m]
+    notes: >
+      根拠: Description「SCP-048 as the Foundation's 'cursed SCP number.'
+      Items assigned this designation have consistently been destroyed,
+      lost, or decommissioned through various means.」
+      変えてはいけない事実: SCP-048が「呪われた」指定番号とみなされている、
+      この番号を割り当てられた物品は例外なく破壊・紛失・解体されてきた。
+      変更可能: アーカイブの構図、研究者の動作。
+    caption:
+      ja: "財団内において、SCP-048は「呪われた」SCP指定番号とみなされている。この番号を割り当てられた物品は、例外なく、さまざまな経緯で破壊、紛失、あるいは解体されてきた。"
+      en: "Within the Foundation, SCP-048 is regarded as a 'cursed' SCP designation. Every item assigned this number has consistently been destroyed, lost, or decommissioned by a variety of means."
+      cs: "V rámci Nadace je SCP-048 považováno za 'prokleté' označení SCP. Každý předmět, jemuž bylo toto číslo přiděleno, byl vždy zničen, ztracen nebo vyřazen z provozu různými způsoby."
+      de: "Innerhalb der Stiftung gilt SCP-048 als 'verfluchte' SCP-Bezeichnung. Jeder Gegenstand, dem diese Nummer zugewiesen wurde, wurde ausnahmslos auf verschiedene Weise zerstört, verloren oder außer Dienst gestellt."
+      es: "Dentro de la Fundación, SCP-048 es considerado una designación SCP 'maldita'. Todo objeto al que se le ha asignado este número ha terminado, sin excepción, destruido, perdido o dado de baja por diversos medios."
+      fr: "Au sein de la Fondation, SCP-048 est considéré comme une désignation SCP 'maudite'. Tout objet auquel ce numéro a été attribué a systématiquement fini détruit, perdu ou déclassé par divers moyens."
+      it: "All'interno della Fondazione, SCP-048 è considerata una designazione SCP 'maledetta'. Ogni oggetto a cui è stato assegnato questo numero è stato immancabilmente distrutto, perduto o dismesso con vari mezzi."
+      ko: "재단 내에서 SCP-048은 '저주받은' SCP 지정번호로 여겨진다. 이 번호가 부여된 물품은 예외 없이 여러 경위로 파괴, 분실, 또는 해체되어 왔다."
+      pl: "W obrębie Fundacji SCP-048 uchodzi za 'przeklęte' oznaczenie SCP. Każdy przedmiot, któremu przypisano ten numer, niezmiennie zostawał zniszczony, zagubiony lub wycofany z użytku na różne sposoby."
+      pt: "Dentro da Fundação, SCP-048 é considerada uma designação SCP 'amaldiçoada'. Todo item ao qual esse número foi atribuído acabou, invariavelmente, destruído, perdido ou desativado por diversos meios."
+      th: "ภายในมูลนิธิ SCP-048 ถูกมองว่าเป็นหมายเลขกำกับ SCP ที่ 'ต้องคำสาป' วัตถุทุกชิ้นที่ได้รับหมายเลขนี้ ล้วนถูกทำลาย สูญหาย หรือถูกปลดระวางด้วยวิธีต่าง ๆ อย่างสม่ำเสมอ"
+      uk: "У межах Фонду SCP-048 вважається 'проклятим' позначенням SCP. Кожен предмет, якому присвоювали цей номер, незмінно виявлявся знищеним, втраченим або списаним у різний спосіб."
+      vi: "Trong nội bộ Tổ chức, SCP-048 được xem là một mã hiệu SCP 'bị nguyền rủa'. Mọi vật thể được gán số này đều luôn bị phá hủy, thất lạc hoặc ngừng hoạt động bằng nhiều cách khác nhau."
+      zh: "在基金会内部，SCP-048被视为一个“被诅咒的”SCP编号。凡是被指定为该编号的物品，无一例外地以各种方式被销毁、遗失或退役。"
+      zh_Hant: "在基金會內部，SCP-048被視為一個「被詛咒的」SCP編號。凡是被指定為該編號的物品，無一例外地以各種方式被銷毀、遺失或退役。"
+
+  - scene: >
+      Medium shot, waist-up. Attending Researcher (Male) and Attending
+      Researcher (Female) stand close together in a corridor outside a
+      heavy closed containment door, both looking uneasy. He has one arm
+      in a sling; she has a bandage across her forehead and a taped
+      wrist. Neither wants to reach for the door handle. No text.
+    characters: [attending-researcher-m, attending-researcher-f]
+    notes: >
+      根拠: Description「Personnel working with SCP-048 across its
+      iterations experienced a 50% elevated mortality and injury rate
+      compared to baseline.」
+      変えてはいけない事実: 歴代のSCP-048に関わった職員は、基準値と比べて
+      死傷率が約50%高かった。
+      変更可能: けがの見せ方、廊下の構図。
+    caption:
+      ja: "歴代のSCP-048に携わった職員は、同種の任務における基準値と比べて、死亡率および負傷率がおよそ50％高かった。"
+      en: "Personnel working with SCP-048 across its successive iterations experienced a mortality and injury rate approximately 50% above the baseline for comparable assignments."
+      cs: "Personál pracující se SCP-048 napříč jeho jednotlivými verzemi vykazoval úmrtnost a úrazovost přibližně o 50 % vyšší, než je základní hodnota pro srovnatelné úkoly."
+      de: "Personal, das über die aufeinanderfolgenden Iterationen hinweg mit SCP-048 arbeitete, wies eine Sterblichkeits- und Verletzungsrate von etwa 50 % über dem Ausgangswert für vergleichbare Einsätze auf."
+      es: "El personal que trabajó con SCP-048 a lo largo de sus sucesivas iteraciones registró una tasa de mortalidad y lesiones aproximadamente un 50 % superior a la base para asignaciones comparables."
+      fr: "Le personnel ayant travaillé avec SCP-048 au fil de ses itérations successives a connu un taux de mortalité et de blessures supérieur d'environ 50 % à la valeur de référence pour des affectations comparables."
+      it: "Il personale che ha lavorato con SCP-048 nelle sue successive iterazioni ha registrato un tasso di mortalità e infortuni superiore di circa il 50 % rispetto al valore di riferimento per incarichi analoghi."
+      ko: "역대 SCP-048에 관여한 인원은 유사한 임무의 기준치와 비교해 사망률 및 부상률이 약 50% 높게 나타났다."
+      pl: "Personel pracujący z SCP-048 na przestrzeni kolejnych jego wersji odnotował śmiertelność i wskaźnik obrażeń o około 50 % wyższe niż wartość bazowa dla porównywalnych przydziałów."
+      pt: "O pessoal que trabalhou com SCP-048 ao longo de suas sucessivas iterações apresentou uma taxa de mortalidade e ferimentos cerca de 50% acima da linha de base para tarefas comparáveis."
+      th: "เจ้าหน้าที่ที่ทำงานกับ SCP-048 ตลอดแต่ละยุคของมัน มีอัตราการเสียชีวิตและการบาดเจ็บสูงกว่าค่าพื้นฐานของภารกิจในลักษณะเดียวกันราว 50%"
+      uk: "Персонал, який працював зі SCP-048 упродовж його послідовних ітерацій, мав рівень смертності та травматизму приблизно на 50 % вищий за базовий для порівнянних завдань."
+      vi: "Nhân sự làm việc với SCP-048 qua các phiên bản kế tiếp của nó có tỷ lệ tử vong và thương tích cao hơn khoảng 50% so với mức nền của các nhiệm vụ tương đương."
+      zh: "在SCP-048历代版本中参与相关工作的人员，其死亡与受伤率比同类任务的基准值高出约50%。"
+      zh_Hant: "在SCP-048歷代版本中參與相關工作的人員，其死亡與受傷率比同類任務的基準值高出約50%。"
+
+  - scene: >
+      Close-up on Attending Researcher (Female) at a desk, reading a
+      report folder, pinching the bridge of her nose with her eyes
+      closed in weary resignation, a cold cup of coffee beside her. Soft
+      desk lamp light. No readable text on the papers.
+    characters: [attending-researcher-f]
+    notes: >
+      根拠: Description「The Foundation ultimately acknowledges uncertainty
+      about whether the number possesses actual supernatural properties,
+      attributing the retirement decision to staff morale concerns.」
+      変えてはいけない事実: この番号に本当に超常的性質があるかは不明のままと
+      財団が認めていること、番号を退役させる決定の主因が職員の士気への懸念で
+      あること。
+      変更可能: 研究者の仕草、机まわりの演出。
+    caption:
+      ja: "財団は最終的に、この番号そのものに実際の超常的性質が備わっているのかどうかは不明のままであると認めており、番号を退役させる決定は、主に職員の士気に対する懸念によるものだとしている。"
+      en: "The Foundation ultimately acknowledges that it remains uncertain whether the number itself possesses any actual supernatural properties, and attributes the decision to retire it primarily to concerns regarding staff morale."
+      cs: "Nadace nakonec připouští, že zůstává nejisté, zda samo číslo skutečně vykazuje nadpřirozené vlastnosti, a rozhodnutí o jeho vyřazení přičítá především obavám o morálku personálu."
+      de: "Die Stiftung räumt letztlich ein, dass unklar bleibt, ob die Zahl selbst tatsächlich übernatürliche Eigenschaften besitzt, und führt die Entscheidung, sie außer Dienst zu stellen, in erster Linie auf Bedenken hinsichtlich der Personalmoral zurück."
+      es: "La Fundación finalmente reconoce que sigue sin estar claro si el número en sí posee propiedades sobrenaturales reales, y atribuye la decisión de retirarlo principalmente a preocupaciones sobre la moral del personal."
+      fr: "La Fondation reconnaît finalement qu'il demeure incertain que le nombre lui-même possède de véritables propriétés surnaturelles, et attribue la décision de le retirer principalement à des préoccupations liées au moral du personnel."
+      it: "La Fondazione riconosce infine che resta incerto se il numero stesso possieda reali proprietà soprannaturali, e attribuisce la decisione di ritirarlo principalmente a preoccupazioni relative al morale del personale."
+      ko: "재단은 결국 그 번호 자체가 실제로 초자연적 성질을 지녔는지는 여전히 불확실하다고 인정하며, 번호를 퇴역시키기로 한 결정은 주로 직원 사기에 대한 우려 때문이라고 밝히고 있다."
+      pl: "Fundacja ostatecznie przyznaje, że pozostaje niejasne, czy sam numer rzeczywiście posiada właściwości nadprzyrodzone, a decyzję o jego wycofaniu przypisuje głównie obawom o morale personelu."
+      pt: "A Fundação, por fim, reconhece que permanece incerto se o número em si possui alguma propriedade sobrenatural real, e atribui a decisão de aposentá-lo principalmente a preocupações com o moral do pessoal."
+      th: "ในที่สุดมูลนิธิยอมรับว่ายังไม่แน่ชัดว่าตัวเลขนั้นมีคุณสมบัติเหนือธรรมชาติจริงหรือไม่ และระบุว่าการตัดสินใจปลดระวางหมายเลขนี้เป็นเพราะความกังวลเรื่องขวัญกำลังใจของเจ้าหน้าที่เป็นหลัก"
+      uk: "Зрештою Фонд визнає, що залишається невідомим, чи має саме число справжні надприродні властивості, і пояснює рішення вивести його з обігу насамперед занепокоєнням щодо бойового духу персоналу."
+      vi: "Cuối cùng, Tổ chức thừa nhận rằng vẫn chưa rõ liệu bản thân con số này có thực sự sở hữu đặc tính siêu nhiên hay không, và cho rằng quyết định loại bỏ nó chủ yếu xuất phát từ lo ngại về tinh thần của nhân viên."
+      zh: "基金会最终承认，尚不确定这一编号本身是否真的具有超自然性质，并表示退役该编号的决定主要出于对员工士气的顾虑。"
+      zh_Hant: "基金會最終承認，尚不確定這一編號本身是否真的具有超自然性質，並表示退役該編號的決定主要出於對員工士氣的顧慮。"
+
+  - scene: >
+      Medium two-shot at a records desk. On the left side of the frame,
+      Attending Researcher (Male) draws a single firm diagonal line
+      through an entry in a large open ledger with a red pen. On the
+      right side of the frame, Attending Researcher (Female) stands
+      watching with visible relief, shoulders dropping. A closed
+      cardboard archive box sits on the desk. No readable text.
+    characters: [attending-researcher-m, attending-researcher-f]
+    notes: >
+      根拠: SC procedures「The designation SCP-048 is to be retired from
+      the SCP catalog. No future SCPs are to be assigned this number.」
+      オチ。
+      変えてはいけない事実: SCP-048という指定番号をカタログから退役させる、
+      今後この番号を新たなSCPに割り当てない。
+      変更可能: 職員の反応、机まわりの演出。
+    caption:
+      ja: "SCP-048という指定番号は、SCPカタログから退役させること。今後、いかなるSCPにもこの番号を割り当ててはならない。"
+      en: "The designation SCP-048 is to be retired from the SCP catalog. No future SCPs are to be assigned this number."
+      cs: "Označení SCP-048 má být vyřazeno z katalogu SCP. Žádným budoucím SCP nesmí být toto číslo přiděleno."
+      de: "Die Bezeichnung SCP-048 ist aus dem SCP-Katalog zurückzuziehen. Künftigen SCPs darf diese Nummer nicht zugewiesen werden."
+      es: "La designación SCP-048 debe retirarse del catálogo SCP. No se asignará este número a ningún SCP futuro."
+      fr: "La désignation SCP-048 doit être retirée du catalogue SCP. Ce numéro ne doit être attribué à aucun SCP futur."
+      it: "La designazione SCP-048 deve essere ritirata dal catalogo SCP. Questo numero non deve essere assegnato a nessun SCP futuro."
+      ko: "SCP-048이라는 지정번호는 SCP 카탈로그에서 퇴역시킨다. 앞으로 어떤 SCP에도 이 번호를 부여하지 않는다."
+      pl: "Oznaczenie SCP-048 należy wycofać z katalogu SCP. Numer ten nie może zostać przypisany żadnemu przyszłemu SCP."
+      pt: "A designação SCP-048 deve ser aposentada do catálogo SCP. Nenhum SCP futuro deverá receber esse número."
+      th: "ให้ปลดระวางหมายเลขกำกับ SCP-048 ออกจากบัญชีรายการ SCP ห้ามกำหนดหมายเลขนี้ให้กับ SCP ใด ๆ ในอนาคต"
+      uk: "Позначення SCP-048 має бути виведене з каталогу SCP. Жодному майбутньому SCP цей номер присвоювати не можна."
+      vi: "Mã hiệu SCP-048 phải được loại bỏ khỏi danh mục SCP. Không được gán số này cho bất kỳ SCP nào trong tương lai."
+      zh: "SCP-048这一编号须从SCP目录中退役。今后不得将此编号分配给任何SCP。"
+      zh_Hant: "SCP-048這一編號須從SCP目錄中退役。今後不得將此編號分配給任何SCP。"

@@ -104,6 +104,23 @@ characters:
       expression.
     reference_images: []
 
+  mtf-agent:
+    # 記事に固有の隊員名が無い場合の「立ち会う機動部隊員」役。d-classや
+    # attending-researcherと同じく、特定の個性を持たない汎用・匿名の役として
+    # 用意している（正史の特定MTF隊員キャラではない）。服装に文字・記章は
+    # 入れない（画像に文字を描かせないため）。
+    name: MTF Agent
+    appearance: >
+      A Foundation Mobile Task Force operative of average build, with a
+      neutral set-jawed expression and short dark hair (color RGB
+      20,20,20), the face partly shaded by a plain dark low-profile cap.
+    default_look: >
+      Plain dark charcoal-gray tactical fatigues (color RGB 55,58,60)
+      and a plain load-bearing vest with empty pouches, no markings,
+      patches, insignia or lettering of any kind, black gloves and
+      boots. Calm, alert, upright posture.
+    reference_images: []
+
   attending-researcher-f:
     # 同上（女性版）。
     # モノクロ画風では髪の「色」の違いが塗りの濃淡だけでは判別しづらく、

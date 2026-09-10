@@ -1,0 +1,147 @@
+# SCP-017 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-017
+
+title:
+  ja: "SCP-017：影の人"
+  en: "SCP-017: Shadow Person"
+  cs: "SCP-017: Stínová bytost"
+  de: "SCP-017: Der Schattenmann"
+  es: "SCP-017: Hombre de sombra"
+  fr: "SCP-017 : L'homme de l'ombre"
+  it: "SCP-017: L'ombra vivente"
+  ko: "SCP-017: 그림자 인간"
+  pl: "SCP-017: Cienista postać"
+  pt: "SCP-017: Homem-sombra"
+  th: "SCP-017: มนุษย์เงา"
+  uk: "SCP-017: Тіньова істота"
+  vi: "SCP-017: Người bóng tối"
+  zh: "SCP-017：暗影人"
+  zh_Hant: "SCP-017：暗影人"
+
+attribution:
+  article: "SCP-017"
+  author: "Sam Swicegood (CityToast)"
+  source_url: "http://scp-wiki.wikidot.com/scp-017"
+  license: "CC BY-SA 3.0"
+
+object_class: Keter
+
+local_characters:
+  scp-017:
+    name: SCP-017
+    appearance: >
+      SCP-017, a humanoid figure about 80 cm tall, with the size and
+      proportions of a small child, but with a completely smooth,
+      featureless head and body and no face at all. It is made entirely of
+      a dark, near-black (color RGB 15,15,15) shadowy, smoke-like shroud
+      with soft wisping edges.
+    default_look: >
+      Standing quietly, lit harshly from every direction at once so that
+      it casts no shadow of its own.
+
+characters: [scp-017, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide establishing shot, eye level, showing the whole bare concrete
+      containment room. A small clear acrylic-glass box hangs on thin
+      cables at the exact center. High-intensity arc-lamp spotlights are
+      bolted to every wall, to the ceiling and to the floor, all aimed at
+      the box, their harsh overlapping beams filling the room with glare
+      and lens flare. Inside the box the small dark child-shaped figure of
+      SCP-017 stands, lit from every side.
+    characters: [scp-017]
+    caption:
+      ja: "SCP-017は、100cm×50cm×50cmのアクリルガラス製ケージに収容され、6m×6m×4mのコンクリート製の部屋の中央に吊り下げられている。部屋の壁、天井、床には高輝度のアーク灯スポットライトが取り付けられ、アクリルケージに直接向けられており、SCP-017が常にあらゆる角度から光にさらされるようにしている。"
+      en: "SCP-017 is contained in an acrylic glass cage, 100 cm by 50 cm by 50 cm, centrally suspended in a concrete room measuring 6 m by 6 m by 4 m. Attached to the walls, ceiling, and floor of the room are high-intensity arc lamp spotlights pointed directly at the acrylic cage, to ensure that SCP-017 is constantly exposed to light from every angle."
+      cs: "SCP-017 je uchováván v kleci z akrylového skla o rozměrech 100 cm × 50 cm × 50 cm, zavěšené uprostřed betonové místnosti o rozměrech 6 m × 6 m × 4 m. Na stěnách, stropě a podlaze místnosti jsou upevněny vysoce výkonné obloukové reflektory namířené přímo na akrylovou klec, aby byl SCP-017 neustále vystaven světlu ze všech úhlů."
+      de: "SCP-017 wird in einem Käfig aus Acrylglas von 100 cm × 50 cm × 50 cm aufbewahrt, der mittig in einem Betonraum von 6 m × 6 m × 4 m aufgehängt ist. An den Wänden, der Decke und dem Boden des Raumes sind hochintensive Bogenlampen-Scheinwerfer angebracht, die direkt auf den Acrylkäfig gerichtet sind, damit SCP-017 ständig aus jedem Winkel dem Licht ausgesetzt ist."
+      es: "SCP-017 se mantiene en una jaula de vidrio acrílico de 100 cm × 50 cm × 50 cm, suspendida en el centro de una sala de hormigón de 6 m × 6 m × 4 m. En las paredes, el techo y el suelo de la sala hay focos de lámpara de arco de alta intensidad apuntados directamente a la jaula acrílica, para garantizar que SCP-017 esté constantemente expuesto a la luz desde todos los ángulos."
+      fr: "SCP-017 est confiné dans une cage en verre acrylique de 100 cm × 50 cm × 50 cm, suspendue au centre d'une pièce en béton de 6 m × 6 m × 4 m. Aux murs, au plafond et au sol de la pièce sont fixés des projecteurs à lampe à arc de haute intensité pointés directement sur la cage acrylique, afin que SCP-017 soit constamment exposé à la lumière sous tous les angles."
+      it: "SCP-017 è contenuto in una gabbia di vetro acrilico di 100 cm × 50 cm × 50 cm, sospesa al centro di una stanza di cemento di 6 m × 6 m × 4 m. Alle pareti, al soffitto e al pavimento della stanza sono fissati faretti a lampada ad arco ad alta intensità puntati direttamente sulla gabbia acrilica, per garantire che SCP-017 sia costantemente esposto alla luce da ogni angolazione."
+      ko: "SCP-017은 100cm × 50cm × 50cm 크기의 아크릴 유리 우리에 수용되어, 6m × 6m × 4m 크기의 콘크리트 방 중앙에 매달려 있다. 방의 벽, 천장, 바닥에는 고휘도 아크 램프 조명이 아크릴 우리를 향해 직접 설치되어 있어, SCP-017이 항상 모든 각도에서 빛에 노출되도록 한다."
+      pl: "SCP-017 przechowywany jest w klatce ze szkła akrylowego o wymiarach 100 cm × 50 cm × 50 cm, zawieszonej pośrodku betonowego pomieszczenia o wymiarach 6 m × 6 m × 4 m. Do ścian, sufitu i podłogi pomieszczenia przymocowano reflektory łukowe o dużej mocy skierowane wprost na akrylową klatkę, tak aby SCP-017 był stale wystawiony na światło pod każdym kątem."
+      pt: "SCP-017 é contido em uma jaula de vidro acrílico de 100 cm × 50 cm × 50 cm, suspensa no centro de uma sala de concreto de 6 m × 6 m × 4 m. Nas paredes, no teto e no piso da sala estão fixados holofotes de lâmpada de arco de alta intensidade apontados diretamente para a jaula acrílica, para garantir que o SCP-017 esteja constantemente exposto à luz de todos os ângulos."
+      th: "SCP-017 ถูกกักเก็บไว้ในกรงแก้วอะคริลิกขนาด 100 ซม. × 50 ซม. × 50 ซม. แขวนอยู่กลางห้องคอนกรีตขนาด 6 ม. × 6 ม. × 4 ม. ที่ผนัง เพดาน และพื้นห้องติดตั้งสปอตไลต์หลอดอาร์กความเข้มสูงเล็งตรงมายังกรงอะคริลิก เพื่อให้ SCP-017 ถูกแสงส่องจากทุกทิศทางตลอดเวลา"
+      uk: "SCP-017 утримується в клітці з акрилового скла розміром 100 см × 50 см × 50 см, підвішеній посередині бетонної кімнати розміром 6 м × 6 м × 4 м. На стінах, стелі та підлозі кімнати закріплені потужні дугові прожектори, спрямовані прямо на акрилову клітку, щоб SCP-017 постійно був освітлений з усіх боків."
+      vi: "SCP-017 được lưu giữ trong một lồng kính acrylic kích thước 100 cm × 50 cm × 50 cm, treo ở giữa một căn phòng bê tông kích thước 6 m × 6 m × 4 m. Trên các bức tường, trần và sàn phòng gắn những đèn pha hồ quang cường độ cao chiếu thẳng vào lồng acrylic, nhằm bảo đảm SCP-017 luôn bị chiếu sáng từ mọi góc độ."
+      zh: "SCP-017收容于一个100厘米×50厘米×50厘米的亚克力玻璃笼中，悬吊在一间6米×6米×4米的混凝土房间中央。房间的墙壁、天花板和地面均装有高强度弧光灯聚光灯，直接对准亚克力笼，以确保SCP-017始终从各个角度受到光照。"
+      zh_Hant: "SCP-017收容於一個100公分×50公分×50公分的壓克力玻璃籠中，懸吊在一間6公尺×6公尺×4公尺的混凝土房間中央。房間的牆壁、天花板和地面均裝有高強度弧光燈聚光燈，直接對準壓克力籠，以確保SCP-017始終從各個角度受到光照。"
+
+  - scene: >
+      Medium shot, waist-up, in a dim control room. A wall of small
+      indicator lights and two CRT monitors show the brightly lit cage.
+      Attending Researcher (Male) sits at the console, half-risen from his
+      chair, pointing at one indicator that has gone dark while reaching
+      for an intercom handset with the other hand.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "SCP-017管制室に配属された職員は、スポットライトおよび非常用発電システムの機能を監視し、電球切れや発電機の不具合を把握し次第、直ちに保守を要請すること。"
+      en: "Personnel assigned to the SCP-017 control room are to monitor the functionality of the spotlights and the emergency generator system and call for maintenance immediately upon knowledge of a burnt-out lamp or an issue with the generator."
+      cs: "Personál přidělený do řídicí místnosti SCP-017 má sledovat funkčnost reflektorů a nouzového generátorového systému a okamžitě si vyžádat údržbu, jakmile se dozví o vyhořelé žárovce nebo o problému s generátorem."
+      de: "Das dem SCP-017-Kontrollraum zugewiesene Personal hat die Funktionsfähigkeit der Scheinwerfer und des Notstromaggregatsystems zu überwachen und bei Kenntnis einer durchgebrannten Lampe oder eines Problems mit dem Generator sofort die Wartung anzufordern."
+      es: "El personal asignado a la sala de control de SCP-017 debe vigilar el funcionamiento de los focos y del sistema de generador de emergencia y solicitar mantenimiento de inmediato al tener conocimiento de una lámpara fundida o de un problema con el generador."
+      fr: "Le personnel affecté à la salle de contrôle de SCP-017 doit surveiller le bon fonctionnement des projecteurs et du système de générateur de secours et demander immédiatement une maintenance dès qu'il a connaissance d'une lampe grillée ou d'un problème avec le générateur."
+      it: "Il personale assegnato alla sala di controllo di SCP-017 deve monitorare il funzionamento dei faretti e del sistema di generatore di emergenza e richiedere immediatamente la manutenzione non appena venga a conoscenza di una lampada bruciata o di un problema al generatore."
+      ko: "SCP-017 관제실에 배정된 인원은 조명과 비상 발전기 시스템의 작동 상태를 감시하고, 램프 소손이나 발전기 이상을 인지하는 즉시 정비를 요청해야 한다."
+      pl: "Personel przydzielony do sterowni SCP-017 ma monitorować sprawność reflektorów oraz awaryjnego systemu generatora i natychmiast wzywać serwis, gdy tylko dowie się o przepalonej lampie lub o problemie z generatorem."
+      pt: "O pessoal designado para a sala de controle de SCP-017 deve monitorar o funcionamento dos holofotes e do sistema de gerador de emergência e solicitar manutenção imediatamente ao tomar conhecimento de uma lâmpada queimada ou de um problema com o gerador."
+      th: "เจ้าหน้าที่ที่ได้รับมอบหมายให้ประจำห้องควบคุม SCP-017 ต้องเฝ้าติดตามการทำงานของสปอตไลต์และระบบเครื่องกำเนิดไฟฟ้าสำรอง และร้องขอการซ่อมบำรุงทันทีเมื่อทราบว่ามีหลอดไฟขาดหรือเครื่องกำเนิดไฟฟ้ามีปัญหา"
+      uk: "Персонал, призначений до диспетчерської SCP-017, має стежити за справністю прожекторів і системи аварійного генератора та негайно викликати технічне обслуговування, щойно стане відомо про перегорілу лампу або несправність генератора."
+      vi: "Nhân viên được phân công vào phòng điều khiển SCP-017 phải theo dõi hoạt động của các đèn pha và hệ thống máy phát điện khẩn cấp, và yêu cầu bảo trì ngay lập tức khi biết có một bóng đèn cháy hoặc sự cố với máy phát điện."
+      zh: "分配到SCP-017控制室的人员须监控聚光灯和应急发电机系统的运作情况，一旦得知有灯泡烧坏或发电机出现问题，应立即申请维修。"
+      zh_Hant: "分配到SCP-017控制室的人員須監控聚光燈和應急發電機系統的運作情況，一旦得知有燈泡燒壞或發電機出現問題，應立即申請維修。"
+
+  - scene: >
+      Extreme close-up. Inside the acrylic box, the featureless
+      smoke-shrouded child figure of SCP-017 is pressed close to the
+      glass, soft dark wisps curling off its shoulders, the harsh light
+      making its edges glow faintly.
+    characters: [scp-017]
+    caption:
+      ja: "SCP-017は身長およそ80センチメートルの人型の存在であり、解剖学的には幼い子供に似ているが、識別できるような特徴は一切ない。SCP-017は、影のような煙状の覆いで構成されているように見える。"
+      en: "SCP-017 is a humanoid figure approximately 80 centimeters in height, anatomically similar to a small child, but with no discernible identifying features. SCP-017 seems to be composed of a shadowy, smoke-like shroud."
+      cs: "SCP-017 je humanoidní postava vysoká přibližně 80 centimetrů, anatomicky podobná malému dítěti, ale bez jakýchkoli rozpoznatelných identifikačních znaků. Zdá se, že SCP-017 je tvořen stínovým, kouři podobným závojem."
+      de: "SCP-017 ist eine humanoide Gestalt von etwa 80 Zentimetern Höhe, anatomisch einem kleinen Kind ähnlich, jedoch ohne erkennbare identifizierende Merkmale. SCP-017 scheint aus einer schattenhaften, rauchartigen Hülle zu bestehen."
+      es: "SCP-017 es una figura humanoide de aproximadamente 80 centímetros de altura, anatómicamente similar a un niño pequeño, pero sin rasgos identificativos perceptibles. SCP-017 parece estar compuesto por un velo umbrío similar al humo."
+      fr: "SCP-017 est une silhouette humanoïde d'environ 80 centimètres de haut, anatomiquement semblable à un jeune enfant, mais sans aucun trait identifiable perceptible. SCP-017 semble être composé d'un voile ténébreux semblable à de la fumée."
+      it: "SCP-017 è una figura umanoide alta circa 80 centimetri, anatomicamente simile a un bambino piccolo, ma priva di caratteristiche identificative distinguibili. SCP-017 sembra essere composto da un velo oscuro simile a fumo."
+      ko: "SCP-017은 신장 약 80센티미터의 인간형 존재로, 해부학적으로는 어린아이와 유사하나 식별 가능한 특징이 전혀 없다. SCP-017은 그림자 같은 연기 형태의 장막으로 이루어진 것으로 보인다."
+      pl: "SCP-017 to humanoidalna postać o wzroście około 80 centymetrów, anatomicznie podobna do małego dziecka, lecz pozbawiona jakichkolwiek rozpoznawalnych cech. SCP-017 zdaje się być utworzony z cienistej, dymopodobnej powłoki."
+      pt: "SCP-017 é uma figura humanoide de aproximadamente 80 centímetros de altura, anatomicamente semelhante a uma criança pequena, mas sem características identificáveis perceptíveis. SCP-017 parece ser composto por um véu sombrio semelhante a fumaça."
+      th: "SCP-017 เป็นร่างมนุษย์สูงประมาณ 80 เซนติเมตร มีลักษณะทางกายวิภาคคล้ายเด็กเล็ก แต่ไม่มีลักษณะบ่งชี้ที่แยกแยะได้เลย SCP-017 ดูเหมือนประกอบขึ้นจากม่านคล้ายควันมืดทึบ"
+      uk: "SCP-017 — це людиноподібна постать заввишки приблизно 80 сантиметрів, анатомічно схожа на малу дитину, але без жодних помітних розпізнавальних рис. Здається, що SCP-017 складається з тіньової, схожої на дим завіси."
+      vi: "SCP-017 là một hình dạng người cao khoảng 80 xăng-ti-mét, về giải phẫu tương tự một đứa trẻ nhỏ, nhưng không có đặc điểm nhận dạng nào có thể phân biệt được. SCP-017 dường như được cấu thành từ một lớp màn tối tựa như khói."
+      zh: "SCP-017是一个约80厘米高的人形存在，解剖结构类似幼童，但没有任何可辨识的特征。SCP-017似乎由一层影子般的烟雾状帷幕构成。"
+      zh_Hant: "SCP-017是一個約80公分高的人形存在，解剖結構類似幼童，但沒有任何可辨識的特徵。SCP-017似乎由一層影子般的煙霧狀帷幕構成。"
+
+  - scene: >
+      Low-angle shot. On the left side of the frame, Attending Researcher
+      (Male) stands on a stepladder replacing a burnt-out arc lamp high on
+      the wall, wearing a complete full-body suit with a smooth
+      mirror-finish reflective surface over the whole body and a
+      reflective full hood with a small visor, gloves and boots, no bare
+      skin visible. His long dark shadow stretches across the concrete
+      floor and stops just short of the suspended acrylic cage in the
+      center, where SCP-017 leans sharply toward the shadow's leading
+      edge.
+    characters: [attending-researcher-m, scp-017]
+    caption:
+      ja: "自らに影が落とされたときのSCP-017の反応は、即座かつ迅速である。SCP-017はその影を落としている物体に飛びかかり、覆いで完全に包み込み、その後、通常の大きさに戻る。あとには物体の痕跡は一切残らない。"
+      en: "SCP-017's reaction to shadows cast upon it is immediate and swift. SCP-017 leaps at the object casting the shadow and completely encloses it in its shroud, whereupon it returns to its normal size, leaving no trace of the object behind."
+      cs: "Reakce SCP-017 na stín, který na něj dopadne, je okamžitá a rychlá. SCP-017 se vrhne na předmět vrhající stín a zcela jej uzavře do svého závoje, načež se vrátí do své normální velikosti a po předmětu nezůstane žádná stopa."
+      de: "SCP-017 reagiert auf einen auf ihn geworfenen Schatten sofort und blitzschnell. SCP-017 springt auf das Objekt zu, das den Schatten wirft, und umschließt es vollständig mit seiner Hülle, woraufhin es zu seiner normalen Größe zurückkehrt und keine Spur des Objekts zurückbleibt."
+      es: "La reacción de SCP-017 ante las sombras proyectadas sobre él es inmediata y veloz. SCP-017 salta hacia el objeto que proyecta la sombra y lo envuelve por completo en su velo, tras lo cual recupera su tamaño normal, sin dejar rastro alguno del objeto."
+      fr: "La réaction de SCP-017 aux ombres projetées sur lui est immédiate et rapide. SCP-017 bondit sur l'objet projetant l'ombre et l'enveloppe entièrement dans son voile, après quoi il retrouve sa taille normale, sans laisser la moindre trace de l'objet."
+      it: "La reazione di SCP-017 alle ombre proiettate su di esso è immediata e rapida. SCP-017 balza sull'oggetto che proietta l'ombra e lo racchiude completamente nel proprio velo, dopodiché torna alle sue dimensioni normali, senza lasciare alcuna traccia dell'oggetto."
+      ko: "자신에게 그림자가 드리워질 때 SCP-017의 반응은 즉각적이고 신속하다. SCP-017은 그림자를 드리운 물체를 향해 도약하여 그것을 장막으로 완전히 감싸며, 그 후 원래 크기로 돌아오고 물체의 흔적은 전혀 남지 않는다."
+      pl: "Reakcja SCP-017 na padający na niego cień jest natychmiastowa i błyskawiczna. SCP-017 rzuca się na obiekt rzucający cień i całkowicie otacza go swoją powłoką, po czym wraca do normalnych rozmiarów, nie pozostawiając po obiekcie żadnego śladu."
+      pt: "A reação do SCP-017 às sombras projetadas sobre ele é imediata e rápida. O SCP-017 salta sobre o objeto que projeta a sombra e o envolve por completo em seu véu, após o que retorna ao seu tamanho normal, sem deixar qualquer vestígio do objeto."
+      th: "ปฏิกิริยาของ SCP-017 ต่อเงาที่ทอดลงมาบนตัวมันนั้นเกิดขึ้นทันทีและรวดเร็ว SCP-017 จะพุ่งเข้าหาวัตถุที่ทอดเงานั้นและห่อหุ้มมันไว้ในม่านของตนจนมิด จากนั้นจึงกลับสู่ขนาดปกติ โดยไม่หลงเหลือร่องรอยของวัตถุไว้เลย"
+      uk: "Реакція SCP-017 на тінь, що падає на нього, миттєва та стрімка. SCP-017 кидається на предмет, який відкидає тінь, і повністю огортає його своєю завісою, після чого повертається до звичайного розміру, не залишаючи від предмета жодного сліду."
+      vi: "Phản ứng của SCP-017 với bóng đổ lên nó diễn ra tức thì và nhanh chóng. SCP-017 lao vào vật thể tạo ra bóng và bao trọn nó trong lớp màn của mình, sau đó trở lại kích thước bình thường, không để lại dấu vết nào của vật thể."
+      zh: "SCP-017对投射在其身上的影子的反应立即而迅速。SCP-017会扑向投下影子的物体，用其帷幕将其完全包裹，随后恢复至正常大小，不留下该物体的任何痕迹。"
+      zh_Hant: "SCP-017對投射在其身上的影子的反應立即而迅速。SCP-017會撲向投下影子的物體，用其帷幕將其完全包裹，隨後恢復至正常大小，不留下該物體的任何痕跡。"

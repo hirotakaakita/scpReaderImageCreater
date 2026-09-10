@@ -1,0 +1,172 @@
+# SCP-028 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 文書EL-028-1125・SCP-1995関連の伏字部分は本編には使わない。
+# キャラにセリフは言わせない。
+#
+# 4コマ構成: 1=ミシガン州の廃資材置き場、物理的実体はないが一辺2.1mの
+# 立方体に効果(起)、2=中に入ると3〜6秒で無作為な主題の完全な知識を得る(承)、
+# 3=出入りで繰り返せるが2回以降は強い偏頭痛とめまい(転)、
+# 4=地元の鉱夫が常温核融合炉の設計を特許庁に提出したのが発端(結)。
+
+id: scp-028
+
+title:
+  en: "SCP-028"
+  ja: "SCP-028"
+  cs: "SCP-028"
+  de: "SCP-028"
+  es: "SCP-028"
+  fr: "SCP-028"
+  it: "SCP-028"
+  ko: "SCP-028"
+  pl: "SCP-028"
+  pt: "SCP-028"
+  th: "SCP-028"
+  uk: "SCP-028"
+  vi: "SCP-028"
+  zh: "SCP-028"
+  zh_Hant: "SCP-028"
+
+attribution:
+  article: "SCP-028"
+  source_url: "http://scp-wiki.wikidot.com/scp-028"
+  author: "Dr Gears"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  local-miner:
+    name: Local Miner
+    appearance: >
+      A stocky middle-aged copper miner with a weathered, sun-creased
+      face, a bushy graying mustache (color RGB 120,110,105), and broad
+      calloused hands.
+    default_look: >
+      A dirt-smudged canvas work jacket, suspenders, heavy boots, and a
+      battered hard hat with a lamp bracket and no markings, wearing an
+      elated grin.
+
+characters: [attending-researcher-m, attending-researcher-f, d-class, local-miner]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, establishing view of a junk-strewn
+      abandoned storage yard with a rusted copper-mine headframe on the
+      horizon under an overcast sky. In the middle of the yard, thin rope
+      strung between four wooden stakes marks out an empty cubic volume
+      with nothing inside it. On the right side of the frame,
+      attending-researcher-m stands at the rope waving a handheld scanner
+      over the empty space, its needle flat at zero.
+    characters: [attending-researcher-m]
+    notes: >
+      根拠: Description第1段落「ミシガン州北部の銅鉱山外れの廃資材置き場。
+      検出可能な物理的実体はないが、『中心』とされる点を囲む一辺2.1mの立方体内で
+      効果が発生」。変えてはいけない事実: 物理的実体なし、一辺2.1mの立方体、
+      廃資材置き場という立地。変更可能: 立方体の可視化方法(ロープ/杭)、機材。
+    caption:
+      ja: "SCP-028は、ミシガン州北部の銅鉱山の外れにある廃棄された資材置き場に存在する。SCP-028には検出可能な物理的実体は一切ないが、その効果はSCP-028の『中心』とされる点を囲む一辺2.1メートルの立方体内で発生する。"
+      en: "SCP-028 is located in an abandoned storage yard outside a copper mine in northern Michigan. SCP-028 has no detectable physical presence of any kind, but its effect occurs in a 2.1 meter cube around what is commonly held as the 'center' of SCP-028."
+      cs: "SCP-028 se nachází na opuštěném skladovém dvoře poblíž měděného dolu v severním Michiganu. SCP-028 nemá žádnou zjistitelnou fyzickou přítomnost, ale jeho účinek nastává v krychli o hraně 2,1 metru kolem bodu obecně považovaného za „střed“ SCP-028."
+      de: "SCP-028 befindet sich auf einem verlassenen Lagerplatz außerhalb eines Kupferbergwerks im Norden Michigans. SCP-028 hat keinerlei nachweisbare physische Präsenz, doch seine Wirkung tritt in einem Würfel von 2,1 Metern Kantenlänge um den allgemein als „Zentrum“ von SCP-028 angesehenen Punkt auf."
+      es: "SCP-028 se encuentra en un depósito de almacenamiento abandonado a las afueras de una mina de cobre en el norte de Michigan. SCP-028 no tiene ninguna presencia física detectable, pero su efecto se produce en un cubo de 2,1 metros de lado alrededor de lo que se considera comúnmente el «centro» de SCP-028."
+      fr: "Le SCP-028 se situe dans une cour de stockage abandonnée à l'extérieur d'une mine de cuivre du nord du Michigan. Le SCP-028 n'a aucune présence physique détectable, mais son effet se produit dans un cube de 2,1 mètres de côté autour de ce qui est communément considéré comme le « centre » du SCP-028."
+      it: "SCP-028 si trova in un deposito abbandonato all'esterno di una miniera di rame nel nord del Michigan. SCP-028 non ha alcuna presenza fisica rilevabile, ma il suo effetto si manifesta in un cubo di 2,1 metri di lato attorno a quello che è comunemente ritenuto il «centro» di SCP-028."
+      ko: "SCP-028은 미시간 주 북부의 구리 광산 외곽에 있는 버려진 자재 야적장에 존재한다. SCP-028은 감지 가능한 물리적 실체가 전혀 없지만, 그 효과는 SCP-028의 '중심'으로 통상 여겨지는 지점을 둘러싼 한 변 2.1미터의 정육면체 안에서 발생한다."
+      pl: "SCP-028 znajduje się na opuszczonym składowisku na obrzeżach kopalni miedzi w północnym Michigan. SCP-028 nie ma żadnej wykrywalnej obecności fizycznej, lecz jego efekt występuje w sześcianie o boku 2,1 metra wokół punktu powszechnie uważanego za „środek“ SCP-028."
+      pt: "O SCP-028 está localizado em um pátio de armazenamento abandonado nos arredores de uma mina de cobre no norte de Michigan. O SCP-028 não tem nenhuma presença física detectável, mas seu efeito ocorre em um cubo de 2,1 metros de lado em torno do que é comumente considerado o «centro» do SCP-028."
+      th: "SCP-028 ตั้งอยู่ในลานเก็บของร้างนอกเหมืองทองแดงทางตอนเหนือของรัฐมิชิแกน SCP-028 ไม่มีตัวตนทางกายภาพที่ตรวจจับได้แต่อย่างใด แต่ผลของมันเกิดขึ้นภายในลูกบาศก์ขนาดด้านละ 2.1 เมตร รอบจุดที่โดยทั่วไปถือกันว่าเป็น 'ศูนย์กลาง' ของ SCP-028"
+      uk: "SCP-028 розташований на покинутому складському майданчику поблизу мідної шахти на півночі штату Мічиган. SCP-028 не має жодної виявної фізичної присутності, але його ефект виникає в кубі зі стороною 2,1 метра навколо точки, яку зазвичай вважають «центром» SCP-028."
+      vi: "SCP-028 nằm trong một bãi chứa bị bỏ hoang bên ngoài một mỏ đồng ở phía bắc bang Michigan. SCP-028 không có bất kỳ sự hiện diện vật lý nào có thể phát hiện được, nhưng hiệu ứng của nó xảy ra trong một khối lập phương cạnh 2,1 mét quanh điểm thường được coi là 'trung tâm' của SCP-028."
+      zh: "SCP-028位于密歇根州北部一座铜矿外一处废弃的堆料场。SCP-028不具有任何可探测的物理实体，但其效应发生在环绕SCP-028通常所认定「中心」的一个边长2.1米的立方体范围内。"
+      zh_Hant: "SCP-028位於密西根州北部一座銅礦外一處廢棄的堆料場。SCP-028不具有任何可探測的物理實體，但其效應發生在環繞SCP-028通常所認定「中心」的一個邊長2.1公尺的立方體範圍內。"
+
+  - scene: >
+      Medium shot, waist-up, three-quarter angle, a different framing from
+      the wide shot. On the left side of the frame, d-class steps across
+      the rope boundary mid-stride, eyes suddenly going wide and distant as
+      a realization lands. On the right side of the frame,
+      attending-researcher-f stands just outside the rope with a stopwatch
+      raised and a clipboard, watching closely.
+    characters: [d-class, attending-researcher-f]
+    notes: >
+      根拠: Description第2段落「『入った』被験者は3〜6秒以内にある主題の完全な
+      知識に見舞われる。知識は規模も有用性も完全にランダムで、長期間気づかれ
+      ないこともある」。変えてはいけない事実: 数秒で無作為な主題の完全な知識を
+      得ること。変更可能: 立方体に入る動作、研究者の計測の演出。
+    caption:
+      ja: "SCP-028に『入った』被験者は、3〜6秒以内に、あるひとつの主題に関する完全かつ余すところのない知識に見舞われる。この知識は今のところ、規模も有用性も完全にランダムであり、長期間気づかれないままのこともある。"
+      en: "Subjects 'entering' SCP-028 are, within three to six seconds, struck by total and complete knowledge of a subject. This knowledge is thus far completely random in both size and usefulness, and sometimes goes unnoticed for extended periods of time."
+      cs: "Subjekty, které do SCP-028 „vstoupí“, jsou během tří až šesti sekund zasaženy naprostou a úplnou znalostí nějakého tématu. Tato znalost je zatím zcela náhodná co do rozsahu i užitečnosti a někdy zůstává dlouhou dobu nepovšimnuta."
+      de: "Subjekte, die SCP-028 „betreten“, werden innerhalb von drei bis sechs Sekunden von einem vollständigen und lückenlosen Wissen über ein Thema getroffen. Dieses Wissen ist bislang in Umfang und Nutzen völlig zufällig und bleibt manchmal über längere Zeit unbemerkt."
+      es: "Los sujetos que «entran» en SCP-028 son alcanzados, en un plazo de tres a seis segundos, por un conocimiento total y completo sobre un tema. Hasta ahora, este conocimiento es completamente aleatorio tanto en magnitud como en utilidad, y a veces pasa desapercibido durante largos periodos."
+      fr: "Les sujets qui « pénètrent » dans le SCP-028 sont frappés, en trois à six secondes, par une connaissance totale et complète d'un sujet. Cette connaissance est jusqu'à présent entièrement aléatoire tant par son ampleur que par son utilité, et passe parfois inaperçue pendant de longues périodes."
+      it: "I soggetti che «entrano» in SCP-028 vengono colpiti, entro tre-sei secondi, da una conoscenza totale e completa di un argomento. Finora questa conoscenza è del tutto casuale sia per entità sia per utilità, e a volte passa inosservata per lunghi periodi."
+      ko: "SCP-028에 '들어간' 피험자는 3~6초 이내에 어떤 한 주제에 관한 완전하고 빠짐없는 지식에 사로잡힌다. 이 지식은 지금까지 규모와 유용성 모두 완전히 무작위이며, 때로는 오랜 기간 알아채지 못하기도 한다."
+      pl: "Osoby, które „wchodzą“ do SCP-028, w ciągu trzech do sześciu sekund zostają porażone pełną i całkowitą wiedzą na jakiś temat. Wiedza ta jest jak dotąd całkowicie losowa zarówno co do rozmiaru, jak i przydatności, a czasem przez długi czas pozostaje niezauważona."
+      pt: "Os sujeitos que «entram» no SCP-028 são atingidos, em três a seis segundos, por um conhecimento total e completo sobre um assunto. Até agora, esse conhecimento é completamente aleatório tanto em extensão quanto em utilidade, e às vezes passa despercebido por longos períodos."
+      th: "ผู้ถูกทดสอบที่ 'เข้าสู่' SCP-028 จะถูกความรู้ที่สมบูรณ์และครบถ้วนเกี่ยวกับเรื่องใดเรื่องหนึ่งเข้าครอบงำภายในสามถึงหกวินาที ความรู้นี้จนถึงขณะนี้สุ่มโดยสิ้นเชิงทั้งในด้านขนาดและประโยชน์ และบางครั้งก็ไม่ถูกสังเกตเห็นเป็นเวลานาน"
+      uk: "Суб'єкти, які «входять» до SCP-028, протягом трьох-шести секунд отримують повне й вичерпне знання про якусь тему. Це знання наразі цілком випадкове як за обсягом, так і за корисністю, і іноді лишається непоміченим тривалий час."
+      vi: "Các đối tượng 'bước vào' SCP-028 sẽ, trong vòng ba đến sáu giây, bị ập đến một sự hiểu biết toàn diện và đầy đủ về một chủ đề. Cho đến nay, kiến thức này hoàn toàn ngẫu nhiên cả về quy mô lẫn tính hữu ích, và đôi khi không được nhận ra trong thời gian dài."
+      zh: "『进入』SCP-028的受试者，会在三至六秒内被某一主题的全部而完整的知识击中。目前这种知识在规模和用处上都完全随机，有时会长期未被察觉。"
+      zh_Hant: "『進入』SCP-028的受試者，會在三至六秒內被某一主題的全部而完整的知識擊中。目前這種知識在規模和用處上都完全隨機，有時會長期未被察覺。"
+
+  - scene: >
+      Close-up, waist-up, eye level, a different framing from the previous
+      panels. On the left side of the frame, attending-researcher-m firmly
+      holds d-class back by one shoulder. On the right side of the frame,
+      d-class leans toward the roped cube with both hands pressed to his
+      temples, face screwed up in pain, clearly wanting to go in again.
+    characters: [attending-researcher-m, d-class]
+    notes: >
+      根拠: Description第2段落「出入りを繰り返せば効果は複数回体験できるが、
+      2回の曝露以降は次第に強い偏頭痛とめまいを引き起こすことがある」。
+      変えてはいけない事実: 繰り返し可能だが2回以降に頭痛・めまいが強まること。
+      変更可能: 制止の演出、被験者の反応。
+    caption:
+      ja: "この効果は、SCP-028から出て再び入ることで複数回体験できるが、2回の曝露以降は次第に強い偏頭痛とめまいを引き起こすことがある。"
+      en: "This Effect can be experienced multiple times by exiting and re-entering SCP-028, but can result in increasingly strong migraines and dizziness after two exposures."
+      cs: "Tento účinek lze zažít vícekrát tak, že se ze SCP-028 vyjde a znovu vstoupí, ale po dvou expozicích může způsobovat čím dál silnější migrény a závratě."
+      de: "Dieser Effekt kann mehrfach erlebt werden, indem man SCP-028 verlässt und erneut betritt, kann jedoch nach zwei Expositionen zunehmend starke Migräne und Schwindel hervorrufen."
+      es: "Este efecto puede experimentarse varias veces saliendo y volviendo a entrar en SCP-028, pero puede provocar migrañas y mareos cada vez más intensos después de dos exposiciones."
+      fr: "Cet effet peut être ressenti plusieurs fois en sortant du SCP-028 puis en y entrant de nouveau, mais il peut entraîner des migraines et des vertiges de plus en plus intenses après deux expositions."
+      it: "Questo effetto può essere sperimentato più volte uscendo da SCP-028 e rientrandovi, ma dopo due esposizioni può provocare emicranie e vertigini sempre più intense."
+      ko: "이 효과는 SCP-028에서 나갔다가 다시 들어감으로써 여러 차례 경험할 수 있으나, 2회 노출 이후에는 점점 더 심한 편두통과 어지럼증을 일으킬 수 있다."
+      pl: "Efekt ten można doświadczyć wielokrotnie, wychodząc z SCP-028 i ponownie do niego wchodząc, ale po dwóch ekspozycjach może powodować coraz silniejsze migreny i zawroty głowy."
+      pt: "Esse efeito pode ser experimentado várias vezes saindo e voltando a entrar no SCP-028, mas pode resultar em enxaquecas e tonturas cada vez mais fortes após duas exposições."
+      th: "ผลนี้สามารถสัมผัสได้หลายครั้งด้วยการออกจาก SCP-028 แล้วกลับเข้าไปใหม่ แต่หลังจากได้รับสองครั้งอาจทำให้เกิดอาการไมเกรนและวิงเวียนที่รุนแรงขึ้นเรื่อย ๆ"
+      uk: "Цей ефект можна відчути кілька разів, виходячи із SCP-028 і заходячи знову, але після двох впливів він може спричиняти дедалі сильніші мігрені та запаморочення."
+      vi: "Hiệu ứng này có thể trải nghiệm nhiều lần bằng cách ra khỏi SCP-028 rồi vào lại, nhưng có thể gây ra chứng đau nửa đầu và chóng mặt ngày càng nặng sau hai lần phơi nhiễm."
+      zh: "通过离开并再次进入SCP-028，可多次体验此效应，但在两次接触之后可能引发日益强烈的偏头痛和眩晕。"
+      zh_Hant: "透過離開並再次進入SCP-028，可多次體驗此效應，但在兩次接觸之後可能引發日益強烈的偏頭痛和眩暈。"
+
+  - scene: >
+      Medium shot, waist-up, slightly low angle, a different framing from
+      the previous panels, set in a plain office room. On the left side of
+      the frame, local-miner proudly unrolls a large hand-drawn technical
+      blueprint covered in illegible diagrams. On the right side of the
+      frame, attending-researcher-f leans in studying it with wide,
+      startled eyes.
+    characters: [local-miner, attending-researcher-f]
+    notes: >
+      根拠: Description第3段落「地元の鉱夫が米国特許庁に常温核融合炉の設計を
+      提出したという報道の調査から財団の注意を引いた。███氏は『まるで青天の
+      霹靂のようにふっと浮かんだ』と述べた」。画像に文字は描かせないため設計図の
+      図面は判読不能な線画。変えてはいけない事実: 鉱夫が常温核融合炉の設計を
+      特許庁に出したこと。変更可能: 設計図の見せ方、研究者の反応。
+    caption:
+      ja: "SCP-028は、地元の鉱夫が米国特許庁に常温核融合炉の設計を提出したという報道の調査を通じて、財団の注意を引くこととなった。███氏は「まるで青天の霹靂みたいに、ふっと頭に浮かんだんだ！」と語った。"
+      en: "SCP-028 came to the Foundation's attention after research into news reports of a local miner who submitted a design for a cold-fusion reactor to the US patent office. Mr. ███ reported that it 'just came to me, like a bolt outta the blue!'"
+      cs: "SCP-028 se dostalo do pozornosti Nadace po prošetření zpráv o místním horníkovi, který podal na americký patentový úřad návrh reaktoru na studenou fúzi. Pan ███ uvedl, že ho to „prostě napadlo, jako blesk z čistého nebe!“"
+      de: "SCP-028 geriet ins Blickfeld der Foundation, nachdem Nachrichtenberichten über einen ortsansässigen Bergarbeiter nachgegangen wurde, der beim US-Patentamt einen Entwurf für einen Kaltfusionsreaktor einreichte. Herr ███ berichtete, es sei ihm „einfach eingefallen, wie ein Blitz aus heiterem Himmel!“"
+      es: "SCP-028 llamó la atención de la Fundación tras la investigación de noticias sobre un minero local que presentó ante la oficina de patentes de EE. UU. el diseño de un reactor de fusión fría. El Sr. ███ declaró que «simplemente se me ocurrió, ¡como un rayo caído del cielo!»"
+      fr: "Le SCP-028 est parvenu à l'attention de la Fondation après enquête sur des articles de presse concernant un mineur local ayant déposé auprès du bureau américain des brevets les plans d'un réacteur à fusion froide. M. ███ a rapporté que cela lui était « juste venu, comme un éclair dans un ciel serein ! »"
+      it: "SCP-028 giunse all'attenzione della Fondazione dopo l'indagine su notizie riguardanti un minatore locale che aveva presentato all'ufficio brevetti statunitense il progetto di un reattore a fusione fredda. Il sig. ███ riferì che gli era «semplicemente venuto in mente, come un fulmine a ciel sereno!»"
+      ko: "SCP-028은 지역 광부가 미국 특허청에 상온 핵융합로 설계를 제출했다는 언론 보도를 조사하는 과정에서 재단의 주목을 받게 되었다. ███ 씨는 그것이 '마른하늘에 날벼락처럼 그냥 떠올랐다!'고 진술했다."
+      pl: "SCP-028 zwróciło uwagę Fundacji po zbadaniu doniesień prasowych o miejscowym górniku, który złożył w amerykańskim urzędzie patentowym projekt reaktora zimnej fuzji. Pan ███ zeznał, że „po prostu mi to przyszło do głowy, jak grom z jasnego nieba!“"
+      pt: "O SCP-028 chamou a atenção da Fundação após a investigação de notícias sobre um minerador local que apresentou ao escritório de patentes dos EUA o projeto de um reator de fusão a frio. O Sr. ███ relatou que aquilo «simplesmente me veio, como um raio em céu azul!»"
+      th: "SCP-028 เข้าสู่ความสนใจของมูลนิธิหลังจากการตรวจสอบข่าวเกี่ยวกับคนงานเหมืองท้องถิ่นที่ยื่นแบบเครื่องปฏิกรณ์ฟิวชันเย็นต่อสำนักงานสิทธิบัตรสหรัฐฯ นาย ███ เล่าว่ามัน 'ผุดขึ้นมาเฉย ๆ เหมือนฟ้าผ่ากลางวันแสก ๆ!'"
+      uk: "SCP-028 привернув увагу Фонду після розслідування повідомлень ЗМІ про місцевого шахтаря, який подав до патентного відомства США проєкт реактора холодного синтезу. Пан ███ розповів, що це «просто спало на думку, як грім серед ясного неба!»"
+      vi: "SCP-028 lọt vào tầm chú ý của Tổ Chức sau khi điều tra các bản tin về một thợ mỏ địa phương đã nộp cho văn phòng sáng chế Hoa Kỳ thiết kế một lò phản ứng nhiệt hạch lạnh. Ông ███ kể rằng nó 'cứ thế hiện ra trong đầu, như sét đánh giữa trời quang!'"
+      zh: "SCP-028是在调查有关一名当地矿工向美国专利局提交冷聚变反应堆设计的新闻报道后，引起基金会注意的。███先生称，那设计「就这么冒出来了，像晴天霹雳一样！」"
+      zh_Hant: "SCP-028是在調查有關一名當地礦工向美國專利局提交冷聚變反應堆設計的新聞報導後，引起基金會注意的。███先生稱，那設計「就這麼冒出來了，像晴天霹靂一樣！」"

@@ -1,0 +1,185 @@
+# SCP-044 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Safe再分類の記述はaddendum欄に留める。キャラにセリフは言わせない。画像に文字は描かせない。
+
+id: scp-044
+
+title:
+  en: "SCP-044"
+  ja: "SCP-044"
+  cs: "SCP-044"
+  de: "SCP-044"
+  es: "SCP-044"
+  fr: "SCP-044"
+  it: "SCP-044"
+  ko: "SCP-044"
+  pl: "SCP-044"
+  pt: "SCP-044"
+  th: "SCP-044"
+  uk: "SCP-044"
+  vi: "SCP-044"
+  zh: "SCP-044"
+  zh_Hant: "SCP-044"
+
+attribution:
+  article: "SCP-044"
+  author: "FritzWillie"
+  source_url: "http://scp-wiki.wikidot.com/scp-044"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+characters: [attending-researcher-m, attending-researcher-f, d-class]
+
+panels:
+  - scene: >
+      Wide establishing shot, low angle, inside a cavernous concrete
+      bunker. A colossal railway howitzer fills the frame: an enormous
+      artillery piece mounted on a heavy multi-axle rail carriage, its
+      long thick barrel angled upward, two steam locomotives coupled to
+      either end on the tracks. On the right side of the frame,
+      Attending Researcher (Male) stands near one of the huge wheels,
+      tiny by comparison, holding a clipboard. No text or insignia
+      anywhere.
+    characters: [attending-researcher-m]
+    notes: >
+      根拠: Description「SCP-044 is a howitzer, secretly manufactured in
+      the late stages of the Second World War by Krupp engineers,
+      personally supervised by Albert Speer. It weighs 251 metric tonnes
+      and is rail-mounted, requiring two locomotives for transport.」
+      変えてはいけない事実: 第二次大戦末期にクルップが極秘製造した榴弾砲、
+      重量251トン、鉄道搭載、輸送に機関車2両。
+      変更可能: バンカーの構図、研究者の位置。
+    caption:
+      ja: "SCP-044は、第二次世界大戦末期にアルベルト・シュペーアの直接監督のもと、クルップの技術者たちによって極秘裏に製造された榴弾砲である。重量は251メートルトンで鉄道に搭載されており、輸送には機関車2両を要する。"
+      en: "SCP-044 is a howitzer, secretly manufactured in the late stages of the Second World War by Krupp engineers, personally supervised by Albert Speer. It weighs 251 metric tonnes and is rail-mounted, requiring two locomotives for transport."
+      cs: "SCP-044 je houfnice tajně vyrobená v pozdních fázích druhé světové války inženýry firmy Krupp pod osobním dohledem Alberta Speera. Váží 251 metrických tun, je namontována na železnici a k přepravě vyžaduje dvě lokomotivy."
+      de: "SCP-044 ist eine Haubitze, die in der Spätphase des Zweiten Weltkriegs von Krupp-Ingenieuren unter der persönlichen Aufsicht von Albert Speer heimlich gefertigt wurde. Sie wiegt 251 metrische Tonnen, ist auf Schienen montiert und benötigt zwei Lokomotiven für den Transport."
+      es: "SCP-044 es un obús fabricado en secreto en las últimas etapas de la Segunda Guerra Mundial por ingenieros de Krupp, bajo la supervisión personal de Albert Speer. Pesa 251 toneladas métricas, está montado sobre raíles y requiere dos locomotoras para su transporte."
+      fr: "SCP-044 est un obusier fabriqué en secret dans les dernières phases de la Seconde Guerre mondiale par des ingénieurs de Krupp, sous la supervision personnelle d'Albert Speer. Il pèse 251 tonnes métriques, est monté sur rails et nécessite deux locomotives pour son transport."
+      it: "SCP-044 è un obice fabbricato segretamente nelle ultime fasi della Seconda guerra mondiale da ingegneri della Krupp, sotto la supervisione personale di Albert Speer. Pesa 251 tonnellate metriche, è montato su rotaia e richiede due locomotive per il trasporto."
+      ko: "SCP-044는 제2차 세계대전 말기에 알베르트 슈페어의 직접 감독 아래 크루프의 기술자들이 비밀리에 제조한 곡사포이다. 무게는 251미터톤이며 철도에 탑재되어 있어 운반에는 기관차 두 대가 필요하다."
+      pl: "SCP-044 to haubica wyprodukowana potajemnie w późnych fazach drugiej wojny światowej przez inżynierów firmy Krupp, pod osobistym nadzorem Alberta Speera. Waży 251 ton metrycznych, jest zamontowana na torach i do transportu wymaga dwóch lokomotyw."
+      pt: "SCP-044 é um obuseiro fabricado secretamente nas fases finais da Segunda Guerra Mundial por engenheiros da Krupp, sob a supervisão pessoal de Albert Speer. Pesa 251 toneladas métricas, é montado sobre trilhos e requer duas locomotivas para o transporte."
+      th: "SCP-044 เป็นปืนใหญ่วิถีโค้งที่ถูกผลิตขึ้นอย่างลับ ๆ ในช่วงปลายสงครามโลกครั้งที่สองโดยวิศวกรของบริษัทครุปป์ ภายใต้การกำกับดูแลด้วยตนเองของอัลเบิร์ท ชเปียร์ มันหนัก 251 เมตริกตัน ติดตั้งบนราง และต้องใช้หัวรถจักรสองคันในการเคลื่อนย้าย"
+      uk: "SCP-044 — гаубиця, таємно виготовлена на пізніх етапах Другої світової війни інженерами фірми Krupp під особистим наглядом Альберта Шпеєра. Вона важить 251 метричну тонну, змонтована на залізничній платформі й потребує двох локомотивів для транспортування."
+      vi: "SCP-044 là một khẩu lựu pháo được chế tạo bí mật vào giai đoạn cuối của Thế chiến thứ hai bởi các kỹ sư của hãng Krupp, dưới sự giám sát trực tiếp của Albert Speer. Nó nặng 251 tấn mét, được đặt trên đường ray và cần hai đầu máy xe lửa để vận chuyển."
+      zh: "SCP-044是一门榴弹炮，由克虏伯工程师在第二次世界大战后期，在阿尔伯特·施佩尔的亲自监督下秘密制造。它重达251公吨，安装于铁路之上，运输时需要两台机车。"
+      zh_Hant: "SCP-044是一門榴彈砲，由克虜伯工程師在第二次世界大戰後期，在阿爾伯特·施佩爾的親自監督下祕密製造。它重達251公噸，安裝於鐵路之上，運輸時需要兩臺機車。"
+
+  - scene: >
+      Medium shot, waist-up framing but pulled back enough to show a
+      gantry crane lowering a battered diesel pickup truck nose-first
+      into the enormous open muzzle of the howitzer. On the left side of
+      the frame, Attending Researcher (Male) points and signals
+      directions. On the right side of the frame, a D-Class Personnel
+      operates the crane control pendant. No text.
+    characters: [attending-researcher-m, d-class]
+    notes: >
+      根拠: Description「Rather than traditional shells, the weapon fires
+      unconventional artillery using an atypical delivery method.
+      Objects loaded into the muzzle are affected by processes that
+      weakens molecular and atomic bonds ... The largest documented test
+      involved firing an 8,900 kg diesel pickup truck.」
+      変えてはいけない事実: 通常の砲弾ではなく銃口から装填した物体を撃つ、
+      分子・原子結合を弱める作用、最大の試験は8,900kgのディーゼル・ピックアップ。
+      変更可能: クレーンや作業員の配置。
+    caption:
+      ja: "この兵器は、通常の砲弾ではなく、非定型の投射方法で異例の砲撃を行う。銃口に装填された物体は、分子結合および原子結合を弱める作用を受ける。記録に残る最大の試験では、8,900kgのディーゼル・ピックアップトラックが発射された。"
+      en: "Rather than traditional shells, the weapon fires unconventional artillery using an atypical delivery method. Objects loaded into the muzzle are affected by processes that weaken molecular and atomic bonds. The largest documented test involved firing an 8,900 kg diesel pickup truck."
+      cs: "Namísto tradičních granátů zbraň střílí nekonvenční munici netypickým způsobem dopravy. Předměty vložené do hlavně jsou vystaveny procesům, které oslabují molekulární a atomové vazby. Největší doložený test spočíval ve vystřelení dieselového pick-upu o hmotnosti 8 900 kg."
+      de: "Statt herkömmlicher Granaten verschießt die Waffe unkonventionelle Munition mit einer atypischen Zuführmethode. In die Mündung geladene Objekte werden von Prozessen beeinflusst, die molekulare und atomare Bindungen schwächen. Der größte dokumentierte Test bestand im Abfeuern eines 8.900 kg schweren Diesel-Pickups."
+      es: "En lugar de proyectiles tradicionales, el arma dispara munición poco convencional mediante un método de entrega atípico. Los objetos cargados en la boca del cañón se ven afectados por procesos que debilitan los enlaces moleculares y atómicos. La mayor prueba documentada consistió en disparar una camioneta diésel de 8.900 kg."
+      fr: "Plutôt que des obus classiques, l'arme tire des munitions non conventionnelles selon un mode de projection atypique. Les objets chargés dans la bouche du canon subissent des processus qui affaiblissent les liaisons moléculaires et atomiques. Le plus grand essai documenté a consisté à tirer un pick-up diesel de 8 900 kg."
+      it: "Anziché proiettili tradizionali, l'arma spara munizioni non convenzionali con un metodo di erogazione atipico. Gli oggetti caricati nella bocca da fuoco sono soggetti a processi che indeboliscono i legami molecolari e atomici. Il più grande test documentato è consistito nello sparare un pick-up diesel da 8.900 kg."
+      ko: "이 무기는 전통적인 포탄 대신, 비정형적인 투사 방식으로 이례적인 포격을 가한다. 포구에 장전된 물체는 분자 결합과 원자 결합을 약화시키는 작용을 받는다. 기록에 남은 최대 규모의 시험에서는 8,900kg의 디젤 픽업트럭이 발사되었다."
+      pl: "Zamiast tradycyjnych pocisków broń wystrzeliwuje niekonwencjonalną amunicję nietypową metodą podawania. Przedmioty załadowane do wylotu lufy podlegają procesom osłabiającym wiązania molekularne i atomowe. Największy udokumentowany test polegał na wystrzeleniu pickupa z silnikiem Diesla o masie 8900 kg."
+      pt: "Em vez de projéteis tradicionais, a arma dispara munição não convencional por um método de entrega atípico. Objetos carregados na boca do cano são afetados por processos que enfraquecem as ligações moleculares e atômicas. O maior teste documentado consistiu em disparar uma caminhonete a diesel de 8.900 kg."
+      th: "แทนที่จะเป็นกระสุนปืนใหญ่แบบดั้งเดิม อาวุธนี้ยิงกระสุนที่ไม่ธรรมดาโดยใช้วิธีการส่งที่ผิดแปลก วัตถุที่บรรจุเข้าไปในปากลำกล้องจะได้รับผลจากกระบวนการที่ทำให้พันธะระดับโมเลกุลและอะตอมอ่อนแอลง การทดสอบครั้งใหญ่ที่สุดที่มีบันทึกไว้คือการยิงรถกระบะดีเซลหนัก 8,900 กิโลกรัม"
+      uk: "Замість традиційних снарядів зброя стріляє нетиповими боєприпасами за допомогою нестандартного способу подачі. Предмети, завантажені в дуло, зазнають дії процесів, що послаблюють молекулярні та атомні зв'язки. Найбільше задокументоване випробування полягало у пострілі дизельним пікапом масою 8 900 кг."
+      vi: "Thay vì đạn pháo truyền thống, vũ khí này bắn ra loại đạn phi thường bằng một phương thức đưa đạn khác lạ. Các vật thể được nạp vào miệng nòng chịu tác động của những quá trình làm suy yếu liên kết phân tử và nguyên tử. Cuộc thử nghiệm lớn nhất được ghi nhận là bắn đi một chiếc bán tải chạy dầu diesel nặng 8.900 kg."
+      zh: "该武器并不使用传统炮弹，而是以非典型的投射方式发射非常规炮击物。装入炮口的物体会受到削弱分子键与原子键的作用。有记录以来最大规模的一次测试，发射的是一辆8,900千克的柴油皮卡。"
+      zh_Hant: "該武器並不使用傳統砲彈，而是以非典型的投射方式發射非常規砲擊物。裝入砲口的物體會受到削弱分子鍵與原子鍵的作用。有記錄以來最大規模的一次測試，發射的是一輛8,900公斤的柴油皮卡。"
+
+  - scene: >
+      Wide action shot from the side, strong sense of motion. The
+      howitzer has just fired: a brilliant glowing red molten slug
+      streaks out of the muzzle trailing sparks and a shockwave ring,
+      heading toward a small distant hillside where a bright explosion
+      is beginning to bloom. Dust and debris kick up around the gun
+      carriage. No people close to the gun, no text.
+    characters: []
+    notes: >
+      根拠: Description「When SCP-044 is fired, all matter within its
+      barrel is ejected at a high rate of speed as a glowing red slug.
+      Upon impact, the slug explodes with a yield proportional to the
+      mass of the original ammunition.」
+      変えてはいけない事実: 発射時に砲身内の全物質が高速で赤熱した塊として
+      放出される、着弾時に元の弾体質量に比例した威力で爆発する。
+      変更可能: 構図、爆発の見せ方。
+    caption:
+      ja: "SCP-044が発射されると、砲身内のすべての物質が、赤く輝く塊として高速で射出される。着弾すると、その塊は元の弾体の質量に比例した威力で爆発し、その質量エネルギー変換率は███％を下回らない。"
+      en: "When SCP-044 is fired, all matter within its barrel is ejected at a high rate of speed as a glowing red slug. Upon impact, the slug explodes with a yield proportional to the mass of the original ammunition, at no less than a ███% mass-to-energy conversion rate."
+      cs: "Když je SCP-044 vypálena, veškerá hmota uvnitř hlavně je vysokou rychlostí vymrštěna jako žhnoucí rudý slug. Při dopadu slug exploduje s výtěžností úměrnou hmotnosti původní munice, a to při konverzním poměru hmotnosti na energii nejméně ███ %."
+      de: "Wenn SCP-044 abgefeuert wird, wird sämtliche Materie im Inneren des Laufs mit hoher Geschwindigkeit als glühend roter Slug ausgestoßen. Beim Aufschlag explodiert der Slug mit einer Sprengkraft proportional zur Masse der ursprünglichen Munition, bei einer Masse-Energie-Umwandlungsrate von mindestens ███ %."
+      es: "Cuando SCP-044 dispara, toda la materia dentro de su cañón es expulsada a gran velocidad en forma de una masa incandescente roja. Al impactar, la masa explota con un rendimiento proporcional a la masa de la munición original, con una tasa de conversión de masa en energía de no menos del ███ %."
+      fr: "Lorsque SCP-044 tire, toute la matière présente dans le canon est éjectée à grande vitesse sous la forme d'une masse rouge incandescente. À l'impact, cette masse explose avec une puissance proportionnelle à la masse de la munition d'origine, avec un taux de conversion masse-énergie d'au moins ███ %."
+      it: "Quando SCP-044 spara, tutta la materia all'interno della canna viene espulsa ad alta velocità sotto forma di una massa rossa incandescente. All'impatto, la massa esplode con una resa proporzionale alla massa della munizione originale, con un tasso di conversione massa-energia non inferiore al ███ %."
+      ko: "SCP-044가 발사되면 포신 내부의 모든 물질이 붉게 빛나는 덩어리 형태로 고속으로 사출된다. 착탄 시 이 덩어리는 원래 탄체의 질량에 비례하는 위력으로 폭발하며, 질량-에너지 변환율은 ███％를 밑돌지 않는다."
+      pl: "Gdy SCP-044 zostaje wystrzelona, cała materia we wnętrzu lufy jest wyrzucana z dużą prędkością w postaci rozżarzonej czerwonej bryły. Przy uderzeniu bryła eksploduje z siłą proporcjonalną do masy pierwotnej amunicji, przy współczynniku konwersji masy na energię wynoszącym nie mniej niż ███ %."
+      pt: "Quando SCP-044 é disparado, toda a matéria dentro do cano é ejetada em alta velocidade na forma de uma massa vermelha incandescente. Ao impacto, a massa explode com um rendimento proporcional à massa da munição original, a uma taxa de conversão de massa em energia de não menos que ███ %."
+      th: "เมื่อ SCP-044 ถูกยิง สสารทั้งหมดภายในลำกล้องจะถูกขับออกด้วยความเร็วสูงในรูปของก้อนสีแดงเรืองแสง เมื่อกระทบเป้า ก้อนนั้นจะระเบิดด้วยพลังที่เป็นสัดส่วนกับมวลของกระสุนดั้งเดิม ที่อัตราการแปลงมวลเป็นพลังงานไม่ต่ำกว่า ███ เปอร์เซ็นต์"
+      uk: "Коли SCP-044 стріляє, уся матерія всередині ствола викидається з високою швидкістю у вигляді розжареного червоного згустка. Під час удару згусток вибухає з потужністю, пропорційною масі початкового боєприпасу, за коефіцієнта перетворення маси на енергію не менше ███ %."
+      vi: "Khi SCP-044 khai hỏa, toàn bộ vật chất bên trong nòng bị đẩy ra với tốc độ cao dưới dạng một khối đỏ rực. Khi va chạm, khối này phát nổ với sức công phá tỷ lệ thuận với khối lượng của loại đạn ban đầu, ở tỷ lệ chuyển đổi khối lượng thành năng lượng không dưới ███ %."
+      zh: "SCP-044发射时，炮膛内的所有物质会以高速作为一团炽红的弹块喷出。命中时，该弹块以与原弹体质量成正比的当量发生爆炸，其质能转换率不低于███％。"
+      zh_Hant: "SCP-044發射時，砲膛內的所有物質會以高速作為一團熾紅的彈塊噴出。命中時，該彈塊以與原彈體質量成正比的當量發生爆炸，其質能轉換率不低於███％。"
+
+  - scene: >
+      Close-up on the gaping open end of the giant barrel with a heavy
+      canvas muzzle cover half-fitted over it. On the left side of the
+      frame, a small sparrow perches on the barrel rim, head tilted,
+      peering curiously into the dark opening. On the right side of the
+      frame, Attending Researcher (Female) reaches up with both hands to
+      pull the cover closed, shooing the bird away with a look of mild
+      exasperation. No text.
+    characters: [attending-researcher-f]
+    notes: >
+      根拠: SC procedures「Muzzle coverings are to be fitted at all times
+      to keep birds and small animals from investigating the large open
+      barrel of SCP-044.」オチ。
+      変えてはいけない事実: 銃口カバーを常時装着する目的が、鳥や小動物が
+      大きく開いた砲身を調べに来るのを防ぐことである点。
+      変更可能: 鳥の種類・仕草、研究者の表情。
+    caption:
+      ja: "SCP-044の大きく開いた砲身を鳥や小動物が調べに来るのを防ぐため、銃口カバーを常時装着しておくこと。"
+      en: "Muzzle coverings are to be fitted at all times to keep birds and small animals from investigating the large open barrel of SCP-044."
+      cs: "Kryty ústí hlavně musí být nasazeny neustále, aby ptáci a drobní živočichové nezkoumali velkou otevřenou hlaveň SCP-044."
+      de: "Mündungsabdeckungen sind jederzeit anzubringen, damit Vögel und Kleintiere den großen offenen Lauf von SCP-044 nicht untersuchen."
+      es: "Las cubiertas de la boca del cañón deben mantenerse colocadas en todo momento para impedir que aves y animales pequeños investiguen el gran cañón abierto de SCP-044."
+      fr: "Les caches de bouche doivent être installés en permanence afin d'empêcher les oiseaux et les petits animaux d'explorer le grand canon ouvert de SCP-044."
+      it: "Le coperture della bocca da fuoco devono essere sempre applicate per impedire che uccelli e piccoli animali esplorino la grande canna aperta di SCP-044."
+      ko: "새와 작은 동물이 SCP-044의 크게 열린 포신을 탐색하지 못하도록, 포구 덮개를 상시 씌워 두어야 한다."
+      pl: "Osłony wylotu lufy muszą być założone przez cały czas, aby ptaki i małe zwierzęta nie badały dużej otwartej lufy SCP-044."
+      pt: "As coberturas da boca do cano devem permanecer colocadas o tempo todo para impedir que aves e animais pequenos investiguem o grande cano aberto de SCP-044."
+      th: "ต้องสวมฝาครอบปากลำกล้องไว้ตลอดเวลา เพื่อป้องกันไม่ให้นกและสัตว์เล็กเข้าไปสำรวจลำกล้องที่เปิดกว้างของ SCP-044"
+      uk: "Кришки дульного зрізу мають бути встановлені постійно, щоб птахи та дрібні тварини не досліджували великий відкритий ствол SCP-044."
+      vi: "Nắp che miệng nòng phải luôn được lắp vào mọi lúc để ngăn chim chóc và động vật nhỏ tò mò khám phá cái nòng lớn mở toang của SCP-044."
+      zh: "必须始终为SCP-044的炮口加装护罩，以防鸟类和小动物钻进这门大炮敞开的炮膛里查看。"
+      zh_Hant: "必須始終為SCP-044的砲口加裝護罩，以防鳥類和小動物鑽進這門大砲敞開的砲膛裡查看。"
+
+addendum:
+  ja: "補遺：数十年にわたって重大なインシデントが発生しなかったため、SCP-044は200█年にSafeに再分類された。"
+  en: "Addendum: After several decades without significant incidents, SCP-044 was reclassified as Safe in 200█."
+  cs: "Dodatek: Po několika desetiletích bez významných incidentů byla SCP-044 v roce 200█ překlasifikována na Safe."
+  de: "Nachtrag: Nach mehreren Jahrzehnten ohne bedeutende Zwischenfälle wurde SCP-044 im Jahr 200█ als Safe neu klassifiziert."
+  es: "Anexo: Tras varias décadas sin incidentes significativos, SCP-044 fue reclasificado como Safe en 200█."
+  fr: "Addendum : Après plusieurs décennies sans incident notable, SCP-044 a été reclassé comme Safe en 200█."
+  it: "Addendum: dopo diversi decenni senza incidenti significativi, SCP-044 è stato riclassificato come Safe nel 200█."
+  ko: "부록: 수십 년간 중대한 사건이 없었기에, SCP-044는 200█년에 Safe로 재분류되었다."
+  pl: "Aneks: Po kilku dekadach bez znaczących incydentów SCP-044 przeklasyfikowano na Safe w 200█ roku."
+  pt: "Adendo: Após várias décadas sem incidentes significativos, SCP-044 foi reclassificado como Safe em 200█."
+  th: "ภาคผนวก: หลังจากหลายทศวรรษที่ไม่มีเหตุการณ์สำคัญ SCP-044 ได้ถูกจัดประเภทใหม่เป็น Safe ในปี 200█"
+  uk: "Додаток: Після кількох десятиліть без значних інцидентів SCP-044 було перекласифіковано на Safe у 200█ році."
+  vi: "Phụ lục: Sau vài thập kỷ không có sự cố đáng kể nào, SCP-044 được phân loại lại thành Safe vào năm 200█."
+  zh: "补遗：在数十年没有发生重大事件之后，SCP-044于200█年被重新归类为Safe。"
+  zh_Hant: "補遺：在數十年沒有發生重大事件之後，SCP-044於200█年被重新歸類為Safe。"

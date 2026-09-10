@@ -1,0 +1,152 @@
+# SCP-019 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。実体の焼却は淡々と、グロ描写は避ける。
+
+id: scp-019
+
+title:
+  ja: "SCP-019：怪物の壺"
+  en: "SCP-019: The Monster Pot"
+  cs: "SCP-019: Nádoba na příšery"
+  de: "SCP-019: Der Monstertopf"
+  es: "SCP-019: La vasija de monstruos"
+  fr: "SCP-019 : Le pot à monstres"
+  it: "SCP-019: Il vaso dei mostri"
+  ko: "SCP-019: 괴물 항아리"
+  pl: "SCP-019: Garnek na potwory"
+  pt: "SCP-019: O pote de monstros"
+  th: "SCP-019: ไหปีศาจ"
+  uk: "SCP-019: Горщик із монстрами"
+  vi: "SCP-019: Chiếc bình quái vật"
+  zh: "SCP-019：怪物之壶"
+  zh_Hant: "SCP-019：怪物之壺"
+
+attribution:
+  article: "SCP-019"
+  author: "Sophia Light"
+  source_url: "http://scp-wiki.wikidot.com/scp-019"
+  license: "CC BY-SA 3.0"
+
+object_class: Keter
+
+local_characters:
+  scp-019:
+    name: SCP-019
+    appearance: >
+      SCP-019, a very large ancient Greek ceramic vase, 1.8 m across at
+      its wide mouth and 2.4 m tall, terracotta-orange (color RGB
+      190,90,60) with black-figure painted decoration of classical Greek
+      figures and geometric borders. Its surface is flawless and
+      undamaged.
+    default_look: >
+      Standing perfectly upright on a wide steel floor grate, frost
+      gathered around its base.
+  scp-019-2:
+    name: SCP-019-2
+    appearance: >
+      SCP-019-2, small entities about knee height, vaguely humanoid but
+      lumpy and misshapen, with patchy grey-brown hide (color RGB
+      120,105,90), oversized clawed hands, and animal-like snouts and
+      ears. Ugly and cross-looking cartoonish goblin creatures rather
+      than anything gory.
+    default_look: >
+      Scrambling and clambering, squinting and grimacing in bright light.
+
+characters: [scp-019, scp-019-2, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide establishing shot, eye level, showing the whole small
+      reinforced concrete containment room. SCP-019 stands upright at the
+      center on a wide steel floor grate, with an industrial incinerator
+      burner assembly and ductwork built into the floor below the grate.
+      Frost hangs in the cold air. A thick plate-glass observation window
+      is set into the left wall.
+    characters: [scp-019]
+    caption:
+      ja: "SCP-019は、焼却炉が設置された3m×3m×4mの強化コンクリート製の部屋の中で、幅広の格子の上に保管される。焼却炉が作動していないとき、部屋は0℃に保たれる。SCP-019は常に垂直な状態に保つこと。"
+      en: "SCP-019 is to be kept on a wide grate in a 3 m x 3 m x 4 m reinforced concrete room, installed with an incinerator. Room is to be kept at zero (0) degrees Celsius when incinerator is not activated. SCP-019 should be kept in a vertical position at all times."
+      cs: "SCP-019 má být uchováván na široké mříži v místnosti z vyztuženého betonu o rozměrech 3 m × 3 m × 4 m vybavené spalovnou. Pokud spalovna není v provozu, má být v místnosti udržována teplota nula (0) stupňů Celsia. SCP-019 by měl být neustále udržován ve svislé poloze."
+      de: "SCP-019 ist auf einem breiten Gitterrost in einem 3 m × 3 m × 4 m großen Stahlbetonraum aufzubewahren, der mit einer Verbrennungsanlage ausgestattet ist. Der Raum ist auf null (0) Grad Celsius zu halten, wenn die Verbrennungsanlage nicht aktiviert ist. SCP-019 sollte jederzeit in senkrechter Position gehalten werden."
+      es: "SCP-019 debe mantenerse sobre una rejilla ancha en una sala de hormigón armado de 3 m × 3 m × 4 m dotada de un incinerador. La sala debe mantenerse a cero (0) grados Celsius cuando el incinerador no está activado. SCP-019 debe mantenerse en posición vertical en todo momento."
+      fr: "SCP-019 doit être conservé sur une large grille dans une pièce en béton armé de 3 m × 3 m × 4 m équipée d'un incinérateur. La pièce doit être maintenue à zéro (0) degré Celsius lorsque l'incinérateur n'est pas activé. SCP-019 doit être maintenu en position verticale en permanence."
+      it: "SCP-019 deve essere tenuto su un'ampia griglia in una stanza di cemento armato di 3 m × 3 m × 4 m dotata di un inceneritore. La stanza deve essere mantenuta a zero (0) gradi Celsius quando l'inceneritore non è attivato. SCP-019 deve essere mantenuto in posizione verticale in ogni momento."
+      ko: "SCP-019은 소각로가 설치된 3m × 3m × 4m 크기의 철근 콘크리트 방 안, 넓은 격자망 위에 보관한다. 소각로가 작동하지 않을 때 방은 섭씨 0도로 유지한다. SCP-019은 항상 수직 상태로 유지해야 한다."
+      pl: "SCP-019 należy przechowywać na szerokiej kracie w pomieszczeniu ze zbrojonego betonu o wymiarach 3 m × 3 m × 4 m wyposażonym w spalarnię. Gdy spalarnia nie jest uruchomiona, w pomieszczeniu należy utrzymywać temperaturę zero (0) stopni Celsjusza. SCP-019 powinien być przez cały czas utrzymywany w pozycji pionowej."
+      pt: "SCP-019 deve ser mantido sobre uma grade larga em uma sala de concreto armado de 3 m × 3 m × 4 m equipada com um incinerador. A sala deve ser mantida a zero (0) graus Celsius quando o incinerador não está ativado. SCP-019 deve ser mantido em posição vertical o tempo todo."
+      th: "SCP-019 ต้องเก็บไว้บนตะแกรงกว้างในห้องคอนกรีตเสริมเหล็กขนาด 3 ม. × 3 ม. × 4 ม. ที่ติดตั้งเตาเผา เมื่อเตาเผาไม่ทำงาน ห้องต้องรักษาอุณหภูมิไว้ที่ศูนย์ (0) องศาเซลเซียส และต้องคง SCP-019 ให้อยู่ในแนวตั้งตลอดเวลา"
+      uk: "SCP-019 має зберігатися на широкій ґратці в кімнаті з армованого бетону розміром 3 м × 3 м × 4 м, обладнаній сміттєспалювальною піччю. Коли піч не активовано, у кімнаті слід підтримувати нуль (0) градусів за Цельсієм. SCP-019 слід постійно тримати у вертикальному положенні."
+      vi: "SCP-019 phải được đặt trên một tấm vỉ rộng trong một căn phòng bê tông cốt thép kích thước 3 m × 3 m × 4 m có lắp lò đốt. Khi lò đốt không hoạt động, phòng phải được giữ ở không (0) độ C. SCP-019 phải luôn được giữ ở tư thế thẳng đứng."
+      zh: "SCP-019须置于一个装有焚化炉的3米×3米×4米钢筋混凝土房间内的宽格栅上。焚化炉未启动时，房间须保持在零（0）摄氏度。SCP-019须始终保持垂直状态。"
+      zh_Hant: "SCP-019須置於一個裝有焚化爐的3公尺×3公尺×4公尺鋼筋混凝土房間內的寬柵格上。焚化爐未啟動時，房間須保持在零（0）攝氏度。SCP-019須始終保持垂直狀態。"
+
+  - scene: >
+      Medium shot from a slightly low angle. SCP-019 fills most of the
+      frame, its black-figure painted decoration of Greek warriors and
+      geometric bands clearly legible. Small in the background, behind the
+      plate-glass observation window, Attending Researcher (Male) stands
+      sketching it on a clipboard.
+    characters: [scp-019, attending-researcher-m]
+    caption:
+      ja: "SCP-019は、口径1.8メートル、高さ2.4メートルの非常に大きな陶製の壺であるように見える。様式と装飾は古典期ギリシャで作られたことを示しているが、表面は既知のいかなる手段によっても破壊できないため、確定的な年代測定は不可能である。"
+      en: "SCP-019 appears to be a very large ceramic vase, 1.8 m in diameter at the mouth and 2.4 m high. Style and decoration indicate it was created in Classical Greece, although conclusive dating is impossible, as the surface is entirely unbreakable by any known means."
+      cs: "SCP-019 se jeví jako velmi velká keramická nádoba o průměru hrdla 1,8 m a výšce 2,4 m. Styl a výzdoba naznačují, že vznikla v klasickém Řecku, přesné datování však není možné, neboť povrch je zcela nezničitelný jakýmkoli známým způsobem."
+      de: "SCP-019 scheint eine sehr große Keramikvase zu sein, mit einem Öffnungsdurchmesser von 1,8 m und einer Höhe von 2,4 m. Stil und Verzierung deuten darauf hin, dass sie im klassischen Griechenland geschaffen wurde, eine eindeutige Datierung ist jedoch unmöglich, da die Oberfläche mit keinem bekannten Mittel zerstörbar ist."
+      es: "SCP-019 parece ser una vasija de cerámica muy grande, de 1,8 m de diámetro en la boca y 2,4 m de altura. El estilo y la decoración indican que fue creada en la Grecia clásica, aunque es imposible datarla de forma concluyente, ya que la superficie es totalmente irrompible por cualquier medio conocido."
+      fr: "SCP-019 semble être un très grand vase en céramique, de 1,8 m de diamètre à l'ouverture et de 2,4 m de haut. Le style et le décor indiquent qu'il a été créé dans la Grèce classique, bien qu'une datation concluante soit impossible, la surface étant totalement incassable par tout moyen connu."
+      it: "SCP-019 sembra essere un vaso di ceramica molto grande, con un diametro di 1,8 m all'imboccatura e alto 2,4 m. Lo stile e la decorazione indicano che fu realizzato nella Grecia classica, sebbene una datazione conclusiva sia impossibile, poiché la superficie è del tutto infrangibile con qualsiasi mezzo noto."
+      ko: "SCP-019은 입구 지름 1.8미터, 높이 2.4미터의 매우 큰 도자기 항아리로 보인다. 양식과 장식은 고전기 그리스에서 제작되었음을 나타내지만, 표면이 알려진 어떤 수단으로도 파괴되지 않아 확정적인 연대 측정은 불가능하다."
+      pl: "SCP-019 wydaje się być bardzo dużym ceramicznym naczyniem o średnicy wylotu 1,8 m i wysokości 2,4 m. Styl i zdobienia wskazują, że powstało w klasycznej Grecji, jednak jednoznaczne datowanie jest niemożliwe, ponieważ powierzchni nie da się zniszczyć żadnym znanym sposobem."
+      pt: "SCP-019 parece ser um vaso de cerâmica muito grande, com 1,8 m de diâmetro na boca e 2,4 m de altura. O estilo e a decoração indicam que foi criado na Grécia Clássica, embora uma datação conclusiva seja impossível, pois a superfície é totalmente indestrutível por qualquer meio conhecido."
+      th: "SCP-019 ดูเหมือนเป็นแจกันเซรามิกขนาดใหญ่มาก มีเส้นผ่านศูนย์กลางปากกว้าง 1.8 เมตร และสูง 2.4 เมตร รูปแบบและลวดลายบ่งชี้ว่าสร้างขึ้นในยุคกรีกคลาสสิก แม้ว่าจะไม่สามารถระบุอายุได้อย่างแน่ชัด เนื่องจากพื้นผิวไม่สามารถทำให้แตกได้ด้วยวิธีใด ๆ ที่รู้จัก"
+      uk: "SCP-019 має вигляд дуже великої керамічної вази діаметром 1,8 м біля горловини та заввишки 2,4 м. Стиль і оздоблення вказують, що її створено в класичній Греції, проте точне датування неможливе, оскільки поверхню не можна зруйнувати жодним відомим способом."
+      vi: "SCP-019 trông giống một chiếc bình gốm rất lớn, đường kính miệng 1,8 m và cao 2,4 m. Phong cách và hoa văn cho thấy nó được tạo ra ở Hy Lạp cổ điển, dù không thể xác định niên đại chắc chắn, vì bề mặt hoàn toàn không thể phá vỡ bằng bất kỳ phương tiện nào đã biết."
+      zh: "SCP-019看起来是一只非常大的陶制花瓶，瓶口直径1.8米，高2.4米。其风格与纹饰表明它制作于古典希腊时期，但由于表面无法以任何已知手段破坏，确切的年代测定无法进行。"
+      zh_Hant: "SCP-019看起來是一只非常大的陶製花瓶，瓶口直徑1.8公尺，高2.4公尺。其風格與紋飾表明它製作於古典希臘時期，但由於表面無法以任何已知手段破壞，確切的年代測定無法進行。"
+
+  - scene: >
+      Close-up on the wide mouth of SCP-019. Three small SCP-019-2
+      creatures clamber over the painted rim, squinting and grimacing in
+      the light; one is caught mid-sneeze in the cold, its breath fogging.
+    characters: [scp-019-2, scp-019]
+    caption:
+      ja: "これらの実体は多くの点で個体差があるが、概して小柄で、漠然と人型であり（動物的な特徴を持つこともある）、極めて敵対的である。かなり脆弱で（さらに、意外にも可燃性である）ものの、相応の力を持ち、多数になると相当な脅威となる。"
+      en: "The entities vary in many aspects, but tend to be small, vaguely humanoid (though they may have animaloid features), and extremely hostile. Although fairly delicate (also, surprisingly, flammable), they are reasonably strong and pose a considerable threat in large numbers."
+      cs: "Tyto entity se v mnoha ohledech liší, ale bývají malé, vágně humanoidní (ačkoli mohou mít zvířecí rysy) a mimořádně nepřátelské. Přestože jsou dosti křehké (a navíc, překvapivě, hořlavé), jsou přiměřeně silné a ve velkém počtu představují značnou hrozbu."
+      de: "Die Entitäten unterscheiden sich in vielen Aspekten, sind aber tendenziell klein, vage humanoid (können jedoch tierähnliche Merkmale aufweisen) und äußerst feindselig. Obwohl ziemlich zerbrechlich (und überraschenderweise auch brennbar), sind sie recht kräftig und stellen in großer Zahl eine erhebliche Bedrohung dar."
+      es: "Las entidades varían en muchos aspectos, pero suelen ser pequeñas, vagamente humanoides (aunque pueden tener rasgos animaloides) y sumamente hostiles. Aunque bastante frágiles (y, sorprendentemente, inflamables), son razonablemente fuertes y representan una amenaza considerable en gran número."
+      fr: "Les entités varient à bien des égards, mais tendent à être petites, vaguement humanoïdes (bien qu'elles puissent présenter des traits animaux) et extrêmement hostiles. Bien qu'assez fragiles (et, étonnamment, inflammables), elles sont raisonnablement fortes et représentent une menace considérable en grand nombre."
+      it: "Le entità variano sotto molti aspetti, ma tendono a essere piccole, vagamente umanoidi (sebbene possano avere tratti animaleschi) ed estremamente ostili. Pur essendo piuttosto fragili (e, sorprendentemente, infiammabili), sono ragionevolmente forti e costituiscono una minaccia considerevole se numerose."
+      ko: "이 개체들은 여러 면에서 편차가 있으나, 대체로 작고 어렴풋이 인간형이며(동물 같은 특징을 지니기도 한다) 극도로 적대적이다. 상당히 연약하지만(게다가 놀랍게도 가연성이다) 제법 힘이 세며, 다수가 되면 상당한 위협이 된다."
+      pl: "Istoty te różnią się pod wieloma względami, ale zwykle są małe, z grubsza humanoidalne (choć mogą mieć zwierzęce cechy) i skrajnie wrogie. Choć dość delikatne (a przy tym, co zaskakujące, łatwopalne), są względnie silne i w dużej liczbie stanowią poważne zagrożenie."
+      pt: "As entidades variam em muitos aspectos, mas tendem a ser pequenas, vagamente humanoides (embora possam ter traços animalescos) e extremamente hostis. Embora bastante frágeis (e, surpreendentemente, inflamáveis), são razoavelmente fortes e representam uma ameaça considerável em grande número."
+      th: "สิ่งมีชีวิตเหล่านี้แตกต่างกันในหลายด้าน แต่มักจะตัวเล็ก มีลักษณะคล้ายมนุษย์อย่างเลือนราง (แม้อาจมีลักษณะคล้ายสัตว์) และก้าวร้าวอย่างยิ่ง แม้จะค่อนข้างบอบบาง (และน่าแปลกที่ติดไฟได้) แต่ก็แข็งแรงพอสมควรและเป็นภัยคุกคามอย่างมากเมื่อมีจำนวนมาก"
+      uk: "Ці істоти різняться в багатьох аспектах, але зазвичай маленькі, невиразно людиноподібні (хоча можуть мати тваринні риси) та вкрай ворожі. Хоч і доволі крихкі (а ще, як не дивно, займисті), вони достатньо сильні й у великій кількості становлять неабияку загрозу."
+      vi: "Các thực thể này khác nhau ở nhiều mặt, nhưng thường nhỏ, mơ hồ giống người (dù có thể mang nét giống thú) và cực kỳ hung dữ. Tuy khá mong manh (và đáng ngạc nhiên là dễ cháy), chúng khỏe ở mức tương đối và tạo thành mối đe dọa đáng kể khi đông đảo."
+      zh: "这些实体在许多方面各不相同，但通常体型小、隐约呈人形（也可能带有动物特征），且极具敌意。尽管相当脆弱（而且出人意料地易燃），它们力气不小，数量众多时构成相当大的威胁。"
+      zh_Hant: "這些實體在許多方面各不相同，但通常體型小、隱約呈人形（也可能帶有動物特徵），且極具敵意。儘管相當脆弱（而且出人意料地易燃），它們力氣不小，數量眾多時構成相當大的威脅。"
+
+  - scene: >
+      Medium shot, waist-up, inside the observation room. On the left side
+      of the frame, Attending Researcher (Male) calmly reaches for a large
+      guarded switch on the console, his expression bored. Through the
+      plate-glass window behind him on the right, orange incinerator
+      flames have flared up under the grate and a few small SCP-019-2
+      silhouettes scatter.
+    characters: [attending-researcher-m, scp-019-2, scp-019]
+    caption:
+      ja: "0℃に保たれ、完全に静止した状態では、実体はSCP-019からおよそ1時間に1体の割合で出現する。SCP-019-2の個体が観察された場合には、焼却炉を作動させること。"
+      en: "When kept at zero (0) degrees Celsius and totally at rest, entities will emerge from SCP-019 at a rate of approximately one (1) entity per hour; if/when specimens of SCP-019-2 are observed, the incinerator is to be activated."
+      cs: "Je-li SCP-019 udržován při nule (0) stupních Celsia a zcela v klidu, vynořují se z něj entity rychlostí přibližně jedné (1) entity za hodinu; jsou-li pozorovány exempláře SCP-019-2, má být aktivována spalovna."
+      de: "Wird SCP-019 bei null (0) Grad Celsius und völlig in Ruhe gehalten, treten die Entitäten mit einer Rate von etwa einer (1) Entität pro Stunde aus ihm hervor; sobald Exemplare von SCP-019-2 beobachtet werden, ist die Verbrennungsanlage zu aktivieren."
+      es: "Cuando se mantiene a cero (0) grados Celsius y totalmente en reposo, las entidades emergen de SCP-019 a un ritmo de aproximadamente una (1) entidad por hora; cuando se observan especímenes de SCP-019-2, debe activarse el incinerador."
+      fr: "Lorsque SCP-019 est maintenu à zéro (0) degré Celsius et parfaitement au repos, les entités en émergent à raison d'environ une (1) entité par heure ; dès que des spécimens de SCP-019-2 sont observés, l'incinérateur doit être activé."
+      it: "Quando è mantenuto a zero (0) gradi Celsius e completamente a riposo, le entità emergono da SCP-019 a un ritmo di circa una (1) entità all'ora; quando vengono osservati esemplari di SCP-019-2, l'inceneritore deve essere attivato."
+      ko: "섭씨 0도로 유지되고 완전히 정지한 상태에서는 개체가 SCP-019에서 대략 시간당 1개체의 속도로 출현한다. SCP-019-2 개체가 관찰되면 소각로를 작동시켜야 한다."
+      pl: "Gdy SCP-019 utrzymywany jest w temperaturze zero (0) stopni Celsjusza i całkowitym spoczynku, istoty wyłaniają się z niego w tempie około jednej (1) istoty na godzinę; gdy zaobserwowane zostaną okazy SCP-019-2, należy uruchomić spalarnię."
+      pt: "Quando mantido a zero (0) graus Celsius e totalmente em repouso, as entidades emergem do SCP-019 a uma taxa de aproximadamente uma (1) entidade por hora; quando espécimes de SCP-019-2 são observados, o incinerador deve ser ativado."
+      th: "เมื่อรักษาไว้ที่ศูนย์ (0) องศาเซลเซียสและอยู่นิ่งสนิท สิ่งมีชีวิตจะโผล่ออกมาจาก SCP-019 ในอัตราประมาณหนึ่ง (1) ตัวต่อชั่วโมง เมื่อพบตัวอย่าง SCP-019-2 ต้องเปิดใช้งานเตาเผา"
+      uk: "Коли SCP-019 тримають за нуля (0) градусів Цельсія та в цілковитому спокої, істоти виходять із нього зі швидкістю приблизно одна (1) істота за годину; щойно помічено екземпляри SCP-019-2, слід активувати сміттєспалювальну піч."
+      vi: "Khi được giữ ở không (0) độ C và hoàn toàn bất động, các thực thể xuất hiện từ SCP-019 với tốc độ khoảng một (1) thực thể mỗi giờ; khi quan sát thấy các mẫu vật SCP-019-2, phải kích hoạt lò đốt."
+      zh: "当保持在零（0）摄氏度且完全静止时，实体会以每小时约一（1）个的速度从SCP-019中出现；一旦观察到SCP-019-2个体，须启动焚化炉。"
+      zh_Hant: "當保持在零（0）攝氏度且完全靜止時，實體會以每小時約一（1）個的速度從SCP-019中出現；一旦觀察到SCP-019-2個體，須啟動焚化爐。"

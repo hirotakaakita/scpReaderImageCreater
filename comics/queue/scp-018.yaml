@@ -1,0 +1,142 @@
+# SCP-018 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-018
+
+title:
+  ja: "SCP-018：スーパーボール"
+  en: "SCP-018: Super Ball"
+  cs: "SCP-018: Hopík"
+  de: "SCP-018: Der Flummi"
+  es: "SCP-018: Pelota saltarina"
+  fr: "SCP-018 : La balle rebondissante"
+  it: "SCP-018: La super pallina"
+  ko: "SCP-018: 슈퍼볼"
+  pl: "SCP-018: Superpiłka"
+  pt: "SCP-018: A superbola"
+  th: "SCP-018: ลูกซูเปอร์บอล"
+  uk: "SCP-018: Супер-м'ячик"
+  vi: "SCP-018: Quả bóng siêu nảy"
+  zh: "SCP-018：超级弹力球"
+  zh_Hant: "SCP-018：超級彈力球"
+
+attribution:
+  article: "SCP-018"
+  author: "Epic Phail Spy"
+  source_url: "http://scp-wiki.wikidot.com/scp-018"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-018:
+    name: SCP-018
+    appearance: >
+      SCP-018, a small rubber Super Ball six centimeters in diameter,
+      glossy bright red (color RGB 200,40,40), looking exactly like an
+      ordinary 1969 toy bouncing ball.
+    default_look: >
+      Sitting perfectly still when at rest; a vivid red streak with a
+      trail of arcing motion lines when in flight.
+
+characters: [attending-researcher-m, attending-researcher-f, scp-018]
+
+panels:
+  - scene: >
+      Wide establishing shot from a high angle, looking down into a tall
+      industrial hall dominated by a 10-meter cube polyethylene holding
+      tank filled with cloudy translucent goo. Submerged at its center is
+      a 1-meter padded sealed box. On a steel catwalk above the tank,
+      Attending Researcher (Male) and Attending Researcher (Female) stand
+      in heavy protective plating and breathing apparatus, peering down
+      into the tank.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "SCP-018は、厚い合成緩衝材で内張りされた1m×1m×1mの密閉箱の中に、専用の金属拘束具で収容される。その密閉箱は、10m×10m×10mのポリエチレン製保持タンクの中央に沈められる。"
+      en: "SCP-018 is to be contained in its specialty metal restraint inside of a 1 m by 1 m by 1 m sealed box lined with heavy synthetic padding. The sealed box is then submerged in the center of the 10 m by 10 m by 10 m polyethylene holding tank."
+      cs: "SCP-018 musí být uchováván ve svém speciálním kovovém fixačním zařízení uvnitř zapečetěné bedny o rozměrech 1 m × 1 m × 1 m vyložené silnou syntetickou výplní. Zapečetěná bedna je poté ponořena do středu polyethylenové zádržné nádrže o rozměrech 10 m × 10 m × 10 m."
+      de: "SCP-018 ist in seiner speziellen Metallhalterung in einer versiegelten Kiste von 1 m × 1 m × 1 m aufzubewahren, die mit schwerer synthetischer Polsterung ausgekleidet ist. Die versiegelte Kiste wird dann in der Mitte des Polyethylen-Haltetanks von 10 m × 10 m × 10 m versenkt."
+      es: "SCP-018 debe mantenerse en su sujeción metálica especial dentro de una caja sellada de 1 m × 1 m × 1 m revestida de un grueso acolchado sintético. La caja sellada se sumerge luego en el centro del tanque de contención de polietileno de 10 m × 10 m × 10 m."
+      fr: "SCP-018 doit être confiné dans son dispositif de maintien métallique spécial à l'intérieur d'une caisse scellée de 1 m × 1 m × 1 m garnie d'un épais rembourrage synthétique. La caisse scellée est ensuite immergée au centre du réservoir de rétention en polyéthylène de 10 m × 10 m × 10 m."
+      it: "SCP-018 deve essere contenuto nel suo speciale dispositivo di bloccaggio metallico all'interno di una cassa sigillata di 1 m × 1 m × 1 m rivestita di una spessa imbottitura sintetica. La cassa sigillata viene quindi immersa al centro del serbatoio di contenimento in polietilene di 10 m × 10 m × 10 m."
+      ko: "SCP-018은 두꺼운 합성 완충재로 안감을 댄 1m × 1m × 1m 밀폐 상자 안의 전용 금속 구속구에 수용한다. 이 밀폐 상자는 이후 10m × 10m × 10m 폴리에틸렌 저장 탱크의 중앙에 잠긴다."
+      pl: "SCP-018 należy przechowywać w specjalnym metalowym uchwycie wewnątrz zaplombowanej skrzyni o wymiarach 1 m × 1 m × 1 m wyłożonej grubą syntetyczną wyściółką. Zaplombowana skrzynia jest następnie zanurzana pośrodku polietylenowego zbiornika przetrzymującego o wymiarach 10 m × 10 m × 10 m."
+      pt: "SCP-018 deve ser contido em sua contenção metálica especial dentro de uma caixa vedada de 1 m × 1 m × 1 m revestida com um grosso acolchoamento sintético. A caixa vedada é então submersa no centro do tanque de contenção de polietileno de 10 m × 10 m × 10 m."
+      th: "SCP-018 ต้องถูกกักเก็บไว้ในอุปกรณ์ยึดโลหะเฉพาะภายในกล่องปิดผนึกขนาด 1 ม. × 1 ม. × 1 ม. ที่บุด้วยวัสดุกันกระแทกสังเคราะห์อย่างหนา จากนั้นกล่องปิดผนึกจะถูกจุ่มลงกลางถังกักเก็บพอลิเอทิลีนขนาด 10 ม. × 10 ม. × 10 ม."
+      uk: "SCP-018 має утримуватися у своєму спеціальному металевому фіксаторі всередині запечатаної коробки розміром 1 м × 1 м × 1 м, вистеленої товстим синтетичним прошарком. Запечатану коробку потім занурюють у центр поліетиленового резервуара розміром 10 м × 10 м × 10 м."
+      vi: "SCP-018 phải được lưu giữ trong bộ giữ kim loại chuyên dụng bên trong một hộp kín kích thước 1 m × 1 m × 1 m lót đệm tổng hợp dày. Hộp kín này sau đó được nhấn chìm ở giữa bể chứa bằng polyethylene kích thước 10 m × 10 m × 10 m."
+      zh: "SCP-018须以其专用金属固定器收容于一个1米×1米×1米、内衬厚重合成缓冲材料的密封箱中。该密封箱随后沉入10米×10米×10米聚乙烯保持罐的中央。"
+      zh_Hant: "SCP-018須以其專用金屬固定器收容於一個1公尺×1公尺×1公尺、內襯厚重合成緩衝材料的密封箱中。該密封箱隨後沉入10公尺×10公尺×10公尺聚乙烯保持罐的中央。"
+
+  - scene: >
+      Extreme close-up. Attending Researcher (Male)'s gloved hand holds
+      SCP-018, the small glossy red ball, up beside a desk lamp. It looks
+      completely innocuous, a harmless toy, a single soft highlight on its
+      curved surface.
+    characters: [attending-researcher-m, scp-018]
+    caption:
+      ja: "SCP-018は、Wham-O社が1969年に製造したスーパーボールの外見を持つ。直径は6センチメートルで、赤色をしている。"
+      en: "SCP-018 has the appearance of a Super Ball made by the Wham-O company in 1969. It is six (6) centimeters in diameter and coloured red."
+      cs: "SCP-018 má vzhled hopíku vyrobeného společností Wham-O v roce 1969. Má průměr šest (6) centimetrů a je červené barvy."
+      de: "SCP-018 hat das Aussehen eines Flummis, der 1969 von der Firma Wham-O hergestellt wurde. Er hat einen Durchmesser von sechs (6) Zentimetern und ist rot gefärbt."
+      es: "SCP-018 tiene la apariencia de una pelota saltarina fabricada por la empresa Wham-O en 1969. Mide seis (6) centímetros de diámetro y es de color rojo."
+      fr: "SCP-018 a l'apparence d'une balle rebondissante fabriquée par la société Wham-O en 1969. Elle mesure six (6) centimètres de diamètre et est de couleur rouge."
+      it: "SCP-018 ha l'aspetto di una super pallina prodotta dall'azienda Wham-O nel 1969. Ha un diametro di sei (6) centimetri ed è di colore rosso."
+      ko: "SCP-018은 Wham-O 사가 1969년에 제조한 슈퍼볼의 외형을 지닌다. 지름은 6센티미터이며 붉은색이다."
+      pl: "SCP-018 wygląda jak superpiłka wyprodukowana przez firmę Wham-O w 1969 roku. Ma sześć (6) centymetrów średnicy i czerwoną barwę."
+      pt: "SCP-018 tem a aparência de uma superbola fabricada pela empresa Wham-O em 1969. Tem seis (6) centímetros de diâmetro e é de cor vermelha."
+      th: "SCP-018 มีลักษณะเหมือนลูกซูเปอร์บอลที่ผลิตโดยบริษัท Wham-O ในปี 1969 มีเส้นผ่านศูนย์กลางหก (6) เซนติเมตร และมีสีแดง"
+      uk: "SCP-018 має вигляд супер-м'ячика, виготовленого компанією Wham-O у 1969 році. Його діаметр — шість (6) сантиметрів, а колір червоний."
+      vi: "SCP-018 có hình dạng một quả bóng siêu nảy do công ty Wham-O sản xuất năm 1969. Nó có đường kính sáu (6) xăng-ti-mét và có màu đỏ."
+      zh: "SCP-018外形为Wham-O公司于1969年制造的一款超级弹力球。直径六（6）厘米，呈红色。"
+      zh_Hant: "SCP-018外形為Wham-O公司於1969年製造的一款超級彈力球。直徑六（6）公分，呈紅色。"
+
+  - scene: >
+      Wide dynamic shot, low angle, a bare concrete test chamber. SCP-018
+      is a bright red blur tracing a jagged path of ever-higher bounce
+      arcs, drawn with motion lines, already near the ceiling. On the left
+      side of the frame, Attending Researcher (Female) dives behind an
+      overturned steel table for cover.
+    characters: [scp-018, attending-researcher-f]
+    caption:
+      ja: "当初は楽しい子供のおもちゃだと思われていたが、SCP-018は200パーセントを超える効率で跳ね返ることができた（すなわち、1メートルの高さから落とすと、2メートル、次に4メートル、次に8メートル、次に16メートルと跳ね上がる）。"
+      en: "At first thought to be a pleasant child's toy, SCP-018 was able to bounce with over two hundred percent (200%) efficiency (that is, if dropped one (1) meter, it would bounce two (2), then four (4), then eight (8), then sixteen (16))."
+      cs: "Zprvu byl považován za příjemnou dětskou hračku, SCP-018 se však dokázal odrážet s účinností přes dvě stě procent (200 %) (tedy pokud byl upuštěn z jednoho (1) metru, odrazil se do dvou (2), poté čtyř (4), poté osmi (8) a poté šestnácti (16) metrů)."
+      de: "Zunächst für ein nettes Kinderspielzeug gehalten, konnte SCP-018 mit einer Effizienz von über zweihundert Prozent (200 %) zurückspringen (das heißt, aus einem (1) Meter fallen gelassen, sprang er auf zwei (2), dann vier (4), dann acht (8), dann sechzehn (16) Meter)."
+      es: "En un principio se creyó que era un agradable juguete infantil, pero SCP-018 podía rebotar con una eficiencia superior al doscientos por ciento (200 %) (es decir, si se dejaba caer desde un (1) metro, rebotaba dos (2), luego cuatro (4), luego ocho (8), luego dieciséis (16))."
+      fr: "D'abord considérée comme un agréable jouet pour enfant, SCP-018 pouvait rebondir avec une efficacité de plus de deux cents pour cent (200 %) (c'est-à-dire que, lâchée d'un (1) mètre, elle rebondissait à deux (2), puis quatre (4), puis huit (8), puis seize (16) mètres)."
+      it: "Inizialmente ritenuto un piacevole giocattolo per bambini, SCP-018 era in grado di rimbalzare con un'efficienza superiore al duecento per cento (200%) (ossia, se lasciato cadere da un (1) metro, rimbalzava a due (2), poi quattro (4), poi otto (8), poi sedici (16) metri)."
+      ko: "처음에는 즐거운 어린이 장난감으로 여겨졌으나, SCP-018은 200퍼센트(200%)가 넘는 효율로 튀어 오를 수 있었다(즉, 1미터 높이에서 떨어뜨리면 2미터, 그다음 4미터, 그다음 8미터, 그다음 16미터로 튀어 오른다)."
+      pl: "Początkowo uznawany za miłą zabawkę dla dzieci, SCP-018 potrafił odbijać się z wydajnością ponad dwustu procent (200%) (to znaczy, upuszczony z jednego (1) metra, odbijał się na dwa (2), potem cztery (4), potem osiem (8), potem szesnaście (16) metrów)."
+      pt: "Inicialmente considerado um agradável brinquedo infantil, o SCP-018 conseguia quicar com uma eficiência superior a duzentos por cento (200%) (ou seja, se solto de um (1) metro, quicava dois (2), depois quatro (4), depois oito (8), depois dezesseis (16) metros)."
+      th: "แรกเริ่มถูกเข้าใจว่าเป็นของเล่นเด็กที่น่ารื่นรมย์ แต่ SCP-018 สามารถกระดอนได้ด้วยประสิทธิภาพเกินสองร้อยเปอร์เซ็นต์ (200%) (กล่าวคือ หากปล่อยจากความสูงหนึ่ง (1) เมตร มันจะกระดอนขึ้นไปสอง (2) แล้วสี่ (4) แล้วแปด (8) แล้วสิบหก (16) เมตร)"
+      uk: "Спершу його вважали приємною дитячою іграшкою, проте SCP-018 міг відскакувати з ефективністю понад двісті відсотків (200%) (тобто, якщо його впустити з одного (1) метра, він відскакував на два (2), потім чотири (4), потім вісім (8), потім шістнадцять (16) метрів)."
+      vi: "Ban đầu bị cho là một món đồ chơi trẻ em dễ chịu, nhưng SCP-018 có thể nảy với hiệu suất hơn hai trăm phần trăm (200%) (nghĩa là, nếu thả từ độ cao một (1) mét, nó sẽ nảy lên hai (2), rồi bốn (4), rồi tám (8), rồi mười sáu (16) mét)."
+      zh: "起初被认为是一款讨人喜欢的儿童玩具，但SCP-018能够以超过百分之二百（200%）的效率弹跳（即，若从一（1）米高处落下，它会弹起二（2）米，然后四（4）米，然后八（8）米，然后十六（16）米）。"
+      zh_Hant: "起初被認為是一款討人喜歡的兒童玩具，但SCP-018能夠以超過百分之二百（200%）的效率彈跳（即，若從一（1）公尺高處落下，它會彈起二（2）公尺，然後四（4）公尺，然後八（8）公尺，然後十六（16）公尺）。"
+
+  - scene: >
+      Medium-wide shot, eye level, the muddy shore of a calm lake at dusk.
+      A dented trail crosses a broken fence and the mud down to the
+      water's edge. Attending Researcher (Male) and Attending Researcher
+      (Female) wade knee-deep in the shallows with a long-handled net,
+      scooping the small red ball out of the water. Distant town rooftops
+      and two visibly bent lampposts show on the far bank.
+    characters: [attending-researcher-m, attending-researcher-f, scp-018]
+    caption:
+      ja: "ボールはやがて危険な飛翔体となり、推定時速100キロメートルを超える速度に達し、█████████████市で器物を損壊し、5名を負傷させた。数日後、近くの████████湖で静止し、SCP職員によって回収された。"
+      en: "The ball soon became a dangerous projectile, reaching speeds estimated at over 100 km/h and damaging property and injuring five (5) in the city of █████████████. It came to a rest after several days in the nearby lake of ████████, and was retrieved by SCP personnel."
+      cs: "Míček se brzy stal nebezpečným projektilem, dosahoval odhadované rychlosti přes 100 km/h, poškozoval majetek a ve městě █████████████ zranil pět (5) osob. Po několika dnech se zastavil v nedalekém jezeře ████████ a byl získán personálem SCP."
+      de: "Der Ball wurde bald zu einem gefährlichen Geschoss, erreichte geschätzte Geschwindigkeiten von über 100 km/h, beschädigte Eigentum und verletzte in der Stadt █████████████ fünf (5) Personen. Nach mehreren Tagen kam er im nahegelegenen See ████████ zur Ruhe und wurde von SCP-Personal geborgen."
+      es: "La pelota pronto se convirtió en un proyectil peligroso, alcanzando velocidades estimadas en más de 100 km/h y dañando propiedades e hiriendo a cinco (5) personas en la ciudad de █████████████. Se detuvo tras varios días en el cercano lago de ████████, y fue recuperada por personal de SCP."
+      fr: "La balle devint bientôt un projectile dangereux, atteignant des vitesses estimées à plus de 100 km/h, endommageant des biens et blessant cinq (5) personnes dans la ville de █████████████. Elle s'immobilisa après plusieurs jours dans le lac voisin de ████████, et fut récupérée par le personnel de SCP."
+      it: "La pallina divenne presto un pericoloso proiettile, raggiungendo velocità stimate in oltre 100 km/h e danneggiando proprietà e ferendo cinque (5) persone nella città di █████████████. Dopo diversi giorni si fermò nel vicino lago di ████████, e fu recuperata dal personale SCP."
+      ko: "이 공은 곧 위험한 발사체가 되어 시속 100킬로미터가 넘는 것으로 추정되는 속도에 도달했으며, █████████████ 시에서 기물을 파손하고 5명을 부상시켰다. 며칠 후 인근 ████████ 호수에서 멈췄고, SCP 요원에 의해 회수되었다."
+      pl: "Piłka szybko stała się niebezpiecznym pociskiem, osiągając prędkość szacowaną na ponad 100 km/h, uszkadzając mienie i raniąc pięć (5) osób w mieście █████████████. Po kilku dniach zatrzymała się w pobliskim jeziorze ████████ i została odzyskana przez personel SCP."
+      pt: "A bola logo se tornou um projétil perigoso, atingindo velocidades estimadas em mais de 100 km/h e danificando propriedades e ferindo cinco (5) pessoas na cidade de █████████████. Após vários dias, parou no lago próximo de ████████, e foi recuperada por pessoal da SCP."
+      th: "ในไม่ช้าลูกบอลก็กลายเป็นวัตถุพุ่งอันตราย ทำความเร็วได้ประมาณกว่า 100 กม./ชม. สร้างความเสียหายแก่ทรัพย์สินและทำให้มีผู้บาดเจ็บห้า (5) คนในเมือง █████████████ หลังจากผ่านไปหลายวันมันหยุดนิ่งอยู่ในทะเลสาบ ████████ ที่อยู่ใกล้เคียง และถูกเก็บกู้โดยเจ้าหน้าที่ SCP"
+      uk: "М'ячик невдовзі став небезпечним снарядом, розвиваючи швидкість, оцінену в понад 100 км/год, пошкоджуючи майно та поранивши п'ятьох (5) людей у місті █████████████. За кілька днів він зупинився в найближчому озері ████████ і був вилучений персоналом SCP."
+      vi: "Quả bóng nhanh chóng trở thành một vật thể bay nguy hiểm, đạt tốc độ ước tính hơn 100 km/h, gây hư hại tài sản và làm bị thương năm (5) người ở thành phố █████████████. Sau vài ngày, nó dừng lại ở hồ ████████ gần đó, và được nhân viên SCP thu hồi."
+      zh: "这颗球很快成为危险的飞射物，估计速度超过每小时100公里，在█████████████市损坏财物并造成五（5）人受伤。数日后，它停在附近的████████湖中，被SCP人员回收。"
+      zh_Hant: "這顆球很快成為危險的飛射物，估計速度超過每小時100公里，在█████████████市損壞財物並造成五（5）人受傷。數日後，它停在附近的████████湖中，被SCP人員回收。"

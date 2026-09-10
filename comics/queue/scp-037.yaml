@@ -1,0 +1,167 @@
+# SCP-037 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 補遺は本編・addendum欄いずれにも使わない。キャラにセリフは言わせない。
+
+id: scp-037
+
+title:
+  en: "SCP-037: Dying Star"
+  ja: "SCP-037：滅びゆく星"
+  cs: "SCP-037: Umírající hvězda"
+  de: "SCP-037: Sterbender Stern"
+  es: "SCP-037: Estrella moribunda"
+  fr: "SCP-037 : L'étoile mourante"
+  it: "SCP-037: Stella morente"
+  ko: "SCP-037: 죽어가는 별"
+  pl: "SCP-037: Umierająca gwiazda"
+  pt: "SCP-037: Estrela moribunda"
+  th: "SCP-037: ดาวที่กำลังจะดับ"
+  uk: "SCP-037: Вмируча зоря"
+  vi: "SCP-037: Ngôi sao đang lụi tàn"
+  zh: "SCP-037：垂死之星"
+  zh_Hant: "SCP-037：垂死之星"
+
+attribution:
+  article: "SCP-037"
+  author: "Dr. Klein, rewritten by SimpleCadence"
+  source_url: "http://scp-wiki.wikidot.com/scp-037"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+characters: [attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide establishing shot, eye level, of a sealed underground vacuum
+      containment chamber. In the exact center of the room a single
+      tiny, blindingly brilliant point of light hangs in mid-air, held
+      in place by a ring of heavy electromagnetic coils. The walls are
+      lined with dark heat-conducting polymer tiles. On the left side of
+      the frame, Attending Researcher (Male) stands at a monitoring
+      console watching gauges. Everything is lit mainly by the fierce
+      white glow of the little star.
+    characters: [attending-researcher-m]
+    notes: >
+      根拠: SC procedures「SCP-037 is magnetically contained in a
+      subterranean complex known as Site-22. Object size, spectral
+      signature, and temperature are constantly monitored both onsite
+      and remotely from Site-98.」
+      変えてはいけない事実: 磁力による収容、地下施設、常時モニタリング。
+      変更可能: 研究者の位置・ポーズ、機材の見せ方。
+    caption:
+      ja: "SCP-037は、サイト-22として知られる地下施設内で磁力により収容されている。物体の大きさ、スペクトル特性、温度は、現地およびサイト-98から遠隔で常時監視されている。"
+      en: "SCP-037 is magnetically contained in a subterranean complex known as Site-22. Object size, spectral signature, and temperature are constantly monitored both onsite and remotely from Site-98."
+      cs: "SCP-037 je magneticky zadržován v podzemním komplexu známém jako Lokalita-22. Velikost objektu, spektrální charakteristika a teplota jsou nepřetržitě monitorovány jak na místě, tak dálkově z Lokality-98."
+      de: "SCP-037 wird magnetisch in einem unterirdischen Komplex namens Standort-22 eingedämmt. Größe, spektrale Signatur und Temperatur des Objekts werden sowohl vor Ort als auch aus der Ferne von Standort-98 ständig überwacht."
+      es: "SCP-037 está contenido magnéticamente en un complejo subterráneo conocido como Sitio-22. El tamaño del objeto, su firma espectral y su temperatura se monitorean constantemente tanto en el lugar como de forma remota desde el Sitio-98."
+      fr: "SCP-037 est confiné magnétiquement dans un complexe souterrain connu sous le nom de Site-22. La taille de l'objet, sa signature spectrale et sa température sont surveillées en permanence sur place et à distance depuis le Site-98."
+      it: "SCP-037 è contenuto magneticamente in un complesso sotterraneo noto come Sito-22. Dimensioni, firma spettrale e temperatura dell'oggetto sono costantemente monitorate sia in loco sia da remoto dal Sito-98."
+      ko: "SCP-037은 사이트-22로 알려진 지하 복합시설 내에서 자력으로 격리되어 있다. 개체의 크기, 스펙트럼 특성, 온도는 현장 및 사이트-98에서 원격으로 상시 감시된다."
+      pl: "SCP-037 jest przechowywany magnetycznie w podziemnym kompleksie znanym jako Placówka-22. Rozmiar obiektu, sygnatura spektralna i temperatura są stale monitorowane zarówno na miejscu, jak i zdalnie z Placówki-98."
+      pt: "SCP-037 está contido magneticamente em um complexo subterrâneo conhecido como Site-22. O tamanho do objeto, a assinatura espectral e a temperatura são constantemente monitorados tanto no local quanto remotamente a partir do Site-98."
+      th: "SCP-037 ถูกกักกันด้วยแรงแม่เหล็กภายในกลุ่มอาคารใต้ดินที่รู้จักกันในชื่อ ไซต์-22 ขนาดของวัตถุ ลายเซ็นเชิงสเปกตรัม และอุณหภูมิ ถูกตรวจวัดอย่างต่อเนื่องทั้งในที่ตั้งและจากระยะไกลที่ไซต์-98"
+      uk: "SCP-037 утримується магнітним способом у підземному комплексі, відомому як Об'єкт-22. Розмір об'єкта, спектральна сигнатура та температура постійно відстежуються як на місці, так і дистанційно з Об'єкта-98."
+      vi: "SCP-037 được ngăn giữ bằng từ trường trong một tổ hợp ngầm dưới lòng đất được gọi là Cơ sở-22. Kích thước, đặc trưng quang phổ và nhiệt độ của vật thể được giám sát liên tục cả tại chỗ lẫn từ xa từ Cơ sở-98."
+      zh: "SCP-037被磁力收容于一处名为Site-22的地下设施内。该物体的尺寸、光谱特征与温度均在现场以及Site-98远程持续监测。"
+      zh_Hant: "SCP-037被磁力收容於一處名為Site-22的地下設施內。該物體的尺寸、光譜特徵與溫度均在現場以及Site-98遠端持續監測。"
+
+  - scene: >
+      Extreme close-up, through thick tinted safety glass, of the object
+      itself: an impossibly small star only about five centimeters
+      across, a perfect sphere of searing white-gold light with faint
+      churning surface detail like a real sun, floating alone in the
+      dark vacuum. No people in the frame. A slim measuring scale is
+      fixed on the glass beside it for size reference.
+    characters: []
+    notes: >
+      根拠: Description「SCP-037 appears to be an anomalously small star
+      approximately 5 centimeters in diameter. It possesses a luminosity
+      of about 1e-12 times that of our sun and a surface temperature of
+      about 5000 K.」
+      変えてはいけない事実: 直径約5cmの星であること、恒星的な性質。
+      変更可能: スケール表示の見せ方、背景の暗さ。
+    caption:
+      ja: "SCP-037は、直径およそ5センチメートルの、異常に小さな恒星であるとみられる。その光度は太陽のおよそ1兆分の1、表面温度はおよそ5000Kである。"
+      en: "SCP-037 appears to be an anomalously small star approximately 5 centimeters in diameter. It possesses a luminosity of about one trillionth that of our sun and a surface temperature of about 5000 K."
+      cs: "SCP-037 se jeví jako anomálně malá hvězda o průměru přibližně 5 centimetrů. Má svítivost asi biliontinu svítivosti našeho slunce a povrchovou teplotu okolo 5000 K."
+      de: "SCP-037 scheint ein anomal kleiner Stern mit einem Durchmesser von etwa 5 Zentimetern zu sein. Er besitzt eine Leuchtkraft von etwa einem Billionstel der unserer Sonne und eine Oberflächentemperatur von etwa 5000 K."
+      es: "SCP-037 parece ser una estrella anómalamente pequeña de aproximadamente 5 centímetros de diámetro. Posee una luminosidad de alrededor de una billonésima parte de la de nuestro sol y una temperatura superficial de unos 5000 K."
+      fr: "SCP-037 semble être une étoile anormalement petite d'environ 5 centimètres de diamètre. Elle possède une luminosité d'environ un billionième de celle de notre soleil et une température de surface d'environ 5000 K."
+      it: "SCP-037 sembra essere una stella anomalamente piccola di circa 5 centimetri di diametro. Possiede una luminosità pari a circa un trilionesimo di quella del nostro sole e una temperatura superficiale di circa 5000 K."
+      ko: "SCP-037은 지름 약 5센티미터의 비정상적으로 작은 항성으로 보인다. 광도는 태양의 약 1조분의 1이며, 표면 온도는 약 5000K이다."
+      pl: "SCP-037 wydaje się być anomalnie małą gwiazdą o średnicy około 5 centymetrów. Ma jasność wynoszącą około jednej bilionowej jasności naszego słońca i temperaturę powierzchni około 5000 K."
+      pt: "SCP-037 parece ser uma estrela anomalamente pequena, com aproximadamente 5 centímetros de diâmetro. Possui uma luminosidade de cerca de um trilionésimo da do nosso sol e uma temperatura de superfície de cerca de 5000 K."
+      th: "SCP-037 ดูเหมือนจะเป็นดาวฤกษ์ที่มีขนาดเล็กผิดปกติ เส้นผ่านศูนย์กลางประมาณ 5 เซนติเมตร มีความส่องสว่างราวหนึ่งในล้านล้านของดวงอาทิตย์ของเรา และมีอุณหภูมิพื้นผิวประมาณ 5000 K"
+      uk: "SCP-037, схоже, є аномально малою зорею діаметром приблизно 5 сантиметрів. Її світність становить близько однієї трильйонної від світності нашого сонця, а температура поверхні — близько 5000 K."
+      vi: "SCP-037 dường như là một ngôi sao nhỏ bất thường, đường kính khoảng 5 centimet. Nó có độ sáng bằng khoảng một phần nghìn tỷ độ sáng của mặt trời chúng ta và nhiệt độ bề mặt khoảng 5000 K."
+      zh: "SCP-037似乎是一颗异常微小的恒星，直径约5厘米。其光度约为太阳的一万亿分之一，表面温度约为5000K。"
+      zh_Hant: "SCP-037似乎是一顆異常微小的恆星，直徑約5公分。其光度約為太陽的一兆分之一，表面溫度約為5000K。"
+
+  - scene: >
+      Wide low-angle shot from just above the water, at night. A calm
+      dark ocean stretches to the horizon under a black sky. A single
+      Foundation research vessel sits on the water on the right side of
+      the frame. On the left, an extremely bright pinpoint of light
+      hovers motionless a couple of hundred meters above the ocean
+      surface, casting a long shimmering reflection across the waves. No
+      people visible.
+    characters: []
+    notes: >
+      根拠: Description「The object was discovered ... above the Beaufort
+      Sea near the North Magnetic Pole. An extremely bright object
+      descended from the sky, and the SCPS Guardian located it hovering
+      roughly 200 meters above ocean surface.」
+      変えてはいけない事実: 北磁極付近ボーフォート海の上空、空から降下、
+      海面上約200mでの静止、財団船の存在。
+      変更可能: 夜/構図、船の細部。
+    caption:
+      ja: "この物体は、北磁極に近いボーフォート海の上空で発見された。極めて明るい物体が空から降下し、SCPSガーディアンが海面上およそ200メートルで静止しているのを発見した。"
+      en: "The object was discovered above the Beaufort Sea near the North Magnetic Pole. An extremely bright object descended from the sky, and the SCPS Guardian located it hovering roughly 200 meters above the ocean surface."
+      cs: "Objekt byl objeven nad Beaufortovým mořem poblíž severního magnetického pólu. Mimořádně jasný objekt sestoupil z oblohy a SCPS Guardian jej lokalizoval, jak se vznáší zhruba 200 metrů nad hladinou oceánu."
+      de: "Das Objekt wurde über der Beaufortsee nahe dem Nördlichen Magnetpol entdeckt. Ein extrem helles Objekt sank vom Himmel herab, und die SCPS Guardian ortete es, wie es etwa 200 Meter über der Meeresoberfläche schwebte."
+      es: "El objeto fue descubierto sobre el mar de Beaufort, cerca del polo norte magnético. Un objeto extremadamente brillante descendió del cielo, y el SCPS Guardian lo localizó flotando a unos 200 metros sobre la superficie del océano."
+      fr: "L'objet a été découvert au-dessus de la mer de Beaufort, près du pôle nord magnétique. Un objet extrêmement lumineux est descendu du ciel, et le SCPS Guardian l'a localisé alors qu'il flottait à environ 200 mètres au-dessus de la surface de l'océan."
+      it: "L'oggetto è stato scoperto sopra il Mare di Beaufort, vicino al Polo Nord magnetico. Un oggetto estremamente luminoso è disceso dal cielo, e la SCPS Guardian lo ha individuato mentre fluttuava a circa 200 metri sopra la superficie dell'oceano."
+      ko: "이 물체는 북자극 부근 보퍼트해 상공에서 발견되었다. 극도로 밝은 물체가 하늘에서 내려왔으며, SCPS 가디언이 해수면 위 약 200미터에서 정지해 있는 것을 확인했다."
+      pl: "Obiekt odkryto nad Morzem Beauforta w pobliżu północnego bieguna magnetycznego. Niezwykle jasny obiekt zstąpił z nieba, a SCPS Guardian zlokalizował go, gdy unosił się około 200 metrów nad powierzchnią oceanu."
+      pt: "O objeto foi descoberto sobre o Mar de Beaufort, perto do polo norte magnético. Um objeto extremamente brilhante desceu do céu, e o SCPS Guardian o localizou pairando a cerca de 200 metros acima da superfície do oceano."
+      th: "วัตถุนี้ถูกค้นพบเหนือทะเลโบฟอร์ตใกล้ขั้วแม่เหล็กเหนือ วัตถุที่สว่างจ้าอย่างยิ่งได้ร่อนลงมาจากท้องฟ้า และ SCPS Guardian พบว่ามันลอยนิ่งอยู่เหนือผิวมหาสมุทรราว 200 เมตร"
+      uk: "Об'єкт було виявлено над морем Бофорта поблизу північного магнітного полюса. Надзвичайно яскравий об'єкт спустився з неба, і SCPS Guardian зафіксував його, коли він завис приблизно за 200 метрів над поверхнею океану."
+      vi: "Vật thể được phát hiện phía trên Biển Beaufort gần cực từ bắc. Một vật thể cực kỳ sáng đã hạ xuống từ bầu trời, và tàu SCPS Guardian xác định được nó đang lơ lửng cách mặt đại dương khoảng 200 mét."
+      zh: "该物体是在北磁极附近的波弗特海上空被发现的。一个极其明亮的物体自天空降下，SCPS加迪安号发现它悬停在洋面上方约200米处。"
+      zh_Hant: "該物體是在北磁極附近的波弗特海上空被發現的。一個極其明亮的物體自天空降下，SCPS加迪安號發現它懸停在洋面上方約200公尺處。"
+
+  - scene: >
+      Close-up on the face of Attending Researcher (Female), lit from
+      one side by the harsh white light of the star, her expression
+      tense and uneasy, a faint sheen of sweat on her brow. Her eyes are
+      cut sideways toward a wall-mounted emergency control panel with a
+      single large protected switch, just visible at the edge of the
+      frame. Reflected in her glasses is the small burning star.
+    characters: [attending-researcher-f]
+    notes: >
+      根拠: Description「Research indicates the star undergoes accelerated
+      stellar evolution, potentially resulting in a nova event with
+      catastrophic yield within an estimated timeframe (details
+      redacted).」+ SC procedures の Pituaq Protocol（同じ本編、補遺で
+      はない）。
+      変えてはいけない事実: 加速する恒星進化とノヴァの脅威、非常用の
+      対応手段が用意されていること。
+      変更可能: 研究者の表情の強さ、非常パネルの見せ方。
+    caption:
+      ja: "研究の結果、この恒星は加速した恒星進化の過程にあり、推定される期間内に破滅的な規模のノヴァを起こす可能性があることが示されている。職員は、ノヴァが差し迫った場合にプイタック・プロトコルを発動する権限を与えられている。"
+      en: "Research indicates that the star is undergoing accelerated stellar evolution, potentially resulting in a nova event with catastrophic yield within an estimated timeframe. Staff are authorized to initiate the Pituaq Protocol if a stellar nova appears imminent."
+      cs: "Výzkum naznačuje, že hvězda prochází zrychleným hvězdným vývojem a v odhadovaném časovém rámci může dojít k nově s katastrofálním výnosem. Personál je oprávněn zahájit Protokol Pituaq, pokud se hvězdná nova jeví jako bezprostřední."
+      de: "Untersuchungen deuten darauf hin, dass der Stern eine beschleunigte Sternentwicklung durchläuft und innerhalb eines geschätzten Zeitraums eine Nova mit katastrophaler Energiefreisetzung auslösen könnte. Das Personal ist befugt, das Pituaq-Protokoll einzuleiten, wenn eine Sternennova unmittelbar bevorzustehen scheint."
+      es: "Las investigaciones indican que la estrella está experimentando una evolución estelar acelerada, que podría dar lugar a una nova de rendimiento catastrófico dentro de un plazo estimado. El personal está autorizado a iniciar el Protocolo Pituaq si una nova estelar parece inminente."
+      fr: "Les recherches indiquent que l'étoile subit une évolution stellaire accélérée, pouvant aboutir à une nova au rendement catastrophique dans un délai estimé. Le personnel est autorisé à déclencher le Protocole Pituaq si une nova stellaire semble imminente."
+      it: "Le ricerche indicano che la stella sta attraversando un'evoluzione stellare accelerata, con la possibilità di una nova dalla resa catastrofica entro un intervallo di tempo stimato. Il personale è autorizzato ad avviare il Protocollo Pituaq se una nova stellare appare imminente."
+      ko: "연구에 따르면 이 항성은 가속된 항성 진화 과정을 겪고 있으며, 추정된 기간 내에 파국적 규모의 신성 폭발을 일으킬 가능성이 있다. 직원은 항성 신성 폭발이 임박한 것으로 보일 경우 피투아크 프로토콜을 개시할 권한이 있다."
+      pl: "Badania wskazują, że gwiazda przechodzi przyspieszoną ewolucję gwiazdową i w szacowanym czasie może dojść do wybuchu nowej o katastrofalnej sile. Personel jest upoważniony do wdrożenia Protokołu Pituaq, jeśli wybuch nowej wydaje się nieuchronny."
+      pt: "As pesquisas indicam que a estrela está passando por uma evolução estelar acelerada, podendo resultar em uma nova de rendimento catastrófico dentro de um prazo estimado. A equipe está autorizada a iniciar o Protocolo Pituaq caso uma nova estelar pareça iminente."
+      th: "การวิจัยชี้ว่าดาวดวงนี้กำลังผ่านวิวัฒนาการของดาวฤกษ์ที่เร่งตัวขึ้น และอาจก่อให้เกิดการระเบิดโนวาที่มีพลังหายนะภายในกรอบเวลาที่ประเมินไว้ เจ้าหน้าที่ได้รับอนุญาตให้เริ่มพิธีการพิตวก หากดูเหมือนว่าการระเบิดโนวาใกล้จะเกิดขึ้น"
+      uk: "Дослідження вказують, що зоря переживає прискорену зоряну еволюцію і в межах орієнтовного строку може спричинити спалах нової з катастрофічною потужністю. Персонал уповноважений розпочати Протокол Пітуак, якщо спалах нової видається неминучим."
+      vi: "Nghiên cứu cho thấy ngôi sao đang trải qua quá trình tiến hóa sao tăng tốc, có khả năng dẫn đến một vụ nổ nova với sức công phá thảm khốc trong một khung thời gian ước tính. Nhân viên được phép khởi động Quy trình Pituaq nếu một vụ nổ nova có vẻ sắp xảy ra."
+      zh: "研究表明，该恒星正经历加速的恒星演化，可能在估计的时间范围内发生一次具有灾难性当量的新星爆发。若恒星新星爆发迫在眉睫，职员有权启动皮图阿克协议。"
+      zh_Hant: "研究表明，該恆星正經歷加速的恆星演化，可能在估計的時間範圍內發生一次具有災難性當量的新星爆發。若恆星新星爆發迫在眉睫，職員有權啟動皮圖阿克協議。"

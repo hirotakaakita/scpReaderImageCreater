@@ -1,0 +1,176 @@
+# SCP-031 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# グロ回避のため、記事にある消化・脳の摘出等の描写は本編で扱わず、
+# 収容・組織の広がり・「過去の大切な人に化けて引き留める」擬態・
+# 遅れている奪還作業の4点に絞る。キャラにセリフは言わせない。
+#
+# 4コマ構成: 1=平壌の柳京ホテルに収容、建物構造で中央尖塔に封じ込め(起)、
+# 2=7,500kg超の不定形生物がダクトを通じ全105階に広がる(承)、
+# 3=胞子果が過去の大切な人の姿に化け、留まるよう説得する(転)、
+# 4=火炎放射器と薬剤で奪還作業中だが予定を大幅に下回る(結)。
+
+id: scp-031
+
+title:
+  en: "SCP-031"
+  ja: "SCP-031"
+  cs: "SCP-031"
+  de: "SCP-031"
+  es: "SCP-031"
+  fr: "SCP-031"
+  it: "SCP-031"
+  ko: "SCP-031"
+  pl: "SCP-031"
+  pt: "SCP-031"
+  th: "SCP-031"
+  uk: "SCP-031"
+  vi: "SCP-031"
+  zh: "SCP-031"
+  zh_Hant: "SCP-031"
+
+attribution:
+  article: "SCP-031"
+  source_url: "http://scp-wiki.wikidot.com/scp-031"
+  author: "Anonymous, rewritten by DrClef"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-031:
+    name: SCP-031
+    appearance: >
+      SCP-031, an amorphous pale grey-white organism (color RGB
+      205,200,196) made of ropy fibrous tendrils and smooth ovoid pods
+      (sporocarps) roughly two meters long on thick stalks. The pod
+      surfaces can bulge and reshape into a soft, faceless, vaguely human
+      silhouette.
+    default_look: >
+      Tendrils threaded through vents, pipes and ductwork; a single pod
+      hanging from a duct, its surface just starting to push out a blurred
+      human outline with one arm-like shape reaching outward.
+
+characters: [scp-031, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full building, low angle at dusk, establishing view of a
+      colossal pyramid-shaped skyscraper looming over a quiet city
+      skyline, three slender secondary spires arranged around it giving
+      off a faint bluish shimmer. No people in frame.
+    characters: []
+    notes: >
+      根拠: SCP第1段落「SCP-031は平壌市の柳京ホテルに収容」＋第2段落「柳京ホテル
+      の構造がSCP-031を中央尖塔内に封じ込める」。変えてはいけない事実: ピラミッド
+      型の高層ホテル、副尖塔3本、中央尖塔に封じ込め。変更可能: 時間帯・光の演出。
+    caption:
+      ja: "SCP-031は現在、朝鮮民主主義人民共和国の平壌市にある柳京ホテルに収容されている。柳京ホテルの構造は、SCP-031を中央の尖塔内に封じ込める役割を果たしている。"
+      en: "SCP-031 is currently contained in the Ryugyong Hotel, located in the city of Pyongyang, Democratic People's Republic of Korea. The structure of the Ryugyong Hotel serves to contain SCP-031 within the central spire."
+      cs: "SCP-031 je v současnosti uchováváno v hotelu Rjugjong ve městě Pchjongjang v Korejské lidově demokratické republice. Konstrukce hotelu Rjugjong slouží k udržení SCP-031 uvnitř centrální věže."
+      de: "SCP-031 wird derzeit im Ryugyŏng-Hotel in der Stadt Pjöngjang in der Demokratischen Volksrepublik Korea untergebracht. Die Struktur des Ryugyŏng-Hotels dient dazu, SCP-031 innerhalb des zentralen Turms einzuschließen."
+      es: "SCP-031 se encuentra actualmente contenido en el Hotel Ryugyong, situado en la ciudad de Pionyang, República Popular Democrática de Corea. La estructura del Hotel Ryugyong sirve para contener a SCP-031 dentro de la aguja central."
+      fr: "Le SCP-031 est actuellement confiné dans l'hôtel Ryugyong, situé dans la ville de Pyongyang, en République populaire démocratique de Corée. La structure de l'hôtel Ryugyong sert à confiner le SCP-031 à l'intérieur de la flèche centrale."
+      it: "SCP-031 è attualmente contenuto nell'Hotel Ryugyong, situato nella città di Pyongyang, nella Repubblica Popolare Democratica di Corea. La struttura dell'Hotel Ryugyong serve a contenere SCP-031 all'interno della guglia centrale."
+      ko: "SCP-031은 현재 조선민주주의인민공화국 평양시에 있는 류경호텔에 수용되어 있다. 류경호텔의 구조는 SCP-031을 중앙 첨탑 내부에 가두는 역할을 한다."
+      pl: "SCP-031 jest obecnie przetrzymywane w hotelu Ryugyong w mieście Pjongjang w Koreańskiej Republice Ludowo-Demokratycznej. Konstrukcja hotelu Ryugyong służy do utrzymywania SCP-031 wewnątrz centralnej iglicy."
+      pt: "O SCP-031 está atualmente contido no Hotel Ryugyong, localizado na cidade de Pyongyang, na República Popular Democrática da Coreia. A estrutura do Hotel Ryugyong serve para conter o SCP-031 dentro da agulha central."
+      th: "ปัจจุบัน SCP-031 ถูกกักกันไว้ในโรงแรมรยูกยองในกรุงเปียงยาง สาธารณรัฐประชาธิปไตยประชาชนเกาหลี โครงสร้างของโรงแรมรยูกยองทำหน้าที่กักกัน SCP-031 ไว้ภายในยอดหอกลาง"
+      uk: "SCP-031 наразі утримується в готелі «Рюгьон» у місті Пхеньян, Корейська Народно-Демократична Республіка. Конструкція готелю «Рюгьон» слугує для утримання SCP-031 усередині центрального шпиля."
+      vi: "SCP-031 hiện được giam giữ tại Khách sạn Ryugyong, tọa lạc ở thành phố Bình Nhưỡng, Cộng hòa Dân chủ Nhân dân Triều Tiên. Kết cấu của Khách sạn Ryugyong có tác dụng giam giữ SCP-031 bên trong tòa tháp nhọn trung tâm."
+      zh: "SCP-031目前收容于朝鲜民主主义人民共和国平壤市的柳京饭店内。柳京饭店的建筑结构起到将SCP-031封闭在中央尖塔内的作用。"
+      zh_Hant: "SCP-031目前收容於朝鮮民主主義人民共和國平壤市的柳京飯店內。柳京飯店的建築結構起到將SCP-031封閉在中央尖塔內的作用。"
+
+  - scene: >
+      Medium shot, waist-up, low angle, a different framing from the
+      exterior shot, inside a dim mechanical service corridor. On the left
+      side of the frame, pale ropy fibrous tendrils of SCP-031 thread out
+      of wall vents and along overhead pipes. On the right side of the
+      frame, attending-researcher-m, wearing a complete full-body sealed
+      hazmat suit with a full helmet and clear visor and no bare skin
+      visible, raises a flashlight toward the tendrils.
+    characters: [scp-031, attending-researcher-m]
+    notes: >
+      根拠: Description第1段落「7,500kg超の不定形生物が建物のダクト・保守設備に
+      入り込む。中心質量から伸びた触手が配管・ダクトを通じ全105階へ広がる」。
+      グロ回避のため触手は淡色の繊維状に留める。変えてはいけない事実: 不定形・
+      大質量、ダクト経由で全105階に拡散。変更可能: 通路の見せ方、光源。
+    caption:
+      ja: "SCP-031は、質量7,500キログラムを超える不定形の生物であり、建物の通気ダクトや保守設備の内部に入り込んでいる。SCP-031の中心質量から伸びた触手は、ホテルの配管とダクトを通じて、建物の全105階に広がっている。"
+      en: "SCP-031 is an amorphous organism with a mass of over 7,500 kg that has infiltrated the ductwork and maintenance infrastructure of the building. Tendrils emerging from SCP-031's central mass have spread through the hotel's plumbing and ductwork to all 105 floors of the building."
+      cs: "SCP-031 je beztvarý organismus o hmotnosti přes 7 500 kilogramů, který pronikl do vzduchotechniky a údržbové infrastruktury budovy. Úponky vycházející z centrální hmoty SCP-031 se rozšířily potrubím a vzduchotechnikou hotelu do všech 105 pater budovy."
+      de: "SCP-031 ist ein amorpher Organismus mit einer Masse von über 7.500 Kilogramm, der in die Lüftungskanäle und die Wartungsinfrastruktur des Gebäudes eingedrungen ist. Von der zentralen Masse von SCP-031 ausgehende Ranken haben sich durch die Rohrleitungen und Lüftungskanäle des Hotels auf alle 105 Stockwerke des Gebäudes ausgebreitet."
+      es: "SCP-031 es un organismo amorfo con una masa de más de 7500 kilogramos que se ha infiltrado en los conductos de ventilación y la infraestructura de mantenimiento del edificio. Los tentáculos que emergen de la masa central de SCP-031 se han extendido por las tuberías y los conductos del hotel hasta las 105 plantas del edificio."
+      fr: "Le SCP-031 est un organisme amorphe d'une masse de plus de 7 500 kilogrammes qui s'est infiltré dans les gaines de ventilation et l'infrastructure d'entretien du bâtiment. Les tentacules issus de la masse centrale du SCP-031 se sont répandus dans la plomberie et les gaines de l'hôtel jusqu'aux 105 étages du bâtiment."
+      it: "SCP-031 è un organismo amorfo con una massa di oltre 7.500 chilogrammi che si è infiltrato nelle condotte di ventilazione e nell'infrastruttura di manutenzione dell'edificio. I tentacoli che emergono dalla massa centrale di SCP-031 si sono diffusi attraverso l'impianto idraulico e le condotte dell'hotel fino a tutti i 105 piani dell'edificio."
+      ko: "SCP-031은 질량이 7,500킬로그램을 넘는 무정형 생물로, 건물의 통기 덕트와 유지보수 설비 내부에 침투해 있다. SCP-031의 중심 덩어리에서 뻗어 나온 촉수는 호텔의 배관과 덕트를 통해 건물의 105개 층 전체로 퍼져 있다."
+      pl: "SCP-031 to bezkształtny organizm o masie ponad 7500 kilogramów, który przeniknął do kanałów wentylacyjnych i infrastruktury serwisowej budynku. Macki wychodzące z centralnej masy SCP-031 rozprzestrzeniły się przez instalacje i kanały hotelu na wszystkie 105 pięter budynku."
+      pt: "O SCP-031 é um organismo amorfo com massa de mais de 7500 quilogramas que se infiltrou nos dutos de ventilação e na infraestrutura de manutenção do edifício. Os tentáculos que emergem da massa central do SCP-031 se espalharam pelo encanamento e pelos dutos do hotel por todos os 105 andares do edifício."
+      th: "SCP-031 เป็นสิ่งมีชีวิตไร้รูปร่างที่มีมวลกว่า 7,500 กิโลกรัม ซึ่งได้แทรกซึมเข้าไปในระบบท่ออากาศและโครงสร้างงานบำรุงรักษาของอาคาร หนวดที่งอกออกมาจากมวลกลางของ SCP-031 ได้แผ่ขยายผ่านระบบประปาและท่ออากาศของโรงแรมไปทั่วทั้ง 105 ชั้นของอาคาร"
+      uk: "SCP-031 — це аморфний організм масою понад 7500 кілограмів, який проник у вентиляційні канали та обслуговувальну інфраструктуру будівлі. Щупальця, що виходять із центральної маси SCP-031, поширилися трубопроводами й вентиляцією готелю на всі 105 поверхів будівлі."
+      vi: "SCP-031 là một sinh vật vô định hình có khối lượng hơn 7.500 ki-lô-gam, đã xâm nhập vào hệ thống ống dẫn khí và hạ tầng bảo trì của tòa nhà. Các xúc tu mọc ra từ khối trung tâm của SCP-031 đã lan qua hệ thống đường ống và ống dẫn khí của khách sạn tới toàn bộ 105 tầng của tòa nhà."
+      zh: "SCP-031是一种质量超过7,500千克的无定形生物，已侵入建筑物的通风管道和维护设施内部。从SCP-031中心质体伸出的触须已通过饭店的管道和通风管扩散至建筑全部105层。"
+      zh_Hant: "SCP-031是一種質量超過7,500公斤的無定形生物，已侵入建築物的通風管道和維護設施內部。從SCP-031中心質體伸出的觸鬚已通過飯店的管道和通風管擴散至建築全部105層。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, dim hotel hallway, a different
+      framing from the previous panels. On the left side of the frame,
+      SCP-031's hanging pod has pushed its pale surface into a soft,
+      faceless, vaguely human silhouette that leans down and extends one
+      smooth arm-like shape in a welcoming gesture. On the right side of
+      the frame, attending-researcher-f, in a full sealed hazmat suit
+      with helmet, stands frozen with one gloved hand half-raised,
+      hesitating.
+    characters: [scp-031, attending-researcher-f]
+    notes: >
+      根拠: Description第2段落「場合によっては被験者は胞子果を、過去に強い情緒的
+      つながりのあった人物として知覚する。胞子果はその人物の姿に変形し、長時間
+      そばに留まるよう説得しようとする」。グロ回避のため擬態はぼんやりした
+      無貌のシルエットに留める。変えてはいけない事実: 過去の大切な人に化けて
+      引き留めようとすること。変更可能: 廊下の見せ方、被験者の逡巡の演出。
+    caption:
+      ja: "場合によっては、SCP-031の胞子果の前にいる被験者が、それを過去に強い情緒的つながりを持っていた人物として知覚することがある。SCP-031の胞子果は知覚された人物の姿に変形し、その被験者に長時間そばに留まるよう説得しようとする。"
+      en: "On some occasions, subjects in the presence of an SCP-031 sporocarp will perceive it as an individual the subject had a close emotional connection to in their past. The SCP-031 sporocarp will metamorphose into the shape of the person perceived, and attempt to persuade the subject to remain with them for an extended period of time."
+      cs: "V některých případech subjekt v přítomnosti sporokarpu SCP-031 vnímá tento útvar jako osobu, k níž měl v minulosti blízký citový vztah. Sporokarp SCP-031 se přemění do podoby vnímané osoby a pokusí se subjekt přesvědčit, aby s ním zůstal po delší dobu."
+      de: "In manchen Fällen nimmt ein Subjekt in Gegenwart eines Sporokarps von SCP-031 dieses als eine Person wahr, zu der es in der Vergangenheit eine enge emotionale Bindung hatte. Das Sporokarp von SCP-031 verwandelt sich in die Gestalt der wahrgenommenen Person und versucht, das Subjekt zu überreden, für längere Zeit bei ihm zu bleiben."
+      es: "En algunas ocasiones, un sujeto en presencia de un esporocarpo de SCP-031 lo percibe como una persona con la que tuvo un vínculo emocional estrecho en el pasado. El esporocarpo de SCP-031 se transforma en la forma de la persona percibida e intenta persuadir al sujeto de que permanezca con él durante un largo periodo."
+      fr: "Dans certains cas, un sujet en présence d'un sporocarpe du SCP-031 le perçoit comme une personne avec laquelle il a eu un lien affectif étroit par le passé. Le sporocarpe du SCP-031 se métamorphose alors en la forme de la personne perçue et tente de persuader le sujet de rester auprès de lui pendant une période prolongée."
+      it: "In alcuni casi, un soggetto in presenza di uno sporocarpo di SCP-031 lo percepisce come una persona con cui in passato ha avuto un legame emotivo stretto. Lo sporocarpo di SCP-031 si trasforma nella forma della persona percepita e cerca di persuadere il soggetto a rimanere con lui per un lungo periodo."
+      ko: "경우에 따라, SCP-031의 포자체 앞에 있는 대상은 그것을 과거에 깊은 정서적 유대를 가졌던 인물로 지각한다. SCP-031의 포자체는 지각된 인물의 모습으로 변형되어, 그 대상에게 오랜 시간 곁에 머물도록 설득하려 한다."
+      pl: "W niektórych przypadkach osobnik znajdujący się w obecności sporokarpu SCP-031 postrzega go jako osobę, z którą w przeszłości łączyła go bliska więź emocjonalna. Sporokarp SCP-031 przekształca się w postać postrzeganej osoby i próbuje przekonać osobnika, by pozostał z nim przez dłuższy czas."
+      pt: "Em algumas ocasiões, um sujeito na presença de um esporocarpo do SCP-031 o percebe como uma pessoa com quem teve um vínculo emocional estreito no passado. O esporocarpo do SCP-031 se transforma na forma da pessoa percebida e tenta persuadir o sujeito a permanecer com ele por um longo período."
+      th: "ในบางกรณี ผู้ถูกทดสอบที่อยู่ต่อหน้าสปอโรคาร์ปของ SCP-031 จะรับรู้ว่ามันเป็นบุคคลที่ตนเคยมีความผูกพันทางอารมณ์อย่างลึกซึ้งในอดีต สปอโรคาร์ปของ SCP-031 จะแปรสภาพเป็นรูปร่างของบุคคลที่ถูกรับรู้ และพยายามโน้มน้าวให้ผู้ถูกทดสอบอยู่กับมันเป็นเวลานาน"
+      uk: "У деяких випадках суб'єкт у присутності спорокарпа SCP-031 сприймає його як особу, з якою в минулому мав тісний емоційний зв'язок. Спорокарп SCP-031 перетворюється на подобу сприйнятої особи й намагається переконати суб'єкта залишитися з ним на тривалий час."
+      vi: "Trong một số trường hợp, đối tượng ở gần một thể bào tử của SCP-031 sẽ nhận thức nó là một người mà đối tượng từng có mối liên hệ tình cảm gắn bó trong quá khứ. Thể bào tử của SCP-031 sẽ biến đổi thành hình dạng của người được nhận thức, và cố thuyết phục đối tượng ở lại với nó trong thời gian dài."
+      zh: "在某些情况下，处于SCP-031孢子果面前的受试者会将其感知为过去与自己有紧密情感联系的某个人。SCP-031的孢子果会变形为被感知者的样貌，并试图劝说该受试者长时间留在它身边。"
+      zh_Hant: "在某些情況下，處於SCP-031孢子果面前的受試者會將其感知為過去與自己有緊密情感聯繫的某個人。SCP-031的孢子果會變形為被感知者的樣貌，並試圖勸說該受試者長時間留在它身邊。"
+
+  - scene: >
+      Wide shot, full body, eye level, a different framing from the
+      previous panels, a scorched and smoke-stained hotel hallway. On the
+      left side of the frame, attending-researcher-m in a hazmat suit
+      holds up a clipboard schedule, shoulders slumping in dismay. On the
+      right side of the frame, attending-researcher-f in a hazmat suit
+      lowers the nozzle of a backpack flame projector, a chemical sprayer
+      tank on her back.
+    characters: [attending-researcher-m, attending-researcher-f]
+    notes: >
+      根拠: SCP第3段落「ホテルの奪還作業は進行中。現地政府軍がハズマットスーツ
+      着用の人員に火炎放射器と薬剤噴霧器を装備させて除染。だが進捗の遅さと
+      SCP-031の防御能力で予定を大幅に下回る」。変えてはいけない事実: 火炎放射器
+      と薬剤噴霧器による奪還作業、大幅な遅延。変更可能: 廊下の見せ方、職員の反応。
+    caption:
+      ja: "ホテルの奪還作業は現在進行中であり、現地政府軍がハズマットスーツを着用した人員に火炎放射器と薬剤噴霧器を装備させて実施している。しかし進捗の遅さとSCP-031の防御能力により、奪還作業は予定を大幅に下回っている。"
+      en: "Reclamation efforts of the hotel are currently underway, with local government forces utilizing hazmat-suited personnel armed with flame projectors and chemical sprayers. However, due to the slow pace of progress and SCP-031's defensive capabilities, reclamation efforts are drastically behind schedule."
+      cs: "Práce na obnově hotelu právě probíhají; místní vládní jednotky k nim nasazují personál v protichemických oblecích vyzbrojený plamenomety a chemickými postřikovači. Kvůli pomalému postupu a obranným schopnostem SCP-031 však obnovovací práce dramaticky zaostávají za harmonogramem."
+      de: "Die Rückgewinnung des Hotels ist derzeit im Gange; örtliche Regierungskräfte setzen dafür Personal in Hazmat-Anzügen ein, das mit Flammenwerfern und Chemiesprühgeräten ausgerüstet ist. Aufgrund des langsamen Fortschritts und der Abwehrfähigkeiten von SCP-031 liegen die Rückgewinnungsarbeiten jedoch drastisch hinter dem Zeitplan."
+      es: "Las labores de recuperación del hotel están actualmente en curso; las fuerzas del gobierno local emplean personal con trajes de materiales peligrosos armado con lanzallamas y pulverizadores químicos. Sin embargo, debido a la lentitud del avance y a las capacidades defensivas de SCP-031, las labores de recuperación acumulan un enorme retraso."
+      fr: "Les opérations de reprise de l'hôtel sont actuellement en cours ; les forces gouvernementales locales y emploient du personnel en combinaison NRBC armé de lance-flammes et de pulvérisateurs chimiques. Toutefois, en raison de la lenteur des progrès et des capacités défensives du SCP-031, les opérations de reprise accusent un retard considérable sur le calendrier."
+      it: "Le operazioni di recupero dell'hotel sono attualmente in corso; le forze del governo locale impiegano personale in tuta ignifuga e antichimica armato di lanciafiamme e nebulizzatori chimici. Tuttavia, a causa della lentezza dei progressi e delle capacità difensive di SCP-031, le operazioni di recupero sono drammaticamente in ritardo sulla tabella di marcia."
+      ko: "호텔 탈환 작업이 현재 진행 중이며, 현지 정부군이 방호복을 착용한 인원에게 화염 방사기와 화학 살포기를 지급해 수행하고 있다. 그러나 더딘 진척과 SCP-031의 방어 능력으로 인해 탈환 작업은 예정보다 크게 지연되고 있다."
+      pl: "Prace nad odzyskaniem hotelu są obecnie w toku; lokalne siły rządowe wykorzystują do nich personel w kombinezonach ochronnych uzbrojony w miotacze ognia i opryskiwacze chemiczne. Jednak z powodu powolnych postępów i zdolności obronnych SCP-031 prace nad odzyskaniem są drastycznie opóźnione w stosunku do harmonogramu."
+      pt: "Os trabalhos de recuperação do hotel estão em andamento; as forças do governo local empregam pessoal em trajes de proteção armado com lança-chamas e pulverizadores químicos. Contudo, devido ao ritmo lento do progresso e às capacidades defensivas do SCP-031, os trabalhos de recuperação estão drasticamente atrasados em relação ao cronograma."
+      th: "ปฏิบัติการยึดคืนโรงแรมกำลังดำเนินอยู่ในขณะนี้ โดยกองกำลังรัฐบาลท้องถิ่นใช้เจ้าหน้าที่ในชุดป้องกันสารอันตรายซึ่งติดอาวุธด้วยเครื่องพ่นไฟและเครื่องพ่นสารเคมี อย่างไรก็ตาม ด้วยความคืบหน้าที่ล่าช้าและความสามารถในการป้องกันตัวของ SCP-031 ปฏิบัติการยึดคืนจึงล่าช้ากว่ากำหนดการอย่างมาก"
+      uk: "Роботи з повернення готелю наразі тривають; місцеві урядові сили залучають до них персонал у захисних костюмах, озброєний вогнеметами та хімічними розпилювачами. Однак через повільний поступ і захисні здібності SCP-031 роботи з повернення катастрофічно відстають від графіка."
+      vi: "Công tác thu hồi khách sạn hiện đang được tiến hành; lực lượng chính quyền địa phương sử dụng nhân sự mặc đồ bảo hộ nguy hại được trang bị súng phun lửa và máy phun hóa chất. Tuy nhiên, do tiến độ chậm chạp và khả năng phòng vệ của SCP-031, công tác thu hồi đang chậm hơn kế hoạch một cách nghiêm trọng."
+      zh: "饭店的收复工作目前正在进行，由当地政府部队派出身着危险物品防护服、配备火焰喷射器和化学喷洒器的人员实施。然而，由于进展缓慢加之SCP-031的防御能力，收复工作已严重落后于计划。"
+      zh_Hant: "飯店的收復工作目前正在進行，由當地政府部隊派出身著危險物品防護服、配備火焰噴射器和化學噴灑器的人員實施。然而，由於進展緩慢加之SCP-031的防禦能力，收復工作已嚴重落後於計劃。"

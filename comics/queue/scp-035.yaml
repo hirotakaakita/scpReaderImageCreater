@@ -1,0 +1,177 @@
+# SCP-035 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# グロ回避のため、憑依・宿主のミイラ化・自殺教唆といった描写は本編で扱わず、
+# 収容・外見(喜劇/悲劇の切替と記録の書き換え)・腐食性の液・魅力的だが操作的な
+# 人格の4点に絞る。キャラにセリフは言わせない。液体は様式化して描く。
+#
+# 4コマ構成: 1=厚いガラスケース＋鋼鉄・鉄・鉛で遮蔽した部屋に保管(起)、
+# 2=白磁の喜劇の仮面だが時に悲劇へ変わり、既存の視覚記録もすべて自動で
+# 書き換わる(承)、3=目と口の穴から強い腐食性の粘液が絶えず滲み、ガラスが
+# 最も遅く反応するため容器に選ばれた(転)、4=極めて知的で愛想がよいが、
+# 心理分析では極めて操作的な性質と判明(結)。
+
+id: scp-035
+
+title:
+  en: "SCP-035"
+  ja: "SCP-035"
+  cs: "SCP-035"
+  de: "SCP-035"
+  es: "SCP-035"
+  fr: "SCP-035"
+  it: "SCP-035"
+  ko: "SCP-035"
+  pl: "SCP-035"
+  pt: "SCP-035"
+  th: "SCP-035"
+  uk: "SCP-035"
+  vi: "SCP-035"
+  zh: "SCP-035"
+  zh_Hant: "SCP-035"
+
+attribution:
+  article: "SCP-035"
+  source_url: "http://scp-wiki.wikidot.com/scp-035"
+  author: "Kain Pathos Crow"
+  license: "CC BY-SA 3.0"
+
+object_class: Keter
+
+local_characters:
+  scp-035:
+    name: SCP-035
+    appearance: >
+      SCP-035, a white glazed porcelain theatre mask of a full human face
+      (color RGB 238,236,230), usually fixed in a serene smiling comedy
+      expression but sometimes shifting to a downturned tragedy
+      expression. A dark, glossy, viscous liquid (color RGB 45,40,38)
+      constantly wells from its empty eye and mouth holes.
+    default_look: >
+      Mounted upright on a small stand inside a very thick sealed glass
+      case, a shallow pool of the dark liquid gathered beneath it.
+
+characters: [scp-035, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full room, eye level, showing a bare shielded chamber
+      with thick metal-plated walls. In the center stands a waist-high
+      pedestal supporting a very thick sealed glass case with SCP-035
+      mounted inside. On the right side of the frame, attending-researcher-m
+      works a heavy triple-locked door, the silhouette of an armed guard
+      visible through the doorway beyond.
+    characters: [scp-035, attending-researcher-m]
+    notes: >
+      根拠: SCP第1〜3文「厚さ10cm以上の密閉ガラスケースに保管。ケースは常時、
+      鋼鉄・鉄・鉛で遮蔽した部屋に収容。扉は常時三重施錠、武装警備2名以上」。
+      変えてはいけない事実: 厚いガラスケース、金属遮蔽室、施錠と警備。
+      変更可能: 部屋・扉の見せ方、警備員の位置。
+    caption:
+      ja: "SCP-035は、厚さ10センチメートル以上の密閉されたガラスケース内に保管される。このケースは常時、鋼鉄・鉄・鉛で遮蔽された部屋の中に収容される。"
+      en: "SCP-035 is to be kept within a hermetically sealed glass case, no fewer than 10 centimeters (4 inches) thick. This case is to be contained within a steel, iron and lead-shielded room at all times."
+      cs: "SCP-035 musí být uchováváno v hermeticky uzavřené skleněné vitríně o tloušťce nejméně 10 centimetrů. Tato vitrína musí být neustále umístěna v místnosti stíněné ocelí, železem a olovem."
+      de: "SCP-035 ist in einer hermetisch versiegelten Glasvitrine von mindestens 10 Zentimetern Dicke aufzubewahren. Diese Vitrine ist jederzeit in einem mit Stahl, Eisen und Blei abgeschirmten Raum unterzubringen."
+      es: "SCP-035 debe mantenerse dentro de una vitrina de vidrio herméticamente sellada, de no menos de 10 centímetros de grosor. Esta vitrina debe permanecer en todo momento dentro de una sala blindada con acero, hierro y plomo."
+      fr: "Le SCP-035 doit être conservé dans une vitrine de verre hermétiquement close, d'au moins 10 centimètres d'épaisseur. Cette vitrine doit être maintenue en permanence dans une pièce blindée d'acier, de fer et de plomb."
+      it: "SCP-035 deve essere custodito all'interno di una teca di vetro ermeticamente sigillata, spessa non meno di 10 centimetri. Questa teca deve essere sempre contenuta in una stanza schermata con acciaio, ferro e piombo."
+      ko: "SCP-035은 두께 10센티미터 이상의 밀폐된 유리 상자 안에 보관한다. 이 상자는 항상 강철, 철, 납으로 차폐된 방 안에 수용한다."
+      pl: "SCP-035 należy przechowywać w hermetycznie zamkniętej gablocie szklanej o grubości nie mniejszej niż 10 centymetrów. Gablota ta ma być przez cały czas umieszczona w pomieszczeniu ekranowanym stalą, żelazem i ołowiem."
+      pt: "O SCP-035 deve ser mantido dentro de uma vitrine de vidro hermeticamente vedada, com no mínimo 10 centímetros de espessura. Essa vitrine deve permanecer o tempo todo dentro de uma sala blindada com aço, ferro e chumbo."
+      th: "ต้องเก็บ SCP-035 ไว้ในตู้กระจกที่ปิดผนึกสนิท หนาไม่น้อยกว่า 10 เซนติเมตร ตู้นี้ต้องอยู่ภายในห้องที่กำบังด้วยเหล็กกล้า เหล็ก และตะกั่วตลอดเวลา"
+      uk: "SCP-035 слід тримати в герметично закритій скляній вітрині завтовшки не менше 10 сантиметрів. Ця вітрина повсякчас має перебувати в кімнаті, екранованій сталлю, залізом і свинцем."
+      vi: "SCP-035 phải được giữ trong một tủ kính kín khí, dày không dưới 10 xăng-ti-mét. Tủ này phải luôn được đặt trong một căn phòng bọc chắn bằng thép, sắt và chì."
+      zh: "SCP-035须保存于一个密封的玻璃箱内，其壁厚不少于10厘米。该玻璃箱须始终置于一间以钢、铁和铅屏蔽的房间之中。"
+      zh_Hant: "SCP-035須保存於一個密封的玻璃箱內，其壁厚不少於10公分。該玻璃箱須始終置於一間以鋼、鐵和鉛屏蔽的房間之中。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the wide
+      shot. On the left side of the frame, SCP-035 sits in its glass case
+      with its expression caught mid-change, the smile half-collapsed into
+      a frown. On the right side of the frame, a row of framed
+      photographs on the wall ripples and blurs as the pictured mask
+      shifts to match; attending-researcher-f watches them change,
+      unsettled.
+    characters: [scp-035, attending-researcher-f]
+    notes: >
+      根拠: Description第1段落「白い磁器の喜劇の仮面に見えるが、時折悲劇へ変化。
+      その際、写真・映像・挿絵などSCP-035の既存の視覚記録がすべて自動的に
+      新しい外見へ書き換わる」。変えてはいけない事実: 喜劇/悲劇の切替、既存記録の
+      自動書き換え。変更可能: 記録媒体の見せ方、研究者の反応。
+    caption:
+      ja: "SCP-035は白い磁器製の喜劇の仮面のように見えるが、時折、悲劇の仮面へと変化する。その際、SCP-035に関する既存のあらゆる視覚的記録――写真、映像、さらには挿絵まで――が、自動的にその新しい外見を反映して変化する。"
+      en: "SCP-035 appears to be a white porcelain comedy mask, although, at times, it will change to tragedy. In these events, all existing visual records — photographs, video footage, even illustrations — of SCP-035 automatically change to reflect its new appearance."
+      cs: "SCP-035 vypadá jako bílá porcelánová maska komedie, občas se však změní na masku tragédie. Při těchto událostech se všechny existující obrazové záznamy SCP-035 – fotografie, videozáznamy, dokonce i ilustrace – automaticky změní tak, aby odpovídaly jeho novému vzhledu."
+      de: "SCP-035 wirkt wie eine weiße Porzellanmaske der Komödie, wechselt jedoch bisweilen zur Tragödie. Bei diesen Ereignissen ändern sich alle vorhandenen Bildaufzeichnungen von SCP-035 – Fotos, Videoaufnahmen, sogar Illustrationen – automatisch, um sein neues Aussehen widerzuspiegeln."
+      es: "SCP-035 parece ser una máscara blanca de porcelana de la comedia, aunque a veces cambia a la de la tragedia. En esos casos, todos los registros visuales existentes de SCP-035 —fotografías, grabaciones de vídeo, incluso ilustraciones— cambian automáticamente para reflejar su nueva apariencia."
+      fr: "Le SCP-035 ressemble à un masque blanc en porcelaine de la comédie, bien qu'il se transforme parfois en masque de la tragédie. Lors de ces événements, tous les enregistrements visuels existants du SCP-035 — photographies, séquences vidéo, et même illustrations — se modifient automatiquement pour refléter sa nouvelle apparence."
+      it: "SCP-035 sembra una maschera bianca di porcellana della commedia, anche se a volte muta in quella della tragedia. In tali eventi, tutte le registrazioni visive esistenti di SCP-035 — fotografie, riprese video, persino illustrazioni — cambiano automaticamente per rispecchiarne il nuovo aspetto."
+      ko: "SCP-035은 흰색 도자기로 된 희극 가면처럼 보이지만, 때때로 비극 가면으로 변한다. 이때 SCP-035에 관한 기존의 모든 시각 기록 — 사진, 영상, 심지어 삽화까지 — 이 그 새로운 외형을 반영하도록 자동으로 바뀐다."
+      pl: "SCP-035 wygląda jak biała porcelanowa maska komedii, choć czasami zmienia się w maskę tragedii. Podczas takich zdarzeń wszystkie istniejące zapisy wizualne SCP-035 — fotografie, nagrania wideo, a nawet ilustracje — automatycznie zmieniają się, aby odzwierciedlić jego nowy wygląd."
+      pt: "O SCP-035 parece ser uma máscara branca de porcelana da comédia, embora, às vezes, mude para a da tragédia. Nesses casos, todos os registros visuais existentes do SCP-035 — fotografias, filmagens, até ilustrações — mudam automaticamente para refletir sua nova aparência."
+      th: "SCP-035 ดูเหมือนหน้ากากละครสุขนาฏกรรมทำจากกระเบื้องเคลือบสีขาว แม้ในบางครั้งมันจะเปลี่ยนเป็นหน้ากากโศกนาฏกรรม เมื่อเกิดเหตุการณ์เช่นนี้ บันทึกภาพที่มีอยู่ทั้งหมดของ SCP-035 ทั้งภาพถ่าย ภาพวิดีโอ แม้กระทั่งภาพวาด จะเปลี่ยนไปโดยอัตโนมัติเพื่อให้ตรงกับรูปลักษณ์ใหม่ของมัน"
+      uk: "SCP-035 має вигляд білої порцелянової маски комедії, хоча часом змінюється на маску трагедії. Під час таких подій усі наявні візуальні записи SCP-035 — фотографії, відеозаписи, навіть ілюстрації — автоматично змінюються, відображаючи його новий вигляд."
+      vi: "SCP-035 trông giống một chiếc mặt nạ hài kịch bằng sứ trắng, mặc dù đôi khi nó chuyển sang mặt nạ bi kịch. Khi những sự kiện này xảy ra, mọi bản ghi hình ảnh hiện có của SCP-035 — ảnh chụp, đoạn phim, thậm chí tranh vẽ — đều tự động thay đổi để phản ánh diện mạo mới của nó."
+      zh: "SCP-035看上去是一副白色瓷制的喜剧面具，但它有时会变为悲剧面具。发生此类变化时，所有现存的SCP-035影像记录——照片、录像，乃至插画——都会自动改变，以反映其新的外观。"
+      zh_Hant: "SCP-035看上去是一副白色瓷製的喜劇面具，但它有時會變為悲劇面具。發生此類變化時，所有現存的SCP-035影像記錄——照片、錄像，乃至插畫——都會自動改變，以反映其新的外觀。"
+
+  - scene: >
+      Close-up, eye level, on the lower half of the thick glass case, a
+      different framing from the previous panels. Dark viscous liquid has
+      pooled at the bottom and is slowly etching frosted, cloudy channels
+      into the glass from the inside. On the right side of the frame,
+      attending-researcher-m stands outside the case pointing at the
+      corroded patch with a capped pen, brow furrowed.
+    characters: [scp-035, attending-researcher-m]
+    notes: >
+      根拠: Description第2段落「SCP-035の目と口の穴から強い腐食性・変性作用の
+      粘液が絶えず滲む。ガラスが最も反応が遅いため直近の容器に選ばれた」。
+      グロ回避のため被害は容器のガラスの曇り・浸食のみ。変えてはいけない事実:
+      粘液が絶えず滲むこと、ガラスが最も遅く反応すること。変更可能: 浸食の
+      見せ方、研究者の動作。
+    caption:
+      ja: "SCP-035の目と口の穴からは、腐食性と変性作用が非常に強い粘性の液体が絶えず滲み出している。ガラスはこの物体の作用に対して最も反応が遅いようであり、そのため直近の容器の材質として選ばれている。"
+      en: "A highly corrosive and degenerative viscous liquid constantly seeps from the eye and mouth holes of SCP-035. Glass seems to react the slowest to the effects of the item, hence the construction choice of its immediate container."
+      cs: "Z otvorů pro oči a ústa SCP-035 neustále prosakuje vysoce žíravá a degenerativní viskózní kapalina. Sklo na účinky předmětu zjevně reaguje nejpomaleji, proto byla zvolena tato konstrukce jeho bezprostřední schránky."
+      de: "Aus den Augen- und Mundöffnungen von SCP-035 sickert unablässig eine hochätzende und degenerative zähflüssige Flüssigkeit. Glas scheint am langsamsten auf die Wirkungen des Objekts zu reagieren, weshalb dieses Material für seinen unmittelbaren Behälter gewählt wurde."
+      es: "Por los orificios de los ojos y la boca de SCP-035 rezuma constantemente un líquido viscoso, muy corrosivo y degenerativo. El vidrio parece reaccionar más lentamente a los efectos del objeto, de ahí la elección de ese material para su contenedor inmediato."
+      fr: "Un liquide visqueux, hautement corrosif et dégénératif, suinte en permanence des orifices des yeux et de la bouche du SCP-035. Le verre semble réagir le plus lentement aux effets de l'objet, d'où le choix de ce matériau pour son contenant immédiat."
+      it: "Dai fori degli occhi e della bocca di SCP-035 trasuda costantemente un liquido viscoso altamente corrosivo e degenerativo. Il vetro sembra reagire più lentamente agli effetti dell'oggetto, da cui la scelta di tale materiale per il suo contenitore immediato."
+      ko: "SCP-035의 눈과 입 구멍에서는 부식성과 변성 작용이 매우 강한 점성 액체가 끊임없이 새어 나온다. 유리는 이 물체의 영향에 가장 느리게 반응하는 것으로 보이며, 그래서 바로 그 재질이 직접 용기로 선택되었다."
+      pl: "Z otworów na oczy i usta SCP-035 nieustannie sączy się silnie żrąca i degeneracyjna, lepka ciecz. Szkło zdaje się reagować najwolniej na działanie obiektu, stąd wybór tego materiału na jego bezpośredni pojemnik."
+      pt: "Dos orifícios dos olhos e da boca do SCP-035 escorre constantemente um líquido viscoso, altamente corrosivo e degenerativo. O vidro parece reagir mais lentamente aos efeitos do objeto, daí a escolha desse material para o recipiente imediato."
+      th: "ของเหลวหนืดที่มีฤทธิ์กัดกร่อนและทำให้เสื่อมสภาพอย่างรุนแรงไหลซึมออกจากช่องตาและปากของ SCP-035 อยู่ตลอดเวลา กระจกดูเหมือนจะตอบสนองต่อฤทธิ์ของวัตถุนี้ช้าที่สุด จึงเลือกใช้วัสดุนี้เป็นภาชนะชั้นในสุด"
+      uk: "З отворів для очей і рота SCP-035 постійно сочиться дуже їдка й руйнівна в'язка рідина. Скло, схоже, реагує на дію предмета найповільніше, тому саме цей матеріал обрано для його безпосередньої ємності."
+      vi: "Một chất lỏng nhớt có tính ăn mòn và phân hủy rất mạnh liên tục rỉ ra từ các lỗ mắt và miệng của SCP-035. Thủy tinh dường như phản ứng chậm nhất với tác động của vật thể, nên vật liệu này được chọn làm hộp chứa trực tiếp của nó."
+      zh: "一种腐蚀性和使物质变质能力都极强的黏稠液体，不断从SCP-035的眼孔和口孔渗出。玻璃似乎对该物体的作用反应最慢，因此被选作其最内层容器的材质。"
+      zh_Hant: "一種腐蝕性和使物質變質能力都極強的黏稠液體，不斷從SCP-035的眼孔和口孔滲出。玻璃似乎對該物體的作用反應最慢，因此被選作其最內層容器的材質。"
+
+  - scene: >
+      Medium shot, waist-up, eye level, a different framing from the
+      previous panels. On the left side of the frame, attending-researcher-m
+      leans in close against the glass case with a dreamy, charmed smile.
+      In the center, SCP-035 wears its serene comedy smile. On the right
+      side of the frame, attending-researcher-f grips his shoulder and
+      pulls him back, alarmed.
+    characters: [attending-researcher-m, attending-researcher-f, scp-035]
+    notes: >
+      根拠: Description「SCP-035は極めて知的で魅力的な人格を示し、話す相手の
+      誰にでも愛想よく、へつらう。しかし心理分析で極めて操作的な性質が判明」。
+      グロ回避のため憑依・自殺教唆などは描かず、魅了される研究者を心理士が
+      引き戻す構図に留める。変えてはいけない事実: 表向きは魅力的だが操作的で
+      あること。変更可能: 引き戻す演出、研究者の表情。
+    caption:
+      ja: "SCP-035は極めて知的で魅力的な人格を示し、話しかける相手の誰に対しても愛想がよく、へつらうように振る舞う。しかし心理分析により、SCP-035は極めて操作的な性質を持つことが判明している。"
+      en: "SCP-035 displays a highly intelligent and charismatic personality, being both amiable and flattering to all those who speak with it. However, psychological analysis has discovered SCP-035 to possess a highly manipulative nature."
+      cs: "SCP-035 projevuje velmi inteligentní a charismatickou osobnost a ke všem, kdo s ním hovoří, je přívětivé a lichotivé. Psychologická analýza však odhalila, že SCP-035 má silně manipulativní povahu."
+      de: "SCP-035 zeigt eine hochintelligente und charismatische Persönlichkeit und ist gegenüber allen, die mit ihm sprechen, freundlich und schmeichelnd. Psychologische Analysen haben jedoch ergeben, dass SCP-035 eine äußerst manipulative Wesensart besitzt."
+      es: "SCP-035 muestra una personalidad muy inteligente y carismática, y se comporta de forma amable y aduladora con todos los que hablan con él. Sin embargo, el análisis psicológico ha revelado que SCP-035 posee una naturaleza sumamente manipuladora."
+      fr: "Le SCP-035 fait preuve d'une personnalité très intelligente et charismatique, se montrant à la fois aimable et flatteur envers tous ceux qui lui parlent. Toutefois, l'analyse psychologique a révélé que le SCP-035 possède une nature extrêmement manipulatrice."
+      it: "SCP-035 mostra una personalità molto intelligente e carismatica, ed è affabile e adulatore con tutti coloro che gli parlano. Tuttavia, l'analisi psicologica ha rivelato che SCP-035 possiede una natura estremamente manipolatrice."
+      ko: "SCP-035은 대단히 지적이고 카리스마 있는 인격을 보이며, 자신에게 말을 거는 모든 이에게 상냥하고 아첨하듯 대한다. 그러나 심리 분석 결과, SCP-035은 매우 조종적인 본성을 지닌 것으로 밝혀졌다."
+      pl: "SCP-035 przejawia niezwykle inteligentną i charyzmatyczną osobowość, będąc uprzejmym i pochlebczym wobec wszystkich, którzy z nim rozmawiają. Analiza psychologiczna wykazała jednak, że SCP-035 ma wysoce manipulacyjną naturę."
+      pt: "O SCP-035 exibe uma personalidade extremamente inteligente e carismática, sendo amável e lisonjeiro com todos os que falam com ele. No entanto, a análise psicológica revelou que o SCP-035 possui uma natureza altamente manipuladora."
+      th: "SCP-035 แสดงบุคลิกภาพที่ชาญฉลาดและมีเสน่ห์อย่างยิ่ง ทั้งเป็นมิตรและประจบประแจงต่อทุกคนที่สนทนากับมัน อย่างไรก็ตาม การวิเคราะห์ทางจิตวิทยาพบว่า SCP-035 มีธรรมชาติที่ชอบชักใยผู้อื่นอย่างมาก"
+      uk: "SCP-035 виявляє надзвичайно розумну й харизматичну особистість, будучи привітним і улесливим до всіх, хто з ним розмовляє. Проте психологічний аналіз виявив, що SCP-035 має вкрай маніпулятивну натуру."
+      vi: "SCP-035 thể hiện một nhân cách rất thông minh và lôi cuốn, vừa thân thiện vừa nịnh nọt với tất cả những ai trò chuyện với nó. Tuy nhiên, phân tích tâm lý đã phát hiện SCP-035 có bản chất thao túng rất cao."
+      zh: "SCP-035表现出极为聪慧且富有魅力的人格，对每一个与之交谈的人都和蔼可亲、极尽奉承。然而心理分析发现，SCP-035具有极强的操纵性本质。"
+      zh_Hant: "SCP-035表現出極為聰慧且富有魅力的人格，對每一個與之交談的人都和藹可親、極盡奉承。然而心理分析發現，SCP-035具有極強的操縱性本質。"

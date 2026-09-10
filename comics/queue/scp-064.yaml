@@ -1,0 +1,187 @@
+# SCP-064 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-064
+
+title:
+  en: "SCP-064"
+  ja: "SCP-064"
+  cs: "SCP-064"
+  de: "SCP-064"
+  es: "SCP-064"
+  fr: "SCP-064"
+  it: "SCP-064"
+  ko: "SCP-064"
+  pl: "SCP-064"
+  pt: "SCP-064"
+  th: "SCP-064"
+  uk: "SCP-064"
+  vi: "SCP-064"
+  zh: "SCP-064"
+  zh_Hant: "SCP-064"
+
+attribution:
+  article: "SCP-064"
+  author: "HK-016"
+  source_url: "http://scp-wiki.wikidot.com/scp-064"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-064:
+    name: SCP-064
+    appearance: >
+      A single light brown fired-clay building brick (color RGB 175,140,105)
+      about 10 cm x 6 cm x 20 cm, with a smooth flat surface and a few minor
+      cosmetic chips along its edges. Visually just like an ordinary solid
+      brick, but slightly darker and more uniform in colour than the duller,
+      redder secondary bricks it produces.
+    default_look: >
+      Lying flat on bare soft earth. When a scene shows replication, pale
+      thread-like fibres extend from it in the outline of a new brick which
+      then fills in solid; secondary bricks are redder and more iron-stained
+      than SCP-064 itself. No glow, markings, or lettering on the brick.
+
+panels:
+  - scene: >
+      Wide shot, eye level, on a vast flat cracked salt pan under open sky.
+      SCP-064 sits alone on the bare earth in the near foreground. Far behind
+      it, small in the frame, attending-researcher-m stands at a surveying
+      tripod looking through the eyepiece while attending-researcher-f writes
+      on a clipboard beside him.
+    notes: >
+      Panel-1 basis: "SCP-064 is to be kept in a suitably remote area for
+      observation," with goals of a geometric behavioural model and study of
+      location/soil effects. Fixed facts: a lone brick observed in remote
+      open terrain. Free to restage: the survey gear, poses, framing.
+    characters: [scp-064, attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "SCP-064は観察のため、適切に人里離れた場所に保管される。現在の目標は、本オブジェクトの挙動パターンの幾何学モデルを作成すること、および場所や土壌組成によるこのパターンの変化を観察することである。"
+      en: "SCP-064 is to be kept in a suitably remote area for observation. Current goals are to generate a geometric model of the object's behavioral pattern and to observe any changes in this pattern due to location and soil composition."
+      cs: "SCP-064 se pro účely pozorování uchovává ve vhodně odlehlé oblasti. Současným cílem je vytvořit geometrický model vzorce chování objektu a sledovat jakékoli změny tohoto vzorce v závislosti na místě a složení půdy."
+      de: "SCP-064 wird zu Beobachtungszwecken in einem geeignet abgelegenen Gebiet aufbewahrt. Derzeitige Ziele sind die Erstellung eines geometrischen Modells des Verhaltensmusters des Objekts sowie die Beobachtung etwaiger Änderungen dieses Musters aufgrund von Standort und Bodenzusammensetzung."
+      es: "SCP-064 debe mantenerse en una zona lo bastante remota para su observación. Los objetivos actuales son generar un modelo geométrico del patrón de comportamiento del objeto y observar cualquier cambio en dicho patrón debido a la ubicación y a la composición del suelo."
+      fr: "SCP-064 doit être conservé dans une zone suffisamment isolée à des fins d'observation. Les objectifs actuels sont d'établir un modèle géométrique du schéma comportemental de l'objet et d'observer tout changement de ce schéma dû à l'emplacement et à la composition du sol."
+      it: "SCP-064 deve essere tenuto in un'area sufficientemente remota per l'osservazione. Gli obiettivi attuali sono generare un modello geometrico dello schema comportamentale dell'oggetto e osservare eventuali cambiamenti di tale schema dovuti alla posizione e alla composizione del terreno."
+      ko: "SCP-064는 관찰을 위해 충분히 외딴 지역에 보관한다. 현재 목표는 이 물체의 행동 패턴에 대한 기하학적 모델을 만들고, 위치와 토양 조성에 따른 이 패턴의 변화를 관찰하는 것이다."
+      pl: "SCP-064 należy przechowywać w odpowiednio odludnym miejscu w celu obserwacji. Obecnymi celami są opracowanie geometrycznego modelu wzorca zachowania obiektu oraz obserwacja wszelkich zmian tego wzorca wynikających z lokalizacji i składu gleby."
+      pt: "O SCP-064 deve ser mantido em uma área suficientemente remota para observação. Os objetivos atuais são gerar um modelo geométrico do padrão de comportamento do objeto e observar quaisquer mudanças nesse padrão decorrentes da localização e da composição do solo."
+      th: "ต้องเก็บ SCP-064 ไว้ในพื้นที่ห่างไกลพอสมควรเพื่อการสังเกตการณ์ เป้าหมายในปัจจุบันคือการสร้างแบบจำลองเชิงเรขาคณิตของรูปแบบพฤติกรรมของวัตถุ และสังเกตการเปลี่ยนแปลงใดๆ ของรูปแบบนี้อันเนื่องมาจากสถานที่และองค์ประกอบของดิน"
+      uk: "SCP-064 для спостереження зберігається у належно віддаленій місцевості. Поточні цілі — побудувати геометричну модель поведінкової схеми об'єкта та відстежувати будь-які зміни цієї схеми залежно від місця й складу ґрунту."
+      vi: "SCP-064 phải được giữ ở một khu vực đủ hẻo lánh để quan sát. Mục tiêu hiện tại là dựng một mô hình hình học về khuôn mẫu hành vi của vật thể và quan sát mọi thay đổi của khuôn mẫu này do vị trí và thành phần đất gây ra."
+      zh: "SCP-064须保存在足够偏远的地区以供观察。目前的目标是建立该物体行为模式的几何模型，并观察该模式因地点和土壤成分而产生的任何变化。"
+      zh_Hant: "SCP-064須保存在足夠偏遠的地區以供觀察。目前的目標是建立該物體行為模式的幾何模型，並觀察該模式因地點和土壤成分而產生的任何變化。"
+
+  - scene: >
+      Extreme close-up on SCP-064 lying on the bare soil, filling most of the
+      frame. From one long edge of SCP-064, a pale web of thread-like fibres
+      has spread out across the dirt in the exact outline of a second brick,
+      which is already half solidified into reddish clay. attending-researcher-f's
+      gloved hand rests at the top edge of the frame holding a pair of steel
+      calipers against the new brick.
+    notes: >
+      Panel-2 basis: "SCP-064 is a light brown earthenware brick" of ~1.6 kg,
+      ~10x6x20 cm; "when left lying on a flat expanse of soft earth, SCP-064
+      will begin to multiply through an unknown mechanism," via a lattice of
+      silicon fibres that fills with a soil mixture. Fixed facts: the brick
+      spawns copies from a fibre lattice. Free to restage: the measuring
+      gesture, framing.
+    characters: [scp-064, attending-researcher-f]
+    caption:
+      ja: "SCP-064は、主に酸化ケイ素と若干の有機物からなる、明るい茶色の陶器製レンガである。重量は1.6kg、寸法はおよそ10cm×6cm×20cm。柔らかい土の広く平らな場所に置かれると、SCP-064は未知の機構によって増殖を始める。"
+      en: "SCP-064 is a light brown earthenware brick composed primarily of silicon oxides and some organic matter. The object weighs 1.6 kg and measures some 10 cm x 6 cm x 20 cm. When left lying on a flat expanse of soft earth, SCP-064 will begin to multiply through an unknown mechanism."
+      cs: "SCP-064 je světle hnědá pálená cihla složená převážně z oxidů křemíku a určitého množství organické hmoty. Předmět váží 1,6 kg a měří přibližně 10 cm x 6 cm x 20 cm. Je-li ponechán ležet na rovné ploše měkké země, začne se SCP-064 neznámým mechanismem množit."
+      de: "SCP-064 ist ein hellbrauner Ziegel aus Steingut, der überwiegend aus Siliziumoxiden und etwas organischem Material besteht. Das Objekt wiegt 1,6 kg und misst etwa 10 cm x 6 cm x 20 cm. Lässt man es auf einer ebenen Fläche weicher Erde liegen, beginnt sich SCP-064 durch einen unbekannten Mechanismus zu vermehren."
+      es: "SCP-064 es un ladrillo de barro cocido de color marrón claro, compuesto principalmente de óxidos de silicio y algo de materia orgánica. El objeto pesa 1,6 kg y mide unos 10 cm x 6 cm x 20 cm. Cuando se deja sobre una extensión plana de tierra blanda, SCP-064 comienza a multiplicarse mediante un mecanismo desconocido."
+      fr: "SCP-064 est une brique en terre cuite brun clair, composée principalement d'oxydes de silicium et d'un peu de matière organique. L'objet pèse 1,6 kg et mesure environ 10 cm x 6 cm x 20 cm. Lorsqu'on le laisse posé sur une étendue plane de terre meuble, SCP-064 commence à se multiplier selon un mécanisme inconnu."
+      it: "SCP-064 è un mattone di terracotta marrone chiaro, composto principalmente da ossidi di silicio e da un po' di materia organica. L'oggetto pesa 1,6 kg e misura circa 10 cm x 6 cm x 20 cm. Se lasciato su una distesa piana di terra soffice, SCP-064 comincia a moltiplicarsi tramite un meccanismo sconosciuto."
+      ko: "SCP-064는 주로 규소 산화물과 약간의 유기물로 이루어진 밝은 갈색 토기 벽돌이다. 이 물체의 무게는 1.6kg이고 크기는 약 10cm x 6cm x 20cm이다. 부드러운 흙이 넓고 평평하게 펼쳐진 곳에 놓아두면, SCP-064는 알 수 없는 기제로 증식하기 시작한다."
+      pl: "SCP-064 to jasnobrązowa cegła z wypalanej gliny, złożona głównie z tlenków krzemu i pewnej ilości materii organicznej. Obiekt waży 1,6 kg i mierzy około 10 cm x 6 cm x 20 cm. Pozostawiony na płaskiej połaci miękkiej ziemi, SCP-064 zaczyna się rozmnażać wskutek nieznanego mechanizmu."
+      pt: "O SCP-064 é um tijolo de barro cozido de cor marrom-clara, composto principalmente de óxidos de silício e alguma matéria orgânica. O objeto pesa 1,6 kg e mede cerca de 10 cm x 6 cm x 20 cm. Quando deixado sobre uma extensão plana de terra macia, o SCP-064 começa a se multiplicar por um mecanismo desconhecido."
+      th: "SCP-064 คืออิฐดินเผาสีน้ำตาลอ่อน ประกอบด้วยออกไซด์ของซิลิกอนเป็นหลักและสารอินทรีย์บางส่วน วัตถุนี้หนัก 1.6 กก. และมีขนาดราว 10 ซม. x 6 ซม. x 20 ซม. เมื่อวางทิ้งไว้บนผืนดินอ่อนที่ราบกว้าง SCP-064 จะเริ่มเพิ่มจำนวนด้วยกลไกที่ไม่ทราบ"
+      uk: "SCP-064 — це світло-коричнева цегла з випаленої глини, що складається переважно з оксидів кремнію та певної кількості органічної речовини. Об'єкт важить 1,6 кг і має розміри приблизно 10 см x 6 см x 20 см. Якщо залишити його лежати на рівній ділянці м'якого ґрунту, SCP-064 починає розмножуватися за невідомим механізмом."
+      vi: "SCP-064 là một viên gạch đất nung màu nâu nhạt, thành phần chủ yếu là các oxit silic và một ít chất hữu cơ. Vật thể nặng 1,6 kg và có kích thước khoảng 10 cm x 6 cm x 20 cm. Khi được đặt nằm trên một vùng đất mềm bằng phẳng rộng lớn, SCP-064 bắt đầu tự nhân lên theo một cơ chế chưa xác định."
+      zh: "SCP-064是一块浅棕色陶土砖，主要由硅氧化物和少量有机物构成。该物体重1.6千克，尺寸约为10厘米×6厘米×20厘米。当被放置在一片平坦而松软的土地上时，SCP-064会通过一种未知机制开始自我复制。"
+      zh_Hant: "SCP-064是一塊淺棕色陶土磚，主要由矽氧化物和少量有機物構成。該物體重1.6公斤，尺寸約為10公分×6公分×20公分。當被放置在一片平坦而鬆軟的土地上時，SCP-064會透過一種未知機制開始自我複製。"
+
+  - scene: >
+      High aerial bird's-eye view looking straight down. Risen from the flat
+      plain is a vast, intricate freestanding maze of light brown brick
+      walls, floors and roofless rooms fanning out in a symmetrical
+      many-pointed star pattern. At one outer corner, tiny in the frame,
+      attending-researcher-m and attending-researcher-f stand on the bare
+      ground looking up at the sprawl.
+    notes: >
+      Panel-3 basis: "Given a large expanse of earth... SCP-064 produces a
+      highly complex but theoretically stable freestanding brick structure,
+      including floors and ceilings," potentially a huge twelve-pointed star;
+      growth stops on contact with an obstacle over 10 kg. Fixed facts: an
+      enormous geometric brick structure grown from one brick. Free to
+      restage: exact geometry, viewpoint.
+    characters: [scp-064, attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "十分に広い土地が与えられると、SCP-064は極めて複雑だが理論上は安定した、床や天井を含む自立式のレンガ構造物を作り出す。ただし、構造物が相当の障害物（質量10kgを超える固形物を含むことが観察されている）に接触すると、成長は永久に停止する。"
+      en: "Given a large expanse of earth to work with, SCP-064 produces a highly complex but theoretically stable freestanding brick structure, including floors and ceilings. However, growth stops permanently once the structure contacts a significant obstacle, observed to include any solid object over 10 kg in mass."
+      cs: "Má-li k dispozici velkou plochu země, vytvoří SCP-064 nesmírně složitou, avšak teoreticky stabilní samostojnou cihlovou stavbu včetně podlah a stropů. Jakmile však stavba narazí na významnou překážku – bylo pozorováno, že sem patří jakýkoli pevný předmět o hmotnosti nad 10 kg – růst se trvale zastaví."
+      de: "Steht ihm eine große Erdfläche zur Verfügung, erzeugt SCP-064 ein äußerst komplexes, aber theoretisch stabiles freistehendes Ziegelbauwerk mit Böden und Decken. Sobald das Bauwerk jedoch auf ein erhebliches Hindernis trifft – beobachtet wurde, dass dazu jeder feste Gegenstand über 10 kg Masse zählt –, kommt das Wachstum dauerhaft zum Stillstand."
+      es: "Cuando dispone de una gran extensión de tierra, SCP-064 produce una estructura de ladrillo autoportante sumamente compleja pero teóricamente estable, con suelos y techos. Sin embargo, el crecimiento se detiene de forma permanente en cuanto la estructura entra en contacto con un obstáculo importante, del que se ha observado que forma parte cualquier objeto sólido de más de 10 kg de masa."
+      fr: "Lorsqu'il dispose d'une vaste étendue de terre, SCP-064 produit une structure de briques autoportante extrêmement complexe mais théoriquement stable, comprenant sols et plafonds. Toutefois, la croissance s'arrête définitivement dès que la structure entre en contact avec un obstacle important, dont on a observé qu'il inclut tout objet solide de plus de 10 kg."
+      it: "Disponendo di una vasta distesa di terra, SCP-064 produce una struttura in mattoni autoportante estremamente complessa ma teoricamente stabile, dotata di pavimenti e soffitti. Tuttavia, la crescita si arresta in modo permanente non appena la struttura entra in contatto con un ostacolo significativo, del quale si è osservato che fa parte qualsiasi oggetto solido di massa superiore a 10 kg."
+      ko: "충분히 넓은 땅이 주어지면, SCP-064는 바닥과 천장을 포함한, 매우 복잡하지만 이론상 안정적인 자립형 벽돌 구조물을 만들어낸다. 다만, 구조물이 상당한 장애물(질량 10kg을 넘는 고체 물체가 이에 해당하는 것으로 관찰되었다)에 접촉하면 성장은 영구히 멈춘다."
+      pl: "Mając do dyspozycji dużą połać ziemi, SCP-064 tworzy niezwykle złożoną, lecz teoretycznie stabilną wolnostojącą konstrukcję z cegieł, wraz z podłogami i sufitami. Wzrost ustaje jednak trwale, gdy tylko konstrukcja zetknie się ze znaczącą przeszkodą, do których – jak zaobserwowano – zalicza się każdy stały przedmiot o masie powyżej 10 kg."
+      pt: "Dispondo de uma grande extensão de terra, o SCP-064 produz uma estrutura de tijolos autoportante extremamente complexa, mas teoricamente estável, incluindo pisos e tetos. No entanto, o crescimento para permanentemente assim que a estrutura entra em contato com um obstáculo significativo, do qual se observou fazer parte qualquer objeto sólido com mais de 10 kg de massa."
+      th: "เมื่อมีผืนดินกว้างใหญ่ให้ทำงานด้วย SCP-064 จะสร้างโครงสร้างอิฐตั้งอิสระที่ซับซ้อนอย่างยิ่งแต่ในทางทฤษฎีมีเสถียรภาพ รวมถึงพื้นและเพดาน อย่างไรก็ตาม การเติบโตจะหยุดลงอย่างถาวรทันทีที่โครงสร้างสัมผัสกับสิ่งกีดขวางสำคัญ ซึ่งพบว่ารวมถึงวัตถุแข็งใดๆ ที่มีมวลเกิน 10 กก."
+      uk: "Маючи велику ділянку землі, SCP-064 створює надзвичайно складну, але теоретично стійку окремо розташовану цегляну споруду з підлогами й стелями. Однак ріст остаточно припиняється, щойно споруда торкається значної перешкоди, до яких, за спостереженнями, належить будь-який твердий предмет масою понад 10 кг."
+      vi: "Khi có một vùng đất rộng lớn để hoạt động, SCP-064 tạo ra một công trình gạch đứng độc lập cực kỳ phức tạp nhưng về lý thuyết là vững chắc, gồm cả sàn và trần. Tuy nhiên, sự phát triển dừng lại vĩnh viễn ngay khi công trình chạm phải một vật cản đáng kể, được ghi nhận là bao gồm bất kỳ vật rắn nào có khối lượng trên 10 kg."
+      zh: "在拥有大片土地可供利用时，SCP-064会造出一座极其复杂但理论上稳定的独立式砖结构，包括地板和天花板。然而，一旦该结构接触到重大障碍物（据观察包括任何质量超过10千克的固体物体），生长便会永久停止。"
+      zh_Hant: "在擁有大片土地可供利用時，SCP-064會造出一座極其複雜但理論上穩定的獨立式磚結構，包括地板和天花板。然而，一旦該結構接觸到重大障礙物（據觀察包括任何質量超過10公斤的固體物體），生長便會永久停止。"
+
+  - scene: >
+      Medium shot, eye level. In the foreground on the left,
+      attending-researcher-f stands holding SCP-064 up in one hand with a
+      wide-eyed "oops" grimace, having just pulled it free. Filling the
+      background behind her, the entire vast brick structure is sloughing
+      apart into cascading sheets of gray dust. On the right side of the
+      frame, attending-researcher-m throws both hands up in dismay.
+    notes: >
+      Panel-4 basis: "SCP-064 must be attached for growth to occur. Once
+      SCP-064 is removed, the structure begins to decay, and all secondary
+      bricks crumble to dust at a rate roughly equal to their rate of
+      appearance." Fixed facts: removing the one original brick collapses the
+      whole structure to dust. Free to restage: expressions, exact staging.
+    characters: [attending-researcher-f, scp-064, attending-researcher-m]
+    caption:
+      ja: "成長が起こるには、SCP-064が接続されていなければならない。SCP-064が取り外されると、構造物は崩壊を始め、すべての二次レンガは、出現時とほぼ同じ速度で崩れて塵となる。"
+      en: "SCP-064 must be attached for growth to occur. Once SCP-064 is removed, the structure begins to decay, and all secondary bricks crumble to dust at a rate roughly equal to their rate of appearance."
+      cs: "Aby růst probíhal, musí být SCP-064 připojeno. Jakmile je SCP-064 odebráno, stavba se začne rozkládat a všechny druhotné cihly se rozpadají v prach zhruba stejnou rychlostí, jakou se objevovaly."
+      de: "Damit Wachstum stattfindet, muss SCP-064 angeschlossen sein. Sobald SCP-064 entfernt wird, beginnt das Bauwerk zu zerfallen, und alle Sekundärziegel zerbröseln ungefähr in dem Tempo zu Staub, in dem sie entstanden sind."
+      es: "Para que se produzca el crecimiento, SCP-064 debe estar unido a la estructura. Una vez que se retira SCP-064, la estructura empieza a deteriorarse y todos los ladrillos secundarios se desmoronan en polvo a un ritmo aproximadamente igual al de su aparición."
+      fr: "Pour que la croissance se produise, SCP-064 doit être rattaché à la structure. Dès que SCP-064 est retiré, la structure commence à se dégrader et toutes les briques secondaires se réduisent en poussière à un rythme à peu près égal à celui de leur apparition."
+      it: "Perché la crescita avvenga, SCP-064 deve essere collegato alla struttura. Una volta rimosso SCP-064, la struttura inizia a decadere e tutti i mattoni secondari si sgretolano in polvere a un ritmo all'incirca pari a quello con cui erano comparsi."
+      ko: "성장이 일어나려면 SCP-064가 결합되어 있어야 한다. SCP-064를 제거하면 구조물은 붕괴하기 시작하고, 모든 2차 벽돌은 생성될 때와 거의 같은 속도로 부서져 먼지가 된다."
+      pl: "Aby doszło do wzrostu, SCP-064 musi być połączone z konstrukcją. Po usunięciu SCP-064 konstrukcja zaczyna się rozpadać, a wszystkie cegły wtórne kruszą się w pył w tempie mniej więcej równym tempu ich powstawania."
+      pt: "Para que o crescimento ocorra, o SCP-064 deve estar acoplado à estrutura. Uma vez removido o SCP-064, a estrutura começa a se deteriorar, e todos os tijolos secundários se desfazem em pó a uma taxa aproximadamente igual à de seu surgimento."
+      th: "การเติบโตจะเกิดขึ้นได้ SCP-064 ต้องติดอยู่กับโครงสร้าง เมื่อนำ SCP-064 ออก โครงสร้างจะเริ่มเสื่อมสลาย และอิฐทุติยภูมิทั้งหมดจะแตกเป็นผงด้วยอัตราที่ใกล้เคียงกับอัตราการปรากฏของมัน"
+      uk: "Щоб відбувався ріст, SCP-064 має бути з'єднаний зі спорудою. Щойно SCP-064 прибирають, споруда починає руйнуватися, і всі вторинні цеглини розсипаються на порох приблизно з тією ж швидкістю, з якою вони з'являлися."
+      vi: "Để sự phát triển diễn ra, SCP-064 phải được gắn với công trình. Khi SCP-064 bị lấy đi, công trình bắt đầu phân rã, và toàn bộ gạch thứ cấp vỡ vụn thành bụi với tốc độ xấp xỉ tốc độ chúng đã xuất hiện."
+      zh: "要发生生长，SCP-064必须与结构相连。一旦移除SCP-064，结构便开始衰败，所有次级砖块会以大致等同于其出现速度的速率碎解成尘。"
+      zh_Hant: "要發生生長，SCP-064必須與結構相連。一旦移除SCP-064，結構便開始衰敗，所有次級磚塊會以大致等同於其出現速度的速率碎解成塵。"
+
+addendum:
+  ja: "補遺064-J：現地チームへ再周知：SCP-064の回収は手作業で行うこと。サイトの車両を使わないこと。また、誰かが構造物の中にいる間は行わないこと。"
+  en: "Addendum 064-J: Field teams are reminded that SCP-064 is to be recovered by hand, not by the Site vehicle, and not while anyone is standing inside the structure."
+  cs: "Dodatek 064-J: Terénním týmům se připomíná, že SCP-064 se má vyzvedávat ručně, nikoli vozidlem stanoviště, a nikdy ve chvíli, kdy někdo stojí uvnitř stavby."
+  de: "Anhang 064-J: Die Außenteams werden daran erinnert, dass SCP-064 von Hand zu bergen ist, nicht mit dem Standortfahrzeug und nicht, solange sich jemand im Inneren des Bauwerks aufhält."
+  es: "Adenda 064-J: Se recuerda a los equipos de campo que SCP-064 debe recuperarse a mano, no con el vehículo del Sitio, y nunca mientras alguien esté dentro de la estructura."
+  fr: "Addendum 064-J : Il est rappelé aux équipes de terrain que SCP-064 doit être récupéré à la main, pas avec le véhicule du Site, et jamais pendant que quelqu'un se trouve à l'intérieur de la structure."
+  it: "Addendum 064-J: Si ricorda alle squadre sul campo che SCP-064 va recuperato a mano, non con il veicolo del Sito, e mai mentre qualcuno si trova all'interno della struttura."
+  ko: "부록 064-J: 현장 팀에 다시 알림. SCP-064는 사이트 차량이 아니라 손으로 회수할 것. 그리고 누군가 구조물 안에 있는 동안에는 절대 회수하지 말 것."
+  pl: "Aneks 064-J: Przypomina się zespołom terenowym, że SCP-064 należy odzyskiwać ręcznie, a nie pojazdem Placówki, i nigdy w chwili, gdy ktoś znajduje się wewnątrz konstrukcji."
+  pt: "Adendo 064-J: Lembra-se às equipes de campo que o SCP-064 deve ser recuperado à mão, não com o veículo do Sítio, e nunca enquanto alguém estiver dentro da estrutura."
+  th: "ภาคผนวก 064-J: ขอเตือนทีมภาคสนามว่า ต้องเก็บกู้ SCP-064 ด้วยมือ ไม่ใช่ด้วยรถของไซต์ และห้ามทำในขณะที่มีคนยืนอยู่ภายในโครงสร้าง"
+  uk: "Додаток 064-J: Польовим групам нагадують, що SCP-064 слід вилучати вручну, а не транспортним засобом Об'єкта, і ніколи в той момент, коли хтось перебуває всередині споруди."
+  vi: "Phụ lục 064-J: Nhắc lại với các đội thực địa rằng SCP-064 phải được thu hồi bằng tay, không dùng xe của Cơ sở, và không bao giờ thu hồi khi còn người đứng bên trong công trình."
+  zh: "补遗064-J：提醒外勤队伍：SCP-064须以人工方式回收，不得使用站点车辆，也不得在有人身处结构内部时回收。"
+  zh_Hant: "補遺064-J：提醒外勤隊伍：SCP-064須以人工方式回收，不得使用站點車輛，也不得在有人身處結構內部時回收。"

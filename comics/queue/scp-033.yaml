@@ -1,0 +1,181 @@
+# SCP-033 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# document 033-A/033-Q・インシデント033-Dの詳細は本編には使わない。
+# キャラにセリフは言わせない。画像に文字・数字は一切描かせない（記号は判読
+# 不能な走り書きとして描く）。
+#
+# 4コマ構成: 1=一面の数学記号、その「和」は█と█の間の未知の整数
+# 「Theta Prime」(起)、2=それなしに組まれた体系に入れると数値的・構造的
+# 整合性を侵食する(承)、3=平行辺なし・直角なし・等辺なしの手漉き紙に書き、
+# 計算/記録機器から30m離した金庫に(転)、4=研究時はD級が歪な board に写し、
+# 閲覧2000秒でちょうど中止(結)。
+
+id: scp-033
+
+title:
+  en: "SCP-033"
+  ja: "SCP-033"
+  cs: "SCP-033"
+  de: "SCP-033"
+  es: "SCP-033"
+  fr: "SCP-033"
+  it: "SCP-033"
+  ko: "SCP-033"
+  pl: "SCP-033"
+  pt: "SCP-033"
+  th: "SCP-033"
+  uk: "SCP-033"
+  vi: "SCP-033"
+  zh: "SCP-033"
+  zh_Hant: "SCP-033"
+
+attribution:
+  article: "SCP-033"
+  source_url: "http://scp-wiki.wikidot.com/scp-033"
+  author: "Mulciber"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-033:
+    name: SCP-033
+    appearance: >
+      SCP-033, a single small sheet of hand-made off-white paper (color
+      RGB 234,227,209) cut into a deliberately lopsided irregular polygon
+      with no two edges parallel, no right-angled corners, and every side
+      a different length. Its surface is densely covered edge to edge with
+      fine, intricate, illegible handwritten marks resembling mathematical
+      notation.
+    default_look: >
+      Lying flat or held up by a gloved hand, the crooked outline
+      obvious, the dense marks never resolving into readable text or
+      numbers.
+
+characters: [scp-033, attending-researcher-m, attending-researcher-f, d-class]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, a plain windowless study room.
+      attending-researcher-m stands at a table holding up the small
+      lopsided sheet of SCP-033 toward a desk lamp and examining it
+      through a magnifying loupe. The table is strewn with oddly-shaped
+      scraps of scratch paper, none of them rectangular.
+    characters: [attending-researcher-m, scp-033]
+    notes: >
+      根拠: Description冒頭「SCP-033は複雑な数学記号が一面に並んだものとして
+      現れる。記号の『和』はこれまで知られていなかった整数（Theta Primeと命名）
+      に等しく、█と█の間の中間的な値」。画像に数字は描かせないため記号は
+      判読不能。変えてはいけない事実: 一面の数学記号、和が未知の整数であること。
+      変更可能: 観察の道具、部屋の見せ方。
+    caption:
+      ja: "SCP-033は、複雑な数学記号が一面に並んだものとして現れる。それらの記号の『和』は、これまで知られていなかった整数（シータ・プライムと命名）に等しく、その値は█と█の間の中間的なものである。"
+      en: "SCP-033 appears as a field of complex mathematical symbols. The 'sum' of the symbols is equal to a previously unknown integer, designated Theta Prime, of intermediate value between █ and █."
+      cs: "SCP-033 se jeví jako pole složitých matematických symbolů. „Součet“ těchto symbolů se rovná dříve neznámému celému číslu (označenému jako Theta Prime), jehož hodnota leží mezi █ a █."
+      de: "SCP-033 erscheint als ein Feld komplexer mathematischer Symbole. Die „Summe“ der Symbole entspricht einer zuvor unbekannten ganzen Zahl (Theta Prime genannt), deren Wert zwischen █ und █ liegt."
+      es: "SCP-033 aparece como un campo de complejos símbolos matemáticos. La «suma» de los símbolos equivale a un número entero antes desconocido (denominado Theta Prime), de valor intermedio entre █ y █."
+      fr: "Le SCP-033 se présente comme un champ de symboles mathématiques complexes. La « somme » des symboles est égale à un nombre entier jusque-là inconnu (nommé Theta Prime), de valeur intermédiaire entre █ et █."
+      it: "SCP-033 si presenta come un campo di complessi simboli matematici. La «somma» dei simboli equivale a un numero intero prima sconosciuto (denominato Theta Prime), di valore intermedio tra █ e █."
+      ko: "SCP-033은 복잡한 수학 기호가 가득 늘어선 형태로 나타난다. 이 기호들의 '합'은 이전에 알려지지 않았던 정수(세타 프라임으로 명명)와 같으며, 그 값은 █과 █ 사이의 중간값이다."
+      pl: "SCP-033 pojawia się jako pole złożonych symboli matematycznych. „Suma“ tych symboli jest równa nieznanej wcześniej liczbie całkowitej (nazwanej Theta Prime), o wartości pośredniej między █ a █."
+      pt: "O SCP-033 aparece como um campo de complexos símbolos matemáticos. A «soma» dos símbolos é igual a um número inteiro antes desconhecido (denominado Theta Prime), de valor intermediário entre █ e █."
+      th: "SCP-033 ปรากฏเป็นผืนสัญลักษณ์ทางคณิตศาสตร์ที่ซับซ้อน 'ผลรวม' ของสัญลักษณ์เหล่านี้เท่ากับจำนวนเต็มที่ไม่เคยรู้จักมาก่อน (ตั้งชื่อว่า ทีตาไพรม์) ซึ่งมีค่าอยู่ระหว่าง █ กับ █"
+      uk: "SCP-033 має вигляд поля складних математичних символів. «Сума» цих символів дорівнює раніше невідомому цілому числу (названому Theta Prime), значення якого лежить між █ і █."
+      vi: "SCP-033 xuất hiện dưới dạng một vùng các ký hiệu toán học phức tạp. 'Tổng' của các ký hiệu này bằng một số nguyên trước đây chưa biết (được đặt tên là Theta Prime), có giá trị nằm giữa █ và █."
+      zh: "SCP-033呈现为一片复杂的数学符号。这些符号的「和」等于一个此前未知的整数（被命名为西塔普莱姆），其数值介于█与█之间。"
+      zh_Hant: "SCP-033呈現為一片複雜的數學符號。這些符號的「和」等於一個此前未知的整數（被命名為西塔普萊姆），其數值介於█與█之間。"
+
+  - scene: >
+      Medium shot, waist-up, slight high angle, a different framing from
+      the wide shot. On the left side of the frame, attending-researcher-f
+      recoils a step back from a desk. On the right side of the frame, on
+      that desk, a pocket calculator and a round wall clock are visibly
+      failing, their glowing figures sliding, sagging and dropping off
+      like melting shapes; SCP-033 lies flat on the desk beside them.
+    characters: [attending-researcher-f, scp-033]
+    notes: >
+      根拠: Description「現代の数学的計算はすべてSCP-033の知識・使用を欠いて
+      行われるため、SCP-033をそれなしに組まれた体系に導入すると、その体系の
+      数値的、ひいては構造的な整合性を侵食し始める」＋「電子機器へ『飛び移る』
+      実例あり」。画像に数字は描かせないため崩れる表示は形状のみ。
+      変えてはいけない事実: 近くの体系・機器の整合性が侵食されること。
+      変更可能: どの機器を崩すか、研究者の反応。
+    caption:
+      ja: "現代のあらゆる数学的計算はSCP-033の知識も使用も欠いたまま行われているため、SCP-033をそれなしに構築されたいかなる体系に導入しても、その体系の数値的な、ひいては構造的な整合性を侵食し始める。"
+      en: "As all modern mathematical calculations are performed lacking the knowledge or use of SCP-033, its introduction into any system organized without it begins eroding the numerical and eventually structural integrity of said system."
+      cs: "Protože všechny moderní matematické výpočty se provádějí bez znalosti či použití SCP-033, jeho zavedení do jakéhokoli systému uspořádaného bez něj začne narušovat číselnou a nakonec i strukturální integritu daného systému."
+      de: "Da alle modernen mathematischen Berechnungen ohne Kenntnis oder Verwendung von SCP-033 durchgeführt werden, beginnt seine Einführung in jedes ohne es aufgebaute System die numerische und schließlich die strukturelle Integrität dieses Systems zu untergraben."
+      es: "Dado que todos los cálculos matemáticos modernos se realizan sin el conocimiento ni el uso de SCP-033, su introducción en cualquier sistema organizado sin él comienza a erosionar la integridad numérica y, con el tiempo, estructural de dicho sistema."
+      fr: "Comme tous les calculs mathématiques modernes sont effectués sans la connaissance ni l'usage du SCP-033, son introduction dans tout système organisé sans lui commence à éroder l'intégrité numérique, puis structurelle, dudit système."
+      it: "Poiché tutti i calcoli matematici moderni vengono eseguiti senza la conoscenza né l'uso di SCP-033, la sua introduzione in qualsiasi sistema organizzato senza di esso inizia a erodere l'integrità numerica e infine strutturale di tale sistema."
+      ko: "현대의 모든 수학적 계산은 SCP-033에 대한 지식도 사용도 없이 수행되므로, SCP-033을 그것 없이 구성된 어떤 체계에 도입하면 해당 체계의 수치적 무결성, 나아가 구조적 무결성을 잠식하기 시작한다."
+      pl: "Ponieważ wszystkie współczesne obliczenia matematyczne przeprowadza się bez znajomości ani użycia SCP-033, jego wprowadzenie do dowolnego systemu zorganizowanego bez niego zaczyna naruszać integralność liczbową, a w końcu strukturalną tego systemu."
+      pt: "Como todos os cálculos matemáticos modernos são realizados sem o conhecimento nem o uso do SCP-033, sua introdução em qualquer sistema organizado sem ele começa a corroer a integridade numérica e, por fim, estrutural desse sistema."
+      th: "เนื่องจากการคำนวณทางคณิตศาสตร์สมัยใหม่ทั้งหมดกระทำโดยปราศจากความรู้หรือการใช้ SCP-033 การนำ SCP-033 เข้าสู่ระบบใด ๆ ที่จัดโครงสร้างขึ้นโดยไม่มีมัน จะเริ่มกัดกร่อนความสมบูรณ์เชิงตัวเลข และในที่สุดความสมบูรณ์เชิงโครงสร้างของระบบนั้น"
+      uk: "Оскільки всі сучасні математичні обчислення виконуються без знання чи використання SCP-033, його введення в будь-яку систему, побудовану без нього, починає руйнувати числову, а зрештою і структурну цілісність цієї системи."
+      vi: "Vì mọi phép tính toán học hiện đại đều được thực hiện mà không có kiến thức hay sự sử dụng SCP-033, việc đưa nó vào bất kỳ hệ thống nào được tổ chức mà không có nó sẽ bắt đầu bào mòn tính toàn vẹn về mặt số học, và cuối cùng là về mặt cấu trúc của hệ thống đó."
+      zh: "由于所有现代数学计算都是在不知晓也不使用SCP-033的情况下进行的，将SCP-033引入任何未纳入它而构建的系统，都会开始侵蚀该系统的数值完整性，并最终侵蚀其结构完整性。"
+      zh_Hant: "由於所有現代數學計算都是在不知曉也不使用SCP-033的情況下進行的，將SCP-033引入任何未納入它而構建的系統，都會開始侵蝕該系統的數值完整性，並最終侵蝕其結構完整性。"
+
+  - scene: >
+      Close-up, eye level, on a heavy open storage vault drawer lined with
+      dark padding, a different framing from the previous panels. On the
+      left side of the frame, attending-researcher-m, wearing white cotton
+      gloves, carefully lowers the lopsided sheet of SCP-033 into the
+      padding, a coiled measuring tape resting on the vault edge. Far in
+      the blurred background, a taped line on the floor separates this
+      corner from a distant desk holding a computer.
+    characters: [attending-researcher-m, scp-033]
+    notes: >
+      根拠: SCP第1段落「平行な辺なし・直角なし・等しい辺の長さなし（033-Safe
+      dimensions）の手漉き紙に書く。収容時はあらゆる計算/記録機器から30m以上
+      離した施錠済み保管庫に収める」。変えてはいけない事実: 不規則形状の紙、
+      機器から30m離した金庫。変更可能: 距離の示し方、手袋・器具。
+    caption:
+      ja: "その紙状の製品の寸法は、平行な辺を持たず、直角を持たず、いずれの辺の長さも他のどの辺とも等しくないものとする。収容時には、あらゆる計算機器または記録機器から少なくとも30メートル離れた施錠済みの保管庫に厳重に収める。"
+      en: "The dimensions of the paper-like product should have no parallel borders, no right angles, and no side's length equal to any other. When contained, it should be secured in a locked storage vault at least 30 meters from any computing or recording device."
+      cs: "Rozměry tohoto papírovitého produktu nesmějí mít žádné rovnoběžné okraje, žádné pravé úhly a délka žádné strany se nesmí rovnat délce kterékoli jiné. Při uskladnění musí být zajištěn v uzamčeném trezoru nejméně 30 metrů od jakéhokoli výpočetního či záznamového zařízení."
+      de: "Die Abmessungen des papierartigen Erzeugnisses dürfen keine parallelen Kanten, keine rechten Winkel und keine Seite von gleicher Länge wie eine andere aufweisen. Bei der Verwahrung ist es in einem verschlossenen Tresor mindestens 30 Meter von jedem Rechen- oder Aufzeichnungsgerät entfernt zu sichern."
+      es: "Las dimensiones del producto similar al papel no deben tener bordes paralelos, ni ángulos rectos, ni ningún lado de longitud igual a otro. Cuando esté contenido, debe guardarse en una bóveda de almacenamiento cerrada con llave, al menos a 30 metros de cualquier dispositivo informático o de grabación."
+      fr: "Les dimensions du produit de type papier ne doivent comporter aucun bord parallèle, aucun angle droit, et aucun côté de longueur égale à un autre. Lorsqu'il est confiné, il doit être conservé dans une chambre forte verrouillée, à au moins 30 mètres de tout appareil informatique ou d'enregistrement."
+      it: "Le dimensioni del prodotto cartaceo non devono presentare bordi paralleli, angoli retti, né lati di lunghezza uguale a un altro. Quando è in contenimento, deve essere custodito in un caveau chiuso a chiave ad almeno 30 metri da qualsiasi dispositivo informatico o di registrazione."
+      ko: "그 종이 형태 제품의 치수는 평행한 변이 없고, 직각이 없으며, 어느 변의 길이도 다른 변과 같지 않아야 한다. 수용 시에는 모든 컴퓨터 장비 또는 기록 장비로부터 최소 30미터 떨어진 잠긴 보관 금고에 안전하게 보관한다."
+      pl: "Wymiary produktu papieropodobnego nie mogą mieć równoległych krawędzi, kątów prostych ani boku o długości równej innemu. Podczas przechowywania należy go zabezpieczyć w zamkniętym skarbcu, co najmniej 30 metrów od jakiegokolwiek urządzenia obliczeniowego lub rejestrującego."
+      pt: "As dimensões do produto semelhante a papel não devem ter bordas paralelas, ângulos retos, nem qualquer lado de comprimento igual a outro. Quando contido, deve ser guardado em um cofre de armazenamento trancado, a pelo menos 30 metros de qualquer dispositivo de computação ou gravação."
+      th: "มิติของผลิตภัณฑ์คล้ายกระดาษนี้ต้องไม่มีขอบขนานกัน ไม่มีมุมฉาก และความยาวของด้านใด ๆ ต้องไม่เท่ากับด้านอื่น เมื่อจัดเก็บ ต้องเก็บไว้ในห้องนิรภัยที่ล็อกอยู่ ห่างจากอุปกรณ์คำนวณหรืออุปกรณ์บันทึกใด ๆ อย่างน้อย 30 เมตร"
+      uk: "Розміри цього паперуватого виробу не повинні мати паралельних країв, прямих кутів і жодної сторони, довжина якої дорівнює іншій. Під час зберігання його слід тримати в замкненому сейфі щонайменше за 30 метрів від будь-якого обчислювального чи записувального пристрою."
+      vi: "Kích thước của sản phẩm dạng giấy này không được có cạnh song song, không có góc vuông, và không cạnh nào có chiều dài bằng cạnh khác. Khi được giam giữ, nó phải được cất trong một hầm lưu trữ khóa kín, cách bất kỳ thiết bị tính toán hay ghi hình nào ít nhất 30 mét."
+      zh: "该纸状制品的尺寸不得有平行的边、不得有直角，且任一边的长度都不得与其他边相等。收容时，须将其妥善存放于上锁的保管库中，且距任何计算或记录设备至少30米。"
+      zh_Hant: "該紙狀製品的尺寸不得有平行的邊、不得有直角，且任一邊的長度都不得與其他邊相等。收容時，須將其妥善存放於上鎖的保管庫中，且距任何計算或記錄設備至少30公尺。"
+
+  - scene: >
+      Wide shot, full body, eye level, a study room, a different framing
+      from the previous panels. On the left side of the frame, d-class
+      copies the dense illegible symbols from SCP-033 onto a deliberately
+      crooked, lopsided whiteboard with no straight edges. In the center,
+      SCP-033 rests upright on a small easel stand. On the right side of
+      the frame, attending-researcher-f stares at a large mechanical
+      stopwatch, one hand raised flat to signal a stop.
+    characters: [d-class, scp-033, attending-researcher-f]
+    notes: >
+      根拠: SCP第2段落「研究のため持ち出す際はD級職員が033-Safe寸法の
+      ホワイト/黒板に書き写す」＋第3段落「閲覧開始からちょうど2000秒で研究を
+      止め、SCP-033を新たな033-Safe紙に移して保管庫へ戻す」。変えてはいけない
+      事実: D級が不規則形状の board に写すこと、2000秒で中止すること。
+      変更可能: 部屋の見せ方、合図の演出。
+    caption:
+      ja: "研究のために持ち出す場合、SCP-033はD級職員によって033-安全寸法のホワイトボードまたは黒板に書き写してよい。閲覧開始からちょうど2000秒で研究を中止し、SCP-033を保管庫に戻さなければならない。"
+      en: "When removed for study, SCP-033 can be copied to a white/chalkboard with 033-Safe dimensions by Class D staff. At precisely 2000 seconds of viewing, research must stop and SCP-033 is returned to storage."
+      cs: "Při vyjmutí ke studiu smí SCP-033 personál třídy D přepsat na bílou či černou tabuli s rozměry 033-Safe. Přesně po 2000 sekundách prohlížení musí výzkum skončit a SCP-033 se vrací do úložiště."
+      de: "Bei der Entnahme zum Studium darf SCP-033 von Personal der Klasse D auf ein Whiteboard oder eine Tafel mit 033-Safe-Abmessungen übertragen werden. Nach genau 2000 Sekunden Betrachtung muss die Forschung eingestellt und SCP-033 wieder eingelagert werden."
+      es: "Cuando se retira para su estudio, el personal de Clase D puede copiar SCP-033 en una pizarra blanca o de tiza con dimensiones 033-Safe. A los 2000 segundos exactos de visualización, la investigación debe detenerse y SCP-033 se devuelve al almacén."
+      fr: "Lorsqu'il est sorti pour étude, le SCP-033 peut être recopié par du personnel de Classe D sur un tableau blanc ou noir aux dimensions 033-Safe. Au bout de 2000 secondes exactes de visionnage, la recherche doit cesser et le SCP-033 est remis en stockage."
+      it: "Quando viene prelevato per lo studio, SCP-033 può essere ricopiato dal personale di Classe D su una lavagna bianca o nera con dimensioni 033-Safe. Dopo esattamente 2000 secondi di osservazione, la ricerca deve interrompersi e SCP-033 viene riposto in deposito."
+      ko: "연구를 위해 반출할 경우, D등급 직원이 SCP-033을 033-안전 치수의 화이트보드 또는 칠판에 옮겨 적을 수 있다. 열람 개시 후 정확히 2000초가 되면 연구를 중단하고 SCP-033을 보관고로 되돌린다."
+      pl: "Po wyjęciu do badań personel Klasy D może przepisać SCP-033 na tablicę suchościeralną lub kredową o wymiarach 033-Safe. Po dokładnie 2000 sekundach oglądania badania muszą się zakończyć, a SCP-033 wraca do magazynu."
+      pt: "Ao ser retirado para estudo, o SCP-033 pode ser copiado pela equipe de Classe D para um quadro branco ou de giz com dimensões 033-Safe. Após exatos 2000 segundos de observação, a pesquisa deve parar e o SCP-033 é devolvido ao armazenamento."
+      th: "เมื่อนำออกมาเพื่อการศึกษา เจ้าหน้าที่ระดับ D สามารถคัดลอก SCP-033 ลงบนไวต์บอร์ดหรือกระดานดำที่มีมิติ 033-Safe ได้ เมื่อครบ 2000 วินาทีพอดีของการรับชม ต้องหยุดการวิจัยและนำ SCP-033 กลับเข้าที่จัดเก็บ"
+      uk: "Під час вилучення для вивчення персонал класу D може переписати SCP-033 на білу або крейдяну дошку з розмірами 033-Safe. Рівно через 2000 секунд перегляду дослідження має припинитися, а SCP-033 повертають до сховища."
+      vi: "Khi được lấy ra để nghiên cứu, nhân viên Cấp D có thể chép SCP-033 lên một bảng trắng hoặc bảng phấn có kích thước 033-Safe. Đúng 2000 giây quan sát, việc nghiên cứu phải dừng lại và SCP-033 được đưa trở lại kho lưu trữ."
+      zh: "为研究而取出时，D级人员可将SCP-033抄写到符合033-安全尺寸的白板或黑板上。观看到整2000秒时，研究必须停止，并将SCP-033送回保管库。"
+      zh_Hant: "為研究而取出時，D級人員可將SCP-033抄寫到符合033-安全尺寸的白板或黑板上。觀看到整2000秒時，研究必須停止，並將SCP-033送回保管庫。"

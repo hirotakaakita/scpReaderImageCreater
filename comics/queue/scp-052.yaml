@@ -1,0 +1,175 @@
+# SCP-052 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 補遺は使わない。キャラにセリフは言わせない。画像に文字は描かせない。
+
+id: scp-052
+
+title:
+  en: "SCP-052"
+  ja: "SCP-052"
+  cs: "SCP-052"
+  de: "SCP-052"
+  es: "SCP-052"
+  fr: "SCP-052"
+  it: "SCP-052"
+  ko: "SCP-052"
+  pl: "SCP-052"
+  pt: "SCP-052"
+  th: "SCP-052"
+  uk: "SCP-052"
+  vi: "SCP-052"
+  zh: "SCP-052"
+  zh_Hant: "SCP-052"
+
+attribution:
+  article: "SCP-052"
+  author: "eric_h"
+  source_url: "http://scp-wiki.wikidot.com/scp-052"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  commuter:
+    name: Commuter
+    appearance: >
+      An ordinary present-day New York commuter, a woman in her thirties
+      with shoulder-length brown hair (color RGB 90,65,45) and a tired,
+      everyday face.
+    default_look: >
+      A plain buttoned overcoat in muted gray-brown over everyday
+      clothes, a shoulder bag. Disoriented, confused expression.
+
+characters: [mtf-agent, commuter]
+
+panels:
+  - scene: >
+      Wide establishing shot, eye level, looking down a deserted
+      late-night subway platform, tiled walls, dim yellow lighting, a
+      folding barrier and a couple of striped sawhorses across the
+      stairs marked for maintenance (no readable words). Two MTF Agents
+      stand at ease on the empty platform, one near the barrier, one
+      further down the platform edge. The track is empty. No text.
+    characters: [mtf-agent]
+    notes: >
+      根拠: SC procedures「The 59th Street A/B/C/D Station in NYC is closed
+      to the public from 11pm-1am on Saturdays/Sundays under the pretext
+      of 'track maintenance.' Mobile Task Force Gamma-6 staffs the
+      station during these hours to prevent public access and apprehend
+      anyone exiting the anomaly.」
+      変えてはいけない事実: 週末23時〜翌1時に「線路保守」を口実に閉鎖、
+      機動部隊ガンマ6が配置され、公衆の立ち入り阻止と異常から出てくる者の
+      拘束を行う。
+      変更可能: 駅の構図、隊員の配置。
+    caption:
+      ja: "ニューヨーク市の59丁目A/B/C/D駅は、毎週土曜・日曜の午後11時から翌午前1時まで、「線路保守」を名目に一般公衆へ閉鎖される。この時間帯は機動部隊ガンマ6が駅に配置され、一般人の立ち入りを防ぐとともに、異常から出てくる者を拘束する。"
+      en: "The 59th Street A/B/C/D Station in New York City is closed to the public from 11 p.m. to 1 a.m. on Saturdays and Sundays under the pretext of 'track maintenance.' Mobile Task Force Gamma-6 staffs the station during these hours to prevent public access and to apprehend anyone exiting the anomaly."
+      cs: "Stanice 59th Street A/B/C/D v New Yorku je pro veřejnost uzavřena od 23:00 do 1:00 v sobotu a neděli pod záminkou 'údržby kolejí'. Mobilní úderná jednotka Gamma-6 v těchto hodinách stanici obsazuje, aby zabránila přístupu veřejnosti a zadržela každého, kdo z anomálie vystoupí."
+      de: "Die Station 59th Street A/B/C/D in New York City ist samstags und sonntags von 23 bis 1 Uhr unter dem Vorwand von 'Gleiswartung' für die Öffentlichkeit gesperrt. Die Mobile Task Force Gamma-6 besetzt die Station während dieser Stunden, um den Zugang der Öffentlichkeit zu verhindern und jeden festzunehmen, der die Anomalie verlässt."
+      es: "La estación 59th Street A/B/C/D de Nueva York permanece cerrada al público de 23:00 a 1:00 los sábados y domingos con el pretexto de 'mantenimiento de vías'. La Fuerza de Tarea Móvil Gamma-6 ocupa la estación durante esas horas para impedir el acceso del público y detener a quien salga de la anomalía."
+      fr: "La station 59th Street A/B/C/D de New York est fermée au public de 23 h à 1 h les samedis et dimanches sous prétexte d'un 'entretien des voies'. La Force d'Intervention Mobile Gamma-6 occupe la station durant ces heures pour empêcher l'accès du public et appréhender quiconque sort de l'anomalie."
+      it: "La stazione 59th Street A/B/C/D di New York è chiusa al pubblico dalle 23:00 all'1:00 del sabato e della domenica con il pretesto di 'manutenzione dei binari'. La Task Force Mobile Gamma-6 presidia la stazione durante queste ore per impedire l'accesso del pubblico e fermare chiunque esca dall'anomalia."
+      ko: "뉴욕시의 59번가 A/B/C/D 역은 매주 토요일과 일요일 오후 11시부터 다음 날 오전 1시까지 '선로 정비'를 명목으로 일반에 폐쇄된다. 이 시간대에는 기동특무부대 감마-6이 역에 배치되어 일반인의 출입을 막고, 이상 개체에서 나오는 자를 붙잡는다."
+      pl: "Stacja 59th Street A/B/C/D w Nowym Jorku jest zamykana dla publiczności od 23:00 do 1:00 w soboty i niedziele pod pretekstem 'konserwacji torów'. Mobilna Formacja Operacyjna Gamma-6 obsadza stację w tych godzinach, aby uniemożliwić wstęp publiczności i zatrzymać każdego, kto wychodzi z anomalii."
+      pt: "A estação 59th Street A/B/C/D, em Nova York, é fechada ao público das 23h à 1h aos sábados e domingos sob o pretexto de 'manutenção da via'. A Força-Tarefa Móvel Gamma-6 ocupa a estação nesse horário para impedir o acesso do público e deter quem sair da anomalia."
+      th: "สถานี 59th Street A/B/C/D ในนครนิวยอร์กจะปิดไม่ให้ประชาชนเข้าตั้งแต่ 23.00 น. ถึง 1.00 น. ในวันเสาร์และอาทิตย์ โดยอ้างว่าเป็น 'การบำรุงรักษาราง' หน่วยเฉพาะกิจเคลื่อนที่แกมมา-6 ประจำการที่สถานีในช่วงเวลาดังกล่าว เพื่อกันไม่ให้ประชาชนเข้าและควบคุมตัวผู้ที่ออกมาจากความผิดปกติ"
+      uk: "Станцію 59th Street A/B/C/D у Нью-Йорку зачиняють для відвідувачів із 23:00 до 1:00 у суботу та неділю під приводом 'ремонту колії'. Мобільна оперативна група Гамма-6 займає станцію в ці години, щоб не пускати сторонніх і затримувати кожного, хто виходить з аномалії."
+      vi: "Ga 59th Street A/B/C/D ở thành phố New York bị đóng cửa với công chúng từ 23 giờ đến 1 giờ sáng vào thứ Bảy và Chủ Nhật với lý do 'bảo trì đường ray'. Đội Đặc nhiệm Cơ động Gamma-6 túc trực tại ga trong những giờ này để ngăn công chúng tiếp cận và bắt giữ bất kỳ ai bước ra từ dị thể."
+      zh: "纽约市59街A/B/C/D站在每周六、周日的23时至次日1时，以“轨道维护”为名对公众关闭。机动特遣队伽马-6在此时段驻守车站，阻止公众进入，并抓捕从异常中走出的任何人。"
+      zh_Hant: "紐約市59街A/B/C/D站在每週六、週日的23時至次日1時，以「軌道維護」為名對公眾關閉。機動特遣隊伽馬-6在此時段駐守車站，阻止公眾進入，並抓捕從異常中走出的任何人。"
+
+  - scene: >
+      Medium shot from the platform, slight upward angle. A pristine
+      1930s-style New York subway car has pulled in and stopped, its
+      doors sliding open with warm interior light spilling onto the
+      platform. The car looks brand new despite its vintage design. A
+      round analog clock on the tiled wall reads three minutes to
+      midnight. No people boarding yet, no text or route letters.
+    characters: []
+    notes: >
+      根拠: Description「SCP-052 is a type R4 New York City subway train
+      officially listed as built in 1932 and scrapped in 1975, yet it
+      continues operating. The train appears on the Uptown A/D track at
+      the 59th St. and 8th Avenue station at 11:57 p.m. every Saturday,
+      arriving in perfect condition.」
+      変えてはいけない事実: 1932年製・1975年廃車のはずのR4型地下鉄車両、
+      毎週土曜23:57にアップタウン線ホームへ完全な状態で現れる。
+      変更可能: アングル、車内の光の見せ方。
+    caption:
+      ja: "SCP-052は、公式には1932年に製造され1975年に廃車とされているR4型のニューヨーク市地下鉄車両であるが、現在も運行を続けている。この列車は毎週土曜日の午後11時57分に、59丁目・8番街駅のアップタウン線A/D番線に、完全な状態で現れる。"
+      en: "SCP-052 is a type R4 New York City subway train, officially listed as built in 1932 and scrapped in 1975, yet it continues to operate. The train appears on the Uptown A/D track at the 59th Street and 8th Avenue station at 11:57 p.m. every Saturday, arriving in perfect condition."
+      cs: "SCP-052 je newyorský metrový vůz typu R4, oficiálně vedený jako postavený v roce 1932 a sešrotovaný v roce 1975, přesto stále jezdí. Vlak se objevuje na koleji směr Uptown A/D ve stanici 59th Street a 8th Avenue každou sobotu v 23:57 a přijíždí v bezvadném stavu."
+      de: "SCP-052 ist ein New Yorker U-Bahn-Wagen des Typs R4, offiziell 1932 gebaut und 1975 verschrottet, dennoch weiterhin im Betrieb. Der Zug erscheint jeden Samstag um 23:57 Uhr auf dem Uptown-Gleis A/D an der Station 59th Street und 8th Avenue und trifft in einwandfreiem Zustand ein."
+      es: "SCP-052 es un vagón de metro de Nueva York del tipo R4, registrado oficialmente como construido en 1932 y desguazado en 1975, pero sigue en funcionamiento. El tren aparece en la vía Uptown A/D de la estación de 59th Street y 8th Avenue a las 23:57 de todos los sábados, llegando en perfecto estado."
+      fr: "SCP-052 est une rame de métro new-yorkais de type R4, officiellement répertoriée comme construite en 1932 et mise à la casse en 1975, mais qui continue de circuler. Le train apparaît sur la voie Uptown A/D de la station 59th Street et 8th Avenue à 23 h 57 chaque samedi, arrivant en parfait état."
+      it: "SCP-052 è un vagone della metropolitana di New York di tipo R4, ufficialmente registrato come costruito nel 1932 e rottamato nel 1975, eppure continua a circolare. Il treno compare sul binario Uptown A/D della stazione di 59th Street e 8th Avenue alle 23:57 di ogni sabato, arrivando in perfette condizioni."
+      ko: "SCP-052는 공식적으로 1932년에 제작되어 1975년에 폐차된 것으로 기록된 뉴욕시 지하철 R4형 차량이지만, 지금도 운행을 계속하고 있다. 이 열차는 매주 토요일 오후 11시 57분에 59번가·8번가 역의 업타운 A/D 선로에 완전한 상태로 나타난다."
+      pl: "SCP-052 to nowojorski wagon metra typu R4, oficjalnie odnotowany jako zbudowany w 1932 roku i złomowany w 1975, a mimo to wciąż kursuje. Pociąg pojawia się na torze w kierunku Uptown A/D na stacji 59th Street i 8th Avenue o 23:57 w każdą sobotę, przybywając w nienagannym stanie."
+      pt: "SCP-052 é um vagão de metrô de Nova York do tipo R4, oficialmente registrado como construído em 1932 e sucateado em 1975, mas que continua em operação. O trem surge na via Uptown A/D da estação de 59th Street e 8th Avenue às 23h57 de todo sábado, chegando em perfeito estado."
+      th: "SCP-052 เป็นตู้รถไฟใต้ดินนครนิวยอร์กชนิด R4 ซึ่งในบันทึกทางการระบุว่าสร้างในปี 1932 และถูกแยกชิ้นส่วนในปี 1975 แต่มันยังคงวิ่งให้บริการอยู่ รถไฟขบวนนี้ปรากฏบนรางสาย Uptown A/D ที่สถานี 59th Street และ 8th Avenue เวลา 23.57 น. ของทุกวันเสาร์ โดยมาถึงในสภาพสมบูรณ์แบบ"
+      uk: "SCP-052 — вагон нью-йоркського метро типу R4, за офіційними записами збудований 1932 року та зданий на брухт 1975 року, проте він досі курсує. Потяг з'являється на колії напрямку Uptown A/D станції 59th Street та 8th Avenue о 23:57 щосуботи, прибуваючи в бездоганному стані."
+      vi: "SCP-052 là một toa tàu điện ngầm New York loại R4, theo hồ sơ chính thức được chế tạo năm 1932 và tháo dỡ năm 1975, nhưng vẫn tiếp tục vận hành. Đoàn tàu xuất hiện trên đường ray hướng Uptown A/D tại ga 59th Street và 8th Avenue vào lúc 23 giờ 57 phút mỗi thứ Bảy, đến nơi trong tình trạng hoàn hảo."
+      zh: "SCP-052是一节R4型纽约市地铁车厢，官方记录为1932年制造、1975年报废，却仍在运行。该列车于每周六23时57分出现在59街与第8大道站的上城方向A/D轨道上，抵达时状况完好如新。"
+      zh_Hant: "SCP-052是一節R4型紐約市地鐵車廂，官方記錄為1932年製造、1975年報廢，卻仍在運行。該列車於每週六23時57分出現在59街與第8大道站的上城方向A/D軌道上，抵達時狀況完好如新。"
+
+  - scene: >
+      Close-up, waist-up. On the left side of the frame, Commuter steps
+      down onto the platform, looking around wide-eyed and disoriented,
+      clutching her bag. On the right side of the frame, an MTF Agent
+      steps forward with an open palm and a clipboard, calmly guiding
+      her aside. The train's lit doorway glows behind them. No text.
+    characters: [commuter, mtf-agent]
+    notes: >
+      根拠: Description「Passengers who have left the train report boarding
+      dates from 1976, up to 2204. Subjects retain no knowledge of time
+      on board.」
+      変えてはいけない事実: 降車した乗客が申告する乗車日時は1976年から
+      2204年まで及ぶ、船内（車内）で過ごした時間の記憶が残らない。
+      変更可能: 乗客の様子、隊員の対応の描写。
+    caption:
+      ja: "列車から降りた乗客は、1976年から2204年に至るまでの乗車日時を申告する。注目すべきことに、被験者たちは車内で過ごした時間についての記憶をまったく保持していない。"
+      en: "Passengers who have left the train report boarding dates ranging from 1976 up to 2204. Remarkably, subjects retain no knowledge of the time they spent on board."
+      cs: "Cestující, kteří z vlaku vystoupili, uvádějí data nástupu v rozmezí od roku 1976 až po rok 2204. Pozoruhodné je, že subjekty si nepamatují žádný čas strávený na palubě."
+      de: "Fahrgäste, die den Zug verlassen haben, geben Zustiegsdaten an, die von 1976 bis 2204 reichen. Bemerkenswerterweise haben die Subjekte keinerlei Erinnerung an die an Bord verbrachte Zeit."
+      es: "Los pasajeros que han bajado del tren declaran fechas de embarque que van desde 1976 hasta 2204. Notablemente, los sujetos no conservan ningún recuerdo del tiempo que pasaron a bordo."
+      fr: "Les passagers qui sont descendus du train déclarent des dates d'embarquement allant de 1976 jusqu'à 2204. Fait remarquable, les sujets ne gardent aucun souvenir du temps passé à bord."
+      it: "I passeggeri che sono scesi dal treno dichiarano date di salita comprese tra il 1976 e il 2204. È notevole che i soggetti non conservino alcun ricordo del tempo trascorso a bordo."
+      ko: "열차에서 내린 승객들은 1976년부터 2204년에 이르는 탑승 일자를 진술한다. 주목할 만한 점은, 피험자들이 차내에서 보낸 시간에 대한 기억을 전혀 지니고 있지 않다는 것이다."
+      pl: "Pasażerowie, którzy wysiedli z pociągu, podają daty wejścia na pokład od 1976 aż po 2204 rok. Co godne uwagi, podmioty nie zachowują żadnej pamięci o czasie spędzonym na pokładzie."
+      pt: "Os passageiros que desembarcaram do trem relatam datas de embarque que vão de 1976 até 2204. Notavelmente, os sujeitos não retêm nenhuma lembrança do tempo que passaram a bordo."
+      th: "ผู้โดยสารที่ลงจากรถไฟรายงานวันที่ขึ้นรถตั้งแต่ปี 1976 ไปจนถึงปี 2204 ที่น่าทึ่งคือ ตัวบุคคลไม่มีความทรงจำใด ๆ เกี่ยวกับเวลาที่อยู่บนรถเลย"
+      uk: "Пасажири, які зійшли з потяга, повідомляють дати посадки в діапазоні від 1976 до 2204 року. Прикметно, що суб'єкти не зберігають жодних спогадів про час, проведений у вагоні."
+      vi: "Những hành khách rời khỏi tàu khai báo ngày lên tàu trải dài từ năm 1976 cho đến năm 2204. Điều đáng chú ý là các đối tượng không giữ lại chút ký ức nào về khoảng thời gian ở trên tàu."
+      zh: "从列车上下来的乘客所申报的登车日期，跨度从1976年直到2204年。值得注意的是，这些对象对在车上度过的时间毫无记忆。"
+      zh_Hant: "從列車上下來的乘客所申報的登車日期，跨度從1976年直到2204年。值得注意的是，這些對象對在車上度過的時間毫無記憶。"
+
+  - scene: >
+      Wide shot from track level looking up at the platform, the subway
+      car now half-faded and translucent, mid-disappearance, its glow
+      dimming. On the platform two MTF Agents stand watching it go; one
+      of them glances down at his wristwatch. The Commuter stands to one
+      side, safe. Empty tiled platform beyond. No text.
+    characters: [mtf-agent, commuter]
+    notes: >
+      根拠: Description「It remains for approximately five minutes to allow
+      passengers to board or disembark, then vanishes ... the majority
+      of those who board are never recovered.」オチ。
+      変えてはいけない事実: 約5分間停車して乗降を許したのち消える、乗車した
+      者の大半は二度と回収されない。
+      変更可能: 消失の見せ方、隊員の所作。
+    caption:
+      ja: "列車は乗客の乗り降りを許すためにおよそ5分間その場に留まり、その後、姿を消す。乗車した者の大半は、二度と回収されることがない。"
+      en: "The train remains in place for approximately five minutes to allow passengers to board or disembark, and then vanishes. The majority of those who board are never recovered."
+      cs: "Vlak zůstává na místě přibližně pět minut, aby umožnil cestujícím nastoupit nebo vystoupit, a poté zmizí. Většina těch, kdo nastoupí, není nikdy nalezena."
+      de: "Der Zug bleibt etwa fünf Minuten stehen, damit Fahrgäste ein- oder aussteigen können, und verschwindet dann. Die Mehrheit derjenigen, die einsteigen, wird nie wiedergefunden."
+      es: "El tren permanece en el lugar aproximadamente cinco minutos para permitir que los pasajeros suban o bajen, y luego se desvanece. La mayoría de quienes suben nunca son recuperados."
+      fr: "Le train reste en place pendant environ cinq minutes pour permettre aux passagers de monter ou de descendre, puis il disparaît. La majorité de ceux qui montent à bord ne sont jamais retrouvés."
+      it: "Il treno rimane fermo per circa cinque minuti per consentire ai passeggeri di salire o scendere, e poi svanisce. La maggior parte di coloro che salgono a bordo non viene mai recuperata."
+      ko: "열차는 승객이 타고 내릴 수 있도록 약 5분간 그 자리에 머문 뒤 사라진다. 탑승한 자들의 대다수는 두 번 다시 회수되지 않는다."
+      pl: "Pociąg pozostaje na miejscu przez około pięć minut, aby umożliwić pasażerom wejście lub wyjście, a następnie znika. Większość tych, którzy wsiądą, nigdy nie zostaje odnaleziona."
+      pt: "O trem permanece no local por aproximadamente cinco minutos para permitir que os passageiros embarquem ou desembarquem, e então se desvanece. A maioria dos que embarcam nunca é recuperada."
+      th: "รถไฟจอดอยู่กับที่ราวห้านาทีเพื่อให้ผู้โดยสารขึ้นหรือลง จากนั้นก็เลือนหายไป ผู้ที่ขึ้นรถไปส่วนใหญ่ไม่เคยถูกตามตัวกลับมาได้เลย"
+      uk: "Потяг залишається на місці приблизно п'ять хвилин, щоб пасажири могли зайти або вийти, а потім зникає. Більшість тих, хто заходить до вагона, ніколи не вдається повернути."
+      vi: "Đoàn tàu dừng lại tại chỗ khoảng năm phút để hành khách lên hoặc xuống, rồi biến mất. Phần lớn những người bước lên tàu không bao giờ được tìm thấy lại."
+      zh: "列车会在原地停留约五分钟，以便乘客上下车，随后消失。登车者中的大多数再也无法被寻回。"
+      zh_Hant: "列車會在原地停留約五分鐘，以便乘客上下車，隨後消失。登車者中的大多數再也無法被尋回。"

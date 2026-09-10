@@ -1,0 +1,175 @@
+# SCP-022 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 補遺(Addendum 022-001/002)は本編には使わない。キャラにセリフは言わせない。
+# グロ回避のため、SCP-022-1は常に白布で全身を覆われた人型として描き、
+# 焼却の瞬間は管制モニター越しの閃光としてのみ示す。
+#
+# 4コマ構成: 1=事故後に設置された金庫扉(起)、2=引き出しが開き布で覆われた
+# 遺体が動き出す(承)、3=出た瞬間に自動焼却、扉を開けて清掃班(転)、
+# 4=新たな物質をSCP-022に加えることはできない=扉に投げ込んだ物が消える(結)。
+
+id: scp-022
+
+title:
+  en: "SCP-022"
+  ja: "SCP-022"
+  cs: "SCP-022"
+  de: "SCP-022"
+  es: "SCP-022"
+  fr: "SCP-022"
+  it: "SCP-022"
+  ko: "SCP-022"
+  pl: "SCP-022"
+  pt: "SCP-022"
+  th: "SCP-022"
+  uk: "SCP-022"
+  vi: "SCP-022"
+  zh: "SCP-022"
+  zh_Hant: "SCP-022"
+
+attribution:
+  article: "SCP-022"
+  source_url: "http://scp-wiki.wikidot.com/scp-022"
+  author: "DrSevere"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-022-1:
+    name: SCP-022-1
+    appearance: >
+      SCP-022-1, a human cadaver entirely draped from head to toe in a
+      plain pale morgue sheet (color RGB 232,230,224), with no skin, face,
+      or hair ever visible, only the vague outline of a body beneath the
+      cloth.
+    default_look: >
+      Either lying flat and still on a stainless steel morgue tray, or
+      sitting up and moving stiffly and awkwardly with the sheet still
+      completely covering it.
+
+characters: [attending-researcher-m, attending-researcher-f, scp-022-1]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, exterior establishing view of a
+      dim basement corridor inside an old hospital. Set into the end wall
+      is a massive round bank-vault door, freshly installed and out of
+      place against the cracked tile. On the left side of the frame,
+      attending-researcher-m checks the lock wheel with a clipboard under
+      one arm. On the right side of the frame, attending-researcher-f
+      watches a small ceiling-mounted security camera aimed at the door.
+    characters: [attending-researcher-m, attending-researcher-f]
+    notes: >
+      根拠: SCP第1段落「事故022-827の後、SCP-022封鎖のため金庫扉が設置。常時施錠。
+      監視カメラ設置」。変えてはいけない事実: 金庫扉が設置され施錠されていること、
+      監視カメラがあること。変更可能: 研究者の配置・動作、廊下の見せ方。
+    caption:
+      ja: "インシデント022-827を受けて、SCP-022を封鎖するための金庫扉が設置された。この扉は常時施錠されるものとし、唯一の例外はSCP-022-1個体の出現時のみである。"
+      en: "A vault door has been installed following Incident 022-827 to seal SCP-022. It is to remain locked at all times, with the sole exception being the appearance of an instance of SCP-022-1."
+      cs: "Po incidentu 022-827 byly instalovány trezorové dveře k zapečetění SCP-022. Musí zůstat trvale zamčené, s jedinou výjimkou v podobě výskytu instance SCP-022-1."
+      de: "Nach Vorfall 022-827 wurde eine Tresortür installiert, um SCP-022 zu versiegeln. Sie ist jederzeit verschlossen zu halten, mit der einzigen Ausnahme des Auftretens einer Instanz von SCP-022-1."
+      es: "Tras el Incidente 022-827 se instaló una puerta de bóveda para sellar SCP-022. Debe permanecer cerrada con llave en todo momento, con la única excepción de la aparición de una instancia de SCP-022-1."
+      fr: "À la suite de l'Incident 022-827, une porte de chambre forte a été installée pour sceller le SCP-022. Elle doit rester verrouillée en permanence, à la seule exception de l'apparition d'une instance de SCP-022-1."
+      it: "In seguito all'Incidente 022-827 è stata installata una porta blindata per sigillare SCP-022. Deve rimanere chiusa a chiave in ogni momento, con l'unica eccezione della comparsa di un'istanza di SCP-022-1."
+      ko: "사건 022-827 이후, SCP-022를 봉쇄하기 위해 금고문이 설치되었다. 이 문은 상시 잠겨 있어야 하며, 유일한 예외는 SCP-022-1 개체가 출현하는 경우뿐이다."
+      pl: "Po Incydencie 022-827 zainstalowano drzwi skarbcowe w celu zapieczętowania SCP-022. Mają one pozostawać stale zamknięte, z jedynym wyjątkiem w postaci pojawienia się instancji SCP-022-1."
+      pt: "Após o Incidente 022-827, foi instalada uma porta de cofre para selar o SCP-022. Ela deve permanecer trancada o tempo todo, com a única exceção do surgimento de uma instância de SCP-022-1."
+      th: "หลังจากเหตุการณ์ 022-827 ได้มีการติดตั้งประตูห้องนิรภัยเพื่อปิดผนึก SCP-022 ประตูนี้ต้องล็อกไว้ตลอดเวลา ยกเว้นเพียงกรณีเดียวคือเมื่อมีอินสแตนซ์ SCP-022-1 ปรากฏขึ้น"
+      uk: "Після Інциденту 022-827 було встановлено сейфові двері для запечатування SCP-022. Вони мають лишатися замкненими весь час, з єдиним винятком — появою екземпляра SCP-022-1."
+      vi: "Sau Sự cố 022-827, một cánh cửa hầm đã được lắp đặt để niêm phong SCP-022. Cửa phải luôn được khóa mọi lúc, với ngoại lệ duy nhất là khi một thực thể SCP-022-1 xuất hiện."
+      zh: "在022-827事故之后，为封闭SCP-022安装了一道金库门。该门须始终保持锁闭，唯一的例外是SCP-022-1个体出现之时。"
+      zh_Hant: "在022-827事故之後，為封閉SCP-022安裝了一道金庫門。該門須始終保持鎖閉，唯一的例外是SCP-022-1個體出現之時。"
+
+  - scene: >
+      Medium shot, waist-up, slightly high angle looking down a wall of
+      stainless steel morgue drawers, a different framing from the wide
+      establishing shot. One drawer has slid open on its own and its tray
+      is out. SCP-022-1 is sitting halfway up on the tray, the pale sheet
+      still draped completely over it, one cloth-covered arm reaching
+      toward the floor. attending-researcher-f stands back near the frame
+      edge with a stopwatch raised, calm and clinical.
+    characters: [scp-022-1, attending-researcher-f]
+    notes: >
+      根拠: Description「不定期にいずれかの引き出しが無作為に開き布で覆われた
+      遺体が現れる。開いてから約6分後、遺体は動き出し安置所から出ようとする」。
+      変えてはいけない事実: 引き出しが自然に開くこと、遺体が布に覆われたまま
+      動き出し外へ出ようとすること。変更可能: 研究者の反応・小道具、画角。
+    caption:
+      ja: "不定期に、遺体安置所内のいずれかの引き出しが無作為に開き、布で覆われた遺体が現れる。開いてからおよそ6分後、その遺体は動き出し、安置所から出ようとする。"
+      en: "Periodically, a random drawer within the morgue will open to reveal a cadaver under a covered sheet. After approximately six minutes open, the cadaver will animate and attempt to leave the morgue."
+      cs: "Periodicky se v márnici náhodně otevře jedna zásuvka a odhalí mrtvolu přikrytou plachtou. Přibližně po šesti minutách otevření se mrtvola oživí a pokusí se márnici opustit."
+      de: "In unregelmäßigen Abständen öffnet sich eine zufällige Schublade im Leichenschauhaus und gibt einen unter einem Tuch bedeckten Leichnam frei. Nach etwa sechs Minuten im geöffneten Zustand erwacht der Leichnam und versucht, das Leichenschauhaus zu verlassen."
+      es: "Periódicamente, un cajón al azar dentro de la morgue se abre y deja al descubierto un cadáver cubierto por una sábana. Tras aproximadamente seis minutos abierto, el cadáver se anima e intenta salir de la morgue."
+      fr: "Périodiquement, un tiroir aléatoire de la morgue s'ouvre et révèle un cadavre recouvert d'un drap. Après environ six minutes d'ouverture, le cadavre s'anime et tente de quitter la morgue."
+      it: "Periodicamente, un cassetto casuale all'interno dell'obitorio si apre rivelando un cadavere coperto da un lenzuolo. Dopo circa sei minuti di apertura, il cadavere si anima e tenta di lasciare l'obitorio."
+      ko: "부정기적으로, 시체안치소 내의 서랍 하나가 무작위로 열리며 천으로 덮인 시신이 드러난다. 열린 지 약 6분 후, 그 시신은 움직이기 시작하여 안치소를 빠져나가려 한다."
+      pl: "Okresowo losowa szuflada w kostnicy otwiera się, odsłaniając zwłoki przykryte prześcieradłem. Po około sześciu minutach od otwarcia zwłoki ożywają i próbują opuścić kostnicę."
+      pt: "Periodicamente, uma gaveta aleatória dentro do necrotério se abre, revelando um cadáver coberto por um lençol. Após aproximadamente seis minutos aberta, o cadáver se anima e tenta sair do necrotério."
+      th: "เป็นระยะ ๆ ลิ้นชักสุ่มลิ้นชักหนึ่งภายในห้องเก็บศพจะเปิดออก เผยให้เห็นศพที่คลุมด้วยผ้า หลังจากเปิดอยู่ประมาณหกนาที ศพจะเริ่มเคลื่อนไหวและพยายามออกจากห้องเก็บศพ"
+      uk: "Періодично випадкова шухляда в морзі відчиняється, відкриваючи труп, накритий простирадлом. Приблизно через шість хвилин після відчинення труп оживає й намагається залишити морг."
+      vi: "Theo chu kỳ, một ngăn kéo ngẫu nhiên trong nhà xác sẽ mở ra, để lộ một thi thể phủ vải. Sau khoảng sáu phút mở, thi thể sẽ cử động và cố gắng rời khỏi nhà xác."
+      zh: "遗体停放间内的某个抽屉会不定期随机打开，露出一具盖着布单的尸体。打开约六分钟后，该尸体会开始活动，并试图离开停尸间。"
+      zh_Hant: "遺體停放間內的某個抽屜會不定期隨機打開，露出一具蓋著布單的屍體。打開約六分鐘後，該屍體會開始活動，並試圖離開停屍間。"
+
+  - scene: >
+      Close-up, eye level, on two attending researchers seen from behind
+      in a cramped monitoring booth, faces lit blue by a bank of small
+      security screens, a different framing from the previous panels. On
+      the left, attending-researcher-m has one hand on the vault-release
+      lever. On the right, attending-researcher-f points at the central
+      screen, which shows a bright white flash filling the morgue doorway.
+      Both wear neutral, businesslike expressions.
+    characters: [attending-researcher-m, attending-researcher-f]
+    notes: >
+      根拠: SCP第2段落「SCP-022-1が出現した場合、自動システムがSCP-022から出た
+      瞬間に焼却する。その時点で金庫扉を開けて清掃班を入れてよい」。グロ回避の
+      ため焼却はモニター越しの白い閃光のみで示し、遺体そのものは描かない。
+      変えてはいけない事実: 自動システムが出口で焼却すること、その後に扉を開ける
+      こと。変更可能: 管制室の見せ方、閃光の描写。
+    caption:
+      ja: "SCP-022-1個体が出現した場合、自動システムがSCP-022から出た瞬間にそれを焼却する。この時点で、清掃班を入れるために金庫扉の施錠を解除してよい。"
+      en: "In the event that an instance of SCP-022-1 appears, automated systems should incinerate it the moment it leaves SCP-022. At this point the vault door may be unlocked to admit cleanup crews."
+      cs: "V případě, že se objeví instance SCP-022-1, automatické systémy ji mají spálit ve chvíli, kdy opustí SCP-022. V tomto okamžiku mohou být trezorové dveře odemčeny, aby dovnitř mohly úklidové čety."
+      de: "Falls eine Instanz von SCP-022-1 auftritt, sollen automatische Systeme sie in dem Moment einäschern, in dem sie SCP-022 verlässt. Zu diesem Zeitpunkt darf die Tresortür entriegelt werden, um Reinigungstrupps einzulassen."
+      es: "En caso de que aparezca una instancia de SCP-022-1, los sistemas automatizados deben incinerarla en el momento en que abandone SCP-022. En ese momento, la puerta de bóveda puede desbloquearse para dar paso a los equipos de limpieza."
+      fr: "Dans le cas où une instance de SCP-022-1 apparaît, les systèmes automatisés doivent l'incinérer au moment où elle quitte le SCP-022. La porte de la chambre forte peut alors être déverrouillée pour laisser entrer les équipes de nettoyage."
+      it: "Nel caso in cui compaia un'istanza di SCP-022-1, i sistemi automatizzati devono incenerirla nel momento in cui lascia SCP-022. A questo punto la porta blindata può essere sbloccata per far entrare le squadre di pulizia."
+      ko: "SCP-022-1 개체가 출현할 경우, 자동 시스템이 그것이 SCP-022를 벗어나는 즉시 소각한다. 이 시점에서 청소반을 들이기 위해 금고문의 잠금을 해제할 수 있다."
+      pl: "W przypadku pojawienia się instancji SCP-022-1 systemy automatyczne powinny ją spopielić w chwili, gdy opuszcza SCP-022. W tym momencie drzwi skarbca mogą zostać odblokowane, aby wpuścić ekipy sprzątające."
+      pt: "Caso uma instância de SCP-022-1 apareça, os sistemas automatizados devem incinerá-la no momento em que ela deixa o SCP-022. Nesse momento, a porta do cofre pode ser destrancada para admitir as equipes de limpeza."
+      th: "ในกรณีที่อินสแตนซ์ SCP-022-1 ปรากฏขึ้น ระบบอัตโนมัติจะเผาทำลายมันในทันทีที่มันออกจาก SCP-022 เมื่อถึงจุดนี้ อาจปลดล็อกประตูห้องนิรภัยเพื่อให้ทีมทำความสะอาดเข้าไปได้"
+      uk: "У разі появи екземпляра SCP-022-1 автоматичні системи мають спалити його в мить, коли він залишає SCP-022. У цей момент сейфові двері можна відімкнути, щоб впустити прибиральні бригади."
+      vi: "Trong trường hợp một thực thể SCP-022-1 xuất hiện, các hệ thống tự động sẽ thiêu hủy nó ngay khoảnh khắc nó rời khỏi SCP-022. Lúc này, cửa hầm có thể được mở khóa để cho các đội dọn dẹp vào."
+      zh: "若SCP-022-1个体出现，自动系统应在其离开SCP-022的瞬间将其焚化。此时可解锁金库门，以便清理小组进入。"
+      zh_Hant: "若SCP-022-1個體出現，自動系統應在其離開SCP-022的瞬間將其焚化。此時可解鎖金庫門，以便清理小組進入。"
+
+  - scene: >
+      Wide shot, full body, low angle from inside the doorway looking out,
+      a different framing from the previous panels. attending-researcher-m
+      stands just outside the open vault door and has tossed a folding
+      metal chair through the threshold; the chair is caught mid-air just
+      past the door frame, already half-faded and dissolving into nothing.
+      He watches it vanish with a flat, resigned expression, an empty
+      supply cart beside him.
+    characters: [attending-researcher-m]
+    notes: >
+      根拠: Description「SCP-022に新たな物質を加えることはこれまで不可能。SCP-022に
+      入ったあらゆる物体は扉を通過した直後に跡形もなく消失する」。変えてはいけない
+      事実: 扉を通った物体が痕跡なく消えること。変更可能: 投げ込む物、研究者の反応。
+    caption:
+      ja: "SCP-022に新たな物質を加えることは、これまでのところ不可能であると判明している。SCP-022に入ったあらゆる物体は、扉を通過した直後に跡形もなく消失する。"
+      en: "Adding any new matter to SCP-022 has thus far proved impossible. Any object that enters SCP-022 disappears shortly after passing through the door, leaving no trace."
+      cs: "Přidat do SCP-022 jakoukoli novou hmotu se dosud ukázalo jako nemožné. Jakýkoli předmět, který do SCP-022 vstoupí, krátce po průchodu dveřmi beze stopy zmizí."
+      de: "Das Hinzufügen jeglicher neuer Materie zu SCP-022 hat sich bislang als unmöglich erwiesen. Jedes Objekt, das SCP-022 betritt, verschwindet kurz nach dem Durchschreiten der Tür spurlos."
+      es: "Añadir cualquier materia nueva a SCP-022 ha resultado imposible hasta ahora. Cualquier objeto que entra en SCP-022 desaparece poco después de cruzar la puerta, sin dejar rastro."
+      fr: "Ajouter toute nouvelle matière au SCP-022 s'est jusqu'à présent révélé impossible. Tout objet qui pénètre dans le SCP-022 disparaît peu après avoir franchi la porte, sans laisser de trace."
+      it: "Aggiungere qualsiasi nuova materia a SCP-022 si è finora rivelato impossibile. Qualsiasi oggetto che entra in SCP-022 scompare poco dopo aver varcato la porta, senza lasciare traccia."
+      ko: "SCP-022에 새로운 물질을 추가하는 것은 지금까지 불가능한 것으로 확인되었다. SCP-022에 들어간 모든 물체는 문을 통과한 직후 흔적도 없이 사라진다."
+      pl: "Dodanie jakiejkolwiek nowej materii do SCP-022 okazało się dotychczas niemożliwe. Każdy przedmiot, który wchodzi do SCP-022, znika wkrótce po przejściu przez drzwi, nie pozostawiając śladu."
+      pt: "Adicionar qualquer nova matéria ao SCP-022 mostrou-se até agora impossível. Qualquer objeto que entra no SCP-022 desaparece pouco depois de atravessar a porta, sem deixar vestígios."
+      th: "จนถึงขณะนี้ การเพิ่มสสารใหม่ใด ๆ เข้าไปใน SCP-022 พิสูจน์แล้วว่าเป็นไปไม่ได้ วัตถุใด ๆ ที่เข้าสู่ SCP-022 จะหายไปในเวลาไม่นานหลังผ่านประตู โดยไม่ทิ้งร่องรอย"
+      uk: "Додати будь-яку нову матерію до SCP-022 досі виявлялося неможливим. Будь-який предмет, що потрапляє до SCP-022, зникає невдовзі після проходження крізь двері, не лишаючи сліду."
+      vi: "Cho đến nay, việc thêm bất kỳ vật chất mới nào vào SCP-022 đều bất khả thi. Bất kỳ vật thể nào đi vào SCP-022 đều biến mất ngay sau khi qua cửa, không để lại dấu vết."
+      zh: "迄今为止，向SCP-022内添加任何新物质均被证明是不可能的。任何进入SCP-022的物体都会在穿过门后不久消失，不留任何痕迹。"
+      zh_Hant: "迄今為止，向SCP-022內添加任何新物質均被證明是不可能的。任何進入SCP-022的物體都會在穿過門後不久消失，不留任何痕跡。"

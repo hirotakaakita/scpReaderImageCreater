@@ -1,0 +1,172 @@
+# SCP-027 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Appendix(旧宿主027-01の記録)は本編には使わない。キャラにセリフは言わせない。
+# 害虫はモノクロ画風の薄いもや・点描として描き、不快なクローズアップは避ける。
+#
+# 4コマ構成: 1=吸引システム付きの格子床の収容室(起)、2=居場所に群がる
+# 害虫に絶えず囲まれる宿主(承)、3=行く先々で2〜3分でハエ・ブヨの雲が
+# 形成される(転)、4=レベル4以上の職員は200m以内に近づいてはならない
+# =偉い人が遠くから見ているだけ(結・脱力オチ)。
+
+id: scp-027
+
+title:
+  en: "SCP-027"
+  ja: "SCP-027"
+  cs: "SCP-027"
+  de: "SCP-027"
+  es: "SCP-027"
+  fr: "SCP-027"
+  it: "SCP-027"
+  ko: "SCP-027"
+  pl: "SCP-027"
+  pt: "SCP-027"
+  th: "SCP-027"
+  uk: "SCP-027"
+  vi: "SCP-027"
+  zh: "SCP-027"
+  zh_Hant: "SCP-027"
+
+attribution:
+  article: "SCP-027"
+  source_url: "http://scp-wiki.wikidot.com/scp-027"
+  author: "Quikngruvn"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-027-02:
+    name: Subject 027-02
+    appearance: >
+      Subject 027-02, a tired-looking middle-aged man of average build,
+      with thinning short dark hair (color RGB 35,30,28) and deep shadows
+      under his eyes, his expression resigned and patient.
+    default_look: >
+      A plain dark gray jumpsuit (color RGB 90,90,90) with no markings,
+      always encircled by a thin, drifting grayish haze of tiny flies and
+      gnats, with a few small beetles near his feet.
+
+characters: [scp-027-02, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing the whole square cell with
+      a raised metal-grate floor and thick vacuum ducts running into one
+      wall. On the left side of the frame, scp-027-02 sits calmly on a
+      bench, the faint haze of insects around him being pulled downward
+      through the grating. On the right side of the frame,
+      attending-researcher-m crouches shining a flashlight along the floor
+      grate, checking it.
+    characters: [scp-027-02, attending-researcher-m]
+    notes: >
+      根拠: SCP第1段落「宿主(現027-02)は強力な吸引システムに接続した格子状の
+      高床を備えた5m×5mの収容室に収容。収容室は毎日清掃・構造点検」。
+      変えてはいけない事実: 格子床+吸引システム、5m四方、毎日の点検。
+      変更可能: 研究者の動作、ダクトの見せ方。
+    caption:
+      ja: "SCP-027の宿主（現在は被験者027-02）は、強力な吸引システムに接続された格子状の高床を備えた5メートル×5メートルの収容室に収容される。この収容室は毎日清掃し、構造的損傷がないか点検する。"
+      en: "The host of SCP-027 (currently subject 027-02) is to be kept in a 5 m x 5 m containment cell with a grated, raised floor connected to a strong vacuum system. The cell is to be cleaned and inspected for structural damage daily."
+      cs: "Hostitel SCP-027 (v současnosti subjekt 027-02) musí být držen v cele o rozměrech 5 m × 5 m se zvýšenou roštovou podlahou napojenou na výkonný odsávací systém. Cela se musí denně čistit a kontrolovat, zda nedošlo ke konstrukčnímu poškození."
+      de: "Der Wirt von SCP-027 (derzeit Subjekt 027-02) ist in einer 5 m × 5 m großen Containment-Zelle mit einem gitterförmigen, erhöhten Boden unterzubringen, der an ein starkes Vakuumsystem angeschlossen ist. Die Zelle ist täglich zu reinigen und auf strukturelle Schäden zu überprüfen."
+      es: "El anfitrión de SCP-027 (actualmente el sujeto 027-02) debe mantenerse en una celda de contención de 5 m × 5 m con un suelo elevado y enrejado conectado a un potente sistema de vacío. La celda debe limpiarse e inspeccionarse en busca de daños estructurales a diario."
+      fr: "L'hôte du SCP-027 (actuellement le sujet 027-02) doit être maintenu dans une cellule de confinement de 5 m × 5 m dotée d'un sol surélevé et grillagé relié à un puissant système d'aspiration. La cellule doit être nettoyée et inspectée quotidiennement pour détecter tout dommage structurel."
+      it: "L'ospite di SCP-027 (attualmente il soggetto 027-02) deve essere tenuto in una cella di contenimento di 5 m × 5 m con un pavimento rialzato e grigliato collegato a un potente sistema di aspirazione. La cella deve essere pulita e ispezionata per danni strutturali ogni giorno."
+      ko: "SCP-027의 숙주(현재 대상 027-02)는 강력한 진공 시스템에 연결된 격자형 고상 바닥을 갖춘 5 m × 5 m 수용실에 수용한다. 이 수용실은 매일 청소하고 구조적 손상 여부를 점검한다."
+      pl: "Nosiciel SCP-027 (obecnie osobnik 027-02) ma być trzymany w celi izolacyjnej o wymiarach 5 m × 5 m z podniesioną, kratową podłogą podłączoną do silnego systemu podciśnieniowego. Cela ma być codziennie czyszczona i sprawdzana pod kątem uszkodzeń konstrukcyjnych."
+      pt: "O hospedeiro do SCP-027 (atualmente o sujeito 027-02) deve ser mantido em uma cela de contenção de 5 m × 5 m com um piso elevado e gradeado conectado a um potente sistema de vácuo. A cela deve ser limpa e inspecionada quanto a danos estruturais diariamente."
+      th: "ต้องกักตัวโฮสต์ของ SCP-027 (ปัจจุบันคือผู้ถูกทดสอบ 027-02) ไว้ในห้องกักกันขนาด 5 ม. × 5 ม. ที่มีพื้นยกสูงแบบตะแกรงเชื่อมต่อกับระบบดูดสุญญากาศกำลังสูง ต้องทำความสะอาดและตรวจสอบความเสียหายเชิงโครงสร้างของห้องนี้ทุกวัน"
+      uk: "Носія SCP-027 (наразі суб'єкт 027-02) слід тримати в камері утримання розміром 5 м × 5 м із піднятою ґратчастою підлогою, під'єднаною до потужної вакуумної системи. Камеру потрібно щодня прибирати та перевіряти на структурні пошкодження."
+      vi: "Vật chủ của SCP-027 (hiện là đối tượng 027-02) phải được giữ trong một buồng giam kích thước 5 m × 5 m với sàn nâng dạng lưới nối với một hệ thống hút chân không mạnh. Buồng giam phải được dọn dẹp và kiểm tra hư hại kết cấu hằng ngày."
+      zh: "SCP-027的宿主（目前为受试者027-02）须收容于一间5米×5米的收容室内，室内设有连接强力真空系统的格栅式抬高地板。该收容室须每日清洁并检查结构损坏情况。"
+      zh_Hant: "SCP-027的宿主（目前為受試者027-02）須收容於一間5公尺×5公尺的收容室內，室內設有連接強力真空系統的格柵式抬高地板。該收容室須每日清潔並檢查結構損壞情況。"
+
+  - scene: >
+      Medium shot, waist-up, three-quarter angle, a different framing from
+      the wide shot. scp-027-02 stands patiently in the center with the
+      grayish haze of vermin thickest around his shoulders and feet. At
+      the frame edge on the left, attending-researcher-f watches from just
+      inside the doorway, writing on a clipboard, keeping a careful
+      distance.
+    characters: [scp-027-02, attending-researcher-f]
+    notes: >
+      根拠: Description「宿主として027-02は自分の居場所に引き寄せられる害虫の
+      群れに絶えず囲まれている。生物を制御できているようには見えない」。
+      変えてはいけない事実: 常に群がられていること、制御できていないこと。
+      変更可能: 研究者の観察の演出、群れの濃さの見せ方。
+    caption:
+      ja: "SCP-027の宿主として、被験者027-02は自身の居場所に引き寄せられる害虫の群れに絶えず取り囲まれている。被験者はこれらの生物を何ら制御できていないように見える。"
+      en: "As host to SCP-027, subject 027-02 is constantly surrounded by swarming vermin that are drawn to his location. The subject does not appear able to assert control over these creatures in any way."
+      cs: "Jako hostitel SCP-027 je subjekt 027-02 neustále obklopen hejnem havěti, kterou přitahuje jeho poloha. Nezdá se, že by subjekt dokázal tato stvoření jakkoli ovládat."
+      de: "Als Wirt von SCP-027 ist Subjekt 027-02 ständig von schwärmendem Ungeziefer umgeben, das von seinem Aufenthaltsort angezogen wird. Das Subjekt scheint diese Kreaturen in keiner Weise beherrschen zu können."
+      es: "Como anfitrión de SCP-027, el sujeto 027-02 está constantemente rodeado de alimañas que enjambran atraídas por su ubicación. El sujeto no parece capaz de ejercer ningún tipo de control sobre estas criaturas."
+      fr: "En tant qu'hôte du SCP-027, le sujet 027-02 est constamment entouré d'une nuée de vermine attirée par sa position. Le sujet ne semble capable d'exercer aucun contrôle sur ces créatures."
+      it: "In quanto ospite di SCP-027, il soggetto 027-02 è costantemente circondato da uno sciame di parassiti attratti dalla sua posizione. Il soggetto non sembra in grado di esercitare alcun controllo su queste creature."
+      ko: "SCP-027의 숙주로서 대상 027-02는 자신의 위치에 이끌려 몰려드는 해충 떼에 끊임없이 둘러싸여 있다. 대상은 이 생물들을 어떤 식으로도 통제하지 못하는 것으로 보인다."
+      pl: "Jako nosiciel SCP-027, osobnik 027-02 jest nieustannie otoczony rojącym się robactwem, które przyciąga jego położenie. Osobnik nie wydaje się w stanie w żaden sposób panować nad tymi stworzeniami."
+      pt: "Como hospedeiro do SCP-027, o sujeito 027-02 está constantemente cercado por vermes e insetos que enxameiam, atraídos por sua localização. O sujeito não parece capaz de exercer qualquer controle sobre essas criaturas."
+      th: "ในฐานะโฮสต์ของ SCP-027 ผู้ถูกทดสอบ 027-02 ถูกรุมล้อมอยู่ตลอดเวลาด้วยฝูงสัตว์รังควานที่ถูกดึงดูดมายังตำแหน่งของเขา ดูเหมือนว่าผู้ถูกทดสอบไม่สามารถควบคุมสิ่งมีชีวิตเหล่านี้ได้แต่อย่างใด"
+      uk: "Як носій SCP-027, суб'єкт 027-02 постійно оточений роєм паразитів, яких приваблює його місцеперебування. Схоже, суб'єкт не здатен жодним чином керувати цими створіннями."
+      vi: "Với tư cách là vật chủ của SCP-027, đối tượng 027-02 luôn bị bao quanh bởi bầy sinh vật gây hại bị thu hút đến vị trí của anh ta. Đối tượng dường như không thể kiểm soát những sinh vật này theo bất kỳ cách nào."
+      zh: "作为SCP-027的宿主，受试者027-02始终被受其所在位置吸引而成群聚集的害虫包围。受试者似乎无法以任何方式控制这些生物。"
+      zh_Hant: "作為SCP-027的宿主，受試者027-02始終被受其所在位置吸引而成群聚集的害蟲包圍。受試者似乎無法以任何方式控制這些生物。"
+
+  - scene: >
+      Tracking side shot down a facility corridor, full body, a different
+      framing from the previous panels. On the left side of the frame,
+      scp-027-02 walks forward and a loose cloud of tiny flying insects is
+      just beginning to gather around his head. On the right side of the
+      frame, a few paces behind him, attending-researcher-m walks holding
+      a clipboard up in front of his own face like a shield.
+    characters: [scp-027-02, attending-researcher-m]
+    notes: >
+      根拠: Description「被験者がどこへ行こうと、まずブヨやハエなどの飛翔昆虫の
+      群れが通常2〜3分以内に彼の周囲に雲状に集まり始める」。変えてはいけない
+      事実: 移動先で飛翔昆虫の雲が短時間で形成されること。変更可能: 廊下の様子、
+      同行者の演出。
+    caption:
+      ja: "被験者がどこへ行こうと、まずブヨやハエなどの飛翔性昆虫の群れが、通常2〜3分以内に彼の周囲へ雲のように集まり始める。"
+      en: "Wherever the subject goes, an initial swarm of flying insects such as gnats and flies will start to form a cloud around him, usually within two to three minutes."
+      cs: "Ať už subjekt jde kamkoli, nejprve se kolem něj obvykle během dvou až tří minut začne stahovat mračno létajícího hmyzu, jako jsou pakomáři a mouchy."
+      de: "Wohin das Subjekt auch geht, zunächst beginnt sich meist innerhalb von zwei bis drei Minuten ein Schwarm fliegender Insekten wie Mücken und Fliegen als Wolke um es zu bilden."
+      es: "Dondequiera que vaya el sujeto, primero comienza a formarse a su alrededor una nube de insectos voladores, como mosquitos y moscas, normalmente en el plazo de dos o tres minutos."
+      fr: "Où que se rende le sujet, un premier essaim d'insectes volants tels que des moucherons et des mouches commence à former un nuage autour de lui, généralement en deux à trois minutes."
+      it: "Ovunque vada il soggetto, per prima cosa uno sciame di insetti volanti come moscerini e mosche inizia a formare una nube attorno a lui, di solito entro due o tre minuti."
+      ko: "대상이 어디로 가든, 우선 각다귀와 파리 같은 날벌레 떼가 보통 2~3분 이내에 그의 주위에 구름처럼 모이기 시작한다."
+      pl: "Dokądkolwiek osobnik się uda, najpierw zaczyna się wokół niego formować chmura latających owadów, takich jak muszki i muchy, zwykle w ciągu dwóch do trzech minut."
+      pt: "Para onde quer que o sujeito vá, primeiro um enxame de insetos voadores, como mosquitinhos e moscas, começa a formar uma nuvem ao seu redor, normalmente em dois ou três minutos."
+      th: "ไม่ว่าผู้ถูกทดสอบจะไปที่ใด ฝูงแมลงบินอย่างริ้นและแมลงวันจะเริ่มก่อตัวเป็นกลุ่มเมฆรอบตัวเขาก่อนเป็นอันดับแรก โดยปกติภายในสองถึงสามนาที"
+      uk: "Хоч би куди пішов суб'єкт, спершу навколо нього зазвичай протягом двох-трьох хвилин починає збиратися хмара летючих комах, як-от мошок і мух."
+      vi: "Đối tượng đi đến đâu, trước tiên một đàn côn trùng bay như muỗi mắt và ruồi sẽ bắt đầu tụ thành một đám mây quanh anh ta, thường trong vòng hai đến ba phút."
+      zh: "无论受试者走到哪里，首先都会有一群蚊蚋、苍蝇之类的飞虫在他周围聚成一片云，通常在两到三分钟内形成。"
+      zh_Hant: "無論受試者走到哪裡，首先都會有一群蚊蚋、蒼蠅之類的飛蟲在他周圍聚成一片雲，通常在兩到三分鐘內形成。"
+
+  - scene: >
+      Wide shot, deep corridor perspective, eye level, a different framing
+      from the previous panels. In the foreground on the right, scp-027-02
+      stands inside a full swarming cloud of insects. Far away at the
+      other end of the corridor, behind a painted line on the floor,
+      attending-researcher-m stands in a white lab coat with arms crossed,
+      not coming any closer, tiny in the distance.
+    characters: [scp-027-02, attending-researcher-m]
+    notes: >
+      根拠: SCP第4段落「SCP-027の解明が進むまで、レベル4以上のクリアランスを持つ
+      職員は被験者から200m以内に近づいてはならない」。変えてはいけない事実:
+      上級職員が大きく距離を取ること。変更可能: 距離を示す演出(床線・遠景)、
+      職員の態度。
+    caption:
+      ja: "SCP-027の解明が進むまで、レベル4以上のクリアランスを持つ職員は、被験者から200メートル以内に近づいてはならない。"
+      en: "Until SCP-027 is better understood, no personnel of Level 4 Clearance or higher should approach within 200 m of the Subject."
+      cs: "Dokud nebude SCP-027 lépe pochopeno, žádný personál s prověrkou stupně 4 nebo vyšším by se neměl přiblížit k subjektu na méně než 200 m."
+      de: "Bis SCP-027 besser verstanden ist, sollte sich kein Personal mit Sicherheitsfreigabe der Stufe 4 oder höher dem Subjekt auf weniger als 200 m nähern."
+      es: "Hasta que se comprenda mejor a SCP-027, ningún personal con nivel de autorización 4 o superior debe acercarse a menos de 200 m del sujeto."
+      fr: "Tant que le SCP-027 ne sera pas mieux compris, aucun personnel disposant d'une accréditation de niveau 4 ou supérieur ne doit s'approcher à moins de 200 m du sujet."
+      it: "Finché SCP-027 non sarà meglio compreso, nessun membro del personale con autorizzazione di Livello 4 o superiore dovrebbe avvicinarsi a meno di 200 m dal soggetto."
+      ko: "SCP-027이 더 잘 이해될 때까지, 4등급 이상의 보안 인가를 지닌 인원은 대상으로부터 200 m 이내로 접근해서는 안 된다."
+      pl: "Dopóki SCP-027 nie zostanie lepiej poznane, żaden personel z poświadczeniem poziomu 4 lub wyższego nie powinien zbliżać się do osobnika na odległość mniejszą niż 200 m."
+      pt: "Até que o SCP-027 seja melhor compreendido, nenhum funcionário com Nível de Acesso 4 ou superior deve se aproximar a menos de 200 m do sujeito."
+      th: "จนกว่าจะเข้าใจ SCP-027 ได้ดีขึ้น เจ้าหน้าที่ที่มีระดับการเข้าถึงชั้น 4 ขึ้นไปไม่ควรเข้าใกล้ผู้ถูกทดสอบในระยะ 200 ม."
+      uk: "Доки SCP-027 не буде вивчено краще, персоналу з допуском 4-го рівня або вище не слід наближатися до суб'єкта ближче ніж на 200 м."
+      vi: "Cho đến khi hiểu rõ hơn về SCP-027, không nhân viên nào có mức truy cập Cấp 4 trở lên được đến gần đối tượng trong phạm vi 200 m."
+      zh: "在对SCP-027有更充分了解之前，持有4级或以上权限的人员不得接近受试者200米以内。"
+      zh_Hant: "在對SCP-027有更充分了解之前，持有4級或以上權限的人員不得接近受試者200公尺以內。"

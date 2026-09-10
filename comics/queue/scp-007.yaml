@@ -1,0 +1,149 @@
+# SCP-007 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-007
+
+title:
+  ja: "SCP-007：腹部の惑星"
+  en: "SCP-007: Abdominal Planet"
+  cs: "SCP-007: Břišní planeta"
+  de: "SCP-007: Der Bauchplanet"
+  es: "SCP-007: El planeta abdominal"
+  fr: "SCP-007 : La planète abdominale"
+  it: "SCP-007: Il pianeta addominale"
+  ko: "SCP-007: 복부 행성"
+  pl: "SCP-007: Planeta w brzuchu"
+  pt: "SCP-007: O planeta abdominal"
+  th: "SCP-007: ดาวเคราะห์ในช่องท้อง"
+  uk: "SCP-007: Черевна планета"
+  vi: "SCP-007: Hành tinh trong bụng"
+  zh: "SCP-007：腹中行星"
+  zh_Hant: "SCP-007：腹中行星"
+
+attribution:
+  article: "SCP-007"
+  source_url: "http://scp-wiki.wikidot.com/scp-007"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-007-subject:
+    name: The Subject
+    appearance: >
+      A Caucasian man appearing about 25 years old, 176 cm tall, with short
+      plain brown hair (color RGB 90,70,55), clean-shaven, an amiable and
+      relaxed expression. The entire front of his abdomen is missing,
+      forming an open hollow cavity; floating within that cavity, never
+      touching his body, is a softly glowing sphere about 60 cm across that
+      looks like a miniature Earth, with blue oceans (color RGB 40,90,150),
+      green-brown landmasses (color RGB 90,110,70) and swirling white cloud
+      systems.
+    default_look: >
+      A plain long-sleeved henley shirt held open at the front so the
+      abdominal cavity and its floating sphere stay visible, comfortable
+      loose trousers, cloth slippers. Calm, friendly demeanour.
+
+characters: [scp-007-subject, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide establishing shot, full body, eye level, showing the whole
+      sealed 10-meter containment room furnished like a comfortable studio
+      apartment: a made bed, an armchair, a bookshelf, a small dining
+      table. The Subject sits relaxed in the armchair reading a paperback,
+      his shirt held open at the front so the glowing miniature-Earth
+      sphere floating in his abdominal cavity is clearly visible.
+    characters: [scp-007-subject]
+    caption:
+      ja: "SCP-007は、各辺10メートルの密閉された部屋に収容される。部屋は居住空間として快適に整えられ、被験者が要求した物品は、それを提供することが保安上の問題とならない限り、何であれ用意される。"
+      en: "SCP-007 is to be contained in a sealed room measuring 10 m on each side. Room is to be furnished comfortably as a living area, along with whatever items are requested by the Subject, given that providing the Subject with requested items would not compromise security."
+      cs: "SCP-007 musí být uchováván v uzavřené místnosti o rozměru 10 m na každé straně. Místnost má být pohodlně zařízena jako obytný prostor, spolu s jakýmikoli předměty, které si Subjekt vyžádá, za předpokladu, že jejich poskytnutí neohrozí bezpečnost."
+      de: "SCP-007 ist in einem abgedichteten Raum mit einer Kantenlänge von jeweils 10 m unterzubringen. Der Raum ist als Wohnbereich komfortabel einzurichten, zusammen mit allen vom Subjekt angeforderten Gegenständen, sofern die Bereitstellung dieser Gegenstände die Sicherheit nicht gefährdet."
+      es: "SCP-007 debe mantenerse en una habitación sellada de 10 m por cada lado. La habitación debe amueblarse cómodamente como zona de estar, junto con cualquier objeto que solicite el Sujeto, siempre que proporcionarle dichos objetos no comprometa la seguridad."
+      fr: "SCP-007 doit être confiné dans une pièce scellée de 10 m de côté. La pièce doit être aménagée confortablement comme espace de vie, avec tout objet demandé par le Sujet, à condition que la fourniture de ces objets ne compromette pas la sécurité."
+      it: "SCP-007 deve essere contenuto in una stanza sigillata di 10 m per lato. La stanza deve essere arredata comodamente come zona giorno, insieme a qualsiasi oggetto richiesto dal Soggetto, a condizione che fornirglielo non comprometta la sicurezza."
+      ko: "SCP-007은 각 변의 길이가 10m인 밀폐된 방에 수용한다. 방은 생활 공간으로서 편안하게 꾸며지며, 대상이 요청한 물품은 그 제공이 보안을 저해하지 않는 한 무엇이든 제공된다."
+      pl: "SCP-007 należy przechowywać w zamkniętym pomieszczeniu o wymiarach 10 m na każdą stronę. Pomieszczenie ma być wygodnie urządzone jako przestrzeń mieszkalna, wraz z wszelkimi przedmiotami, o które poprosi Podmiot, pod warunkiem że ich dostarczenie nie zagrozi bezpieczeństwu."
+      pt: "SCP-007 deve ser contido em uma sala vedada medindo 10 m de cada lado. A sala deve ser mobiliada confortavelmente como área de estar, juntamente com quaisquer itens solicitados pelo Sujeito, desde que fornecer-lhe tais itens não comprometa a segurança."
+      th: "SCP-007 ต้องถูกกักเก็บไว้ในห้องปิดผนึกที่มีความยาวด้านละ 10 เมตร ห้องดังกล่าวต้องจัดตกแต่งอย่างสะดวกสบายให้เป็นพื้นที่พักอาศัย พร้อมด้วยสิ่งของใด ๆ ที่ผู้ถูกทดสอบร้องขอ ตราบเท่าที่การจัดหาสิ่งของนั้นไม่กระทบต่อความมั่นคงปลอดภัย"
+      uk: "SCP-007 має утримуватися в герметичній кімнаті розміром 10 м з кожного боку. Кімната має бути зручно облаштована як житловий простір, разом із будь-якими предметами, які запитує Суб'єкт, за умови, що їх надання не поставить під загрозу безпеку."
+      vi: "SCP-007 phải được lưu giữ trong một căn phòng kín có kích thước mỗi cạnh 10 m. Căn phòng phải được bài trí tiện nghi như một không gian sinh hoạt, cùng với bất kỳ vật dụng nào mà Đối tượng yêu cầu, miễn là việc cung cấp những vật dụng đó không gây phương hại đến an ninh."
+      zh: "SCP-007须收容于每边长10米的密闭房间内。房间须作为居住区域进行舒适布置，并提供对象所要求的任何物品，前提是提供这些物品不会危及安全。"
+      zh_Hant: "SCP-007須收容於每邊長10公尺的密閉房間內。房間須作為居住區域進行舒適佈置，並提供對象所要求的任何物品，前提是提供這些物品不會危及安全。"
+
+  - scene: >
+      Medium shot, waist-up, slight three-quarter angle. On the left side
+      of the frame, Attending Researcher (Male) leans in holding a
+      handheld scanner toward the Subject's midsection, studying a small
+      readout screen. On the right side of the frame, The Subject stands
+      calmly with his shirt held open, looking down at the floating sphere
+      with mild curiosity.
+    characters: [attending-researcher-m, scp-007-subject]
+    caption:
+      ja: "SCP-007は、被験者の腹部にある空洞の内部に位置している。被験者の腹部の大部分（筋肉、皮膚、臓器）は欠損しているが、被験者がそれによって苦痛を感じている様子はない。"
+      en: "SCP-007 is located within a cavity in the abdomen of the Subject. Most of the Subject's abdomen (muscles, skin, and organs) is absent, though the Subject does not appear to suffer because of this."
+      cs: "SCP-007 se nachází v dutině v břiše Subjektu. Většina Subjektova břicha (svaly, kůže a orgány) chybí, ačkoli se nezdá, že by tím Subjekt trpěl."
+      de: "SCP-007 befindet sich in einem Hohlraum im Bauch des Subjekts. Der Großteil des Bauches des Subjekts (Muskeln, Haut und Organe) fehlt, obwohl das Subjekt dadurch nicht zu leiden scheint."
+      es: "SCP-007 se encuentra dentro de una cavidad en el abdomen del Sujeto. La mayor parte del abdomen del Sujeto (músculos, piel y órganos) está ausente, aunque el Sujeto no parece sufrir por ello."
+      fr: "SCP-007 se situe dans une cavité de l'abdomen du Sujet. La majeure partie de l'abdomen du Sujet (muscles, peau et organes) est absente, bien que le Sujet ne semble pas en souffrir."
+      it: "SCP-007 si trova all'interno di una cavità nell'addome del Soggetto. La maggior parte dell'addome del Soggetto (muscoli, pelle e organi) è assente, sebbene il Soggetto non sembri soffrirne."
+      ko: "SCP-007은 대상의 복부에 있는 공동 내부에 위치한다. 대상의 복부 대부분(근육, 피부, 장기)이 결손되어 있으나, 대상이 이로 인해 고통받는 것으로 보이지는 않는다."
+      pl: "SCP-007 znajduje się w jamie w brzuchu Podmiotu. Większość brzucha Podmiotu (mięśnie, skóra i narządy) nie istnieje, choć Podmiot nie wydaje się z tego powodu cierpieć."
+      pt: "SCP-007 está localizado dentro de uma cavidade no abdômen do Sujeito. A maior parte do abdômen do Sujeito (músculos, pele e órgãos) está ausente, embora o Sujeito não pareça sofrer por causa disso."
+      th: "SCP-007 อยู่ภายในโพรงในช่องท้องของผู้ถูกทดสอบ ช่องท้องของผู้ถูกทดสอบส่วนใหญ่ (กล้ามเนื้อ ผิวหนัง และอวัยวะ) ขาดหายไป แม้ว่าผู้ถูกทดสอบจะไม่แสดงอาการทุกข์ทรมานจากภาวะดังกล่าว"
+      uk: "SCP-007 розташований усередині порожнини в череві Суб'єкта. Більша частина живота Суб'єкта (м'язи, шкіра та органи) відсутня, хоча Суб'єкт, схоже, не страждає через це."
+      vi: "SCP-007 nằm trong một khoang ở vùng bụng của Đối tượng. Phần lớn vùng bụng của Đối tượng (cơ, da và nội tạng) không tồn tại, mặc dù Đối tượng dường như không hề đau đớn vì điều này."
+      zh: "SCP-007位于对象腹部的一处空腔内。对象腹部的大部分（肌肉、皮肤和器官）均已缺失，但对象似乎并未因此感到痛苦。"
+      zh_Hant: "SCP-007位於對象腹部的一處空腔內。對象腹部的大部分（肌肉、皮膚和器官）均已缺失，但對象似乎並未因此感到痛苦。"
+
+  - scene: >
+      Extreme close-up on the floating sphere inside the Subject's
+      abdominal cavity, filling most of the frame. It reads clearly as a
+      tiny planet with unfamiliar continents, small swirling storm
+      systems, and a bright terminator line between its day and night
+      sides. The rim of the Subject's torso is soft-focus around the edges
+      of the frame.
+    characters: [scp-007-subject]
+    caption:
+      ja: "その球体は、ほとんどの点で地球の縮小されたほぼ複製であり、直径はおよそ60センチメートルであるが、大陸の配置は地球の歴史上知られるいかなる配置とも一致しない。球体は独自の気象パターンと、ごくわずかな重力を持つ。"
+      en: "The sphere appears to be, in most respects, a miniature near-duplicate of the Earth, approximately 60 cm in diameter, although continental alignment is not consistent with that of any alignment known in Earth's history. The sphere has its own weather patterns and negligible gravitational pull."
+      cs: "Koule se ve většině ohledů jeví jako zmenšená téměř kopie Země o průměru přibližně 60 cm, ačkoli rozmístění kontinentů neodpovídá žádnému uspořádání známému v historii Země. Koule má vlastní povětrnostní jevy a zanedbatelnou gravitační přitažlivost."
+      de: "Die Kugel scheint in den meisten Aspekten ein verkleinertes Beinahe-Duplikat der Erde zu sein, mit einem Durchmesser von etwa 60 cm, obwohl die Anordnung der Kontinente mit keiner in der Erdgeschichte bekannten Anordnung übereinstimmt. Die Kugel besitzt eigene Wettermuster und eine vernachlässigbare Anziehungskraft."
+      es: "La esfera parece ser, en la mayoría de los aspectos, una casi réplica en miniatura de la Tierra, de aproximadamente 60 cm de diámetro, aunque la disposición de los continentes no se corresponde con ninguna configuración conocida en la historia de la Tierra. La esfera tiene sus propios patrones climáticos y una atracción gravitatoria insignificante."
+      fr: "La sphère semble être, à bien des égards, une quasi-réplique miniature de la Terre, d'environ 60 cm de diamètre, bien que la disposition des continents ne corresponde à aucune configuration connue dans l'histoire de la Terre. La sphère possède ses propres phénomènes météorologiques et une attraction gravitationnelle négligeable."
+      it: "La sfera sembra essere, sotto la maggior parte degli aspetti, una quasi-riproduzione in miniatura della Terra, di circa 60 cm di diametro, sebbene la disposizione dei continenti non corrisponda ad alcuna configurazione nota nella storia della Terra. La sfera ha i propri schemi meteorologici e un'attrazione gravitazionale trascurabile."
+      ko: "이 구체는 대부분의 측면에서 지구의 축소된 거의 복제품으로 보이며, 지름은 약 60cm이나, 대륙의 배치는 지구 역사상 알려진 어떤 배열과도 일치하지 않는다. 구체는 자체적인 기상 패턴과 무시할 수 있을 정도의 중력을 지니고 있다."
+      pl: "Kula wydaje się być pod większością względów miniaturową, niemal wierną kopią Ziemi o średnicy około 60 cm, choć układ kontynentów nie odpowiada żadnemu układowi znanemu z historii Ziemi. Kula ma własne wzorce pogodowe i znikome przyciąganie grawitacyjne."
+      pt: "A esfera parece ser, na maioria dos aspectos, uma quase réplica em miniatura da Terra, com aproximadamente 60 cm de diâmetro, embora a disposição dos continentes não corresponda a nenhuma configuração conhecida na história da Terra. A esfera possui seus próprios padrões climáticos e uma atração gravitacional insignificante."
+      th: "ทรงกลมดังกล่าวดูเหมือนจะเป็นแบบจำลองขนาดย่อที่เกือบเหมือนโลกในเกือบทุกด้าน มีเส้นผ่านศูนย์กลางประมาณ 60 เซนติเมตร แม้ว่าการจัดวางทวีปจะไม่ตรงกับการจัดเรียงใด ๆ ที่รู้จักในประวัติศาสตร์ของโลก ทรงกลมนี้มีรูปแบบสภาพอากาศของตัวเองและมีแรงโน้มถ่วงเพียงเล็กน้อยจนแทบไม่มีนัยสำคัญ"
+      uk: "Сфера, схоже, здебільшого є зменшеною майже копією Землі діаметром приблизно 60 см, хоча розташування континентів не відповідає жодному відомому в історії Землі. Сфера має власні погодні явища та незначну силу тяжіння."
+      vi: "Về hầu hết các phương diện, quả cầu này dường như là một bản sao thu nhỏ gần như hoàn chỉnh của Trái Đất, đường kính khoảng 60 cm, mặc dù cách sắp xếp các lục địa không trùng khớp với bất kỳ cấu hình nào từng được biết đến trong lịch sử Trái Đất. Quả cầu có các kiểu thời tiết riêng và lực hấp dẫn không đáng kể."
+      zh: "该球体在大多数方面看来是地球的微缩近似复制品，直径约60厘米，但大陆分布与地球历史上已知的任何排列均不相符。该球体拥有自身的天气模式和微弱到可忽略的引力。"
+      zh_Hant: "該球體在大多數方面看來是地球的微縮近似複製品，直徑約60公分，但大陸分布與地球歷史上已知的任何排列均不相符。該球體擁有自身的天氣模式和微弱到可忽略的引力。"
+
+  - scene: >
+      Wide shot from a low angle, showing a corner of the room with a
+      small chess table set up between two chairs. On the left side of the
+      frame, The Subject sits studying the board, one hand resting near a
+      pawn, the glowing sphere visible at his open shirt front. On the
+      right side of the frame, Attending Researcher (Male) sits opposite,
+      making notes on a clipboard instead of watching the board.
+    characters: [scp-007-subject, attending-researcher-m]
+    caption:
+      ja: "██████博士は毎週被験者とチェスを行い、その際に被験者の精神状態が評価される。被験者はこれまで脱走を試みたり、暴力や精神疾患の兆候を示したりしたことはないが、インターネットに接続できるコンピュータを繰り返し要求している。これは提供しないことが推奨される。"
+      en: "Dr. ██████ has a weekly chess game with the Subject, during which the Subject's mental health is evaluated. The Subject has yet to attempt to escape or show signs of violence or mental illness, though he has repeatedly requested a computer with an internet connection. It is recommended that this not be provided."
+      cs: "Dr. ██████ hraje se Subjektem každý týden partii šachu, během níž je hodnocen Subjektův duševní stav. Subjekt se dosud nepokusil o útěk ani neprojevil známky násilí či duševní choroby, opakovaně však žádal o počítač s připojením k internetu. Doporučuje se jej neposkytovat."
+      de: "Dr. ██████ spielt wöchentlich eine Partie Schach mit dem Subjekt, wobei die psychische Gesundheit des Subjekts beurteilt wird. Das Subjekt hat bislang weder einen Fluchtversuch unternommen noch Anzeichen von Gewalt oder psychischer Erkrankung gezeigt, hat jedoch wiederholt einen Computer mit Internetanschluss verlangt. Es wird empfohlen, diesen nicht bereitzustellen."
+      es: "El Dr. ██████ juega una partida de ajedrez semanal con el Sujeto, durante la cual se evalúa la salud mental del Sujeto. El Sujeto aún no ha intentado escapar ni ha mostrado signos de violencia o enfermedad mental, aunque ha solicitado reiteradamente un ordenador con conexión a internet. Se recomienda no proporcionárselo."
+      fr: "Le Dr ██████ dispute une partie d'échecs hebdomadaire avec le Sujet, durant laquelle la santé mentale du Sujet est évaluée. Le Sujet n'a pas encore tenté de s'évader ni montré de signes de violence ou de maladie mentale, bien qu'il ait demandé à plusieurs reprises un ordinateur doté d'une connexion internet. Il est recommandé de ne pas le lui fournir."
+      it: "Il Dott. ██████ gioca ogni settimana una partita a scacchi con il Soggetto, durante la quale viene valutata la salute mentale del Soggetto. Il Soggetto non ha ancora tentato la fuga né mostrato segni di violenza o di malattia mentale, sebbene abbia ripetutamente richiesto un computer con connessione a internet. Si raccomanda di non fornirlo."
+      ko: "██████ 박사는 매주 대상과 체스를 두며, 그 과정에서 대상의 정신 건강이 평가된다. 대상은 지금까지 탈출을 시도하거나 폭력 또는 정신 질환의 징후를 보인 적이 없으나, 인터넷에 연결된 컴퓨터를 반복적으로 요청하고 있다. 이는 제공하지 않을 것을 권고한다."
+      pl: "Dr ██████ co tydzień rozgrywa z Podmiotem partię szachów, podczas której oceniany jest stan psychiczny Podmiotu. Podmiot jak dotąd nie podjął próby ucieczki ani nie wykazał oznak przemocy czy choroby psychicznej, wielokrotnie jednak prosił o komputer z dostępem do internetu. Zaleca się jego nieudostępnianie."
+      pt: "O Dr. ██████ joga uma partida de xadrez semanal com o Sujeito, durante a qual a saúde mental do Sujeito é avaliada. O Sujeito ainda não tentou escapar nem apresentou sinais de violência ou doença mental, embora tenha solicitado repetidamente um computador com conexão à internet. Recomenda-se que isso não seja fornecido."
+      th: "ดร. ██████ เล่นหมากรุกกับผู้ถูกทดสอบสัปดาห์ละครั้ง ซึ่งเป็นช่วงเวลาที่ใช้ประเมินสุขภาพจิตของผู้ถูกทดสอบ จนถึงขณะนี้ผู้ถูกทดสอบยังไม่เคยพยายามหลบหนีหรือแสดงพฤติกรรมรุนแรงหรืออาการป่วยทางจิต แม้ว่าเขาจะร้องขอคอมพิวเตอร์ที่เชื่อมต่ออินเทอร์เน็ตอยู่ซ้ำ ๆ ก็ตาม แนะนำว่าไม่ควรจัดหาให้"
+      uk: "Д-р ██████ щотижня грає із Суб'єктом партію в шахи, під час якої оцінюється психічний стан Суб'єкта. Суб'єкт досі не намагався втекти й не виявляв ознак насильства чи психічного розладу, проте неодноразово просив комп'ютер із доступом до інтернету. Рекомендовано його не надавати."
+      vi: "Tiến sĩ ██████ chơi một ván cờ vua hằng tuần với Đối tượng, trong lúc đó sức khỏe tâm thần của Đối tượng được đánh giá. Đối tượng đến nay chưa từng tìm cách trốn thoát hay biểu hiện dấu hiệu bạo lực hoặc bệnh tâm thần, mặc dù đã nhiều lần yêu cầu một máy tính có kết nối internet. Khuyến nghị không cung cấp thứ này."
+      zh: "██████博士每周与对象下一盘国际象棋，并在此期间评估对象的心理健康状况。对象迄今未曾试图逃跑，也未表现出暴力或精神疾病的迹象，但他多次要求配备一台可联网的计算机。建议不予提供。"
+      zh_Hant: "██████博士每週與對象下一盤西洋棋，並在此期間評估對象的心理健康狀況。對象迄今未曾試圖逃跑，也未表現出暴力或精神疾病的跡象，但他多次要求配備一台可聯網的電腦。建議不予提供。"

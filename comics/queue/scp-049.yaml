@@ -1,0 +1,174 @@
+# SCP-049 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 補遺・面接記録は使わない。SCP-049-2や外科手術等のグロ描写はしない。
+# キャラにセリフは言わせない。画像に文字は描かせない。
+
+id: scp-049
+
+title:
+  en: "SCP-049"
+  ja: "SCP-049"
+  cs: "SCP-049"
+  de: "SCP-049"
+  es: "SCP-049"
+  fr: "SCP-049"
+  it: "SCP-049"
+  ko: "SCP-049"
+  pl: "SCP-049"
+  pt: "SCP-049"
+  th: "SCP-049"
+  uk: "SCP-049"
+  vi: "SCP-049"
+  zh: "SCP-049"
+  zh_Hant: "SCP-049"
+
+attribution:
+  article: "SCP-049"
+  author: "Gabriel Jade and djkaktus"
+  source_url: "http://scp-wiki.wikidot.com/scp-049"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-049:
+    name: SCP-049
+    appearance: >
+      SCP-049, a humanoid entity roughly 1.9 meters tall in the exact
+      shape of a medieval plague doctor. Its long dark near-black robe
+      (color RGB 25,25,28) and its bird-like long-beaked mask are not
+      worn garments but have grown out of its own body as one continuous
+      waxy surface. Pale grayish hands. It moves slowly and
+      deliberately.
+    default_look: >
+      Standing upright with a calm, courteous, formal posture, hands
+      often clasped in front of it. Sometimes holding a worn brown
+      leather doctor's bag.
+
+characters: [scp-049, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide establishing shot, eye level, of a plain standard humanoid
+      containment cell: bare pale walls, a cot, a small table, a heavy
+      observation window. SCP-049 stands calmly in the center of the
+      room, tall and still, its long beaked mask turned slightly toward
+      the window. No one else present. No text.
+    characters: [scp-049]
+    notes: >
+      根拠: Description「SCP-049 appears as a humanoid entity, roughly 1.9
+      meters in height, which bears the appearance of a medieval plague
+      doctor. Its robes and mask have grown out of SCP-049's body over
+      time yet possess underlying humanoid skeletal structure.」
+      変えてはいけない事実: 身長約1.9m、中世のペスト医師の姿、ローブと仮面は
+      体から生えたもの、内部に人型の骨格。
+      変更可能: 収容室の構図、立ち位置。
+    caption:
+      ja: "SCP-049は、身長およそ1.9メートルの人型実体であり、中世のペスト医師のような外見をしている。そのローブと仮面は、長い年月をかけてSCP-049の身体から生じたものであるが、その内部には人間に近い骨格構造が存在する。"
+      en: "SCP-049 is a humanoid entity, roughly 1.9 meters in height, which bears the appearance of a medieval plague doctor. Its robes and mask have grown out of SCP-049's body over time, yet possess an underlying humanoid skeletal structure."
+      cs: "SCP-049 je humanoidní entita vysoká zhruba 1,9 metru, která vzhledem připomíná středověkého morového doktora. Jeho róba a maska časem vyrostly z těla SCP-049, přesto mají pod sebou humanoidní kostru."
+      de: "SCP-049 ist eine humanoide Entität von etwa 1,9 Metern Höhe, die das Aussehen eines mittelalterlichen Pestarztes hat. Seine Robe und seine Maske sind im Laufe der Zeit aus dem Körper von SCP-049 herausgewachsen, besitzen jedoch darunter eine humanoide Skelettstruktur."
+      es: "SCP-049 es una entidad humanoide de aproximadamente 1,9 metros de altura, con la apariencia de un médico de la peste medieval. Su túnica y su máscara han crecido del cuerpo de SCP-049 con el tiempo, aunque poseen una estructura esquelética humanoide subyacente."
+      fr: "SCP-049 est une entité humanoïde d'environ 1,9 mètre de haut, ayant l'apparence d'un médecin de la peste médiéval. Sa robe et son masque ont poussé au fil du temps à partir du corps de SCP-049, tout en recouvrant une structure squelettique humanoïde."
+      it: "SCP-049 è un'entità umanoide alta circa 1,9 metri, con l'aspetto di un medico della peste medievale. La sua veste e la sua maschera sono cresciute nel tempo dal corpo di SCP-049, pur possedendo al di sotto una struttura scheletrica umanoide."
+      ko: "SCP-049는 키가 약 1.9미터인 인간형 실체로, 중세의 흑사병 의사와 같은 외양을 지녔다. 그 로브와 가면은 오랜 시간에 걸쳐 SCP-049의 몸에서 자라난 것이지만, 그 안에는 인간에 가까운 골격 구조가 존재한다."
+      pl: "SCP-049 to humanoidalna istota o wzroście około 1,9 metra, wyglądem przypominająca średniowiecznego lekarza od zarazy. Jego szata i maska z czasem wyrosły z ciała SCP-049, mają jednak pod spodem humanoidalną strukturę szkieletową."
+      pt: "SCP-049 é uma entidade humanoide de cerca de 1,9 metro de altura, com a aparência de um médico da peste medieval. Sua túnica e sua máscara cresceram do corpo de SCP-049 ao longo do tempo, mas possuem uma estrutura esquelética humanoide por baixo."
+      th: "SCP-049 เป็นสิ่งมีชีวิตรูปร่างมนุษย์ สูงราว 1.9 เมตร มีลักษณะเหมือนหมอรักษาโรคระบาดในยุคกลาง เสื้อคลุมและหน้ากากของมันงอกออกมาจากร่างกายของ SCP-049 เมื่อเวลาผ่านไป แต่ภายในยังมีโครงกระดูกแบบมนุษย์อยู่"
+      uk: "SCP-049 — гуманоїдна сутність заввишки приблизно 1,9 метра, що має вигляд середньовічного чумного лікаря. Його мантія та маска з часом виросли з тіла SCP-049, проте під ними є гуманоїдна скелетна структура."
+      vi: "SCP-049 là một thực thể hình người, cao khoảng 1,9 mét, mang dáng vẻ của một bác sĩ dịch hạch thời trung cổ. Áo choàng và mặt nạ của nó đã mọc ra từ cơ thể SCP-049 theo thời gian, nhưng bên dưới vẫn có cấu trúc xương kiểu người."
+      zh: "SCP-049是一具身高约1.9米的人形实体，外观形似中世纪的瘟疫医生。它的长袍与面具是随时间从SCP-049体内长出的，但其内部具有近似人类的骨骼结构。"
+      zh_Hant: "SCP-049是一具身高約1.9公尺的人形實體，外觀形似中世紀的瘟疫醫生。它的長袍與面具是隨時間從SCP-049體內長出的，但其內部具有近似人類的骨骼結構。"
+
+  - scene: >
+      Medium two-shot, waist-up, across a small table. On the left side
+      of the frame, SCP-049 leans in slightly and gestures with one open
+      hand in a polite, lecturing manner, mask tilted attentively. On
+      the right side of the frame, Attending Researcher (Male) sits
+      taking notes on a clipboard, at ease. Calm interview atmosphere.
+      No text.
+    characters: [scp-049, attending-researcher-m]
+    notes: >
+      根拠: Description「The entity speaks multiple languages, preferring
+      English or medieval French. It exhibits cordiality [toward
+      Foundation staff].」
+      変えてはいけない事実: 複数言語を話し英語か中世フランス語を好む、財団
+      職員に対して概ね礼儀正しい。
+      変更可能: 面談の構図、双方のポーズ。
+    caption:
+      ja: "SCP-049は複数の言語を話すことができるが、英語または中世フランス語を好むようである。財団職員に対しては、おおむね礼儀正しい態度を示す。"
+      en: "SCP-049 is capable of speaking several languages, though it appears to prefer English or medieval French, and it generally exhibits a cordial demeanor toward Foundation personnel."
+      cs: "SCP-049 dokáže mluvit několika jazyky, zdá se však, že upřednostňuje angličtinu nebo středověkou francouzštinu, a vůči personálu Nadace se obvykle chová zdvořile."
+      de: "SCP-049 ist in der Lage, mehrere Sprachen zu sprechen, scheint jedoch Englisch oder mittelalterliches Französisch zu bevorzugen, und zeigt gegenüber dem Personal der Stiftung im Allgemeinen ein zuvorkommendes Auftreten."
+      es: "SCP-049 es capaz de hablar varios idiomas, aunque parece preferir el inglés o el francés medieval, y por lo general muestra un trato cordial hacia el personal de la Fundación."
+      fr: "SCP-049 est capable de parler plusieurs langues, bien qu'il semble préférer l'anglais ou le français médiéval, et il se montre généralement courtois envers le personnel de la Fondation."
+      it: "SCP-049 è in grado di parlare diverse lingue, sebbene sembri preferire l'inglese o il francese medievale, e in genere mostra un atteggiamento cordiale nei confronti del personale della Fondazione."
+      ko: "SCP-049는 여러 언어를 구사할 수 있으나, 영어 또는 중세 프랑스어를 선호하는 것으로 보이며, 재단 인원에게는 대체로 정중한 태도를 보인다."
+      pl: "SCP-049 potrafi mówić w kilku językach, wydaje się jednak preferować angielski lub średniowieczną francuszczyznę, a wobec personelu Fundacji zazwyczaj zachowuje się uprzejmie."
+      pt: "SCP-049 é capaz de falar vários idiomas, embora pareça preferir o inglês ou o francês medieval, e geralmente demonstra uma postura cordial para com o pessoal da Fundação."
+      th: "SCP-049 สามารถพูดได้หลายภาษา แม้ดูเหมือนจะชอบภาษาอังกฤษหรือภาษาฝรั่งเศสยุคกลาง และโดยทั่วไปแสดงท่าทีสุภาพต่อเจ้าหน้าที่ของมูลนิธิ"
+      uk: "SCP-049 здатний розмовляти кількома мовами, проте, схоже, надає перевагу англійській або середньовічній французькій, і зазвичай поводиться ввічливо з персоналом Фонду."
+      vi: "SCP-049 có thể nói được nhiều thứ tiếng, tuy vậy dường như nó thích tiếng Anh hoặc tiếng Pháp thời trung cổ, và nhìn chung tỏ thái độ nhã nhặn với nhân viên của Tổ chức."
+      zh: "SCP-049能够说多种语言，但似乎更偏好英语或中世纪法语，且对基金会人员通常表现得彬彬有礼。"
+      zh_Hant: "SCP-049能夠說多種語言，但似乎更偏好英語或中世紀法語，且對基金會人員通常表現得彬彬有禮。"
+
+  - scene: >
+      Close-up on SCP-049, its beaked mask snapped forward and its
+      posture suddenly rigid and alarmed, one gloved hand raised and
+      pointing sharply off-frame. At the edge of the frame Attending
+      Researcher (Male) leans back away from it, startled. No blood, no
+      violence, just alarm. No text.
+    characters: [scp-049, attending-researcher-m]
+    notes: >
+      根拠: Description「It exhibits cordiality but becomes hostile toward
+      individuals it perceives as affected by the 'Pestilence' — a
+      mysterious affliction of unknown nature that deeply concerns it.」
+      変えてはいけない事実: 「疫病」に冒されていると見なした相手には敵対的に
+      なる、疫病は正体不明の謎の病でSCP-049はこれを深く憂慮している。
+      変更可能: 敵対の見せ方（暴力描写はしない）、研究者の反応。
+    caption:
+      ja: "SCP-049は普段こそ丁重だが、「疫病」に冒されていると自らが見なした相手に対しては敵対的になる。疫病とは、その性質が不明のまま謎に包まれた病であり、SCP-049はこれを深く憂慮している。"
+      en: "Though cordial, SCP-049 becomes hostile toward any individual it perceives as being afflicted by the 'Pestilence', a mysterious affliction of unknown nature that appears to deeply concern it."
+      cs: "Ačkoli je zdvořilý, SCP-049 se stává nepřátelským vůči každému, koho vnímá jako zasaženého 'Morem' — záhadným postižením neznámé povahy, které ho hluboce znepokojuje."
+      de: "Obwohl zuvorkommend, wird SCP-049 jeder Person gegenüber feindselig, die es als von der 'Pestilenz' befallen wahrnimmt — einem rätselhaften Leiden unbekannter Natur, das es zutiefst zu beunruhigen scheint."
+      es: "Aunque es cordial, SCP-049 se vuelve hostil hacia cualquier individuo al que percibe como afectado por la 'Pestilencia', una misteriosa aflicción de naturaleza desconocida que parece preocuparle profundamente."
+      fr: "Bien que courtois, SCP-049 devient hostile envers toute personne qu'il perçoit comme atteinte de la 'Pestilence', une mystérieuse affection de nature inconnue qui semble le préoccuper profondément."
+      it: "Pur essendo cordiale, SCP-049 diventa ostile verso qualsiasi individuo che percepisce come affetto dalla 'Pestilenza', una misteriosa afflizione di natura ignota che sembra preoccuparlo profondamente."
+      ko: "평소에는 정중하지만, SCP-049는 자신이 '역병'에 걸렸다고 여기는 상대에게는 적대적으로 변한다. 역병이란 그 성질이 알려지지 않은 수수께끼의 병으로, SCP-049는 이를 깊이 우려하는 것으로 보인다."
+      pl: "Choć uprzejmy, SCP-049 staje się wrogi wobec każdej osoby, którą postrzega jako dotkniętą 'Zarazą' — tajemniczą dolegliwością o nieznanej naturze, która, jak się wydaje, głęboko go niepokoi."
+      pt: "Embora cordial, SCP-049 torna-se hostil em relação a qualquer indivíduo que perceba como acometido pela 'Pestilência', uma misteriosa aflição de natureza desconhecida que parece preocupá-lo profundamente."
+      th: "แม้จะสุภาพ แต่ SCP-049 จะกลายเป็นศัตรูกับผู้ใดก็ตามที่มันรับรู้ว่าติด 'โรคระบาด' ซึ่งเป็นความเจ็บป่วยลึกลับที่ไม่ทราบธรรมชาติ และดูเหมือนจะทำให้มันกังวลอย่างยิ่ง"
+      uk: "Хоч і ввічливий, SCP-049 стає ворожим до будь-кого, кого сприймає як ураженого 'Пошестю' — загадковою недугою невідомої природи, яка, схоже, глибоко його непокоїть."
+      vi: "Dù nhã nhặn, SCP-049 trở nên thù địch với bất kỳ ai mà nó cho là đang nhiễm 'Bệnh dịch', một chứng bệnh bí ẩn chưa rõ bản chất mà dường như khiến nó lo lắng sâu sắc."
+      zh: "尽管彬彬有礼，SCP-049会对任何被它判定为感染了“瘟疫”的人变得充满敌意。“瘟疫”是一种性质不明的神秘病症，似乎令它深感忧虑。"
+      zh_Hant: "儘管彬彬有禮，SCP-049會對任何被它判定為感染了「瘟疫」的人變得充滿敵意。「瘟疫」是一種性質不明的神祕病症，似乎令它深感憂慮。"
+
+  - scene: >
+      Medium-wide shot from behind and to the side of Attending
+      Researcher (Female). On the left side of the frame she calmly
+      holds up a small sprig of purple lavender toward the entity. On
+      the right side of the frame SCP-049 has settled back into a calm,
+      still posture, hands clasped, mask lowered slightly as if soothed.
+      A faint scatter of lavender flowers on the table. No text.
+    characters: [attending-researcher-f, scp-049]
+    notes: >
+      根拠: SC procedures「Lavender application produces a calming effect
+      [on SCP-049].」オチ。
+      変えてはいけない事実: ラベンダーがSCP-049に鎮静効果をもたらすこと。
+      変更可能: ラベンダーの見せ方、双方のポーズ。
+    caption:
+      ja: "ラベンダーを用いると、SCP-049に対して鎮静効果が生じることが確認されている。"
+      en: "The application of lavender has been observed to produce a calming effect on SCP-049."
+      cs: "Bylo pozorováno, že použití levandule vyvolává u SCP-049 uklidňující účinek."
+      de: "Es wurde beobachtet, dass die Anwendung von Lavendel eine beruhigende Wirkung auf SCP-049 hat."
+      es: "Se ha observado que la aplicación de lavanda produce un efecto calmante en SCP-049."
+      fr: "Il a été observé que l'application de lavande produit un effet apaisant sur SCP-049."
+      it: "È stato osservato che l'uso della lavanda produce un effetto calmante su SCP-049."
+      ko: "라벤더를 사용하면 SCP-049에게 진정 효과가 나타나는 것이 확인되었다."
+      pl: "Zaobserwowano, że zastosowanie lawendy wywołuje u SCP-049 działanie uspokajające."
+      pt: "Observou-se que a aplicação de lavanda produz um efeito calmante em SCP-049."
+      th: "มีการสังเกตพบว่าการใช้ลาเวนเดอร์ก่อให้เกิดผลสงบต่อ SCP-049"
+      uk: "Було помічено, що застосування лаванди справляє заспокійливий вплив на SCP-049."
+      vi: "Người ta quan sát thấy rằng việc sử dụng oải hương tạo ra tác dụng làm dịu đối với SCP-049."
+      zh: "已观察到，使用薰衣草会对SCP-049产生镇静作用。"
+      zh_Hant: "已觀察到，使用薰衣草會對SCP-049產生鎮靜作用。"

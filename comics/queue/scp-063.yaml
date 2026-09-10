@@ -1,0 +1,187 @@
+# SCP-063 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-063
+
+title:
+  en: "SCP-063"
+  ja: "SCP-063"
+  cs: "SCP-063"
+  de: "SCP-063"
+  es: "SCP-063"
+  fr: "SCP-063"
+  it: "SCP-063"
+  ko: "SCP-063"
+  pl: "SCP-063"
+  pt: "SCP-063"
+  th: "SCP-063"
+  uk: "SCP-063"
+  vi: "SCP-063"
+  zh: "SCP-063"
+  zh_Hant: "SCP-063"
+
+attribution:
+  article: "SCP-063"
+  author: "Kain Pathos Crow"
+  source_url: "http://scp-wiki.wikidot.com/scp-063"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-063:
+    name: SCP-063
+    appearance: >
+      An ordinary-looking, average-sized manual toothbrush moulded from pale
+      sky-blue plastic (color RGB 150,195,225) with plain white bristles. A
+      faint worn stencilled marking runs along one side of the handle, too
+      scuffed to read (render it only as an indistinct smudge, never as
+      legible letters). Completely unremarkable, like a cheap drugstore
+      toothbrush.
+    default_look: >
+      Resting in a bathroom cup or held in a hand at normal size. No glow or
+      special effect on the brush itself; any anomalous effect appears only on
+      the surrounding objects it disintegrates, never as markings or light on
+      SCP-063.
+
+panels:
+  - scene: >
+      Medium shot, eye level. A modest private bathroom with a small sink,
+      mirror, and tiled wall. SCP-063 stands upright in a plain cup on the
+      edge of the sink. attending-researcher-m, in his lab coat, leans one
+      hand on the sink and looks down at SCP-063 with a resigned expression,
+      as though it is a chore he cannot skip.
+    notes: >
+      Panel-1 basis: "SCP-063 is to be kept at all times within Dr. ████'s
+      personal bathroom, located within the personnel quarters upon Site 19."
+      Fixed facts: the toothbrush lives in one researcher's private bathroom.
+      Free to restage: the researcher's pose and expression, framing.
+    characters: [attending-researcher-m, scp-063]
+    caption:
+      ja: "SCP-063は常時、サイト19の職員居住区内にある████博士の個人用浴室内に保管される。"
+      en: "SCP-063 is to be kept at all times within Dr. ████'s personal bathroom, located within the personnel quarters upon Site 19."
+      cs: "SCP-063 musí být za všech okolností uchováváno v soukromé koupelně Dr. ████, která se nachází v ubytovací části personálu na Stanovišti 19."
+      de: "SCP-063 ist jederzeit im privaten Badezimmer von Dr. ████ aufzubewahren, das sich in den Personalunterkünften auf Standort 19 befindet."
+      es: "SCP-063 debe mantenerse en todo momento dentro del baño personal del Dr. ████, ubicado en las dependencias del personal del Sitio 19."
+      fr: "SCP-063 doit être conservé à tout moment dans la salle de bain personnelle du Dr ████, située dans les quartiers du personnel du Site 19."
+      it: "SCP-063 deve essere tenuto in ogni momento all'interno del bagno personale del Dr. ████, situato negli alloggi del personale del Sito 19."
+      ko: "SCP-063은 항상 사이트 19의 직원 숙소 구역 내에 있는 ████ 박사의 개인 욕실 안에 보관한다."
+      pl: "SCP-063 należy przez cały czas przechowywać w prywatnej łazience Dr. ████, znajdującej się w kwaterach personelu w Placówce 19."
+      pt: "O SCP-063 deve ser mantido o tempo todo dentro do banheiro pessoal do Dr. ████, localizado nos alojamentos do pessoal no Sítio 19."
+      th: "ต้องเก็บ SCP-063 ไว้ตลอดเวลาภายในห้องน้ำส่วนตัวของ ดร. ████ ซึ่งตั้งอยู่ในเขตที่พักของเจ้าหน้าที่ที่ไซต์ 19"
+      uk: "SCP-063 має постійно зберігатися у приватній ванній кімнаті д-ра ████, розташованій у житловому секторі персоналу на Об'єкті 19."
+      vi: "SCP-063 phải luôn được giữ trong phòng tắm riêng của Tiến sĩ ████, nằm trong khu ở của nhân viên tại Cơ sở 19."
+      zh: "SCP-063须始终存放于Site 19人员宿舍区内████博士的私人浴室中。"
+      zh_Hant: "SCP-063須始終存放於Site 19人員宿舍區內████博士的私人浴室中。"
+
+  - scene: >
+      Wide shot, eye level, showing the whole small bathroom. SCP-063 lies
+      forgotten on a shelf; the cup, soap dish, and a stretch of tiled wall
+      around it are visibly warping and crumbling into little heaps of fine
+      gray dust, the air around it faintly shimmering. On the left side of
+      the frame, attending-researcher-m rushes in through the doorway with an
+      alarmed face; just behind him, attending-researcher-f follows, one hand
+      over her mouth.
+    notes: >
+      Panel-2 basis: object must be used at least once per 24 hours "or the
+      object will begin to emit an unknown specialized radiation that results
+      in objects and material within a 0.6 m radius being slowly warped and
+      eventually disintegrating into a fine dust." Fixed facts: neglected
+      brush disintegrates nearby matter to dust. Free to restage: who arrives,
+      the reactions.
+    characters: [scp-063, attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "本オブジェクトは24時間ごとに少なくとも1回、本来の用途どおりに使用しなければならない。さもなければ、未知の特殊な放射線を放ち始め、半径0.6m以内の物体や物質が徐々に歪み、最終的に細かな塵へと崩壊する。"
+      en: "The object is to be used as designed at least once in a twenty-four (24) hour period, or it will begin to emit an unknown specialized radiation that results in objects and material within a 0.6 m radius being slowly warped and eventually disintegrating into a fine dust."
+      cs: "Předmět musí být použit ke svému účelu alespoň jednou za dvacet čtyři (24) hodin, jinak začne vyzařovat neznámé specializované záření, které způsobí, že se předměty a materiál v okruhu 0,6 m pomalu zdeformují a nakonec se rozpadnou na jemný prach."
+      de: "Das Objekt ist mindestens einmal innerhalb von vierundzwanzig (24) Stunden bestimmungsgemäß zu benutzen, andernfalls beginnt es, eine unbekannte spezialisierte Strahlung abzugeben, wodurch Gegenstände und Material im Umkreis von 0,6 m sich langsam verformen und schließlich zu feinem Staub zerfallen."
+      es: "El objeto debe usarse conforme a su diseño al menos una vez cada veinticuatro (24) horas, o comenzará a emitir una radiación especializada desconocida que hace que los objetos y el material dentro de un radio de 0,6 m se deformen lentamente y acaben desintegrándose en un polvo fino."
+      fr: "L'objet doit être utilisé conformément à sa fonction au moins une fois toutes les vingt-quatre (24) heures, faute de quoi il se met à émettre un rayonnement spécialisé inconnu qui déforme lentement les objets et la matière dans un rayon de 0,6 m, jusqu'à les faire se désintégrer en une fine poussière."
+      it: "L'oggetto deve essere usato come previsto almeno una volta ogni ventiquattro (24) ore, altrimenti inizia a emettere una radiazione specializzata sconosciuta che fa sì che oggetti e materiali entro un raggio di 0,6 m si deformino lentamente e finiscano per disgregarsi in una polvere fine."
+      ko: "본 물체는 24시간마다 최소 1회 본래 용도대로 사용해야 하며, 그렇지 않으면 미지의 특수 방사선을 방출하기 시작해 반경 0.6m 이내의 물체와 물질이 서서히 뒤틀리다가 결국 고운 먼지로 붕괴된다."
+      pl: "Obiekt należy używać zgodnie z przeznaczeniem co najmniej raz na dwadzieścia cztery (24) godziny, w przeciwnym razie zacznie emitować nieznane wyspecjalizowane promieniowanie, przez które przedmioty i materiał w promieniu 0,6 m powoli się wypaczają i ostatecznie rozpadają w drobny pył."
+      pt: "O objeto deve ser usado conforme projetado pelo menos uma vez a cada vinte e quatro (24) horas, ou passará a emitir uma radiação especializada desconhecida que faz com que objetos e materiais num raio de 0,6 m se deformem lentamente e acabem se desintegrando num pó fino."
+      th: "ต้องใช้วัตถุนี้ตามวัตถุประสงค์อย่างน้อยหนึ่งครั้งในทุกยี่สิบสี่ (24) ชั่วโมง มิฉะนั้นมันจะเริ่มปล่อยรังสีเฉพาะทางที่ไม่ทราบชนิด ทำให้วัตถุและวัสดุในรัศมี 0.6 ม. ค่อยๆ บิดเบี้ยวและสลายกลายเป็นผงละเอียดในที่สุด"
+      uk: "Предметом слід користуватися за призначенням щонайменше раз на двадцять чотири (24) години, інакше він починає випромінювати невідоме спеціалізоване випромінювання, від якого предмети й матеріали в радіусі 0,6 м повільно деформуються і врешті розпадаються на дрібний пил."
+      vi: "Vật thể phải được sử dụng đúng công năng ít nhất một lần mỗi hai mươi bốn (24) giờ, nếu không nó sẽ bắt đầu phát ra một loại bức xạ chuyên biệt chưa xác định, khiến các đồ vật và vật chất trong bán kính 0,6 m dần biến dạng và cuối cùng rã thành bụi mịn."
+      zh: "该物体须在每二十四（24）小时内至少按用途使用一次，否则它会开始释放一种未知的特殊辐射，使0.6米半径内的物体和材料缓慢扭曲，并最终碎解成细微粉尘。"
+      zh_Hant: "該物體須在每二十四（24）小時內至少按用途使用一次，否則它會開始釋放一種未知的特殊輻射，使0.6公尺半徑內的物體和材料緩慢扭曲，並最終碎解成細微粉塵。"
+
+  - scene: >
+      Close-up shot on attending-researcher-m's hand and the sink, filling
+      most of the frame. He is brushing his teeth with SCP-063, and where the
+      white bristles have swept past the metal faucet and the ceramic rim of
+      the sink, a smooth clean bite is simply missing from each, with no cut
+      edge, no debris, and no dust. His eyes are wide as he notices.
+    notes: >
+      Panel-3 basis: "SCP-063 appears to be an average, pale blue toothbrush"
+      that can "effortlessly cleave through any and all dead or inorganic
+      matter"; touched matter is "completely expunged from existence, leaving
+      no trace whatsoever." Fixed facts: bristles erase inorganic matter
+      cleanly and totally. Free to restage: which fixture is bitten, framing.
+    characters: [attending-researcher-m, scp-063]
+    caption:
+      ja: "SCP-063は、ごく平均的な淡い青色の歯ブラシに見える。SCP-063は、あらゆる死んだ物質または無機物をいともたやすく切り裂く能力を示すが、毛先が触れた物質は、ナイフのように切り離されるのではなく、痕跡を一切残さず完全に存在から抹消される。"
+      en: "SCP-063 appears to be an average, pale blue toothbrush. It displays the ability to effortlessly cleave through any and all dead or inorganic matter; however, matter touched by the bristles is not separated, but completely expunged from existence, leaving no trace whatsoever."
+      cs: "SCP-063 vypadá jako průměrný, světle modrý zubní kartáček. Vykazuje schopnost bez námahy proniknout jakoukoli mrtvou či anorganickou hmotou; hmota, jíž se štětiny dotknou, však není oddělena, nýbrž zcela vymazána z existence, aniž by po ní zůstala jakákoli stopa."
+      de: "SCP-063 sieht aus wie eine durchschnittliche, hellblaue Zahnbürste. Es zeigt die Fähigkeit, mühelos jede tote oder anorganische Materie zu durchtrennen; die von den Borsten berührte Materie wird jedoch nicht getrennt, sondern vollständig aus der Existenz getilgt, ohne die geringste Spur zu hinterlassen."
+      es: "SCP-063 parece ser un cepillo de dientes común, de color azul claro. Muestra la capacidad de atravesar sin esfuerzo cualquier materia muerta o inorgánica; sin embargo, la materia que tocan las cerdas no se separa, sino que se borra por completo de la existencia, sin dejar el menor rastro."
+      fr: "SCP-063 a l'apparence d'une brosse à dents ordinaire, de couleur bleu clair. Il présente la capacité de trancher sans effort toute matière morte ou inorganique ; toutefois, la matière touchée par les poils n'est pas séparée, mais entièrement effacée de l'existence, sans laisser la moindre trace."
+      it: "SCP-063 sembra uno spazzolino da denti comune, di colore azzurro chiaro. Mostra la capacità di fendere senza sforzo qualsiasi materia morta o inorganica; tuttavia, la materia toccata dalle setole non viene separata, bensì completamente cancellata dall'esistenza, senza lasciare la minima traccia."
+      ko: "SCP-063은 평범한 옅은 파란색 칫솔로 보인다. SCP-063은 죽었거나 무기물인 모든 물질을 손쉽게 갈라내는 능력을 보이지만, 솔에 닿은 물질은 칼로 자르듯 분리되는 것이 아니라 어떠한 흔적도 남기지 않고 존재에서 완전히 지워진다."
+      pl: "SCP-063 wygląda jak przeciętna, jasnoniebieska szczoteczka do zębów. Wykazuje zdolność bezwysiłkowego przecinania wszelkiej martwej lub nieorganicznej materii; materia dotknięta przez włosie nie zostaje jednak rozdzielona, lecz całkowicie wymazana z istnienia, nie pozostawiając najmniejszego śladu."
+      pt: "O SCP-063 parece ser uma escova de dentes comum, de cor azul-clara. Demonstra a capacidade de atravessar sem esforço qualquer matéria morta ou inorgânica; no entanto, a matéria tocada pelas cerdas não é separada, mas completamente apagada da existência, sem deixar o menor vestígio."
+      th: "SCP-063 มีลักษณะเป็นแปรงสีฟันสีฟ้าอ่อนธรรมดาทั่วไป มันแสดงความสามารถในการผ่าทะลุสสารที่ตายแล้วหรืออนินทรีย์ใดๆ ได้อย่างง่ายดาย อย่างไรก็ตาม สสารที่ขนแปรงสัมผัสจะไม่ถูกตัดแยกออก แต่ถูกลบล้างออกจากการมีอยู่โดยสิ้นเชิง ไม่เหลือร่องรอยใดๆ"
+      uk: "SCP-063 має вигляд звичайної світло-блакитної зубної щітки. Він демонструє здатність без зусиль розтинати будь-яку мертву чи неорганічну матерію; проте матерія, якої торкнулася щетина, не розділяється, а повністю стирається з буття, не лишаючи жодного сліду."
+      vi: "SCP-063 trông giống một chiếc bàn chải đánh răng bình thường, màu xanh lam nhạt. Nó có khả năng dễ dàng cắt xuyên qua bất kỳ vật chất chết hoặc vô cơ nào; tuy nhiên, vật chất bị lông bàn chải chạm vào không bị tách rời mà bị xóa hoàn toàn khỏi sự tồn tại, không để lại chút dấu vết nào."
+      zh: "SCP-063看起来是一支普通的淡蓝色牙刷。它能毫不费力地劈开任何死物或无机物；然而，被刷毛触及的物质并非像被刀切开那样分离，而是彻底从存在中抹除，不留任何痕迹。"
+      zh_Hant: "SCP-063看起來是一支普通的淡藍色牙刷。它能毫不費力地劈開任何死物或無機物；然而，被刷毛觸及的物質並非像被刀切開那樣分離，而是徹底從存在中抹除，不留任何痕跡。"
+
+  - scene: >
+      Medium shot from behind attending-researcher-m's shoulder, facing the
+      mirror, his broadly grinning face and gleaming, perfectly clean teeth
+      visible in the reflection as he holds SCP-063 up beside his cheek.
+      Reflected behind him, half the bathroom fixtures - most of the faucet,
+      a corner of the sink, part of a shelf - are cleanly gone, replaced by
+      blank empty space.
+    notes: >
+      Panel-4 basis: subjects "claimed that the experience left their teeth
+      feeling remarkably clean"; "in spite of its extraordinary abilities...
+      SCP-063 is completely made of common plastic." Fixed facts: great
+      brushing result, mundane plastic object, collateral erosion around it.
+      Free to restage: his expression, what is missing behind him.
+    characters: [attending-researcher-m, scp-063]
+    caption:
+      ja: "SCP-063を使用した被験者は、使用後、歯が驚くほど清潔に感じられたと述べている。その並外れた能力にもかかわらず、研究所の分析により、SCP-063は完全にありふれたプラスチックで出来ていることが判明している。"
+      en: "Subjects who have used SCP-063 have claimed that the experience left their teeth feeling remarkably clean. In spite of its extraordinary abilities, lab analysis has discerned that SCP-063 is completely made of common plastic."
+      cs: "Subjekty, které SCP-063 použily, uvádějí, že po použití měly pocit pozoruhodně čistých zubů. Navzdory svým mimořádným schopnostem bylo laboratorním rozborem zjištěno, že SCP-063 je zcela vyrobeno z běžného plastu."
+      de: "Testpersonen, die SCP-063 benutzt haben, berichten, dass sich ihre Zähne danach bemerkenswert sauber anfühlten. Trotz seiner außergewöhnlichen Fähigkeiten hat die Laboranalyse ergeben, dass SCP-063 vollständig aus gewöhnlichem Kunststoff besteht."
+      es: "Los sujetos que han usado SCP-063 afirman que, tras la experiencia, sus dientes se sentían notablemente limpios. A pesar de sus extraordinarias capacidades, el análisis de laboratorio ha determinado que SCP-063 está hecho por completo de plástico común."
+      fr: "Les sujets ayant utilisé SCP-063 affirment qu'après l'expérience, leurs dents étaient remarquablement propres. Malgré ses capacités extraordinaires, l'analyse en laboratoire a établi que SCP-063 est entièrement composé de plastique ordinaire."
+      it: "I soggetti che hanno usato SCP-063 hanno dichiarato che, dopo l'esperienza, sentivano i denti straordinariamente puliti. Nonostante le sue capacità straordinarie, l'analisi di laboratorio ha stabilito che SCP-063 è interamente composto di plastica comune."
+      ko: "SCP-063을 사용한 피험자들은 사용 후 이가 놀라울 정도로 깨끗하게 느껴졌다고 말했다. 그 비범한 능력에도 불구하고, 실험실 분석 결과 SCP-063은 전적으로 평범한 플라스틱으로 이루어져 있는 것으로 밝혀졌다."
+      pl: "Podmioty, które użyły SCP-063, twierdziły, że po tym doświadczeniu ich zęby były wyjątkowo czyste. Mimo swoich niezwykłych zdolności SCP-063, jak wykazała analiza laboratoryjna, jest w całości wykonane ze zwykłego plastiku."
+      pt: "Os sujeitos que usaram o SCP-063 afirmaram que, após a experiência, sentiram os dentes notavelmente limpos. Apesar de suas capacidades extraordinárias, a análise laboratorial determinou que o SCP-063 é totalmente feito de plástico comum."
+      th: "ผู้ถูกทดลองที่ใช้ SCP-063 ระบุว่าหลังการใช้ รู้สึกว่าฟันสะอาดอย่างน่าทึ่ง แม้จะมีความสามารถพิเศษ แต่การวิเคราะห์ในห้องปฏิบัติการพบว่า SCP-063 ทำจากพลาสติกธรรมดาทั้งหมด"
+      uk: "Піддослідні, які користувалися SCP-063, стверджували, що після цього їхні зуби відчувалися напрочуд чистими. Попри його надзвичайні здібності, лабораторний аналіз встановив, що SCP-063 повністю виготовлений зі звичайної пластмаси."
+      vi: "Các đối tượng đã dùng SCP-063 cho biết sau đó họ cảm thấy răng sạch một cách đáng kinh ngạc. Bất chấp những khả năng phi thường của nó, phân tích trong phòng thí nghiệm đã xác định rằng SCP-063 hoàn toàn được làm từ nhựa thông thường."
+      zh: "使用过SCP-063的受试者称，使用后牙齿感觉格外洁净。尽管具有非凡的能力，实验室分析已查明SCP-063完全由普通塑料制成。"
+      zh_Hant: "使用過SCP-063的受試者稱，使用後牙齒感覺格外潔淨。儘管具有非凡的能力，實驗室分析已查明SCP-063完全由普通塑膠製成。"
+
+addendum:
+  ja: "補遺063-J：████博士による洗面台交換の要請（今年に入って4度目）は承認された。"
+  en: "Addendum 063-J: Dr. ████'s request for a replacement sink, his fourth this year, has been approved."
+  cs: "Dodatek 063-J: Žádost Dr. ████ o výměnu umyvadla, letos již čtvrtá, byla schválena."
+  de: "Anhang 063-J: Der Antrag von Dr. ████ auf ein Ersatzwaschbecken, sein vierter in diesem Jahr, wurde genehmigt."
+  es: "Adenda 063-J: La solicitud del Dr. ████ de un lavabo de repuesto, la cuarta este año, ha sido aprobada."
+  fr: "Addendum 063-J : La demande du Dr ████ pour un lavabo de remplacement, la quatrième cette année, a été approuvée."
+  it: "Addendum 063-J: La richiesta del Dr. ████ di un lavandino sostitutivo, la quarta quest'anno, è stata approvata."
+  ko: "부록 063-J: ████ 박사의 세면대 교체 요청은, 올해 들어 네 번째로, 승인되었다."
+  pl: "Aneks 063-J: Wniosek Dr. ████ o wymianę umywalki, czwarty w tym roku, został zatwierdzony."
+  pt: "Adendo 063-J: O pedido do Dr. ████ de uma pia de reposição, o quarto neste ano, foi aprovado."
+  th: "ภาคผนวก 063-J: คำร้องขอเปลี่ยนอ่างล้างหน้าของ ดร. ████ ซึ่งเป็นครั้งที่สี่ในปีนี้ ได้รับการอนุมัติแล้ว"
+  uk: "Додаток 063-J: Запит д-ра ████ на заміну раковини, четвертий цьогоріч, було задоволено."
+  vi: "Phụ lục 063-J: Yêu cầu thay bồn rửa mới của Tiến sĩ ████, lần thứ tư trong năm nay, đã được chấp thuận."
+  zh: "补遗063-J：████博士更换洗手池的申请（本年度第四次）已获批准。"
+  zh_Hant: "補遺063-J：████博士更換洗手臺的申請（本年度第四次）已獲批准。"

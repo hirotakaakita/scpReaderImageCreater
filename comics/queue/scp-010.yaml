@@ -1,0 +1,156 @@
+# SCP-010 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-010
+
+title:
+  ja: "SCP-010：操縦首輪"
+  en: "SCP-010: The Control Collars"
+  cs: "SCP-010: Ovládací obojky"
+  de: "SCP-010: Die Steuerhalsbänder"
+  es: "SCP-010: Los collares de control"
+  fr: "SCP-010 : Les colliers de contrôle"
+  it: "SCP-010: I collari di controllo"
+  ko: "SCP-010: 조종 목걸이"
+  pl: "SCP-010: Obroże sterujące"
+  pt: "SCP-010: As coleiras de controle"
+  th: "SCP-010: ปลอกคอบังคับ"
+  uk: "SCP-010: Нашийники керування"
+  vi: "SCP-010: Những chiếc vòng cổ điều khiển"
+  zh: "SCP-010：操控颈圈"
+  zh_Hant: "SCP-010：操控頸圈"
+
+attribution:
+  article: "SCP-010"
+  author: "Le Blue Dude"
+  source_url: "http://scp-wiki.wikidot.com/scp-010"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-010-collar:
+    name: SCP-010 collar
+    appearance: >
+      A heavy cast iron collar: a plain dark grey-black metal ring (color
+      RGB 45,45,45) about the thickness of a wrist, hinged so it can lock
+      around a human neck, with a small blank numbered metal tag hanging
+      from it (the tag bears no legible characters). Faint intricate seams
+      hint at electronics inside.
+    default_look: >
+      Closed and latched around the wearer's neck.
+  scp-010-remote:
+    name: SCP-010 remote
+    appearance: >
+      A heavy black box the size of a large brick (color RGB 25,25,25),
+      shaped like an old handheld two-way radio, with a stubby antenna, a
+      small primitive glowing blue-and-white cathode-ray screen, a round
+      frequency-tuner dial, and a dense grid of well over one hundred small
+      identical unlabeled buttons (no letters or numbers anywhere on it). A
+      small embossed emblem of tiny figures building a pyramid is stamped
+      into the casing, with no legible text.
+    default_look: >
+      Held in both hands, its little screen glowing faintly.
+
+characters: [d-class, attending-researcher-m, scp-010-collar, scp-010-remote]
+
+panels:
+  - scene: >
+      Wide establishing shot, full body, eye level, showing a storage room
+      at Site-19 with tall metal shelving full of rows of identical
+      numbered locked steel boxes (tags blank, no letters). Attending
+      Researcher (Male) stands at a central table where one box lies open,
+      lifting the SCP-010 collar out with both hands; the SCP-010 remote
+      rests in the foam padding beside it.
+    characters: [attending-researcher-m, scp-010-collar, scp-010-remote]
+    caption:
+      ja: "SCP-010を構成する物品は、サイト-19において番号付きの施錠された箱に保管される。被験者以外がこれを装着してはならない。SCP-010は試験の目的でのみ保管庫から持ち出される。"
+      en: "The objects comprising SCP-010 are to be kept in numbered locked boxes at Site-19. They are not to be worn except by test subjects. SCP-010 are only to be removed from storage for testing."
+      cs: "Předměty tvořící SCP-010 musí být uchovávány v očíslovaných zamčených schránkách ve Středisku 19. Nesmí je nosit nikdo kromě testovacích subjektů. SCP-010 smí být z úložiště vyjmuto pouze za účelem testování."
+      de: "Die Gegenstände, aus denen SCP-010 besteht, sind in nummerierten, verschlossenen Boxen in Standort-19 aufzubewahren. Sie dürfen nur von Testpersonen getragen werden. SCP-010 darf nur zu Testzwecken aus dem Lager entnommen werden."
+      es: "Los objetos que componen SCP-010 deben guardarse en cajas numeradas y cerradas con llave en el Sitio-19. No deben ser usados salvo por sujetos de prueba. SCP-010 solo se retirará del almacén para su prueba."
+      fr: "Les objets composant SCP-010 doivent être conservés dans des boîtes numérotées et verrouillées au Site-19. Ils ne doivent être portés que par des sujets de test. SCP-010 ne doit être sorti du stockage que pour des tests."
+      it: "Gli oggetti che compongono SCP-010 devono essere conservati in scatole numerate e chiuse a chiave presso il Sito-19. Non devono essere indossati se non da soggetti di test. SCP-010 può essere rimosso dal deposito solo per essere testato."
+      ko: "SCP-010을 구성하는 물품은 제19기지의 번호가 매겨진 잠긴 상자에 보관한다. 시험 대상자 외에는 이를 착용해서는 안 된다. SCP-010은 오직 시험을 위해서만 보관고에서 반출된다."
+      pl: "Przedmioty składające się na SCP-010 należy przechowywać w ponumerowanych, zamkniętych na klucz skrzynkach w Placówce 19. Nie wolno ich nosić nikomu poza obiektami testowymi. SCP-010 można wyjmować z magazynu wyłącznie w celu testów."
+      pt: "Os objetos que compõem o SCP-010 devem ser mantidos em caixas numeradas e trancadas no Site-19. Não devem ser usados exceto por sujeitos de teste. O SCP-010 só deve ser retirado do armazenamento para testes."
+      th: "วัตถุที่ประกอบเป็น SCP-010 ต้องเก็บไว้ในกล่องล็อกที่มีหมายเลขกำกับที่ไซต์-19 ห้ามสวมใส่โดยผู้อื่นนอกจากผู้เข้ารับการทดสอบ SCP-010 จะถูกนำออกจากที่จัดเก็บเพื่อการทดสอบเท่านั้น"
+      uk: "Предмети, що складають SCP-010, слід зберігати в пронумерованих замкнених скриньках на Об'єкті-19. Їх не можна носити нікому, крім піддослідних. SCP-010 виймають зі сховища лише для випробувань."
+      vi: "Các vật thể cấu thành SCP-010 phải được giữ trong những hộp khóa có đánh số tại Cơ sở 19. Không ai được đeo chúng ngoài các đối tượng thử nghiệm. SCP-010 chỉ được lấy ra khỏi kho để thử nghiệm."
+      zh: "构成SCP-010的物品须存放于Site-19内编号的上锁箱中。除测试对象外，任何人不得佩戴。SCP-010仅可为测试目的从库房取出。"
+      zh_Hant: "構成SCP-010的物品須存放於Site-19內編號的上鎖箱中。除測試對象外，任何人不得佩戴。SCP-010僅可為測試目的從庫房取出。"
+
+  - scene: >
+      Medium shot, waist-up. On the left side of the frame, D-Class
+      Personnel sits on a stool wearing the closed SCP-010 collar, hands
+      resting in his lap. On the right side of the frame, Attending
+      Researcher (Male) stands holding the SCP-010 remote up close to his
+      face, frowning at its glowing screen and the dense field of
+      identical buttons.
+    characters: [d-class, scp-010-collar, attending-researcher-m, scp-010-remote]
+    caption:
+      ja: "SCP-010は、番号付きの金属タグが付いた一見同一の6個の鋳鉄製首輪と、1個のリモコンで構成される。リモコンは、旧式の携帯型無線送受信機に似た重い黒い箱で、原始的な青と白のブラウン管画面と、100個を超えるラベルのないボタン、そして周波数チューナーを備えている。"
+      en: "SCP-010 consists of a series of six (6) apparently identical cast iron collars with numbered metal tags and one (1) remote control. The remote is a heavy black box resembling an old style hand-held radio transmitter/receiver with a primitive blue/white cathode ray screen and a series of more than 100 unlabeled buttons, as well as a frequency tuner."
+      cs: "SCP-010 se skládá ze šesti (6) zdánlivě totožných litinových obojků s očíslovanými kovovými štítky a jednoho (1) dálkového ovladače. Ovladač je těžká černá skříňka připomínající starý ruční radiový vysílač/přijímač s primitivní modrobílou obrazovkou a řadou více než 100 nepopsaných tlačítek, jakož i s laděním frekvence."
+      de: "SCP-010 besteht aus einer Reihe von sechs (6) scheinbar identischen gusseisernen Halsbändern mit nummerierten Metallanhängern und einer (1) Fernsteuerung. Die Fernsteuerung ist ein schwerer schwarzer Kasten, der einem alten tragbaren Funksender/-empfänger ähnelt, mit einem primitiven blau-weißen Kathodenstrahlbildschirm und einer Reihe von mehr als 100 unbeschrifteten Tasten sowie einem Frequenzregler."
+      es: "SCP-010 consiste en una serie de seis (6) collares de hierro fundido aparentemente idénticos con etiquetas metálicas numeradas y un (1) mando a distancia. El mando es una pesada caja negra que se asemeja a un antiguo transmisor/receptor de radio portátil, con una primitiva pantalla de tubo de rayos catódicos azul y blanca y una serie de más de 100 botones sin etiquetar, además de un sintonizador de frecuencia."
+      fr: "SCP-010 se compose d'une série de six (6) colliers en fonte apparemment identiques dotés d'étiquettes métalliques numérotées et d'une (1) télécommande. La télécommande est un lourd boîtier noir ressemblant à un ancien émetteur/récepteur radio portatif, avec un écran cathodique bleu et blanc rudimentaire et une série de plus de 100 boutons non étiquetés, ainsi qu'un syntoniseur de fréquence."
+      it: "SCP-010 è costituito da una serie di sei (6) collari in ghisa apparentemente identici con targhette metalliche numerate e da un (1) telecomando. Il telecomando è una pesante scatola nera simile a un vecchio trasmettitore/ricevitore radio portatile, con un primitivo schermo a tubo catodico blu e bianco e una serie di oltre 100 pulsanti privi di etichetta, oltre a un sintonizzatore di frequenza."
+      ko: "SCP-010은 번호가 매겨진 금속 표찰이 달린 겉보기에 동일한 주철제 목걸이 6개와 리모컨 1개로 구성된다. 리모컨은 구형 휴대용 무선 송수신기와 비슷한 무거운 검은색 상자로, 원시적인 청백색 음극선관 화면과 라벨 없는 100개가 넘는 버튼, 그리고 주파수 조정기를 갖추고 있다."
+      pl: "SCP-010 składa się z sześciu (6) pozornie identycznych żeliwnych obroży z ponumerowanymi metalowymi przywieszkami oraz jednego (1) pilota. Pilot to ciężka czarna skrzynka przypominająca stary ręczny nadajnik/odbiornik radiowy, z prymitywnym niebiesko-białym ekranem kineskopowym i ponad 100 nieopisanymi przyciskami, a także pokrętłem strojenia częstotliwości."
+      pt: "SCP-010 consiste em uma série de seis (6) coleiras de ferro fundido aparentemente idênticas com etiquetas metálicas numeradas e um (1) controle remoto. O controle é uma pesada caixa preta semelhante a um antigo transmissor/receptor de rádio portátil, com uma primitiva tela de tubo de raios catódicos azul e branca e uma série de mais de 100 botões sem rótulo, além de um sintonizador de frequência."
+      th: "SCP-010 ประกอบด้วยปลอกคอเหล็กหล่อจำนวนหก (6) ชิ้นที่ดูเหมือนกันทุกประการ พร้อมป้ายโลหะที่มีหมายเลขกำกับ และรีโมตควบคุมหนึ่ง (1) ชิ้น รีโมตเป็นกล่องสีดำหนักคล้ายเครื่องส่ง/รับวิทยุมือถือแบบเก่า มีจอภาพหลอดรังสีแคโทดสีน้ำเงิน-ขาวแบบดั้งเดิม และปุ่มไม่มีป้ายกำกับกว่า 100 ปุ่ม รวมทั้งตัวปรับความถี่"
+      uk: "SCP-010 складається з шести (6) на вигляд однакових чавунних нашийників із пронумерованими металевими бирками та одного (1) пульта дистанційного керування. Пульт — це важка чорна коробка, схожа на старий ручний радіопередавач/приймач, із примітивним синьо-білим електронно-променевим екраном та понад 100 непідписаними кнопками, а також регулятором частоти."
+      vi: "SCP-010 gồm một loạt sáu (6) chiếc vòng cổ bằng gang trông giống hệt nhau, có thẻ kim loại đánh số, và một (1) bộ điều khiển từ xa. Bộ điều khiển là một hộp đen nặng giống máy thu phát vô tuyến cầm tay kiểu cũ, có màn hình ống tia âm cực xanh-trắng thô sơ cùng hơn 100 nút bấm không nhãn, và một núm dò tần số."
+      zh: "SCP-010由六（6）个看似相同、带有编号金属标牌的铸铁颈圈和一（1）个遥控器组成。遥控器是一个沉重的黑色盒子，形似老式手持无线电收发器，配有原始的蓝白色阴极射线管屏幕、一百多个无标记按钮以及一个频率调谐器。"
+      zh_Hant: "SCP-010由六（6）個看似相同、帶有編號金屬標牌的鑄鐵頸圈和一（1）個遙控器組成。遙控器是一個沉重的黑色盒子，形似老式手持無線電收發器，配有原始的藍白色陰極射線管螢幕、一百多個無標記按鈕以及一個頻率調諧器。"
+
+  - scene: >
+      Extreme close-up. In the background, D-Class Personnel's bare
+      forearm and hand are raised stiff and straight like a puppet's, the
+      fingers splayed at an unnatural angle. In the blurred foreground,
+      Attending Researcher (Male)'s thumb presses a single button on the
+      SCP-010 remote.
+    characters: [d-class, attending-researcher-m, scp-010-remote]
+    caption:
+      ja: "首輪を人の首に取り付けて固定すると、リモコンでその人物のあらゆる動きを操作できるようになる。また、アドレナリン反応を引き起こし、交感神経系を活性化または不活性化することも可能である。"
+      en: "Placing the collar around the neck of a person and securing it allows one to control their every movement with the remote. It is also capable of producing an adrenal response and activating or deactivating the sympathetic nervous system."
+      cs: "Nasazení obojku na krk člověka a jeho zajištění umožňuje ovládat pomocí ovladače každý jeho pohyb. Zařízení dokáže rovněž vyvolat adrenalinovou reakci a aktivovat či deaktivovat sympatický nervový systém."
+      de: "Legt man das Halsband um den Hals einer Person und verschließt es, kann man mit der Fernsteuerung jede ihrer Bewegungen steuern. Es kann außerdem eine Adrenalinreaktion auslösen und das sympathische Nervensystem aktivieren oder deaktivieren."
+      es: "Colocar el collar alrededor del cuello de una persona y cerrarlo permite controlar cada uno de sus movimientos con el mando. También es capaz de producir una respuesta adrenal y de activar o desactivar el sistema nervioso simpático."
+      fr: "Placer le collier autour du cou d'une personne et le verrouiller permet de contrôler chacun de ses mouvements avec la télécommande. Il peut également provoquer une réponse adrénergique et activer ou désactiver le système nerveux sympathique."
+      it: "Mettere il collare attorno al collo di una persona e chiuderlo consente di controllarne ogni movimento con il telecomando. È inoltre in grado di produrre una risposta adrenergica e di attivare o disattivare il sistema nervoso simpatico."
+      ko: "목걸이를 사람의 목에 채워 고정하면 리모컨으로 그 사람의 모든 움직임을 조종할 수 있다. 또한 아드레날린 반응을 유발하고 교감신경계를 활성화하거나 비활성화하는 것도 가능하다."
+      pl: "Założenie obroży na szyję osoby i jej zapięcie pozwala sterować za pomocą pilota każdym jej ruchem. Urządzenie potrafi też wywołać reakcję adrenergiczną oraz aktywować lub dezaktywować współczulny układ nerwowy."
+      pt: "Colocar a coleira ao redor do pescoço de uma pessoa e prendê-la permite controlar cada movimento dela com o controle remoto. Também é capaz de produzir uma resposta adrenérgica e de ativar ou desativar o sistema nervoso simpático."
+      th: "การสวมปลอกคอรอบคอของบุคคลแล้วล็อกไว้ ทำให้สามารถควบคุมการเคลื่อนไหวทุกอย่างของบุคคลนั้นด้วยรีโมตได้ อีกทั้งยังสามารถกระตุ้นการหลั่งอะดรีนาลีน และเปิดหรือปิดการทำงานของระบบประสาทซิมพาเทติกได้ด้วย"
+      uk: "Якщо надіти нашийник на шию людини та зафіксувати його, за допомогою пульта можна керувати кожним її рухом. Пристрій також здатний викликати адреналінову реакцію та вмикати чи вимикати симпатичну нервову систему."
+      vi: "Đặt chiếc vòng quanh cổ một người và khóa lại cho phép điều khiển mọi cử động của người đó bằng bộ điều khiển. Nó cũng có thể tạo ra phản ứng adrenaline và kích hoạt hoặc vô hiệu hóa hệ thần kinh giao cảm."
+      zh: "将颈圈套在人的脖子上并锁紧后，即可用遥控器操控其一切动作。它还能引发肾上腺反应，并激活或停用交感神经系统。"
+      zh_Hant: "將頸圈套在人的脖子上並鎖緊後，即可用遙控器操控其一切動作。它還能引發腎上腺反應，並啟用或停用交感神經系統。"
+
+  - scene: >
+      Wide shot, full body, slight low angle. On the left side of the
+      frame, Attending Researcher (Male) stares down at the SCP-010 remote
+      in alarm, one finger frozen above the buttons. On the right side of
+      the frame, D-Class Personnel stands with a baffled expression, his
+      outline gently and comically distorted: one ear stretched long, one
+      shoulder risen much higher than the other.
+    characters: [attending-researcher-m, scp-010-remote, d-class]
+    caption:
+      ja: "首輪の最も異常な特徴は、身体の形態に及ぼす影響である。首輪はリモコンの使用者に、被害者の身体の形状を作り変えることを可能にし、その範囲はリモコンのプログラミング言語に関する知識によってのみ制限されるとみられる。"
+      en: "The most abnormal feature of the collars is the effect they have on the body morphology. They allow the user of the remote to reconfigure the shape of the victim to an extent that is apparently only limited by the knowledge of the programming language of the remote."
+      cs: "Nejneobvyklejší vlastností obojků je jejich vliv na tělesnou morfologii. Umožňují uživateli ovladače přetvářet tvar oběti do míry, kterou zjevně omezuje jen znalost programovacího jazyka ovladače."
+      de: "Das ungewöhnlichste Merkmal der Halsbänder ist ihre Wirkung auf die Körpermorphologie. Sie ermöglichen es dem Benutzer der Fernsteuerung, die Gestalt des Opfers in einem Ausmaß umzuformen, das offenbar nur durch die Kenntnis der Programmiersprache der Fernsteuerung begrenzt wird."
+      es: "La característica más anómala de los collares es el efecto que tienen sobre la morfología corporal. Permiten al usuario del mando reconfigurar la forma de la víctima hasta un punto que, al parecer, solo está limitado por el conocimiento del lenguaje de programación del mando."
+      fr: "La caractéristique la plus anormale des colliers est leur effet sur la morphologie corporelle. Ils permettent à l'utilisateur de la télécommande de remodeler la forme de la victime dans une mesure qui n'est apparemment limitée que par la connaissance du langage de programmation de la télécommande."
+      it: "La caratteristica più anomala dei collari è l'effetto che hanno sulla morfologia corporea. Consentono all'utente del telecomando di riconfigurare la forma della vittima in una misura che sembra limitata soltanto dalla conoscenza del linguaggio di programmazione del telecomando."
+      ko: "이 목걸이의 가장 비정상적인 특징은 신체 형태에 미치는 영향이다. 목걸이는 리모컨 사용자가 피해자의 몸 형태를 재구성할 수 있게 하며, 그 범위는 리모컨의 프로그래밍 언어에 대한 지식에 의해서만 제한되는 것으로 보인다."
+      pl: "Najbardziej nietypową cechą obroży jest ich wpływ na morfologię ciała. Pozwalają one użytkownikowi pilota przekształcać kształt ofiary w zakresie, który najwyraźniej ogranicza jedynie znajomość języka programowania pilota."
+      pt: "A característica mais anômala das coleiras é o efeito que exercem sobre a morfologia corporal. Elas permitem que o usuário do controle remoto reconfigure a forma da vítima em uma medida que, aparentemente, só é limitada pelo conhecimento da linguagem de programação do controle."
+      th: "คุณสมบัติที่ผิดปกติที่สุดของปลอกคอคือผลกระทบต่อสัณฐานของร่างกาย ปลอกคอทำให้ผู้ใช้รีโมตสามารถปรับเปลี่ยนรูปร่างของเหยื่อได้ในระดับที่ดูเหมือนจะถูกจำกัดเพียงด้วยความรู้เกี่ยวกับภาษาโปรแกรมของรีโมตเท่านั้น"
+      uk: "Найбільш ненормальна властивість нашийників — це їхній вплив на морфологію тіла. Вони дають користувачеві пульта змогу перебудовувати форму жертви до міри, яку, вочевидь, обмежує лише знання мови програмування пульта."
+      vi: "Đặc điểm bất thường nhất của những chiếc vòng cổ là tác động của chúng lên hình thái cơ thể. Chúng cho phép người dùng bộ điều khiển tái định hình cơ thể nạn nhân đến mức dường như chỉ bị giới hạn bởi hiểu biết về ngôn ngữ lập trình của bộ điều khiển."
+      zh: "颈圈最反常的特征是其对身体形态的影响。它们能让遥控器的使用者重塑受害者的体形，其程度似乎仅受限于使用者对遥控器编程语言的掌握。"
+      zh_Hant: "頸圈最反常的特徵是其對身體形態的影響。它們能讓遙控器的使用者重塑受害者的體形，其程度似乎僅受限於使用者對遙控器程式語言的掌握。"

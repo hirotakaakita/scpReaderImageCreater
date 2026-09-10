@@ -1,0 +1,168 @@
+# SCP-061 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-061
+
+title:
+  en: "SCP-061"
+  ja: "SCP-061"
+  cs: "SCP-061"
+  de: "SCP-061"
+  es: "SCP-061"
+  fr: "SCP-061"
+  it: "SCP-061"
+  ko: "SCP-061"
+  pl: "SCP-061"
+  pt: "SCP-061"
+  th: "SCP-061"
+  uk: "SCP-061"
+  vi: "SCP-061"
+  zh: "SCP-061"
+  zh_Hant: "SCP-061"
+
+attribution:
+  article: "SCP-061"
+  author: "FritzWillie"
+  source_url: "http://scp-wiki.wikidot.com/scp-061"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+panels:
+  - scene: >
+      Wide shot, high angle looking down at a steel shelf. Inside a small
+      windowless archive vault, an open felt-lined case holds four identical
+      unlabeled compact discs in paper sleeves. attending-researcher-f stands
+      at the shelf in the center-left of the frame, carefully sliding one
+      disc back into the case with gloved hands, a heavy vault door ajar
+      behind her.
+    notes: >
+      Panel-1 basis: source code kept on an archival read-only CD-ROM, four
+      copies stored separately; not to be run except for approved tests.
+      Fixed facts: the anomaly is software on discs, kept locked away. Free
+      to restage: the researcher's handling, camera height.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-061のソースコードは、標準的なアーカイブ品質の読み取り専用データCD-ROMに保管し、4枚の複製をそれぞれ別々に保管する。承認された実験の目的を除き、SCP-061を読み込み、コンパイル、または実行してはならない。"
+      en: "The source code for SCP-061 is to be kept on a standard archival-quality read-only data compact disc (CD-ROM), with four copies stored separately. Except for purposes of approved experimentation, SCP-061 is not to be loaded, compiled, or run."
+      cs: "Zdrojový kód SCP-061 musí být uchováván na standardním archivním datovém disku CD-ROM určeném pouze pro čtení, přičemž čtyři kopie se skladují odděleně. S výjimkou schválených experimentů nesmí být SCP-061 načteno, kompilováno ani spuštěno."
+      de: "Der Quellcode von SCP-061 ist auf einer archivtauglichen, schreibgeschützten Daten-CD-ROM aufzubewahren, wobei vier Kopien getrennt gelagert werden. Außer zu Zwecken genehmigter Experimente darf SCP-061 nicht geladen, kompiliert oder ausgeführt werden."
+      es: "El código fuente de SCP-061 debe conservarse en un disco compacto de datos de solo lectura y calidad de archivo (CD-ROM), con cuatro copias almacenadas por separado. Salvo para fines de experimentación aprobada, SCP-061 no debe cargarse, compilarse ni ejecutarse."
+      fr: "Le code source de SCP-061 doit être conservé sur un disque compact de données en lecture seule de qualité archivage (CD-ROM), quatre copies étant stockées séparément. Sauf à des fins d'expérimentation approuvée, SCP-061 ne doit pas être chargé, compilé ni exécuté."
+      it: "Il codice sorgente di SCP-061 deve essere conservato su un comune disco dati CD-ROM di sola lettura di qualità d'archivio, con quattro copie conservate separatamente. Salvo che per scopi di sperimentazione approvata, SCP-061 non deve essere caricato, compilato o eseguito."
+      ko: "SCP-061의 소스 코드는 표준 아카이브 품질의 읽기 전용 데이터 CD-ROM에 보관하며, 사본 4장을 각각 별도로 보관한다. 승인된 실험 목적을 제외하고 SCP-061을 로드, 컴파일 또는 실행해서는 안 된다."
+      pl: "Kod źródłowy SCP-061 należy przechowywać na standardowej, archiwalnej płycie CD-ROM tylko do odczytu, przy czym cztery kopie przechowuje się osobno. Poza zatwierdzonymi eksperymentami SCP-061 nie wolno wczytywać, kompilować ani uruchamiać."
+      pt: "O código-fonte do SCP-061 deve ser mantido em um disco compacto de dados somente leitura de qualidade de arquivo (CD-ROM), com quatro cópias armazenadas separadamente. Exceto para fins de experimentação aprovada, o SCP-061 não deve ser carregado, compilado ou executado."
+      th: "ต้องเก็บซอร์สโค้ดของ SCP-061 ไว้ในแผ่นซีดีรอมข้อมูลชนิดอ่านอย่างเดียวคุณภาพระดับจัดเก็บถาวร โดยเก็บสำเนาสี่ชุดแยกจากกัน ยกเว้นเพื่อการทดลองที่ได้รับอนุมัติ ห้ามโหลด คอมไพล์ หรือรัน SCP-061"
+      uk: "Вихідний код SCP-061 слід зберігати на стандартному архівному диску CD-ROM лише для читання, причому чотири копії зберігаються окремо. За винятком цілей затверджених експериментів, SCP-061 не можна завантажувати, компілювати чи запускати."
+      vi: "Mã nguồn của SCP-061 phải được lưu trên đĩa CD-ROM dữ liệu chỉ đọc chất lượng lưu trữ tiêu chuẩn, với bốn bản sao được cất giữ riêng biệt. Trừ mục đích thí nghiệm đã được phê duyệt, không được nạp, biên dịch hoặc chạy SCP-061."
+      zh: "SCP-061的源代码须保存在标准存档级只读数据光盘（CD-ROM）上，并将四份副本分开存放。除经批准的实验目的外，不得加载、编译或运行SCP-061。"
+      zh_Hant: "SCP-061的原始碼須保存在標準存檔級唯讀資料光碟（CD-ROM）上，並將四份副本分開存放。除經批准的實驗目的外，不得載入、編譯或執行SCP-061。"
+
+  - scene: >
+      Medium-wide shot, slightly high angle, inside a cramped windowless
+      air-gapped test room. On the left side of the frame, attending-researcher-m
+      crouches behind a row of three bulky old beige desktop computers wired
+      together on a folding table, plugging in a cable. On the right side of
+      the frame, d-class sits in a plain chair wearing large padded over-ear
+      headphones, waiting with his hands on his knees.
+    notes: >
+      Panel-2 basis: SCP-061 must never run on an internet-connected or
+      wireless-capable device; approved testing uses a LAN of no more than
+      three devices, all reformatted afterward. Fixed facts: an isolated
+      three-machine setup; a subject listening. Free to restage: poses.
+    characters: [attending-researcher-m, d-class]
+    caption:
+      ja: "SCP-061は、インターネットに接続されている、または物理的に無線接続が可能な、いかなる機器上でも読み込み、コンパイル、実行してはならない。承認された試験では3台以下の機器で構成されるLAN上でのみ実行でき、終了後は全機器を直ちに初期化する。"
+      en: "SCP-061 must never be loaded, compiled, or run on any device which has a connection to the Internet, or which is physically capable of wireless connectivity. Approved testing uses a LAN of no more than three devices, all of which are to be immediately reformatted afterward."
+      cs: "SCP-061 nesmí být nikdy načteno, kompilováno ani spuštěno na žádném zařízení připojeném k internetu ani na zařízení fyzicky schopném bezdrátového připojení. Schválené testování probíhá na síti LAN tvořené nejvýše třemi zařízeními, která musí být poté okamžitě zformátována."
+      de: "SCP-061 darf niemals auf einem Gerät geladen, kompiliert oder ausgeführt werden, das mit dem Internet verbunden oder physisch zu drahtloser Verbindung fähig ist. Genehmigte Tests erfolgen in einem LAN aus höchstens drei Geräten, die anschließend sofort neu zu formatieren sind."
+      es: "SCP-061 nunca debe cargarse, compilarse ni ejecutarse en ningún dispositivo que tenga conexión a Internet o que sea físicamente capaz de conectividad inalámbrica. Las pruebas aprobadas se realizan en una LAN de no más de tres dispositivos, que deben formatearse de inmediato después."
+      fr: "SCP-061 ne doit jamais être chargé, compilé ni exécuté sur un appareil connecté à Internet ou physiquement capable de connectivité sans fil. Les tests approuvés se déroulent sur un réseau local d'au plus trois appareils, qui doivent être immédiatement reformatés ensuite."
+      it: "SCP-061 non deve mai essere caricato, compilato o eseguito su alcun dispositivo connesso a Internet o fisicamente in grado di connettività wireless. I test approvati si svolgono su una LAN di non più di tre dispositivi, che devono essere immediatamente riformattati al termine."
+      ko: "SCP-061은 인터넷에 연결되어 있거나 물리적으로 무선 연결이 가능한 어떠한 기기에서도 로드, 컴파일 또는 실행해서는 안 된다. 승인된 시험은 3대 이하의 기기로 구성된 LAN에서 진행하며, 종료 후 모든 기기를 즉시 포맷한다."
+      pl: "SCP-061 nigdy nie wolno wczytywać, kompilować ani uruchamiać na żadnym urządzeniu połączonym z internetem lub fizycznie zdolnym do łączności bezprzewodowej. Zatwierdzone testy prowadzi się w sieci LAN złożonej z najwyżej trzech urządzeń, które następnie należy natychmiast sformatować."
+      pt: "O SCP-061 nunca deve ser carregado, compilado ou executado em qualquer dispositivo que tenha conexão com a Internet ou que seja fisicamente capaz de conectividade sem fio. Os testes aprovados ocorrem em uma LAN de no máximo três dispositivos, que devem ser formatados imediatamente depois."
+      th: "ห้ามโหลด คอมไพล์ หรือรัน SCP-061 บนอุปกรณ์ใดก็ตามที่เชื่อมต่ออินเทอร์เน็ตหรือมีความสามารถเชื่อมต่อไร้สายทางกายภาพโดยเด็ดขาด การทดสอบที่ได้รับอนุมัติจะทำบนเครือข่าย LAN ที่มีอุปกรณ์ไม่เกินสามเครื่อง ซึ่งต้องถูกฟอร์แมตใหม่ทันทีหลังจากนั้น"
+      uk: "SCP-061 за жодних умов не можна завантажувати, компілювати чи запускати на пристрої, підключеному до Інтернету або фізично здатному до бездротового зв'язку. Затверджені випробування проводяться в локальній мережі з не більш ніж трьох пристроїв, які потому негайно форматуються."
+      vi: "Không bao giờ được nạp, biên dịch hoặc chạy SCP-061 trên bất kỳ thiết bị nào có kết nối Internet hoặc về mặt vật lý có khả năng kết nối không dây. Thử nghiệm được phê duyệt diễn ra trên một mạng LAN gồm không quá ba thiết bị, tất cả phải được định dạng lại ngay sau đó."
+      zh: "绝不得在任何联入互联网、或物理上具备无线连接能力的设备上加载、编译或运行SCP-061。经批准的测试在不超过三台设备组成的局域网中进行，测试结束后须立即将所有设备格式化。"
+      zh_Hant: "絕不得在任何連入網際網路、或物理上具備無線連接能力的裝置上載入、編譯或執行SCP-061。經批准的測試在不超過三台裝置組成的區域網路中進行，測試結束後須立即將所有裝置格式化。"
+
+  - scene: >
+      Full-body wide shot, eye level. In the center of the same test room,
+      d-class stands frozen in an elaborate ballet arabesque, one leg
+      extended straight back and both arms swept up overhead, his face
+      completely blank and slack, still wearing the padded headphones. On the
+      right side of the frame, attending-researcher-m stands reading aloud
+      from a clipboard in a flat, bored manner.
+    notes: >
+      Panel-3 basis: SCP-061 is an acoustic program meant to counter similar
+      programs; its frequencies "intercept conscious thoughts as they are
+      produced and replace them," and subjects have a "blank" facial
+      expression. Fixed facts: subject obeys mindlessly, blank face. Free to
+      restage: what absurd action is commanded, framing.
+    characters: [d-class, attending-researcher-m]
+    caption:
+      ja: "SCP-061は、世界中で開発されている類似のプログラムへの有効な対抗手段を生み出すことを目的として、財団の研究者らによって開発されている音響コンピュータプログラムである。SCP-061が発する音響周波数は、意識的な思考が生じたそばから傍受し、別のものに置き換える。SCP-061の影響下にある被験者は通常『無表情』になる。"
+      en: "SCP-061 is an acoustic computer program being developed by SCP researchers to produce successful countermeasures to similar programs. Acoustic frequencies produced by SCP-061 intercept conscious thoughts as they are produced and replace them, and subjects will normally have a 'blank' facial expression while under its influence."
+      cs: "SCP-061 je akustický počítačový program vyvíjený výzkumníky Nadace s cílem vytvořit účinná protiopatření vůči podobným programům. Akustické frekvence vydávané SCP-061 zachycují vědomé myšlenky ve chvíli jejich vzniku a nahrazují je. Subjekty pod vlivem SCP-061 mívají obvykle „prázdný“ výraz ve tváři."
+      de: "SCP-061 ist ein akustisches Computerprogramm, das von Forschern der Stiftung entwickelt wird, um wirksame Gegenmaßnahmen zu ähnlichen Programmen zu schaffen. Die von SCP-061 erzeugten akustischen Frequenzen fangen bewusste Gedanken bei ihrer Entstehung ab und ersetzen sie. Testpersonen unter dem Einfluss von SCP-061 haben in der Regel einen „leeren“ Gesichtsausdruck."
+      es: "SCP-061 es un programa informático acústico desarrollado por investigadores de la Fundación con el fin de producir contramedidas eficaces frente a programas similares. Las frecuencias acústicas que emite SCP-061 interceptan los pensamientos conscientes a medida que se producen y los sustituyen. Los sujetos bajo su influencia suelen tener una expresión facial 'en blanco'."
+      fr: "SCP-061 est un programme informatique acoustique développé par des chercheurs de la Fondation afin de produire des contre-mesures efficaces face à des programmes similaires. Les fréquences acoustiques produites par SCP-061 interceptent les pensées conscientes au moment où elles se forment et les remplacent. Les sujets sous son influence ont généralement une expression faciale « vide »."
+      it: "SCP-061 è un programma informatico acustico sviluppato dai ricercatori della Fondazione allo scopo di produrre contromisure efficaci a programmi simili. Le frequenze acustiche prodotte da SCP-061 intercettano i pensieri consci nel momento in cui vengono prodotti e li sostituiscono. I soggetti sotto la sua influenza hanno di norma un'espressione facciale 'vuota'."
+      ko: "SCP-061은 세계 각지에서 개발 중인 유사 프로그램에 대한 효과적인 대응책을 만들어내기 위해 재단 연구진이 개발 중인 음향 컴퓨터 프로그램이다. SCP-061이 내는 음향 주파수는 의식적인 사고가 생성되는 즉시 이를 가로채 다른 것으로 대체한다. SCP-061의 영향을 받는 피험자는 대개 '멍한' 표정을 짓는다."
+      pl: "SCP-061 to akustyczny program komputerowy opracowywany przez badaczy Fundacji w celu stworzenia skutecznych środków zaradczych wobec podobnych programów. Częstotliwości akustyczne emitowane przez SCP-061 przechwytują świadome myśli w chwili ich powstawania i zastępują je. Podmioty pod jego wpływem mają zazwyczaj „pusty” wyraz twarzy."
+      pt: "O SCP-061 é um programa de computador acústico desenvolvido por pesquisadores da Fundação com o objetivo de produzir contramedidas eficazes a programas semelhantes. As frequências acústicas produzidas pelo SCP-061 interceptam os pensamentos conscientes à medida que são produzidos e os substituem. Os sujeitos sob sua influência costumam ter uma expressão facial 'vazia'."
+      th: "SCP-061 คือโปรแกรมคอมพิวเตอร์เชิงเสียงที่นักวิจัยของมูลนิธิกำลังพัฒนาขึ้นเพื่อสร้างมาตรการตอบโต้ที่ได้ผลต่อโปรแกรมในลักษณะเดียวกัน คลื่นความถี่เสียงที่ SCP-061 สร้างขึ้นจะดักจับความคิดที่รู้สำนึกในขณะที่มันก่อตัวขึ้นและแทนที่มัน ผู้ถูกทดลองภายใต้อิทธิพลของ SCP-061 มักมีสีหน้า 'ว่างเปล่า'"
+      uk: "SCP-061 — це акустична комп'ютерна програма, яку розробляють дослідники Фонду з метою створення дієвих контрзаходів проти подібних програм. Акустичні частоти, що їх видає SCP-061, перехоплюють свідомі думки в момент їх виникнення й замінюють їх. Піддослідні під його впливом зазвичай мають «порожній» вираз обличчя."
+      vi: "SCP-061 là một chương trình máy tính âm thanh đang được các nhà nghiên cứu của Quỹ phát triển nhằm tạo ra biện pháp đối phó hữu hiệu với các chương trình tương tự. Các tần số âm thanh do SCP-061 tạo ra chặn lấy những suy nghĩ có ý thức ngay khi chúng vừa hình thành và thay thế chúng. Đối tượng chịu ảnh hưởng thường có nét mặt 'trống rỗng'."
+      zh: "SCP-061是一款声学计算机程序，由基金会研究人员开发，旨在针对世界各地正在开发的同类程序制定有效对抗手段。SCP-061发出的声波频率会在意识思维产生的瞬间将其截取并替换。处于其影响下的受试者通常面无表情。"
+      zh_Hant: "SCP-061是一款聲學電腦程式，由基金會研究人員開發，旨在針對世界各地正在開發的同類程式制定有效對抗手段。SCP-061發出的聲波頻率會在意識思維產生的瞬間將其擷取並替換。處於其影響下的受試者通常面無表情。"
+
+  - scene: >
+      Close-up shot on d-class from the waist up, filling most of the frame.
+      The headphones now hang around his neck and he stands half-crouched and
+      off-balance mid-pose, staring at his own raised hand with a baffled,
+      bewildered frown. On the right edge of the frame, attending-researcher-f
+      jots on a notepad without looking up.
+    notes: >
+      Panel-4 basis: "Most test subjects report being unable to remember the
+      actions they performed while under control." Fixed facts: the subject
+      genuinely does not recall what he just did. Free to restage: his exact
+      pose, the researcher's action.
+    characters: [d-class, attending-researcher-f]
+    caption:
+      ja: "ほとんどの被験者は、支配下にあった間に自分が行った行動を思い出せないと報告している。"
+      en: "Most test subjects report being unable to remember the actions they performed while under control."
+      cs: "Většina testovaných subjektů uvádí, že si nedokáže vybavit úkony, které vykonaly, když byly pod kontrolou."
+      de: "Die meisten Testpersonen berichten, dass sie sich nicht an die Handlungen erinnern können, die sie unter Kontrolle ausgeführt haben."
+      es: "La mayoría de los sujetos de prueba afirman ser incapaces de recordar las acciones que realizaron mientras estaban bajo control."
+      fr: "La plupart des sujets de test déclarent être incapables de se souvenir des actions qu'ils ont accomplies sous contrôle."
+      it: "La maggior parte dei soggetti di prova riferisce di non riuscire a ricordare le azioni compiute mentre erano sotto controllo."
+      ko: "대부분의 피험자는 지배당하는 동안 자신이 한 행동을 기억하지 못한다고 보고한다."
+      pl: "Większość badanych zgłasza, że nie potrafi przypomnieć sobie czynności, które wykonywały, będąc pod kontrolą."
+      pt: "A maioria dos sujeitos de teste relata ser incapaz de lembrar as ações que realizou enquanto estava sob controle."
+      th: "ผู้ถูกทดลองส่วนใหญ่รายงานว่าไม่สามารถจดจำการกระทำที่ตนทำไปในขณะที่อยู่ภายใต้การควบคุมได้"
+      uk: "Більшість піддослідних повідомляють, що не можуть пригадати дії, які вони виконували, перебуваючи під контролем."
+      vi: "Hầu hết các đối tượng thử nghiệm cho biết họ không thể nhớ những hành động mình đã làm khi bị điều khiển."
+      zh: "大多数受试者报告称，无法回忆起自己在受控期间所做的行为。"
+      zh_Hant: "大多數受試者報告稱，無法回憶起自己在受控期間所做的行為。"
+
+addendum:
+  ja: "補遺061-J：命令によって被験者D-9841が演じたバレエの録画は保管された。本人は繰り返しその削除を要求している。"
+  en: "Addendum 061-J: A recording of Test Subject D-9841's commanded ballet routine has been archived. He has requested, repeatedly, that it be deleted."
+  cs: "Dodatek 061-J: Nahrávka baletního vystoupení, které na povel předvedl testovaný subjekt D-9841, byla archivována. Subjekt opakovaně žádá o její smazání."
+  de: "Anhang 061-J: Eine Aufnahme der auf Befehl vorgeführten Ballettdarbietung von Testperson D-9841 wurde archiviert. Sie hat wiederholt deren Löschung beantragt."
+  es: "Adenda 061-J: Se ha archivado una grabación de la rutina de ballet que el Sujeto de Prueba D-9841 ejecutó por orden. Él ha solicitado, repetidamente, que se elimine."
+  fr: "Addendum 061-J : Un enregistrement du numéro de ballet exécuté sur ordre par le Sujet de Test D-9841 a été archivé. Il a demandé, à plusieurs reprises, qu'il soit supprimé."
+  it: "Addendum 061-J: Una registrazione del numero di balletto eseguito su comando dal Soggetto di Prova D-9841 è stata archiviata. Egli ne ha ripetutamente richiesto la cancellazione."
+  ko: "부록 061-J: 명령에 따라 피험자 D-9841이 선보인 발레 공연 녹화본이 보관되었다. 본인은 이를 삭제해 달라고 거듭 요청하고 있다."
+  pl: "Aneks 061-J: Nagranie układu baletowego wykonanego na rozkaz przez Podmiot Testowy D-9841 zostało zarchiwizowane. Wielokrotnie prosił on o jego usunięcie."
+  pt: "Adendo 061-J: Uma gravação da rotina de balé que o Sujeito de Teste D-9841 executou sob ordem foi arquivada. Ele solicitou, repetidamente, que seja apagada."
+  th: "ภาคผนวก 061-J: บันทึกวิดีโอการเต้นบัลเลต์ที่ผู้ถูกทดลอง D-9841 แสดงตามคำสั่งถูกจัดเก็บไว้แล้ว เจ้าตัวได้ร้องขอหลายครั้งให้ลบทิ้ง"
+  uk: "Додаток 061-J: Запис балетного номера, який на команду виконав піддослідний D-9841, було заархівовано. Він неодноразово просив його видалити."
+  vi: "Phụ lục 061-J: Một đoạn ghi hình màn múa ba lê mà Đối tượng Thử nghiệm D-9841 thực hiện theo lệnh đã được lưu trữ. Anh ta đã nhiều lần yêu cầu xóa nó đi."
+  zh: "补遗061-J：受试者D-9841奉命表演芭蕾的录像已被存档。他已多次请求将其删除。"
+  zh_Hant: "補遺061-J：受試者D-9841奉命表演芭蕾的錄影已被存檔。他已多次請求將其刪除。"

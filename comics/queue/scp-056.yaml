@@ -1,0 +1,171 @@
+# SCP-056 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# 補遺・記録は使わない。キャラにセリフは言わせない。画像に文字は描かせない。
+
+id: scp-056
+
+title:
+  en: "SCP-056"
+  ja: "SCP-056"
+  cs: "SCP-056"
+  de: "SCP-056"
+  es: "SCP-056"
+  fr: "SCP-056"
+  it: "SCP-056"
+  ko: "SCP-056"
+  pl: "SCP-056"
+  pt: "SCP-056"
+  th: "SCP-056"
+  uk: "SCP-056"
+  vi: "SCP-056"
+  zh: "SCP-056"
+  zh_Hant: "SCP-056"
+
+attribution:
+  article: "SCP-056"
+  source_url: "http://scp-wiki.wikidot.com/scp-056"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-056:
+    name: SCP-056
+    appearance: >
+      SCP-056 in its default form: an attractive man in his
+      mid-twenties with strikingly symmetrical features, an athletic
+      build, neat dark brown hair (color RGB 45,35,28) and an easy,
+      charming smile.
+    default_look: >
+      Fashionable smart-casual clothing in muted earth tones, a relaxed
+      and confident posture.
+
+characters: [scp-056, mtf-agent, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide establishing shot, eye level, of a tastefully furnished
+      lounge-like room: a comfortable sofa, a rug, a bookshelf, a
+      potted plant, warm lamps. On the left side of the frame SCP-056
+      reclines easily on the sofa. On the right side of the frame an MTF
+      Agent stands watch with hands folded; two more identical MTF Agents
+      stand by the closed door in the background. No text.
+    characters: [scp-056, mtf-agent]
+    notes: >
+      根拠: SC procedures「SCP-056 is housed in a room of its own choosing
+      with desired furnishings ... The subject is to be guarded by a
+      minimum of three (3) security staff at all times, with shift
+      changes every four hours.」
+      変えてはいけない事実: 本人が選んだ部屋・希望の調度で収容、常時最低3名の
+      警備、4時間ごとの交代。
+      変更可能: 部屋の内装、警備員の配置。
+    caption:
+      ja: "SCP-056は、本人が選んだ部屋に、希望どおりの調度を備えて収容される。被験体は、常時最低3名の警備要員によって警護され、シフトは4時間ごとに交代する。"
+      en: "SCP-056 is housed in a room of its own choosing, furnished as it desires. The subject is to be guarded by a minimum of three security staff at all times, with shift changes every four hours."
+      cs: "SCP-056 je ubytován v místnosti dle vlastního výběru, zařízené podle jeho přání. Subjekt musí být neustále střežen nejméně třemi členy ostrahy, přičemž ke střídání směn dochází každé čtyři hodiny."
+      de: "SCP-056 wird in einem selbst gewählten Raum untergebracht, der nach seinen Wünschen eingerichtet ist. Das Subjekt ist jederzeit von mindestens drei Sicherheitskräften zu bewachen, wobei der Schichtwechsel alle vier Stunden erfolgt."
+      es: "SCP-056 se aloja en una habitación de su elección, amueblada según sus deseos. El sujeto debe estar vigilado en todo momento por un mínimo de tres miembros de seguridad, con cambios de turno cada cuatro horas."
+      fr: "SCP-056 est logé dans une pièce de son choix, meublée selon ses souhaits. Le sujet doit être gardé en permanence par au moins trois agents de sécurité, avec des relèves toutes les quatre heures."
+      it: "SCP-056 è alloggiato in una stanza di sua scelta, arredata secondo i suoi desideri. Il soggetto deve essere sorvegliato in ogni momento da almeno tre membri della sicurezza, con cambi di turno ogni quattro ore."
+      ko: "SCP-056은 본인이 선택한 방에, 원하는 대로 가구를 갖춘 상태로 수용된다. 피험체는 항상 최소 3명의 경비 요원에 의해 경호되며, 교대는 4시간마다 이루어진다."
+      pl: "SCP-056 przebywa w pokoju wybranym przez siebie, urządzonym zgodnie z jego życzeniami. Podmiot musi być przez cały czas pilnowany przez co najmniej trzech członków ochrony, ze zmianą warty co cztery godziny."
+      pt: "SCP-056 é alojado em um quarto de sua própria escolha, mobiliado conforme deseja. O sujeito deve ser guardado o tempo todo por, no mínimo, três seguranças, com trocas de turno a cada quatro horas."
+      th: "SCP-056 ถูกกักไว้ในห้องที่มันเลือกเอง ตกแต่งตามที่มันต้องการ ตัวบุคคลต้องมีเจ้าหน้าที่รักษาความปลอดภัยอย่างน้อยสามคนเฝ้าตลอดเวลา โดยเปลี่ยนกะทุกสี่ชั่วโมง"
+      uk: "SCP-056 утримується в кімнаті на власний вибір, умебльованій за його бажанням. Суб'єкт має постійно охоронятися щонайменше трьома охоронцями, зі зміною варти кожні чотири години."
+      vi: "SCP-056 được cho ở trong một căn phòng do chính nó chọn, bài trí theo ý muốn của nó. Đối tượng phải được canh giữ mọi lúc bởi tối thiểu ba nhân viên an ninh, đổi ca sau mỗi bốn giờ."
+      zh: "SCP-056被安置在一间由其自行挑选、按其意愿布置的房间内。该对象须始终由至少三名保安人员看守，每四小时轮班一次。"
+      zh_Hant: "SCP-056被安置在一間由其自行挑選、按其意願布置的房間內。該對象須始終由至少三名保安人員看守，每四小時輪班一次。"
+
+  - scene: >
+      Medium two-shot, waist-up, across a low table. On the left side of
+      the frame SCP-056 sits leaning forward with a warm, engaging
+      smile, mid-conversation. On the right side of the frame Attending
+      Researcher (Female) sits listening, charmed and interested, pen
+      resting idle on her notepad. No text.
+    characters: [scp-056, attending-researcher-f]
+    notes: >
+      根拠: Description「SCP-056 is a shape-shifting being that changes in
+      response to the environment around it, especially in regards to
+      living and sentient beings. Its default form appears as an
+      attractive man in his mid-twenties.」
+      変えてはいけない事実: 周囲の環境、とりわけ生きた知的存在に反応して姿を
+      変える変身体、既定の姿は20代半ばの魅力的な男性。
+      変更可能: 会話の構図、双方の表情。
+    caption:
+      ja: "SCP-056は、自らの周囲の環境、とりわけ生きた知性ある存在に反応して姿を変える、変身する存在である。その既定の姿は、20代半ばの魅力的な男性として現れる。"
+      en: "SCP-056 is a shape-shifting being that changes in response to the environment around it, especially in regard to living and sentient beings. Its default form appears as an attractive man in his mid-twenties."
+      cs: "SCP-056 je tvarově se měnící bytost, která se proměňuje v reakci na okolní prostředí, zejména pokud jde o živé a vnímající bytosti. Jeho výchozí podoba se jeví jako přitažlivý muž kolem pětadvaceti let."
+      de: "SCP-056 ist ein gestaltwandelndes Wesen, das sich als Reaktion auf seine Umgebung verändert, insbesondere im Hinblick auf lebende und empfindungsfähige Wesen. Seine Standardform erscheint als attraktiver Mann Mitte zwanzig."
+      es: "SCP-056 es un ser cambiante que se transforma en respuesta al entorno que lo rodea, especialmente en lo relativo a seres vivos y conscientes. Su forma predeterminada aparece como un hombre atractivo de unos veinticinco años."
+      fr: "SCP-056 est un être métamorphe qui change en réaction à l'environnement qui l'entoure, surtout en présence d'êtres vivants et conscients. Sa forme par défaut se présente comme un homme séduisant d'environ vingt-cinq ans."
+      it: "SCP-056 è un essere mutaforma che cambia in risposta all'ambiente circostante, soprattutto in relazione a esseri viventi e senzienti. La sua forma predefinita appare come un uomo attraente sui venticinque anni."
+      ko: "SCP-056은 주변 환경, 특히 살아 있는 지성체에 반응하여 모습을 바꾸는 변신 존재이다. 그 기본 형태는 이십 대 중반의 매력적인 남성으로 나타난다."
+      pl: "SCP-056 to istota zmiennokształtna, która przeobraża się w reakcji na otaczające ją środowisko, zwłaszcza w odniesieniu do istot żywych i czujących. Jej domyślna postać jawi się jako atrakcyjny mężczyzna około dwudziestego piątego roku życia."
+      pt: "SCP-056 é um ser metamorfo que se transforma em resposta ao ambiente ao seu redor, sobretudo no que diz respeito a seres vivos e sencientes. Sua forma padrão aparece como um homem atraente na casa dos vinte e poucos anos."
+      th: "SCP-056 เป็นสิ่งมีชีวิตที่แปลงร่างได้ ซึ่งเปลี่ยนแปลงตามสภาพแวดล้อมรอบตัว โดยเฉพาะอย่างยิ่งเมื่อเกี่ยวกับสิ่งมีชีวิตที่มีสำนึกรู้ รูปแบบเริ่มต้นของมันปรากฏเป็นชายหนุ่มรูปงามวัยกลางยี่สิบ"
+      uk: "SCP-056 — істота-зміношкір, що змінюється у відповідь на довколишнє середовище, особливо щодо живих і свідомих істот. Його типова форма постає як привабливий чоловік близько двадцяти п'яти років."
+      vi: "SCP-056 là một sinh vật biến hình, thay đổi tùy theo môi trường xung quanh, đặc biệt là đối với các sinh vật sống và có tri giác. Hình dạng mặc định của nó xuất hiện là một người đàn ông hấp dẫn ở độ tuổi giữa hai mươi."
+      zh: "SCP-056是一种会变形的存在，它会随周围环境而改变，尤其是在面对有生命、有意识的存在时。它的默认形态呈现为一名二十五岁上下、颇具魅力的男子。"
+      zh_Hant: "SCP-056是一種會變形的存在，它會隨周圍環境而改變，尤其是在面對有生命、有意識的存在時。它的默認形態呈現為一名二十五歲上下、頗具魅力的男子。"
+
+  - scene: >
+      Close-up, eye level, on the armchair where SCP-056 had been
+      sitting. In the chair a friendly Labrador Retriever now sits in
+      the same relaxed pose, tongue out. At the edge of the frame
+      Attending Researcher (Female) is glancing down at her notepad, not
+      yet noticing. No text.
+    characters: [attending-researcher-f]
+    notes: >
+      根拠: Description「These changes will generally occur the moment all
+      people in the area lose focus on the subject. Documented
+      transformations include a Labrador Retriever, an actress
+      lookalike, a female doctor, and a bodybuilder.」
+      変えてはいけない事実: 変化はその場の全員が対象への注意を切らした瞬間に
+      起きる、記録された変身にはラブラドール・レトリバー、女優のそっくりさん、
+      女性医師、ボディビルダーが含まれる。
+      変更可能: どの変身形を見せるか（記録されたもののうち）、研究者の描写。
+    caption:
+      ja: "こうした変化は概して、その場にいる全員が被験体への注意を切らした瞬間に起こる。記録された変身には、ラブラドール・レトリバー、ある女優のそっくりさん、女性の医師、そしてボディビルダーが含まれる。"
+      en: "These changes generally occur the moment all people in the area lose focus on the subject. Documented transformations include a Labrador Retriever, an actress lookalike, a female doctor, and a bodybuilder."
+      cs: "Tyto změny obvykle nastávají ve chvíli, kdy všichni lidé v okolí přestanou subjekt sledovat. Zdokumentované proměny zahrnují labradorského retrívra, dvojnici jisté herečky, lékařku a kulturistu."
+      de: "Diese Veränderungen treten in der Regel in dem Moment ein, in dem alle Personen im Raum ihre Aufmerksamkeit vom Subjekt abwenden. Dokumentierte Verwandlungen umfassen einen Labrador Retriever, ein Doppelgängerbild einer Schauspielerin, eine Ärztin und einen Bodybuilder."
+      es: "Estos cambios se producen por lo general en el momento en que todas las personas de la zona dejan de prestar atención al sujeto. Entre las transformaciones documentadas figuran un labrador retriever, el doble de una actriz, una médica y un culturista."
+      fr: "Ces changements se produisent en général à l'instant où toutes les personnes présentes cessent de fixer leur attention sur le sujet. Parmi les transformations documentées figurent un labrador retriever, le sosie d'une actrice, une femme médecin et un culturiste."
+      it: "Questi cambiamenti si verificano generalmente nel momento in cui tutte le persone nell'area smettono di concentrarsi sul soggetto. Tra le trasformazioni documentate figurano un labrador retriever, la sosia di un'attrice, una dottoressa e un culturista."
+      ko: "이러한 변화는 대체로 그 구역에 있는 모든 사람이 피험체에 대한 주의를 놓치는 순간에 일어난다. 기록된 변신에는 래브라도 리트리버, 어느 여배우를 닮은 인물, 여성 의사, 그리고 보디빌더가 포함된다."
+      pl: "Zmiany te następują na ogół w chwili, gdy wszyscy ludzie w pobliżu przestają skupiać uwagę na podmiocie. Do udokumentowanych przemian należą labrador retriever, sobowtór pewnej aktorki, lekarka oraz kulturysta."
+      pt: "Essas mudanças ocorrem geralmente no momento em que todas as pessoas na área deixam de prestar atenção ao sujeito. Entre as transformações documentadas estão um labrador retriever, a sósia de uma atriz, uma médica e um fisiculturista."
+      th: "การเปลี่ยนแปลงเหล่านี้มักเกิดขึ้นในวินาทีที่ทุกคนในบริเวณนั้นเผลอละสายตาจากตัวบุคคล การแปลงร่างที่มีบันทึกไว้ ได้แก่ สุนัขพันธุ์ลาบราดอร์ รีทรีฟเวอร์ ผู้ที่หน้าเหมือนนักแสดงหญิงคนหนึ่ง แพทย์หญิง และนักเพาะกาย"
+      uk: "Ці зміни зазвичай відбуваються тієї миті, коли всі люди поблизу перестають зосереджувати увагу на суб'єкті. Задокументовані перетворення охоплюють лабрадора-ретривера, двійника однієї акторки, лікарку та бодибілдера."
+      vi: "Những thay đổi này thường xảy ra vào đúng khoảnh khắc mọi người trong khu vực lơ là không còn tập trung nhìn đối tượng. Các lần biến hình được ghi nhận gồm một chú chó Labrador Retriever, người trông giống một nữ diễn viên, một nữ bác sĩ và một người tập thể hình."
+      zh: "这些变化通常发生在现场所有人都对该对象分神的那一刻。有记录的变形包括一只拉布拉多寻回犬、一位女演员的相似者、一名女医生，以及一名健美运动员。"
+      zh_Hant: "這些變化通常發生在現場所有人都對該對象分神的那一刻。有記錄的變形包括一隻拉布拉多尋回犬、一位女演員的相似者、一名女醫生，以及一名健美運動員。"
+
+  - scene: >
+      Wide shot framed like a grainy overhead security-camera view of
+      the now-empty furnished room, no people anywhere. In the middle of
+      the sofa, exactly where the man had been sitting, rests a single
+      small boxy camera on a short stand, its lens facing out. No text.
+    characters: []
+    notes: >
+      根拠: Description「When completely isolated under surveillance, it
+      assumed the form of a camera.」オチ。
+      変えてはいけない事実: 監視下で完全に孤立させられると、SCP-056はカメラの
+      姿になった。
+      変更可能: 部屋の見せ方、カメラの形状。
+    caption:
+      ja: "監視下で完全に孤立させられ、その場に誰もいなくなると、SCP-056はカメラの姿をとった。"
+      en: "When completely isolated under surveillance, with no personnel present, SCP-056 assumed the form of a camera."
+      cs: "Když byl pod dohledem zcela izolován a nikdo z personálu nebyl přítomen, SCP-056 na sebe vzal podobu kamery."
+      de: "Als SCP-056 unter Überwachung völlig isoliert war und kein Personal anwesend war, nahm es die Form einer Kamera an."
+      es: "Cuando quedó completamente aislado bajo vigilancia, sin personal presente, SCP-056 adoptó la forma de una cámara."
+      fr: "Lorsqu'il fut complètement isolé sous surveillance, sans aucun membre du personnel présent, SCP-056 prit la forme d'une caméra."
+      it: "Quando fu completamente isolato sotto sorveglianza, senza personale presente, SCP-056 assunse la forma di una telecamera."
+      ko: "감시하에 완전히 고립되어 그 자리에 아무 인원도 없게 되자, SCP-056은 카메라의 모습을 취했다."
+      pl: "Gdy pod obserwacją został całkowicie odizolowany, bez obecności personelu, SCP-056 przybrał postać kamery."
+      pt: "Quando ficou completamente isolado sob vigilância, sem nenhum funcionário presente, SCP-056 assumiu a forma de uma câmera."
+      th: "เมื่อถูกแยกให้อยู่ลำพังอย่างสมบูรณ์ภายใต้การเฝ้าระวัง โดยไม่มีเจ้าหน้าที่อยู่ด้วย SCP-056 ได้แปลงร่างเป็นกล้อง"
+      uk: "Коли SCP-056 повністю ізолювали під наглядом, і поруч не було жодного співробітника, він набув форми камери."
+      vi: "Khi bị cô lập hoàn toàn dưới sự giám sát, không có nhân viên nào hiện diện, SCP-056 đã mang hình dạng một chiếc máy quay."
+      zh: "在监控之下被彻底隔离、现场无任何人员时，SCP-056变成了一台摄像机的形态。"
+      zh_Hant: "在監控之下被徹底隔離、現場無任何人員時，SCP-056變成了一台攝影機的形態。"

@@ -1,0 +1,193 @@
+# SCP-073 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-073
+
+title:
+  en: "SCP-073"
+  ja: "SCP-073"
+  cs: "SCP-073"
+  de: "SCP-073"
+  es: "SCP-073"
+  fr: "SCP-073"
+  it: "SCP-073"
+  ko: "SCP-073"
+  pl: "SCP-073"
+  pt: "SCP-073"
+  th: "SCP-073"
+  uk: "SCP-073"
+  vi: "SCP-073"
+  zh: "SCP-073"
+  zh_Hant: "SCP-073"
+
+attribution:
+  article: "SCP-073"
+  author: "Kain Pathos Crow"
+  source_url: "http://scp-wiki.wikidot.com/scp-073"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-073:
+    name: SCP-073
+    appearance: >
+      An adult man of Arabic or Middle Eastern descent in his early thirties,
+      heavily tanned, about 185 cm tall and lean, with short black hair
+      (color RGB 20,20,20) and pale blue eyes. His forearms, hands, lower
+      legs and feet are visibly artificial: smooth matte dark-grey metal
+      (color RGB 95,95,100) of unknown make, jointed like prosthetics. A
+      small worn engraved mark sits on the centre of his forehead (render it
+      only as an indistinct shallow carved mark, never as legible letters or
+      symbols).
+    default_look: >
+      Plain modern civilian clothes: a dark henley shirt with the sleeves
+      pushed up so the metal forearms show, and trousers, with a slim
+      tracking band on one wrist. Calm, polite, faintly weary and apologetic
+      expression.
+
+panels:
+  - scene: >
+      Wide shot, eye level, inside a plain two-room cell furnished entirely
+      in metal and plastic - a metal table and chairs, a metal-framed bed,
+      no wood or fabric. SCP-073 sits calmly at the metal table with his
+      metal hands folded. On the right side of the frame,
+      attending-researcher-f leans in the open doorway, mid-conversation
+      with him, relaxed.
+    notes: >
+      Panel-1 basis: "SCP-073 is to be kept in a two (2) room cell furnished
+      with all non-organic furniture and items, and a bathroom. Subject is
+      allowed to freely wander the facility and eat in the main canteen.
+      Violence is not to be used against SCP-073 under any circumstances."
+      Fixed facts: all-inorganic furnishings, he is trusted with free
+      movement, no violence. Free to restage: the chat, framing.
+    characters: [scp-073, attending-researcher-f]
+    caption:
+      ja: "SCP-073は、家具および備品がすべて非有機物で構成された2部屋の独房と浴室に収容される。対象は施設内を自由に歩き回ること、および主食堂で食事することを許可されている。いかなる状況においてもSCP-073に暴力を用いてはならない。"
+      en: "SCP-073 is to be kept in a two-room cell furnished with all non-organic furniture and items, and a bathroom. Subject is allowed to freely wander the facility and eat in the main canteen. Violence is not to be used against SCP-073 under any circumstances."
+      cs: "SCP-073 se drží ve dvoupokojové cele vybavené výhradně neorganickým nábytkem a předměty a s koupelnou. Subjektu je povoleno volně se pohybovat po zařízení a stravovat se v hlavní jídelně. Za žádných okolností se proti SCP-073 nesmí použít násilí."
+      de: "SCP-073 ist in einer Zwei-Zimmer-Zelle unterzubringen, die ausschließlich mit anorganischen Möbeln und Gegenständen sowie einem Bad ausgestattet ist. Dem Subjekt ist es gestattet, sich frei in der Einrichtung zu bewegen und in der Hauptkantine zu essen. Unter keinen Umständen darf gegen SCP-073 Gewalt angewendet werden."
+      es: "SCP-073 debe mantenerse en una celda de dos habitaciones amueblada por completo con mobiliario y objetos no orgánicos, y un baño. Se permite al sujeto deambular libremente por las instalaciones y comer en el comedor principal. No debe emplearse violencia contra SCP-073 bajo ninguna circunstancia."
+      fr: "SCP-073 doit être maintenu dans une cellule de deux pièces meublée exclusivement de mobilier et d'objets non organiques, avec une salle de bain. Le sujet est autorisé à circuler librement dans l'installation et à manger au réfectoire principal. Aucune violence ne doit être employée contre SCP-073, en aucune circonstance."
+      it: "SCP-073 deve essere tenuto in una cella di due stanze arredata esclusivamente con mobili e oggetti non organici, e un bagno. Al soggetto è consentito girare liberamente per la struttura e mangiare nella mensa principale. Non deve essere usata violenza contro SCP-073 in nessuna circostanza."
+      ko: "SCP-073은 가구와 비품이 모두 비유기물로 된 두 개의 방과 욕실로 이루어진 독방에 수용한다. 대상은 시설 내를 자유로이 돌아다니고 주 구내식당에서 식사하는 것이 허용된다. 어떠한 경우에도 SCP-073에게 폭력을 사용해서는 안 된다."
+      pl: "SCP-073 należy trzymać w dwupokojowej celi wyposażonej wyłącznie w nieorganiczne meble i przedmioty oraz w łazienkę. Podmiotowi wolno swobodnie poruszać się po placówce i jadać w głównej stołówce. W żadnych okolicznościach nie wolno stosować wobec SCP-073 przemocy."
+      pt: "O SCP-073 deve ser mantido em uma cela de dois cômodos mobiliada inteiramente com móveis e itens não orgânicos, e um banheiro. O sujeito tem permissão para circular livremente pela instalação e comer no refeitório principal. Não se deve usar violência contra o SCP-073 sob nenhuma circunstância."
+      th: "ต้องกัก SCP-073 ไว้ในห้องขังสองห้องที่มีเฟอร์นิเจอร์และสิ่งของอนินทรีย์ทั้งหมด พร้อมห้องน้ำ อนุญาตให้ผู้รับการทดลองเดินไปมาในสถานที่ได้อย่างอิสระและรับประทานอาหารในโรงอาหารหลัก ห้ามใช้ความรุนแรงต่อ SCP-073 ไม่ว่าในกรณีใด"
+      uk: "SCP-073 слід тримати у двокімнатній камері, обставленій виключно неорганічними меблями та предметами, з ванною кімнатою. Суб'єктові дозволено вільно пересуватися об'єктом і харчуватися в головній їдальні. За жодних обставин проти SCP-073 не можна застосовувати насильство."
+      vi: "SCP-073 phải được giữ trong một phòng giam hai gian được trang bị hoàn toàn bằng đồ nội thất và vật dụng vô cơ, kèm một phòng tắm. Đối tượng được phép đi lại tự do trong cơ sở và ăn tại nhà ăn chính. Không được dùng bạo lực đối với SCP-073 trong bất kỳ hoàn cảnh nào."
+      zh: "SCP-073须收容于一间由全部非有机家具与物品布置的两室单间中，并配有卫生间。允许对象在设施内自由走动并在主食堂用餐。任何情况下都不得对SCP-073使用暴力。"
+      zh_Hant: "SCP-073須收容於一間由全部非有機家具與物品佈置的兩室單間中，並配有衛生間。允許對象在設施內自由走動並在主食堂用餐。任何情況下都不得對SCP-073使用暴力。"
+
+  - scene: >
+      Medium portrait shot, three-quarter angle, eye level. SCP-073 stands
+      against a plain wall with his artificial metal forearms loosely
+      crossed, black hair, pale blue eyes, the faint shallow carved mark on
+      his forehead just visible. Calm, patient expression.
+    notes: >
+      Panel-2 basis: "SCP-073 appears to be a heavily-tanned male of Arabic
+      or Middle Eastern descent in his early thirties"; arms, legs, spinal
+      cord and shoulder blades "replaced with artificial versions of unknown
+      make and metal"; a forehead symbol "of Sumerian origin." Fixed facts:
+      tanned man, metallic limbs, forehead mark. Keep the mark illegible in
+      the image. Free to restage: pose, framing.
+    characters: [scp-073]
+    caption:
+      ja: "SCP-073は、30代前半の、強く日焼けしたアラブ系または中東系の男性であるように見える。対象の腕、脚、脊髄、肩甲骨は、製法も金属も不明な人工物に置き換えられているように見える。対象の額には、シュメール起源と思われる記号が刻まれている。"
+      en: "SCP-073 appears to be a heavily-tanned male of Arabic or Middle Eastern descent in his early thirties. Arms, legs, spinal cord, and shoulder blades of the subject appear to have been replaced with artificial versions of unknown make and metal. There is a symbol engraved into the forehead of the subject, which appears to be of Sumerian origin."
+      cs: "SCP-073 se jeví jako silně opálený muž arabského nebo blízkovýchodního původu na počátku třicítky. Paže, nohy, mícha a lopatky subjektu jsou zřejmě nahrazeny umělými verzemi z neznámého kovu a neznámé výroby. Do čela subjektu je vyryt symbol, který se jeví jako sumerského původu."
+      de: "SCP-073 erscheint als ein stark gebräunter Mann arabischer oder nahöstlicher Abstammung Anfang dreißig. Arme, Beine, Rückenmark und Schulterblätter des Subjekts scheinen durch künstliche Versionen aus unbekanntem Metall unbekannter Herstellung ersetzt worden zu sein. In die Stirn des Subjekts ist ein Symbol eingraviert, das sumerischen Ursprungs zu sein scheint."
+      es: "SCP-073 parece ser un hombre muy bronceado de ascendencia árabe o de Oriente Medio, de poco más de treinta años. Los brazos, las piernas, la médula espinal y los omóplatos del sujeto parecen haber sido reemplazados por versiones artificiales de metal y fabricación desconocidos. En la frente del sujeto hay grabado un símbolo que parece de origen sumerio."
+      fr: "SCP-073 se présente comme un homme très bronzé d'ascendance arabe ou moyen-orientale, au début de la trentaine. Les bras, les jambes, la moelle épinière et les omoplates du sujet semblent avoir été remplacés par des versions artificielles faites d'un métal et d'une fabrication inconnus. Un symbole, qui paraît d'origine sumérienne, est gravé sur le front du sujet."
+      it: "SCP-073 appare come un uomo molto abbronzato di origini arabe o mediorientali, poco più che trentenne. Braccia, gambe, midollo spinale e scapole del soggetto sembrano essere stati sostituiti da versioni artificiali di metallo e fattura sconosciuti. Sulla fronte del soggetto è inciso un simbolo che sembra di origine sumera."
+      ko: "SCP-073은 30대 초반의, 심하게 그을린 아랍계 또는 중동계 남성으로 보인다. 대상의 팔, 다리, 척수, 견갑골은 제작 방식과 금속을 알 수 없는 인공물로 교체된 것으로 보인다. 대상의 이마에는 수메르 기원으로 보이는 기호가 새겨져 있다."
+      pl: "SCP-073 wygląda na mocno opalonego mężczyznę pochodzenia arabskiego lub bliskowschodniego, tuż po trzydziestce. Ramiona, nogi, rdzeń kręgowy i łopatki podmiotu wydają się zastąpione sztucznymi odpowiednikami z nieznanego metalu i nieznanej produkcji. Na czole podmiotu wyryty jest symbol, który wydaje się pochodzenia sumeryjskiego."
+      pt: "O SCP-073 parece ser um homem muito bronzeado de ascendência árabe ou do Oriente Médio, com pouco mais de trinta anos. Os braços, as pernas, a medula espinhal e as escápulas do sujeito parecem ter sido substituídos por versões artificiais de metal e fabricação desconhecidos. Na testa do sujeito há um símbolo gravado que parece ser de origem suméria."
+      th: "SCP-073 มีลักษณะเป็นชายผิวคล้ำจัดเชื้อสายอาหรับหรือตะวันออกกลาง วัยต้นสามสิบ แขน ขา ไขสันหลัง และกระดูกสะบักของผู้รับการทดลองดูเหมือนถูกแทนที่ด้วยของเทียมที่ทำจากโลหะและวิธีการผลิตที่ไม่ทราบ บนหน้าผากของผู้รับการทดลองมีสัญลักษณ์สลักไว้ ซึ่งดูเหมือนมีต้นกำเนิดจากชาวสุเมเรียน"
+      uk: "SCP-073 має вигляд сильно засмаглого чоловіка арабського чи близькосхідного походження, років трохи за тридцять. Руки, ноги, спинний мозок і лопатки суб'єкта, схоже, замінені штучними версіями з невідомого металу невідомого виробництва. На чолі суб'єкта викарбувано символ, що видається шумерського походження."
+      vi: "SCP-073 trông giống một người đàn ông da rám nắng đậm, gốc Ả Rập hoặc Trung Đông, ngoài ba mươi tuổi. Cánh tay, chân, tủy sống và xương bả vai của đối tượng dường như đã được thay bằng các phiên bản nhân tạo làm từ kim loại và cách chế tác không rõ. Trên trán đối tượng có khắc một biểu tượng, có vẻ có nguồn gốc Sumer."
+      zh: "SCP-073的外貌是一名皮肤黝黑、三十岁出头的阿拉伯或中东裔男性。对象的手臂、腿、脊髓和肩胛骨似乎已被以未知工艺和未知金属制成的人造替代物取代。对象额头上刻有一个符号，看起来源自苏美尔。"
+      zh_Hant: "SCP-073的外貌是一名皮膚黝黑、三十歲出頭的阿拉伯或中東裔男性。對象的手臂、腿、脊髓和肩胛骨似乎已被以未知工藝和未知金屬製成的人造替代物取代。對象額頭上刻有一個符號，看起來源自蘇美。"
+
+  - scene: >
+      Wide shot, eye level, in a Foundation canteen. SCP-073 walks through
+      the room with an apologetic look. On the left side of the frame, a
+      leafy potted plant on a table has browned and wilted where he just
+      passed, and the wooden back of a chair he brushed with one metal hand
+      is crumbling into dust. On the right side of the frame,
+      attending-researcher-m stands well back, noting it on a clipboard.
+    notes: >
+      Panel-3 basis: "SCP-073's presence is inimical to any and all life
+      grown in soil, causing death to any such life within a twenty (20)
+      meter radius," and "anything that is derived from soil-grown life, such
+      as wood and paper, immediately rots and disintegrates upon touch of
+      SCP-073." Fixed facts: plants die near him; wood and paper rot at his
+      touch; he is not doing it on purpose. Free to restage: the canteen
+      staging, what withers.
+    characters: [scp-073, attending-researcher-m]
+    caption:
+      ja: "SCP-073の存在は、土壌で育つあらゆる生命に対して有害であり、半径20メートル以内のそうした生命を死に至らしめる。木材や紙のように、土壌で育つ生命に由来するものはすべて、SCP-073が触れると即座に腐敗し、崩壊する。"
+      en: "SCP-073's presence is inimical to any and all life grown in soil, causing death to any such life within a twenty (20) meter radius. Anything that is derived from soil-grown life, such as wood and paper, immediately rots and disintegrates upon touch of SCP-073."
+      cs: "Přítomnost SCP-073 je nepřátelská veškerému životu rostoucímu v půdě a usmrcuje takový život v okruhu dvaceti (20) metrů. Cokoli, co je odvozeno od života rostoucího v půdě, například dřevo a papír, se při dotyku SCP-073 okamžitě rozloží a rozpadne."
+      de: "Die Anwesenheit von SCP-073 ist jeglichem im Boden gewachsenen Leben feindlich und tötet solches Leben im Umkreis von zwanzig (20) Metern. Alles, was von im Boden gewachsenem Leben stammt, etwa Holz und Papier, verrottet und zerfällt bei Berührung durch SCP-073 augenblicklich."
+      es: "La presencia de SCP-073 es nociva para toda forma de vida que crece en el suelo, causando la muerte de dicha vida en un radio de veinte (20) metros. Todo lo derivado de vida crecida en el suelo, como la madera y el papel, se pudre y se desintegra de inmediato al contacto con SCP-073."
+      fr: "La présence de SCP-073 est néfaste à toute vie poussant dans le sol, entraînant la mort d'une telle vie dans un rayon de vingt (20) mètres. Tout ce qui dérive de la vie poussant dans le sol, comme le bois et le papier, pourrit et se désintègre immédiatement au contact de SCP-073."
+      it: "La presenza di SCP-073 è nociva per qualsiasi forma di vita che cresce nel terreno, causandone la morte entro un raggio di venti (20) metri. Tutto ciò che deriva da vita cresciuta nel terreno, come legno e carta, marcisce e si disgrega immediatamente al contatto con SCP-073."
+      ko: "SCP-073의 존재는 토양에서 자라는 모든 생명에 해로우며, 반경 20(20)미터 이내의 그러한 생명을 죽게 한다. 목재나 종이처럼 토양에서 자란 생명에서 비롯된 것은 모두 SCP-073이 닿는 즉시 썩어 붕괴된다."
+      pl: "Obecność SCP-073 jest zabójcza dla wszelkiego życia rosnącego w glebie i uśmierca je w promieniu dwudziestu (20) metrów. Wszystko, co pochodzi od życia rosnącego w glebie, na przykład drewno i papier, przy dotknięciu przez SCP-073 natychmiast gnije i rozpada się."
+      pt: "A presença do SCP-073 é nociva a toda e qualquer forma de vida que cresce no solo, causando a morte dessa vida num raio de vinte (20) metros. Tudo o que deriva de vida crescida no solo, como madeira e papel, apodrece e se desintegra imediatamente ao toque do SCP-073."
+      th: "การมีอยู่ของ SCP-073 เป็นภัยต่อสิ่งมีชีวิตทั้งปวงที่เติบโตในดิน ทำให้สิ่งมีชีวิตเช่นนั้นตายในรัศมียี่สิบ (20) เมตร สิ่งใดก็ตามที่ได้มาจากสิ่งมีชีวิตที่เติบโตในดิน เช่น ไม้และกระดาษ จะเน่าเปื่อยและสลายทันทีเมื่อ SCP-073 สัมผัส"
+      uk: "Присутність SCP-073 згубна для будь-якого життя, що росте в ґрунті, спричиняючи загибель такого життя в радіусі двадцяти (20) метрів. Усе, що походить від життя, вирощеного в ґрунті, як-от деревина й папір, від дотику SCP-073 миттєво гниє й розпадається."
+      vi: "Sự hiện diện của SCP-073 gây hại cho mọi sự sống mọc lên từ đất, khiến sự sống đó chết trong bán kính hai mươi (20) mét. Bất cứ thứ gì có nguồn gốc từ sự sống mọc lên từ đất, như gỗ và giấy, sẽ lập tức mục nát và tan rã khi SCP-073 chạm vào."
+      zh: "SCP-073的存在对一切在土壤中生长的生命都是有害的，会使其半径二十（20）米内的此类生命死亡。任何源自土壤所育生命之物，如木材和纸张，一经SCP-073触碰便立即腐烂崩解。"
+      zh_Hant: "SCP-073的存在對一切在土壤中生長的生命都是有害的，會使其半徑二十（20）公尺內的此類生命死亡。任何源自土壤所育生命之物，如木材和紙張，一經SCP-073觸碰便立即腐爛崩解。"
+
+  - scene: >
+      Dynamic medium shot, slight low angle. On the left side of the frame, a
+      d-class staggers backward clutching his own forearm and grimacing in
+      pain, a metal bar still swinging from his other hand. On the right side
+      of the frame, SCP-073 stands completely unharmed, wincing in sympathy
+      with one metal hand raised in a calm, apologetic "please stop" gesture.
+    notes: >
+      Panel-4 basis: "Violence directed towards SCP-073 reflects any damage
+      inflicted on SCP-073 directly back onto the attacker, although SCP-073
+      visibly remains unharmed"; it "still feels the pain of the action, and
+      has politely asked researchers to abstain from overly harmful actions
+      to its person." Fixed facts: the attacker gets hurt, not Cain; Cain
+      still feels it and asks politely to stop. Keep it non-gory (no blood).
+      Free to restage: the failed attack, gestures.
+    characters: [d-class, scp-073]
+    caption:
+      ja: "SCP-073に向けられた暴力は、SCP-073に与えられたあらゆる損傷を、そのまま攻撃者へと跳ね返す。ただしSCP-073の身体には目に見える損傷は残らない。SCP-073は、それでもその行為の痛みは感じると述べており、自分に対する過度に有害な行為は控えてほしいと丁重に頼んでいる。"
+      en: "Violence directed towards SCP-073 reflects any damage inflicted on SCP-073 directly back onto the attacker, although SCP-073 visibly remains unharmed. It has stated that it still feels the pain of the action, and has politely asked researchers to abstain from overly harmful actions to its person."
+      cs: "Násilí namířené proti SCP-073 odráží jakékoli způsobené zranění přímo zpět na útočníka, ačkoli SCP-073 zůstává viditelně nezraněno. SCP-073 uvádí, že bolest z daného činu přesto cítí, a zdvořile požádalo výzkumníky, aby se vůči jeho osobě zdrželi příliš škodlivého jednání."
+      de: "Gewalt, die gegen SCP-073 gerichtet wird, spiegelt jeden zugefügten Schaden unmittelbar auf den Angreifer zurück, obwohl SCP-073 sichtbar unversehrt bleibt. SCP-073 gibt an, den Schmerz der Handlung dennoch zu spüren, und hat die Forscher höflich gebeten, übermäßig schädliche Handlungen an seiner Person zu unterlassen."
+      es: "La violencia dirigida contra SCP-073 refleja cualquier daño infligido directamente sobre el agresor, aunque SCP-073 permanece visiblemente ileso. SCP-073 ha declarado que aun así siente el dolor del acto, y ha pedido cortésmente a los investigadores que se abstengan de acciones demasiado dañinas contra su persona."
+      fr: "La violence dirigée contre SCP-073 renvoie tout dommage infligé directement sur l'agresseur, bien que SCP-073 reste visiblement indemne. SCP-073 a déclaré ressentir malgré tout la douleur de l'acte, et a poliment demandé aux chercheurs de s'abstenir d'actions trop nuisibles envers sa personne."
+      it: "La violenza diretta contro SCP-073 riflette qualsiasi danno inflitto direttamente sull'aggressore, sebbene SCP-073 rimanga visibilmente illeso. SCP-073 ha dichiarato di sentire comunque il dolore dell'azione, e ha chiesto cortesemente ai ricercatori di astenersi da azioni eccessivamente dannose verso la sua persona."
+      ko: "SCP-073에게 가해진 폭력은, SCP-073에게 입힌 모든 피해를 그대로 공격자에게 되돌린다. 다만 SCP-073의 몸에는 눈에 띄는 손상이 남지 않는다. SCP-073은 그래도 그 행위의 고통은 느낀다고 진술했으며, 자신에게 지나치게 해로운 행위는 삼가 달라고 정중히 요청했다."
+      pl: "Przemoc skierowana przeciw SCP-073 odbija wszelkie zadane obrażenia bezpośrednio na napastnika, choć SCP-073 pozostaje widocznie nietknięte. SCP-073 oświadczyło, że mimo to odczuwa ból danego czynu, i uprzejmie poprosiło badaczy, by powstrzymali się od nadmiernie szkodliwych działań wobec jego osoby."
+      pt: "A violência dirigida contra o SCP-073 reflete qualquer dano infligido diretamente sobre o agressor, embora o SCP-073 permaneça visivelmente ileso. O SCP-073 declarou que ainda assim sente a dor do ato, e pediu educadamente aos pesquisadores que se abstenham de ações excessivamente prejudiciais contra sua pessoa."
+      th: "ความรุนแรงที่มุ่งต่อ SCP-073 จะสะท้อนความเสียหายใดๆ ที่กระทำกลับไปยังผู้โจมตีโดยตรง แม้ว่า SCP-073 จะยังคงไม่ได้รับบาดเจ็บอย่างเห็นได้ชัด SCP-073 ระบุว่าตนยังคงรู้สึกเจ็บปวดจากการกระทำนั้น และได้ขอร้องอย่างสุภาพให้นักวิจัยงดเว้นการกระทำที่เป็นอันตรายเกินควรต่อร่างกายของตน"
+      uk: "Насильство, спрямоване проти SCP-073, відбиває будь-яку завдану шкоду безпосередньо назад на нападника, хоча SCP-073 залишається помітно неушкодженим. SCP-073 заявив, що все одно відчуває біль від дії, і ввічливо попросив дослідників утримуватися від надмірно шкідливих дій щодо його особи."
+      vi: "Bạo lực nhắm vào SCP-073 sẽ phản mọi tổn thương gây ra trực tiếp trở lại kẻ tấn công, dù SCP-073 vẫn không hề bị thương một cách rõ ràng. SCP-073 tuyên bố rằng nó vẫn cảm nhận được cơn đau của hành động đó, và đã lịch sự đề nghị các nhà nghiên cứu tránh những hành động gây hại quá mức lên cơ thể mình."
+      zh: "针对SCP-073的暴力，会将对SCP-073造成的任何伤害直接反弹到施暴者身上，尽管SCP-073本身明显毫发无损。SCP-073表示自己仍能感到该行为带来的疼痛，并礼貌地请求研究人员不要对其身体做出过度有害的举动。"
+      zh_Hant: "針對SCP-073的暴力，會將對SCP-073造成的任何傷害直接反彈到施暴者身上，儘管SCP-073本身明顯毫髮無損。SCP-073表示自己仍能感到該行為帶來的疼痛，並禮貌地請求研究人員不要對其身體做出過度有害的舉動。"
+
+addendum:
+  ja: "補遺073-J：サイト17食堂の観葉植物および事務用紙の月間予算は、正式に収容経費へと再分類された。"
+  en: "Addendum 073-J: The Site-17 canteen's monthly budget for plants and paper stationery has been formally reclassified as a containment expense."
+  cs: "Dodatek 073-J: Měsíční rozpočet jídelny na Stanovišti 17 na rostliny a papírové kancelářské potřeby byl oficiálně překlasifikován jako výdaj na kontejnment."
+  de: "Anhang 073-J: Das monatliche Budget der Kantine von Standort 17 für Pflanzen und Papierbedarf wurde offiziell als Kontainment-Ausgabe umklassifiziert."
+  es: "Adenda 073-J: El presupuesto mensual del comedor del Sitio 17 para plantas y papelería ha sido reclasificado oficialmente como gasto de contención."
+  fr: "Addendum 073-J : Le budget mensuel du réfectoire du Site 17 pour les plantes et la papeterie a été officiellement reclassé comme dépense de confinement."
+  it: "Addendum 073-J: Il budget mensile della mensa del Sito 17 per piante e cancelleria di carta è stato ufficialmente riclassificato come spesa di contenimento."
+  ko: "부록 073-J: 사이트 17 구내식당의 월간 화분 및 종이 사무용품 예산이 공식적으로 수용 비용으로 재분류되었다."
+  pl: "Aneks 073-J: Miesięczny budżet stołówki w Placówce 17 na rośliny i papierowe artykuły biurowe został oficjalnie przeklasyfikowany na wydatek związany z przechowywaniem."
+  pt: "Adendo 073-J: O orçamento mensal do refeitório do Sítio 17 para plantas e papelaria foi formalmente reclassificado como despesa de contenção."
+  th: "ภาคผนวก 073-J: งบประมาณรายเดือนของโรงอาหารไซต์ 17 สำหรับต้นไม้และเครื่องเขียนกระดาษ ได้ถูกจัดประเภทใหม่อย่างเป็นทางการให้เป็นค่าใช้จ่ายด้านการกักกัน"
+  uk: "Додаток 073-J: Щомісячний бюджет їдальні Об'єкта 17 на рослини та паперове канцелярське приладдя офіційно перекласифіковано як витрати на утримання."
+  vi: "Phụ lục 073-J: Ngân sách hằng tháng của nhà ăn Cơ sở 17 cho cây cảnh và văn phòng phẩm bằng giấy đã được chính thức phân loại lại thành chi phí ngăn chặn."
+  zh: "补遗073-J：Site 17食堂每月用于植物和纸质文具的预算已被正式重新归类为收容开支。"
+  zh_Hant: "補遺073-J：Site 17食堂每月用於植物和紙質文具的預算已被正式重新歸類為收容開支。"

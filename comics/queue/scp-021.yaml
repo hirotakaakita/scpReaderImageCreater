@@ -1,0 +1,152 @@
+# SCP-021 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。宿主の自殺・皮膚感染などのグロは扱わず、生態に寄せる。
+
+id: scp-021
+
+title:
+  ja: "SCP-021：皮膚の竜"
+  en: "SCP-021: Skin Wyrm"
+  cs: "SCP-021: Kožní drak"
+  de: "SCP-021: Der Hautwurm"
+  es: "SCP-021: Sierpe de piel"
+  fr: "SCP-021 : Ver de peau"
+  it: "SCP-021: Verme cutaneo"
+  ko: "SCP-021: 피부 이무기"
+  pl: "SCP-021: Skórny wąż"
+  pt: "SCP-021: Serpe de pele"
+  th: "SCP-021: มังกรใต้ผิวหนัง"
+  uk: "SCP-021: Шкірний змій"
+  vi: "SCP-021: Giao long trên da"
+  zh: "SCP-021：皮肤蛟龙"
+  zh_Hant: "SCP-021：皮膚蛟龍"
+
+attribution:
+  article: "SCP-021"
+  author: "HK-016"
+  source_url: "http://scp-wiki.wikidot.com/scp-021"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-021:
+    name: SCP-021
+    appearance: >
+      SCP-021, a large, elaborate oriental-style tattoo of a long
+      serpentine dragon in black-grey ink (color RGB 40,40,45), covering
+      roughly 0.8 square meters of a person's skin across the back and
+      torso. It is fully alive within the skin, sliding and coiling across
+      the host's body like a flat two-dimensional animal, but never
+      leaving the skin surface.
+    default_look: >
+      Coiled across the host's back and one shoulder, caught mid-slither.
+  scp-021-host:
+    name: D-139
+    appearance: >
+      D-139, a lean adult male D-Class subject in his 30s with a shaved
+      head and a tired, wincing expression, visibly uncomfortable from the
+      constant movement of the tattoo across his skin.
+    default_look: >
+      Bare to the waist, or a dark grey (RGB 90,90,90) D-Class jumpsuit
+      top pulled down to the waist, so the moving tattoo stays visible
+      across his back and torso; matching dark grey jumpsuit trousers.
+
+characters: [scp-021, scp-021-host, attending-researcher-m]
+
+panels:
+  - scene: >
+      Wide establishing shot, full body, eye level, showing a plain
+      detention cell with a cot and a blank metal number plate by the
+      door (no legible text). On the cot at the center, D-139 sits on the
+      edge, bare to the waist, the dark serpentine SCP-021 dragon tattoo
+      curling around his ribs. In the doorway on the right, Attending
+      Researcher (Male) stands making notes on a clipboard.
+    characters: [scp-021-host, scp-021, attending-researcher-m]
+    caption:
+      ja: "SCP-021は人体の絶対寄生体である。したがって、その収容は成人1名を収容するのと同程度の難易度でしかなく、ほとんどの独房で事足りる。本アイテムは現在、被験者D-139の身体上にあり、拘留房217-Aに収容されている。SCP-021の宿主となる資格があるのはDクラス職員のみである。"
+      en: "SCP-021 is an obligate parasite of the human body. Containment, therefore, is no more difficult than containing an adult human; most cells will suffice. Item is currently housed in detention cell 217-A on subject D-139. Only class D personnel are eligible for hosting SCP-021."
+      cs: "SCP-021 je obligátní parazit lidského těla. Jeho udržení proto není o nic obtížnější než udržení dospělého člověka; postačí většina cel. Předmět je v současnosti umístěn v zadržovací cele 217-A na subjektu D-139. Hostiteli SCP-021 smějí být pouze pracovníci třídy D."
+      de: "SCP-021 ist ein obligater Parasit des menschlichen Körpers. Seine Sicherung ist daher nicht schwieriger als die Sicherung eines erwachsenen Menschen; die meisten Zellen genügen. Das Objekt befindet sich derzeit in Haftzelle 217-A auf Subjekt D-139. Nur Personal der Klasse D kommt als Wirt für SCP-021 in Frage."
+      es: "SCP-021 es un parásito obligado del cuerpo humano. Por lo tanto, su contención no es más difícil que contener a un ser humano adulto; la mayoría de las celdas bastarán. El objeto se aloja actualmente en la celda de detención 217-A, en el sujeto D-139. Solo el personal de clase D es apto para hospedar a SCP-021."
+      fr: "SCP-021 est un parasite obligatoire du corps humain. Son confinement n'est donc pas plus difficile que celui d'un être humain adulte ; la plupart des cellules suffiront. L'objet est actuellement hébergé dans la cellule de détention 217-A, sur le sujet D-139. Seul le personnel de classe D peut servir d'hôte à SCP-021."
+      it: "SCP-021 è un parassita obbligato del corpo umano. Il suo contenimento non è pertanto più difficile di quello di un essere umano adulto; la maggior parte delle celle sarà sufficiente. L'oggetto è attualmente ospitato nella cella di detenzione 217-A, sul soggetto D-139. Solo il personale di classe D può fungere da ospite per SCP-021."
+      ko: "SCP-021은 인체의 절대 기생체이다. 따라서 그 격리는 성인 1명을 격리하는 것보다 더 어렵지 않으며, 대부분의 감방으로 충분하다. 본 물품은 현재 피험자 D-139의 몸에 있으며, 구금실 217-A에 수용되어 있다. SCP-021의 숙주가 될 자격이 있는 것은 D등급 인원뿐이다."
+      pl: "SCP-021 to bezwzględny pasożyt ludzkiego ciała. Jego przechowywanie nie jest zatem trudniejsze niż przetrzymywanie dorosłego człowieka; wystarczy większość cel. Przedmiot znajduje się obecnie w celi zatrzymań 217-A, na obiekcie D-139. Nosicielami SCP-021 mogą być wyłącznie pracownicy klasy D."
+      pt: "SCP-021 é um parasita obrigatório do corpo humano. Sua contenção, portanto, não é mais difícil do que conter um ser humano adulto; a maioria das celas será suficiente. O item está atualmente alojado na cela de detenção 217-A, no sujeito D-139. Somente pessoal de classe D é elegível para hospedar SCP-021."
+      th: "SCP-021 เป็นปรสิตที่ต้องอาศัยร่างกายมนุษย์เท่านั้น ดังนั้นการกักกันจึงไม่ยากไปกว่าการกักตัวมนุษย์วัยผู้ใหญ่หนึ่งคน ห้องขังส่วนใหญ่ก็เพียงพอ ปัจจุบันวัตถุนี้อยู่บนตัวผู้ถูกทดสอบ D-139 ในห้องกักกัน 217-A มีเพียงเจ้าหน้าที่ระดับ D เท่านั้นที่มีคุณสมบัติเป็นผู้ให้อาศัยแก่ SCP-021"
+      uk: "SCP-021 — облігатний паразит людського тіла. Тому його утримання не складніше, ніж утримання дорослої людини; підійде більшість камер. Наразі об'єкт перебуває в камері 217-A на суб'єкті D-139. Носіями SCP-021 можуть бути лише працівники класу D."
+      vi: "SCP-021 là một loài ký sinh bắt buộc trên cơ thể người. Do đó, việc lưu giữ nó không khó hơn việc giam giữ một người trưởng thành; phần lớn các phòng giam là đủ. Vật thể hiện được lưu giữ trong phòng giam 217-A, trên đối tượng D-139. Chỉ nhân viên cấp D mới đủ điều kiện làm vật chủ cho SCP-021."
+      zh: "SCP-021是人体的专性寄生生物。因此，收容它并不比收容一名成年人更难，大多数牢房即可胜任。本物品目前寄居于对象D-139身上，收容于拘留室217-A。只有D级人员有资格充当SCP-021的宿主。"
+      zh_Hant: "SCP-021是人體的專性寄生生物。因此，收容它並不比收容一名成年人更難，大多數牢房即可勝任。本物品目前寄居於對象D-139身上，收容於拘留室217-A。只有D級人員有資格充當SCP-021的宿主。"
+
+  - scene: >
+      Medium shot, waist-up, from behind and slightly to the side of
+      D-139. The elaborate SCP-021 dragon tattoo is caught mid-movement
+      across his back: its head has slid up onto his shoulder blade and
+      its tail curls at his lower back, with faint motion blur on the
+      ink. D-139's face is turned in three-quarter view, grimacing.
+    characters: [scp-021, scp-021-host]
+    caption:
+      ja: "SCP-021は、東洋様式の蛇のような竜を描いた、大きく精巧な入れ墨の形をとっており、皮膚のおよそ0.8平方メートルを覆っている。この入れ墨は宿主の皮膚の範囲内で完全に生きて動いており、二次元的ではあるものの、おおむね通常の動物のように振る舞う。"
+      en: "SCP-021 takes the form of a large and elaborate tattoo of a serpentine dragon in the oriental style, covering approximately 0.8 square meters of skin. This tattoo is fully animate within the confines of its host's skin and behaves largely as a normal animal would, albeit in only two dimensions."
+      cs: "SCP-021 má podobu velkého a propracovaného tetování hadovitého draka v orientálním stylu, které pokrývá přibližně 0,8 metru čtverečního kůže. Toto tetování je v mezích hostitelovy kůže plně živé a chová se převážně jako běžné zvíře, byť pouze ve dvou rozměrech."
+      de: "SCP-021 hat die Form einer großen, kunstvollen Tätowierung eines schlangenartigen Drachen im orientalischen Stil, die etwa 0,8 Quadratmeter Haut bedeckt. Diese Tätowierung ist innerhalb der Grenzen der Haut ihres Wirts vollständig lebendig und verhält sich weitgehend wie ein normales Tier, wenn auch nur in zwei Dimensionen."
+      es: "SCP-021 adopta la forma de un tatuaje grande y elaborado de un dragón serpentino de estilo oriental, que cubre aproximadamente 0,8 metros cuadrados de piel. Este tatuaje está plenamente animado dentro de los límites de la piel de su anfitrión y se comporta en gran medida como lo haría un animal normal, aunque solo en dos dimensiones."
+      fr: "SCP-021 prend la forme d'un grand tatouage élaboré représentant un dragon serpentin de style oriental, couvrant environ 0,8 mètre carré de peau. Ce tatouage est pleinement animé dans les limites de la peau de son hôte et se comporte en grande partie comme le ferait un animal normal, quoique seulement en deux dimensions."
+      it: "SCP-021 assume la forma di un grande ed elaborato tatuaggio di un drago serpentino in stile orientale, che copre circa 0,8 metri quadrati di pelle. Questo tatuaggio è pienamente animato entro i confini della pelle del suo ospite e si comporta in gran parte come farebbe un normale animale, sebbene solo in due dimensioni."
+      ko: "SCP-021은 동양풍의 뱀 같은 용을 그린 크고 정교한 문신의 형태를 취하며, 피부의 약 0.8제곱미터를 덮는다. 이 문신은 숙주의 피부 범위 안에서 완전히 살아 움직이며, 이차원적이기는 하나 대체로 평범한 동물처럼 행동한다."
+      pl: "SCP-021 przybiera postać dużego, misternego tatuażu przedstawiającego wężowatego smoka w stylu orientalnym, pokrywającego około 0,8 metra kwadratowego skóry. Tatuaż ten jest w pełni ożywiony w obrębie skóry swojego nosiciela i zachowuje się w dużej mierze jak zwykłe zwierzę, choć jedynie w dwóch wymiarach."
+      pt: "SCP-021 assume a forma de uma tatuagem grande e elaborada de um dragão serpentino de estilo oriental, cobrindo aproximadamente 0,8 metro quadrado de pele. Essa tatuagem é plenamente animada dentro dos limites da pele de seu hospedeiro e se comporta em grande parte como um animal normal, ainda que apenas em duas dimensões."
+      th: "SCP-021 มีรูปแบบเป็นรอยสักขนาดใหญ่และวิจิตรของมังกรคล้ายงูในสไตล์ตะวันออก ครอบคลุมผิวหนังประมาณ 0.8 ตารางเมตร รอยสักนี้มีชีวิตเคลื่อนไหวได้อย่างสมบูรณ์ภายในขอบเขตผิวหนังของผู้ให้อาศัย และมีพฤติกรรมส่วนใหญ่เหมือนสัตว์ทั่วไป แม้จะเป็นเพียงสองมิติ"
+      uk: "SCP-021 має вигляд великого й вигадливого татуювання зміїстого дракона в східному стилі, що вкриває приблизно 0,8 квадратного метра шкіри. Це татуювання цілком живе в межах шкіри свого носія й поводиться здебільшого як звичайна тварина, хоча лише у двох вимірах."
+      vi: "SCP-021 có hình dạng một hình xăm lớn và cầu kỳ về một con rồng dạng rắn theo phong cách phương Đông, bao phủ khoảng 0,8 mét vuông da. Hình xăm này sống động hoàn toàn trong phạm vi da của vật chủ và hành xử phần lớn như một con vật bình thường, dù chỉ trong hai chiều."
+      zh: "SCP-021呈现为一幅大型而精致的东方风格蛇形龙纹身，覆盖约0.8平方米的皮肤。该纹身在宿主皮肤范围内完全具有生命活动，行为大体如同普通动物，只是仅限于二维。"
+      zh_Hant: "SCP-021呈現為一幅大型而精緻的東方風格蛇形龍紋身，覆蓋約0.8平方公尺的皮膚。該紋身在宿主皮膚範圍內完全具有生命活動，行為大體如同普通動物，只是僅限於二維。"
+
+  - scene: >
+      Extreme close-up on D-139's forearm. An older, faded amateur anchor
+      tattoo is half gone; the SCP-021 dragon's head has stretched over
+      onto the forearm and is "devouring" the anchor, whose lines are
+      visibly thinning and vanishing where the dragon passes over them.
+    characters: [scp-021, scp-021-host]
+    caption:
+      ja: "SCP-021は、宿主の皮膚にある色素のみを餌としているように見える。しかし、この生物は他の入れ墨を著しく好み、天然の色素に手を出す前に、まずそれらを探し出して食べ尽くす。"
+      en: "SCP-021 appears to feed exclusively on pigments in the host's skin. However, the organism shows a marked preference for other tattoos and will seek out and devour these before resorting to natural pigments."
+      cs: "Zdá se, že SCP-021 se živí výhradně pigmenty v kůži hostitele. Organismus však výrazně upřednostňuje jiná tetování a nejprve je vyhledá a pohltí, než sáhne po přirozených pigmentech."
+      de: "SCP-021 scheint sich ausschließlich von Pigmenten in der Haut des Wirts zu ernähren. Der Organismus zeigt jedoch eine deutliche Vorliebe für andere Tätowierungen und sucht diese auf und verschlingt sie, bevor er auf natürliche Pigmente zurückgreift."
+      es: "SCP-021 parece alimentarse exclusivamente de los pigmentos de la piel del anfitrión. Sin embargo, el organismo muestra una marcada preferencia por otros tatuajes y los busca y devora antes de recurrir a los pigmentos naturales."
+      fr: "SCP-021 semble se nourrir exclusivement des pigments présents dans la peau de l'hôte. L'organisme montre toutefois une nette préférence pour les autres tatouages et les recherche et les dévore avant de se rabattre sur les pigments naturels."
+      it: "SCP-021 sembra nutrirsi esclusivamente dei pigmenti presenti nella pelle dell'ospite. Tuttavia, l'organismo mostra una marcata preferenza per altri tatuaggi e li cerca e li divora prima di ripiegare sui pigmenti naturali."
+      ko: "SCP-021은 숙주의 피부에 있는 색소만을 먹이로 삼는 것으로 보인다. 그러나 이 생물은 다른 문신을 뚜렷하게 선호하여, 천연 색소에 의존하기 전에 먼저 그것들을 찾아내 먹어 치운다."
+      pl: "SCP-021 zdaje się żywić wyłącznie pigmentami w skórze nosiciela. Organizm wykazuje jednak wyraźne upodobanie do innych tatuaży i najpierw je wyszukuje oraz pożera, zanim sięgnie po naturalne pigmenty."
+      pt: "SCP-021 parece alimentar-se exclusivamente dos pigmentos da pele do hospedeiro. No entanto, o organismo demonstra uma marcada preferência por outras tatuagens e as procura e devora antes de recorrer aos pigmentos naturais."
+      th: "SCP-021 ดูเหมือนกินเฉพาะเม็ดสีในผิวหนังของผู้ให้อาศัยเท่านั้น อย่างไรก็ตาม สิ่งมีชีวิตนี้ชอบรอยสักอื่น ๆ อย่างเห็นได้ชัด และจะตามหาและกินรอยสักเหล่านั้นก่อนที่จะหันไปกินเม็ดสีตามธรรมชาติ"
+      uk: "SCP-021, схоже, живиться виключно пігментами у шкірі носія. Однак організм виявляє помітну перевагу до інших татуювань і спершу відшукує та пожирає їх, перш ніж вдатися до природних пігментів."
+      vi: "SCP-021 dường như chỉ ăn các sắc tố trong da của vật chủ. Tuy nhiên, sinh vật này thể hiện sự ưa thích rõ rệt đối với các hình xăm khác và sẽ tìm kiếm rồi ngấu nghiến chúng trước khi phải dùng đến sắc tố tự nhiên."
+      zh: "SCP-021似乎只以宿主皮肤中的色素为食。然而，该生物明显偏好其他纹身，会先寻找并吞食这些纹身，然后才转而摄取天然色素。"
+      zh_Hant: "SCP-021似乎只以宿主皮膚中的色素為食。然而，該生物明顯偏好其他紋身，會先尋找並吞食這些紋身，然後才轉而攝取天然色素。"
+
+  - scene: >
+      Medium shot, waist-up. On the left side of the frame, Attending
+      Researcher (Male) leans in with a tattoo machine, quickly inking a
+      simple round apple outline onto D-139's upper arm. On the right side
+      of the frame, D-139 sits braced and wincing, while the SCP-021
+      dragon's head turns eagerly toward the fresh apple outline.
+    characters: [attending-researcher-m, scp-021-host, scp-021]
+    caption:
+      ja: "この生物は、1時間に0.6平方メートルを超える皮膚の色素を消し去ることができる。宿主に果物や小動物を（手早く）入れ墨として彫ることで、SCP-021に「餌を与える」ことができる。"
+      en: "The organism is capable of clearing over 0.6 square meters of skin per hour. One may 'feed' SCP-021 by (quickly) tattooing fruits or small animals on the host."
+      cs: "Organismus dokáže za hodinu vyčistit přes 0,6 metru čtverečního kůže. SCP-021 lze „nakrmit\" tím, že se hostiteli (rychle) vytetuje ovoce nebo malá zvířata."
+      de: "Der Organismus kann pro Stunde über 0,6 Quadratmeter Haut leerräumen. Man kann SCP-021 „füttern\", indem man dem Wirt (rasch) Früchte oder kleine Tiere auf die Haut tätowiert."
+      es: "El organismo es capaz de despejar más de 0,6 metros cuadrados de piel por hora. Se puede «alimentar» a SCP-021 tatuando (rápidamente) frutas o animales pequeños sobre el anfitrión."
+      fr: "L'organisme est capable de nettoyer plus de 0,6 mètre carré de peau par heure. On peut « nourrir » SCP-021 en tatouant (rapidement) des fruits ou de petits animaux sur l'hôte."
+      it: "L'organismo è in grado di ripulire oltre 0,6 metri quadrati di pelle all'ora. È possibile «nutrire» SCP-021 tatuando (rapidamente) frutti o piccoli animali sull'ospite."
+      ko: "이 생물은 시간당 0.6제곱미터가 넘는 피부의 색소를 지워 낼 수 있다. 숙주에게 과일이나 작은 동물을 (빠르게) 문신으로 새겨 SCP-021에게 '먹이를 줄' 수 있다."
+      pl: "Organizm potrafi oczyścić ponad 0,6 metra kwadratowego skóry na godzinę. SCP-021 można „nakarmić\", (szybko) tatuując na nosicielu owoce lub małe zwierzęta."
+      pt: "O organismo é capaz de limpar mais de 0,6 metro quadrado de pele por hora. É possível \"alimentar\" o SCP-021 tatuando (rapidamente) frutas ou pequenos animais no hospedeiro."
+      th: "สิ่งมีชีวิตนี้สามารถลบเม็ดสีบนผิวหนังได้มากกว่า 0.6 ตารางเมตรต่อชั่วโมง เราสามารถ 'ให้อาหาร' SCP-021 ได้โดยการสัก (อย่างรวดเร็ว) รูปผลไม้หรือสัตว์เล็ก ๆ ลงบนตัวผู้ให้อาศัย"
+      uk: "Організм здатний очистити понад 0,6 квадратного метра шкіри за годину. SCP-021 можна «нагодувати», (швидко) наносячи носієві татуювання фруктів або дрібних тварин."
+      vi: "Sinh vật này có thể xóa sạch hơn 0,6 mét vuông da mỗi giờ. Có thể \"cho SCP-021 ăn\" bằng cách xăm (thật nhanh) hình trái cây hoặc động vật nhỏ lên vật chủ."
+      zh: "该生物每小时能清除超过0.6平方米皮肤的色素。可以通过（迅速地）在宿主身上刺青水果或小动物来「喂食」SCP-021。"
+      zh_Hant: "該生物每小時能清除超過0.6平方公尺皮膚的色素。可以透過（迅速地）在宿主身上刺青水果或小動物來「餵食」SCP-021。"

@@ -1,0 +1,174 @@
+# SCP-062 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-062
+
+title:
+  en: "SCP-062"
+  ja: "SCP-062"
+  cs: "SCP-062"
+  de: "SCP-062"
+  es: "SCP-062"
+  fr: "SCP-062"
+  it: "SCP-062"
+  ko: "SCP-062"
+  pl: "SCP-062"
+  pt: "SCP-062"
+  th: "SCP-062"
+  uk: "SCP-062"
+  vi: "SCP-062"
+  zh: "SCP-062"
+  zh_Hant: "SCP-062"
+
+attribution:
+  article: "SCP-062"
+  author: "Unknown author, rewritten by Aelanna"
+  source_url: "http://scp-wiki.wikidot.com/scp-062"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+panels:
+  - scene: >
+      Wide establishing shot, low angle. Inside a small clean-room containment
+      cell with white walls and a sealed airlock door, a single unbranded
+      aluminum desktop computer tower sits alone on a low stainless pedestal
+      under bright even light. On the right side of the frame,
+      attending-researcher-f stands at a wall control panel in a lint-free
+      coverall, logging something on a clipboard.
+    notes: >
+      Panel-1 basis: "SCP-062 is stored in a dedicated containment cell at
+      Site ██ under clean room conditions"; experiments need two Level 3
+      approvals and independent power sources. Fixed facts: a plain desktop
+      computer treated as a contained anomaly. Free to restage: the
+      researcher's task, camera angle.
+    characters: [attending-researcher-f]
+    caption:
+      ja: "SCP-062はサイト██の専用収容室にクリーンルーム条件下で保管される。SCP-062に対するいかなる実験も、少なくとも2名のレベル3職員による事前の許可を必要とし、独立した電源のみを用いて行わなければならない。"
+      en: "SCP-062 is stored in a dedicated containment cell at Site ██ under clean room conditions. Any experimentation on SCP-062 must receive prior permission from at least two (2) Level 3 Personnel, and must only be performed with independent power sources."
+      cs: "SCP-062 je uchováváno ve vyhrazené kontejnmentové cele na Stanovišti ██ v podmínkách čistého prostoru. Jakýkoli experiment na SCP-062 musí předem schválit nejméně dva (2) pracovníci úrovně 3 a smí být prováděn výhradně s nezávislými zdroji napájení."
+      de: "SCP-062 wird in einer speziellen Containment-Zelle am Standort ██ unter Reinraumbedingungen aufbewahrt. Jedes Experiment an SCP-062 bedarf der vorherigen Genehmigung durch mindestens zwei (2) Mitarbeiter der Stufe 3 und darf ausschließlich mit unabhängigen Stromquellen durchgeführt werden."
+      es: "SCP-062 se almacena en una celda de contención específica en el Sitio ██ en condiciones de sala limpia. Cualquier experimentación con SCP-062 debe contar con la autorización previa de al menos dos (2) miembros del Personal de Nivel 3, y solo debe realizarse con fuentes de alimentación independientes."
+      fr: "SCP-062 est conservé dans une cellule de confinement dédiée au Site ██ dans des conditions de salle blanche. Toute expérimentation sur SCP-062 doit recevoir l'autorisation préalable d'au moins deux (2) membres du Personnel de Niveau 3 et ne doit être menée qu'avec des sources d'alimentation indépendantes."
+      it: "SCP-062 è conservato in una cella di contenimento dedicata presso il Sito ██ in condizioni di camera bianca. Qualsiasi sperimentazione su SCP-062 deve ricevere l'autorizzazione preventiva di almeno due (2) membri del Personale di Livello 3 e deve essere condotta esclusivamente con fonti di alimentazione indipendenti."
+      ko: "SCP-062는 사이트 ██의 전용 격리실에 클린룸 조건으로 보관된다. SCP-062에 대한 모든 실험은 최소 2명의 레벨 3 직원으로부터 사전 승인을 받아야 하며, 독립된 전원만을 사용하여 수행해야 한다."
+      pl: "SCP-062 przechowuje się w wydzielonej celi kontencyjnej w Placówce ██ w warunkach pomieszczenia czystego. Każdy eksperyment na SCP-062 wymaga uprzedniej zgody co najmniej dwóch (2) pracowników poziomu 3 i może być prowadzony wyłącznie z niezależnych źródeł zasilania."
+      pt: "O SCP-062 é armazenado em uma cela de contenção dedicada no Sítio ██ sob condições de sala limpa. Qualquer experimentação com o SCP-062 deve receber permissão prévia de pelo menos dois (2) funcionários de Nível 3 e só pode ser realizada com fontes de energia independentes."
+      th: "SCP-062 ถูกเก็บไว้ในห้องกักกันเฉพาะที่ไซต์ ██ ภายใต้สภาวะห้องปลอดเชื้อ การทดลองใดๆ กับ SCP-062 ต้องได้รับอนุญาตล่วงหน้าจากเจ้าหน้าที่ระดับ 3 อย่างน้อยสอง (2) คน และต้องดำเนินการโดยใช้แหล่งจ่ายไฟอิสระเท่านั้น"
+      uk: "SCP-062 зберігається у спеціальній камері утримання на Об'єкті ██ в умовах чистого приміщення. Будь-які експерименти над SCP-062 потребують попереднього дозволу щонайменше двох (2) співробітників рівня 3 і мають проводитися лише з незалежними джерелами живлення."
+      vi: "SCP-062 được lưu giữ trong một phòng ngăn chặn chuyên dụng tại Cơ sở ██ trong điều kiện phòng sạch. Mọi thí nghiệm trên SCP-062 phải được ít nhất hai (2) Nhân viên Cấp 3 cho phép trước, và chỉ được thực hiện với nguồn điện độc lập."
+      zh: "SCP-062存放于Site ██一间专用收容室中，并保持无尘室条件。对SCP-062的任何实验都必须事先获得至少两名（2）3级人员的许可，且只能使用独立电源进行。"
+      zh_Hant: "SCP-062存放於Site ██一間專用收容室中，並保持無塵室條件。對SCP-062的任何實驗都必須事先獲得至少兩名（2）3級人員的許可，且只能使用獨立電源進行。"
+
+  - scene: >
+      Medium close shot, eye level, at a workbench. The heavy aluminum
+      computer tower lies on its side on the bench. On the left side of the
+      frame, attending-researcher-m points at a patch of faint hand-scratched
+      marks near the rear of the case. On the right side of the frame,
+      attending-researcher-f leans in over the same spot holding a magnifying
+      glass, eyebrows raised.
+    notes: >
+      Panel-2 basis: unbranded aluminum-cased desktop, unusually heavy at
+      ~24 kg; "infomation is freedom [sic]" scratched into the casing near
+      the back, apparently with a key. Fixed facts: crude scratched writing
+      near the rear of the case. Do NOT render the words as readable text in
+      the image (image is text-free) - show only scratch marks. Free to
+      restage: poses.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "SCP-062は、製造元不明のアルミニウム筐体に収められた、ブランド表示のない個人用デスクトップコンピュータであるように見え、約24kgと異常に重い。筐体の背面付近には、鍵か類似の物で引っかいたとみられる『infomation is freedom [sic]』という文字が見つかっている。"
+      en: "SCP-062 appears to be an unbranded personal desktop computer housed in an aluminum case of indeterminate manufacture, and is unusually heavy at approximately 24kg. The words 'infomation is freedom [sic]' were found scratched into the casing near the back, apparently with a key or similar object."
+      cs: "SCP-062 se jeví jako neznačkový osobní stolní počítač uložený v hliníkové skříni neurčitého původu a je nezvykle těžký, přibližně 24 kg. Do skříně poblíž zadní strany byl vyryt, zřejmě klíčem či podobným předmětem, nápis „infomation is freedom [sic]“."
+      de: "SCP-062 erscheint als markenloser Personal-Desktop-Computer in einem Aluminiumgehäuse unbestimmter Herkunft und ist mit etwa 24 kg ungewöhnlich schwer. In das Gehäuse wurde nahe der Rückseite, offenbar mit einem Schlüssel oder ähnlichem Gegenstand, der Schriftzug „infomation is freedom [sic]“ eingeritzt."
+      es: "SCP-062 parece ser una computadora de escritorio personal sin marca alojada en una carcasa de aluminio de fabricación indeterminada, y es inusualmente pesada, de aproximadamente 24 kg. En la carcasa, cerca de la parte trasera, se hallaron rayadas —al parecer con una llave u objeto similar— las palabras 'infomation is freedom [sic]'."
+      fr: "SCP-062 se présente comme un ordinateur de bureau personnel sans marque logé dans un boîtier en aluminium de fabrication indéterminée, et il est anormalement lourd, environ 24 kg. Les mots « infomation is freedom [sic] » ont été retrouvés gravés dans le boîtier près de l'arrière, apparemment à l'aide d'une clé ou d'un objet similaire."
+      it: "SCP-062 appare come un personal computer da tavolo senza marca alloggiato in un telaio di alluminio di fabbricazione indeterminata, ed è insolitamente pesante, circa 24 kg. Sul telaio, vicino al retro, sono state trovate incise — apparentemente con una chiave o un oggetto simile — le parole 'infomation is freedom [sic]'."
+      ko: "SCP-062는 제조사를 알 수 없는 알루미늄 케이스에 담긴 상표 없는 개인용 데스크톱 컴퓨터로 보이며, 약 24kg으로 비정상적으로 무겁다. 케이스 뒷면 근처에는 열쇠나 유사한 물건으로 긁은 것으로 보이는 'infomation is freedom [sic]'이라는 문구가 발견되었다."
+      pl: "SCP-062 wygląda na bezmarkowy osobisty komputer stacjonarny w aluminiowej obudowie nieokreślonego pochodzenia i jest nietypowo ciężki, około 24 kg. W obudowie w pobliżu tylnej ścianki znaleziono wydrapany, najwyraźniej kluczem lub podobnym przedmiotem, napis „infomation is freedom [sic]”."
+      pt: "O SCP-062 parece ser um computador de mesa pessoal sem marca, alojado em um gabinete de alumínio de fabricação indeterminada, e é anormalmente pesado, cerca de 24 kg. No gabinete, perto da parte de trás, foram encontradas riscadas — aparentemente com uma chave ou objeto semelhante — as palavras 'infomation is freedom [sic]'."
+      th: "SCP-062 มีลักษณะเป็นคอมพิวเตอร์ตั้งโต๊ะส่วนบุคคลที่ไม่มียี่ห้อ บรรจุในตัวถังอะลูมิเนียมที่ไม่ทราบผู้ผลิต และหนักผิดปกติราว 24 กก. บนตัวถังใกล้ด้านหลังพบข้อความ 'infomation is freedom [sic]' ถูกขูดขีดไว้ ดูเหมือนใช้กุญแจหรือวัตถุคล้ายกัน"
+      uk: "SCP-062 має вигляд безмаркового персонального настільного комп'ютера в алюмінієвому корпусі невизначеного виробництва й важить незвично багато — приблизно 24 кг. На корпусі поблизу задньої стінки виявлено напис «infomation is freedom [sic]», продряпаний, вочевидь, ключем чи подібним предметом."
+      vi: "SCP-062 trông giống một máy tính để bàn cá nhân không nhãn hiệu, đặt trong vỏ nhôm không rõ nơi sản xuất, và nặng bất thường khoảng 24 kg. Trên vỏ máy gần mặt sau, người ta tìm thấy dòng chữ 'infomation is freedom [sic]' bị cào xước vào, dường như bằng chìa khóa hoặc vật tương tự."
+      zh: "SCP-062外观为一台无品牌标识的个人台式电脑，装在一个制造来源不明的铝制机箱内，重量异常，约24千克。机箱靠近背面处发现有人用钥匙或类似物件刻下的字样『infomation is freedom [sic]』。"
+      zh_Hant: "SCP-062外觀為一台無品牌標識的個人桌上型電腦，裝在一個製造來源不明的鋁製機箱內，重量異常，約24公斤。機箱靠近背面處發現有人用鑰匙或類似物件刻下的字樣「infomation is freedom [sic]」。"
+
+  - scene: >
+      Extreme close-up looking down into the opened computer case. The side
+      panel is off and the interior is almost entirely empty: a single bare
+      green circuit board with no chips, cables, drives, or fans sits where a
+      motherboard would be. attending-researcher-m's face and one hand appear
+      at the top edge of the frame, peering in and scratching his head with a
+      puzzled look.
+    notes: >
+      Panel-3 basis: interior is empty "except for a blank circuit board in
+      place of where the motherboard... would be"; will not function unless
+      the case is sealed; opening it while operating shuts it down. Fixed
+      facts: an impossibly empty interior. Free to restage: the researcher's
+      reaction, framing.
+    characters: [attending-researcher-m]
+    caption:
+      ja: "内部を調査した結果、SCP-062は、標準的なパソコンならマザーボードがあるはずの位置に何もない基板が1枚あるほかは空であることが判明した。SCP-062は筐体が完全に密閉されていなければ動作せず、動作中に筐体を開けようとすると直ちに停止する。"
+      en: "Inspection of its interior has revealed that SCP-062 is empty except for a blank circuit board in place of where the motherboard of a standard personal computer would be. SCP-062 will not function unless the case is completely sealed, and attempts to open the case while it is operating cause it to shut down immediately."
+      cs: "Prohlídka vnitřku odhalila, že SCP-062 je prázdné až na jednu holou desku plošných spojů na místě, kde by u běžného osobního počítače byla základní deska. SCP-062 nefunguje, dokud není skříň zcela uzavřena, a pokusy o otevření skříně za chodu způsobí okamžité vypnutí."
+      de: "Eine Untersuchung des Inneren ergab, dass SCP-062 leer ist, abgesehen von einer blanken Platine an der Stelle, an der bei einem normalen PC das Mainboard säße. SCP-062 funktioniert nur bei vollständig verschlossenem Gehäuse, und Versuche, das Gehäuse im Betrieb zu öffnen, führen zum sofortigen Abschalten."
+      es: "La inspección de su interior reveló que SCP-062 está vacío salvo por una placa de circuito en blanco en el lugar donde estaría la placa base de una computadora personal estándar. SCP-062 no funciona a menos que la carcasa esté completamente sellada, y los intentos de abrirla mientras está en funcionamiento provocan su apagado inmediato."
+      fr: "L'inspection de son intérieur a révélé que SCP-062 est vide, à l'exception d'une carte de circuit imprimé nue à l'endroit où se trouverait la carte mère d'un ordinateur personnel standard. SCP-062 ne fonctionne que si le boîtier est entièrement scellé, et toute tentative d'ouverture en cours de fonctionnement provoque son arrêt immédiat."
+      it: "L'ispezione del suo interno ha rivelato che SCP-062 è vuoto, salvo una scheda a circuito stampato nuda nel punto in cui, in un normale personal computer, si troverebbe la scheda madre. SCP-062 non funziona a meno che il telaio non sia completamente sigillato, e i tentativi di aprirlo mentre è in funzione ne causano lo spegnimento immediato."
+      ko: "내부를 검사한 결과, SCP-062는 일반 개인용 컴퓨터라면 메인보드가 있을 자리에 아무것도 없는 회로 기판 한 장이 있는 것 외에는 비어 있는 것으로 드러났다. SCP-062는 케이스가 완전히 밀폐되지 않으면 작동하지 않으며, 작동 중에 케이스를 열려고 하면 즉시 종료된다."
+      pl: "Oględziny wnętrza wykazały, że SCP-062 jest puste, jeśli nie liczyć czystej płytki drukowanej w miejscu, w którym w standardowym komputerze osobistym znajdowałaby się płyta główna. SCP-062 nie działa, dopóki obudowa nie jest całkowicie zamknięta, a próby otwarcia jej podczas pracy powodują natychmiastowe wyłączenie."
+      pt: "A inspeção de seu interior revelou que o SCP-062 está vazio, exceto por uma placa de circuito em branco no lugar onde ficaria a placa-mãe de um computador pessoal padrão. O SCP-062 não funciona a menos que o gabinete esteja completamente vedado, e tentativas de abri-lo em funcionamento causam seu desligamento imediato."
+      th: "การตรวจภายในพบว่า SCP-062 ว่างเปล่า เว้นแต่แผงวงจรเปล่าหนึ่งแผ่นในตำแหน่งที่คอมพิวเตอร์ส่วนบุคคลทั่วไปจะมีเมนบอร์ด SCP-062 จะไม่ทำงานเว้นแต่ตัวถังถูกปิดผนึกสนิท และการพยายามเปิดตัวถังขณะทำงานจะทำให้มันปิดตัวลงทันที"
+      uk: "Огляд нутрощів показав, що SCP-062 порожній, за винятком порожньої друкованої плати на місці, де у звичайному персональному комп'ютері була б материнська плата. SCP-062 не працює, доки корпус не закрито повністю, а спроби відкрити корпус під час роботи спричиняють негайне вимкнення."
+      vi: "Việc kiểm tra bên trong cho thấy SCP-062 rỗng, ngoại trừ một bảng mạch trống ở vị trí lẽ ra là bo mạch chủ của một máy tính cá nhân thông thường. SCP-062 không hoạt động trừ khi vỏ máy được đóng kín hoàn toàn, và việc cố mở vỏ khi máy đang chạy sẽ khiến nó tắt ngay lập tức."
+      zh: "对其内部的检查显示，SCP-062内部是空的，只有一块空白电路板位于标准个人电脑主板本应所在的位置。SCP-062在机箱完全密封前无法运行，运行时试图打开机箱会使其立即关机。"
+      zh_Hant: "對其內部的檢查顯示，SCP-062內部是空的，只有一塊空白電路板位於標準個人電腦主機板本應所在的位置。SCP-062在機箱完全密封前無法執行，執行時試圖打開機箱會使其立即關機。"
+
+  - scene: >
+      Medium-wide shot, eye level. The reassembled aluminum tower stands
+      sealed on the bench, connected to a monitor whose screen glows with an
+      unfamiliar wash of colored light and abstract shapes. On the left side
+      of the frame, attending-researcher-f reaches out toward the tower's
+      power button. On the right side of the frame, attending-researcher-m
+      presses a palm flat against his own face in weary exasperation.
+    notes: >
+      Panel-4 basis: SCP-062 "operates as expected for a normal desktop
+      computer with the exception that its performance, operating system,
+      contained data, and language appears to be different upon every
+      activation." Fixed facts: each boot is an unknown, unusable system.
+      Keep the screen text-free (abstract light only). Free to restage:
+      poses, exact gag.
+    characters: [attending-researcher-f, attending-researcher-m]
+    caption:
+      ja: "それにもかかわらず、SCP-062は通常のデスクトップコンピュータとして期待どおりに動作する。ただし、その性能、オペレーティングシステム、格納されているデータ、および言語は、起動するたびに異なっているように見える。"
+      en: "Despite this, SCP-062 operates as expected for a normal desktop computer, with the exception that its performance, operating system, contained data, and language appears to be different upon every activation."
+      cs: "Přesto SCP-062 funguje jako běžný stolní počítač, s tou výjimkou, že jeho výkon, operační systém, uložená data a jazyk se při každém zapnutí zdají být jiné."
+      de: "Dennoch funktioniert SCP-062 wie ein normaler Desktop-Computer, mit der Ausnahme, dass Leistung, Betriebssystem, enthaltene Daten und Sprache bei jeder Aktivierung anders zu sein scheinen."
+      es: "A pesar de ello, SCP-062 funciona como cabría esperar de una computadora de escritorio normal, con la salvedad de que su rendimiento, sistema operativo, datos contenidos e idioma parecen ser distintos en cada activación."
+      fr: "Malgré cela, SCP-062 fonctionne comme on l'attendrait d'un ordinateur de bureau normal, à ceci près que ses performances, son système d'exploitation, les données qu'il contient et sa langue semblent différer à chaque activation."
+      it: "Nonostante ciò, SCP-062 funziona come ci si aspetterebbe da un normale computer da tavolo, con l'eccezione che le sue prestazioni, il sistema operativo, i dati contenuti e la lingua sembrano essere diversi a ogni attivazione."
+      ko: "그럼에도 불구하고 SCP-062는 일반적인 데스크톱 컴퓨터처럼 정상적으로 작동하지만, 다만 그 성능, 운영 체제, 저장된 데이터, 언어가 켤 때마다 다른 것으로 보인다."
+      pl: "Mimo to SCP-062 działa jak zwykły komputer stacjonarny, z tym wyjątkiem, że jego wydajność, system operacyjny, zawarte dane i język zdają się być inne przy każdym uruchomieniu."
+      pt: "Apesar disso, o SCP-062 funciona como se esperaria de um computador de mesa normal, com a exceção de que seu desempenho, sistema operacional, dados contidos e idioma parecem ser diferentes a cada ativação."
+      th: "อย่างไรก็ตาม SCP-062 ทำงานได้ตามปกติเหมือนคอมพิวเตอร์ตั้งโต๊ะทั่วไป ยกเว้นว่าประสิทธิภาพ ระบบปฏิบัติการ ข้อมูลที่บรรจุอยู่ และภาษา ดูเหมือนจะแตกต่างกันในทุกครั้งที่เปิดเครื่อง"
+      uk: "Попри це, SCP-062 працює як звичайний настільний комп'ютер, за винятком того, що його продуктивність, операційна система, наявні дані та мова щоразу під час увімкнення видаються іншими."
+      vi: "Dù vậy, SCP-062 vẫn hoạt động bình thường như một máy tính để bàn thông thường, ngoại trừ việc hiệu năng, hệ điều hành, dữ liệu chứa bên trong và ngôn ngữ của nó dường như khác nhau mỗi lần khởi động."
+      zh: "尽管如此，SCP-062仍能像普通台式电脑一样正常运行，唯一的例外是，它的性能、操作系统、所含数据和语言在每次启动时似乎都不相同。"
+      zh_Hant: "儘管如此，SCP-062仍能像普通桌上型電腦一樣正常執行，唯一的例外是，它的效能、作業系統、所含資料和語言在每次啟動時似乎都不相同。"
+
+addendum:
+  ja: "補遺062-J：直近の起動の後、研究スタッフの誰一人として、SCP-062のオペレーティングシステムを識別することも、操作することも、6時間にわたって終了させることもできなかった。"
+  en: "Addendum 062-J: Following its most recent activation, no member of research staff was able to identify, navigate, or shut down SCP-062's operating system for six hours."
+  cs: "Dodatek 062-J: Po posledním zapnutí nedokázal žádný člen výzkumného týmu po dobu šesti hodin operační systém SCP-062 rozpoznat, ovládat ani vypnout."
+  de: "Anhang 062-J: Nach der jüngsten Aktivierung war sechs Stunden lang kein Mitglied des Forschungspersonals in der Lage, das Betriebssystem von SCP-062 zu identifizieren, zu bedienen oder herunterzufahren."
+  es: "Adenda 062-J: Tras su activación más reciente, ningún miembro del personal de investigación logró identificar, manejar ni apagar el sistema operativo de SCP-062 durante seis horas."
+  fr: "Addendum 062-J : Après sa dernière activation, aucun membre du personnel de recherche n'a pu identifier, utiliser ni éteindre le système d'exploitation de SCP-062 pendant six heures."
+  it: "Addendum 062-J: Dopo l'ultima attivazione, per sei ore nessun membro del personale di ricerca è riuscito a identificare, utilizzare o spegnere il sistema operativo di SCP-062."
+  ko: "부록 062-J: 가장 최근 켰을 때, 연구진 중 누구도 SCP-062의 운영 체제를 식별하거나 조작하거나 종료하지 못한 채 여섯 시간이 흘렀다."
+  pl: "Aneks 062-J: Po ostatnim uruchomieniu przez sześć godzin żaden członek personelu badawczego nie potrafił rozpoznać, obsłużyć ani wyłączyć systemu operacyjnego SCP-062."
+  pt: "Adendo 062-J: Após sua ativação mais recente, nenhum membro da equipe de pesquisa conseguiu identificar, operar ou desligar o sistema operacional do SCP-062 durante seis horas."
+  th: "ภาคผนวก 062-J: หลังการเปิดเครื่องครั้งล่าสุด ไม่มีสมาชิกทีมวิจัยคนใดสามารถระบุ ใช้งาน หรือปิดระบบปฏิบัติการของ SCP-062 ได้เป็นเวลาหกชั่วโมง"
+  uk: "Додаток 062-J: Після останнього ввімкнення протягом шести годин жоден зі співробітників дослідної групи не зміг розпізнати, керувати чи вимкнути операційну систему SCP-062."
+  vi: "Phụ lục 062-J: Sau lần khởi động gần nhất, suốt sáu giờ không một thành viên nào của nhóm nghiên cứu có thể nhận diện, thao tác hay tắt được hệ điều hành của SCP-062."
+  zh: "补遗062-J：在最近一次启动后，研究人员中无人能够识别、操作或关闭SCP-062的操作系统，长达六小时。"
+  zh_Hant: "補遺062-J：在最近一次啟動後，研究人員中無人能夠識別、操作或關閉SCP-062的作業系統，長達六小時。"

@@ -1,0 +1,147 @@
+# SCP-009 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。変換過程のグロ描写は扱わず、物質の性質と収容運用に寄せる。
+
+id: scp-009
+
+title:
+  ja: "SCP-009：赤い氷"
+  en: "SCP-009: Red Ice"
+  cs: "SCP-009: Rudý led"
+  de: "SCP-009: Rotes Eis"
+  es: "SCP-009: Hielo rojo"
+  fr: "SCP-009 : Glace rouge"
+  it: "SCP-009: Ghiaccio rosso"
+  ko: "SCP-009: 붉은 얼음"
+  pl: "SCP-009: Czerwony lód"
+  pt: "SCP-009: Gelo vermelho"
+  th: "SCP-009: น้ำแข็งสีแดง"
+  uk: "SCP-009: Червоний лід"
+  vi: "SCP-009: Băng đỏ"
+  zh: "SCP-009：红冰"
+  zh_Hant: "SCP-009：紅冰"
+
+attribution:
+  article: "SCP-009"
+  author: "Chameleon X"
+  source_url: "http://scp-wiki.wikidot.com/scp-009"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-009:
+    name: SCP-009
+    appearance: >
+      SCP-009, a quantity of liquid that looks exactly like clear water but
+      with a vivid bright red hue (color RGB 200,30,30). The red is equally
+      clear whether it is a liquid, a block of solid ice, or a faint vapor.
+      Always shown sealed inside a transparent heavy containment vessel,
+      never as an open puddle or spill.
+    default_look: >
+      A clear sealed cylindrical vessel about half full of the bright red
+      liquid, standing on a frost-covered rack.
+
+characters: [attending-researcher-m, attending-researcher-f, scp-009]
+
+panels:
+  - scene: >
+      Wide establishing shot, full body, eye level, showing a heavily
+      refrigerated concrete containment chamber with thick white frost on
+      every surface. In the center stands a large sealed heat-resistant
+      alloy tank wrapped in three separate sets of cooling pipes. A wall
+      pictogram shows a crossed-out water droplet (no letters). At the
+      doorway on the right, Attending Researcher (Male) and Attending
+      Researcher (Female) stand side by side in full sealed environmental
+      protection suits with hoods and clear visors, gloves, no bare skin
+      visible, one holding a clipboard.
+    characters: [attending-researcher-m, attending-researcher-f]
+    caption:
+      ja: "SCP-009は、試験を行っていない間、いかなる状況においても0℃を超える温度にさらされてはならず、対象の収容区域から30メートル以内に水性の溶液を一切持ち込んではならない。"
+      en: "Under no circumstances should SCP-009 be exposed to temperatures in excess of 0°C when not undergoing testing, and no water-based solutions shall be allowed within 30 meters of the object's containment area."
+      cs: "SCP-009 nesmí být za žádných okolností vystaven teplotám vyšším než 0 °C, pokud neprobíhá testování, a v okruhu 30 metrů od kontejnmentové oblasti objektu nesmějí být povoleny žádné roztoky na bázi vody."
+      de: "SCP-009 darf unter keinen Umständen Temperaturen über 0 °C ausgesetzt werden, wenn keine Tests durchgeführt werden, und innerhalb von 30 Metern um den Containmentbereich des Objekts dürfen keine wasserbasierten Lösungen zugelassen werden."
+      es: "Bajo ninguna circunstancia debe exponerse a SCP-009 a temperaturas superiores a 0 °C cuando no se estén realizando pruebas, y no se permitirá ninguna solución acuosa a menos de 30 metros del área de contención del objeto."
+      fr: "SCP-009 ne doit en aucun cas être exposé à des températures supérieures à 0 °C lorsqu'aucun test n'est en cours, et aucune solution aqueuse ne doit être autorisée dans un rayon de 30 mètres autour de la zone de confinement de l'objet."
+      it: "In nessun caso SCP-009 deve essere esposto a temperature superiori a 0 °C quando non è in corso alcun test, e non è consentita alcuna soluzione a base acquosa entro 30 metri dall'area di contenimento dell'oggetto."
+      ko: "SCP-009은 시험을 진행하지 않는 동안 어떠한 경우에도 0℃를 초과하는 온도에 노출되어서는 안 되며, 대상의 격리 구역으로부터 30미터 이내에는 어떠한 수용액도 허용되지 않는다."
+      pl: "W żadnym wypadku SCP-009 nie może być wystawiony na temperatury przekraczające 0 °C, gdy nie są prowadzone testy, a w promieniu 30 metrów od obszaru przechowywania obiektu nie wolno dopuszczać żadnych roztworów wodnych."
+      pt: "Sob nenhuma circunstância o SCP-009 deve ser exposto a temperaturas superiores a 0 °C quando não estiver sendo testado, e nenhuma solução aquosa será permitida a menos de 30 metros da área de contenção do objeto."
+      th: "ไม่ว่าในกรณีใดก็ตาม ห้ามให้ SCP-009 สัมผัสกับอุณหภูมิที่สูงกว่า 0 องศาเซลเซียสในขณะที่ไม่ได้อยู่ระหว่างการทดสอบ และห้ามนำสารละลายที่มีน้ำเป็นองค์ประกอบเข้ามาในระยะ 30 เมตรจากพื้นที่กักเก็บของวัตถุ"
+      uk: "За жодних обставин SCP-009 не можна піддавати температурам вище 0 °C, коли не проводяться випробування, і в межах 30 метрів від зони утримання об'єкта не дозволяються жодні водні розчини."
+      vi: "Trong mọi trường hợp, không được để SCP-009 tiếp xúc với nhiệt độ vượt quá 0 °C khi không tiến hành thử nghiệm, và không được phép có bất kỳ dung dịch gốc nước nào trong phạm vi 30 mét quanh khu vực lưu giữ vật thể."
+      zh: "在未进行测试时，任何情况下都不得使SCP-009暴露于超过0℃的温度，且该对象收容区域30米范围内不得存在任何水基溶液。"
+      zh_Hant: "在未進行測試時，任何情況下都不得使SCP-009暴露於超過0℃的溫度，且該對象收容區域30公尺範圍內不得存在任何水基溶液。"
+
+  - scene: >
+      Medium shot, waist-up. A clear sealed cylindrical vessel of bright
+      red SCP-009 liquid sits on a frosted metal rack, a dial gauge beside
+      it. On the right side of the frame, Attending Researcher (Female)
+      leans in and shines a flashlight through the vessel, the red liquid
+      glowing vividly where the beam passes through it.
+    characters: [attending-researcher-f, scp-009]
+    caption:
+      ja: "SCP-009は、蒸留水（H2O）に表面上よく似た物質およそ███リットルであるが、はっきりとした鮮やかな赤色を帯びている点が異なる。この赤色はすべての相において識別可能であり、異常性が発現する前に汚染された物質を特定する最も簡便な方法となる。"
+      en: "SCP-009 is approximately ███ liters of a substance which superficially resembles distilled water (H2O), except with a distinct bright red hue. This red hue is discernible in all phases, and serves as the most expedient method of identifying contaminated matter before its anomalous properties manifest."
+      cs: "SCP-009 je přibližně ███ litrů látky, která navenek připomíná destilovanou vodu (H2O), s tou výjimkou, že má výrazně jasně červený odstín. Tento červený odstín je rozpoznatelný ve všech skupenstvích a slouží jako nejrychlejší způsob identifikace kontaminované hmoty dříve, než se projeví její anomální vlastnosti."
+      de: "SCP-009 sind etwa ███ Liter einer Substanz, die oberflächlich destilliertem Wasser (H2O) ähnelt, jedoch einen deutlich leuchtend roten Farbton aufweist. Dieser rote Farbton ist in allen Aggregatzuständen erkennbar und dient als schnellstes Mittel, um kontaminierte Materie zu identifizieren, bevor ihre anomalen Eigenschaften auftreten."
+      es: "SCP-009 consiste en aproximadamente ███ litros de una sustancia que superficialmente se asemeja al agua destilada (H2O), salvo por un marcado tono rojo brillante. Este tono rojo es perceptible en todas las fases y constituye el método más rápido para identificar la materia contaminada antes de que se manifiesten sus propiedades anómalas."
+      fr: "SCP-009 correspond à environ ███ litres d'une substance qui ressemble superficiellement à de l'eau distillée (H2O), à l'exception d'une teinte rouge vif marquée. Cette teinte rouge est perceptible dans toutes les phases et constitue le moyen le plus rapide d'identifier la matière contaminée avant que ses propriétés anormales ne se manifestent."
+      it: "SCP-009 è costituito da circa ███ litri di una sostanza che superficialmente ricorda l'acqua distillata (H2O), tranne che per una netta tonalità rosso vivo. Questa tonalità rossa è distinguibile in tutte le fasi e rappresenta il metodo più rapido per identificare la materia contaminata prima che se ne manifestino le proprietà anomale."
+      ko: "SCP-009은 증류수(H2O)와 표면적으로 유사한 물질 약 ███리터이나, 뚜렷한 선홍색을 띤다는 점이 다르다. 이 붉은색은 모든 상(相)에서 식별 가능하며, 이상 특성이 발현되기 전에 오염된 물질을 파악하는 가장 신속한 방법이 된다."
+      pl: "SCP-009 to około ███ litrów substancji, która z pozoru przypomina wodę destylowaną (H2O), z wyjątkiem wyraźnego jaskrawoczerwonego zabarwienia. To czerwone zabarwienie jest widoczne we wszystkich stanach skupienia i stanowi najszybszą metodę rozpoznania skażonej materii, zanim ujawnią się jej anomalne właściwości."
+      pt: "SCP-009 consiste em aproximadamente ███ litros de uma substância que superficialmente se assemelha à água destilada (H2O), exceto por uma nítida tonalidade vermelho-viva. Essa tonalidade vermelha é perceptível em todas as fases e constitui o método mais rápido de identificar matéria contaminada antes que suas propriedades anômalas se manifestem."
+      th: "SCP-009 คือของเหลวปริมาณประมาณ ███ ลิตร ซึ่งภายนอกดูคล้ายน้ำกลั่น (H2O) เว้นแต่มีสีแดงสดชัดเจน สีแดงนี้สังเกตได้ในทุกสถานะ และเป็นวิธีที่รวดเร็วที่สุดในการระบุสสารที่ปนเปื้อนก่อนที่คุณสมบัติผิดปกติจะแสดงออกมา"
+      uk: "SCP-009 — це приблизно ███ літрів речовини, яка зовні нагадує дистильовану воду (H2O), окрім виразного яскраво-червоного відтінку. Цей червоний відтінок помітний у всіх фазах і є найшвидшим способом виявити заражену матерію до того, як проявляться її аномальні властивості."
+      vi: "SCP-009 là khoảng ███ lít một chất bề ngoài giống nước cất (H2O), ngoại trừ có sắc đỏ tươi rõ rệt. Sắc đỏ này nhận biết được ở mọi thể, và là cách nhanh nhất để xác định vật chất bị nhiễm trước khi các đặc tính dị thường của nó biểu hiện."
+      zh: "SCP-009约为███升的一种物质，表面上类似蒸馏水（H2O），但带有明显的鲜红色。该红色在所有相态下均可辨识，是在异常性质显现之前识别受污染物质的最便捷方法。"
+      zh_Hant: "SCP-009約為███公升的一種物質，表面上類似蒸餾水（H2O），但帶有明顯的鮮紅色。該紅色在所有相態下均可辨識，是在異常性質顯現之前識別受污染物質的最便捷方法。"
+
+  - scene: >
+      Extreme close-up on the same clear sealed vessel, now standing on a
+      plain wooden table in an ordinary warm room with no frost anywhere.
+      Its contents have turned into a solid block of bright red ice.
+      Beads of condensation run down the warm outer glass, and a small
+      heat lamp glows just out of frame, casting warm light across it.
+    characters: [scp-009]
+    caption:
+      ja: "通常の水とは対照的に、SCP-009は-100℃から0℃の温度で液相をとり、それより高い温度では固体状態となる。-100℃を下回る温度では、SCP-009は蒸気に似た気相へと気化する。"
+      en: "In contrast to mundane water, SCP-009 assumes a liquid phase at temperatures between -100°C and 0°C, and a solid state above those temperatures. At temperatures below -100°C, SCP-009 vaporizes into a gaseous phase similar to steam."
+      cs: "Na rozdíl od běžné vody nabývá SCP-009 kapalného skupenství při teplotách mezi -100 °C a 0 °C a pevného skupenství při teplotách vyšších. Při teplotách pod -100 °C se SCP-009 vypařuje do plynného skupenství podobného páře."
+      de: "Im Gegensatz zu gewöhnlichem Wasser nimmt SCP-009 bei Temperaturen zwischen -100 °C und 0 °C einen flüssigen Zustand an und oberhalb dieser Temperaturen einen festen Zustand. Bei Temperaturen unter -100 °C verdampft SCP-009 zu einer dampfähnlichen Gasphase."
+      es: "A diferencia del agua común, SCP-009 adopta una fase líquida a temperaturas entre -100 °C y 0 °C, y un estado sólido por encima de esas temperaturas. A temperaturas inferiores a -100 °C, SCP-009 se vaporiza en una fase gaseosa similar al vapor."
+      fr: "Contrairement à l'eau ordinaire, SCP-009 adopte une phase liquide à des températures comprises entre -100 °C et 0 °C, et un état solide au-dessus de ces températures. En dessous de -100 °C, SCP-009 se vaporise en une phase gazeuse semblable à de la vapeur."
+      it: "A differenza dell'acqua comune, SCP-009 assume una fase liquida a temperature comprese tra -100 °C e 0 °C, e uno stato solido al di sopra di tali temperature. A temperature inferiori a -100 °C, SCP-009 si vaporizza in una fase gassosa simile al vapore."
+      ko: "일반적인 물과 달리, SCP-009은 -100℃에서 0℃ 사이의 온도에서 액상을 띠고, 그보다 높은 온도에서는 고체 상태가 된다. -100℃ 미만의 온도에서는 SCP-009이 수증기와 유사한 기상으로 기화한다."
+      pl: "W przeciwieństwie do zwykłej wody SCP-009 przyjmuje stan ciekły w temperaturach od -100 °C do 0 °C, a stan stały powyżej tych temperatur. W temperaturach poniżej -100 °C SCP-009 przechodzi w fazę gazową podobną do pary."
+      pt: "Ao contrário da água comum, o SCP-009 assume uma fase líquida em temperaturas entre -100 °C e 0 °C, e um estado sólido acima dessas temperaturas. Em temperaturas abaixo de -100 °C, o SCP-009 vaporiza-se em uma fase gasosa semelhante ao vapor."
+      th: "ต่างจากน้ำทั่วไป SCP-009 จะอยู่ในสถานะของเหลวที่อุณหภูมิระหว่าง -100 ถึง 0 องศาเซลเซียส และอยู่ในสถานะของแข็งที่อุณหภูมิสูงกว่านั้น ที่อุณหภูมิต่ำกว่า -100 องศาเซลเซียส SCP-009 จะระเหยกลายเป็นสถานะแก๊สคล้ายไอน้ำ"
+      uk: "На відміну від звичайної води, SCP-009 перебуває в рідкому стані за температур від -100 °C до 0 °C і в твердому стані за вищих температур. За температур нижче -100 °C SCP-009 випаровується в газоподібний стан, схожий на пару."
+      vi: "Khác với nước thông thường, SCP-009 ở thể lỏng tại nhiệt độ từ -100 °C đến 0 °C, và ở thể rắn khi cao hơn các mức đó. Ở nhiệt độ dưới -100 °C, SCP-009 bay hơi thành thể khí tương tự hơi nước."
+      zh: "与普通水相反，SCP-009在-100℃至0℃的温度下呈液相，在高于该温度时呈固态。在低于-100℃的温度下，SCP-009会汽化为类似蒸汽的气相。"
+      zh_Hant: "與普通水相反，SCP-009在-100℃至0℃的溫度下呈液相，在高於該溫度時呈固態。在低於-100℃的溫度下，SCP-009會汽化為類似蒸汽的氣相。"
+
+  - scene: >
+      Medium-wide two-shot inside a decontamination bay. On the left side
+      of the frame, Attending Researcher (Female) works a wall control
+      panel and watches a large 12-hour timer dial. On the right side of
+      the frame, Attending Researcher (Male) stands inside a glass
+      dehydration booth with warm-air vents blowing upward around him,
+      arms held out from his sides, waiting.
+    characters: [attending-researcher-f, attending-researcher-m]
+    caption:
+      ja: "試験の後、すべての器材、要員、その他の物資は脱水処理を受け、12時間以上隔離されなければならない。"
+      en: "Following testing, all equipment, personnel, and other materials must undergo dehydration procedures and be quarantined for no less than 12 hours."
+      cs: "Po testování musí veškeré vybavení, personál a další materiály projít dehydratačními procedurami a být v karanténě po dobu nejméně 12 hodin."
+      de: "Nach den Tests müssen alle Geräte, das Personal und sonstige Materialien Dehydrierungsverfahren durchlaufen und für mindestens 12 Stunden unter Quarantäne gestellt werden."
+      es: "Tras las pruebas, todo el equipo, el personal y los demás materiales deben someterse a procedimientos de deshidratación y permanecer en cuarentena durante no menos de 12 horas."
+      fr: "Après les tests, tout le matériel, le personnel et les autres éléments doivent subir des procédures de déshydratation et être mis en quarantaine pendant au moins 12 heures."
+      it: "Dopo i test, tutte le attrezzature, il personale e gli altri materiali devono essere sottoposti a procedure di disidratazione e messi in quarantena per non meno di 12 ore."
+      ko: "시험 후, 모든 장비, 인원 및 기타 물자는 탈수 절차를 거쳐 최소 12시간 이상 격리되어야 한다."
+      pl: "Po testach cały sprzęt, personel i pozostałe materiały muszą przejść procedury odwadniania i zostać poddane kwarantannie przez co najmniej 12 godzin."
+      pt: "Após os testes, todo o equipamento, o pessoal e os demais materiais devem passar por procedimentos de desidratação e permanecer em quarentena por no mínimo 12 horas."
+      th: "หลังการทดสอบ อุปกรณ์ บุคลากร และวัสดุอื่น ๆ ทั้งหมดต้องผ่านกระบวนการกำจัดความชื้นและถูกกักกันเป็นเวลาไม่น้อยกว่า 12 ชั่วโมง"
+      uk: "Після випробувань усе обладнання, персонал та інші матеріали повинні пройти процедури зневоднення й перебувати в карантині не менше ніж 12 годин."
+      vi: "Sau khi thử nghiệm, toàn bộ thiết bị, nhân sự và các vật liệu khác phải trải qua quy trình khử nước và được cách ly trong không dưới 12 giờ."
+      zh: "测试结束后，所有设备、人员及其他物资必须接受脱水处理，并隔离不少于12小时。"
+      zh_Hant: "測試結束後，所有設備、人員及其他物資必須接受脫水處理，並隔離不少於12小時。"

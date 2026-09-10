@@ -1,0 +1,186 @@
+# SCP-067 4コマ台本
+# captionは記事本文（Special Containment Procedures / Description）からの引用。
+# キャラにセリフは言わせない。
+
+id: scp-067
+
+title:
+  en: "SCP-067"
+  ja: "SCP-067"
+  cs: "SCP-067"
+  de: "SCP-067"
+  es: "SCP-067"
+  fr: "SCP-067"
+  it: "SCP-067"
+  ko: "SCP-067"
+  pl: "SCP-067"
+  pt: "SCP-067"
+  th: "SCP-067"
+  uk: "SCP-067"
+  vi: "SCP-067"
+  zh: "SCP-067"
+  zh_Hant: "SCP-067"
+
+attribution:
+  article: "SCP-067"
+  author: "FritzWillie"
+  source_url: "http://scp-wiki.wikidot.com/scp-067"
+  license: "CC BY-SA 3.0"
+
+object_class: Safe
+
+local_characters:
+  scp-067:
+    name: SCP-067
+    appearance: >
+      A slim vintage 1920s-1940s Pelikan fountain pen with a pale sage-green
+      barrel (color RGB 150,175,135), a single straight thin red line (color
+      RGB 170,45,40) running down one side, a dark oak grip section, and an
+      unusually long, very sharp gold nib. It writes in near-black iron gall
+      ink.
+    default_look: >
+      Lying in its felt-lined wooden box, or held in a hand while writing or
+      drawing on its own. Render no letters, words, or numbers anywhere; any
+      writing or artwork it produces is shown only as dense abstract marks,
+      scribbled lines, and intricate non-letter patterns.
+
+panels:
+  - scene: >
+      Medium shot, eye level, at a plain lab table. An open felt-lined wooden
+      box holds SCP-067 in a fitted groove. attending-researcher-m, gloved,
+      carefully presses a tiny cork onto the long sharp nib with both hands,
+      leaning in with careful attention.
+    notes: >
+      Panel-1 basis: "When not in use or the subject of study, SCP-067 is to
+      be stored in its felt-lined wooden box. The nib is to be corked, and
+      all art and writings are to be submitted to SCP Research command."
+      Fixed facts: stored in a felt-lined box, nib corked. Free to restage:
+      the researcher's handling, framing.
+    characters: [attending-researcher-m, scp-067]
+    caption:
+      ja: "使用中または研究対象となっている場合を除き、SCP-067はフェルト張りの木箱に保管される。ペン先には栓をし、すべての美術作品および文書はSCP研究司令部へ提出し、分析およびさらなる実験に供する。"
+      en: "When not in use or the subject of study, SCP-067 is to be stored in its felt-lined wooden box. The nib is to be corked, and all art and writings are to be submitted to SCP Research command for analysis and further experimentation."
+      cs: "Není-li SCP-067 používáno ani zkoumáno, uchovává se ve své dřevěné krabičce vyložené plstí. Hrot musí být zazátkován a veškeré kresby i zápisy se předávají velení výzkumu SCP k analýze a dalším experimentům."
+      de: "Wird SCP-067 nicht benutzt oder untersucht, ist es in seiner mit Filz ausgekleideten Holzschachtel aufzubewahren. Die Feder ist mit einem Korken zu verschließen, und alle Kunstwerke und Schriften sind zur Analyse und für weitere Experimente an das SCP-Forschungskommando zu übergeben."
+      es: "Cuando no está en uso ni siendo objeto de estudio, SCP-067 debe guardarse en su caja de madera forrada de fieltro. La plumilla debe taparse con un corcho, y todos los dibujos y escritos deben entregarse al mando de Investigación SCP para su análisis y experimentación adicional."
+      fr: "Lorsqu'il n'est ni utilisé ni étudié, SCP-067 doit être conservé dans son coffret en bois doublé de feutre. La plume doit être bouchée avec un liège, et tous les dessins et écrits doivent être remis au commandement de la Recherche SCP à des fins d'analyse et d'expérimentation."
+      it: "Quando non è in uso né oggetto di studio, SCP-067 va conservato nella sua scatola di legno foderata di feltro. Il pennino va tappato con un sughero e tutti i disegni e gli scritti vanno consegnati al comando Ricerca SCP per l'analisi e ulteriori esperimenti."
+      ko: "사용 중이거나 연구 대상이 아닐 때, SCP-067은 펠트를 덧댄 나무 상자에 보관한다. 펜촉은 코르크로 막아야 하며, 모든 그림과 글은 분석 및 추가 실험을 위해 SCP 연구 사령부로 제출한다."
+      pl: "Gdy SCP-067 nie jest używane ani badane, należy przechowywać je w wyściełanym filcem drewnianym pudełku. Stalówkę należy zatkać korkiem, a wszystkie rysunki i zapiski przekazać dowództwu Badań SCP do analizy i dalszych eksperymentów."
+      pt: "Quando não está em uso nem sendo objeto de estudo, o SCP-067 deve ser guardado em sua caixa de madeira forrada de feltro. A pena deve ser tampada com uma rolha, e todos os desenhos e escritos devem ser entregues ao comando de Pesquisa SCP para análise e experimentação adicional."
+      th: "เมื่อไม่ได้ใช้งานหรือไม่ได้เป็นวัตถุศึกษา ต้องเก็บ SCP-067 ไว้ในกล่องไม้บุสักหลาด ต้องอุดปลายปากกาด้วยจุกไม้ก๊อก และงานศิลปะกับงานเขียนทั้งหมดต้องส่งให้กองบัญชาการวิจัย SCP เพื่อวิเคราะห์และทดลองเพิ่มเติม"
+      uk: "Коли SCP-067 не використовують і не досліджують, його зберігають у дерев'яній коробці, викладеній фетром. Перо має бути закорковане, а всі малюнки й записи передаються командуванню дослідження SCP для аналізу та подальших експериментів."
+      vi: "Khi không được sử dụng hoặc nghiên cứu, SCP-067 phải được cất trong hộp gỗ lót nỉ của nó. Ngòi bút phải được bịt bằng nút bần, và mọi tác phẩm nghệ thuật cùng bản viết phải được nộp cho bộ chỉ huy Nghiên cứu SCP để phân tích và thí nghiệm thêm."
+      zh: "在不使用或不作为研究对象时，SCP-067须存放在其毛毡内衬的木盒中。笔尖须以软木塞封住，所有画作与文字均须提交SCP研究指挥部进行分析与进一步实验。"
+      zh_Hant: "在不使用或不作為研究對象時，SCP-067須存放在其毛氈內襯的木盒中。筆尖須以軟木塞封住，所有畫作與文字均須提交SCP研究指揮部進行分析與進一步實驗。"
+
+  - scene: >
+      Extreme macro close-up. SCP-067 is held upright between
+      attending-researcher-f's gloved fingertips, filling the frame, its long
+      pointed nib angled toward the viewer with a single dark bead of ink
+      hanging at the very tip. Her fingers hold it gingerly, well back from
+      the point.
+    notes: >
+      Panel-2 basis: "SCP-067 is a fountain pen made by... Pelikan... between
+      World War I and II. It is pale green in color, with a single red line
+      going straight down along the side. The shell is oak and the nib is
+      extremely sharp, capable of piercing human skin if pressed even
+      lightly." Fixed facts: pale green pen, one red line, oak body, needle
+      nib. Keep it non-gory (no wounds). Free to restage: grip, framing.
+    characters: [attending-researcher-f, scp-067]
+    caption:
+      ja: "SCP-067は、第一次世界大戦と第二次世界大戦の間のいずれかの時期に、ペリカンというドイツの用品会社によって製造された万年筆である。色は淡い緑色で、側面に沿ってまっすぐ1本の赤い線が入っている。軸はオーク材で、ペン先は極めて鋭く、軽く押し当てただけでも人間の皮膚を貫くことができる。"
+      en: "SCP-067 is a fountain pen made by a German supply company called Pelikan at some point between World War I and II. It is pale green in color, with a single red line going straight down along the side. The shell is oak and the nib is extremely sharp, capable of piercing human skin if pressed even lightly."
+      cs: "SCP-067 je plnicí pero vyrobené německou firmou Pelikan někdy mezi první a druhou světovou válkou. Má světle zelenou barvu s jedinou rovnou červenou linkou vedoucí podél boku. Tělo je z dubového dřeva a hrot je mimořádně ostrý, schopný proniknout lidskou kůží i při lehkém přitlačení."
+      de: "SCP-067 ist ein Füllfederhalter, den die deutsche Bürobedarfsfirma Pelikan irgendwann zwischen dem Ersten und dem Zweiten Weltkrieg herstellte. Er ist blassgrün und hat eine einzelne gerade rote Linie an der Seite. Der Korpus besteht aus Eiche, und die Feder ist äußerst scharf und kann menschliche Haut schon bei leichtem Andrücken durchstechen."
+      es: "SCP-067 es una pluma estilográfica fabricada por una empresa alemana de material de oficina llamada Pelikan en algún momento entre la Primera y la Segunda Guerra Mundial. Es de color verde claro, con una única línea roja recta a lo largo de un costado. El cuerpo es de roble y la plumilla es extremadamente afilada, capaz de perforar la piel humana incluso si se presiona levemente."
+      fr: "SCP-067 est un stylo-plume fabriqué par une entreprise allemande de fournitures nommée Pelikan à un moment situé entre la Première et la Seconde Guerre mondiale. Il est de couleur vert pâle, avec une unique ligne rouge droite le long du côté. Le corps est en chêne et la plume est extrêmement acérée, capable de percer la peau humaine même sous une légère pression."
+      it: "SCP-067 è una penna stilografica prodotta da un'azienda tedesca di forniture chiamata Pelikan in un periodo compreso tra la Prima e la Seconda guerra mondiale. È di colore verde chiaro, con un'unica linea rossa dritta lungo il fianco. Il corpo è in rovere e il pennino è estremamente affilato, in grado di perforare la pelle umana anche se premuto lievemente."
+      ko: "SCP-067은 제1차 세계대전과 제2차 세계대전 사이 어느 시점에 펠리칸이라는 독일 용품 회사가 만든 만년필이다. 색은 옅은 녹색이며 옆면을 따라 곧게 뻗은 붉은 선이 하나 있다. 몸통은 참나무이고 펜촉은 매우 날카로워, 가볍게만 눌러도 사람의 피부를 뚫을 수 있다."
+      pl: "SCP-067 to wieczne pióro wyprodukowane przez niemiecką firmę biurową Pelikan w jakimś momencie między pierwszą a drugą wojną światową. Ma bladozieloną barwę z pojedynczą prostą czerwoną linią biegnącą wzdłuż boku. Korpus jest z dębiny, a stalówka niezwykle ostra, zdolna przebić ludzką skórę nawet przy lekkim nacisku."
+      pt: "O SCP-067 é uma caneta-tinteiro fabricada por uma empresa alemã de materiais chamada Pelikan em algum momento entre a Primeira e a Segunda Guerra Mundial. É de cor verde-clara, com uma única linha vermelha reta ao longo da lateral. O corpo é de carvalho e a pena é extremamente afiada, capaz de perfurar a pele humana mesmo sob leve pressão."
+      th: "SCP-067 คือปากกาหมึกซึมที่ผลิตโดยบริษัทเครื่องเขียนเยอรมันชื่อเพลิแกน ในช่วงเวลาใดเวลาหนึ่งระหว่างสงครามโลกครั้งที่หนึ่งและครั้งที่สอง มีสีเขียวอ่อน มีเส้นสีแดงตรงหนึ่งเส้นพาดตามด้านข้าง ตัวด้ามทำจากไม้โอ๊ก และปลายปากกาคมมาก สามารถแทงทะลุผิวหนังมนุษย์ได้แม้กดเพียงเบาๆ"
+      uk: "SCP-067 — це авторучка, виготовлена німецькою фірмою канцелярського приладдя Pelikan десь між Першою та Другою світовими війнами. Вона блідо-зеленого кольору, з єдиною прямою червоною лінією вздовж боку. Корпус дубовий, а перо надзвичайно гостре, здатне проколоти людську шкіру навіть за легкого натиску."
+      vi: "SCP-067 là một cây bút máy do một công ty văn phòng phẩm Đức tên Pelikan sản xuất vào khoảng thời gian giữa Thế chiến thứ nhất và thứ hai. Nó có màu xanh lục nhạt, với một đường kẻ đỏ thẳng chạy dọc một bên. Thân bút bằng gỗ sồi và ngòi bút cực kỳ sắc, có thể đâm xuyên da người ngay cả khi chỉ ấn nhẹ."
+      zh: "SCP-067是一支钢笔，由一家名为百利金的德国用品公司在第一次与第二次世界大战之间的某个时期制造。它呈浅绿色，侧面有一条笔直的红线。笔身为橡木，笔尖极其锋利，即便轻轻按压也能刺穿人的皮肤。"
+      zh_Hant: "SCP-067是一支鋼筆，由一家名為百利金的德國用品公司在第一次與第二次世界大戰之間的某個時期製造。它呈淺綠色，側面有一條筆直的紅線。筆身為橡木，筆尖極其鋒利，即便輕輕按壓也能刺穿人的皮膚。"
+
+  - scene: >
+      Medium shot, eye level, at a desk. d-class sits with wide, alarmed
+      eyes, staring at his own right hand, which is racing across a sheet of
+      paper with SCP-067, laying down dense sweeping abstract scribbles and
+      an intricate swirling drawing entirely on its own. His left hand clamps
+      hard around his right wrist, trying and failing to stop it.
+    notes: >
+      Panel-3 basis: "any subject holding SCP-067 loses all autonomy of the
+      hand and arm that grasps it"; the controlled hand writes "a detailed
+      biography of the individual holding the pen"; subjects also "create
+      intricate works of art, despite the subject lacking any formal art
+      training." Fixed facts: the pen-holding hand acts on its own, producing
+      writing and art. Keep all marks on the paper non-letter/abstract. Free
+      to restage: the struggle, framing.
+    characters: [d-class, scp-067]
+    caption:
+      ja: "研究により、SCP-067を握った被験者は、それを握る手と腕の随意的な制御をすべて失うと推測されている。『制御された』手はペンを使い、その持ち主の詳細な伝記を書き始める。また被験者は、正式な美術教育を受けていないにもかかわらず、精巧な芸術作品を作り上げることも知られている。"
+      en: "Research has surmised that any subject holding SCP-067 loses all autonomy of the hand and arm that grasps it. The 'controlled' hand will start to use the pen to write a detailed biography of the individual holding the pen, and subjects have also been known to create intricate works of art, despite the subject lacking any formal art training."
+      cs: "Výzkum dospěl k závěru, že každý subjekt držící SCP-067 ztrácí veškerou volní kontrolu nad rukou a paží, jež pero svírá. „Ovládaná“ ruka začne perem psát podrobný životopis toho, kdo pero drží; subjekty rovněž vytvářejí složitá umělecká díla, ačkoli nemají žádné výtvarné vzdělání."
+      de: "Die Forschung geht davon aus, dass jede Testperson, die SCP-067 hält, jede willentliche Kontrolle über die haltende Hand und den Arm verliert. Die „kontrollierte“ Hand beginnt, mit dem Stift eine ausführliche Biografie der haltenden Person zu schreiben; zudem schaffen Testpersonen kunstvolle Werke, obwohl sie keinerlei künstlerische Ausbildung haben."
+      es: "La investigación ha deducido que todo sujeto que sostiene SCP-067 pierde por completo el control voluntario de la mano y el brazo que lo agarran. La mano 'controlada' empieza a usar la pluma para escribir una biografía detallada de la persona que la sostiene, y también se sabe que los sujetos crean obras de arte intrincadas, pese a carecer de toda formación artística."
+      fr: "La recherche a déduit que tout sujet tenant SCP-067 perd tout contrôle volontaire de la main et du bras qui le tiennent. La main « contrôlée » se met à écrire au stylo une biographie détaillée de la personne qui le tient, et les sujets sont aussi connus pour créer des œuvres d'art complexes, bien qu'ils n'aient aucune formation artistique."
+      it: "La ricerca ha ipotizzato che qualsiasi soggetto che impugni SCP-067 perda ogni controllo volontario della mano e del braccio che lo stringono. La mano 'controllata' inizia a usare la penna per scrivere una biografia dettagliata di chi la tiene, e i soggetti sono noti anche per creare opere d'arte intricate, pur privi di qualsiasi formazione artistica."
+      ko: "연구 결과, SCP-067을 쥔 피험자는 그것을 쥔 손과 팔에 대한 모든 수의적 통제력을 잃는 것으로 추정된다. '통제된' 손은 펜으로 그 소지자의 상세한 전기를 쓰기 시작하며, 피험자는 정식 미술 교육을 전혀 받지 않았음에도 정교한 예술 작품을 만들어내기도 한다."
+      pl: "Badania wykazały, że każdy podmiot trzymający SCP-067 traci wszelką świadomą kontrolę nad chwytającą je dłonią i ramieniem. „Kontrolowana” dłoń zaczyna pisać piórem szczegółowy życiorys osoby trzymającej pióro, a podmioty tworzą też misterne dzieła sztuki, mimo braku jakiegokolwiek wykształcenia artystycznego."
+      pt: "A pesquisa deduziu que qualquer sujeito que segure o SCP-067 perde todo o controle voluntário da mão e do braço que o agarram. A mão 'controlada' passa a usar a caneta para escrever uma biografia detalhada de quem a segura, e sabe-se também que os sujeitos criam obras de arte intrincadas, apesar de não terem qualquer formação artística."
+      th: "งานวิจัยสันนิษฐานว่าผู้ถูกทดลองที่ถือ SCP-067 จะสูญเสียการควบคุมโดยสมัครใจทั้งหมดของมือและแขนที่จับมันไว้ มือที่ 'ถูกควบคุม' จะเริ่มใช้ปากกาเขียนประวัติโดยละเอียดของผู้ที่ถือปากกา และเป็นที่ทราบว่าผู้ถูกทดลองยังสร้างงานศิลปะอันประณีตได้ ทั้งที่ไม่มีการฝึกฝนศิลปะอย่างเป็นทางการ"
+      uk: "Дослідження припустило, що будь-який піддослідний, який тримає SCP-067, втрачає всякий вольовий контроль над рукою та кистю, що його стискають. «Керована» рука починає писати ручкою докладну біографію того, хто її тримає; також відомо, що піддослідні створюють вигадливі витвори мистецтва, попри відсутність будь-якої художньої освіти."
+      vi: "Nghiên cứu suy đoán rằng bất kỳ đối tượng nào cầm SCP-067 đều mất toàn bộ khả năng điều khiển tự chủ bàn tay và cánh tay đang nắm nó. Bàn tay 'bị điều khiển' bắt đầu dùng bút viết một tiểu sử chi tiết về người cầm bút, và các đối tượng cũng được biết là tạo ra những tác phẩm nghệ thuật tinh xảo, dù không hề được đào tạo mỹ thuật chính quy."
+      zh: "研究推测，任何握住SCP-067的受试者都会完全丧失对握笔之手和手臂的自主控制。那只『受控』的手会开始用笔书写握笔者的详细生平，而且已知受试者还会创作精细的艺术作品，尽管他们并无任何正规美术训练。"
+      zh_Hant: "研究推測，任何握住SCP-067的受試者都會完全喪失對握筆之手和手臂的自主控制。那隻「受控」的手會開始用筆書寫握筆者的詳細生平，而且已知受試者還會創作精細的藝術作品，儘管他們並無任何正規美術訓練。"
+
+  - scene: >
+      Medium-wide shot, eye level. d-class now sits relaxed, no longer
+      resisting, gazing down almost fondly at SCP-067 as it keeps working in
+      his loosely open hand, a large intricate abstract drawing spread across
+      the desk. On the right side of the frame, attending-researcher-m stands
+      with a clipboard, brow furrowed in puzzlement.
+    notes: >
+      Panel-4 basis: subjects typically say they "freely relinquish control
+      of their appendage to SCP-067 so that it may complete its work
+      unimpeded," and "despite being instructed to not draw or write,
+      subjects describe feelings of empathy, admiration, and cooperation with
+      SCP-067." Fixed facts: the subject stops fighting and feels warmly
+      toward the pen. Free to restage: expressions, framing.
+    characters: [d-class, scp-067, attending-researcher-m]
+    caption:
+      ja: "SCP-067を握ったとき何が起きるのかを説明するよう求められた被験者の典型的な回答は、作業を妨げられずに完了できるよう、自分の腕の制御を自ら進んでSCP-067に明け渡す、というものである。描いたり書いたりしないよう指示されているにもかかわらず、被験者はSCP-067に対する共感、称賛、協力の感情を述べる。"
+      en: "When subjects are asked to explain what happens when they hold SCP-067, the typical response is that the subject freely relinquishes control of their appendage to SCP-067 so that it may complete its work unimpeded. Despite being instructed to not draw or write, subjects describe feelings of empathy, admiration, and cooperation with SCP-067."
+      cs: "Když jsou subjekty požádány, aby vysvětlily, co se děje, když drží SCP-067, obvykle odpovídají, že samy dobrovolně přenechávají kontrolu nad svou končetinou SCP-067, aby mohlo své dílo dokončit bez překážek. Přestože dostaly pokyn nekreslit ani nepsat, popisují vůči SCP-067 pocity empatie, obdivu a spolupráce."
+      de: "Werden Testpersonen gebeten zu erklären, was geschieht, wenn sie SCP-067 halten, lautet die typische Antwort, dass sie die Kontrolle über ihre Gliedmaße freiwillig an SCP-067 abgeben, damit es sein Werk ungehindert vollenden kann. Obwohl ihnen aufgetragen wurde, nicht zu zeichnen oder zu schreiben, schildern sie Gefühle von Empathie, Bewunderung und Kooperation gegenüber SCP-067."
+      es: "Cuando se pide a los sujetos que expliquen qué ocurre al sostener SCP-067, la respuesta habitual es que ceden voluntariamente el control de su extremidad a SCP-067 para que pueda completar su obra sin obstáculos. Pese a habérseles indicado que no dibujen ni escriban, describen sentimientos de empatía, admiración y cooperación hacia SCP-067."
+      fr: "Lorsqu'on demande aux sujets d'expliquer ce qui se passe quand ils tiennent SCP-067, la réponse typique est qu'ils cèdent volontairement le contrôle de leur membre à SCP-067 afin qu'il puisse achever son œuvre sans entrave. Bien qu'on leur ait interdit de dessiner ou d'écrire, ils décrivent des sentiments d'empathie, d'admiration et de coopération envers SCP-067."
+      it: "Quando ai soggetti si chiede di spiegare cosa accade mentre impugnano SCP-067, la risposta tipica è che cedono volontariamente il controllo del proprio arto a SCP-067 affinché possa portare a termine la propria opera senza ostacoli. Pur avendo ricevuto l'ordine di non disegnare né scrivere, descrivono sentimenti di empatia, ammirazione e collaborazione verso SCP-067."
+      ko: "SCP-067을 쥐었을 때 무슨 일이 일어나는지 설명해 달라는 요청을 받으면, 피험자들은 대개 SCP-067이 그 작업을 방해받지 않고 끝낼 수 있도록 자신의 팔에 대한 통제권을 스스로 기꺼이 넘긴다고 답한다. 그리지도 쓰지도 말라는 지시를 받았음에도, 피험자들은 SCP-067에 대한 공감, 감탄, 협력의 감정을 이야기한다."
+      pl: "Poproszone o wyjaśnienie, co się dzieje, gdy trzymają SCP-067, podmioty zwykle odpowiadają, że dobrowolnie oddają kontrolę nad swoją kończyną SCP-067, aby mogło ono bez przeszkód dokończyć swoje dzieło. Mimo polecenia, by nie rysować ani nie pisać, opisują uczucia empatii, podziwu i współpracy wobec SCP-067."
+      pt: "Quando se pede aos sujeitos que expliquem o que acontece ao segurar o SCP-067, a resposta típica é que eles cedem voluntariamente o controle de seu membro ao SCP-067 para que ele possa concluir sua obra sem obstáculos. Apesar de terem sido instruídos a não desenhar nem escrever, descrevem sentimentos de empatia, admiração e cooperação para com o SCP-067."
+      th: "เมื่อขอให้ผู้ถูกทดลองอธิบายว่าเกิดอะไรขึ้นเมื่อถือ SCP-067 คำตอบทั่วไปคือ ผู้ถูกทดลองยอมสละการควบคุมแขนขาของตนให้ SCP-067 ด้วยความเต็มใจ เพื่อให้มันทำงานของมันจนเสร็จโดยไม่ถูกขัดขวาง แม้จะได้รับคำสั่งไม่ให้วาดหรือเขียน ผู้ถูกทดลองก็บรรยายถึงความรู้สึกเห็นอกเห็นใจ ชื่นชม และร่วมมือกับ SCP-067"
+      uk: "Коли піддослідних просять пояснити, що відбувається, коли вони тримають SCP-067, типова відповідь така: піддослідний сам добровільно віддає контроль над своєю кінцівкою SCP-067, щоб той міг безперешкодно завершити свою роботу. Попри вказівку не малювати й не писати, вони описують почуття співчуття, захвату та співпраці щодо SCP-067."
+      vi: "Khi được yêu cầu giải thích điều gì xảy ra lúc cầm SCP-067, câu trả lời thường gặp của các đối tượng là họ tự nguyện trao quyền điều khiển chi của mình cho SCP-067 để nó hoàn thành công việc mà không bị cản trở. Dù được yêu cầu không vẽ hay viết, họ vẫn mô tả cảm giác đồng cảm, ngưỡng mộ và hợp tác với SCP-067."
+      zh: "当被要求解释握住SCP-067时发生了什么，受试者的典型回答是：他们主动将自己肢体的控制权交给SCP-067，好让它不受阻碍地完成其作品。尽管被指示不要作画或书写，受试者仍描述出对SCP-067的共情、钦佩与配合之感。"
+      zh_Hant: "當被要求解釋握住SCP-067時發生了什麼，受試者的典型回答是：他們主動將自己肢體的控制權交給SCP-067，好讓它不受阻礙地完成其作品。儘管被指示不要作畫或書寫，受試者仍描述出對SCP-067的共情、欽佩與配合之感。"
+
+addendum:
+  ja: "補遺067-J：これまでのところ、SCP-067が書いた伝記はいずれも、当該被験者本人の人事ファイルより詳細で、よく整理されている。"
+  en: "Addendum 067-J: To date, every biography produced by SCP-067 has been more thorough and better organised than the subject's own personnel file."
+  cs: "Dodatek 067-J: Každý životopis, který SCP-067 dosud vytvořilo, byl podrobnější a přehlednější než osobní spis dotyčného subjektu."
+  de: "Anhang 067-J: Bislang war jede von SCP-067 verfasste Biografie gründlicher und besser gegliedert als die Personalakte der betreffenden Testperson."
+  es: "Adenda 067-J: Hasta la fecha, todas las biografías producidas por SCP-067 han sido más minuciosas y mejor organizadas que el propio expediente de personal del sujeto."
+  fr: "Addendum 067-J : À ce jour, chaque biographie produite par SCP-067 s'est révélée plus complète et mieux organisée que le dossier personnel du sujet lui-même."
+  it: "Addendum 067-J: A oggi, ogni biografia prodotta da SCP-067 è risultata più accurata e meglio organizzata del fascicolo personale del soggetto stesso."
+  ko: "부록 067-J: 지금까지 SCP-067이 쓴 전기는 모두 해당 피험자 본인의 인사 파일보다 더 상세하고 잘 정리되어 있었다."
+  pl: "Aneks 067-J: Jak dotąd każdy życiorys stworzony przez SCP-067 był dokładniejszy i lepiej uporządkowany niż akta osobowe samego podmiotu."
+  pt: "Adendo 067-J: Até o momento, toda biografia produzida pelo SCP-067 foi mais minuciosa e mais bem organizada do que o próprio arquivo de pessoal do sujeito."
+  th: "ภาคผนวก 067-J: จนถึงปัจจุบัน ประวัติทุกฉบับที่ SCP-067 เขียนขึ้น ล้วนละเอียดและเป็นระเบียบมากกว่าแฟ้มประวัติบุคลากรของผู้ถูกทดลองเอง"
+  uk: "Додаток 067-J: Дотепер кожна біографія, створена SCP-067, була ретельнішою та краще впорядкованою, ніж особова справа самого піддослідного."
+  vi: "Phụ lục 067-J: Cho đến nay, mọi bản tiểu sử do SCP-067 tạo ra đều kỹ lưỡng và mạch lạc hơn cả hồ sơ nhân sự của chính đối tượng."
+  zh: "补遗067-J：迄今为止，SCP-067所写的每一份生平，都比受试者本人的人事档案更详尽、更有条理。"
+  zh_Hant: "補遺067-J：迄今為止，SCP-067所寫的每一份生平，都比受試者本人的人事檔案更詳盡、更有條理。"

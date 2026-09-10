@@ -1,0 +1,177 @@
+# SCP-032 4コマ台本
+# captionはSpecial Containment Procedures / Description本文からの引用。
+# Document-032-RCL等の伏字部分は本編には使わない。キャラにセリフは言わせない。
+#
+# 4コマ構成: 1=自動収容ユニット535/15、直接接触は研究目的のみ・面談は遠隔(起)、
+# 2=着色シリコンの外殻に液状精製油の中身、30歳近い女性の外見(承)、
+# 3=人類と無関係な近傍の生物のエネルギー利用能力を必ず不可逆に損なう(転)、
+# 4=スロバキアのサイト玄関先に座っており「保管されるため」と主張(結)。
+
+id: scp-032
+
+title:
+  en: "SCP-032"
+  ja: "SCP-032"
+  cs: "SCP-032"
+  de: "SCP-032"
+  es: "SCP-032"
+  fr: "SCP-032"
+  it: "SCP-032"
+  ko: "SCP-032"
+  pl: "SCP-032"
+  pt: "SCP-032"
+  th: "SCP-032"
+  uk: "SCP-032"
+  vi: "SCP-032"
+  zh: "SCP-032"
+  zh_Hant: "SCP-032"
+
+attribution:
+  article: "SCP-032"
+  source_url: "http://scp-wiki.wikidot.com/scp-032"
+  author: "Dmatix"
+  license: "CC BY-SA 3.0"
+
+object_class: Euclid
+
+local_characters:
+  scp-032:
+    name: SCP-032
+    appearance: >
+      SCP-032, a human simulacrum with the outward appearance of a woman
+      in her late twenties, its skin a smooth matte pigmented silicone
+      (color RGB 224,204,188) that looks subtly too even and artificial up
+      close. It moves a little stiffly and its expression never quite
+      settles into something fully human.
+    default_look: >
+      Plain, neutral modern clothes in muted grey tones, hands usually
+      folded, holding a still, patient, doll-like poise.
+
+characters: [scp-032, attending-researcher-m, attending-researcher-f]
+
+panels:
+  - scene: >
+      Wide shot, full body, eye level, showing a sealed automated
+      containment pod with articulated robotic arms folded against its
+      inner walls and a speaker grille beside the thick observation glass.
+      On the left side of the frame, SCP-032 stands motionless inside the
+      pod behind the glass. On the right side of the frame,
+      attending-researcher-f sits at an external console speaking into a
+      remote communication handset.
+    characters: [scp-032, attending-researcher-f]
+    notes: >
+      根拠: SCP第1〜3文「自動収容ユニット535/15に収容。直接接触は研究関連の
+      作業のみ。面談が必要なら遠隔通信装置で」。変えてはいけない事実: 自動収容
+      ユニット、直接接触制限、遠隔での面談。変更可能: ユニットの見せ方、研究者の
+      動作。
+    caption:
+      ja: "SCP-032は自動収容ユニット535/15に収容される。SCP-032との直接接触は、研究に関連する作業のみに限定される。面談は必要と判断された場合、ユニットの遠隔通信装置を用いて行う。"
+      en: "SCP-032 is to be housed in Automated Containment Unit 535/15. Direct contact with SCP-032 is to be restricted to research-relevant tasks only. Interviews, if deemed necessary, are to be carried out using the Unit's remote communication array."
+      cs: "SCP-032 musí být umístěno v automatizované kontejnmentové jednotce 535/15. Přímý kontakt se SCP-032 musí být omezen pouze na úkoly související s výzkumem. Rozhovory, jsou-li považovány za nezbytné, mají být vedeny pomocí dálkového komunikačního systému jednotky."
+      de: "SCP-032 ist in der Automatisierten Containment-Einheit 535/15 unterzubringen. Direkter Kontakt mit SCP-032 ist auf forschungsrelevante Aufgaben zu beschränken. Befragungen sind, falls für nötig erachtet, über die Fernkommunikationsanlage der Einheit durchzuführen."
+      es: "SCP-032 debe alojarse en la Unidad de Contención Automatizada 535/15. El contacto directo con SCP-032 debe restringirse únicamente a tareas relevantes para la investigación. Las entrevistas, si se consideran necesarias, deben realizarse mediante el sistema de comunicación remota de la Unidad."
+      fr: "Le SCP-032 doit être hébergé dans l'Unité de Confinement Automatisée 535/15. Le contact direct avec le SCP-032 doit être limité aux seules tâches liées à la recherche. Les entretiens, s'ils sont jugés nécessaires, doivent être menés au moyen du dispositif de communication à distance de l'Unité."
+      it: "SCP-032 deve essere alloggiato nell'Unità di Contenimento Automatizzata 535/15. Il contatto diretto con SCP-032 deve essere limitato alle sole attività rilevanti per la ricerca. I colloqui, se ritenuti necessari, devono essere condotti tramite il sistema di comunicazione remota dell'Unità."
+      ko: "SCP-032은 자동 수용 장치 535/15에 수용한다. SCP-032과의 직접 접촉은 연구와 관련된 작업으로만 제한한다. 면담은 필요하다고 판단될 경우 장치의 원격 통신 장비를 이용해 진행한다."
+      pl: "SCP-032 należy umieścić w Zautomatyzowanej Jednostce Przechowawczej 535/15. Bezpośredni kontakt ze SCP-032 należy ograniczyć wyłącznie do zadań związanych z badaniami. Rozmowy, jeśli zostaną uznane za konieczne, mają być prowadzone za pomocą systemu zdalnej łączności Jednostki."
+      pt: "O SCP-032 deve ser alojado na Unidade de Contenção Automatizada 535/15. O contato direto com o SCP-032 deve ser restrito apenas a tarefas relevantes para a pesquisa. As entrevistas, se consideradas necessárias, devem ser conduzidas por meio do sistema de comunicação remota da Unidade."
+      th: "ต้องเก็บ SCP-032 ไว้ในหน่วยกักกันอัตโนมัติ 535/15 การสัมผัสโดยตรงกับ SCP-032 ต้องจำกัดไว้เฉพาะงานที่เกี่ยวข้องกับการวิจัยเท่านั้น หากพิจารณาว่าจำเป็นต้องมีการสัมภาษณ์ ให้ดำเนินการผ่านระบบสื่อสารทางไกลของหน่วย"
+      uk: "SCP-032 слід тримати в автоматизованому модулі утримання 535/15. Прямий контакт зі SCP-032 має бути обмежений лише завданнями, пов'язаними з дослідженнями. Співбесіди, якщо вони визнані необхідними, слід проводити за допомогою системи дистанційного зв'язку модуля."
+      vi: "SCP-032 phải được đặt trong Đơn Vị Giam Giữ Tự Động 535/15. Việc tiếp xúc trực tiếp với SCP-032 phải được giới hạn chỉ cho các nhiệm vụ liên quan đến nghiên cứu. Các buổi phỏng vấn, nếu được xét thấy cần thiết, phải được tiến hành bằng hệ thống liên lạc từ xa của Đơn Vị."
+      zh: "SCP-032须收容于自动收容单元535/15内。与SCP-032的直接接触须仅限于与研究相关的任务。如认为有必要进行访谈，须使用该单元的远程通信设备进行。"
+      zh_Hant: "SCP-032須收容於自動收容單元535/15內。與SCP-032的直接接觸須僅限於與研究相關的任務。如認為有必要進行訪談，須使用該單元的遠端通信設備進行。"
+
+  - scene: >
+      Close-up, waist-up, eye level through the observation glass, a
+      different framing from the wide shot. On the left side of the frame,
+      SCP-032 stands facing the viewer, its silicone skin unnaturally
+      smooth and even, expression not quite readable. On the right side of
+      the frame, reflected faintly in the glass, attending-researcher-m
+      studies it while sketching on a pad.
+    characters: [scp-032, attending-researcher-m]
+    notes: >
+      根拠: Description第1段落「起源不明の人間の模造体。着色シリコンとプラスチック
+      繊維ポリマーの外殻、30歳近い女性の外見。内部は完全に液状の精製油で、骨格や
+      筋肉の構造を欠く」。グロ回避のため内部の油は描かず外見のみ。変えてはいけない
+      事実: 人工の外殻＋液状の中身、女性の外見、骨格・筋肉がない。変更可能: 観察の
+      演出、ガラス越しの画角。
+    caption:
+      ja: "SCP-032は現在起源不明の人間の模造体であり、着色シリコンとプラスチック繊維ポリマーの外殻を持ち、30歳に近づいた女性の外見をしている。SCP-032の内部は完全に液状の精製油で構成されており、骨格や筋肉の構造を欠いている。"
+      en: "SCP-032 is a human simulacrum of currently unknown origins, with an outer shell of pigmented silicone and plastic fiber polymers and the outward appearance of a woman nearing the third decade of life. SCP-032's interior is composed entirely of liquid refined oil, lacking any skeletal or muscle structure."
+      cs: "SCP-032 je simulakrum člověka dosud neznámého původu s vnějším pláštěm z pigmentovaného silikonu a plastových vláknitých polymerů a s vnějším vzhledem ženy blížící se třicítce. Vnitřek SCP-032 je tvořen výhradně tekutým rafinovaným olejem a postrádá jakoukoli kostru či svalovou strukturu."
+      de: "SCP-032 ist ein Menschensimulakrum bislang unbekannten Ursprungs mit einer Außenhülle aus pigmentiertem Silikon und Kunststofffaserpolymeren und dem äußeren Erscheinungsbild einer Frau, die sich dem dritten Lebensjahrzehnt nähert. Das Innere von SCP-032 besteht ausschließlich aus flüssigem raffiniertem Öl und weist keinerlei Skelett- oder Muskelstruktur auf."
+      es: "SCP-032 es un simulacro humano de origen actualmente desconocido, con una carcasa exterior de silicona pigmentada y polímeros de fibra plástica, y con el aspecto exterior de una mujer que se acerca a la tercera década de vida. El interior de SCP-032 está compuesto en su totalidad por petróleo refinado líquido y carece de cualquier estructura ósea o muscular."
+      fr: "Le SCP-032 est un simulacre humain d'origine actuellement inconnue, doté d'une coque externe en silicone pigmenté et en polymères de fibres plastiques, et présentant l'apparence extérieure d'une femme approchant de la trentaine. L'intérieur du SCP-032 est entièrement composé de pétrole raffiné liquide et dépourvu de toute structure osseuse ou musculaire."
+      it: "SCP-032 è un simulacro umano di origini attualmente sconosciute, con un guscio esterno in silicone pigmentato e polimeri in fibra plastica, e l'aspetto esteriore di una donna prossima ai trent'anni. L'interno di SCP-032 è composto interamente da petrolio raffinato liquido e privo di qualsiasi struttura scheletrica o muscolare."
+      ko: "SCP-032은 현재 기원을 알 수 없는 인간 모조체로, 착색 실리콘과 플라스틱 섬유 중합체로 된 외피를 지니며, 서른에 가까운 여성의 겉모습을 하고 있다. SCP-032의 내부는 전적으로 액체 상태의 정제유로 이루어져 있으며, 골격이나 근육 구조가 전혀 없다."
+      pl: "SCP-032 to symulakrum człowieka o obecnie nieznanym pochodzeniu, z zewnętrzną powłoką z barwionego silikonu i polimerów z włókien tworzyw sztucznych oraz o wyglądzie kobiety zbliżającej się do trzydziestki. Wnętrze SCP-032 składa się wyłącznie z ciekłej rafinowanej ropy naftowej i pozbawione jest jakiejkolwiek struktury kostnej czy mięśniowej."
+      pt: "O SCP-032 é um simulacro humano de origem atualmente desconhecida, com uma carcaça externa de silicone pigmentado e polímeros de fibra plástica, e com a aparência externa de uma mulher próxima dos trinta anos. O interior do SCP-032 é composto inteiramente por petróleo refinado líquido e carece de qualquer estrutura óssea ou muscular."
+      th: "SCP-032 เป็นหุ่นจำลองมนุษย์ที่ยังไม่ทราบต้นกำเนิด มีเปลือกนอกทำจากซิลิโคนที่ผสมสีและพอลิเมอร์เส้นใยพลาสติก มีรูปลักษณ์ภายนอกเป็นหญิงที่ใกล้อายุสามสิบปี ภายในของ SCP-032 ประกอบด้วยน้ำมันกลั่นเหลวทั้งหมด และไม่มีโครงกระดูกหรือโครงสร้างกล้ามเนื้อใด ๆ"
+      uk: "SCP-032 — це людський симулякр наразі невідомого походження із зовнішньою оболонкою з пігментованого силікону та пластикових волокнистих полімерів і зовнішнім виглядом жінки, якій наближається до тридцяти. Нутрощі SCP-032 повністю складаються з рідкої очищеної нафти й позбавлені будь-якої кісткової чи м'язової структури."
+      vi: "SCP-032 là một hình nộm con người có nguồn gốc hiện chưa rõ, với lớp vỏ ngoài bằng silicon nhuộm màu và polymer sợi nhựa, mang hình dạng bên ngoài của một phụ nữ gần ba mươi tuổi. Phần bên trong của SCP-032 hoàn toàn là dầu tinh luyện dạng lỏng, không có bất kỳ cấu trúc xương hay cơ nào."
+      zh: "SCP-032是一具目前来源不明的人类拟像，具有由着色硅胶和塑料纤维聚合物构成的外壳，外表为一名年近三十的女性。SCP-032的内部完全由液态精炼石油构成，没有任何骨骼或肌肉结构。"
+      zh_Hant: "SCP-032是一具目前來源不明的人類擬像，具有由著色矽膠和塑料纖維聚合物構成的外殼，外表為一名年近三十的女性。SCP-032的內部完全由液態精煉石油構成，沒有任何骨骼或肌肉結構。"
+
+  - scene: >
+      Medium shot, waist-up, slight high angle, a different framing from
+      the previous panels. On the left side of the frame, SCP-032 stands
+      inside the pod beside a shelf where a potted wild fern has drooped
+      limp and colorless. On the right side of the frame,
+      attending-researcher-f, on the far side of the glass, holds up a
+      scanner and compares the fern with a nearby artificial plastic plant
+      that is completely unaffected.
+    characters: [scp-032, attending-researcher-f]
+    notes: >
+      根拠: Description第2段落「人類に創られ・影響を受け・操作された等の関係を
+      持たない近傍の生物に極端な悪影響。影響の性質は様々だが、SCP-032がいると
+      あらゆる生物のエネルギー交換・利用能力に必ず重篤かつ回復不能な損傷が
+      生じる」。変えてはいけない事実: 人工物は無事だが自然の生物のエネルギー
+      利用能力が不可逆に損なわれること。変更可能: 対比に使う生物、計測の演出。
+    caption:
+      ja: "SCP-032は、人類によって創られ、意図的に影響を受け、あるいは操作されたものではない、近傍のあらゆる生物に対して極端な悪影響を及ぼす。SCP-032が存在すると、あらゆる生物のエネルギーを交換および／または利用する能力に、必ず重篤かつ回復不能な損傷が生じる。"
+      en: "SCP-032 possesses extreme adverse effects to any biological entity in its close vicinity not created, willfully influenced, or manipulated by humanity. SCP-032's presence inevitably causes severe and irreparable damage to the ability of any living organism to exchange and/or use energy."
+      cs: "SCP-032 má krajně nepříznivé účinky na jakoukoli biologickou entitu ve své těsné blízkosti, která nebyla vytvořena, záměrně ovlivněna či manipulována lidstvem. Přítomnost SCP-032 nevyhnutelně způsobuje vážné a nenapravitelné poškození schopnosti jakéhokoli živého organismu vyměňovat a/nebo využívat energii."
+      de: "SCP-032 hat extrem nachteilige Wirkungen auf jede biologische Entität in seiner unmittelbaren Nähe, die nicht von der Menschheit erschaffen, bewusst beeinflusst oder manipuliert wurde. Die Anwesenheit von SCP-032 verursacht unweigerlich schwere und irreparable Schäden an der Fähigkeit jedes lebenden Organismus, Energie auszutauschen und/oder zu nutzen."
+      es: "SCP-032 posee efectos extremadamente adversos sobre cualquier entidad biológica próxima a él que no haya sido creada, influida deliberadamente o manipulada por la humanidad. La presencia de SCP-032 provoca inevitablemente daños graves e irreparables en la capacidad de cualquier organismo vivo para intercambiar o utilizar energía."
+      fr: "Le SCP-032 exerce des effets extrêmement néfastes sur toute entité biologique se trouvant à proximité immédiate qui n'a pas été créée, volontairement influencée ou manipulée par l'humanité. La présence du SCP-032 cause inévitablement des dommages graves et irréparables à la capacité de tout organisme vivant à échanger et/ou à utiliser de l'énergie."
+      it: "SCP-032 ha effetti estremamente avversi su qualsiasi entità biologica nelle sue immediate vicinanze che non sia stata creata, deliberatamente influenzata o manipolata dall'umanità. La presenza di SCP-032 causa inevitabilmente danni gravi e irreparabili alla capacità di qualsiasi organismo vivente di scambiare e/o utilizzare energia."
+      ko: "SCP-032은 인류에 의해 창조되거나 의도적으로 영향을 받거나 조작된 것이 아닌, 인근의 모든 생물학적 존재에 극도로 해로운 영향을 미친다. SCP-032이 존재하면 모든 살아 있는 유기체가 에너지를 교환하거나 이용하는 능력에 반드시 심각하고 회복 불가능한 손상이 발생한다."
+      pl: "SCP-032 wywiera skrajnie niekorzystny wpływ na każdą istotę biologiczną w swoim bezpośrednim otoczeniu, która nie została stworzona, celowo ukształtowana ani zmodyfikowana przez ludzkość. Obecność SCP-032 nieuchronnie powoduje poważne i nieodwracalne uszkodzenie zdolności każdego żywego organizmu do wymiany lub wykorzystywania energii."
+      pt: "O SCP-032 exerce efeitos extremamente adversos sobre qualquer entidade biológica em suas imediações que não tenha sido criada, deliberadamente influenciada ou manipulada pela humanidade. A presença do SCP-032 causa inevitavelmente danos graves e irreparáveis à capacidade de qualquer organismo vivo de trocar e/ou utilizar energia."
+      th: "SCP-032 ก่อผลกระทบเชิงลบอย่างรุนแรงต่อสิ่งมีชีวิตทางชีวภาพใด ๆ ในบริเวณใกล้เคียงที่ไม่ได้ถูกสร้าง ถูกโน้มนำโดยเจตนา หรือถูกดัดแปลงโดยมนุษยชาติ การมีอยู่ของ SCP-032 ย่อมทำให้ความสามารถของสิ่งมีชีวิตใด ๆ ในการแลกเปลี่ยนและ/หรือใช้พลังงานเสียหายอย่างร้ายแรงและไม่อาจแก้ไขได้เสมอ"
+      uk: "SCP-032 має вкрай несприятливий вплив на будь-яку біологічну сутність поблизу, яка не була створена, свідомо змінена чи керована людством. Присутність SCP-032 неминуче завдає тяжкої й непоправної шкоди здатності будь-якого живого організму обмінюватися та/або використовувати енергію."
+      vi: "SCP-032 gây ra những tác động cực kỳ bất lợi cho bất kỳ thực thể sinh học nào ở gần nó mà không được nhân loại tạo ra, chủ ý tác động hoặc thao túng. Sự hiện diện của SCP-032 chắc chắn gây tổn hại nghiêm trọng và không thể phục hồi đối với khả năng trao đổi và/hoặc sử dụng năng lượng của bất kỳ sinh vật sống nào."
+      zh: "SCP-032对其近旁任何并非由人类创造、有意影响或操控的生物实体，都会产生极端的不利影响。只要SCP-032在场，任何生物交换和／或利用能量的能力都必然会遭受严重且不可逆的损害。"
+      zh_Hant: "SCP-032對其近旁任何並非由人類創造、有意影響或操控的生物實體，都會產生極端的不利影響。只要SCP-032在場，任何生物交換和／或利用能量的能力都必然會遭受嚴重且不可逆的損害。"
+
+  - scene: >
+      Wide shot, full body, low angle at night, a different framing from
+      the previous panels, at the gate of a fenced facility compound. On
+      the left side of the frame, SCP-032 sits primly on the concrete
+      doorstep with its hands folded in its lap and a small closed
+      suitcase beside it, calm and composed. On the right side of the
+      frame, attending-researcher-m approaches warily with a raised
+      flashlight.
+    characters: [scp-032, attending-researcher-m]
+    notes: >
+      根拠: Description第3段落「スロバキアの██████████付近の財団サイト██内郭の
+      玄関先に座っているところを発見。警備員に問われると自らの異常効果を説明し、
+      『保管されるため』にいると主張」。変えてはいけない事実: サイトの玄関先で
+      発見されたこと、『保管されるため』という主張。変更可能: ゲートの見せ方、
+      警備員の態度、スーツケースの有無。
+    caption:
+      ja: "SCP-032は、スロバキアの██████████付近にある財団サイト██の内郭の玄関先に座っているところを発見された。財団の警備員に誰何された際、SCP-032は自らの異常な効果について説明し、『保管されるため』にそこにいると主張した。"
+      en: "SCP-032 was discovered sitting on the doorstep of the inner compound of Foundation Site-██ near ██████████, Slovakia. When questioned by Foundation security personnel, SCP-032 explained its anomalous effects and claimed it was there 'to be stored'."
+      cs: "SCP-032 bylo objeveno, jak sedí na prahu vnitřního areálu Lokality ██ Nadace poblíž ██████████ na Slovensku. Když bylo dotázáno bezpečnostním personálem Nadace, SCP-032 vysvětlilo své anomální účinky a tvrdilo, že je zde, aby bylo „uskladněno“."
+      de: "SCP-032 wurde entdeckt, wie es auf der Türschwelle des inneren Geländes von Foundation-Standort ██ nahe ██████████, Slowakei, saß. Als es vom Sicherheitspersonal der Foundation befragt wurde, erläuterte SCP-032 seine anomalen Wirkungen und behauptete, es sei dort, um „eingelagert zu werden“."
+      es: "SCP-032 fue descubierto sentado en el umbral del recinto interior del Sitio ██ de la Fundación, cerca de ██████████, Eslovaquia. Al ser interrogado por el personal de seguridad de la Fundación, SCP-032 explicó sus efectos anómalos y afirmó que estaba allí «para ser almacenado»."
+      fr: "Le SCP-032 a été découvert assis sur le seuil de l'enceinte intérieure du Site ██ de la Fondation, près de ██████████, en Slovaquie. Interrogé par le personnel de sécurité de la Fondation, le SCP-032 a expliqué ses effets anormaux et a affirmé qu'il se trouvait là « pour être entreposé »."
+      it: "SCP-032 è stato scoperto seduto sulla soglia del complesso interno del Sito ██ della Fondazione, nei pressi di ██████████, in Slovacchia. Interrogato dal personale di sicurezza della Fondazione, SCP-032 ha spiegato i propri effetti anomali e ha affermato di trovarsi lì «per essere immagazzinato»."
+      ko: "SCP-032은 슬로바키아 ██████████ 인근 재단 ██기지 내곽의 현관 앞에 앉아 있는 채로 발견되었다. 재단 보안 요원의 심문을 받자 SCP-032은 자신의 변칙적 효과를 설명하며 '보관되기 위해' 그곳에 있다고 주장했다."
+      pl: "SCP-032 odkryto, gdy siedziało na progu wewnętrznego kompleksu Ośrodka ██ Fundacji w pobliżu ██████████ na Słowacji. Zapytane przez personel ochrony Fundacji, SCP-032 wyjaśniło swoje anomalne działanie i twierdziło, że znalazło się tam, aby „zostać przechowane”."
+      pt: "O SCP-032 foi descoberto sentado na soleira do complexo interno do Site ██ da Fundação, perto de ██████████, na Eslováquia. Ao ser questionado pela equipe de segurança da Fundação, o SCP-032 explicou seus efeitos anômalos e alegou estar ali «para ser armazenado»."
+      th: "SCP-032 ถูกพบขณะนั่งอยู่ที่หน้าประตูเขตชั้นในของไซต์ ██ ของมูลนิธิ ใกล้กับ ██████████ ประเทศสโลวาเกีย เมื่อถูกซักถามโดยเจ้าหน้าที่รักษาความปลอดภัยของมูลนิธิ SCP-032 ได้อธิบายผลผิดปกติของตนและอ้างว่ามาอยู่ที่นั่น 'เพื่อจะได้ถูกจัดเก็บ'"
+      uk: "SCP-032 виявили, коли він сидів на порозі внутрішньої території Об'єкта ██ Фонду поблизу ██████████, Словаччина. На запитання охорони Фонду SCP-032 пояснив свої аномальні ефекти й заявив, що перебуває там, «щоб його зберігали»."
+      vi: "SCP-032 được phát hiện đang ngồi trên bậc cửa khu nội bộ của Cơ Sở ██ của Tổ Chức gần ██████████, Slovakia. Khi bị nhân viên an ninh của Tổ Chức chất vấn, SCP-032 giải thích về các hiệu ứng dị thường của mình và tuyên bố nó ở đó 'để được cất giữ'."
+      zh: "SCP-032被发现时正坐在斯洛伐克██████████附近基金会██号站点内区的门阶上。在接受基金会保安人员盘问时，SCP-032解释了自身的异常效应，并声称自己来到此处是「为了被封存」。"
+      zh_Hant: "SCP-032被發現時正坐在斯洛伐克██████████附近基金會██號站點內區的門階上。在接受基金會保安人員盤問時，SCP-032解釋了自身的異常效應，並聲稱自己來到此處是「為了被封存」。"
