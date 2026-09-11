@@ -1,0 +1,92 @@
+{
+  "id": "scp-009",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Euclid",
+  "attribution": {
+    "article": "SCP-009",
+    "author": "Chameleon X",
+    "source_url": "http://scp-wiki.wikidot.com/scp-009",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-009\uff1a\u8d64\u3044\u6c37",
+    "en": "SCP-009: Red Ice",
+    "cs": "SCP-009: Rud\u00fd led",
+    "de": "SCP-009: Rotes Eis",
+    "es": "SCP-009: Hielo rojo",
+    "fr": "SCP-009 : Glace rouge",
+    "it": "SCP-009: Ghiaccio rosso",
+    "ko": "SCP-009: \ubd89\uc740 \uc5bc\uc74c",
+    "pl": "SCP-009: Czerwony l\u00f3d",
+    "pt": "SCP-009: Gelo vermelho",
+    "th": "SCP-009: \u0e19\u0e49\u0e33\u0e41\u0e02\u0e47\u0e07\u0e2a\u0e35\u0e41\u0e14\u0e07",
+    "uk": "SCP-009: \u0427\u0435\u0440\u0432\u043e\u043d\u0438\u0439 \u043b\u0456\u0434",
+    "vi": "SCP-009: B\u0103ng \u0111\u1ecf",
+    "zh": "SCP-009\uff1a\u7ea2\u51b0",
+    "zh_Hant": "SCP-009\uff1a\u7d05\u51b0"
+  },
+  "created_at": "2026-09-10T17:24:30Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

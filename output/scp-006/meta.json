@@ -1,0 +1,92 @@
+{
+  "id": "scp-006",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-006",
+    "author": "rewrite: Epic Phail Spy, Proxtown",
+    "source_url": "http://scp-wiki.wikidot.com/scp-006",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-006",
+    "en": "SCP-006",
+    "cs": "SCP-006",
+    "de": "SCP-006",
+    "es": "SCP-006",
+    "fr": "SCP-006",
+    "it": "SCP-006",
+    "ko": "SCP-006",
+    "pl": "SCP-006",
+    "pt": "SCP-006",
+    "th": "SCP-006",
+    "uk": "SCP-006",
+    "vi": "SCP-006",
+    "zh": "SCP-006",
+    "zh_Hant": "SCP-006"
+  },
+  "created_at": "2026-09-10T17:18:55Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

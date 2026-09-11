@@ -1,0 +1,92 @@
+{
+  "id": "scp-010",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Safe",
+  "attribution": {
+    "article": "SCP-010",
+    "author": "Le Blue Dude",
+    "source_url": "http://scp-wiki.wikidot.com/scp-010",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-010\uff1a\u64cd\u7e26\u9996\u8f2a",
+    "en": "SCP-010: The Control Collars",
+    "cs": "SCP-010: Ovl\u00e1dac\u00ed obojky",
+    "de": "SCP-010: Die Steuerhalsb\u00e4nder",
+    "es": "SCP-010: Los collares de control",
+    "fr": "SCP-010 : Les colliers de contr\u00f4le",
+    "it": "SCP-010: I collari di controllo",
+    "ko": "SCP-010: \uc870\uc885 \ubaa9\uac78\uc774",
+    "pl": "SCP-010: Obro\u017ce steruj\u0105ce",
+    "pt": "SCP-010: As coleiras de controle",
+    "th": "SCP-010: \u0e1b\u0e25\u0e2d\u0e01\u0e04\u0e2d\u0e1a\u0e31\u0e07\u0e04\u0e31\u0e1a",
+    "uk": "SCP-010: \u041d\u0430\u0448\u0438\u0439\u043d\u0438\u043a\u0438 \u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f",
+    "vi": "SCP-010: Nh\u1eefng chi\u1ebfc v\u00f2ng c\u1ed5 \u0111i\u1ec1u khi\u1ec3n",
+    "zh": "SCP-010\uff1a\u64cd\u63a7\u9888\u5708",
+    "zh_Hant": "SCP-010\uff1a\u64cd\u63a7\u9838\u5708"
+  },
+  "created_at": "2026-09-10T17:27:16Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

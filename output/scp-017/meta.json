@@ -1,0 +1,92 @@
+{
+  "id": "scp-017",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Keter",
+  "attribution": {
+    "article": "SCP-017",
+    "author": "Sam Swicegood (CityToast)",
+    "source_url": "http://scp-wiki.wikidot.com/scp-017",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-017\uff1a\u5f71\u306e\u4eba",
+    "en": "SCP-017: Shadow Person",
+    "cs": "SCP-017: St\u00ednov\u00e1 bytost",
+    "de": "SCP-017: Der Schattenmann",
+    "es": "SCP-017: Hombre de sombra",
+    "fr": "SCP-017 : L'homme de l'ombre",
+    "it": "SCP-017: L'ombra vivente",
+    "ko": "SCP-017: \uadf8\ub9bc\uc790 \uc778\uac04",
+    "pl": "SCP-017: Cienista posta\u0107",
+    "pt": "SCP-017: Homem-sombra",
+    "th": "SCP-017: \u0e21\u0e19\u0e38\u0e29\u0e22\u0e4c\u0e40\u0e07\u0e32",
+    "uk": "SCP-017: \u0422\u0456\u043d\u044c\u043e\u0432\u0430 \u0456\u0441\u0442\u043e\u0442\u0430",
+    "vi": "SCP-017: Ng\u01b0\u1eddi b\u00f3ng t\u1ed1i",
+    "zh": "SCP-017\uff1a\u6697\u5f71\u4eba",
+    "zh_Hant": "SCP-017\uff1a\u6697\u5f71\u4eba"
+  },
+  "created_at": "2026-09-10T17:40:49Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}

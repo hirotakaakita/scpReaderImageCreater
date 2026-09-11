@@ -1,0 +1,92 @@
+{
+  "id": "scp-019",
+  "panels": 4,
+  "image_size": [
+    776,
+    3268
+  ],
+  "panel_rects": [
+    [
+      28,
+      168,
+      748,
+      888
+    ],
+    [
+      28,
+      908,
+      748,
+      1628
+    ],
+    [
+      28,
+      1648,
+      748,
+      2368
+    ],
+    [
+      28,
+      2388,
+      748,
+      3108
+    ]
+  ],
+  "addendum_rect": null,
+  "header_rect": [
+    28,
+    28,
+    748,
+    148
+  ],
+  "footer_rect": [
+    28,
+    3128,
+    748,
+    3240
+  ],
+  "object_class": "Keter",
+  "attribution": {
+    "article": "SCP-019",
+    "author": "Sophia Light",
+    "source_url": "http://scp-wiki.wikidot.com/scp-019",
+    "license": "CC BY-SA 3.0"
+  },
+  "title": {
+    "ja": "SCP-019\uff1a\u602a\u7269\u306e\u58fa",
+    "en": "SCP-019: The Monster Pot",
+    "cs": "SCP-019: N\u00e1doba na p\u0159\u00ed\u0161ery",
+    "de": "SCP-019: Der Monstertopf",
+    "es": "SCP-019: La vasija de monstruos",
+    "fr": "SCP-019 : Le pot \u00e0 monstres",
+    "it": "SCP-019: Il vaso dei mostri",
+    "ko": "SCP-019: \uad34\ubb3c \ud56d\uc544\ub9ac",
+    "pl": "SCP-019: Garnek na potwory",
+    "pt": "SCP-019: O pote de monstros",
+    "th": "SCP-019: \u0e44\u0e2b\u0e1b\u0e35\u0e28\u0e32\u0e08",
+    "uk": "SCP-019: \u0413\u043e\u0440\u0449\u0438\u043a \u0456\u0437 \u043c\u043e\u043d\u0441\u0442\u0440\u0430\u043c\u0438",
+    "vi": "SCP-019: Chi\u1ebfc b\u00ecnh qu\u00e1i v\u1eadt",
+    "zh": "SCP-019\uff1a\u602a\u7269\u4e4b\u58f6",
+    "zh_Hant": "SCP-019\uff1a\u602a\u7269\u4e4b\u58fa"
+  },
+  "created_at": "2026-09-10T17:45:58Z",
+  "languages": [
+    "ja",
+    "en",
+    "cs",
+    "de",
+    "es",
+    "fr",
+    "it",
+    "ko",
+    "pl",
+    "pt",
+    "th",
+    "uk",
+    "vi",
+    "zh",
+    "zh_Hant"
+  ],
+  "overflow": [],
+  "missing_font": [],
+  "complete": true
+}
