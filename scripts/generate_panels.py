@@ -129,6 +129,11 @@ def _check_panel_index(script, panel):
         raise ValueError(f"--panel must be between 1 and {n} (got {panel})")
 
 
+def _target_panel_numbers(script, panel=None):
+    _check_panel_index(script, panel)
+    return [panel] if panel else list(range(1, len(script["panels"]) + 1))
+
+
 def _merge_prompts_log(existing, new_entries):
     by_panel = {e["panel"]: e for e in existing}
     for entry in new_entries:
@@ -146,7 +151,6 @@ def _real_generation_removed():
 
 def generate(script, cfgs, mock=False, panel=None):
     """mock時だけpanel_N.pngを作る。実画像生成は外部ツールに委譲する。"""
-    _check_panel_index(script, panel)
     if not mock:
         _real_generation_removed()
 
@@ -155,7 +159,7 @@ def generate(script, cfgs, mock=False, panel=None):
     os.makedirs(panels_dir, exist_ok=True)
 
     n = len(script["panels"])
-    targets = [panel] if panel else list(range(1, n + 1))
+    targets = _target_panel_numbers(script, panel)
     profile = prompt_profile(cfgs)
     prompts_log = []
     for i in targets:
@@ -189,7 +193,6 @@ def _next_variant_start(temp_dir, panel_index):
 
 def generate_variants(script, cfgs, count, mock=False, panel=None):
     """mock候補だけをpanels_tempに作る。実候補生成は外部ツールに委譲する。"""
-    _check_panel_index(script, panel)
     if not mock:
         _real_generation_removed()
 
@@ -197,7 +200,7 @@ def generate_variants(script, cfgs, count, mock=False, panel=None):
     temp_dir = os.path.join(comic_dir, "panels_temp")
     os.makedirs(temp_dir, exist_ok=True)
     n = len(script["panels"])
-    targets = [panel] if panel else list(range(1, n + 1))
+    targets = _target_panel_numbers(script, panel)
     profile = prompt_profile(cfgs)
     prompts_log = []
     candidates_path = os.path.join(temp_dir, "candidates.jsonl")
@@ -258,8 +261,12 @@ def _copy_reference_images(script, panel, cfgs, prompts_dir, panel_index):
     return copied
 
 
-def export_prompts(script, cfgs):
-    """外部画像生成ツールへ渡すプロンプト・参照画像・manifestを書き出す。"""
+def export_prompts(script, cfgs, panel=None):
+    """外部画像生成ツールへ渡すプロンプト・参照画像・manifestを書き出す。
+
+    panelを指定した場合は、その1コマだけを書き出す。既に採用済みの他コマ画像を
+    残したまま、問題のある1コマだけimagegenで再生成するための用途。
+    """
     comic_dir = os.path.join(cfglib.OUTPUT_DIR, script["id"])
     prompts_dir = os.path.join(comic_dir, "prompts")
     panels_dir = os.path.join(comic_dir, "panels")
@@ -272,23 +279,28 @@ def export_prompts(script, cfgs):
         raise ValueError(f"external image handoff requires square panel size, got {target_size}")
     use_prev = (cfgs["style"].get("generation") or {}).get("use_previous_panels_as_reference")
     profile = prompt_profile(cfgs)
+    targets = _target_panel_numbers(script, panel)
     manifest = {
         "id": script["id"],
         "prompt_profile": profile,
         "target_size": target_size,
         "aspect_ratio": "1:1",
+        "partial_export": panel is not None,
         "panels": [],
     }
 
-    for i, panel in enumerate(script["panels"], 1):
-        prompt = build_prompt(script, panel, cfgs, profile, panel_idx=i - 1)
+    for i in targets:
+        panel_data = script["panels"][i - 1]
+        prompt = build_prompt(script, panel_data, cfgs, profile, panel_idx=i - 1)
         prompt_path = os.path.join(prompts_dir, f"panel_{i}.txt")
-        ref_paths = _copy_reference_images(script, panel, cfgs, prompts_dir, i)
+        ref_paths = _copy_reference_images(script, panel_data, cfgs, prompts_dir, i)
 
         note_lines = [
             f"[Required output: a single square image, exactly {target_size[0]}x{target_size[1]} px after acceptance]",
             "[Do not generate a page, strip, border, caption, speech bubble, or any text.]",
         ]
+        if panel is not None:
+            note_lines.append("[Single-panel regeneration: generate only this panel and keep other accepted panels unchanged.]")
         if ref_paths:
             note_lines.append(f"[Reference images copied under output/{script['id']}/prompts/panel_{i}_refs/.]")
         if use_prev and i > 1:
@@ -304,23 +316,24 @@ def export_prompts(script, cfgs):
             "panel": i,
             "prompt_file": os.path.relpath(prompt_path, cfglib.ROOT),
             "reference_files": ref_paths,
-            "scene": panel["scene"],
+            "scene": panel_data["scene"],
         })
         print(f"[export] panel {i}/{len(script['panels'])} -> {os.path.relpath(prompt_path, cfglib.ROOT)}")
 
+    panel_label = "panel " + str(panel) if panel is not None else "all panels"
     readme_lines = [
-        f"=== {script['id']} external image generation handoff ===",
+        f"=== {script['id']} external image generation handoff ({panel_label}) ===",
         "",
-        f"Generate one square image per panel. Accepted target: {target_size[0]}x{target_size[1]} px.",
+        f"Generate one square image per exported panel. Accepted target: {target_size[0]}x{target_size[1]} px.",
         "Do not generate a page/strip/grid. Do not include captions, speech bubbles, logos, or text.",
         "",
         "Recommended flow:",
         "1. Use panel_N.txt as the prompt for an external image generator.",
         "2. Save the returned image anywhere locally.",
         "3. Import the accepted image:",
-        f"   python scripts/accept_external_panel.py --id {script['id']} --panel N --source <image-path>",
-        "4. Repeat for all panels.",
-        f"5. Run: python scripts/run_pipeline.py --id {script['id']} --skip-generate",
+        f"   python scripts/accept_external_panel.py --id {script['id']} --panel N --source <image-path> --provider imagegen",
+        "4. For single-panel regeneration, import only that panel and keep other accepted panels unchanged.",
+        f"5. When all required accepted panels exist, run: python scripts/run_pipeline.py --id {script['id']} --skip-generate",
     ]
     readme_path = os.path.join(prompts_dir, "README.txt")
     with open(readme_path, "w", encoding="utf-8") as f:
@@ -347,7 +360,7 @@ def main():
     cfgs = cfglib.load_configs()
     script = cfglib.load_script(args.script_path)
     if args.export_prompts:
-        export_prompts(script, cfgs)
+        export_prompts(script, cfgs, panel=args.panel)
     elif args.variants:
         generate_variants(script, cfgs, args.variants, mock=args.mock, panel=args.panel)
     else:
