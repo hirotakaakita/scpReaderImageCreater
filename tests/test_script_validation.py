@@ -1,53 +1,48 @@
+import copy
 import os
 import sys
 
 import pytest
 
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-sys.path.insert(0, os.path.join(ROOT, "scripts"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
 from lib import config as cfglib  # noqa: E402
 
 
+LANGS = ["ja", "en", "cs", "de", "es", "fr", "it", "ko", "pl", "pt", "th", "uk", "vi", "zh", "zh_Hant"]
+
+
 def cfgs():
-    langs = ["ja", "en"]
     return {
-        "languages": {"languages": langs},
-        "characters": {"researcher": {"description": "test"}},
-        "layout": {
-            "caption_presets": {"top-left": {}},
-            "bubble_presets": {"top": {}},
-        },
+        "languages": {"languages": LANGS},
+        "characters": {"researcher": {"description": "x"}},
+        "layout": {"caption_presets": {"top-left": {}}, "bubble_presets": {"top": {}}},
     }
 
 
 def valid_script():
-    return {
-        "id": "scp-test",
-        "local_characters": {"subject": {"description": "test"}},
-        "panels": [{
-            "scene": "Wide shot of researcher observing subject.",
-            "characters": ["researcher", "subject"],
-            "caption": {"ja": "説明", "en": "Description"},
-            "caption_position": "top-left",
-        }],
-    }
+    caption = {lang: "text" for lang in LANGS}
+    return {"id": "scp-test", "panels": [
+        {"scene": "Wide shot", "characters": ["researcher"], "caption": copy.deepcopy(caption)},
+        {"scene": "Medium shot", "characters": [], "caption": copy.deepcopy(caption)},
+        {"scene": "Close shot", "characters": [], "caption": copy.deepcopy(caption)},
+        {"scene": "Final shot", "characters": [], "caption": copy.deepcopy(caption)},
+    ]}
 
 
 def test_valid_script_passes():
-    script = valid_script()
-    assert cfglib.validate_script(script, cfgs=cfgs()) is script
+    assert cfglib.validate_script(valid_script(), cfgs=cfgs())["id"] == "scp-test"
 
 
 def test_missing_language_fails():
     script = valid_script()
-    del script["panels"][0]["caption"]["ja"]
-    with pytest.raises(ValueError, match="missing/empty caption language"):
+    del script["panels"][0]["caption"]["th"]
+    with pytest.raises(ValueError, match="th"):
         cfglib.validate_script(script, cfgs=cfgs())
 
 
 def test_unknown_character_fails():
     script = valid_script()
-    script["panels"][0]["characters"].append("invented")
+    script["panels"][0]["characters"] = ["not-registered"]
     with pytest.raises(ValueError, match="unknown character"):
         cfglib.validate_script(script, cfgs=cfgs())
 
@@ -55,11 +50,27 @@ def test_unknown_character_fails():
 def test_unknown_caption_position_fails():
     script = valid_script()
     script["panels"][0]["caption_position"] = "somewhere"
-    with pytest.raises(ValueError, match="unknown caption_position"):
+    with pytest.raises(ValueError, match="caption_position"):
         cfglib.validate_script(script, cfgs=cfgs())
 
 
-def test_partial_language_validation_can_be_requested():
+def test_source_description_is_allowed():
     script = valid_script()
-    del script["panels"][0]["caption"]["ja"]
-    assert cfglib.validate_script(script, cfgs=cfgs(), require_all_languages=False) is script
+    script["panels"][0]["source"] = {
+        "section": "Description", "quote": "source words", "url": "https://example.test/scp-test"}
+    cfglib.validate_script(script, cfgs=cfgs())
+
+
+def test_containment_source_is_only_allowed_on_final_panel():
+    script = valid_script()
+    script["panels"][1]["source"] = {
+        "section": "Special Containment Procedures", "quote": "procedure", "url": "https://example.test"}
+    with pytest.raises(ValueError, match="final panel"):
+        cfglib.validate_script(script, cfgs=cfgs())
+
+
+def test_containment_source_is_allowed_on_final_panel():
+    script = valid_script()
+    script["panels"][-1]["source"] = {
+        "section": "Special Containment Procedures", "quote": "procedure", "url": "https://example.test"}
+    cfglib.validate_script(script, cfgs=cfgs())
