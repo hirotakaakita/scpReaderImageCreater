@@ -38,7 +38,8 @@ def load_configs():
     }
 
 
-def validate_script(script, path=None, cfgs=None, require_all_languages=True):
+def validate_script(script, path=None, cfgs=None, require_all_languages=True,
+                    require_source=False):
     where = path or script.get("id") or "<script>"
     errors = []
     comic_id = script.get("id")
@@ -93,18 +94,23 @@ def validate_script(script, path=None, cfgs=None, require_all_languages=True):
                 errors.append(f"{prefix}: missing/empty caption language(s): {', '.join(missing)}")
 
         source = panel.get("source")
-        if source is not None:
-            if not isinstance(source, dict):
-                errors.append(f"{prefix}: source must be a mapping")
-            else:
-                section = source.get("section")
-                if section not in _SOURCE_SECTIONS:
-                    errors.append(f"{prefix}: source.section must be Description or Special Containment Procedures")
-                if section == "Special Containment Procedures" and idx != len(panels):
-                    errors.append(f"{prefix}: Special Containment Procedures may only be used in the final panel")
-                for key in ("quote", "url"):
-                    if not isinstance(source.get(key), str) or not source[key].strip():
-                        errors.append(f"{prefix}: source.{key} is required when source is present")
+        if source is None:
+            if require_source:
+                errors.append(f"{prefix}: source is required in strict-source mode")
+        elif not isinstance(source, dict):
+            errors.append(f"{prefix}: source must be a mapping")
+        else:
+            section = source.get("section")
+            if section not in _SOURCE_SECTIONS:
+                errors.append(f"{prefix}: source.section must be Description or Special Containment Procedures")
+            if section == "Special Containment Procedures" and idx != len(panels):
+                errors.append(f"{prefix}: Special Containment Procedures may only be used in the final panel")
+            for key in ("quote", "url"):
+                if not isinstance(source.get(key), str) or not source[key].strip():
+                    errors.append(f"{prefix}: source.{key} is required when source is present")
+            fetched_at = source.get("fetched_at")
+            if fetched_at is not None and not isinstance(fetched_at, str):
+                errors.append(f"{prefix}: source.fetched_at must be a string when present")
 
         pos = panel.get("caption_position")
         if isinstance(pos, str) and pos not in caption_presets:
@@ -134,9 +140,10 @@ def validate_script(script, path=None, cfgs=None, require_all_languages=True):
     return script
 
 
-def load_script(path, require_all_languages=True):
+def load_script(path, require_all_languages=True, require_source=False):
     script = load_yaml(path)
-    return validate_script(script, path=path, require_all_languages=require_all_languages)
+    return validate_script(script, path=path, require_all_languages=require_all_languages,
+                           require_source=require_source)
 
 
 def font_path_for(lang, lang_cfg):
