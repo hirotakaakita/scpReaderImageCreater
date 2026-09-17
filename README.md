@@ -11,6 +11,7 @@ SCP記事を題材に、多言語のコマ漫画を生成してSCP Readerアプ�
 - Special Containment Procedures を使うのは例外で、Descriptionで構成した1〜3コマ目を受ける自然な「結」になる場合の **4コマ目のみ**です。
 - 画像には文字を描かせず、Pythonがcaption/title/footerを後から合成します。
 - 画像は1コマにつき1枚、正方形で生成します。ページ・グリッド・枠・吹き出し・文字入り画像は使いません。
+- 1コマだけ失敗した場合は、そのコマだけprompt export / imagegen / importし直します。全コマを再生成しません。
 
 ## User-facing Codex skills
 
@@ -19,8 +20,8 @@ SCP記事を題材に、多言語のコマ漫画を生成してSCP Readerアプ�
 | 依頼 | Skill | 何をするか |
 |---|---|---|
 | 台本作成 | `$make-scp-comic-script` | live記事確認 → Description優先台本 → internal review → YAML validation |
-| 画像生成 | `$generate-scp-comic-images` | prompt export → panelごとの `imagegen` 依頼/生成 → raw画像パス整理 |
-| 生成済み画像取り込み漫画完成 | `$finalize-scp-comic` | `accept_external_panel.py` → 720x720正規化 → 15言語embed → publish check |
+| 画像生成 | `$generate-scp-comic-images` | prompt export → panelごとの `imagegen` 依頼/生成 → raw画像パス整理。1コマだけの再生成も担当 |
+| 生成済み画像取り込み漫画完成 | `$finalize-scp-comic` | `accept_external_panel.py` → 720x720正規化 → 15言語embed → publish check。1コマだけの差し替えも担当 |
 
 文章だけ修正する場合は `$revise-comic-text` を使います。意味が変わる修正は15言語すべてを同時に更新します。
 
@@ -34,7 +35,7 @@ AGENTS.md を読み、$make-scp-comic-script の手順で進めてください�
 画像生成はまだしないでください。
 ```
 
-### 2. 画像生成
+### 2. 全コマ画像生成
 
 ```text
 scp-173 の画像を生成してください。
@@ -44,7 +45,26 @@ ChatGPT画像生成（imagegen）を使い、1コマにつき1枚の正方形画
 完成処理はまだしないでください。
 ```
 
-### 3. 生成済み画像取り込み漫画完成
+### 3. 1コマだけ画像再生成
+
+```text
+scp-173 の3コマ目だけ再生成してください。
+AGENTS.md を読み、$generate-scp-comic-images の手順で進めてください。
+
+理由:
+- 既存の3コマ目に文字っぽいものが写っている
+- 他のコマはそのまま使う
+
+やること:
+- 必要なら panel 3 の scene だけ修正する
+- python scripts/validate_scripts.py comics/queue/scp-173.yaml
+- python scripts/run_pipeline.py --id scp-173 --export-prompts --panel 3
+- imagegen で panel 3 の画像だけ生成する
+
+完成処理はまだしないでください。
+```
+
+### 4. 生成済み画像取り込み漫画完成
 
 ```text
 scp-173 の生成済み画像を取り込んで漫画を完成させてください。
@@ -55,6 +75,45 @@ AGENTS.md を読み、$finalize-scp-comic の手順で進めてください。
 - panel 2: ./panel_2.png
 - panel 3: ./panel_3.png
 - panel 4: ./panel_4.png
+```
+
+### 5. 1コマだけ差し替えて再完成
+
+```text
+scp-173 の3コマ目だけ差し替えて、漫画を再生成してください。
+AGENTS.md を読み、$finalize-scp-comic の手順で進めてください。
+
+画像:
+- panel 3: ./panel_3_retry.png
+
+他のpanelは既存の accepted panel を使ってください。
+```
+
+### 6. テキスト修正
+
+```text
+scp-173 のテキストを修正してください。
+AGENTS.md を読み、$revise-comic-text の手順で進めてください。
+
+対象:
+- panel: 4
+- field: caption
+- language scope: semantic-all-languages
+
+修正内容:
+- 希望: オチが分かりやすいように短くする
+- 理由: 現在のcaptionだと異常性の結論が伝わりにくい
+
+制約:
+- 画像は再生成しない
+- 意味が変わるので15言語すべて更新する
+```
+
+言語固有の誤字だけなら、次のように依頼します。
+
+```text
+$revise-comic-text で scp-173 の日本語タイトルだけ誤字修正してください。
+意味は変えません。他言語は変更しないでください。
 ```
 
 ## Pipeline
@@ -68,7 +127,7 @@ Python validation
   ↓
 Codex: $generate-scp-comic-images
   ↓
-python scripts/run_pipeline.py --id scp-XXX --export-prompts
+python scripts/run_pipeline.py --id scp-XXX --export-prompts [--panel N]
   ↓
 output/scp-XXX/prompts/panel_N.txt
   ↓
@@ -78,7 +137,7 @@ output/scp-XXX/panels_temp/panel_N_imagegen_vM.png  # raw/debug, gitignored
   ↓
 Codex/Python: $finalize-scp-comic
   ↓
-python scripts/accept_external_panel.py
+python scripts/accept_external_panel.py --id scp-XXX --panel N --source <image>
   ↓
 output/scp-XXX/panels/panel_N.png  # accepted 720x720 source panels
   ↓
@@ -118,11 +177,19 @@ YAML構造、15言語caption、character key、caption position、source section
 
 ## Prompt export
 
+全コマ分:
+
 ```bash
 python scripts/run_pipeline.py --id scp-XXX --export-prompts
 ```
 
-`output/scp-XXX/prompts/` に各コマのprompt、manifest、参照画像が書き出されます。
+1コマだけ再生成用:
+
+```bash
+python scripts/run_pipeline.py --id scp-XXX --export-prompts --panel 3
+```
+
+`output/scp-XXX/prompts/` に対象コマのprompt、manifest、参照画像が書き出されます。
 
 ## imagegen request template
 
@@ -134,7 +201,7 @@ Generate a single image for one SCP comic panel.
 Hard requirements:
 - Use a square 1:1 canvas.
 - Produce exactly one standalone illustration for panel N.
-- Do not create a comic page, four-panel strip, storyboard, grid, border, or split-screen layout.
+- Do not create a comic page, four-panel strip, storyboard, grid, border, frame, or split-screen layout.
 - Do not render any text, letters, numbers, captions, signs, labels, sound effects, watermarks, speech bubbles, or thought bubbles.
 - Draw one continuous moment only.
 - Keep important faces, hands, and props away from the outer edge because the accepted image will be center-cropped/resized to 720x720 if needed.
@@ -154,6 +221,8 @@ output/scp-XXX/panels_temp/panel_N_imagegen_vM.png
 
 ## Accept generated panels
 
+全コマ取り込み:
+
 ```bash
 python scripts/accept_external_panel.py --id scp-XXX --panel 1 --source /path/to/panel_1.png --provider imagegen
 python scripts/accept_external_panel.py --id scp-XXX --panel 2 --source /path/to/panel_2.png --provider imagegen
@@ -161,11 +230,17 @@ python scripts/accept_external_panel.py --id scp-XXX --panel 3 --source /path/to
 python scripts/accept_external_panel.py --id scp-XXX --panel 4 --source /path/to/panel_4.png --provider imagegen
 ```
 
+1コマだけ差し替え:
+
+```bash
+python scripts/accept_external_panel.py --id scp-XXX --panel 3 --source /path/to/panel_3_retry.png --provider imagegen --note "regenerated because previous panel had pseudo-text"
+```
+
 取り込み時に、元画像は `panels_temp/` にコピーされ、accepted panelは `output/scp-XXX/panels/panel_N.png` に720x720で保存されます。`selected.json` にはprompt/scene/provider/元画像サイズ/採用サイズ/正規化方法が残ります。
 
 ## Compose, embed, and publish check
 
-全コマを採用したら:
+全コマを採用した後、または1コマ差し替え後:
 
 ```bash
 python scripts/run_pipeline.py --id scp-XXX --skip-generate
@@ -187,6 +262,20 @@ mockはproductionと同じpanel pathへplaceholderを書けるため、採用済
 ## Text revision after human review
 
 人間レビュー後にcaption等を直す場合は `$revise-comic-text` を使います。意味が変わる修正はja/enだけで済ませず、**ja, en, cs, de, es, fr, it, ko, pl, pt, th, uk, vi, zh, zh_Hant の全言語を更新**します。
+
+依頼時は、できるだけ以下を指定します。
+
+```text
+対象:
+- panel: <1-4 or all>
+- field: caption / title / addendum / object_class
+- language scope: semantic-all-languages / ja-only typo / en-only wording / other locale-only
+
+修正内容:
+- 現在: <任意>
+- 希望: <どう直したいか>
+- 理由: <なぜ直すか>
+```
 
 修正後は画像を再生成せず:
 
