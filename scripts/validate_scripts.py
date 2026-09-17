@@ -13,6 +13,8 @@ def main():
     ap.add_argument("paths", nargs="*", help="YAML files to validate")
     ap.add_argument("--all", action="store_true",
                     help="validate all queue/done YAML files")
+    ap.add_argument("--strict-source", action="store_true",
+                    help="require panels[].source provenance on every panel")
     args = ap.parse_args()
 
     paths = list(args.paths)
@@ -27,8 +29,9 @@ def main():
     failures = 0
     for path in paths:
         try:
-            cfglib.load_script(path)
-            print(f"[valid] {path}")
+            cfglib.load_script(path, require_source=args.strict_source)
+            label = "valid+source" if args.strict_source else "valid"
+            print(f"[{label}] {path}")
         except Exception as exc:
             failures += 1
             print(f"[invalid] {path}: {exc}", file=sys.stderr)
