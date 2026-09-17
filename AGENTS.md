@@ -54,6 +54,7 @@ Use the repository skills when applicable:
 - `$prepare-scp-comic`: take scripts through review, mock verification, and prompt export without generating final images.
 - `$refine-panel`: refine a problematic generated panel while preserving source facts.
 - `$revise-comic-text`: apply post-human-review text changes across all production languages without regenerating accepted artwork.
+- `$scp-chatgpt-image-handoff`: hand a panel to ChatGPT image generation using a fixed 1:1 / 720×720 accepted-image contract; never use a generated page as the thumbnail source.
 
 Writer and reviewer are separate roles even though both are performed by Codex. A review should first report findings; fixes are applied only after the findings are checked against the source article.
 
