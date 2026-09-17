@@ -50,11 +50,16 @@ def test_export_prompts_can_export_single_panel(tmp_path, monkeypatch):
     prompts_dir = tmp_path / "output" / "scp-test" / "prompts"
     assert not (prompts_dir / "panel_1.txt").exists()
     assert (prompts_dir / "panel_3.txt").exists()
+    assert (prompts_dir / "panel_3_imagegen_request.txt").exists()
     assert "panel three" in (prompts_dir / "panel_3.txt").read_text(encoding="utf-8")
+    request = (prompts_dir / "panel_3_imagegen_request.txt").read_text(encoding="utf-8")
+    assert "Produce exactly one standalone illustration for panel 3" in request
+    assert "single-panel regeneration" in request
 
     manifest = json.loads((prompts_dir / "manifest.json").read_text(encoding="utf-8"))
     assert manifest["partial_export"] is True
     assert [p["panel"] for p in manifest["panels"]] == [3]
+    assert manifest["panels"][0]["imagegen_request_file"].endswith("panel_3_imagegen_request.txt")
 
 
 def test_export_prompts_exports_all_panels_by_default(tmp_path, monkeypatch):
@@ -65,7 +70,9 @@ def test_export_prompts_exports_all_panels_by_default(tmp_path, monkeypatch):
 
     prompts_dir = tmp_path / "output" / "scp-test" / "prompts"
     assert (prompts_dir / "panel_1.txt").exists()
+    assert (prompts_dir / "panel_1_imagegen_request.txt").exists()
     assert (prompts_dir / "panel_4.txt").exists()
+    assert (prompts_dir / "panel_4_imagegen_request.txt").exists()
     manifest = json.loads((prompts_dir / "manifest.json").read_text(encoding="utf-8"))
     assert manifest["partial_export"] is False
     assert [p["panel"] for p in manifest["panels"]] == [1, 2, 3, 4]
