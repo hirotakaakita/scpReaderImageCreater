@@ -45,7 +45,7 @@ def process(script_path, cfgs, mock=False, languages=None, skip_generate=False,
     script = cfglib.load_script(script_path)
     print(f"=== {script['id']} ({script_path}) ===")
     if export_prompts:
-        generate_panels.export_prompts(script, cfgs)
+        generate_panels.export_prompts(script, cfgs, panel=panel)
         return
     if variants:
         generate_panels.generate_variants(script, cfgs, variants, mock=mock, panel=panel)
@@ -85,7 +85,8 @@ def main():
                     help="外部画像生成向けにプロンプト・参照画像を書き出す")
     ap.add_argument("--variants", type=int,
                     help="mock候補だけをpanels_temp/に生成する。実画像生成には使わない")
-    ap.add_argument("--panel", type=int)
+    ap.add_argument("--panel", type=int,
+                    help="指定したコマ番号（1始まり）だけ処理する。--export-prompts と併用すると1コマだけ再生成準備できる")
     args = ap.parse_args()
 
     if args.variants is not None and args.variants <= 0:
