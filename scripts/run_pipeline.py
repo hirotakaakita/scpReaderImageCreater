@@ -10,6 +10,7 @@ import build_index  # noqa: E402
 import compose  # noqa: E402
 import embed_text  # noqa: E402
 import generate_panels  # noqa: E402
+import publish_check  # noqa: E402
 
 
 def find_script(comic_id):
@@ -46,7 +47,7 @@ def process(script_path, cfgs, mock=False, languages=None, skip_generate=False,
     if export_prompts:
         generate_panels.export_prompts(script, cfgs)
         return
-    if variants is not None:
+    if variants:
         generate_panels.generate_variants(script, cfgs, variants, mock=mock, panel=panel)
         return
     if not skip_generate:
@@ -55,19 +56,20 @@ def process(script_path, cfgs, mock=False, languages=None, skip_generate=False,
     embed_result = embed_text.embed(script, cfgs, languages=languages)
 
     if not mock:
-        # Publication is fail-closed: only an explicit True may move a queued script
-        # to done/ or enter used.json. Partial-language runs deliberately remain False
-        # because compose() invalidates the previous publication state.
-        if embed_result.get("complete") is not True:
-            print(f"[state] WARN: {script['id']} is NOT publish-complete "
-                  f"(overflow={embed_result['overflow']}, missing_font={embed_result['missing_font']}); "
-                  "NOT moved to done/ and NOT recorded in used.json. "
-                  "Run a successful full-language embed before publishing.")
-            return
-        if os.path.dirname(os.path.abspath(script_path)) == os.path.abspath(cfglib.QUEUE_DIR):
-            move_to_done(script_path)
-        cfglib.mark_used(script["id"])
-        print(f"[state] recorded in used.json: {script['id']}")
+        # Publication fails closed. A partial-language run intentionally cannot
+        # move queue->done or update used.json even if older artifacts exist.
+        gate_errors = publish_check.check(script["id"]) if embed_result.get("complete") is True else [
+            "embed result is not explicitly publish-complete"]
+        if gate_errors:
+            print(f"[state] WARN: {script['id']} is NOT publish-ready; NOT moved to done/ "
+                  "and NOT recorded in used.json")
+            for error in gate_errors:
+                print(f"  - {error}")
+        else:
+            if os.path.dirname(os.path.abspath(script_path)) == os.path.abspath(cfglib.QUEUE_DIR):
+                move_to_done(script_path)
+            cfglib.mark_used(script["id"])
+            print(f"[state] publish gate passed; recorded in used.json: {script['id']}")
 
 
 def main():
@@ -90,16 +92,15 @@ def main():
         ap.error(f"--count must be a positive integer (got {args.count})")
 
     cfgs = cfglib.load_configs()
-    langs = [x.strip() for x in args.languages.split(",") if x.strip()] if args.languages else None
+    langs = args.languages.split(",") if args.languages else None
     if langs:
-        unknown = sorted(set(langs) - set(cfgs["languages"]["languages"]))
+        allowed = set(cfgs["languages"]["languages"])
+        unknown = [lang for lang in langs if lang not in allowed]
         if unknown:
             ap.error(f"unknown language(s): {', '.join(unknown)}")
 
     if args.comic_id:
         comic_ids = [c.strip() for c in args.comic_id.split(",") if c.strip()]
-        if not comic_ids:
-            ap.error("--id must contain at least one comic id")
         for i, comic_id in enumerate(comic_ids, 1):
             if len(comic_ids) > 1:
                 print(f"--- [{i}/{len(comic_ids)}] {comic_id} ---")
@@ -129,7 +130,7 @@ def main():
         if processed == 0:
             print("No unprocessed scripts in queue. Nothing generated.")
 
-    if not args.export_prompts and args.variants is None and not args.mock:
+    if not args.export_prompts and not args.variants and not args.mock:
         build_index.build()
 
 
