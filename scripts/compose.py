@@ -6,7 +6,7 @@ import math
 import os
 import sys
 
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageOps
 
 sys.path.insert(0, os.path.dirname(__file__))
 from lib import config as cfglib  # noqa: E402
@@ -23,6 +23,16 @@ def build_footer_lines(script):
         f"{by} - SCP Foundation ({url})",
         "Original: CC BY-SA 3.0 / This comic: CC BY-SA 3.0 (creativecommons.org/licenses/by-sa/3.0)",
     ]
+
+
+def normalize_panel(source, width, height):
+    """生成画像を最終コマ寸法へ中央クロップ+リサイズする。
+
+    画像生成側が誤って非正方形を返しても縦横比を歪めない。現行設定は
+    width == height なので、中央の正方形を切り出して固定pxへ正規化される。
+    """
+    return ImageOps.fit(source.convert("RGB"), (width, height), method=Image.LANCZOS,
+                        centering=(0.5, 0.5))
 
 
 def compose(script, cfgs):
@@ -94,7 +104,7 @@ def compose(script, cfgs):
         rect = (x0, y0, x0 + pw, y0 + ph)
         panel_rects.append(rect)
         with Image.open(panel_files[i]) as source:
-            panel = source.convert("RGB").resize((pw, ph), Image.LANCZOS)
+            panel = normalize_panel(source, pw, ph)
         img.paste(panel, (x0, y0))
 
     if has_addendum:
@@ -108,19 +118,24 @@ def compose(script, cfgs):
     base_path = os.path.join(comic_dir, "base.png")
     img.save(base_path)
 
+    # Thumbnail source is ALWAYS the accepted first panel, never the composed page.
+    # This prevents gutters/page borders/caption frames from leaking into the thumbnail.
     thumb_size = (layout.get("thumbnail") or {}).get("size", 480)
     thumb_path = os.path.join(comic_dir, "thumbnail.png")
     with Image.open(panel_files[0]) as source:
-        thumb = source.convert("RGB").resize((thumb_size, thumb_size), Image.LANCZOS)
+        normalized_first = normalize_panel(source, pw, ph)
+        thumb = ImageOps.fit(normalized_first, (thumb_size, thumb_size), method=Image.LANCZOS,
+                             centering=(0.5, 0.5))
     thumb.save(thumb_path)
-    print(f"[compose] {thumb_path} ({thumb_size}x{thumb_size}, panel 1)")
+    print(f"[compose] {thumb_path} ({thumb_size}x{thumb_size}, accepted panel 1 source)")
 
-    # Re-composition changes the publication base. It must invalidate any previous
-    # publish-complete state. Only a subsequent full-language embed may set True.
     meta = {
         "id": script["id"],
         "panels": n,
         "image_size": [width, height],
+        "panel_size": [pw, ph],
+        "thumbnail_size": [thumb_size, thumb_size],
+        "thumbnail_source": "panels/panel_1.png",
         "panel_rects": panel_rects,
         "addendum_rect": addendum_rect,
         "header_rect": header_rect,
