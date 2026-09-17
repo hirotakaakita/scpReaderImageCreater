@@ -1,11 +1,4 @@
-"""コマ画像を1枚の漫画（テキスト無しのbase.png）に合成する。
-
-- コマサイズ・余白はconfig/layout.yamlで統一
-- コマ数は台本のpanels数に追従（4コマ/8コマなどは台本側で決まる）
-- タイトル帯は空けておく（言語別テキストはembed_text.pyが描く）
-- ライセンス表記フッターはここで描く（全言語共通）
-- コマの配置座標をmeta.jsonに書き出し、embed_text.pyが利用する
-"""
+"""コマ画像を1枚の漫画（テキスト無しのbase.png）に合成する。"""
 import argparse
 import datetime
 import json
@@ -26,38 +19,35 @@ def build_footer_lines(script):
     author = at.get("author")
     url = at.get("source_url", "")
     by = f'Based on "{article}"' + (f" by {author}" if author else "")
-    lines = [
+    return [
         f"{by} - SCP Foundation ({url})",
         "Original: CC BY-SA 3.0 / This comic: CC BY-SA 3.0 (creativecommons.org/licenses/by-sa/3.0)",
     ]
-    return lines
 
 
 def compose(script, cfgs):
     layout = cfgs["layout"]
-    lang_cfg = cfgs["languages"]
     comic_dir = os.path.join(cfglib.OUTPUT_DIR, script["id"])
     panels_dir = os.path.join(comic_dir, "panels")
+    os.makedirs(comic_dir, exist_ok=True)
 
     n = len(script["panels"])
     panel_files = [os.path.join(panels_dir, f"panel_{i}.png") for i in range(1, n + 1)]
-    for p in panel_files:
-        if not os.path.exists(p):
-            raise FileNotFoundError(p)
+    for path in panel_files:
+        if not os.path.exists(path):
+            raise FileNotFoundError(path)
 
     pw, ph = layout["panel"]["width"], layout["panel"]["height"]
     strip = layout["strip"]
     cols = strip["columns"]
+    if cols <= 0:
+        raise ValueError("layout strip.columns must be positive")
     rows = math.ceil(n / cols)
     gutter, margin = strip["gutter"], strip["margin"]
     header_h = layout["header"]["height"]
     footer_h = layout["footer"]["height"]
-
-    # SCP文書調のキャプションは各コマの絵の上（内側）に文字量に合わせて重ねて描く
-    # （embed_text.pyが言語別に描く）ので、グリッドの行の高さはコマの高さそのまま。
     row_cell_h = [ph] * rows
 
-    # 補遺ボックスは台本に addendum があるときだけ確保する
     addendum_cfg = layout.get("addendum") or {}
     has_addendum = bool(script.get("addendum"))
     add_h = addendum_cfg.get("height", 0) if has_addendum else 0
@@ -70,7 +60,6 @@ def compose(script, cfgs):
 
     img = Image.new("RGB", (width, height), strip["background"])
     draw = ImageDraw.Draw(img)
-
     header_rect = (margin, margin, width - margin, margin + header_h)
     grid_top = margin + header_h + gutter
     row_tops = []
@@ -89,7 +78,6 @@ def compose(script, cfgs):
         footer_top = grid_bottom + gutter
     footer_rect = (margin, footer_top, width - margin, footer_top + footer_h)
 
-    # タイトル帯下の罫線
     rule_w = layout["header"].get("rule_width", 0)
     if rule_w:
         y = header_rect[3]
@@ -105,18 +93,13 @@ def compose(script, cfgs):
         y0 = row_tops[row]
         rect = (x0, y0, x0 + pw, y0 + ph)
         panel_rects.append(rect)
-
-        panel = Image.open(panel_files[i]).convert("RGB").resize((pw, ph), Image.LANCZOS)
+        with Image.open(panel_files[i]) as source:
+            panel = source.convert("RGB").resize((pw, ph), Image.LANCZOS)
         img.paste(panel, (x0, y0))
-        # コマ自体の縁取りは描かない（gutterの余白だけでコマを区切る）
-        # キャプションの枠+文字は言語別に文字量に合わせてembed_text.pyが描く
 
     if has_addendum:
         drawing.draw_caption_frame(draw, addendum_rect, addendum_cfg)
 
-    # フッターの罫線のみここで描く（文字は「AI利用」の一文を言語別にする都合上、
-    # ライセンス表記2行とまとめてembed_text.pyが言語別に描く。build_footer_linesは
-    # そちらから呼ばれる）
     frule = layout["footer"].get("rule_width", 0)
     if frule:
         y = footer_rect[1]
@@ -125,17 +108,15 @@ def compose(script, cfgs):
     base_path = os.path.join(comic_dir, "base.png")
     img.save(base_path)
 
-    # 漫画一覧画面用のサムネイル（1コマ目のみ、文字無し）。captionは言語別に
-    # embed_text.pyが後で描くため、この時点のpanel_1.pngはまだ文字無しで、
-    # 全言語共通で使い回せる
-    thumb_cfg = layout.get("thumbnail") or {}
-    thumb_size = thumb_cfg.get("size", 480)
+    thumb_size = (layout.get("thumbnail") or {}).get("size", 480)
     thumb_path = os.path.join(comic_dir, "thumbnail.png")
-    thumb = Image.open(panel_files[0]).convert("RGB").resize(
-        (thumb_size, thumb_size), Image.LANCZOS)
+    with Image.open(panel_files[0]) as source:
+        thumb = source.convert("RGB").resize((thumb_size, thumb_size), Image.LANCZOS)
     thumb.save(thumb_path)
     print(f"[compose] {thumb_path} ({thumb_size}x{thumb_size}, panel 1)")
 
+    # Re-composition changes the publication base. It must invalidate any previous
+    # publish-complete state. Only a subsequent full-language embed may set True.
     meta = {
         "id": script["id"],
         "panels": n,
@@ -148,6 +129,10 @@ def compose(script, cfgs):
         "attribution": script.get("attribution") or {},
         "title": script.get("title") or {},
         "created_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "languages": [],
+        "overflow": [],
+        "missing_font": [],
+        "complete": False,
     }
     with open(os.path.join(comic_dir, "meta.json"), "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=True, indent=2)
