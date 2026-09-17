@@ -12,6 +12,7 @@ QUEUE_DIR = os.path.join(ROOT, "comics", "queue")
 DONE_DIR = os.path.join(ROOT, "comics", "done")
 USED_PATH = os.path.join(ROOT, "state", "used.json")
 _ID_RE = re.compile(r"^scp-[A-Za-z0-9_-]+$")
+_SOURCE_SECTIONS = {"Description", "Special Containment Procedures"}
 
 
 def rootpath(*parts):
@@ -29,7 +30,6 @@ def load_yaml(path):
 
 
 def load_configs():
-    """config/ 以下の全設定をまとめて読む。"""
     return {
         "style": load_yaml(rootpath("config", "style.yaml")),
         "layout": load_yaml(rootpath("config", "layout.yaml")),
@@ -39,11 +39,6 @@ def load_configs():
 
 
 def validate_script(script, path=None, cfgs=None, require_all_languages=True):
-    """LLM生成YAMLとPythonパイプラインの境界を機械検証する。
-
-    既存台本との後方互換を保つためcharacterのdescription/appearance形式などは
-    ここでは固定しすぎず、パイプラインが安全に処理するための契約を検証する。
-    """
     where = path or script.get("id") or "<script>"
     errors = []
     comic_id = script.get("id")
@@ -51,10 +46,8 @@ def validate_script(script, path=None, cfgs=None, require_all_languages=True):
         errors.append("id is required and must be a string")
     elif not _ID_RE.match(comic_id):
         errors.append(f"invalid id format: {comic_id!r}")
-
     if path and comic_id:
         stem = os.path.splitext(os.path.basename(path))[0]
-        # done/ の -dupN は過去の衝突回避名なので例外扱いする。
         if stem != comic_id and not stem.startswith(f"{comic_id}-dup"):
             errors.append(f"id {comic_id!r} does not match filename {stem!r}")
 
@@ -98,6 +91,20 @@ def validate_script(script, path=None, cfgs=None, require_all_languages=True):
                        if not isinstance(caption.get(lang), str) or not caption[lang].strip()]
             if missing:
                 errors.append(f"{prefix}: missing/empty caption language(s): {', '.join(missing)}")
+
+        source = panel.get("source")
+        if source is not None:
+            if not isinstance(source, dict):
+                errors.append(f"{prefix}: source must be a mapping")
+            else:
+                section = source.get("section")
+                if section not in _SOURCE_SECTIONS:
+                    errors.append(f"{prefix}: source.section must be Description or Special Containment Procedures")
+                if section == "Special Containment Procedures" and idx != len(panels):
+                    errors.append(f"{prefix}: Special Containment Procedures may only be used in the final panel")
+                for key in ("quote", "url"):
+                    if not isinstance(source.get(key), str) or not source[key].strip():
+                        errors.append(f"{prefix}: source.{key} is required when source is present")
 
         pos = panel.get("caption_position")
         if isinstance(pos, str) and pos not in caption_presets:
@@ -143,7 +150,6 @@ def is_char_wrap(lang, lang_cfg):
 
 
 def load_used():
-    """漫画を生成済みのSCPの記録（state/used.json）。消すと重複生成の恐れがある。"""
     if not os.path.exists(USED_PATH):
         return {}
     with open(USED_PATH, encoding="utf-8") as f:
@@ -153,10 +159,8 @@ def load_used():
 def mark_used(comic_id):
     used = load_used()
     if comic_id not in used:
-        used[comic_id] = {
-            "generatedAt": datetime.datetime.now(datetime.timezone.utc)
-            .strftime("%Y-%m-%dT%H:%M:%SZ"),
-        }
+        used[comic_id] = {"generatedAt": datetime.datetime.now(datetime.timezone.utc)
+                          .strftime("%Y-%m-%dT%H:%M:%SZ")}
     os.makedirs(os.path.dirname(USED_PATH), exist_ok=True)
     with open(USED_PATH, "w", encoding="utf-8") as f:
         json.dump(dict(sorted(used.items())), f, ensure_ascii=True, indent=2)
