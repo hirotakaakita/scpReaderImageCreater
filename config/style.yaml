@@ -14,12 +14,12 @@ prompt:
 
     composition_rules: >
       One unified, seamless illustration filling the entire square image
-      edge to edge, depicting a single continuous moment in time. The output
-      canvas is exactly 720 by 720 pixels. Characters are drawn at a readable
-      size and the main subject is clearly visible. Keep character designs
-      exactly as described. Follow the pose and motion described in the Scene.
-      If the Scene shows a plain indoor room without specifying wall/floor
-      color, use pale cream-gray (RGB 238,233,218); otherwise follow the Scene.
+      edge to edge, depicting a single continuous moment in time. Characters
+      are drawn at a readable size and the main subject is clearly visible.
+      Keep character designs exactly as described. Follow the pose and motion
+      described in the Scene. If the Scene shows a plain indoor room without
+      specifying wall/floor color, use pale cream-gray (RGB 238,233,218);
+      otherwise follow the Scene.
 
     no_text_rules: >
       ABSOLUTE RULE, HIGHEST PRIORITY: this image contains ZERO text of any
@@ -30,10 +30,9 @@ prompt:
 generation:
   provider: comfyui
   aspect_ratio: "1:1"
-  # Generation, accepted panel, and final composition all use the same fixed
-  # square pixels. Handoff/other providers must follow these dimensions too.
-  width: 720
-  height: 720
+  # Accepted/final panel pixels are defined by config/layout.yaml (currently
+  # 720x720). Providers may render at a native square resolution; selection
+  # normalizes the accepted asset to layout.panel pixels without distortion.
   use_previous_panels_as_reference: true
   max_reference_images: 6
 
@@ -45,8 +44,11 @@ generation:
     vae_name: "qwen_image_vae.safetensors"
     style_lora_name: "QwenImage_blackline.safetensors"
     style_lora_strength: 1.0
-    width: 720
-    height: 720
+    # Qwen-Image native square generation. Do not make width/height unequal.
+    # Accepted variants are normalized to layout.panel (720x720) by
+    # scripts/select_variant.py.
+    width: 1328
+    height: 1328
     steps: 2
     cfg: 1
     sampler_name: euler
