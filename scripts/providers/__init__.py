@@ -1,23 +1,15 @@
-"""画像生成プロバイダのレジストリ。
+"""Legacy image-provider registry.
 
-各プロバイダは scripts/providers/<name>/ フォルダにまとまっており、
-generate_image(prompt, ref_images, gen_cfg) -> (PIL.Image, seed:int) を提供する。
-gen_cfg は config/style.yaml の generation セクション全体（provider共通キー +
-gen_cfg[<name>] のプロバイダ固有設定）。seedは実際に使われた値（configのseedが
--1=ランダムの場合も、実際に採番された値）を返す。候補生成時の再現・比較用。
-
-新しいプロバイダを足す場合: scripts/providers/<name>/ を作って
-generate_image() を実装し、下のPROVIDERSに登録する。
+Local image-generation provider implementations were removed. This repository now
+exports prompts and accepts externally generated images via scripts/accept_external_panel.py.
 """
-from . import comfyui
 
-PROVIDERS = {
-    "comfyui": comfyui,
-}
+PROVIDERS = {}
 
 
 def get(name):
-    if name not in PROVIDERS:
-        raise ValueError(
-            f"unknown generation provider: {name!r} (choices: {', '.join(PROVIDERS)})")
-    return PROVIDERS[name]
+    raise RuntimeError(
+        "Local image-generation providers have been removed. "
+        "Use `python scripts/run_pipeline.py --id <id> --export-prompts`, "
+        "generate images externally, then import them with "
+        "`python scripts/accept_external_panel.py --id <id> --panel <N> --source <image>`.")
