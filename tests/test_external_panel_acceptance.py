@@ -9,38 +9,29 @@ import accept_external_panel  # noqa: E402
 from lib import config as cfglib  # noqa: E402
 
 
-def test_accept_external_panel_normalizes_and_records_metadata(tmp_path, monkeypatch):
+def _patch_env(tmp_path, monkeypatch, panel_count=1):
     root = tmp_path
     queue = root / "comics" / "queue"
     done = root / "comics" / "done"
     output = root / "output"
     queue.mkdir(parents=True)
     done.mkdir(parents=True)
-
-    script = {
-        "id": "scp-test",
-        "panels": [{
-            "scene": "Wide shot of a test scene.",
-            "characters": [],
-            "caption": {"ja": "テスト", "en": "Test"},
-        }],
-        "attribution": {"source_url": "https://example.test/scp-test"},
-    }
+    panel_lines = []
+    for i in range(1, panel_count + 1):
+        panel_lines.extend([
+            "  - scene: Wide shot of a test scene.\n",
+            "    characters: []\n",
+            "    caption:\n",
+            f"      ja: テスト{i}\n",
+            f"      en: Test {i}\n",
+        ])
     (queue / "scp-test.yaml").write_text(
         "id: scp-test\n"
         "attribution:\n"
         "  source_url: https://example.test/scp-test\n"
-        "panels:\n"
-        "  - scene: Wide shot of a test scene.\n"
-        "    characters: []\n"
-        "    caption:\n"
-        "      ja: テスト\n"
-        "      en: Test\n",
+        "panels:\n" + "".join(panel_lines),
         encoding="utf-8",
     )
-    source = root / "source.png"
-    Image.new("RGB", (1600, 900), "white").save(source)
-
     monkeypatch.setattr(cfglib, "ROOT", str(root))
     monkeypatch.setattr(cfglib, "QUEUE_DIR", str(queue))
     monkeypatch.setattr(cfglib, "DONE_DIR", str(done))
@@ -60,6 +51,13 @@ def test_accept_external_panel_normalizes_and_records_metadata(tmp_path, monkeyp
         "languages": {"languages": ["ja", "en"]},
         "characters": {},
     })
+    return root, output
+
+
+def test_accept_external_panel_normalizes_and_records_metadata(tmp_path, monkeypatch):
+    root, output = _patch_env(tmp_path, monkeypatch, panel_count=1)
+    source = root / "source.png"
+    Image.new("RGB", (1600, 900), "white").save(source)
 
     accept_external_panel.accept_external_panel("scp-test", 1, str(source), provider="chatgpt-image")
 
@@ -73,3 +71,20 @@ def test_accept_external_panel_normalizes_and_records_metadata(tmp_path, monkeyp
     assert selected["1"]["original_size"] == [1600, 900]
     assert selected["1"]["accepted_size"] == [720, 720]
     assert selected["1"]["normalization"] == "center_crop_and_resize"
+
+
+def test_accept_many_imports_manifest_mapping(tmp_path, monkeypatch):
+    root, output = _patch_env(tmp_path, monkeypatch, panel_count=2)
+    src1 = root / "panel_1.png"
+    src2 = root / "panel_2.png"
+    Image.new("RGB", (1000, 1000), "white").save(src1)
+    Image.new("RGB", (900, 1200), "white").save(src2)
+
+    mapping = {1: {"source": str(src1)}, 2: {"source": str(src2), "note": "rerun"}}
+    accept_external_panel.accept_many("scp-test", mapping, provider="imagegen")
+
+    assert (output / "scp-test" / "panels" / "panel_1.png").exists()
+    assert (output / "scp-test" / "panels" / "panel_2.png").exists()
+    selected = json.loads((output / "scp-test" / "panels" / "selected.json").read_text(encoding="utf-8"))
+    assert selected["1"]["provider"] == "imagegen"
+    assert selected["2"]["note"] == "rerun"
