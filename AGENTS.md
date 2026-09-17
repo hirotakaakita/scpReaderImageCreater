@@ -4,13 +4,13 @@
 
 This repository generates multilingual SCP comic strips for the SCP Reader app. Codex is the only coding/content agent used for this repository. Do not depend on Claude Code or a Claude subscription.
 
-The repository does **not** contain or call a local image-generation provider. Codex/Python exports prompts, accepts externally generated images, normalizes them, composes comics, embeds multilingual text, and runs deterministic publication checks.
+The repository does **not** contain or call a local image-generation provider. Codex/Python exports prompts, image generation is done with ChatGPT image generation (`imagegen`) or another external tool, and Python accepts/normalizes those images, composes the comic, embeds multilingual text, and runs deterministic publication checks.
 
 ## Source of truth
 
 - `README.md`: runtime pipeline and local setup.
 - `docs/comic-spec.md`: content and comic-generation rules.
-- `.agents/skills/`: task-specific Codex workflows.
+- `.agents/skills/`: user-facing Codex workflows.
 - `config/*.yaml`: rendering, character, language, and prompt configuration.
 - `comics/queue/*.yaml`: scripts waiting to be rendered.
 - `comics/done/*.yaml`: completed scripts.
@@ -41,24 +41,28 @@ Do not add Claude-specific instruction files. New reusable procedures belong und
 - Never mark an artifact publish-complete from an unknown/`None` state. Publishability must be positively established.
 - A partial-language render is not a publication run. Run all production languages successfully before publishing.
 - Do not add local image provider implementations back into `scripts/providers/` without an explicit design decision.
-- Real image generation is external. Use `--export-prompts`, generate one square image per panel in the external tool, then import it with `scripts/accept_external_panel.py`.
+- Real image generation is external. The normal flow is `--export-prompts` → imagegen → `scripts/accept_external_panel.py` → `--skip-generate`.
+- Generate one image per panel. Do not ask imagegen for a page, grid, strip, storyboard, or multi-panel result.
 - `--variants` is mock-only. Do not use it for real generation.
 - Accepted panel assets and thumbnails are square and normalized to `config/layout.yaml`'s panel/thumbnail pixel dimensions.
 - `thumbnail.png` must be derived from accepted `panels/panel_1.png`, never cropped from a composed page/debug page such as `base.png` or `generated-page.png`.
 - Mock output is disposable and must not be committed as production output.
 
-## Codex workflows
+## User-facing Codex workflows
 
-Use the repository skills when applicable:
+Use these skills as the public entry points. Older low-level skills were intentionally folded into these.
 
-- `$write-scp-script`: create or revise an SCP comic script.
-- `$review-scp-script`: independently review script/source consistency and comic structure.
-- `$prepare-scp-comic`: take scripts through review, mock verification, and external prompt export.
-- `$refine-panel`: refine a problematic generated panel while preserving source facts; new candidates are generated externally.
-- `$revise-comic-text`: apply post-human-review text changes across all production languages without regenerating accepted artwork.
-- `$scp-chatgpt-image-handoff`: hand a panel to ChatGPT image generation using a fixed 1:1 / 720×720 accepted-image contract; never use a generated page as the thumbnail source.
+- `$make-scp-comic-script`: **台本作成**. Read the live article, create/revise YAML, run an internal review pass, and validate.
+- `$generate-scp-comic-images`: **画像生成**. Export prompts and generate one image per panel with ChatGPT image generation (`imagegen`), or produce imagegen-ready requests when imagegen is unavailable.
+- `$finalize-scp-comic`: **生成済み画像取り込み漫画完成**. Import generated images, normalize accepted panels, compose/embed all languages, and run publish checks.
+- `$revise-comic-text`: Human-review text corrections across all production languages without regenerating accepted artwork.
 
-Writer and reviewer are separate roles even though both are performed by Codex. A review should first report findings; fixes are applied only after the findings are checked against the source article.
+Typical user requests should map as follows:
+
+- "scp-XXX の漫画台本を作って" → `$make-scp-comic-script`
+- "scp-XXX の画像を生成して" → `$generate-scp-comic-images`
+- "この画像で漫画を完成させて" → `$finalize-scp-comic`
+- "captionを直して" → `$revise-comic-text`
 
 ## Verification
 
