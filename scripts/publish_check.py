@@ -62,17 +62,36 @@ def check(comic_id):
     return errors
 
 
+def payload(comic_id):
+    errors = check(comic_id)
+    return {"id": comic_id, "ok": not errors, "errors": errors}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("comic_id")
+    ap.add_argument("--json", dest="json_output", action="store_true",
+                    help="print compact machine-readable result")
+    ap.add_argument("--quiet", action="store_true",
+                    help="print only a summary and errors")
     args = ap.parse_args()
-    errors = check(args.comic_id)
-    if errors:
-        print(f"[publish-check] FAIL {args.comic_id}")
-        for error in errors:
+    result = payload(args.comic_id)
+
+    if args.json_output:
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+    elif args.quiet:
+        print(f"{'OK' if result['ok'] else 'FAIL'}: {args.comic_id}")
+        for error in result["errors"]:
             print(f"- {error}")
+    else:
+        if result["ok"]:
+            print(f"[publish-check] OK {args.comic_id}")
+        else:
+            print(f"[publish-check] FAIL {args.comic_id}")
+            for error in result["errors"]:
+                print(f"- {error}")
+    if not result["ok"]:
         raise SystemExit(1)
-    print(f"[publish-check] OK {args.comic_id}")
 
 
 if __name__ == "__main__":
