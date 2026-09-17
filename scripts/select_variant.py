@@ -2,8 +2,9 @@
 import argparse
 import json
 import os
-import shutil
 import sys
+
+from PIL import Image, ImageOps
 
 sys.path.insert(0, os.path.dirname(__file__))
 from lib import config as cfglib  # noqa: E402
@@ -41,9 +42,23 @@ def main():
     if selected_meta.get("mock"):
         raise ValueError(f"refusing to select mock candidate: {image_name}")
 
+    # Selection is the normalization boundary. Even if an image-generation/handoff
+    # provider returns a non-square asset, accepted panels have one deterministic size.
+    layout = cfglib.load_configs()["layout"]
+    width = int(layout["panel"]["width"])
+    height = int(layout["panel"]["height"])
     os.makedirs(panels_dir, exist_ok=True)
     dest = os.path.join(panels_dir, f"panel_{args.panel}.png")
-    shutil.copy2(source, dest)
+    with Image.open(source) as image:
+        original_size = list(image.size)
+        accepted = ImageOps.fit(image.convert("RGB"), (width, height), method=Image.LANCZOS,
+                                centering=(0.5, 0.5))
+        accepted.save(dest)
+
+    selected_meta = dict(selected_meta)
+    selected_meta["original_size"] = original_size
+    selected_meta["accepted_size"] = [width, height]
+    selected_meta["normalization"] = "center_crop_and_resize"
 
     selected_path = os.path.join(panels_dir, "selected.json")
     selected = {}
@@ -53,7 +68,7 @@ def main():
     selected[str(args.panel)] = selected_meta
     with open(selected_path, "w", encoding="utf-8") as f:
         json.dump(selected, f, ensure_ascii=False, indent=2)
-    print(f"[select] {source} -> {dest}")
+    print(f"[select] {source} -> {dest} ({width}x{height})")
     print(f"[select] metadata -> {selected_path}")
 
 
