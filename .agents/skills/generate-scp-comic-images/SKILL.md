@@ -26,8 +26,8 @@ It does **not** finalize the comic unless the user also asks to run `$finalize-s
 1. Read `AGENTS.md`.
 2. Read `docs/comic-spec.md`.
 3. Read the target YAML in `comics/queue/` or `comics/done/`.
-4. If this is regeneration, inspect existing `output/<id>/panels/selected.json` and the current accepted panel image when available.
-5. Read `output/<id>/prompts/manifest.json` after prompt export.
+4. For regeneration, inspect existing `output/<id>/panels/selected.json` and the current accepted panel image when available.
+5. After prompt export, read `output/<id>/prompts/manifest.json`.
 
 ## Procedure
 
@@ -40,7 +40,17 @@ Decide from the user request:
 
 For single-panel regeneration, do not touch other panel prompts/images unless the user explicitly asks.
 
-### 2. Validate the script
+### 2. Check current state when useful
+
+For an existing or partially completed comic, run:
+
+```bash
+python scripts/comic_status.py <id>
+```
+
+Use this to identify missing prompts, missing accepted panels, or whether a one-panel rerun is enough.
+
+### 3. Validate the script
 
 Run:
 
@@ -48,9 +58,15 @@ Run:
 python scripts/validate_scripts.py comics/queue/<id>.yaml
 ```
 
-If the script is already in `comics/done/`, validate that path instead. Fix script validation errors before image generation.
+If the script is already in `comics/done/`, validate that path instead. For newly authored scripts, prefer:
 
-### 3. Export prompts
+```bash
+python scripts/validate_scripts.py comics/queue/<id>.yaml --strict-source
+```
+
+Fix script validation errors before image generation.
+
+### 4. Export prompts and ready-to-copy imagegen requests
 
 Full export:
 
@@ -64,13 +80,21 @@ Single-panel export/regeneration:
 python scripts/run_pipeline.py --id <id> --export-prompts --panel <N>
 ```
 
-Single-panel export writes/updates only `output/<id>/prompts/panel_<N>.txt` and a partial manifest for that run. The exported prompt is the source of truth for the image request.
+This writes both low-level project prompts and complete imagegen requests:
 
-### 4. Generate with imagegen, one panel at a time
+```text
+output/<id>/prompts/panel_N.txt
+output/<id>/prompts/panel_N_imagegen_request.txt
+output/<id>/prompts/manifest.json
+```
+
+Use `panel_N_imagegen_request.txt` as the copy/paste request for imagegen. It already combines the hard requirements with the project prompt, so do not manually reassemble README instructions and `panel_N.txt` unless debugging.
+
+### 5. Generate with imagegen, one panel at a time
 
 Use ChatGPT image generation (`imagegen`) once per target panel. Do not ask for a page, strip, grid, or multi-panel image.
 
-For each target panel, send a request in this shape:
+The generated `panel_N_imagegen_request.txt` has this shape:
 
 ```text
 Generate a single image for one SCP comic panel.
@@ -85,7 +109,7 @@ Hard requirements:
 
 Use this project prompt exactly as the semantic/art direction:
 
-<contents of output/<id>/prompts/panel_N.txt>
+<project prompt>
 ```
 
 Preferred raw save location:
@@ -96,12 +120,12 @@ output/<id>/panels_temp/panel_<N>_imagegen_v<M>.png
 
 `panels_temp/` is intentionally ignored by git. If the imagegen UI/tool saves elsewhere, keep the returned file path and pass it to `$finalize-scp-comic`.
 
-### 5. Single-panel regeneration loop
+### 6. Single-panel regeneration loop
 
 When regenerating one panel:
 
 1. State the current issue in concrete visual terms.
-2. Try the existing exported prompt once if the issue looks random.
+2. Try the existing exported request once if the issue looks random.
 3. If the same issue repeats, modify only that panel's `scene` in the YAML while preserving its caption/source facts.
 4. Run validation again.
 5. Re-export only that panel:
@@ -110,12 +134,12 @@ When regenerating one panel:
 python scripts/run_pipeline.py --id <id> --export-prompts --panel <N>
 ```
 
-6. Generate only that panel with imagegen.
+6. Generate only that panel with imagegen using `panel_<N>_imagegen_request.txt`.
 7. If the user wants to accept it immediately, continue with `$finalize-scp-comic` for that single panel path. Otherwise report the candidate path and wait for selection.
 
 Do not regenerate all panels to fix a single bad panel.
 
-### 6. Visual acceptance criteria
+### 7. Visual acceptance criteria
 
 Before declaring a panel candidate usable, inspect it for:
 
@@ -134,8 +158,8 @@ Before declaring a panel candidate usable, inspect it for:
 Report:
 
 - mode: full generation or single-panel regeneration;
-- prompt export path(s);
-- each generated/accepted raw image path;
+- exported `panel_N_imagegen_request.txt` path(s);
+- each generated raw image path;
 - any rejected candidates and why;
 - panels still missing;
 - next step: `$finalize-scp-comic` with the target panel image paths.
