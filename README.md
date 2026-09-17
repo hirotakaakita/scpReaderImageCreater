@@ -7,29 +7,31 @@ SCP記事を題材に、多言語のコマ漫画を生成してSCP Readerアプ�
 - 台本は `comics/queue/scp-XXX.yaml`。
 - **漫画本文は原則 Description のみから構成**します。
 - Special Containment Procedures を使うのは例外で、Descriptionで構成した1〜3コマ目を受ける自然な「結」になる場合の **4コマ目のみ**です。
-- 画像には文字を描かせず、Pythonが15言語のcaption/title/footerを後から合成します。
-- 画像生成は現状ローカルComfyUI。ChatGPT画像生成へ渡す場合は `$scp-chatgpt-image-handoff` を使います。
-- 生成画像は候補を目視確認して採用します。
+- このリポジトリは画像生成APIを直接呼びません。Codex/Pythonはプロンプト生成、外部生成画像の取り込み、合成、15言語テキスト埋め込み、publish gateを担当します。
+- 画像には文字を描かせず、Pythonがcaption/title/footerを後から合成します。
+- 外部画像生成は `$scp-chatgpt-image-handoff` の固定1:1ルールで行い、受け取った画像を `scripts/accept_external_panel.py` で採用します。
 
 ## Codex workflow
 
 - `$write-scp-script` — live記事を確認して台本作成
 - `$review-scp-script` — source/scene/caption/起承転結レビュー
-- `$prepare-scp-comic` — review → mock → prompt export
-- `$refine-panel` — 生成画像を見ながら1コマを改善
+- `$prepare-scp-comic` — review → mock → external prompt export
+- `$refine-panel` — 生成画像を見ながら1コマを改善。再生成は外部画像生成で行う
 - `$revise-comic-text` — 人間レビュー後の文章修正。意味を変える場合は**15言語すべて同時更新**
-- `$scp-chatgpt-image-handoff` — ChatGPT画像生成へ固定1:1画像としてhandoff
+- `$scp-chatgpt-image-handoff` — ChatGPT画像生成等へ固定1:1画像としてhandoff
 
 ## Pipeline
 
 ```text
 comics/queue/scp-XXX.yaml
         ↓
-scripts/generate_panels.py
+scripts/generate_panels.py --export-prompts
         ↓
-output/scp-XXX/panels_temp/       # variants
+output/scp-XXX/prompts/panel_N.txt
         ↓
-scripts/select_variant.py         # 採用 + provenance + 720x720正規化
+外部画像生成（ChatGPT等。1枚=1コマ、1:1）
+        ↓
+scripts/accept_external_panel.py  # 採用 + provenance + 720x720正規化
         ↓
 output/scp-XXX/panels/panel_N.png # accepted source panels
         ↓
@@ -57,25 +59,39 @@ pytest -q
 python scripts/validate_scripts.py --all
 ```
 
-ComfyUI利用時は `scripts/providers/comfyui/README.md` に従ってモデル/LoRAを配置し、ローカルAPIを起動します。
-
-## Generate candidates
+## Prepare prompts
 
 ```bash
-python scripts/run_pipeline.py --id scp-999 --variants 4
+python scripts/run_pipeline.py --id scp-999 --export-prompts
 ```
 
-候補は `output/scp-999/panels_temp/panel_N_vM.png` に生成されます。ComfyUIはQwenのnative square解像度で生成しますが、採用時に最終コマ寸法へ正規化します。
+`output/scp-999/prompts/` に、各コマのprompt、manifest、参照画像が書き出されます。
 
-候補を採用するときは手動copyではなく:
+## Generate images externally
+
+各 `panel_N.txt` を外部画像生成ツールへ渡して、**1コマにつき1枚の正方形画像**を作ります。
+
+要求する画像仕様:
+
+- 1:1 square
+- accepted target: 現在 **720x720**
+- one continuous moment, not a page/strip/grid
+- no caption, no speech bubble, no text, no watermark
+
+外部ツールが720x720以外を返しても、`accept_external_panel.py` が中央crop + resizeでaccepted panelへ正規化します。ページ画像から切り出してはいけません。
+
+## Accept generated panels
 
 ```bash
-python scripts/select_variant.py --id scp-999 --panel 1 --variant 3
+python scripts/accept_external_panel.py --id scp-999 --panel 1 --source /path/to/generated-panel-1.png --provider chatgpt-image
+python scripts/accept_external_panel.py --id scp-999 --panel 2 --source /path/to/generated-panel-2.png --provider chatgpt-image
+python scripts/accept_external_panel.py --id scp-999 --panel 3 --source /path/to/generated-panel-3.png --provider chatgpt-image
+python scripts/accept_external_panel.py --id scp-999 --panel 4 --source /path/to/generated-panel-4.png --provider chatgpt-image
 ```
 
-を使ってください。`selected.json` にprompt/scene/seed/元画像サイズ/採用サイズを残し、採用画像を `config/layout.yaml` の固定サイズ（現在720x720）へ中央crop + resizeします。
+採用すると、正規化済み画像が `output/scp-999/panels/panel_N.png` に保存され、`selected.json` にprompt/scene/provider/元画像サイズ/採用サイズ/正規化方法が残ります。
 
-全コマを選んだら:
+全コマを採用したら:
 
 ```bash
 python scripts/run_pipeline.py --id scp-999 --skip-generate
@@ -90,6 +106,8 @@ python scripts/run_pipeline.py --id scp-999 --mock
 ```
 
 mockはproductionと同じpanel pathへplaceholderを書けるため、採用済み未コミット画像がある作品に対して不用意に全コマmockを実行しないでください。1コマ確認では `--panel N` を付けます。
+
+`--variants` は現在mock専用です。実画像の候補生成には使いません。
 
 ## Text revision after human review
 
@@ -108,8 +126,7 @@ python scripts/run_pipeline.py --id scp-XXX --skip-generate
 
 - accepted panel: `config/layout.yaml`（現在 **720x720**）
 - thumbnail: 現在 **480x480**
-- ComfyUI native generation: square 1328x1328（採用時に720x720へ正規化）
-- ChatGPT image handoff: 1:1を明示し、accepted targetを720x720として扱う。非正方形で返った場合は単一画像自体を中央crop+resizeし、page画像から切り出さない。
+- external image handoff: 1:1を明示し、accepted targetを720x720として扱う。非正方形で返った場合は単一画像自体を中央crop+resizeし、page画像から切り出さない。
 
 ## Index API
 
