@@ -20,7 +20,9 @@ Do not add Claude-specific instruction files. New reusable procedures belong und
 ## Standing content rules
 
 - Fetch and read the live SCP article before writing or materially changing a comic script. Do not rely on model memory or summaries.
-- Base the main comic on Special Containment Procedures / Description. Do not mix Addendum, interview logs, or experiment logs into the main strip unless the task explicitly calls for a separate treatment.
+- **Use Description as the default source for the four-panel comic.** Do not normally use Special Containment Procedures as caption/scene material.
+- If Special Containment Procedures is exceptionally useful to complete the same story, it may appear **only in panel 4**, as the consequence/response to Description-based panels 1–3. The transition must preserve a coherent setup → development → turn → payoff.
+- Do not mix Addendum, interview logs, experiment logs, or other supplementary material into the main strip unless the task explicitly calls for a separate treatment.
 - Do not imitate official SCP attachment images. Use textual article descriptions as the visual source.
 - Do not invent named/canon characters. Article-specific people belong in `local_characters`; reusable characters must come from `config/characters.yaml`.
 - `scene` describes the image and is written in English. It must remain consistent with the corresponding caption/source facts.
@@ -28,6 +30,7 @@ Do not add Claude-specific instruction files. New reusable procedures belong und
 - Keep character keys/names stable across panels. For multi-character scenes, keep `characters` ordering aligned with the order in which their actions are described in `scene`.
 - Vary shot type/composition across panels rather than repeating the same framing.
 - Preserve attribution and CC BY-SA requirements.
+- **A semantic text edit after human review must be propagated to all production languages.** Never leave different factual meanings between ja/en/other locales. Use `$revise-comic-text`.
 
 ## Engineering rules
 
@@ -36,6 +39,8 @@ Do not add Claude-specific instruction files. New reusable procedures belong und
 - Never mark an artifact publish-complete from an unknown/`None` state. Publishability must be positively established.
 - A partial-language render is not a publication run. Run all production languages successfully before publishing.
 - Do not overwrite selected panel images when generating variants. Prefer `scripts/select_variant.py` so selection provenance is recorded.
+- Accepted panel assets and thumbnails are square and normalized to `config/layout.yaml`'s panel/thumbnail pixel dimensions.
+- `thumbnail.png` must be derived from accepted `panels/panel_1.png`, never cropped from a composed page/debug page such as `base.png` or `generated-page.png`.
 - Do not run multiple ComfyUI comic generations in parallel; GPU/RAM pressure and queue contention have caused failures.
 - Mock output is disposable and must not be committed as production output.
 - Keep provider-specific image-generation behavior behind `scripts/providers/`.
@@ -48,6 +53,7 @@ Use the repository skills when applicable:
 - `$review-scp-script`: independently review script/source consistency and comic structure.
 - `$prepare-scp-comic`: take scripts through review, mock verification, and prompt export without generating final images.
 - `$refine-panel`: refine a problematic generated panel while preserving source facts.
+- `$revise-comic-text`: apply post-human-review text changes across all production languages without regenerating accepted artwork.
 
 Writer and reviewer are separate roles even though both are performed by Codex. A review should first report findings; fixes are applied only after the findings are checked against the source article.
 
