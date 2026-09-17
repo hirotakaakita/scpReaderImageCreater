@@ -5,3 +5,4 @@ __pycache__/
 output/*/panels_temp/
 output/*/prompts/
 output/*/generated-page.png
+output/*/review-sheet.png
