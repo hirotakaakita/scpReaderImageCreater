@@ -1,15 +1,13 @@
-"""output/ を走査してindex.jsonを更新する。
-
-アプリ・Twitter bot はこのindex.jsonから漫画の一覧と画像URLを引ける。
-raw.githubusercontent.com がcharset無しで配信するため、非ASCIIは
-\\uXXXX エスケープで出力する（scpjpReaderActionsと同じ方針）。
-"""
+"""output/ を走査してアプリ/bot向け index.json を更新する。"""
+import datetime
 import json
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 from lib import config as cfglib  # noqa: E402
+
+SCHEMA_VERSION = 1
 
 
 def build():
@@ -21,16 +19,13 @@ def build():
                 continue
             with open(meta_path, encoding="utf-8") as f:
                 meta = json.load(f)
-            # embed_text.pyが記録した完成判定（文字あふれ・フォント欠落が無く
-            # 全言語揃っているか）。古いmeta.json（このフィールドが無い既存の
-            # done/comic）はcomplete省略=True相当として扱い、明示的にFalseの
-            # ものだけ掲載しない（処理は例外なく終わったが掲載はできない状態）
-            if meta.get("complete") is False:
-                print(f"[index] skip {meta.get('id', name)}: not publish-complete "
-                      f"(overflow={meta.get('overflow')}, missing_font={meta.get('missing_font')})")
+            # Fail closed: only explicit True is publishable.
+            if meta.get("complete") is not True:
+                print(f"[index] skip {meta.get('id', name)}: not publish-complete")
                 continue
             entries.append({
                 "id": meta["id"],
+                "revision": meta.get("revision", 1),
                 "title": meta.get("title") or {},
                 "languages": meta.get("languages") or [],
                 "panels": meta.get("panels"),
@@ -42,9 +37,15 @@ def build():
             })
     entries.sort(key=lambda e: e.get("createdAt") or "", reverse=True)
     index_path = cfglib.rootpath("index.json")
+    payload = {
+        "schemaVersion": SCHEMA_VERSION,
+        "generatedAt": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "comics": entries,
+    }
     with open(index_path, "w", encoding="utf-8") as f:
-        json.dump({"comics": entries}, f, ensure_ascii=True, indent=2)
-    print(f"[index] {len(entries)} comics -> index.json")
+        json.dump(payload, f, ensure_ascii=True, indent=2)
+    print(f"[index] schema v{SCHEMA_VERSION}, {len(entries)} comics -> index.json")
+    return payload
 
 
 if __name__ == "__main__":
