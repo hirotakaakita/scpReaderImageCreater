@@ -43,6 +43,7 @@ Do not add Claude-specific instruction files. New reusable procedures belong und
 - Do not add local image provider implementations back into `scripts/providers/` without an explicit design decision.
 - Real image generation is external. The normal flow is `--export-prompts` → imagegen → `scripts/accept_external_panel.py` → `--skip-generate`.
 - Generate one image per panel. Do not ask imagegen for a page, grid, strip, storyboard, or multi-panel result.
+- One bad panel should be regenerated as one panel. Use `python scripts/run_pipeline.py --id <id> --export-prompts --panel <N>` and keep other accepted panels unchanged.
 - `--variants` is mock-only. Do not use it for real generation.
 - Accepted panel assets and thumbnails are square and normalized to `config/layout.yaml`'s panel/thumbnail pixel dimensions.
 - `thumbnail.png` must be derived from accepted `panels/panel_1.png`, never cropped from a composed page/debug page such as `base.png` or `generated-page.png`.
@@ -53,16 +54,17 @@ Do not add Claude-specific instruction files. New reusable procedures belong und
 Use these skills as the public entry points. Older low-level skills were intentionally folded into these.
 
 - `$make-scp-comic-script`: **台本作成**. Read the live article, create/revise YAML, run an internal review pass, and validate.
-- `$generate-scp-comic-images`: **画像生成**. Export prompts and generate one image per panel with ChatGPT image generation (`imagegen`), or produce imagegen-ready requests when imagegen is unavailable.
-- `$finalize-scp-comic`: **生成済み画像取り込み漫画完成**. Import generated images, normalize accepted panels, compose/embed all languages, and run publish checks.
-- `$revise-comic-text`: Human-review text corrections across all production languages without regenerating accepted artwork.
+- `$generate-scp-comic-images`: **画像生成**. Export prompts and generate one image per target panel with ChatGPT image generation (`imagegen`), including one-panel regeneration.
+- `$finalize-scp-comic`: **生成済み画像取り込み漫画完成**. Import generated images, normalize accepted panels, compose/embed all languages, and run publish checks. It can import all panels or replace one regenerated panel.
+- `$revise-comic-text`: Human-review text corrections across all production languages without regenerating accepted artwork. Ask for/parse target panel, field, language scope, desired wording, and whether meaning changes.
 
 Typical user requests should map as follows:
 
 - "scp-XXX の漫画台本を作って" → `$make-scp-comic-script`
 - "scp-XXX の画像を生成して" → `$generate-scp-comic-images`
+- "scp-XXX の3コマ目だけ再生成して" → `$generate-scp-comic-images` with `--panel 3`, then `$finalize-scp-comic` for panel 3 if the image is accepted
 - "この画像で漫画を完成させて" → `$finalize-scp-comic`
-- "captionを直して" → `$revise-comic-text`
+- "panel 2のcaptionをこう直して" → `$revise-comic-text`
 
 ## Verification
 
