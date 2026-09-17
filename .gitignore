@@ -1,7 +1,7 @@
 fonts/
 __pycache__/
 *.pyc
-.pytest_cache/
 .venv/
 output/*/panels_temp/
 output/*/prompts/
+output/*/generated-page.png
