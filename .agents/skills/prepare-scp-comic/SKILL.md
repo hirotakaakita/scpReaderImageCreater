@@ -1,6 +1,6 @@
 ---
 name: prepare-scp-comic
-description: Prepare one or more SCP comics from Description-first script writing through independent review, mock verification, and prompt export without running final image generation.
+description: Prepare one or more SCP comics from Description-first script writing through independent review, mock verification, and external image prompt export without running image generation.
 ---
 
 # Prepare SCP comic
@@ -19,23 +19,24 @@ python scripts/run_pipeline.py --id scp-XXX --mock
 
 Resolve text overflow/schema/runtime errors. Mock artifacts are disposable and must not replace committed production artifacts.
 
-4. Export generation prompts:
+4. Export external image-generation prompts:
 
 ```bash
 python scripts/run_pipeline.py --id scp-XXX --export-prompts
 ```
 
+This writes `output/scp-XXX/prompts/panel_N.txt`, reference images when available, and a handoff manifest. It does **not** call any local image provider.
+
 5. Report script/review/validation status and prompt export location.
 
-This skill does not run final ComfyUI generation and does not select visual variants.
+## After preparation
 
-After preparation:
+Generate each panel image outside the repository, for example via ChatGPT image generation following `$scp-chatgpt-image-handoff`. Then import each accepted image:
 
 ```bash
-python scripts/run_pipeline.py --id scp-XXX --variants 4
-python scripts/select_variant.py --id scp-XXX --panel 1 --variant <M>
-# repeat selection for all panels
+python scripts/accept_external_panel.py --id scp-XXX --panel 1 --source <panel-1-image> --provider chatgpt-image
+# repeat for all panels
 python scripts/run_pipeline.py --id scp-XXX --skip-generate
 ```
 
-Do not parallelize multiple ComfyUI comic generations.
+`--variants` is mock-only and must not be used for real image generation.
