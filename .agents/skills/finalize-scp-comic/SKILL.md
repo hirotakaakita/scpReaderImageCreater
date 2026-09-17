@@ -17,7 +17,10 @@ This skill supports two modes:
 Required:
 
 - `id`: the SCP comic ID, e.g. `scp-173`.
-- One image path for every panel that should be imported/replaced.
+- Image source information in one of these forms:
+  - explicit panel list;
+  - `--source-dir` style directory containing `panel_1.png` ... `panel_N.png`;
+  - manifest JSON mapping panels to source images.
 
 Full finalize example:
 
@@ -45,7 +48,15 @@ If image paths are missing, ask for them or locate obvious generated files under
 
 ## Procedure
 
-### 1. Resolve mode
+### 1. Resolve mode and state
+
+Run:
+
+```bash
+python scripts/comic_status.py <id>
+```
+
+Use the result to decide whether this is full finalize or single-panel replacement.
 
 - If the user supplies every panel image for a new comic, run full finalize.
 - If the user supplies only `panel N`, run single-panel replacement. Import only that panel, then recompose using existing accepted panels for the other panels.
@@ -64,10 +75,33 @@ If the script is already in `comics/done/`, validate that path instead.
 
 ### 3. Import provided generated image(s)
 
-For each provided panel image, run:
+One panel:
 
 ```bash
 python scripts/accept_external_panel.py --id <id> --panel <N> --source <image-path> --provider imagegen
+```
+
+All panels from a directory with `panel_1.png`, `panel_2.png`, ...:
+
+```bash
+python scripts/accept_external_panel.py --id <id> --source-dir <directory> --provider imagegen
+```
+
+All panels from an explicit JSON mapping:
+
+```bash
+python scripts/accept_external_panel.py --id <id> --manifest <mapping.json> --provider imagegen
+```
+
+Manifest example:
+
+```json
+{
+  "1": "./panel_1.png",
+  "2": {"source": "./panel_2.png", "note": "best of 3"},
+  "3": "./panel_3.png",
+  "4": "./panel_4.png"
+}
 ```
 
 Use a more specific `--provider` label if the user requests it. Add `--note` for provenance when there is a useful review/regeneration reason, e.g. `--note "regenerated because previous panel contained pseudo-text"`.
@@ -91,20 +125,6 @@ python scripts/run_pipeline.py --id <id> --skip-generate
 
 Do not use `--languages` for the final publication run. A full-language run is required even when only one panel image was replaced, because the page and metadata must be regenerated consistently.
 
-This creates/updates:
-
-```text
-output/<id>/base.png
-output/<id>/thumbnail.png
-output/<id>/ja.png
-output/<id>/en.png
-...
-output/<id>/zh_Hant.png
-output/<id>/meta.json
-index.json
-state/used.json
-```
-
 If the source script was in `comics/queue/` and the publish gate passes, the pipeline moves it to `comics/done/`.
 
 ### 5. Run explicit publish check
@@ -117,12 +137,21 @@ python scripts/publish_check.py <id>
 
 Fix any reported errors before reporting completion.
 
-### 6. Final visual review checklist
+### 6. Build a disposable review sheet
+
+Run:
+
+```bash
+python scripts/build_review_sheet.py <id>
+```
+
+Inspect `output/<id>/review-sheet.png` for panel consistency, thumbnail safety, and caption readability. This file is disposable and gitignored.
+
+### 7. Final visual review checklist
 
 Inspect at least:
 
-- the replaced panel inside `output/<id>/<lang>.png` when doing single-panel replacement;
-- `output/<id>/thumbnail.png` if panel 1 was replaced;
+- `output/<id>/thumbnail.png` does not include comic gutters, captions, or page framing;
 - one language render such as `output/<id>/ja.png`;
 - one non-Japanese render such as `output/<id>/en.png`;
 - no text overflow warnings were reported;
@@ -132,11 +161,11 @@ Inspect at least:
 
 Report:
 
-- mode: full finalize or single-panel replacement;
-- imported/replaced panel paths;
+- imported panel paths;
 - generated output directory;
 - whether the script moved to `comics/done/`;
 - `publish_check.py` result;
+- review sheet path if generated;
 - any visual/manual checks still needed.
 
 ## Git commit guidance
@@ -147,4 +176,5 @@ Commit production artifacts only when the user asks. Do not commit:
 output/<id>/panels_temp/
 output/<id>/prompts/
 output/<id>/generated-page.png
+output/<id>/review-sheet.png
 ```
