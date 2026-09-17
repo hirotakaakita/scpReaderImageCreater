@@ -2,48 +2,58 @@ import json
 import os
 import sys
 
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-sys.path.insert(0, os.path.join(ROOT, "scripts"))
-import run_pipeline  # noqa: E402
+from PIL import Image
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
+import build_index  # noqa: E402
+import publish_check  # noqa: E402
+from lib import config as cfglib  # noqa: E402
 
 
-def test_process_does_not_publish_unknown_state(monkeypatch, tmp_path):
-    queue = tmp_path / "queue"
-    queue.mkdir()
-    script_path = queue / "scp-test.yaml"
-    script_path.write_text("placeholder", encoding="utf-8")
-    script = {"id": "scp-test", "panels": [{"scene": "x", "caption": {"en": "x"}}]}
+def test_index_excludes_unknown_complete(tmp_path, monkeypatch):
+    output = tmp_path / "output"
+    comic = output / "scp-test"
+    comic.mkdir(parents=True)
+    (comic / "meta.json").write_text(json.dumps({"id": "scp-test"}), encoding="utf-8")
+    monkeypatch.setattr(cfglib, "OUTPUT_DIR", str(output))
+    monkeypatch.setattr(cfglib, "ROOT", str(tmp_path))
+    payload = build_index.build()
+    assert payload["schemaVersion"] == 1
+    assert payload["comics"] == []
 
-    monkeypatch.setattr(run_pipeline.cfglib, "QUEUE_DIR", str(queue))
-    monkeypatch.setattr(run_pipeline.cfglib, "load_script", lambda _: script)
-    monkeypatch.setattr(run_pipeline.compose, "compose", lambda *_: None)
-    monkeypatch.setattr(run_pipeline.embed_text, "embed", lambda *_, **__: {
-        "complete": None, "overflow": [], "missing_font": []
+
+def test_index_includes_only_explicit_complete(tmp_path, monkeypatch):
+    output = tmp_path / "output"
+    comic = output / "scp-test"
+    comic.mkdir(parents=True)
+    (comic / "meta.json").write_text(json.dumps({
+        "id": "scp-test", "complete": True, "languages": [], "created_at": "2026-01-01T00:00:00Z"
+    }), encoding="utf-8")
+    monkeypatch.setattr(cfglib, "OUTPUT_DIR", str(output))
+    monkeypatch.setattr(cfglib, "ROOT", str(tmp_path))
+    payload = build_index.build()
+    assert [c["id"] for c in payload["comics"]] == ["scp-test"]
+
+
+def test_publish_check_rejects_wrong_panel_size(tmp_path, monkeypatch):
+    output = tmp_path / "output"
+    comic = output / "scp-test"
+    panels = comic / "panels"
+    panels.mkdir(parents=True)
+    Image.new("RGB", (800, 600)).save(panels / "panel_1.png")
+    Image.new("RGB", (480, 480)).save(comic / "thumbnail.png")
+    Image.new("RGB", (720, 720)).save(comic / "base.png")
+    langs = ["ja"]
+    Image.new("RGB", (720, 720)).save(comic / "ja.png")
+    (comic / "meta.json").write_text(json.dumps({
+        "id": "scp-test", "complete": True, "languages": langs, "panels": 1,
+        "overflow": [], "missing_font": [], "attribution": {"source_url": "https://example.test"},
+        "thumbnail_source": "panels/panel_1.png"
+    }), encoding="utf-8")
+    monkeypatch.setattr(cfglib, "OUTPUT_DIR", str(output))
+    monkeypatch.setattr(cfglib, "load_configs", lambda: {
+        "languages": {"languages": langs},
+        "layout": {"panel": {"width": 720, "height": 720}, "thumbnail": {"size": 480}}
     })
-    published = []
-    monkeypatch.setattr(run_pipeline, "move_to_done", lambda _: published.append("moved"))
-    monkeypatch.setattr(run_pipeline.cfglib, "mark_used", lambda _: published.append("used"))
-
-    run_pipeline.process(str(script_path), {}, skip_generate=True)
-    assert published == []
-
-
-def test_process_publishes_only_explicit_true(monkeypatch, tmp_path):
-    queue = tmp_path / "queue"
-    queue.mkdir()
-    script_path = queue / "scp-test.yaml"
-    script_path.write_text("placeholder", encoding="utf-8")
-    script = {"id": "scp-test", "panels": [{"scene": "x", "caption": {"en": "x"}}]}
-
-    monkeypatch.setattr(run_pipeline.cfglib, "QUEUE_DIR", str(queue))
-    monkeypatch.setattr(run_pipeline.cfglib, "load_script", lambda _: script)
-    monkeypatch.setattr(run_pipeline.compose, "compose", lambda *_: None)
-    monkeypatch.setattr(run_pipeline.embed_text, "embed", lambda *_, **__: {
-        "complete": True, "overflow": [], "missing_font": []
-    })
-    published = []
-    monkeypatch.setattr(run_pipeline, "move_to_done", lambda _: published.append("moved"))
-    monkeypatch.setattr(run_pipeline.cfglib, "mark_used", lambda _: published.append("used"))
-
-    run_pipeline.process(str(script_path), {}, skip_generate=True)
-    assert published == ["moved", "used"]
+    errors = publish_check.check("scp-test")
+    assert any("expected 720x720" in error for error in errors)
