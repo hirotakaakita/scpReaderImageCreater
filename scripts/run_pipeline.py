@@ -56,8 +56,6 @@ def process(script_path, cfgs, mock=False, languages=None, skip_generate=False,
     embed_result = embed_text.embed(script, cfgs, languages=languages)
 
     if not mock:
-        # Publication fails closed. A partial-language run intentionally cannot
-        # move queue->done or update used.json even if older artifacts exist.
         gate_errors = publish_check.check(script["id"]) if embed_result.get("complete") is True else [
             "embed result is not explicitly publish-complete"]
         if gate_errors:
@@ -78,16 +76,24 @@ def main():
     g.add_argument("--from-queue", action="store_true")
     g.add_argument("--id", dest="comic_id", help="カンマ区切りで複数指定可")
     ap.add_argument("--count", type=int, default=1)
-    ap.add_argument("--mock", action="store_true")
+    ap.add_argument("--mock", action="store_true",
+                    help="APIを呼ばずplaceholder panelを生成してlayout/textを検証する")
     ap.add_argument("--languages", help="カンマ区切りで対象言語を限定 (例: ja,en)")
-    ap.add_argument("--skip-generate", action="store_true")
-    ap.add_argument("--export-prompts", action="store_true")
-    ap.add_argument("--variants", type=int)
+    ap.add_argument("--skip-generate", action="store_true",
+                    help="画像生成を行わず、accepted panelsから合成・埋め込みだけ行う")
+    ap.add_argument("--export-prompts", action="store_true",
+                    help="外部画像生成向けにプロンプト・参照画像を書き出す")
+    ap.add_argument("--variants", type=int,
+                    help="mock候補だけをpanels_temp/に生成する。実画像生成には使わない")
     ap.add_argument("--panel", type=int)
     args = ap.parse_args()
 
     if args.variants is not None and args.variants <= 0:
         ap.error(f"--variants must be a positive integer (got {args.variants})")
+    if args.variants is not None and not args.mock:
+        ap.error("--variants is mock-only because local image providers were removed. "
+                 "Use --export-prompts, generate images externally, then run "
+                 "scripts/accept_external_panel.py for each accepted image.")
     if args.count <= 0:
         ap.error(f"--count must be a positive integer (got {args.count})")
 
