@@ -29,6 +29,17 @@ def valid_script():
     ]}
 
 
+def add_description_sources(script):
+    for panel in script["panels"]:
+        panel["source"] = {
+            "section": "Description",
+            "quote": "source words",
+            "url": "https://example.test/scp-test",
+            "fetched_at": "2026-01-01T00:00:00Z",
+        }
+    return script
+
+
 def test_valid_script_passes():
     assert cfglib.validate_script(valid_script(), cfgs=cfgs())["id"] == "scp-test"
 
@@ -59,6 +70,15 @@ def test_source_description_is_allowed():
     script["panels"][0]["source"] = {
         "section": "Description", "quote": "source words", "url": "https://example.test/scp-test"}
     cfglib.validate_script(script, cfgs=cfgs())
+
+
+def test_strict_source_requires_every_panel_source():
+    with pytest.raises(ValueError, match="strict-source"):
+        cfglib.validate_script(valid_script(), cfgs=cfgs(), require_source=True)
+
+
+def test_strict_source_passes_when_every_panel_has_source():
+    cfglib.validate_script(add_description_sources(valid_script()), cfgs=cfgs(), require_source=True)
 
 
 def test_containment_source_is_only_allowed_on_final_panel():
