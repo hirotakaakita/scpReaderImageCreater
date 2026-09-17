@@ -4,12 +4,14 @@
 
 This repository generates multilingual SCP comic strips for the SCP Reader app. Codex is the only coding/content agent used for this repository. Do not depend on Claude Code or a Claude subscription.
 
+The repository does **not** contain or call a local image-generation provider. Codex/Python exports prompts, accepts externally generated images, normalizes them, composes comics, embeds multilingual text, and runs deterministic publication checks.
+
 ## Source of truth
 
 - `README.md`: runtime pipeline and local setup.
 - `docs/comic-spec.md`: content and comic-generation rules.
 - `.agents/skills/`: task-specific Codex workflows.
-- `config/*.yaml`: rendering, character, language, and style configuration.
+- `config/*.yaml`: rendering, character, language, and prompt configuration.
 - `comics/queue/*.yaml`: scripts waiting to be rendered.
 - `comics/done/*.yaml`: completed scripts.
 - `output/<id>/meta.json`: generated artifact metadata.
@@ -38,12 +40,12 @@ Do not add Claude-specific instruction files. New reusable procedures belong und
 - Treat YAML scripts as an interface between the agent workflow and the Python pipeline. New mechanical rules should become validators/tests.
 - Never mark an artifact publish-complete from an unknown/`None` state. Publishability must be positively established.
 - A partial-language render is not a publication run. Run all production languages successfully before publishing.
-- Do not overwrite selected panel images when generating variants. Prefer `scripts/select_variant.py` so selection provenance is recorded.
+- Do not add local image provider implementations back into `scripts/providers/` without an explicit design decision.
+- Real image generation is external. Use `--export-prompts`, generate one square image per panel in the external tool, then import it with `scripts/accept_external_panel.py`.
+- `--variants` is mock-only. Do not use it for real generation.
 - Accepted panel assets and thumbnails are square and normalized to `config/layout.yaml`'s panel/thumbnail pixel dimensions.
 - `thumbnail.png` must be derived from accepted `panels/panel_1.png`, never cropped from a composed page/debug page such as `base.png` or `generated-page.png`.
-- Do not run multiple ComfyUI comic generations in parallel; GPU/RAM pressure and queue contention have caused failures.
 - Mock output is disposable and must not be committed as production output.
-- Keep provider-specific image-generation behavior behind `scripts/providers/`.
 
 ## Codex workflows
 
@@ -51,8 +53,8 @@ Use the repository skills when applicable:
 
 - `$write-scp-script`: create or revise an SCP comic script.
 - `$review-scp-script`: independently review script/source consistency and comic structure.
-- `$prepare-scp-comic`: take scripts through review, mock verification, and prompt export without generating final images.
-- `$refine-panel`: refine a problematic generated panel while preserving source facts.
+- `$prepare-scp-comic`: take scripts through review, mock verification, and external prompt export.
+- `$refine-panel`: refine a problematic generated panel while preserving source facts; new candidates are generated externally.
 - `$revise-comic-text`: apply post-human-review text changes across all production languages without regenerating accepted artwork.
 - `$scp-chatgpt-image-handoff`: hand a panel to ChatGPT image generation using a fixed 1:1 / 720×720 accepted-image contract; never use a generated page as the thumbnail source.
 
@@ -60,6 +62,6 @@ Writer and reviewer are separate roles even though both are performed by Codex. 
 
 ## Verification
 
-For Python changes run the smallest relevant tests first, then `pytest -q`. Validate scripts with `python scripts/validate_scripts.py --all` when script/schema rules change. For pipeline/rendering changes use mock generation where appropriate so verification does not require ComfyUI.
+For Python changes run the smallest relevant tests first, then `pytest -q`. Validate scripts with `python scripts/validate_scripts.py --all` when script/schema rules change. For pipeline/rendering changes use mock generation where appropriate.
 
 Do not claim a command or test passed unless it was actually run. If the environment cannot run it, report that explicitly.
