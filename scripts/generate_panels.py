@@ -114,6 +114,25 @@ def build_prompt(script, panel, cfgs, profile_name=None, panel_idx=None):
     return "\n\n".join(parts)
 
 
+def build_imagegen_request(project_prompt, panel_index, target_size, single_panel=False):
+    """ChatGPT image generation にそのまま貼れる依頼文を作る。"""
+    single_note = "\n- This is a single-panel regeneration; generate only this panel and do not modify other panels." if single_panel else ""
+    return f"""Generate a single image for one SCP comic panel.
+
+Hard requirements:
+- Use a square 1:1 canvas.
+- Produce exactly one standalone illustration for panel {panel_index}.
+- Do not create a comic page, four-panel strip, storyboard, grid, border, frame, or split-screen layout.
+- Do not render any text, letters, numbers, captions, signs, labels, sound effects, watermarks, speech bubbles, or thought bubbles.
+- Draw one continuous moment only.
+- Keep important faces, hands, and props away from the outer edge because the accepted image will be center-cropped/resized to {target_size[0]}x{target_size[1]} if needed.{single_note}
+
+Use this project prompt exactly as the semantic/art direction:
+
+{project_prompt.rstrip()}
+"""
+
+
 def make_mock_panel(index):
     img = Image.new("RGB", (1024, 1024), (225, 225, 228))
     d = ImageDraw.Draw(img)
@@ -293,11 +312,12 @@ def export_prompts(script, cfgs, panel=None):
         panel_data = script["panels"][i - 1]
         prompt = build_prompt(script, panel_data, cfgs, profile, panel_idx=i - 1)
         prompt_path = os.path.join(prompts_dir, f"panel_{i}.txt")
+        request_path = os.path.join(prompts_dir, f"panel_{i}_imagegen_request.txt")
         ref_paths = _copy_reference_images(script, panel_data, cfgs, prompts_dir, i)
 
         note_lines = [
             f"[Required output: a single square image, exactly {target_size[0]}x{target_size[1]} px after acceptance]",
-            "[Do not generate a page, strip, border, caption, speech bubble, or any text.]",
+            "[Do not generate a page, strip, border, frame, caption, speech bubble, or any text.]",
         ]
         if panel is not None:
             note_lines.append("[Single-panel regeneration: generate only this panel and keep other accepted panels unchanged.]")
@@ -309,16 +329,21 @@ def export_prompts(script, cfgs, panel=None):
                               + ", ".join(f"panels/panel_{p}.png" for p in prev_ids)
                               + " if already accepted.]")
 
+        project_prompt = prompt + "\n\n" + "\n".join(note_lines) + "\n"
         with open(prompt_path, "w", encoding="utf-8") as f:
-            f.write(prompt + "\n\n" + "\n".join(note_lines) + "\n")
+            f.write(project_prompt)
+        with open(request_path, "w", encoding="utf-8") as f:
+            f.write(build_imagegen_request(project_prompt, i, target_size, single_panel=panel is not None))
 
         manifest["panels"].append({
             "panel": i,
             "prompt_file": os.path.relpath(prompt_path, cfglib.ROOT),
+            "imagegen_request_file": os.path.relpath(request_path, cfglib.ROOT),
             "reference_files": ref_paths,
             "scene": panel_data["scene"],
         })
         print(f"[export] panel {i}/{len(script['panels'])} -> {os.path.relpath(prompt_path, cfglib.ROOT)}")
+        print(f"[export] imagegen request -> {os.path.relpath(request_path, cfglib.ROOT)}")
 
     panel_label = "panel " + str(panel) if panel is not None else "all panels"
     readme_lines = [
@@ -328,8 +353,8 @@ def export_prompts(script, cfgs, panel=None):
         "Do not generate a page/strip/grid. Do not include captions, speech bubbles, logos, or text.",
         "",
         "Recommended flow:",
-        "1. Use panel_N.txt as the prompt for an external image generator.",
-        "2. Save the returned image anywhere locally.",
+        "1. Use panel_N_imagegen_request.txt as the complete request for imagegen.",
+        "2. Save the returned image anywhere locally, preferably under output/<id>/panels_temp/.",
         "3. Import the accepted image:",
         f"   python scripts/accept_external_panel.py --id {script['id']} --panel N --source <image-path> --provider imagegen",
         "4. For single-panel regeneration, import only that panel and keep other accepted panels unchanged.",
