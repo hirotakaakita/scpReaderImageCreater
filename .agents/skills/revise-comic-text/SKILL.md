@@ -71,7 +71,19 @@ If the requested change is purely typographic/localization-specific and intentio
 python scripts/validate_scripts.py <path-to-yaml>
 ```
 
-8. Recompose/embed using the already accepted panels; do **not** run imagegen for text-only corrections:
+8. For semantic edits, check that all production languages were touched in the git diff:
+
+```bash
+python scripts/text_revision_check.py <id-or-yaml-path> --expect semantic-all-languages --panel <N> --field caption
+```
+
+For a locale-only typo fix, use the matching expectation, for example:
+
+```bash
+python scripts/text_revision_check.py <id-or-yaml-path> --expect ja-only --field title
+```
+
+9. Recompose/embed using the already accepted panels; do **not** run imagegen for text-only corrections:
 
 ```bash
 python scripts/run_pipeline.py --id <id> --skip-generate
@@ -79,14 +91,14 @@ python scripts/run_pipeline.py --id <id> --skip-generate
 
 A full-language run is required after semantic text edits so overflow/missing-font checks cover every locale and publication completeness is recalculated.
 
-9. Run the publish gate:
+10. Run the publish gate:
 
 ```bash
 python scripts/publish_check.py <id>
 ```
 
-10. Review warnings. If any language overflows, adjust that language without changing the canonical fact, then rerun the full-language embed and publish check.
-11. Report which semantic text changed and confirm that all production languages were updated/validated.
+11. Review warnings. If any language overflows, adjust that language without changing the canonical fact, then rerun the full-language embed and publish check.
+12. Report which semantic text changed and confirm that all production languages were updated/validated.
 
 ## Prohibited shortcuts
 
