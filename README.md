@@ -1,147 +1,156 @@
 # SCP Reader Comic Generator
 
-SCP記事を題材にした4コマ漫画（コマ数可変）を生成するリポジトリ。台本作成から画像生成まで、
-**すべてローカルでClaude Codeが実行する**（自動化・スケジュール実行は無し）。
+SCP記事を題材にした多言語コマ漫画を生成するリポジトリです。台本作成・レビュー・コード変更は **Codex** を前提にし、画像生成はローカルのComfyUI、文字合成と公開判定はPythonで行います。
 
-- **台本**はローカルでClaude Codeと一緒に作成し `comics/queue/` に積む（→ CLAUDE.md）
-- **画像生成**はプロバイダ切替式の設計だが、現状は`comfyui`（ローカルComfyUI）のみ使用。
-  `config/style.yaml` の `generation.provider` で選んだプロバイダをローカルで実行する
-- **セリフ・キャプションは画像に描かせず**、後工程のPythonがSCP Readerアプリの対応15言語分を
-  各コマの絵の内側に埋め込む
-- 生成物は `output/<id>/` にコミットし、アプリ / SCP紹介bot (X) からraw URLで参照する
+エージェント向けの常設ルールは `AGENTS.md`、モデル非依存の漫画仕様は `docs/comic-spec.md`、Codexの作業手順は `.agents/skills/` を参照してください。
 
 ## パイプライン
 
-```
-comics/queue/scp-XXX.yaml   ← 台本（scene英語 + caption15言語）: ローカルで作成
-        │
-        ▼  ローカルで python scripts/run_pipeline.py --id scp-XXX を実行
-scripts/generate_panels.py  ← コマごとにプロンプトを組み立て、選択中のプロバイダで画像生成（文字なし）
-  └ scripts/providers/<name>/   ← 実際のAPI呼び出し（現状comfyuiのみ）
-        │  （--variants N なら output/scp-XXX/panels_temp/panel_N_vM.png に
-        │    候補をN枚生成してここで停止。人手で1枚選びpanels/panel_N.png
-        │    としてコピーしてから --skip-generate で以下を続行）
-scripts/compose.py          ← コマを統一サイズで1枚に合成 + ライセンス表記フッター
-scripts/embed_text.py       ← 言語別にタイトル・キャプション・吹き出しテキストを埋め込み
-scripts/build_index.py      ← index.json 更新
-        │
-        ▼
-output/scp-XXX/base.png     ← テキスト無し版
-output/scp-XXX/<lang>.png   ← 言語別（ja, en, cs, de, es, fr, it, ko, pl, pt, th, uk, vi, zh, zh_Hant）
-output/scp-XXX/thumbnail.png ← 漫画一覧画面用サムネイル（1コマ目のみ、文字無し、全言語共通）
-output/scp-XXX/meta.json    ← コマ座標・attribution等
-index.json                  ← 漫画一覧（アプリ/bot用）
-state/used.json             ← 生成済みSCPの記録（重複生成防止。消さないこと）
+```text
+live SCP article
+      ↓
+Codex: write-scp-script
+      ↓
+comics/queue/scp-XXX.yaml
+      ↓
+Codex: review-scp-script
+      ↓
+python scripts/validate_scripts.py ...
+      ↓
+python scripts/run_pipeline.py --id scp-XXX --variants N
+      ↓
+ComfyUIで候補生成 → 人が採用コマを選択
+      ↓
+python scripts/run_pipeline.py --id scp-XXX --skip-generate
+      ↓
+compose.py → embed_text.py → publish-complete判定 → build_index.py
 ```
 
-生成済みのSCPと同じIDの台本がキューにあってもスキップされる
-（再生成したい場合は台本に `regenerate: true` を書くか、`--id` で明示的に実行する）。
+LLMに任せるのは、原文読解・台本構成・レビュー・scene改善などの曖昧な判断です。YAML構造、参照キャラクター、対応言語、公開可能状態など機械判定できる条件はPythonで検証します。
 
-## 画像生成プロバイダ
+## 出力
 
-`config/style.yaml` の `generation.provider` で切り替える。実装は
-`scripts/providers/<name>/` に分かれており、各フォルダの `README.md` にセットアップ
-手順がある。
+```text
+output/scp-XXX/base.png       テキスト無し合成版
+output/scp-XXX/<lang>.png     言語別完成画像
+output/scp-XXX/thumbnail.png  一覧用サムネイル
+output/scp-XXX/meta.json      レイアウト・attribution・公開状態
+index.json                    アプリ / bot 用一覧
+state/used.json               重複生成防止台帳（移行完了まで削除禁止）
+```
 
-| provider | 実行環境 | 特徴 |
-|---|---|---|
-| `comfyui` | ローカルで起動したComfyUIのAPI（`http://127.0.0.1:8188`）を叩く | GPUが要る代わりに無料。モデル・LoRAを差し替えて画風を調整できる |
+対応言語は `config/languages.yaml` が唯一の定義元です。
 
-現在ローカル検証で使っているのは `comfyui`（Qwen-Image 2512 + 2ステップ高速化LoRA
-`Wuli-Qwen-Image-2512-Turbo-LoRA-2steps` + 画風LoRA `QwenImage_blackline`
-strength 1.0、steps 2 / cfg 1）。1コマ数十秒で生成できるが、1コマ内に同じキャラが
-重複して描かれる／2人の髪色などの属性が混同される問題が確率的に発生するため、
-生成結果は毎回目視確認しリロールする運用が前提
-（詳細・安定重視設定への切り替え方は `scripts/providers/comfyui/README.md`）。
-プロンプトの組み立て方（`prompt.<provider>`
-の style_prompt/composition_rules/no_text_rules）もプロバイダごとに完全に分けて持って
-おり、モデルによって効く指示の強さ・言い回しが違うことを踏まえて調整してある
-（`scripts/generate_panels.py` の `build_prompt()` 参照）。
-**"panel"/"grid"/"frame"/"comic"/"manga"のような複数コマ・ページ構成を連想させる単語は
-（否定形でも）プロンプトに使わない**——cfgを上げるほどモデルがグリッド状の複数コマ画像を
-生成しやすくなる現象を検証で確認したため。
+## Codex Skills
 
-新しいプロバイダを足す場合は `generate_image(prompt, ref_images, gen_cfg)` を実装して
-`scripts/providers/__init__.py` に登録する。
+- `$write-scp-script` — live記事から台本を作成・修正
+- `$review-scp-script` — writerとは別の視点で原文整合性・起承転結をレビュー
+- `$prepare-scp-comic` — 台本→レビュー→mock→prompt exportまで準備
+- `$refine-panel` — 生成済み1コマの候補を評価しsceneを反復改善
 
-## 設定（すべて後から調整可能）
-
-| ファイル | 役割 |
-|---|---|
-| `config/style.yaml` | **絵柄の中央定義**（プロバイダ別プロンプト）と生成APIの設定 |
-| `config/characters.yaml` | **キャラクターの中央定義**。SCP財団正史（キャノン）の実在職員のみを登録し、複数の漫画で同じ見た目を保つ。参照画像も登録可（オリジナルキャラを創作して登録しないこと。詳細はCLAUDE.md） |
-| `config/layout.yaml` | コマサイズ・列数・余白・キャプション/吹き出しの見た目・タイトル/フッター帯 |
-| `config/languages.yaml` | 対応言語・フォント割り当て・フォントDL元 |
-| `scripts/providers/*/README.md` | 各画像生成プロバイダのセットアップ手順 |
-
-- **8コマにしたい** → 台本のpanelsを8個書くだけ。2列にするなら `layout.yaml` の `strip.columns: 2`
-- **絵柄を変えたい** → `style.yaml` の `prompt.<provider>.style_prompt` を書き換え
-  （comfyuiの場合は画風LoRAの差し替えが主。台本には絵柄を書かない）
-- **キャラを固定したい** → 生成済みのコマからキャラ立ち姿を切り出して `characters/refs/` に置き、
-  `characters.yaml` の `reference_images` に登録（以後の生成で参照画像としてAPIに渡される。
-  ただしComfyUI側の汎用ワークフローは画像入力に非対応のため、providerによっては無視される）
+WriterとReviewerはどちらもCodexですが、役割を分離します。Reviewerはまず指摘のみを返し、原文を確認した上で妥当なものだけ修正します。
 
 ## セットアップ
 
 ```bash
-git init まで済み。GitHubへpushしておくと raw.githubusercontent.com 経由で
-アプリ/botから画像を参照できる:
-gh repo create <name> --public --source . --push
-```
-
-## ローカルでの動作確認
-
-```bash
 pip install -r requirements.txt
 python scripts/download_fonts.py
-
-# APIを呼ばずレイアウト・キャプション・多言語埋め込みを確認（プレースホルダー画像）
-python scripts/run_pipeline.py --id scp-999 --mock
-
-# 本番同様に生成（config/style.yamlのprovider設定に従う。ComfyUIをローカルで起動しておくこと）
-python scripts/run_pipeline.py --id scp-999
-
-# コマごとに複数候補を生成して人手で選ぶ（生成精度が安定しない間の運用）
-python scripts/run_pipeline.py --id scp-999 --variants 4
-# -> output/scp-999/panels_temp/panel_N_vM.png から気に入った1枚を選び、
-#    output/scp-999/panels/panel_N.png としてコピーしてから↓を実行する
-
-# 生成済みコマを使い、合成・埋め込みだけやり直す（レイアウト調整時、--variants選別後も）
-python scripts/run_pipeline.py --id scp-999 --skip-generate --languages ja,en
 ```
 
-`provider: comfyui` の場合は事前にComfyUIをローカルで起動し、必要なモデル・LoRAを
-配置しておくこと（`scripts/providers/comfyui/README.md` 参照）。
+画像生成を行う場合はComfyUIをローカルで起動し、`scripts/providers/comfyui/README.md` のモデル・LoRA・workflow設定を用意してください。現在の画像providerは `comfyui` です。provider実装は `scripts/providers/<name>/` に分離されています。
 
-### ComfyUIのUIで手動生成する場合
-
-APIを使わず、ComfyUIのUI上でワークフローを組んで手動生成することもできる。
+## 台本検証
 
 ```bash
-# APIを呼ばず output/scp-999/prompts/ にプロンプト・手順書を書き出す
-python scripts/run_pipeline.py --id scp-999 --export-prompts
+# 1本
+python scripts/validate_scripts.py comics/queue/scp-XXX.yaml
+
+# queue / done 全件
+python scripts/validate_scripts.py --all
+
+# unit tests
+pytest -q
 ```
 
-`output/scp-999/prompts/README.txt` の手順に従い、`panel_N.txt` の内容をComfyUIの
-Positive Promptノードに貼り付けて生成した画像を `output/scp-999/panels/panel_N.png` として
-保存する。全コマ保存したら `python scripts/run_pipeline.py --id scp-999 --skip-generate` で
-合成・多言語埋め込みまで実行できる。
+台本ロード時にも同じ基本validationが走ります。主に次を検証します。
 
-**mock実行の出力（output/）はコミットしないこと**（実生成で上書きされる前提のダミー）。
+- `id` / `panels` / `scene` / `caption`
+- production言語のcaption欠落
+- 未定義character key
+- caption/bubble preset名
+- ファイル名とscript IDの不整合
+
+## mock
+
+ComfyUIを呼ばず、レイアウト・文字あふれ等を確認できます。
+
+```bash
+python scripts/run_pipeline.py --id scp-XXX --mock
+```
+
+mockは本番と同じ `output/<id>/` 配下へプレースホルダーを書きます。未コミットの採用済みpanelがある状態で不用意に全コマmockを実行しないでください。1コマ確認なら必ず `--panel N` を付けます。mock成果物は本番成果物としてコミットしません。
+
+## 画像生成
+
+```bash
+python scripts/run_pipeline.py --id scp-XXX --variants 4
+```
+
+候補は `output/scp-XXX/panels_temp/panel_N_vM.png` に追加され、採用済み `panels/panel_N.png` は上書きしません。候補を目視して採用画像を `panels/panel_N.png` に置いた後、次を実行します。
+
+```bash
+python scripts/run_pipeline.py --id scp-XXX --skip-generate
+```
+
+ComfyUIの複数漫画生成を並列実行しないでください。キュー詰まりとGPU/RAM逼迫を避けるため、複数IDも直列処理します。
+
+1コマだけ候補を追加する場合:
+
+```bash
+python scripts/run_pipeline.py --id scp-XXX --panel 3 --variants 4
+```
+
+## 部分言語レンダリングと公開状態
+
+```bash
+python scripts/run_pipeline.py --id scp-XXX --skip-generate --languages ja,en
+```
+
+これは確認・部分再生成用です。**部分言語実行だけではpublish-completeになりません。** `compose.py` は再合成時に公開状態を `complete: false` へ戻し、全production言語を正常に埋め込んだ実行だけが `complete: true` にできます。`run_pipeline.py` は明示的な `True` の場合だけqueue→done移動と `state/used.json` 記録を行います。
+
+## prompt export
+
+ComfyUI APIを呼ばず最終promptを書き出せます。
+
+```bash
+python scripts/run_pipeline.py --id scp-XXX --export-prompts
+```
+
+`output/scp-XXX/prompts/` に各コマのpromptが生成されます。
+
+## 設定
+
+| ファイル | 役割 |
+|---|---|
+| `config/style.yaml` | provider・モデル・生成設定・provider別prompt |
+| `config/characters.yaml` | 複数漫画で使うキャラクター定義 |
+| `config/layout.yaml` | コマ・caption・header/footer等のレイアウト |
+| `config/languages.yaml` | production言語・フォント・AI利用告知 |
+| `docs/comic-spec.md` | 原文利用・台本・キャラ・公開品質の仕様 |
+
+絵柄は `style.yaml` 側で管理し、各台本の `scene` には書きません。記事固有人物は台本の `local_characters` に置きます。
 
 ## アプリ / bot からの参照
 
-```
+公開後はraw GitHub URLから `index.json` と画像を参照できます。
+
+```text
 https://raw.githubusercontent.com/<owner>/<repo>/refs/heads/master/index.json
 https://raw.githubusercontent.com/<owner>/<repo>/refs/heads/master/output/<id>/<lang>.png
 ```
 
-index.jsonは非ASCIIを\uXXXXエスケープして出力する（raw.githubusercontent.comが
-charset無しで配信するため。scpjpReaderActionsと同じ方針）。
+画像数が増えてリポジトリサイズが問題になった場合は、生成画像をObject Storage/CDNへ分離する予定です。コード・台本・meta/indexをGitHub側に残す構成を想定しています。
 
 ## ライセンス
 
-- SCP記事は CC BY-SA 3.0。漫画のフッターに出典・著者・ライセンスを自動で表記する
-  （`compose.py` の `build_footer_lines`）。この漫画自体も CC BY-SA 3.0 継承
-- 注意: 一部SCPの**公式画像**はCCではない（例: SCP-173の彫刻写真）。
-  台本のsceneは**記事本文の記述のみ**を根拠に書き、既存画像の模倣はさせない
+SCP記事はCC BY-SA 3.0です。漫画のフッターに出典・著者・ライセンスを自動表記し、この漫画もCC BY-SA 3.0を継承します。一部記事の公式添付画像は同じライセンスではない場合があるため、画像を模倣せず記事本文の記述をvisual sourceとして使用します。
