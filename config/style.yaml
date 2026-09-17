@@ -1,150 +1,58 @@
 # ============================================================
-# 絵柄の中央定義（ここを変えると全SCP漫画の画風が変わる）
-#
-# 各コマの生成プロンプトは以下の順で組み立てられる:
-#   style_prompt + キャラクター定義 + 台本のcaption(en、絵が何を描くべきかの根拠)
-#   + 台本のscene + composition_rules + no_text_rules
-# 台本(comics/queue/*.yaml)側には絵柄を書かないこと。
-#
-# style_prompt/composition_rules/no_text_rulesは prompt.<provider> 以下に
-# プロバイダごとに完全に分けて持つ（モデルによって効く指示の強さ・言い回しが
-# 違うため）。台本のscene・caption・characters等の「内容」は共通（build_prompt()参照）。
-# 現状はcomfyuiのみ使用（Geminiプロバイダは削除済み）。
+# 絵柄・画像生成設定
 # ============================================================
 
 prompt:
   comfyui:
-    # 画風（線・配色・プロポーション等）は generation.comfyui.style_lora_name の
-    # LoRAが担うので、ここでは色・線・chibi等の画風描写をあえて書かない
-    # （LoRAが実際に描く絵（例: モノクロ線画）と食い違う画風指示を入れると
-    # LoRAの効きを阻害するため）。ここに書くのはジャンル・雰囲気・世界観など
-    # 画風LoRAを差し替えても変わらない内容のみ。「1枚の絵だけ」という構図の
-    # 制約はcomposition_rules側で明示している。
-    # "yonkoma"（四コマ）だけでなく"manga"/"comic"/"story"のような、複数ページ・
-    # コマ割りを連想させる単語は一切入れない。single-panel指示と矛盾し、cfgを
-    # 上げるほどモデルがグリッド割りの方に強く引っ張られることを検証で確認した。
-    # style_lora_strength=0（LoRA無し）でも同じくグリッド化したため、原因は
-    # LoRAではなくベースモデルが"manga"等の語からページ形式の学習分布を
-    # 強く連想することだと判明している。
     style_prompt: >
       A single anime-style character illustration, one continuous scene
       capturing a lightly comedic moment from an SCP Foundation incident
       report. A hint of eerie SCP Foundation atmosphere. If the Scene below
       does not specify a setting, default to a plain containment-facility
-      interior (concrete corridors, fluorescent lights, institutional
-      props) — but always follow whatever setting the Scene actually
-      describes instead (a different indoor room, outdoors, a close-up on
-      an object, etc.).
+      interior (concrete corridors, fluorescent lights, institutional props),
+      but always follow the Scene when it specifies another setting.
 
-    # 画角のバリエーション（wide/medium/close-up等の指定）は台本(scene)側で
-    # コマごとに個別に書く運用にしている（CLAUDE.md参照）ため、ここで複数の
-    # 画角候補を列挙しない。
-    # また、"panel"/"grid"/"frame"/"multiple"のような単語は否定形（〜にしない
-    # で）であっても一切使わない。拡散モデルは否定を苦手とし、cfgが高いほど
-    # プロンプト中の単語自体への忠実度が上がるため、「grid化するな」という
-    # 指示がかえって「grid」という概念を強めてしまい、SCP漫画の実プロンプト
-    # （文章量が多く、キャラ説明・引用文・sceneが並ぶ構造）でgrid状の複数コマ
-    # 画像が生成される主因になっていたことを検証で確認した（同じcfg/stepsでも
-    # panel/grid語を含まない単純なプロンプトではgrid化しなかった）。
     composition_rules: >
       One unified, seamless illustration filling the entire square image
-      edge to edge, depicting a single continuous moment in time. Characters
-      drawn at a readable size, main subject clearly visible. Consistent
-      character designs must be kept exactly as described. Follow the pose
-      and motion described in the Scene below exactly, including
-      deliberate stillness or a static pose when the Scene specifically
-      calls for it. Only when the Scene leaves the pose unspecified,
-      default to dynamic, asymmetric poses and motion (mid-stride, leaning,
-      reaching, turning) over static front-facing standing poses. If the
-      Scene shows a plain indoor room without describing the wall/floor
-      color, render them in a flat, consistent pale cream-gray paper color
-      (color RGB 238,233,218) — do not render it noticeably lighter or
-      darker than this; for any other setting the Scene describes, follow
-      the Scene's colors instead.
+      edge to edge, depicting a single continuous moment in time. The output
+      canvas is exactly 720 by 720 pixels. Characters are drawn at a readable
+      size and the main subject is clearly visible. Keep character designs
+      exactly as described. Follow the pose and motion described in the Scene.
+      If the Scene shows a plain indoor room without specifying wall/floor
+      color, use pale cream-gray (RGB 238,233,218); otherwise follow the Scene.
 
     no_text_rules: >
       ABSOLUTE RULE, HIGHEST PRIORITY: this image contains ZERO text of any
-      kind. Do not draw any letters, words, numbers, logos, signage, or
-      written characters in any language, anywhere in the image, for any
-      reason — not on objects, walls, screens, books, or clothing. Do not draw
-      any speech bubbles, thought bubbles, dialogue boxes, or sound-effect
-      lettering. Leave clean, empty, uncluttered background areas instead of
-      text or bubbles.
+      kind. Do not draw letters, words, numbers, logos, signage, written
+      characters, speech bubbles, thought bubbles, dialogue boxes, or
+      sound-effect lettering. Leave clean background areas instead.
 
-# 生成APIの設定。
-# provider: comfyui（ローカルComfyUI）のみ使用（Geminiプロバイダは削除済み）。
-# 実装は scripts/providers/<provider>/ にまとまっている（各フォルダのREADME.md参照）。
-# provider共通のキーはトップレベルに、プロバイダ固有のキーは comfyui: 以下に書く。
 generation:
-  provider: comfyui                   # comfyui のみ
-  aspect_ratio: "1:1"                 # コマは正方形で統一（layout.yamlのpanelと合わせる）
-  # 同じ漫画の直前のコマを参照画像として渡し、コマ間のキャラ一貫性を上げる
-  # （ComfyUI版の汎用txt2imgワークフローは画像入力ノードが無いため現状は無視される。
-  #   scripts/providers/comfyui/README.md 参照）
+  provider: comfyui
+  aspect_ratio: "1:1"
+  # Generation, accepted panel, and final composition all use the same fixed
+  # square pixels. Handoff/other providers must follow these dimensions too.
+  width: 720
+  height: 720
   use_previous_panels_as_reference: true
   max_reference_images: 6
 
   comfyui:
-    # ローカルで起動したComfyUIのAPIを叩いて生成する。要セットアップ、詳細は
-    # scripts/providers/comfyui/README.md 参照。
-    #
-    # モデルは Qwen-Image 2512（fp8）+ 2ステップ高速化LoRA「Wuli-Qwen-Image-2512
-    # -Turbo-LoRA-2steps-V1.0-bf16」+ 画風LoRA「QwenImage_blackline」
-    # （モノクロ・リソグラフ調の線画スタイル）、この順でUNETに連結する。
-    #
-    # 過去のグリッド状複数コマ画像バグ（cfgを上げるほど発生）は、cfgやLoRAでは
-    # なく、プロンプト文中の"panel"/"grid"/"frame"/"comic"/"manga"/"story"等、
-    # 複数コマ・ページ構成を連想させる単語が原因だった（"〜にしないで"という
-    # 否定形でも、拡散モデルは否定を苦手としcfgが高いほど単語自体への忠実度が
-    # 上がるため、むしろ強調されていた）。generate_panels.pyのbuild_prompt()と
-    # prompt.comfyui.*から該当語を排除済みのため、高速化LoRAを使うsteps=2/cfg=1
-    # に戻してもグリッド化は再発しない。
-    #
-    # steps=2/cfg=1では、1コマ内に同じキャラが重複して描かれる／2人のキャラの
-    # 髪色などの属性が混ざる（両方黒髪になる等）問題が確率的に発生する
-    # （検証では4コマ中1コマ程度）。steps=4/8を試したが、いずれも安定した改善は
-    # 見られなかった（steps=8はcharacters.yamlの記述を髪型・服装まで具体化した
-    # 直後の3枚検証では3/3成功したが、その後の生成では再現せず、steps数を
-    # 上げること自体に確実な効果は無いと判断）。速度（1コマ約15〜30秒）を
-    # 優先してsteps=2に戻し、生成のたびに重複キャラ・属性混同が無いか目視確認
-    # して発生コマだけ再生成（リロール）する運用を基本方針とする。
-    # 安定性を優先する場合はsteps=30/cfg=2（高速化LoRA無し。workflow_api_
-    # qwen_style.jsonの"Turbo LoRA"ノードを外し、Style LoRAの model入力をUNET
-    # Loaderに直結すればよい）に戻すこと（この場合はstyle_lora_strengthも1.4に
-    # 上げる。理由は下記コメント参照）。
-    # 必要ファイル（models/配下の対応フォルダに配置）:
-    #   diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors
-    #   text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors
-    #   vae/qwen_image_vae.safetensors
-    #   loras/Wuli-Qwen-Image-2512-Turbo-LoRA-2steps-V1.0-bf16.safetensors
-    #   loras/QwenImage_blackline.safetensors（画風。差し替えれば別の画風も試せる）
-    #
-    # 過去に検証したZ-Image Turbo設定は workflow_api.json 側に残してあるので、
-    # 戻したい場合は workflow_path/unet_name/clip_name/vae_name等を
-    # 過去のコミット（scripts/providers/comfyui/README.md参照）から復元すること。
     server: "http://127.0.0.1:8188"
     workflow_path: "scripts/providers/comfyui/workflow_api_qwen_style.json"
     unet_name: "qwen_image_2512_fp8_e4m3fn.safetensors"
     clip_name: "qwen_2.5_vl_7b_fp8_scaled.safetensors"
     vae_name: "qwen_image_vae.safetensors"
     style_lora_name: "QwenImage_blackline.safetensors"
-    # steps=30まで上げるとベースモデル自身の色彩表現が乗ってきてLoRAの
-    # モノクロ・リソグラフ調が薄まるためstrengthを1.4まで上げて補正していたが、
-    # それはsteps=30向けの値であり、steps=2の高速化LoRA構成では逆に線が甘く・
-    # 不確かになることを検証で確認した。steps=2運用では1.0に戻すこと。
     style_lora_strength: 1.0
-    width: 1328                       # Qwen-Image公式推奨の正方形解像度
-    height: 1328
+    width: 720
+    height: 720
     steps: 2
     cfg: 1
     sampler_name: euler
     scheduler: simple
-    # 実際のCLIPTextEncode（Negative Prompt）ノードを使っているため設定値は
-    # プロンプトに反映されるが、cfg=1では数式上negativeが結果に影響しない
-    # （CFGの定義上、cfg=1だとuncond/negative項が消える）。cfgを2以上に
-    # 戻す場合はこの値が効くようになる。
     negative_prompt: "text, watermark, signature, blurry, lowres, extra limbs, bad anatomy, jpeg artifacts, duplicate character, extra person, cloned face, comic page, manga page, panel grid, four panel comic, multiple panels, comic strip, storyboard, page layout, panel borders, split screen"
-    seed: -1                          # -1 なら生成のたびにランダム
+    seed: -1
     max_retries: 3
     retry_wait_seconds: 10
     poll_interval_seconds: 3
