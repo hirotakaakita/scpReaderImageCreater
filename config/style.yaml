@@ -1,9 +1,14 @@
 # ============================================================
-# 絵柄・画像生成設定
+# 絵柄・外部画像生成向けプロンプト設定
+#
+# このリポジトリは画像生成APIを直接呼ばない。Codex/Pythonはプロンプト生成、
+# 受け取った画像の正規化、合成、テキスト埋め込み、publish gateを担当する。
+# 画像そのものは ChatGPT 画像生成などの外部ツールで作り、
+# scripts/accept_external_panel.py で accepted panel として取り込む。
 # ============================================================
 
 prompt:
-  comfyui:
+  default:
     style_prompt: >
       A single anime-style character illustration, one continuous scene
       capturing a lightly comedic moment from an SCP Foundation incident
@@ -13,7 +18,7 @@ prompt:
       but always follow the Scene when it specifies another setting.
 
     composition_rules: >
-      One unified, seamless illustration filling the entire square image
+      One unified, seamless square illustration filling the entire image
       edge to edge, depicting a single continuous moment in time. Characters
       are drawn at a readable size and the main subject is clearly visible.
       Keep character designs exactly as described. Follow the pose and motion
@@ -28,34 +33,11 @@ prompt:
       sound-effect lettering. Leave clean background areas instead.
 
 generation:
-  provider: comfyui
+  provider: external
+  prompt_profile: default
   aspect_ratio: "1:1"
   # Accepted/final panel pixels are defined by config/layout.yaml (currently
-  # 720x720). Providers may render at a native square resolution; selection
-  # normalizes the accepted asset to layout.panel pixels without distortion.
+  # 720x720). External generators should be asked for a square image; the
+  # repository normalizes accepted panels to layout.panel pixels.
   use_previous_panels_as_reference: true
   max_reference_images: 6
-
-  comfyui:
-    server: "http://127.0.0.1:8188"
-    workflow_path: "scripts/providers/comfyui/workflow_api_qwen_style.json"
-    unet_name: "qwen_image_2512_fp8_e4m3fn.safetensors"
-    clip_name: "qwen_2.5_vl_7b_fp8_scaled.safetensors"
-    vae_name: "qwen_image_vae.safetensors"
-    style_lora_name: "QwenImage_blackline.safetensors"
-    style_lora_strength: 1.0
-    # Qwen-Image native square generation. Do not make width/height unequal.
-    # Accepted variants are normalized to layout.panel (720x720) by
-    # scripts/select_variant.py.
-    width: 1328
-    height: 1328
-    steps: 2
-    cfg: 1
-    sampler_name: euler
-    scheduler: simple
-    negative_prompt: "text, watermark, signature, blurry, lowres, extra limbs, bad anatomy, jpeg artifacts, duplicate character, extra person, cloned face, comic page, manga page, panel grid, four panel comic, multiple panels, comic strip, storyboard, page layout, panel borders, split screen"
-    seed: -1
-    max_retries: 3
-    retry_wait_seconds: 10
-    poll_interval_seconds: 3
-    timeout_seconds: 600
