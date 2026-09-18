@@ -65,6 +65,8 @@ ai_notice:
 
 fonts:
   default: fonts/NotoSans-Bold.ttf   # ラテン文字・キリル文字・ベトナム語をカバー
+  supplemental:
+    - fonts/NotoSansCanadianAboriginal.ttf # SCP-828の公式題名に使われる文字
   by_language:
     ja: fonts/NotoSansCJKjp-Bold.otf
     ko: fonts/NotoSansCJKkr-Bold.otf
@@ -74,6 +76,8 @@ fonts:
 
 # scripts/download_fonts.py がダウンロードする（fonts/はgit管理外）
 downloads:
+  - url: https://raw.githubusercontent.com/google/fonts/main/ofl/notosanscanadianaboriginal/NotoSansCanadianAboriginal%5Bwght%5D.ttf
+    dest: fonts/NotoSansCanadianAboriginal.ttf
   - url: https://raw.githubusercontent.com/notofonts/notofonts.github.io/main/fonts/NotoSans/hinted/ttf/NotoSans-Bold.ttf
     dest: fonts/NotoSans-Bold.ttf
   - url: https://raw.githubusercontent.com/notofonts/notofonts.github.io/main/fonts/NotoSansThai/hinted/ttf/NotoSansThai-Bold.ttf

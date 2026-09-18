@@ -40,9 +40,9 @@ def caption_position_for(panel, idx, caption_cfg):
     return default
 
 
-def title_for(script, lang):
-    titles = script.get("title") or {}
-    return titles.get(lang) or titles.get("en") or script["id"].upper()
+def title_for(meta, lang):
+    titles = meta.get("title") or {}
+    return titles.get(lang) or titles.get("en") or meta["id"].upper()
 
 
 def subtitle_for(script, lang, lang_cfg):
@@ -63,7 +63,8 @@ def embed(script, cfgs, languages=None):
         meta = json.load(f)
 
     langs = languages or lang_cfg["languages"]
-    fallback_path = cfglib.rootpath(lang_cfg["fonts"]["default"])
+    fallback_path = [cfglib.rootpath(lang_cfg["fonts"]["default"])] + [
+        cfglib.rootpath(path) for path in lang_cfg["fonts"].get("supplemental", [])]
     generated = []
     # 「例外なく処理が終わった」と「実際に掲載できる状態」は別物なので、
     # フォント欠落・文字あふれをここで集計してmeta.jsonとrun_pipeline.pyの
@@ -80,7 +81,7 @@ def embed(script, cfgs, languages=None):
 
         img = base.copy()
         draw = ImageDraw.Draw(img)
-        drawing.draw_header_text(draw, meta["header_rect"], title_for(script, lang),
+        drawing.draw_header_text(draw, meta["header_rect"], title_for(meta, lang),
                                  font_path, layout["header"],
                                  subtitle=subtitle_for(script, lang, lang_cfg),
                                  fallback_path=fallback_path)

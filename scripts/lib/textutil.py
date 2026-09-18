@@ -40,13 +40,22 @@ class FontSet:
         self.primary = load_font(primary_path, size)
         self._pcov = _coverage(primary_path)
         self.fallback = None
-        if fallback_path and fallback_path != primary_path:
-            self.fallback = load_font(fallback_path, size)
+        self._fallbacks = []
+        paths = fallback_path if isinstance(fallback_path, (list, tuple)) else [fallback_path]
+        for path in dict.fromkeys(paths):
+            if path and path != primary_path:
+                font = load_font(path, size)
+                self._fallbacks.append((font, _coverage(path)))
+        if self._fallbacks:
+            self.fallback = self._fallbacks[0][0]
 
     def _font_for(self, ch):
-        if (self.fallback is not None and self._pcov is not None
-                and ord(ch) not in self._pcov):
-            return self.fallback
+        if self._pcov is not None and ord(ch) not in self._pcov:
+            for font, coverage in self._fallbacks:
+                if coverage is None or ord(ch) in coverage:
+                    return font
+            if self.fallback is not None:
+                return self.fallback
         return self.primary
 
     def runs(self, text):
@@ -64,7 +73,7 @@ class FontSet:
         return sum(draw.textlength(t, font=f) for t, f in self.runs(text))
 
     def line_height(self):
-        fonts = [self.primary] + ([self.fallback] if self.fallback else [])
+        fonts = [self.primary] + [font for font, _ in self._fallbacks]
         return max(sum(f.getmetrics()) for f in fonts)
 
     def draw_line(self, draw, x, y, text, fill):

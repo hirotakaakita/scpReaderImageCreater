@@ -17,7 +17,7 @@ python scripts/comic_status.py <id> --json
 Then read only the minimum files needed for the current task:
 
 - this `AGENTS.md`;
-- exactly the relevant `.agents/skills/*/SKILL.md` files for the requested workflow;
+- exactly one relevant `.agents/skills/*/SKILL.md`;
 - the target `comics/queue/<id>.yaml` or `comics/done/<id>.yaml`;
 - relevant `output/<id>/` metadata such as `prompts/manifest.json`, `panels/selected.json`, or `meta.json`.
 
@@ -33,7 +33,6 @@ Do not read README, all YAML scripts, all output directories, or the whole repos
 - No dialogue bubbles for the current house style. Python overlays all text later.
 - Semantic text edits must update all production languages. Locale-only typo fixes may touch one language.
 - Generate one image per panel. Never ask imagegen for a page, grid, strip, storyboard, frame, border, speech bubbles, or text.
-- Humans normally do **not** review `panel_N_imagegen_request.txt`. Prompt export is an internal handoff; use those request files directly for imagegen unless the user explicitly asks to stop at prompt review.
 - One bad panel should be regenerated/replaced as one panel; keep other accepted panels unchanged.
 - Publishability is fail-closed: only explicit `complete: true` plus `publish_check` success is publishable.
 
@@ -42,13 +41,9 @@ Do not read README, all YAML scripts, all output directories, or the whole repos
 Use these four public entry points:
 
 - `$make-scp-comic-script`: create/revise a script YAML from the live article. Prefer `scripts/create_script_stub.py` before filling content.
-- `$generate-scp-comic-images`: export imagegen requests and generate full-comic or one-panel image candidates.
+- `$generate-scp-comic-images`: export imagegen prompts and generate full-comic or one-panel image candidates.
 - `$finalize-scp-comic`: import generated images, normalize accepted panels, compose/embed all languages, and run publish checks.
 - `$revise-comic-text`: revise caption/title/addendum text after human review.
-
-Combined workflow rule:
-
-- If the user asks for "台本作成から画像生成まで", "imagegenまで", or similar, run `$make-scp-comic-script` and then `$generate-scp-comic-images` in one pass. Do not stop after prompt export unless the user explicitly says "promptだけ", "画像生成はしない", or "promptを確認したい".
 
 ## Commands
 
@@ -68,4 +63,4 @@ Use `python scripts/validate_scripts.py --all` only for CI, schema-wide changes,
 
 ## Reporting
 
-Be concise. Report commands actually run, pass/fail status, files changed, generated raw image paths, and the next action. Do not claim tests passed unless they ran.
+Be concise. Report commands actually run, pass/fail status, files changed, and the next action. Do not claim tests passed unless they ran.

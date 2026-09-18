@@ -30,7 +30,7 @@
 # 分けて書く。以前はこの2つを1本の description に混在させており、「服装が
 # 食い違ったらsceneを優先せよ」という長い優先指示文でモデルに矛盾を解決させて
 # いたが、根本的にはappearance（絶対に変えたくない）とdefault_look（コマにより
-# 変わってよい既定値）は性質が違うため分離した（generate_panels.pyのbuild_prompt()
+# 変わってよい既定値）は性質が違うため分離した（export_chatgpt_prompts.pyのbuild_prompt()
 # 参照）。台本のlocal_charactersは従来通りdescription一本の旧形式でもよい
 # （このプロジェクトの大半の台本が既にこの形式のため、後方互換として残している。
 # 新規で書く場合はここと同じ appearance/default_look 形式を推奨する）。
