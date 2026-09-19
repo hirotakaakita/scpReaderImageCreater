@@ -36,6 +36,27 @@ Ask the user to provide or confirm:
 
 Do not read README or unrelated YAML by default.
 
+## Revision policy
+
+When the user asks for a caption to be more faithful, more explanatory, or closer to the original SCP text, compare:
+
+- `source.quote`;
+- current caption;
+- requested revision.
+
+Prefer restoring concrete source facts over making the line shorter. A good revised caption can be one or two explanatory sentences if needed.
+
+Facts worth preserving include:
+
+- measurements and quantities;
+- physical form and structure;
+- internal/external contradictions;
+- material or biological composition;
+- anomalous effects;
+- procedural cautions that explain why the SCP matters.
+
+Do not add unsupported interpretation. Do not make only Japanese more detailed while other languages keep the old shorter meaning.
+
 ## Steps
 
 1. Start with compact state when an ID is known:
@@ -45,20 +66,21 @@ python scripts/comic_status.py <id> --json
 ```
 
 2. Decide language scope. If meaning changes, update every production language. Locale-only typos may touch one language.
-3. Keep `source` provenance aligned when caption meaning changes.
-4. Validate quietly:
+3. For source-fidelity revisions, align `caption` with `source.quote`. If the source quote is insufficient, reopen the live article and update `source` as well.
+4. Do not modify `scene` unless the revised caption would make the accepted image factually inconsistent.
+5. Validate quietly:
 
 ```bash
 python scripts/validate_scripts.py <target-yaml> --quiet
 ```
 
-5. For semantic edits, check that all languages were touched in the git diff:
+6. For semantic edits, check that all languages were touched in the git diff:
 
 ```bash
 python scripts/text_revision_check.py <id-or-yaml-path> --expect semantic-all-languages --panel <N> --field caption
 ```
 
-6. Recompose/embed all languages without imagegen:
+7. Recompose/embed all languages without imagegen:
 
 ```bash
 python scripts/run_pipeline.py --id <id> --skip-generate
@@ -71,5 +93,6 @@ Never use `--languages` as the final run after a semantic edit.
 
 - changed field/panel
 - semantic vs locale-only scope
+- source facts restored or changed
 - validation/publish status
 - whether any visual check is needed
