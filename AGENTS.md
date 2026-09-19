@@ -26,6 +26,7 @@ Do not read README, all YAML scripts, all output directories, or the whole repos
 ## Core rules
 
 - Fetch/read the live SCP article before writing or materially changing a script.
+- Write source-faithful explanatory SCP comics, not punchline-first 4-koma. Captions should preserve important concrete facts from the source text.
 - Use Description as the default source for the four-panel comic.
 - Special Containment Procedures are exceptional: final panel only, and only when they naturally complete panels 1-3.
 - Do not mix addenda/interviews/experiment logs into the normal main strip.
