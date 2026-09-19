@@ -19,126 +19,125 @@ object_class: Euclid
 attribution:
   article: "SCP-002 — The “Living” Room"
   source_url: "https://scp-wiki.wikidot.com/scp-002"
-  author: "Unknown / The SCP Foundation"
+  author: "Unknown Author / SCP Foundation"
 local_characters:
   scp-002:
     name: "SCP-002"
     appearance: >
-      SCP-002, a massive tumorous fleshy growth about the size of a small room,
-      wet organic surface, uneven rounded bulk, with a heavy circular iron valve
-      hatch set into one side.
+      SCP-002, a tumorous fleshy growth with the volume of a small room, wet organic
+      surface, uneven rounded bulk, and a heavy iron valve hatch set into one side.
     default_look: >
       Silent and immobile, presented as an anomalous structure rather than a person.
 panels:
   - scene: >
       Wide exterior shot inside a sterile Foundation containment bay: SCP-002 is a huge
-      tumorous fleshy growth, roughly room-sized, sitting under harsh overhead lights.
-      A heavy circular iron valve hatch is clearly visible on one side. No people,
-      no writing, no warning labels, no page border.
+      tumorous fleshy growth, roughly room-sized, with a heavy iron valve hatch on one
+      side leading inward. The organic mass should feel like a fleshy room-sized tumor,
+      not a normal building. No text, warning labels, signage, speech bubbles, or page border.
     characters:
       - scp-002
     source:
       section: Description
-      quote: "SCP-002 resembles a tumorous, fleshy growth with a volume of roughly 60 m³ (or 2000 ft³)."
+      quote: "SCP-002 resembles a tumorous, fleshy growth with a volume of roughly 60 m³ (or 2000 ft³). An iron valve hatch on one side leads to its interior"
       url: "https://scp-wiki.wikidot.com/scp-002"
-      fetched_at: "2026-09-18T00:00:00Z"
+      fetched_at: "2026-09-20T00:00:00Z"
     caption:
-      ja: "SCP-002は、およそ60立方メートルの肉質の腫瘍のような塊です。"
-      en: "SCP-002 resembles a fleshy tumor roughly sixty cubic meters in size."
-      cs: "SCP-002 připomíná masitý nádor o objemu asi šedesát metrů krychlových."
-      de: "SCP-002 ähnelt einem fleischigen Tumor von etwa sechzig Kubikmetern."
-      es: "SCP-002 parece un tumor carnoso de unos sesenta metros cúbicos."
-      fr: "SCP-002 ressemble à une tumeur charnue d’environ soixante mètres cubes."
-      it: "SCP-002 assomiglia a un tumore carnoso di circa sessanta metri cubi."
-      ko: "SCP-002는 약 60세제곱미터 크기의 살덩어리 종양처럼 보입니다."
-      pl: "SCP-002 przypomina mięsisty guz o objętości około sześćdziesięciu metrów sześciennych."
-      pt: "SCP-002 parece um tumor carnoso com cerca de sessenta metros cúbicos."
-      th: "SCP-002 ดูเหมือนก้อนเนื้อขนาดประมาณหกสิบลูกบาศก์เมตร"
-      uk: "SCP-002 схожий на м’ясисту пухлину об’ємом близько шістдесяти кубічних метрів."
-      vi: "SCP-002 trông như một khối u bằng thịt, thể tích khoảng sáu mươi mét khối."
-      zh: "SCP-002像一团约六十立方米大小的肉质肿瘤。"
-      zh_Hant: "SCP-002像一團約六十立方公尺大小的肉質腫瘤。"
+      ja: "SCP-002は、およそ60立方メートルの腫瘍状の肉質成長物に似ており、片側の鉄製バルブハッチが内部へ通じています。"
+      en: "SCP-002 resembles a tumorous, fleshy growth of roughly 60 m³, with an iron valve hatch on one side leading inside."
+      cs: "SCP-002 připomíná nádorovitý masitý výrůstek o objemu zhruba 60 m³ a na jedné straně má železný ventilový poklop vedoucí dovnitř."
+      de: "SCP-002 ähnelt einem tumorartigen, fleischigen Gewächs von etwa 60 m³; an einer Seite führt eine eiserne Ventilluke ins Innere."
+      es: "SCP-002 se parece a un crecimiento carnoso tumoral de unos 60 m³, con una escotilla de válvula de hierro en un lado que conduce al interior."
+      fr: "SCP-002 ressemble à une croissance charnue tumorale d’environ 60 m³, avec une écoutille à valve en fer sur un côté menant à l’intérieur."
+      it: "SCP-002 assomiglia a una crescita carnosa tumorale di circa 60 m³, con un portello a valvola di ferro su un lato che conduce all’interno."
+      ko: "SCP-002는 약 60세제곱미터의 종양 같은 살덩어리 성장물이며, 한쪽의 철제 밸브 해치가 내부로 이어집니다."
+      pl: "SCP-002 przypomina guzowaty, mięsisty narośl o objętości około 60 m³, z żelaznym włazem zaworowym po jednej stronie prowadzącym do środka."
+      pt: "SCP-002 se assemelha a um crescimento carnoso tumoral de cerca de 60 m³, com uma escotilha de válvula de ferro em um lado levando ao interior."
+      th: "SCP-002 คล้ายก้อนเนื้อเหมือนเนื้องอกขนาดประมาณ 60 ลูกบาศก์เมตร และมีประตูวาล์วเหล็กด้านหนึ่งที่นำเข้าสู่ภายใน"
+      uk: "SCP-002 схожий на пухлиноподібне м’ясисте утворення об’ємом близько 60 м³; з одного боку залізний люк-клапан веде всередину."
+      vi: "SCP-002 giống một khối phát triển bằng thịt như khối u, thể tích khoảng 60 m³, với một cửa van sắt ở một bên dẫn vào bên trong."
+      zh: "SCP-002像一团约60立方米的肿瘤状肉质增生物，一侧的铁制阀门通向内部。"
+      zh_Hant: "SCP-002像一團約60立方公尺的腫瘤狀肉質增生物，一側的鐵製閥門通向內部。"
   - scene: >
-      Medium shot from just outside the opened iron valve hatch: beyond the organic
-      rim is the impossible interior of a modest low-rent apartment, with a small room,
-      worn furniture silhouettes, and one plain window on the far wall. The exterior
-      flesh around the hatch shows no matching outside window. No people, no text.
+      View through the opened hatch into SCP-002: the interior appears to be a modest
+      standard low-rent apartment, not a biological chamber. Show a small room with cheap
+      apartment furniture and one plain window on a wall, while the exterior flesh around
+      the hatch shows no matching window opening. No people, no text, no labels.
     characters:
       - scp-002
     source:
       section: Description
-      quote: "An iron valve hatch on one side leads to its interior, which appears to be a standard low-rent apartment of modest size. One wall of the room possesses a single window, though no such opening is visible from the exterior."
+      quote: "its interior, which appears to be a standard low-rent apartment of modest size. One wall of the room possesses a single window, though no such opening is visible from the exterior. The room contains furniture"
       url: "https://scp-wiki.wikidot.com/scp-002"
-      fetched_at: "2026-09-18T00:00:00Z"
+      fetched_at: "2026-09-20T00:00:00Z"
     caption:
-      ja: "鉄のバルブハッチの先には、質素な安アパートのような内部があります。"
-      en: "An iron hatch opens into what looks like a modest low-rent apartment."
-      cs: "Železný poklop vede dovnitř, kde to vypadá jako skromný levný byt."
-      de: "Eine eiserne Luke führt in etwas, das wie eine einfache Billigwohnung wirkt."
-      es: "Una escotilla de hierro se abre a algo parecido a un modesto apartamento barato."
-      fr: "Une écoutille de fer mène à un intérieur semblable à un modeste appartement bon marché."
-      it: "Un portello di ferro conduce a un interno simile a un modesto appartamento economico."
-      ko: "철제 해치 안쪽은 소박한 저가 아파트처럼 보입니다."
-      pl: "Żelazny właz prowadzi do wnętrza wyglądającego jak skromne tanie mieszkanie."
-      pt: "Uma escotilha de ferro se abre para algo parecido com um modesto apartamento barato."
-      th: "ประตูเหล็กเปิดไปสู่ภายในที่ดูเหมือนอพาร์ตเมนต์ราคาถูกขนาดเล็ก"
-      uk: "Залізний люк веде всередину, де все схоже на скромну дешеву квартиру."
-      vi: "Một cửa sập sắt mở vào bên trong trông như một căn hộ thuê rẻ tiền nhỏ."
-      zh: "一扇铁制阀门通向内部，里面像一间朴素的廉租公寓。"
-      zh_Hant: "一扇鐵製閥門通向內部，裡面像一間樸素的廉租公寓。"
+      ja: "内部は、あまり広くない標準的な低賃料アパートのように見えます。壁には窓が一つありますが、外部からはその開口部は見えません。"
+      en: "Its interior appears to be a modest low-rent apartment; one wall has a single window, though no such opening is visible outside."
+      cs: "Uvnitř vypadá jako skromný levný byt; jedna stěna má jediné okno, i když zvenčí žádný takový otvor vidět není."
+      de: "Das Innere wirkt wie eine bescheidene Billigwohnung; eine Wand besitzt ein einzelnes Fenster, obwohl außen keine solche Öffnung sichtbar ist."
+      es: "El interior parece un modesto apartamento barato; una pared tiene una sola ventana, aunque desde fuera no se ve ninguna abertura así."
+      fr: "L’intérieur ressemble à un modeste appartement bon marché ; un mur possède une seule fenêtre, bien qu’aucune ouverture de ce type ne soit visible de l’extérieur."
+      it: "L’interno appare come un modesto appartamento economico; una parete ha una sola finestra, anche se dall’esterno non è visibile alcuna apertura simile."
+      ko: "내부는 소박한 저가 아파트처럼 보이며, 한쪽 벽에는 창문 하나가 있지만 외부에서는 그런 구멍이 보이지 않습니다."
+      pl: "Wnętrze wygląda jak skromne tanie mieszkanie; jedna ściana ma pojedyncze okno, choć z zewnątrz nie widać takiego otworu."
+      pt: "O interior parece um modesto apartamento barato; uma parede tem uma única janela, embora tal abertura não seja visível por fora."
+      th: "ภายในดูเหมือนอพาร์ตเมนต์ราคาถูกขนาดเล็ก ผนังด้านหนึ่งมีหน้าต่างบานเดียว แม้ภายนอกจะไม่เห็นช่องเปิดเช่นนั้น"
+      uk: "Усередині він виглядає як скромна дешева квартира; одна стіна має єдине вікно, хоча зовні такого отвору не видно."
+      vi: "Bên trong trông như một căn hộ thuê rẻ tiền nhỏ; một bức tường có một cửa sổ, dù bên ngoài không thấy lỗ mở như vậy."
+      zh: "其内部看起来像一间不大的廉租公寓；一面墙上有一扇窗，但外部看不到相应开口。"
+      zh_Hant: "其內部看起來像一間不大的廉租公寓；一面牆上有一扇窗，但外部看不到相應開口。"
   - scene: >
-      Close inspection shot inside the apartment-like room: a table edge and chair are
-      revealed as carved bone, tightly woven hair, and pale organic material. The room
-      still reads as ordinary furniture at first glance, but the details are biological
-      and unsettling. No gore splash, no text, no labels.
+      Close inspection inside the apartment-like room: a chair, table edge, and fabric-like
+      surface are revealed as sculpted bone, woven hair, and other pale human biological
+      substances. It should still resemble furniture, but the materials are unmistakably
+      biological. No gore splash, no readable text, no labels.
     characters: []
     source:
       section: Description
       quote: "The room contains furniture which, upon close examination, appears to be sculpted bone, woven hair, and various other biological substances produced by the human body."
       url: "https://scp-wiki.wikidot.com/scp-002"
-      fetched_at: "2026-09-18T00:00:00Z"
+      fetched_at: "2026-09-20T00:00:00Z"
     caption:
-      ja: "家具はよく見ると、骨や髪、人体由来の物質でできていました。"
-      en: "Up close, the furniture appears to be made from bone, hair, and human biological matter."
-      cs: "Zblízka nábytek vypadá jako vyrobený z kostí, vlasů a lidské biologické hmoty."
-      de: "Aus der Nähe scheint das Mobiliar aus Knochen, Haaren und menschlicher Biomasse zu bestehen."
-      es: "De cerca, los muebles parecen estar hechos de hueso, cabello y materia biológica humana."
-      fr: "De près, les meubles semblent faits d’os, de cheveux et de matière biologique humaine."
-      it: "Da vicino, i mobili sembrano fatti di ossa, capelli e materiale biologico umano."
-      ko: "가까이서 보면 가구는 뼈와 머리카락, 인체 유래 물질로 만들어진 듯합니다."
-      pl: "Z bliska meble zdają się być wykonane z kości, włosów i ludzkiej materii biologicznej."
-      pt: "De perto, os móveis parecem feitos de osso, cabelo e matéria biológica humana."
-      th: "เมื่อมองใกล้ ๆ เฟอร์นิเจอร์ดูเหมือนทำจากกระดูก เส้นผม และเนื้อเยื่อมนุษย์"
-      uk: "Зблизька меблі здаються зробленими з кісток, волосся та людської біологічної речовини."
-      vi: "Nhìn gần, đồ nội thất dường như làm từ xương, tóc và vật chất sinh học của con người."
-      zh: "近看时，这些家具似乎由骨头、头发和人体生物物质构成。"
-      zh_Hant: "近看時，這些家具似乎由骨頭、頭髮和人體生物物質構成。"
+      ja: "室内の家具は、詳しく調べると彫り込まれた骨、編み込まれた髪、その他人体由来の生体物質でできているように見えます。"
+      en: "On close examination, the furniture appears to be sculpted bone, woven hair, and other biological substances produced by the human body."
+      cs: "Při bližším zkoumání nábytek vypadá jako vyřezaná kost, spletené vlasy a další biologické látky produkované lidským tělem."
+      de: "Bei genauer Untersuchung scheint das Mobiliar aus geschnitztem Knochen, geflochtenem Haar und anderen vom menschlichen Körper erzeugten biologischen Stoffen zu bestehen."
+      es: "Al examinarlo de cerca, el mobiliario parece ser hueso esculpido, cabello tejido y otras sustancias biológicas producidas por el cuerpo humano."
+      fr: "À l’examen rapproché, les meubles semblent faits d’os sculpté, de cheveux tissés et d’autres substances biologiques produites par le corps humain."
+      it: "A un esame ravvicinato, i mobili sembrano ossa scolpite, capelli intrecciati e altre sostanze biologiche prodotte dal corpo umano."
+      ko: "자세히 살펴보면 가구는 조각된 뼈, 엮인 머리카락, 그리고 인체가 만들어낸 여러 생물학적 물질처럼 보입니다."
+      pl: "Przy dokładnym badaniu meble wyglądają na rzeźbioną kość, splecione włosy i inne substancje biologiczne wytwarzane przez ludzkie ciało."
+      pt: "Em exame próximo, os móveis parecem ser osso esculpido, cabelo trançado e outras substâncias biológicas produzidas pelo corpo humano."
+      th: "เมื่อตรวจดูใกล้ ๆ เฟอร์นิเจอร์ดูเหมือนทำจากกระดูกแกะสลัก เส้นผมถัก และสารชีวภาพอื่น ๆ ที่ร่างกายมนุษย์ผลิตขึ้น"
+      uk: "Під час уважного огляду меблі здаються вирізаною кісткою, сплетеним волоссям та іншими біологічними речовинами людського тіла."
+      vi: "Khi quan sát kỹ, đồ nội thất dường như là xương được chạm khắc, tóc được bện và các chất sinh học khác do cơ thể người tạo ra."
+      zh: "仔细检查时，家具似乎是雕刻的骨头、编织的头发，以及人体产生的其他生物物质。"
+      zh_Hant: "仔細檢查時，家具似乎是雕刻的骨頭、編織的頭髮，以及人體產生的其他生物物質。"
   - scene: >
-      Quiet laboratory review shot: an attending male Foundation researcher studies
-      several sample trays and DNA-analysis printouts represented only as abstract
-      blank charts with no readable text. Beside him is a small sealed fragment of
-      SCP-002 furniture material. His expression is calm but disturbed, realizing each
-      object has its own fragmented biological origin. No readable text, no logos.
+      Final containment-procedure shot outside SCP-002: two Foundation personnel near the
+      containment boundary maintain physical contact, one gloved hand on the other's shoulder,
+      while the air and lights near SCP-002 subtly blur and bend to suggest dulled, skewed,
+      influenced perception. Keep the scene documentary and calm. No readable text or signage.
     characters:
       - attending-researcher-m
+      - mtf-agent
     source:
-      section: Description
-      quote: "All matter tested thus far show independent or fragmented DNA sequences for each object in the room."
+      section: Special Containment Procedures
+      quote: "Teams including a minimum of two (2) members are required within 20 meters of SCP-002 or its containment area. Personnel should maintain physical contact with one another at all times to confirm there is another person present, as perception may be dulled, skewed, or influenced by proximity to the object."
       url: "https://scp-wiki.wikidot.com/scp-002"
-      fetched_at: "2026-09-18T00:00:00Z"
+      fetched_at: "2026-09-20T00:00:00Z"
     caption:
-      ja: "検査された物質は、家具ごとに独立または断片化したDNA配列を示しました。"
-      en: "Every tested object showed independent or fragmented DNA sequences."
-      cs: "Každý testovaný předmět vykázal nezávislé nebo roztříštěné sekvence DNA."
-      de: "Jedes getestete Objekt zeigte eigene oder fragmentierte DNA-Sequenzen."
-      es: "Cada objeto analizado mostró secuencias de ADN independientes o fragmentadas."
-      fr: "Chaque objet testé présentait des séquences d’ADN indépendantes ou fragmentées."
-      it: "Ogni oggetto testato mostrava sequenze di DNA indipendenti o frammentate."
-      ko: "검사된 모든 물체는 독립적이거나 단편화된 DNA 배열을 보였습니다."
-      pl: "Każdy zbadany obiekt wykazał niezależne lub pofragmentowane sekwencje DNA."
-      pt: "Cada objeto testado mostrou sequências de DNA independentes ou fragmentadas."
-      th: "วัตถุทุกชิ้นที่ตรวจพบมีลำดับดีเอ็นเอที่แยกกันหรือแตกเป็นส่วน ๆ"
-      uk: "Кожен перевірений предмет мав незалежні або фрагментовані послідовності ДНК."
-      vi: "Mỗi vật thể được kiểm tra đều cho thấy các chuỗi DNA độc lập hoặc bị phân mảnh."
-      zh: "每件受检物品都显示出独立或碎片化的DNA序列。"
-      zh_Hant: "每件受檢物品都顯示出獨立或碎片化的DNA序列。"
+      ja: "SCP-002の20メートル以内では最低2名のチームが必要で、近接により知覚が鈍化・歪曲・影響される可能性があるため、職員は常に互いに身体的接触を保ちます。"
+      en: "Within 20 meters of SCP-002, teams need at least two members, and personnel maintain physical contact because proximity may dull, skew, or influence perception."
+      cs: "Do 20 metrů od SCP-002 musí mít týmy alespoň dva členy a personál udržuje fyzický kontakt, protože blízkost může otupit, zkreslit nebo ovlivnit vnímání."
+      de: "Innerhalb von 20 Metern um SCP-002 benötigen Teams mindestens zwei Mitglieder, und das Personal hält Körperkontakt, weil Nähe die Wahrnehmung dämpfen, verzerren oder beeinflussen kann."
+      es: "A menos de 20 metros de SCP-002, los equipos requieren al menos dos miembros, y el personal mantiene contacto físico porque la proximidad puede embotar, distorsionar o influir en la percepción."
+      fr: "À moins de 20 mètres de SCP-002, les équipes doivent compter au moins deux membres, et le personnel maintient un contact physique car la proximité peut émousser, fausser ou influencer la perception."
+      it: "Entro 20 metri da SCP-002 le squadre devono avere almeno due membri, e il personale mantiene il contatto fisico perché la vicinanza può attenuare, distorcere o influenzare la percezione."
+      ko: "SCP-002 또는 격리 구역 20미터 이내에서는 최소 두 명의 팀이 필요하며, 근접으로 지각이 둔화·왜곡·영향받을 수 있어 인원은 서로 신체 접촉을 유지합니다."
+      pl: "W promieniu 20 metrów od SCP-002 zespoły muszą liczyć co najmniej dwie osoby, a personel utrzymuje kontakt fizyczny, ponieważ bliskość może przytępić, zniekształcić lub wpłynąć na percepcję."
+      pt: "A até 20 metros de SCP-002, as equipes precisam de pelo menos dois membros, e o pessoal mantém contato físico porque a proximidade pode entorpecer, distorcer ou influenciar a percepção."
+      th: "ภายในระยะ 20 เมตรจาก SCP-002 ต้องมีทีมอย่างน้อยสองคน และบุคลากรต้องคงการสัมผัสกันไว้ เพราะความใกล้อาจทำให้การรับรู้ทื่อ บิดเบี้ยว หรือถูกชักนำได้"
+      uk: "У межах 20 метрів від SCP-002 команди мають складатися щонайменше з двох осіб, а персонал підтримує фізичний контакт, бо близькість може притуплювати, викривляти або впливати на сприйняття."
+      vi: "Trong phạm vi 20 mét quanh SCP-002, đội phải có ít nhất hai người, và nhân viên giữ tiếp xúc cơ thể vì sự gần kề có thể làm chậm, bóp méo hoặc ảnh hưởng đến nhận thức."
+      zh: "在SCP-002或其收容区20米内，队伍至少需两人；人员必须保持身体接触，因为接近目标可能使感知迟钝、扭曲或受影响。"
+      zh_Hant: "在SCP-002或其收容區20公尺內，隊伍至少需兩人；人員必須保持身體接觸，因為接近目標可能使感知遲鈍、扭曲或受影響。"
