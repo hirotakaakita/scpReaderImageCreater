@@ -1,0 +1,124 @@
+id: scp-014
+title:
+  ja: "SCP-014 — コンクリートの男"
+  en: "SCP-014 — The Concrete Man"
+  cs: "SCP-014 — Betonový muž"
+  de: "SCP-014 — Der Betonmann"
+  es: "SCP-014 — El hombre de concreto"
+  fr: "SCP-014 — L’homme de béton"
+  it: "SCP-014 — L’uomo di cemento"
+  ko: "SCP-014 — 콘크리트 남자"
+  pl: "SCP-014 — Betonowy człowiek"
+  pt: "SCP-014 — O homem de concreto"
+  th: "SCP-014 — ชายคอนกรีต"
+  uk: "SCP-014 — Бетонна людина"
+  vi: "SCP-014 — Người bê tông"
+  zh: "SCP-014 — 混凝土人"
+  zh_Hant: "SCP-014 — 混凝土人"
+object_class: Safe
+attribution:
+  article: "SCP-014 — The Concrete Man"
+  source_url: "https://scp-wiki.wikidot.com/scp-014"
+  author: "Whitewings / SCP Foundation"
+local_characters:
+  scp-014:
+    name: "Robert Chetford / SCP-014"
+    appearance: "A Caucasian male appearing about 30 years old, black hair, brown eyes, round face, seated and almost completely immobile."
+    default_look: "Plain patient clothing, seated in a chair, calm eyes and a speaking mouth as the only active parts."
+panels:
+  - scene: >
+      Portrait shot of SCP-014 seated motionless in a simple chair by a window, appearing like a normal man around thirty years old with black hair and brown eyes. No text.
+    characters: [scp-014]
+    source:
+      section: Description
+      quote: "SCP-014 is a Caucasian male, appearing to be approximately 30 years of age, with black hair, brown eyes, and a somewhat round face."
+      url: "https://scp-wiki.wikidot.com/scp-014"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-014は、黒髪と茶色の目、やや丸い顔を持つ、30歳前後に見える白人男性です。"
+      en: "SCP-014 appears to be a Caucasian man about 30 years old, with black hair, brown eyes, and a roundish face."
+      cs: "SCP-014 vypadá jako běloch kolem 30 let, s černými vlasy, hnědýma očima a poněkud kulatým obličejem."
+      de: "SCP-014 wirkt wie ein weißer Mann von etwa 30 Jahren mit schwarzem Haar, braunen Augen und rundlichem Gesicht."
+      es: "SCP-014 parece un hombre caucásico de unos 30 años, con cabello negro, ojos marrones y rostro algo redondo."
+      fr: "SCP-014 paraît être un homme caucasien d’environ 30 ans, aux cheveux noirs, aux yeux bruns et au visage assez rond."
+      it: "SCP-014 appare come un uomo caucasico di circa 30 anni, con capelli neri, occhi marroni e viso piuttosto tondo."
+      ko: "SCP-014는 검은 머리와 갈색 눈, 다소 둥근 얼굴을 지닌 약 30세 백인 남성처럼 보입니다."
+      pl: "SCP-014 wygląda jak biały mężczyzna około 30 lat, z czarnymi włosami, brązowymi oczami i dość okrągłą twarzą."
+      pt: "SCP-014 parece um homem caucasiano de cerca de 30 anos, com cabelo preto, olhos castanhos e rosto um pouco redondo."
+      th: "SCP-014 ดูเหมือนชายผิวขาวอายุราว 30 ปี มีผมสีดำ ตาสีน้ำตาล และใบหน้าค่อนข้างกลม"
+      uk: "SCP-014 виглядає як білий чоловік приблизно 30 років, із чорним волоссям, карими очима та дещо круглим обличчям."
+      vi: "SCP-014 trông như một nam giới da trắng khoảng 30 tuổi, tóc đen, mắt nâu và khuôn mặt hơi tròn."
+      zh: "SCP-014看起来是一名约30岁的白人男性，黑发、棕眼、脸型略圆。"
+      zh_Hant: "SCP-014看起來是一名約30歲的白人男性，黑髮、棕眼、臉型略圓。"
+  - scene: >
+      Historical asylum-style room: records and an old chair imply Robert Chetford was confined in 1915 after claiming he was cursed to live forever and slowly becoming concrete. No readable writing.
+    characters: [scp-014]
+    source:
+      section: Description
+      quote: "Records indicate his name to be Robert Chetford, confined in 1915... claiming that he had been cursed to live forever, and was slowly turning into concrete"
+      url: "https://scp-wiki.wikidot.com/scp-014"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "記録上の名はロバート・チェットフォードで、1915年に『永遠に生き、ゆっくりコンクリートになる呪い』を訴えて収容されました。"
+      en: "Records name him Robert Chetford, confined in 1915 after claiming he was cursed to live forever and slowly turn into concrete."
+      cs: "Záznamy jej uvádějí jako Roberta Chetforda, zavřeného roku 1915 poté, co tvrdil, že je proklet žít věčně a pomalu se měnit v beton."
+      de: "Aufzeichnungen nennen ihn Robert Chetford, 1915 eingewiesen, nachdem er behauptet hatte, verflucht zu sein, ewig zu leben und langsam zu Beton zu werden."
+      es: "Los registros lo llaman Robert Chetford, internado en 1915 tras afirmar que estaba maldito a vivir para siempre y convertirse lentamente en concreto."
+      fr: "Les dossiers le nomment Robert Chetford, interné en 1915 après avoir affirmé être maudit à vivre éternellement et à se changer lentement en béton."
+      it: "I registri lo chiamano Robert Chetford, internato nel 1915 dopo aver sostenuto di essere maledetto a vivere per sempre e diventare lentamente cemento."
+      ko: "기록상 그는 로버트 체트퍼드이며, 영원히 살고 서서히 콘크리트가 되는 저주를 받았다고 주장해 1915년에 수용되었습니다."
+      pl: "Według akt nazywa się Robert Chetford; zamknięto go w 1915 r., gdy twierdził, że jest przeklęty żyć wiecznie i powoli zmienia się w beton."
+      pt: "Os registros o chamam Robert Chetford, confinado em 1915 após afirmar que fora amaldiçoado a viver para sempre e virar concreto lentamente."
+      th: "บันทึกระบุว่าเขาชื่อโรเบิร์ต เชตฟอร์ด ถูกกักตัวในปี 1915 หลังอ้างว่าถูกสาปให้มีชีวิตตลอดไปและค่อย ๆ กลายเป็นคอนกรีต"
+      uk: "Записи називають його Робертом Четфордом, якого у 1915 році помістили під нагляд після заяв про прокляття жити вічно й повільно ставати бетоном."
+      vi: "Hồ sơ ghi tên ông là Robert Chetford, bị giam năm 1915 sau khi nói mình bị nguyền sống mãi và dần hóa thành bê tông."
+      zh: "记录称他名为罗伯特·切特福德，1915年因声称自己被诅咒永生并逐渐变成混凝土而被收容。"
+      zh_Hant: "記錄稱他名為羅伯特・切特福德，1915年因聲稱自己被詛咒永生並逐漸變成混凝土而被收容。"
+  - scene: >
+      Clinical observation scene: SCP-014 sits perfectly still, with no food, drink, sweat, or visible life functions, but his eyes and mouth remain capable of expression. No text.
+    characters: [scp-014]
+    source:
+      section: Description
+      quote: "He does not eat, drink, perspire, or in any other way demonstrate life functions... apart from his eyes and vocal apparatus... utterly immobile."
+      url: "https://scp-wiki.wikidot.com/scp-014"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-014は食事も飲水も発汗もせず、生命機能を示さない一方で、目と発声器官以外は完全に動きません。"
+      en: "SCP-014 does not eat, drink, sweat, or show life functions, and apart from his eyes and voice he is utterly immobile."
+      cs: "SCP-014 nejí, nepije, nepotí se ani nevykazuje životní funkce; kromě očí a hlasu je zcela nehybný."
+      de: "SCP-014 isst, trinkt und schwitzt nicht und zeigt keine Lebensfunktionen; außer Augen und Stimme ist er völlig unbeweglich."
+      es: "SCP-014 no come, bebe ni suda, ni muestra funciones vitales; salvo por los ojos y la voz, permanece inmóvil."
+      fr: "SCP-014 ne mange pas, ne boit pas, ne transpire pas et ne montre aucune fonction vitale; seuls ses yeux et sa voix bougent."
+      it: "SCP-014 non mangia, non beve, non suda e non mostra funzioni vitali; tranne occhi e voce, è completamente immobile."
+      ko: "SCP-014는 먹거나 마시거나 땀을 흘리지 않고 생명 기능을 보이지 않으며, 눈과 목소리 외에는 완전히 움직이지 않습니다."
+      pl: "SCP-014 nie je, nie pije, nie poci się i nie wykazuje funkcji życiowych; poza oczami i głosem jest całkowicie nieruchomy."
+      pt: "SCP-014 não come, bebe ou sua, nem mostra funções vitais; exceto pelos olhos e pela voz, está totalmente imóvel."
+      th: "SCP-014 ไม่กิน ไม่ดื่ม ไม่เหงื่อออก และไม่แสดงหน้าที่ของชีวิต นอกจากดวงตาและเสียงแล้วเขานิ่งสนิท"
+      uk: "SCP-014 не їсть, не п’є, не пітніє й не демонструє життєвих функцій; окрім очей і голосу, він цілком нерухомий."
+      vi: "SCP-014 không ăn, uống, đổ mồ hôi hay biểu hiện chức năng sống; ngoài mắt và giọng nói, ông hoàn toàn bất động."
+      zh: "SCP-014不进食、不饮水、不出汗，也不表现生命功能；除眼睛和发声器官外完全不动。"
+      zh_Hant: "SCP-014不進食、不飲水、不出汗，也不表現生命功能；除眼睛和發聲器官外完全不動。"
+  - scene: >
+      Quiet interview room: SCP-014 speaks calmly while remaining seated and immobile, showing little interest in modern events. No readable notes or text.
+    characters: [scp-014, attending-researcher-f]
+    source:
+      section: Description
+      quote: "He can converse normally, but shows little knowledge of or interest in events since his confinement."
+      url: "https://scp-wiki.wikidot.com/scp-014"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-014は普通に会話できますが、収容後の出来事についてはほとんど知らず、関心も示しません。"
+      en: "SCP-014 can converse normally, but shows little knowledge of or interest in events since his confinement."
+      cs: "SCP-014 může normálně hovořit, ale projevuje malou znalost nebo zájem o události po svém uvěznění."
+      de: "SCP-014 kann normal sprechen, zeigt aber wenig Wissen über oder Interesse an Ereignissen seit seiner Einweisung."
+      es: "SCP-014 puede conversar normalmente, pero muestra poco conocimiento o interés por los sucesos posteriores a su confinamiento."
+      fr: "SCP-014 peut converser normalement, mais connaît peu et s’intéresse peu aux événements survenus depuis son internement."
+      it: "SCP-014 può conversare normalmente, ma mostra poca conoscenza o interesse per gli eventi successivi alla sua reclusione."
+      ko: "SCP-014는 정상적으로 대화할 수 있지만, 수용 이후 사건에 대해 거의 알지 못하거나 관심을 보이지 않습니다."
+      pl: "SCP-014 potrafi normalnie rozmawiać, ale ma niewielką wiedzę i małe zainteresowanie wydarzeniami po zamknięciu."
+      pt: "SCP-014 consegue conversar normalmente, mas mostra pouco conhecimento ou interesse por eventos desde seu confinamento."
+      th: "SCP-014 สนทนาได้ตามปกติ แต่แทบไม่รู้หรือสนใจเหตุการณ์หลังจากถูกกักตัว"
+      uk: "SCP-014 може нормально розмовляти, але мало знає й мало цікавиться подіями після свого утримання."
+      vi: "SCP-014 có thể trò chuyện bình thường, nhưng ít biết hoặc quan tâm đến các sự kiện sau khi bị giam giữ."
+      zh: "SCP-014能正常交谈，但对其收容后的事件几乎不了解，也很少表现兴趣。"
+      zh_Hant: "SCP-014能正常交談，但對其收容後的事件幾乎不了解，也很少表現興趣。"}
