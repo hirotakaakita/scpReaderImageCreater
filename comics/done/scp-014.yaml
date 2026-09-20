@@ -1,0 +1,120 @@
+id: scp-014
+title:
+  ja: "SCP-014：コンクリート男"
+  en: "SCP-014: The Concrete Man"
+  cs: "SCP-014: Betonový muž"
+  de: "SCP-014: Der Beton-Mann"
+  es: "SCP-014: El Hombre de Hormigón"
+  fr: "SCP-014: L'Homme immortel"
+  it: "SCP-014: L'uomo di Calcestruzzo"
+  ko: "SCP-014: 콘크리트 인간"
+  pl: "SCP-014: Betonowy mężczyzna"
+  pt: "SCP-014: O Homem de Concreto"
+  th: "SCP-014: มนุษย์คอนกรีต"
+  uk: "SCP-014: Кам'яна людина"
+  vi: "SCP-014: Người Đàn Ông Bê Tông"
+  zh: "SCP-014：混凝土人"
+  zh_Hant: "SCP-014：混凝土雕像人"
+object_class: Safe
+attribution:
+  article: SCP-014
+  source_url: https://scp-wiki.wikidot.com/scp-014
+  author: "Whitewings"
+local_characters:
+  chetford:
+    name: "Robert Chetford"
+    appearance: "Caucasian man appearing about thirty, black hair, brown eyes, somewhat round face, normal human skin."
+    default_look: "Plain gray clothing. Motionless upright on chair, forearms on thighs, feet flat. Only eyes and vocal apparatus move."
+panels:
+- scene: "Robert Chetford sits motionless in a plain institutional chair: black hair, brown eyes, round face, apparently about thirty. His skin remains human, never literal concrete; his belief is not visible transformation. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Medium-wide frontal seated portrait, round-faced man in gray clothing with forearms resting on thighs, feet flat, torso upright. Maintain this exact body posture throughout all four scenes."
+  characters: ["chetford"]
+  source:
+    section: Description
+    quote: "approximately 30 years of age"
+    url: https://scp-wiki.wikidot.com/scp-014
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "ロバート・チェトフォードは約30歳に見えます。彼は永遠の命を呪われ、コンクリートに変わりつつあると主張しています。"
+    en: "Robert Chetford appears about thirty. He claims he is cursed with eternal life and is slowly turning into concrete."
+    cs: "Robert Chetford vypadá asi na třicet. Tvrdí, že je proklet věčným životem a pomalu se mění v beton."
+    de: "Robert Chetford wirkt etwa dreißig. Er behauptet, zu ewigem Leben verflucht zu sein und langsam zu Beton zu werden."
+    es: "Robert Chetford aparenta unos treinta años. Afirma estar maldito con vida eterna y convertirse lentamente en hormigón."
+    fr: "Robert Chetford paraît avoir trente ans. Il affirme être maudit par la vie éternelle et se transformer lentement en béton."
+    it: "Robert Chetford dimostra circa trent’anni. Sostiene di essere maledetto con la vita eterna e di trasformarsi lentamente in cemento."
+    ko: "로버트 체트포드는 약 30세로 보입니다. 영생의 저주를 받아 서서히 콘크리트로 변하고 있다고 주장합니다."
+    pl: "Robert Chetford wygląda na około trzydzieści lat. Twierdzi, że ciąży na nim klątwa wiecznego życia i powoli zmienia się w beton."
+    pt: "Robert Chetford aparenta cerca de trinta anos. Afirma estar amaldiçoado com a vida eterna e se transformar lentamente em concreto."
+    th: "โรเบิร์ต เชตฟอร์ดดูอายุราวสามสิบปี เขาอ้างว่าถูกสาปให้มีชีวิตนิรันดร์และกำลังกลายเป็นคอนกรีตอย่างช้าๆ"
+    uk: "Роберт Четфорд виглядає приблизно на тридцять. Він стверджує, що проклятий вічним життям і повільно перетворюється на бетон."
+    vi: "Robert Chetford trông khoảng ba mươi tuổi. Ông cho rằng mình bị nguyền sống bất tử và đang dần biến thành bê tông."
+    zh: "罗伯特·切特福德看起来约三十岁。他声称自己被诅咒永生，正逐渐变成混凝土。"
+    zh_Hant: "羅伯特·切特福德看起來約三十歲。他聲稱自己被詛咒永生，正逐漸變成混凝土。"
+- scene: "The same black-haired man remains motionless beside an untouched glass and meal, an illustrative still life rather than a recorded feeding test. His natural face is sharply lit; no petrification. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Low side angle with untouched meal and glass large in foreground, same man's still profile and forearms on thighs behind. Change camera only, not body posture."
+  characters: ["chetford"]
+  source:
+    section: Description
+    quote: "shows no signs of possessing a metabolism"
+    url: https://scp-wiki.wikidot.com/scp-014
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "老化も代謝の兆候もありません。食事や水分を必要とせず、汗もかきません。"
+    en: "He neither ages nor shows signs of metabolism. He does not eat, drink, or perspire."
+    cs: "Nestárne ani nejeví známky metabolismu. Nejí, nepije a nepotí se."
+    de: "Er altert nicht und zeigt keine Anzeichen eines Stoffwechsels. Er isst, trinkt und schwitzt nicht."
+    es: "No envejece ni muestra signos de metabolismo. No come, bebe ni suda."
+    fr: "Il ne vieillit pas et ne montre aucun signe de métabolisme. Il ne mange, ne boit ni ne transpire."
+    it: "Non invecchia e non mostra segni di metabolismo. Non mangia, non beve e non suda."
+    ko: "노화나 대사의 징후가 없습니다. 먹지도 마시지도 않으며 땀도 흘리지 않습니다."
+    pl: "Nie starzeje się i nie wykazuje oznak metabolizmu. Nie je, nie pije ani się nie poci."
+    pt: "Não envelhece nem apresenta sinais de metabolismo. Não come, bebe ou transpira."
+    th: "เขาไม่แก่ลงและไม่มีสัญญาณของการเผาผลาญ ไม่กิน ไม่ดื่ม และไม่มีเหงื่อ"
+    uk: "Він не старіє і не має ознак обміну речовин. Не їсть, не п’є і не пітніє."
+    vi: "Ông không già đi hay có dấu hiệu trao đổi chất. Ông không ăn, uống hoặc đổ mồ hôi."
+    zh: "他不会衰老，也没有代谢迹象。不吃、不喝，也不出汗。"
+    zh_Hant: "他不會衰老，也沒有代謝跡象。不吃、不喝，也不出汗。"
+- scene: "An examiner studies the seated man's intact forearm and resting hand without moving his body. Ordinary healthy muscle contours, same rigid posture; do not expose injuries or portray stone. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Tight overhead oblique detail of his forearm resting on thigh; examiner leans to inspect visually with hands kept off his body. Preserve posture from panel 1."
+  characters: ["attending-researcher-m","chetford"]
+  source:
+    section: Description
+    quote: "neither do his muscles appear atrophied"
+    url: https://scp-wiki.wikidot.com/scp-014
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "数十年も同じ姿勢のままですが、床ずれはなく、筋肉の萎縮も見られません。"
+    en: "Decades in the same position have caused neither pressure sores nor apparent muscle atrophy."
+    cs: "Desítky let ve stejné poloze nezpůsobily proleženiny ani patrné ochabnutí svalů."
+    de: "Jahrzehnte in derselben Haltung verursachen weder Druckgeschwüre noch sichtbaren Muskelschwund."
+    es: "Décadas en la misma postura no han causado úlceras por presión ni atrofia muscular aparente."
+    fr: "Des décennies dans la même position n’ont provoqué ni escarres ni atrophie musculaire apparente."
+    it: "Decenni nella stessa posizione non hanno causato piaghe da decubito né apparente atrofia muscolare."
+    ko: "수십 년간 같은 자세를 유지했지만 욕창도, 눈에 띄는 근육 위축도 없습니다."
+    pl: "Dziesięciolecia w tej samej pozycji nie spowodowały odleżyn ani widocznego zaniku mięśni."
+    pt: "Décadas na mesma posição não causaram escaras nem atrofia muscular aparente."
+    th: "แม้อยู่ท่าเดิมมาหลายสิบปี ก็ไม่มีแผลกดทับหรือกล้ามเนื้อลีบที่สังเกตได้"
+    uk: "Десятиліття в незмінній позі не спричинили ані пролежнів, ані помітної атрофії м’язів."
+    vi: "Hàng chục năm giữ nguyên tư thế không gây loét tì đè hay teo cơ rõ rệt."
+    zh: "数十年保持同一姿势，却没有褥疮，也看不出肌肉萎缩。"
+    zh_Hant: "數十年保持同一姿勢，卻沒有褥瘡，也看不出肌肉萎縮。"
+- scene: "Close view of Chetford speaking to a softly defocused researcher. His lips and brown eyes are the only active features; hands and torso stay still, expression calm, no speech text. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Tight eye-level side portrait of the same head facing forward, only eyes and lips active while speaking; researcher behind camera, no head turn."
+  characters: ["chetford","attending-researcher-m"]
+  source:
+    section: Description
+    quote: "He can converse normally"
+    url: https://scp-wiki.wikidot.com/scp-014
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "動くのは目と発声器官だけです。話す時だけ呼吸し、普通に会話できますが、外の出来事にはほとんど関心を示しません。"
+    en: "Only his eyes and vocal apparatus move. He breathes only to speak, conversing normally but showing little interest in outside events."
+    cs: "Pohybují se jen oči a hlasové ústrojí. Dýchá pouze při řeči; hovoří normálně, ale o dění venku se téměř nezajímá."
+    de: "Nur Augen und Sprechorgane bewegen sich. Er atmet nur zum Sprechen, unterhält sich normal, interessiert sich aber kaum für äußere Ereignisse."
+    es: "Solo mueve los ojos y el aparato vocal. Respira solo para hablar y conversa normalmente, con poco interés por los acontecimientos externos."
+    fr: "Seuls ses yeux et son appareil vocal bougent. Il ne respire que pour parler et converse normalement, sans grand intérêt pour les événements extérieurs."
+    it: "Muove solo gli occhi e l’apparato vocale. Respira solo per parlare e conversa normalmente, mostrando scarso interesse per gli eventi esterni."
+    ko: "눈과 발성 기관만 움직입니다. 말할 때만 숨을 쉬며 정상적으로 대화하지만 외부 사건에는 거의 관심이 없습니다."
+    pl: "Poruszają się tylko oczy i narządy mowy. Oddycha jedynie podczas mówienia; rozmawia normalnie, lecz mało interesuje się wydarzeniami na zewnątrz."
+    pt: "Apenas os olhos e o aparelho vocal se movem. Respira só para falar e conversa normalmente, com pouco interesse por acontecimentos externos."
+    th: "มีเพียงดวงตาและอวัยวะออกเสียงที่ขยับ เขาหายใจเฉพาะตอนพูด สนทนาได้ตามปกติ แต่แทบไม่สนใจเหตุการณ์ภายนอก"
+    uk: "Рухаються лише очі й голосовий апарат. Він дихає лише для мовлення, розмовляє нормально, але мало цікавиться зовнішніми подіями."
+    vi: "Chỉ mắt và bộ máy phát âm cử động. Ông chỉ thở khi nói, trò chuyện bình thường nhưng ít quan tâm đến bên ngoài."
+    zh: "只有眼睛和发声器官能动。他仅在说话时呼吸，可以正常交谈，却很少关心外界。"
+    zh_Hant: "只有眼睛和發聲器官能動。他僅在說話時呼吸，可以正常交談，卻很少關心外界。"

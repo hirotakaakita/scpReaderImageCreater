@@ -1,0 +1,116 @@
+id: scp-109
+title:
+  ja: "SCP-109：無限水筒"
+  en: "SCP-109: Infinite Canteen"
+  cs: "SCP-109: Bezedná čutora"
+  de: "SCP-109: Unendliche Feldflasche"
+  es: "SCP-109: Cantimplora Infinita"
+  fr: "SCP-109: Gourde infinie"
+  it: "SCP-109: Borraccia Infinita"
+  ko: "SCP-109: 무한 수통"
+  pl: "SCP-109: Bezkresna menażka"
+  pt: "SCP-109: Cantil Infinito"
+  th: "SCP-109: กระติกน้ำไม่สิ้นสุด"
+  uk: "SCP-109: Нескінченна фляга"
+  vi: "SCP-109: Bình Nước Vô Tận"
+  zh: "SCP-109：无限水壶"
+  zh_Hant: "SCP-109：無限水壺"
+object_class: Euclid
+attribution:
+  article: SCP-109
+  source_url: https://scp-wiki.wikidot.com/scp-109
+  author: "Proxtown"
+local_characters: {}
+panels:
+- scene: "A late nineteenth-century US Army tin-alloy canteen on a dark bench, thick worn cotton cover and black leather strap. The open neck catches soft light. Historically plausible construction without readable markings. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Eye-level close three-quarter canteen view, cotton and black leather strap prominent, open neck near upper left."
+  characters: []
+  source:
+    section: Description
+    quote: "standard-issue United States Army canteen"
+    url: https://scp-wiki.wikidot.com/scp-109
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-109は1899年頃の米軍水筒です。錫合金の本体を厚い綿布が覆い、黒い革のストラップが付いています。"
+    en: "SCP-109 is a US Army canteen dating to around 1899, with a tin-alloy body, thick cotton covering, and black leather strap."
+    cs: "SCP-109 je americká vojenská čutora z doby kolem roku 1899, ze slitiny cínu, se silným bavlněným obalem a černým koženým popruhem."
+    de: "SCP-109 ist eine US-Armee-Feldflasche von etwa 1899 aus Zinnlegierung, mit dickem Baumwollbezug und schwarzem Lederriemen."
+    es: "SCP-109 es una cantimplora militar estadounidense de alrededor de 1899, de aleación de estaño, con funda de algodón grueso y correa de cuero negro."
+    fr: "SCP-109 est une gourde militaire américaine datant d’environ 1899, en alliage d’étain, avec une épaisse housse de coton et une sangle de cuir noir."
+    it: "SCP-109 è una borraccia militare statunitense del 1899 circa, in lega di stagno, con spesso rivestimento di cotone e cinghia di cuoio nero."
+    ko: "SCP-109는 1899년경의 미군 수통입니다. 주석 합금 몸체에 두꺼운 면 덮개와 검은 가죽 끈이 달려 있습니다."
+    pl: "SCP-109 to amerykańska wojskowa manierka z około 1899 roku, ze stopu cyny, z grubym bawełnianym pokrowcem i czarnym skórzanym paskiem."
+    pt: "SCP-109 é um cantil militar americano de cerca de 1899, feito de liga de estanho, com cobertura grossa de algodão e correia de couro preto."
+    th: "SCP-109 เป็นกระติกน้ำกองทัพสหรัฐฯ ราวปี 1899 ตัวกระติกทำจากโลหะผสมดีบุก หุ้มผ้าฝ้ายหนาและมีสายหนังสีดำ"
+    uk: "SCP-109 — армійська фляга США приблизно 1899 року, зі сплаву олова, у товстому бавовняному чохлі з чорним шкіряним ременем."
+    vi: "SCP-109 là bình nước quân đội Mỹ khoảng năm 1899, bằng hợp kim thiếc, bọc vải bông dày và có dây da đen."
+    zh: "SCP-109是约1899年的美军水壶，锡合金壶身包着厚棉布，并配有黑色皮带。"
+    zh_Hant: "SCP-109是約1899年的美軍水壺，錫合金壺身包著厚棉布，並配有黑色皮帶。"
+- scene: "A gloved researcher tips the same cotton-covered canteen, pouring a continuous stream into a large basin. Water visible at its neck remains abundant. No duplicated canteens, magical portal or numerical measurement display. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Low side view of researcher tipping canteen with both hands over basin, bent elbows and eyes on stream; focus neck and stream rather than observer face."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "A seemingly unlimited amount of water"
+    url: https://scp-wiki.wikidot.com/scp-109
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-109からは、水を際限なく取り出せるように見えます。それでもほぼ満杯のままで、水量も総質量3.16kgも変化しません。"
+    en: "Seemingly endless water can be withdrawn from SCP-109 while it stays nearly full. Neither the water level nor its total mass of 3.16 kg changes."
+    cs: "Lze odebírat zdánlivě nekonečné množství vody, a přesto zůstává téměř plná. Hladina ani celková hmotnost 3,16 kg se nemění."
+    de: "Es lässt sich scheinbar endlos Wasser entnehmen, während sie fast voll bleibt. Weder Wasserstand noch Gesamtmasse von 3,16 kg ändern sich."
+    es: "Se puede extraer agua aparentemente sin fin y sigue casi llena. No cambian ni el nivel ni su masa total de 3,16 kg."
+    fr: "On peut y puiser une eau apparemment sans fin alors qu’elle reste presque pleine. Le niveau et la masse totale de 3,16 kg ne changent pas."
+    it: "Si può prelevare acqua apparentemente senza fine e resta quasi piena. Né il livello né la massa totale di 3,16 kg cambiano."
+    ko: "거의 가득 찬 채로 물을 끝없이 꺼낼 수 있는 듯합니다. 수위와 총질량 3.16kg은 변하지 않습니다."
+    pl: "Można pobierać pozornie nieskończoną ilość wody, a manierka pozostaje niemal pełna. Poziom wody i masa całkowita 3,16 kg nie zmieniają się."
+    pt: "É possível retirar água aparentemente sem fim e ela continua quase cheia. Nem o nível nem a massa total de 3,16 kg mudam."
+    th: "ดูเหมือนจะเทน้ำออกได้ไม่สิ้นสุด แต่ยังเกือบเต็ม ระดับน้ำและมวลรวม 3.16 กิโลกรัมไม่เปลี่ยนแปลง"
+    uk: "Можна брати начебто нескінченну кількість води, а фляга залишається майже повною. Рівень води й загальна маса 3,16 кг незмінні."
+    vi: "Có thể lấy nước dường như vô tận mà bình vẫn gần đầy. Mực nước lẫn tổng khối lượng 3,16 kg đều không đổi."
+    zh: "它似乎能无限供水，却始终近乎满壶。水位和3.16千克的总质量都不改变。"
+    zh_Hant: "它似乎能無限供水，卻始終近乎滿壺。水位和3.16公斤的總質量都不改變。"
+- scene: "The open canteen stands next to a clear laboratory sample vessel containing faint blue-gray water. Ordinary tools establish analysis, no impossible expanded interior or cutaway. Keep tint subtle and water translucent. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Top-down sample detail of translucent faint blue-gray water in clear vessel, open canteen beside it; gloved hand rests nearby, no invented display."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "20 ppm of tin"
+    url: https://scp-wiki.wikidot.com/scp-109
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-109の内部は外見に対応した形で、容積は推定2.8Lです。青灰色がかった水には錫20ppmと、その他の電解質170ppmが含まれます。"
+    en: "SCP-109's interior matches its outer shape and has an estimated volume of 2.8 L. Its faint blue-gray water contains 20 ppm tin and 170 ppm other electrolytes."
+    cs: "Vnitřek SCP-109 odpovídá vnějšímu tvaru a má odhadovaný objem 2,8 l. Lehce modrošedá voda obsahuje 20 ppm cínu a 170 ppm dalších elektrolytů."
+    de: "Das Innere von SCP-109 entspricht der äußeren Form und fasst schätzungsweise 2,8 l. Das leicht blaugraue Wasser enthält 20 ppm Zinn und 170 ppm weitere Elektrolyte."
+    es: "El interior de SCP-109 corresponde a su forma externa y tiene un volumen estimado de 2,8 L. Su agua ligeramente gris azulada contiene 20 ppm de estaño y 170 ppm de otros electrolitos."
+    fr: "L’intérieur de SCP-109 correspond à sa forme extérieure, avec un volume estimé à 2,8 L. Son eau légèrement bleu-gris contient 20 ppm d’étain et 170 ppm d’autres électrolytes."
+    it: "L’interno di SCP-109 corrisponde alla forma esterna e ha un volume stimato di 2,8 L. L’acqua leggermente grigio-azzurra contiene 20 ppm di stagno e 170 ppm di altri elettroliti."
+    ko: "SCP-109의 내부 형태는 외형과 일치하며 추정 용적은 2.8L입니다. 옅은 청회색 물에는 주석 20ppm과 기타 전해질 170ppm이 들어 있습니다."
+    pl: "Wnętrze SCP-109 odpowiada zewnętrznemu kształtowi i ma szacowaną objętość 2,8 l. Lekko niebieskoszara woda zawiera 20 ppm cyny i 170 ppm innych elektrolitów."
+    pt: "O interior de SCP-109 corresponde à forma externa e tem volume estimado de 2,8 L. A água levemente azul-acinzentada contém 20 ppm de estanho e 170 ppm de outros eletrólitos."
+    th: "ภายใน SCP-109 มีรูปทรงสอดคล้องกับภายนอกและปริมาตรประมาณ 2.8 ลิตร น้ำสีเทาอมฟ้าจางๆ มีดีบุก 20 ppm และอิเล็กโทรไลต์อื่น 170 ppm"
+    uk: "Внутрішня форма SCP-109 відповідає зовнішній, а об’єм оцінено у 2,8 л. Ледь синьо-сіра вода містить 20 ppm олова й 170 ppm інших електролітів."
+    vi: "Bên trong SCP-109 có hình dạng tương ứng bên ngoài và thể tích ước tính 2,8 L. Nước xanh xám nhạt chứa 20 ppm thiếc và 170 ppm chất điện giải khác."
+    zh: "SCP-109的内部形状与外形一致，容积估计为2.8升。略带蓝灰色的水含20 ppm锡和170 ppm其他电解质。"
+    zh_Hant: "SCP-109的內部形狀與外形一致，容積估計為2.8公升。略帶藍灰色的水含20 ppm錫和170 ppm其他電解質。"
+- scene: "A researcher checks the firmly closed cap of the circa-1899 tin-alloy US Army canteen with its thick cotton cover and black leather strap. The canteen stands upright on a molded pedestal in a quiet storage room. Show the completed storage placement, not pouring, heating, leakage, or invented consequences of incorrect storage. Dark subdued cinematic horror, realistic materials and natural human proportions. Locally light the canteen and pedestal for smartphone readability. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Medium profile view of worker standing at shelf, one hand checks closed cap and other steadies upright canteen on molded pedestal; clear base and closed cap."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Special Containment Procedures
+    quote: "molded pedestal in the upright position"
+    url: https://scp-wiki.wikidot.com/scp-109
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-109を元の場所に戻す際は、職員が蓋をしっかり閉め、成型台座の上に直立した状態で置かれていることを確認してください。"
+    en: "When returning SCP-109 to storage, staff must ensure its cap is firmly closed and the canteen stands upright on the molded pedestal."
+    cs: "Při vracení SCP-109 na místo musí personál ověřit, že je uzávěr pevně zavřený a čutora stojí vzpřímeně na tvarovaném podstavci."
+    de: "Beim Zurückstellen von SCP-109 muss das Personal sicherstellen, dass der Verschluss fest geschlossen ist und die Feldflasche aufrecht auf dem geformten Sockel steht."
+    es: "Al devolver SCP-109 a su lugar, el personal debe comprobar que la tapa esté bien cerrada y la cantimplora quede de pie sobre el pedestal moldeado."
+    fr: "En remettant SCP-109 à sa place, le personnel doit vérifier que le bouchon est bien fermé et que la gourde se tient debout sur le socle moulé."
+    it: "Nel riporre SCP-109 al suo posto, il personale deve verificare che il tappo sia ben chiuso e che la borraccia sia in posizione verticale sul piedistallo sagomato."
+    ko: "SCP-109를 원래 위치에 돌려놓을 때 직원은 뚜껑이 단단히 닫혀 있고 성형된 받침대 위에 똑바로 세워져 있는지 확인해야 합니다."
+    pl: "Odkładając SCP-109 na miejsce, personel musi upewnić się, że zakrętka jest szczelnie zamknięta, a manierka stoi pionowo na formowanym postumencie."
+    pt: "Ao devolver SCP-109 ao seu lugar, a equipe deve verificar se a tampa está bem fechada e se o cantil está em posição vertical sobre o pedestal moldado."
+    th: "เมื่อนำ SCP-109 กลับเข้าที่ เจ้าหน้าที่ต้องตรวจว่าฝาปิดแน่นและกระติกตั้งตรงบนแท่นขึ้นรูป"
+    uk: "Повертаючи SCP-109 на місце, персонал має перевірити, що кришка щільно закрита, а фляга стоїть вертикально на формованому постаменті."
+    vi: "Khi đưa SCP-109 về chỗ cũ, nhân viên phải bảo đảm nắp được đóng chặt và bình đứng thẳng trên bệ đúc định hình."
+    zh: "将SCP-109放回原处时，职员必须确认瓶盖已拧紧，且水壶直立放置在成型底座上。"
+    zh_Hant: "將SCP-109放回原處時，職員必須確認瓶蓋已鎖緊，且水壺直立放置在成型底座上。"

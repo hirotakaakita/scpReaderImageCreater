@@ -1,0 +1,124 @@
+id: scp-052
+title:
+  ja: "SCP-052：時間旅行列車"
+  en: "SCP-052: Time-Traveling Train"
+  cs: "SCP-052: Vlak cestující časem"
+  de: "SCP-052: Zeitreisender Zug"
+  es: "SCP-052: Tren que Viaja en el Tiempo"
+  fr: "SCP-052: Train voyageant dans le temps"
+  it: "SCP-052: Treno che Viaggia nel Tempo"
+  ko: "SCP-052: 시간 여행 열차"
+  pl: "SCP-052: Podróżujący w czasie pociąg"
+  pt: "SCP-052: Trem Viajante do Tempo"
+  th: "SCP-052: รถไฟกาลเวลา"
+  uk: "SCP-052: Потяг-мандрівник у часі"
+  vi: "SCP-052: Tàu Xuyên Thời Gian"
+  zh: "SCP-052：时光列车"
+  zh_Hant: "SCP-052：時空穿梭列車"
+object_class: Euclid
+attribution:
+  article: SCP-052
+  source_url: https://scp-wiki.wikidot.com/scp-052
+  author: "eric_h"
+local_characters:
+  waiting:
+    name: "Waiting commuter"
+    appearance: "Anonymous adult man with short brown hair."
+    default_look: "Plain dark jacket and trousers, small bag. Not the disembarking passenger."
+  passenger:
+    name: "Disembarking passenger"
+    appearance: "Anonymous adult woman with long blonde hair."
+    default_look: "Gray long coat over black outfit, dark handbag."
+panels:
+- scene: "A pristine early twentieth-century New York R4 subway train in a dim underground station. Period riveted steel construction, unmistakably old-fashioned but immaculate. Keep all destination signs outside the crop. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Low trackside wide three-quarter exterior view of old pristine R4 train, warm empty windows and riveted metal emphasized; no visible people aboard."
+  characters: []
+  source:
+    section: Description
+    quote: "decommissioned for scrap in 1975"
+    url: https://scp-wiki.wikidot.com/scp-052
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-052はニューヨーク地下鉄のR4型列車です。公式記録では1932年製で1975年に廃車となっていますが、現在も新品同様の状態で現れます。"
+    en: "SCP-052 is a New York R4 subway train. Official records list its construction in 1932 and retirement for scrap in 1975, yet it still appears in pristine condition."
+    cs: "SCP-052 je newyorský vlak metra R4. Oficiální záznamy uvádějí výrobu v roce 1932 a vyřazení do šrotu v roce 1975, přesto se stále objevuje v bezvadném stavu."
+    de: "SCP-052 ist ein New Yorker R4-U-Bahnzug. Laut offiziellen Unterlagen wurde er 1932 gebaut und 1975 zur Verschrottung ausgemustert, erscheint aber weiterhin in makellosem Zustand."
+    es: "SCP-052 es un tren R4 del metro de Nueva York. Los registros oficiales indican que se construyó en 1932 y se retiró para desguace en 1975, pero sigue apareciendo en perfecto estado."
+    fr: "SCP-052 est une rame R4 du métro new-yorkais. Les registres officiels indiquent une construction en 1932 et une mise au rebut en 1975, mais elle apparaît toujours en parfait état."
+    it: "SCP-052 è un treno R4 della metropolitana di New York. I registri ufficiali ne indicano la costruzione nel 1932 e il ritiro per demolizione nel 1975, ma appare ancora in condizioni perfette."
+    ko: "SCP-052는 뉴욕 지하철 R4 열차입니다. 공식 기록상 1932년에 제작되어 1975년에 폐차 처리되었지만, 지금도 새것 같은 상태로 나타납니다."
+    pl: "SCP-052 to nowojorski pociąg metra R4. Oficjalne akta podają budowę w 1932 i wycofanie na złom w 1975 roku, jednak nadal pojawia się w idealnym stanie."
+    pt: "SCP-052 é um trem R4 do metrô de Nova York. Os registros oficiais indicam construção em 1932 e retirada para sucateamento em 1975, mas ele ainda aparece em perfeito estado."
+    th: "SCP-052 เป็นรถไฟใต้ดินนิวยอร์กรุ่น R4 บันทึกทางการระบุว่าสร้างในปี 1932 และปลดเพื่อทำลายในปี 1975 แต่ยังปรากฏในสภาพสมบูรณ์ราวกับใหม่"
+    uk: "SCP-052 — нью-йоркський поїзд метро R4. Офіційні записи вказують на побудову 1932 року та списання на брухт 1975-го, але він досі з’являється в бездоганному стані."
+    vi: "SCP-052 là tàu điện ngầm R4 New York. Hồ sơ chính thức ghi nó được chế tạo năm 1932 và loại bỏ để tháo dỡ năm 1975, nhưng nó vẫn xuất hiện trong tình trạng hoàn hảo."
+    zh: "SCP-052是一列纽约地铁R4型列车。官方记录显示它制造于1932年，1975年退役报废，却仍以完好如新的状态出现。"
+    zh_Hant: "SCP-052是一列紐約地鐵R4型列車。官方紀錄顯示它製造於1932年，1975年退役報廢，卻仍以完好如新的狀態出現。"
+- scene: "The same R4 train arriving alongside an uptown New York platform at night, headlights grazing the platform edge. A waiting adult supplies scale. No visible clock, route glyphs or station lettering. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Platform-level side view looking along approaching train, waiting adult upright in right foreground with bag held down, looking left toward headlights. All train interiors empty."
+  characters: ["waiting"]
+  source:
+    section: Description
+    quote: "11:57 p.m. every Saturday"
+    url: https://scp-wiki.wikidot.com/scp-052
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-052は毎週土曜23時57分、59丁目・8番街駅の北行きA/D線ホームに現れます。"
+    en: "SCP-052 appears every Saturday at 11:57 p.m. on the uptown A/D platform at 59th Street and 8th Avenue."
+    cs: "Objevuje se každou sobotu ve 23:57 na nástupišti linek A/D směrem na sever, na 59. ulici a 8. avenue."
+    de: "Es erscheint jeden Samstag um 23:57 Uhr am nordwärts führenden A/D-Bahnsteig an der 59th Street und 8th Avenue."
+    es: "Aparece cada sábado a las 23:57 en el andén A/D hacia el norte, en la calle 59 y la Octava Avenida."
+    fr: "Il apparaît chaque samedi à 23 h 57 sur le quai A/D vers le nord, à la 59e Rue et la 8e Avenue."
+    it: "Appare ogni sabato alle 23:57 sul binario A/D verso nord, alla 59ª Strada e Ottava Avenue."
+    ko: "매주 토요일 밤 11시 57분, 59번가와 8번 애비뉴 역의 북행 A/D선 승강장에 나타납니다."
+    pl: "Pojawia się co sobotę o 23:57 na peronie A/D w kierunku północnym przy 59. ulicy i 8. alei."
+    pt: "Aparece todo sábado às 23h57 na plataforma A/D sentido norte, na Rua 59 com a Oitava Avenida."
+    th: "มันปรากฏทุกวันเสาร์เวลา 23:57 น. ที่ชานชาลา A/D ขาขึ้นเหนือ สถานีถนนสายที่ 59 กับถนนสายที่ 8"
+    uk: "Він з’являється щосуботи о 23:57 на платформі A/D у північному напрямку, на 59-й вулиці та 8-й авеню."
+    vi: "Nó xuất hiện mỗi thứ Bảy lúc 23:57 tại sân ga A/D hướng bắc, ở Phố 59 và Đại lộ 8."
+    zh: "每周六23时57分，它都会出现在第59街与第8大道站的A/D线北行站台。"
+    zh_Hant: "每週六23時57分，它都會出現在第59街與第8大道站的A/D線北行月台。"
+- scene: "View through an open doorway into an apparently vacant R4 carriage. A single passenger steps out onto the platform; no other occupant is visible. The image captures the stop, not an invented visual disappearance effect. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Medium side view perpendicular to open doorway: one adult steps down onto platform, bag in hand, weight on leading foot. Carriage behind completely vacant."
+  characters: ["passenger"]
+  source:
+    section: Description
+    quote: "approximately five minutes"
+    url: https://scp-wiki.wikidot.com/scp-052
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-052の扉は約5分間開き、閉じると列車は消失します。降車する人以外、車内に乗客は見えません。"
+    en: "SCP-052's doors stay open about five minutes; once they close, the train vanishes. No passengers are visible except those disembarking."
+    cs: "Dveře zůstávají otevřené asi pět minut; po zavření vlak zmizí. Vidět jsou pouze vystupující cestující."
+    de: "Die Türen bleiben etwa fünf Minuten offen; sobald sie schließen, verschwindet der Zug. Sichtbar sind nur aussteigende Fahrgäste."
+    es: "Las puertas quedan abiertas unos cinco minutos; al cerrarse, el tren desaparece. Solo se ven pasajeros cuando desembarcan."
+    fr: "Les portes restent ouvertes environ cinq minutes ; à leur fermeture, le train disparaît. Seuls les voyageurs qui descendent sont visibles."
+    it: "Le porte restano aperte circa cinque minuti; quando si chiudono, il treno scompare. Sono visibili solo i passeggeri che scendono."
+    ko: "문은 약 5분간 열려 있고 닫히면 열차가 사라집니다. 내리는 사람 외에는 승객이 보이지 않습니다."
+    pl: "Drzwi pozostają otwarte około pięciu minut; po zamknięciu pociąg znika. Widoczni są tylko wysiadający pasażerowie."
+    pt: "As portas ficam abertas cerca de cinco minutos; ao fechar, o trem desaparece. Só são visíveis passageiros que desembarcam."
+    th: "ประตูเปิดประมาณห้านาที เมื่อปิดแล้วรถไฟจะหายไป มองเห็นผู้โดยสารเฉพาะคนที่กำลังลงจากรถ"
+    uk: "Двері відчинені близько п’яти хвилин; після зачинення поїзд зникає. Видно лише пасажирів, які виходять."
+    vi: "Cửa mở khoảng năm phút; khi đóng lại, tàu biến mất. Chỉ những hành khách bước xuống mới được nhìn thấy."
+    zh: "车门开启约五分钟，关闭后列车便消失。除了下车的人，车内看不到其他乘客。"
+    zh_Hant: "車門開啟約五分鐘，關閉後列車便消失。除了下車的人，車內看不到其他乘客。"
+- scene: "A confused adult who has just disembarked faces a researcher on the now empty platform, a plain bag in hand. Train absent in this later moment. Ordinary clothing, no invented futuristic technology or date signs. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Close-medium profile of same disembarker holding bag down and looking puzzled toward interviewer off-camera, empty track receding behind; no repetitive clipboard pose. The disembarker is the same long-blonde-haired adult woman seen exiting in panel 3, wearing the same gray long coat over a black outfit and carrying the same dark handbag. Do not replace her with a dark-haired man."
+  characters: ["passenger"]
+  source:
+    section: Description
+    quote: "from 1976, up to 2204"
+    url: https://scp-wiki.wikidot.com/scp-052
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-052からの降車者は1976～2204年に乗ったと語りますが、車内の記憶はありません。乗り込んだ人の大半も未回収です。"
+    en: "Disembarkers claim they boarded between 1976 and 2204 but remember nothing aboard. Most people who entered have not been recovered."
+    cs: "Vystupující tvrdí, že nastoupili mezi lety 1976 a 2204, ale pobyt uvnitř si nepamatují. Většinu nastoupivších se nepodařilo získat zpět."
+    de: "Aussteigende berichten von Einstiegen zwischen 1976 und 2204, erinnern sich aber nicht an die Fahrt. Die meisten Eingestiegenen wurden nicht wiedergefunden."
+    es: "Quienes bajan dicen haber subido entre 1976 y 2204, pero no recuerdan el viaje. La mayoría de quienes entraron no han sido recuperados."
+    fr: "Les voyageurs disent être montés entre 1976 et 2204, sans souvenir du trajet. La plupart des personnes entrées n’ont pas été retrouvées."
+    it: "Chi scende afferma di essere salito tra il 1976 e il 2204, senza ricordi a bordo. La maggior parte di chi è entrato non è stata recuperata."
+    ko: "내린 사람들은 1976~2204년에 탔다고 말하지만 차내 기억은 없습니다. 탑승한 사람 대부분도 회수되지 못했습니다."
+    pl: "Wysiadający twierdzą, że wsiedli między 1976 a 2204 rokiem, lecz nie pamiętają podróży. Większości wsiadających nie odzyskano."
+    pt: "Quem desembarca diz ter embarcado entre 1976 e 2204, mas não lembra da viagem. A maioria dos que entraram não foi recuperada."
+    th: "ผู้ลงจากรถอ้างว่าขึ้นรถระหว่างปี 1976 ถึง 2204 แต่จำเหตุการณ์บนรถไม่ได้ คนส่วนใหญ่ที่ขึ้นไปยังไม่ถูกนำกลับมา"
+    uk: "Пасажири кажуть, що сіли між 1976 і 2204 роками, але нічого не пам’ятають про поїздку. Більшість тих, хто зайшов, не повернули."
+    vi: "Người xuống tàu nói họ lên trong khoảng 1976–2204 nhưng không nhớ gì trên tàu. Phần lớn người bước lên chưa được tìm lại."
+    zh: "下车者声称在1976至2204年间上车，却毫无车内记忆。大多数登车者也未被找回。"
+    zh_Hant: "下車者聲稱在1976至2204年間上車，卻毫無車內記憶。大多數登車者也未被找回。"

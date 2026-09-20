@@ -1,0 +1,116 @@
+id: scp-045
+title:
+  ja: "SCP-045：大気変換器"
+  en: "SCP-045: Atmospheric Converter"
+  cs: "SCP-045: Atmosferický konvertor"
+  de: "SCP-045: Atmosphärischer Konverter"
+  es: "SCP-045: Convertidor Atmosférico"
+  fr: "SCP-045: Convertisseur atmosphérique"
+  it: "SCP-045: Convertitore Atmosferico"
+  ko: "SCP-045: 대기 변환기"
+  pl: "SCP-045: Konwerter atmosferyczny"
+  pt: "SCP-045: Conversor Atmosférico"
+  th: "SCP-045: ตัวแปลงบรรยากาศ"
+  uk: "SCP-045: Перетворювач атмосфери"
+  vi: "SCP-045: Bộ Chuyển Đổi Khí Quyển"
+  zh: "SCP-045：大气转换器"
+  zh_Hant: "SCP-045：大氣轉換儀"
+object_class: Safe
+attribution:
+  article: SCP-045
+  source_url: https://scp-wiki.wikidot.com/scp-045
+  author: "Unknown Author; rewritten by Drewbear"
+local_characters: {}
+panels:
+- scene: "A large fractured ice icosahedron, average radius 1.7 metres, resting in a dim scientific chamber. A researcher well in the background gives scale. Flat triangular facets with complex regular planar fractures; ice is not a glowing crystal. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Wide low-angle view of the entire ice icosahedron left of center, distant upright observer on far right. Simple floor support, no restraining clamps."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "composed of ice XII"
+    url: https://scp-wiki.wikidot.com/scp-045
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-045は氷XIIでできた二十面体です。平均半径は1.7mで、密度は通常の氷XIIの約2倍です。"
+    en: "SCP-045 is an ice XII icosahedron with an average radius of 1.7 m and roughly twice the usual density of ice XII."
+    cs: "SCP-045 je dvacetistěn z ledu XII s průměrným poloměrem 1,7 m a přibližně dvojnásobkem obvyklé hustoty ledu XII."
+    de: "SCP-045 ist ein Ikosaeder aus Eis XII, mit durchschnittlich 1,7 m Radius und etwa der doppelten üblichen Dichte von Eis XII."
+    es: "SCP-045 es un icosaedro de hielo XII, con radio medio de 1,7 m y aproximadamente el doble de la densidad habitual del hielo XII."
+    fr: "SCP-045 est un icosaèdre de glace XII, de rayon moyen de 1,7 m et d’environ deux fois la densité habituelle de cette glace."
+    it: "SCP-045 è un icosaedro di ghiaccio XII, con raggio medio di 1,7 m e circa il doppio della normale densità del ghiaccio XII."
+    ko: "SCP-045는 평균 반지름 1.7m인 얼음 XII의 정이십면체로, 밀도는 보통 얼음 XII의 약 두 배입니다."
+    pl: "SCP-045 to dwudziestościan z lodu XII o średnim promieniu 1,7 m i gęstości około dwukrotnie większej niż zwykły lód XII."
+    pt: "SCP-045 é um icosaedro de gelo XII, com raio médio de 1,7 m e aproximadamente o dobro da densidade normal desse gelo."
+    th: "SCP-045 เป็นทรงยี่สิบหน้าที่ทำจากน้ำแข็ง XII รัศมีเฉลี่ย 1.7 เมตร และหนาแน่นราวสองเท่าของน้ำแข็ง XII ปกติ"
+    uk: "SCP-045 — ікосаедр із льоду XII із середнім радіусом 1,7 м і приблизно вдвічі більшою за звичайну густиною."
+    vi: "SCP-045 là khối hai mươi mặt bằng băng XII, bán kính trung bình 1,7 m và mật độ khoảng gấp đôi băng XII thông thường."
+    zh: "SCP-045是冰XII构成的二十面体，平均半径1.7米，密度约为普通冰XII的两倍。"
+    zh_Hant: "SCP-045是冰XII構成的二十面體，平均半徑1.7公尺，密度約為普通冰XII的兩倍。"
+- scene: "The ice icosahedron dominates a foreground floor where clear water and white crystalline salt have accumulated. Ordinary reflected highlights identify the materials; nitrogen and argon remain invisible, without colored clouds or a glowing radius. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Ground-level macro-like view along white salt grains and clear shallow water toward one triangular ice facet, object partly cropped; no need to show observer."
+  characters: []
+  source:
+    section: Description
+    quote: "gaseous nitrogen or argon"
+    url: https://scp-wiki.wikidot.com/scp-045
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-045は通常、自身のどの部分からも3.7m以内に入った窒素ガスを液体の水に、アルゴンガスを結晶状の食塩に置き換えます。"
+    en: "SCP-045 normally replaces nitrogen gas within 3.7 m of any part of itself with liquid water, and argon gas with crystalline table salt."
+    cs: "SCP-045 běžně nahrazuje plynný dusík do 3,7 m od kterékoli své části kapalnou vodou a plynný argon krystalickou kuchyňskou solí."
+    de: "SCP-045 ersetzt normalerweise Stickstoffgas innerhalb von 3,7 m um jeden seiner Teile durch flüssiges Wasser und Argongas durch kristallines Kochsalz."
+    es: "SCP-045 normalmente sustituye el nitrógeno gaseoso a menos de 3,7 m de cualquiera de sus partes por agua líquida, y el argón gaseoso por sal de mesa cristalina."
+    fr: "SCP-045 remplace normalement l’azote gazeux à moins de 3,7 m de toute partie de son corps par de l’eau liquide, et l’argon gazeux par du sel de table cristallin."
+    it: "SCP-045 normalmente sostituisce l’azoto gassoso entro 3,7 m da qualsiasi sua parte con acqua liquida, e l’argon gassoso con sale da cucina cristallino."
+    ko: "SCP-045는 평소 자신의 어느 부분에서든 3.7m 이내로 들어온 질소 기체를 액체 물로, 아르곤 기체를 결정 형태의 소금으로 바꿉니다."
+    pl: "SCP-045 zwykle zastępuje gazowy azot w odległości do 3,7 m od dowolnej swojej części ciekłą wodą, a gazowy argon krystaliczną solą kuchenną."
+    pt: "SCP-045 normalmente substitui o nitrogênio gasoso a até 3,7 m de qualquer parte de si por água líquida, e o argônio gasoso por sal de cozinha cristalino."
+    th: "ตามปกติ SCP-045 จะแทนที่ก๊าซไนโตรเจนภายในระยะ 3.7 เมตรจากส่วนใดก็ตามของมันด้วยน้ำในสถานะของเหลว และแทนที่ก๊าซอาร์กอนด้วยผลึกเกลือแกง"
+    uk: "SCP-045 зазвичай замінює газоподібний азот у межах 3,7 м від будь-якої своєї частини рідкою водою, а газоподібний аргон — кристалічною кухонною сіллю."
+    vi: "Thông thường, SCP-045 thay khí nitơ trong phạm vi 3,7 m tính từ bất kỳ phần nào của nó bằng nước lỏng, và khí argon bằng muối ăn kết tinh."
+    zh: "SCP-045通常会将距自身任意部位3.7米以内的氮气替换为液态水，将氩气替换为结晶食盐。"
+    zh_Hant: "SCP-045通常會將距自身任意部位3.7公尺以內的氮氣替換為液態水，將氬氣替換為結晶食鹽。"
+- scene: "The same ice icosahedron caught tilted during simultaneous multi-axis rotation, slight motion blur on facets and trembling of loose floor water indicating small local seismic events. A single instant during free rotation, not a sequence or multiple copies; no arrows or radius diagrams. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Medium elevated oblique view of the single tilted rotating icosahedron, triangular silhouette distinct; small water ripples below, no restraints obstructing it."
+  characters: []
+  source:
+    section: Description
+    quote: "no longer than 73 seconds"
+    url: https://scp-wiki.wikidot.com/scp-045
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-045は2週間から3か月の間の予測不能な間隔で、最大73秒間、自発的に複数の軸を中心に同時に回転します。この間、近傍ではマグニチュード2.5未満の小規模な地震活動が連続して発生します。"
+    en: "At unpredictable intervals of two weeks to three months, SCP-045 spontaneously rotates around multiple axes simultaneously for up to 73 seconds. During rotation, a series of nearby seismic events occurs below magnitude 2.5 on the Richter scale."
+    cs: "V nepředvídatelných intervalech od dvou týdnů do tří měsíců se SCP-045 samovolně otáčí kolem více os současně, nejvýše 73 sekund. Během otáčení dochází v okolí k sérii otřesů o magnitudu menším než 2,5 Richterovy škály."
+    de: "In unvorhersehbaren Abständen von zwei Wochen bis drei Monaten rotiert SCP-045 spontan bis zu 73 Sekunden gleichzeitig um mehrere Achsen. Währenddessen kommt es in der Nähe zu einer Reihe von Beben unter Magnitude 2,5 auf der Richterskala."
+    es: "A intervalos impredecibles de dos semanas a tres meses, SCP-045 gira espontáneamente sobre varios ejes a la vez durante un máximo de 73 segundos. Durante el giro ocurre cerca una serie de sismos inferiores a magnitud 2,5 en la escala de Richter."
+    fr: "À des intervalles imprévisibles de deux semaines à trois mois, SCP-045 tourne spontanément autour de plusieurs axes simultanément pendant au plus 73 secondes. Durant cette rotation, une série de séismes de magnitude inférieure à 2,5 sur l’échelle de Richter se produit à proximité."
+    it: "A intervalli imprevedibili da due settimane a tre mesi, SCP-045 ruota spontaneamente attorno a più assi simultaneamente per un massimo di 73 secondi. Durante la rotazione, nelle vicinanze si verifica una serie di sismi inferiori a magnitudo 2,5 sulla scala Richter."
+    ko: "SCP-045는 2주에서 3개월 사이의 예측 불가능한 간격으로 최대 73초 동안 여러 축을 중심으로 동시에 자발적으로 회전합니다. 회전 중에는 근처에서 리히터 규모 2.5 미만의 작은 지진이 잇달아 발생합니다."
+    pl: "W nieprzewidywalnych odstępach od dwóch tygodni do trzech miesięcy SCP-045 samoistnie obraca się wokół wielu osi jednocześnie przez najwyżej 73 sekundy. Podczas obrotu w pobliżu występuje seria wstrząsów o magnitudzie poniżej 2,5 w skali Richtera."
+    pt: "Em intervalos imprevisíveis de duas semanas a três meses, SCP-045 gira espontaneamente em torno de vários eixos ao mesmo tempo por até 73 segundos. Durante a rotação, ocorre nas proximidades uma série de sismos abaixo de magnitude 2,5 na escala Richter."
+    th: "SCP-045 หมุนเองรอบหลายแกนพร้อมกันนานไม่เกิน 73 วินาที โดยเกิดในช่วงห่างที่คาดเดาไม่ได้ตั้งแต่สองสัปดาห์ถึงสามเดือน ระหว่างหมุนจะเกิดแผ่นดินไหวขนาดต่ำกว่า 2.5 ตามมาตราริกเตอร์หลายครั้งในบริเวณใกล้เคียง"
+    uk: "З непередбачуваними інтервалами від двох тижнів до трьох місяців SCP-045 самовільно обертається навколо кількох осей одночасно до 73 секунд. Під час обертання поблизу відбувається серія поштовхів магнітудою менш як 2,5 за шкалою Ріхтера."
+    vi: "Với khoảng cách khó đoán từ hai tuần đến ba tháng, SCP-045 tự xoay quanh nhiều trục đồng thời trong tối đa 73 giây. Trong lúc xoay, một loạt địa chấn dưới độ lớn 2,5 theo thang Richter xảy ra gần đó."
+    zh: "SCP-045每隔两周至三个月这一不可预测的时间间隔，会自行同时绕多个轴旋转，最长持续73秒。旋转期间，附近会发生一连串里氏震级低于2.5的小型地震。"
+    zh_Hant: "SCP-045每隔兩週至三個月這一不可預測的時間間隔，會自行同時繞多個軸旋轉，最長持續73秒。旋轉期間，附近會發生一連串芮氏規模低於2.5的小型地震。"
+- scene: "The ice icosahedron is stationary just after a rotation period. Clear water and white crystalline salt are accumulating farther into the surrounding floor area. No visible force field, glow, radius boundary or arrows. The caption explains the temporary doubled effect radius and separately the conditional seismic danger of obstructing rotation; do not imply that the radius increase occurs during rotation or requires obstruction. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. High wide view across the chamber showing stationary object smaller near upper left and newly wet salty floor extending into lower right; no drawn radius rings."
+  characters: []
+  source:
+    section: Description
+    quote: "increase in strength logarithmically"
+    url: https://scp-wiki.wikidot.com/scp-045
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "回転が妨げられると、地震活動の強度は対数的に増し、最大マグニチュード5.3に達します。回転が終わると、SCP-045の効果半径は実際に回転したのと同じ時間だけ一時的に2倍になります。"
+    en: "If rotation is prevented, seismic strength increases logarithmically, up to magnitude 5.3 on the Richter scale. After rotation ends, SCP-045's effect radius temporarily doubles for exactly as long as it rotated."
+    cs: "Je-li otáčení znemožněno, síla otřesů roste logaritmicky až na magnitudo 5,3 Richterovy škály. Po skončení otáčení se poloměr účinku SCP-045 dočasně zdvojnásobí přesně na dobu, po kterou se otáčelo."
+    de: "Wird die Rotation verhindert, nimmt die Stärke der Beben logarithmisch bis maximal Magnitude 5,3 auf der Richterskala zu. Nach Ende der Rotation verdoppelt sich der Wirkungsradius von SCP-045 vorübergehend für genau die Dauer der erfolgten Rotation."
+    es: "Si se impide el giro, la intensidad sísmica aumenta logarítmicamente hasta un máximo de magnitud 5,3 en la escala de Richter. Al terminar el giro, el radio de efecto de SCP-045 se duplica temporalmente durante exactamente el tiempo que giró."
+    fr: "Si la rotation est empêchée, la force des séismes augmente logarithmiquement jusqu’à une magnitude maximale de 5,3 sur l’échelle de Richter. Après la rotation, le rayon d’effet de SCP-045 double temporairement pendant exactement la durée durant laquelle il a tourné."
+    it: "Se la rotazione viene impedita, la forza dei sismi aumenta logaritmicamente fino a magnitudo 5,3 sulla scala Richter. Finita la rotazione, il raggio d’effetto di SCP-045 raddoppia temporaneamente per un tempo esattamente pari a quello trascorso ruotando."
+    ko: "회전이 저지되면 지진의 강도는 로그적으로 증가하여 최대 리히터 규모 5.3에 이릅니다. 회전이 끝나면 SCP-045의 효과 반경은 실제로 회전한 시간과 같은 시간 동안 일시적으로 두 배가 됩니다."
+    pl: "Gdy obrót zostaje uniemożliwiony, siła wstrząsów rośnie logarytmicznie do maksymalnej magnitudy 5,3 w skali Richtera. Po zakończeniu obrotu promień działania SCP-045 tymczasowo podwaja się dokładnie na czas równy trwaniu obrotu."
+    pt: "Se a rotação for impedida, a força sísmica aumenta logaritmicamente até magnitude máxima de 5,3 na escala Richter. Após a rotação terminar, o raio de efeito de SCP-045 dobra temporariamente por exatamente o tempo durante o qual girou."
+    th: "หากขัดขวางการหมุน ความรุนแรงของแผ่นดินไหวจะเพิ่มแบบลอการิทึมจนถึงขนาดสูงสุด 5.3 ตามมาตราริกเตอร์ หลังการหมุนสิ้นสุด รัศมีผลของ SCP-045 จะเพิ่มเป็นสองเท่าชั่วคราว นานเท่ากับเวลาที่มันหมุนจริง"
+    uk: "Якщо обертанню перешкоджають, сила поштовхів зростає логарифмічно до максимальної магнітуди 5,3 за шкалою Ріхтера. Після завершення обертання радіус дії SCP-045 тимчасово подвоюється рівно на час, протягом якого він обертався."
+    vi: "Nếu bị ngăn xoay, cường độ địa chấn tăng theo hàm logarit đến tối đa độ lớn 5,3 theo thang Richter. Khi ngừng xoay, bán kính tác động của SCP-045 tạm thời tăng gấp đôi trong đúng khoảng thời gian nó đã xoay."
+    zh: "若旋转受阻，地震强度会按对数增长，最高达到里氏震级5.3。旋转结束后，SCP-045的作用半径会暂时加倍，持续时间恰好等于实际旋转的时间。"
+    zh_Hant: "若旋轉受阻，地震強度會按對數增長，最高達到芮氏規模5.3。旋轉結束後，SCP-045的作用半徑會暫時加倍，持續時間恰好等於實際旋轉的時間。"

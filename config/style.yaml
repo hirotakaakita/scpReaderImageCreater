@@ -10,21 +10,45 @@
 prompt:
   default:
     style_prompt: >
-      A single anime-style character illustration, one continuous scene
-      capturing a lightly comedic moment from an SCP Foundation incident
-      report. A hint of eerie SCP Foundation atmosphere. If the Scene below
-      does not specify a setting, default to a plain containment-facility
-      interior (concrete corridors, fluorescent lights, institutional props),
-      but always follow the Scene when it specifies another setting.
+      One single semi-realistic illustrated scene matching the published
+      SCP-105 visual reference: delicate manga-influenced faces blended with
+      soft dimensional painterly shading and realistic surroundings.
+      Use natural body proportions, finely drawn expressive eyes, subtle
+      noses and mouths, fine loose hair strands, restrained facial outlines,
+      and smoothly modeled skin without photographic pores. Keep faces
+      illustrated rather than live-action, with no oversized cartoon eyes.
+      Render clothing folds, worn concrete and metal with tactile realistic
+      textures. Dark low-saturation gray-brown surroundings and motivated
+      cinematic light create quiet unease. Preserve source-described colors,
+      age and identity. People are neither required nor excluded by default.
+      Avoid monochrome ink prints, cream paper backgrounds, crosshatching
+      as the primary shading, heavy outlines and flat cel-only shading.
+      If the Scene specifies no setting, use a plain containment facility.
 
     composition_rules: >
       One unified, seamless square illustration filling the entire image
-      edge to edge, depicting a single continuous moment in time. Characters
-      are drawn at a readable size and the main subject is clearly visible.
+      edge to edge, depicting a single continuous moment in time. Make the
+      target SCP, or the relevant SCP detail or sample in an explanatory
+      close-up, the focal point rather than a supporting observer. Keep its
+      silhouette, material textures, and important details readable at roughly
+      360 pixels wide. Use motivated local light and readable focal midtones
+      against quieter dark surroundings. Preserve source-described colors
+      and physical properties; adjust lighting and background contrast
+      rather than recoloring the SCP or inventing luminous effects.
+      Avoid crushed black subject detail and uniformly bright backgrounds.
       Keep character designs exactly as described. Follow the pose and motion
-      described in the Scene. If the Scene shows a plain indoor room without
-      specifying wall/floor color, use pale cream-gray (RGB 238,233,218);
-      otherwise follow the Scene.
+      described in the Scene. Follow its specific shot distance, camera angle,
+      subject placement, action, posture, hand placement, and gaze rather than
+      defaulting to an eye-level three-quarter observer beside a table.
+      Previous-scene references establish identity, clothing, materials, and
+      rendering style, not a template for framing or human poses. Compose this
+      moment independently as directed by the Scene; do not copy a reference
+      pose or camera setup unless the Scene calls for it. For a localized edit,
+      preserve the composition when explicitly requested. Prefer meaningful
+      visual variety without inventing actions or anomalous effects. Preserve
+      required immobility and intentional same-view comparisons.
+      Follow scene-specific settings and colors;
+      otherwise use subdued gray-brown surroundings with cinematic shadow depth.
 
     no_text_rules: >
       ABSOLUTE RULE, HIGHEST PRIORITY: this image contains ZERO text of any

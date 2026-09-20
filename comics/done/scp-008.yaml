@@ -1,0 +1,120 @@
+id: scp-008
+title:
+  ja: "SCP-008：ゾンビ病"
+  en: "SCP-008: Zombie Plague"
+  cs: "SCP-008: Zombie virus"
+  de: "SCP-008: Zombieseuche"
+  es: "SCP-008: Plaga Zombi"
+  fr: "SCP-008: Peste zombie"
+  it: "SCP-008: Piaga Zombie"
+  ko: "SCP-008: 좀비 전염병"
+  pl: "SCP-008: Plaga zombie"
+  pt: "SCP-008: Epidemia Zumbi"
+  th: "SCP-008: เชื้อซอมบี้"
+  uk: "SCP-008: Чума зомбі"
+  vi: "SCP-008: Dịch Bệnh Thây Ma"
+  zh: "SCP-008：丧尸病毒"
+  zh_Hant: "SCP-008：殭屍瘟疫"
+object_class: Euclid
+attribution:
+  article: SCP-008
+  source_url: https://scp-wiki.wikidot.com/scp-008
+  author: Unknown Author
+local_characters:
+  patient:
+    name: "Patient"
+    appearance: "Fictional adult man with short dark hair, average build, intact pale skin."
+    default_look: "Plain gray patient shirt and trousers, no markings."
+panels:
+- scene: "A sealed, unmarked specimen container is the focal point in a dim biological research room; a gloved researcher observes it without opening or manipulating it. The vessel is an illustrative prop, not a claim about the prion's visible appearance. Do not invent a molecular shape or imitate the official attachment. No aerosol clouds or transmission demonstration. Dark subdued cinematic horror, realistic materials, locally lit midtones readable on a smartphone. One square continuous scene without text, labels, borders, or speech bubbles. Close low bench-level view of the sealed vessel, researcher upright in distant left background with folded hands; vessel dominates, no handling."
+  characters: ["attending-researcher-f"]
+  source:
+    section: Description
+    quote: "SCP-008 is a complex prion"
+    url: https://scp-wiki.wikidot.com/scp-008
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-008は複雑なプリオンで、感染性・致死率はともに100%です。露出した粘膜や体液を介して伝わり、空気・水では感染しません。"
+    en: "SCP-008 is a complex prion with 100% infectiousness and lethality. It spreads through exposed mucous membranes and bodily fluids, not air or water."
+    cs: "SCP-008 je složitý prion se 100% infekčností a smrtností. Přenáší se přes obnažené sliznice a tělní tekutiny, nikoli vzduchem nebo vodou."
+    de: "SCP-008 ist ein komplexes Prion mit 100 % Infektiosität und Letalität. Die Übertragung erfolgt über freiliegende Schleimhäute und Körperflüssigkeiten, nicht über Luft oder Wasser."
+    es: "SCP-008 es un prión complejo con infectividad y letalidad del 100 %. Se transmite por mucosas expuestas y fluidos corporales, no por aire ni agua."
+    fr: "SCP-008 est un prion complexe dont l’infectiosité et la létalité sont de 100 %. Il se transmet par les muqueuses exposées et les fluides corporels, pas par l’air ni l’eau."
+    it: "SCP-008 è un prione complesso con infettività e letalità del 100%. Si trasmette attraverso mucose esposte e fluidi corporei, non tramite aria o acqua."
+    ko: "SCP-008은 감염성과 치사율이 모두 100%인 복잡한 프리온입니다. 노출된 점막과 체액을 통해 전파되며, 공기나 물로는 전파되지 않습니다."
+    pl: "SCP-008 to złożony prion o zakaźności i śmiertelności wynoszących 100%. Przenosi się przez odsłonięte błony śluzowe i płyny ustrojowe, nie przez powietrze ani wodę."
+    pt: "SCP-008 é um príon complexo com infectividade e letalidade de 100%. Transmite-se por mucosas expostas e fluidos corporais, não pelo ar nem pela água."
+    th: "SCP-008 เป็นพรีออนซับซ้อน มีอัตราการติดเชื้อและเสียชีวิต 100% ติดต่อผ่านเยื่อเมือกที่เปิดรับและของเหลวในร่างกาย ไม่ติดต่อทางอากาศหรือน้ำ"
+    uk: "SCP-008 — складний пріон зі 100% заразністю та летальністю. Передається через відкриті слизові оболонки й рідини тіла, але не через повітря чи воду."
+    vi: "SCP-008 là một prion phức tạp, có khả năng lây nhiễm và tỷ lệ tử vong đều là 100%. Nó lây qua niêm mạc phơi lộ và dịch cơ thể, không qua không khí hay nước."
+    zh: "SCP-008是一种复杂的朊病毒，感染性与致死率均为100%。经暴露的黏膜和体液传播，不经空气或水传播。"
+    zh_Hant: "SCP-008是一種複雜的普利昂，感染性與致死率均為100%。經暴露的黏膜和體液傳播，不經空氣或水傳播。"
+- scene: "A fictional adult patient with short dark hair and plain gray patient clothing lies unresponsive on a clinical bed at the coma stage; an observer watches from beyond glass. The caption explains the earlier fever and dementia and the elapsed time; do not combine stages or depict a timeline in the image. Natural human proportions and restrained expression, dim surroundings with the face and body clearly readable. No graphic wounds, text, numerical displays, borders, or bubbles. High oblique bedside view, gray-clothed short-dark-haired adult patient lying supine, arms resting alongside body, observer beyond glass far behind."
+  characters: ["patient","attending-researcher-f"]
+  source:
+    section: Description
+    quote: "Coma onset approximately 20 hours"
+    url: https://scp-wiki.wikidot.com/scp-008
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "曝露から3時間以内に高熱などの症状が現れ、後に重い認知症が進行します。初発症状から約20時間で昏睡し、この時点が死亡と見なされます。"
+    en: "Symptoms such as high fever appear within three hours of exposure, followed by severe dementia. Coma begins about 20 hours after the first symptoms and is considered the onset of death."
+    cs: "Do tří hodin od expozice se objeví příznaky jako vysoká horečka, později těžká demence. Asi 20 hodin po prvních příznacích nastává kóma, považované za počátek smrti."
+    de: "Binnen drei Stunden nach Exposition treten Symptome wie hohes Fieber auf, später schwere Demenz. Etwa 20 Stunden nach den ersten Symptomen beginnt ein Koma, das als Eintritt des Todes gilt."
+    es: "Los síntomas, como fiebre alta, aparecen antes de tres horas tras la exposición, seguidos de demencia grave. El coma comienza unas 20 horas después de los primeros síntomas y se considera el inicio de la muerte."
+    fr: "Des symptômes comme une forte fièvre apparaissent dans les trois heures après exposition, puis une démence sévère. Le coma survient environ 20 heures après les premiers symptômes et marque le début de la mort."
+    it: "Entro tre ore dall’esposizione compaiono sintomi come febbre alta, seguiti da grave demenza. Il coma inizia circa 20 ore dopo i primi sintomi ed è considerato l’inizio della morte."
+    ko: "노출 후 3시간 이내에 고열 등의 증상이 나타나고, 이후 심한 치매가 진행됩니다. 첫 증상으로부터 약 20시간 뒤 혼수상태에 빠지며, 이 시점을 사망의 시작으로 간주합니다."
+    pl: "W ciągu trzech godzin od ekspozycji występują objawy takie jak wysoka gorączka, a później ciężka demencja. Około 20 godzin po pierwszych objawach następuje śpiączka, uznawana za początek śmierci."
+    pt: "Sintomas como febre alta surgem em até três horas após a exposição, seguidos de demência grave. O coma começa cerca de 20 horas após os primeiros sintomas e é considerado o início da morte."
+    th: "อาการเช่นไข้สูงปรากฏภายในสามชั่วโมงหลังสัมผัสเชื้อ ตามด้วยภาวะสมองเสื่อมรุนแรง ราว 20 ชั่วโมงหลังอาการแรกจะเข้าสู่โคม่า ซึ่งถือเป็นจุดเริ่มต้นของการเสียชีวิต"
+    uk: "Протягом трьох годин після контакту з’являються симптоми на кшталт високої температури, згодом — тяжка деменція. Приблизно через 20 годин після перших симптомів настає кома, яку вважають початком смерті."
+    vi: "Các triệu chứng như sốt cao xuất hiện trong vòng ba giờ sau phơi nhiễm, rồi đến sa sút trí tuệ nặng. Hôn mê bắt đầu khoảng 20 giờ sau triệu chứng đầu tiên và được coi là thời điểm bắt đầu tử vong."
+    zh: "暴露后三小时内出现高热等症状，后期发生严重痴呆。首次症状出现约20小时后进入昏迷，此时被视为死亡的开始。"
+    zh_Hant: "暴露後三小時內出現高熱等症狀，後期發生嚴重失智。首次症狀出現約20小時後進入昏迷，此時被視為死亡的開始。"
+- scene: "The same adult in gray patient clothing stands unsteadily in the dim observation room, one hand flexed around the bed rail. Use the movement as an illustration of retained nerve and muscle function; do not show internal anatomy, claim visible proof of organ failure, or depict ten years passing. Pale intact skin and restrained posture, not a decomposing corpse. Keep the hand and silhouette readable against the dark background. No text, split scenes, borders, or bubbles. Medium side profile at rail height, same patient standing hunched slightly, one hand gripping rail, gaze unfocused downward; no theatrical zombie pose."
+  characters: ["patient"]
+  source:
+    section: Description
+    quote: "over 10 years without nutrition"
+    url: https://scp-wiki.wikidot.com/scp-008
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "全臓器が機能を失っても、神経と筋肉は数時間働き続けます。代謝が極端に低下し、栄養を取らず10年以上生存することもあります。"
+    en: "Nerves and muscles keep functioning for hours after total organ failure. Metabolism can fall so low that the subject survives over ten years without nutrition."
+    cs: "Nervy a svaly fungují ještě hodiny po úplném selhání orgánů. Metabolismus může klesnout natolik, že subjekt přežije přes deset let bez výživy."
+    de: "Nerven und Muskeln funktionieren nach vollständigem Organversagen noch stundenlang. Der Stoffwechsel kann so stark sinken, dass Betroffene über zehn Jahre ohne Nahrung überleben."
+    es: "Los nervios y músculos siguen funcionando durante horas tras el fallo orgánico total. El metabolismo puede bajar tanto que el sujeto sobreviva más de diez años sin nutrición."
+    fr: "Les nerfs et les muscles fonctionnent encore des heures après la défaillance totale des organes. Le métabolisme peut ralentir au point de permettre plus de dix ans de survie sans apport nutritif."
+    it: "Nervi e muscoli continuano a funzionare per ore dopo il collasso totale degli organi. Il metabolismo può rallentare tanto da consentire oltre dieci anni di sopravvivenza senza nutrimento."
+    ko: "모든 장기가 기능을 잃어도 신경과 근육은 몇 시간 동안 계속 작동합니다. 대사가 극도로 낮아져 영양 섭취 없이 10년 넘게 생존할 수도 있습니다."
+    pl: "Nerwy i mięśnie działają jeszcze przez wiele godzin po całkowitej niewydolności narządów. Metabolizm może zwolnić tak bardzo, że osobnik przeżyje ponad dziesięć lat bez odżywiania."
+    pt: "Nervos e músculos continuam funcionando por horas após a falência total dos órgãos. O metabolismo pode cair tanto que o indivíduo sobreviva mais de dez anos sem nutrição."
+    th: "เส้นประสาทและกล้ามเนื้อยังทำงานได้หลายชั่วโมงหลังอวัยวะทั้งหมดล้มเหลว การเผาผลาญอาจลดต่ำจนอยู่รอดได้เกินสิบปีโดยไม่รับสารอาหาร"
+    uk: "Нерви й м’язи працюють ще годинами після повної відмови органів. Обмін речовин може сповільнитися настільки, що суб’єкт виживає понад десять років без живлення."
+    vi: "Thần kinh và cơ bắp vẫn hoạt động nhiều giờ sau khi toàn bộ cơ quan suy sụp. Trao đổi chất có thể giảm đến mức đối tượng sống hơn mười năm không cần dinh dưỡng."
+    zh: "所有器官完全衰竭后，神经和肌肉仍能运作数小时。代谢可降至极低水平，使感染者不摄取营养也能存活十年以上。"
+    zh_Hant: "所有器官完全衰竭後，神經和肌肉仍能運作數小時。代謝可降至極低水平，使感染者不攝取營養也能存活十年以上。"
+- scene: "The same infected adult advances with reaching hands toward a living researcher visible on the other side of a closed observation door. Show one moment before contact, with the infected subject prominent and the observer secondary; no biting, injury, blood, supernatural eyes, or invented ability to break the barrier. Motivate the approach by the visible person only; sound and smell are explained in the caption. Realistic anatomy, dark muted cinematic lighting with clear subject midtones. No text, borders, speech bubbles, or inset images. View from living observer's side through the closed observation door, infected patient centered beyond glass advancing with one reaching hand and other hand lower; no contact or barrier damage."
+  characters: ["patient","attending-researcher-f"]
+  source:
+    section: Description
+    quote: "including standing up, balancing on two legs"
+    url: https://scp-wiki.wikidot.com/scp-008
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "認知機能が大きく損なわれても、歩く・つかむ・噛むなどは可能です。生きた人間に結びつく視覚・音・匂いへ向かい、接触すると食べようとします。"
+    en: "Despite severe cognitive damage, subjects can still walk, grab, and bite. They approach sights, sounds, and smells associated with living humans and try to eat them on contact."
+    cs: "I přes těžké poškození poznávacích schopností mohou subjekty chodit, chytat a kousat. Míří za zrakovými, sluchovými a pachovými podněty spojenými s živými lidmi a při kontaktu se je snaží jíst."
+    de: "Trotz schwerer kognitiver Schäden können Betroffene gehen, greifen und beißen. Sie folgen visuellen Reizen, Geräuschen und Gerüchen lebender Menschen und versuchen, diese bei Kontakt zu fressen."
+    es: "Pese al grave deterioro cognitivo, pueden caminar, agarrar y morder. Se acercan a imágenes, sonidos y olores asociados a humanos vivos e intentan comerlos al entrar en contacto."
+    fr: "Malgré de graves troubles cognitifs, les sujets peuvent marcher, saisir et mordre. Ils se dirigent vers les indices visuels, sons et odeurs associés aux humains vivants et tentent de les manger au contact."
+    it: "Nonostante gravi danni cognitivi, i soggetti possono camminare, afferrare e mordere. Si avvicinano a stimoli visivi, suoni e odori associati a esseri umani vivi e tentano di mangiarli al contatto."
+    ko: "인지 기능이 크게 손상되어도 걷기, 잡기, 물기는 가능합니다. 살아 있는 인간과 관련된 시각·소리·냄새를 향해 움직이며, 접촉하면 먹으려 합니다."
+    pl: "Mimo poważnego uszkodzenia zdolności poznawczych osobniki mogą chodzić, chwytać i gryźć. Zbliżają się do bodźców wzrokowych, dźwięków i zapachów kojarzonych z żywymi ludźmi, a po kontakcie próbują ich zjeść."
+    pt: "Apesar dos graves danos cognitivos, os indivíduos podem andar, agarrar e morder. Aproximam-se de estímulos visuais, sons e cheiros associados a humanos vivos e tentam comê-los ao contato."
+    th: "แม้การรับรู้เสียหายรุนแรง ผู้ติดเชื้อยังเดิน จับ และกัดได้ พวกมันมุ่งเข้าหาภาพ เสียง และกลิ่นที่เชื่อมโยงกับมนุษย์มีชีวิต และพยายามกินเมื่อสัมผัสตัว"
+    uk: "Попри тяжкі когнітивні порушення, суб’єкти можуть ходити, хапати й кусати. Вони прямують до зорових, звукових і нюхових сигналів, пов’язаних із живими людьми, та при контакті намагаються їх з’їсти."
+    vi: "Dù nhận thức tổn hại nặng, đối tượng vẫn có thể đi, nắm và cắn. Chúng tiến về hình ảnh, âm thanh và mùi gắn với người sống, rồi cố ăn họ khi tiếp xúc."
+    zh: "即使认知能力严重受损，感染者仍能行走、抓握和咬噬。它们会趋向与活人有关的视觉、声音和气味，接触后试图将人吞食。"
+    zh_Hant: "即使認知能力嚴重受損，感染者仍能行走、抓握和咬噬。它們會趨向與活人有關的視覺、聲音和氣味，接觸後試圖將人吞食。"

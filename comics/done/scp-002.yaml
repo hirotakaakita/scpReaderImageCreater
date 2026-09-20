@@ -1,0 +1,116 @@
+id: scp-002
+title:
+  ja: 'SCP-002："生きている"居間'
+  en: 'SCP-002: The "Living" Room'
+  cs: 'SCP-002: "Živá" místnost'
+  de: 'SCP-002: Der Lebende Raum'
+  es: 'SCP-002: El "Cuarto" Viviente'
+  fr: 'SCP-002: La Salle a mangé'
+  it: 'SCP-002: Soggiorno "Vivente"'
+  ko: 'SCP-002: "살아있는" 방'
+  pl: 'SCP-002: Żywy pokój'
+  pt: 'SCP-002: O Quarto "Vivo"'
+  th: 'SCP-002: ห้องมีชีวิต'
+  uk: 'SCP-002: "Жива" кімната'
+  vi: 'SCP-002: Căn Phòng "Sống"'
+  zh: 'SCP-002：“生活”室'
+  zh_Hant: 'SCP-002：生「活」起居室'
+object_class: Euclid
+attribution:
+  article: SCP-002
+  source_url: https://scp-wiki.wikidot.com/scp-002
+  author: Unknown Author
+local_characters: {}
+panels:
+- scene: "Non-graphic wide exterior view of a large irregular rounded organic structure of roughly sixty cubic meters, with a smooth intact muted flesh-colored surface and an iron valve hatch on one side. No wounds, blood, veins, exposed tissue or viscera. Its visible exterior has no window. Neutral containment surroundings provide scale. Visualize only the written description, not the official attachment image. No text, speech bubbles, borders, or inset views. Low-angle wide establishing shot, mass centered left, hatch on right flank; a small distant observer stands upright well away for scale, hands at sides."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "a tumorous, fleshy growth"
+    url: https://scp-wiki.wikidot.com/scp-002
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-002は体積約60立方メートルの、腫瘍のような肉質の塊です。片側にある鉄製バルブハッチが内部へ通じています。"
+    en: "SCP-002 is a tumor-like fleshy mass of about 60 m³. An iron valve hatch on one side provides access to the interior."
+    cs: "SCP-002 je masitý útvar podobný nádoru o objemu asi 60 m³. Na jedné straně vede dovnitř železný poklop s ventilovým uzávěrem."
+    de: "SCP-002 ist eine tumorartige Fleischmasse mit etwa 60 m³ Volumen. Eine eiserne Luke mit Ventilverschluss an einer Seite führt ins Innere."
+    es: "SCP-002 es una masa carnosa similar a un tumor, de unos 60 m³. Una escotilla de hierro con cierre de válvula en un costado permite entrar."
+    fr: "SCP-002 est une masse charnue ressemblant à une tumeur, d’environ 60 m³. Une trappe en fer à fermeture à valve, sur un côté, donne accès à l’intérieur."
+    it: "SCP-002 è una massa carnosa simile a un tumore, di circa 60 m³. Un portello di ferro con chiusura a valvola su un lato dà accesso all’interno."
+    ko: "SCP-002는 부피가 약 60세제곱미터인 종양 같은 살덩어리입니다. 한쪽의 철제 밸브 해치가 내부로 이어집니다."
+    pl: "SCP-002 to mięsista, guzowata masa o objętości około 60 m³. Żelazny właz z zamknięciem zaworowym po jednej stronie prowadzi do wnętrza."
+    pt: "SCP-002 é uma massa carnosa semelhante a um tumor, com cerca de 60 m³. Uma escotilha de ferro com fecho de válvula em um dos lados dá acesso ao interior."
+    th: "SCP-002 เป็นก้อนเนื้อคล้ายเนื้องอก ปริมาตรราว 60 ลูกบาศก์เมตร ด้านหนึ่งมีประตูเหล็กแบบวาล์วที่เปิดเข้าสู่ภายใน"
+    uk: "SCP-002 — пухлиноподібна м’ясиста маса об’ємом близько 60 м³. Залізний люк із клапанним затвором з одного боку веде всередину."
+    vi: "SCP-002 là một khối thịt giống khối u, thể tích khoảng 60 m³. Một cửa sập bằng sắt có cơ cấu đóng kiểu van ở một bên dẫn vào bên trong."
+    zh: "SCP-002是一团体积约60立方米、形似肿瘤的肉质块。一侧的铁制阀式舱门通向内部。"
+    zh_Hant: "SCP-002是一團體積約60立方公尺、形似腫瘤的肉質塊。一側的鐵製閥式艙門通向內部。"
+- scene: "View through the open iron hatch into a modest, cheaply furnished apartment-like interior. One wall has a single window; no identifiable landscape is visible through it. Include a simple chair and table, reused in the next scene. The caption explains that no matching opening is visible outside; do not invent a cutaway or a portal destination. No text, bubbles, or borders. Eye-level viewpoint just inside the hatch, diagonally across the apartment toward its single window; chair lower left and table mid-right. Keep the hatch edge out of the image border."
+  characters: []
+  source:
+    section: Description
+    quote: "no such opening is visible from the exterior"
+    url: https://scp-wiki.wikidot.com/scp-002
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "内部はこぢんまりとした安アパートのように見えます。壁には窓が一つありますが、外側からは対応する開口部が見えません。"
+    en: "Inside is what looks like a small, inexpensive apartment. There is one window in a wall, yet no corresponding opening can be seen from outside."
+    cs: "Uvnitř to vypadá jako malý, levný byt. V jedné stěně je jediné okno, ale zvenčí není vidět odpovídající otvor."
+    de: "Innen wirkt es wie eine kleine, günstige Mietwohnung. Eine Wand hat ein einziges Fenster, doch von außen ist keine entsprechende Öffnung zu sehen."
+    es: "El interior parece un apartamento pequeño y de alquiler barato. Una pared tiene una sola ventana, pero desde fuera no se ve ninguna abertura correspondiente."
+    fr: "L’intérieur ressemble à un petit appartement à bas loyer. Un mur comporte une seule fenêtre, mais aucune ouverture correspondante n’est visible de l’extérieur."
+    it: "L’interno sembra un piccolo appartamento dall’affitto economico. Su una parete c’è una sola finestra, ma dall’esterno non si vede alcuna apertura corrispondente."
+    ko: "내부는 아담한 저가 임대 아파트처럼 보입니다. 벽에는 창문이 하나 있지만, 바깥에서는 그에 해당하는 개구부가 보이지 않습니다."
+    pl: "Wnętrze przypomina niewielkie mieszkanie o niskim czynszu. W jednej ścianie jest jedno okno, lecz z zewnątrz nie widać odpowiadającego mu otworu."
+    pt: "O interior parece um pequeno apartamento de aluguel barato. Uma parede tem uma única janela, mas não se vê uma abertura correspondente do lado de fora."
+    th: "ภายในดูเหมือนอพาร์ตเมนต์ขนาดเล็กค่าเช่าถูก ผนังด้านหนึ่งมีหน้าต่างเพียงบานเดียว แต่จากภายนอกมองไม่เห็นช่องเปิดที่ตรงกัน"
+    uk: "Усередині це схоже на невелику квартиру з низькою орендною платою. В одній стіні є єдине вікно, але ззовні відповідного отвору не видно."
+    vi: "Bên trong trông như một căn hộ nhỏ có giá thuê rẻ. Một bức tường có duy nhất một cửa sổ, nhưng từ bên ngoài không thấy ô cửa tương ứng."
+    zh: "内部看起来像一间不大的低租金公寓。一面墙上只有一扇窗，但从外面看不到对应的开口。"
+    zh_Hant: "內部看起來像一間不大的低租金公寓。一面牆上只有一扇窗，但從外面看不到對應的開口。"
+- scene: "Close view of the same chair and table: pale worked-bone surfaces and a hair-woven upholstery surface suggest human biological materials while retaining recognizable furniture shapes. These specific furniture designs are illustrative, not additional documented findings. No severed body parts, transformation, gore, lettering, bubbles, or borders. Tight side-on material detail at chair-seat height, woven upholstery foreground and bone-like table support beyond; furniture remains recognizable."
+  characters: []
+  source:
+    section: Description
+    quote: "sculpted bone, woven hair"
+    url: https://scp-wiki.wikidot.com/scp-002
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "家具を詳しく調べると、加工された骨、編まれた毛髪、その他の人体が生み出す生体物質でできているように見えます。"
+    en: "Closer inspection suggests the furnishings consist of shaped bone, interwoven hair, and other biological materials originating from the human body."
+    cs: "Při bližším zkoumání se zdá, že vybavení tvoří opracované kosti, spletené vlasy a další biologické materiály pocházející z lidského těla."
+    de: "Bei näherer Untersuchung scheint die Einrichtung aus bearbeiteten Knochen, verwobenen Haaren und weiteren biologischen Stoffen menschlichen Ursprungs zu bestehen."
+    es: "Al examinarlos de cerca, los muebles parecen hechos de huesos tallados, pelo entretejido y otros materiales biológicos procedentes del cuerpo humano."
+    fr: "Un examen attentif suggère que le mobilier est fait d’os façonnés, de cheveux entrelacés et d’autres matières biologiques issues du corps humain."
+    it: "A un esame attento, gli arredi sembrano fatti di ossa lavorate, capelli intrecciati e altri materiali biologici provenienti dal corpo umano."
+    ko: "가구를 자세히 조사하면 가공된 뼈, 엮은 머리카락, 그 밖에 인체에서 만들어진 생물학적 물질로 이루어진 듯합니다."
+    pl: "Przy bliższym badaniu wyposażenie wydaje się wykonane z obrobionych kości, splecionych włosów i innych materiałów biologicznych pochodzących z ludzkiego ciała."
+    pt: "Ao examinar de perto, os móveis parecem feitos de ossos trabalhados, cabelos entrelaçados e outros materiais biológicos provenientes do corpo humano."
+    th: "เมื่อตรวจดูอย่างละเอียด เครื่องเรือนดูเหมือนทำจากกระดูกที่ขึ้นรูป เส้นผมที่ถักทอ และวัสดุชีวภาพอื่น ๆ ที่ร่างกายมนุษย์ผลิตขึ้น"
+    uk: "При уважному огляді здається, що меблі складаються з оброблених кісток, сплетеного волосся та інших біологічних матеріалів людського походження."
+    vi: "Khi xem xét kỹ, đồ đạc dường như được làm từ xương đã tạo hình, tóc đan và các vật chất sinh học khác do cơ thể người tạo ra."
+    zh: "仔细检查后，家具似乎由加工过的骨骼、编织的毛发，以及其他由人体产生的生物材料制成。"
+    zh_Hant: "仔細檢查後，家具似乎由加工過的骨骼、編織的毛髮，以及其他由人體產生的生物材料製成。"
+- scene: "An illustrative laboratory scene with separately contained small samples of bone-like material and woven fibers from the furnishings. Sampling vessels are a visual aid for the reported analysis, not a reconstruction of a documented procedure. The caption states the DNA findings; show no invented sequence readout, donor identity, matching bodies, or transformation mechanism. No text, speech bubbles, borders, or inset diagrams. Overhead oblique laboratory view: separate sample dishes across the lower center, an examiner's gloved hands resting beside them, looking down from the far side; no sample manipulation."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "independent or fragmented DNA sequences"
+    url: https://scp-wiki.wikidot.com/scp-002
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "これまでに検査した物質では、室内の物品ごとに独立した、または断片化したDNA配列が見つかっています。"
+    en: "In all material tested so far, DNA sequences are distinct to each object in the room or are fragmented."
+    cs: "Ve všech dosud zkoumaných materiálech jsou sekvence DNA samostatné pro každý předmět v místnosti, nebo jsou fragmentované."
+    de: "In allen bisher untersuchten Materialien sind die DNA-Sequenzen für jeden Gegenstand im Raum eigenständig oder fragmentiert."
+    es: "En todos los materiales analizados hasta ahora, las secuencias de ADN son independientes para cada objeto de la habitación o están fragmentadas."
+    fr: "Dans toutes les matières analysées jusqu’ici, les séquences d’ADN sont propres à chaque objet de la pièce ou sont fragmentées."
+    it: "In tutti i materiali analizzati finora, le sequenze di DNA sono indipendenti per ciascun oggetto nella stanza oppure frammentate."
+    ko: "지금까지 검사한 모든 물질에서는 방 안의 물건마다 독립적이거나 단편화된 DNA 서열이 발견되었습니다."
+    pl: "We wszystkich zbadanych dotąd materiałach sekwencje DNA są odrębne dla każdego przedmiotu w pokoju lub pofragmentowane."
+    pt: "Em todos os materiais analisados até agora, as sequências de DNA são independentes para cada objeto da sala ou estão fragmentadas."
+    th: "วัสดุทั้งหมดที่ตรวจจนถึงขณะนี้มีลำดับดีเอ็นเอที่เป็นอิสระแยกตามวัตถุแต่ละชิ้นในห้อง หรืออยู่ในสภาพแตกเป็นชิ้นส่วน"
+    uk: "У всіх досі досліджених матеріалах послідовності ДНК є окремими для кожного предмета в кімнаті або фрагментованими."
+    vi: "Trong tất cả vật chất đã được kiểm tra đến nay, trình tự ADN độc lập theo từng đồ vật trong phòng hoặc bị phân mảnh."
+    zh: "迄今检验过的所有材料，都显示出按室内物品分别独立、或呈片段化的DNA序列。"
+    zh_Hant: "迄今檢驗過的所有材料，都顯示出按室內物品分別獨立、或呈片段化的DNA序列。"

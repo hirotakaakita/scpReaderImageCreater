@@ -1,0 +1,120 @@
+id: scp-500
+title:
+  ja: "SCP-500：万能薬"
+  en: "SCP-500: Panacea"
+  cs: "SCP-500: Panacea"
+  de: "SCP-500: Panazee"
+  es: "SCP-500: Panacea"
+  fr: "SCP-500: La Panacée"
+  it: "SCP-500: Panacea"
+  ko: "SCP-500: 만병통치약"
+  pl: "SCP-500: Panaceum"
+  pt: "SCP-500: Panaceia"
+  th: "SCP-500: ยาครอบจักรวาล"
+  uk: "SCP-500: Панацея"
+  vi: "SCP-500: Thuốc Vạn Ứng"
+  zh: "SCP-500：万能药"
+  zh_Hant: "SCP-500：萬靈藥"
+object_class: Safe
+attribution:
+  article: SCP-500
+  source_url: https://scp-wiki.wikidot.com/scp-500
+  author: "snorlison"
+local_characters:
+  patient:
+    name: "Patient"
+    appearance: "Fictional adult woman with short brown hair, average build."
+    default_look: "Plain gray patient clothing, no markings."
+panels:
+- scene: "A small unmarked plastic medicine container holding red pills, lid beside it on a dim laboratory counter. Depict a partial view of contents rather than an invented exact visible count; ordinary red pills, no glow. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Top-down close view into small open plastic pill container, lid offset right, red pills partially overlapped and uncountable, no markings."
+  characters: []
+  source:
+    section: Description
+    quote: "forty-seven (47) red pills"
+    url: https://scp-wiki.wikidot.com/scp-500
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-500は小さなプラスチック容器に入った赤い錠剤です。記事の説明時点では47錠が残っています。"
+    en: "SCP-500 consists of red pills in a small plastic container. The Description records 47 pills remaining."
+    cs: "SCP-500 tvoří červené pilulky v malé plastové nádobce. Popis zaznamenává 47 zbývajících pilulek."
+    de: "SCP-500 besteht aus roten Tabletten in einem kleinen Kunststoffbehälter. Die Beschreibung verzeichnet 47 verbliebene Tabletten."
+    es: "SCP-500 son pastillas rojas en un pequeño recipiente de plástico. La Descripción registra 47 pastillas restantes."
+    fr: "SCP-500 est constitué de pilules rouges dans un petit récipient en plastique. La Description en dénombre encore 47."
+    it: "SCP-500 consiste in pillole rosse in un piccolo contenitore di plastica. La Descrizione ne registra 47 rimanenti."
+    ko: "SCP-500은 작은 플라스틱 용기에 든 붉은 알약입니다. 설명 작성 시점에 47정이 남아 있습니다."
+    pl: "SCP-500 to czerwone tabletki w małym plastikowym pojemniku. Opis podaje, że pozostało ich 47."
+    pt: "SCP-500 são comprimidos vermelhos num pequeno recipiente plástico. A Descrição registra 47 comprimidos restantes."
+    th: "SCP-500 เป็นยาเม็ดสีแดงในภาชนะพลาสติกขนาดเล็ก ส่วนคำอธิบายระบุว่าเหลืออยู่ 47 เม็ด"
+    uk: "SCP-500 — червоні пігулки в невеликій пластиковій ємності. В описі зазначено, що залишилося 47 пігулок."
+    vi: "SCP-500 gồm các viên thuốc đỏ trong hộp nhựa nhỏ. Phần Mô tả ghi nhận còn 47 viên."
+    zh: "SCP-500是装在小塑料容器里的红色药片。描述撰写时，尚余47片。"
+    zh_Hant: "SCP-500是裝在小塑膠容器裡的紅色藥片。描述撰寫時，尚餘47片。"
+- scene: "An adult fictional patient holds one red pill at their lips under a researcher's observation. Single non-graphic clinical moment, no other medicines or depicted real-world prescribing instructions. Red pill remains focal. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Close side portrait of short-haired adult patient in gray clothing taking one red pill, elbow bent, observer farther behind with hands folded."
+  characters: ["patient","attending-researcher-m"]
+  source:
+    section: Description
+    quote: "cures the subject of all diseases"
+    url: https://scp-wiki.wikidot.com/scp-500
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-500を1錠口から服用すると、服用者が抱えるあらゆる病気が治ります。"
+    en: "A single SCP-500 pill taken orally cures all diseases affecting the subject."
+    cs: "Jediná pilulka užitá ústy vyléčí všechny nemoci daného člověka."
+    de: "Eine einzige oral eingenommene Tablette heilt sämtliche Krankheiten der betroffenen Person."
+    es: "Una sola pastilla ingerida por vía oral cura todas las enfermedades del sujeto."
+    fr: "Une seule pilule prise par voie orale guérit toutes les maladies du sujet."
+    it: "Una sola pillola assunta per bocca cura tutte le malattie del soggetto."
+    ko: "단 한 알을 입으로 복용하면 대상자가 앓는 모든 질병을 치료합니다."
+    pl: "Jedna tabletka przyjęta doustnie leczy wszystkie choroby danej osoby."
+    pt: "Um único comprimido tomado por via oral cura todas as doenças do indivíduo."
+    th: "กินเพียงหนึ่งเม็ดก็รักษาโรคทุกชนิดที่ผู้รับยากำลังเป็นอยู่ได้"
+    uk: "Одна пігулка, прийнята через рот, виліковує всі хвороби суб’єкта."
+    vi: "Chỉ một viên uống qua miệng chữa mọi bệnh mà đối tượng mắc phải."
+    zh: "只需口服一片，就能治愈服用者患有的所有疾病。"
+    zh_Hant: "只需口服一片，就能治癒服用者患有的所有疾病。"
+- scene: "The same adult patient now sits alert on the clinical bed, observed quietly by the researcher. Ordinary healthy appearance and restrained relief. No montage, graphic before-after injuries, numerical clock or magical healing aura. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Wide view from foot of bed, same patient sitting upright and relaxed with hands on lap, researcher at bedside standing upright, relief restrained."
+  characters: ["patient","attending-researcher-m"]
+  source:
+    section: Description
+    quote: "within two hours"
+    url: https://scp-wiki.wikidot.com/scp-500
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-500による治癒は、服用から2時間以内に完了します。正確な所要時間は、服用者の病気の重さと数によって変わります。"
+    en: "SCP-500 completes the cure within two hours of ingestion. The exact duration depends on the severity and number of the subject's illnesses."
+    cs: "SCP-500 dokončí vyléčení do dvou hodin od požití. Přesná doba závisí na závažnosti a počtu nemocí daného člověka."
+    de: "SCP-500 schließt die Heilung innerhalb von zwei Stunden nach Einnahme ab. Die genaue Dauer hängt von Schwere und Anzahl der Erkrankungen ab."
+    es: "SCP-500 completa la curación dentro de las dos horas posteriores a la ingesta. La duración exacta depende de la gravedad y cantidad de enfermedades del sujeto."
+    fr: "SCP-500 achève la guérison dans les deux heures suivant l’ingestion. La durée exacte dépend de la gravité et du nombre de maladies du sujet."
+    it: "SCP-500 completa la guarigione entro due ore dall’ingestione. La durata esatta dipende dalla gravità e dal numero di malattie del soggetto."
+    ko: "SCP-500은 복용 후 두 시간 이내에 치료를 완료합니다. 정확한 소요 시간은 복용자의 질병 수와 심각도에 따라 달라집니다."
+    pl: "SCP-500 kończy leczenie w ciągu dwóch godzin od połknięcia. Dokładny czas zależy od ciężkości i liczby chorób danej osoby."
+    pt: "SCP-500 conclui a cura em até duas horas após a ingestão. A duração exata depende da gravidade e da quantidade de doenças do indivíduo."
+    th: "SCP-500 รักษาจนหายภายในสองชั่วโมงหลังรับประทาน ระยะเวลาที่แน่นอนขึ้นอยู่กับความรุนแรงและจำนวนโรคของผู้รับยา"
+    uk: "SCP-500 завершує вилікування протягом двох годин після приймання. Точний час залежить від тяжкості й кількості захворювань суб’єкта."
+    vi: "SCP-500 hoàn tất việc chữa khỏi trong vòng hai giờ sau khi uống. Thời gian chính xác tùy thuộc mức độ nặng và số bệnh của người dùng."
+    zh: "SCP-500会在服用后两小时内完成治愈。准确耗时取决于患者疾病的严重程度和数量。"
+    zh_Hant: "SCP-500會在服用後兩小時內完成治癒。準確耗時取決於患者疾病的嚴重程度和數量。"
+- scene: "A researcher studies an isolated red pill with ordinary analytical equipment beside unused glassware. The scarce source container sits in the foreground. No clone pills, other SCPs, readable formulas or invented synthesis setup. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Low bench-level close view of isolated red pill beside analytical lens and glassware, researcher behind lens examining downward, container in near foreground; researcher distinct from patient."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "have been unsuccessful"
+    url: https://scp-wiki.wikidot.com/scp-500
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-500の有効成分と考えられる物質を合成する試みは、繰り返し行われても成功していません。"
+    en: "Repeated attempts to synthesize what is believed to be SCP-500's active ingredient have all failed."
+    cs: "Opakované pokusy syntetizovat předpokládanou účinnou látku všechny selhaly."
+    de: "Alle wiederholten Versuche, den vermuteten Wirkstoff zu synthetisieren, sind gescheitert."
+    es: "Todos los intentos reiterados de sintetizar el supuesto ingrediente activo han fracasado."
+    fr: "Toutes les tentatives répétées de synthétiser le principe actif présumé ont échoué."
+    it: "Tutti i ripetuti tentativi di sintetizzare il presunto principio attivo sono falliti."
+    ko: "하지만 유효 성분으로 추정되는 물질을 합성하려는 반복된 시도는 모두 실패했습니다."
+    pl: "Wszystkie wielokrotne próby syntezy domniemanej substancji czynnej zakończyły się niepowodzeniem."
+    pt: "Todas as repetidas tentativas de sintetizar o suposto princípio ativo fracassaram."
+    th: "แต่ความพยายามสังเคราะห์สารที่เชื่อว่าเป็นตัวยาออกฤทธิ์ล้มเหลวทุกครั้ง แม้ทดลองซ้ำหลายครั้ง"
+    uk: "Усі неодноразові спроби синтезувати ймовірну діючу речовину зазнали невдачі."
+    vi: "Mọi nỗ lực lặp lại nhằm tổng hợp chất được cho là hoạt chất đều thất bại."
+    zh: "然而，反复尝试合成疑似有效成分的实验，无一成功。"
+    zh_Hant: "然而，反覆嘗試合成疑似有效成分的實驗，無一成功。"

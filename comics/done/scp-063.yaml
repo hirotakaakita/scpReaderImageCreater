@@ -1,0 +1,120 @@
+id: scp-063
+title:
+  ja: "SCP-063：“世界最高の歯プラシ”"
+  en: "SCP-063: \"The World's Best TothBrush\""
+  cs: "SCP-063: \"Nejlepší kartáek na zuby na světě\""
+  de: "SCP-063: \"Die weltbeste Zahnbürste\""
+  es: "SCP-063: \"El Mejor Cepillo Dntal del Mundo\""
+  fr: "SCP-063: \"La Meilleure Brose à dents du monde\""
+  it: "SCP-063: \"Lo Spazolino Migliore del Mondo\""
+  ko: "SCP-063: \"세계 최고의 치솔\""
+  pl: "SCP-063: Najlepsza Szczoteczka do Zembów"
+  pt: "SCP-063: \"A Melhor Scova de Dentes do Mundo\""
+  th: "SCP-063: แปรงสีฟังที่เจ๋งที่สุดในโลก"
+  uk: "SCP-063: \"Найкраща у світі зубнощітка\""
+  vi: "SCP-063: \"Bàn Chải Đánh Răng Tốt Nhất Thế Giới\""
+  zh: "SCP-063：“世界上最好的牙刷”"
+  zh_Hant: "SCP-063：「世界上最好用的牙刷」"
+object_class: Safe
+attribution:
+  article: SCP-063
+  source_url: https://scp-wiki.wikidot.com/scp-063
+  author: "Kain Pathos Crow"
+local_characters:
+  user:
+    name: "Toothbrush user"
+    appearance: "Anonymous adult man with short brown hair."
+    default_look: "Plain gray shirt, intact normal mouth."
+panels:
+- scene: "Macro view of an ordinary pale blue plastic toothbrush held over a dark counter. Its handle's inscription faces away from the viewer to keep the illustration text-free. Natural plastic highlights, no glow. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Full toothbrush in diagonal overhead product close-up, handle inscription turned down, gloved fingertips supporting handle at lower left."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "an average, pale blue toothbrush"
+    url: https://scp-wiki.wikidot.com/scp-063
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-063は淡い青色の歯ブラシです。側面には「世界最高の歯ブラシ」を意味する英語が印字されていますが、「歯ブラシ」の綴りが間違っています。"
+    en: "SCP-063 is a pale blue toothbrush. A stenciled English inscription on its side calls it the world's best toothbrush, but misspells the word toothbrush."
+    cs: "SCP-063 je světle modrý zubní kartáček. Anglický nápis nanesený šablonou na boku jej označuje za nejlepší na světě, ale slovo kartáček obsahuje překlep."
+    de: "SCP-063 ist eine hellblaue Zahnbürste. Eine seitlich aufschablonierte englische Aufschrift nennt sie die beste der Welt, schreibt aber das Wort Zahnbürste falsch."
+    es: "SCP-063 es un cepillo de dientes azul pálido. Una inscripción inglesa estarcida en el lateral lo llama el mejor del mundo, pero escribe mal la palabra cepillo de dientes."
+    fr: "SCP-063 est une brosse à dents bleu pâle. Une inscription anglaise au pochoir sur le côté la dit meilleure du monde, mais orthographie mal le mot brosse à dents."
+    it: "SCP-063 è uno spazzolino azzurro pallido. Una scritta inglese stampigliata sul lato lo definisce il migliore al mondo, ma scrive male la parola spazzolino."
+    ko: "SCP-063은 옅은 파란색 칫솔입니다. 측면에는 세계 최고의 칫솔이라는 뜻의 영어가 인쇄되어 있지만 칫솔이라는 단어의 철자가 틀렸습니다."
+    pl: "SCP-063 to jasnoniebieska szczoteczka. Angielski napis naniesiony szablonem na boku nazywa ją najlepszą na świecie, lecz zawiera błąd w słowie szczoteczka."
+    pt: "SCP-063 é uma escova de dentes azul-clara. Uma inscrição em inglês aplicada por estêncil na lateral a chama de melhor do mundo, mas escreve errado a palavra escova de dentes."
+    th: "SCP-063 เป็นแปรงสีฟันสีฟ้าอ่อน ด้านข้างมีข้อความภาษาอังกฤษพิมพ์ด้วยแม่แบบว่าดีที่สุดในโลก แต่สะกดคำว่าแปรงสีฟันผิด"
+    uk: "SCP-063 — блідо-блакитна зубна щітка. Англійський трафаретний напис збоку називає її найкращою у світі, але слово зубна щітка написано з помилкою."
+    vi: "SCP-063 là bàn chải xanh nhạt. Dòng tiếng Anh in khuôn bên hông gọi nó là bàn chải tốt nhất thế giới, nhưng viết sai chính tả từ bàn chải."
+    zh: "SCP-063是一把淡蓝色牙刷。侧面印有自称世界最佳牙刷的英文，但其中牙刷一词拼写错误。"
+    zh_Hant: "SCP-063是一把淡藍色牙刷。側面印有自稱世界最佳牙刷的英文，但其中牙刷一詞拼字錯誤。"
+- scene: "Extreme close view of the toothbrush bristles crossing the edge of a generic metal sample; the swept portion is simply absent, without chips, dust, melted edges or a magical beam. Gloved hand holds the intact handle. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Extreme side-on bristle-level view at metal edge, gloved wrist angled down, erased notch visible without debris; brush is ordinary hand size."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "completely expunged from existence"
+    url: https://scp-wiki.wikidot.com/scp-063
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-063の毛先が触れると、死んだ物質や無機物は切れるのではなく、痕跡もなく消え去ります。"
+    en: "Material that is dead or inorganic is not merely cut by SCP-063's bristles: it is erased completely, without residue."
+    cs: "Mrtvý či anorganický materiál štětiny pouze neřežou: zcela jej vymažou, beze zbytku."
+    de: "Totes oder anorganisches Material wird von den Borsten nicht bloß zerschnitten, sondern rückstandslos ausgelöscht."
+    es: "Las cerdas no solo cortan materia muerta o inorgánica: la borran por completo, sin residuos."
+    fr: "Les poils ne découpent pas simplement les matières mortes ou inorganiques : ils les effacent entièrement, sans résidus."
+    it: "Le setole non si limitano a tagliare materia morta o inorganica: la cancellano completamente, senza residui."
+    ko: "솔은 죽은 물질이나 무기물을 단순히 자르는 것이 아니라 흔적 없이 완전히 없애 버립니다."
+    pl: "Włosie nie tylko przecina martwą lub nieorganiczną materię: całkowicie ją usuwa, bez żadnych pozostałości."
+    pt: "As cerdas não apenas cortam matéria morta ou inorgânica: apagam-na completamente, sem resíduos."
+    th: "ขนแปรงไม่ได้แค่ตัดวัตถุที่ตายแล้วหรือสารอนินทรีย์ แต่ลบมันออกไปทั้งหมดโดยไม่เหลือเศษ"
+    uk: "Щетинки не просто ріжуть мертву чи неорганічну матерію: вони повністю стирають її без залишку."
+    vi: "Lông bàn chải không chỉ cắt vật chất đã chết hoặc vô cơ: chúng xóa sạch hoàn toàn, không để lại cặn."
+    zh: "刷毛并非只是切开死亡或无机物质，而是将其彻底抹除，不留残余。"
+    zh_Hant: "刷毛並非只是切開死亡或無機物質，而是將其徹底抹除，不留殘餘。"
+- scene: "An adult gently brushes their teeth with the same pale blue toothbrush at a dim washbasin. Calm expression, normal intact mouth, bristles visible. No whitening sparkles or invented bodily injury. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Medium side-profile view of adult at washbasin, elbow bent as brush contacts teeth, free hand rests on basin edge; no mirror duplicate."
+  characters: ["user"]
+  source:
+    section: Description
+    quote: "remarkably clean"
+    url: https://scp-wiki.wikidot.com/scp-063
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-063で歯を磨いた被験者は、歯が驚くほどきれいになったと報告しています。"
+    en: "Yet subjects who brush with SCP-063 report that their teeth feel remarkably clean."
+    cs: "Přesto lidé, kteří si jím čistí zuby, uvádějí pocit mimořádně čistých zubů."
+    de: "Wer damit die Zähne putzt, berichtet jedoch von einem außergewöhnlich sauberen Gefühl."
+    es: "Sin embargo, quienes se cepillan con él afirman sentir los dientes extraordinariamente limpios."
+    fr: "Pourtant, les personnes qui l’utilisent disent avoir les dents remarquablement propres."
+    it: "Eppure chi lo usa riferisce di sentire i denti straordinariamente puliti."
+    ko: "한편 이 칫솔을 사용한 피험자들은 이가 놀랄 만큼 깨끗해졌다고 보고합니다."
+    pl: "Jednak osoby, które myją nią zęby, zgłaszają poczucie niezwykłej czystości."
+    pt: "No entanto, quem a usa relata sentir os dentes extraordinariamente limpos."
+    th: "อย่างไรก็ตาม ผู้ที่ใช้มันแปรงฟันรายงานว่ารู้สึกว่าฟันสะอาดอย่างน่าทึ่ง"
+    uk: "Однак люди, які чистять нею зуби, повідомляють про відчуття надзвичайної чистоти."
+    vi: "Tuy nhiên, người dùng nó đánh răng cho biết răng họ có cảm giác sạch đến kinh ngạc."
+    zh: "然而，用它刷牙的受试者却表示，牙齿感觉干净得惊人。"
+    zh_Hant: "然而，用它刷牙的受試者卻表示，牙齒感覺乾淨得驚人。"
+- scene: "The pale blue toothbrush lies beneath a laboratory inspection lens, bristles and handle in crisp focus with a researcher softly blurred behind. No readouts or diagrams, no secret internal mechanism. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. High overhead view centered on brush beneath inspection lens, observer's hands resting either side of bench, face mostly outside crop."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "common plastic"
+    url: https://scp-wiki.wikidot.com/scp-063
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "研究所の分析では、SCP-063は全体が普通のプラスチックでできていると判明しています。異常な能力があっても、材質自体は特別ではありません。"
+    en: "Laboratory analysis found SCP-063 to be made entirely of ordinary plastic. Despite its anomalous ability, its material is unremarkable."
+    cs: "Laboratorní analýza zjistila, že SCP-063 je celé z běžného plastu. Navzdory anomální schopnosti není jeho materiál ničím zvláštní."
+    de: "Laboranalysen ergaben, dass SCP-063 vollständig aus gewöhnlichem Kunststoff besteht. Trotz seiner anomalen Fähigkeit ist das Material unauffällig."
+    es: "El análisis de laboratorio determinó que SCP-063 está hecho enteramente de plástico común. Pese a su capacidad anómala, el material no tiene nada especial."
+    fr: "L’analyse a établi que SCP-063 est entièrement en plastique ordinaire. Malgré sa capacité anormale, son matériau n’a rien de particulier."
+    it: "Le analisi hanno stabilito che SCP-063 è interamente di plastica comune. Nonostante la capacità anomala, il materiale non ha nulla di particolare."
+    ko: "실험실 분석 결과 SCP-063은 전체가 평범한 플라스틱으로 이루어져 있습니다. 변칙적인 능력과 달리 재질 자체는 특별하지 않습니다."
+    pl: "Analizy wykazały, że SCP-063 w całości wykonano ze zwykłego plastiku. Mimo anomalnej zdolności materiał nie wyróżnia się niczym szczególnym."
+    pt: "A análise constatou que SCP-063 é inteiramente feito de plástico comum. Apesar da capacidade anômala, o material não tem nada de especial."
+    th: "ผลวิเคราะห์พบว่า SCP-063 ทำจากพลาสติกธรรมดาทั้งชิ้น แม้มีความสามารถผิดปกติ แต่วัสดุไม่ได้มีอะไรพิเศษ"
+    uk: "Лабораторний аналіз установив, що SCP-063 повністю зроблений зі звичайного пластику. Попри аномальну здатність, матеріал нічим не вирізняється."
+    vi: "Phân tích xác định SCP-063 hoàn toàn làm từ nhựa thông thường. Dù có năng lực bất thường, vật liệu của nó không có gì đặc biệt."
+    zh: "实验室分析发现，SCP-063完全由普通塑料制成。尽管能力异常，材质本身并不特殊。"
+    zh_Hant: "實驗室分析發現，SCP-063完全由普通塑膠製成。儘管能力異常，材質本身並不特殊。"

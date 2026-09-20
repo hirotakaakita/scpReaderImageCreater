@@ -2,7 +2,4 @@ fonts/
 __pycache__/
 *.pyc
 .venv/
-output/*/panels_temp/
-output/*/prompts/
-output/*/generated-page.png
-output/*/review-sheet.png
+/output/

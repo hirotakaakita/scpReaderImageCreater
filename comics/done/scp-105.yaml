@@ -1,0 +1,120 @@
+id: scp-105
+title:
+  ja: "SCP-105：\"アイリス\""
+  en: "SCP-105: \"Iris\""
+  cs: "SCP-105: \"Iris\""
+  de: "SCP-105: \"Iris\""
+  es: "SCP-105: \"Iris\""
+  fr: "SCP-105: \"Iris\""
+  it: "SCP-105: \"Iris\""
+  ko: "SCP-105: \"아이리스\""
+  pl: "SCP-105: \"Iris\""
+  pt: "SCP-105: \"Iris\""
+  th: "SCP-105: \"ไอริส\""
+  uk: "SCP-105: \"Айріс\""
+  vi: "SCP-105: \"Iris\""
+  zh: "SCP-105：“鸢娓”"
+  zh_Hant: "SCP-105：「Iris」"
+object_class: Safe
+attribution:
+  article: SCP-105
+  source_url: https://scp-wiki.wikidot.com/scp-105
+  author: "thedeadlymoose, Dantensen, and DrClef"
+local_characters:
+  iris:
+    name: "Iris Thompson"
+    appearance: "European woman, 1.54 metres tall, blonde hair, blue eyes, no unusual physical characteristics."
+    default_look: "Blonde hair loosely tied with fine wisps; plain white coat over light knit top and dark trousers. No markings."
+panels:
+- scene: "Iris Thompson, a 1.54-metre-tall European woman with blonde hair and blue eyes, holds a 1982 Polaroid One Step Express camera. Natural body proportions, quiet expression; camera branding outside view. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Medium-wide standing three-quarter portrait of Iris, camera held at waist with both hands, gaze down toward it; natural blonde hair and blue eyes, no logos."
+  characters: ["iris"]
+  source:
+    section: Description
+    quote: "Polaroid One Step Express camera"
+    url: https://scp-wiki.wikidot.com/scp-105
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-105ことアイリス・トンプソンは、金髪で青い目の女性です。彼女のカメラSCP-105-Bは1982年製のポラロイドです。"
+    en: "SCP-105, Iris Thompson, is a blonde, blue-eyed woman. Her personal SCP-105-B is a Polaroid camera manufactured in 1982."
+    cs: "Iris Thompson je světlovlasá žena s modrýma očima. Její osobní SCP-105-B je fotoaparát Polaroid vyrobený roku 1982."
+    de: "Iris Thompson ist eine blonde, blauäugige Frau. Ihre persönliche SCP-105-B ist eine 1982 hergestellte Polaroidkamera."
+    es: "Iris Thompson es una mujer rubia de ojos azules. Su cámara personal SCP-105-B es una Polaroid fabricada en 1982."
+    fr: "Iris Thompson est une femme blonde aux yeux bleus. Son appareil personnel SCP-105-B est un Polaroid fabriqué en 1982."
+    it: "Iris Thompson è una donna bionda con occhi azzurri. La sua SCP-105-B è una fotocamera Polaroid prodotta nel 1982."
+    ko: "아이리스 톰프슨은 금발에 푸른 눈을 가진 여성입니다. 개인 카메라 SCP-105-B는 1982년산 폴라로이드입니다."
+    pl: "Iris Thompson to blondynka o niebieskich oczach. Jej osobisty SCP-105-B jest aparatem Polaroid wyprodukowanym w 1982 roku."
+    pt: "Iris Thompson é uma mulher loira de olhos azuis. Sua câmera pessoal SCP-105-B é uma Polaroid fabricada em 1982."
+    th: "ไอริส ทอมป์สันเป็นหญิงผมบลอนด์ตาสีฟ้า กล้องส่วนตัว SCP-105-B ของเธอเป็นโพลารอยด์ที่ผลิตในปี 1982"
+    uk: "Айріс Томпсон — білява жінка з блакитними очима. Її особистий SCP-105-B — камера Polaroid 1982 року виробництва."
+    vi: "Iris Thompson là phụ nữ tóc vàng, mắt xanh. SCP-105-B của cô là máy ảnh Polaroid sản xuất năm 1982."
+    zh: "艾莉丝·汤普森是一名金发蓝眼女性。她的私人相机SCP-105-B是1982年制造的宝丽来。"
+    zh_Hant: "艾莉絲·湯普森是一名金髮藍眼女性。她的私人相機SCP-105-B是1982年製造的寶麗來。"
+- scene: "Over Iris's shoulder, she holds one physical instant photograph of a room with a curtain stirring. The small photographic object is a real prop in this single scene, not a comic inset; slight curtain motion only inside the photo suggests the live view. No effects glow. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Tight over-shoulder view tilted slightly downward toward physical photo in Iris's hands, both thumbs on white margin, curtain visible within photo only."
+  characters: ["iris"]
+  source:
+    section: Description
+    quote: "real-time image of the location in question"
+    url: https://scp-wiki.wikidot.com/scp-105
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "アイリスがSCP-105-Bで撮った写真を持つと、静止画が撮影場所のリアルタイム映像に変わります。"
+    en: "When Iris holds a photograph from SCP-105-B, the still picture becomes a real-time view of the photographed location."
+    cs: "Když drží fotografii z tohoto přístroje, statický snímek se změní v živý pohled na vyfotografované místo."
+    de: "Hält sie ein Foto aus dieser Kamera, wird das Standbild zur Echtzeitansicht des aufgenommenen Ortes."
+    es: "Cuando sostiene una foto tomada con esa cámara, la imagen fija se convierte en una vista en tiempo real del lugar fotografiado."
+    fr: "Lorsqu’elle tient une photo issue de cet appareil, l’image fixe devient une vue en temps réel du lieu photographié."
+    it: "Quando tiene una foto scattata con quella camera, l’immagine fissa diventa una vista in tempo reale del luogo fotografato."
+    ko: "그 카메라로 찍은 사진을 들면 정지 영상이 촬영 장소의 실시간 영상으로 변합니다."
+    pl: "Gdy trzyma zdjęcie z tego aparatu, nieruchomy obraz zmienia się w widok fotografowanego miejsca w czasie rzeczywistym."
+    pt: "Quando segura uma foto dessa câmera, a imagem estática se torna uma visão em tempo real do local fotografado."
+    th: "เมื่อเธอถือภาพจากกล้องนั้น ภาพนิ่งจะกลายเป็นภาพสถานที่ที่ถ่ายแบบเวลาจริง"
+    uk: "Коли вона тримає фото з цієї камери, нерухомий знімок стає зображенням сфотографованого місця в реальному часі."
+    vi: "Khi cô cầm ảnh chụp bằng máy đó, ảnh tĩnh trở thành hình ảnh trực tiếp của địa điểm được chụp."
+    zh: "她拿着这台相机拍出的照片时，静止画面就会变成拍摄地点的实时影像。"
+    zh_Hant: "她拿著這台相機拍出的照片時，靜止畫面就會變成拍攝地點的即時影像。"
+- scene: "At the remote photographed room, a disembodied female hand emerges from empty air and reaches a plain cup on a table. Wrist disappears cleanly into an invisible boundary, no wound or glowing portal. Only remote location shown, no split view. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Low side-on tabletop view of cup and disembodied female hand reaching toward handle from an invisible point inside image; no full person or glowing portal."
+  characters: ["iris"]
+  source:
+    section: Description
+    quote: "disembodied female hand"
+    url: https://scp-wiki.wikidot.com/scp-105
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "アイリスは写真を通して手を伸ばし、元の撮影地点から手の届く物を動かせます。その場所にいる人には、何もない空間から彼女の手だけが現れたように見えます。"
+    en: "Iris can reach through a photograph and move objects within reach of the original shooting position. Witnesses at that location see only her hand emerging from an invisible portal."
+    cs: "Iris může sáhnout skrz fotografii a pohybovat předměty v dosahu původního místa pořízení. Svědci na místě vidí pouze její ruku vystupující z neviditelného portálu."
+    de: "Iris kann durch ein Foto greifen und Gegenstände in Reichweite des ursprünglichen Aufnahmestandorts bewegen. Zeugen vor Ort sehen nur ihre Hand aus einem unsichtbaren Portal kommen."
+    es: "Iris puede atravesar la foto con la mano y mover objetos al alcance desde el punto original de la toma. Los testigos allí ven solo su mano salir de un portal invisible."
+    fr: "Iris peut passer la main à travers une photo et déplacer les objets à portée du point de prise de vue initial. Sur place, les témoins voient seulement sa main sortir d’un portail invisible."
+    it: "Iris può infilare la mano attraverso una foto e muovere oggetti raggiungibili dal punto originale di ripresa. I testimoni sul posto vedono solo la sua mano uscire da un portale invisibile."
+    ko: "아이리스는 사진을 통해 손을 뻗어 원래 촬영 위치에서 손이 닿는 물체를 움직일 수 있습니다. 현장의 목격자는 보이지 않는 통로에서 그녀의 손만 나오는 모습을 봅니다."
+    pl: "Iris może sięgnąć przez zdjęcie i poruszać przedmiotami w zasięgu ręki od pierwotnego miejsca wykonania fotografii. Świadkowie widzą tam tylko jej dłoń wychodzącą z niewidzialnego portalu."
+    pt: "Iris pode estender a mão pela foto e mover objetos ao alcance da posição original da fotografia. Testemunhas no local veem apenas sua mão saindo de um portal invisível."
+    th: "ไอริสเอื้อมมือผ่านภาพถ่ายเพื่อขยับสิ่งของที่เอื้อมถึงจากตำแหน่งถ่ายภาพเดิมได้ ผู้เห็นเหตุการณ์ ณ จุดนั้นจะเห็นเพียงมือของเธอยื่นออกจากช่องทางที่มองไม่เห็น"
+    uk: "Айріс може простягати руку крізь фото й рухати предмети в межах досяжності від початкового місця знімання. Свідки на місці бачать лише її руку, що виходить із невидимого порталу."
+    vi: "Iris có thể đưa tay qua ảnh để di chuyển vật trong tầm với tính từ vị trí chụp ban đầu. Người chứng kiến tại đó chỉ thấy bàn tay cô xuất hiện từ một cổng vô hình."
+    zh: "艾莉丝能把手伸入照片，移动从原拍摄位置伸手可及的物品。现场目击者只会看见她的手从无形通道中伸出。"
+    zh_Hant: "艾莉絲能把手伸入照片，移動從原拍攝位置伸手可及的物品。現場目擊者只會看見她的手從無形通道中伸出。"
+- scene: "The attending female researcher holds the same instant photograph as an ordinary inert photograph while Iris watches with her camera. No motion inside this image, no supernatural emission. One continuous tabletop composition. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Medium side view across table: female researcher sitting on left raises ordinary photo to eye level with one hand; Iris standing on right cradles camera at waist and watches photo. Distinct from prior closeup framing."
+  characters: ["attending-researcher-f","iris"]
+  source:
+    section: Description
+    quote: "no unusual properties"
+    url: https://scp-wiki.wikidot.com/scp-105
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "他人が使えばSCP-105-Bもその写真も普通です。アイリスの能力は別の写真でも限定的に働きますが、精密な操作ができるのはSCP-105-Bで撮った写真だけです。"
+    en: "For others, camera and photos behave normally. Other photographs allow limited use of her ability, but fine control requires her own camera's photos."
+    cs: "Pro ostatní jsou kamera i fotografie normální. Jiné snímky umožňují jen omezené schopnosti; přesné ovládání vyžaduje fotografie z její kamery."
+    de: "Für andere funktionieren Kamera und Fotos normal. Andere Fotos erlauben begrenzte Fähigkeiten; präzise Kontrolle gelingt nur mit Bildern ihrer eigenen Kamera."
+    es: "Para otros, cámara y fotos son normales. Otras fotografías permiten un uso limitado de su poder; el control preciso requiere fotos de su cámara."
+    fr: "Pour les autres, appareil et photos restent ordinaires. D’autres photos permettent un usage limité du pouvoir ; le contrôle précis exige celles de son appareil."
+    it: "Per gli altri, camera e foto sono normali. Altre fotografie consentono poteri limitati; il controllo preciso richiede le foto della sua camera."
+    ko: "다른 사람이 쓰면 카메라와 사진은 평범합니다. 다른 사진에도 능력이 제한적으로 작용하지만 정밀 조작은 자신의 카메라로 찍은 사진에서만 가능합니다."
+    pl: "Dla innych aparat i zdjęcia są zwyczajne. Inne fotografie pozwalają na ograniczone użycie zdolności; precyzja wymaga zdjęć z jej aparatu."
+    pt: "Para outros, câmera e fotos são normais. Outras fotografias permitem uso limitado do poder; o controle preciso exige fotos de sua câmera."
+    th: "สำหรับคนอื่น กล้องและภาพทำงานตามปกติ ภาพอื่นใช้พลังได้จำกัด แต่การควบคุมอย่างละเอียดต้องใช้ภาพจากกล้องของเธอ"
+    uk: "Для інших камера й фото звичайні. Інші знімки дозволяють обмежено використовувати здібність, але точний контроль потребує фото з її камери."
+    vi: "Với người khác, máy ảnh và ảnh đều bình thường. Ảnh khác cho phép dùng năng lực hạn chế; thao tác chính xác cần ảnh từ máy của cô."
+    zh: "其他人使用时，相机和照片都很普通。她对其他照片也有有限的能力，但精细操纵仅限自己相机拍出的照片。"
+    zh_Hant: "其他人使用時，相機和照片都很普通。她對其他照片也有有限的能力，但精細操縱僅限自己相機拍出的照片。"

@@ -1,0 +1,120 @@
+id: scp-447
+title:
+  ja: "SCP-447：緑のスライム"
+  en: "SCP-447: Ball of Green Slime"
+  cs: "SCP-447: Koule zeleného slizu"
+  de: "SCP-447: Kugel aus grünem Schleim"
+  es: "SCP-447: Bola de Limo Verde"
+  fr: "SCP-447: Boule de gelée verte"
+  it: "SCP-447: Palla di Muco Verde"
+  ko: "SCP-447: 녹색 끈끈이공"
+  pl: "SCP-447: Kula zielonej mazi"
+  pt: "SCP-447: Bola de Gosma Verde"
+  th: "SCP-447: เมือกสีเขียว"
+  uk: "SCP-447: Кулька з зеленого слизу"
+  vi: "SCP-447: Bóng Slime Đa Dụng"
+  zh: "SCP-447：绿色黏液球"
+  zh_Hant: "SCP-447：綠黏球"
+object_class: Safe
+attribution:
+  article: SCP-447
+  source_url: https://scp-wiki.wikidot.com/scp-447
+  author: "DrClef"
+local_characters: {}
+panels:
+- scene: "A green spongy sphere roughly five centimetres across on a laboratory weighing pan, a nearby gloved hand establishing small scale. Nonluminous green texture, no loose slime in this Description-only panel. Scale readout out of view. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Extreme close scale comparison, five-centimetre green sphere on weighing pan beside gloved fingers, display out of crop."
+  characters: ["attending-researcher-f"]
+  source:
+    section: Description
+    quote: "approximately 5 cm in diameter"
+    url: https://scp-wiki.wikidot.com/scp-447
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-447-1は直径約5cmの緑の球体です。スポンジ状なのに、重さは1.37kgあります。"
+    en: "SCP-447-1 is a green sphere about 5 cm across. Despite its spongy texture, it weighs 1.37 kg."
+    cs: "SCP-447-1 je zelená koule o průměru asi 5 cm. Navzdory houbovité struktuře váží 1,37 kg."
+    de: "SCP-447-1 ist eine grüne Kugel von etwa 5 cm Durchmesser. Trotz schwammiger Beschaffenheit wiegt sie 1,37 kg."
+    es: "SCP-447-1 es una esfera verde de unos 5 cm de diámetro. Pese a su textura esponjosa, pesa 1,37 kg."
+    fr: "SCP-447-1 est une sphère verte d’environ 5 cm de diamètre. Malgré sa texture spongieuse, elle pèse 1,37 kg."
+    it: "SCP-447-1 è una sfera verde di circa 5 cm di diametro. Nonostante la consistenza spugnosa, pesa 1,37 kg."
+    ko: "SCP-447-1은 지름 약 5cm의 녹색 구체입니다. 스펀지 같은 질감인데도 무게는 1.37kg입니다."
+    pl: "SCP-447-1 to zielona kula o średnicy około 5 cm. Mimo gąbczastej struktury waży 1,37 kg."
+    pt: "SCP-447-1 é uma esfera verde de cerca de 5 cm de diâmetro. Apesar da textura esponjosa, pesa 1,37 kg."
+    th: "SCP-447-1 เป็นทรงกลมสีเขียวเส้นผ่านศูนย์กลางราว 5 เซนติเมตร แม้มีเนื้อเหมือนฟองน้ำ แต่หนัก 1.37 กิโลกรัม"
+    uk: "SCP-447-1 — зелена куля діаметром близько 5 см. Попри губчасту структуру, вона важить 1,37 кг."
+    vi: "SCP-447-1 là quả cầu xanh đường kính khoảng 5 cm. Dù có kết cấu xốp, nó nặng 1,37 kg."
+    zh: "SCP-447-1是直径约5厘米的绿色球体。虽然质地像海绵，却重达1.37千克。"
+    zh_Hant: "SCP-447-1是直徑約5公分的綠色球體。雖然質地像海綿，卻重達1.37公斤。"
+- scene: "The green sphere inside a large transparent plastic container, a small amount of green slime collecting at its base. An attending worker handles collection equipment without any corpse present. The container dominates, no hazard lettering. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. High oblique view into large transparent collection container with tiny five-centimetre sphere and small slime pool, worker's hand holds collection vial near edge."
+  characters: ["d-class"]
+  source:
+    section: Special Containment Procedures
+    exception:
+      user_approved: true
+      reason: "The user explicitly approved moving the former final-panel containment content to panel 2 for SCP-447."
+    quote: "approximately 10 cc/hour"
+    url: https://scp-wiki.wikidot.com/scp-447
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-447-1は毎時約10ccの緑の粘液SCP-447-2を分泌するため、職員は少なくとも1日1回回収します。球体も粘液も、死体に接触させてはなりません。"
+    en: "SCP-447-1 exudes about 10 cc of green slime, SCP-447-2, per hour; staff must collect it at least once a day. Neither sphere nor slime may contact dead bodies."
+    cs: "SCP-447-1 vylučuje asi 10 cm³ zeleného slizu SCP-447-2 za hodinu; personál jej musí sbírat alespoň jednou denně. Koule ani sliz nesmějí přijít do kontaktu s mrtvými těly."
+    de: "SCP-447-1 sondert etwa 10 cm³ grünen Schleim SCP-447-2 pro Stunde ab; Personal muss ihn mindestens einmal täglich sammeln. Weder Kugel noch Schleim dürfen Leichen berühren."
+    es: "SCP-447-1 exuda unos 10 cm³ de limo verde SCP-447-2 por hora; el personal debe recogerlo al menos una vez al día. Ni esfera ni limo pueden tocar cadáveres."
+    fr: "SCP-447-1 exsude environ 10 cm³ de gelée verte SCP-447-2 par heure ; le personnel doit la collecter au moins une fois par jour. Ni sphère ni gelée ne doivent toucher de cadavres."
+    it: "SCP-447-1 secerne circa 10 cm³ di muco verde SCP-447-2 all’ora; il personale deve raccoglierlo almeno una volta al giorno. Né sfera né muco devono toccare cadaveri."
+    ko: "SCP-447-1은 시간당 약 10cc의 녹색 점액 SCP-447-2를 분비하므로 직원은 적어도 하루 한 번 수거해야 합니다. 구체와 점액 모두 시체에 접촉시켜서는 안 됩니다."
+    pl: "SCP-447-1 wydziela około 10 cm³ zielonej mazi SCP-447-2 na godzinę; personel musi zbierać ją co najmniej raz dziennie. Ani kula, ani maź nie mogą dotykać zwłok."
+    pt: "SCP-447-1 secreta cerca de 10 cm³ de gosma verde SCP-447-2 por hora; a equipe deve coletá-la pelo menos uma vez ao dia. Nem esfera nem gosma podem tocar cadáveres."
+    th: "SCP-447-1 หลั่งเมือกสีเขียว SCP-447-2 ราวสิบซีซีต่อชั่วโมง เจ้าหน้าที่ต้องเก็บอย่างน้อยวันละครั้ง ทั้งทรงกลมและเมือกห้ามสัมผัสศพ"
+    uk: "SCP-447-1 виділяє близько 10 см³ зеленого слизу SCP-447-2 за годину; персонал має збирати його щонайменше раз на добу. Ані куля, ані слиз не повинні торкатися трупів."
+    vi: "SCP-447-1 tiết khoảng 10 cc chất nhầy xanh SCP-447-2 mỗi giờ; nhân viên phải thu ít nhất một lần mỗi ngày. Không được để quả cầu hay chất nhầy chạm thi thể."
+    zh: "SCP-447-1每小时分泌约10立方厘米绿色黏液SCP-447-2，职员须至少每天收集一次。球体和黏液都不得接触尸体。"
+    zh_Hant: "SCP-447-1每小時分泌約10立方公分綠色黏液SCP-447-2，職員須至少每天收集一次。球體和黏液都不得接觸屍體。"
+- scene: "The small green sphere is calmly handled by a living researcher's hands with intact skin. Restrained unease in the researcher's expression; do not visualize any dead body, resurrection, attack or unknown consequence. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Close eye-level view of open living hand holding small green sphere, researcher looking down from soft background, no gripping-at-eye-level repeat."
+  characters: ["attending-researcher-f"]
+  source:
+    section: Description
+    quote: "SCP-447-1 or -2"
+    url: https://scp-wiki.wikidot.com/scp-447
+    fetched_at: '2026-09-20'
+  notes: "The user requested the combined safety statement for both components. Description reports no adverse handling effects for SCP-447-1 and documents corpse-contact dangers for both components; Special Containment Procedures in the same article explicitly states SCP-447-2 is safe unless it contacts a dead body."
+  caption:
+    ja: "球体SCP-447-1も粘液SCP-447-2も、死体に触れない限り安全とされています。死体との接触による危険性は記録されていますが、具体的な作用は削除されています。"
+    en: "Both the sphere SCP-447-1 and the slime SCP-447-2 are considered safe as long as they do not touch dead bodies. The danger of corpse contact is documented, but its specific effects are expunged."
+    cs: "Koule SCP-447-1 i sliz SCP-447-2 jsou považovány za bezpečné, pokud se nedotknou mrtvých těl. Nebezpečí kontaktu s mrtvolami je zdokumentováno, ale konkrétní účinky byly vymazány."
+    de: "Sowohl die Kugel SCP-447-1 als auch der Schleim SCP-447-2 gelten als sicher, solange sie keine Leichen berühren. Die Gefahr des Leichenkontakts ist dokumentiert, die konkreten Auswirkungen wurden jedoch gelöscht."
+    es: "Tanto la esfera SCP-447-1 como el limo SCP-447-2 se consideran seguros mientras no toquen cadáveres. El peligro de ese contacto está documentado, pero sus efectos concretos fueron expurgados."
+    fr: "La sphère SCP-447-1 et la gelée SCP-447-2 sont toutes deux considérées comme sûres tant qu’elles ne touchent pas de cadavres. Le danger de ce contact est documenté, mais ses effets précis ont été supprimés."
+    it: "Sia la sfera SCP-447-1 sia il muco SCP-447-2 sono considerati sicuri finché non toccano cadaveri. Il pericolo di tale contatto è documentato, ma gli effetti specifici sono stati espunti."
+    ko: "구체 SCP-447-1과 점액 SCP-447-2 모두 시체에 닿지 않는 한 안전한 것으로 여겨집니다. 시체 접촉의 위험은 기록되어 있지만 구체적인 효과는 말소되어 있습니다."
+    pl: "Zarówno kula SCP-447-1, jak i maź SCP-447-2 są uznawane za bezpieczne, dopóki nie dotykają zwłok. Niebezpieczeństwo takiego kontaktu jest udokumentowane, lecz konkretne skutki usunięto."
+    pt: "Tanto a esfera SCP-447-1 quanto a gosma SCP-447-2 são consideradas seguras desde que não toquem cadáveres. O perigo desse contato está documentado, mas os efeitos específicos foram expurgados."
+    th: "ทั้งทรงกลม SCP-447-1 และเมือก SCP-447-2 ถือว่าปลอดภัยตราบใดที่ไม่สัมผัสศพ อันตรายจากการสัมผัสศพมีบันทึกไว้ แต่ผลเฉพาะถูกลบออก"
+    uk: "І куля SCP-447-1, і слиз SCP-447-2 вважаються безпечними, доки не торкаються трупів. Небезпека такого контакту задокументована, але конкретні ефекти видалено."
+    vi: "Cả quả cầu SCP-447-1 lẫn chất nhầy SCP-447-2 đều được coi là an toàn miễn là không chạm thi thể. Nguy hiểm từ việc tiếp xúc thi thể đã được ghi nhận, nhưng tác động cụ thể bị xóa."
+    zh: "球体SCP-447-1和黏液SCP-447-2都被认为在不接触尸体时是安全的。接触尸体的危险已有记录，但具体效果已被删除。"
+    zh_Hant: "球體SCP-447-1和黏液SCP-447-2都被認為在不接觸屍體時是安全的。接觸屍體的危險已有紀錄，但具體效果已被刪除。"
+- scene: "A small glass dish of green SCP-447-2 slime sits beside a vegetable salad in a dim research facility dining area. A researcher examines the dish with restrained curiosity. The caption explains the separately reported fuel-efficiency application; do not depict mixing fuel with food, pouring fuel, flames, engines, or an invented experiment. Ordinary green slime without supernatural glow. Dark subdued cinematic atmosphere with realistic people and materials, clearly lit slime and salad readable on a smartphone. One square continuous scene without text, labels, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Overhead oblique view of green slime dish and vegetable salad on dining table, researcher's face near far edge and hands at rest either side, no fuel or engines. Show only a shallow puddle of translucent viscous green liquid in the dish, with a smooth wet meniscus. Do not put the solid spherical SCP-447-1 or a porous sponge in the dish or near the salad."
+  characters: ["attending-researcher-f"]
+  source:
+    section: Special Containment Procedures
+    quote: "improves fuel efficiency by 150%"
+    url: https://scp-wiki.wikidot.com/scp-447
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "粘液SCP-447-2は食用可能で、サラダのドレッシングとして良好だと報告されています。ガソリン1ガロンに10cc加えると、燃料効率が150%向上し、元の2.5倍になります。"
+    en: "SCP-447-2 slime is edible and reportedly makes a good salad dressing. Adding 10 cc to one gallon of gasoline increases fuel efficiency by 150%, to 2.5 times the original."
+    cs: "Sliz SCP-447-2 je jedlý a údajně tvoří dobrou salátovou zálivku. Přidání 10 cm³ do jednoho galonu benzínu zvýší palivovou účinnost o 150 %, na 2,5násobek původní hodnoty."
+    de: "Der Schleim SCP-447-2 ist essbar und soll ein gutes Salatdressing ergeben. 10 cm³ in einer Gallone Benzin erhöhen die Kraftstoffeffizienz um 150 %, auf das 2,5-Fache des Ausgangswerts."
+    es: "El limo SCP-447-2 es comestible y, según los informes, sirve como buen aderezo para ensaladas. Añadir 10 cm³ a un galón de gasolina aumenta la eficiencia del combustible un 150 %, hasta 2,5 veces la original."
+    fr: "La gelée SCP-447-2 est comestible et ferait une bonne sauce pour salade. Ajouter 10 cm³ à un gallon d’essence augmente le rendement du carburant de 150 %, soit 2,5 fois sa valeur initiale."
+    it: "Il muco SCP-447-2 è commestibile e si dice sia un buon condimento per insalata. Aggiungerne 10 cm³ a un gallone di benzina aumenta l’efficienza del carburante del 150%, portandola a 2,5 volte quella iniziale."
+    ko: "점액 SCP-447-2는 먹을 수 있으며 샐러드드레싱으로 좋다고 보고되었습니다. 휘발유 1갤런에 10cc를 넣으면 연료 효율이 150% 향상되어 원래의 2.5배가 됩니다."
+    pl: "Maź SCP-447-2 jest jadalna i podobno stanowi dobry sos do sałatek. Dodanie 10 cm³ do galona benzyny zwiększa efektywność paliwa o 150%, do 2,5-krotności wartości wyjściowej."
+    pt: "A gosma SCP-447-2 é comestível e, segundo relatos, serve como bom molho de salada. Adicionar 10 cm³ a um galão de gasolina aumenta a eficiência do combustível em 150%, para 2,5 vezes a original."
+    th: "เมือก SCP-447-2 กินได้และมีรายงานว่าใช้เป็นน้ำสลัดได้ดี การเติมสิบซีซีลงในน้ำมันเบนซินหนึ่งแกลลอนเพิ่มประสิทธิภาพเชื้อเพลิง 150% เป็น 2.5 เท่าของเดิม"
+    uk: "Слиз SCP-447-2 їстівний і, за повідомленнями, є доброю салатною заправкою. Додавання 10 см³ до галона бензину підвищує паливну ефективність на 150%, до 2,5 раза від початкової."
+    vi: "Chất nhầy SCP-447-2 ăn được và được báo cáo là nước xốt salad ngon. Thêm 10 cc vào một gallon xăng làm hiệu suất nhiên liệu tăng 150%, đạt 2,5 lần ban đầu."
+    zh: "黏液SCP-447-2可以食用，据报告很适合作为沙拉酱。每加仑汽油加入10立方厘米，可使燃料效率提高150%，达到原来的2.5倍。"
+    zh_Hant: "黏液SCP-447-2可以食用，據報告很適合作為沙拉醬。每加侖汽油加入10立方公分，可使燃料效率提高150%，達到原來的2.5倍。"

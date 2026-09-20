@@ -55,7 +55,7 @@ README全体、他のSCP YAML、他のoutput、リポジトリ全体検索は読
 1コマ再生成時の例:
 
 ```text
-トークン節約モードで、scp-173 の3コマ目だけ再生成してください。
+トークン節約モードで、scp-008 の3コマ目だけ再生成してください。
 $generate-scp-comic-images の手順で進めてください。
 他のコマは変更しないでください。
 ```
@@ -63,7 +63,7 @@ $generate-scp-comic-images の手順で進めてください。
 テキスト修正時の例:
 
 ```text
-トークン節約モードで、scp-173 の4コマ目captionだけ修正してください。
+トークン節約モードで、scp-008 の4コマ目captionだけ修正してください。
 $revise-comic-text の手順で進めてください。
 意味が変わるので15言語すべて更新してください。
 他のpanel/scene/imageは変更しないでください。
@@ -135,7 +135,7 @@ python scripts/comic_status.py scp-XXX --json
 ## 1. 台本作成だけ依頼する
 
 ```text
-scp-173 の漫画台本を作ってください。
+scp-008 の漫画台本を作ってください。
 トークン節約モードで進めてください。
 AGENTS.md と $make-scp-comic-script だけ読み、README全体や他のSCP YAMLは読まないでください。
 
@@ -143,11 +143,11 @@ AGENTS.md と $make-scp-comic-script だけ読み、README全体や他のSCP YAM
 - live記事を確認する
 - Description優先で4コマにする
 - Special Containment Proceduresを使う場合は4コマ目のみ
-- まず python scripts/create_script_stub.py scp-173 --quiet でYAML骨組みを作る
+- まず python scripts/create_script_stub.py scp-008 --quiet でYAML骨組みを作る
 - source provenance を各panelに入れる
 - 15言語captionを作る
 - internal reviewを行う
-- python scripts/validate_scripts.py comics/queue/scp-173.yaml --strict-source --quiet を実行する
+- python scripts/validate_scripts.py comics/queue/scp-008.yaml --strict-source --quiet を実行する
 
 画像生成はまだしないでください。
 ```
@@ -155,21 +155,32 @@ AGENTS.md と $make-scp-comic-script だけ読み、README全体や他のSCP YAM
 成果物:
 
 ```text
-comics/queue/scp-173.yaml
+comics/queue/scp-008.yaml
 ```
 
-## 2. 台本作成からimagegen用prompt出力まで依頼する
+## 2. 台本作成から全コマ画像生成まで一括で依頼する
 
 ```text
-scp-173 の漫画を、imagegenで画像生成できるところまで準備してください。
+scp-008 の漫画台本を作成し、imagegenで全4コマの画像生成まで続けて実施してください。
 トークン節約モードで進めてください。
-読む範囲は AGENTS.md、$make-scp-comic-script、$generate-scp-comic-images、対象YAML、output/scp-173/ の必要ファイルだけにしてください。
+読む範囲は AGENTS.md、$make-scp-comic-script、$generate-scp-comic-images、対象YAML、対象のlive記事・公式タイトル情報、両Skillsが必要とする設定・画風参照、output/scp-008/ の必要ファイルに絞ってください。
+README全体や他のSCP YAMLは読まないでください。
 
-1. python scripts/comic_status.py scp-173 --json
-2. $make-scp-comic-script で台本作成
-3. python scripts/validate_scripts.py comics/queue/scp-173.yaml --strict-source --quiet
-4. $generate-scp-comic-images でprompt export
-5. panelごとの imagegen request file を提示
+1. python scripts/comic_status.py scp-008 --json
+2. $make-scp-comic-script で台本作成（既存なら確認・必要な修正のみ）
+   - 新規なら python scripts/create_script_stub.py scp-008 --quiet で骨組みを作る
+   - live記事のDescription優先で4コマにし、収容手順は必要な場合の4コマ目のみ
+   - 15言語の公式タイトル・captionと各panelのsource provenanceを入れ、internal reviewを行う
+3. python scripts/validate_scripts.py comics/queue/scp-008.yaml --strict-source --quiet（doneにある場合はそのパス）
+4. $generate-scp-comic-images で python scripts/run_pipeline.py --id scp-008 --export-prompts を実行
+5. output/scp-008/prompts/panel_N_imagegen_request.txt を使い、ChatGPT画像生成（imagegen）で各コマ1枚ずつ生成
+6. 生成画像を確認し、必要なコマだけ再生成して、各panelのraw画像パスを報告
+
+条件:
+- 1コマにつき1枚の正方形画像を生成する
+- 漫画ページ、複数コマ、grid、frame、border、文字、caption、吹き出しは生成しない
+- imagegen用promptは人間が確認しないため、台本完成やprompt exportで停止せず、確認待ちなしで全コマ画像生成まで進める
+- prompt全文の提示は不要。中間ファイルとして保存し、そのままimagegenに渡す
 
 画像の取り込みと漫画完成はまだしないでください。
 ```
@@ -177,59 +188,28 @@ scp-173 の漫画を、imagegenで画像生成できるところまで準備し�
 成果物:
 
 ```text
-output/scp-173/prompts/panel_1_imagegen_request.txt
-output/scp-173/prompts/panel_2_imagegen_request.txt
-output/scp-173/prompts/panel_3_imagegen_request.txt
-output/scp-173/prompts/panel_4_imagegen_request.txt
-output/scp-173/prompts/manifest.json
+comics/queue/scp-008.yaml（既存のdone台本を使った場合はそのパス）
+output/scp-008/prompts/panel_N_imagegen_request.txt（N=1〜4、中間ファイル）
+output/scp-008/prompts/manifest.json
+各panelの生成済みraw画像（実際の保存先を報告）
 ```
 
-`panel_N_imagegen_request.txt` が、そのままChatGPT画像生成へ貼る完成依頼文です。
+画像だけを生成し直す場合は、`$generate-scp-comic-images`で対象SCPの全コマ生成を依頼できます。
 
-## 3. 全コマ画像生成を依頼する
-
-```text
-scp-173 の画像を生成してください。
-トークン節約モードで、$generate-scp-comic-images の手順で進めてください。
-
-読む範囲:
-- AGENTS.md
-- .agents/skills/generate-scp-comic-images/SKILL.md
-- comics/queue/scp-173.yaml または comics/done/scp-173.yaml
-- output/scp-173/prompts/manifest.json
-
-条件:
-- ChatGPT画像生成（imagegen）を使う
-- output/scp-173/prompts/panel_N_imagegen_request.txt を使う
-- 1コマにつき1枚の正方形画像を生成する
-- 漫画ページ、複数コマ、grid、frame、border、文字、caption、吹き出しは生成しない
-- 生成したraw画像パスを報告する
-
-完成処理はまだしないでください。
-```
-
-Codexが実行する基本コマンド:
-
-```bash
-python scripts/comic_status.py scp-173 --json
-python scripts/validate_scripts.py comics/queue/scp-173.yaml --quiet
-python scripts/run_pipeline.py --id scp-173 --export-prompts
-```
-
-## 4. 1コマだけ画像再生成を依頼する
+## 3. 1コマだけ画像再生成を依頼する
 
 1コマだけ失敗した場合は、必ずそのコマだけを対象にします。
 
 ```text
-scp-173 の3コマ目だけ再生成してください。
+scp-008 の3コマ目だけ再生成してください。
 トークン節約モードで、$generate-scp-comic-images の手順で進めてください。
 
 読む範囲:
 - AGENTS.md
 - .agents/skills/generate-scp-comic-images/SKILL.md
-- comics/queue/scp-173.yaml または comics/done/scp-173.yaml
-- output/scp-173/panels/selected.json
-- output/scp-173/prompts/manifest.json
+- comics/queue/scp-008.yaml または comics/done/scp-008.yaml
+- output/scp-008/panels/selected.json
+- output/scp-008/prompts/manifest.json
 
 対象:
 - panel: 3
@@ -239,11 +219,11 @@ scp-173 の3コマ目だけ再生成してください。
 - 他のコマはそのまま使う
 
 やること:
-- python scripts/comic_status.py scp-173 --json を実行する
+- python scripts/comic_status.py scp-008 --json を実行する
 - 必要なら panel 3 の scene だけ修正する
-- python scripts/validate_scripts.py comics/queue/scp-173.yaml --quiet を実行する
-- python scripts/run_pipeline.py --id scp-173 --export-prompts --panel 3 を実行する
-- output/scp-173/prompts/panel_3_imagegen_request.txt を使って imagegen でpanel 3だけ生成する
+- python scripts/validate_scripts.py comics/queue/scp-008.yaml --quiet を実行する
+- python scripts/run_pipeline.py --id scp-008 --export-prompts --panel 3 を実行する
+- output/scp-008/prompts/panel_3_imagegen_request.txt を使って imagegen でpanel 3だけ生成する
 - 生成したraw画像パスを報告する
 
 完成処理はまだしないでください。
@@ -252,21 +232,21 @@ scp-173 の3コマ目だけ再生成してください。
 対応コマンド:
 
 ```bash
-python scripts/run_pipeline.py --id scp-173 --export-prompts --panel 3
+python scripts/run_pipeline.py --id scp-008 --export-prompts --panel 3
 ```
 
-## 5. 生成済み画像を取り込んで漫画完成を依頼する
+## 4. 生成済み画像を取り込んで漫画完成を依頼する
 
 ```text
-scp-173 の生成済み画像を取り込んで漫画を完成させてください。
+scp-008 の生成済み画像を取り込んで漫画を完成させてください。
 トークン節約モードで、$finalize-scp-comic の手順で進めてください。
 
 読む範囲:
 - AGENTS.md
 - .agents/skills/finalize-scp-comic/SKILL.md
-- comics/queue/scp-173.yaml または comics/done/scp-173.yaml
-- output/scp-173/panels/selected.json
-- output/scp-173/meta.json
+- comics/queue/scp-008.yaml または comics/done/scp-008.yaml
+- output/scp-008/panels/selected.json
+- output/scp-008/meta.json
 
 画像:
 - panel 1: ./panel_1.png
@@ -275,27 +255,27 @@ scp-173 の生成済み画像を取り込んで漫画を完成させてくださ
 - panel 4: ./panel_4.png
 
 やること:
-- python scripts/comic_status.py scp-173 --json を実行する
+- python scripts/comic_status.py scp-008 --json を実行する
 - scripts/accept_external_panel.py で各panelを取り込む
-- python scripts/run_pipeline.py --id scp-173 --skip-generate を実行する
-- python scripts/publish_check.py scp-173 --json を実行する
+- python scripts/run_pipeline.py --id scp-008 --skip-generate を実行する
+- python scripts/publish_check.py scp-008 --json を実行する
 ```
 
 対応コマンド:
 
 ```bash
-python scripts/accept_external_panel.py --id scp-173 --panel 1 --source ./panel_1.png --provider imagegen
-python scripts/accept_external_panel.py --id scp-173 --panel 2 --source ./panel_2.png --provider imagegen
-python scripts/accept_external_panel.py --id scp-173 --panel 3 --source ./panel_3.png --provider imagegen
-python scripts/accept_external_panel.py --id scp-173 --panel 4 --source ./panel_4.png --provider imagegen
-python scripts/run_pipeline.py --id scp-173 --skip-generate
-python scripts/publish_check.py scp-173 --json
+python scripts/accept_external_panel.py --id scp-008 --panel 1 --source ./panel_1.png --provider imagegen
+python scripts/accept_external_panel.py --id scp-008 --panel 2 --source ./panel_2.png --provider imagegen
+python scripts/accept_external_panel.py --id scp-008 --panel 3 --source ./panel_3.png --provider imagegen
+python scripts/accept_external_panel.py --id scp-008 --panel 4 --source ./panel_4.png --provider imagegen
+python scripts/run_pipeline.py --id scp-008 --skip-generate
+python scripts/publish_check.py scp-008 --json
 ```
 
-## 6. 1コマだけ差し替えて再完成を依頼する
+## 5. 1コマだけ差し替えて再完成を依頼する
 
 ```text
-scp-173 の3コマ目だけ差し替えて、漫画を再生成してください。
+scp-008 の3コマ目だけ差し替えて、漫画を再生成してください。
 トークン節約モードで、$finalize-scp-comic の手順で進めてください。
 
 画像:
@@ -312,29 +292,29 @@ scp-173 の3コマ目だけ差し替えて、漫画を再生成してくださ�
 
 ```bash
 python scripts/accept_external_panel.py \
-  --id scp-173 \
+  --id scp-008 \
   --panel 3 \
   --source ./panel_3_retry.png \
   --provider imagegen \
   --note "regenerated because previous panel had pseudo-text"
 
-python scripts/run_pipeline.py --id scp-173 --skip-generate
-python scripts/publish_check.py scp-173 --json
+python scripts/run_pipeline.py --id scp-008 --skip-generate
+python scripts/publish_check.py scp-008 --json
 ```
 
-## 7. テキスト修正を依頼する
+## 6. テキスト修正を依頼する
 
 意味が変わる修正は、15言語すべて更新します。
 
 ```text
-scp-173 のテキストを修正してください。
+scp-008 のテキストを修正してください。
 トークン節約モードで、$revise-comic-text の手順で進めてください。
 
 読む範囲:
 - AGENTS.md
 - .agents/skills/revise-comic-text/SKILL.md
-- comics/done/scp-173.yaml または comics/queue/scp-173.yaml
-- output/scp-173/meta.json
+- comics/done/scp-008.yaml または comics/queue/scp-008.yaml
+- output/scp-008/meta.json
 
 対象:
 - panel: 4
@@ -355,16 +335,16 @@ scp-173 のテキストを修正してください。
 Codexが実行する基本コマンド:
 
 ```bash
-python scripts/comic_status.py scp-173 --json
-python scripts/validate_scripts.py comics/done/scp-173.yaml --quiet
-python scripts/run_pipeline.py --id scp-173 --skip-generate
-python scripts/publish_check.py scp-173 --json
+python scripts/comic_status.py scp-008 --json
+python scripts/validate_scripts.py comics/done/scp-008.yaml --quiet
+python scripts/run_pipeline.py --id scp-008 --skip-generate
+python scripts/publish_check.py scp-008 --json
 ```
 
 言語固有の誤字だけなら:
 
 ```text
-$revise-comic-text で scp-173 の日本語タイトルだけ誤字修正してください。
+$revise-comic-text で scp-008 の日本語タイトルだけ誤字修正してください。
 意味は変えません。他言語は変更しないでください。
 
 対象:

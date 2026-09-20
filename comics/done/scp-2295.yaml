@@ -1,0 +1,124 @@
+id: scp-2295
+title:
+  ja: "SCP-2295：パッチワークのハートがあるクマ"
+  en: "SCP-2295: The Bear with a Heart of Patchwork"
+  cs: "SCP-2295: Mědvídek se Záplatovaným Srdcem"
+  de: "SCP-2295: Der Bär mit einem Herz aus Flicken"
+  es: "SCP-2295: El Oso con Corazón de Parches"
+  fr: "SCP-2295: L'Ours au cœur de patchwork"
+  it: "SCP-2295: The Bear with a Heart of Patchwork"
+  ko: "SCP-2295: 심장을 가진 누비 헝겊 곰"
+  pl: "SCP-2295: Miś z naszywką z sercem"
+  pt: "SCP-2295: O Urso com Coração de Retalhos"
+  th: "SCP-2295: หมีน้อยหัวใจปะติด"
+  uk: "SCP-2295: Ведмедик із серцем з клаптиків"
+  vi: "SCP-2295: Chú Gấu với một Trái Tim Chắp Vá"
+  zh: "SCP-2295：缝心的熊"
+  zh_Hant: "SCP-2295：有著拼布心臟的熊"
+object_class: Safe
+attribution:
+  article: SCP-2295
+  source_url: https://scp-wiki.wikidot.com/scp-2295
+  author: "K Mota"
+local_characters:
+  older:
+    name: "Older patient"
+    appearance: "Anonymous older adult man with short gray hair."
+    default_look: "Plain gray hospital clothes, lying in left bed."
+  younger:
+    name: "Younger patient"
+    appearance: "Anonymous young adult woman with short dark brown hair."
+    default_look: "Plain gray hospital clothes, in right bed. No visible wounds."
+panels:
+- scene: "A patchwork stuffed bear 46 centimetres from head to foot, various muted fabric colors, neck bow, anatomically shaped small heart pin on its left chest. Ordinary plush, synthetic fibre and cotton hinted at seams, not a cartoon heart symbol. No imitation of attachment photo. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Close three-quarter seated bear portrait, bow and anatomical-heart pin on left chest readable, varied muted fabric pieces and seams."
+  characters: []
+  source:
+    section: Description
+    quote: "a patchwork stuffed bear"
+    url: https://scp-wiki.wikidot.com/scp-2295
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-2295は全長約46cmのパッチワークのクマです。中身は化学繊維と綿で、左胸に実際の心臓の形をしたピンを付けています。"
+    en: "SCP-2295 is a patchwork bear about 46 cm long, stuffed with synthetic fibre and cotton, with an anatomical heart pin on its left chest."
+    cs: "SCP-2295 je patchworkový medvěd dlouhý asi 46 cm, vycpaný syntetickým vláknem a bavlnou, s anatomickým odznakem srdce na levé hrudi."
+    de: "SCP-2295 ist ein etwa 46 cm langer Flickenbär, gefüllt mit Kunstfasern und Baumwolle, mit anatomischer Herzanstecknadel links an der Brust."
+    es: "SCP-2295 es un oso de retazos de unos 46 cm, relleno de fibra sintética y algodón, con un broche de corazón anatómico en el pecho izquierdo."
+    fr: "SCP-2295 est un ours en patchwork d’environ 46 cm, rempli de fibres synthétiques et de coton, avec une épingle en cœur anatomique à gauche du thorax."
+    it: "SCP-2295 è un orso patchwork lungo circa 46 cm, imbottito di fibra sintetica e cotone, con una spilla a cuore anatomico sul petto sinistro."
+    ko: "SCP-2295는 길이 약 46cm의 조각천 곰 인형입니다. 합성 섬유와 솜이 들어 있고 왼쪽 가슴에는 해부학적 심장 모양 핀이 있습니다."
+    pl: "SCP-2295 to patchworkowy miś długości około 46 cm, wypchany włóknem syntetycznym i bawełną, z anatomiczną przypinką serca na lewej piersi."
+    pt: "SCP-2295 é um urso de retalhos com cerca de 46 cm, recheado de fibra sintética e algodão, com um broche de coração anatômico no peito esquerdo."
+    th: "SCP-2295 เป็นหมีผ้าปะต่อยาวราว 46 เซนติเมตร ยัดใยสังเคราะห์และฝ้าย มีเข็มกลัดรูปหัวใจตามกายวิภาคที่อกซ้าย"
+    uk: "SCP-2295 — клаптиковий ведмедик завдовжки близько 46 см, набитий синтетичним волокном і бавовною, з анатомічною шпилькою-серцем ліворуч на грудях."
+    vi: "SCP-2295 là gấu vá vải dài khoảng 46 cm, nhồi sợi tổng hợp và bông, có ghim hình tim giải phẫu bên ngực trái."
+    zh: "SCP-2295是一只约46厘米长的拼布熊，填充合成纤维和棉，左胸佩戴符合解剖形状的心脏别针。"
+    zh_Hant: "SCP-2295是一隻約46公分長的拼布熊，填充合成纖維和棉，左胸佩戴符合解剖形狀的心臟別針。"
+- scene: "The patchwork bear becomes alert beside two clinical beds less than two metres away, turning toward the visibly younger adult patient rather than an older adult. Organ injury remains unseen; restrained clinical staging, no wounds or distress spectacle. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. High wide oblique view of two adjacent beds within two metres, bear between them facing younger adult at right rather than older adult at left, no wounds."
+  characters: ["older","younger"]
+  source:
+    section: Description
+    quote: "choose the youngest subject"
+    url: https://scp-wiki.wikidot.com/scp-2295
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-2295は、臓器に重い損傷を負った人が2m以内にいると活動します。対象が複数いる場合、必ず最年少の人を選びます。"
+    en: "SCP-2295 activates within two metres of someone with major organ trauma. If several qualify, it always selects the youngest."
+    cs: "Aktivuje se do dvou metrů od člověka s vážně poraněným orgánem. Pokud jich je více, vždy vybere nejmladšího."
+    de: "Es wird innerhalb von zwei Metern um jemanden mit schwerem Organtrauma aktiv. Bei mehreren Betroffenen wählt es stets die jüngste Person."
+    es: "Se activa a menos de dos metros de alguien con traumatismo grave en un órgano. Si hay varios candidatos, siempre elige al más joven."
+    fr: "Il s’active à moins de deux mètres d’une personne ayant un organe gravement lésé. Parmi plusieurs candidats, il choisit toujours le plus jeune."
+    it: "Si attiva entro due metri da chi ha gravi traumi a un organo. Fra più candidati, sceglie sempre il più giovane."
+    ko: "장기에 심각한 손상을 입은 사람이 2m 안에 있으면 활동합니다. 대상이 여럿이면 반드시 가장 어린 사람을 선택합니다."
+    pl: "Aktywuje się w promieniu dwóch metrów od osoby z ciężkim urazem narządu. Gdy kandydatów jest kilku, zawsze wybiera najmłodszego."
+    pt: "Ativa-se a até dois metros de alguém com trauma grave em um órgão. Entre vários candidatos, sempre escolhe o mais jovem."
+    th: "มันทำงานเมื่ออยู่ในระยะสองเมตรจากคนที่อวัยวะบาดเจ็บรุนแรง หากมีหลายคนที่เข้าเงื่อนไข จะเลือกคนอายุน้อยที่สุดเสมอ"
+    uk: "Він активується в межах двох метрів від людини з тяжкою травмою органа. Серед кількох кандидатів завжди обирає наймолодшого."
+    vi: "Nó hoạt động trong vòng hai mét quanh người bị tổn thương nội tạng nặng. Nếu có nhiều người đủ điều kiện, nó luôn chọn người trẻ nhất."
+    zh: "距严重器官创伤患者两米内时，它会开始活动。若有多个符合条件的人，它总选最年轻者。"
+    zh_Hant: "距嚴重器官創傷患者兩公尺內時，它會開始活動。若有多個符合條件的人，它總選最年輕者。"
+- scene: "The same patchwork bear sews a softly stuffed fabric imitation of an organ beside the bed, with white thread, needles and scissors. The organ is clearly cloth, not flesh. Nearby fabric scraps and cotton provide material; no exposed human anatomy or magical beam. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Tight overhead oblique view of bear paws sewing clearly fabric organ, thread and cloth prominent, mouth closed now, no real anatomy."
+  characters: []
+  source:
+    section: Description
+    quote: "a patchwork imitation of the subject's organ"
+    url: https://scp-wiki.wikidot.com/scp-2295
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-2295は口から裁縫道具を出し、近くの布と詰め物で患者の臓器を模したものを作ります。使える材料がなければ、自分の布と詰め物を使います。"
+    en: "SCP-2295 produces sewing tools from its mouth and makes an imitation of the patient's organ from nearby fabric and stuffing. If usable materials are absent, it uses its own fabric and stuffing."
+    cs: "SCP-2295 vytváří v ústech šicí náčiní a z okolní látky a výplně zhotovuje napodobeninu pacientova orgánu. Pokud použitelné materiály chybějí, používá vlastní látku a výplň."
+    de: "SCP-2295 bringt Nähzeug aus dem Mund hervor und fertigt aus Stoff und Füllmaterial in der Nähe eine Nachbildung des Patientenorgans. Fehlen geeignete Materialien, verwendet es den eigenen Stoff und die eigene Füllung."
+    es: "SCP-2295 saca útiles de costura de la boca y fabrica una imitación del órgano del paciente con tela y relleno cercanos. Si no hay materiales utilizables, emplea su propia tela y relleno."
+    fr: "SCP-2295 produit du matériel de couture par la bouche et imite l’organe du patient avec du tissu et du rembourrage proches. À défaut de matériaux utilisables, il emploie son propre tissu et rembourrage."
+    it: "SCP-2295 produce strumenti da cucito dalla bocca e imita l’organo del paziente con stoffa e imbottitura vicine. Se mancano materiali utilizzabili, usa la propria stoffa e imbottitura."
+    ko: "SCP-2295는 입에서 바느질 도구를 꺼내 주변 천과 충전재로 환자의 장기를 본뜬 것을 만듭니다. 쓸 재료가 없으면 자신의 천과 충전재를 사용합니다."
+    pl: "SCP-2295 wytwarza w ustach przybory do szycia i z pobliskiej tkaniny oraz wypełnienia robi imitację narządu pacjenta. Jeśli brak przydatnych materiałów, używa własnej tkaniny i wypełnienia."
+    pt: "SCP-2295 produz utensílios de costura pela boca e imita o órgão do paciente com tecido e enchimento próximos. Se não houver materiais utilizáveis, usa seu próprio tecido e enchimento."
+    th: "SCP-2295 สร้างอุปกรณ์เย็บผ้าจากปากและทำอวัยวะเลียนแบบของผู้ป่วยด้วยผ้ากับวัสดุยัดไส้ใกล้ตัว หากไม่มีวัสดุที่ใช้ได้ จะใช้ผ้ากับวัสดุยัดไส้ของตนเอง"
+    uk: "SCP-2295 дістає швейні інструменти з рота й робить імітацію органа пацієнта з тканини та набивки поблизу. Якщо придатних матеріалів немає, використовує власні тканину й набивку."
+    vi: "SCP-2295 tạo dụng cụ may từ miệng và làm bản mô phỏng cơ quan của bệnh nhân bằng vải và vật liệu nhồi gần đó. Nếu không có vật liệu dùng được, nó dùng vải và ruột nhồi của chính mình."
+    zh: "SCP-2295从嘴里变出缝纫工具，用附近的布料和填充物仿制患者的器官。若无可用材料，就使用自己的布料和填充物。"
+    zh_Hant: "SCP-2295從嘴裡變出縫紉工具，用附近的布料和填充物仿製患者的器官。若無可用材料，就使用自己的布料和填充物。"
+- scene: "The same younger adult rests unconscious on the clinical bed, the bear beside them with empty paws and sewing supplies. Replacement cloth organ is no longer visible. Do not show surgery, cutaway anatomy, a recovery montage or glowing teleportation. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Medium side bedside view, same younger adult unconscious with hands resting on blanket, bear sitting near pillow with empty paws, sewing supplies on side trolley; no monitor lettering or surgery."
+  characters: ["younger"]
+  source:
+    section: Description
+    quote: "all subjects recorded"
+    url: https://scp-wiki.wikidot.com/scp-2295
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "布製の臓器が消えると患者は意識を失い、その後、布製の臓器が損傷した臓器を置き換えて機能します。記事の記録時点では拒絶反応はなく、患者は全員完全に回復しています。"
+    en: "The cloth organ vanishes and the patient loses consciousness; it then replaces the damaged organ and functions in its place. At the article's writing, no rejection had occurred and every recorded patient had fully recovered."
+    cs: "Látkový orgán zmizí a pacient upadne do bezvědomí; poté nahradí poškozený orgán a plní jeho funkci. V době sepsání článku nebylo zaznamenáno odmítnutí a všichni evidovaní pacienti se plně zotavili."
+    de: "Das Stofforgan verschwindet und der Patient wird bewusstlos; danach ersetzt es das beschädigte Organ und übernimmt dessen Funktion. Zum Zeitpunkt des Artikels gab es keine Abstoßung und alle dokumentierten Patienten waren vollständig genesen."
+    es: "El órgano de tela desaparece y el paciente pierde el conocimiento; después reemplaza al órgano dañado y cumple su función. Al redactarse el artículo no había rechazo y todos los pacientes registrados se habían recuperado por completo."
+    fr: "L’organe de tissu disparaît et le patient perd conscience ; il remplace ensuite l’organe lésé et assure sa fonction. Lors de la rédaction de l’article, aucun rejet n’avait eu lieu et tous les patients documentés avaient pleinement récupéré."
+    it: "L’organo di stoffa scompare e il paziente perde conoscenza; poi sostituisce l’organo danneggiato e ne svolge la funzione. Al momento dell’articolo non si erano verificati rigetti e tutti i pazienti documentati erano guariti completamente."
+    ko: "천 장기가 사라지면 환자는 의식을 잃고, 이후 천 장기가 손상된 장기를 대체해 기능합니다. 문서 작성 시점까지 거부 반응은 없었으며 기록된 모든 환자가 완전히 회복했습니다."
+    pl: "Materiałowy narząd znika, a pacjent traci przytomność; następnie zastępuje uszkodzony narząd i pełni jego funkcję. Do czasu napisania artykułu nie było odrzutów, a wszyscy opisani pacjenci w pełni wyzdrowieli."
+    pt: "O órgão de tecido desaparece e o paciente perde a consciência; depois substitui o órgão danificado e assume sua função. Na data do artigo, não havia rejeições e todos os pacientes registrados tinham se recuperado totalmente."
+    th: "อวัยวะผ้าหายไปและผู้ป่วยหมดสติ จากนั้นมันแทนที่อวัยวะที่เสียหายและทำหน้าที่แทน ณ เวลาที่เขียนบทความ ยังไม่พบการปฏิเสธอวัยวะและผู้ป่วยที่บันทึกไว้ทุกคนฟื้นตัวสมบูรณ์"
+    uk: "Тканинний орган зникає, а пацієнт непритомніє; потім він замінює ушкоджений орган і виконує його функцію. На час написання статті відторгнень не було, а всі задокументовані пацієнти повністю одужали."
+    vi: "Cơ quan vải biến mất và bệnh nhân bất tỉnh; sau đó nó thay thế cơ quan hỏng và thực hiện chức năng tương ứng. Tại thời điểm viết bài, chưa có thải ghép và mọi bệnh nhân được ghi nhận đều hồi phục hoàn toàn."
+    zh: "布制器官消失，患者随之失去意识；随后，它替换受损器官并发挥功能。截至文章撰写时，未发生排斥反应，所有记录中的患者均已完全康复。"
+    zh_Hant: "布製器官消失，患者隨之失去意識；隨後，它替換受損器官並發揮功能。截至文章撰寫時，未發生排斥反應，所有紀錄中的患者均已完全康復。"

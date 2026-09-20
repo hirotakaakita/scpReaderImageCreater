@@ -1,0 +1,116 @@
+id: scp-1048
+title:
+  ja: "SCP-1048：ビルダー・ベア"
+  en: "SCP-1048: Builder Bear"
+  cs: "SCP-1048: Stavitelský Medvídek"
+  de: "SCP-1048: Baumeister-Bär"
+  es: "SCP-1048: Osito Constructor"
+  fr: "SCP-1048: Nounours bricoleur"
+  it: "SCP-1048: Orso Costruttore"
+  ko: "SCP-1048: 건축가 곰"
+  pl: "SCP-1048: Budowniczy miś"
+  pt: "SCP-1048: Urso Construtor"
+  th: "SCP-1048: หมีนักสร้าง"
+  uk: "SCP-1048: Ведмедик-будівельник"
+  vi: "SCP-1048: Con Gấu Kiến Tạo"
+  zh: "SCP-1048：泰迪熊建造者"
+  zh_Hant: "SCP-1048：拼裝者小熊"
+object_class: Keter
+attribution:
+  article: SCP-1048
+  source_url: https://scp-wiki.wikidot.com/scp-1048
+  author: "trennerdios"
+local_characters: {}
+panels:
+- scene: "An ordinary small teddy bear about 33 centimetres tall walking upright across a quiet institutional floor. A human shoe in the far background provides scale. Soft worn plush, ordinary sewn features, no mechanical components. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Low floor-level wide view, little ordinary teddy walking toward left through institutional corridor; distant shoe establishes small scale."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "approximately 33 cm in height"
+    url: https://scp-wiki.wikidot.com/scp-1048
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-1048は高さ約33cmのテディベアです。材質は普通のぬいぐるみと区別できませんが、自分で動きます。"
+    en: "SCP-1048 is a teddy bear about 33 cm tall. Its materials seem ordinary, yet it moves on its own."
+    cs: "SCP-1048 je plyšový medvěd vysoký asi 33 cm. Materiály jsou zdánlivě běžné, přesto se sám pohybuje."
+    de: "SCP-1048 ist ein etwa 33 cm großer Teddybär. Seine Materialien wirken gewöhnlich, doch er bewegt sich selbstständig."
+    es: "SCP-1048 es un oso de peluche de unos 33 cm. Sus materiales parecen normales, pero se mueve por sí mismo."
+    fr: "SCP-1048 est un ours en peluche d’environ 33 cm. Ses matériaux semblent ordinaires, mais il se déplace tout seul."
+    it: "SCP-1048 è un orsacchiotto alto circa 33 cm. I materiali sembrano ordinari, ma si muove da solo."
+    ko: "SCP-1048은 키 약 33cm의 곰 인형입니다. 재질은 평범한 인형과 구별되지 않지만 스스로 움직입니다."
+    pl: "SCP-1048 to pluszowy miś wysokości około 33 cm. Jego materiały wydają się zwyczajne, lecz porusza się samodzielnie."
+    pt: "SCP-1048 é um urso de pelúcia de cerca de 33 cm. Seus materiais parecem comuns, mas ele se move sozinho."
+    th: "SCP-1048 เป็นตุ๊กตาหมีสูงราว 33 เซนติเมตร วัสดุดูเหมือนตุ๊กตาทั่วไป แต่มันเคลื่อนไหวเองได้"
+    uk: "SCP-1048 — плюшевий ведмедик заввишки близько 33 см. Матеріали здаються звичайними, але він рухається сам."
+    vi: "SCP-1048 là gấu bông cao khoảng 33 cm. Vật liệu có vẻ bình thường nhưng nó tự di chuyển được."
+    zh: "SCP-1048是一只约33厘米高的泰迪熊，材质与普通玩偶无异，却能自行活动。"
+    zh_Hant: "SCP-1048是一隻約33公分高的泰迪熊，材質與普通玩偶無異，卻能自行活動。"
+- scene: "The same small teddy bear hugs the lower leg of an adult staff member who looks down with a restrained warm smile. Keep the bear the focal subject, readable plush against the dark corridor. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. High downward view from staff member's shoulder to teddy hugging lower leg, staff upright looking down with relaxed hand by side, no crouch."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "a hug to the lower leg"
+    url: https://scp-wiki.wikidot.com/scp-1048
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-1048は脚に抱きついたり、踊ったりして親愛を示します。接した職員たちは、その愛らしさに好意的な反応を示しています。"
+    en: "SCP-1048 expresses affection by hugging legs and dancing. Staff who interact with it respond positively to its endearing behavior."
+    cs: "Náklonnost projevuje objímáním nohou a tancem. Personál reaguje na jeho roztomilé chování pozitivně."
+    de: "Es zeigt Zuneigung durch Umarmen der Beine und Tanzen. Das Personal reagiert positiv auf sein liebenswertes Verhalten."
+    es: "Expresa afecto abrazando piernas y bailando. El personal responde favorablemente a su comportamiento entrañable."
+    fr: "Il montre son affection en étreignant les jambes et en dansant. Le personnel réagit favorablement à son comportement attendrissant."
+    it: "Mostra affetto abbracciando le gambe e ballando. Il personale reagisce positivamente al suo comportamento tenero."
+    ko: "다리를 껴안거나 춤추며 애정을 표현합니다. 접촉한 직원들은 이 사랑스러운 행동에 긍정적으로 반응합니다."
+    pl: "Okazuje sympatię, obejmując nogi i tańcząc. Personel reaguje pozytywnie na jego ujmujące zachowanie."
+    pt: "Demonstra afeto abraçando pernas e dançando. Os funcionários respondem positivamente ao seu comportamento cativante."
+    th: "มันแสดงความรักด้วยการกอดขาและเต้น เจ้าหน้าที่ที่มีปฏิสัมพันธ์ตอบสนองเชิงบวกต่อพฤติกรรมน่าเอ็นดูนี้"
+    uk: "Він виявляє прихильність, обіймаючи ноги й танцюючи. Персонал позитивно реагує на його милу поведінку."
+    vi: "Nó thể hiện tình cảm bằng cách ôm chân và nhảy múa. Nhân viên phản ứng tích cực với hành vi đáng yêu ấy."
+    zh: "它会抱住人的小腿、跳舞，以此表达亲近。接触过它的职员都对这种可爱行为反应良好。"
+    zh_Hant: "它會抱住人的小腿、跳舞，以此表達親近。接觸過它的職員都對這種可愛行為反應良好。"
+- scene: "A researcher crouches at eye level with the little bear, offering an open hand in a quiet attempt to communicate. Bear remains still and unreadable. No speech balloons, written questions, sinister teeth or inferred secret thought. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Tight bear-eye-level side view, crouched researcher at left offers open hand while motionless bear at right faces them; no implied answer."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "will often not react"
+    url: https://scp-wiki.wikidot.com/scp-1048
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-1048は身振りで「はい」「いいえ」を示せますが、自分の正体や出身への質問には、しばしば反応しません。理由は不明です。"
+    en: "SCP-1048 can gesture yes or no, but often ignores questions about its nature or origin. The reason remains unknown."
+    cs: "Umí gesty odpovědět ano či ne, ale otázky o své povaze nebo původu často ignoruje. Důvod není znám."
+    de: "Es kann Ja oder Nein gestikulieren, ignoriert aber oft Fragen nach Wesen oder Herkunft. Der Grund ist unbekannt."
+    es: "Puede indicar sí o no con gestos, pero suele ignorar preguntas sobre su naturaleza u origen. Se desconoce el motivo."
+    fr: "Il peut répondre oui ou non par gestes, mais ignore souvent les questions sur sa nature ou son origine. La raison est inconnue."
+    it: "Può rispondere sì o no a gesti, ma spesso ignora domande sulla sua natura o origine. Il motivo è ignoto."
+    ko: "몸짓으로 예·아니요를 표현하지만 정체나 출신을 물으면 종종 반응하지 않습니다. 이유는 알려지지 않았습니다."
+    pl: "Potrafi gestami odpowiedzieć tak lub nie, ale często ignoruje pytania o swoją naturę i pochodzenie. Powód jest nieznany."
+    pt: "Pode indicar sim ou não por gestos, mas costuma ignorar perguntas sobre sua natureza ou origem. O motivo é desconhecido."
+    th: "มันตอบรับหรือปฏิเสธด้วยท่าทางได้ แต่มักไม่ตอบคำถามเรื่องตัวตนหรือที่มา ยังไม่ทราบสาเหตุ"
+    uk: "Він може жестами відповісти так або ні, але часто ігнорує питання про свою природу чи походження. Причина невідома."
+    vi: "Nó có thể ra hiệu có hoặc không, nhưng thường phớt lờ câu hỏi về bản chất hay nguồn gốc. Lý do vẫn chưa rõ."
+    zh: "它能用动作回答是或否，却常常不回应关于自身性质或来历的问题，原因不明。"
+    zh_Hant: "它能用動作回答是或否，卻常常不回應關於自身性質或來歷的問題，原因不明。"
+- scene: "An ominous rusted-scrap-metal bear similar in scale to the plush original faces a recoiling staff member in a dim corridor. Depict the documented metal creation as a representative example, without a gore incident. Do not show construction, which was not observed, or invent cloth duplicates. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Medium corridor view from behind standing recoiling worker whose body frames one side, small rusted-metal bear ahead in clear focus, worker takes backward step; no construction scene."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "all have exhibited extreme violence"
+    url: https://scp-wiki.wikidot.com/scp-1048
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "最初の確保から約7か月後、SCP-1048が様々な素材で自分の粗雑な複製を作るという仮説が生まれました。製作過程は未観察ですが、既知の3体はすべて人間に極端な暴力を示しています。"
+    en: "About seven months after initial containment, SCP-1048 was hypothesized to build crude replicas of itself from various materials. Construction has not been observed, but all three known creations have shown extreme violence toward humans."
+    cs: "Asi sedm měsíců po prvním zajištění vznikla hypotéza, že SCP-1048 staví z různých materiálů hrubé kopie sebe sama. Výroba nebyla pozorována, ale všechny tři známé výtvory byly vůči lidem krajně násilné."
+    de: "Etwa sieben Monate nach der ersten Sicherstellung entstand die Hypothese, SCP-1048 baue grobe Kopien seiner selbst aus verschiedenen Materialien. Der Bau wurde nie beobachtet, doch alle drei bekannten Schöpfungen zeigten extreme Gewalt gegen Menschen."
+    es: "Unos siete meses después de su primera contención, se planteó que SCP-1048 construía réplicas rudimentarias de sí mismo con diversos materiales. Nadie observó la fabricación, pero las tres creaciones conocidas mostraron violencia extrema hacia humanos."
+    fr: "Environ sept mois après sa capture initiale, on a supposé que SCP-1048 fabriquait des copies grossières de lui-même avec divers matériaux. La fabrication n’a pas été observée, mais les trois créations connues se sont montrées extrêmement violentes envers les humains."
+    it: "Circa sette mesi dopo il primo contenimento, si ipotizzò che SCP-1048 costruisse copie rudimentali di sé con vari materiali. La costruzione non è stata osservata, ma tutte e tre le creazioni note hanno mostrato estrema violenza verso gli umani."
+    ko: "최초 확보 약 7개월 후, SCP-1048이 다양한 재료로 조잡한 자기 복제품을 만든다는 가설이 제기되었습니다. 제작은 관찰되지 않았지만 알려진 세 창조물 모두 인간에게 극심한 폭력을 보였습니다."
+    pl: "Około siedmiu miesięcy po pierwszym zabezpieczeniu wysunięto hipotezę, że SCP-1048 buduje prymitywne kopie siebie z różnych materiałów. Budowy nie zaobserwowano, lecz wszystkie trzy znane twory wykazały skrajną przemoc wobec ludzi."
+    pt: "Cerca de sete meses após a contenção inicial, surgiu a hipótese de que SCP-1048 construía réplicas rudimentares de si com vários materiais. A construção não foi observada, mas as três criações conhecidas exibiram violência extrema contra humanos."
+    th: "ราวเจ็ดเดือนหลังการควบคุมครั้งแรก เกิดสมมติฐานว่า SCP-1048 สร้างตัวเลียนแบบอย่างหยาบจากวัสดุหลากหลาย ยังไม่มีใครเห็นการสร้าง แต่ผลงานที่รู้จักทั้งสามตัวใช้ความรุนแรงอย่างยิ่งต่อมนุษย์"
+    uk: "Приблизно через сім місяців після першого утримання виникла гіпотеза, що SCP-1048 будує грубі копії себе з різних матеріалів. Процесу не бачили, але всі три відомі творіння виявляли крайнє насильство до людей."
+    vi: "Khoảng bảy tháng sau lần quản thúc đầu tiên, xuất hiện giả thuyết rằng SCP-1048 tạo bản sao thô của chính nó từ nhiều vật liệu. Chưa ai quan sát việc chế tạo, nhưng cả ba tạo vật đã biết đều cực kỳ bạo lực với người."
+    zh: "首次收容约七个月后，人们提出SCP-1048会用多种材料制作自身粗糙复制品的假说。制作过程尚未被观察到，但已知的三个造物都对人类表现出极端暴力。"
+    zh_Hant: "首次收容約七個月後，人們提出SCP-1048會用多種材料製作自身粗糙複製品的假說。製作過程尚未被觀察到，但已知的三個造物都對人類表現出極端暴力。"

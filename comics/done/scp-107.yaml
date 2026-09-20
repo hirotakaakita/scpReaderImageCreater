@@ -1,0 +1,119 @@
+id: scp-107
+title:
+  ja: "SCP-107：亀の甲羅"
+  en: "SCP-107: The Turtle Shell"
+  cs: "SCP-107: Želví krunýř"
+  de: "SCP-107: Der Schildkrötenpanzer"
+  es: "SCP-107: El Caparazón de Tortuga"
+  fr: "SCP-107: La Carapace de tortue"
+  it: "SCP-107: Il Guscio di Tartaruga"
+  ko: "SCP-107: 거북이 등딱지"
+  pl: "SCP-107: Żółwia skorupa"
+  pt: "SCP-107: O Casco de Tartaruga"
+  th: "SCP-107: กระดองเต่า"
+  uk: "SCP-107: Панцир черепахи"
+  vi: "SCP-107: Mai Rùa"
+  zh: "SCP-107：空龟壳"
+  zh_Hant: "SCP-107：龜甲"
+object_class: Safe
+attribution:
+  article: SCP-107
+  source_url: https://scp-wiki.wikidot.com/scp-107
+  author: "RichardJ28"
+local_characters: {}
+panels:
+- scene: "Close view inside a hollow upper turtle shell as clear water disappears into its smooth interior without visible pores. Only a gloved hand and vessel edge enter the composition. Unknown biological shell material, not an actual living turtle. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Top-down close view of hollow shell interior, gloved hand at upper left tilts small plain vessel; smooth inside absorbs small stream without pores."
+  characters: ["attending-researcher-f"]
+  source:
+    section: Description
+    quote: "completely inert until"
+    url: https://scp-wiki.wikidot.com/scp-107
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-107は空洞の亀の甲羅の上半分に似た物体です。内側に液体が触れるまでは不活性ですが、触れると目に見える孔がないのに液体を素早く吸収します。"
+    en: "SCP-107 resembles the hollow upper part of a turtle shell. It stays inert until liquid touches the inside, then rapidly absorbs it despite having no visible pores."
+    cs: "SCP-107 připomíná dutou horní část želvího krunýře. Je neaktivní, dokud se tekutina nedotkne vnitřku; pak ji rychle vstřebá, ačkoli nemá viditelné póry."
+    de: "SCP-107 ähnelt dem hohlen Oberteil eines Schildkrötenpanzers. Es bleibt inaktiv, bis Flüssigkeit die Innenseite berührt, und absorbiert sie dann rasch ohne sichtbare Poren."
+    es: "SCP-107 parece la parte superior hueca de un caparazón de tortuga. Permanece inerte hasta que un líquido toca el interior; entonces lo absorbe rápidamente, sin poros visibles."
+    fr: "SCP-107 ressemble à la partie supérieure creuse d’une carapace de tortue. Il reste inerte jusqu’au contact d’un liquide avec l’intérieur, puis l’absorbe vite malgré l’absence de pores visibles."
+    it: "SCP-107 somiglia alla parte superiore cava di un guscio di tartaruga. Resta inerte finché un liquido tocca l’interno, poi lo assorbe rapidamente pur senza pori visibili."
+    ko: "SCP-107은 속이 빈 거북 등딱지의 윗부분처럼 보입니다. 안쪽에 액체가 닿기 전에는 비활성이지만, 닿으면 보이는 구멍이 없는데도 빠르게 흡수합니다."
+    pl: "SCP-107 przypomina pustą górną część skorupy żółwia. Jest nieaktywny, dopóki płyn nie dotknie wnętrza; wtedy szybko go pochłania mimo braku widocznych porów."
+    pt: "SCP-107 parece a parte superior oca de um casco de tartaruga. Fica inerte até um líquido tocar o interior; então o absorve rapidamente, sem poros visíveis."
+    th: "SCP-107 คล้ายกระดองเต่าส่วนบนที่กลวง มันไม่ทำงานจนของเหลวสัมผัสด้านใน จากนั้นจะดูดซับอย่างรวดเร็วแม้ไม่มีรูพรุนที่มองเห็นได้"
+    uk: "SCP-107 нагадує порожню верхню частину панцира черепахи. Він неактивний, доки рідина не торкнеться внутрішньої поверхні, а тоді швидко поглинає її без видимих пор."
+    vi: "SCP-107 giống phần trên rỗng của mai rùa. Nó bất hoạt cho đến khi chất lỏng chạm mặt trong, rồi nhanh chóng hút chất lỏng dù không có lỗ nhìn thấy được."
+    zh: "SCP-107像龟壳中空的上半部。液体接触内侧前，它保持不活跃；接触后，便在没有可见孔隙的情况下迅速吸收液体。"
+    zh_Hant: "SCP-107像龜殼中空的上半部。液體接觸內側前，它保持不活躍；接觸後，便在沒有可見孔隙的情況下迅速吸收液體。"
+- scene: "The shell's red edge glows dimly on dark ground; water rain falls outside the small dry exclusion area immediately surrounding it. Show natural water rain only, no colored precipitation, map, radius diagram or invented storm vortex. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Low side view of shell on dry ground, dim red rim clearly visible, curtain of water rain beyond at least half a metre; no rainfall touching shell."
+  characters: []
+  source:
+    section: Description
+    quote: "the red edge of the shell glows dimly"
+    url: https://scp-wiki.wikidot.com/scp-107
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "活動中のSCP-107は赤い縁が淡く光り、注いだ物質を雨として降らせます。雨の範囲は本体から0.5m以上10km未満で、本体を動かすと雨の範囲と除外域も一緒に移動します。"
+    en: "Active SCP-107 has a faintly glowing red edge and makes the poured substance fall as rain, at distances from 0.5 m to under 10 km. Moving the shell moves both the rain zone and its exclusion zone."
+    cs: "Aktivní SCP-107 má slabě zářící červený okraj a nalitá látka prší ve vzdálenosti od 0,5 m do necelých 10 km. Pohyb krunýře přesouvá dešťovou oblast i oblast bez deště."
+    de: "Bei aktivem SCP-107 glimmt der rote Rand, und die eingefüllte Substanz regnet in Entfernungen von 0,5 m bis unter 10 km herab. Mit dem Panzer bewegen sich Regengebiet und Ausschlusszone."
+    es: "SCP-107 activo tiene un borde rojo que brilla tenuemente y hace llover la sustancia vertida entre 0,5 m y menos de 10 km. Al mover el caparazón se desplazan tanto la lluvia como la zona de exclusión."
+    fr: "Quand SCP-107 est actif, son bord rouge luit faiblement et la substance versée pleut entre 0,5 m et moins de 10 km. Déplacer la carapace déplace la zone de pluie et la zone d’exclusion."
+    it: "Quando SCP-107 è attivo, il bordo rosso brilla debolmente e la sostanza versata piove da 0,5 m a meno di 10 km. Spostare il guscio sposta sia la zona di pioggia sia quella di esclusione."
+    ko: "활성 상태의 SCP-107은 붉은 가장자리가 희미하게 빛나며 부은 물질을 0.5m 이상 10km 미만 거리에서 비로 내리게 합니다. 등딱지를 옮기면 강수 구역과 제외 구역도 함께 이동합니다."
+    pl: "Aktywny SCP-107 ma słabo świecącą czerwoną krawędź i wywołuje deszcz wlanej substancji w odległości od 0,5 m do poniżej 10 km. Ruch skorupy przesuwa strefę deszczu i strefę wyłączenia."
+    pt: "SCP-107 ativo tem a borda vermelha fracamente luminosa e faz a substância despejada chover de 0,5 m a menos de 10 km. Mover o casco desloca tanto a zona de chuva quanto a de exclusão."
+    th: "เมื่อ SCP-107 ทำงาน ขอบสีแดงจะเรืองแสงจางๆ และสารที่เทลงไปจะตกเป็นฝนในระยะตั้งแต่ 0.5 เมตรถึงไม่ถึง 10 กิโลเมตร เมื่อย้ายกระดอง ทั้งพื้นที่ฝนและเขตยกเว้นจะเคลื่อนตาม"
+    uk: "В активного SCP-107 тьмяно світиться червоний край, а налита речовина випадає дощем на відстані від 0,5 м до менш ніж 10 км. Рух панцира пересуває зону дощу та зону виключення."
+    vi: "Khi hoạt động, viền đỏ của SCP-107 sáng mờ và chất đã đổ rơi thành mưa ở khoảng cách từ 0,5 m đến dưới 10 km. Di chuyển mai sẽ di chuyển cả vùng mưa và vùng loại trừ."
+    zh: "活动中的SCP-107红色边缘微亮，倒入的物质会在距本体0.5米至不足10公里处化作雨。移动龟壳时，雨区和排除区也随之移动。"
+    zh_Hant: "活動中的SCP-107紅色邊緣微亮，倒入的物質會在距本體0.5公尺至不足10公里處化作雨。移動龜殼時，雨區和排除區也隨之移動。"
+- scene: "The same active shell in a desolate outdoor test area with torrential water rain outside its dry exclusion area. No rain hits the shell or the area within 0.5 metre. Its red rim glows dimly. A single moment, not comparison panels; caption contrasts input quantities. High wide oblique view of shell small in foreground dry exclusion patch; torrential rain fills distant outdoor grounds but no drops fall on shell or within half a metre. Dim red rim; shell inside not full of rainwater."
+  characters: []
+  source:
+    section: Description
+    quote: "two days of torrential rain"
+    url: https://scp-wiki.wikidot.com/scp-107
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-107に水10mLを注ぐと、30分弱の小雨が降ります。甲羅の約4分の3まで満たすと、豪雨が2日間続きます。"
+    en: "Ten millilitres of water produce drizzle for just under half an hour. Filling the shell three-quarters full brings two days of torrential rain."
+    cs: "Deset mililitrů vody vyvolá mrholení na necelou půlhodinu. Naplnění krunýře do tří čtvrtin přinese dva dny přívalového deště."
+    de: "Zehn Milliliter Wasser erzeugen knapp eine halbe Stunde Nieselregen. Dreiviertel voll bringt der Panzer zwei Tage sintflutartigen Regen."
+    es: "Diez mililitros de agua producen llovizna durante casi media hora. Llenarlo tres cuartas partes provoca dos días de lluvia torrencial."
+    fr: "Dix millilitres d’eau donnent près d’une demi-heure de bruine. Remplir la carapace aux trois quarts provoque deux jours de pluie torrentielle."
+    it: "Dieci millilitri d’acqua producono pioviggine per poco meno di mezz’ora. Riempire il guscio per tre quarti causa due giorni di pioggia torrenziale."
+    ko: "물 10mL는 30분이 조금 안 되는 이슬비를 일으킵니다. 약 4분의 3을 채우면 이틀간 폭우가 내립니다."
+    pl: "Dziesięć mililitrów wody daje niespełna pół godziny mżawki. Napełnienie skorupy w trzech czwartych wywołuje dwa dni ulewy."
+    pt: "Dez mililitros de água produzem garoa por quase meia hora. Encher três quartos do casco provoca dois dias de chuva torrencial."
+    th: "น้ำสิบมิลลิลิตรทำให้ฝนปรอยเกือบครึ่งชั่วโมง หากเติมกระดองประมาณสามในสี่ จะเกิดฝนกระหน่ำสองวัน"
+    uk: "Десять мілілітрів води дають мряку трохи менше ніж на пів години. Заповнення на три чверті спричиняє два дні зливи."
+    vi: "Mười mililít nước tạo mưa phùn gần nửa giờ. Đổ đầy khoảng ba phần tư mai gây mưa xối xả suốt hai ngày."
+    zh: "10毫升水会带来略短于半小时的细雨。装到约四分之三满，则会引发两天暴雨。"
+    zh_Hant: "10毫升水會帶來略短於半小時的細雨。裝到約四分之三滿，則會引發兩天暴雨。"
+- scene: "An observer waters an ordinary potted plant with previously collected rainwater on a sheltered bench outside the affected area. Plant stays ordinary; rain and the distant shell lie well behind. Do not invent a specific mutant plant form. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Medium side view at sheltered bench, observer standing at left pours previously collected water onto ordinary plant in foreground right, gaze on pot; rain zone beyond shelter, shell too distant to resolve."
+  characters: ["attending-researcher-f"]
+  source:
+    section: Addendum 107-2
+    exception:
+      user_approved: true
+      reason: "The user explicitly approved using the water-test example from Addendum 107-2 in panel 4 for this revision."
+    quote: "grow at a much increased rate"
+    url: https://scp-wiki.wikidot.com/scp-107
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "水を使った実験では、SCP-107の雨で草が異常に速く育ちました。しかし、回収した雨を範囲外の植物に与えても異常は起きませんでした。"
+    en: "In a test using water, SCP-107's rain made grass grow unusually fast. Yet collected rainwater caused no abnormal effects when given to plants outside the area."
+    cs: "Při pokusu s vodou způsobil déšť SCP-107 neobvykle rychlý růst trávy. Zachycený déšť však u rostlin zalévaných mimo oblast nevyvolal žádné anomálie."
+    de: "Bei einem Versuch mit Wasser ließ der Regen von SCP-107 Gras ungewöhnlich schnell wachsen. Gesammeltes Regenwasser verursachte bei Pflanzen außerhalb des Gebiets jedoch keine Anomalien."
+    es: "En una prueba con agua, la lluvia de SCP-107 hizo crecer la hierba inusualmente rápido. Sin embargo, regar plantas fuera del área con lluvia recogida no causó anomalías."
+    fr: "Lors d’un essai avec de l’eau, la pluie de SCP-107 a fait pousser l’herbe anormalement vite. Pourtant, l’eau recueillie n’a causé aucune anomalie sur les plantes arrosées hors de la zone."
+    it: "In un test con acqua, la pioggia di SCP-107 fece crescere l’erba insolitamente in fretta. Tuttavia, l’acqua raccolta non causò anomalie nelle piante annaffiate fuori dall’area."
+    ko: "물을 사용한 실험에서 SCP-107의 비는 풀을 비정상적으로 빨리 자라게 했습니다. 하지만 모은 빗물을 범위 밖 식물에 주어도 이상은 발생하지 않았습니다."
+    pl: "W teście z wodą deszcz SCP-107 spowodował niezwykle szybki wzrost trawy. Jednak zebrana deszczówka nie wywołała anomalii u roślin podlewanych poza obszarem."
+    pt: "Num teste com água, a chuva de SCP-107 fez a grama crescer anormalmente rápido. Porém, a água coletada não causou anomalias nas plantas regadas fora da área."
+    th: "ในการทดลองด้วยน้ำ ฝนของ SCP-107 ทำให้หญ้าโตเร็วผิดปกติ แต่เมื่อนำน้ำฝนที่เก็บได้ไปรดพืชนอกพื้นที่ ก็ไม่เกิดความผิดปกติ"
+    uk: "Під час досліду з водою дощ SCP-107 змусив траву рости незвично швидко. Однак зібрана дощова вода не спричинила аномалій у рослин, политих поза зоною."
+    vi: "Trong thử nghiệm dùng nước, mưa của SCP-107 khiến cỏ mọc nhanh bất thường. Nhưng nước mưa thu lại để tưới cây ngoài vùng không gây bất thường."
+    zh: "在使用水的实验中，SCP-107的雨让草长得异常快。然而，收集雨水浇灌范围外的植物，却没有产生异常。"
+    zh_Hant: "在使用水的實驗中，SCP-107的雨讓草長得異常快。然而，收集雨水澆灌範圍外的植物，卻沒有產生異常。"

@@ -48,6 +48,8 @@ For important colors, include numeric RGB alongside the color name when useful f
 
 `source` is recommended provenance for new/revised panels. It may record `section` (`Description` by default, `Special Containment Procedures` only for the exceptional fourth-panel case), `quote`, `url`, and `fetched_at`. The source evidence is non-rendered and exists so future Codex reviews can distinguish source facts from presentation choices.
 
+Only when the user explicitly approves an addendum or a non-final-panel use of Special Containment Procedures for a particular panel, that panel may use its actual `source.section` (for example, `Addendum 107-2` or `Special Containment Procedures`) with `source.exception: {user_approved: true, reason: "..."}`. Record the specific approved use in the non-empty reason; never infer approval or relabel evidence as Description. This is a per-panel exception, not permission for other panels or comics. It does not bypass required provenance or language checks. Without this explicit approval, Special Containment Procedures remain final-panel-only.
+
 `notes` is optional non-rendered provenance/refinement guidance. Useful notes distinguish source fact, facts that must not change, and presentation choices that may change.
 
 The current house style does not use character dialogue bubbles. Explanatory text is composited after image generation.

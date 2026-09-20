@@ -1,0 +1,120 @@
+id: scp-681
+title:
+  ja: "SCP-681：敵性ヘリウム"
+  en: "SCP-681: Hostile Helium"
+  cs: "SCP-681: Hostile Helium"
+  de: "SCP-681: Heimtückisches Helium"
+  es: "SCP-681: Helio Hostil"
+  fr: "SCP-681: Hélium hostile"
+  it: "SCP-681: Elio Ostile"
+  ko: "SCP-681: 너무 뻔한 괴물임"
+  pl: "SCP-681: Wrogi Hel"
+  pt: "SCP-681: Hélio Hostil"
+  th: "SCP-681: Hostile Helium"
+  uk: "SCP-681: Hostile Helium"
+  vi: "SCP-681: Hostile Helium"
+  zh: "SCP-681：杀人氦气"
+  zh_Hant: "SCP-681：Hostile Helium"
+object_class: Euclid
+attribution:
+  article: SCP-681
+  source_url: https://scp-wiki.wikidot.com/scp-681
+  author: "ClockworkMage"
+local_characters: {}
+panels:
+- scene: "Rows of unmarked industrial helium cylinders about 155 centimetres tall inside a dim airtight containment room. Every visible cylinder is secured by chains anchored to the walls or floor. No unprotected person inside the near-vacuum room. Keep the chains, anchors and cylinders clearly readable. No visible colored gas. Dark subdued cinematic horror with realistic materials and locally lit midtones for smartphone readability. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Wide elevated diagonal view across chained cylinder rows; all visible tanks secured to wall or floor, no people in near-vacuum storage."
+  characters: []
+  source:
+    section: Special Containment Procedures
+    exception:
+      user_approved: true
+      reason: "The user explicitly requested the tank-chaining containment procedure in panel 1 of SCP-681."
+    quote: "chained to the floor or walls"
+    url: https://scp-wiki.wikidot.com/scp-681
+    fetched_at: '2026-09-20'
+  notes: "Description supplies the helium identity, approximate count of 200 canisters and their 155 cm height; Special Containment Procedures supplies the chaining requirement."
+  caption:
+    ja: "SCP-681は、およそ200本の高さ155cmのボンベに入った、異常な性質を持つヘリウムです。すべてのボンベは、収容室の壁か床に鎖で繋がれます。"
+    en: "SCP-681 is helium with unusual properties, held in roughly 200 canisters each 155 cm tall. All canisters are chained to the walls or floor of the containment room."
+    cs: "SCP-681 je helium s neobvyklými vlastnostmi v přibližně 200 lahvích, každé vysoké 155 cm. Všechny lahve jsou řetězy připevněny ke stěnám nebo podlaze zadržovací místnosti."
+    de: "SCP-681 ist Helium mit ungewöhnlichen Eigenschaften in rund 200 jeweils 155 cm hohen Gasflaschen. Alle Gasflaschen werden an Wänden oder Boden des Eindämmungsraums angekettet."
+    es: "SCP-681 es helio con propiedades inusuales, contenido en unos 200 cilindros de 155 cm de altura. Todos los cilindros se encadenan a las paredes o al suelo de la sala de contención."
+    fr: "SCP-681 est un hélium aux propriétés inhabituelles, contenu dans environ 200 bouteilles de 155 cm de haut. Toutes les bouteilles sont enchaînées aux murs ou au sol de la salle de confinement."
+    it: "SCP-681 è elio dalle proprietà insolite, contenuto in circa 200 bombole alte 155 cm ciascuna. Tutte le bombole sono incatenate alle pareti o al pavimento della camera di contenimento."
+    ko: "SCP-681은 높이 155cm의 가스통 약 200개에 담긴 비정상적인 헬륨입니다. 모든 가스통은 격리실의 벽이나 바닥에 사슬로 연결됩니다."
+    pl: "SCP-681 to hel o niezwykłych właściwościach, zawarty w około 200 butlach o wysokości 155 cm każda. Wszystkie butle są przytwierdzone łańcuchami do ścian lub podłogi komory przechowawczej."
+    pt: "SCP-681 é hélio com propriedades incomuns, contido em cerca de 200 cilindros de 155 cm de altura. Todos os cilindros são presos por correntes às paredes ou ao piso da sala de contenção."
+    th: "SCP-681 เป็นฮีเลียมที่มีคุณสมบัติผิดปกติ บรรจุในถังสูง 155 เซนติเมตรประมาณ 200 ถัง ถังทั้งหมดถูกล่ามโซ่กับผนังหรือพื้นห้องกักกัน"
+    uk: "SCP-681 — гелій із незвичними властивостями приблизно у 200 балонах заввишки 155 см кожен. Усі балони прикуті ланцюгами до стін або підлоги камери утримання."
+    vi: "SCP-681 là heli có đặc tính bất thường, chứa trong khoảng 200 bình, mỗi bình cao 155 cm. Tất cả các bình đều được xích vào tường hoặc sàn phòng quản thúc."
+    zh: "SCP-681是具有异常性质的氦气，装在约200个高155厘米的气瓶中。所有气瓶均用锁链固定在收容室的墙壁或地板上。"
+    zh_Hant: "SCP-681是具有異常性質的氦氣，裝在約200個高155公分的氣瓶中。所有氣瓶均用鎖鏈固定在收容室的牆壁或地板上。"
+- scene: "An adult near a cylinder in a dim room shows restrained breathing distress, another person noticing from a doorway. Helium remains entirely invisible; no colored vapor, anatomical instruction, graphic injury or explicit release mechanism. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Medium side view in a separate ordinary room, adult beside cylinder bent slightly forward with hand at throat, second person paused in doorway looking over. Plain clothes without insignia or badges."
+  characters: ["attending-researcher-m","attending-researcher-f"]
+  source:
+    section: Description
+    quote: "In the event of leakage"
+    url: https://scp-wiki.wikidot.com/scp-681
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-681が洩れた場合、脳波を発する生物へ向かい、気道や副鼻腔を満たします。量が多ければ窒息死を招きます。"
+    en: "If SCP-681 leaks, it moves toward organisms producing brainwaves and fills their airways and sinuses. Sufficient quantities can cause fatal suffocation."
+    cs: "Pokud SCP-681 unikne, míří k organismům vytvářejícím mozkové vlny a plní jejich dýchací cesty a vedlejší nosní dutiny. Dostatečné množství může způsobit smrtelné udušení."
+    de: "Wenn SCP-681 austritt, bewegt es sich auf Lebewesen mit Hirnströmen zu und füllt deren Atemwege und Nebenhöhlen. Ausreichende Mengen können zum Erstickungstod führen."
+    es: "Si SCP-681 se fuga, se dirige hacia organismos que producen ondas cerebrales y llena sus vías respiratorias y senos paranasales. En cantidad suficiente puede causar asfixia mortal."
+    fr: "Si SCP-681 s’échappe, il se dirige vers les organismes produisant des ondes cérébrales et remplit leurs voies respiratoires et sinus. En quantité suffisante, il peut tuer par asphyxie."
+    it: "Se SCP-681 fuoriesce, si dirige verso organismi che producono onde cerebrali e riempie vie respiratorie e seni paranasali. Quantità sufficienti possono causare soffocamento mortale."
+    ko: "SCP-681이 누출되면 뇌파를 내는 생물에게 접근해 기도와 부비동을 채웁니다. 양이 많으면 질식사할 수 있습니다."
+    pl: "Jeśli SCP-681 wycieknie, kieruje się ku organizmom wytwarzającym fale mózgowe i wypełnia ich drogi oddechowe oraz zatoki. Wystarczająca ilość może spowodować śmiertelne uduszenie."
+    pt: "Se SCP-681 vazar, dirige-se a organismos que produzem ondas cerebrais e preenche suas vias aéreas e seios da face. Quantidades suficientes podem causar asfixia fatal."
+    th: "หาก SCP-681 รั่วออกมา มันจะมุ่งหาสิ่งมีชีวิตที่สร้างคลื่นสมองและเติมทางเดินหายใจกับโพรงไซนัส หากมีมากพออาจทำให้ขาดอากาศตาย"
+    uk: "Якщо SCP-681 витече, він прямує до організмів із мозковими хвилями й заповнює їхні дихальні шляхи та пазухи. Достатня кількість може спричинити смертельну задуху."
+    vi: "Nếu SCP-681 rò rỉ, nó tiến đến sinh vật phát sóng não và lấp đầy đường thở cùng xoang của chúng. Lượng đủ lớn có thể gây ngạt chết."
+    zh: "如果SCP-681发生泄漏，它会趋向产生脑电波的生物，填满其气道和鼻窦。量足够大时，可能导致窒息死亡。"
+    zh_Hant: "如果SCP-681發生洩漏，它會趨向產生腦電波的生物，填滿其氣道和鼻竇。量足夠大時，可能導致窒息死亡。"
+- scene: "A compact 60-centimetre party helium cylinder tilts and moves toward a recoiling adult in an otherwise ordinary room. Show motion at floor level before impact, no flying missile, head wound or exaggerated force. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Floor-level low shot with small sixty-centimetre cylinder tilted in left foreground, adult steps backward at right with one palm raised, not seated, no impact."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "deliver a head concussion"
+    url: https://scp-wiki.wikidot.com/scp-681
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-681は容器の中でも動こうとし、軽い60cmボンベなら脳震盪を起こす力があります。作用距離は約30mですが、大きく変動します。"
+    en: "SCP-681 moves even inside containers; a lighter 60 cm canister can cause concussion. Its range is roughly 30 m but varies greatly."
+    cs: "Pohybuje se i uvnitř nádob; lehčí 60cm láhev může způsobit otřes mozku. Dosah je asi 30 m, ale značně kolísá."
+    de: "Es bewegt sich selbst in Behältern; eine leichtere 60-cm-Flasche kann Gehirnerschütterungen verursachen. Die Reichweite beträgt etwa 30 m, schwankt aber stark."
+    es: "Se mueve incluso dentro de recipientes; un cilindro ligero de 60 cm puede causar conmoción cerebral. Su alcance ronda 30 m, pero varía mucho."
+    fr: "Il se déplace même en récipient ; une bouteille légère de 60 cm peut causer une commotion cérébrale. Sa portée d’environ 30 m varie fortement."
+    it: "Si muove anche nei contenitori; una bombola leggera di 60 cm può causare una commozione cerebrale. La portata è circa 30 m, ma varia molto."
+    ko: "용기 안에서도 움직이며, 가벼운 60cm 가스통은 뇌진탕을 일으킬 힘이 있습니다. 범위는 약 30m지만 크게 달라집니다."
+    pl: "Porusza się nawet w pojemnikach; lżejsza butla 60 cm może spowodować wstrząśnienie mózgu. Zasięg wynosi około 30 m, lecz silnie się waha."
+    pt: "Move-se mesmo em recipientes; um cilindro leve de 60 cm pode causar concussão. O alcance é de cerca de 30 m, mas varia muito."
+    th: "แม้อยู่ในถังก็เคลื่อนไหวได้ ถังเบาขนาด 60 เซนติเมตรมีแรงทำให้สมองกระทบกระเทือน ระยะผลประมาณ 30 เมตรแต่แปรผันมาก"
+    uk: "Він рухається навіть у ємностях; легший 60-см балон може спричинити струс мозку. Радіус дії близько 30 м, але дуже мінливий."
+    vi: "Nó di chuyển ngay trong vật chứa; bình nhẹ cao 60 cm có thể gây chấn động não. Tầm tác động khoảng 30 m nhưng biến động lớn."
+    zh: "即使装在容器里，它也能移动；较轻的60厘米气瓶有造成脑震荡的力量。作用距离约30米，但变化很大。"
+    zh_Hant: "即使裝在容器裡，它也能移動；較輕的60公分氣瓶有造成腦震盪的力量。作用距離約30公尺，但變化很大。"
+- scene: "A plain latex balloon presses gently against a researcher's shoulder while a simple twisted balloon dog leans toward their arm in a weak hostile pose. Ordinary latex, no eyes, teeth, claws or invented monster anatomy. One square continuous scene, no text, captions, speech bubbles, borders, grids or inset images; do not imitate article attachments. Close side profile of shoulder bumped by plain latex balloon, balloon dog nudges forearm below, researcher turns eyes toward it and lowers arm defensively, subdued rather than comic."
+  characters: ["attending-researcher-m"]
+  source:
+    section: Description
+    quote: "repeatedly bump against them"
+    url: https://scp-wiki.wikidot.com/scp-681
+    fetched_at: '2026-09-20'
+  caption:
+    ja: "SCP-681を入れた風船は、近くの思考する生物へ漂い、繰り返しぶつかります。動物型の風船は少し動いて敵意を示しますが、単なるラテックス製なので攻撃はほとんど効果がありません。"
+    en: "Balloons filled with SCP-681 drift toward nearby thinking organisms and repeatedly bump them. Balloon animals move slightly and act hostile, but their attacks are largely ineffective because they are only latex."
+    cs: "Balónky naplněné SCP-681 míří k blízkým myslícím tvorům a opakovaně do nich narážejí. Balónková zvířátka se trochu pohybují a jsou nepřátelská, ale útoky jsou převážně neúčinné, protože jsou jen z latexu."
+    de: "Mit SCP-681 gefüllte Ballons treiben zu denkenden Lebewesen in der Nähe und stoßen sie wiederholt an. Ballontiere bewegen sich leicht und sind feindselig, ihre Angriffe bleiben jedoch weitgehend wirkungslos, da sie nur aus Latex bestehen."
+    es: "Los globos con SCP-681 flotan hacia seres pensantes cercanos y los golpean repetidamente. Los animales de globo se mueven un poco y son hostiles, pero sus ataques apenas surten efecto porque solo son de látex."
+    fr: "Les ballons remplis de SCP-681 dérivent vers les êtres pensants proches et les heurtent à répétition. Les animaux en ballon bougent légèrement et sont hostiles, mais leurs attaques restent peu efficaces puisqu’ils ne sont qu’en latex."
+    it: "I palloncini con SCP-681 si dirigono verso esseri pensanti vicini e li urtano ripetutamente. Gli animali di palloncini si muovono un poco e sono ostili, ma gli attacchi sono perlopiù inefficaci perché sono solo di lattice."
+    ko: "SCP-681을 넣은 풍선은 근처의 사고하는 생물에게 떠가 반복해서 부딪칩니다. 동물 모양 풍선은 조금 움직이며 적대적이지만 단순한 라텍스여서 공격은 거의 효과가 없습니다."
+    pl: "Balony z SCP-681 zbliżają się do pobliskich myślących istot i wielokrotnie je trącają. Balonowe zwierzęta lekko się poruszają i są wrogie, lecz ataki są przeważnie nieskuteczne, bo są jedynie z lateksu."
+    pt: "Balões com SCP-681 flutuam até seres pensantes próximos e esbarram neles repetidamente. Animais de balão se movem um pouco e são hostis, mas os ataques são quase ineficazes por serem apenas de látex."
+    th: "ลูกโป่งที่บรรจุ SCP-681 จะลอยเข้าหาสิ่งมีชีวิตที่คิดได้ใกล้ๆ และชนซ้ำๆ ลูกโป่งรูปสัตว์ขยับเล็กน้อยและเป็นศัตรู แต่โจมตีแทบไม่ได้ผลเพราะเป็นเพียงลาเท็กซ์"
+    uk: "Кульки з SCP-681 пливуть до мислячих істот поблизу й раз у раз штовхають їх. Надувні тваринки трохи рухаються й виявляють ворожість, але атаки здебільшого неефективні, бо вони лише латексні."
+    vi: "Bóng bay chứa SCP-681 trôi đến sinh vật có tư duy gần đó và va vào liên tục. Bóng hình thú cử động nhẹ và hung hăng, nhưng tấn công gần như vô hiệu vì chúng chỉ bằng latex."
+    zh: "充入SCP-681的气球会飘向附近有思维的生物并反复碰撞。动物造型气球会稍微活动并表现敌意，但因只是乳胶制品，攻击基本无效。"
+    zh_Hant: "充入SCP-681的氣球會飄向附近有思維的生物並反覆碰撞。動物造型氣球會稍微活動並表現敵意，但因只是乳膠製品，攻擊基本無效。"

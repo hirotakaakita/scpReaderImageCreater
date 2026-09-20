@@ -13,6 +13,7 @@ DONE_DIR = os.path.join(ROOT, "comics", "done")
 USED_PATH = os.path.join(ROOT, "state", "used.json")
 _ID_RE = re.compile(r"^scp-[A-Za-z0-9_-]+$")
 _SOURCE_SECTIONS = {"Description", "Special Containment Procedures"}
+_ADDENDUM_SECTION_RE = re.compile(r"^Addendum(?:\s+\S.*)?$")
 
 
 def rootpath(*parts):
@@ -101,10 +102,24 @@ def validate_script(script, path=None, cfgs=None, require_all_languages=True,
             errors.append(f"{prefix}: source must be a mapping")
         else:
             section = source.get("section")
-            if section not in _SOURCE_SECTIONS:
-                errors.append(f"{prefix}: source.section must be Description or Special Containment Procedures")
-            if section == "Special Containment Procedures" and idx != len(panels):
-                errors.append(f"{prefix}: Special Containment Procedures may only be used in the final panel")
+            exception = source.get("exception")
+            approved_exception = (
+                isinstance(exception, dict)
+                and exception.get("user_approved") is True
+                and isinstance(exception.get("reason"), str)
+                and bool(exception["reason"].strip())
+            )
+            if "exception" in source and not approved_exception:
+                errors.append(f"{prefix}: source.exception requires user_approved: true and a non-empty reason")
+            if not isinstance(section, str) or not section.strip():
+                errors.append(f"{prefix}: source.section must be a non-empty string")
+            elif section not in _SOURCE_SECTIONS:
+                if not (_ADDENDUM_SECTION_RE.fullmatch(section) and approved_exception):
+                    errors.append(f"{prefix}: source.section must be Description or Special Containment Procedures; "
+                                  "an Addendum requires an explicit user-approved source.exception")
+            if section == "Special Containment Procedures" and idx != len(panels) and not approved_exception:
+                errors.append(f"{prefix}: Special Containment Procedures may only be used in the final panel "
+                              "unless an explicit user-approved source.exception is recorded")
             for key in ("quote", "url"):
                 if not isinstance(source.get(key), str) or not source[key].strip():
                     errors.append(f"{prefix}: source.{key} is required when source is present")
