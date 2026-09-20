@@ -1,0 +1,129 @@
+id: scp-013
+title:
+  ja: "SCP-013 — ブルーレディの煙草"
+  en: "SCP-013 — Blue Lady Cigarettes"
+  cs: "SCP-013 — Cigarety Modrá dáma"
+  de: "SCP-013 — Blue-Lady-Zigaretten"
+  es: "SCP-013 — Cigarrillos Blue Lady"
+  fr: "SCP-013 — Cigarettes Blue Lady"
+  it: "SCP-013 — Sigarette Blue Lady"
+  ko: "SCP-013 — 블루 레이디 담배"
+  pl: "SCP-013 — Papierosy Blue Lady"
+  pt: "SCP-013 — Cigarros Blue Lady"
+  th: "SCP-013 — บุหรี่บลูลดี้"
+  uk: "SCP-013 — Цигарки Blue Lady"
+  vi: "SCP-013 — Thuốc lá Blue Lady"
+  zh: "SCP-013 — 蓝女士香烟"
+  zh_Hant: "SCP-013 — 藍女士香菸"
+object_class: Safe
+attribution:
+  article: "SCP-013 — Blue Lady Cigarettes"
+  source_url: "https://scp-wiki.wikidot.com/scp-013"
+  author: "Unknown Author / SCP Foundation"
+local_characters:
+  scp-013:
+    name: "SCP-013"
+    appearance: "A group of ordinary cigarettes, each marked with the words Blue Lady in blue ink; do not render readable letters."
+    default_look: "Plain cigarettes with blue hand-written-looking marks represented as abstract blue strokes, no legible text."
+  perceived-woman:
+    name: "Perceived woman"
+    appearance: "A woman aged 25 to 35, about 1.6 meters tall, dark cropped hair, blue eyes, bright blue lipstick."
+    default_look: "Appears only as a reflection or mental self-image, not physically present."
+panels:
+  - scene: >
+      Evidence-table closeup of many cigarettes, each with small blue handwritten-like marks that are not readable letters.
+      Keep the image text-free; show a blue mark motif rather than words.
+    characters: [scp-013]
+    source:
+      section: Description
+      quote: "SCP-013 is the collective designation of 242 cigarettes... the words 'Blue Lady' hand-written on each cigarette in blue ink."
+      url: "https://scp-wiki.wikidot.com/scp-013"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-013は、青いインクで「Blue Lady」と手書きされた特徴を共有する242本の煙草の総称です。"
+      en: "SCP-013 refers to 242 cigarettes, each sharing the hand-written blue-ink mark “Blue Lady.”"
+      cs: "SCP-013 označuje 242 cigaret, z nichž každá sdílí modrým inkoustem psané označení „Blue Lady“."
+      de: "SCP-013 bezeichnet 242 Zigaretten, die alle die mit blauer Tinte handschriftliche Markierung „Blue Lady“ tragen."
+      es: "SCP-013 designa 242 cigarrillos que comparten la marca manuscrita en tinta azul “Blue Lady”."
+      fr: "SCP-013 désigne 242 cigarettes portant chacune la mention manuscrite à l’encre bleue « Blue Lady »."
+      it: "SCP-013 indica 242 sigarette, ciascuna con la scritta a mano in inchiostro blu “Blue Lady”."
+      ko: "SCP-013은 파란 잉크로 ‘Blue Lady’가 손글씨처럼 표시된 242개의 담배를 가리킵니다."
+      pl: "SCP-013 oznacza 242 papierosy, z których każdy ma niebieskim atramentem odręczny znak „Blue Lady”."
+      pt: "SCP-013 designa 242 cigarros, cada um com a marca manuscrita em tinta azul “Blue Lady”."
+      th: "SCP-013 คือบุหรี่ 242 มวนที่มีเครื่องหมายเขียนด้วยหมึกสีน้ำเงินว่า “Blue Lady”"
+      uk: "SCP-013 позначає 242 цигарки, кожна з рукописним синім написом «Blue Lady»."
+      vi: "SCP-013 là tên gọi chung của 242 điếu thuốc, mỗi điếu có dòng chữ tay màu xanh “Blue Lady”."
+      zh: "SCP-013指242支香烟，每支都有蓝墨水手写的“Blue Lady”标记。"
+      zh_Hant: "SCP-013指242支香菸，每支都有藍墨水手寫的「Blue Lady」標記。"
+  - scene: >
+      A test subject inhales smoke from one cigarette in a sterile observation room. In a mirror nearby, their reflection begins to resemble an unidentified woman. No smoke text or labels.
+    characters: [scp-013, perceived-woman]
+    source:
+      section: Description
+      quote: "Subjects who consume the contents of SCP-013 through inhalation will begin to perceive themselves as a specific unidentified woman."
+      url: "https://scp-wiki.wikidot.com/scp-013"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-013を吸入した被験者は、自分自身を特定の未確認女性として認識し始めます。"
+      en: "Subjects who inhale SCP-013 begin to perceive themselves as a specific unidentified woman."
+      cs: "Subjekty, které SCP-013 vdechnou, se začnou vnímat jako určitá neidentifikovaná žena."
+      de: "Personen, die SCP-013 inhalieren, beginnen, sich selbst als eine bestimmte unbekannte Frau wahrzunehmen."
+      es: "Los sujetos que inhalan SCP-013 empiezan a percibirse como una mujer específica no identificada."
+      fr: "Les sujets qui inhalent SCP-013 commencent à se percevoir comme une femme non identifiée précise."
+      it: "I soggetti che inalano SCP-013 iniziano a percepirsi come una specifica donna non identificata."
+      ko: "SCP-013을 흡입한 대상은 자신을 특정 미확인 여성으로 인식하기 시작합니다."
+      pl: "Osoby wdychające SCP-013 zaczynają postrzegać siebie jako konkretną niezidentyfikowaną kobietę."
+      pt: "Sujeitos que inalam SCP-013 começam a se perceber como uma mulher específica não identificada."
+      th: "ผู้ที่สูด SCP-013 จะเริ่มรับรู้ว่าตนเองเป็นผู้หญิงนิรนามคนหนึ่งโดยเฉพาะ"
+      uk: "Суб’єкти, які вдихають SCP-013, починають сприймати себе як конкретну невстановлену жінку."
+      vi: "Đối tượng hít SCP-013 bắt đầu nhận thức bản thân như một người phụ nữ chưa xác định cụ thể."
+      zh: "吸入SCP-013的对象会开始把自己感知为某位特定的未确认女性。"
+      zh_Hant: "吸入SCP-013的對象會開始把自己感知為某位特定的未確認女性。"
+  - scene: >
+      Mirror-focused scene: the subject sees cropped dark hair, blue eyes, and bright blue lipstick in the reflection while their real body remains unchanged. No text.
+    characters: [perceived-woman]
+    source:
+      section: Description
+      quote: "Additional recurring details include cropped dark hair, blue eyes, and bright blue lipstick... All changes are entirely mental"
+      url: "https://scp-wiki.wikidot.com/scp-013"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "その女性像には短い黒髪、青い目、鮮やかな青い口紅が繰り返し現れますが、変化はすべて精神的なものです。"
+      en: "The recurring image has cropped dark hair, blue eyes, and bright blue lipstick, but the changes are entirely mental."
+      cs: "Opakující se podoba má krátké tmavé vlasy, modré oči a jasně modrou rtěnku, ale změny jsou zcela duševní."
+      de: "Das wiederkehrende Bild zeigt kurzes dunkles Haar, blaue Augen und hellblauen Lippenstift, doch die Veränderungen sind rein mental."
+      es: "La imagen recurrente tiene cabello oscuro corto, ojos azules y lápiz labial azul brillante, pero los cambios son totalmente mentales."
+      fr: "L’image récurrente possède des cheveux sombres courts, des yeux bleus et un rouge à lèvres bleu vif, mais les changements sont entièrement mentaux."
+      it: "L’immagine ricorrente ha capelli scuri corti, occhi blu e rossetto blu acceso, ma i cambiamenti sono interamente mentali."
+      ko: "반복되는 모습은 짧은 검은 머리, 파란 눈, 밝은 파란 립스틱을 지니지만 변화는 전적으로 정신적입니다."
+      pl: "Powracający obraz ma krótkie ciemne włosy, niebieskie oczy i jaskrawoniebieską szminkę, lecz zmiany są całkowicie mentalne."
+      pt: "A imagem recorrente tem cabelo escuro curto, olhos azuis e batom azul vivo, mas as mudanças são inteiramente mentais."
+      th: "ภาพที่เกิดซ้ำมีผมสีเข้มตัดสั้น ดวงตาสีน้ำเงิน และลิปสติกสีน้ำเงินสด แต่การเปลี่ยนแปลงทั้งหมดเป็นทางจิตใจ"
+      uk: "Повторюваний образ має коротке темне волосся, блакитні очі та яскраво-блакитну помаду, але всі зміни суто психічні."
+      vi: "Hình ảnh lặp lại có tóc đen cắt ngắn, mắt xanh và son môi xanh sáng, nhưng mọi thay đổi đều chỉ ở tinh thần."
+      zh: "反复出现的形象有短黑发、蓝眼睛和亮蓝色口红，但所有变化都只是精神上的。"
+      zh_Hant: "反覆出現的形象有短黑髮、藍眼睛和亮藍色口紅，但所有變化都只是精神上的。"
+  - scene: >
+      Apartment discovery scene: a cardboard crate of cigarettes sits among many sketches of the same blue-lipped woman, drawn as images without readable writing. Keep it somber and text-free.
+    characters: [scp-013, perceived-woman]
+    source:
+      section: Description
+      quote: "SCP-013 was discovered... packed in a large cardboard crate... several hundred sketches of a figure strongly resembling the one perceived"
+      url: "https://scp-wiki.wikidot.com/scp-013"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-013は大きな段ボール箱に詰められ、効果中に知覚される人物に酷似した多数のスケッチとともに発見されました。"
+      en: "SCP-013 was found packed in a large cardboard crate, near many sketches resembling the woman perceived under its effect."
+      cs: "SCP-013 bylo nalezeno ve velké kartonové bedně poblíž mnoha skic podobných ženě vnímané pod jeho účinkem."
+      de: "SCP-013 wurde in einer großen Pappkiste gefunden, nahe zahlreicher Skizzen, die der wahrgenommenen Frau ähnelten."
+      es: "SCP-013 fue hallado en una gran caja de cartón, junto a muchos bocetos parecidos a la mujer percibida bajo su efecto."
+      fr: "SCP-013 fut trouvé dans une grande caisse en carton, près de nombreux croquis ressemblant à la femme perçue sous son effet."
+      it: "SCP-013 fu trovato in una grande scatola di cartone, vicino a molti schizzi simili alla donna percepita sotto il suo effetto."
+      ko: "SCP-013은 큰 판지 상자에 담긴 채, 효과 중 보이는 여성과 닮은 많은 스케치 근처에서 발견되었습니다."
+      pl: "SCP-013 znaleziono w dużej kartonowej skrzyni obok licznych szkiców podobnych do kobiety postrzeganej pod jego wpływem."
+      pt: "SCP-013 foi encontrado em uma grande caixa de papelão, perto de muitos esboços parecidos com a mulher percebida sob seu efeito."
+      th: "SCP-013 ถูกพบในกล่องกระดาษแข็งขนาดใหญ่ ใกล้ภาพร่างจำนวนมากที่คล้ายหญิงซึ่งถูกรับรู้ภายใต้อิทธิพลของมัน"
+      uk: "SCP-013 знайшли у великій картонній коробці поряд із численними ескізами, схожими на жінку, яку бачать під його впливом."
+      vi: "SCP-013 được tìm thấy trong một thùng bìa lớn, gần nhiều bản phác thảo giống người phụ nữ được nhận thức dưới tác dụng của nó."
+      zh: "SCP-013被发现装在一个大纸箱中，旁边有许多与受其影响时感知到的女性相似的素描。"
+      zh_Hant: "SCP-013被發現裝在一個大紙箱中，旁邊有許多與受其影響時感知到的女性相似的素描。"}
