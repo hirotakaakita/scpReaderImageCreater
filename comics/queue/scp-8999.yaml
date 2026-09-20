@@ -1,0 +1,127 @@
+id: scp-8999
+title:
+  ja: "SCP-8999 — Feeding the Trolls"
+  en: "SCP-8999 — Feeding the Trolls"
+  cs: "SCP-8999 — Feeding the Trolls"
+  de: "SCP-8999 — Feeding the Trolls"
+  es: "SCP-8999 — Feeding the Trolls"
+  fr: "SCP-8999 — Feeding the Trolls"
+  it: "SCP-8999 — Feeding the Trolls"
+  ko: "SCP-8999 — Feeding the Trolls"
+  pl: "SCP-8999 — Feeding the Trolls"
+  pt: "SCP-8999 — Feeding the Trolls"
+  th: "SCP-8999 — Feeding the Trolls"
+  uk: "SCP-8999 — Feeding the Trolls"
+  vi: "SCP-8999 — Feeding the Trolls"
+  zh: "SCP-8999 — Feeding the Trolls"
+  zh_Hant: "SCP-8999 — Feeding the Trolls"
+object_class: Euclid
+attribution:
+  article: "SCP-8999 — Feeding the Trolls"
+  source_url: "https://scp-wiki.wikidot.com/scp-8999"
+  author: "J Dune"
+local_characters:
+  scp-8999:
+    name: "SCP-8999"
+    appearance: >
+      Unseen subterranean sapient entities below Åby Parish, represented through a deep cavern, dumbwaiter lift,
+      pictographs, food offerings and tremors rather than visible bodies.
+    default_look: >
+      Hidden below ground, intelligent, hungry, unseen by cameras.
+panels:
+  - scene: >
+      Exterior and cutaway of Åby Parish in Sweden, showing a vast dark cavern system 35 meters below the church. No text or labels.
+    characters: [scp-8999]
+    source:
+      section: Description
+      quote: "SCP-8999 refers to entities, unknown in number, presumably located in a vast, subterranean cavern system 35 meters below the Åby Parish, an Evangelical Lutheran church in Kalmar, Sweden."
+      url: "https://scp-wiki.wikidot.com/scp-8999"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-8999は、スウェーデン・カルマルのÅby Parish地下35メートルにある広大な洞窟系にいる、数不明の実体を指します。"
+      en: &p1 "SCP-8999 refers to an unknown number of entities in a vast cavern system 35 meters beneath Åby Parish in Kalmar, Sweden."
+      cs: *p1
+      de: *p1
+      es: *p1
+      fr: *p1
+      it: *p1
+      ko: *p1
+      pl: *p1
+      pt: *p1
+      th: *p1
+      uk: *p1
+      vi: *p1
+      zh: *p1
+      zh_Hant: *p1
+  - scene: >
+      Foundation researchers receive simple pictographs and symbols on paper through a small modified dumbwaiter lift descending into darkness. No readable text.
+    characters: [scp-8999, attending-researcher-m]
+    source:
+      section: Description
+      quote: "SCP-8999 are sapient and capable of articulating themselves through symbols and pictographs. This communication has occurred exclusively through a modified dumbwaiter lift system constructed in the parish basement."
+      url: "https://scp-wiki.wikidot.com/scp-8999"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-8999は知性を持ち、地下室の改造小型リフトを通じて、記号や絵文字でのみ意思を伝えています。"
+      en: &p2 "SCP-8999 are sapient and communicate through symbols and pictographs using a modified dumbwaiter lift in the parish basement."
+      cs: *p2
+      de: *p2
+      es: *p2
+      fr: *p2
+      it: *p2
+      ko: *p2
+      pl: *p2
+      pt: *p2
+      th: *p2
+      uk: *p2
+      vi: *p2
+      zh: *p2
+      zh_Hant: *p2
+  - scene: >
+      Camera and drone equipment descend on the dumbwaiter, but the cavern below remains unseen and the monitor shows only blank darkness. No text.
+    characters: [scp-8999]
+    source:
+      section: Description
+      quote: "Attempts to record footage of SCP-8999 by attaching a camera or surveillance drone to the lift have been unsuccessful... they possess a desire to remain unseen, and are aware of the presence of cameras."
+      url: "https://scp-wiki.wikidot.com/scp-8999"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "カメラや監視ドローンをリフトに取り付けても記録は成功せず、SCP-8999は見られることを望まず、カメラの存在も認識しています。"
+      en: &p3 "Camera and drone attempts have failed; SCP-8999 appear to want to remain unseen and are aware of cameras."
+      cs: *p3
+      de: *p3
+      es: *p3
+      fr: *p3
+      it: *p3
+      ko: *p3
+      pl: *p3
+      pt: *p3
+      th: *p3
+      uk: *p3
+      vi: *p3
+      zh: *p3
+      zh_Hant: *p3
+  - scene: >
+      Food offering scene: a tray of prepared food descends into the dark lift shaft as tremor cracks spread through the church floor when communication displeases the unseen entities. No text.
+    characters: [scp-8999]
+    source:
+      section: Description
+      quote: "SCP-8999 possesses a degree of control over seismic activity in the surrounding area... These events exclusively occur as a result of dissatisfaction with communication between SCP-8999 and the Foundation. SCP-8999 are largely disinterested in communication that does not involve or center around food."
+      url: "https://scp-wiki.wikidot.com/scp-8999"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-8999は周辺の地震活動をある程度制御し、不満な通信で揺れを起こします。食べ物に関係しない会話にはほとんど関心を示しません。"
+      en: &p4 "SCP-8999 can influence local seismic activity when dissatisfied, and they are largely interested only in communication centered on food."
+      cs: *p4
+      de: *p4
+      es: *p4
+      fr: *p4
+      it: *p4
+      ko: *p4
+      pl: *p4
+      pt: *p4
+      th: *p4
+      uk: *p4
+      vi: *p4
+      zh: *p4
+      zh_Hant: *p4
