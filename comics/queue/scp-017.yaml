@@ -1,0 +1,128 @@
+id: scp-017
+title:
+  ja: "SCP-017 — 影の人型"
+  en: "SCP-017 — Shadow Person"
+  cs: "SCP-017 — Stínová osoba"
+  de: "SCP-017 — Schattenperson"
+  es: "SCP-017 — Persona sombra"
+  fr: "SCP-017 — Personne d’ombre"
+  it: "SCP-017 — Persona d’ombra"
+  ko: "SCP-017 — 그림자 인간"
+  pl: "SCP-017 — Człowiek-cień"
+  pt: "SCP-017 — Pessoa-sombra"
+  th: "SCP-017 — มนุษย์เงา"
+  uk: "SCP-017 — Тіньова людина"
+  vi: "SCP-017 — Người bóng"
+  zh: "SCP-017 — 影人"
+  zh_Hant: "SCP-017 — 影人"
+object_class: Keter
+attribution:
+  article: "SCP-017 — Shadow Person"
+  source_url: "https://scp-wiki.wikidot.com/scp-017"
+  author: "Sam Swicegood (CityToast) / SCP Foundation"
+local_characters:
+  scp-017:
+    name: "SCP-017"
+    appearance: "A small child-sized humanoid silhouette made from a shadowy smoke-like shroud, without identifying features."
+    default_look: "Black smoke-like humanoid shape, about 80 centimeters tall, constantly lit from many directions."
+panels:
+  - scene: >
+      A small humanoid shadow figure stands inside a transparent acrylic cage, surrounded by harsh light from every direction.
+      The figure is child-sized, featureless, and made of smoke-like darkness. No text.
+    characters: [scp-017]
+    source:
+      section: Description
+      quote: "SCP-017 is a humanoid figure approximately 80 centimeters in height, anatomically similar to a small child, but with no discernible identifying features."
+      url: "https://scp-wiki.wikidot.com/scp-017"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-017は身長約80センチメートルの人型で、小さな子供に似た解剖学的形状を持ちますが、識別できる特徴はありません。"
+      en: "SCP-017 is an 80-centimeter humanoid, anatomically like a small child but without discernible identifying features."
+      cs: "SCP-017 je asi 80 cm vysoká humanoidní postava, anatomicky podobná malému dítěti, ale bez rozpoznatelných znaků."
+      de: "SCP-017 ist eine etwa 80 cm große humanoide Gestalt, anatomisch einem kleinen Kind ähnlich, aber ohne erkennbare Merkmale."
+      es: "SCP-017 es una figura humanoide de unos 80 cm, anatómicamente similar a un niño pequeño pero sin rasgos identificables."
+      fr: "SCP-017 est une figure humanoïde d’environ 80 cm, anatomiquement semblable à un petit enfant mais sans traits identifiables."
+      it: "SCP-017 è una figura umanoide alta circa 80 cm, anatomicamente simile a un bambino piccolo ma priva di tratti identificabili."
+      ko: "SCP-017은 키 약 80cm의 인형으로, 해부학적으로 작은 아이와 비슷하지만 식별 가능한 특징은 없습니다."
+      pl: "SCP-017 to humanoidalna postać około 80 cm wzrostu, anatomicznie podobna do małego dziecka, lecz bez rozpoznawalnych cech."
+      pt: "SCP-017 é uma figura humanoide de cerca de 80 cm, anatomicamente semelhante a uma criança pequena, mas sem traços identificáveis."
+      th: "SCP-017 เป็นร่างมนุษย์สูงประมาณ 80 ซม. คล้ายเด็กเล็กทางกายวิภาค แต่ไม่มีลักษณะจำแนกได้"
+      uk: "SCP-017 — гуманоїдна постать приблизно 80 см заввишки, анатомічно подібна до малої дитини, але без розпізнавальних рис."
+      vi: "SCP-017 là hình người cao khoảng 80 cm, về giải phẫu giống trẻ nhỏ nhưng không có đặc điểm nhận dạng rõ ràng."
+      zh: "SCP-017是约80厘米高的人形实体，解剖结构类似小孩，但没有可辨识特征。"
+      zh_Hant: "SCP-017是約80公分高的人形實體，解剖結構類似小孩，但沒有可辨識特徵。"
+  - scene: >
+      Close view of the entity's body: it looks like a moving shroud of shadowy smoke, with no visible object underneath.
+      Bright spotlights strike it from multiple angles. No text.
+    characters: [scp-017]
+    source:
+      section: Description
+      quote: "SCP-017 seems to be composed of a shadowy, smoke-like shroud. No attempt to find any object beneath the shroud has been successful"
+      url: "https://scp-wiki.wikidot.com/scp-017"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-017は影のような煙状の覆いで構成されているように見え、その下に物体を見つける試みは成功していません。"
+      en: "SCP-017 appears to be a shadowy, smoke-like shroud, and no object has been found beneath it."
+      cs: "SCP-017 vypadá jako stínový kouřový závoj a pod ním nebyl nalezen žádný objekt."
+      de: "SCP-017 wirkt wie ein schattenhafter, rauchartiger Schleier, und darunter wurde kein Objekt gefunden."
+      es: "SCP-017 parece un velo sombrío similar al humo, y no se ha encontrado ningún objeto debajo."
+      fr: "SCP-017 semble être un voile sombre semblable à de la fumée, sans objet trouvé dessous."
+      it: "SCP-017 sembra un velo ombroso simile a fumo, e nessun oggetto è stato trovato sotto di esso."
+      ko: "SCP-017은 그림자 같은 연기 장막으로 이루어진 듯하며, 그 아래에서 어떤 물체도 발견되지 않았습니다."
+      pl: "SCP-017 wygląda jak cienisty, dymny całun, a pod nim nie znaleziono żadnego obiektu."
+      pt: "SCP-017 parece um manto sombrio semelhante a fumaça, sem nenhum objeto encontrado por baixo."
+      th: "SCP-017 ดูเหมือนม่านควันสีดำคล้ายเงา และยังไม่พบวัตถุใดอยู่ใต้ม่านนั้น"
+      uk: "SCP-017 здається тіньовою димоподібною оболонкою, під якою не знайдено жодного об’єкта."
+      vi: "SCP-017 giống một màn khói tối như bóng, và chưa tìm thấy vật thể nào bên dưới nó."
+      zh: "SCP-017似乎由影子般的烟雾外罩构成，其下方未发现任何物体。"
+      zh_Hant: "SCP-017似乎由影子般的煙霧外罩構成，其下方未發現任何物體。"
+  - scene: >
+      A test object casts a shadow across the acrylic cage. SCP-017 instantly lunges toward the object that made the shadow.
+      Show rapid motion, but no gore or readable labels.
+    characters: [scp-017]
+    source:
+      section: Description
+      quote: "SCP-017's reaction to shadows cast upon it is immediate and swift. SCP-017 leaps at the object casting the shadow"
+      url: "https://scp-wiki.wikidot.com/scp-017"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "影がSCP-017に落ちると反応は即座かつ迅速で、影を作った物体へ飛びかかります。"
+      en: "When a shadow falls on SCP-017, its reaction is immediate: it leaps at the object casting it."
+      cs: "Když na SCP-017 dopadne stín, reaguje okamžitě a skočí po objektu, který jej vrhl."
+      de: "Fällt ein Schatten auf SCP-017, reagiert es sofort und springt auf das Objekt zu, das ihn wirft."
+      es: "Cuando una sombra cae sobre SCP-017, reacciona de inmediato y salta hacia el objeto que la proyecta."
+      fr: "Quand une ombre tombe sur SCP-017, sa réaction est immédiate : il bondit sur l’objet qui la projette."
+      it: "Quando un’ombra cade su SCP-017, la reazione è immediata: balza sull’oggetto che la proietta."
+      ko: "그림자가 SCP-017에 드리우면 즉시 반응하여 그림자를 만든 물체로 뛰어듭니다."
+      pl: "Gdy cień pada na SCP-017, reaguje natychmiast, skacząc na obiekt, który go rzuca."
+      pt: "Quando uma sombra cai sobre SCP-017, ele reage imediatamente e salta sobre o objeto que a projetou."
+      th: "เมื่อเงาตกบน SCP-017 มันตอบสนองทันทีและกระโจนใส่วัตถุที่ทำให้เกิดเงา"
+      uk: "Коли тінь падає на SCP-017, він негайно реагує й стрибає на об’єкт, що її відкинув."
+      vi: "Khi bóng đổ lên SCP-017, nó phản ứng ngay và lao vào vật thể tạo ra bóng đó."
+      zh: "当影子落在SCP-017上时，它会立即反应，扑向投下影子的物体。"
+      zh_Hant: "當影子落在SCP-017上時，它會立即反應，撲向投下影子的物體。"
+  - scene: >
+      Final containment explanation: high-intensity arc lamp spotlights on walls, ceiling, and floor point at the acrylic cage from every angle,
+      leaving almost no shadows. No text or labels.
+    characters: [scp-017]
+    source:
+      section: Special Containment Procedures
+      quote: "high-intensity arc lamp spotlights pointed directly at the acrylic cage, to ensure that SCP-017 is constantly exposed to light from every angle"
+      url: "https://scp-wiki.wikidot.com/scp-017"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "そのため収容室では、アクリルケージへ高輝度アーク灯を全方向から当て、SCP-017を常に光にさらします。"
+      en: "For containment, high-intensity arc lamps shine on the acrylic cage from every angle, keeping SCP-017 constantly exposed to light."
+      cs: "Při zadržení míří na akrylovou klec ze všech stran výkonné obloukové lampy, aby byl SCP-017 stále osvětlen."
+      de: "Zur Eindämmung richten starke Bogenlampen aus jedem Winkel Licht auf den Acrylkäfig, damit SCP-017 ständig beleuchtet bleibt."
+      es: "Para contenerlo, lámparas de arco de alta intensidad iluminan la jaula acrílica desde todos los ángulos, manteniendo a SCP-017 siempre expuesto a la luz."
+      fr: "Pour le confinement, des lampes à arc de forte intensité éclairent la cage acrylique sous tous les angles afin que SCP-017 reste exposé à la lumière."
+      it: "Per contenerlo, lampade ad arco ad alta intensità illuminano la gabbia acrilica da ogni angolazione, tenendo SCP-017 sempre esposto alla luce."
+      ko: "격리를 위해 고강도 아크등이 모든 방향에서 아크릴 케이지를 비추어 SCP-017을 계속 빛에 노출시킵니다."
+      pl: "W celu zabezpieczenia silne lampy łukowe świecą na akrylową klatkę z każdego kierunku, stale wystawiając SCP-017 na światło."
+      pt: "Para contenção, lâmpadas de arco de alta intensidade iluminam a gaiola acrílica de todos os ângulos, mantendo SCP-017 exposto à luz."
+      th: "เพื่อกักกัน ไฟอาร์กความเข้มสูงส่องกรงอะคริลิกจากทุกทิศทาง ทำให้ SCP-017 ถูกแสงตลอดเวลา"
+      uk: "Для стримування потужні дугові лампи освітлюють акрилову клітку з усіх боків, постійно тримаючи SCP-017 у світлі."
+      vi: "Để quản thúc, đèn hồ quang cường độ cao chiếu vào lồng acrylic từ mọi hướng, giữ SCP-017 luôn trong ánh sáng."
+      zh: "因此收容时，高强度弧光灯从各个方向照射丙烯酸笼，使SCP-017始终暴露在光下。"
+      zh_Hant: "因此收容時，高強度弧光燈從各個方向照射壓克力籠，使SCP-017始終暴露在光下。"}
