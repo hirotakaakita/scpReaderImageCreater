@@ -1,0 +1,129 @@
+id: scp-019
+title:
+  ja: "SCP-019 — 怪物壺"
+  en: "SCP-019 — The Monster Pot"
+  cs: "SCP-019 — Nádoba příšer"
+  de: "SCP-019 — Der Monstertopf"
+  es: "SCP-019 — La vasija de monstruos"
+  fr: "SCP-019 — Le pot aux monstres"
+  it: "SCP-019 — Il vaso dei mostri"
+  ko: "SCP-019 — 괴물 항아리"
+  pl: "SCP-019 — Garnek potworów"
+  pt: "SCP-019 — O pote de monstros"
+  th: "SCP-019 — หม้อสัตว์ประหลาด"
+  uk: "SCP-019 — Горщик монстрів"
+  vi: "SCP-019 — Chiếc bình quái vật"
+  zh: "SCP-019 — 怪物之壶"
+  zh_Hant: "SCP-019 — 怪物之壺"
+object_class: Keter
+attribution:
+  article: "SCP-019 — The Monster Pot"
+  source_url: "https://scp-wiki.wikidot.com/scp-019"
+  author: "Unknown Author / SCP Foundation"
+local_characters:
+  scp-019:
+    name: "SCP-019"
+    appearance: "A very large ancient ceramic vase, 1.8 m across at the mouth and 2.4 m high, decorated in a Classical Greek style."
+    default_look: "Unbreakable ceramic vase standing upright, with a dark interior."
+  scp-019-2:
+    name: "SCP-019-2"
+    appearance: "Small hostile vaguely humanoid entities, sometimes with animal-like features, teeth and claws."
+    default_look: "Tiny delicate but aggressive creatures emerging from the vase."
+panels:
+  - scene: >
+      Containment room shot of a huge ancient Greek-style ceramic vase standing upright on a wide grate.
+      It is taller than a person, with a very wide mouth and unbroken surface. No text.
+    characters: [scp-019]
+    source:
+      section: Description
+      quote: "SCP-019 appears to be a very large ceramic vase, 1.8 m in diameter at the mouth and 2.4 m high. Style and decoration indicate it was created in Classical Greece"
+      url: "https://scp-wiki.wikidot.com/scp-019"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-019は口径1.8メートル、高さ2.4メートルの非常に大きな陶製の壺で、古代ギリシア様式の装飾を持ちます。"
+      en: "SCP-019 appears to be a very large ceramic vase, 1.8 meters wide at the mouth and 2.4 meters high, decorated in Classical Greek style."
+      cs: "SCP-019 vypadá jako velmi velká keramická váza, 1,8 m široká u hrdla a 2,4 m vysoká, zdobená v klasickém řeckém stylu."
+      de: "SCP-019 wirkt wie eine sehr große Keramikvase, 1,8 m breit an der Öffnung und 2,4 m hoch, im klassisch griechischen Stil verziert."
+      es: "SCP-019 parece una vasija cerámica muy grande, de 1,8 m de boca y 2,4 m de altura, decorada al estilo griego clásico."
+      fr: "SCP-019 semble être un très grand vase en céramique, large de 1,8 m à l’ouverture et haut de 2,4 m, décoré dans le style grec classique."
+      it: "SCP-019 appare come un vaso ceramico molto grande, largo 1,8 m alla bocca e alto 2,4 m, decorato in stile greco classico."
+      ko: "SCP-019는 입구 지름 1.8m, 높이 2.4m의 매우 큰 도자기 항아리로, 고전 그리스 양식의 장식이 있습니다."
+      pl: "SCP-019 wygląda jak bardzo duża ceramiczna waza, 1,8 m średnicy przy wlocie i 2,4 m wysokości, zdobiona w klasycznym greckim stylu."
+      pt: "SCP-019 parece um vaso cerâmico muito grande, com 1,8 m na boca e 2,4 m de altura, decorado em estilo grego clássico."
+      th: "SCP-019 ดูเหมือนแจกันเซรามิกขนาดใหญ่มาก ปากกว้าง 1.8 เมตร สูง 2.4 เมตร และตกแต่งแบบกรีกคลาสสิก"
+      uk: "SCP-019 виглядає як дуже велика керамічна ваза: 1,8 м у діаметрі отвору та 2,4 м заввишки, оздоблена в класичному грецькому стилі."
+      vi: "SCP-019 trông như một bình gốm rất lớn, miệng rộng 1,8 m và cao 2,4 m, trang trí theo phong cách Hy Lạp cổ điển."
+      zh: "SCP-019看起来是一只巨大的陶瓷壶，口径1.8米、高2.4米，带有古典希腊风格装饰。"
+      zh_Hant: "SCP-019看起來是一只巨大的陶瓷壺，口徑1.8公尺、高2.4公尺，帶有古典希臘風格裝飾。"
+  - scene: >
+      Close detail on the ceramic surface: tools and clamps fail to mark it, showing that the vase surface cannot be broken by known means. No text.
+    characters: [scp-019]
+    source:
+      section: Description
+      quote: "the surface is entirely unbreakable by any known means. If a successful method is discovered, SCP-019 is to be destroyed with prejudice."
+      url: "https://scp-wiki.wikidot.com/scp-019"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-019の表面は既知のいかなる手段でも破壊できず、有効な方法が見つかれば即座に破壊対象とされます。"
+      en: "Its surface is unbreakable by any known means; if a successful method is found, SCP-019 is to be destroyed."
+      cs: "Jeho povrch je nezničitelný jakýmkoli známým prostředkem; pokud se najde účinná metoda, SCP-019 má být zničeno."
+      de: "Seine Oberfläche ist mit bekannten Mitteln unzerbrechlich; wird eine wirksame Methode gefunden, soll SCP-019 zerstört werden."
+      es: "Su superficie es irrompible por cualquier medio conocido; si se encuentra un método eficaz, SCP-019 debe destruirse."
+      fr: "Sa surface est incassable par tout moyen connu ; si une méthode efficace est trouvée, SCP-019 doit être détruit."
+      it: "La sua superficie è infrangibile con ogni mezzo noto; se si trova un metodo efficace, SCP-019 deve essere distrutto."
+      ko: "그 표면은 알려진 어떤 방법으로도 깨지지 않으며, 성공적인 방법이 발견되면 SCP-019는 파괴되어야 합니다."
+      pl: "Jego powierzchni nie da się zniszczyć żadną znaną metodą; jeśli skuteczna metoda zostanie odkryta, SCP-019 należy zniszczyć."
+      pt: "Sua superfície é inquebrável por qualquer meio conhecido; se um método eficaz for encontrado, SCP-019 deve ser destruído."
+      th: "พื้นผิวของมันไม่อาจทำลายได้ด้วยวิธีที่รู้จัก หากพบวิธีที่สำเร็จ SCP-019 จะต้องถูกทำลาย"
+      uk: "Його поверхню неможливо зруйнувати жодним відомим способом; якщо такий спосіб буде знайдено, SCP-019 слід знищити."
+      vi: "Bề mặt của nó không thể bị phá vỡ bằng bất kỳ phương tiện đã biết nào; nếu tìm được cách, SCP-019 phải bị tiêu hủy."
+      zh: "其表面无法被任何已知手段破坏；若找到有效方法，SCP-019应被销毁。"
+      zh_Hant: "其表面無法被任何已知手段破壞；若找到有效方法，SCP-019應被銷毀。"
+  - scene: >
+      Small hostile creatures emerge from the dark mouth of the vase: vaguely humanoid forms with animal-like traits, teeth, and claws. No gore, no text.
+    characters: [scp-019, scp-019-2]
+    source:
+      section: Description
+      quote: "Periodically, entities emerge from SCP-019... small, vaguely humanoid... extremely hostile... attack with teeth or claws."
+      url: "https://scp-wiki.wikidot.com/scp-019"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-019からは周期的に小さな人型に近い存在が現れ、しばしば歯や爪で攻撃する極めて敵対的な性質を示します。"
+      en: "Small vaguely humanoid entities periodically emerge from SCP-019, often attacking with teeth or claws."
+      cs: "Ze SCP-019 pravidelně vycházejí malé neurčitě humanoidní bytosti, které často útočí zuby nebo drápy."
+      de: "Aus SCP-019 treten periodisch kleine, vage humanoide Wesen hervor, die oft mit Zähnen oder Klauen angreifen."
+      es: "De SCP-019 emergen periódicamente pequeñas entidades vagamente humanoides que suelen atacar con dientes o garras."
+      fr: "De petites entités vaguement humanoïdes émergent périodiquement de SCP-019 et attaquent souvent avec dents ou griffes."
+      it: "Da SCP-019 emergono periodicamente piccole entità vagamente umanoidi che spesso attaccano con denti o artigli."
+      ko: "SCP-019에서는 작은 모호한 인간형 존재들이 주기적으로 나타나며, 종종 이빨이나 발톱으로 공격합니다."
+      pl: "Ze SCP-019 okresowo wyłaniają się małe, niejasno humanoidalne istoty, często atakujące zębami lub pazurami."
+      pt: "Pequenas entidades vagamente humanoides emergem periodicamente de SCP-019, muitas vezes atacando com dentes ou garras."
+      th: "มีสิ่งมีชีวิตขนาดเล็กคล้ายมนุษย์แบบคลุมเครือโผล่ออกจาก SCP-019 เป็นระยะ และมักโจมตีด้วยฟันหรือกรงเล็บ"
+      uk: "Із SCP-019 періодично виходять малі невиразно гуманоїдні істоти, що часто атакують зубами або кігтями."
+      vi: "Các thực thể nhỏ, mơ hồ hình người định kỳ xuất hiện từ SCP-019 và thường tấn công bằng răng hoặc móng."
+      zh: "小型、近似人形的实体会周期性从SCP-019中出现，并常用牙齿或爪子攻击。"
+      zh_Hant: "小型、近似人形的實體會週期性從SCP-019中出現，並常用牙齒或爪子攻擊。"
+  - scene: >
+      The vase is tilted slightly; a sudden flood-like rush of many hostile small entities pours from the dark mouth while staff retreat behind glass. No text.
+    characters: [scp-019, scp-019-2, attending-researcher-m]
+    source:
+      section: Description
+      quote: "tipping or tilting SCP-019 will create a reaction as though it was previously 'filled' with SCP-019-2 specimens"
+      url: "https://scp-wiki.wikidot.com/scp-019"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-019を倒したり傾けたりすると、内部がSCP-019-2で満たされていたかのような反応が起こります。"
+      en: "Tipping or tilting SCP-019 causes a reaction as if it had been filled with SCP-019-2 specimens."
+      cs: "Převrácení nebo naklonění SCP-019 vyvolá reakci, jako by bylo naplněno exempláři SCP-019-2."
+      de: "Kippen oder Neigen von SCP-019 löst eine Reaktion aus, als wäre es mit SCP-019-2-Exemplaren gefüllt gewesen."
+      es: "Volcar o inclinar SCP-019 provoca una reacción como si estuviera lleno de especímenes SCP-019-2."
+      fr: "Renverser ou incliner SCP-019 provoque une réaction comme s’il était rempli de spécimens SCP-019-2."
+      it: "Rovesciare o inclinare SCP-019 provoca una reazione come se fosse pieno di esemplari SCP-019-2."
+      ko: "SCP-019를 넘어뜨리거나 기울이면 내부가 SCP-019-2 표본으로 가득했던 것 같은 반응이 일어납니다."
+      pl: "Przewrócenie lub przechylenie SCP-019 wywołuje reakcję, jakby był wypełniony okazami SCP-019-2."
+      pt: "Virar ou inclinar SCP-019 provoca uma reação como se estivesse cheio de espécimes SCP-019-2."
+      th: "การทำให้ SCP-019 ล้มหรือเอียงทำให้เกิดปฏิกิริยาราวกับว่าข้างในเต็มไปด้วยตัวอย่าง SCP-019-2"
+      uk: "Перекидання або нахил SCP-019 спричиняє реакцію, ніби він був заповнений зразками SCP-019-2."
+      vi: "Lật hoặc nghiêng SCP-019 tạo phản ứng như thể nó từng chứa đầy mẫu SCP-019-2."
+      zh: "倾倒或倾斜SCP-019会引发仿佛其内部充满SCP-019-2样本的反应。"
+      zh_Hant: "傾倒或傾斜SCP-019會引發彷彿其內部充滿SCP-019-2樣本的反應。"}
