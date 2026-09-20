@@ -1,0 +1,128 @@
+id: scp-011
+title:
+  ja: "SCP-011 — 南北戦争記念像"
+  en: "SCP-011 — Civil War Memorial Statue"
+  cs: "SCP-011 — Památník občanské války"
+  de: "SCP-011 — Bürgerkriegsdenkmal"
+  es: "SCP-011 — Estatua conmemorativa de la Guerra Civil"
+  fr: "SCP-011 — Statue commémorative de la guerre de Sécession"
+  it: "SCP-011 — Statua commemorativa della Guerra Civile"
+  ko: "SCP-011 — 남북전쟁 기념상"
+  pl: "SCP-011 — Pomnik wojny secesyjnej"
+  pt: "SCP-011 — Estátua memorial da Guerra Civil"
+  th: "SCP-011 — รูปปั้นอนุสรณ์สงครามกลางเมือง"
+  uk: "SCP-011 — Пам’ятник громадянській війні"
+  vi: "SCP-011 — Tượng đài Nội chiến"
+  zh: "SCP-011 — 内战纪念雕像"
+  zh_Hant: "SCP-011 — 內戰紀念雕像"
+object_class: Safe
+attribution:
+  article: "SCP-011 — Civil War Memorial Statue"
+  source_url: "https://scp-wiki.wikidot.com/scp-011"
+  author: "Unknown Author / SCP Foundation"
+local_characters:
+  scp-011:
+    name: "SCP-011"
+    appearance: "A granite Civil War memorial statue of a young male soldier holding a musket at his side."
+    default_look: "Stone statue on a pedestal, capable of small lifelike movements without structural damage."
+panels:
+  - scene: >
+      Daytime exterior in Woodstock, Vermont: a granite Civil War memorial statue of a young male soldier stands on a pedestal,
+      holding a musket at his side. No readable plaques or text.
+    characters: [scp-011]
+    source:
+      section: Description
+      quote: "SCP-011 is a Civil War memorial statue located in Woodstock, Vermont... a young male soldier holding a musket at his side"
+      url: "https://scp-wiki.wikidot.com/scp-011"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-011はバーモント州ウッドストックにある南北戦争記念像で、マスケット銃を脇に持つ若い兵士の姿をしています。"
+      en: "SCP-011 is a Civil War memorial statue in Woodstock, Vermont, depicting a young soldier holding a musket at his side."
+      cs: "SCP-011 je památník občanské války ve Woodstocku ve Vermontu, zobrazující mladého vojáka s mušketou u boku."
+      de: "SCP-011 ist ein Bürgerkriegsdenkmal in Woodstock, Vermont, das einen jungen Soldaten mit einer Muskete an der Seite zeigt."
+      es: "SCP-011 es una estatua memorial de la Guerra Civil en Woodstock, Vermont, que muestra a un joven soldado con un mosquete al costado."
+      fr: "SCP-011 est une statue commémorative de la guerre de Sécession à Woodstock, Vermont, représentant un jeune soldat tenant un mousquet à son côté."
+      it: "SCP-011 è una statua commemorativa della Guerra Civile a Woodstock, Vermont, raffigurante un giovane soldato con un moschetto al fianco."
+      ko: "SCP-011은 버몬트주 우드스톡의 남북전쟁 기념상으로, 젊은 병사가 머스킷을 옆에 든 모습입니다."
+      pl: "SCP-011 to pomnik wojny secesyjnej w Woodstock w Vermont, przedstawiający młodego żołnierza z muszkietem u boku."
+      pt: "SCP-011 é uma estátua memorial da Guerra Civil em Woodstock, Vermont, mostrando um jovem soldado com um mosquete ao lado."
+      th: "SCP-011 เป็นรูปปั้นอนุสรณ์สงครามกลางเมืองในวูดสต็อก รัฐเวอร์มอนต์ เป็นทหารหนุ่มถือปืนคาบศิลาไว้ข้างตัว"
+      uk: "SCP-011 — пам’ятник громадянській війні у Вудстоку, Вермонт, що зображує молодого солдата з мушкетом біля боку."
+      vi: "SCP-011 là tượng đài Nội chiến ở Woodstock, Vermont, khắc họa một lính trẻ cầm súng hỏa mai bên hông."
+      zh: "SCP-011是位于佛蒙特州伍德斯托克的内战纪念雕像，形象为一名年轻士兵侧持火枪。"
+      zh_Hant: "SCP-011是位於佛蒙特州伍德斯托克的內戰紀念雕像，形象為一名年輕士兵側持火槍。"
+  - scene: >
+      The granite statue slowly lifts its musket toward the sky as birds approach the pedestal.
+      Show subtle grinding stone motion, not a human body. No text.
+    characters: [scp-011]
+    source:
+      section: Description
+      quote: "SCP-011 has been observed lifting its musket to the sky to fire at birds which attempt to land or defecate on it."
+      url: "https://scp-wiki.wikidot.com/scp-011"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-011は、自分に止まろうとする、または糞を落とそうとする鳥へ向けて、マスケット銃を空へ持ち上げることがあります。"
+      en: "SCP-011 has been seen lifting its musket skyward to fire at birds trying to land or defecate on it."
+      cs: "SCP-011 byl pozorován, jak zvedá mušketu k nebi a střílí na ptáky, kteří se na něj pokoušejí sednout nebo ho znečistit."
+      de: "SCP-011 wurde dabei beobachtet, wie es die Muskete zum Himmel hebt, um auf Vögel zu schießen, die landen oder es beschmutzen wollen."
+      es: "Se ha observado que SCP-011 levanta su mosquete al cielo para disparar a aves que intentan posarse o defecar sobre él."
+      fr: "SCP-011 a été observé levant son mousquet vers le ciel pour tirer sur des oiseaux tentant de se poser ou de déféquer sur lui."
+      it: "SCP-011 è stato osservato mentre alza il moschetto verso il cielo per sparare agli uccelli che tentano di posarsi o sporcarlo."
+      ko: "SCP-011은 자신에게 앉거나 배설하려는 새를 향해 머스킷을 하늘로 들어 올리는 모습이 관찰되었습니다."
+      pl: "SCP-011 widywano, jak unosi muszkiet ku niebu, strzelając do ptaków próbujących usiąść na nim lub go zabrudzić."
+      pt: "SCP-011 foi observado levantando o mosquete para o céu para atirar em aves que tentam pousar ou defecar nele."
+      th: "เคยพบว่า SCP-011 ยกปืนคาบศิลาขึ้นฟ้าเพื่อยิงนกที่พยายามเกาะหรือถ่ายมูลใส่มัน"
+      uk: "SCP-011 спостерігали, коли він піднімав мушкет до неба й стріляв у птахів, що намагалися сісти або випорожнитися на нього."
+      vi: "SCP-011 từng được thấy nâng súng hỏa mai lên trời để bắn những con chim định đậu hoặc phóng uế lên nó."
+      zh: "有人观察到SCP-011会举起火枪朝天射击，目标是试图停在它身上或排泄的鸟。"
+      zh_Hant: "有人觀察到SCP-011會舉起火槍朝天射擊，目標是試圖停在它身上或排泄的鳥。"
+  - scene: >
+      Close view of the musket firing: the statue loads granite bullets and granite powder into the stone musket,
+      yet the gunfire appears like that of a standard firearm. No text, no muzzle words.
+    characters: [scp-011]
+    source:
+      section: Description
+      quote: "the gunfire is very similar to that of a standard firearm... the item only loads granite bullets and granite powder into the musket"
+      url: "https://scp-wiki.wikidot.com/scp-011"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "発砲音は通常の銃に近い一方で、SCP-011が装填しているのは花崗岩の弾丸と火薬だけです。"
+      en: "Its gunfire resembles a standard firearm, even though it loads only granite bullets and granite powder."
+      cs: "Výstřel zní jako běžná střelná zbraň, přestože používá jen žulové kulky a žulový prach."
+      de: "Der Schuss ähnelt einer normalen Feuerwaffe, obwohl nur Granitkugeln und Granitpulver geladen werden."
+      es: "El disparo se parece al de un arma común, aunque solo carga balas y pólvora de granito."
+      fr: "Le tir ressemble à celui d’une arme à feu ordinaire, même s’il ne charge que des balles et de la poudre de granit."
+      it: "Lo sparo somiglia a quello di un’arma comune, anche se carica solo proiettili e polvere di granito."
+      ko: "그 총성은 일반 총기와 비슷하지만, 장전되는 것은 화강암 탄환과 화강암 가루뿐입니다."
+      pl: "Wystrzał brzmi jak ze zwykłej broni palnej, choć ładowane są tylko granitowe kule i granitowy proch."
+      pt: "O disparo lembra o de uma arma comum, embora carregue apenas balas e pólvora de granito."
+      th: "เสียงยิงคล้ายอาวุธปืนทั่วไป แม้มันจะบรรจุเพียงกระสุนและดินปืนที่เป็นหินแกรนิต"
+      uk: "Постріл схожий на звичайну вогнепальну зброю, хоча заряджаються лише гранітні кулі й гранітний порох."
+      vi: "Tiếng súng giống vũ khí thông thường, dù nó chỉ nạp đạn và thuốc súng bằng đá granit."
+      zh: "它的枪声类似普通火器，尽管装入的只有花岗岩子弹和花岗岩火药。"
+      zh_Hant: "它的槍聲類似普通火器，儘管裝入的只有花崗岩子彈和花崗岩火藥。"
+  - scene: >
+      The granite statue looks visibly distressed under accumulated bird droppings on its stone shoulders,
+      turning the musket downward toward nearby humans in a rare threatening moment. No text.
+    characters: [scp-011]
+    source:
+      section: Description
+      quote: "it has reportedly become distressed when it has had a large amount of feces on it, on some rare occasions even firing at humans."
+      url: "https://scp-wiki.wikidot.com/scp-011"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "大量の糞が付着するとSCP-011は動揺したようになり、まれには人間へ発砲したと報告されています。"
+      en: "When heavily fouled, SCP-011 has reportedly become distressed and, on rare occasions, fired at humans."
+      cs: "Když je silně znečištěn, SCP-011 údajně projevuje rozrušení a výjimečně střílí i na lidi."
+      de: "Bei starker Verschmutzung soll SCP-011 verstört wirken und in seltenen Fällen sogar auf Menschen feuern."
+      es: "Cuando está muy manchado, SCP-011 supuestamente se angustia y en raras ocasiones dispara a humanos."
+      fr: "Lorsqu’il est fortement souillé, SCP-011 deviendrait perturbé et aurait parfois tiré sur des humains."
+      it: "Quando è molto sporco, SCP-011 sembra turbarsi e in rare occasioni avrebbe sparato agli esseri umani."
+      ko: "심하게 더럽혀지면 SCP-011은 동요한 듯 보이며, 드물게 인간에게 발포한 사례도 보고되었습니다."
+      pl: "Gdy jest mocno zabrudzony, SCP-011 podobno staje się zdenerwowany i rzadko strzela do ludzi."
+      pt: "Quando fica muito sujo, SCP-011 teria se mostrado aflito e, raramente, disparado contra humanos."
+      th: "เมื่อมีมูลจำนวนมากติดอยู่ SCP-011 มีรายงานว่าเกิดความกระวนกระวาย และบางครั้งถึงกับยิงใส่มนุษย์"
+      uk: "Коли SCP-011 сильно забруднений, він нібито засмучується і зрідка навіть стріляє в людей."
+      vi: "Khi bị bẩn nặng, SCP-011 được báo cáo là trở nên kích động và đôi khi bắn vào con người."
+      zh: "当身上沾有大量粪便时，SCP-011据称会变得不安，少数情况下甚至向人类开枪。"
+      zh_Hant: "當身上沾有大量糞便時，SCP-011據稱會變得不安，少數情況下甚至向人類開槍。"}
