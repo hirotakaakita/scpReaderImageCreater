@@ -1,0 +1,132 @@
+id: scp-049
+title:
+  ja: "SCP-049 — Plague Doctor"
+  en: "SCP-049 — Plague Doctor"
+  cs: "SCP-049 — Plague Doctor"
+  de: "SCP-049 — Plague Doctor"
+  es: "SCP-049 — Plague Doctor"
+  fr: "SCP-049 — Plague Doctor"
+  it: "SCP-049 — Plague Doctor"
+  ko: "SCP-049 — Plague Doctor"
+  pl: "SCP-049 — Plague Doctor"
+  pt: "SCP-049 — Plague Doctor"
+  th: "SCP-049 — Plague Doctor"
+  uk: "SCP-049 — Plague Doctor"
+  vi: "SCP-049 — Plague Doctor"
+  zh: "SCP-049 — Plague Doctor"
+  zh_Hant: "SCP-049 — Plague Doctor"
+object_class: Euclid
+attribution:
+  article: "SCP-049 — Plague Doctor"
+  source_url: "https://scp-wiki.wikidot.com/scp-049"
+  author: "Gabriel Jade and djkaktus"
+local_characters:
+  scp-049:
+    name: "SCP-049"
+    appearance: >
+      A 1.9 meter tall humanoid entity with the appearance of a medieval plague doctor,
+      wearing thick dark robes and a ceramic beaked mask that are actually grown from its body.
+    default_look: >
+      Calm, upright, formal posture; gloved hands visible; unsettling but composed.
+panels:
+  - scene: >
+      Full-body containment-cell view of SCP-049, a tall humanoid plague doctor figure in heavy dark robes
+      and a ceramic beaked mask. The robe and mask should feel like organic outer body material rather than removable clothing.
+      Sterile Foundation cell, no readable text, no labels, no speech bubbles.
+    characters: [scp-049]
+    source:
+      section: Description
+      quote: "SCP-049 is a humanoid entity, roughly 1.9 meters in height, which bears the appearance of a medieval plague doctor."
+      url: "https://scp-wiki.wikidot.com/scp-049"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-049は身長およそ1.9メートルの人型実体で、中世ヨーロッパのペスト医師のような外見をしています。"
+      en: "SCP-049 is a roughly 1.9 meter tall humanoid entity resembling a medieval plague doctor."
+      cs: "SCP-049 je zhruba 1,9 metru vysoká humanoidní entita připomínající středověkého morového lékaře."
+      de: "SCP-049 ist eine etwa 1,9 Meter große humanoide Entität, die einem mittelalterlichen Pestdoktor ähnelt."
+      es: "SCP-049 es una entidad humanoide de aproximadamente 1,9 metros que se asemeja a un médico de la peste medieval."
+      fr: "SCP-049 est une entité humanoïde d’environ 1,9 mètre ressemblant à un médecin de peste médiéval."
+      it: "SCP-049 è un’entità umanoide alta circa 1,9 metri che somiglia a un medico della peste medievale."
+      ko: "SCP-049는 키가 약 1.9미터인 인간형 개체로, 중세의 역병 의사와 닮았습니다."
+      pl: "SCP-049 to humanoidalna istota o wzroście około 1,9 metra, przypominająca średniowiecznego lekarza zarazy."
+      pt: "SCP-049 é uma entidade humanoide de cerca de 1,9 metro que se assemelha a um médico da peste medieval."
+      th: "SCP-049 เป็นสิ่งมีชีวิตรูปร่างมนุษย์สูงประมาณ 1.9 เมตร มีลักษณะคล้ายแพทย์กาฬโรคยุคกลาง"
+      uk: "SCP-049 — гуманоїдна істота заввишки приблизно 1,9 метра, схожа на середньовічного чумного лікаря."
+      vi: "SCP-049 là một thực thể hình người cao khoảng 1,9 mét, giống một bác sĩ dịch hạch thời trung cổ."
+      zh: "SCP-049是一个约1.9米高的人形实体，外观类似中世纪的瘟疫医生。"
+      zh_Hant: "SCP-049是一個約1.9公尺高的人形實體，外觀類似中世紀的瘟疫醫生。"
+  - scene: >
+      X-ray style diagnostic composition beside SCP-049: the dark robes and ceramic mask merge into its body,
+      while a faint skeletal structure appears beneath the outer layer. Keep the scan abstract and without readable text.
+    characters: [scp-049]
+    source:
+      section: Description
+      quote: "the garments instead seem to have grown out of SCP-049's body over time, and are now nearly indistinguishable from whatever form is beneath them. X-rays indicate that despite this, SCP-049 does have a humanoid skeletal structure beneath its outer layer."
+      url: "https://scp-wiki.wikidot.com/scp-049"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "厚いローブと陶器のような仮面は衣服ではなく、時間をかけてSCP-049の身体から成長したもののようです。"
+      en: "Its robes and ceramic mask appear to have grown from SCP-049’s body, though X-rays show a humanoid skeleton beneath."
+      cs: "Jeho roucho a keramická maska zřejmě vyrostly z těla SCP-049, ačkoli rentgen ukazuje pod nimi humanoidní kostru."
+      de: "Robe und Keramikmaske scheinen aus SCP-049s Körper gewachsen zu sein, obwohl Röntgenbilder darunter ein humanoides Skelett zeigen."
+      es: "Sus ropajes y máscara cerámica parecen haber crecido del cuerpo de SCP-049, aunque las radiografías muestran un esqueleto humanoide debajo."
+      fr: "Ses robes et son masque céramique semblent avoir poussé depuis le corps de SCP-049, bien que les rayons X révèlent un squelette humanoïde."
+      it: "La veste e la maschera ceramica sembrano essere cresciute dal corpo di SCP-049, anche se le radiografie mostrano uno scheletro umanoide sotto."
+      ko: "로브와 도자기 같은 가면은 SCP-049의 몸에서 자라난 듯하지만, X선은 그 아래 인간형 골격을 보여줍니다."
+      pl: "Szaty i ceramiczna maska zdają się wyrastać z ciała SCP-049, choć zdjęcia rentgenowskie ukazują pod spodem humanoidalny szkielet."
+      pt: "As vestes e a máscara cerâmica parecem ter crescido do corpo de SCP-049, embora raios X revelem um esqueleto humanoide sob elas."
+      th: "เสื้อคลุมและหน้ากากคล้ายเซรามิกดูเหมือนงอกจากร่างของ SCP-049 แต่ภาพเอกซเรย์ยังแสดงโครงกระดูกแบบมนุษย์อยู่ภายใน"
+      uk: "Його шати й керамічна маска, схоже, виросли з тіла SCP-049, хоча рентген показує під ними гуманоїдний скелет."
+      vi: "Áo choàng và chiếc mặt nạ gốm dường như mọc ra từ cơ thể SCP-049, dù ảnh X-quang cho thấy bên dưới có bộ xương hình người."
+      zh: "它的长袍和陶瓷面具似乎从SCP-049的身体中生长出来，但X光显示其外层下方仍有人形骨架。"
+      zh_Hant: "它的長袍與陶瓷面具似乎從SCP-049的身體中生長出來，但X光顯示其外層下方仍有人形骨架。"
+  - scene: >
+      Interview-room view: SCP-049 sits politely across from a Foundation researcher, hands folded,
+      calm but intensely focused as if discussing an invisible disease. No readable papers, no speech bubbles.
+    characters: [scp-049, attending-researcher-m]
+    source:
+      section: Description
+      quote: "SCP-049 is capable of speech in a variety of languages, though tends to prefer English or medieval French. While SCP-049 is generally cordial and cooperative with Foundation staff, it can become especially irritated or at times outright aggressive if it feels that it is in the presence of what it calls the 'Pestilence'."
+      url: "https://scp-wiki.wikidot.com/scp-049"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-049は複数の言語で会話できますが、「Pestilence」の存在を感じると苛立ち、攻撃的になることがあります。"
+      en: "SCP-049 can speak in several languages, but may become irritated or aggressive when it senses what it calls the Pestilence."
+      cs: "SCP-049 dokáže mluvit několika jazyky, ale může být podrážděné či agresivní, když vnímá to, čemu říká Mor."
+      de: "SCP-049 kann mehrere Sprachen sprechen, wird aber gereizt oder aggressiv, wenn es die sogenannte Pestilenz wahrnimmt."
+      es: "SCP-049 puede hablar varios idiomas, pero puede irritarse o volverse agresivo cuando percibe lo que llama la Pestilencia."
+      fr: "SCP-049 peut parler plusieurs langues, mais peut devenir irrité ou agressif lorsqu’il perçoit ce qu’il appelle la Pestilence."
+      it: "SCP-049 parla diverse lingue, ma può irritarsi o diventare aggressivo quando percepisce ciò che chiama la Pestilenza."
+      ko: "SCP-049는 여러 언어로 말할 수 있지만, 자신이 ‘역병’이라 부르는 것을 감지하면 짜증을 내거나 공격적으로 변할 수 있습니다."
+      pl: "SCP-049 potrafi mówić w kilku językach, lecz może stać się rozdrażniony lub agresywny, gdy wyczuje to, co nazywa Zarazą."
+      pt: "SCP-049 fala vários idiomas, mas pode ficar irritado ou agressivo ao perceber o que chama de Pestilência."
+      th: "SCP-049 พูดได้หลายภาษา แต่เมื่อรับรู้สิ่งที่มันเรียกว่า Pestilence อาจหงุดหงิดหรือก้าวร้าวขึ้นได้"
+      uk: "SCP-049 здатний розмовляти кількома мовами, але може дратуватися або ставати агресивним, коли відчуває те, що називає Пошестю."
+      vi: "SCP-049 có thể nói nhiều ngôn ngữ, nhưng có thể kích động hoặc hung hăng khi cảm nhận thứ mà nó gọi là Dịch Hạch."
+      zh: "SCP-049能够使用多种语言交流，但当它感知到所谓的“瘟疫”时，可能会变得烦躁或攻击性增强。"
+      zh_Hant: "SCP-049能使用多種語言交流，但當它感知到所謂的「瘟疫」時，可能會變得煩躁或具有攻擊性。"
+  - scene: >
+      Surgical aftermath implied without gore: SCP-049 stands beside a covered human-shaped body on an operating table,
+      with old-fashioned surgical tools laid out and a dark doctor's bag nearby. The mood is clinical and ominous, no blood focus, no text.
+    characters: [scp-049]
+    source:
+      section: Description
+      quote: "SCP-049 is capable of causing all biological functions of an organism to cease through direct skin contact. SCP-049 has expressed frustration or remorse after these killings, indicating that they have done little to kill 'The Pestilence', though will usually seek to then perform a crude surgery on the corpse using the implements contained within a black doctor's bag it carries on its person at all times."
+      url: "https://scp-wiki.wikidot.com/scp-049"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-049は直接接触で生物機能を停止させ、その後、黒い医師鞄の器具で遺体に粗い手術を行おうとします。"
+      en: "Through direct contact SCP-049 can stop biological functions, then usually attempts crude surgery with tools from its black doctor’s bag."
+      cs: "Přímým dotykem může SCP-049 zastavit biologické funkce a poté se obvykle pokusí o hrubý zákrok nástroji z černé lékařské brašny."
+      de: "Durch direkten Kontakt kann SCP-049 biologische Funktionen beenden und danach meist eine grobe Operation mit Werkzeugen aus seiner schwarzen Arzttasche durchführen."
+      es: "Mediante contacto directo, SCP-049 puede detener las funciones biológicas y luego suele intentar una cirugía rudimentaria con herramientas de su bolsa médica negra."
+      fr: "Par contact direct, SCP-049 peut arrêter les fonctions biologiques puis tente souvent une chirurgie grossière avec les outils de sa sacoche noire."
+      it: "Con il contatto diretto SCP-049 può arrestare le funzioni biologiche e poi tenta di solito una rozza chirurgia con strumenti dalla sua borsa medica nera."
+      ko: "SCP-049는 직접 접촉으로 생물학적 기능을 멈추게 할 수 있으며, 이후 검은 의사 가방의 도구로 조잡한 수술을 시도합니다."
+      pl: "Przez bezpośredni kontakt SCP-049 może zatrzymać funkcje biologiczne, a następnie zwykle próbuje prymitywnej operacji narzędziami z czarnej torby lekarskiej."
+      pt: "Por contato direto, SCP-049 pode cessar funções biológicas e depois costuma tentar uma cirurgia grosseira com ferramentas de sua bolsa médica preta."
+      th: "เมื่อสัมผัสโดยตรง SCP-049 สามารถหยุดการทำงานทางชีวภาพ แล้วมักพยายามผ่าตัดหยาบ ๆ ด้วยเครื่องมือจากกระเป๋าแพทย์สีดำ"
+      uk: "Через прямий дотик SCP-049 може зупинити біологічні функції, а потім зазвичай намагається провести грубу операцію інструментами з чорної лікарської сумки."
+      vi: "Bằng tiếp xúc trực tiếp, SCP-049 có thể làm ngừng các chức năng sinh học rồi thường cố phẫu thuật thô sơ bằng dụng cụ trong túi bác sĩ màu đen."
+      zh: "SCP-049可通过直接接触使生物功能停止，随后通常会用黑色医用包中的工具对尸体进行粗糙手术。"
+      zh_Hant: "SCP-049可透過直接接觸使生物功能停止，隨後通常會用黑色醫用包中的工具對遺體進行粗糙手術。"
