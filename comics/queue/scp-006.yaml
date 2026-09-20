@@ -1,0 +1,133 @@
+id: scp-006
+title:
+  ja: "SCP-006 — 若返りの泉"
+  en: "SCP-006 — Fountain of Youth"
+  cs: "SCP-006 — Pramen mládí"
+  de: "SCP-006 — Quelle der Jugend"
+  es: "SCP-006 — Fuente de la juventud"
+  fr: "SCP-006 — Fontaine de jouvence"
+  it: "SCP-006 — Fonte della giovinezza"
+  ko: "SCP-006 — 젊음의 샘"
+  pl: "SCP-006 — Źródło młodości"
+  pt: "SCP-006 — Fonte da juventude"
+  th: "SCP-006 — น้ำพุแห่งความเยาว์วัย"
+  uk: "SCP-006 — Джерело молодості"
+  vi: "SCP-006 — Suối nguồn tuổi trẻ"
+  zh: "SCP-006 — 青春之泉"
+  zh_Hant: "SCP-006 — 青春之泉"
+object_class: Safe
+attribution:
+  article: "SCP-006 — Fountain of Youth"
+  source_url: "https://scp-wiki.wikidot.com/scp-006"
+  author: "Unknown Author, rewritten by Epic Phail Spy and Proxtown / SCP Foundation"
+local_characters:
+  scp-006:
+    name: "SCP-006"
+    appearance: "A very small natural spring with clear water, hidden inside an industrial disguise."
+    default_look: "Still water emerging from stone or concrete, with no readable signage."
+panels:
+  - scene: >
+      Establishing shot of a small spring hidden on the grounds of a plain chemical factory disguise,
+      with pipes and concrete around a tiny natural water source. No text, no signs, no logos.
+    characters:
+      - scp-006
+    source:
+      section: Description
+      quote: "SCP-006 is a very small spring located 60 km west of Astrakhan... On the spot of the spring, a chemical factory has been constructed as a disguise"
+      url: "https://scp-wiki.wikidot.com/scp-006"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-006はアストラハンの西60kmにある非常に小さな泉で、その場所には偽装として化学工場が建てられています。"
+      en: "SCP-006 is a very small spring 60 km west of Astrakhan, hidden beneath the disguise of a chemical factory."
+      cs: "SCP-006 je velmi malý pramen 60 km západně od Astrachaně, ukrytý pod zástěrkou chemické továrny."
+      de: "SCP-006 ist eine sehr kleine Quelle 60 km westlich von Astrachan, verborgen unter der Tarnung einer Chemiefabrik."
+      es: "SCP-006 es un manantial muy pequeño a 60 km al oeste de Astracán, oculto bajo el disfraz de una fábrica química."
+      fr: "SCP-006 est une très petite source à 60 km à l’ouest d’Astrakhan, dissimulée sous l’apparence d’une usine chimique."
+      it: "SCP-006 è una sorgente molto piccola 60 km a ovest di Astrakhan, nascosta sotto la copertura di una fabbrica chimica."
+      ko: "SCP-006은 아스트라한 서쪽 60km 지점의 매우 작은 샘으로, 화학 공장으로 위장되어 있습니다."
+      pl: "SCP-006 to bardzo małe źródło 60 km na zachód od Astrachania, ukryte pod przykrywką fabryki chemicznej."
+      pt: "SCP-006 é uma fonte muito pequena 60 km a oeste de Astrakhan, oculta sob o disfarce de uma fábrica química."
+      th: "SCP-006 เป็นน้ำพุขนาดเล็กมาก ห่างจากอัสตราคานไปทางตะวันตก 60 กม. และถูกซ่อนไว้ด้วยฉากหน้าเป็นโรงงานเคมี"
+      uk: "SCP-006 — дуже мале джерело за 60 км на захід від Астрахані, приховане під виглядом хімічного заводу."
+      vi: "SCP-006 là một con suối rất nhỏ cách Astrakhan 60 km về phía tây, được che giấu bằng vỏ bọc nhà máy hóa chất."
+      zh: "SCP-006是位于阿斯特拉罕西方60公里处的一处很小的泉水，被一座化工厂伪装掩盖。"
+      zh_Hant: "SCP-006是位於阿斯特拉罕西方60公里處的一處很小的泉水，被一座化工廠偽裝掩蓋。"
+  - scene: >
+      Laboratory analysis scene: a clear water sample from the spring sits in sterile glassware,
+      while abstract chemical testing equipment shows it as ordinary mineral water. No readable text or numbers.
+    characters:
+      - scp-006
+      - attending-researcher-f
+    source:
+      section: Description
+      quote: "The liquid emitted from the spring has been chemically identified as simple mineral water in 1902, but has the unusual property of 'health'."
+      url: "https://scp-wiki.wikidot.com/scp-006"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "泉から出る液体は1902年に単なるミネラルウォーターと化学的に確認されましたが、『健康』という異常な性質を持ちます。"
+      en: "The spring’s liquid was chemically identified as simple mineral water, yet it has the unusual property of “health.”"
+      cs: "Kapalina z pramene byla chemicky určena jako obyčejná minerální voda, ale má neobvyklou vlastnost „zdraví“."
+      de: "Die Flüssigkeit der Quelle wurde chemisch als einfaches Mineralwasser bestimmt, besitzt jedoch die ungewöhnliche Eigenschaft „Gesundheit“."
+      es: "El líquido del manantial fue identificado químicamente como agua mineral simple, pero posee la inusual propiedad de la “salud”."
+      fr: "Le liquide de la source fut identifié chimiquement comme une simple eau minérale, mais il possède la propriété inhabituelle de « santé »."
+      it: "Il liquido della sorgente fu identificato chimicamente come semplice acqua minerale, ma possiede l’insolita proprietà della “salute”."
+      ko: "그 샘의 액체는 단순한 광천수로 화학적으로 확인되었지만, ‘건강’이라는 특이한 성질을 가집니다."
+      pl: "Ciecz ze źródła chemicznie uznano za zwykłą wodę mineralną, lecz ma ona niezwykłą właściwość „zdrowia”."
+      pt: "O líquido da fonte foi identificado quimicamente como simples água mineral, mas possui a propriedade incomum de “saúde”."
+      th: "ของเหลวจากน้ำพุถูกระบุทางเคมีว่าเป็นน้ำแร่ธรรมดา แต่มีคุณสมบัติผิดปกติด้าน “สุขภาพ”"
+      uk: "Рідину з джерела хімічно визначили як просту мінеральну воду, але вона має незвичну властивість «здоров’я»."
+      vi: "Chất lỏng từ con suối được xác định về mặt hóa học là nước khoáng đơn giản, nhưng có đặc tính bất thường về “sức khỏe”."
+      zh: "泉水的液体在化学上被认定为普通矿泉水，但具有异常的“健康”属性。"
+      zh_Hant: "泉水的液體在化學上被認定為普通礦泉水，但具有異常的「健康」屬性。"
+  - scene: >
+      Medical observation scene: damaged tissue samples and cellular diagrams are represented by abstract, unlabeled visuals,
+      showing rapid repair and regeneration around a drop of clear water. No readable text.
+    characters:
+      - scp-006
+    source:
+      section: Description
+      quote: "Ingesting the liquid produces... the ability to regenerate DNA... vastly improved abilities in the repair of damaged tissue"
+      url: "https://scp-wiki.wikidot.com/scp-006"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "摂取した人間には、損傷したDNAの再生や、傷ついた組織を著しく修復する能力が現れます。"
+      en: "In humans, ingestion produces DNA regeneration and greatly improved repair of damaged tissue."
+      cs: "U lidí po požití vyvolává regeneraci DNA a výrazně zlepšenou opravu poškozené tkáně."
+      de: "Beim Menschen bewirkt die Einnahme DNA-Regeneration und stark verbesserte Reparatur beschädigten Gewebes."
+      es: "En humanos, la ingestión produce regeneración del ADN y una reparación muy mejorada del tejido dañado."
+      fr: "Chez l’être humain, l’ingestion provoque une régénération de l’ADN et une réparation fortement améliorée des tissus endommagés."
+      it: "Negli esseri umani, l’ingestione provoca rigenerazione del DNA e una riparazione molto migliorata dei tessuti danneggiati."
+      ko: "사람이 섭취하면 손상된 DNA 재생과 손상 조직의 현저한 복구 능력이 나타납니다."
+      pl: "U ludzi spożycie powoduje regenerację DNA i znacznie lepszą naprawę uszkodzonych tkanek."
+      pt: "Em humanos, a ingestão produz regeneração de DNA e reparo muito melhorado de tecidos danificados."
+      th: "เมื่อมนุษย์ดื่มเข้าไป จะเกิดการฟื้นฟูดีเอ็นเอและการซ่อมแซมเนื้อเยื่อที่เสียหายดีขึ้นอย่างมาก"
+      uk: "У людей вживання викликає регенерацію ДНК і значно покращене відновлення пошкоджених тканин."
+      vi: "Ở người, việc uống chất lỏng này tạo ra khả năng tái tạo DNA và sửa chữa mô tổn thương mạnh hơn nhiều."
+      zh: "人类摄入后，会出现DNA再生和受损组织显著修复的效果。"
+      zh_Hant: "人類攝入後，會出現DNA再生和受損組織顯著修復的效果。"
+  - scene: >
+      Sterile animal testing scene: sealed observation cages and lab instruments show hostile microbes failing around treated samples,
+      while unaffected reptiles and birds are visible in separate safe enclosures. No readable labels.
+    characters:
+      - attending-researcher-m
+    source:
+      section: Description
+      quote: "Upon testing the liquid on animal subjects, hostile bacteria and viral agents were destroyed immediately. Many reptiles and birds were unaffected"
+      url: "https://scp-wiki.wikidot.com/scp-006"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "動物試験では、敵対的な細菌やウイルス因子は即座に破壊され、多くの爬虫類と鳥類には影響がありませんでした。"
+      en: "Animal tests destroyed hostile bacteria and viral agents immediately, while many reptiles and birds were unaffected."
+      cs: "Při testech na zvířatech byly škodlivé bakterie a virové látky okamžitě zničeny, zatímco mnoho plazů a ptáků zůstalo neovlivněno."
+      de: "Bei Tierversuchen wurden schädliche Bakterien und Viren sofort zerstört, während viele Reptilien und Vögel unbeeinflusst blieben."
+      es: "En pruebas con animales, bacterias hostiles y agentes virales fueron destruidos de inmediato, mientras muchos reptiles y aves no fueron afectados."
+      fr: "Lors des tests animaux, les bactéries hostiles et agents viraux furent détruits immédiatement, tandis que de nombreux reptiles et oiseaux ne furent pas affectés."
+      it: "Nei test sugli animali, batteri ostili e agenti virali furono distrutti subito, mentre molti rettili e uccelli non furono influenzati."
+      ko: "동물 실험에서는 유해 세균과 바이러스 인자가 즉시 파괴되었지만, 많은 파충류와 조류는 영향을 받지 않았습니다."
+      pl: "W testach na zwierzętach wrogie bakterie i czynniki wirusowe niszczono natychmiast, a wiele gadów i ptaków pozostawało bez zmian."
+      pt: "Em testes com animais, bactérias hostis e agentes virais foram destruídos imediatamente, enquanto muitos répteis e aves não foram afetados."
+      th: "ในการทดสอบกับสัตว์ แบคทีเรียและไวรัสที่เป็นอันตรายถูกทำลายทันที ขณะที่สัตว์เลื้อยคลานและนกจำนวนมากไม่ได้รับผลกระทบ"
+      uk: "У випробуваннях на тваринах ворожі бактерії та вірусні агенти знищувалися негайно, тоді як багато плазунів і птахів не зазнавали впливу."
+      vi: "Trong thử nghiệm trên động vật, vi khuẩn thù địch và tác nhân virus bị tiêu diệt ngay, còn nhiều loài bò sát và chim không bị ảnh hưởng."
+      zh: "动物测试中，敌性细菌和病毒因子会立即被摧毁，而许多爬行动物和鸟类不受影响。"
+      zh_Hant: "動物測試中，敵性細菌和病毒因子會立即被摧毀，而許多爬行動物和鳥類不受影響。"}
