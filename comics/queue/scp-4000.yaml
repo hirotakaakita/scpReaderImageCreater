@@ -1,0 +1,111 @@
+id: scp-4000
+title:
+  ja: "SCP-4000 — Taboo"
+  en: "SCP-4000 — Taboo"
+  cs: "SCP-4000 — Taboo"
+  de: "SCP-4000 — Taboo"
+  es: "SCP-4000 — Taboo"
+  fr: "SCP-4000 — Taboo"
+  it: "SCP-4000 — Taboo"
+  ko: "SCP-4000 — Taboo"
+  pl: "SCP-4000 — Taboo"
+  pt: "SCP-4000 — Taboo"
+  th: "SCP-4000 — Taboo"
+  uk: "SCP-4000 — Taboo"
+  vi: "SCP-4000 — Taboo"
+  zh: "SCP-4000 — Taboo"
+  zh_Hant: "SCP-4000 — Taboo"
+object_class: Keter
+attribution:
+  article: "SCP-4000 — Taboo"
+  source_url: "https://scp-wiki.wikidot.com/scp-4000"
+  author: "PeppersGhost"
+local_characters:
+  scp-4000-forest:
+    name: "SCP-4000 forest"
+    appearance: >
+      An extradimensional forested area with a dilapidated brick well, one dirt path,
+      dense strange woodland and nameless native entities implied by silhouettes.
+    default_look: >
+      Dreamlike but dangerous woodland where names and descriptions have physical consequences.
+panels:
+  - scene: >
+      A strange forest outside normal space with a dilapidated brick well fixed into the forest floor, low mist and no readable signs or labels.
+    characters: [scp-4000-forest]
+    source: {section: Description, quote: "The SCP in question is an extradimensional forested area with numerous anomalous qualities, including a hazardous nomenclative phenomenon.", url: "https://scp-wiki.wikidot.com/scp-4000", fetched_at: "2026-09-21T00:00:00Z"}
+    caption:
+      ja: "SCP-4000は、多数の異常性と危険な命名現象を持つ、通常空間外の森林領域です。"
+      en: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      cs: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      de: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      es: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      fr: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      it: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      ko: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      pl: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      pt: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      th: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      uk: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      vi: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      zh: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+      zh_Hant: "SCP-4000 is an extradimensional forested area with many anomalous qualities, including a hazardous nomenclative phenomenon."
+  - scene: >
+      A single dirt path through the strange forest, seen from behind an explorer who must keep moving forward; side paths fade into impossible geometry.
+    characters: [scp-4000-forest]
+    source: {section: Description, quote: "The only way to reliably traverse the unusual terrain is by use of a single dirt path... The sole safe road may only be traversed in a single direction", url: "https://scp-wiki.wikidot.com/scp-4000", fetched_at: "2026-09-21T00:00:00Z"}
+    caption:
+      ja: "この異常な地形を確実に進む唯一の方法は一本の土道であり、その安全な道は一方向にしか進めません。"
+      en: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      cs: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      de: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      es: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      fr: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      it: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      ko: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      pl: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      pt: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      th: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      uk: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      vi: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      zh: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+      zh_Hant: "The only reliable route through the terrain is a single dirt path, and the safe road can only be traveled in one direction."
+  - scene: >
+      Nameless native entities block the path as shadowed fairy-like figures; the explorer gestures cautiously without speaking or writing any names. No text.
+    characters: [scp-4000-forest]
+    source: {section: Description, quote: "Native entities often obstruct the trail which subjects tread, making it necessary for subjects to interact with them to progress.", url: "https://scp-wiki.wikidot.com/scp-4000", fetched_at: "2026-09-21T00:00:00Z"}
+    caption:
+      ja: "現地の実体は進路をふさぐことが多く、進むためにはそれらとやり取りしなければならない場合があります。"
+      en: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      cs: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      de: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      es: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      fr: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      it: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      ko: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      pl: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      pt: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      th: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      uk: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      vi: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      zh: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+      zh_Hant: "Native entities often block the trail, forcing explorers to interact with them in order to continue."
+  - scene: >
+      Surreal breach montage: a person with a severe headache, impossible plants sprouting indoors, and a doorway opening into the nameless forest; no readable words anywhere.
+    characters: [scp-4000-forest]
+    source: {section: Description, quote: "Documented nomenclative phenomena have included episodic cluster headaches... hallucinations... psychogenic amnesia... sudden involuntary transport... manifestation of various flora within indoor spaces", url: "https://scp-wiki.wikidot.com/scp-4000", fetched_at: "2026-09-21T00:00:00Z"}
+    caption:
+      ja: "一貫した名称を用いると、群発頭痛、幻覚、記憶喪失、屋内での植物発生、森林への突然の転移などが記録されています。"
+      en: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      cs: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      de: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      es: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      fr: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      it: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      ko: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      pl: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      pt: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      th: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      uk: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      vi: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      zh: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
+      zh_Hant: "Consistent naming has caused cluster headaches, hallucinations, amnesia, indoor plant manifestations, and sudden transport to the nameless forest."
