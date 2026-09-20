@@ -1,0 +1,127 @@
+id: scp-2000
+title:
+  ja: "SCP-2000 — Deus Ex Machina"
+  en: "SCP-2000 — Deus Ex Machina"
+  cs: "SCP-2000 — Deus Ex Machina"
+  de: "SCP-2000 — Deus Ex Machina"
+  es: "SCP-2000 — Deus Ex Machina"
+  fr: "SCP-2000 — Deus Ex Machina"
+  it: "SCP-2000 — Deus Ex Machina"
+  ko: "SCP-2000 — Deus Ex Machina"
+  pl: "SCP-2000 — Deus Ex Machina"
+  pt: "SCP-2000 — Deus Ex Machina"
+  th: "SCP-2000 — Deus Ex Machina"
+  uk: "SCP-2000 — Deus Ex Machina"
+  vi: "SCP-2000 — Deus Ex Machina"
+  zh: "SCP-2000 — Deus Ex Machina"
+  zh_Hant: "SCP-2000 — Deus Ex Machina"
+object_class: Thaumiel
+attribution:
+  article: "SCP-2000 — Deus Ex Machina"
+  source_url: "https://scp-wiki.wikidot.com/scp-2000"
+  author: "Unknown Author / SCP Foundation"
+local_characters:
+  scp-2000:
+    name: "SCP-2000"
+    appearance: >
+      A vast subterranean Foundation installation with industrial tunnels, reactor halls,
+      hydroponic wings, human replication chambers, and deep underground infrastructure.
+    default_look: >
+      Silent, immense, functional, built to restart civilization after catastrophe.
+panels:
+  - scene: >
+      Cutaway view beneath Yellowstone: a disguised surface entrance leads down into a huge hidden Foundation installation deep underground. No readable text.
+    characters: [scp-2000]
+    source:
+      section: Description
+      quote: "SCP-2000 is a subterranean Foundation installation originally constructed sometime in the last ███ years for the purpose of reconstructing civilization in the event that a K-Class end-of-the-world scenario could not be averted"
+      url: "https://scp-wiki.wikidot.com/scp-2000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption: &c1
+      ja: "SCP-2000は、Kクラス世界終末シナリオで人類文明を再建するために造られた地下財団施設です。"
+      en: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      cs: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      de: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      es: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      fr: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      it: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      ko: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      pl: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      pt: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      th: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      uk: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      vi: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      zh: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+      zh_Hant: "SCP-2000 is a subterranean Foundation installation built to reconstruct civilization after a K-Class end-of-the-world scenario."
+  - scene: >
+      Deep facility interior: reactor equipment, water treatment, air recycling, hydroponic growing towers and dense support infrastructure inside a sealed underground base. No text.
+    characters: [scp-2000]
+    source:
+      section: Description
+      quote: "Primary power for the facility is a Liquid Fluoride Thorium Reactor rated for 1 GW total output... SCP-2000 also contains water treatment facilities, air purification and recycling systems, hydroponic production wings, and housing necessary to permanently sustain up to 10,000 personnel."
+      url: "https://scp-wiki.wikidot.com/scp-2000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "施設には1ギガワット級の原子炉、水処理、空気再生、農業区画、最大1万人を維持する住居が備わっています。"
+      en: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      cs: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      de: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      es: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      fr: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      it: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      ko: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      pl: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      pt: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      th: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      uk: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      vi: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      zh: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+      zh_Hant: "The facility includes reactor power, water treatment, air recycling, hydroponics, and housing to sustain up to ten thousand personnel."
+  - scene: >
+      Rows of sealed human replication pods in an enormous chamber, with technicians monitoring blank panels and no readable text.
+    characters: [scp-2000, attending-researcher-m]
+    source:
+      section: Description
+      quote: "SCP-2000 includes 500,000 Bright/Zartion Hominid Replicators. At peak capacity, SCP-2000 is capable of producing 100,000 viable, non-anomalous humans per day"
+      url: "https://scp-wiki.wikidot.com/scp-2000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "中核設備には50万基の人類複製装置があり、最大稼働時には1日10万人の非異常人類を生成できます。"
+      en: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      cs: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      de: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      es: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      fr: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      it: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      ko: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      pl: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      pt: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      th: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      uk: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      vi: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      zh: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+      zh_Hant: "Its core system contains 500,000 human replicators, capable at peak output of producing 100,000 viable non-anomalous humans per day."
+  - scene: >
+      Final explanatory scene: memory archives, genome storage, and newly awakened personnel silhouettes in a controlled chamber suggest civilization being restarted from stored data. No text.
+    characters: [scp-2000]
+    source:
+      section: Description
+      quote: "this system is capable of recreating any lost human genome or generating as many new and unique genomes as necessary to repopulate human civilization... SCP-2000 may be activated and Procedure Lazarus-01 can be initiated by as few as one surviving human."
+      url: "https://scp-wiki.wikidot.com/scp-2000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "保存されたゲノムと記憶記録により、SCP-2000はわずか一人の生存者からでも人類文明の再起動を開始できます。"
+      en: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      cs: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      de: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      es: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      fr: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      it: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      ko: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      pl: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      pt: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      th: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      uk: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      vi: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      zh: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."
+      zh_Hant: "With stored genomes and memory records, SCP-2000 can begin restoring human civilization even from as few as one survivor."

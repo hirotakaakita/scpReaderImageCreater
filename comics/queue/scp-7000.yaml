@@ -1,0 +1,127 @@
+id: scp-7000
+title:
+  ja: "SCP-7000 — The Loser"
+  en: "SCP-7000 — The Loser"
+  cs: "SCP-7000 — The Loser"
+  de: "SCP-7000 — The Loser"
+  es: "SCP-7000 — The Loser"
+  fr: "SCP-7000 — The Loser"
+  it: "SCP-7000 — The Loser"
+  ko: "SCP-7000 — The Loser"
+  pl: "SCP-7000 — The Loser"
+  pt: "SCP-7000 — The Loser"
+  th: "SCP-7000 — The Loser"
+  uk: "SCP-7000 — The Loser"
+  vi: "SCP-7000 — The Loser"
+  zh: "SCP-7000 — The Loser"
+  zh_Hant: "SCP-7000 — The Loser"
+object_class: Euclid
+attribution:
+  article: "SCP-7000 — The Loser"
+  source_url: "https://scp-wiki.wikidot.com/scp-7000"
+  author: "HarryBlank"
+local_characters:
+  dr-wettle:
+    name: "Dr. William Wallace Wettle"
+    appearance: >
+      A tired middle-aged male Foundation researcher of average build, unlucky and disheveled,
+      wearing a lab coat and looking resigned to disaster.
+    default_look: >
+      Rumpled white lab coat, tired expression, awkward posture.
+panels:
+  - scene: >
+      World-scale montage of absurd probability failures: dice, weather, machinery and everyday events all behaving unpredictably around the globe. No text or symbols.
+    characters: []
+    source:
+      section: Description
+      quote: "SCP-7000 is a progressive randomization of probability factors and anomalous fortuity on the planet Earth, and potentially beyond."
+      url: "https://scp-wiki.wikidot.com/scp-7000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-7000は、地球上、場合によってはその外側にまで及ぶ確率要因と異常な幸運の進行的なランダム化です。"
+      en: &p1 "SCP-7000 is a progressive randomization of probability factors and anomalous fortune on Earth, and potentially beyond."
+      cs: *p1
+      de: *p1
+      es: *p1
+      fr: *p1
+      it: *p1
+      ko: *p1
+      pl: *p1
+      pt: *p1
+      th: *p1
+      uk: *p1
+      vi: *p1
+      zh: *p1
+      zh_Hant: *p1
+  - scene: >
+      Foundation operations room in chaos: maps, broken equipment, and analysts watching formerly predictable actions produce nonsensical outcomes. No readable text.
+    characters: [attending-researcher-m]
+    source:
+      section: Description
+      quote: "Each factor is randomized to a different extent, for a different length of time, and often with a different geographical radius of effect, corresponding to no obvious logical pattern."
+      url: "https://scp-wiki.wikidot.com/scp-7000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "各要因は異なる程度、異なる期間、異なる地理的範囲でランダム化され、明確な論理的パターンはありません。"
+      en: &p2 "Each factor is randomized to a different extent, duration, and geographic radius, with no obvious logical pattern."
+      cs: *p2
+      de: *p2
+      es: *p2
+      fr: *p2
+      it: *p2
+      ko: *p2
+      pl: *p2
+      pt: *p2
+      th: *p2
+      uk: *p2
+      vi: *p2
+      zh: *p2
+      zh_Hant: *p2
+  - scene: >
+      Dr. Wettle stands under a small personal rain cloud while nearby people remain dry and improbable mishaps curve toward him. No text.
+    characters: [dr-wettle]
+    source:
+      section: Description
+      quote: "SCP-7000 is a probability sink concentrating local misfortune on its own person — Dr. William Wallace Wettle"
+      url: "https://scp-wiki.wikidot.com/scp-7000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-7000は、局所的な不運を自身、すなわちDr. William Wallace Wettleに集中させる確率の沈み込みです。"
+      en: &p3 "SCP-7000 is a probability sink that concentrates local misfortune on Dr. William Wallace Wettle himself."
+      cs: *p3
+      de: *p3
+      es: *p3
+      fr: *p3
+      it: *p3
+      ko: *p3
+      pl: *p3
+      pt: *p3
+      th: *p3
+      uk: *p3
+      vi: *p3
+      zh: *p3
+      zh_Hant: *p3
+  - scene: >
+      Containment briefing scene: Dr. Wettle sits reluctantly at a table while Foundation staff keep distance, as bad-luck events harmlessly cluster around him. No text.
+    characters: [dr-wettle, attending-researcher-m]
+    source:
+      section: Description
+      quote: "SCP-7000 is responsible for its own containment. No experimentation involving this anomaly is authorized without the explicit consent of the Emergent Threat Tactical Response Authority or SCP-7000 itself."
+      url: "https://scp-wiki.wikidot.com/scp-7000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-7000は自身の収容に責任を持ち、実験には所管機関またはSCP-7000本人の明示的な同意が必要です。"
+      en: &p4 "SCP-7000 is responsible for its own containment, and experiments require explicit consent from the authority or SCP-7000 itself."
+      cs: *p4
+      de: *p4
+      es: *p4
+      fr: *p4
+      it: *p4
+      ko: *p4
+      pl: *p4
+      pt: *p4
+      th: *p4
+      uk: *p4
+      vi: *p4
+      zh: *p4
+      zh_Hant: *p4

@@ -1,0 +1,131 @@
+id: scp-1000
+title:
+  ja: "SCP-1000 — Bigfoot"
+  en: "SCP-1000 — Bigfoot"
+  cs: "SCP-1000 — Bigfoot"
+  de: "SCP-1000 — Bigfoot"
+  es: "SCP-1000 — Bigfoot"
+  fr: "SCP-1000 — Bigfoot"
+  it: "SCP-1000 — Bigfoot"
+  ko: "SCP-1000 — Bigfoot"
+  pl: "SCP-1000 — Bigfoot"
+  pt: "SCP-1000 — Bigfoot"
+  th: "SCP-1000 — Bigfoot"
+  uk: "SCP-1000 — Bigfoot"
+  vi: "SCP-1000 — Bigfoot"
+  zh: "SCP-1000 — Bigfoot"
+  zh_Hant: "SCP-1000 — Bigfoot"
+object_class: Keter
+attribution:
+  article: "SCP-1000 — Bigfoot"
+  source_url: "https://scp-wiki.wikidot.com/scp-1000"
+  author: "Unknown Author / SCP Foundation"
+local_characters:
+  scp-1000:
+    name: "SCP-1000"
+    appearance: >
+      A nocturnal omnivorous ape in the Hominini branch, adult size 1.5 to 3 meters tall,
+      heavy body, large eyes, strong brow ridge, sagittal crest, and dark fur.
+    default_look: >
+      Alert, wary, partly hidden in a forest at night.
+panels:
+  - scene: >
+      Night forest establishing shot: a tall ape-like SCP-1000 stands half-hidden among trees,
+      much larger than a human silhouette, with dense dark fur and reflective large eyes. No text.
+    characters: [scp-1000]
+    source:
+      section: Description
+      quote: "SCP-1000 is a nocturnal, omnivorous ape, classified in the Hominini branch along with genera Pan and Homo. Adults range in size from 1.5 to 3 m in height, and weigh between 90 and 270 kg."
+      url: "https://scp-wiki.wikidot.com/scp-1000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-1000は夜行性の雑食性類人猿で、成体は身長1.5〜3メートル、体重90〜270キログラムに達します。"
+      en: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      cs: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      de: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      es: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      fr: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      it: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      ko: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      pl: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      pt: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      th: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      uk: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      vi: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      zh: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+      zh_Hant: "SCP-1000 is a nocturnal omnivorous ape; adults stand 1.5 to 3 meters tall and weigh 90 to 270 kilograms."
+  - scene: >
+      Close anatomical study: SCP-1000's head and shoulders show large eyes, pronounced brow ridge,
+      sagittal crest and heavy fur. Keep the image documentary, no labels or text.
+    characters: [scp-1000]
+    source:
+      section: Description
+      quote: "They have grey, brown, black, red, and occasionally white fur. They possess large eyes with good vision, a pronounced brow ridge, and a sagittal crest on the forehead similar to that of the gorilla"
+      url: "https://scp-wiki.wikidot.com/scp-1000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "体毛は灰色、茶色、黒、赤、ときに白で、大きな目、発達した眉弓、ゴリラに似た矢状稜を持ちます。"
+      en: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      cs: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      de: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      es: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      fr: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      it: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      ko: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      pl: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      pt: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      th: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      uk: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      vi: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      zh: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+      zh_Hant: "They have varied fur colors, large eyes, a pronounced brow ridge, and a gorilla-like sagittal crest."
+  - scene: >
+      Ancient-earth explanatory scene: a small band of SCP-1000 moves through a Pleistocene landscape
+      while distant early humans remain separate in the background. No text, no labels.
+    characters: [scp-1000]
+    source:
+      section: Description
+      quote: "SCP-1000 evolved alongside Homo sapiens, existing contemporaneously with proto-humans and humans in large numbers until 10,000-15,000 years ago, when an extinction event eliminated all but 1-5% of their population."
+      url: "https://scp-wiki.wikidot.com/scp-1000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-1000は人類と並行して進化し、1万〜1万5000年前の絶滅事象で個体数の大半を失いました。"
+      en: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      cs: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      de: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      es: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      fr: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      it: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      ko: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      pl: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      pt: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      th: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      uk: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      vi: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      zh: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+      zh_Hant: "SCP-1000 evolved alongside humans until an extinction event 10,000 to 15,000 years ago left only 1 to 5 percent of them."
+  - scene: >
+      Modern forest observation scene: a researcher watches a distant SCP-1000 through a camera monitor rather than directly,
+      with tense caution and blank medical readouts. No readable text.
+    characters: [scp-1000, attending-researcher-m]
+    source:
+      section: Description
+      quote: "Any hominid that directly or indirectly observes any instance of SCP-1000 has a minimum 2% chance of being instantly killed through anomalous means via permanent cessation of brain function."
+      url: "https://scp-wiki.wikidot.com/scp-1000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-1000を直接または間接的に観察したヒト科生物には、脳機能の永久停止により即死する最低2%の危険があります。"
+      en: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      cs: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      de: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      es: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      fr: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      it: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      ko: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      pl: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      pt: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      th: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      uk: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      vi: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      zh: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."
+      zh_Hant: "Any hominid observing SCP-1000, even indirectly, has at least a 2 percent chance of instant death by permanent brain-function cessation."

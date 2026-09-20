@@ -1,0 +1,127 @@
+id: scp-3000
+title:
+  ja: "SCP-3000 — Anantashesha"
+  en: "SCP-3000 — Anantashesha"
+  cs: "SCP-3000 — Anantashesha"
+  de: "SCP-3000 — Anantashesha"
+  es: "SCP-3000 — Anantashesha"
+  fr: "SCP-3000 — Anantashesha"
+  it: "SCP-3000 — Anantashesha"
+  ko: "SCP-3000 — Anantashesha"
+  pl: "SCP-3000 — Anantashesha"
+  pt: "SCP-3000 — Anantashesha"
+  th: "SCP-3000 — Anantashesha"
+  uk: "SCP-3000 — Anantashesha"
+  vi: "SCP-3000 — Anantashesha"
+  zh: "SCP-3000 — Anantashesha"
+  zh_Hant: "SCP-3000 — Anantashesha"
+object_class: Thaumiel
+attribution:
+  article: "SCP-3000 — Anantashesha"
+  source_url: "https://scp-wiki.wikidot.com/scp-3000"
+  author: "A Random Day, djkaktus, and Joreth"
+local_characters:
+  scp-3000:
+    name: "SCP-3000"
+    appearance: >
+      A colossal aquatic serpentine entity resembling a giant moray eel, with a 2.5 meter head,
+      immense body sections and dark deep-sea scale texture.
+    default_look: >
+      Mostly motionless in abyssal water, impossibly long, partially hidden by darkness.
+panels:
+  - scene: >
+      Abyssal ocean scale view: a Foundation submarine light reveals only the head and a short visible length of an enormous eel-like serpent fading into darkness. No text.
+    characters: [scp-3000]
+    source:
+      section: Description
+      quote: "SCP-3000 is a massive, aquatic, serpentine entity strongly resembling a giant moray eel. The full length of SCP-3000 is impossible to determine, but is hypothesized to be between 600 and 900 kilometers."
+      url: "https://scp-wiki.wikidot.com/scp-3000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption: &c1
+      ja: "SCP-3000は巨大なウツボに似た水棲の蛇状実体で、全長は600〜900キロメートルと推定されています。"
+      en: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      cs: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      de: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      es: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      fr: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      it: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      ko: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      pl: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      pt: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      th: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      uk: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      vi: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      zh: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+      zh_Hant: "SCP-3000 is a massive aquatic serpentine entity resembling a giant moray eel, with an estimated length of 600 to 900 kilometers."
+  - scene: >
+      Close deep-sea view of SCP-3000's huge head and body diameter, nearly motionless on the seafloor near the Ganges Fan. No text.
+    characters: [scp-3000]
+    source:
+      section: Description
+      quote: "SCP-3000 is typically a sedentary creature, only moving its head in response to certain stimuli or during feeding. The majority of its body is located in and around the Ganges Fan"
+      url: "https://scp-wiki.wikidot.com/scp-3000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption: &c2
+      ja: "SCP-3000は通常ほとんど動かず、刺激や摂食時に頭部だけを動かし、身体の大半はガンジス扇状地周辺にあります。"
+      en: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      cs: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      de: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      es: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      fr: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      it: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      ko: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      pl: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      pt: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      th: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      uk: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      vi: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      zh: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+      zh_Hant: "SCP-3000 is usually sedentary, moving its head mainly in response to stimuli or feeding while most of its body lies around the Ganges Fan."
+  - scene: >
+      Feeding aftermath without gore: dark gray viscous substance Y-909 seeps from SCP-3000's skin into sampling equipment beside divers. No text.
+    characters: [scp-3000]
+    source:
+      section: Description
+      quote: "While SCP-3000 excretes a thin layer of a viscous, dark grey substance classified as Y-909 through its skin as it consumes prey"
+      url: "https://scp-wiki.wikidot.com/scp-3000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption: &c3
+      ja: "SCP-3000は獲物を消費する際、皮膚からY-909と分類される暗灰色の粘性物質を薄く分泌します。"
+      en: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      cs: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      de: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      es: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      fr: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      it: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      ko: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      pl: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      pt: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      th: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      uk: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      vi: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      zh: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+      zh_Hant: "While consuming prey, SCP-3000 secretes a thin viscous dark-gray substance classified as Y-909 through its skin."
+  - scene: >
+      Diver observation scene: a Foundation diver looks toward the immense serpent and clutches their helmet as memory-distortion panic begins, with another diver nearby in murky water. No text.
+    characters: [scp-3000]
+    source:
+      section: Description
+      quote: "direct observation of SCP-3000 may cause severe mental alterations in viewers... inexplicable head pain, paranoia, general fear and panic, and memory loss or alteration."
+      url: "https://scp-wiki.wikidot.com/scp-3000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption: &c4
+      ja: "SCP-3000を直接観察すると、頭痛、偏執、不安、恐慌、記憶の喪失や改変などの深刻な精神変化が生じます。"
+      en: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      cs: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      de: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      es: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      fr: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      it: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      ko: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      pl: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      pt: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      th: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      uk: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      vi: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      zh: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."
+      zh_Hant: "Directly observing SCP-3000 can cause severe mental changes, including head pain, paranoia, fear, panic, and memory loss or alteration."

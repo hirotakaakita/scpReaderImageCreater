@@ -1,0 +1,127 @@
+id: scp-8000
+title:
+  ja: "SCP-8000 — The Seal of Approval"
+  en: "SCP-8000 — The Seal of Approval"
+  cs: "SCP-8000 — The Seal of Approval"
+  de: "SCP-8000 — The Seal of Approval"
+  es: "SCP-8000 — The Seal of Approval"
+  fr: "SCP-8000 — The Seal of Approval"
+  it: "SCP-8000 — The Seal of Approval"
+  ko: "SCP-8000 — The Seal of Approval"
+  pl: "SCP-8000 — The Seal of Approval"
+  pt: "SCP-8000 — The Seal of Approval"
+  th: "SCP-8000 — The Seal of Approval"
+  uk: "SCP-8000 — The Seal of Approval"
+  vi: "SCP-8000 — The Seal of Approval"
+  zh: "SCP-8000 — The Seal of Approval"
+  zh_Hant: "SCP-8000 — The Seal of Approval"
+object_class: Safe
+attribution:
+  article: "SCP-8000 — The Seal of Approval"
+  source_url: "https://scp-wiki.wikidot.com/scp-8000"
+  author: "PlaguePJP"
+local_characters:
+  scp-8000:
+    name: "SCP-8000"
+    appearance: >
+      A gigantic serpentine entity resembling a harbor seal, with a seal-like head,
+      long unseen tail, smooth gray body, and intelligent friendly expression.
+    default_look: >
+      Playful, sapient, impossibly large, capable of flying and phasing through solid matter.
+panels:
+  - scene: >
+      Wide Site-322 interior view: a gigantic seal-like serpentine body curves through corridors, too long to see completely. No text.
+    characters: [scp-8000]
+    source:
+      section: Description
+      quote: "SCP-8000 is a gigantic, serpentine entity resembling a harbor seal residing within Site-322. The exact length of SCP-8000 is unknown, as its tail has never been located; however, estimates range upwards to 150 meters."
+      url: "https://scp-wiki.wikidot.com/scp-8000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-8000はSite-322内にいる、ゼニガタアザラシに似た巨大な蛇状実体で、全長は150メートル以上と推定されています。"
+      en: &p1 "SCP-8000 is a gigantic serpentine entity resembling a harbor seal, and its length is estimated upward of 150 meters."
+      cs: *p1
+      de: *p1
+      es: *p1
+      fr: *p1
+      it: *p1
+      ko: *p1
+      pl: *p1
+      pt: *p1
+      th: *p1
+      uk: *p1
+      vi: *p1
+      zh: *p1
+      zh_Hant: *p1
+  - scene: >
+      SCP-8000 gently flies through a solid concrete wall in a Foundation corridor, body half-phased through matter while staff watch in surprise. No text.
+    characters: [scp-8000, attending-researcher-m]
+    source:
+      section: Description
+      quote: "Instead of bounding, sliding, or swimming, SCP-8000 is capable of self-propelled flight along with phasing through solid objects, and precognition."
+      url: "https://scp-wiki.wikidot.com/scp-8000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-8000は跳ねたり泳いだりせず、自力飛行、固体透過、予知能力を持ちます。"
+      en: &p2 "Rather than moving like a normal seal, SCP-8000 can fly under its own power, phase through solid objects, and use precognition."
+      cs: *p2
+      de: *p2
+      es: *p2
+      fr: *p2
+      it: *p2
+      ko: *p2
+      pl: *p2
+      pt: *p2
+      th: *p2
+      uk: *p2
+      vi: *p2
+      zh: *p2
+      zh_Hant: *p2
+  - scene: >
+      Friendly meeting room: SCP-8000 sits across a table from a Foundation director, speaking calmly and intelligently despite its absurd size. No speech bubbles or text.
+    characters: [scp-8000, attending-researcher-m]
+    source:
+      section: Description
+      quote: "SCP-8000 is sapient, capable of speech, and highly intelligent. Additionally, SCP-8000 can create temporary dimensional gateways at will."
+      url: "https://scp-wiki.wikidot.com/scp-8000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-8000は知性を持ち、会話が可能で、さらに一時的な次元ゲートを任意に作り出せます。"
+      en: &p3 "SCP-8000 is sapient, capable of speech, highly intelligent, and able to create temporary dimensional gateways at will."
+      cs: *p3
+      de: *p3
+      es: *p3
+      fr: *p3
+      it: *p3
+      ko: *p3
+      pl: *p3
+      pt: *p3
+      th: *p3
+      uk: *p3
+      vi: *p3
+      zh: *p3
+      zh_Hant: *p3
+  - scene: >
+      Vast lonely Earth scene: SCP-8000 curls through an empty futuristic facility, suggesting that nearly all life is gone except for a tiny human silhouette and the giant seal. No text.
+    characters: [scp-8000]
+    source:
+      section: Description
+      quote: "As of documentation, SCP-8000 is one of two living beings on Earth."
+      url: "https://scp-wiki.wikidot.com/scp-8000"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "記録時点で、SCP-8000は地球上に存在する二つの生物のうちの一つです。"
+      en: &p4 "At the time of documentation, SCP-8000 is one of only two living beings on Earth."
+      cs: *p4
+      de: *p4
+      es: *p4
+      fr: *p4
+      it: *p4
+      ko: *p4
+      pl: *p4
+      pt: *p4
+      th: *p4
+      uk: *p4
+      vi: *p4
+      zh: *p4
+      zh_Hant: *p4
