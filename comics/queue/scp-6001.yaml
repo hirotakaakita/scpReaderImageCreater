@@ -1,0 +1,116 @@
+id: scp-6001
+title:
+  ja: "SCP-6001 — Avalon"
+  en: "SCP-6001 — Avalon"
+  cs: "SCP-6001 — Avalon"
+  de: "SCP-6001 — Avalon"
+  es: "SCP-6001 — Avalon"
+  fr: "SCP-6001 — Avalon"
+  it: "SCP-6001 — Avalon"
+  ko: "SCP-6001 — Avalon"
+  pl: "SCP-6001 — Avalon"
+  pt: "SCP-6001 — Avalon"
+  th: "SCP-6001 — Avalon"
+  uk: "SCP-6001 — Avalon"
+  vi: "SCP-6001 — Avalon"
+  zh: "SCP-6001 — Avalon"
+  zh_Hant: "SCP-6001 — Avalon"
+object_class: N/A
+attribution:
+  article: "SCP-6001 — Avalon"
+  source_url: "https://scp-wiki.wikidot.com/scp-6001"
+  author: "T Rutherford"
+local_characters:
+  scp-6001:
+    name: "SCP-6001"
+    appearance: >
+      A microscopic cross-dimensional singularity linking Tokyo in baseline reality to a parallel Tokyo in A6K.
+    default_look: >
+      Invisible to the naked eye, represented by instruments, aperture light, and contrasting realities.
+  primrose:
+    name: "Primrose"
+    appearance: >
+      A sapient calico cat wearing a violet blazer, glossy white bow, small gold spectacles, and a composed academic expression.
+    default_look: >
+      Polite, intelligent, welcoming, and slightly amused.
+panels:
+  - scene: >
+      Laboratory rooftop or observation space in Tokyo: instruments focus on an empty point in the air representing a tiny micro-singularity. No readable displays.
+    characters: [scp-6001]
+    source: {section: Description, quote: "Phenom #6001 is an .0083917743 µm micro-singularity located in Tokyo, Japan and in another Tokyo, Japan. This singularity connects to a parallel universe hereafter known as A6K.", url: "https://scp-wiki.wikidot.com/scp-6001", fetched_at: "2026-09-21T00:00:00Z"}
+    caption:
+      ja: "SCP-6001は東京ともう一つの東京に存在する、A6Kと呼ばれる並行宇宙へ通じる0.0083917743マイクロメートルの微小特異点です。"
+      en: &p1 "SCP-6001 is a 0.0083917743 micrometer micro-singularity in Tokyo and another Tokyo, connecting to a parallel universe called A6K."
+      cs: *p1
+      de: *p1
+      es: *p1
+      fr: *p1
+      it: *p1
+      ko: *p1
+      pl: *p1
+      pt: *p1
+      th: *p1
+      uk: *p1
+      vi: *p1
+      zh: *p1
+      zh_Hant: *p1
+  - scene: >
+      Split-reality composition: ordinary gray Tokyo on one side, a bright alternate Tokyo of green ivy-covered skyscrapers and silent white transit pods on the other. No text.
+    characters: [scp-6001]
+    source: {section: Description, quote: "Compared to baseline reality, A6K possesses nearly identical base components, including locations, individuals, and phenom. However, these counterparts will often differ wildly in terms of complex characteristics and behavior.", url: "https://scp-wiki.wikidot.com/scp-6001", fetched_at: "2026-09-21T00:00:00Z"}
+    caption:
+      ja: "A6Kは基底現実とほぼ同じ場所や人物を持ちますが、その複雑な性質や振る舞いは大きく異なります。"
+      en: &p2 "A6K has nearly the same locations and individuals as baseline reality, but their complex characteristics and behavior differ dramatically."
+      cs: *p2
+      de: *p2
+      es: *p2
+      fr: *p2
+      it: *p2
+      ko: *p2
+      pl: *p2
+      pt: *p2
+      th: *p2
+      uk: *p2
+      vi: *p2
+      zh: *p2
+      zh_Hant: *p2
+  - scene: >
+      A human researcher has stepped into the alternate city and is greeted by Primrose, the spectacled calico cat in a violet blazer, on a rooftop above the bright skyline. No text.
+    characters: [primrose]
+    source: {section: Description, quote: "The cat's eyes, sharp and green, peered at me through a pair of small, gold spectacles balanced on its nose... Cat(?): Hello, David.", url: "https://scp-wiki.wikidot.com/scp-6001", fetched_at: "2026-09-21T00:00:00Z"}
+    caption:
+      ja: "到着した研究者は、金縁眼鏡と紫のブレザーを身に着けた三毛猫のPrimroseに迎えられます。"
+      en: &p3 "Upon arrival, the researcher is greeted by Primrose, a calico cat wearing small gold spectacles and a violet blazer."
+      cs: *p3
+      de: *p3
+      es: *p3
+      fr: *p3
+      it: *p3
+      ko: *p3
+      pl: *p3
+      pt: *p3
+      th: *p3
+      uk: *p3
+      vi: *p3
+      zh: *p3
+      zh_Hant: *p3
+  - scene: >
+      Peaceful utopian city vista: cats, humans, robots, animals, and anomalous beings coexist among greenery and futuristic transit, seen as a hopeful world beyond the portal. No text.
+    characters: [primrose]
+    source: {section: Description, quote: "It really was an incredible day... You've got a strange, but very beautiful world here, Primrose.", url: "https://scp-wiki.wikidot.com/scp-6001", fetched_at: "2026-09-21T00:00:00Z"}
+    caption:
+      ja: "SCP-6001の向こう側には、基底現実とは大きく異なる、奇妙で美しい協調的な世界が広がっています。"
+      en: &p4 "Beyond SCP-6001 lies a strange and beautiful cooperative world, radically different from baseline reality."
+      cs: *p4
+      de: *p4
+      es: *p4
+      fr: *p4
+      it: *p4
+      ko: *p4
+      pl: *p4
+      pt: *p4
+      th: *p4
+      uk: *p4
+      vi: *p4
+      zh: *p4
+      zh_Hant: *p4
