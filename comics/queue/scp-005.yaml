@@ -1,0 +1,137 @@
+id: scp-005
+title:
+  ja: "SCP-005 — 骨格鍵"
+  en: "SCP-005 — Skeleton Key"
+  cs: "SCP-005 — Univerzální klíč"
+  de: "SCP-005 — Skelettschlüssel"
+  es: "SCP-005 — Llave maestra"
+  fr: "SCP-005 — Passe-partout"
+  it: "SCP-005 — Chiave universale"
+  ko: "SCP-005 — 만능 열쇠"
+  pl: "SCP-005 — Klucz uniwersalny"
+  pt: "SCP-005 — Chave mestra"
+  th: "SCP-005 — กุญแจสารพัดประตู"
+  uk: "SCP-005 — Універсальний ключ"
+  vi: "SCP-005 — Chìa khóa vạn năng"
+  zh: "SCP-005 — 万能钥匙"
+  zh_Hant: "SCP-005 — 萬能鑰匙"
+object_class: Safe
+attribution:
+  article: "SCP-005 — Skeleton Key"
+  source_url: "https://scp-wiki.wikidot.com/scp-005"
+  author: "Unknown Author / SCP Foundation"
+local_characters:
+  scp-005:
+    name: "SCP-005"
+    appearance: >
+      SCP-005, an ornate antique key resembling a mass-produced key from the 1920s,
+      with decorative metalwork but no readable markings.
+    default_look: >
+      A small silent object, held or placed near locks, never anthropomorphized.
+panels:
+  - scene: >
+      Close still-life shot of SCP-005 on a plain evidence tray under Foundation lab lighting.
+      The object is an ornate old-fashioned metal key resembling a typical 1920s mass-produced key.
+      No readable labels, no text, no logos.
+    characters:
+      - scp-005
+    source:
+      section: Description
+      quote: "In appearance, SCP-005 resembles an ornate key, displaying the characteristics of a typical mass produced key used in the 1920s."
+      url: "https://scp-wiki.wikidot.com/scp-005"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-005は、1920年代に使われた量産鍵の特徴を持つ、装飾的な鍵のように見えます。"
+      en: "SCP-005 resembles an ornate key with the traits of a typical mass-produced key from the 1920s."
+      cs: "SCP-005 vypadá jako zdobený klíč s rysy běžného sériově vyráběného klíče z 20. let 20. století."
+      de: "SCP-005 ähnelt einem verzierten Schlüssel mit den Merkmalen eines typischen Massenschlüssels aus den 1920er Jahren."
+      es: "SCP-005 parece una llave ornamentada con rasgos de una llave común fabricada en masa en la década de 1920."
+      fr: "SCP-005 ressemble à une clé ornée présentant les caractéristiques d’une clé produite en série dans les années 1920."
+      it: "SCP-005 assomiglia a una chiave ornata con le caratteristiche di una normale chiave prodotta in serie negli anni 1920."
+      ko: "SCP-005는 1920년대 대량 생산된 보통 열쇠의 특징을 지닌 장식적인 열쇠처럼 보입니다."
+      pl: "SCP-005 wygląda jak ozdobny klucz o cechach typowego masowo produkowanego klucza z lat 20. XX wieku."
+      pt: "SCP-005 se parece com uma chave ornamentada com traços de uma chave comum produzida em massa nos anos 1920."
+      th: "SCP-005 ดูเหมือนกุญแจประดับลวดลายที่มีลักษณะของกุญแจผลิตจำนวนมากในช่วงทศวรรษ 1920"
+      uk: "SCP-005 схожий на оздоблений ключ із рисами типового масового ключа 1920-х років."
+      vi: "SCP-005 giống một chiếc chìa khóa trang trí với đặc điểm của chìa khóa sản xuất hàng loạt thập niên 1920."
+      zh: "SCP-005看起来像一把装饰性钥匙，具有20世纪20年代量产钥匙的典型特征。"
+      zh_Hant: "SCP-005看起來像一把裝飾性鑰匙，具有1920年代量產鑰匙的典型特徵。"
+  - scene: >
+      Reconstructed security scene: a civilian hand uses the ornate key at the heavy door of a high-security facility.
+      The door is imposing and modern, while the key looks old and ordinary. No readable signage or text.
+    characters:
+      - scp-005
+    source:
+      section: Description
+      quote: "The key was discovered when a civilian used it to infiltrate a high security facility."
+      url: "https://scp-wiki.wikidot.com/scp-005"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "この鍵は、民間人が高警備施設へ侵入するために使用したことで発見されました。"
+      en: "The key was discovered after a civilian used it to infiltrate a high-security facility."
+      cs: "Klíč byl objeven poté, co jej civilista použil k proniknutí do vysoce zabezpečeného zařízení."
+      de: "Der Schlüssel wurde entdeckt, nachdem ein Zivilist ihn benutzt hatte, um in eine Hochsicherheitsanlage einzudringen."
+      es: "La llave fue descubierta después de que un civil la usara para infiltrarse en una instalación de alta seguridad."
+      fr: "La clé fut découverte lorsqu’un civil l’utilisa pour s’infiltrer dans une installation de haute sécurité."
+      it: "La chiave fu scoperta quando un civile la usò per infiltrarsi in una struttura ad alta sicurezza."
+      ko: "이 열쇠는 한 민간인이 고보안 시설에 침투하는 데 사용하면서 발견되었습니다."
+      pl: "Klucz odkryto, gdy cywil użył go do przedostania się do obiektu o wysokim poziomie zabezpieczeń."
+      pt: "A chave foi descoberta quando um civil a usou para se infiltrar em uma instalação de alta segurança."
+      th: "กุญแจนี้ถูกค้นพบหลังจากพลเรือนใช้มันลอบเข้าไปในสถานที่รักษาความปลอดภัยสูง"
+      uk: "Ключ виявили після того, як цивільна особа використала його для проникнення на об’єкт високої безпеки."
+      vi: "Chiếc chìa khóa được phát hiện khi một thường dân dùng nó để đột nhập vào một cơ sở an ninh cao."
+      zh: "这把钥匙是在一名平民用它潜入高安全设施后被发现的。"
+      zh_Hant: "這把鑰匙是在一名平民用它潛入高安全設施後被發現的。"
+  - scene: >
+      Split demonstration scene without panels or labels: the same ornate key is shown near a mechanical padlock and a modern electronic keypad lock,
+      both opening with unnatural ease. No text, numbers, labels, or UI symbols.
+    characters:
+      - scp-005
+    source:
+      section: Description
+      quote: "SCP-005 seems to have the unique ability to open any and all forms of lock, be they mechanical or digital, with relative ease."
+      url: "https://scp-wiki.wikidot.com/scp-005"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-005は、機械式でも電子式でも、あらゆる形の錠を比較的容易に開ける能力を持つようです。"
+      en: "SCP-005 appears able to open any form of lock, mechanical or digital, with relative ease."
+      cs: "SCP-005 zřejmě dokáže poměrně snadno otevřít jakýkoli zámek, mechanický i digitální."
+      de: "SCP-005 scheint jede Art von Schloss, mechanisch oder digital, relativ mühelos öffnen zu können."
+      es: "SCP-005 parece capaz de abrir con relativa facilidad cualquier tipo de cerradura, mecánica o digital."
+      fr: "SCP-005 semble pouvoir ouvrir relativement facilement toute forme de serrure, mécanique ou numérique."
+      it: "SCP-005 sembra capace di aprire con relativa facilità qualsiasi tipo di serratura, meccanica o digitale."
+      ko: "SCP-005는 기계식이든 디지털이든 모든 형태의 자물쇠를 비교적 쉽게 여는 듯합니다."
+      pl: "SCP-005 wydaje się z względną łatwością otwierać każdy rodzaj zamka, mechaniczny lub cyfrowy."
+      pt: "SCP-005 parece capaz de abrir com relativa facilidade qualquer tipo de fechadura, mecânica ou digital."
+      th: "SCP-005 ดูเหมือนจะเปิดกุญแจทุกรูปแบบได้ค่อนข้างง่าย ทั้งแบบกลไกและดิจิทัล"
+      uk: "SCP-005, схоже, здатний відносно легко відкривати будь-які замки, механічні чи цифрові."
+      vi: "SCP-005 dường như có thể mở mọi dạng khóa, cơ học hoặc kỹ thuật số, một cách tương đối dễ dàng."
+      zh: "SCP-005似乎能相当轻易地打开任何形式的锁，无论机械还是数字锁。"
+      zh_Hant: "SCP-005似乎能相當輕易地打開任何形式的鎖，無論機械或數位鎖。"
+  - scene: >
+      Research test scene: Foundation staff present a heavily disguised locking device hidden inside an ordinary object,
+      while the ornate key hesitates beside it. The lock purpose is visually concealed. No readable text or symbols.
+    characters:
+      - scp-005
+      - attending-researcher-m
+    source:
+      section: Description
+      quote: "Efforts to disguise the purpose or identity of a lock have proven at least somewhat successful in defeating SCP-005's ability."
+      url: "https://scp-wiki.wikidot.com/scp-005"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "ただし、錠の目的や正体を偽装すると、SCP-005の能力をある程度妨げられることが分かっています。"
+      en: "However, disguising a lock’s purpose or identity has been at least somewhat successful in defeating SCP-005’s ability."
+      cs: "Maskování účelu nebo totožnosti zámku však dokázalo schopnost SCP-005 alespoň částečně narušit."
+      de: "Wird Zweck oder Identität eines Schlosses verschleiert, kann dies die Fähigkeit von SCP-005 zumindest teilweise aushebeln."
+      es: "Sin embargo, disfrazar el propósito o la identidad de una cerradura ha logrado frustrar en cierta medida la capacidad de SCP-005."
+      fr: "Cependant, dissimuler le but ou l’identité d’une serrure a partiellement réussi à contrer la capacité de SCP-005."
+      it: "Tuttavia, mascherare lo scopo o l’identità di una serratura è riuscito almeno in parte a ostacolare SCP-005."
+      ko: "하지만 자물쇠의 목적이나 정체를 위장하면 SCP-005의 능력을 어느 정도 막을 수 있음이 확인되었습니다."
+      pl: "Jednak ukrycie celu lub tożsamości zamka okazało się przynajmniej częściowo skuteczne przeciw zdolności SCP-005."
+      pt: "No entanto, disfarçar a finalidade ou identidade de uma fechadura teve algum sucesso em frustrar a habilidade de SCP-005."
+      th: "อย่างไรก็ตาม การพรางจุดประสงค์หรือตัวตนของกุญแจล็อกสามารถขัดขวางความสามารถของ SCP-005 ได้ในระดับหนึ่ง"
+      uk: "Однак маскування призначення або сутності замка певною мірою послаблювало здатність SCP-005."
+      vi: "Tuy nhiên, việc che giấu mục đích hoặc bản chất của ổ khóa đã phần nào làm thất bại khả năng của SCP-005."
+      zh: "不过，伪装锁的用途或身份，已在一定程度上成功削弱SCP-005的能力。"
+      zh_Hant: "不過，偽裝鎖的用途或身分，已在一定程度上成功削弱SCP-005的能力。"
