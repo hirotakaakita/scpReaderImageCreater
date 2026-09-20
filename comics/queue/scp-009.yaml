@@ -1,0 +1,132 @@
+id: scp-009
+title:
+  ja: "SCP-009 — 赤い氷"
+  en: "SCP-009 — Red Ice"
+  cs: "SCP-009 — Rudý led"
+  de: "SCP-009 — Rotes Eis"
+  es: "SCP-009 — Hielo rojo"
+  fr: "SCP-009 — Glace rouge"
+  it: "SCP-009 — Ghiaccio rosso"
+  ko: "SCP-009 — 붉은 얼음"
+  pl: "SCP-009 — Czerwony lód"
+  pt: "SCP-009 — Gelo vermelho"
+  th: "SCP-009 — น้ำแข็งสีแดง"
+  uk: "SCP-009 — Червоний лід"
+  vi: "SCP-009 — Băng đỏ"
+  zh: "SCP-009 — 红冰"
+  zh_Hant: "SCP-009 — 紅冰"
+object_class: Euclid
+attribution:
+  article: "SCP-009 — Red Ice"
+  source_url: "https://scp-wiki.wikidot.com/scp-009"
+  author: "Unknown Author / SCP Foundation"
+local_characters:
+  scp-009:
+    name: "SCP-009"
+    appearance: "A bright red water-like substance whose red hue remains visible in liquid, solid, and vapor phases."
+    default_look: "Contained as red liquid, red ice, or red vapor depending on temperature; no face or intent."
+panels:
+  - scene: >
+      Laboratory containment shot of a sealed transparent vessel holding a bright red water-like substance.
+      The liquid looks like distilled water except for its vivid red hue. No readable labels or text.
+    characters:
+      - scp-009
+    source:
+      section: Description
+      quote: "SCP-009 is approximately ███ liters of a substance which superficially resembles distilled water (H2O), except with a distinct bright red hue."
+      url: "https://scp-wiki.wikidot.com/scp-009"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-009は蒸留水に似た物質ですが、明確な鮮紅色を帯びています。"
+      en: "SCP-009 superficially resembles distilled water, except for its distinct bright red hue."
+      cs: "SCP-009 na pohled připomíná destilovanou vodu, až na výrazný jasně červený odstín."
+      de: "SCP-009 ähnelt oberflächlich destilliertem Wasser, besitzt aber einen deutlich hellroten Farbton."
+      es: "SCP-009 se parece superficialmente al agua destilada, salvo por su marcado tono rojo brillante."
+      fr: "SCP-009 ressemble superficiellement à de l’eau distillée, sauf par sa teinte rouge vif distincte."
+      it: "SCP-009 assomiglia superficialmente ad acqua distillata, tranne per la sua distinta tonalità rosso vivo."
+      ko: "SCP-009는 겉보기에는 증류수와 비슷하지만 뚜렷한 밝은 붉은색을 띱니다."
+      pl: "SCP-009 z pozoru przypomina wodę destylowaną, lecz ma wyraźny jasnoczerwony odcień."
+      pt: "SCP-009 se parece superficialmente com água destilada, exceto por sua distinta cor vermelho-viva."
+      th: "SCP-009 ดูเผิน ๆ คล้ายน้ำกลั่น แต่มีสีแดงสดเด่นชัด"
+      uk: "SCP-009 зовні нагадує дистильовану воду, але має виразний яскраво-червоний відтінок."
+      vi: "SCP-009 bề ngoài giống nước cất, ngoại trừ sắc đỏ tươi rất rõ rệt."
+      zh: "SCP-009表面上类似蒸馏水，但具有明显的鲜红色。"
+      zh_Hant: "SCP-009表面上類似蒸餾水，但具有明顯的鮮紅色。"
+  - scene: >
+      Temperature demonstration: red liquid remains fluid in extreme cold between -100°C and 0°C,
+      shown in a sealed chilled apparatus with frost around the outside. No text or numbers.
+    characters:
+      - scp-009
+    source:
+      section: Description
+      quote: "In contrast to mundane water, SCP-009 assumes a liquid phase at temperatures between -100°C and 0°C"
+      url: "https://scp-wiki.wikidot.com/scp-009"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "通常の水と異なり、SCP-009は-100℃から0℃の間で液体になります。"
+      en: "Unlike ordinary water, SCP-009 is liquid between -100°C and 0°C."
+      cs: "Na rozdíl od běžné vody je SCP-009 kapalné mezi -100 °C a 0 °C."
+      de: "Anders als gewöhnliches Wasser ist SCP-009 zwischen -100 °C und 0 °C flüssig."
+      es: "A diferencia del agua común, SCP-009 es líquido entre -100 °C y 0 °C."
+      fr: "Contrairement à l’eau ordinaire, SCP-009 est liquide entre -100 °C et 0 °C."
+      it: "A differenza dell’acqua comune, SCP-009 è liquido tra -100 °C e 0 °C."
+      ko: "일반 물과 달리 SCP-009는 -100℃에서 0℃ 사이에서 액체 상태입니다."
+      pl: "W przeciwieństwie do zwykłej wody SCP-009 jest cieczą między -100°C a 0°C."
+      pt: "Ao contrário da água comum, SCP-009 é líquido entre -100 °C e 0 °C."
+      th: "ต่างจากน้ำทั่วไป SCP-009 อยู่ในสถานะของเหลวระหว่าง -100°C ถึง 0°C"
+      uk: "На відміну від звичайної води, SCP-009 є рідиною між -100°C і 0°C."
+      vi: "Khác với nước thường, SCP-009 ở dạng lỏng trong khoảng từ -100°C đến 0°C."
+      zh: "与普通水不同，SCP-009在-100°C到0°C之间呈液态。"
+      zh_Hant: "與普通水不同，SCP-009在-100°C到0°C之間呈液態。"
+  - scene: >
+      Hazard demonstration in a sealed lab vessel: a red crystalline ice formation appears above freezing temperatures,
+      while below extreme cold a red vapor plume rises inside another sealed chamber. No readable text.
+    characters:
+      - scp-009
+    source:
+      section: Description
+      quote: "SCP-009 assumes... a solid state above those temperatures. At temperatures below -100°C, SCP-009 vaporizes into a gaseous phase similar to steam."
+      url: "https://scp-wiki.wikidot.com/scp-009"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-009はその温度より高いと固体になり、-100℃未満では蒸気に似た気体へ変わります。"
+      en: "Above that range it becomes solid, and below -100°C it vaporizes into a steam-like gas."
+      cs: "Nad tímto rozmezím tuhne a pod -100 °C se vypařuje do plynu podobného páře."
+      de: "Oberhalb dieses Bereichs wird es fest, und unter -100 °C verdampft es zu einem dampfähnlichen Gas."
+      es: "Por encima de ese rango se solidifica, y por debajo de -100 °C se vaporiza en un gas parecido al vapor."
+      fr: "Au-dessus de cette plage, il devient solide, et sous -100 °C il se vaporise en un gaz semblable à de la vapeur."
+      it: "Sopra quell’intervallo diventa solido, e sotto -100 °C evapora in un gas simile al vapore."
+      ko: "그 범위보다 높으면 고체가 되고, -100℃보다 낮으면 증기 같은 기체로 기화합니다."
+      pl: "Powyżej tego zakresu staje się stałe, a poniżej -100°C paruje w gaz podobny do pary."
+      pt: "Acima desse intervalo ele se torna sólido, e abaixo de -100 °C vaporiza em um gás semelhante a vapor."
+      th: "เมื่ออุณหภูมิสูงกว่าช่วงนั้น มันจะกลายเป็นของแข็ง และต่ำกว่า -100°C จะกลายเป็นก๊าซคล้ายไอน้ำ"
+      uk: "Вище цього діапазону він твердне, а нижче -100°C випаровується у газ, подібний до пари."
+      vi: "Trên khoảng đó nó trở thành chất rắn, còn dưới -100°C thì bay hơi thành khí giống hơi nước."
+      zh: "高于该范围时它会变成固体，低于-100°C时会汽化为类似蒸汽的气体。"
+      zh_Hant: "高於該範圍時它會變成固體，低於-100°C時會汽化為類似蒸汽的氣體。"
+  - scene: >
+      Contamination scene inside sealed glassware: a drop of red SCP-009 touches clear water, and the red color spreads through ice,
+      steam, juice, and blood-like samples shown abstractly. No gore, no text, no labels.
+    characters:
+      - scp-009
+    source:
+      section: Description
+      quote: "When in contact with any aqueous solution, SCP-009 will... transfer its anomalous properties to other objects and creatures."
+      url: "https://scp-wiki.wikidot.com/scp-009"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "さらにSCP-009は水溶液に触れると、その異常な性質を他の物体や生物へ移します。"
+      en: "When SCP-009 contacts any aqueous solution, it transfers its anomalous properties to other objects and creatures."
+      cs: "Když se SCP-009 dotkne jakéhokoli vodného roztoku, přenáší své anomální vlastnosti na jiné objekty a tvory."
+      de: "Berührt SCP-009 eine wässrige Lösung, überträgt es seine anomalen Eigenschaften auf andere Objekte und Lebewesen."
+      es: "Cuando SCP-009 entra en contacto con una solución acuosa, transfiere sus propiedades anómalas a otros objetos y criaturas."
+      fr: "Quand SCP-009 touche une solution aqueuse, il transfère ses propriétés anormales à d’autres objets et créatures."
+      it: "Quando SCP-009 entra in contatto con una soluzione acquosa, trasferisce le sue proprietà anomale ad altri oggetti e creature."
+      ko: "SCP-009가 수용액과 접촉하면 그 변칙적 성질을 다른 물체와 생물에게 옮깁니다."
+      pl: "Gdy SCP-009 zetknie się z roztworem wodnym, przenosi swoje anomalne właściwości na inne obiekty i stworzenia."
+      pt: "Quando SCP-009 toca qualquer solução aquosa, transfere suas propriedades anômalas para outros objetos e criaturas."
+      th: "เมื่อ SCP-009 สัมผัสสารละลายที่มีน้ำ มันจะถ่ายทอดคุณสมบัติผิดปกติไปยังวัตถุและสิ่งมีชีวิตอื่น"
+      uk: "Коли SCP-009 контактує з будь-яким водним розчином, він передає свої аномальні властивості іншим об’єктам і істотам."
+      vi: "Khi SCP-009 tiếp xúc với bất kỳ dung dịch nước nào, nó truyền đặc tính dị thường sang vật thể và sinh vật khác."
+      zh: "当SCP-009接触任何水溶液时，会把其异常性质转移给其他物体和生物。"
+      zh_Hant: "當SCP-009接觸任何水溶液時，會把其異常性質轉移給其他物體和生物。"}
