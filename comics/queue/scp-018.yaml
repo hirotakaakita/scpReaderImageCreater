@@ -1,0 +1,124 @@
+id: scp-018
+title:
+  ja: "SCP-018 — スーパー・ボール"
+  en: "SCP-018 — Super Ball"
+  cs: "SCP-018 — Super míček"
+  de: "SCP-018 — Superball"
+  es: "SCP-018 — Super Ball"
+  fr: "SCP-018 — Super balle"
+  it: "SCP-018 — Super Ball"
+  ko: "SCP-018 — 슈퍼볼"
+  pl: "SCP-018 — Superpiłka"
+  pt: "SCP-018 — Super Bola"
+  th: "SCP-018 — ลูกบอลซูเปอร์บอล"
+  uk: "SCP-018 — Суперм’яч"
+  vi: "SCP-018 — Bóng Super Ball"
+  zh: "SCP-018 — 超级球"
+  zh_Hant: "SCP-018 — 超級球"
+object_class: Euclid
+attribution:
+  article: "SCP-018 — Super Ball"
+  source_url: "https://scp-wiki.wikidot.com/scp-018"
+  author: "Unknown Author / SCP Foundation"
+local_characters:
+  scp-018:
+    name: "SCP-018"
+    appearance: "A red Super Ball, six centimeters in diameter, outwardly like a toy ball."
+    default_look: "Small red rubber ball, moving with impossibly escalating bounce height."
+panels:
+  - scene: >
+      Close product-style shot of a small red rubber ball resting in a containment tray, six centimeters across, looking like an ordinary 1969 Super Ball. No text.
+    characters: [scp-018]
+    source:
+      section: Description
+      quote: "SCP-018 has the appearance of a Super Ball made by the Wham-O company in 1969. It is six (6) centimeters in diameter and coloured red."
+      url: "https://scp-wiki.wikidot.com/scp-018"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-018は1969年製のWham-O社スーパー・ボールのように見え、直径6センチメートルの赤い球体です。"
+      en: "SCP-018 looks like a 1969 Wham-O Super Ball: a red sphere six centimeters in diameter."
+      cs: "SCP-018 vypadá jako Super Ball od Wham-O z roku 1969: červená koule o průměru šest centimetrů."
+      de: "SCP-018 sieht aus wie ein Wham-O-Superball von 1969: eine rote Kugel mit sechs Zentimetern Durchmesser."
+      es: "SCP-018 parece una Super Ball de Wham-O de 1969: una esfera roja de seis centímetros de diámetro."
+      fr: "SCP-018 ressemble à une Super Ball Wham-O de 1969 : une sphère rouge de six centimètres de diamètre."
+      it: "SCP-018 sembra una Super Ball Wham-O del 1969: una sfera rossa di sei centimetri di diametro."
+      ko: "SCP-018은 1969년 Wham-O사의 슈퍼볼처럼 보이는 지름 6cm의 붉은 공입니다."
+      pl: "SCP-018 wygląda jak Super Ball firmy Wham-O z 1969 roku: czerwona kula o średnicy sześciu centymetrów."
+      pt: "SCP-018 parece uma Super Ball da Wham-O de 1969: uma esfera vermelha de seis centímetros de diâmetro."
+      th: "SCP-018 ดูเหมือนลูก Super Ball ของ Wham-O ปี 1969 เป็นลูกบอลสีแดงเส้นผ่านศูนย์กลาง 6 ซม."
+      uk: "SCP-018 виглядає як Super Ball компанії Wham-O 1969 року: червона сфера діаметром шість сантиметрів."
+      vi: "SCP-018 trông như một quả Super Ball Wham-O năm 1969: quả cầu đỏ đường kính sáu cm."
+      zh: "SCP-018看起来像1969年Wham-O公司的超级球，是直径6厘米的红色球体。"
+      zh_Hant: "SCP-018看起來像1969年Wham-O公司的超級球，是直徑6公分的紅色球體。"
+  - scene: >
+      Demonstration scene: the red ball is dropped one meter, then rebounds along ghosted arcs that double upward, two meters, four meters, eight meters. No labels or numbers.
+    characters: [scp-018]
+    source:
+      section: Description
+      quote: "if dropped one (1) meter, it would bounce two (2), then four (4), then eight (8), then sixteen (16)"
+      url: "https://scp-wiki.wikidot.com/scp-018"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-018は200%以上の効率で跳ね、1メートル落とすと2、4、8、16メートルへと跳ね上がります。"
+      en: "SCP-018 bounces with over 200% efficiency: one meter becomes two, then four, then eight, then sixteen."
+      cs: "SCP-018 se odráží s účinností přes 200 %: z jednoho metru jsou dva, pak čtyři, osm a šestnáct."
+      de: "SCP-018 springt mit über 200 % Effizienz: aus einem Meter werden zwei, dann vier, acht und sechzehn."
+      es: "SCP-018 rebota con más del 200% de eficiencia: un metro se vuelve dos, luego cuatro, ocho y dieciséis."
+      fr: "SCP-018 rebondit avec plus de 200 % d’efficacité : un mètre devient deux, puis quatre, huit et seize."
+      it: "SCP-018 rimbalza con oltre il 200% di efficienza: un metro diventa due, poi quattro, otto e sedici."
+      ko: "SCP-018은 200%가 넘는 효율로 튀어, 1미터가 2, 4, 8, 16미터가 됩니다."
+      pl: "SCP-018 odbija się z ponad 200% skutecznością: metr staje się dwoma, potem czterema, ośmioma i szesnastoma."
+      pt: "SCP-018 quica com mais de 200% de eficiência: um metro vira dois, depois quatro, oito e dezesseis."
+      th: "SCP-018 เด้งด้วยประสิทธิภาพมากกว่า 200% จากหนึ่งเมตรเป็นสอง สี่ แปด แล้วสิบหก"
+      uk: "SCP-018 відскакує з ефективністю понад 200%: один метр стає двома, потім чотирма, вісьмома й шістнадцятьма."
+      vi: "SCP-018 nảy với hiệu suất trên 200%: một mét thành hai, rồi bốn, tám và mười sáu."
+      zh: "SCP-018以超过200%的效率反弹：一米变成两米、四米、八米、十六米。"
+      zh_Hant: "SCP-018以超過200%的效率反彈：一公尺變成兩公尺、四公尺、八公尺、十六公尺。"
+  - scene: >
+      Urban damage scene: the tiny red ball streaks through streets like a projectile, shattering property while people dive away, with no gore and no readable text.
+    characters: [scp-018]
+    source:
+      section: Description
+      quote: "The ball soon became a dangerous projectile, reaching speeds estimated at over 100 km/h and damaging property and injuring five (5)"
+      url: "https://scp-wiki.wikidot.com/scp-018"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "すぐにSCP-018は危険な飛翔体となり、時速100km超に達して財物を損壊し、5名を負傷させました。"
+      en: "SCP-018 soon became a dangerous projectile, exceeding 100 km/h, damaging property, and injuring five people."
+      cs: "SCP-018 se brzy změnilo v nebezpečný projektil, přesáhlo 100 km/h, poškodilo majetek a zranilo pět lidí."
+      de: "SCP-018 wurde schnell zu einem gefährlichen Projektil, erreichte über 100 km/h, beschädigte Eigentum und verletzte fünf Menschen."
+      es: "SCP-018 pronto se volvió un proyectil peligroso, superó los 100 km/h, dañó propiedades e hirió a cinco personas."
+      fr: "SCP-018 devint vite un projectile dangereux, dépassant 100 km/h, causant des dégâts et blessant cinq personnes."
+      it: "SCP-018 divenne presto un proiettile pericoloso, superò i 100 km/h, danneggiò proprietà e ferì cinque persone."
+      ko: "SCP-018은 곧 위험한 투사체가 되어 시속 100km를 넘고 재산을 파손하며 5명을 다치게 했습니다."
+      pl: "SCP-018 szybko stał się niebezpiecznym pociskiem, przekraczając 100 km/h, niszcząc mienie i raniąc pięć osób."
+      pt: "SCP-018 logo se tornou um projétil perigoso, passando de 100 km/h, danificando propriedades e ferindo cinco pessoas."
+      th: "SCP-018 กลายเป็นวัตถุพุ่งอันตรายอย่างรวดเร็ว เกิน 100 กม./ชม. ทำลายทรัพย์สินและทำให้คนห้าคนบาดเจ็บ"
+      uk: "SCP-018 швидко став небезпечним снарядом, перевищив 100 км/год, пошкодив майно й поранив п’ятьох."
+      vi: "SCP-018 nhanh chóng trở thành vật phóng nguy hiểm, vượt 100 km/h, phá hỏng tài sản và làm năm người bị thương."
+      zh: "SCP-018很快变成危险飞射物，速度超过100公里/小时，损坏财物并造成五人受伤。"
+      zh_Hant: "SCP-018很快變成危險飛射物，速度超過100公里/小時，損壞財物並造成五人受傷。"
+  - scene: >
+      Calm recovery scene at a lakeshore: the red ball finally rests near the water after days of movement, as Foundation personnel retrieve it carefully. No text.
+    characters: [scp-018, attending-researcher-m]
+    source:
+      section: Description
+      quote: "It came to a rest after several days in the nearby lake... and was retrieved by SCP personnel."
+      url: "https://scp-wiki.wikidot.com/scp-018"
+      fetched_at: "2026-09-21T00:00:00Z"
+    caption:
+      ja: "SCP-018は数日後、近くの湖でようやく停止し、SCP職員によって回収されました。"
+      en: "After several days, SCP-018 finally came to rest in a nearby lake and was recovered by SCP personnel."
+      cs: "Po několika dnech se SCP-018 konečně zastavilo v nedalekém jezeře a bylo vyzvednuto personálem SCP."
+      de: "Nach mehreren Tagen kam SCP-018 schließlich in einem nahen See zur Ruhe und wurde von SCP-Personal geborgen."
+      es: "Tras varios días, SCP-018 finalmente se detuvo en un lago cercano y fue recuperado por personal SCP."
+      fr: "Après plusieurs jours, SCP-018 finit par s’immobiliser dans un lac voisin et fut récupéré par le personnel SCP."
+      it: "Dopo diversi giorni, SCP-018 si fermò infine in un lago vicino e fu recuperato dal personale SCP."
+      ko: "며칠 후 SCP-018은 근처 호수에서 마침내 멈췄고 SCP 인원에게 회수되었습니다."
+      pl: "Po kilku dniach SCP-018 w końcu zatrzymał się w pobliskim jeziorze i został odzyskany przez personel SCP."
+      pt: "Após vários dias, SCP-018 finalmente parou em um lago próximo e foi recuperado por pessoal da SCP."
+      th: "หลังผ่านไปหลายวัน SCP-018 จึงหยุดอยู่ในทะเลสาบใกล้เคียงและถูกเจ้าหน้าที่ SCP เก็บกู้"
+      uk: "Через кілька днів SCP-018 нарешті зупинився в сусідньому озері й був вилучений персоналом SCP."
+      vi: "Sau vài ngày, SCP-018 cuối cùng dừng lại trong một hồ gần đó và được nhân viên SCP thu hồi."
+      zh: "数天后，SCP-018终于在附近湖中停下，并由SCP人员回收。"
+      zh_Hant: "數天後，SCP-018終於在附近湖中停下，並由SCP人員回收。"}
